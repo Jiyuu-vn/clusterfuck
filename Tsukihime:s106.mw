@@ -1,0 +1,491 @@
+[[Tsukihime|[Назад]]]
+
+<pre>
+*s106
+
+
+; ??A(?)<???????(?)>
+bg "image\bg\bg_29b.jpg",%type_crossfade_mid
+
+
+`"I'm---exhausted."@
+` I collapse onto the ground.@
+` I fall on my rear and try to keep my body up with my hands.\
+` My right hand finally lets go of my knife.\
+
+`"---Cold."@
+` I'm cold.@
+` The pain is numbed; it feels almost comfortable.@
+` My body is ripped with canine bite marks and beak marks.@
+br
+` ---Well, there's no mistake that I'll probably die like this.\
+
+`"----Shiki!"@
+` Arcueid's voice.@
+`"----Run, you're getting targeted!"@
+` Arcueid shouts as she dashes towards me.@ "............ Eh?"@
+` I stare up at the night sky as I sit.@
+` There,
+` I see the white moon,
+
+
+; ???<???????(?)>
+bg "image\bg\cmo_16.jpg",%type_crossfade_mid
+
+
+` and the figure of a blue crow.\
+
+` It screams as it falls straight towards me.@
+` It drops down to pierce my brain with its sharp beak.@
+
+
+; ???<?????(?)>
+bg "image\bg\ima_10.jpg",%type_lcartain_fst
+
+br
+`"----!"@
+` I try and stand up to escape.@
+` But, my body is at its limit.@
+` I try to stand but only end up collapsing on the ground.@
+
+` Because I fell on my back, I get a disturbingly clear view of the crow.@
+br
+
+; ????<????>
+bg "image\bg\ima_14.jpg",%type_nowaitdisp
+
+
+` It dives just like a bullet towards my face---and with the sound of sliced flesh, it dies right before my eyes.\
+
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_fst
+
+
+` The blue crow was impaled by a flying nail which looks like a large sword.@
+
+` It had to have come from somewhere above.@
+`"............"@
+` I look up at the night sky.@
+
+
+; ?(??????)<???????(?)>
+bg "image\bg\ima_18.jpg",%type_crossfade_fst
+
+
+` There, is the white moon.\
+
+; ???:??????????????<???????(?)>
+bg "image\event\cel_e04.jpg",%type_crossfade_slw
+
+
+br
+br
+br
+br
+br
+br
+br
+` And, there's someone dressed in black, priest-like garments.\
+
+`"-----"@
+` The figure stands on a streetlight and stares down at me.@
+` Despite just being almost killed, I vacantly think those high-laced boots look really cool.@
+br
+` The figure doesn't say anything.@
+` The emotionless eyes resemble the sharp moonlight.@
+` Resembles...
+` The figure----really resembles Senpai.@
+br
+`".................."@
+` My mind swims.@
+` Caaaaaaawww.@ The crow's death cry.@
+` And, I close my eyes quietly.\
+
+
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_slw
+
+;CD-DA????????????
+play "*9"
+
+` ...... I keep bleeding.@
+` In my groggy state,
+` I can hear Arcueid and someone else arguing.\
+
+`"I cannot leave it to you.@ I will heal him."@
+` A horribly hostile voice.@
+`"Don't do anything you shouldn't.@ This is mine, so it doesn't concern you."@
+` Arcueid sounds the same too.@
+br
+` ...... She sounds the same, but I wish she wouldn't selfishly make me her object.\
+
+`"Yes, this certainly does not concern me right now.@
+` However, I do not think you can heal such wounds.@ All you can do is watch him die.@
+` Or----do you intend on making this young man one of your subordinates, Arcueid Brunestud?"@
+`"...... Do you think I would do such a thing?"@
+` ...... I can hear more than hostility in their voices.@
+` There's so much tension I expect another fight to the death to start.\
+
+`"Then please be quiet.@ With those wounds, he cannot last long."@
+`"---I really hate you.@ You should just disappear before I kill you."@
+`"I really hate you as well.@ You don't need to tell me anything; I plan on leaving once his wounds are healed.@
+` You yourself should disappear before I kill you.@ I can't stand seeing you around."@
+br
+` ...... A conversation full of tension and hostility.@
+` My mind goes totally blank----\
+
+; ???<???????(?)>
+bg "image\bg\ima_11.jpg",%type_crossfade_mid
+!w2000
+
+; ??A(?)<???????(?)>
+bg "image\bg\bg_29b.jpg",%type_crossfade_slw
+
+
+`"----Har... d."@
+` Yeah, it's hard.@
+` I feel something hard against my back, and it causes me to wake with a start.\
+
+
+; ??<?>=??????:??02(???????)<???????(?)>
+ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_mid
+
+
+`"........................"@
+`"Huh?----Arcueid?"@
+` I look around.@
+` I'm in the park lying on a bench.@
+` I look at the park's clock, and it's past one in the morning.@ I guess it hasn't even been an hour since then.\
+
+`".................."@
+` Arcueid looks at me wordlessly.@
+` ...... Or maybe it's more like a glare.@
+`"Ar...... cueid......?"@
+
+
+; ??<?>=??????:?04(????????????)<???????(?)>
+ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
+
+
+`"........................"@
+` Arcueid doesn't respond.@
+` I don't know why, but she seems really angry.\
+
+`"...... There."@
+` For now, I stand up.@
+`"Oh----my wound's healed."@
+` I was so bloody and cut up, but there isn't a single scar anywhere.@
+` There isn't any pain either, as if my fight with Nrvnqsr was all a dream.@
+br
+` ---But, that was no dream.@
+` Then, this---must be...
+br
+`"Arcueid.@ Don't tell me you used another part of Nrvnqsr's body again......?"\
+
+
+; ??<?>=??????:??02(???????)<???????(?)>
+ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
+
+
+`"No, unfortunately not.@ It would've been a quick fix and you would've gotten stronger with it too.@ But since you 'killed' Nrvnqsr completely, we can no longer use his body."@
+`"Really?@ I guess you healed me in another way then.@
+` ...... Wow, I really am back to normal.@ I don't feel pain or dizziness.@ Just how in the world did you do it, Arcueid?"@
+`"I don't know.@ I wasn't the one who healed you."@
+
+
+; ?????<???????(?)>
+cl a,%type_crossfade_fst
+
+
+` She exclaims and looks away, displeased.\
+
+`"............?"@
+` It seems that's the reason.@
+` But... if she wasn't the one to heal me, then just who did----?\
+
+
+; ???:??????????????<???????(?)>
+bg "image\event\cel_e04.jpg",%type_crossfade_fst
+
+
+; ??A(?)<???????(?)>
+bg "image\bg\bg_29b.jpg",%type_crossfade_fst
+
+
+`"------Ah."@
+br
+` There was.@
+` There was another person.@
+` Someone who helped me.@
+` ...... That woman in black garments who resembled Senpai far too much.\
+
+`"Arcueid... where is that person from before!?"@
+
+
+; ??<?>=??????:??02(???????)<???????(?)>
+ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
+
+
+`".................."@
+` Still looking displeased, she looks away and ignores me.@
+`"Hey, Arcueid!@ I'm asking you what happened to that person from before!"@
+`"I don't know.@ I didn't see anyone."@
+` She turns away and pretends not to know anything.\
+
+`"Hey---you just said you weren't the one who helped me.@ If it wasn't you, then who else could've done it?"@
+
+
+; ??<?>=??????:?(?~?????)<???????(?)>
+ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
+
+
+`"Oh, enough already, I said I don't know, so I don't know!"@
+br
+` Oh.@ It seems she's taking it out on me.@
+br
+`"In the first place, why are you so interested in that person?@ It doesn't have anything to do with you, right?"@
+`"Idi---there is something.@ ...... It was dark; I couldn't really tell, but that person looked like someone I know."\
+
+
+; ??<?>=??????:??03(02?????????)<???????(?)>
+ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
+
+
+`"----That's just a coincidence.@ Just forget about that person.@ If you talk about it again in front of me, I'll really get mad."@
+
+
+; ?????<???????(?)>
+cl a,%type_crossfade_fst
+
+
+` Ending quickly, she looks away.@
+`"...... Why are you so angry?"@
+` I should be the one getting angry.@
+` I just want to know who that person from before was, that's all.\
+
+`"...... Fine, I got it.@ I won't ask anymore.@ Besides, our partnership ends here anyway."@
+
+
+; ??<?>=??????:??(????)<???????(?)>
+ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
+
+
+`"Eh---?"@
+`"Isn't it obvious?@ We defeated the vampire who did as he pleased in this town, so my responsibility's gone now.@
+` I have to get back home soon, or Akiha will yell at me.@ I think it's about time to cut it off, Arcueid."@
+
+
+; ??<?>=??????:?03(?????????)<???????(?)>
+ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
+
+
+`"Hm----you're right.@ Now that you mention it, it's already this late, too."@
+` Arcueid nods.\
+
+
+; ?????<??????(?)>
+cl a,%type_lshutter_fst
+
+
+
+
+`"Alright."@
+` I also nod in understanding.@
+br
+` ...... I nodded out of understanding, but...
+` there's still something lingering.@
+` As if I regret parting with her.@
+br
+`"-----"@
+` That's ridiculous.@
+` She's a vampire, and I'm a normal human.@
+` If I associated with her anymore...... something will happen that I can't take back.\
+
+`"...... Bye, Arcueid."@
+` Raising a hand, I step away.@
+`"Um.@ There were a lot of horrible things that happened, but it was pretty fun, too.@ So---um, take care of yourself."@
+
+
+; ??<?>=??????:?01(????)<???????(?)>
+ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
+
+
+`"Yeah.@ It is late, and you have to get back home."@
+
+
+; ??<?>=??????:?01(?????)<???????(?)>
+ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
+
+
+`"Good night.@ Till next time, Shiki!"@
+
+
+; ?????<??????(?)>
+cl a,%type_lshutter_fst
+
+
+`"............"@
+` ...... I think she just said something odd.\
+` I try to say, "This is the last time, idiot," but I stop myself.@
+`"...... Well, there are a lot of problems, but she is quite an interesting person."@
+` I speak as if trying to convince myself.@
+` But, it's the truth.@
+` So, even if it is just once in a while...
+` I feel like--if by some chance we got to meet again--it wouldn't be a bad thing.\
+
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_slw
+;CD-DA??
+playstop
+
+!w1000
+
+
+
+; ????(??)<???????(?)>
+bg "image\bg\bg_32d.jpg",%type_crossfade_slw
+
+
+` I return to the mansion.@
+` It's about two in the morning, and there's not a single light on in the mansion.@
+br
+`"...... I have to sneak in."@
+` I climb over the fence and enter the garden.@
+` Fortunately, the door is open and I am able to enter inside without waking anyone.\
+
+; ????(??)<?????(?)>
+bg "image\bg\bg_48d.jpg",%type_lcartain_mid
+
+; ?????(??)<?????(?)>
+bg "image\bg\bg_33d.jpg",%type_lcartain_mid
+
+; ?????(??)<?????(?)>
+bg "image\bg\bg_40d.jpg",%type_lcartain_mid
+
+
+` []*sigh*@
+` I get back to my room and take a deep breath.@
+br
+` It's over.@
+` I truly feel all the events these past three days, all the strange things, are actually finished.@
+br
+`"Well then----time for bed."@
+` I sink my tired body into bed and fall asleep.\
+
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_slw
+
+
+br
+` ---Or at least, I intended to.@
+br
+`"........................"@
+` But, I just can't sleep.@
+` My mind and body are tired, but I can't stop thinking about that figure and I can't sleep.@
+`"...... It couldn't...... have been Senpai, but......"@
+` But, she resembles Senpai so much.\
+
+` I couldn't get a good look at her face, so I can't say for sure.@
+` So---I think it's just my mistake.@
+`"...... Tomorrow...... I'll ask her...... at school."@
+` Yeah---that's right.@
+` I can see her at school any time, so I'll ask her then.@ Then, she can just say, "That wasn't me," and it'll all be alright.\
+
+`"----Alright, that's what I'll do."@
+` It's decided.@
+` Now, then---if I just read a boring book, I'll probably fall asleep.\
+
+
+; ??<??????(?)>
+bg "image\bg\cmo_15.jpg",%type_lshutter_mid
+
+;S.E."??????????…?(???)"
+waveloop se10
+
+br
+br
+br
+br
+br
+br
+br
+`       "Immortality".@
+\
+
+` If those words are to be a grand reality, it would be one of the things which would define eternity.@
+` But in reality, nothing in existence has reached that level.\
+
+` For example, those vampires occasionally spoken of in legends are not immortal.@
+` After all, they are defective because they require stealing from others to exist.@
+` Furthermore, the fact that their supplemental parts have to be of the same species---in this case, generally referring to humans----means that they are not versatile at all.@
+` They call themselves the transcendent race, but that is not evolution, it is degeneration.@
+br
+` That which cannot function independently in perpetuity cannot be called eternal.@
+` It is presumptuous to call something immortal if it depends on others to halt its aging.\
+
+` There already exists something close to perfection which can function independently in perpetuity.@
+` It feeds on itself and multiplies.@ It has no such thing as a lifespan.@ Old cells become food as nutrients and new cells are produced from it.@
+` Such as a jellyfish.@
+` However, it is perpetual only because it has no intelligence.@
+` If having no intelligence is fine, then it is no different from gaining eternity by death.\
+
+` If you want to be eternal living as a human, it is impossible by the method of immortality.@
+` Long years destroy the body and wear away flexibility of the mind.\
+
+` Immortality or eternity.@
+` I have no attachment to stained immortality.@
+` Persistently maintaining individuality makes eternity unattainable.@
+br
+` Instead of gaining immortality as a single human,
+` I chose the infinity in which I continue to exist eternally.\
+
+
+; ???<??????(?)>
+bg "image\bg\ima_10.jpg",%type_lshutter_mid
+
+
+; ?????4(?????)<??????(?)>
+bg "image\bg\cmo_10.jpg",%type_lshutter_mid
+
+
+` ...... I see; certainly a different approach than I.@ However, with your method, will you not lose eternity at the extinction of the human race?@
+` Your method always requires an unborn child other than yourself.\
+
+` Yes, that is true.@ But if no other humans existed, I would not be able to confirm my own self.@
+` So----if humans become extinct, then continuing to live would be worthless.@ At that point, my immortality would end.\
+
+` ...... I do not understand your theory.@ That is far from the thesis of eternity, Serpent.\
+
+` No, it is eternity.@ When a time comes to perish, everything should perish.@ If observers cease to exist, then that means everything is unchanging.@
+` The eternity I embody is temporary until that time occurs.@
+` I cannot turn everything into nothingness.@ Therefore, I will continue living until it happens.@
+` ...... Although, I have found yet another amusement.\
+
+` Is that why you called me?\
+
+` Yes.@ I will show you a mystic method which allows you to slightly shape what is inside of you.@ There is someone I wish for you to catch using this achievement from the age of the gods, Chaos.\
+
+
+;S.E.??
+wavestop
+
+; ???<?????(?)>
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+
+!w3000
+
+
+
+
+return
+
+
+</pre>
+
+[[Tsukihime|[Назад]]]
+
+[[Категория:Tsukihime]]
