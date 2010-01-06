@@ -1,0 +1,267 @@
+[[Tsukihime|[Назад]]]
+
+<pre>
+*s288
+
+mov $phasebg,"image\bg\cmo_14.jpg"
+mov $phasetitle_a,":a;image\word\PCEL_11A.PNG"
+mov $phasetitle_b,":a;image\word\day_11.png"
+gosub *left_phase
+
+monocro #fffff0
+
+; ?????(???)<???????(?)>
+bg "image\bg\bg_40e.jpg",%type_crossfade_slw
+
+;CD-DA???????
+play "*6"
+
+
+` It becomes morning and I finally manage to lock the door.@
+br
+` *pant* *pant* *pant*
+br
+` My beast-like panting fills the room.@
+` My head hurts.@
+` It seems I dropped my glasses somewhere.@
+` Seeing the "lines" all over my room, I feel nauseous.\
+
+` *pant* *pant* *pant*
+br
+` I feel so sick, I cut all of them I see.@
+` I feel just a little better.@
+` Only during the instant I cut things apart does my heart feel at ease.@
+` But the more I cut, the thirstier I get.\
+
+` *pant* *pant* *pant*
+br
+` I know what I'm thirsty for.@
+` I'm thirsty for everything.@
+` Everything I see is pissing me off.\
+
+` They look miserable.@
+` I can't forgive that they are living meaninglessly even though they have death built in them.@
+` Why don't they die?@ They all have an end they can't escape, so why do they still exist like that?@
+` If it will end anyway---where is the meaning in existence?@
+` Everything I see is ghastly.\
+
+` But if I close my eyes, all I can remember is the sensation of killing.@
+` The sensation of a hard, unbloodied blade,
+` softly uniting with pulsing flesh.@
+br
+` There can't be a greater stimulation for a human than that.@
+` A terrible sensation that almost makes me want to bite my tongue off.@
+` It doesn't matter if it is a positive or negative feeling.\
+
+` Especially in my case.@ Because my first was the the best beyond all belief, it's hopeless.@
+` ...... Arcueid.@ The pleasure I got from severing her body into seventeen pieces still burns in my brain and won't go away.@
+br
+` Those beautiful body parts.@
+` The appearance of a human, but with a tenacious life that surpasses far beyond that of people.@
+` The enjoyment I had from the killing has faded.@ That time, I didn't kill Arcueid, but I must've killed my brain instead.\
+
+` *pant* *pant* *pant*
+br
+` I want to destroy everything,
+` kill everything.@
+` I know that's wrong, but I don't think I can hold it in.@
+` My body is filled with excitement; I'm about to go insane.\
+
+`"Shiki-sama, are you awake?"@
+`"----!"@
+` I can hear Hisui's voice from the other side of the door.\
+
+`"Shiki-sama, it is not good if you keep the door locked.@ If you are awake, please open the door."@
+`"............ Op...... en............?"@
+` Open the door?@
+` Open the door and let Hisui inside?@
+` ---You must be kidding me.@
+` If that happened, I don't know what I would do.@
+` Like this---if I stay alone like this, lying in bed with the curtains shut, I can stave off the desires that threaten to overtake my mind.@
+` That's why, if Hisui comes in here, I'll---\
+
+`"---Shut up!@ Leave me alone!"@
+` I scream at the door.@
+`"...... Shiki-sama?@ Are you not feeling well?"@
+`"I said leave me alone......!@ I'm fine, so just leave me alone......!"@
+` If she---came in this room, something I couldn't take back would happen.@
+br
+`"............"@
+` After a deep silence, I hear her footsteps.@
+` Quietly, she walks away from the door.\
+
+` *pant* *pant* *pant*
+br
+` ---Now it's safe.@
+` Thinking that, I calm down just a little.@
+` I should---I should just read a book to unwind.\
+
+`"H---uh?"@
+` The book that was always beside my pillow isn't there.@
+` The book written in English ...... I definitely can't read it, but it was a way to kill time.@
+` I search but I can't find it.\
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+; ?????(???)<???????(?)>
+bg "image\bg\bg_40e.jpg",%type_crossfade_mid
+
+` I can't find it.@
+` I frantically try to remember what the cover looked like.@
+` But I can't.@
+br
+` *pant* *pant* *pant*
+br
+`"The book---the book."@
+` Come to think of it,
+` Why did I even put that book by my pillow?\
+
+` I don't know.@ I don't even remember bringing it here.@
+` I don't know where I brought it from.@
+` In the first place---did that book even exist?\
+
+br
+br
+br
+br
+` ...... Really, you may have not realized it.\
+
+` ...... I remember Roa's irksome voice.@
+` That book---those contents.@
+` The book I read when I couldn't sleep.@
+` Was it maybe just a dream of mine dreaming that I was awake and couldn't sleep?\
+
+br
+br
+br
+br
+br
+br
+br
+br
+` ...... But you were already insane a long, long time ago......!\
+
+` Roa said such words.@
+` DREAM---dream.@
+` But, I don't see those kinds of dreams.@
+` In the first place, I don't have that strange knowledge inside of me.@
+` There's no reason for me to have that dream.@
+` That, isn't my dream.\
+br
+br
+br
+br
+br
+br
+br
+`   You may have not realized it.\
+
+`"----Shut, up."@
+br
+` *pant* *pant* *pant*
+br
+` Then what is that?@
+` Since when the hell did I start having dreams that belonged to another person?\
+
+br
+br
+br
+br
+br
+br
+br
+`    You and I are connected, Shiki.\
+
+`"----Shut up, you're dead."@
+` You're already dead, you bastard, so stop your incessant calling out.@
+` I'm---different from you.@
+` I'm not a killer.@
+` I'm just confused by all the after-effects.@
+` Since Ciel-senpai came back, I won't allow myself to go mad over something like this.\
+
+br
+br
+br
+br
+br
+br
+` ---Yeah, I also thought so at first.@
+`    Even if this Roa came in---\
+
+;S.E."????"
+wave se4
+
+`"---I told you to shut up......!"@
+quakey 4,100
+
+br
+` *pant* *pant* *pant*-----
+br
+` ...... I breathe heavily.@
+` The sunlight pisses me off.@
+` My throat.@ My throat is so dry, I'm about to go insane.\
+
+`"Shiki-sama......!@ What are you doing, Shiki-sama!?"@
+` I hear Hisui's voice across the door.@
+` ...... I can't even answer.@
+` Words.@ I can't even remember, my words.@
+br
+` What fills my head,\
+
+bg "image\bg\ima_11.jpg",%type_nowaitdisp
+
+bg "image\bg\bg_40e.jpg",%type_nowaitdisp
+
+br
+` What fills my, head,\
+
+bg "image\bg\ima_11.jpg",%type_nowaitdisp
+
+bg "image\bg\bg_40e.jpg",%type_nowaitdisp
+
+br
+` is just lust.@
+br
+` I want to violate, violate any female.@
+br
+
+bg "image\bg\ima_11.jpg",%type_nowaitdisp
+
+
+` I start to lust crazily.\
+
+; ???<???????(?)>
+bg "image\bg\ima_11b.jpg",%type_crossfade_fst
+
+monocro off
+
+; ?????(???)<???????(?)>
+bg "image\bg\bg_40e.jpg",%type_crossfade_fst
+
+
+`"Uwaaaa----!"@
+;S.E."?????"
+wave se9
+;S.E."?????"
+wave se9
+;S.E."?????"
+wave se9
+
+br
+` My head.@ I bang my head against the wall.@
+` Over and over, as if I was trying to split it.@
+` But still---the thought of me slicing apart Hisui doesn't disappear from my brain.\
+
+` Bam.@ Bam.@ I hit my head on the wall.@
+` As if she was trying to compete with it, Hisui knocks harder on the door.\
+
+
+
+return
+
+
+</pre>
+
+[[Tsukihime|[Назад]]]
+
+[[Категория:Tsukihime]]
