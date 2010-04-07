@@ -1,0 +1,44 @@
+[[Tsukihime|[Назад]]]
+
+<pre>
+
+*f249
+gosub *regard_update
+!sd
+if %sceneskip==1 && %1249==1 skip 4
+gosub *s249
+mov %1249,1
+skip 9
+`Вы уже видели эту сцену.
+`Хотите ли вы её пропустить?
+br
+selgosub `1. Да`, *skip249,
+	`2. Нет`, *s249
+skip 3
+
+*s249
+
+playstop
+
++
+
+bg "image\bg\bg_06b.jpg",%type_crossfade_slw
+
+
+` Уроки закончились, и у меня полно времени.@
+br
+` Я...
+br
+
+
+*skip249
+
+
+select `1. Вернусь в особняк.`, *f250,
+	`2. Зайду в комнату чайных церемоний.`, *f251,
+	`3. Прогуляюсь по городу.`, *f252
+</pre>
+
+[[Tsukihime|[Назад]]]
+
+[[Категория:Tsukihime]]
