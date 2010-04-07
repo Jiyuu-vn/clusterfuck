@@ -1,0 +1,52 @@
+[[Tsukihime|[Назад]]]
+
+<pre>
+
+*f250
+gosub *regard_update
+!sd
+if %sceneskip==1 && %1250==1 skip 4
+gosub *s250
+mov %1250,1
+skip 9
+`Вы уже видели эту сцену.
+`Хотите ли вы её пропустить?
+br
+selgosub `1. Да`, *skip250,
+	`2. Нет`, *s250
+skip 3
+
+*s250
+
+
+bg "image\bg\bg_06b.jpg",%type_nowaitdisp
+
+` Никаких планов у меня на сегодня нет, поэтому я решаю пойти домой.@
+
+
+bg "image\bg\ima_10.jpg",%type_lcartain_slw
+!w1000
+
+bg "image\bg\bg_32b.jpg",%type_lcartain_slw
+
+` Взобравшись на холм, я возвращаюсь в особняк.@
+` Ещё даже пяти часов нет.@
+` До обеда ещё два часа, которые я проведу, отдыхая в свой комнате\
+
+
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+!w1000
+
+
+
+*skip250
+
+
+goto *f253
+
+
+</pre>
+
+[[Tsukihime|[Назад]]]
+
+[[Категория:Tsukihime]]
