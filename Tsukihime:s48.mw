@@ -1,0 +1,129 @@
+[[Tsukihime|[Назад]]]
+
+<pre>
+*s48
+
+
+; 屋敷 : 部屋 : 志貴の部屋（深夜）<瞬時表示>
+bg "image\bg\bg_40d.jpg",%type_nowaitdisp
+
+` The howling continues.@
+` There's no way I can sleep like this.@
+` || I can't sleep, but that's just normal.@
+`"|| I'm sleepy, so I'll pass."@
+` Pulling the sheets over me, I stretch out on the bed.@
+` I can just think of the howling as the sound of something mundane as cars driving by on the street.\
+
+` *sigh*@
+` Today's been a very long day.@
+` I'm mentally tired from eating dinner in this unfamiliar mansion and my conversations with Akiha and everyone else.@ After all that, the howling is just background noise.@
+` I close my eyes and gently fall asleep.\
+
+; 黒画面<クロスフェード(中)>
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+!w3000
+
+;S.E."足音「カツ、カツ、カツ、カツ」"
+wave se8
+
+
+
+; 屋敷 : 部屋 : 志貴の部屋（深夜）<クロスフェード(速)>
+bg "image\bg\bg_40d.jpg",%type_crossfade_fst
+
+`"---Nng."@
+` I think I just heard something.@
+` Half-awake, I look at the clock.@ It's just past two.@
+` || It's been about two hours since I heard the dogs howling.@
+` The dogs' howling has already stopped.@
+` The mansion is so quiet, I can hear the clock ticking in the silence.\
+
+;S.E."足音「カツン、カツン」"
+wave se7
+
+
+`"------?"@
+` I hear it again.@
+` || Inside the mansion| from the lobby?@
+`"-----Could it be a burglar?"@
+` It's not impossible.@
+` The mansion's contents are outrageously valuable.@ On top of that, with no one here now except Kohaku-san, Hisui, Akiha and myself, it's very insecure.@
+`"||"@
+` Getting out of bed, I slip out of the room quietly.\
+
+; 黒画面<左カーテン(速)>
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+;CD-DA「伝奇その二」
+play "*6"
+
+; 屋敷 : 屋外など : 屋敷廊下（夜）<左カーテン(速)>
+bg "image\bg\bg_46c.jpg",%type_lcartain_mid
+
+
+` If it's a burglar, Akiha and everyone will be in danger, so I can't let this one go.@
+` I'll just look down from the second floor into the lobby; that should be safe enough.\
+
+; 黒画面<左カーテン(速)>
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+
+; 屋敷 : 屋内 : 屋敷ロビー（深夜）<左カーテン(速)>
+bg "image\bg\bg_33d.jpg",%type_lcartain_mid
+
+` There's nothing wrong there.@
+
+;S.E."足音「カツン、カツン」"
+wave se7
+
+
+`"|| !"@
+` No, someone's there.@
+` The figure that enters from the entrance and crosses the lobby with wobbling, uncertain steps, is---
+br
+
+
+; 秋葉 : 11～20 : 19_胡乱（ボウとしてる）<クロスフェード(速)>
+ld c,":a;image\tachi\aki_t19b.jpg",%type_crossfade_mid
+
+; すべて消去<クロスフェード(速)>
+cl a,%type_crossfade_mid
+
+
+`"Aki| ha?"@
+` She's not going to her own room on the second floor, but to the first floor of the west wing.@
+` The only things there are Kohaku-san's room and my old man's room.\
+
+`"|| What's she doing at this time of night?"@
+` I can murmur all I want, but I won't be getting any answers.@
+` After gazing at the lobby for a while, I decide to return to my room.\
+
+; 黒画面<左カーテン(速)>
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+
+;CD-DA停止
+playstop
+
+; 屋敷 : 部屋 : 志貴の部屋（深夜）<左カーテン(速)>
+bg "image\bg\bg_40d.jpg",%type_lcartain_mid
+
+` || Well, she probably had something to do, or went to see Kohaku-san.@
+` I feel bad about sneaking around and watching her, and I don't want to just ask her about everything she does.@
+`"|| Sleep, sleep.@ There's school tomorrow."@
+` I bury myself in bed and close my eyes.@
+br
+
+; 黒画面<クロスフェード(速)>
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+
+` ---As I fall asleep,
+br
+` my thoughts keep returning over and over to Akiha's hollow-eyed figure in the lobby| and how something seemed wrong.\
+
+!w3000
+
+
+
+
+return
+</pre>
+
+[[Tsukihime|[Назад]]]
