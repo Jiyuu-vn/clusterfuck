@@ -1,5 +1,7 @@
 [[Tsukihime|[Назад]]]
 
+Hemet
+
 <pre>
 *s76
 
@@ -12,89 +14,86 @@ bg "image\bg\bg_31a.jpg",%type_nowaitdisp
 play "*9"
 
 
-`"I---"@
+` — Я...@
 br
-` ...... For some reason, I can't decline.@
-` I did kill her, after all.@
-` It's my fault she's weak and has to ask others for help.@
+` Почему-то не могу отказать.@
+` Всё-таки, я её убил.@
+` Из-за меня она ослабла и вынуждена просить помощи на стороне.@
 br
-` ---It is my responsibility.@
-` Besides, although I've only known her for a little while, she doesn't seem like a bad person.\
+` Кашу заварил я, мне и расхлёбывать.@
+` И плохой она мне тоже не кажется, пусть мы и знакомы всего ничего.\
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
-`"So how about it?@ Can't a human like you cooperate with a vampire like me?"@
-`"---Well, that would be the obvious answer, but..."@
+` — Ну так что?@ Или такой человек, как ты не может сотрудничать со мной, вампиром?@
+` — Знаешь, ответ очевиден, но...@
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"----"@
-` Argh, don't look at me with those eyes!@
-` ...... Why is it?@ It's making me overcome with guilt and be unable to refuse.@
-`"But now that I've gotten myself into this mess, I won't be able to sleep at night if I just deny all responsibility."@
+` «...»@
+` Ах, да не смотри ты на меня такими глазами!@
+` Ну что такое?@ Под этим взглядом меня переполняет чувство вины: как тут отказать?@
+` Только теперь уже всё равно: если сейчас ей откажу, ночами меня будет мучить совесть.@
 br
-` ---Man, I just know I'm going to regret this.\
-`"...... So, yeah.@ I think I could probably do it.@ The enemy's the serial killer, right?@
-` As a resident of this town, I'd probably be struck with some kind of divine punishment if I refused to help you."@
+` Блин, ведь ещё пожалею.\
+` — Эх, твоя взяла.@ Так и быть, помогу.@ Наш враг — серийный убийца?@ Наверное, меня судьба накажет, если я, житель этого города, откажусь помогать.@
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
-`"Eh--?@ You mean---"@
-`"I'm not going to be your shield, but if it's just being your lookout, I'll do it."@
-` I feel disgusted at how stupid I am as soon as those words are out of my mouth.@
+` — А?@ Так ты...@
+` — Твоим щитом я не буду, но приглядывать за тобой — это я могу.@
+` И тут же разочаровался своим словам и своей же глупости.@
 br
-` I feel disgusted, but----\
+` Да, я разочарован, но всё же...\
 
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
-`"------"@
-` There is something about her deeply shocked expression that's----\
+` «...»@
+` ...её изумленное лицо волнует меня куда больше...\
 br
-`"Wow!@ Are you serious!?@ I'm really a vampire, you know!"@
-`"...... Hey, listen.@ Why are you saying all this now, after you've threatened me so much?"\
+` — Ух ты!@ Правда?!@ Я же самый настоящий вампир!@
+` — Слушай, чего ты заладила?@ Угрожаешь мне, пугаешь.\
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
-`"Ah... Hm.@ That's true, but---"@
+` — А... ну, да, ты прав...@
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
-`"---Well, whatever!@ If you're going to cooperate with me, then I should be grateful!"@
-` ...... With a very happy expression on her face, she approaches me as I lie there on my rear, up against the wall.\
+` — Ладно!@ Спасибо тебе, за то, что решил помочь!@ — её лицо стало очень счастливым.
+` Потом она подошла ко мне, сидящему на заднице у стены.\
 
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_mid
 
-`"Our contract is established."@
-` She extends her hand towards me.@
+` — Значит, по рукам.@
+` И протянула мне свою.@
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"I guess I can finally introduce myself now.@
-` I'm Arcueid---hmm... my last name is really long, so just Arcueid is fine for now.@ I'm a True Ancestor type vampire.@ How about you?"@
+` — Теперь можно и представиться?@ Меня зовут Арквейд... фамилия длинная, так что зови по имени. Я — истинный предок. А ты?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 br
-` I heave a heavy sigh at her unprecedented introduction.@
-` ...... It's a sigh of resignation, evidence I've decided to accept this nonsensical situation.\
-`"I'm Tohno Shiki.@ Sadly, I'm just your everyday student.@ ...... I've said it before, but I'm really not going to be much use."@
+` Я выслушал её из ряда вон выходящее представление и тяжело вздохнул.@
+` Мне уже всё равно, я смирился с этим безумием: пусть так и будет.\
+` — Тоно Шики.@ Увы, всего лишь обычный школьник.@ И повторюсь, пользы от меня будет немного.@
 br
-` Grasping her---Arcueid's hand, I stand up.@
+` Я схватил её руку и встал.@
 br
-` She takes a long hard look at me, and then offers me her hand again.\
+` Она ещё раз меня внимательно оглядела и вновь протянула руку.\
 
 ; ??<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_fst
-`"Nice to meet you, Shiki.@
-` I'll have you take responsibility for killing me."@
-` Arcueid grins as she extends her left hand.@
+` — Рада знакомству, Шики.@ Надеюсь, ты искупишь моё убийство.@
+` Арквейд протянула левую руку и улыбнулась.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
 
-` []*sigh*@
+` «Эх...»@
 br
-` ...... There are all sorts of responsibilities in this world, but this is probably the first and last time someone takes responsibility by helping someone they've killed.@
+` В этом мире много чего требует искупления, но, наверное, это единственный раз, когда искупления требует сама жертва у своего убийцы.@
 br
-`"...... Damn it... this is seriously messed up."@
-` But there's nothing else I can do.@
+` — Всё это безумие... чёрт побери.@
+` Но ничего не поделаешь.@
 br
-` I grudgingly extend my left hand and shake hands with the woman in white claiming to be a vampire.\
+` Я неохотно пожал левую руку этой, так называемой, вампирши в белом.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -106,8 +105,6 @@ playstop
 
 
 return
-
-
 </pre>
 
 [[Tsukihime|[Назад]]]
