@@ -6,228 +6,228 @@
 
 
 
-; ?????<?????(?)>
+
 bg "image\bg\bg_52.jpg",%type_lcartain_fst
 
 
-` Surrounded by night, Arcueid walks down the street.@
-` She looks straight ahead, her white figure with golden hair fluttering.@
-` It bears a horrible resemblance to the first time I saw her.@
-` No, or perhaps...
-` Perhaps it's like the time she faced off with Nrvnqsr.@
+` Арквейд шагает сквозь ночь.@
+` Она смотрит прямо, белая фигура с развевающимися золотыми волосами.@
+` Всё это ужасно напоминает нашу с ней первую встречу.@
+` Или нет…
+` Возможно ту битву с Хаосом.@
 br
-` ...... For some reason I have a bad feeling about this.\
+` …У меня обо всём этом плохое предчувствие.\
 
-`"Hey, Arcueid!"@
-; ??<?>=??????:?????(???)<???????(?)>
+` — Эй, Арквейд!@
+
 ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_fst
 
-`"------"@
-` Arcueid continues to walk without turning around.@
-`"I want to talk to you.@ You can at least tell me what you're going to do."@
-`"------"@
-` Of course, Arcueid just continues walking without turning around.@
-` ...... It'd be miserable if I left it like this.@
-` I decide to follow her silently for now.\
+` — …@
+` Она продолжает идти даже не обернувшись.@
+` — Я хочу с тобой поговорить.@ Ты же можешь хотя бы сказать мне, что собираешься делать.@
+` — …@
+` Она, само собой, не реагирует.@
+` …Уйти сейчас значит признать своё поражение.@
+` Я решаю просто следовать за ней.\
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
-; ??????(?)<?????(?)>
+
 bg "image\bg\bg_26a.jpg",%type_lcartain_mid
 
-` The footsteps echo through the night air.@
+` Шаги гулко раздаются в ночном воздухе.@
 br
-` ---And then,
-` Arcueid suddenly stops and turns around.@
-; ??<?>=??????:?????(???)<???????(?)>
+` …И вот,
+` Арквейд внезапно останавливается и поворачивается ко мне.@
+
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-`"Don't follow me.@ Don't you understand it's troubling for a normal person like you to follow me around?"@
-`"---So tell me what you're going to do and I'll go back."@
-; ??<?>=??????:?????(???)<???????(?)>
+` — Хватит за мной идти.@ Ты что, не понимаешь, что обычный человек вот так вот следующий за мной это ненормально?@
+` — …Ну так скажи мне, что собираешься делать: и я уйду.@
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"...... It doesn't concern you, so leave me alone."@
-` Arcueid strides off once more.@
-; ?????<??????(?)>
+` — …Тебя это не касается, так что отстань.@
+` Она снова уходит.@
+
 cl c,%type_lshutter_fst
 
-` ...... Crap.@
-` It seems like our wordless wandering is going to continue.\
+` …Блин.@
+` Похоже что наша молчаливая прогулка затянется.\
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
-; ?????(?)<?????(?)>
+
 bg "image\bg\bg_25b.jpg",%type_lcartain_mid
 
 ` When we approach the main street, Arcueid freezes.@
-; ??<?>=??????:?????(???)<??????(?)>
+
 ld c,":a;image\tachi\ark_t22.jpg",%type_lshutter_fst
-;CD-DA???????
+
 play "*4"
 
-`"---Found it."@
-`"Eh......... ?"@
-` Her voice is cold, like a totally different person's.@
-`"----Ah."@
-` ...... A chill runs up my spine.@
-` Even from behind, I can feel the hostility manifesting itself in her.\
+` — …Нашла.@
+` — Э?..@
+` Её голос холоден, словно принадлежит кому-то другому.@
+` — …А.@
+` …По моей спине пробегают мурашки.@
+` Даже отсюда я чувствую её враждебность.\
 
-`"Arcueid---What, are you--"@
-` I can't even finish.@
-` It's clear what she intends to do without saying anything.@
-` Without a doubt, there is nothing but the pure, unadulterated intent to kill.\
+` — Арквейд… Что ты…@
+` Не имеет смысла продолжать.@
+` И так ясно, что именно она собирается сделать.@
+` Безо всякого сомнения это чистое, незамутнённое желание убить.\
 
-`"Hey---what are you, thinking......!?"@
-`"----"@
-` Arcueid doesn't answer.@
-` Her eyes are fixed solely on a man in a business suit walking by.\
+` — Эй… Ты о чём думаешь?!..@
+` — …@
+` Она не отвечает.@
+` Её взгляд сфокусирован на каком-то мужчине, одетом в костюм.\
 
-; ??<?>=??????:?????(???)<???????(?)>
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Shiki.@ Take off your glasses and look at that person."@
-`"That person---you mean that business man?"@
-`"Hurry.@ If you want to know what I'm doing, then leave the questions for later."@
-`"----Alright.@ I don't like to look while in town, but---"@
-; ?????<???????(?)>
+` — Шики.@ Сними очки и посмотри на него.@
+` — На него… То есть вот на этого бизнесмена?@
+` — Скорее.@ Если хочешь знать, что я делаю, то оставь вопросы на потом.@
+` — …Ладно.@ Хоть я и не люблю это делать в городе, но…@
+
 cl c,%type_crossfade_fst
 
 
 \
 
-; ??????(?)<???????(?)>
+
 bg "image\bg\bg_25b.jpg",%type_crossfade_mid
 
 monocro #ff00ff
 
 
-` I take off my glasses.@
-`"...... Gah."@
-` Instantly a light headache springs forth.@
-` In exchange for the pain, I can see "lines" running all along the walls and the ground.\
+` Я снимаю очки.@
+` — …Гха.@
+` В тот же миг меня поражает лёгкая головная боль.@
+` В обмен на неё, я могу видеть «линии», бегущие по земле и стенам.\
 
 
-; ?????(?????)<??????(?)>
+
 bg "image\bg\bg_25b.jpg",%type_lshutter_slw
 monocro off
 
-; ??<?>=??????:?????(???)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
-`"Another question, Shiki.@ You only see "points" on living things, right?"@
-`"Eh---?@ Yeah, that seems to be true.@ Things like buildings only have lines."@
-` ...... I saw them back during the time in that hotel, but at the cost of a headache that almost caused me to pass out.@
-`"Right, since you are a living being, you can't comprehend the death of inanimate objects.@
-` So in order to "see" the death of inanimate objects, you must first connect to a circuit of the same orientation as them.@ To "see", you have to "comprehend" them first.\
+` — Ещё вопрос.@ Ты ведь видишь «точки» только на живых существах, верно?@
+` — Э?..@ Да, похоже на то.@ У всего остального есть только линии.@
+` …Я видел их тогда, в отеле, но голова от этого болела так, что я чуть не отключился.@
+` — Правильно. Поскольку ты живой, то понимание смерти неживого тебе недоступно.@
+`	То есть чтобы «увидеть» смерть неживого тебе вначале надо подключиться к той же части цепи, к которой принадлежат они.@ Чтобы «увидеть» сперва надо «понять».\
 
-; ??<?>=??????:?????(???)<???????(?)>
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"Then another question.@ Shiki, how does that person look to you?"\
+` — Ну и ещё вопрос.@ Шики, как вон тот человек выглядит для тебя?\
 
-; ?????<???????(?)>
+
 cl c,%type_crossfade_fst
 
 
-`"----?"@
-` It'll just be the same as always---
+` — …?@
+` Всё будет как обычно…
 
-; ??<?>=?????:?????????<??????(?)>
+
 ld c,":a;image\tachi\man_t03.jpg",%type_lshutter_mid
 
-`"----!?"@
-` Without thinking, I step backwards.\
+` — …?!@
+` Я рефлекторно отступаю.\
 
-` ...... What is that?@
-` Certainly, all humans have "lines" on them.@
-` But they only have countable amounts and they also look like geometric patterns.@
+` …Что это?@
+` Конечно, на всех людях есть «линии».@
+` Но их всегда можно подсчитать, и они геометрически правильны.@
 br
-` But---what is that?@
-` There are "lines" running all through him.@ Those "lines" are all over him like blood vessels... so much that I can't even make out his appearance.\
+` Но что это такое?@
+` «Линии» повсюду.@ Они покрывают его словно кровеносные сосуды… Их так много, что я даже не могу понять как он выглядит.\
 
-`"----Gah."@
-` I want to puke.@
-` Those, black "lines"----scribbles making a human shape... everywhere throughout it, I can see "black points" that look like they are flowing blood---
-; ?????<??????(?)>
+` — …Гха.@
+` Меня тошнит.@
+` Эти чёрные «линии»… Каракули в форме человека… Повсюду за ними я вижу «чёрные точки», текущие словно кровь…
+
 cl c,%type_lshutter_slw
-; ??<?>=??????:?????(???)<???????(?)>
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Shiki, how does it look?@ I was hoping it would look normal to you."@
-`"------"@
-` I can't answer.@
-` Right now---it takes all my strength just not to vomit.\
+` — Шики, ну что?@ Я надеялась, что он тебе покажется нормальным.@
+` — …@
+` Я не могу ответить.@
+` Сейчас… Все мои силы уходят на сдерживание рвоты.\
 
-`"---I see.@ How unfortunate that you can even see death on that thing."@
-`"Yeah...... it's not, normal, but...... I can, still see, the lines......"@
-; ??<?>=??????:?????(???)<???????(?)>
+` — …Ясно.@ Как жаль, что тебе видна смерть даже этого.@
+` — Да… Они ненормальны, но… Я всё равно вижу линии…@
+
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-`"I knew it---you can even kill The Dead.@ The fact that they don't have any life has no meaning for you.@ Something that moves, something that breaks, you can stop it completely without exception---You're more of a monster, Shiki."@
-`"Eh-----"\
+` — Так я и знала… Ты можешь убить даже упыря.@ То, что в них нету жизни тебя не волнует.@ Ты можешь остановить всё что двигается, всё что можно сломать… Ты настоящий монстр, Шики.@
+` — Э…\
 
-; ??<?>=??????:?????(???)<???????(?)>
+
 ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_fst
 
-`"As you saw, you can't call that thing human anymore.@ It's a vampire that deceives death by sucking the blood of other people."@
-` Arcueid quickens her steps.@
-` She walks straight towards the man.\
+` — Ты сам видел, что это уже человеком не назовёшь.@ Это вампир, избегающий смерти, пья кровь других людей.@
+` Арквейд прибавляет шаг.@
+` Она идёт прямо к тому человеку.\
 
-`"Hey, Arcueid---"@
-`"Stay there Shiki!"@
-` Did that young man realize Arcueid was there?@ He starts running towards a back alley.@
-` Arcueid strides silently.@
-` Underneath the moonlight, she disappears into that alley.\
-; ?????<??????(?)>
+` — Эй, Арквейд…@
+` — Стой там!@
+` Тот парень заметил её?@ Он побежал к подворотне.@
+` Арквейд бесшумно следует за ним.@
+` Залитая лунным светом, она исчезает в подворотне.\
+
 cl c,%type_lshutter_fst
 
 
-; ???<??????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
 monocro #ff00ff
 
-; ?????(?????)<??????(?)>
+
 bg "image\bg\bg_25b.jpg",%type_lshutter_slw
 
 
 
 br
-` ---Thump.@
+` …Тук.@
 br
-` The sound of my heartbeat is awfully close.@
-` It's not even real late at night.@
-` Even though I'm in the midst of a bustling shopping district, I can't sense anyone besides myself.\
+` Звук моего сердца ужасающе громок.@
+` Сейчас ещё даже не слишком поздно.@
+` Хоть я и нахожусь в центре торгового квартала, но вокруг никого нет.\
 
 br
-` ---THUMP.@
+` …ТУК.@
 br
-` My glasses---I have to put on my glasses.@
-` If I don't do that, I'll see terrible things.\
-` I'll see something so terrible that everything I've seen so far would be nothing in comparison to it.\
+` Очки… Мне надо надеть очки.@
+` Если я этого не сделаю, то увижу ужасные вещи.\
+` Я увижу что-то столь ужасное, что ничто виденное ранее с этим не сравнится.\
 
 br
-` ---Th, u, mp.@
+` …Т У К.@
 br
-` But my body won't move.@
-` My eyes that can see this patchwork world look towards that alley in fascination.\
+` Но я не могу пошевелиться.@
+` Мои глаза, видящие этот изломанный мир, смотрят на аллею в восхищении.\
 
-;CD-DA??
+
 playstop
 
-`"------"@
-;S.E."????(???)"
+` — …@
+
 waveloop se1
 
-` Suddenly, sounds vanish.@
+` Внезапно звуки исчезли.@
 !w500
-` And the presence of other people,
+` Ауры других людей,
 !w500
-` the sound of the wind,
+` Звуки ветра,
 !w500
-` and the smell of the dirt.@
+` Запах земли.@
 br
-` All of it freezes.\
+` Всё это пропало.\
 
 br
 br
@@ -236,24 +236,10 @@ br
 br
 br
 br
-` ------GI\
+` …ГИ\
 
-` Under the frozen moon.@
-` A bizarre noise sounds from the other side of the wall.\
-
-br
-br
-br
-br
-br
-br
-br
-` -----GO.\
-
-br
-br
-` No way I can see it,
-` I can't hear anything.\
+` Под замёрзшей луной.@
+` Ужасающий шум доносится с той стороны.\
 
 br
 br
@@ -262,667 +248,682 @@ br
 br
 br
 br
-` ------A sickening sound\
+` …ГО.\
+
+br
+br
+` Я не могу это видеть,
+` я ничего не слышу.\
 
 br
 br
 br
 br
-` But I can see it.@
-` My eyes definitely see the sound of death and death crashing.\
+br
+br
+br
+` …Отвратительный звук\
+
+br
+br
+br
+br
+` Но я его вижу.@
+` Мои глаза видят звук столкновения двух смертей.\
 
 monocro #ff0000
 
-; ?????(?????)<??????(?)>
+
 bg "image\bg\bg_25b.jpg",%type_lshutter_mid
 
 
 
-`"Gah---"@
-` My vision turns crimson.@
-` Why---do my eyes see "death", something that shouldn't be able to be seen?@
-`"----"@
-` My glasses.@ I have to put on my glasses or I'll go insane.@
+` — Гах…@
+` Глаза застилает алая пелена.@
+` Почему… Почему мои глаза видят «смерть», то что никогда не должно быть увидено?@
+` — …@
+` Очки.@ Если я их не одену, то сойду с ума.@
 br
-` I hold back the rising gorge in my throat and use my shaking hand to put on my glasses.\
+` Сдерживая рвотный порыв, я трясущейся рукой одеваю очки.\
 
-;S.E.??
+
 wavestop
 
 monocro off
 
-; ???<???????(?)>
+
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
-; ?????(?)<???????(?)>
+
 bg "image\bg\bg_25b.jpg",%type_crossfade_fst
 
-` Sound and light return.@
-` Now that I'm calm, I glance around and see nothing out of the ordinary in the shopping district.@
-` The bustling of many people passing by.@
-` The brightness of a store's decorated show window and the sound of rushing car engines.\
+` Звуки и свет вернулись.@
+` Успокоившись, я оглядываюсь по сторонам, и не вижу ничего необычного.@
+` Шаги множества людей, проходящих мимо.@
+` Яркие витрины магазинов и шум проезжающих машин.\
 
-` I'm panting excessively.@
+` Я тяжело дышу.@
 br
-` I can hardly breathe.@
-` Even though I put my glasses back on, I can still feel a lingering remnant of that "death" and it makes me sick.\
+` Мне не хватает воздуха.@
+` Хоть я и одел очки, но призрак «смерти» всё ещё витает в воздухе, вызывая у меня тошноту.\
 
 
 
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-` Arcueid comes out of the alley.@
-` There isn't even a trace of her previous hostility and she seems to be in a good mood.@
+` Арквейд выходит из подворотни.@
+` От её враждебности не осталось и следа, и похоже, что она в хорошем настроении.@
 br
-`"Ar---cueid......?"@
+` — Ар…квейд?…@
 
 
-; ??<?>=??????:?03(?????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
 
-`"Huh?@ Oh, I see.@ I guess you really did stay here."@
-`"Stay here, you......"@
-` I can't go home after seeing something like that.\
+` — Э?@ А, ясно.@ Ты и в самом деле остался стоять тут.@
+` — Стой там, ты…@
+` Я не могу просто пойти домой, увидев такое.\
 
 
 
-; ??<?>=??????:??02(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t13.jpg",%type_crossfade_fst
 
 
-`"Huh, what's wrong, Shiki?@ You don't look very lively."@
-`"---Don't worry about it, it's just my anemia.@
-` More importantly Arcueid, what was that all about?"@
-` I look at Arcueid as I grab her arms.\
+` — Что с тобой, Шики?@ Ты не слишком хорошо выглядишь.@
+` — …Не волнуйся. Это просто моя анемия.@
+`	Арквейд, что всё это было?@
+` Я смотрю на неё, беря её за руку.\
 
 
-; ??<?>=??????:??(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
 
-`"Wh---Shiki, what are you doing all of a sudden?@ If you're hurt, I can take you to your house."@
-`"No thanks, I'm fine, so tell me what was that person?@ You've shown me this much, so if you say this has nothing to do with me, I'll punch you, Arcueid......!"@
-` I approach her, ignoring the fact I can barely breathe.\
+` — Ч… Шики, ты что делаешь?@ Если тебе плохо, то я могу отвести тебя домой.@
+` — Спасибо, но я в порядке. Лучше расскажи кто это был?@ Ты мне уже так много показала, что если ты сейчас скажешь, что меня это не касается, то я тебя ударю.@
+` Я приближаюсь к ней, игнорируя то, что едва могу дышать.\
 
 
-; ??<?>=??????:??02(???????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
 
-`"-------"@
-` Arcueid's expression instantly turns serious.@
-` But, I have no intention of backing down.@
-` After a brief stare-off, she gives a sigh.@
+` — …@
+` Она моментально становится серьёзной.@
+` Но я не собираюсь останавливаться.@
+` После непродолжительного обмена взглядами она вздыхает.@
 
 
-; ??<?>=??????:??(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
 
-`"Fine, you're awfully persistent, Shiki."@
-`"..................... Well forgive me for being so persistent."@
+` — Ладно уж. Ты жутко настойчив, Шики.@
+` — …Ну уж извини.@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"Idiot, that was a compliment.@
-` --Then, shall we go somewhere else to talk?"\
+` — Это был комплимент, дурак.@
+`	…Может поговорим где-нибудь ещё?\
 
-`"Somewhere else?@ Why?"@
+` — Почему?@
 
 
-; ??<?>=??????:?03(?????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
 
-`"You want me to tell you about it, right?@ So not here, let's go back to the park.@ Shiki, can you walk?"@
-`"Oh...... D, don't make fun of me.@ This anemia is just an everyday thing."@
+` — Ну, ты ведь хочешь, чтобы я тебе обо всём рассказала?@ Но давай не здесь, а пойдём назад в парк.@ Ты можешь идти?@
+` — Ох… Н-не издевайся.@ Я с такой анемией каждый день справляюсь.@
 
-; ?????<??????(?)>
+
 cl c,%type_lshutter_mid
 
 
 
-` "Awwww," Arcueid says regretfully as she smiles and starts to walk.@
-` I walk behind her and resist the urge to pass out.\
+` «Оооо», — слегка разачарованным тоном произносит Арквейд, и начинает идти.@
+` Я следую за ней, пытаясь удержаться в сознании.\
 
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
 
 
-; ??A(?)<?????(?)>
+
 bg "image\bg\bg_28b.jpg",%type_lcartain_slw
-;CD-DA?????
+
 play "*2"
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_lshutter_mid
 
 
-`"Well, as you wish, Shiki, let's talk about anything.@ If you want to ask something, feel free."@
-`"Then I'll ask, but just what was that guy earlier?@ You said he was a vampire, was he what you were after?"@
+` — Ну, теперь давай поговорим о чем ты хочешь.@ Если есть вопросы, то задавай, не стесняйся.@
+` — Ну, тогда я спрошу о том парне. Что он такое?@ Ты сказала, что он вампир. Это он был твоей целью?@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
 
-`"No, he certainly is part of my target, but putting The Dead back into the grave isn't my goal.@ I only got him because he was a minion of my 'enemy'.@
-` If I left him alone, he would kill more people to increase his power."\
+` — Нет, он, конечно, часть моей цели, но уничтожение всех упырей не входит в мои планы.@ Я его атаковала только потому, что он миньон моего врага.@
+`	Если бы я его проигнорировала, то он продолжил бы убивать людей для увеличения своих сил.\
 
-`"...... Arcueid.@ Um, could you explain it so I can understand?@ I don't even know if that guy was even human or not."@
+` — …Арквейд.@ Не могла бы ты объяснить так, чтобы я понял?@ Я даже не знаю был ли он человеком.@
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"Oh.@ I guess I never really did explain to you in detail about vampires.@ Nrvnqsr was sort of an aberration amongst the vampire race, so I didn't really need to explain it at that time."@
-`"......?@ What is a normal vampire then?"\
+` — Ох.@ Похоже, что я тебе толком ничего не рассказала о вампирах.@ Нерон не был нормальным вампиром, так что тогда особого смысла в этом не было.@
+` — …?@ Ну и что же тогда из себя представляет нормальный вампир?\
 
-`"What I mean is what you all think of vampires.@ Immortal, never aging, sucking human blood, turning that human into a vampire, being destroyed by sunlight, all of that.@
-` My 'enemy' is that old type of vampire."@
-`"...... Um, so you mean this 'enemy' of yours is the one behind all the recent serial killings?"@
+` — Ну, всё что тебе приходит в голову, когда ты слышишь слово «вампир».@ Бессмертный, вечно молодой, пьёт человеческую кровь, превращает людей в вампиров, погибает на солнечном свете, всё в таком роде.@
+`	Мой враг — это такой вот классический вампир.@
+` — …Э, так значит это этот твой враг стоит за всеми недавними убийствами?@
 
 
-; ??<?>=??????:??02(???????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
 
-`"...... I suppose.@ But the killing of all those people by sucking their blood might be the work of "The Dead" like the one you saw earlier.@
-` Shiki, you remember how Nrvnqsr's body was made of all those familiars, right?"\
+` — …Скорее всего.@ Но убивали людей, высасывая их кровь, скорее всего такие упыри, как тот, которого мы встретили ранее.@
+`	Шики, ты ведь помнишь, что тело Хаоса было сделано из фамильяров?\
 
-`"---Yeah, that's not exactly something I can easily forget."@
+` — …Да, такое не забывается.@
 
 
-; ??<?>=??????:?02(??)<???????(?)>
+
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
 
-`"The Dead are like that.@ When humans have their blood sucked by a vampire, they can also receive some of the vampire's blood.@
-` They die, but remain in this world as a servant of the vampire.@ They are called The Dead and they are like the vampire's familiars.@
-` Ah, maybe it's easier to understand if I use the word zombie.@ It's closer to the voodoo belief in Haiti where the white serpent-god Damballah is invoked to control a dead body, but let's just say a dead body that moves is a zombie, okay?"@
+` — Упыри в чём-то на них похожи.@ Когда вампир пьёт кровь человека, то может дать ему немного своей.@
+`	Тогда человек умирает, но остаётся в этом мире в качестве слуги вампира.@ Таких фамильяров называют упырями.@
+`	А может тебе проще будет понять, если я назову их зомби.@ Это довольно близко к вудуистскому верованию, что белый божественный змей Дамбалла вселяется в тело, чтобы его контроллировать, но давай просто считать мёртвое тело, которое может двигаться, зомби, ладно?@
 br
-` ---Yeah, I can visualize it better that way.\
+` …Да, так мне проще всё это представить.\
 
-`"I get it, so that man was killed by a vampire, who uses him as a zombie?"@
+` — Ясно. Значит того человека убил вампир, который теперь использует его как зомби?@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-` "Yes, yes," Arcueid nods happily.@
-`"---I'm still confused though.@ Why would a vampire do that?@
-` Killing people---not letting them die but controlling them, what bad taste."\
+` — Да, верно, — радостно кивает Арквейд.@
+` — …Хотя мне всё ещё неясно…@ Зачем это вампиру?@
+`	Убивать людей… Но не позволять им умереть, а использовать их. Какой дурной вкус.\
 
 
-; ??<?>=??????:?02(??)<???????(?)>
+
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
 
-`"You're right, those vampires do have bad taste.@ But that's something only the Dead Apostles do.@ Those that were always vampires from the very beginning do not do such things."@
+` — Ты прав, вкус у них дурной.@ Но это делают только Мёртвые Апостолы.@ Те, что были вампирами изначально, таким не занимаются.@
 br
-`"----?"@
-` Always vampires from the very beginning ......?@
+` — …?@
+` Были вампирами изначально?..@
 br
-`"---I remember.@ You said there's two types of vampires, those who were vampires originally, and those who were humans.@
-` ...... When I heard that before, it kind of stuck in my head, I thought it was a little odd.@ So what exactly do you mean by those who weren't originally vampires?"\
+` — …Помню.@ Ты рассказывала, что есть два типа вампиров — те, кто были ими изначально, и те, кто не были.@
+`	Эта фраза засела у меня в голове, посольку показалась мне немного странной.@ Что ты имела в виду под теми, кто не был вампиром изначально?\
 
-`"Simple, I'm just saying that Dead Apostles used to be humans.@ They either gained immortality through magic or became servants of the True Ancestors that sucked their blood.@
-` ...... Shiki, you said it was bad taste to use killed humans, but that's just the least of it.@ There are other vampires who think up of worse games."@
-`"---A game---what is that?@ You guys kill for fun, and use their dead bodies as toys......!?"\
+` — Ну, это просто. Мёртвые Апостолы когда-то были людьми.@ Они достигли бессмертия с помощью магии, либо стали слугами вампиров, которые их укусили.@
+`	Шики, ты сказал, что убивать людей это признак дурного вкуса, но это ещё мелочи.@ Другие вампиры придумывают игры и похоже.@
+` — Игры… Ты о чём?@ Вы убиваете людей для развлечения и потом играете их трупами?!..\
 
-`"...... I won't deny that.@
-` For vampires, "amusement" is the same as breathing.@ For those who were once human but gain imperfect immortality, their greatest enemy is boredom.@
-` They didn't have a reason to become immortal to start with, so once they gained immortality, they lost all kinds of greed.@
-` Their goal was immortality itself, so I guess that's just the way things are."\
+` — Не стану отрицать.@
+`	Для вампиров «развлечения» равнозначны дыханию.@ Для людей, что достигли ущербного бессмертия, величайшей проблемой является скука.@
+`	У них не было целей, требующих бессмертия, потому достигнув его они теряют все желания.@
+`	Их целью было само бессмертие, так что как-то так.\
+;О_о? =____=
 
-`"----They're bored so they want to play?@ Don't be ridiculous.@ Isn't it enough that they won't age or die?@ Do they really need anything else?"\
-`"That's what I said, they got everything they wanted.@ After that, there is no meaning to existence.@
-` As soon as someone realizes they have no value---that their life is stopped, then their meaning of existence disappears too.@
-` Immortality is also another word for death."\
-
-
-`"So they started to wear down and they started to create their own amusement, as if to tell themselves they could have fun as long as they lived.@ ---That's their beginning.\
+` — Им скучно и они хотят поиграть?@ Что за чушь.@ Разве недостаточно, что они не могут постареть и умереть?@ Им ещё что-то надо?\
+` — Я уже сказала, что они достигли всего, чего хотели.@ После этого в их жизни уже нету смысла.@
+`	Как только кто-то понимает это… Что их жизнь остановилась… Тогда и смысл их существования тоже исчезает.@
+`	Бессмертие это просто другой тип смерти.\
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+` — Они стали уставать и начали придумывать себе развлечения, словно пытаясь себе доказать, что могут веселиться пока живы.@ …Так всё и началось.\
+
+
+
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
 
-`"They copy humans and see themselves in a game as lords of a castle expanding their territory.@
-` I guess you could call it a country of The Dead.@ It seems they got more enjoyment out of that than they expected."@
+` — Они копируют людей и играют в лордов, расширяющих свою территорию.@
+`	Территорию, которую можно назвать страной мертвецов.@ Похоже, что это оказалось веселее, чем они предпологали.@
 br
-` ...... She speaks as if she was talking of other people.@
-` Arcueid should be one of those, but she certainly doesn't seem like she has that sort of hobby.\
+` …Она говорит так, словно сама не вампир.@
+` Хоть она и одна из них, но похоже, что у неё нет такого хобби.\
 
-`"Well, we'll change the topic, but the Dead Apostles were originally human.@
-` There are a few cases where they became vampires through their own magical research, but the majority of them were humans who had their blood sucked.@
-` They are immortal, but they can't last forever.@ They can only be immortal if they drink the blood of others.@
-` Didn't I say their immortality was imperfect?@ If they can't feed on humans then their immortality is gone."\
+` — Ну, мы слгка сменим тему, но Мёртвые Апостолы когда-то были людьми.@
+`	Несколько стали вампирами благодоря своим магическим изысканиям, но у большинства просто выпили кровь.@
+`	Они бессмертны, но не вечны.@ Цена их бессмертия — кровь других.@
+`	Я ведь уже говорила, что их бессмертие ущербно?@ Если они не смогут пить чужую кровь, то оно исчезнет.\
 
-`"But, if they openly fed on humans, then the existence of "vampires" would be revealed.@ Even if they don't, just by being there, they distort the world around them.@ That would attract the attention of agents of the Church, like Ciel."@
-`"...... Um, so you mean that vampires can't do what they want?"\
+` — Но если они будут открыто кормиться, то тогда о существовании «вампиров» станет известно.@ Но даже без этого одно их присутствие искажает мир вокруг них.@ И это привлекает агентов церкви, таких как Сиэль.@
+` — …То есть вампиры не могут делать то, что им хочется?\
 
-`"Yes, if they break their agreement with the Church and move about freely, they would be immediately discovered and annihilated.@
-` So the majority of the Dead Apostles make subordinates that can bring them blood as they sleep.@
-` Sucking blood and giving the dead body some blood of their own, they create their minions who do their work for them.@ We simply call those "The Dead."\
+` — Да, если они нарушат соглашение с церквью, и начнут творить что им вздумается, то их немедленно найдут и уничтожат.@
+`	Поэтому большинство Мёртвых Апостолов создают себе подчинённых, которые собирают для них кровь пока они спят.@
+`	Они создают себе слуг выпив кровь и дав трупу немного своей.@ Мы их зовём «упырями».\
 
-`"...... Hmm...... So what you killed before was kind of like a soldier for the Dead Apostles?"@
+` — Хмм… То есть то, что ты там убила, было чем-то вроде солдата Мёртвого Апостола?@
 
 
-; ??<?>=??????:?02(??)<???????(?)>
+
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
 
-`"Not so much a soldier as a puppet.@ The Dead Apostles control the dead bodies by skipping the process of becoming a vampire.@ The Dead are completely connected to their parent vampire.@
-` In order for them to survive, they attack others to eat their flesh, but more than half of that energy goes to their master.@
-` Like a queen bee nourished by the worker bees, the Dead Apostles can use The Dead to increase their power while they sleep."\
+` — Скорее марионеткой, чем солдатом.@ Мёртвые Апостолы контроллируют тела пропустив процесс превращения в вампира.@ Упыри во всём зависят от того, кто их создал.@
+`	Чтобы выжить они нападают на людей и пожирают их плоть, но большая часть энергии уходит их создателю.@
+`	Мёртвые Апостолы используют упырей, чтобы увеличить собственные силы во время сна.\
 
 
-; ??<?>=??????:??02(???????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
 
-`"...... My 'enemy' can't be found easily because he's using a lot of The Dead.@
-` He only dirties his hands once.@ After that, he simply controls The Dead while he sleeps and expands his territory.@
-` ---They say many bodies are found in the recent supposed serial killings, but those are actually just failures.@
-` To tell the truth, there are over a hundred victims in this city.@
-` But only a small amount, the ones discovered, are the victims in the news."\
+` — …Моего врага непросто найти, поскольку он создаёт множество упырей.@
+`	Самостоятельно он действует только единожды.@ Потом он просто управляет упырями во сне и расширяет свою территорию.@
+`	Говорят, что нашли множество трупов, связанных с этими серийными убийствами, но это просто ошибки.@
+`	По правде говоря, количество жертв уже перевалило за сотню.@
+`	Лишь малуя часть, тех кого находят, упоминают в новостях.\
 
-;CD-DA??
+
 playstop
 
-; ?????<???????(?)>
+
 cl a,%type_crossfade_fst
 
 
-`"Wha----"@
+` — Что…@
 br
-` Over a hundred---?@
-` There are that many that had their blood sucked?@
-` And all those people suck the blood of others to make them into monsters like themselves, like that wandering, lifeless thing earlier---\
+` Больше сотни?..@
+` Уже у столь многих выпили кровь?@
+` И все они теперь пьют кровь других, превращая их в таких же монстров, подобных той безжизненной бездумной твари…\
 
-`"......... That's ridiculous."@
-` Three days ago.@
-` I remember how all those people in the hotel were killed for no reason.@
-` I was there but I didn't see it, so I can only visualize and can't really tell what kind of violence it was.@
-` It's still the same.@
-` I can't fathom the existence of vampires that suck human blood, just to increase their own territory.\
+` — Безумие.@
+` Три дня назад.@
+` Я помню, что люди, бывшие в отеле, были убиты безо всякой на то причины.@
+` Хоть я и был там, но этого не видел, так что я могу только представить какое жуткое насилие там происходило.@
+` И сейчас то же самое.@
+` Я не могу понять вампиров, пьющих человеческую кровь, только ради расширения своей территории.\
 
-` ---Just,
-` without reason, without even recognition, if someone close to me died liked that, how would I act?@
-` I don't want to imagine it, but just a bit.@
-` I imagine Akiha being drained of blood and discarded like trash.@
+` …Просто,
+` Без причины, даже без признания, если бы кто-то близкий мне так умер, то как бы я поступил?@
+` Не хочу об этом думать, но заставляю себя.@
+` Я представляю обескровленную Акиху.@
 br
-`"K----"@
-` What makes me mad---is that this worst case scenario could happen at any minute in this town and I didn't even have a clue about it before.\
+` — K…@
+` Что меня действительно бесит… Так это то, что это может произойти в любую секунду, где угодно в этом городе, а я об этом раньше и не подозревал.\
 
 
-; ??<?>=??????:?(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
 
-`"I knew you would be angry, Shiki.@
-` ...... I didn't want to talk about it, because for the prey---for you guys, this is an inexcusable evil.@
-` This is not something you want to hear, is it?"@
-`"...... That's right.@ After hearing this, I don't know what to do now."@
-` ...... That's right.@
-` There's no way I can live in peace like I did until now, knowing that someone I know may become a victim tomorrow.@
-` Since I found out about it,
-` I have to fight this vampire just like I did Nrvnqsr.\
+` — Я так и знала, что ты будешь злиться.@
+` 	Я не хотела об этом говорить, потому что для жертв… Для вас это непростительное зло.@
+`	И это совсем не то, о чём тебе хотелось бы знать, верно?@
+` — Да.@ Я теперь не знаю, что мне делать.@
+` Верно.@
+` Теперь, когда я знаю, что кто-то, кого я знаю, может завтра стать жертвой, я просто не смогу жить спокойно.@
+` И, поскольку я об этом узнал,
+` то мне придётся драться с этим вампиром, как ранее с Нероном.\
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-; ??:?????????<???????(?)>
+
 bg "image\event\nero_e04.jpg",%type_crossfade_mid
 
 
 
 
-`"............... Da--"@
+` — Бл…@
 br
-` Such a fight.@
-` Do I have to fight again like that when it almost makes me go insane?\
+` Такая битва.@
+` Неужели мне снова придётся сражаться, зная, что я могу от этого сойти с ума?\
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-; ??A(?)<???????(?)>
+
 bg "image\bg\bg_28b.jpg",%type_crossfade_fst
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-;CD-DA????????
+
 play "*9"
 
-`"Oh, Shiki, you're making that face again.@
-` You can relax.@ Even though the avowed enemies of the vampires do not have a presence in this country, I'm still here.@
-` Didn't I say earlier my purpose was to execute vampires?"@
-` I don't know where that heavy atmosphere went because Arcueid instantly becomes cheerful.\
+` — Ох, Шики, опять у тебя это выражение лица.@
+`	Расслабься.@ Хотя извечные враги вампиров в этой стране и не присутствуют, но я то здесь.@
+`	Разве я не сказала, что я здесь чтобы их уничтожить?@
+` Не знаю, куда делась мрачная атмосфера, поскольку Арквейд моментально стала жизнерадостной.\
 
-`"Yeah, I remember.@ ...... But, you're a vampire too, right?@ Why do you side with us humans?"@
-`"I'm not really siding with you humans, but I'm doing it because I don't have anything else to do."@
-`"----?"@
-` She doesn't have anything else to do?@ I still don't understand her.@
-`"Well, doing that does bring the Dead Apostles after me, but you beat Nrvnqsr who was pursuing me, didn't you Shiki?"\
+` — Угу, я помню.@ Но ты ведь тоже вампир, верно?@ Так почему ты на стороне людей?@
+` — Ну, я в общем-то не на стороне людей. Я делаю это потому что мне больше нечем заняться.@
+` — …?@
+` Ей больше нечем заняться?@ Я её совсем не понимаю.@
+` — Ну, это конечно приводит к тому, что Мёртвые Апостолы на меня нападают, но ты ведь убил Хаоса, верно, Шики?\
 
 
-; ??<?>=??????:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
 
-`"So now I can go back to the original plan and defeat my 'enemy'.@
-` You can go back to living your normal life now, and you don't have to associate with me anymore."@
-` She smiles as if she is happy about something.\
+` — Так что я могу вернуться к изначальному плану и победить своего врага.@
+`	Так что можешь вернуться к своей обычной жизни и порвать все связи со мной.@
+` Она улыбается, словно радуясь чему-то.\
 
-`"..............."@
+` — …@
 
 
-; ??<?>=??????:?03(?????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
 
-`"Shiki?@ Why are you making that troubled face again?"@
-`"Because I'm troubled.@ This is something that involves the city I live in."@
+` — Шики?@ Почему у тебя опять обеспокоенное выражение лица?@
+` — Потому что я обеспокоен.@ В это ввязан мой город.@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"I said you shouldn't worry.@ In two or three days it'll all be over, so there won't be any more victims."@
+` — Я ведь сказала, что можешь не волноваться.@ Через пару дней всё закончится и жертв больше не будет.@
 br
-` Yeah, honestly, I don't want to be involved.@
-` ---But, saying that line...
-` Shouldn't I, the one actually living in this city, say that line instead of Arcueid?\
+` Если честно, то мне не хочется во всё это ввязываться.@
+` …Но, эта фраза…
+` Не должен ли я, живущий в этом городе, говорить её вместо Арквейд?\
 
-`"...... Arcueid.@ Um, can I ask a question?@ This 'enemy' you speak of, is he strong?"@
-`"Well, he should be many times superior than The Dead earlier.@ I haven't met him this time, but he has been latent for eight years so maybe he's a Class Five by now."@
-`"...... Class Five?@ I don't get it, but does that mean he's stronger than Nrvnqsr?"@
-`"Not a chance.@ Nrvnqsr was special.@ He was a pure, supreme vampire that would be difficult to defeat even with my full power.@ Compared to him, this enemy is pretty weak."\
+` — …Арквейд.@ Слушай, можно спросить?@ Этот враг, о котором ты говоришь, он ведь силён?@
+` — Ну, он будет во много раз сильнее, чем тот упырь.@ Я его в этот раз ещё не встречала, но он несколько лет осторожничал, так что сейчас он наверно уже пятого уровня.@
+` — …Пятого уровня?@ Это значит что он сильнее Нерона?@
+` — Нет конечно.@ Хаос был особенным.@ Он был чистым, превосходным вампиром, которого мне было бы тяжело победить даже будь я на пике своих сил.@ По сравнению с ним этот враг слаб.\
 
-`"----Oh.@ Then---there's no way you'll be defeated."@
-` I breathe out in relief.@
+` — …Ох.@ Значит… Ты гарантированно победишь.@
+` Я облегчённо вздыхаю.@
 
 
-; ??<?>=??????:?03(?????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
 
-`"Hm, who knows?@ A few days earlier and he wouldn't be a problem, but now I'm just recovering.@ The possibility that he has more power is actually high."@
-`"...... Recovering?@ Are you sick or something, Arcueid?"@
-`"Yeah, I still have the effects from when you killed me and I don't think I'll be fine for at least a few more days."@
-`"----Ah."@
-` That's right--the reason why Arcueid is weak... it isn't anyone's fault but mine.\
+` — Хм, кто знает…@ Неделю назад он не был бы проблемой, но теперь я восстанавливаюсь.@ Вероятность, что он окажется сильнее довольно высока.@
+` — …Восстанавливаешься?@ Ты что, заболела, Арквейд?@
+` — Ну да, у меня ещё не прошли все проблемы от того, что ты меня убил. И думаю, что мне на восстановление надо ещё пару дней.@
+` — …А.@
+` Верно… То что Арквейд слаба… Это моя вина.\
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"But it's okay.@ I'll defeat him for sure even if it kills me, so you don't need to worry about this city."@
-`"...... Idiot, the one I'm worried about is you."@
+` — Но ничего.@ Я одержу победу, чего бы мне это не стоило, так что можешь не волноваться об этом городе.@
+` — …Дурочка, я о тебе волнуюсь.@
 
-; ??<?>=??????:??(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
 
-`"Eh?@ Why are you worried about me, Shiki?"@
-` Her eyes display true confusion.\
+` — Э?@ Почему?@
+` Она искренне поражена.\
 
-` ...... Well, of course I'm worried.@
-` I was relieved to hear that this enemy was weaker than Nrvnqsr, because I thought there would be no chance of Arcueid being defeated.@
-` Arcueid...
-` I don't even want to imagine Arcueid getting hurt.\
+` …Ну, само собой я буду волноваться.@
+` Я обрадовался тому, что этот враг слабее Хаоса только потому, что думал, что Арквейд точно выиграет.@
+` Арквейд…
+` Даже думать не хочу, что она проиграет.\
 
-`".................."@
-` It really is weird.@
-` Why---why can I not leave her alone?@
-` Certainly I have the responsibility to bear for killing her.@ I also feel guilty that she is weak right now because of that.@
-` But, even if that wasn't the case, I still couldn't leave her alone.\
+` — …@
+` Странно.@
+` Почему… Ну почему я не могу просто забить на неё?@
+` Конечно, на мне лежит вина за то что, я её убил.@ Равно как и ответственность за то, что она после этого ослабела.@
+` Но, даже если бы это было не так, то я всё равно не смог бы её бросить.\
 
-` ---I thought about it before too, but......
-` as expected, this might have nothing to do with logic.@
-` ...... More than the fear that I may even die...
+` …Я и раньше об этом думал, но…
+` Похоже что это действительно не подчиняется логике.@
+` …Сильнее даже чем страх смерти…
 
-` The emotion that I want to help Arcueid is much stronger.\
-
-
-`"About what we talked about before, Arcueid."@
-`"About what?"@
-`"You know, about whether I was Senpai's or your ally."@
+` Желание ей помочь намного сильнее.\
 
 
-; ??<?>=??????:??02(???????)<???????(?)>
+` — Кстати, на счёт того, о чём мы говорили ранее.@
+` — Ты о чём?@
+` — Ну как же? О том твой я союзник, или Семпай.@
+
+
+
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
 
-`"Wait, please hear me out.@
-` You know, um---you certainly don't have any common sense, you're selfish, and you're hard to handle."@
+` — Постой, просто выслушай.@
+`	Знаешь, ну… У тебя, конечно, нет здравого смысла, ты эгоистича, да и общаться с тобой непросто.@
 
 
-; ??<?>=??????:??01(??????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t05b.jpg",%type_crossfade_fst
 
 
-` Arcueid looks at me with a sour expression.@
-` Ignoring it, I let my true feelings out.\
-; ?????<???????(?)>
+` Арквейд смотрит на меня грустными глазами.@
+` Не смотря на это я продолжаю изливать свои чувства.\
+
 cl a,%type_crossfade_fst
 
 
-`"...... But, well, it really isn't boring when I'm with you.@ I like you.@
-` So, can I see it out until you defeat this enemy ...... What I mean to say is that, I won't be Senpai's ally, but yours..."@
-` I steal a glance at Arcueid's face.@
+` — …Но знаешь, с тобой не скучно.@ Ты мне нравишься.@
+`	Так что не могу ли я сопровождать тебя до победы над этим врагом… Я хочу сказать, что буду твоим союзником…@
+` Я бросаю взгляд на её лицо.@
 
 
-; ??<?>=??????:??01(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
 
 
-`"------Really?"@
-` Looking very surprised, she hesitantly returns my gaze.\
+` — Правда?@
+` Она робко поднимает на меня изумлённые глаза.\
 
-`"...... Well, yeah.@ Even I think there's something wrong with me, but I'm already a part of this.@ And, I can't just overlook the problems going on in the city I live in."@
-`"So, you mean---"@
-`"Yeah.@ If you're still weak, and if you say you need my power, I'll work with you.@
-` ...... Um, I might be just a burden, but..."\
+` — …Ну, да.@ Даже мне это кажется странным, но я уже во всё это ввязался.@ И я не могу просто взять и забыть обо всём что здесь происходит.@
+` — Так значит…@
+` — Да.@ Если ты всё ещё не восстановилась, и тебе понадобится моя помощь, то только скажи.@
+`	Ух… Может я буду просто помехой, но…\
 
 
-; ??<?>=??????:?02(?????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_fst
 
 
-`"Yeah---!@ If you help me, there's nothing we can't do---!"@
-` ...... Her face beams brilliantly and she seems extremely happy.@
+` — Да!..@ Вместе мы можем всё!..@
+` …Она прямо светится от счастья.@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"But, is it okay?@ Shiki, you may have to face death again."@
-`"I'm ready.@ And, I think that's why I have these eyes to begin with.@----When I was a child, someone told me this.@
-` That if I have the power others do not, I should do things that others cannot.@ I think this is that kind of thing."\
+` — Ты уверен?@ Шики, ты ведь снова можешь оказаться на пороге смерти.@
+` — Я готов.@ И я думаю, что ради всего этого мне и даны мои глаза.@ Кое-кто сказал мне в детстве…@
+`	…Что если у меня есть способность, которой не обладает никто другой, то и делать я должен то, на что другие неспособны.@ И думаю, что это как раз такой случай.\
 
 
-; ??<?>=??????:?03(?????????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
 
-`"Oh?@ ...... I don't really know your circumstances."@
+` — О?@ Я не знаю что тобой движет.@
 
 
-; ??<?>=??????:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
 
-`"But, that sounds good."@
-` ...... Arcueid is in an incredibly good mood.@
-` And being with her puts me in a good mood as well.\
-;CD-DA??
+` — Но я рада это слышать.@
+` У Арквейд поразительно хорошее настроение.@
+` И это поднимает настроение и мне.\
+
 playstop
 
-`"But, what do we do now?@ Do you want to search for more of The Dead like before?"@
+` — Но что нам теперь делать?@ Будем снова искать упырей?@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"Yeah, I think that's all we can do for now.@ The one before was the twelfth, so I don't think there's much more.@ The parent vampire will have to come out once they all are destroyed, so we have to hunt the remaining ones for now.@
-` Is that still okay?", she asks.\
+` — Ага. Это всё что мы сейчас можем.@ Этот был двадцатым, так что их наверное уже немного осталось.@ Вампиру придётся показаться, когда все они умрут, так что пока будем охотиться на них.@
+`	Ты не против?, — спрашивает она.\
 
-`"Anything is fine, I'm just with you.@ If you lead, then I'll follow.@ --Well, shall we start again?"@
-`"Ah, no, that's good for tonight.@ They usually follow a fixed route, and the other Dead will probably not be out tonight.@
-` Since they are fewer in number, I don't think he'll let them all come out at once."@
-`"---Oh really?@ But, doesn't that mean this 'enemy' will try to hide The Dead from you, Arcueid?"\
+` — Вполне.@ Куда ты, туда и я.@ Ну что, начнём?@
+` — А, нет. На сегодня хватит.@ Они обычно следуют одному пути и сегодня уже вряд-ли выйдут.@
+`	Не думаю, что он позволит всем сразу бродить по улицам, так как их уже мало.@
+` — …Вот как?@ То есть этот враг попытается прятать от тебя упырей?\
 
-`"Basically.@ But since this 'enemy' is a vampire, he needs to steal the blood and energy of others.@
-` So, even though he knows I'm searching for them, he has to send The Dead out to get the minimal blood he needs."@
+` — В общем-то да.@ Но он ведь вампир, потому ему необходимы жизни и кровь людей.@
+`	Так что даже зная, что я его ищу, он будет посылать упырей за тем минимумом, что необходим ему для существования.@
 br
-` ---[]*sigh*@
-` Then, the minimal Dead he sent out was that man from before, huh.\
+` *вздох*@
+` Значит тот человек и был таким «минимумом».\
 
-`"So, searching further tonight will be useless, I think."@
-`"...... Well, I don't mind.@ It is tedious though."@
-`"Yeah, hunting vampires is tedious work.@ We have to find the coffin of this 'enemy' somewhere in this city, so it won't be easy."@
+` — Так что сегодня уже искать бесполезно, по моему.@
+` — …Ну, я не против.@ Хотя это и нудно.@
+` — Ну да, охота на вампиров — нудная работа.@ Нам надо найти гроб врага в этом городе, так что это непросто.@
 
 
-; ?????<??????(?)>
+
 cl c,%type_lshutter_mid
 
 
-` Arcueid lets go of my hand and jumps back softly.\
+` Арквейд отпускает мою руку и отскакивает назад.\
 
-`"Arcueid......?"@
+` — Арквейд?..@
 
 
-; ??<?>=??????:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 
-`"Let's say goodbye for tonight.@ We'll meet tomorrow.@
-` With her dance-like steps, she watches me as she gets farther away.@
-`"Tomorrow---wait, where should we meet......!?"@
+` — Давай на сегодня распрощаемся.@ Встретимся завтра.@
+` Шагая легко, словно в танце, она удаляется, не отрывая от меня взгляда.@
+` — Завтра… Постой, а где?!..@
 
 
-; ??<?>=??????:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
 
-`"Here's fine.@ The time---yeah, around ten o'clock should be fine."@
-` With a smile, she makes that promise.\
+` — Думаю здесь.@ Насчёт времени… Часов в десять.@
+` Она делает это обещание с улыбкой.\
 
 
-`"Good night, Shiki.@ I'll see you here tomorrow!"@
-` And,
-` waving her hand, Arcueid disappears.\
+` — Спокойной ночи, Шики.@ До завтра!@
+` И,
+` помахав рукой, она исчезает.\
 
-; ?????<??????(?)>
+
 cl c,%type_lshutter_mid
 
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-; ????(??)<?????(?)>
+
 bg "image\bg\bg_32d.jpg",%type_lcartain_slw
 
 
-` ---I get back to the mansion.@
-` It's about one-thirty in the morning.@
-` The mansion is completely dark.@
+` …Я вернулся в особняк.@
+` Сейчас где-то пол второго ночи.@
+` В особняке нету ни одного проблеска света.@
 
 br
-`"......... This can't be good."@
-` I put my hand on the mansion gate.@
-` Ka-chang.@
-` A sturdy chain holds it closed.@
+` — …У меня плохое предчувствие.@
+` Я берусь за ворота.@
+` Звяк.@
+` Крепкая цепь не даёт их открыть.@
 br
-`"---Dang.@ I shouldn't cut this."@
-` I think a bit.@
-` Then, I decide to climb over the gate.\
+` — …Блин.@ Не стоит это разрезать.@
+` Я недолго обдумываю ситуацию.@
+` Потом я решаю перебраться через ворота.\
 
-; ??????<?????(?)>
+
 bg "image\bg\bg_48d.jpg",%type_lcartain_mid
 
-` ...... I'm exhausted.@
-` After sneaking over the wall like a thief, I quietly make my way to the doorway.@
-` The gate was locked, but the door isn't.@
-`"...... It must have been Hisui."@
-` I give a sigh of thanks.@
+` …Я смертельно устал.@
+` Забравшись в особняк словно вор, я быстро иду к двери.@
+` Дверь, в отличии от ворот, не заперта.@
+` — …Наверное Хисуи помогла.@
+` Я благодарно вздыхаю.@
 br
-` So as not to wake Akiha, Kohaku-san or Hisui, I sneak my way through the mansion.\
+` Осторожно, чтобы никого не разбудить, я пробираюсь сквозь особняк.\
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
-; ?????(?)<?????(?)>
+
 bg "image\bg\bg_40d.jpg",%type_lcartain_mid
 
 
-`"------Whew."@
-` Letting out a breath, I lay down on my bed.@
-`".................."@
-` My promise to Arcueid.@
-` Maybe it's fate, but you've gotten yourself tangled up in trouble again, Tohno Shiki.@
+` — …Фух.@
+` Облегчённо вздохнув я ложусь на кровать.@
+` — …@
+` Моё обещание Арквейд.@
+` Быть может это твоя судьба — ввязываться в неприятности, Тоно Шики.@
 br
-`"----Could I help it?@ I just can't leave her alone."@
-` Or maybe I didn't want to leave her alone?@
-`"Well...... I do like Arcueid."@
-` But is that love?@
-` I don't even know my feelings.\
+` — …А что поделать?@ Я же не мог её бросить.@
+` Или просто не хотел?@
+` — Ну… Арквейд мне нравится.@
+` Но любовь ли это?@
+` Я и сам не знаю.\
 
-` At any rate, it looks like I'll be helping Arcueid once again starting tomorrow.@
-` So for now, I shouldn't think of anything else but getting a good night's sleep----\
+` Так или иначе, но, начиная с завтрашнего дня, я буду помогать Арквейд.@
+` Так что первоочерёдной задачей для меня будет выспаться как следует…\
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 !w2000
 
-; ?????(?)<???????(?)>
+
 bg "image\bg\bg_40d.jpg",%type_lshutter_mid
 
 
 br
-` ---I can't sleep.@
-` If I close my eyes, so many things come to mind.@
-` About Arcueid.@
-` About this vampire lurking the streets.@
-` ...... About the black-clothed Senpai.\
+` …Не могу уснуть.@
+` Слишком много мыслей приходит, когда я закрываю глаза.@
+` Об Арквейд.@
+` О вампире, что бродит по улицам.@
+` …О Семпай в чёрной одежде.\
 
-`"----"@
-` ...... I can't sleep.@
-` At times like this, reading is good.@
-` I know there was a book I was reading before----\
+` — …@
+` …Не могу уснуть.@
+` В такие моменты надо почитать.@
+` Я помню, что раньше читал какую-то книгу…\
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-; ??<???????(?)>
+
 bg "image\bg\cmo_15.jpg",%type_crossfade_slw
 
-;S.E."??????????…?(???)"
+
 waveloop se10
 
 br
@@ -932,88 +933,88 @@ br
 br
 br
 br
-`   The first feeling was rather one of pity.@
+`   Первым чувством была жалость.@
 !w1000
 
 \
 br
-` Not anger, not despair.@
-` Just, I thought everything before my eyes was pitiful.@ (Of course, the most pitiful thing is myself.)\
+` Не злость, не отчаянье.@
+` Просто всё в моих глазах выглядело жалко.@ (Само собой самым жалким был я сам.)\
 
-` Life which breaks down without limit.@
-` Daily life which fades without limit.@
-` Time which is forgotten without limit.@
+` Жизнь, которая постоянно обрывается.@
+` Повседневность, которая постоянно исчезает.@
+` Время, которое постоянно забывается.@
 br
-` Everyone only falls.@
-` And yet everyone still struggles desperately to continue existing, and when they judge that it is not possible, they continue to reproduce.@
-` Continuing to reproduce.@
-` In the end, even that dies, but there is no recompensation.\
+` Все могут лишь падать.@
+` И всё же все пытаются продлить своё существование, а рассудив, что это невозможно, они продолжают воспроизводство себе подобных.@
+` Продолжение воспроизводства.@
+` В конце концов даже это умирает, не оставив компенсации.\
 
-` Of course, it is not those who die who are not recompensated.@
-` We had no hope to begin with.@
-` What is not recompensated are the attempts.@
-` The noble wish, the yearning for eternity which everyone longs for yet can not achieve.@
+` Конечно это не мёртвые остаются без компенсации.@
+` У нас с самого начала нет на это надежды.@
+` Нет, без компенсации остаются попытки.@
+` Благородное желание, стремление к вечности, которую хотят все, но никто не может достичь.@
 br
-` I have no interest whatsoever in the things that break down.@
-` If I could see death and understand it, maybe I'll take a bit of an interest.\
+` Мне не интересно то, что может сломаться.@
+` Если бы я мог увидеть и понять смерть, то может это и вызвало бы у меня небольшой интерес.\
 
 br
-` A repetition nearly impossible to measure, yet this wish repeats itself.@
-` I thought to replace this almost-comical cycle of wishes with one pure thing.@
+` Повторение почти невозможно измерить, но это желание повторяется снова и снова.@
+` Я хотел заменить этот смешной цикл желаний одной чистой вещью.@
 br
-` There is no need to state the method.@
-` A wish becomes a result after it is granted.@
+` Нет нужды описывать метод.@
+` Желание становится результатом после того, как оно удовлетворено.@
 br
-` I lived solely for that reason.@
-` It could not be termed "conviction".@
-` Just, the first word I learned happened to be "eternity".\
+` Я жил только ради этого.@
+` Это нельзя назвать «убеждением».@
+` Просто первым словом, что я выучил, была «вечность».\
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-; ?????4(?????)<???????(?)>
+
 bg "image\bg\cmo_10.jpg",%type_crossfade_slw
 
 
-` ...... Oh?@ So you intend to get the eternity closest to you?\
+` …О?@ Так ты собираешься взять ближайшую к тебе вечность?\
 
-` Of course not.@ They are only a species that age slower and die harder.@ I am becoming one of them only because this body has reached its limit.@ If I am to go farther on, it will take time in this body.\
+` Конечно нет.@ Они просто медленней стареют и их тяжелей убить.@ Я стану одним из них только потому, что это тело достигло своего предела.@ Если я собираюсь пройти дальше, то мне ещё понадобится время в этом теле.\
 
-` It's ironic that you, the one that goes after eternity, hurries with things.@
-` So you plan on leaving here tomorrow?\
+` Забавно, что ты, стремящийся к вечности, так торопишься.@
+` Значит, ты отправляешься завтра?\
 
-` I'll leave the Burial Agency to you.@ In the first place, there is only one empty seat for the priesthood.@ I used up all my father's inheritance getting this far, so it is about time I quit.\
+` Я оставлю Похоронное Агенство тебе.@ В конце концов среди жрецов есть лишь одно свободное место.@ Я потратил всё наследство на то, чтобы добраться до сюда, так что пора мне заканчивать.\
 
-` ...... Well, that's fine.@ So you are going to complete your magic theory.@ I have no intention of leaving here, and I can't live with you.@ Well, fortunately, I am a woman.@ I'll quickly bear a child and tell it all about you.\
+` …Ну, ладно.@ Значит ты собираешься завершить свою магическую теорию.@ Я не собираюсь уходить, и не смогу жить с тобой.@ Ну, к счастью, я женщина.@ Я быстро рожу ребёнка и расскажу ему о тебе.\
 
-` Oh?@ What will you tell it, Narbarek?\
+` О?@ И что же ты расскажешь, Арбарек?\
 
-` Let's see.@ I'll tell it something like--After around a hundred years, another newcomer Dead Apostle will appear.@ It is pointless to take notice of him, so ignore him.\
+` Дай подумать.@ Пожалуй что-то вроде… Спустя сотню лет появится новый мёртвый апостол.@ Бессмысленно обращать на него внимание, так что просто его проигнорируй.\
 
-` No, you wouldn't need to wait a hundred years.@ Just like here, I will rise quickly to the top.@ This body will become the most superior vampire, so ten years will be enough.\
+` Нет, тебе не придётся ждать сто лет.@ Я быстро достигну вершины, как сделал это здесь.@ Это тело станет самым идеальным вампиром, так что мне хватит десяти лет.\
 
-` How foolish.@ Even if it is you, you would need at least a hundred years if you start over from The Dead.@ Their world's intensity is nowhere as nice as ours.\
+` Как глупо.@ Даже тебе придётся потратить сто лет, чтобы достичь этого, начав с упыря.@ Их мир в этом отношении намного злее нашего.\
 
-` Using direct methods, then you would be right.@
-` But if I become the strongest vampire from the very beginning, their world's rules will not apply to me.\
+` Ты права, но это если идти прямым путём.@
+` Но если я сразу стану сильнейшим, то их правила не будут иметь ко мне никакого отношения.\
 
-` ...... What do you mean by that?\
+` …О чём это ты?\
 
-` It is simple.@
-` As a priest of the Church, you certainly know that Dead Apostles' powers are affected by the True Ancestor that sucked their blood.@
-` Therefore---the solution is very simple.@
+` Всё просто.@
+` Будучи частью церкви ты должна знать, что на силы мёртвых апостолов влияет то, кто из истинных предков выпил их кровь.@
+` Так что… Решение очень просто.@
 br
 br
-` If I wish to become the strongest Dead Apostle,
-` this blood of mine,
-` it must be sucked by the strongest of the True Ancestors---\
+` Если я хочу стать сильнейшим мёртвым апостолом,
+` то мою кровь,
+` должен выпить сильнейший истинный предок…\
 
-;S.E.??
+
 wavestop
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 !w3000
