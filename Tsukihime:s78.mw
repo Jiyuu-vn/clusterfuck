@@ -1,5 +1,7 @@
 [[Tsukihime|[Назад]]]
 
+Hemet
+
 <pre>
 *s78
 
@@ -7,51 +9,50 @@
 bg "image\bg\bg_31a.jpg",%type_nowaitdisp
 
 
-`"...... Kuhh!"@
-` It's impossible.@
-` I was almost killed by just one black dog.@ If I become her lookout, who knows what'll happen next.\
+` — Гх!..@
+` Это безнадёжно.@
+` Меня чуть не убила одна эта чёрная псина.@ Кто знает, что меня дальше ждет, если буду у неё на шухере стоять.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Hey, hurry up and answer.@ I don't think I'm being unreasonable here."@
-`"......"@
-` She doesn't understand.@ It's evident she can't see that she's recklessness incarnate.@
-` ...... If I get involved further with her, she'll drag me past the point of no return.\
-` I've got to find a chance to escape.\
+` — Отвечай уже.@ По-моему, я ничего лишнего не прошу.@
+` «...»@
+` Она не понимает.@ Видимо, ей не дано понять, какую чушь она несёт.@
+` Если соглашусь идти с ней дальше, дороги назад не будет.\
+` Надо как-то сбежать.\
 ;CD-DA??
 playstop
 
-`"...... Alright.@ I'll listen to what you've got to say."@
-` Putting my hand on the wall, I somehow manage to stand up on my own.@
-` ...... I've got to pass through that small road if I'm to get to the main street from here.@
-` Fortunately, it's further away for her than it is for me.@
-` If I set off while pretending to talk, I can probably make it to the main street.\
+` — Ладно.@ Я тебя слушаю.@
+` Я кое-как самостоятельно поднялся, опираясь руками на стену.@
+` Выход на улицу лежит через этот узкий проход.@
+` К счастью, я к нему ближе, чем она.@
+` Если притворюсь, а потом побегу, наверное, смогу выбежать на главную улицу.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"Oh yeah.@ We still don't even know each other's names yet.@ I guess it is a bit too fast to ask you to cooperate with me."@
-` She nods in agreement.\
-`"Isn't it?@ If you tell me more details, I might agree to help."@
+` — Ах, да.@ Мы же ещё даже не представились друг другу.@ Наверное, я поспешила просить тебя о помощи.@
+` Она кивнула, как бы соглашаясь сама с собой.\
+` — Да?@ Расскажи мне побольше, может быть, тогда я соглашусь.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Really?@ Then what should I talk about first?@ ---How about the vampire incident that's got this town in an uproar?@ Or maybe I should explain what we'll be doing from now on?"@
+` — Правда?@ А с чего мне начать?@ М-м... Может быть с вампира, который навёл жугу на этот город?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-` She makes a serious face while she thinks.@
+` Тут она сделала серьёзное лицо и задумалась.@
 br
-` ----This is my only chance.\
+` Вот мой шанс.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-` ---I run as fast as I can.@
-` I run to the road that leads to the main road in one breath.@
+` Я рванул, что есть духу.@
+` В один присест покрыл расстояние до прохода на дорогу.@
 br
-`"---Huh?"@
+` — А?.. — раздалось сзади.@
 br
-` I can hear her voice from behind me.@
-` But it's too late.@
-` Now I'll definitely be able to escape---!\
+` Но уже слишком поздно.@
+` Теперь я точно смогу сбежать!..\
 
 ; ???1(?)<????>
 bg "image\bg\bg_31a.jpg",%type_nowaitdisp
@@ -60,117 +61,109 @@ wave se4
 
 quakey 2,100
 
-`"---Huh?"@
-` That's strange.@
-` As I take a few steps forward, I fall down hard on the ground.\
+` — А?..@
+` Странно.@ Я сделал ещё пару шагов вперёд и начал падать.\
 ;CD-DA?????
 play "*3"
 
 ; ??<?>=??????:??(????)<??????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_lshutter_mid
-`"Hey.@ What are you doing?"@
-` She comes over, giving me a look more filled with amazement than concern.@
-`"...... Nothing.@ I just wanted to run for a bit."@
-` ...... It seems she hasn't realized I was trying to escape.\
-` I get up.@
-` But.@
+` — Эй.@ Ты чего?@
+` Она подошла ко мне и посмотрела скорее с удивлением, нежели как-то ещё.@
+` — Ничего.@ Просто решил немного размяться.@
+` Кажется, до неё не дошло, что это была попытка побега.\
+` Я стал подниматься.@
+` Вот только...@
 ;S.E."????"
 wave se4
 
 quakey 2,100
 
-`"......!"@
-` Ow...!@ I feel an incredible pain in the joints of my foot, I can't get up---!\
+` «!..»@
+` — У-у!..@ —  по суставам ног прошлась жуткая боль. Не могу подняться!\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Ah, I guess I was a bit too hard on you back there, sorry.@ If I had softened the blow a bit when I pushed you, you might not have sprained your foot like that."@
-`"Might not---!?@ Listen, you----"@
-` I wanted to complain about her pushing me, but if she hadn't, the black dog would be chewing on my neck by now and that would have been the end of me.\
-`"...... It's okay.@ I'm grateful."@
+` — Ой, кажется, я перестаралась, прости.@ Надо было тебя полегче толкнуть, может быть не потянул бы ноги.@
+` — Может быть?!..@ Слушай, ты...@
+` Уже хотел сказать ей всё, что я думаю о её рукоприкладстве, но потом понял, что иначе бы меня загрызла та собака.\
+` — Ничего страшного.@ Я тебе благодарен.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"Thank you.@ But, why did you want to start running?@ Weren't we having a conversation?"@
-`"No, um, that's---"@
-` I can't exactly say it was a matter of convenience.\
+` — Спасибо.@ А чего ты вообще побежал?@ Мы, кажется, разговаривали.@
+` — Да, я... это...@
+` Не говорить же ей, что решил слинять при первой же возможности.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"............ Hmmmn?"@
-` She stares at me.@
-` ...... This is bad.@ You'd have to be a real idiot not to understand what I was doing.\
+` — М-м-м?...@ — она уставилась на меня.@
+` Плохи дела.@ Только круглый дурак не поймёт в чём тут дело.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"Hey, that was an indication you wanted to cooperate with me back then, right?"@
-`"........."@
-` I can't answer.@
-` I said I would listen to her, but not cooperate.@
+` — Слушай, ты так решил показать, что хочешь мне помогать, да?@
+` «...»@
+` Молчу.@
+` Я не говорил, что буду помогать, я сказал, что выслушаю.@
 br
-` ---I don't want to lie.@
+` И врать я не хочу.@
 br
-` Answering her question requires a definite "no".\
+` Но ответ — определённо «нет».\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Just so you know, I know what sort of person you are.@ Don't give me a half-hearted response.@
-` If you run away now, I'll just be going to your house next."@
-`"Wh---!?"@
-` That means that she's going to come to the mansion even if I escaped from here!@
+` — На заметку, я тебя, как облупленного вижу.@ Так что хватит мямлить.@ Ну, убежал бы ты — я бы пришла к тебе домой.@
+` — Ч?!..@
+` Так она бы за мной до самого поместья гналась!@
 \
-`"......"@
-` She's got me.@
-` If that were to happen, it wouldn't just be my problem.@ Akiha, Hisui, and Kohaku-san might be attacked by this crazy person too.@
+` «...»@
+` Я попался.@
+` Пока это только мои проблемы,@ но случись такое, я бы втянул во всё это Акхику, Хисуи и Кохаку; они могли бы пострадать от этой ненормальной.@
 br
-`"Cr...!"@
-` What a mess.@
-` It's like I never had a choice in the first place----\
+` — Вот, чё!..@
+` Ну и дела.@
+` Оказывается, с самого начала попал в капкан...\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Well, I don't mind either way.@ The vampire's familiar has already seen you, so you'll be surely attacked.@ If you go around by yourself, you might act as a decoy, too."@
-`"Wh... hey, don't tell me that..."@
+` — Ладно, мне-то всё равно.@ Фимильяр вампира тебя уже видел, так что на тебя всё равно бы напали.@ Получилась бы приманка.@
+` — Что?.. Только не говори мне...@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"Yes, that familiar recognized you as being on my side."@
-`"--------"@
-` Then that means I'll be attacked by things like that even if I don't help her.\
+` — Да, он посчитал, что ты со мной заодно.@
+` «...»@
+` Значит, на меня бы всё равно напали, даже не помогай я ей.\
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"So, what's it gonna be?@ Are you going to keep watch while I sleep, or are you going to drive off those familiars by yourself?"@
-` ...... If the results are going to be the same, I can't do anything but nod.@
+` — Что будешь делать?@ Приглядывать за мной, пока я сплю, или выманивать на себя его фамильяров?@
+` А куда деваться? Остается только согласиться с ней.@
 br
-`"----You swindler."@
-` Sighing, I nod to indicate that I will help her.\
+` — Плутовка.@ — выдохнул я и кивнул ей в знак согласия.
 
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"Okay, our contract is established."@
-` Where did all that anger from just a moment ago disappear to?@
-` Speaking in a cheerful tone, she extends her hand to me.\
-`"I guess I can finally introduce myself now.@
-` I'm Arcueid---hmm... my last name is really long, so just Arcueid is fine for now.@ I'm a True Ancestor type vampire.@ How about you?"@
+` — Прекрасно.@ Тогда по рукам,@ — весело произнесла она и протянула мне руку.
+` И куда делся тот гнев, что был здесь минуту назад?@
+` — Теперь можно и представиться?@ Меня зовут Арквейд... фамилия длинная, так что зови по имени.@ Я — истинный предок.@ А ты?@
 br
-` I heave a heavy sigh at her unprecedented introduction.@
-` ...... It's a sigh of resignation, evidence I've decided to accept this nonsensical situation.\
-`"I'm Tohno Shiki.@ Sadly, I'm just your everyday student.@ ...... I've said it before, but I'm really not going to be much use."@
-` Grasping her---Arcueid's hand, I stand up.@
-` She takes a long hard look at me, and then offers me her hand again.@
+` Я выслушал её весьма необычное представление и тяжело вздохнул.@
+` Мне уже всё равно, я смирился с этим безумием: пусть так и будет.\
+` — Тоно Шики.@ Увы, всего лишь обычный школьник.@ И повторюсь, пользы от меня будет немного.@
+` Я схватил её... руку Арквейд и поднялся.@
+` Она ещё раз меня внимательно оглядела.@
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_fst
 br
-`"Nice to meet you, Shiki.@
-` I'll have you take responsibility for killing me."@
-` Arcueid grins as she extends her left hand.\
-` ...... There are all sorts of responsibilities in this world, but this is probably the first and last time someone takes responsibility by helping someone they've killed.\
-`"...... Damn it!@ Do whatever you want."@
-` But there's nothing else I can do.@
-` I grudgingly extend my left hand and shake hands with the woman in white claiming to be a vampire.\
+` — Рада знакомству, Шики.@ Надеюсь, ты искупишь моё убийство.@
+` Арквейд протянула левую руку и улыбнулась.\
+` В этом мире много чего требует искупления, но, наверное, это единственный раз, когда искупления требует сама жертва у своего убийцы.\
+` — Чёрт с тобой!@ Делай, что хочешь.@
+` Деваться мне некуда.@ Я неохотно пожал руку этой «вампирши» в белом.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
