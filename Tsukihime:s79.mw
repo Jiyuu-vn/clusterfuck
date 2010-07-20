@@ -1,5 +1,7 @@
 [[Tsukihime|[Назад]]]
 
+Hemet
+
 <pre>
 *s79
 
@@ -12,27 +14,26 @@ bg "image\bg\bg_25a.jpg",%type_lcartain_mid
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
 
-`"...... Hmmm?"@
-` As we walk out of the back alley, she--Arcueid--knits her eyebrows and gives me a suspicious look.@
+` — Хм-м?..@
+` Когда мы выходили из подворотни, она... то есть Арквейд, вдруг, нахмурила брови и подозрительно на меня посмотрела.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Hey, Shiki.@ Are you a Christian, by any chance?"@
+` — Слушай, Шики.@ А ты часом не из христиан?@
 br
-` ...... I have no idea what she's talking about.@
-`"Chris-chan...?@ What's with that question, all of a sudden?@ I don't know any girl who's got a name like that."\
+` «О чём она?»@
+` — Хрис-тян?..@ Откуда такие вопросы?@ Я такой не знаю.\
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"I see.@ Then I must have misunderstood."@
-` After seeming to have made a decision, she turns towards the office district.@
+` — Понятно.@ Значит, мне показалось.@
+` Кажется, она для себя что-то решила, после чего повернулась в сторону делового района.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"Okay, let's go.@ We've got to find a safe place for now."@
-` Arcueid begins walking.@
-` "----Okay."@
+` — Ладно, пошли.@ Нужно найти безопасное место.@
+` Арквейд зашагала по дороге.@
+` — Ладно.@
 br
-` There's no way I can back out now.@
-` Sighing, I follow after her.\
+` Назад дороги нет, и вздыхая, я пошёл за ней.@
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
