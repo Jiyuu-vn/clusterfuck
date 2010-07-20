@@ -1,177 +1,173 @@
-[[Tsukihime|[Назад]]] 
-<pre>*s51
+[[Tsukihime|[Назад]]]
 
-;Tsuki no Mai
+<pre>
+*s51
 
 mov $phasebg,"image\bg\bg_22b.jpg"
 mov $phasetitle_a,":a;image\word\PARK_02A.PNG"
 mov $phasetitle_b,":a;image\word\day_02.png"
 gosub *right_phase
 
-
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
-` Сенсей сказала, что мои глаза видят места, в которых вещь можно легко сломать.@
-` И, если эта 'вещь' будет человеком, то я увижу жизненно важные точки.\
-` Линии, разрезая которые, можно сломать всё, что угодно.@
-` С их помощью можно разрезать даже сталь.@
+` Sensei told me.@
+` My eyes could see the points where things could easily be broken.@
+` And if that 'thing' were to be a person, then what I would see would be their vital spots.\
+` Lines which, if cut, could break something apart without any effort.@
+` With those lines, even things as hard as steel could easily be cut.@
 br
-`— Другими словами, каждая вещи изначально судьбой предписано 'сломаться'.@ Это неизбежно для всего материального.\
-` Такими были её слова.@
-` Я тогда был лишь ребёнком.@
-` Я помню, что понял, что она имела в виду и испугался.@
-` Другими словами мир полон трещин, и может развалиться в любой момент.@
+`"In other words, everything in existence has its destiny of 'breaking' internalized within it.@ This is something inescapable for anything with a physical form, Shiki."\
+` That's what Sensei had said.@
+` I was still a child back then.@
+` I remember finally understanding what she meant and getting scared.@
+` In other words, the world is full of cracks, and it could collapse at any instant.@
 
-` Если вся земля исчерчена линиями, то она может начать расходиться под моими ногами.@
-` ...Когда я понял, что Сенсей имела в виду, то от всей души поблагодарил её за подаренные мне очки.\
+` If there are scribbles all over the ground, then there's a possibility that the earth would start breaking apart if I walk over it.@
+` ---When I realized what she meant, I thanked Sensei from the bottom of my heart for the glasses she gave me.\
 br
-` Я бы не выдержал, если бы видел линии всё время.@
-` Места, в которых вещь легко сломать.@
-` В том, что я вижу их, нет ничего хорошего...\
+` I couldn't have gone on living if I had continued to see the lines all the time.@
+` The points where things could easily be broken.@
+` There isn't a single advantage to being able to see them---\
 
-
+; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 !w1000
 
-
+; ?(?????)<???????(?)>
 bg "image\bg\ima_03.jpg",%type_crossfade_mid
 
 
-`— ...Доброе утро.@
+`"---Good morning."@
 br
-` ...Я слышу незнакомый голос.\
-`— Уже утро.@ Пора просыпаться, Шики-сама.@
-` ...Я же тебе сказал: хватит меня так называть.@
-` У меня мурашки от этого по коже...\
+` ...... I hear an unfamiliar voice.\
+`"It is morning.@ It is time for you to awaken, Shiki-sama."@
+` ...... Stop calling me Shiki-sama already.@
+` I told you yesterday, it sends chills down my back----\
 
 
-
+; ?????(???)<???????(?)>
 bg "image\bg\bg_40e.jpg",%type_crossfade_slw
 
-
+; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-
+;CD-DA?????
 play "*2"
 
 
 br
-` ...Я проснулся.@
-` Хисуи, недвижимая словно статуя, стоит у кровати.@
+` ---I wake up.@
+` Hisui stands far from the bed, like a statue.@
 `"......"@
 br
-` Где это я?@
+` Where am I?@
 br
-`— Доброе утро, Шики-сама.@
-` Девушка в форме горничной кланяется.\
-`— А... Да... Я ведь вернулся домой...@
-` Приподнявшись, я оглядываю комнату.@
-
+`"Good morning, Shiki-sama."@
+` The girl in a maid uniform bows.\
+`"Ah... yeah, I came home, right..."@
+` I push myself up, looking around the room.@
+; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` В этот миг...
+` In that instant---
 br
-` ...Я чувствую резкую боль в висках.\
-`— Э?..@
-`— Вы ищете свои очки?@
-` Хисуи бережно подаёт мне их.@
+` ---I feel sharp pain in my temples.\
+`"Huh---?"@
+`"Are you looking for your glasses?"@
+` Hisui gently hands me my glasses.@
 
 
-
+; ?????(?)<??????(?)>
 bg "image\bg\bg_40a.jpg",%type_lshutter_fst
 
-`— ...Ффух.@
+`"---Phew."@
 br
-` ...Я вздыхаю.@
-` Прошлой ночью... Перед тем как я лёг спать, мне показалось, что я вижу линии даже не снимая очки.@ Похоже, что мне это почудилось.\
-`— Сстт...@
-` Мой разум затуманен. Наверное из-за того, что я спал в незнакомой комнате.@
-
+` ...... I let out a breath.@
+` Last night---Before I went to sleep, I had the feeling I was seeing the lines even with my glasses on.@ Seems like it was just my imagination.\
+`"Sstt......"@
+` Maybe it's because I slept in an unfamiliar room, but my mind is hazy.@
+; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`— Шики-сама?..@
-` Хисуи зовёт меня.@
-` Встряхнув головой, я избавляюсь от остатков сна.\
-`— Доброе утро, Хисуи.@ Спасибо, что разбудила.@
-`— Не надо благодарности.@ Это мой долг, будить Вас, Шики-сама.@
-` Хисуи спокойно отвечает, не меняя выражения лица.\
-` ...Даже при столь неудачном освещении видно, что она красива.@
-` Чудесно, когда такая красавица будит тебя по утрам, но я этому не очень рад, поскольку она никогда не улыбается.@
+`"Shiki-sama...?"@
+` Hisui calls out to me.@
+` Shaking my head, I shake away my sleepiness.\
+`"Good morning, Hisui.@ Thanks for coming to wake me."@
+`"There is no need to thank me.@ It is my duty to come and wake you, Shiki-sama."@
+` Hisui gives a plain and completely expressionless response.\
+` ...... Even in an unfavorable light, I think Hisui's features are beautiful.@
+` It should be wonderful for such a girl to wake me every morning, but as Hisui never smiles, I don't feel that happy about it.@
 br
-` ...Какая жалость.@
-` Хисуи была бы очень милой, будь она хотя бы в половину столь ярка, как Кохаку.\
+` ...... What a shame.@
+` If Hisui only had half of Kohaku's brightness, she would be really cute.\
 
-`— ...Вам что-нибудь нужно?@
-` Поняв, что я на неё смотрю, Хисуи возвращает взор.@
-`— Нет, ничего.@ Просто то, что ты меня разбудило, заставило меня осознать, что я действительно вернулся.@
-` Ну, чтож.@ Встав с кровати, я потянулся.@
+`"---Do you need something?"@
+` Realizing I am looking at her, Hisui stares straight back at me.@
+`"No, nothing at all.@ Waking up with you there makes me feel like I'm really at the Tohno mansion."@
+` Now then.@ Getting off the bed, I stretch out both arms.@
 br
-` Внезапно до меня дошло, что на мне пижама.\
-` ...Э? Вроде бы вчера я...\
-`— Хм?@ Мне показалось, что я засыпал в школьной форме.@
-`— Да.@ Поскольку это вредно для Вашего здоровья, нээ-сан переодела Вас и уложила на кровать.@
-` Хисуи объясняет это так, словно это вполне естественно.@
-` Ясно.@ Она меня переодела.@ Ну, я бы действительно подхватил простуду, если бы спал просто так.@
-` Наверное, именно так и ведут себя настоящие горничные... Стоп, что за?!..\
+` Suddenly, I realize I'm wearing pajamas.\
+` ---Eh, I'm sure that yesterday, I...\
+`"Huh?@ I thought I slept in my uniform last night."@
+`"Yes.@ Since it is bad for your health to do so, Nee-san changed your clothes and put you to bed afterwards."@
+` Hisui explains it as if it is something perfectly natural.@
+` I see.@ She changed my clothes.@ It's true that I could have caught a cold if I had just slept like that.@
+` Just the kind of attentive service you'd expect from a maid---Hey, wait a minute...!\
 
-`— Что?!!@
-` Я быстро проверяю свои штаны и нижнее бельё.@
-` На мне новые пижамные штаны.@ Даже трусы и те новые.\
-`— Ч-ч-ч?!@
-` Мне хочется крикнуть 'Что это вы сделали?!', но, почему-то, слова застревают у меня в горле.@
-` Мне надо успокоиться и всё обдумать.@
-` ...Посмотрим.@ В первую очередь половина вины на мне.@
-` И переодела меня не Хисуи, а Кохаку-сан.@
-` Было бы неправильно винить её.\
-`— ...Хисуи.@
-`— Да, что вам угодно?@
-`— Не надо впредь делать что-либо подобное.@ Если возникнет необходимость, то разбуди меня.@ Я бы предпочёл переодеваться сам.@
-` Произнося всё это, я чувствую, как к лицу приливает жар.@ Хисуи кивает в подтверждение.@
-`— Ваша форма сложена, и ждёт вас вон там.@ Пожалуйста, придите в гостиную, когда переоденетесь.\
-
+`"Wh------!?"@
+` I quickly check my pants and underwear.@
+` My pants are brand new pajama pants.@ Even my underwear is new.\
+`"Wh-wh-wh-!?"@
+` I want to say 'What the hell did you do!?', but somehow the words are stuck in my throat.@
+` I've got to calm down and think things over for now.@
+` ...... Let's see.@ First of all, half the blame belongs to me.@
+` And the one who changed me wasn't Hisui, it was her sister, Kohaku-san.@
+` It would be wrong to complain to Hisui.\
+`"---Hisui."@
+`"Yes, what is it?"@
+`"You don't have to do anything uncalled for like this from now on.@ If you have to, please wake me up.@ I can change myself, so I'd like to do so."@
+` My face is a deep red as I say all of this.@ Hisui obediently nods in affirmation.@
+`"Your uniform is folded and awaits you over there.@ Please come to the sitting room after you have changed."\
+; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
 
-` "........."@
-` Проклятье.@ Как я мог быть столь небрежен.@
-` Ошибкой было уже то, что я уснул в таком виде, но не проснуться, когда меня начали переодевать...@
-`— Обычно я бы это ощутил... Наверно я очень устал.@
-` Ну, нытьём ничего не изменить.@ Я не могу торчать здесь весь день, жалея себя как идиот.@ Надо побыстрее переодеться и пойти позавтракать.\
+`"........."@
+` Damn it.@ How careless could I be.@
+` It was careless of me to begin with when I fell asleep on the bed like that, but to not have woken up while I was being changed is over the top.@
+`"Usually I would have sensed it, but... maybe I was just really tired."@
+` Complaining to myself isn't going to change anything.@ I can't just keep standing here talking to myself like an idiot.@ I'd better hurry up and change, then go have breakfast.\
 
-` Моя школьная форма аккуратно сложена, а рубашка даже поглажена.@
-` Вдевая руки в рукава, я ощутил это приятное ощущение новой вещи.\
+` My school uniform had been neatly folded, and my shirt has even been ironed.@
+` Passing my wrists through the sleeves feels good.@ It's that fresh, brand-new feeling.\
 
-`— ...Ну, в том чтобы быть голым, ведь нет ничего плохого?@ Да.@
-` Плохого то ничего, но один тот факт, что меня переодевала улыбчивая Кохаку, способен вогнать меня в краску.@
-` А что хуже всего моё отражение, несмотря на красное лицо, время от времени улыбается.@
-` ...С тобой всё в порядке, Тоно Шики?@
-` Тебе ведь должно быть нелегко прижиться в этом доме.\
+`"...... No, there's nothing wrong with being naked, is there?@ Yep."@
+` There was nothing wrong with it, but I couldn't help being embarrassed at the fact that I was being changed by the warmly smiling Kohaku-san.@
+` To top things off, the face in the mirror keeps smiling from time to time despite being bright red.@
+` ...... Are you really okay, Tohno Shiki?@
+` I thought you were supposed to be uneasy about staying here, you amateur.\
 
-
+; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w500
 
-
+; ????(?)<?????(?)>
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
-` Акиха и Кохаку-сан расслабляются в гостиной.@
-` На Акихе форма Асагами — известной академии для девушек.@
-` Они грациозно пьют чай, создавая ощущение, что завтрак окончился давным-давно.@
-` Я...
+` Akiha and Kohaku-san are relaxing in the sitting room.@
+` Akiha is wearing the uniform of the Asagami Ladies' Academy, a famous school for young girls.@
+` They are drinking tea together gracefully, as if breakfast ended a long time ago.@
+` I----
 br
 
 
 
 return
 
-select `1. Поздороваюсь с Акихой.`, *f54,
-	`2. Поприветствую Кохаку-сан.`, *f55,
-	`3. Поздороваюсь с обеими.`, *f56
 
-</pre> 
---[[Участник:Tsuki no Mai|Tsuki no Mai]] 14:56, 21 февраля 2010 (UTC) 
-[[Участник:Tsuki no Mai|Tsuki no Mai]] 18:59, 21 марта 2010 (UTC)
+</pre>
 
-[[Tsukihime|[Назад]]] 
+[[Tsukihime|[Назад]]]
 
-[[Category:Tsukihime]]
+[[Категория:Tsukihime]]
