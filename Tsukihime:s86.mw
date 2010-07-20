@@ -1,54 +1,70 @@
 [[Tsukihime|[Назад]]]
 
+Hemet
+
 <pre>
-*s86
+*s84
 
-; ?(??)<????>
-bg "image\bg\ima_06.jpg",%type_nowaitdisp
+; ???? : ? : ?????(?)<????>
+bg "image\bg\bg_19b.jpg",%type_nowaitdisp
 
+` «...»@
 br
-` ----I value my life.\
-
-` I recall the scene yesterday when I killed Arcueid.@
-` The stench of death and blood.@ ---I never want to experience something like that again.@
-` If I were to remain with Arcueid, there'd be no question that I would be subjected to that scene again.@ If I don't want that, I'll have to go back to the mansion.\
-
-`"------"@
-` ...... I get the feeling that there's some major flaw in my decision.@
-` But right now, everything is a mess in my head and my sense of logic refuses to function properly.@
-` Anyhow, for now, I'll return to my own room for some rest.@ I'm sure I'll calm down and think clearer then.\
+` Я по-прежнему хочу жить в нормальном мире, без этой чертовщины.@
+` Я в ответе за смерть Арквейд.@ Но, всё равно, неправильно заставлять меня делать то, что мне не под силу.@
+` Арквейд мирно спит.\
+` Она же доверяет мне, тому кто её однажды убил.@
+` — Чёрт побери!..@
+` И всё равно... я так не могу.@
+` Я тихонько вышел из номера, оставив за собой доверившуюся мне Арквейд.\
 
 ; ???<?????(?)>
-bg "image\bg\ima_10.jpg",%type_lcartain_slw
-; ?(?)<?????(?)>
-bg "image\bg\bg_22c.jpg",%type_lcartain_slw
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+; ?????(??)<?????(?)>
+bg "image\bg\bg_20a.jpg",%type_lcartain_mid
 
-` The sun has gone down, and my surroundings have been cast into darkness.@
-` It's probably past seven now.@
-` The curfew for the mansion is eight, so I'd better hurry back if I don't want to be scolded by Akiha.\
-
-; ???<?????(?)>
-bg "image\bg\ima_10.jpg",%type_lcartain_slw
-; ????<?????(?)>
-bg "image\bg\bg_47.jpg",%type_lcartain_slw
-
-` The streets around the mansion are deserted like always.@
-` The sun's only just gone down, but the silence is like that of midnight.\
-
-`"Come to think of it, this place is..."@
-` Where I've gone to check out that noisy stray dog the night I first returned to the mansion.@
-;S.E."??"
-wave se0
-`"Huh......?"@
-` I'm beset by a terrible premonition of misfortune.\
-
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
-; ????<???????(?)>
-bg "image\bg\bg_47.jpg",%type_crossfade_fst
+` В коридоре тихо.@
+` Мы на последнем, одиннадцатом, этаже.@ К тому же Арквейд сняла его целиком, поэтому другие комнаты пустуют.\
+br
+` «...»@
+` Часть меня ещё испытывает сомнения.@ Но я их отбросил и нажал на кнопку лифта.\
 
 ; ???<?????(?)>
-bg "image\bg\ima_10.jpg",%type_tcartain_fst
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+!w3000
+;CD-DA?????
+play "*1"
+
+; ??????(?)<???????(?)>
+bg "image\bg\bg_25a.jpg",%type_crossfade_mid
+
+
+
+` На поезде я вернулся в город.@
+br
+` Время ближе к вечеру.@ Скоро конец учебного дня. Думаю, пора возвращаться в поместье.@
+` «...»@
+` Только идти домой совсем не хочется.@ 
+br
+` Лучше немного проветрю голову в парке.\
+
+; ???<?????(?)>
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
+; ??A(?)<?????(?)>
+bg "image\bg\bg_28a.jpg",%type_lcartain_mid
+
+` «Фух»@
+` Я уселся на скамейку и уставился на небо.@ Там полно туч, прямо как на моём сердце.\
+
+; ?(??)<???????(?)>
+bg "image\bg\ima_06.jpg",%type_crossfade_mid
+
+` Спит ли она ещё, доверив мне свой покой?@ Я убил её, а она мне сказала, что простит.@ И простила... Тогда... что я здесь делаю?\
+
+` Прошлой ночью,@ после убийства Арквейд, я клялся себе, что должен искупить свой грех.@
+` И эту клятву я нарушил, как только моя жизнь оказалась в опасности?@ Как же так?@
+` — У-у-у!..@
+` Но я хочу жить.@ И не расхочу пока живой.@ Не так легко об этом позабыть и оставить позади.\
 
 br
 br
@@ -56,63 +72,22 @@ br
 br
 br
 br
-` ----Strange.@
-` Suddenly, my surroundings became completely black.\
+` Воля твоя.@ Но именно поэтому ты никогда об этом не забудешь.\
 
-` I hear a dripping sound.@
-` ...... Where's that sound coming from?@
-` It's coming from nearby.@
-` My body is starting to cool.@
-` It's coming from nearby.@
-` Alarms are going off somewhere in my head.\
+` «...»@
+` Вспомнились дорогие мне слова из далекого-далекого детства.@ Учитель... Что она мне тогда сказала?@
+` «...»@
+` Ещё не поздно.@ Солнце пока не зашло.@ Я всё ещё могу успеть в отель до его захода.\
 
-br
-br
-br
-br
-br
-br
-br
-` Drip, drip.@ Drip, drip.\
+` — Будь оно неладно.@
+` Меня всё ещё терзают сомнения.@ Но, в конце концов, я...
+;CD-DA??
+playstop
 
 br
-br
-br
-br
-br
-br
-br
-` The sound...
-` I think it's coming from right behind my neck.\
 
-`"Ah----"@
-;S.E."????"
-wave se4
-` I collapse onto the asphalt.@
-` My limbs won't move, and my consciousness dims.\
 
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
-; ??<?>=??:??<???????(?)>
-ld c,":a;image\tachi\nero_t01a.jpg",%type_crossfade_fst
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-` At the bottom of my thinning consciousness...
-!w500
-` all I find out...
-!w500
-` is a few black dogs are feeding on my arms and legs.\
-
-;-------------------------------------------------------------------------------
-;	??
-cl a,%type_waitdisp
-bg "image\word\end.jpg",%type_crossfade_slw
-
-resettimer
-waittimer 3000
-
-;goto *title
 return
 
 
