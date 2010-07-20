@@ -1,5 +1,7 @@
 [[Tsukihime|[Назад]]]
 
+Hemet
+
 <pre>
 *s80
 
@@ -11,65 +13,62 @@ bg "image\bg\bg_19b.jpg",%type_lcartain_mid
 
 ; ??<?>=??????:?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_lshutter_mid
-`"This is a pretty nice room.@ I'd have no problems spending the night here."@
-` Arcueid looks around the hotel room.@
-`"-----"@
-` I've got nothing to say for now.\
-`"My room has probably already been discovered, so let's hide out here for the night.@ Oh, you don't have to worry about money.@ I'm rich, so I'll treat you."@
-` Speaking cheerfully, Arcueid closes the curtains.@
-` She also turns off the lights and the room becomes as dark as night.\
-` I sigh.@
-`"...... What are you thinking, Arcueid?"@
+` — Хорошая комната.@ По-моему, переночевать как раз.@
+` Арквейд оглядела гостиничный номер.@
+` «...»@
+` Мне пока нечего сказать.\
+` — Мою комнату уже, наверное, нашли, так что ночь переждём здесь.@ Ах да, за деньги не волнуйся.@ Я богатая: за тебя уплачено.@ — весело сказала она и задёрнула шторы.
+` Потом она выключила свет, и в комнате стало темно, как ночью.\
+` Я вздохнул.@
+` — Ну, и о чём ты думала, Арквейд?@
+;` — Арквейд, ну, и на кой всё это?@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"I'm thinking about all sorts of stuff."@
-`"No, that's not what I mean---"@
+` — О всяком.@
+;` — На всякий случай.@
+` — Я не об этом...@
 br
-` I'm asking why you've rented a high-class hotel, not a cheap one--and why you rented out the whole top floor.\
-`"........."@
-` I try to say this, but I stop.@
-` Right now, my job is to guard this so-called vampire and nothing more.@ I'm not going to ask any useless questions.@
-`"---No, forget it.@ Do whatever you like."@
+` «Зачем надо было идти в дорогой отель? Почему не в дешёвый? И на кой ты сняла весь верхний этаж?»\
+` «...»@
+` Хотел было сказать я, но не стал.@
+` Всё, что от меня сейчас требуется — это сторожить эту «вампиршу» и всё.@ А без этих бесполезных вопросов я как-нибудь обойдусь.@
+` — А, забудь.@ Делай, как знаешь.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"You're weird, Shiki, suddenly getting mad and going silent like that.@ I just don't get you."@
-` Arcueid lies on the bed, smiling like she's having fun.@
+` — Странный ты, Шики: то кричишь, то в себя уходишь.@ Не понимаю я тебя.@
+` Арквейд лежит на кровати и улыбается. Кажется, ей весело.@
 \
-`"I'm going to sleep until the sun sets.@ You'd better rest while you have the chance.@
-` Vampires don't move about in the daytime, so you'll be on guard for real during the night."@
-`"...... Do you realize you've just said something that completely contradicts your existence?"@
-`"Oh, it's alright for me---oh, I guess it's almost my limit.@ Good night, Shiki.@ Wake me up when the sun sets."@
+` — Я буду спать до захода солнца.@ Ты тоже лучше отдохни, пока есть возможность.@ Днём вампиры не выходят, поэтому твоя стража начнётся ночью.@
+` — Ты понимаешь, как странно это слышать от тебя?@
+` — Ой, да ладно... ах, кажется, я почти выдохлась.@ Спокойной ночи, Шики.@ Разбуди меня после заката.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-`"H--hey!"@
-`"-------"@
-` Like a machine whose power is cut off, Arcueid suddenly falls asleep.\
-`"Ha-----"@
-` She's so... defenseless.@
-`"...... Right now, I could run away if I wanted to."@
-` She did force me to come with her, after all.@ I could easily run away now.@
-` ...... And I don't have that impulse anymore, but...
+` — Эй!@
+` «...»@
+` Арквейд внезапно отключилась, как будто у неё батарейка села.\
+` — А-а...@
+` Она такая... беззащитная.@
+` — Могу сейчас сбежать, если захочу.@
+` В конце концов, она меня заставила сюда прийти.@ А теперь я могу легко уйти.@
+` От того желания не осталось и следа, но...
 br
-`"I even killed you once, yet..."@
+` — Я же тебя убил, а ты...@
 br
-` How is she able to suddenly fall asleep despite that?@
-`"........."@
-` I look at Arcueid's face as she sleeps on the bed.@
-` ...... Her plump chest rises and falls.@ It looks like she's breathing.@
-` But her body isn't moving at all.@
-` It's like the air around her has stopped.@ It's so tranquil even I might stop moving.@
+` Как она могла вот так уснуть после этого?@
+` «...»@
+` Я посмотрел на её спящее лицо.@ Её пышная грудь вздымалась и опускалась.@ Она дышит.@ В остальном же её тело совершенно неподвижно.@ Кажется, даже воздух вокруг неё замер.@ Какое спокойствие: того гляди и сам замру.@
 br
-` ----What a peaceful slumber.@
+` Какая сладкая дрёма...@
 br
-` A kind of defenselessness as if she had absolute trust in me, even though we've only just met.\
-`"---She's so stupid."@
-` ...... She is so stupidly honest I might start to worry.@
-` But aside from that, this is a turning point.@
-` This may very well be the point of no return for Tohno Shiki.@
-` I----
+` ...и какая беззащитность. Похоже, она полностью мне доверяет, пусть мы и знакомы всего ничего.\
+` — Ну и простая.@
+` Причём настолько, что впору волноваться.@
+` В любом случае — решать надо сейчас.@
+` Позже для Тоно Шики обратной дороги может и не быть.@
+` Я...
 br
 
 ;CD-DA??
