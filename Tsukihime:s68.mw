@@ -1,6 +1,25 @@
 [[Tsukihime|[Назад]]]
 
 <pre>
+*f68
+gosub *regard_update
+!sd
+if %sceneskip==1 && %1068==1 skip 4
+gosub *s68
+mov %1068,1
+skip 9
+`Вы уже видели эту сцену.
+`Хотите её пропустить?
+br
+selgosub `1. Да`, *skip68,
+	`2. Нет`, *s68
+skip 3
+*skip68
+
+
+add %ciel_regard,2
+goto *f74
+
 *s68
 
 
