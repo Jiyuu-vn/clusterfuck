@@ -1,10 +1,17 @@
 [[Men_at_Work 2|[Назад]]]
 
-<pre>
-
-Мы вошли в лес.
-
-</pre>
-
-
-[[Men_at_Work 2|[Назад]]]
+<?xml version="1.0" encoding="UTF-8"?>
+<Lines Count="4">
+  <Line StartPos="304" Length="5" Skip="false">
+    <Translated>Start</Translated>
+  </Line>
+  <Line StartPos="338" Length="5" Skip="false">
+    <Translated>Start</Translated>
+  </Line>
+  <Line StartPos="413" Length="33" Skip="false">
+    <Translated>Мы вошли в лес.</Translated>
+  </Line>
+  <Line StartPos="455" Length="11" Skip="false">
+    <Translated>draw\0Forest</Translated>
+  </Line>
+</Lines>
