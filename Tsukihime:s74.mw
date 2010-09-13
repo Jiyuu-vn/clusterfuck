@@ -1,5 +1,7 @@
 [[Tsukihime|[Назад]]]
 
+{{TnM:T|[[Участник:Tsuki no Mai|Tsuki no Mai]] 13:32, 13 сентября 2010 (EEST)}}
+
 <pre>
 *s74
 
@@ -11,181 +13,182 @@ mov $phasetitle_b,":a;image\word\day_03.png"
 gosub *right_phase
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
 
-;CD-DA?????
+
 play "*2"
 
-; ??????(?)<???????(?)>
+
 bg "image\bg\bg_18a.jpg",%type_crossfade_slw
 
 
-`"------Nn."@
-` The sunlight streaming through the window wakes me.@
-` ...... Maybe the rain stopped; I can't hear it anymore.@
-` It seems the sky outside is cloudy.@ The sunlight isn't what you could call bright.@
+` — Ммм...@
+` Я просыпаюсь от солнечного света, струящегося сквозь окно.@
+` Похоже, что дождь уже закончился.@
+` Солнце не то что бы яркое, так что на улице, судя по всему, пасмурно.@
 br
-`"...... Eh?"@
+` — Э?..@
 br
-` I look around.@
-` ...... This is obviously not my room.\
+` Это явно не моя комната.\
 
 
-; ??<?>=???:?01(????)<??????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_lshutter_fst
 
 
-`"Ah, good morning.@ Did you sleep well last night, Tohno-kun?"@
-`"Ah--------!"@
+` — А, доброе утро.@ Как спалось, Тоно-кун?@
+` — А!..@
 br
-` I remember now.@
-` This is Senpai's room.@ I had borrowed her bed for the night----
+` Я вспомнил.@
+` Это комната Семпай.@ Я же у неё заночевал...
 br
-`"Ah---yeah, good morning, Senpai."@
-` Becoming extremely embarrassed, I hop off the bed.\
-`"Uh... sorry about yesterday.@ I caused you all sorts of trouble, and---"@
+` — А... Д-доброе утро, Семпай.@
+` Я спрыгиваю с кровати, пряча смущение.\
+` — Ух... Извини за вчерашнее.@ Я тебе, похоже, немало крови попортил...@
 
 
-; ??<?>=???:?03(??????????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
 
 
-`"Yes, you owe me one."@
-` Senpai replies with a smile.@
-` ...... How do I put this... She seems very mature.\
-`"A-anyhow, thanks.@ I'll be going home now."@
+` — Ну да, так что ты мне теперь должен.@
+` Она отвечает с улыбкой.@
+` Как бы поточнее выразиться... Она выглядит очень взрослой.\
+` — Н-ну, так или иначе, спасибо.@ Я, пожалуй, пойду.@
 
 
-; ??<?>=???:????<???????(?)>
+
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
 
-`"Oh, really?@ It's barely six o'clock, Tohno-kun."@
-`"Yes, but I didn't get permission to stay the night away from home yesterday, so if I don't hurry back to the mansion, there's no telling what Akiha will say."@
+` — Вот как?@ Ещё даже шести нет.@
+` — Ну да, но у меня не было разрешения на ночёвку вне дома, так что если я не потороплюсь, то мне страшно даже представить, что скажет Акиха.@
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"Ah, your little sister.@ Well, I've already called her, so it should be okay."@
-` Senpai delivers her earth-shattering statement with a casual air.@
-`"Wh---you called my house, Senpai?"\
+` — А, твоя младшая сестра.@ Ну, я ей уже позвонила, так что всё в порядке.@
+;хотел написать «сестрёнка», но что-то меня остановило О_о
+` Спокойные слова Семпай буквально выбили у меня землю из под ног.@
+` — Чт... Ты звонила мне домой, Семпай?\
 
 
-; ??<?>=???:?02(???????????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t02.jpg",%type_crossfade_fst
 
 
-`"Yes.@ I thought it wouldn't be right if I didn't contact them about you staying over.@ Is that a problem?"@
-`"Wh------!"@
-` I'm at a loss for words.@
-` Ciel-senpai calling my house means a girl has called my house saying, "Tohno-kun is staying over at my place."@
-` That's... well---\
-`"---Yes, it's a problem.@ A big problem."@
-` If Akiha had been the one who picked up the phone, she's going to think I'm some kind of playboy.@
-` Given the severity of the Tohno household, I don't even want to imagine what would happen if she found out about that sort of thing.@
+` — Да.@ Я решила, что стоит предупредить твоих родственников, что ты у меня заночуешь.@ А что, что-то не так?@
+` — Чт!..@
+;Wh...! < Вот думаю, может лучше перевести как «Бл!..»? Х)
+` У меня нет слов.@
+` Это значит, что мне домой позвонила девушка и сказала: «Тоно-кун у меня переночует».@
+` Это... В общем-то...\
+` — ...Да, не так.@ Сильно не так.@
+` Если трубку сняла Акиха, то она скорее всего решит, что я какой-то донжуан.@
+` А если учесть строгость устоев нашей семьи, то страшно представить, что она со мной за это сделает.@
 
-; ??<?>=???:?<???????(?)>
+
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
 
 
-`"...... Tohno-kun... did you really hate staying at my house that much?"@
-`"Ah, no, that's not it.@ It's just that... my house is really strict.@ It's definitely not because I don't like you, Senpai---"@
-` Flustered, I try to explain the misunderstanding.\
+` — Тоно-кун... Тебе что, так сильно здесь не нравится?@
+` — А, нет, не в этом дело.@ Просто... У меня очень строгая семья.@ Так что дело не в тебе...@
+` Смущённый, я пытаюсь объясниться.\
 
-; ?????<???????(?)>
+
 cl a,%type_crossfade_fst
 
 
-` Senpai closes her eyes sadly.@
-` ...... Is it because I caused her so much trouble last night?@ I feel so bad when I see her make an expression like that.@
-`"I'm telling you, that's not it.@ I'm really grateful to you, Senpai.@ I'm feeling much better now, and if you hadn't been there for me last night, I don't know what would've happened to me...!"\
+` Семпай грустно закрывает глаза.@
+` Это из-за того, что я причинил ей столько проблем прошлой ночью?@ Когда у неё такое лицо я чувствую себя последним бараном.@
+` — Ну, я же говорю, что не в этом дело.@ Я очень тебе благодарен, Семпай.@ Сейчас мне уже лучше, но если бы не ты, то я не знаю что со мной бы стало прошлой ночью!..\
 
 
-; ??<?>=???:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
 
-`"---Yes, you're right.@ You look like you're back to normal now.@ I don't know what happened last night, but I'm glad you're feeling better."@
+` — Ты прав.@ Похоже, что ты действительно в порядке.@ Не знаю уж, что произошло вчера, но я рада, что тебе полегчало.@
 br
-` Suddenly, Senpai gives the biggest smile anyone could possibly give.\
-`"----Eh?"@
+` Внезапно Семпай улыбается так широко, как это только возможно.\
+` — Э?..@
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"I was just joking.@ Even I wouldn't directly call your house.@ I asked Inui-kun to call your house and tell them that you were staying with him last night.@ There should be no problem with that, right?"@
-`"...... Yeah, that should be no problem... but that was kind of a mean joke, Senpai.@ I thought my heart was going to stop."@
+` — Я пошутила.@ Даже я не стала бы просто звонить тебе домой.@ Я попросила Инуи-куна сказать, что ты заночуешь у него.@ Это-то у тебя никаких проблем не вызовет?@
+` — Ну да... Но это была жестокая шутка.@ Я думал меня удар хватит.@
 
 
-; ??<?>=???:?03(??????????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
 
 
-`"Yes, I'm actually pretty mean.@ Pick on the ones you like, right?"@
-`"...... Eh?"@
-` ---Ones you like?@ Then that means---\
+` — Ну да, на самом деле я довольно жестока.@ «Бьёт значит любит», так ведь?@
+` — Э?..@
+` Любит?..@ То есть...\
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"But, it's true you should go home early.@ Please hold on for a second."@
+` — Но тебе действительно следует отправиться домой пораньше.@ Подожди ка секунду.@
 
 
-; ?????<???????(?)>
+
 cl a,%type_crossfade_fst
 
 
-` Senpai rummages around in her drawers for something.@
+` Семпай роется в ящиках в поисках чего-то.@
 
 
-; ??<?>=???:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
 
-`"Here you go, Tohno-kun.@ It's a little gift for you."@
-` Saying that, Senpai hands me an old-looking ring.@
-`"...... A little gift... what is it, Senpai?"@
+` — Вот тебе небольшой подарок.@ Держи, Тоно-кун.@
+` Семпай протягивает мне странного-вида кольцо.@
+` — Подарок... Что это такое, Семпай?@
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"It's a protective charm.@ You seem to be dangerously spaced out a lot, so please hold on to it."@
-`"Ah... yeah---I'll take anything that's given to me, but... alright.@ I'll take good care of it."@
+` — Просто амулет.@ Ты, похоже, часто уходишь в себя, так что не потеряй его.@
+` — А... Да... Дарёному коню в зубы не смотрят, но... Впрочем ладно.@ Я буду хорошо о нём заботиться.@
 ` Accepting the ring, I put it in my pocket.\
 
 
-; ??<?>=???:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
 
-`"Alright.@ I'll see you at school."\
+` — Вот и славно.@ Увидимся в школе.\
 
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
-;CD-DA??
+
 playstop
 
 br
-` ---Senpai sees me off with a smile.@
+` Семпай с улыбкой провожает меня.@
 br
-` But that smile is one I might never see again.@
-` The woman I killed might be found already, and police might already be at the mansion.@
-` ...... But I can't run away from it.@
-` All I can do is thank Senpai and return to the Tohno mansion.\
+` Интересно, доведётся ли мне увидеть эту улыбку снова?@
+` Ведь женщину, которую я убил, уже могли обнаружить, и полиция уже может поджидать меня в особняке.@
+` Но я не имею права просто убежать.@
+` Я могу лишь поблагодарить Семпай за заботу и отправиться домой.\
 
 
-; ?????(?)<?????(?)>
+
 bg "image\bg\bg_33a.jpg",%type_lcartain_slw
 
 
@@ -196,221 +199,223 @@ br
 br
 br
 br
-` To say the results first, the mansion is as it always was.@
+` Ну, на первый взгляд в особняке всё по старому.@
 !w500
 
 \
 
 
-; ??<?>=??:?02(????)<??????(?)>
+
 ld c,":a;image\tachi\koha_t02.jpg",%type_lshutter_fst
 
-;CD-DA?????
+
 play "*2"
 
-`"Ah, welcome home, Shiki-san."@
-` As I enter the lobby, Kohaku-san greets me with a smile.\
-`"Ah... yeah, I'm home.@ Um, Kohaku-san?"@
-`"Ah, do you want breakfast?@ I'll have it ready soon, so please wait in the sitting room.@ Akiha-sama has just finished hers."@
+` — А, с возвращением, Шики-сан.@
+` Кохаку с улыбкой приветствует меня.\
+` — А... Да, спасибо.@ Э, Кохаку-сан?@
+` — А, ты наверное хочешь позавтракать?@ Я сейчас всё подготовлю, так что подожди пока в гостиной.@ Акиха-сама только что поела.@
 
 
-; ?????<??????(?)>
+
 cl a,%type_lshutter_fst
 
 
-` Kohaku-san patters off towards the sitting room.@
-` ...... It's too peaceful.@
-` Maybe they haven't found the body yet.@
-`"............"@
-` For now, I head towards my own room to change.\
+` Кохаку-сан лёгкой походкой направляется в гостиную.@
+` Всё слишком спокойно.@
+` Быть может они ещё не нашли тело.@
+``«...»@
+` Ну, пока что я пойду переоденусь.\
 
-; ?????(?)<?????(?)>
+
 bg "image\bg\bg_40a.jpg",%type_lcartain_mid
 
 
-` Hisui is in my room when I return.@
+` В комнате меня ждёт Хисуи.@
 
 
-; ??<?>=??:?01(?????)<??????(?)>
+
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"---Good morning, Shiki-sama.@ It seems you have returned."@
-`"Yeah, just now.@ ...... Listen, Hisui, do I have a spare uniform?@ The one I'm wearing now is soaked from yesterday's rain."@
-`"...... I understand.@ I will have one prepared immediately."@
+` — Доброе утро, Шики-сама.@ Вы уже вернулись?@
+;Здравствуй, Кэп >_<
+` — Да, только что.@ Слушай, Хисуи, у нас есть запасная форма?@ А то моя вчера промокла.@
+` — Хорошо.@ Я её сейчас же подготовлю.@
 
 
-; ?????<??????(?)>
+
 cl a,%type_lshutter_fst
 
 
-` Hisui bows, and silently leaves the room.@
-` After changing into the uniform Hisui brings me, I head towards the sitting room.\
+` Поклонившись, Хисуи выходит из комнаты.@
+` Переодевшись в форму, которую она мне принесла, я иду в гостиную.\
 
-; ???<??????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
-` A disappointed-looking Akiha is sitting on the sofa in the sitting room.@
+` Там на софе меня поджидает разочарованно-выглядящая Акиха.@
 
 
-; ??<?>=??:?01(????)<??????(?)>
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_lshutter_fst
 
 
-`"---Oh, good morning, Nii-san.@ It seems you have returned."@
-` Akiha's voice contains thorns filled with blame.@
-`"...... Yeah, good morning.@ You look kind of grumpy this morning, Akiha."\
+` — Оо, доброе утро, нии-сан.@ Похоже ты соизволил вернуться.@
+` Её голос прямо таки сочится ядом.@
+` — Да, доброе утро...@ Ты сегодня какая-то хмурая.\
 
 
-; ??<?>=??:??<???????(?)>
+
 ld c,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
 
 
-`"Yes, I was unaware you spend the night elsewhere quite often.@ I am more astounded than angry."@
-` Akiha glares at me.@
-`"...... Uhhh."@
-` It's true I spent the night somewhere, so I can't argue.\
+` — Да. Я и не знала, что у тебя есть привычка ночевать вне дома.@ Я даже скорее потрясена, чем зла.@
+` Она сверлит меня взглядом.@
+` — Уххх.@
+` Мне и возразить то нечего.\
 
 
-; ??<?>=??:?03(??)<???????(?)>
+
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
 
-`"Well, I suppose there was no helping it if you weren't feeling well.@ The one called Inui-san is your friend from middle school, isn't he?"@
-`"Yeah... I see, so he was the one who called you."@
-` ...... Suddenly, I feel uneasy.@
-` Just what did he say when he called my house......?\
+` — Ну, раз уж тебе стало плохо, то ничего не поделаешь.@ Инуи-сан, который нам позвонил, ведь твой друг со времён средней школы, верно?@
+` — Да... Ясно, значит это он звонил.@
+` Внезапно мне становится страшно...@
+` Что именно он наплёл по телефону?..\
 
 
-; ??<?>=??:??<???????(?)>
+
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
 
-`"Besides, even if you had to leave school early, you could have just called me and I would have sent a car to pick you up.@
-` I don't know why you are so reserved, but you are the eldest son of the Tohno household, Nii-san.@ Please use everything at your disposal...... Besides, your body is weaker than that of a normal person."@
-`"----Ah."@
-` Oh yeah, I left school early yesterday.\
-`"To collapse from anemia just by getting soaked from the rain... are you not feeling well, Nii-san?@ Shall I have the family doctor examine you and send you to and from school in a car from now on?"@
-`"........."@
-` I see.@ So that was the reason I was supposedly staying at Arihiko's house.@
-`"It's nothing for you to worry about, Akiha.@ I go to the hospital once a month like I'm supposed to.@ Taking me to school by car is just going to dull my body even further.@ There's no need for you to be that sensitive about my body, though I'm glad you're worried about me."@
+` — Кроме того, если уж тебе пришлось уйти домой рано, то мог бы и позвонить. Я бы отправила за тобой машину.@
+`	Не знаю чего ты стесняешься, нии-сан, но ты старший сын семьи Тоно.@ Пользуйся всем, что тебе доступно... Да и со здоровьем у тебя проблем больше, чем у обычного человека.@
+` — А...@
+` Верно, я ведь вчера ушёл пораньше.\
+` — Свалиться из-за анемии только из-за того, что промок под дождём... С тобой точно всё в порядке?@ Может попросить нсшего врача тебя обследовать и впредь возить тебя в и из школы на машине?@
+` «...»@
+` Ясно.@ Так вот почему я «гостил» у Арихико.@
+` — Не надо так волноваться, Акиха.@ Я хожу в больницу каждый месяц.@ А если я стану ездить в школу на машине, то от этого только сильнее ослабею.@ Не надо так сильно обо мне волноваться, хотя мне это и приятно.@
 
-; ??<?>=??:??<???????(?)>
+
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
 
-`"...... That's not true.@ I'm not worried about you at all, Nii-san."@
-` Akiha subtly avoids looking at me.\
-`"Shiki-san, it's ready!"@
-` I can hear Kohaku-san's voice from the dining room.@
-`"Right, so I'm gonna get some grub."@
+` — Вот не надо...@ Я совсем о тебе не волнуюсь.@
+;Какая любовь… Цундура она и есть цундура >_<
+` Акиха старательно отводит взгляд.\
+` — Шики-сан, готово!@
+` Из столовой доносится голос Кохаку.@
+` — Ладно, пойду похаваю.@
 
 
-; ??<?>=??:??<???????(?)>
+
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
 
-`"Oh, Nii-san!@ Please refrain from talking in such an unrefined manner!"@
-` Akiha shoots me a sharp glare.@
-`"...... Ah, you're acting normally again.@ That's how you should be, Akiha.@ You don't have to worry about me, so just relax."@
+` — Нии-сан!@ Выбирай выражения!@
+` Акиха стрельнула в мою сторону взглядом.@
+` — А, ну вот теперь ты в порядке.@ Такой я тебя узнаю.@ Не надо обо мне волноваться, Акиха, просто расслабься.@
 
 
-; ??<?>=??:?01(??????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t05a.jpg",%type_crossfade_fst
 
 
-`"---You are so persistent!@ I am not worried about you, Nii-san!"@
-` Akiha quickly looks away.@
-` Looking at her with a faint smile, I go to the dining room.\
+` — До чего ж ты назойлив!@ Я о тебе совершенно не волнуюсь!@
+` Она моментально отворачивается.@
+` Посмотрев на неё с лёгкой улыбкой, я направляюсь в столовую.\
 
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w1000
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_48a.jpg",%type_lcartain_mid
 
 
 
-; ??<?>=??:?01(?????)<??????(?)>
+
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Please take care."@
-` Saying the same thing as she always does, she continues to stare at me.@
-`"Shiki-sama, what happened to you last night?"@
-`"...... Nothing in particular.@ I collapsed from anemia when it started to rain on me.@ I'll be careful from now on."@
-`"I am not placing any blame on you, Shiki-sama, but you look like you are pushing yourself this morning.@ Please take care along the way."\
+` — Счастливого пути.@
+` Произнеся свою стандартную фразу, она продолжает буравить меня взглядом.@
+` — Шики-сама, что с Вами случилось прошлой ночью?@
+` — Да ничего особенного...@ У меня случился приступ анемии, когда пошёл дождь.@ Теперь я буду осторожнее.@
+` — Я вас не виню, Шики-сама, но вы сегодня, похоже, не в форме.@ Будьте осторожны.\
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 
 
-` Hisui makes a deep bow and sees me off.@
+` Поклонившись, Хисуи меня провожает.@
 br
-` ...... Oh man.@
-` I tried to act as normally as I could, and although I didn't give myself away to Akiha and Kohaku-san, it didn't seem to have worked on Hisui.@
-`"...... I wonder if Hisui is worried about me."@
-` It's hard to tell when she looks so disinterested all the time.@
-` Today might be my last day of school anyway.@
-` I'll try to spend it as I always do, so I won't have any regrets----\
+` Боже...@
+` Я старался вести себя как можно нормальнее, но, хотя я смог провести Акиху и Кохаку, Хисуи мне, похоже, не обмануть.@
+` — Интересно, волнуется ли она обо мне...@
+` С её безразличным видом тяжело об этом судить.@
+` Сегодня вполне может быть мой последний день в школе.@
+` Надо провести его так, чтобы потом не о чем было сожалеть...\
 
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
 
-;CD-DA??
+
 playstop
 
-; ???(?)<?????(?)>
+
 bg "image\bg\bg_24a.jpg",%type_lcartain_slw
 
 
-` No matter how I feel, the morning is always the same.@
-` As I approach the school, I begin to catch sight of more and more students in uniform.@
-` It's Saturday, right before the day off.@
-` My footsteps falter as I think about how this may be my last school day ever.@
+` Как бы я себя не чувсвтвовал, утро от этого не изменится.@
+` Приближаясь к школе я вижу всё больше студентов.@
+` Сегодня суббота, последний день перед выходным.@
+` Мне тяжело идти при мысли, что это будет мой последний день в школе.@
 br
-` But still, as calmly as I can, I walk along the road that has become so familiar to me over the last two years.@
-` It's only a little way to the school once I pass this intersection.\
-` The light turns red, and I stop in front of the crosswalk.@
+` Но всё же, стараясь быть как можно спокойней, я иду по дороге, что стала мне такой родной за последние два года.@
+` До школы уже совсем недалеко. Осталось лишь перейти дорогу.\
+` На светофоре загорается красный.@
 br
-` The school fence is on the other side of it.@
-` Since it's a school path, the footpath is protected by a guardrail.@ Even now, the students in front of me are heading towards the school gate.@
-` There's no one but students from our school on the other side at this time of day.@
-` ...... There should be no one but the students.@
-` But between the cars rushing by, I feel like I catch a glimpse of someone in white.\
+` На той стороне виден школьный забор.@
+` Тротуар обнесён оградой, поскольку это дорога к школе.@ Да и сейчас там видны студенты, идущие к воротам.@
+` В такое время там только они и ходят.@
+` Больше там никого не должно быть...@
+` Но, за мчащимися машинами, я вижу что-то белое.\
 
 
-; ??????:???????????????<???????(?)>
+
 bg "image\event\ark_e02.jpg",%type_lshutter_mid
 
 
-`"-----Wha......"@
+` — Что за...@
 br
-` She is there.@
+` Это она.@
 br
-` Dressed in white, with golden hair down to her shoulders.@
-` Long, slender brows and red eyes.@
-` I've seen her only once before, but there's no way I could mistake her for someone else.@
-`"------"@
-` But that's impossible.@
-` I killed her myself yesterday, cutting her into pieces.\
-` The light turns green.@
-` The students around me walk towards the other side.@
-` I'm the only one amongst them who stands there, stunned.\
-` She sits on the guardrail, her legs swinging idly.@
-` As if she is waiting for someone.@
-` I can't tell how long she's been waiting, but her expression isn't a grim one.@
+` Одетая в белое, с золотистыми волосами, достигающими плеч.@
+` Длинные изящные брови и красные глаза.@
+` Я видел её всего однажды, но ни с кем не спутаю.@
+` «...»@
+` Но это невозможно.@
+` Я ведь её вчера убил, порезал на кусочки.\
+` Загорелся зелёный.@
+` Школьники вокруг меня стали переходить дорогу.@
+` И только я один остался стоять, как вкопанный.\
+` Она сидит на перилах, помахивая ногами.@
+` Словно ждёт кого-то.@
+` Не знаю сколько она там просидела, но лицо у неё мрачное@
 br
-` ---Who is she waiting for?@
+` Кого она ждёт?..@
 br
-` She fidgets restlessly, as if she were waiting for her lover.\
+` Она беспокойно ёрзает, словно встречается тут с любовником.\
 
 br
 br
@@ -419,263 +424,268 @@ br
 br
 br
 br
-` ---I have a bad feeling about this.\
-`"Ah-----"@
-` The girl in white looks over in my direction.@
-` It's probably nothing more than a coincidence.@
+` У меня плохое предчувствие...\
+` — А-а...@
+` Она смотрит в мою сторону.@
+` Это, наверное, просто случайность.@
 br
-` She's just a stranger who looks like her.@ She must be waiting for someone else.@
-` If not, then this moment must surely be a bad dream, too.@
-` After all, I have completely and utterly killed her with my own hands----\
-` But she's looking this way and smiling.@
-` Looking very satisfied at having found the person who killed her, her smile seems to say, "you've finally come----"\
+` Какая-то незнакомка, похожая на ту девушку.@ Ждёт кого-то.@
+` А если нет, то значит мне просто сниться кошмар.@
+` Ведь я, вне всяких сомнений, убил её собственными руками...-\
+` А она смотрит сюда и улыбается.@
+` Довольная тем, что нашла своего убийцу, она как бы говорит своей улыбкой: «наконец-то ты пришёл...»\
 
-; ???(?)<??????(?)>
+
 bg "image\bg\bg_24a.jpg",%type_lshutter_mid
 
 
-` Giving a familiar wave and a smile, she hops off the guardrail.@
-` Fluttering her hair, she heads towards me.@
-`"-------Don't come."@
-` This... is a bad dream.@
-` The light turns red.\
-`"-------Don't come near me."@
-` She doesn't even look like she cares, walking straight across the street while the cars pass by.@
+` Она помахала мне рукой, ещё раз улыбнулась и спрыгнула с перил.@
+` Затем поправила волосы и направилась ко мне.@
+` — Не подходи...@
+` Это... кошмар.@
+` На светофоре загорелся красный.\
+` — Не подходи ко мне...@
+` А она переходит дорогу, словно ей наплевать на проносящиеся мимо машины.@
 br
-` There's only a few meters between us.\
-`"...... I'm telling you not to come----!!!"@
-` The reality before my eyes does not change even when I scream out.@
-` Screaming in a voice even I don't understand, I run from the girl in white.\
+` Нас разделяют всего лишь несколько метров.\
+` — Говорю же, не подходи!!!@
+` Но этот крик ничего не меняет.@
+` Я пустился наутёк, издавая нечленораздельный вопль.\
 
-; ???(?)<?????(?)>
+
 bg "image\bg\bg_23a.jpg",%type_lcartain_mid
 
-;S.E."????(???)"
+
 waveloop se1
 
-` I run.@
-` I run with all my strength.@
-` With no regard to embarrassment or shame, I blast through the passersby, running full speed across the asphalt.@
-; ???<???????(?)>
+` Я бегу.@
+` Бегу изо всех сил.@
+` Без всяких зазрений совести, сбивая прохожих, я несусь со всех ног.@
+
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 br
-` *huff* *huff* *huff* *huff*@
+` «ых... ых...»@
 br
-` My breathing is wild, and my heart screams out.@
-` But still, I run.@
-` I feel like I'm going to go crazy if I don't.\
-` I look behind me.@
-` The girl in white is walking towards me.@
-` She's definitely following me.@
-` The girl I've killed is chasing me.@
-` That's more than enough reason for me to run.\
+` Воздуха не хватает и сердце рвётся из груди.@
+` Но я всё равно бегу.@
+` Мне кажется, иначе я сойду с ума.\
+` Оглядываюсь.@
+` Девушка в белом идёт за мной.@
+` Да именно за мной.@
+` Та самая, которую я вчера убил.@
+` Одного этого мне хватает, чтобы бежать дальше.\
 
-; ??????(?)<?????(?)>
+
 bg "image\bg\bg_25a.jpg",%type_lcartain_mid
 
-` *huff* *huff* *huff* *huff*@
+` «ых... ых...»@
 br
-` My heart feels like it's about to explode, but I ignore it and keep running.@
-` When I look back, the girl is still there.@
-` With those light footsteps, she follows me as I run away.@
+Сердце вот-вот выскочит из груди, но я не обращаю внимания и всё равно бегу.@
+` Когда оглядываюсь, снова вижу её.@
+` Я убегаю, а она лёгкой походкой идёт за мной.@
 br
-` *huff* *huff* *huff* *huff*@
+` «ых... ых...»@
 br
-` My head droops down.@
-` My arms feel heavy.@
-` My legs feel like they're going to tear off.@
-` But despite that,
-` I'm running with all my strength, and yet, I can't get away from someone just walking after me--!\
+` Голова опустилась.@
+` Руки налились свинцом.@
+` Ноги, того гляди, отвалятся.@
+` Но я всё равно бегу.
+` Бегу что есть духу и всё же не могу оторваться от той, которая идёт за мной мерным шагом!\
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
-; ???2(?)<?????(?)>
+
 bg "image\bg\bg_30a.jpg",%type_lcartain_mid
 
 ` *huff* *huff* *huff* *huff*@
 br
-` My breathing is out of control.@
-` I think I've already run several kilometers.@
-` But even so, when I look back, she's always there, walking towards me.\
-` Naturally, like she's taking a stroll, she follows right behind me.@
-` *huff* *huff* "...... Haha, hahaha!"@
+` Дыхание совсем сбилось.@
+` Я, наверное, уже несколько километров пробежал.@
+` Но сколько бы я не оглядывался, она всегда позади, идёт за мной.\
+` Причём совершенно не торопясь, как на прогулке.@
+` «ых... ых...»
+` — Ха-а, а-ха-ха!..@
 br
-` It's not funny, but I begin to laugh.@
+` Ничего смешного, но я засмеялся.@
 br
-`"Haha, hahaha, ahahahahahaha!"@
+` — Ха-ха, ха-ха-ха, аха-ха-ха!@
 br
-` I can't stop laughing.@
-` But even so, I run.@ My body complains that I'll die if I run any more, but I keep running.@
-` The reason is simple.@
-` If she catches me, she'll kill me for sure.@
-` I ask myself what I base that on, trying to shake it off as mere imagination.@ But even as I try to console myself, I am the one who knows best it's true.@
+` Не перестаю смеяться.@
+` И продолжаю бежать.@ Даже не смотря на все протесты моего тела и чувство, что от этого забега я вот-вот загнусь.@
+` Причина проста.@
+` Если она меня поймает, то мне точно конец.@
+` Я спрашиваю себя: «А почему?». Пытаюсь убедить себя, что это лишь моё воображения.@ Но, сколько бы я не пытался себя утешить, мне лучше всех известно: это правда.@
 br
-` There's no reason, no basis, no evidence.@
-` I already know that if she catches up to me, I will be killed-----\
+` Какие тут могут быть причины и основания?@
+` Я и так знаю, что если меня поймают, мне конец...\
 
 
-; ???1(?)<?????(?)>
+
 bg "image\bg\bg_31a.jpg",%type_lcartain_mid
-;S.E."????"
+
 wave se4
 quakey 3,100
 
-`"Ah!@---"@
-` Pathetically, I collapse to the ground.@
-` I fall forwards, not because I tripped, but because I simply can't move my body a single step further.@
-`"Guh---ha, aah."@
-` Lying there, collapsed, I somehow manage to crawl my way to the wall.\
-`"----"@
-` I try to pull myself up against the wall, but it's no good.@
-` My knees lose their strength as I try to rise, and I collapse back down.@
-` My body won't move anymore.@
+` — Ох!..@
+` Я жалким образом растянулся на земле.@
+` Я не споткнулся, просто ноги больше не могут сделать и шага вперёд.@
+` — Гха... ах...@
+` Я кое-как дополз до стены.\
+` «...»@
+` Опёрся на неё и попытался подняться, но не получилось.@
+` Колени подогнулись, и я снова упал.@
+` Теперь даже пошевелиться не могу.@
 br
-` *pant* *pant* *pant*@
+` Жадно хватаю ртом воздух.@
 br
-` I look up as I breathe.\
-` ----It hurts.@
-` I don't have enough oxygen.@
-` I can't think properly because of it.@
-` I can't even tell what I'm doing anymore.@
-` I don't know why I'm doing this.\
-` Why?@ Why?@ I don't even know why the girl I've killed is alive.@
-` Unmistakably, I've utterly and completely killed her in the most final way imaginable.@
-` So why?@
-` How can she be waiting for me in front of my school, smiling---?\
+` И озираюсь по сторонам.\
+` Больно...@
+` Не хватает кислорода.@
+` Поэтому голова плохо соображает.@
+` Мне даже не ясно, что собственно я делаю.@
+` Почему? Зачем?.\
+` Почему?@ Почему?@ Почему та, кого я убил, жива?@
+` Я же точно её убил. Окончательно и бесповоротно.@
+` Так почему же?@
+` Почему она ждала меня у ворот моей школы и улыбалась?..\
 
 
-`"...... I'm sure I killed her."@
+` — Я её точно убил...@
 br
-` ---That's right.@
-` I'm sure I killed her.@
+` Да, убил.@
+` Убил.@
 !w500
-` I'm sure I killed her.@
+` Убил.@
 !w500
-` I'm sure I killed her.@
+` Убил.@
 !w500
-` I'M SURE I KILLED HER, SO
+` УБИЛ, ТАК
 !w500
 br
-` Why why why why why why why why why why why why why why why why why why why why why why why why why why why why------!?\
+` Почему почему почему почему почему почему почему почему почему почему почему почему почему почему почему почему?!..\
 
-; ??<?>=??????:?01(?????)<??????(?)>
+
 ld c,":a;image\tachi\ark_t03.jpg",%type_lshutter_fst
-;S.E.??
+
 wavestop
 
-`"Oh?@ Is the chase over already?"@
-` With light footsteps, she comes into the alley, shrugging her shoulders in disappointment.\
-`"Hello.@ You really gave me some trouble yesterday."@
-; ??<?>=??????:?01(????)<???????(?)>
+` — Что?@ Догонялки уже закончились?@
+` Лёгко шагая, она появилась в подворотне и разочарованно пожала плечами.\
+` — Привет.@ Доставил ты мне вчера хлопот.@
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-;CD-DA????????????
+
 play "*9"
-` With a warm smile, she comes into the alley.@
-` ----I've got to run away.@
+` Идёт и мягко улыбается.@
+` «Надо бежать...»@@
 br
-` So thinking, I retreat, only to hit my head against a concrete wall.@
+` С этой мыслью я начинаю пятиться, но упираюсь затылком в бетонную стену.@
 br
-`"The chase is already over, right?@ This is a dead end, after all.@ There's no need to worry about anyone coming along or interfering."@
-` She smiles, looking very happy.\
+` — Больше бегать не будем, да?@ Тут всё-таки тупик.@ Да и о случайных прохожих можно не волноваться.@
+` Улыбается и выглядит очень счастливой.\
 
-; ?????<???????(?)>
+
 cl c,%type_crossfade_fst
 
-` Panicking, I look around at my surroundings.@
-` A desolate alley.@ I'm disgusted at how stupid I am.@
-` To run away here is like asking her to kill me.\
-; ??<?>=??????:?01(????)<???????(?)>
+` Вне себя от страха, я стал озираться по сторонам.@
+` Глухая подворотня.@ Проклинаю свою глупость.@
+` Более удобного места, чтобы умереть от её рук, найти сложно.\
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"It's been a long time.@ Eighteen hours since then, I finally found you."@
-` She takes another step into the alley.@
+` — Я тебя долго искала — целых восемнадцать часов.@ И вот нашла.@
+` Ещё один шаг ко мне.@
 br
-`"Y-you----!"@
-`"What?"@
-`"I definitely----"@
-`"Yes.@ I'm the girl you killed yesterday.@ I'm glad you remember."@
-`"Th---"@
-` That's got to be a lie.@ There's no way that can happen...!\
-`"Don't be ridiculous!@ Dead people can't be alive!"@
-`"That's true, but there's no need for you to be so surprised.@ I just revived, that's all."@
-` With that curt response, she makes another footstep, the sound reaching my ears.@
+` — Т-ты!..@
+` — Что?@
+` — Я же тебя...@
+` — Да.@ Я та девушка, которую ты вчера убил.@ Спасибо, что запомнил.@
+` — Э-э...@
+` Этого не может быть.@ Как такое могло случиться?!..\
+` — Ты издеваешься?@ Мертвецы — они мёртвые!@
+` — Так и есть, но ты сильно не удивляйся.@ Я просто ожила и всё.@
+` После этого короткого ответа она шагнула ещё ближе. Теперь я уже слышу звук её шагов.@
 br
-` The distance between us is gradually decreasing.\
-`"...... Re... vived?"@
-` Stunned, I repeat her phrase back to her.@
-` Revived... you mean some doctor saved her with some surgery...?@
-`"---Don't be stupid!@ There's no way any human could revive from being cut apart like that---!"\
-`"Yeah.@ Then again, I'm not human."@
-`"-----Huh?"@
-` Her words are so simple there's no way I could have misinterpreted them.@
+` Расстояние между нами стремительно сокращается.\
+` — О... Ожила?..@ — эхом ответил я.
+` От этой фразы в голове вообще всё встало.@
+` Ожила... её жизнь спас какой-то доктор?..\
+` — Что за чушь!@ Люди не выживают после расчленения!..@
+` — Ага.@ Только я не человек.@
+` — А?..@
+` Ответ такой простой, что не так понять нельзя.@
 br
-` I'm not human.@
+` «Я не человек».@
 br
-` That's what the girl in front of me said.\
-`"...... You're not human...?"@
-; ??<?>=??????:?01(????)<???????(?)>
+` Вот что она мне сказала.\
+` — Ты... не человек?..@
+
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
-`"Geez, isn't that obvious?@ Do you think there's a human being out there who can revive after being cut up into pieces?"@
-; ?????<???????(?)>
+` — Ох, а что не ясно?@ Или ты видел людей, которые оживают после того, как их порежут на куски?@
+
 cl c,%type_crossfade_fst
 
-`"-------"@
-` There's no way a human like that could exist.@
-` Something like that is just a monster who looks human.@
+` «...»@
+` Таких людей не существует.@
+` Такое может быть только чудовищем в обличье человека.@
 br
-` Something that revives even when killed.@
-` Something that death is irrelevant to.@
-` Something that quickly returns to normal and starts moving even after being cut to pieces isn't something you can call human.\
-`"No... way."@
-` That seems to be the girl right before my eyes.@
-` I try to laugh, but my throat is so dry, I can't.\
-`"...... What the hell is that?"@
-` It's not exactly a funny story.@
-` Besides, there's too many things in this story that aren't funny.@
-` Because definitely...
-` If she's not human, it explains why she's alive even after I've killed her.@
+` Что-то, что оживает после смерти.@
+` Что-то, способное её избежать.@
+` Что-то быстро приходящее в себя и снова живое, даже после расчленения. Такое нельзя назвать человеком.\
+` — Не может... быть.@
+` Ведь она так похожа на обычную девушку.@
+` Я попытался засмеяться, но в горле так пересохло, что ничего не получилось.\
+` — Что за хрень?@
+` Это уже не смешно.@
+` Да тут вообще весёлого мало.@
+` Особенно потому что...
+` ...её ответ проясняет, как она осталась жива после того, как я её убил.@
 br
-` ---I start to calm down.@
+` Потихоньку я стал успокаиваться.@
 br
-` This is a situation where I've got to observe everything and think it over.\
-`"...... You said you're not human.@ So what are you?"@
-`"Me?@ I'm called a vampire.@ To put it in your terms, I'm a monster who lives off human blood."@
-; ??<?>=??????:?01(????)<???????(?)>
-ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-` ...... That's good.@
-`"Vampire" is at least something I can easily understand.\
-`"I see.@ You're a vampire---"@
-` She smiles in satisfaction to indicate her assent.@
-` ...... What a crazy reply.@
-` I've heard that vampires can't walk around during daytime, but I guess that's a trivial matter right now.@
-`"...... So, what does this monster want from me?"@
-` For some reason, she recoils as if surprised.@
-; ??<?>=??????:?01(????)<???????(?)>
-ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
-` After a moment, she puts her hands on her hips and looks at me, irritated.\
+` Тут надо собраться и всё обдумать.\
+` — Говоришь, ты не человек.@ Тогда кто ты?@
+` — Я?@ Меня называют вампиром.@ По-вашему, чудовище, живущее человеческой кровью.@
 
-; ??<?>=??????:?01(????)<???????(?)>
+ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
+` Ну, ладно...@
+` «Вампир» — это я хотя бы могу понять.\
+` — Ясно.@ Значит, ты вампир...@
+` В знак согласия она довольно улыбнулась.@
+` Ну и дурь...@
+` Я, вроде, слышал, что они днём ходить по улицам не могут, но это уже мелочи.@
+` — И что этому «монстру» от меня нужно?@
+` Она отступает, словно в изумлении.@
+
+ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
+` После чего, упёрлась руками в бока и с нетерпением посмотрела на меня.\
+
+
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
 
-`"Have you forgotten what you did to me yesterday?@ Even though you didn't know me, you cut me apart the moment we met.@ You've got to be pretty used to this to ask me what I want with you now."@
-` She looks more disgusted than angry.@
-` But right now, that's how I feel, too.@
-` Because someone I've killed is coming to complain to me why I killed her.\
-; ??<?>=??????:?01(????)<???????(?)>
+` — Ты уже забыл, что ты вчера со мной сделал?@ В первую же встречу порезал незнакомую девушку на части.@ Видно, для тебя это обычное дело, раз теперь спрашиваешь, чего я от тебя хочу.@
+` Она скорее разочарована, чем зла.@
+` Я, кстати, тоже.@
+` Потому что ко мне пришла жаловаться о смерти моя же жертва.\
+
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
-`"Hey!@ Are you listening, murderer?"@
-`"...... Yeah, I'm listening.@ Sorry, could you shut up for just a minute?@ I'm reflecting on how unlucky this is, even for me."@
-; ?????<???????(?)>
+` — Эй!@ Ты меня слушаешь, убийца?@
+` — А как же...@ Прости, но не могла бы ты на минутку заткнуться?@ Я тут соображаю, какой же я невезучий.@
+
 cl c,%type_crossfade_fst
 br
-` ---Sheesh.@ I have the worst luck.@
-` There was a girl I wanted to kill for no reason, and I killed her on pure impulse.@
+` Блин.@ Не везёт, так не везёт.@
+` Передо мной стоит девушка, которую я просто так убил по сиюминутному желанию.@
 br
-` I agonized over it in deep despair... and even though I firmly decided to atone for my sins, the one I killed appears out of nowhere and says she isn't even human.\
+` Я так из-за этого мучился... Решил, что отныне буду искупать этот грех... Но вот моя жертва стоит предо мной и заявляет, что она не человек.\
 
 
 
 
-return
+*skip74
+
+
+inc %flg2
+goto *f75
 
 
 </pre>
