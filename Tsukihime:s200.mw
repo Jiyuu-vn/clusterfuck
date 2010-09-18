@@ -1,5 +1,7 @@
 [[Tsukihime|[Назад]]]
 
+{{TnM:T|[[Участник:Tsuki no Mai|Tsuki no Mai]] 10:49, 18 сентября 2010 (EEST)}}
+
 <pre>
 *s200
 
@@ -8,139 +10,142 @@ mov $phasetitle_a,":a;image\word\PCEL_05A.PNG"
 mov $phasetitle_b,":a;image\word\day_05.png"
 gosub *right_phase
 
-; ???<???????(?)>
+
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
 
 
-` I feel the morning sunlight.@
-` I keep my eyes closed as I try to fall asleep again, but the gentle sunlight keeps urging me to open my eyes.@
+` Я чувствую утреннее солнце.@
+` Я пытаюсь снова уснуть, но мягкий свет побуждает меня открыть глаза.@
 br
-` ---Slowly, I start to awaken.\
+` Начинается медленное пробуждение...\
 br
 
-; ?(????)<???????(?)>
+
 bg "image\bg\ima_05.jpg",%type_crossfade_fst
 
-` A quiet atmosphere.@
-` The air is comfortably cold, and the sunlight is warm enough.@
-` I guess the weather will be great today.\
+` Тишина.@
+` Воздух приятно прохладен, а солнце в меру греет.@
+` Наверное сегодня будет прекрасная погода.\
 
 br
-` ---Then, I should get up and go to school.@
+` Значит надо вставать и собираться в школу.@
 br
-` That's right, I have to go to school.@
-` The past three days, my life was chaos and it made me forget I was a student.\
+` Точно, я же хожу в школу.@
+` В хаосе последних трёх дней я совершенно позабыл, что ещё и учусь.\
 
 
-; ?????(?)<???????(?)>
+
 bg "image\bg\bg_40a.jpg",%type_crossfade_slw
 
-;CD-DA?????
+
 play "*2"
 
-`"............"@
-` I wake up.@
-` I'm lying on my bed, and my glasses are on the bedside.@
-` I automatically put them on and look around.@
-` The sunlight streams so strongly in through the window, I almost expect to hear it pouring through.@
-`"----"@
-` I take a quiet breath.@
-` I fill my lungs with fresh air, and it feels like my chest is purified.\
+` «...»@
+` Проснувшись, я привычным движением одеваю очки, лежащие рядом с кроватью и осматриваюсь.@
+` Свет столь ярко льётся сквозь окно, что кажется, будто его можно даже услышать.@
+` «...»@
+` Я тихо вдыхаю.@
+` Свежий воздух, наполняющий мои лёгкие, оставляет в груди ощущение чистоты.\
 
-` I hear the clock ticking.@
-` Small birds chirp in the woods outside.@
-` I stay on my warm bed, aimlessly feeling the relaxed passage of time.@
+` Раздаётся мерное тиканье часов.@
+` Снаружи доносится чириканье мелких пташек.@
+` Я просто лежу в тёплой постели, наслаждаясь всем этим.@
 br
-` -----This is, of course, another peaceful day.@
+` Сегодня, вне всяких сомнений, будет спокойный день.@
 br
-`"..............."@
-` But, I feel a bit unsatisfied.\
-` Although I'm back in this calm morning, I---feel that there is something that seems out of place.\
+` «...»@
+` Но я ощущаю лёгкое неудовлетворение.\
+` Хоть я и вернулся в это спокойное утро, но... Что-то не так.\
 
-` Even though I killed that vampire with the black coat and everything is back the way it was---I'm feeling that something is missing.@
-`"...... That's ridiculous."@
-` I shake my head, and shake off that unimportant thought.@
+` Хоть я и убил вампира в чёрном плаще, и всё вернулось на круги своя... Чего-то не хватает.@
+` — Что за чушь...@
+` Взмахом головы, я пытаюсь вытряхнуть из неё эти нелепые мысли.@
 br
-` ---And then.@
+` И тут...@
 br
 
 
-; ??<?>=??:?01(?????)<??????(?)>
+
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 
-` "Good morning, Shiki-sama."\
+` — С добрым утром, Шики-сама.\
 
-`"Uwaaaa!"@
-` I jump up in my bed.@
-` Now that I look, Hisui is standing quietly at the side of my bed.@
-`"Hi-HiHi-Hisui---"@
-`"...... Please excuse me, Shiki-sama, but since you did not notice, I spoke."@
-`"Ah---well, I mean, I'm sorry, too."@
-` Hisui respectfully bows to me.@
+` — Уaaaa!@
+` Я аж подскочил.@
+` Хисуи, оказывается, тихо стоит рядом с моей кроватью.@
+` — Хи-Хи-Хисуи...@
+` — Простите, пожалуйста Шики-сама, но поскольку Вы меня не заметили, я решила что-нибудь сказать.@
+` — А... Ну, ты меня тоже извини.@
+` Хисуи уважительно кланяется.@
 br
-` ---Sh-she surprised me.@
-` My heart is still pounding rapidly.\
+` Она меня напугала...@
+` Сердце до сих пор из груди рвётся.\
 
-`"---Huh?@ But it's still before seven o'clock, Hisui."@
-`"Yes.@ It is a bit earlier than your usual waking time, Shiki-sama."@
-`"Well, yes---then why are you here, Hisui?"@
-`"I came to wake you up.@ Akiha-sama wants to know what have you been doing these last two days so she wanted me to bring you no matter what."@
-`"-----Ah."\
+` — Э?@ Хисуи, ещё ведь и семи нету.@
+` — Да.@ Обычно я Вас бужу немного позже.@
+` — Ну да... Так почему ты сейчас здесь?@
+` — Я пришла Вас разбудить.@ Акиха-сама хочет знать, чем вы занимались эти два дня, и потому сказала мне привести вас во что-бы то ни стало.@
+` — А...\
 
-` ...... I forgot.@
-` Come to think of it, I skipped school last Saturday and was with Arcueid through all of Sunday.@
-` What's more, I came back late last night, snuck in like a burglar, and then went to sleep.\
+` Я и забыл...@
+` Я ведь и впрямь пропустил уроки в субботу, да и воскресенье провёл с Арквейд.@
+` Кроме того ещё и вчера вернулся поздно, забрался в дом, словно вор и лёг спать.\
 
-`"...... Don't tell me, Akiha's angry......?"@
-`"I do not know.@ Please confirm for yourself, Shiki-sama."@
+` — Она сильно злится?..@
+` — Не знаю.@ Выясните это сами, Шики-сама.@
 br
-` ---Hisui's voice sounds very cold.@
+` Её голос чрезвычайно холоден.@
 br
-`"...... Hisui, you knew I came back?"@
-`"Yes.@ I noticed when you returned early this morning around two o'clock.@ We saw you on the security camera when you were climbing the gate, Shiki-sama."\
+` — Хисуи, ты знала, что я вернулся?..@
+` — Да.@ Я заметила в два ночи, когда вы вернулись.@ Мы видели на камере, как Вы через ворота.\
 
-`"---Um, does Akiha know this?"@
-`"No, only Nee-san and I know this."@
-`"That's---good."@
-` ...... Anyway, I think I avoided the worst possible situation.@
-` However, it's still pretty bad.@
-` Not informing her what I've been doing these last two days and returning in the middle of the night, it's pretty bad.\
+` — Э... Акиха об этом знает?@
+` — Нет, только Нее-сан и я.@
+` — Хорошо...@
+` Худшего, вроде, удалось избежать.@
+` Хотя ситуация всё равно не радужная.@
+` Держать Акиху в неведении, на счёт того, чем я занимался, и вернуться посреди ночи... Совсем не радужная.\
 
-`"---Alright.@ I'll head down immediately.@ Umm...... and, if possible, I'd be happy if you tried to calm her down as much as possible."@
-`"Akiha-sama already appears calm.@ I think it will be difficult for my words to calm her even more."@
-`"---"@
-` Ugh, one problem after another?@
-` I just got done with Nrvnqsr, so I never thought I would face another life and death battle without even a rest break.\
-
-
-` Well, time to get up.@
-` I can't do anything staying in bed.@
-`"I'll go after I change, so please go ahead, Hisui.@ ...... It's alright, I won't run."@
-`"---Well then, we will be waiting for you."@
+` — Ладно.@ Я сейчас спущусь.@ Ну... И, если возможно, я был бы очень благодарен, если бы ты её хоть немного успокоила.@
+` — Акиха-сама и так выглядит спокойной.@ Думаю, что мне не удастся достичь чего-то большего.@
+` «...»@
+` Ух... Беда никогда не приходит одна?@
+` Не думал, что мне придётся снова оказаться в смертельной опасности, фактически сразу после победы над Хаосом.\
 
 
-; ?????<??????(?)>
+` Ну, пора вставать.@
+` Лёжа в кровати я ничего не добьюсь.@
+` — Я спущусь когда переоденусь, так что можешь идти, Хисуи.@ Не волнуйся, я не сбегу.@
+` — Ну что же, тогда мы будем вас ждать.@
+
+
+
 cl a,%type_lshutter_mid
 
 
 br
-` ...... []*sigh*@
-` Well then, I should change quickly so Mistress Akiha may pass judgment on me.\
+` *вздох*@
+` Ну, надо побыстрее переодеться, чтобы предстать перед судом госпожи Акихи.\
 
 
-; ?????(?)<?????(?)>
+
 bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 
 
-` ---Alright, I'm here.@
-` Now only a door separates me from the sitting room where Akiha awaits.@
-` No matter what the circumstance was, there's no excuse for skipping school and not coming home for two days.@
-` Now---
+` Ну, вот я и здесь...@
+` Одна лишь дверь отделяет меня от гостиной.@
+` Какими бы ни были обстоятельства, они не оправдают пропуск школы, и то, что я не был дома два дня.@
+` Ну а теперь я...
 br
 
 
-return
+*skip200
+
+
+select `1. Извинюсь.`, *f219,
+	`2. Попытаюсь её провести.`, *f220,
+	`3. Скажу правду.`, *f221
 
 
 </pre>
