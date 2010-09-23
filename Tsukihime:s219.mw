@@ -3,115 +3,129 @@
 <pre>
 *s219
 
-; ?? : ?? : ?????(?)<????>
+
 bg "image\bg\bg_33a.jpg",%type_nowaitdisp
 
-`"...... That's right.@ I think that's the best choice."@
-` I don't think Akiha will understand about non-humans like Arcueid and Nrvnqsr, and since I can't tell the truth, I should at least sincerely apologize.@
+` —  Верно.@ Так будет лучше всего.@
+` Не думаю, что Акиха правильно поймёт разговор о нелюдях вроде Хаоса и Арквейд, так что, раз уж я не могу сказать ей правду, то стоит по крайней мере извиниться.@
 br
-`"--Alright, let's go."@
-` Taking a deep breath, I open the sitting room door.\
+` — Ну, с богом.@
+` Глубоко вдохнув, я отворяю в дверь.\
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
-` In the sitting room, Akiha is on the sofa and Hisui is standing by the wall.@
-; ??<?>=??:?01(????)<????>
+` В гостиной меня ожидают Акиха, сидящая на софе, и Хисуи, стоящая у стены.@
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_nowaitdisp
 
-`"--Good morning, Nii-san."@
-` Her gaze is telling me "I am angry."@
-`"Um, uh...... Morning, Akiha."@
-`"Let's dispense with greetings.@ Please sit there.@ I wish to speak with you, Nii-san."@
-; ?????<????>
+` — Доброе утро, Нии-сан.@
+` Её взгляд прямо таки кричит: «Я очень зла».@
+` — Э, ну... И тебе привет.@
+` — Покончим уже с официальной частью.@ Присаживайся.@ Я очень хочу с тобой поговорить.@
+
 cl c,%type_nowaitdisp
 
-`"------"@
-` Her words are so forceful, I can't say no.@
-` I solemnly and calmly sit down on the sofa across from her.\
+` «...»@
+` Она оказывает такое давление, что отказать невозможно.@
+` Я спокойно сажусь напротив неё.\
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Nii-san.@ This is very abrupt, but may I ask about these past two days?"@
-`"----Ugh."@
-` Despite her polite language, Akiha's words are unmistakably a threat.@
-` But, her Onii-chan cannot tell her such a story.\
+` — Нии-сан.@ Не сочти грубостью, но не мог бы ты мне рассказать чем занимался прошлые два дня?@
+` — Ух.@
+` Хоть Акиха и сама вежливость, но в этих словах явственно сквозит угроза.@
+` Но её братик не может рассказать ей такую историю.\
 br
-`"About that, Akiha."@
-`"Yes, what is it?"@
-`"I'm sorry, but I can't tell you."@
-; ?????<????>
+` — На счёт этого...@
+` — Да, Нии-сан?@
+` — Мне жаль, но я не могу тебе ответить.@
+
 cl c,%type_nowaitdisp
 \
 
-` Crash.@
-` The teacup that Akiha was holding falls to the table.@
-` Rather, I think she dropped it intentionally.\
+` Звяк.@
+;` Crash.@ Как бы сделать это звяк более значительным? Бац? Нет… Чашки так не делают? Не должны…
+` Чашка, что была у Акихи в руках, упала на стол.@
+` Хотя, похоже, что она намеренно её уронила.\
 
-; ?<?>=??:?01(?????)<???????(?)>
+
 ld l,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Akiha-sama---"@
-; ?<?>=??:?04(??)<???????(?)>
+` — Акиха-сама...@
+
 ld r,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"Oh, I'm sorry Hisui.@ Would you please clean it up?"@
-; ?????<???????(?)>
+` — Ой, прости Хисуи.@ Не могла бы ты прибраться?@
+
 cl a,%type_crossfade_fst
 
-` Hisui silently cleans up the spilled tea and the shards of the (very expensive-looking) teacup.@
+` Хисуи молча убирает пролитый чай и осколки весьма дорого выглядещей чашки.@
 br
-` I uneasily watch her do so while Akiha is glaring at me.@
-` Once done cleaning, Hisui goes to the kitchen.\
+` Я беспокойно наблюдаю за ней, ощущая на себе пристальный взгляд Акихи.@
+` Прибравшись, Хисуи уходит на кухню.\
 
-; ??<?>=??:?03(??)<???????(?)>
+
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"---Then, Nii-san."@
-`"...... Yes?"@
-`"Could I ask you again?"@
-` Akiha doesn't give up.@
-` I can feel her drive to get the story out of me no matter what.@
-` But still, I don't think I can tell her about it.@
-` Of course not just for my sake, but hers as well.\
+` — Ну что же, Нии-сан.@
+` —  Да?@
+` — Не мог бы ты повторить?@
+` Акиха не собирается сдаваться.@
+` Не похоже, что она остановится раньше, чем вытянет из меня рассказ о том, что произошло.@
+;громоздко но не знаю как иначе.
+` Но, всё же, я не думаю, что могу ей об этом рассказать.@
+` Само собой я не только о себе забочусь, но и о ней.\
 
-`"...... No.@ No matter how many times you ask me, I can't tell you.@ I feel sorry that I made you worry, but I can't tell you about it."@
-; ??<?>=??:?03(??)<???????(?)>
+` — Нет.@ Сколько ни спрашивай, а ответа от меня не получишь.@ Мне очень жаль, что я заставил тебя волноваться, но ничего сказать не могу.@
+;Шики — партизан! Ни слова вражине, стой на своём!!!
+
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`"--Even though you are sorry, you can't tell me, Nii-san."@
-`"That's right.@ I'm sorry I haven't contacted you and for not being able to talk about it.@ But I haven't done anything wrong the past two days.@ ...... I don't even want to think that was a wrong thing to do."@
+` — То есть хоть ты и сожалеешь, но будешь молчать?@
+;Russische Schweine! Стоп… Он же японец? OH SHI~
+` — Верно.@ Мне очень жаль, что я с тобой не связался, и о том, что я сейчас ничего не могу тебе рассказать.@ Но могу поклясться, что ничего плохого за эти два дня не совершил.@ Даже думать не хочу, что это было ошибкой.@
+;Мне очень жаль что даже меня заколебала фраза «Мне очень жаль». Мне ОЧЕНЬ жаль, что альтернативы я не вижу.
+;Вы двое хоть когда-нибудь закончите долбать друг-другу мозг пытаясь призвать КО?!
+;Эк этот абзац раздуло.
+;А вот такие предложения, как последнее при штандартенфюрере^U Акихе вслух произносить опасно.
 cl c,%type_crossfade_fst
 
 \
 
-` ---That's right.@
-` Even these past two days were simply kill or be killed--I want to believe it was the right thing to do.@
+` Верно.@
+` Хоть эти два дня и были простой игрой на выживание... Мне хочется верить, что я сделал правильный выбор.@
 br
-` I did it to help Arcueid, but most of all... I do not regret killing that cannibalistic monster.@
+` Хоть я и ввязался в это ради Арквейд, но... Я совершенно не жалею, что убил того чёртова каннибала.@
 br
-` At the very least, there will be no more victims killed by having their blood drained.\
+` По крайней мере больше никто не умрёт от рук какого-то кровососа.\
+;Знал бы ты как ты ошибаешься. Мы то знаем…
 
-`"----I'm sorry, Akiha.@ I'm sorry to worry you, but please don't ask me anymore."@
-; ??<?>=??:?03(??)<???????(?)>
+` — Мне очень жаль, Акиха.@ Извини, что заставил тебя волноваться, но не спрашивай меня об этом больше.@
+;НЕЕЕЕТ!!! СНОВА!!! Снова эта долбаная фраза >___<
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"------"@
-` Akiha looks me in the eye.@
-` For a while, she stays like that.\
+` «...»@
+` Она смотрит мне прямо в глаза.@
+` Неотрывно, не обращая внимания на текущее время.\
+;Да. В оригинале совсем не так. Но это предложение породило глубокие внутренние противоречия и было подвергнуто жестокому обдумыванию и фактически полной замене.
 
-`"...... I understand.@ After thinking about it, you must have your reasons, so I won't press you on this anymore, Nii-san."@
-`"...... I'm sorry.@ Thanks for understanding."@
-; ??<?>=??:?03(??)<???????(?)>
+` —  Ладно.@ Если подумать, то ты не стал бы так поступать без причины, так что я не стану больше спрашивать.@
+` —  Прости.@ Спасибо, что поняла.@
+
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"-----"\
+` «...»\
 
 cl c,%type_crossfade_fst
 
 
-return
+*skip219
+
+
+goto *f222
 
 
 </pre>
