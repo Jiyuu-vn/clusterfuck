@@ -8,17 +8,17 @@ bg "image\bg\bg_40d.jpg",%type_nowaitdisp
 
 
 
-` The howling continues.@
-` There's no way I can sleep like this.@
-` ...... I can't sleep, but that's just normal.@
-`".................. I'm sleepy, so I'll pass."@
-` Pulling the sheets over me, I stretch out on the bed.@
-` I can just think of the howling as the sound of something mundane, like cars driving by on the street.\
+` Вой продолжается.@
+` Так я ни за что не смогу уснуть.@
+` ...... Не cмогу, но это - обычное дело.@
+`".................. Я уже засыпаю, так что переживу."@
+` Натянув на себя простыню, я растягиваюсь на кровати.@
+` Можно просто считать этот вой чем-то привычным, вроде шума машин за окном.\
 
-` []*sigh*@
-` Today's been a very long day.@
-` I'm mentally tired from eating dinner in this unfamiliar mansion and my conversations with Akiha and everyone else.@ After all that, the howling is just background noise.@
-` I close my eyes and gently fall asleep.\
+` []*Вздох*@
+` Сегодня был очень долгий день.@
+` Меня так вымотали ужин в этом незнакомом особняке и разговоры с Акихой и остальными.@ После всего этого - даже этот вой всего лишь ночной фоновый звук.@
+` Я закрываю глаза и незаметно для себя самого засыпаю.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -32,25 +32,25 @@ wave se8
 ; ?? : ?? : ?????(??)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_crossfade_fst
 
-`"----Nng."@
-` I think I just heard something.@
-` Half-awake, I look at the clock.@ It's just past two.@
-` ...... It's been about two hours since I heard the dogs howling.@
-` The dogs' howling has already stopped.@
-` The mansion is so quiet, I can hear the clock ticking in the silence.\
+`"----Ммм."@
+` Кажется, я что-то услышал.@
+` Всё ещё в полусне, я смотрю на часы.@ Только-только минуло два.@
+` ...... И примерно два часа с того времени, когда я слышал собачий вой.@
+` Вой уже прекратился.@
+` Теперь в особняке так тихо, что я могу чётко слышать в этой тишине тиканье часов.\
 
 ;S.E."???????????"
 wave se7
 
 
 `"------?"@
-` I hear it again.@
-` ...... Inside the mansion...... from the lobby?@
-`"-----Could it be a burglar?"@
-` It's not impossible.@
-` The mansion's contents are outrageously valuable.@ On top of that, with no one here now except Kohaku-san, Hisui, Akiha and myself, it's very insecure.@
+` Я снова слышу этот звук.@
+` ...... Изнутри особняка...... со стороны холла?@
+`"-----Может, это грабитель?"@
+` Не исключено.@
+` В особняке более чем достаточно ценных вещей.@ Кроме того, поскольку кроме Кохаку-сан, Хисуи, Акихи и меня здесь никого нет - это очень небезопасное место.@
 `"..............."@
-` I get out of bed, and slip out of the room quietly.\
+` Я встаю с постели, и неслышно выскальзываю из комнаты.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -61,8 +61,8 @@ play "*6"
 bg "image\bg\bg_46c.jpg",%type_lcartain_mid
 
 
-` ...... If it's a burglar, Akiha and everyone will be in danger, so I can't let this one go.@
-` I'll just look down from the second floor into the lobby; that should be safe enough.\
+` ...... Если это и впрямь грабитель, Акиха и остальные будут в опасности, так что я не могу это так оставить.@
+` Просто посмотрю в холл со второго этажа - это должно быть достаточно безопасно.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -70,15 +70,15 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ?? : ?? : ?????(??)<?????(?)>
 bg "image\bg\bg_33d.jpg",%type_lcartain_mid
 
-` There's nothing wrong there.@
+` Здесь всё в порядке.@
 
 ;S.E."???????????"
 wave se7
 
 
 `"...............!"@
-` No, someone's there.@
-` The figure that enters from the entrance and crosses the lobby with wobbling, uncertain steps, is---
+` Нет, здесь кто-то есть.@
+` Фигура, которая движется со стороны входа и покачиваясь, неуверенными шагами пересекает холл, это---
 br
 
 
@@ -89,13 +89,13 @@ ld c,":a;image\tachi\aki_t19b.jpg",%type_crossfade_mid
 cl a,%type_crossfade_mid
 
 
-`"Aki...... ha?"@
-` She's not going to her own room on the second floor, but to the first floor of the west wing.@
-` The only things there are Kohaku-san's room and my old man's room.\
+`"Аки...... ха?"@
+` Но она направляется не в свою комнату на втором этаже, а вглубь первого этажа западного крыла.@
+` Всё, что там есть - комнаты Кохаку-сан и моего старика.\
 
-`"...... What's she doing at this time of night......?"@
-` I can murmur all I want, but there won't be any answers forthcoming.@
-` After gazing at the lobby for a while, I decide to return to my room.\
+`"...... Что она делает посреди ночи......?"@
+` Я могу задавать себе вопросы сколько угодно, но ответа я так точно не услышу.@
+` Некоторое время я продолжаю смотреть во тьму холла, затем решаю всё-таки вернуться к себе.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -106,18 +106,18 @@ playstop
 ; ?? : ?? : ?????(??)<?????(?)>
 bg "image\bg\bg_40d.jpg",%type_lcartain_mid
 
-` ......... Well, she probably had something to do, or went to see Kohaku-san.@
-` I feel bad about sneaking around and watching her, and I don't want to just ask her about everything she does.@
-`"...... Sleep, sleep.@ There's school tomorrow."@
-` I bury myself in bed and close my eyes.@
+` ......... Что ж, наверное, у неё было какое-то дело, или она просто решила зайти к Кохаку-сан.@
+` Мне немного стыдно за то, что я крадусь по коридорам и устраиваю слежку, и поэтому я не хочу никого спрашивать о том, что она делала.@
+`"...... Спать, спать.@ Завтра ещё школа."@
+` Я зарываюсь поглубже в постель и закрываю глаза.@
 br
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-` ---As I fall asleep,
+` ---Пока я засыпаю,
 br
-` my thoughts keep returning over and over to Akiha's hollow-eyed figure in the lobby, and how something seemed wrong.\
+` мои мысли снова и снова возвращаются к тёмному холлу, фигуре Акихи с пустыми впалыми глазами, и тому ощущению, что с ней что-то не так.\
 
 !w3000
 
