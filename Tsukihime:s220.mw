@@ -3,125 +3,135 @@
 <pre>
 *s220
 
-; ?? : ?? : ?????(?)<????>
+
 bg "image\bg\bg_33a.jpg",%type_nowaitdisp
 
-` Well, I just have to deceive her somehow.@
-` I don't think Akiha will understand about non-humans like Arcueid and Nrvnqsr, so I'll have to minimize my lying without telling the truth.@
+` Ну, похоже придётся мне её как-нибудь провести.@
+` Не думаю, что Акиха правильно поймёт разговор о нелюдях вроде Хаоса и Арквейд, так что надо хоть постараться свести враньё к минимум.@
 br
-`"--Alright, let's go."@
-` Taking a deep breath, I open the sitting room door.\
+` — Ну, с богом.@
+` Глубоко вдохнув, я отворяю в дверь.\
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
-` In the sitting room, Akiha is on the sofa and Hisui is standing by the wall.@
+` В гостиной меня ожидают Акиха, сидящая на софе, и Хисуи, стоящая у стены.@
 
-; ??<?>=??:?03(??)<??????(?)>
+
 ld c,":a;image\tachi\aki_t03a.jpg",%type_lshutter_mid
-`"--Good morning, Nii-san."@
-` Her gaze is telling me "I am angry."@
-`"Um, uh...... Morning, Akiha."@
-`"Let's dispense with greetings.@ Please sit there.@ I wish to speak with you, Nii-san."@
-`"------"@
-` Her words are so forceful, I can't say no.@
-` I solemnly and calmly sit down on the sofa across from Akiha.\
 
-`"Nii-san.@ This is very abrupt, but may I ask about these past two days?"@
-`"----Ugh."@
-` Despite her polite language, Akiha's words are unmistakably a threat.@
-` But, her Onii-chan cannot tell her such a story.\
+` — Доброе утро, Нии-сан...@
+` Её взгляд прямо таки кричит: «Я очень зла».@
+` — Э, ну... И тебе привет.@
+` — Покончим уже с официальной частью.@ Присаживайся.@ Я очень хочу с тобой поговорить.@
 
-`"About that, Akiha."@
 
-; ??<?>=??:?01(????)<???????(?)>
+
+` «...»@
+` Она оказывает такое давление, что отказать невозможно.@
+` Я спокойно сажусь напротив неё.\
+
+
+
+
+` — Нии-сан.@ Не сочти грубостью, но не мог бы ты мне рассказать чем занимался прошлые два дня?@
+` — Ух.@
+` Хоть Акиха и сама вежливость, но в этих словах явственно сквозит угроза.@
+` Но её братик не может рассказать ей такую историю.\
+
+` — На счёт этого...@
+
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Yes, what is it?"@
-`"The truth is, I ran into a minor acquaintance of mine and I showed that person around the city."@
+` — Да, Нии-сан?@
+` — Я столкнулся со знакомым и показал ему город.@
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
 
-`"Oh?@ A minor acquaintance?"@
-`"Yeah, I got to know the person just recently, and we met just outside of school.@ I was asked to keep this acquaintance company until Sunday, so--"\
+` — О?@ Со знакомым?@
+` — Ну да, я только недавно с ним познакомился, а тут мы столкнулись у школы.@ Ну он и попросил меня побыть с ним до воскресения, так что...\
 
-`"So you skipped school and stayed away from home without even notifying me or asking permission."@
+` — Так что ты прогулял школу и не вернулся домой не то что не попросив разрешения, но даже не предупредив меня.@
 br
-` ...... Akiha's gaze is extremely frigid.@
-` She seems even more shocked than angry.\
+` Взгляд Акихи пронзительно холоден.@
+` Она скорее шокирована, чем зла.\
 
-`"....................."@
-`"....................."@
-` I remain quiet as Akiha stares at me wordlessly.@
+` «...»@
+` «...»@
+` Я не решаюсь ничего сказать под этим молчаливым взглядом.@
 
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"And, who was it?"@
-`"Eh?"@
+` — Ну и кто это был?@
+` — Э?@
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`"I asked who this acquaintance of yours is."@
-` She looks at me directly in the eye.@
-` I can feel her thinking "I will not be deceived".\
+` — Я спросила что это был за «знакомый».@
+` Она смотрит мне прямо в глаза.@
+` И, похоже, мне её не обмануть.\
 
-`"--Well, I--"@
-`"If you can't tell me, that means you feel guilty about it, Nii-san."@
-` Her gaze shoots right through me.@
-` I get the feeling she'll attack me more if I look away, so I stare back at her.\
+` — Ну, я...@
+` — Если ты не можешь ответить, значит чувствуешь себя виноватым, Нии-сан.@
+` Её взгляд пронзает меня насквозь.@
+` Но я не могу отвести глаза, поскольку тогда она несомненно атакует меня ещё сильней.\
 
-` ...... Well, this is totally random, but...
-` She does not remind me of the Akiha from back then.@
-` Her stretched back, her perfect posture, her unwavering eyes.@
-` Perhaps this is imprudent, but I honestly think she has become very beautiful.\
+` Ну, хоть это и не имеет никакого основания, но...
+` Она совсем не похожа на старую Акиху.@
+` Прямая спина, идеальная поза, непоколебимый взгляд...@
+` Может это и безрассудно, но я и впрямь считаю, что она стала красавицей.\
 
-`"You know, Akiha."@
+` — Знаешь Акиха...@
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"What?"@
-`"Your eyebrows are pretty thick."@
+` — Что?@
+` — У тебя довольно густые брови.@
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t15a.jpg",%type_crossfade_fst
 
-`"------!?"@
-` Bam!@ Akiha's leg smacks the table as she jumps up.@
-`"............ Ah."@
-` How do I say this--she's surprisingly surprised?@
-`"...... I don't get you at all.@ That wasn't something to be surprised about."@
-`"---------"@
-` With a deep breath, Akiha slumps her shoulders.\
+` «?!»@
+` Бам!@ Акиха подскочила так, что задела ногой стол.@
+` — А...@
+` Как бы поточнее сказать... Она поразительно поражена?@
+` — Я тебя совсем не понимаю...@ В этом вроде нет ничего удивительного.@
+` «...»@
+` Глубоко вздохнув Акиха опускает плечи.\
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
 
-`"Nii-san, it seems like you do not wish to answer me seriously."@
-`"...... That's not right.@ Honestly, I won't lie to you.@ It's just that I have a lot of things I can't say to you."@
+` — Нии-сан, ты, похоже, не настроен на серьёзный разговор.@
+` — Не правда.@ Я не стну тебе врать.@ Просто сейчас я не могу рассказать всего.@
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"Geez.@ Really, ever since we were small I was never able to tell if you were an honest or dishonest person, Nii-san."\
+` — Боже.@ Я с самого детства пытаюсь понять честный ли ты человек, Нии-сан.\
 
-`"...... Really?@ I don't really remember how I was when I was small."@
+` — Правда?@ Я совсем не помню себя в детстве.@
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"You don't have to remember.@ But, I haven't changed either.@ Pressing you like this even when I know how it will turn out... maybe I haven't grown up at all."\
+` — Тебе и не надо помнить.@ Но и я совсем не изменилась.@ Так тебя допрашивать, зная чем всё закончится... Быть может я совсем не выросла.\
 
 cl c,%type_crossfade_fst
 
 
 
 
-return
+*skip220
+
+
+goto *f222
 
 
 </pre>
