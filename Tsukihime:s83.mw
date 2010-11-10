@@ -7,32 +7,32 @@
 bg "image\bg\bg_19d.jpg",%type_nowaitdisp
 
 
-` ...... It's suspicious.@
-` There's something very suspicious about how she says "I'm not going to break them".\
+` …Подозрительно.@
+` Было что-то чертовски подозрительное в том, как она сказала «Я не собираюсь их разбивать».\
 
-`"--Not even just to look at.@ I know about your ridiculous powers, after seeing you in that alley.@ What would I do if you crushed them by accident?"@
+` — И даже не смотри на них.@ Я знаю про твои нелепые силы после того, как увидел тебя в той аллее.@ Что, если ты разобьёшь их случайно?@
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
-`"Hey!@ What do you mean 'ridiculous powers'?@ Let me tell you, in terms of non-fighting strength, you're stronger than I am.@ I won't break things at random."@
-` Saying that, Arcueid extends her hands as if she is about to take them by force.@
+` — Ей!@ Что ты подразумеваешь под «нелепыми силами»?@ Я так тебе скажу, в плане не-боевой силы<!-- Не совсем понял фразу, весьма возможно перевод не верен -->, ты сильнее меня.@ Я не ломаю вещи по случайности.@
+` Сказав это, Арквейд протянула руки так, словно собиралась забрать очки силой.@
 br
-` ...... Her attitude is becoming more and more suspicious.\
+` …её поведение становится все более и более подозрительным.\
 
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-` I bounce up off the bed to get away from her.@
+` Чтобы убраться подальше от неё, я отскочил от кровати.@
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"Hey, you're running away."@
-`"Of course.@ I'll tell you now: I'm not handing over these glasses.@ Even if there's only a one in a million chance you'll break them, they're irreplaceable to me.@ After all, you're the one who said I wouldn't be able to stay sane without these glasses.@ Do you want me to go crazy?"\
+` — Ей, ты убегаешь.@
+` — Ещё бы.@ Я так тебе скажу, я не отдам эти очки, даже если есть всего одни шанс на миллион, что ты разобьёшь их.@ Они незаменимы для меня.@ В конце концов, это же ты сказала, что я не смогу сохранять рассудок без них.@ Хочешь, чтобы я сошёл с ума?\
 
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Huh?@ N... no, that's not it at all."@
-` ...... Arcueid is obviously trying not to look at me.@
+` — Хм? @ Н… нет, конечно же, нет.@
+` …Арквейд явно пытается не смотреть на меня.@
 cl c,%type_crossfade_fst
-`"--Come on, Arcueid.@
-` I don't know what you're planning, but if I lose these glasses, I won't be in any position to help you.@ If I were to see the lines 24 hours a day, I think I'd die from the headache before I'd go mad."\
+` — Брось, Арквейд.@
+` Не знаю, что ты планируешь, но если я потеряю эти очки, я уж точно не смогу тебе помочь.@ Если бы я видел линии круглосуточно, то, думаю, головная боль доконала бы меня прежде, чем я сошёл с ума.\
 
 
 return
