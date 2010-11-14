@@ -21,16 +21,16 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 !w2000
 
 
-` — Good morning.@
+` — Доброе утро.@
 br
-` I hear an unfamiliar voice.\
-` The dream quickly fades away as a voice calls me back to reality.\
+` Я услышал незнакомый голос.\
+` Сон быстро растворился, как только голос позвал меня назад в реальность.\
 
-` — It is morning.@ Time to wake up, Shiki-sama.@
+` — Уже утро.@ Пора вставать, господин Шики.@
 br
-` An unfamiliar voice greets me.@
-` Stop calling me Shiki-sama already.@
-` I told you yesterday, it sends chills down my back...\
+` Незнакомый голос поздоровался со мной.@
+` — Перестань уже называть меня господином Шики.@
+` — Я вчера тебе говорил, что от этого у меня мурашки по спине.\
 
 
 bg "image\bg\bg_40a.jpg",%type_crossfade_mid
@@ -40,57 +40,57 @@ ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 play "*2"
 
 
-` I wake up.@
-` Hisui stands far from the bed, like a statue.@
-` — Mm...@
-` I sleepily look around.@
+` Я проснулся.@
+` Хисуи стоит вдалеке от кровати как статуя.@
+` — Мм…@
+` Я сонно огляделся.@
 
 
 
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-` — Good morning, Shiki-sama.@
-` A girl in a maid uniform bows.@
-` For a moment, I doubt my eyes.@ Finally, I recall my current condition.\
+` — Доброе утро, господин Шики.@
+` Девушка в униформе горничной поклонилась.@
+` На мгновение я не поверил своим глазам.@ Потом вспомнил своё нынешнее положение.\
 
-` — Yeah, I came home, right...@
-` I push myself up, and look around the room.@
+` — Ах, да. Я вернулся домой…@
+` Я поднялся и осмотрел комнату.@
 
 
 
 cl c,%type_crossfade_fst
 
 
-` Outside the window, the weather is great.@
-` A blue sky like the one I saw in my dream.@
-` — Good morning, Hisui.@ Thanks for coming to wake me.@
+` Погода за окном просто отличная.@
+` Небо такое же голубое, как и в своём сне.@
+` — Доброе утро, Хисуи.@ Спасибо, что пришла разбудить меня.@
 
 
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-` — There is no need to thank me.@ It is my duty to come and wake you, Shiki-sama.@
-` Hisui answers indifferently, completely expressionless.\
+` — Вам не нужно меня благодарить.@ Прийти и разбудить вас, господин Шики, моя обязанность.@
+` Хисуи ответила спокойно, практически без какого-либо выражения.\
 
-` *sigh*@
-` — Why do you have to be so formal, Hisui?@
-` It's really a shame.@
-` If Hisui only had half of Kohaku's brightness, she would be really cute.@
-` — Do you need something?@
-` Realizing I am looking at her, Hisui stares straight back at me.\
+` *Вздох*@
+` — К чему все эти формальности, Хисуи?@
+` «Вот ведь досада.»@
+` «Если бы у Хисуи была б хотя бы половина живости Кохаку, она была б чертовски милой.»@
+` — Вам что-нибудь нужно?@
+` Поняв, что я смотрю на неё, Хисуи, в ответ, уставилась на меня.\
 
-` — Ah, no, nothing at all.@ Waking up and seeing your face, I just felt like I'm really at the Tohno mansion...@
-` Hisui's eyes are like cold ice.@
-` Seeing that all of a sudden, something reminiscent of a dream flashes through my mind...
-` — I, see.@
-` I remember it completely.@
-` That day, that girl who gave me the ribbon right before I left was the one who always watched us from that window.@
-` That is, in other words...
-` — It was... Hisui.\
+` — А, нет, ничего.@ Проснувшись и увидев твоё лицо, я почувствовал, что я действительно в особняке Тоно…@
+` Глаза Хисуи похожи на ледышки.@
+` Внезапно увидев всё это, воспоминания о сне вспыхнули в моей голове…
+` — Понятно.@
+` Я всё вспомнил.@
+` Тот день и ту девушку, что дала мены ленту, перед тем как я уехал. Это она всегда наблюдала за нами из того окна.@
+` «Это значит, другими словами…»
+` — Это была… Хисуи.\
 
-` — Yes?@ Did you say something, Shiki-sama?@
-` — Ah... Hisui, do you remember?@ About when I left here eight years ago?@
-` — Yes, I remember it.@ But, was there anything special that happened?@
-` — Eh...anything special?@ Hisui?@
+` — Да?@ Вы что-то сказали, господин Шики?@
+` — А… Хисуи, ты помнишь?@ About when I left here eight years ago?@
+` — Да, я помню@ Но, разве тогда случилось что-то необычное?@
+` — Эм… что-то необычное?@ Хисуи?@
 ` — Please forgive me.@ Eight years has passed since you departed this mansion.@ So even if you speak of those times, I cannot answer with any specific details.@
 ` — Wha...@
 ` Does she not remember the promise we made back then?\
