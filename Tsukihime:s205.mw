@@ -54,7 +54,7 @@ ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 ` На мгновение я не поверил своим глазам.@ Потом вспомнил своё нынешнее положение.\
 
 ` — Ах, да. Я вернулся домой…@
-` Я поднялся и осмотрел комнату.@
+` Я приподнялся и осмотрел комнату.@
 
 
 
@@ -89,59 +89,59 @@ ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 ` — Да?@ Вы что-то сказали, господин Шики?@
 ` — А… Хисуи, ты помнишь?@ Тот день, когда я уезжал восемь лет назад@
-` — Да, я помню@ Но, разве тогда случилось что-то необычное?@
+` — Да, я помню.@ Но, разве тогда случилось что-то необычное?@
 ` — Эм… что-то необычное?@ Хисуи?@
 ` — Пожалуйста, простите меня.@ С тех пор, как вы покинули этот особняк, прошло уже целых восемь лет.@ Так что даже если вы говорите о тех временах, я не смогу припомнить мелкие детали.@
 ` — Чт...@
-` Неужели она не помнит обещание, которое мы тогда дали?\
+` «Неужели она не помнит обещание, которое мы тогда дали?»\
 
 ` — Хисуи... ты не помнишь про ленту?@
 
 
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
-` — Лента?@
-` She looks downcast as she admits with difficulty that she does not remember.@
-` — I see.@ That's right, it was eight years ago... Sorry, it's nothing.@ Just forget about what I said.@
+` — Ленту?@
+` Она потупила взор, словно с трудом допуская, что могла что-либо забыть.@
+` — Понятно.@ Всё нормально, это было восемь лет назад... Извини, не обращай внимание.@ Просто забудь о том, что я говорил.@
 
 
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
 ` «...»\
 
-` She doesn't remember the promise.@
-` But, it isn't anything I can hold against her.@
-` Even though it was maybe just a childish promise, it really did help me to face forward into the future back then.\
+` «Она не помнит обещание.»@
+` «Но мне не в чем её винить.»@
+` «Даже если это было всего лишь детское обещание, оно действительно помогло мне тогда смотреть в будущее.»\
 
-` — Well, time to get up.@ Hisui, do you know what time it is?@
+` — Ну, уже пора вставать.@ Хисуи, ты знаешь который час?@
 
 
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` — Yes, it is now past seven o'clock in the morning.@
-` — Okay, that leaves me just a little time then.@
-` Stretching my back, I get up out of bed.\
+` — Да. Уже больше семи утра.@
+` — Хорошо. У меня осталось ещё немного времени.@
+` Потянувшись, я встал с постели.\
 
 
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
-` — You say that, but you do not have much time.@ It takes about thirty minutes to go from the mansion to your school.@ You only have twenty minutes to eat breakfast and get ready.@
-` — Eh...that's right, this isn't Arimas' house!@
-` I'm filled with horror.@
-` I was so used to the Arima house being only twenty minutes away from school, but from here, I don't even know a shortcut.\
+` — Хоть вы так говорите, но у вас осталось не так уж и много времени.@ Дорога от особняка до вашей школы займёт приблизительно полчаса.@ У вас остаётся всего лишь двадцать минут, чтобы собраться и позавтракать.@
+` — Э… точно, это же не дом Арима!@
+` Я перепугался.@
+` Я так привык, что дорога от дома семьи Арима до школы занимает всего двадцать минут, но отсюда я даже не знаю короткого пути.\
 
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-` — Your uniform is folded and awaits you over there.@ Please come to the sitting room after you have changed.@
+` — Ваша униформа сложена и ожидает вас вон там.@ Пожалуйста, после того как переоденетесь, спускайтесь в гостиную.@
 
 
 cl c,%type_lshutter_mid
 
 
-` — Damn it, if you're going to wake, me, wake me up earlier...@
-` Muttering selfishly to myself, I reach for the uniform.@
-` It's folded neatly, and the shirt has even been ironed.@
-` Passing my wrists through the sleeves feels good.@ It's that fresh, brand-new feeling.\
+` — Чёрт, почему же ты не разбудила меня раньше…@
+` Бормоча про себя, я добрался до униформы.@
+` Она была аккуратно сложена, а рубашка даже поглажена.@
+` Было приятно засовывать руки в рукава.@ Это свежее, совершенно новое ощущение.\
 
 
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -158,9 +158,9 @@ ld l,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
 ld r,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-` Akiha and Kohaku-san are relaxing in the sitting room.@
-` Akiha is wearing the uniform of the Asagami Ladies' Academy, a famous school for young girls.@
-` They are drinking tea together gracefully, as if breakfast ended a long time ago.\
+` Акиха и Кохаку отдыхают в гостиной.@
+` На Акихе униформа Академии Леди Асагами, известной школы для девушек.@
+` Они грациозно пью чай вместе, как будто завтрак уже давно закончился.\
 
 
 cl a,%type_crossfade_mid
@@ -170,9 +170,9 @@ cl a,%type_crossfade_mid
 *skip205
 
 
-select `1. Greet Akiha.`, *f304,
-	`2. Greet Kohaku-san.`, *f123,
-	`3. Greet both of them.`, *f124
+select `1. Поздороваться с Акихой.`, *f304,
+	`2. Поздороваться с Кохаку.`, *f123,
+	`3. Поздороваться с обоими.`, *f124
 
 
 </pre>
