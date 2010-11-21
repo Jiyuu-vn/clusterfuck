@@ -1,5 +1,5 @@
 [[Tsukihime|[Назад]]]
-
+{{Не Трожь!|SamOdin}}
 <pre>
 *s123
 
@@ -9,43 +9,43 @@ bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 
 
 
-`"Morning, Kohaku-san.@ Today is a lovely day."@
+` — Доброе утро, Кохаку.@ Сегодня чудесный день.@
 ; ??<?>=??:?<??????(?)>
 ld r,":a;image\tachi\koha_t05.jpg",%type_lshutter_mid
-`"Yes.@ Good morning, Shiki-san."@
-` Kohaku-san delivers her ordinary morning greeting with a smile on her face.\
+` — Да.@ Доброе утро, господин Шики.@
+` Кохаку, с улыбкой на лице, произнесла своё обычное утреннее приветствие.\
 
 ; ??<?>=??:?03(??)<???????(?)>
 ld r,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Did you sleep well last night?@ I was worried that you might be inconvenienced, staying in an unfamiliar mansion and all."@
-`"Ah, no, there were no problems.@ I used to live here, after all, and now I've got you to watch over me, Kohaku-san."@
+` — Как вам спалось прошлой ночью?@ Я беспокоилась, что вы возможно будете чувствоваться себя неуютно, остановившись в незнакомом особняке и всё такое.@
+` — А, нет, без проблем.@ В конце концов, я жил здесь, а сейчас у меня есть ты, чтобы присматривать за мной, Кохаку.@
 ; ??<?>=??:?03(??)<???????(?)>
 ld r,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
-`"Oh, you're quite good at this, Shiki-san."@
-`"Eh?@ No, I'm just saying what I think... what is it I'm good at?"@
-` Kohaku-san just looks at me, smiling.@
+` — О, в этом вы хороши, господин Шики.@
+` — А?@ Я лишь говорю, что я думаю… в чём же я хорош?@
+` Кохаку лишь, улыбаясь, смотрит на меня.@
 ; ?????<???????(?)>
 cl r,%type_crossfade_fst
-` ...... Somehow, I feel embarrassed when she looks directly at me, so I shift my gaze to the side.\
+` Почему-то я чувствую смущение, когда она смотрит прямо на меня, поэтому я отвёл взгляд в сторону.\
 br
-` ---And then.@
+` И тогда.@
 br
 ; ??<?>=??:?02(????????????)<???????(?)>
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
-` --I realize another stare, one which has been on me silently for a while now.@
+` Я словил ещё один взгляд, который тихо буравил меня вот уже некоторое время.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-`"Ah... hey there."@
-` I give a light wave to greet her.@
-` Akiha continues to stare at me... or perhaps, glare would be a better word.\
-`"Well... um... good morning, Akiha."@
+` — А… привет.@
+` Я слегка кивнул, приветствуя её.@
+` Акиха продолжает таращится на меня… или, возможно, прожигать взглядом будет правильнее.\
+` — Ну… ум… доброе утро, Акиха.@
 ; ?<?>=??:??<???????(?)>
 ld l,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
-`"Oh?@ You don't have to force yourself to greet me.@ Please, go right ahead and ignore me.@ After all, it seems you'd prefer to enjoy the morning with Kohaku."@
-`"Uuh..."@
-` Akiha's words sting.@
-` ...... It's not like I had intended to ignore her.@ I just said hello to Kohaku-san...\
+` — О?@ Тебе не следует заставлять себя здороваться со мной.@ . Пожалуйста, вперёд, игнорируй меня.@ В конце концов, кажется, ты предпочитаешь проводить утро с Кохаку.@
+` — Ум…@
+` Слова Акихи жалят.@
+` Не то чтобы я намеренно игнорировал её.@ Я просто поздоровался с Кохаку.\
 
 ; ?<?>=??:?02(????)<???????(?)>
 ld r,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
