@@ -4,235 +4,240 @@
 *s222
 
 
-; ?? : ?? : ????(?)<????>
+
 bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 
 
-; ??<?>=??:?02(????????????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
 
-`"I understand.@ Then I will no longer ask about this.@ But, please refrain from doing anything like this ever again.@ Nii-san, you are the eldest son of the Tohno family; if you do not understand your position better, it will be very troubling."@
-`"--Hey, that has nothing to do with this.@ Besides, you are now the successor to the Tohno family, so it doesn't really matter what I do.@ If you're so worried about the future of the Tohno family, you should go find a husband appropriate for the Tohno household."@
+` — Ну ладно.@ Больше спрашивать не буду.@ Но и ты, пожалуйста, больше так не делай.@ Ты ведь старший сын семьи Тоно, Нии-сан. Если ты этого не осознаешь, то это принесёт немало проблем.@
+` — Эй, при чём тут это?..@ Наследница то теперь ты, так что какая разница что я делаю?@ Если уж ты так волнуешься о будущем семьи, то займись поиском мужа, достойного стать её частью.@
 
 
-; ??<?>=??:??02(?~????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
 
-`"-----"@
-` ......?@
-` For some reason, Akiha descends into silence.\
+` «...»@
+` ?..@
+` Акиха почему-то затихла.\
 
-`"What's wrong?@ Are you feeling alright, Akiha?"@
-`"--It's nothing.@ If you have enough time to worry about me, please pay more attention to yourself.@ You have your chronic anemia to worry about, Nii-san."@
-`"......... Hmph."@
-` ...... Well, it is true that I frequently collapse from anemia.\
+` — Что случилось?@ Ты в порядке, Акиха?@
+` — Ничего...@ Чем обо мне волноваться лучше позаботься о себе.@ У тебя и так хроническая анемия.@
+` — Хм.@
+` Ну, я и впрямь часто теряю сознание...\
 
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
 
-`"Anyway, please do not leave the mansion by yourself often.@ Even without that, the city is dangerous recently.@
-` Someone like you, who meanders about in a daze is just asking to be attacked by that serial killer."@
-`"Serial killer?--Oh, those serial killings."\
+` — Короче постарайся покидать особняк в одиночку как можно реже.@ В городе в последнее время небезопасно.@
+`   Если будешь бродить словно лунатик, то это наверняка привлечёт маньяка.@
+` — Маньяка?.. А, ты о тех серийных убийствах.\
 
-` Those serial killings where nine victims have been found.@
-` Their bodies were all drained of blood, so they call it the modern day vampire, but--\
-`"Oh, that's okay.@ Those incidents, they won't ever happen again."@
-`"----Huh?"@
-`"It means the vampire isn't around anymore.@ That killer--is caught already."@
-`"Is that so......?@ Nii-san, how do you know about that?"@
-`"Well, I just happened to see it, but for sure, such things will not happen again."@
+` Убийствах, лишивших жизни девятерых.@
+` В их телах не осталось ни капли крови, и потому убийцу назвали современным вампиром...\
+` — Ой, да ладно.@ Всё это уже в прошлом.@
+` — Э?..@
+` — Ну вампира то больше нет.@ То есть... Убийцу поймали.@
+` — Вот как?..@ И как же ты об этом узнал?@
+` — Ну, я как раз мимо проходил, но главное, что теперь всё в прошлом.@
 
 
-; ?????<???????(?)>
+
 cl c,%type_crossfade_fst
 
 
-` ...... Yeah, at least there won't be any more people killed by Nrvnqsr.@
-` These past two days spent with Arcueid... so many things happened I really can't say just what is right and what is wrong.@
-` But, the simple truth remains--I can say it was all for the best.\
+` Да уж, по крайней мере Хаос больше никому не навредит.@
+` Эти два дня, что я провёл с Арквейд... За них так много произошло, что я даже не могу понять что было верно, а что нет.@
+` Но я точно знаю... Всё это к лучшему.\
 
 
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
 
-`"Nii-san----?@ What happened?@ You suddenly seem very happy."@
-` Akiha looks strangely at my face.@
-`"It's nothing.@ I just feel that it is finally, finally over."@
-` A smile unconsciously creeps over my lips as I answer.\
+` — Нии-сан?..@ Что случилось?@ Ты внезапно повеселел.@
+` Акиха странно глядит мне в лицо.@
+` — Ничего.@ Просто всё наконец-то закончилось.@
+` Мои губы бессознательно растягиваются в улыбке.\
 
 
-; ???<??????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
 
 
-; ????(?)<??????(?)>
+
 bg "image\bg\bg_34a.jpg",%type_lshutter_mid
 
 
-` It's half past seven.@
-`"Shiki-san, breakfast is ready!"@
-` Kohaku-san's cheerful voice rings out from the dining room.@
-`"Well, I'll go eat breakfast.@ Isn't it almost time, Akiha?@ Don't mind me and go ahead."@
+` На часах пол восьмого.@
+` — Шики-сан, завтрак готов!@
+` Из гостиной доносится жизнерадостный голос Кохаку-сан.@
+` — Ну, пойду поем.@ Тебе разве не пора, Акиха?@ Не стоит меня ждать.@
 
 
-; ??<?>=??:?02(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t09.jpg",%type_crossfade_fst
 
 
-`"Yes, I know, Nii-san."@
-` Maybe it's because of our conversation, but Akiha is in a good mood.@
+` — Само собой.@
+` У Акихи хорошее настроение. Быть может даже из-за нашего разговора.@
 
 
-; ?????<???????(?)>
+
 cl a,%type_crossfade_fst
 
 
-` Rising from my seat, I head to the dining room.\
+` Встав, я направляюсь в столовую.\
 
-;CD-DA??
+
 playstop
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-` I really don't have an appetite.@
-` How come?@ Well, having white rice with something blood-red all over it would make anyone lose their appetite.@
-`"-----"@
-` I shake my head.@
-` It's certainly just an illusion, and Kohaku-san's cooking looks excellent as always.@
-` Getting a hold of myself, I take a bite of the breakfast.@
+` Есть не особо хочется.@
+` С чего бы это?@ Ну, белый рис, политый чем-то кроваво-красным кому угодно отобьёт аппетит.@
+` «...»@
+` Я встряхиваю голову.@
+` Мне всё это кажется. Готовка Кохаку-сан как всегда выглядит превосходно.@
+` Собравшись с духом я откусываю кусочек...@
 br
-` ----I instantly spit it out.\
+` ...И в тот же миг его выплёвываю.\
 
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
-; ?<?>=??:?01(????)<??????(?)>
+
 ld l,":a;image\tachi\aki_t01a.jpg",%type_lshutter_fst
 
-;CD-DA?????
+
 play "*3"
 
-` Akiha looks at me questioningly as I came out of the dining room right away.@
-`"Nii-san, did you forget something?"@
-`"No, it's nothing.@ It's just something really trivial."@
+` Похоже то, что я покинул столовую сразу же, после того как в неё зашёл, вызвало у Акихи недоумение.@
+` — Нии-сан, ты что-то забыл?@
+` — Да нет, ничего.@ Просто маленькая неприятность.@
 
 
-; ??<?>=??:?01(???)<??????(?)>
+
 ld r,":a;image\tachi\koha_t01a.jpg",%type_lshutter_fst
 
 
-`"Shiki-san doesn't seem to have an appetite this morning.@ He just throws anything he eats back up, so I got him to take some medicine."@
+` — У Шики-сана сегодня, похоже, нет аппетита.@ Его от еды сразу начинает тошнить, так что я ему дала кое-каких лекарств.@
 
 
-; ?<?>=??:??02(?~????)<???????(?)>
+
 ld l,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
 
-`"Eh-----?"@
-`"She said medicine, but it's really just some vitamins... I had a bad dream last night.@ I should settle down in a bit so I'll eat at school."@
-` I didn't say this to Kohaku-san, but to Akiha's eyes telling me she wants to say something.\
+` — Э?..@
+` — Да каких там лекарств, это же всего навсего витамины... Мне сегодня плохой сон приснился.@ Мне надо успокоиться немного, так что я поем в школе.@
+` Я это сказал не ради Кохаку-сан, а из-за того, что Акиха явно хочет мне что-то сказать.\
 
-`"So I'll head out soon.@ My head should clear up once I start walking to school."@
+` — В общем поэтому я сегодня выйду пораньше.@ По пути в школу как раз подышу свежим воздухом и успокоюсь.@
 
 
-; ?<?>=??:??<???????(?)>
+
 ld l,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
 
-`"Wait, Nii-san---"@
-` Akiha's voice comes from behind me.@
-`"I'm going.@ I'll be back early today, so you can scold me then."@
-` Ignoring Akiha's worried voice, I exit the mansion.\
+` — Нии-сан, подожди...@
+` Из-за спины доносится голос Акихи.@
+` — Я пошёл.@ Сегодня вернусь пораньше, так что можешь меня отчитать вечером.@
+` Я ухожу, игнорируя её взволнованный голос.\
 
 
-; ???<??????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 
 
-` Hisui walks with me to the gate, carrying my bag.@
-`"Well, I'll be going.@ Thanks for seeing me off, Hisui."@
-` Hisui wordlessly hands me my bag.\
+` Хисуи провожает меня до ворот, неся мой портфель.@
+` — Ну, я пошёл.@ Спасибо, что проводила.@
+` Она молчо подаёт мне портфель.\
 
 
-; ??<?>=??:?01(?????)<??????(?)>
+
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 
-`"Shiki-sama, around what time will you be returning?"@
-`"You don't trust me either?@ It's okay.@ I'll definitely be back in the afternoon."@
-`"--I understand.@ Then please be careful on your way."@
-` Hisui bows deeply.@
-` Feeling a bit embarrassed about it, I leave the mansion's gate.\
+` — Шики-сама, во сколько вы сегодня собираетесь вернуться?@
+` — Что, тоже мне не веришь?@ Ничего страшного.@ Я сегодня вернусь засветло.@
+` — Ясно...@ Счастливого пути.@
+` Хисуи низко кланяется.@
+` Немного смущённый этой сценой, я выхожу за ворота.\
 
 
-; ???<??????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lshutter_slw
 
-; ???(?)<?????(?)>
+
 bg "image\bg\bg_24a.jpg",%type_lcartain_slw
 
 
-` At the intersection there are only the figures of my fellow high school students.@
-` No young woman sitting on the guardrail like that one time.\
-`"--Well, of course."@
-` I probably won't ever see her again.@
-` First of all, her goal was to execute the vampire, and with Nrvnqsr gone, there's no reason for her to stay around here any longer.@
+` На перекрёстке меня окружают ученики, спешащие в школу.@
+; отойдём от оригинала.
+` Сегодня на перилах меня не поджидает девушка.\
+` — Само собой...@
+` Я её, наверное, уже никогда больше не увижу.@
+` Она ведь собиралась победить вампира, и теперь, со смертью Нерона, ей здесь больше делать нечего.@
 br
-` --Just a little bit, in my chest.@
-` Things like regret... and lingering affection.@
-` It is true she only brought trouble, but even still...... it was fun being with her.\
+` Вот только в груди...@
+` Сожаление... И тихая привязанность.@
+` У меня от неё были только неприятности, но всё же... С нею было весело.\
 
-`"........."@
-` I think there must be something wrong with me.@
-` Even though I was in such danger the whole time, there's still a part of me that unconsciously tries to remember her.@
-` ...... It's almost like I'm in love with her.@
-` Even though I would never want to be exposed to that kind of danger again.\
+` «...»@
+` Наверное со мною что-то не так.@
+` Хоть я и был всё это время в опасности, но какая-то часть моего подсознания не хочет её забывать.@
+` 	Словно я в неё влюбился….@
+` Хоть мне и не хочется снова рисковать жизнью.\
 
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_01a.jpg",%type_lcartain_slw
 
 
-` Because I skipped breakfast, I arrive at the front gate ten minutes before it closes.@
-` Everyone who doesn't have club activities before school arrives at this time.@
-` The only clubs that meet in the morning are the sports clubs.@
-` So naturally, the entrance gets crowded with students.@
-`"----Ah."@
-` By the gate I see a familiar figure.@
-` Not even knowing what I plan on doing, I chase after her.\
+` Благодаря пропущенному завтраку, я подхожу к воротам за десять минут, до того как они закроются.@
+` В это время приходят все, кто не состоит в каком-нибудь клубе.@
+` Хотя по утрам собираются только спортсмены.@
+` Так что, само собой, в воротах полно народу.@
+` — А...@
+` За ними виднеется знакомая фигура.@
+` Я, не раздумывая, устремляюсь за ней.\
 
 
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_03a.jpg",%type_lcartain_fst
 
 
-; ??<?>=???:?01(????)<??????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_lshutter_fst
 
 
-`"Ah, good morning Tohno-kun.@ It's strange to meet you out here."@
-`"...... Yeah, I saw you from behind, so I ran after you.@ Um...... there was something I wanted to ask."@
-` I sneak a look at her face.\
-`"Yes, what is it?"@
-` She faces me with her usual, gentle smile.@
-` I---
+` — А, доброе утро Тоно-кун.@ Не ожидала тебя здесь увидеть.@
+` — Ну да. Я тебя увидел в воротах и решил догнать.@ Слушай... Я кое-что хотел спросить.@
+` Я украдкой бросаю взгляд, на её лицо.\
+` — О чём?@
+` Она смотрит на меня со своей обычной доброй улыбкой.@
+` Я...
 br
 cl c,%type_crossfade_fst
 
 
-return
+*skip222
+
+
+select `1. Нет, это определённо была не она.`, *f223,
+	`2. Всё таки спрошу о прошлой ночи.`, *f224
 
 
 </pre>
