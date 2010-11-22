@@ -1,49 +1,53 @@
 [[Tsukihime|[Назад]]]
 
+{{TnM:T|[[Участник:Tsuki no Mai|Tsuki no Mai]] 02:57, 23 ноября 2010 (MSK)}}
+
 <pre>
 *s223
 
-; ?? : ?? : ????(?)<????>
+ 
 bg "image\bg\bg_03a.jpg",%type_nowaitdisp
 
-` ...... Wait a minute.@
-` All of that happened, and Senpai still greeted me with her usual smile.@
-` Last night----if she saw me fighting Nrvnqsr, then she definitely can't just greet me like this.\
+` Погодите ка...@
+` Семпай приветствует меня всё той же улыбкой после всего что случилось.@
+` Вчера ночью... Если бы она увидела мою драку с Хаосом, то явно не смогла бы сегодня так улыбаться.\
 
-; ??<?>=???:?<???????(?)>
+ 
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
-`"Tohno-kun?@ Did you want to say something?"@
-`"Um, hold on."@
-` ...... If I think back, that person who helped me last night may not have looked like Ciel-senpai at all.@
-` I couldn't get a good look at her face because it was dark, and her atmosphere was completely different.\
+` — Тоно-кун?@ Так о чём ты хотел спросить?@
+` — Э, погоди секунду.@
+` Если подумать, то с чего я вообще взял, что та жешщина похожа на Сиэль-семпай?@
+; в угоду смыслу и некривому построению предложения отходим от оригинала.
+` Лицо её я в той темени разглядеть никак не мог, а аура у неё была совершенно другая.\
 
-`"Senpai, could I get a good look at your face?"@
-`"Uh, yes?"@
-` She curiously tilts her head and looks up at me.@
+` — Семпай, можно посмотреть на твоё лицо?@
+` — Э, да?@
+` Она любопытно наклоняет голову и смотрит на меня.@
 br
-` ...... Of course.@
-` Once I think it through calmly, that person didn't resemble Senpai at all.\
+` Ну конечно...@
+` Если спокойно подумать, то они совсем не похожи.\
 
-`"...... Sorry, it's just a mistake.@ It's nothing, so please forget about it."@
-`"A mistake?@ I'm a little interested--Mistake about what?"@
-` She still stares up into my face.@
-`"Uh...... It's, ummm."@
-` Looking away, I try to hide my blushing face.@
-` ...... Having her so close to me at the school gate is embarrassing.\
+` — Извини, я ошибся.@ Просто забудь об этом.@
+` — Ошибся?@ Мне даже интересно... В чём ошибся?@
+` Она всё ещё смотрит мне в глаза.@
+` — Ну... Это...@
+` Я пытаюсь отвернуться, чтобы скрыть, что я покраснел.@
+` Меня смущает, что мы так близко друг к другу...\
 
-`"N, nothing.@ I just thought I saw someone that looked like you last night, but it must have been a mistake."@
-`"...... Hmm, a person that looked like me?"@
-` Senpai gives a very interested nod.@
-` It seems she isn't going to just forget about it.\
-
-
+` — Н-Ни в чём.@ Просто увидел кого-то похожего на тебя вчера ночью, но я явно обознался.@
+` — Кто-то, кто похож на меня?@
+` Семпай весьма заинтересованно кивает.@
+` Не похоже, что она собирается об этом просто забыть.\
 
 
 
-return
 
 
+*skip223
+
+
+goto *f225
 </pre>
 
 [[Tsukihime|[Назад]]]
