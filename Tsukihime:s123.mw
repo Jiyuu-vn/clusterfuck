@@ -1,5 +1,5 @@
 [[Tsukihime|[Назад]]]
-{{Не Трожь!|SamOdin}}
+{{SM}}
 <pre>
 *s123
 
@@ -49,23 +49,23 @@ ld l,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
 
 ; ?<?>=??:?02(????)<???????(?)>
 ld r,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
-`"Please don't tease Shiki-san too much, Akiha-sama.@ We don't have much time, and Shiki-san hasn't finished his breakfast yet."@
+` — Пожалуйста, госпожа Акиха, не дразните Шики.@ У нас не так много времени, а господин Шики ещё не позавтракал.@
 ; ?<?>=??:??<???????(?)>
 ld l,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
-`"Well, that's Nii-san's fault for waking up late, isn't it?@ He's just getting what he deserves for leaving everything to do in a rush in the morning."@
-`"Hmph!" Akiha sniffs.@
-` ...... It seems like my failure to greet her was another point she was unimpressed with, in addition to her objection to my late arrival.\
-`"Um... Kohaku-san.@ Is my breakfast ready?"@
+` — Ну, это вина брата, что он встал так поздно, не так ли?@ Он получил лишь то, что заслуживает за то, что оставил всё на последний момент.@
+` — Пф! Акиха хмыкнула.@
+` Кажется, впечатление от моего позднего пробуждения лишь усугубилось моим неудачным приветствием.\
+` — Мм… Кохаку.@ Мой завтрак уже готов?@
 ; ?<?>=??:?02(????)<???????(?)>
 ld r,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
-`"Yes, I've laid it out in the dining hall.@ Please, eat up at your leisure."\
+` — Да. Я уже положила его в столовой.@ Пожалуйста, можете приступать, как только захотите.\
 ; ?<?>=??:??<???????(?)>
 ld l,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
-`"That won't do, Kohaku.@ Nii-san has no time to eat breakfast at this time."@
-`"Hey, listen, Akiha.@ It's only seven, so I've got at least that much.@ It's an easy thirty minute walk from here to school, so I can take it easy for at least ten minutes, can't I?"@
-`"Are you saying you're going to finish breakfast in just ten minutes?@ You're not some starving dog, so if you're going to eat breakfast, I'd like you to take your time."@
+` — Этого не случится, Кохаку.@ Сейчас брату уже не хватит времени позавтракать.@
+` — Ей, послушай, Акиха.@ Сейчас только семь, так что немного времени у меня есть.@ Отсюда до школы, не спеша, можно добраться за полчаса, так что у меня есть как минимум десять минут, не так ли?@
+` — Так ты говоришь, что собираешься покончить с завтраком всего за десять минут?@ Ты не изголодавшаяся псина, и если хочешь позавтракать, то я хочу, чтобы ты не торопился.@
 `"------"@
-` Akiha's words really do have thorns in them.\
+` Слова Акихи усеяны шипами.\
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 \
