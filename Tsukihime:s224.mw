@@ -3,71 +3,73 @@
 <pre>
 *s224
 
-; ?? : ?? : ????(?)<????>
+
 bg "image\bg\bg_03a.jpg",%type_nowaitdisp
 
-` ---I gather up my courage and ask her about last night.@
+` ...Собравшись с духом, я решаю спросить её о прошлой ночи.@
 br
-`"...... Uh--Senpai.@ Last night, were you in the park?@ I thought I saw you wearing something like a black coat, with your skirt flowing in the wind."@
+` — Э-э... Семпай.@ Ты прошлой ночью случаем не была в парке?@ Мне показалось, что я видел тебя, одетую в какой-то длинный плащ, с подолом, развевашимся на ветру.@
+; -_-;
 
 
-; ??<?>=???:?<???????(?)>
+
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
 
 
-`"...... What is that?"@
-`"Um......!@ well--yeah, the high-laced boots suited you.@ I was kind of fascinated, you looked... really cool."\
+` — О чём это ты?@
+` — Э!..@ Ну... Высокие ботинки тебе явно идут.@ Я был поражён, ты так круто выглядела...\
 
 
-; ??<?>=???:?<???????(?)>
+
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
 
-` ......"Huh?" Senpai tilts her head.@
-` She frowns like she doesn't understand my words completely, and then denies it.\
+` «Э?» — Семпай наклонила голову.@
+` Она хмурится, словно не понимая о чём я, после чего...\
+; имхо так лучше…
 
 
-`"Um, I don't quite understand, but you're saying that I was near your house two nights ago, looking like that?"@
-`"Yeah.@ Senpai, that was you, right?"@
+` — Слушай, я не очень понимаю. Ты хочешь сказать, что вчера ночью я была около твоего дома, одетая подобным образом?@
+` — Ну да.@ Это ведь была ты, Семпай?@
 
 
-; ??<?>=???:???<???????(?)>
+
 ld c,":a;image\tachi\cel_t10a.jpg",%type_crossfade_fst
 
 
-`"No way.@ Tohno-kun, are you saying I look like I really have that much free time?"@
-` ---Senpai is really angry.@
-` She can't be playing ignorant or lying.\
+` — Нет конечно.@ У меня по твоему что, так много свободного времени, Тоно-кун?@
+` Семпай очень зла.@
+` Она явно не прикидывается и не врёт.\
 
-`"Ah----No, that's not it, but I just...... saw someone that looked like you in park last night, so---"@
-` Senpai gives a sigh.@
+` — А... Да нет, просто... Я увидел кого-то очень на тебя похожего в парке, вот я и...@
+` Семпай вздыхает.@
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"Tohno-kun, that wasn't me.@ I don't have that kind of hobby."@
-`"Ah---Yeah, I know.@ I just wanted to ask."\
+` — Это была не я.@ Я таким не увлекаюсь.@
+` — А... Ага, знаю.@ Просто хотел уточнить.\
 
-` Certainly after having her say that, she is right.@
-` Ciel-senpai and the person that night aren't related at all.@
-` In the first place, Senpai's just a normal person, and if she was actually there---she had to have seen me kill that vampire with my knife.@
-` If she saw such a gruesome scene, there'd be no way she could talk with me normally like this.\
+` Она и впрямь права.@
+` Между той девушкой и Сиэль-семпай ничего общего.@
+` Да и Семпай ведь обычный человек, и если уж она была там... То наверняка увидела бы, как я убил вампира.@
+` А увидев такое вряд ли смогла бы так спокойно говорить со мной.\
 
-`"...... Sorry, please forget about it.@ I guess it was just someone else."@
+` — Извини, я ошибся.@ Просто забудь.@
 
 
-; ??<?>=???:?<???????(?)>
+
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
 
 
-`"That's fine, but...... did that person really look like me?@ That weird person?"@
-`"Well, I'm not too sure.@ It was dark, and far away............ huh?"@
-` Yeah, it was far and I couldn't make out her face.@
-` So why did I think it looked like Senpai......?@
-`"...... Hmm... Maybe there is something wrong with me."@
-` I cross my arms and think.\
+` — Ладно, но... Она и впрямь была похожа на меня?@ Та странная девушка?@
+` — Ну, я не уверен.@ Темно было, да и она была далеко... Э?@
+` Ну да, я и лица то её не разглядел.@
+` Так почему я решил, что это была Семпай?..@
+` — Хмм... Похоже со мной что-то не так.@
+` Скрестив руки на груди, я погружаюсь в раздумья.\
 
 
 return
