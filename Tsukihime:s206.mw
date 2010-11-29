@@ -1,5 +1,5 @@
 [[Tsukihime|[Назад]]]
-
+{{Не Трожь!|SamOdin}}
 <pre>
 *s206
 
@@ -49,124 +49,124 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 
-` After eating the breakfast Kohaku-san prepared, I exit into the lobby.@
-` Hisui was waiting there with my bag.@
+` Съев завтрак, приготовленный для меня Кохаку-сан, я вышел в прихожую.@
+` Хисуи уже тут: ждёт меня с моей сумкой в руках.@
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"Shiki-sama, have you enough time?"@
-`"Yeah, it should only be twenty minutes to school if I run.@ It's only seven-thirty, so I should be fine even if I take the long way."@
-` Seeming satisfied with this answer, Hisui bows her head in assent.\
+` — Вы не опаздываете, Шики-сама?@
+` — Ага, если бегом, отсюда и двадцати минут до школы нету.@ Сейчас полвосьмого, так что должен успеть, если даже длинной дорогой пойду.@
+` Удовлетворённая моим ответом, Хисуи кивнула.\
 
-`"Then, allow me to see you out."@
-`"Eh?@ Ah, yeah... thank you."@
-` ...... I still feel terribly awkward having my own servant.\
+` — Хорошо. Тогда я провожу Вас до ворот.@
+` — А... спасибо.@
+` Как же меня всё-таки смущает личная служанка.\
 
-`"Oh, Shiki-san!@ Please wait just a moment!"@
-` With pattering footsteps, Kohaku-san runs down from the second floor.@
-`"......"@
+` — Ах, Шики-сан!@ Постой!@
+` На лестнице второго этажа раздался топот быстро спускающейся Кохаку-сан.@
+` «...»@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-` Hisui steps back and falls silent as Kohaku-san approaches.\
+` Хисуи же при появлении сестры сделала шаг назад и погрузилась в молчание.\
 
 ; ??<?>=??:?01(??)<??????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_fst
 
-`"Huh?@ Weren't you with Akiha?"@
-`"Lady Akiha goes to school by car.@ Since I had something to give to you this morning, I stayed behind."@
-`"Something to give me?"@
-`"Yes.@ This came from the Arima family yesterday."@
-` Kohaku-san smiles.\
+` — Хм?@ А ты разве не с Акихой?@@
+` — Леди Акиха ездит в школу на машине.@ А поскольку сегодня мне кое-что надо вам отдать, я осталась здесь.@
+` — Кое-что отдать?@@
+` — Да.@ Его вчера передала семья Арима.@
+` Кохаку-сан улыбнулась.\
 
-`"Eh?@ But, I have all my luggage already.@ The things I used while I was at the Arimas' house all belonged to them, so all I've got are my own clothes..."@
-`"Really?@ But this was sent here, nonetheless..."@
-` Kohaku-san hands me a thin wooden box, perhaps twenty centimeters long.@
-` It's not heavy at all.\
+` — Да?@ Но всё своё я уже забрал.@ В их доме я пользовался их вещами, так что с собой я взял только сумку со своей одеждой...@
+` — Правда?@ Но, тем не менее, они это прислали...@
+` Кохаку-сан протянула мне узкий деревянный пенал сантиметров двадцать длинной.@
+` И совсем не тяжелый.\
 
-`"...... Kohaku-san, I've never seen this before."@
-`"Well... apparently it was left to you by your departed father.@ It was to be given to you in the will."@
-`"...... By my old man?"@
-` ...... I can't feel anything about that.@
-` What's the old man who expelled me from this mansion eight years ago doing leaving me things?\
+` — Никогда раньше его не видел, Кохаку-сан.@
+` — Вообще-то... его тебе оставил твой покойный отец.@ Так было написано в завещании.@
+` — Старик?..@
+` Никаких эмоций.@
+` «Чего вдруг тот, кто прогнал меня из поместья восемь лет назад, мне что-то оставляет?»\
 
-`"Oh well.@ Kohaku-san, please take it to my room for me."@
+` — Хм, ну ладно.@ Кохаку-сан положи его в моей комнате.@
 ; ??<?>=??:?03(??)<???????(?)>
 ld c,":a;image\tachi\koha_t09.jpg",%type_crossfade_fst
 
-`"-----"@
-` Kohaku-san is staring intently at the wooden box.@
-` She seems almost like a child who wants a toy.@
+` «...»@
+` Кохаку-сан глаз не сводит с деревянной коробочки.@
+` Прямо как ребёнок, которому захотелось игрушку.@
 br
-` Staaaaaare.@
+` Глаз не оторвёт.@
 br
-` No, she is a child.\
+` Нет, она и есть ребёнок.\
 
-`"...... I get it.@ You want to know what's inside, right?"@
+` — Я понял.@ Ты хочешь знать, что в ней, да?@
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Oh, not at all.@ I merely wondered for a moment."@
-` ...... Like I said, you do wonder what's inside.@
-`"Alright, let's open it.@ One, two... three!"@
-` With a dry sound, the wooden box opens.@
-` Inside, there is----a ten-centimeter bar of thin iron.\
+` — Ой, да не очень.@ Просто вдруг стало любопытно.@
+` Как я и говорил — её гложет любопытство.@
+` — Ну ладно, тогда откроем.@ Раз, два... три!@
+` Шурша, коробочка открылась.@
+`  А внутри был... тонкий железный брусок.\
 
-`"...... It's... an iron bar."@
-` Undecorated and worn, it has finger marks all over it.@
-` ...... The old man must have really hated me to leave me a piece of junk like this.\
+` — Это... кусок железа.@
+` Без всяких украшений и довольно обшарпанный — всюду на нём были отметки.@
+` Старик точно меня ненавидел, раз оставил какую-то железяку.\
 
-`"No, Shiki-san.@ It's a fruit knife."@
-` Kohaku-san takes the iron bar out of the box.@
-`"See, isn't it one of those folding knifes?@ One, two... three!"@
-` With the sound of sliding metal, a ten centimeter blade pops out from the bar.@
-` ...... I see, it certainly is a knife.\
+` — Нет, Шики-сан.@ Это нож для фруктов.@
+` Кохаку-сан извлекла железку из пенала.@
+` — Смотри, разве это не складной нож?@ Раз, два... три!@
+` Раздался щелчок, и из рукоятки выскочило лезвие сантиметров десяти в длину.@
+` Да, это действительно нож.\
 
-`"It's old, but it seems pretty solid.@ The year and the era it was made in is written on the back."@
-` Kohaku-san replaces the blade, and hands over the knife.@
+` — Старый, но, похоже, весьма прочный.@ На рукояти выгравированы год и эпоха.@
+` Кохаку-сан спрятала лезвие и перевернула нож.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` Certainly, there's a number written on the grip.@
-` The character "seven", and under it, the character "night".\
+` И правда, на ручке проставлены цифры.@
+` Иероглиф означающий «семь», а под ним ещё один - «ночь».\
 
 ; ?<?>=??:?01(?????)<????>
 ld l,":a;image\tachi\his_t01.jpg",%type_nowaitdisp
 
-`"Nee-san, there is no era by that name.@ It just says 'Nanatsu-yoru'."@
-`"Ah!"@
-` I turn around in surprise.@
-` Hisui, who had been silent until now, was looking at the knife over my shoulders.\
+` — Нээ-сан, такой эпохи нет.@ Так что здесь просто «Нанацу-ёру».@
+` «!»@
+` В изумлении я оглянулся.@
+` Хисуи, которая до сих пор молчала, теперь через моё плечо разглядывала нож.\
 
-`"Y, you surprised me... Hisui, you should say something.@ You don't have to look over my shoulder like that, you know.@ If you want to see it, I'll show it to you."@
+` — У-удивила ты меня... Могла бы и сказать, Хисуи.@ Знаешь, не надо заглядывать мне через плечо.@ Если хочешь посмотреть, держи.@
 ; ?<?>=??:??01(????)<???????(?)>
 ld l,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
-`"Ah----"@
+` — А...@
 br
-` Hisui's cheeks become faintly red.\
+` На щеках Хисуи вдруг проступил румянец.\
 
-`"P-please excuse me.@ Um---That knife was so beautiful that I could not help myself."@
-`"Beautiful?@ You really think it's beautiful?@ It looks kind of beat up to me."@
+` — П-простите, пожалуйста.@ Он... такой красивый, что я просто не удержалась.@
+` — Красивый?@ Правда что ли?@ А по мне, так он довольно обшарпанный.@
 ; ?<?>=??:??01(????)<???????(?)>
 ld l,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"---Not at all.@ The tempering of the blade is masterful.@ I think it is a knife with its own proper history."@
-`"Really?@ It looks to me like a piece of junk..."\
+` — Не очень.@ Лезвие мастерски закалено.@ Я думаю, у этого ножа собственная история.@
+` — В самом деле?@ А выглядит как металлолом...\
 
-` But since Hisui seems so convinced, I begin to feel the same thing.@
-` ...... Hmmm.@ In its own way, I guess it's not such a bad inheritance.\
+` Но её уверенность стала понемногу передаваться и мне.@
+` Хм-м-м.@ По своему, не такое уж и плохое наследство.\
 
 ; ?<?>=??:?02(????)<????>
 ld r,":a;image\tachi\koha_t02.jpg",%type_nowaitdisp
-`"'Seven nights'...?@ Maybe that's the name of this fruit knife?"@
-`"Maybe... though, I can't imagine him naming a knife like that."@
-` Whatever the case may be, it's obvious that it's an antique.@
-`"Well, in any case, I believe in taking what's given to me."@
+` — «Нанацу-ёру»?..@ Может это его название?@
+` — Может быть... правда, не могу представить, что бы он дал ему такое имя.@
+` В любом случае очевидно, что нож старинный.@
+` — Ладно, в любом случае, дарёному коню в зубы не смотрят.@
 
-` I replace the blade, and put the knife in my trouser pocket.\
+` Я убрал лезвие и положил нож в карман брюк.\
 ; ????<???????(?)>
 cl r,%type_crossfade_fst
 
-`"Shiki-sama, have you enough time...?"@
-`"Ah!@ I have to get going.@ Well, Kohaku-san, thanks for the delivery."@
-` Kohaku smiles and waves me off.\
+` — Шики-сама, вы не опаздаете?..@
+` — Ой!@ Мне пора.@ Кохаку-сан, спасибо, что принесла мне его.@
+` Кохаку-сан улыбнулась и помахала рукой.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -197,11 +197,11 @@ ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
-`"I understand.@ Please take care on the way."@
-` ...... I'm not sure what to take care about, but she's probably just worried about my health.@
-`"Yeah, thanks.@ You too, Hisui."@
-` I return the goodwill with good intentions.@
-` With an energetic wave of the hand at Hisui, I leave the gates of the mansion behind.\
+` — Я поняла.@ Пожалуйста, берегите себя.@
+` Не знаю, что она имела ввиду, но наверное она волнуется за моё здоровье.\
+` — Спасибо, конечно.@ Ты тоже себя береги, Хисуи.@
+` На добро добром отвечают.@
+` от души помахав Хисуи, я пошёл от ворот.\
 
 
 ; ???<???????(?)>
@@ -211,12 +211,12 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_22a.jpg",%type_lcartain_mid
 
 br
-` ---I go down the hill.@
-` Since I've attended school from the Arimas' house up until now, this is my first time taking this route.@
-`"Not many from our school..."@
-` Apparently, there are not many people from my school who live around here.@
-` Half past seven in the morning.@
-` I can't see anyone running along the streets in a school uniform except me.\
+` Я спускаюсь с холма.@
+` До этого я всегда ходил в школу из дома Арима, так что этой дорогой иду впервые.\
+` — Кажется, наших учеников здесь немного.@
+` Так сложилось, что большинство из них живут не в этом районе.@
+` Полвосьмого утра.@
+` Никого в школьной форме кроме меня поблизости нет.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -224,7 +224,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???? : ??????? : ???(?)<?????(?)>
 bg "image\bg\bg_23a.jpg",%type_lcartain_mid
 
-` Slowly, I begin to see some people in school uniforms intermingled with the crowd.@
+` Мало-помалу, среди толпы, мне на глаза стали попадаться люди в школьной форме.@@
 ` This is around where the road to school begins.@
 br
 `"...... Where's Yumizuka-san...?@ Well, I'm not going to be that lucky..."@
@@ -238,7 +238,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_24a.jpg",%type_lcartain_mid
 
 ` I leave the residential area and reach the crossroads.@
-` The gates will be closed in about ten minutes.@
+` До закрытия школьных ворот минут десять.@
 ` I start to run across the asphalt.@
 br
 ; ???<???????(?)>
@@ -247,9 +247,9 @@ bg "image\bg\ima_10.jpg",%type_lcartain_fst
 ; ?? : ?? : ?????(?)<?????(?)>
 bg "image\bg\bg_01a.jpg",%type_lcartain_mid
 
-` ------I made it.@
+` Добрался...@
 br
-` It seems like it took twenty minutes rather than thirty from the mansion.@ I'll need to leave around seven if I want to go slowly, since I ran several times on the way.\
+` Кажется, отсюда до поместья не двадцать минут, а полчаса.@ Пришлось пару раз пробежаться, значит если я хочу идти не торопясь, надо выходить в семь.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -260,7 +260,7 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_fst
 `"----?"@
 ` When I get to the classroom, I notice the air is buzzing.@
 ` Although the classroom in the morning is always noisy, there's something different about the noise today.@
-` I walk to my desk by the window.@
+` Я зашагал к своему месту около окна.\
 ` Arihiko is waiting there sullenly.\
 
 `"Arihiko, did something happen?"@
