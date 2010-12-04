@@ -4,121 +4,126 @@
 *s225
 
 
-; ?? : ?? : ????(?)<????>
+
 bg "image\bg\bg_03a.jpg",%type_nowaitdisp
 
-;S.E."??"
+
 wave se2
 
-` The ten minute bell rings.@
-`"--Uh-oh, we'll be late.@ Well, bye Senpai, see you later!"@
+` Звонок напоминает, что до урока десять минут.@
+` — Ох, мы так опоздаем.@ Ну, до скорого, Семпай!@
 
 
-; ??<?>=???:?01(?????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
 
-`"Yes, I'll come see you during lunchtime."\
+` — Я к тебе зайду в обед.\
 
 
-; ???<???????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
-; ??(?)<???????(?)>
+
 bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 
-;CD-DA??????
+
 play "*3"
 
-` I fly into my classroom.@
-` It's still five minutes before class, so it's very noisy inside.@
+` Я залетаю в класс.@
+` До начала ещё пять минут, так что тут очень шумно.@
 br
-`"--Whew."@
-` I take a breath and head to my seat.@
-` With this much time left, I didn't even need to run at all.@
-`"Yo, Duke of Delinquency."@
-`"........."@
-` From behind, I hear the voice I never look forward to.\
+` — Фух.@
+` Переведя дыхание, я направляюсь к своему месту.@
+` Времени ещё много, так что мне даже бежать не надо.@
+` — Йо, король прогульщиков.@
+` «...»@
+` Сзади доносится голос, который мне совсем не хочется слышать.\
 
 
-; ??<?>=??:??<??????(?)>
+
 ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
 
 
-`"What's going on, Tohno?@ I never heard you were skipping class.@ It's a lot of trouble.@ You have to tell me when you skip school and go play!"@
-` Arihiko says those preposterous words with an unbelievably happy expression.\
-`"...... Why should I have to tell you when I don't go to school?"@
-`"Isn't it obvious?@ When you don't show, neither does Senpai, so it's bad unless I think of something ahead of time."@
-` ...... What's bad for this guy?\
+` — Что с тобой творится, Тоно?@ Ты раньше никогда уроки не пропускал.@ Это совсем не хорошо.@ Мог бы хотя бы мне сказать, что собираешься прогулять и пойти развлекаться!@
+` Арихико несёт этот бред с необычайно счастливой миной на лице.\
+` — И почему это я должен тебя оповещать, что не приду в школу?@
+` — А разве не ясно?@ Нет тебя — нет Семпай, что совсем не хорошо, если не подготовить заранее какой-нибудь план.@
+` Что именно для него «не хорошо»?\
 
-`"But seriously--What happened?@ Since middle school, you've had anemia, but never skipped school.@ Well, you did a cool trick several times, leaving as soon as you arrived."@
-`"It's kind of like that.@ I made it to the intersection and felt bad, so I went back home."@
+` — Ну а если серьёзно… Что стряслось то?@ У тебя анемия со средней школы, но ты ни разу не прогуливал.@ Ну, ты пару раз проворачивал клювый трюк, уйдя сразу по прибытию.@
+` — Ну да.@ В этот раз я добрался до перекрёстка, когда мне стало плохо, так я развернулся и пошёл домой.@
 
 
-; ??<?>=??:??<???????(?)>
+
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
 
-`"Hmmm... Both you and Yumizuka seems to be acting like bad students lately."@
-`"--Well, I'm guilty as charged, but ...... is something wrong with Yumizuka-san?"\
+` — Хмм... Что-то в последнее время вы с Юмизукой плохо себя ведёте.@
+` — Ну, я то виноват, но... Что стряслось с Юмизукой-сан?\
 
 
-; ??<?>=??:??<???????(?)>
+
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
 
-`"Her?@ She's been absent lately.@ She was always such an honor student, so I think she might have been stressed out.@ But I bet she can't call a raise 'cause she has a bad hand."@
-`"..............."@
-` Arihiko's words are always... very unique.\
+` — С ней?@ Она в последнее время вообще не появляется.@ Я думаю, что у неё стресс — она ведь всегда была такой примерной студенткой.@ 
+;But I bet she can't call a raise 'cause she has a bad hand.@
+` «...»@
+` Арихико всегда подбирает... Необычные слова.\
 
-;S.E."??"
+
 wave se2
 
 
-` --While we are talking, the homeroom chime rings.@
+` Звонок прерывает наш разговор.@
 br
-`"Well, I'm off.@ Since you skipped Saturday, make sure you study hard today."@
+` — Ну, я пошёл.@ Раз уж ты прогулял субботу, то придётся сегодня тебе постараться.@
 
 
-; ?????<??????(?)>
+
 cl c,%type_lshutter_fst
 
 
-` Arihiko goes back to his seat.\
+` Он возвращается на своё место.\
 
 
-; ???<??????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
 
 
-; ??(?)<??????(?)>
+
 bg "image\bg\bg_06a.jpg",%type_lshutter_mid
 
-;S.E."??"
+
 wave se2
 
 
-` Fourth period ends and the class erupts into pandemonium all over again.@
-` The guys dash off to the cafeteria, the girls eat their lunches at their desks, and Inui Arihiko's carrying a sandwich and coming over to me.@
+` После четвёртого урока класс снова полон шума.@
+;…в классе снова начинается кромешный ад ^ ^
+` Парни несутся в столовую, девушки едят свои бенто, а Арихико идёт ко мне с сэндвичем в руках.@
 br
 
 
-; ??<?>=??:??<??????(?)>
+
 ld c,":a;image\tachi\ari_t02.jpg",%type_lshutter_fst
 
 
-`"Yo Tohno!@ Lunch, lunch."@
-`"---"\
+` — Йо, Тоно!@ Время обедать.@
+` «...»\
 
-` ...... What should I do?@
-` Since morning, I haven't really had an appetite.@ I don't feel hungry, so maybe I don't have to force myself to eat.@
-` ...... If I eat, I might throw it up again and cause trouble.@ I should---.@
+` Что мне делать?@
+` С самого утра мне совсем не хочется есть.@ А раз я не голоден, то лучше себя не заставлять.@
+` Да и стошнить меня снова может...@ Я...@
 br
 
 
-return
+*skip225
 
+
+select `1. ...всё таки поем.`, *f226,
+	`2. ...всё таки не стану есть.`, *f227
 
 </pre>
 
