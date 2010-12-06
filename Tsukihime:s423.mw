@@ -1,4 +1,4 @@
-[[Tsukihime|[Назад]]]*s423
+[[Tsukihime|[Назад]]]<pre>*s423
 
 
 
@@ -13,60 +13,60 @@ bg "image\bg\bg_40c.jpg",%type_tshutter_mid
 ;CD-DA?????
 play "*1"
 
-` Я понял что за мной ктото ухаживает.\
+` I realize that someone is taking care of me.\
 
 ;(???02b)
 ld c,":a;image\tachi\koha_t02b.jpg",%type_lshutter_mid
 
-`"Добрый вечер. Как ты себя чувствуешь Шики-сан?*"@
-` Спросила она со своей обычной улыбкой.@
-`"А...... Кохаку.. сан)"@
-` прерывисто дыша кое как выговорил я.@
+`"Good evening.@ How are you feeling, Shiki-san?"@
+` She speaks with her usual smile.@
+`"Ah...... Kohaku, san."@
+` I somehow manage to speak through my tattered breathing.@
 
 ;(03b)
 ld c,":a;image\tachi\koha_t03b.jpg",%type_crossfade_fst
 
-`"Ах, ты не должен разговаривать. Похоже я понимаю твоё состоянее лучше тебя"@
-` Она сняла полотенце с моего лба,все также улыбаясь.\
+`"Ah, you do not have to speak.@ I probably understand your condition better than you do."@
+` She removes the towel from my forehead, still smiling.\
 
-` ---неужели тогда это была только илюзия?@
+` ---Was that thing before just an illusion?@
 br
-` Кохаку-сан вела себя как обычно.@ Она все также улыбалась продолжая претворяться Хисуи.@
-` ...... Это.@
-` Неужели я умру так и не сумев снять эту маску?\
+` Kohaku-san is acting normal.@ She keeps smiling and continuing her portrayal of Hisui.@
+` ...... That.@
+` Am I going to die here without being able to take off that mask?\
 
-`"Акиха-сама все мне расказала.@ Она сказала что подождет до завтра, но скорее всего будет уже поздно.@
-` Похоже Акиха-сама больше не может ясно рассуждать@
-` Не думаю что ты сможешье продержаться эту ночь в таком состоянии Шики-сан"@
+`"Akiha-sama told me everything.@ She said that she would wait until tomorrow, but that may be too long.@
+` Akiha-sama seems to have lost her ability to think clearly.@
+` I don't think you'll be able to make it through the night like that, Shiki-san."@
 `"---------"@
-` *wheeze* *wheeze*(Вот С этим заминка вышла)
-` Кохаку-сан была абсолютно права.\
+` *wheeze* *wheeze*
+` Kohaku-san's words are unmercifully true.\
 
 ;(???08)
 ld c,":a;image\tachi\koha_t08.jpg",%type_crossfade_fst
 
-`"Шики-сан, ты сказал мне тогда...@ Ты сказал что оцепенел до смерти.@
-` Это правда?@ С таким телом ты все еше хочешь безнадежно противостоять Акихе-сама?"@
-`"---------Кохаку-сан?"@
-` ...... Удивительно.@
-` её голос... он совершенно изменился.\
+`"Shiki-san, you told me before.@ You said that you were numb to death.@
+` Is that still true?@ Are you still going to act against Akiha-sama hopelessly with a body like that?"@
+`"---------Kohaku-san?"@
+` ...... I'm surprised.@
+` Kohaku-san's voice, it's completely different than before.\
 
-`"...... Низачто.@ Я уже говорил что чувствую смерть сильнее остальных людей...... Так что думаю я понимаю в каком сейчас положении.@
-` Даже без твоих слов---Я понимаю что пережить эту ночь будет невероятно трудно."@
-`"Значит ты не боишся смерти?@ Если ты примешь Акиху-сама то быстро встанешь на ноги, но ты все же противишся.@ С тобой чтото не так."\
+`"...... No way.@ I told you that I am more attuned to death than most people...... So I think I understand the situation I'm in.@
+` Without you telling me---I knew that surviving the night will be extremely difficult."@
+`"Then you are not scared of death?@ If you accept Akiha-sama then you will recover quickly, but you still do not.@ There's something wrong with you."\
 
-`"...... Возможно.@ Но я думаю все нормально.@ Я нравлюсь себе таким, и мне нравится Акиха принимаюшая меня таким каков я есть.@
-` ...... к тому же... я наслаждаюсь малым например простой возможностью поговаривать с тобой, Кохаку-сан.@
-` ...... Но мне кажется если я не буду честен с собой, то все эти мале радости утратят свою привлекательность, и вот этого я боюсь----"@
-
-
+`"...... Maybe.@ But, I think it's okay.@ I like the me that acts like this, and I like Akiha for liking me as I am.@
+` ...... Yes, and, well... I enjoy small things like just being able to talk with you, Kohaku-san.@
+` ...... But I feel like if I lie to myself, all those small things would lose their enjoyment, and I'm scared of that----"@
 
 
 
 
 
 
-назад
+
+
+return
 
 
 
