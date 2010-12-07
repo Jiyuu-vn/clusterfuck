@@ -13,33 +13,33 @@ bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 ; ?? : 01~10 : 02_?02(????)<???????(?)>
 ld r,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"Akiha-sama?@ It's almost time to leave; is this alright?"@
+` — Акиха-сама?@ Уже почти пора выходить. Вы готовы?@
 
 ; ?? : 11~20 : 13_??02(?~????)<???????(?)>
 ld l,":a;image\tachi\aki_t05a.jpg",%type_crossfade_fst
 
-`"...... I know.@ Sheesh, don't be so worried over stuff like this on the first day."@
-` Muttering some complaints, Akiha stands up.\
+` — Да знаю.@ Господи, хватит уже волноваться из-за таких вещей в первый же день.@
+` Бормоча жалобы, Акиха встала.\
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld l,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Well, I must say goodbye.@ Nii-san, you should apply yourself to your studies today."@
+` — Ну, я вынуждена попрощаться.@ Нии-сан, сегодня тебе следует приложить все свои усилия к учёбе.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_mid
 
-` Akiha leaves the sitting room.@
-` Kohaku-san follows, seeing her off.@
-`"Apply myself to my studies...?"@
-` She's quite ceremonious about trivial things in an old fashioned kind of way... I guess it's because she's been disciplined under our old man for the last eight years.@
-`"...... Well, I'd have gone to school even if she hadn't said anything."\
+` Акиха покинула гостиную.@
+` Чтобы проводить её, Кохаку последовала за ней.@
+` «Приложить все мои усилия к учёбе?»@
+` Она относится к обыденным вещам в такой устаревшей чопорной манере… Думаю, это из-за того, что последние восемь лет её обучал наш старик.@
+` Ну, даже если бы она и словом про это не обмолвилась, мне всё равно нужно идти в школу.\
 
-` I scratch my cheek.@
-` There was something about Akiha's face as she left... because of it, I paid no attention at all to her various admonishings this morning.@
-`"Of course---"@
-` I clap my hands together.@
-` For some reason, Akiha's face just then seemed to resemble her face from long ago---\
+` Я почесал щеку.@
+` Было что-то такое с лицом у Акихи, когда она уходила… именно из-за этого я пропустил мимо ушей все её разнообразные замечания этим утром.@
+` Ну конечно.@
+` Я сложил руки вместе.(или похлопал?)@
+` По какой-то причине, тогда оно напоминало её лицо из прошлого.\
 
 
 ; ???<?????(?)>
