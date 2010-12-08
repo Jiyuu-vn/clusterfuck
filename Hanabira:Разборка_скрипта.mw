@@ -3,7 +3,6 @@
 <br>{{OK}} [http://www.solelo.com/p4s/#sono+hanabira+ni+kuchizuke+wo Инструменты для распаковки скриптов и графики] © Proger_XP www.solelo.com/p4s
 
 == Manual ==
-<pre>
 So how to use these tools?
 A brief review of what (any) game scripts are and where are they stored.
 
@@ -30,4 +29,4 @@ So, a generic pattern of using the tools hosted here can be described as follows
     * You can see if it actually updated the file by exporting texts from the file with "~". If they were updated, you'll see them in a newly exported S001.MSD~.sjs.
     * Now update the script inside the game archive. Sinilarly, this is done by executing msd.exe MSD ~\S001.MSD. The program should output a line like, for example, inserting into @901F. 
 
-Normally this should be the last step. Now you can run the game and see if everything went alright. </pre>
+Normally this should be the last step. Now you can run the game and see if everything went alright.
