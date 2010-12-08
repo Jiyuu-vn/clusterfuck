@@ -14,19 +14,23 @@ For our purpose (translating games) we also need to somehow extract texts from t
 
 So, a generic pattern of using the tools hosted here can be described as follows:
 
-    * Find the archive file where game stores its scripts. Usually it's not too big, not more than 5-10 Mbs for example. Sometimes it can even be less than one Mb.
+* Find the archive file where game stores its scripts. Usually it's not too big, not more than 5-10 Mbs for example. Sometimes it can even be less than one Mb.
       For example, Sono Hanabira ni Kuchizuke wo 1 has MSD file for this purpose.
-    * Find an archiver tool. If you're using tools on this page then it's easy – programs are grouped by games and one pack usually includes archiver + text extractor tool.
+* Find an archiver tool. If you're using tools on this page then it's easy – programs are grouped by games and one pack usually includes archiver + text extractor tool.
       Again, for Hanabira this program is called msd.exe.
-    * Next, you need to extract that archive content. This can be done by dragging that file onto the archiver's icon (or using command line, like msd.exe MSD).
-    * it'll create a directory with extracted files and name it "~".
-    * Now find a script file (inside ~ dir) where new game starts. Usually it's named like <prefix>001, where «prefix» specifies the current route.
+* Next, you need to extract that archive content. This can be done by dragging that file onto the archiver's icon (or using command line, like msd.exe MSD).
+* it'll create a directory with extracted files and name it "~".
+* Now find a script file (inside ~ dir) where new game starts. Usually it's named like <prefix>001, where «prefix» specifies the current route.
       After you've found that file you can extract texts from it. For Hanabira the compiler (text extractor) program is called msdcomp.exe. To extract, drag the script file onto the exe or use the command line (msdcomp.exe S001.MSD). This will create a text file, usually with an extension of sjs or utf.
-    * So you've got the texts extracted and can now translate them. There are editors on the net, of which I usually use JWPce. It's old but it has very nice features, such as built-in dictionary and other useful stuff. Or, if you know the language enough so you only need an input field, you can look at a simple Text files editor here.
-    * After you're done translating you'll need to update them in the game itself. For that, you'll need to compile the texts into the script file. It's done (for Hanabira) by using a command line and executing msdcomp.exe S001.MSD -c. The tool should output something like
-      Builder file: S001.MSD Strings file: S001.MSD.sjs Out MSD file: S001.MSD~ = Done!
-    * it'll create a file with the same name but with "~" appended to its end (S001.MSD~).
-    * You can see if it actually updated the file by exporting texts from the file with "~". If they were updated, you'll see them in a newly exported S001.MSD~.sjs.
-    * Now update the script inside the game archive. Sinilarly, this is done by executing msd.exe MSD ~\S001.MSD. The program should output a line like, for example, inserting into @901F. 
+* So you've got the texts extracted and can now translate them. There are editors on the net, of which I usually use JWPce. It's old but it has very nice features, such as built-in dictionary and other useful stuff. Or, if you know the language enough so you only need an input field, you can look at a simple Text files editor here.
+* After you're done translating you'll need to update them in the game itself. For that, you'll need to compile the texts into the script file. It's done (for Hanabira) by using a command line and executing msdcomp.exe S001.MSD -c. The tool should output something like
+<pre>
+Builder file: S001.MSD 
+Strings file: S001.MSD.sjs 
+Out MSD file: S001.MSD~ 
+= Done!</pre>
+* it'll create a file with the same name but with "~" appended to its end (S001.MSD~).
+* You can see if it actually updated the file by exporting texts from the file with "~". If they were updated, you'll see them in a newly exported S001.MSD~.sjs.
+* Now update the script inside the game archive. Sinilarly, this is done by executing msd.exe MSD ~\S001.MSD. The program should output a line like, for example, inserting into @901F. 
 
 Normally this should be the last step. Now you can run the game and see if everything went alright.
