@@ -7,11 +7,19 @@
 <br>{{Шаблон:Progress|2=#070|7=93|8=452}}
 
 == Пояснения ==
-
-{{OK}} - Готово   {{Work}} - Ведётся работа   {{No}} - Не начато.
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	!Готово !!Ведётся работа!! Не начато
+	|-
+	| {{OK}} || {{Work}} || {{No}}
+	|}
+|}
 
 
 ----
+
 == {{OK}} Пролог ==
 {|style="text-align:center"
  |- valign="top"
