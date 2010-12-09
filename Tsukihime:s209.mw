@@ -1,5 +1,5 @@
 [[Tsukihime|[Назад]]]
-
+{{SO}}
 <pre>
 *s209
 
@@ -10,56 +10,56 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 play "*1"
 
 
-` I still feel down even when lunch time arrives.@
-` While the news of Yumizuka Satsuki running away from home was shocking, it seems it wasn't a topic that could last forever.@
-` The classroom is just like always, and it seemed that I'm the only one troubled by our absent classmate.\
+` Даже когда наступило время обеда, я всё ещё чувствую себя подавленным.@
+` Хотя новости о том, что Юмизука Сацуки убежала из дома были шокирующими, кажется, это не та тема, которую можно обсуждать вечно.@
+` Класс вел себя как обычно, и, похоже, я единственный, кого встревожило отсутствие нашей одноклассницы.\
 
 ; ?? : 01_??<??????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
 
-`"Tohno, let's go get lunch."@
-`"That's okay.@ I don't really feel like it."@
-`"Huh... I guess it can't be helped.@ Don't be troubled with other people's problems too much."@
+` — Тоно, пошли пообедаем.@
+` — Да всё нормально.@ Я не особо голоден.@
+` — Хм… думаю, тут уже ничем ни помочь.@ Не забивай себе голову чужими проблемами.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-`"......"@
-` Other people's problems, huh.@
-` Arihiko's words are too close to the truth.\
+` «…»@
+` Чужие проблемы, хм.@
+` Слова Арихико очень похожи на правду.\
 
 ; ??? : 01~10 : 01_?01(????)<??????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_lshutter_fst
 
-`"Huh?@ You're not with Inui-kun today?"@
-`"...... Senpai?@ What are you doing in our classroom?"@
+` — Хм?@ Ты сегодня не с Инуи-куном?@
+` — Семпай?@ Что ты делаешь в нашем классе?@
 
 ; ??? : 01~10 : 09_?<???????(?)>
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
 
-`"Well, I thought I'd have lunch with you guys... Tohno-kun, aren't you going to eat something?"@
-` Senpai sits down on the desk, looking at me anxiously.\
+` — Ну, я думала пообедать вместе с вами. Тоно-кун, разве ты не собираешься чем-либо перекусить?@
+` Семпай сидит на парте и смотрит на меня с тревогой.\
 
-`"Nah, I just don't seem to have any appetite today."@
-`"Ahh... Are you not feeling well?"@
-`"...... Something like that.@ Don't worry about me, you go on to the dining hall.@ Arihiko's probably already there."@
+` — Хм, кажись, у меня сегодня совсем нет аппетита.@
+` — А… ты плохо себя чувствуешь?@
+` — Что-то типа того.@ Не волнуйся обо мне. Иди в столовую.@ Арихико, наверное, уже там.@
 
 ; ??? : 01~10 : 08_?<???????(?)>
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
-`"Oh, you're not energetic at all!@ I don't know what happened, but if you don't eat lunch, you'll just feel even worse."@
-`"That's... true.@ But..."@
-` But since I'm not hungry, there's not a lot I can do.\
+` — Ох, ты совсем обессиленный!@ Не знаю что случилось, но если ты не пообедаешь, будешь чувствовать себя только хуже.@
+` — Это… так.@ Но…@
+` Но, поскольку я не голоден, тут мало что можно сделать.\
 
 ; ??? : 01~10 : 03_?03(??????????)<???????(?)>
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
 
-`"Alright, I'll take you somewhere special.@ It's really a secret, but you're special, Tohno-kun."@
+` — Ну, хорошо, я отведу тебя в кое-какое особое место.@ Это настоящий секрет, но ты особенный, Тоно-кун.@
 
 ; ?????<???????(?)>
 cl a,%type_lcartain_mid
 
-` With that, she grabs my arm and pulls me out of the chair.\
+` Сказав это, она схватила меня за руку и потянула со стула.\
 
 return
 
