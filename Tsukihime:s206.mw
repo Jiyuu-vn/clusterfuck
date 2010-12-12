@@ -179,20 +179,20 @@ bg "image\bg\bg_48a.jpg",%type_lcartain_fst
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` I come out to the gates.@
-` Hisui follows in silence.@
-`"...... Hisui.@ You're seeing me off?"@
-` Hisui nods wordlessly.\
+` Я вышел к воротам.@
+` Хисуи безмолвно следует за мной.@
+` — Хисуи, решила меня проводить?@
+` Она молча кивнула.\
 
-`"Shiki-sama?@ What time shall we expect your return?"@
-` It seems Hisui will continue to use "-sama" to the bitter end.@
-` Well, if I take time to argue it now, I'll be late for school.@ I'll complain about the honorific later.\
+` — Шики-сама?@ В котором часу нам следует ожидать вашего возвращения?@
+` Кажется, Хисуи собирается продолжать использовать «сама» в чтобы то ни стало.@
+` Ну, если я начну спорить по этому поводу, я точно опоздаю в школу.@ Спор о почтительности отложу на потом.\
 
-`"Shiki-sama?"@
+` — Шики-сама?@
 
-`"Ah, yeah.@ Uh... probably around four o'clock, I think.@ I don't do any club activities."@
-` When I don't hang out with Arihiko, I usually get back pretty early in the evening.@
-` Hisui bows deeply at my random estimate.\
+` — Ах, да.@ Ну, я думаю, к четырём часам. Я не занят в школьных кружках.@
+` Когда я не зависаю с Арихико, то возвращаюсь вечером довольно рано.@
+` Хисуи глубоко поклонилась на моё случайное замечание.\
 
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
@@ -225,11 +225,11 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_23a.jpg",%type_lcartain_mid
 
 ` Мало-помалу, среди толпы, мне на глаза стали попадаться люди в школьной форме.@@
-` This is around where the road to school begins.@
+` Здесь начинается дорога к школе.@
 br
-`"...... Where's Yumizuka-san...?@ Well, I'm not going to be that lucky..."@
-` I recall the smiling face of the classmate who departed here yesterday saying "my house is this way".@
-` As I think of Yumizuka Satsuki in the classroom, my pace quickens a little, and I hurry towards the classroom.\
+` «Где же Юмизука-сан?@ Ну, я не буду таким везунчиком.»@
+` Я вспомнил улыбающееся лицо одноклассницы, которая попрощалась тут со мной вчера со словами «мой дом в той стороне».@
+` Подумав о ней в классе, моя походка немного ускорилась, и я поспешил в школу.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -237,9 +237,9 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???? : ??????? : ???(?)<?????(?)>
 bg "image\bg\bg_24a.jpg",%type_lcartain_mid
 
-` I leave the residential area and reach the crossroads.@
+` Я покинул жилой район и вышел к перекрестку.@
 ` До закрытия школьных ворот минут десять.@
-` I start to run across the asphalt.@
+` Я побежал по асфальту.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -257,28 +257,28 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ?? : ?? : ??(?)<?????(?)>
 bg "image\bg\bg_06a.jpg",%type_lcartain_fst
 
-`"----?"@
-` When I get to the classroom, I notice the air is buzzing.@
-` Although the classroom in the morning is always noisy, there's something different about the noise today.@
+` «?»@
+` Когда я добрался до класса, я заметил, как там взбудоражена атмосфера.@
+` Хотя по утрам в классе всегда шумно, сегодняшний шум был каким-то особенным.@
 ` Я зашагал к своему месту около окна.\
-` Arihiko is waiting there sullenly.\
+` Угрюмый Арихико ожидает тут.\
 
-`"Arihiko, did something happen?"@
+` — Арихико, что-то случилось?@
 
 ; ?? : 04_??<???????(?)>
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
-`"...... Dunno.@ It's nothing big.@ There's a rumor that someone in class ran away from home."@
-`"Ahh... that's what all the fuss is about, then."@
-` I sit down at my desk with a sigh.@
-`"---What do you mean, nothing big!?@ Who ran away?@ Who!"@
+` — Именно@ Правда, ничего особенного.@ Прошёл слушок, что кто-то из класса убежал из дома.@
+` — А, вот к чему вся эта суета.@
+` Я со вздохом сел за свою парту.@
+` — Что ты подразумеваешь, под «ничего особенного»?!@ Кто обежал?@ Кто!@
 
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"How should I know?@ But we'll know when homeroom starts.@ Whoever's seat is vacant, they must be the one who ran away from home."\
+` — А я откуда знаю?@ Но мы узнаем, когда придет учитель.@ Чьё место будет свободно, значит именно он и сбежал из дома.\
 
-`"Ahh, that's true."@
+` — Ах, твоя правда.@
 ` It's true, but, Arihiko's attitude seems a little dry.@
 ` ...... If one of our classmates really has run away from home, I think it's a bit much to just ignore it as someone else's problem.\
 
