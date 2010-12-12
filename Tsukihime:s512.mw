@@ -1,4 +1,9 @@
-[[Tsukihime|[Назад]]]<pre>*s512
+[[Tsukihime|[Назад]]]
+
+{{HM:T|[[Участник:Hemet|Hemet]] 19:36, 12 декабря 2010 (MSK)}}
+
+<pre>
+*s512
 
 
 ;S.E."??"
@@ -20,42 +25,36 @@ ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
 
-` Bonjour!@
-` This corner is for the unlucky Tohno-kun, who easily ended up in a Dead End again.@
-` It is time for "Teach me, Ciel-sensei!"@
+` — Бонжур!@ И снова у нас в гостях плохиш Тоно-кун, готовый уже во второй раз закончить игру в тупике.@ Самое время для «Научи меня, Сиэль-сенсей!»@
 br
-` Now, we will start second period.@
-` This time, we will present the first "Shakes 'n Shivers Animal Land" from the series that gives detailed observation of wild animals.@
+` А теперь начнём второй урок.@ Сегодня у нас первая лекция из серии «Хаотичный зоопарк», в которой мы подробно рассмотрим диких животных.@
 \
 
 ld l,":a;image\tachi\ark_t30.jpg",%type_lshutter_fst
 
-`"Sensei, I have a question before that.@ That name sounds really stupid.@ In Japanese, you can read your name as Chiel."@
+` — Сенсей, можно сначала один вопрос?@ Это имя такое несуразное.@ На японском его можно прочитать как Чиэрь.@
+;посмотреть что в оригинале, может быть игра слов
+;知得 (чи(он/знать)-эру(кун/получать, мочь, быть в состоянии) 
 br
-` Question denied.@
+` — Вопрос не принимается.@
+; — Садись, два.
 cl l,%type_lshutter_fst
 
-` ----Now then, Tohno-kun.@
-` I think it's good to be prudent, but this time, it seems to have backfired.@
-` Basically, you are a hero, so a little recklessness will be forgiven.@
-` It will be forgiven, but in a case with an absurd animal like a shark, I guess you couldn't do much.@
-` You'll just have to abandon Arcueid this time around.\
+` — Что же ты, Тоно-кун.@ Осмотрительность, конечно, никогда не повредит, но в этот раз ты, похоже, перестарался.@ По сути, ты же герой: немного сумасбродства тебе не повредит.@ Правда, с таким диким зверем, как акула, оно тебе навряд ли поможет.@ В этот раз тебе придётся оставить Арквейд одну.\
 
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 ld l,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
 
-`"Heeeeyyy!@ I don't want to hear that from Chiel!"@
+` — Э-э-эй!@ Не желаю этого слышать от Чиэль!@
 br
 
 
-` ---Abandon her!@
+` За дверь её!@
 cl l,%type_lshutter_fst
 br
-`"Kyaah!@ No violence!"@
+` — Ой!@ Руки прочь!@
 br
-` Anyhow, please prepare yourself to explore the hotel alone.@
-` Inside, you'll find a whole animal kingdom.@
-` As the representative of mammals, let's show the beasts what we've got.\
+` Так или иначе, будь готов к тому, что гостиницу ты будешь осматривать один.@ Там будет настоящий зверинец.@ Так что покажем этим тварям, на что способны млекопитающие.\
 
 
 ; ???<???????(?)>
@@ -68,6 +67,5 @@ playstop
 
 return
 
-
-
-</pre>[[Tsukihime|[Назад]]][[Категория:Tsukihime]]
+</pre>
+[[Tsukihime|[Назад]]][[Категория:Tsukihime]]
