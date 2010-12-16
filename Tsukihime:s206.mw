@@ -279,39 +279,39 @@ ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 ` — А я откуда знаю?@ Но мы узнаем, когда придет учитель.@ Чьё место будет свободно, значит именно он и сбежал из дома.\
 
 ` — Ах, твоя правда.@
-` It's true, but, Arihiko's attitude seems a little dry.@
-` ...... If one of our classmates really has run away from home, I think it's a bit much to just ignore it as someone else's problem.\
+` Это так, но поведение Арихико кажется слегка чёрствым.@
+` Если кто-то из наших одноклассников действительно сбежал из дому, то просто игнорировать это как чужую проблему немного чересчур.\
 
-`"Arihiko?@ Aren't you being insensitive?@ One of our classmates ran away from home... aren't you worried?"@
+` — Арихико?@ Почему ты такой бесчувственный?@ Один из одноклассников сбежал из дома… разве ты не волнуешься?@
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Eh?@ You're the only one who's seriously worried, dumbass.@ Everyone's talking about it because it's an interesting thing to talk about.@
-` It's not as if you or I had run away from home, so there's no need to worry, is there?"@
+` — Э?@ Ты единственный, кто действительно встревожен, идиот.@ Остальные обсуждают это, потому что это интересная тема для разговора.@
+` — Это ж не ты или я убежал из дома, так что нечего волноваться, не так ли?@
 br
-` ...... Now I remember.@ This guy's cold like that to everyone except his friends.\
+` Теперь я вспомнил.@ Этот парень холоден со всеми, кроме своих друзей.\
 
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
-`"Though, I guess I am a bit worried.@ Running away from home at a time like this... they'd have to be really brave or really..."@
-`"...?@ A time like this?@ What kind of time is that?"@
-`"I told you yesterday, Tohno.@ There's a serial killer going around on the streets right now.@ I don't know who ran away from home, but they'd have no excuse if they got attacked by him while living on the streets."\
-`"Can't be----there's no way that'd happen."\
+` — К тому же, думаю, я немного волнуюсь.@ Убежать из дома в такое время… для этого надо быть или очень храбрым или очень…@
+` — ?..@ В такое время?@ Какое же сейчас время?@
+` — Я тебе уже говорил вчера, Тоно.@ Сейчас по улицам бродит серийный убийца.@ Я не знаю, кто убежал из дома, но они сами виноваты, если на них нападёт маньяк, пока они живут на улице.\
+` — Не может быть. Такого не случится.\
 
-`"Tohno, you should watch TV more.@ There's been eight victims already, and he doesn't discriminate.@ You'd better think again if you think you're safe.@
-` The town's empty at night nowadays.@ The only people who go out are drunkards and policemen, which is why it's so boring."@
-` Arihiko's voice is very serious.@
-` Hearing it, I begin to feel uneasy.\
+` — Тоно, тебе следует больше смотреть телик.@ Уже восемь жертв, а его даже ещё не опознали.@ Если ты думаешь, что в безопасности, то обдумай это ещё раз.@
+` — Сейчас по ночам в городе ни души.@ Единственные, кто выходит это пьянчужки и полицейские, потому-то так и скучно.@
+` Голос Арихико очень серьёзен.@
+` Услышав это, я почувствовал беспокойство.\
 
-`"Oh, Kunifuji's here.@ It's homeroom at last."@
+` — О, Кунифудзи тут.@ Наконец-то перекличка.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Arihiko returns to his seat.@
+` Арихико вернулся на свою парту.@
 br
-` After a while, everyone is seated.@
-` Only one seat is empty.@
-` There's no mistaking it.@ The desk of Yumizuka Satsuki is empty.\
+` Через некоторое время все заняли свои места.@
+` Одни стул пустует.@
+` Ошибки нет.@ Парта Юмизуки Сацуки пуста.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -326,8 +326,8 @@ br
 br
 br
 br
-`"Well, my house is this way.@
-` Bye-bye.@ See you at school tomorrow."\
+` — Ну, мой дом в том направлении.@
+` — Пока-пока.@ Увидимся завтра в школе.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
