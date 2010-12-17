@@ -1,5 +1,5 @@
 [[Tsukihime|[Назад]]]
-
+{{Не Трожь!|SamOdin}}
 <pre>
 *s209a
 
@@ -40,7 +40,7 @@ bg "image\bg\bg_09a.jpg",%type_lshutter_fst
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 `"As I said earlier, I'm the only member of the tea club.@ Thanks to that, I can use this place freely during lunchtime and after class.@ Here."@
-` Laughing, Senpai lays out cushions.@
+` Смеясь семпай начала раскладывать подушки.@
 `"I'll make some tea now, so please wait right there, Tohno-kun."@
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
@@ -58,90 +58,90 @@ ld c,":a;image\tachi\cel_t01a.jpg",%type_lshutter_fst
 ` Puzzled, I drink the tea I'm offered.@
 ` As I'm in the Japanese-style room, my posture reflexively straightened and my mind has become tranquil.\
 
-` ...... Although I had no connection to it, the Arima family heads a tea ceremony school.@ Perhaps it was because I had been raised in that kind of environment, that I feel more at ease in a Japanese-style room than a Western-style one.@
-` Senpai looks at me with a troubled expression.\
+` Хотя я не имел к этому никакого отношения, Арима содержат школу чайных церемоний.@ Perhaps it was because I had been raised in that kind of environment, that I feel more at ease in a Japanese-style room than a Western-style one.@
+` Семпай посмотрела на меня со странным выражением лица.\
 
-`"What's wrong, Senpai?@ You look a bit worried."@
+` — Что такое, Семпай?@ Ты выглядишь расстроенной.@
 ; ??? : 01~10 : 08_?<???????(?)>
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
-`"Eh?@ Ah, um, I was just a little surprised at how calm you were about all of this, Tohno-kun."@
-`"Really?@ Well, my family is a strict one, so I'm used to these kinds of things.@ More importantly, Senpai, didn't you have something you wanted to talk to me about?"@
+` — Э?@ А, ну... Я была немного удивлена, что ты такой... тихий, Тоно-кун.@
+` — Правда?@ Ну, моя семья довольно строгая, так что, это уже вошло у меня в привычку.@ Кстати, Семпай, ты вроде хотела о чём-то поговорить?@
 ; ??? : 11~20 : 12_????<???????(?)>
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
-`"I do.@ The continuation of what we were talking about earlier."@
-`"...... What we were talking about earlier... you mean about my family?"@
-` Senpai nods to indicate a yes.\
+` — Да.@ Продолжение нашего разговора во время обеда.@
+` — Нашего разговора... То есть о моей семье?@
+` Семпай кивнула в подтверждение.\
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
-`"If you don't mind, I would like to hear more about it.@ I was curious about it since we stopped halfway."@
-`"...... It's not that I mind, but hearing about my family isn't very interesting.@ It'd be a waste of time."@
-`"I don't mind if it's not interesting, I just want to hear about it."@
-`"...... Hmm, you sure are eccentric, Senpai."@
-`"Maybe I am," Senpai laughs.\
+` — Я хотела бы узнать побольше, если ты не против.@ Мне стало интересно. Но разговор прервался на середине...@
+` — Я... в общем-то, не против, но это не самая интересная тема для разговора.@ Скорее пустая трата времени.@
+` — Ничего страшного. Мне хочется узнать больше.@
+` — Хм... странная ты девушка, Семпай.@
+` — Вполне может быть. — она рассмеялась.\
 
-`"Alright, then.@ Let's continue from before.@ You said you moved to your home.@ What do you mean by that?"@
-` Senpai asks, full of curiosity.@
-` ...... Well, the conversation back then must've been pretty fragmented for Senpai, since she didn't know any of the circumstances.\
+` — Ну, ладно.@ Продолжим с того, на чём остановились.@ Ты сказал, что возвращаешься домой.@ Что ты имел в виду?@
+` Семпай спрашивала с любопытством.@
+` Ну, наверно дневной разговор был для неё не очень понятен, поскольку, не были известны обстоятельства.\
 
-`"---Let's see.@ Basically, I'm a guy who's been disinherited.@
-` I was seriously injured after getting caught up in a traffic accident when I was nine years old.@
-` The injuries themselves somehow healed, but after that, I easily collapsed from anemia and threw up my food.@ That's why I was entrusted to my relatives, the Arimas, while I recuperated."@
+` — Дай подумать...@ В общем-то, я был лишён наследства.@
+` Когда мне было девять, я был серьёзно ранен, попал в аварию.@
+`  Хоть мои раны и зажили каким-то чудом, но я стал страдать от приступов анемии и меня часто тошнило.@ Поэтому, меня поручили заботам наших родственников Арима, пока я не поправлюсь.@
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
-`"Uh, so in other words, the Arimas have been your parents who raised you since you were nine, right?"\
+` — Ух, другими словами тебя с девяти лет растили приёмные родители... Арима, верно?\
 
-`"That's right.@ I knew my old man hated me for some reason and that once I had been entrusted to the Arimas, I would never go back home...... Go back to the Tohno mansion, that is.@ That's why, well, I thought I'd just continue to live as a son of the Arimas forever.@
-` That's what I thought, but my old man kicked the bucket recently.@ That's when they told me to return to the mansion, now that my old man is no longer there, and I finally agreed to them."\
+` — Да.@ И с тех пор, отец меня почему-то ненавидел, и шансов вернуться домой у меня не было... Вернуться в особняк...@ Я думал, что навсегда останусь сыном Арима.@
+` Так я считал, но недавно мой отец умер.@ А когда меня пригласили вернуться в особняк, поскольку моего старика там уже нет, я решил согласиться.@
 
-` ---And that, pretty much, is my domestic situation.@
+` Вот, собственно, и всё о моей семье...@
 br
-` I end my story like that.@
-` Ciel-senpai gives a little nod silently.\
+` Я закончил этим свою историю.@
+` Сиэль-семпай молча кивнула.\
 
 ; ??? : 01~10 : 07_??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
-`"...... May I just ask one thing?"@
-`"Mm?@ Sure, if I can answer it.@ Go ahead."@
-`"...... Alright, then I'll ask.@ Did you dislike your previous family?"@
+` — Можно мне спросить ещё кое-что?@
+` — Хм?@ Если я смогу ответить, то конечно.@ Спрашивай.@
+` — Хорошо...@ Тебе не нравилась твоя прежняя семья?@
 br
-` My previous family---the Arimas who had raised me as my parents?@
+` Моя прежняя семья... Арима, которые заменили мне родителей?@
 br
-` My mother and father who weren't my real parents,
-` and the unfamiliar building which without a doubt was home to strangers.@
-` But completely regardless of that---\
+` Моя мать и отец не были моими настоящими родителями...
+` ...и незнакомое здание, которое буз сомнения было домом незнакомцев.@
+` Но, несмотря на это...\
 
-`"No, I liked them.@ They were people who didn't care that I wasn't related to them by blood.@ They were so warm to me that I felt bad about being depressed all by myself.@ And for them to love me no matter what...... I didn't think it was a bad thing."\
-` ---I was loved by these people.@
+` — Нет, они мне нравились.@ Они не беспокоились о том, что я чужой ребёнок.@ Их доброта вернула мне волю к жизни.@ А их любовь... Не думаю, что она была фальшивой.\
+` Они действительно любили меня.@
 br
-` That's why soon, even one day sooner,
-` I have to truly become family to them---\
+` Поэтому как можно скорее...
+` ...я должен был стать им настоящим сыном...\
 br
-` I had been telling myself those words since I was young.@
-` ...... Since a very, very long time ago.@
-` Over and over, I swore, till I would practically pass out.\
+` Я говорил это себе с детства.@
+` Уже очень, очень долго...@
+` Снова и снова я клялся до умопомрачения.\
 
-`"...... Um, just like Arihiko said, I didn't have a single complaint about the Arima family.@
-` They treated me well, and I think I responded to their affection, too.@
-` Between us, even though I knew we were just playing at being family, even if it was all just an act, I didn't feel any pain."@
-` No, I was happy instead.@
-` In a way, I had considered the Arima parents and me to be the ideal nuclear family.\
+` — Ну... как Арихико и сказал, у меня с ними не было ни малейших проблем.@
+` Они хорошо относились ко мне, и я старался отвечать им тем же.@
+` Между нами... Хоть я и знал, что всё это не настоящее, мне не было грустно.@
+` Нет, я был счастлив.@
+` В глубине души я считал, что Арима были идеальной семьёй.\
 
-`"---But it was no good, was it?"@
-`"...... Yeah.@ Despite everything, there was a line I couldn't cross.@ 'This isn't your real family......' No matter what I did, I couldn't get those words out of my head.@
-` I knew I should have been ignoring it, but I just couldn't do it.@
-` I don't know if you'd call it a childhood experience, but it had already become like a curse to me.@ Somehow, no matter where I was, I felt like a stranger to my family."@
+` — Но ничего не вышло, не так ли?@
+` — Да...@ Я так и не смог пересечь черту.@ «Это не твоя семья...» Что бы я ни делал, эти слова не выходили из моей головы.@
+` Я знал, что мне надо было просто их проигнорировать, но так и не смог.@
+` Не знаю, можно ли это назвать просто ребячеством, но это стало для меня проклятьем.@ Где бы я ни был, я чувствовал себя чужим в моей семье.@
 ; ??? : 01~10 : 09_?<???????(?)>
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
-` Senpai is silent.@
-` Avoiding my gaze, she huddles her shoulders apologetically.\
-`"See?@ It was boring after all, right?@ That's why I said it would be a waste of time."@
+` Семпай молчит.@
+` Избегая мой взгляд, она расстроено опустила плечи.\
+` — Видишь?@ Это был скучный рассказ.@ Потому я и сказал, что он будет лишь пустой тратой времени.@
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
-`"No, that's not true.@ It was a very meaningful story."@
+` — Неправда.@ Это была весьма важная история.@
 ` Saying that, Senpai begins to eat her own lunch.\
 
 ; ?????<???????(?)>
