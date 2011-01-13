@@ -11,21 +11,21 @@ play "*3"
 ; ?? : ?? : ????2(?)<?????(?)>
 bg "image\bg\bg_11a.jpg",%type_lcartain_fst
 
-` Ciel-senpai takes me to an unused classroom in the very corner of the school building.@
+` Сиэль-семпай отвела меня к неиспользуемому классу на самом углу школьного здания.@
 br
-`"Huh...?@ This is a Japanese-style room, isn't it?"@
+` — Хм?@ Эта комната в японском стиле, не так ли?@
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
-`"That's right.@ It's very relaxing since no one else is here."@
-`"Well, that's true, but... isn't this place locked, Senpai?"@
-`"Yes.@ It's usually only open to members of the tea ceremony club, so normal students can't get in."@
-` Saying so, she takes a key out of her pocket.\
+` — Правильно.@ Поскольку никого нет, тут можно расслабиться.@
+` — Ну, это так, но… разве комната не закрыта, семпай?@
+` — Да.@ Обычно сюда не могут заходить ученики, а только члены клуба чайных церемоний.@
+` Говоря это, она вынула ключи из кармана.\
 
-`"Oh.@ Are you in the tea ceremony club, Senpai?"@
+` — О.@ Так ты состоишь в клубе чайных церемоний, семпай?@
 ; ??? : 01~10 : 04_?01(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
-`"Yes.@ Well--Actually, I'm the only member."@
-` With a laugh, Senpai goes into the Japanese-style room.\
+` — Да.@ Ну, по правде говоря, я единственный член.@
+` Смеясь, она заходит в эту комнату.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -33,30 +33,30 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ?? : ?? : ???(?)<?????(?)>
 bg "image\bg\bg_09a.jpg",%type_lshutter_fst
 
-` ...... The inside of the room feels special, as if it isn't part of the school.@
-` The sensation of the tatami and the sunlight through the windows feel very relaxing.\
+` Внутри комнаты чувствуется особая атмосфера, словно она не часть школы..@
+` Ощущение от татами и пробивающегося сквозь окно солнечного света очень расслабляет..\
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
-`"As I said earlier, I'm the only member of the tea club.@ Thanks to that, I can use this place freely during lunchtime and after class.@ Here."@
+` — Как я уже говорила ранее, я единственный член чайного клуба.@ Благодаря этому я свободно могу использовать это место во время обеда и после занятий.@ Вот.@
 ` Смеясь семпай начала раскладывать подушки.@
-`"I'll make some tea now, so please wait right there, Tohno-kun."@
+` — Я сейчас сделаю немного чая, так что, пожалуйста, подожди здесь, Тоно-кун.@
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
-` ...... Senpai heads towards the sink to prepare the tea.@
-` There's no point in standing up, so I do as I am told and sit down on the cushion.\
+` Семпай направилась к раковине, чтобы приготовить чаю.@
+` Нет смысла стоять, так что я сделал, как мне сказали, и присел на подушку.\
 
-`"........."@
-` Perhaps it was the magic of the Japanese-style room.@
-` That chaotic maelstrom that had been raging in my chest calms down, and now I can finally begin to think calmly about what has happened with Yumizuka.\
+` «…»@
+` Возможно, всё дело в магии комнаты в японском стиле.@
+` Те хаотичные вихри, что бушевали в моей груди, успокоились и сейчас я наконец-то могу спокойно обдумать то, что случилось с Юмизукой.\
 ; ??? : 01~10 : 01_?01(????)<??????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_lshutter_fst
 
-`"Thanks for waiting.@ Here you are.@ Now, let's have some lunch.@ Actually, I have some things to ask you, so it's just as well we're having lunch here."@
-`"You have something to talk to me about?"@
-` Puzzled, I drink the tea I'm offered.@
-` As I'm in the Japanese-style room, my posture reflexively straightened and my mind has become tranquil.\
+` — Спасибо за ожидание.@ Готово.@ А сейчас давай пообедаем.@ Вообще-то я хотела тебя кое-что спросить, так что это даже хорошо, что мы обедаем здесь.@
+` — Ты хотела что-то со мной обсудить?@
+` Озадаченный, я пью чай, который мне предложили.@
+` Поскольку я в такой комнате, моя осанка рефлекторно выпрямилась, и разум стал безмятежным.\
 
 ` Хотя я не имел к этому никакого отношения, Арима содержат школу чайных церемоний.@ Perhaps it was because I had been raised in that kind of environment, that I feel more at ease in a Japanese-style room than a Western-style one.@
 ` Семпай посмотрела на меня со странным выражением лица.\
