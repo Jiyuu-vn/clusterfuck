@@ -1,104 +1,265 @@
 [[Men_at_Work 2|[Назад]]]
-
 <pre>
-Моя комната.
-Что мне делать?
-—Идти спать
-—Идти куда-нибудь ещё
-—Остаться в комнате
-
-Что мне делать?
-—Идти спать
-—Идти куда-нибудь ещё
-
-...пойду-ка я ещё куда-нибудь.
-
-Сегодня был тяжёлый день...
-
-...уже поздно. Пойду спать.
-
-Сонливость берёт верх и я засыпаю.
-Zzz...
-
-Фух... я вспотел. Нужно переодеться.
-Фух... я вспотел. Нужно переодеться.
-Я решил убить время в своей комнате.
-Я снимаю свою куртку, чтобы сменить её. 
-Мина сможет постирать её завтра.
-
-Мина
-	"Клиф, я принесла тебе чистую одежду."
-Клиф
-	"Ввоа?! Мина?!"
-Мина
-	"Ой. Ты её только что снял? Завтра я её постираю."
-Клиф
-	"У-угу... спасибо..."
-Мина
-	"...что не так?"
-Клиф
-	"Я как бы переодеваюсь..."
-Мина
-	"О чём ты, Клиф? Я видела тебя голым с самого детства."
-Клиф
-	"Это конечно правда, но..."
-Мина
-	"Тогда я забираю твои вещи в стирку. Ох, можешь завтра положить в стирку свою простыню?"
-Мина вышла.
-Клиф
-	"Ну, мы привыкли видеть друг друга голыми..."
-Мы живём вместе более 10 лет.
-Я снимаю одежду чтобы переодеться.
-
-Аой
-	"Ум, Клиф-сан. Насчёт завтра..."
-Аой
-	"П-прости за это!!"
-Увидев как я переодеваюсь Аой-сан выбегает за дверь.
-Клиф
-	"Вот. Это нормальная реакция."
-	
-Я снимаю свой плащ чтобы переодеться.
-Мина сможет постирать его завтра.
-
-Мина
-	"Клиф, я принесла тебе чистые вещи."
-Клиф
-	"О, как раз вовремя. Сможешь постирать это зав-"
-Мина
-	"А-а, прости!"
-Клиф
-	"Ввоа!"
-Мина бросает в меня корзинку и выбегает из комнаты.
-Клиф
-	"Да что с ней сегодня?"
-
-	
-Мина
-	"Странно. Клиф переодевался."
-Мина
-	"...моё сердце всё ещё стучит..."
-Мина
-	"Очень странно. Я привыкла видеть его тело..."
-Мина
-	"И я кричала на него ранее, когда он увидел меня голой..."
-Мина
-	"Что со мной?"
-
-Думая о недавно случившемся я ложусь в свою постель.
-Умер мой отец и я решил переехать в Академию...
-Я встретил Люси и Аой-сан...
-Появилась Шерил...
-Потом мы нашли Китти...
-Если задуматься, ни у кого из нас нет родственников...
-Потеряли своих родителей и после пришли сюда...
-Возможно поэтому все так добры здесь.
-Все хотя бы раз потеряли свои семьи, но снова обрели здесь новую.
-Я хочу защитить это место...
-Думая об этом я засыпаю...
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Lines Count="86">
+  <Line StartPos="376" Length="16" Skip="false">
+    <Translated>This is my room.</Translated>
+  </Line>
+  <Line StartPos="412" Length="17" Skip="false">
+    <Translated>What should I do?</Translated>
+  </Line>
+  <Line StartPos="434" Length="43" Skip="false">
+    <Translated>Go to bed\0Go somewhere else\0Stay in my room</Translated>
+  </Line>
+  <Line StartPos="489" Length="17" Skip="false">
+    <Translated>What should I do?</Translated>
+  </Line>
+  <Line StartPos="511" Length="29" Skip="false">
+    <Translated>Go to sleep\0Go somewhere else</Translated>
+  </Line>
+  <Line StartPos="550" Length="16" Skip="false">
+    <Translated>sleep\0Other\0Past</Translated>
+  </Line>
+  <Line StartPos="571" Length="34" Skip="false">
+    <Translated>...I guess I&apos;ll go somewhere else.</Translated>
+  </Line>
+  <Line StartPos="710" Length="31" Skip="false">
+    <Translated>It sure was a hard day today...</Translated>
+  </Line>
+  <Line StartPos="790" Length="31" Skip="false">
+    <Translated>It sure was a hard day today...</Translated>
+  </Line>
+  <Line StartPos="916" Length="33" Skip="false">
+    <Translated>...It&apos;s late. I should go to bed.</Translated>
+  </Line>
+  <Line StartPos="1034" Length="40" Skip="false">
+    <Translated>Drowsiness overtakes me as I get in bed.</Translated>
+  </Line>
+  <Line StartPos="1077" Length="6" Skip="false">
+    <Translated>Zzz...</Translated>
+  </Line>
+  <Line StartPos="1350" Length="37" Skip="false">
+    <Translated>Phew... I&apos;m sweaty. I&apos;ll get changed.</Translated>
+  </Line>
+  <Line StartPos="1436" Length="37" Skip="false">
+    <Translated>Phew... I&apos;m sweaty. I&apos;ll get changed.</Translated>
+  </Line>
+  <Line StartPos="1488" Length="38" Skip="false">
+    <Translated>I decide to kill some time in my room.</Translated>
+  </Line>
+  <Line StartPos="1566" Length="78" Skip="false">
+    <Translated>I take my jacket off so I that I can\0change. I can have Mena wash it\0tomorrow.</Translated>
+  </Line>
+  <Line StartPos="1670" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="1687" Length="37" Skip="false">
+    <Translated>&quot;I brought you clean clothes, Cliff.&quot;</Translated>
+  </Line>
+  <Line StartPos="1729" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="1756" Length="15" Skip="false">
+    <Translated>&quot;Whoa!? Mena!?&quot;</Translated>
+  </Line>
+  <Line StartPos="1785" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="1802" Length="66" Skip="false">
+    <Translated>&quot;Oh. Did you just take this off? I&apos;ll\0wash this for you tomorrow.&quot;</Translated>
+  </Line>
+  <Line StartPos="1873" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="1900" Length="21" Skip="false">
+    <Translated>&quot;Y-Yeah... Thanks...&quot;</Translated>
+  </Line>
+  <Line StartPos="1935" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="1952" Length="18" Skip="false">
+    <Translated>&quot;...What&apos;s wrong?&quot;</Translated>
+  </Line>
+  <Line StartPos="1975" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="2002" Length="27" Skip="false">
+    <Translated>&quot;I&apos;m changing right now...&quot;</Translated>
+  </Line>
+  <Line StartPos="2043" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="2060" Length="69" Skip="false">
+    <Translated>&quot;What are you saying, Cliff? I&apos;ve seen\0you naked since we were kids.&quot;</Translated>
+  </Line>
+  <Line StartPos="2134" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="2161" Length="28" Skip="false">
+    <Translated>&quot;That might be true, but...&quot;</Translated>
+  </Line>
+  <Line StartPos="2203" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="2220" Length="82" Skip="false">
+    <Translated>&quot;Then I&apos;ll be taking your dirty laundry.\0Oh, can you put your sheet out\0tomorrow?&quot;</Translated>
+  </Line>
+  <Line StartPos="2329" Length="12" Skip="false">
+    <Translated>Mena leaves.</Translated>
+  </Line>
+  <Line StartPos="2346" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="2373" Length="48" Skip="false">
+    <Translated>&quot;Well, we&apos;re used to seeing\0each other naked...&quot;</Translated>
+  </Line>
+  <Line StartPos="2428" Length="40" Skip="false">
+    <Translated>We&apos;ve been living together for more than</Translated>
+  </Line>
+  <Line StartPos="2501" Length="37" Skip="false">
+    <Translated>I take my clothes off to get changed.</Translated>
+  </Line>
+  <Line StartPos="2564" Length="3" Skip="false">
+    <Translated>Aoi</Translated>
+  </Line>
+  <Line StartPos="2580" Length="34" Skip="false">
+    <Translated>&quot;Um, Cliff-san. About tomorrow...&quot;</Translated>
+  </Line>
+  <Line StartPos="2628" Length="3" Skip="false">
+    <Translated>Aoi</Translated>
+  </Line>
+  <Line StartPos="2644" Length="22" Skip="false">
+    <Translated>&quot;S-Sorry about that!!&quot;</Translated>
+  </Line>
+  <Line StartPos="2693" Length="47" Skip="false">
+    <Translated>Aoi-san sees me changing and runs out\0the door.</Translated>
+  </Line>
+  <Line StartPos="2745" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="2772" Length="35" Skip="false">
+    <Translated>&quot;Yeah. That&apos;s the normal\0reaction.&quot;</Translated>
+  </Line>
+  <Line StartPos="2845" Length="34" Skip="false">
+    <Translated>I take off my coat to get changed.</Translated>
+  </Line>
+  <Line StartPos="2882" Length="38" Skip="false">
+    <Translated>I&apos;ll have Mena wash it again tomorrow.</Translated>
+  </Line>
+  <Line StartPos="2946" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="2963" Length="32" Skip="false">
+    <Translated>&quot;I brought your laundry, Cliff.&quot;</Translated>
+  </Line>
+  <Line StartPos="3000" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="3028" Length="43" Skip="false">
+    <Translated>&quot;Oh, great timing. Can you\0wash this tomo-&quot;</Translated>
+  </Line>
+  <Line StartPos="3085" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="3102" Length="14" Skip="false">
+    <Translated>&quot;I-I&apos;m sorry!&quot;</Translated>
+  </Line>
+  <Line StartPos="3137" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="3165" Length="7" Skip="false">
+    <Translated>&quot;Whoa!&quot;</Translated>
+  </Line>
+  <Line StartPos="3191" Length="52" Skip="false">
+    <Translated>Mena throws the laundry at me and runs\0out the room.</Translated>
+  </Line>
+  <Line StartPos="3252" Length="5" Skip="false">
+    <Translated>Cliff</Translated>
+  </Line>
+  <Line StartPos="3279" Length="28" Skip="false">
+    <Translated>&quot;What&apos;s up with Mena today?&quot;</Translated>
+  </Line>
+  <Line StartPos="3326" Length="9" Skip="false">
+    <Translated>draw\0Mena</Translated>
+  </Line>
+  <Line StartPos="3361" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="3378" Length="42" Skip="false">
+    <Translated>&quot;That was surprising. Cliff was\0changing.&quot;</Translated>
+  </Line>
+  <Line StartPos="3425" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="3442" Length="33" Skip="false">
+    <Translated>&quot;...My heart&apos;s still pounding...&quot;</Translated>
+  </Line>
+  <Line StartPos="3489" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="3506" Length="60" Skip="false">
+    <Translated>&quot;That&apos;s strange. I should be used to\0seeing Cliff&apos;s body...&quot;</Translated>
+  </Line>
+  <Line StartPos="3571" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="3588" Length="52" Skip="false">
+    <Translated>&quot;I yelled at him earlier for seeing me\0naked too...&quot;</Translated>
+  </Line>
+  <Line StartPos="3658" Length="4" Skip="false">
+    <Translated>Mena</Translated>
+  </Line>
+  <Line StartPos="3675" Length="23" Skip="false">
+    <Translated>&quot;What&apos;s wrong with me?&quot;</Translated>
+  </Line>
+  <Line StartPos="3727" Length="59" Skip="false">
+    <Translated>I crawl into my bed and think about what\0happened recently.</Translated>
+  </Line>
+  <Line StartPos="3789" Length="52" Skip="false">
+    <Translated>My dad died, and I decided to come to\0the Academy...</Translated>
+  </Line>
+  <Line StartPos="3844" Length="25" Skip="false">
+    <Translated>I met Lucy and Aoi-san...</Translated>
+  </Line>
+  <Line StartPos="3872" Length="18" Skip="false">
+    <Translated>Sheryl appeared...</Translated>
+  </Line>
+  <Line StartPos="3893" Length="21" Skip="false">
+    <Translated>And we found Kitty...</Translated>
+  </Line>
+  <Line StartPos="3917" Length="51" Skip="false">
+    <Translated>Come to think of it, we&apos;re all without\0relatives...</Translated>
+  </Line>
+  <Line StartPos="3971" Length="37" Skip="false">
+    <Translated>Losing our parents and coming here...</Translated>
+  </Line>
+  <Line StartPos="4011" Length="42" Skip="false">
+    <Translated>That might be why everyone&apos;s so kind\0here.</Translated>
+  </Line>
+  <Line StartPos="4056" Length="70" Skip="false">
+    <Translated>Everyone lost their family once, but\0found this new family here again.</Translated>
+  </Line>
+  <Line StartPos="4129" Length="31" Skip="false">
+    <Translated>I want to protect this place...</Translated>
+  </Line>
+  <Line StartPos="4163" Length="46" Skip="false">
+    <Translated>I fall alseep as I think about these\0things...</Translated>
+  </Line>
+  <Line StartPos="4226" Length="12" Skip="false">
+    <Translated>Chap_ini\0Top</Translated>
+  </Line>
+  <Line StartPos="4251" Length="11" Skip="false">
+    <Translated>H_Kitty\0Top</Translated>
+  </Line>
+  <Line StartPos="4265" Length="13" Skip="false">
+    <Translated>main\0Midnight</Translated>
+  </Line>
+  <Line StartPos="4297" Length="10" Skip="false">
+    <Translated>H_Mena\0Top</Translated>
+  </Line>
+  <Line StartPos="4323" Length="10" Skip="false">
+    <Translated>Draw\0Cliff</Translated>
+  </Line>
+</Lines>
 </pre>
-
-
 [[Men_at_Work 2|[Назад]]]
