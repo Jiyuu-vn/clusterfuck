@@ -3,89 +3,92 @@
 <pre>
 *s230
 
-;CD-DA?????
+
 play "*3"
 
-; ????2(?)<???????(?)>
+
 bg "image\bg\bg_11b.jpg",%type_crossfade_slw
 
 
-` I walk through the hallway bathed in sunset with Senpai.@
-` While talking about pointless things, we walk as slowly as possible.@
+` Мы с Семпай идём по корридору, залитому светом заката.@
+` Стараясь идти как можно медленней, мы болтаем о всяких мелочах.@
 br
-` There's such a wonderful atmosphere here.@
-` ---Thinking back, I spent the night in Senpai's room.@
-` Back then, my mind was filled with the fact that I killed someone, and after that, I forgot about it when I was with Arcueid.\
+` Между нами установилась прекрасная атмосфера.@
+` Если подумать, то я провёл ночь в квартире Семпай.@
+` Тогда у меня на уме было лишь убийство, что я совершил, ну а после встречи с Арквейд мне было уже не до того.\
 
-` ...... If it wasn't for that one night, I don't think I would be here today as I am now.@
-` She doesn't bring it up, but I wonder what she thinks about that night.@
-` ...... Did it feel like she was just lending a hand to a depressed lowerclassman?@
-` Like picking up an abandoned puppy cast out in the rain?\
+` Та ночь позволила мне остаться таким, какой я сейчас.@
+` Семпай об этом не упоминает, но мне интересно что же она о ней думает.@
+` Было ли для неё это лишь помощью подавленному младшекласнику?@
+;Кохаю?
+` Что-то вроде чувств, которые испытвает человек, поднимающий выброшенного котёнка во время дождя?\
 
-`"...... Senpai, um--"@
+` — Семпай, слушай...@
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"Yes?"@
-` Senpai looks over to me.@
-` ...... Right when I was going to ask about that night,
+` — Да?@
+` Она смотрит на меня.@
+` И, как только я собираюсь с духом, чтобы спросить о той ночи...
 br
-` Guruuuuuu.@
+` Урррррр.@
 br
-` My stomach interrupts, growling audibly.@
-` No, not 'growling'... it's more like a roar.\
+` Мне мешает урчание моего же желудка.@
+` Даже не «урчание»... Это скорее рёв.\
 
-`".................. Uhhh."@
+` — Уххх...@
 
 
-; ??<?>=???:????<???????(?)>
+
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
 
-`".................."@
-` The silence is a little uncomfortable.@
-`"...... Tohno-kun, it seems you're hungry."@
-`"---I guess so.@ Geez, do I get hungry even when I don't have an appetite?"@
-` I let out a sigh.@
-` Looking at me, Senpai smiles.\
+` «...»@
+` Мы погружаемся в давящую тишину.@
+` — Тоно-кун, ты, похоже, есть хочешь...@
+` — Похоже на то...@ Блин, ну как мне удалось проголодаться если есть совсем не хочется?@
+` Я вздыхаю.@
+` Взглянув на меня, Семпай улыбается.\
 
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-`"Of course.@ Being human means you have to eat to live."@
-`"No doubt.@ ...... Come to think of it, I'm really starving."@
-` ...... I hadn't realized it, but skipping breakfast and lunch really did take quite a bit out of me.@
-` I don't think I can last until dinner, so I should buy some bread on the way back-----\
+` — Это нормально.@ Люди должны есть, чтобы жить.@
+` — Это уж точно.@ Если подумать, то я прямо помираю с голода.@
+` До меня только сейчас дошло, что пропускать и завтрак, и обед было не самой хоршей идеей.@
+` Не думаю, что смогу дотянуть до ужина, так что придётся купить какую-нибудь булочку по пути домой...\
 
 
-; ??<?>=???:?03(??????????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
 
 
-`"Tohno-kun, here."@
-` Senpai presents me a pouch of cloth she is holding.@
-` I think it's her lunch.@
+` — Держи, Тоно-кун.@
+` Семпай протягивает мне какой-то свёрток.@
+` Похоже это её обенто.@
+;обед?
 
 
-; ??<?>=???:?02(???????????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t02.jpg",%type_crossfade_fst
 
-`"It's partly eaten, but is that okay?"@
-` Blushing a bit, Senpai says this embarrassedly.@
-` ...... That's right, Senpai only ate half of her lunch today.@
-` Finishing someone else's half-eaten lunch is a little embarrassing.@
-` I----
+` — Там ещё немного осталось, так что если ты не против...@ — Смущённо произносит слегка смущённая Семпай.@
+` Верно, она же сегодня только половину съела.@
+` Доедать чужой обенто немного неловко.@
+` Я...
 br
 
 
-return
+*skip230
 
 
+select `1. Нет. Я ж помру от смущения.`, *f231,
+	`2. Наплевать. Киваю.`, *f232
 </pre>
 
 [[Tsukihime|[Назад]]]
