@@ -1,56 +1,58 @@
 [[Tsukihime|[Назад]]]
 
+{{TnM:T|[[Участник:Tsuki no Mai|Tsuki no Mai]] 01:39, 5 февраля 2011 (MSK)}}
+
 <pre>
 *s231
 
-; ?? : ?? : ????2(?)<????>
+
 bg "image\bg\bg_11b.jpg",%type_nowaitdisp
 
 
-` I can't go that far.@
-` Senpai is probably saying it out of goodwill, but I don't want to let her see me like this.\
+` Нет, не могу.@
+` Семпай скорее всего предлагает мне это из доброты, но я не хочу, чтобы она видела меня таким.\
 
-`"--No, I think I can make it.@ Your words are enough to fill me up."@
-; ??<?>=???:?<???????(?)>
+` — Ничего, я справлюсь...@ Но спасибо за предложение.@
+
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
-`"...... Is that so?@ Tohno-kun, you haven't had anything all day.@ Are you sure you won't collapse on the way......?"\
+` — Ты уверен?..@ Ты же весь день ничего не ел.@ Ты точно не рухнешь в обморок по пути домой?.."\
 
-`"Let your heart not be troubled.@ Someone like me who's always fainting sees it coming a mile away.@ And today, my body says I'm perfectly okay."@
-; ??<?>=???:?<???????(?)>
+` — Не стоит волноваться.@ Я так часто теряю сознание, что могу с лёгкостью это предсказать.@ И сегодня я в полном порядке.@
+
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
-`"...... Well.@ If you say so, I guess it's alright."@
-` Giving somewhat of an amazed sigh, Senpai continues walking down the hallway.\
+` — Ну...@ Если ты так уверен, то не буду настаивать.@
+` Изумлённо вздохнув, Семпай снова начинает идти по корридору.\
 
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
-; ????(?)<?????(?)>
+
 bg "image\bg\bg_01b.jpg",%type_lcartain_mid
 
 
-` We walk out the gate.@
-` From here, we have to go our separate ways.@
+` Мы выходим за ворота.@
+` Здесь наши пути расходятся.@
 br
-; ??<?>=???:?03(??????????)<???????(?)>
-ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_mid
-`"Well then, this is goodbye for now.@ We got here pretty quickly."@
-` ...... I feel the same way.@ I was really thinking it would be better if the school were a bit bigger.\
 
-`"Well, then, Senpai, see you tomorrow."@
-; ??<?>=???:?03(??????????)<???????(?)>
+ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_mid
+` — Ну, пора прощаться.@ Быстро мы до сюда добрались.@
+` Да уж...@ Хотелось бы мне, чтобы школа была побольше.\
+
+` — Ну, до завтра, Семпай.@
+
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
-`"Yes, let's meet at school tomorrow."@
-; ?????<??????(?)>
+` — Да, увидимся в школе.@
+
 cl c,%type_lshutter_mid
 
-` Smiling as she responds, Senpai disappears in the opposite direction.@
-` After watching her go, I head down the street towards my house.\
+` Ответив с улыбкой, Семпай удаляется в противоположном направлении.@
+` Проводив её взглядом, я направляюсь в особняк.\
 
-; ???<?????(?)>
+
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
 
-;CD-DA??
+
 playstop
 
 
