@@ -13,65 +13,65 @@ play "*3"
 bg "image\bg\bg_34c.jpg",%type_lshutter_mid
 
 
-` ---The drinking continues.@
+` ---Вечеринка продолжилась.@
 br
-` I don't know how this happened, but it looks like the "Tohno Shiki Welcome Party" has turned into just a drinking party.\
+` Не знаю, как так получилось, но вечеринка "Добро пожаловать, Тоно Шики" превратилась в обычную пьянку.\
 
-` Akiha might be used to drinking, as she gulps down her glass as if she's drinking water.@
-` Kohaku-san slowly drinks with Akiha while refilling Akiha's cup.@
-` Seeing that their faces still look normal, I'm guessing they don't show drunkenness on their faces.\
+` Акиха может пристраститься к выпивке. Она опустошила свой стакан так, словно в нем обычная вода.@
+` Кохаку понемногу пьет с Акихой, одновременно доливая ей в стакан.@
+` Глядя на их лица, нельзя сказать, что они пьяны.\
 
-` ...... Incidentally, Hisui sits on the couch dizzily after drinking just one sip.\
+` ...... После глотка спиртного, Хисуи из-за неожиданного головокружения присела на диван.\
 
-`"...... Akiha really has quite a lot of tolerance."@
-` Looking at the smiling Akiha and Kohaku-san, I gulp down my glass.@
-` It is just water, as I only drank a mouthful of alcohol during the toast.@
-` I take a bite of the smoked salmon on the table.@ It is exquisite.@ In the Tohno house, even the snacks are first class.\
+` "...... У Акихи действительно железная выдержка."@
+` Глядя на улыбающихся Акиху и Кохаку, я отхлебнул из своего стакана.@
+` Это просто вода, я выпил лишь глоток алкоголя во время тоста.@
+` Я попробовал копченого лосося.@ Деликатес.@ В доме Тоно даже закуски высшего сорта.\
 
-`".................. Mmm."@
-` Even though there might be a lot of problems, it is pretty enjoyable right now.@
-` To be blunt, Akiha and Kohaku-san's conversation is outright boring.@ It's as if they were just discussing how the sun rises in the East and sets in the West.@
-` Despite that, it all seems rather charming seeing them laughing at those kinds of conversations.\
+`".................. Ммм."@
+` Даже если могут возникнуть проблемы, сейчас мне нет до этого дела.@
+` Честно говоря, беседа Акихи и Кохаку изрядно скучна.@ Все равно что обсуждать как солнце встает на Востоке и садится на Западе.@
+` Несмотря на это, довольно мило наблюдать как они смеются при этом.\
 
 ;(??11)
 ld c,":a;image\tachi\his_t11.jpg",%type_lshutter_mid
 
 `".................."@
-` On the other hand, Hisui is holding the glass she used during the toast and gazing vacantly.@
-` Whenever I look away from Hisui, the glass becomes a little more empty.@ ...... She seems to be enjoying herself, too.\
+` Однако, Хисуи держит все тот же стакан, уставившись в пространство.@
+` Всякий раз, как я смотрел в ее сторону, замечал, что содержимое стакана понемногу уменьшается.@ ...... Похоже, она наслаждается.\
 
 ;(?????)
 cl c,%type_lshutter_fst
 
-` I sneak another bite of food.@
-` I'm pretty weak against alcohol, so I prefer to eat the finger food instead.@
-` ...... And.@
+` Я уничтожил еще немного еды.@
+` Я довольно неустойчив к алкоголю, поэтому предпочитаю ему еду.@
+` ...... И.@
 `"............?"@
-` What happened?@
-` Akiha stands up and walks over to me.\
+` Что происходит?@
+` Акиха встала и направляется ко мне.\
 
 ;(???21b)
 ld c,":a;image\tachi\aki_t21b.jpg",%type_lshutter_fst
 
-`"Nii-san.@ You've only been eating, you aren't going to drink any?"@
-` Akiha looks at me a little dissatisfied.\
+`"Нии-сан.@ Ты только и делаешь, что ешь. Разве ты не собираешься выпить?"@
+` Акиха взглянула на меня слегка недовольно.\
 
-`"...... Now look, I don't care if you get drunk, but you shouldn't try to make others drink at your pace.@ I'm not used to drinking a lot, so if you want to drink with someone, Kohaku-san can-----"@
-` I try to point over to Kohaku-san, but...
-` She isn't there.@ It seems like she went to get some more alcohol from the kitchen.\
+`"...... Послушай, мне все равно, если ты напьешься, но ты не должна заставлять других пить.@ Я не привык пить много, так что если тебе нужна компания, Кохаку могла бы..."@
+` Я собрался указать на Кохаку, но...
+` Ее здесь нет.@ Похоже, она ушла на кухню взять еще спиртного.\
 
 ;(???11)
 ld c,":a;image\tachi\aki_t11b.jpg",%type_crossfade_fst
 
-`"Well excuuuse me!@ I'm not the slightest bit drunk."@
-` Raising her glass with one hand, Akiha leans forward.@
-`"...... I see.@ Since Kohaku-san isn't here......"@
-` I guess she's messing with me since she has no one to talk to.\
+`"Извини-ка!@ У меня ни в одном глазу."@
+` Одной рукой подняв свой стакан, Акиха наклонилась вперед.@
+`"...... Ясно.@ Раз уж Кохаку здесь нет..."@
+` Похоже, она болтает со мной только потому что больше поговорить ей не с кем.\
 
 ;(???21)
 ld c,":a;image\tachi\aki_t21b.jpg",%type_crossfade_fst
 
-`"Kohaku doesn't have anything to do with this.@ We are talking about why you are not drinking."@
+`"Это касается не Кохаку.@ Мы говорим о том, почему ты не пьешь."@
 `"...... Well, I have been drinking..."@
 `"That's a lie.@ I, haven't had a chance to pour you anything.@
 ` I was drinking so that you could relax, but all you have been doing is munching away at the food Kohaku made.@ You haven't even had one glass, right?"@
