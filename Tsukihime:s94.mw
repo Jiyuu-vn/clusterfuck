@@ -12,31 +12,24 @@ gosub *right_phase
 bg "image\bg\bg_15a.jpg",%type_crossfade_mid
 
 
-` Arcueid's room isn't what you would expect for a vampire.@
-` ...... Back then, I was only worried about Arcueid so I didn't really notice it, but looking at it now, her room is completely ordinary.@
-`"...... She even has a newspaper subscription.@ What's that all about?"@
-` I grumble as I put the sleeping Arcueid on her bed.\
+` Комната Арквейд выглядит совсем не такой, какой ждёшь от вампирши.@
+` В прошлый раз всё мое внимание было приковано только к ней, поэтому обстановку я, можно сказать, пропустил мимо глаз, но теперь вижу, что она абсолютно обычная.@
+` — Даже газеты выписывает.@ Куда я попал?@ — ворчал я, укладывая спящую Арквейд на кровать.\
 
-`"Hwaa----ahhhhh."@
-` I take a deep breath as I sit on the floor.@
-` It's almost six o'clock in the morning.@
-` The sky outside the window is brightening but heavily laden with clouds.@
-`"...... Right.@ I should close the curtains."@
-` I spur my tired body to stand up.@
-` I close the curtains and sit back down again.\
+` — Уа-а-а,@ — я сел на пол и глубоко вздохнул.@
+` Уже почти шесть утра.@ На небе светит солнце, а его лучи вынуждены пробиваться сквозь тучи.@
+` — Точно.@ Надо занавесить окна.@
+` Я поднял своё усталое тело, задёрнул шторы и снова решил присесть.\
 
-` Thud.@
-` As I lower myself the strength drains from my knees and I collapse on the floor.@
-`"----Man, it seems like I'm exhausted too."@
-` It's pitiful but I can't even stand.@
-` Come to think of it, I spent all last night talking with Arcueid and I didn't eat for more than a day.@
-` In addition----even though I put my glasses on, I still have a headache.@ My brain is ringing with this headache.\
+` *Хлоп*@
+` Но стоило мне только согнуть ноги, как колени подогнулись и я развалился на полу.@
+` — Блин, похоже, я тоже выдохся.@
+` Как ни печально, но я даже подняться не могу.@ А чего ждать, если я всю ночь проболтал с Арквейд и не ел сутки с лишним.@ Ко всему прочему, даже в очках у меня по-прежнему болит голова.@ Всё звенит и звенит.\
 
-`"...... Arcueid...... I wonder if her wound is alright......"@
-` Her bleeding has stopped, and she is someone who regenerates after being sliced apart... so maybe I don't have to worry.@
-`"...... I wonder why."@
-` Right now I'm so exhausted I could collapse.@
-` Yet I'm more worried about Arcueid than myself----\
+` «Арквейд... как там твои раны?..»@
+` Кровотечение остановилось, а она из тех, кто может регенерировать после того, как её разрубят на части...  Наверное, мне не стоит волноваться.@
+` «Вот, скажите почему?»@
+` Я сам сейчас настолько истощён, что свалился на пол,@ но тем не менее, больше волнуюсь об Арквейд, чем о себе...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
@@ -50,152 +43,120 @@ bg "image\bg\bg_15c.jpg",%type_crossfade_mid
 play "*9"
 
 br
-`"Investigators believe the cause of Takada Youichi's motorcycle accident was a malfunction in the brake pedal which occurred while he was descending a steep hill.@
-` Fortunately, no one was killed in the accident."\
+` «Следователи считают, что причиной аварии, в которую попал Такада Ёичи, когда спускался с крутого холма, была неисправность педали тормоза.@ К счастью, никто не пострадал».\
 br
-` ...... I wake up to a man's generic, uninflected voice.\
+` Меня разбудил типичный невыразительный голос диктора.\
 
-`"Nng----Did I fall asleep?"@
-` When I come to, I find myself lying on the floor under a sheet.@
-` It's about past noon.@
-` Arcueid is no longer on the bed and uninteresting news fills the room from the television.\
+` — М-м... я задремал?@
+` Тут я понял, что лежу на полу, укрытый одеялом.@
+` Полдень уже прошёл.@ Кровать Арквейд пуста, а из телевизора в комнату льётся поток неинтересных новостей.\
 
-`"...... Where did Arcueid go?"@
-` And, I sense someone in the kitchen.@
-`"That idiot, moving around with such a wound."@
-` I get out from under the sheet and stand up.@
-` I have to go to the kitchen and check up on her wound.@
+` — Куда Арквейд пошла?..@
+` А потом я почувствовал, что на кухне кто-то есть.@
+` «Эта дурёха шляется с такой раной».@
+` Я вылез из-под одеяла и встал.@ Надо сходить на кухню и проверить, как она.@
 br
-`"Next on the news.@ A massive number of people went missing in the early morning hours at a hotel in southern Minamiyashirogi city."\
+` «Далее в новостях.@ Массовое исчезновение людей из гостиницы в южной части Минамияшигори.»\
 
-`"------"@
-` I stop dead in my tracks.@
-` My eyes become glued to the newscaster on the television set.@
+` «...»@
+` Я встал как вкопанный и не мог оторвать глаз от диктора на экране.@
 br
-`"One hundred and three people staying at the hotel are still unaccounted for.@ Furthermore, bloodstains can be seen within the hotel and the police are beginning to suspect that they were involved in some kind of a crime."\
+` «Тысяча три постояльца и служащих гостиницы до сих пор считаются безвести пропавшими.@ Более того, повсюду видны следы крови и полиция стала подозревать, что все они вовлечены в какое-то преступление».\
 
-`"What----are you saying?@ Bloodstains?@ It wasn't----something that small and cute."@
+` — Что?@ Только следы?@ Там не пара пятнышек было.@
 br
-` The newscaster reads off the script with a disinterested tone.@ The screen switches to the scene of the hotel I stayed at earlier and then lists the names of the 103 missing people.@
+` Таким же невыразительным голосом диктор прочёл текст до конца.@ После чего картинка на экране сменилась видом на гостиницу, где я ранее был и списком имён пропавших людей.@
 br
-` ----Of course neither my nor Arcueid's name are on the list.\
+` Разумеется, ни моего ни Арквейд в нём не было.\
 
-`"Furthermore, a large amount of wild animal hair was found within the hotel.@ It is presumed that the hair is connected with the suspect in some way.@ Some of the confirmed hair samples appear to be from a large breed of dog, wolves, and there was also evidence of a bear.@
-` There were numerous different hair samples found on the scene.@ Ridiculously, what appeared to be shark bites were also reported from the scene----"@
+` «Более того, там же обнаружено большое количество шерсти диких животных.@ Предполагается, что она как-то связана со случившимся в гостинице.@ Некоторые проверенные образцы принадлежат представителям крупных пород собак и волков. Есть основания полагать, что другие образцы принадлежат медведю.@
+` Этим список не ограничивается: так же на месте происшествия обнаружено множество других образцов шерсти.@ Забавно то, что поступают новости о том, что обнаружены, якобы, следы челюстей акулы...»@
 br
-` Click.@ I switch off the television set.\
+` *Щёлк*.@ Я выключил телевизор.\
 
-`"----"@
-` A hundred people.@ About a hundred people back then.@ In just half an hour, they were all brutally killed.@
-` Blood stains----?@
-` Unaccounted for----?@
-` How can you say that when you have that much information.@
-` I understand completely.@
-` Everyone staying in the hotel was killed by those incomprehensible beasts and devoured without a trace.\
+` «...»@
+` Сотню.@ Целую сотню людей@ жестоко убили за каких-то полчаса.@
+` Следы крови?..@ Считаются пропавшими?..@ У вас куча улик: как вы можете такое говорить?@
+` А я всё прекрасно понимаю.@ Все постояльцы были убиты и съедены без остатка теми немыслимыми животными.\
 
-`"Ugh----"@
-` I resist the urge to throw up.@
-` I can't allow myself to vomit when I recall each and every event which occurred last night.@
-` Such a petty sympathy would set me lower than a filthy pig.@
-` For me, the only one who escaped death in that hotel, I won't allow anything else other than hatred for the one behind it all.\
+` — Ух...@ — борюсь с желанием проблеваться.@
+` Не могу себе этого позволить, когда вспоминаю каждое событие прошлой ночи.@ Столь жалкое проявление сострадания низвело бы меня до уровня грязной свиньи и ниже. Для меня, единственного выжившего в той гостинице, остаётся только ненависть к тому, кто стоит за всем этим.\
 
-` A hundred people.@
-` A hundred people... killed without even leaving their bodies behind, only blood.@
-` The face of the man in the black coat surfaces in my memory.@
-` I don't know who he is.@
-` But it is no mistake to think he's behind everything that happened.@
+` Сотня людей.@ Целая сотня... была убита так, что не осталось даже тел — только следы крови.@
+` В голове всплыло лицо человека в чёрном плаще.@ Не знаю, кто он.@ Но, вне всяких сомнений, именно на нём лежит вся вина за случившееся.@
 br
-` ----Is my heart still numb?@
-` Right now, hatred wins out over fear and disgust.@
-` Or maybe----even the feelings whirling inside my chest are just another kind of fear.\
+` Сердце моё всё ещё слабо?..@ Сейчас ненависть поборола и страх и отвращение.@ Или, быть может... этот трепет в груди, тоже какой-то страх?\
 
-`"That's just----ridiculous."@
-` I grit my teeth.@
-` I don't know if it is regret or fear, or maybe an unpleasant revulsion.@
-` But just recalling the face of the man in the black coat makes me want to break something, and irritates me----\
+` «Не смешите меня»,@ — я стиснул зубы.@
+` Не знаю сожаление ли это, или страх, или, быть может, отвращение.@ Но один только облик того человека в чёрном плаще злит меня и побуждает что-нибудь сломать...\
 
 ; ??<?>=??????:?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_lshutter_fst
-`"You're awake Shiki?"@
-` Arcueid pokes her head out of the kitchen.@
-`"----Oh."@
-`"What is it?@ Making such a scary face, did something happen?"@
-` Arcueid speaks lightly as if nothing happened at all.@
-`"..............."@
-` The feelings which were welling forth inside me until just now disappear.\
+` — Проснулся, Шики?@ — из кухни показалась голова Арквейд.@
+` — Ох.@
+` — Что это?@ Ты чего состроил такое страшное лицо? Что-то случилось?@ — голос абсолютно спокоен, как будто ничего и не случилось.@
+` «...»@
+` Зародившееся было внутри меня чувство, растворилось.\
 
-`"Arcueid----is... your wound okay?"@
-`"Yes, for now."@
-` She laughs confidently.@
-` She seems exactly like before, probably better than I am.@
-`"...... Oh.@ Then... that's good----"@
-` At least.@ At least the person near me is safe.\
+` — Арквейд... как твоя рана?@
+` — Да, ничего,@ — уверенно заявила она и рассмеялась.@
+` Уже пришла в себя и, видно, ей лучше, чем мне.@
+` — А... Ну, ладно... тогда...@
+` «По крайней мере...@ По крайней мере та, что рядом со мной в безопасности.\
 
-`"...... Hm?"@
-` Hey, wait a minute.@
-` Arcueid isn't human.@
-` Forgetting such an important thing... I'm really spaced out.\
+` Хм?@ Эй, постойте-ка.@ Арквейд — не человек.@ Такое и забыл... никак с мыслями не соберусь».\
 
-`"...... Anyway, I'm happy your wound wasn't serious."@
-`"Oh?@ What's wrong, Shiki?@ And just a little earlier you were calling me a monster."@
-`"Idiot, I still think you are.@ But, that's something else.@ I just wanted to thank you for helping me."\
+` — Всё равно я рад, что рана у тебя несерьёзная.@
+` — А?@ Ты чего, Шики?@ Ты же меня чудовищем называл.@
+` — Глупая, я и сейчас так думаю,@ но это здесь не при чём.@ Просто хочу поблагодарить тебя за помощь.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
 
-`"Eh?@ I helped you, Shiki?"@
-` Arcueid's eyes widen in surprise.@
-` It seems she wasn't even aware of it.@
-`"Yeah, you helped me.@ So it's a little late, but thanks for protecting me.@ If you hadn't pulled me out of the way, I would've joined that list of 103 names."\
+` — Да?@ А я тебе помогла, Шики?@ — глаза Арквейд раскрылись от изумления.@ Сама она, кажется, и не сообразила.@
+` — Ага, помогла.@ Благодарности запоздали, но спасибо за защиту.@ Если бы ты меня тогда не оттолкнула, я бы присоединился к тому списку ста трёх имён.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Thanks----It wasn't really anything.@ I'm the reason you met Nrvnqsr, so you don't have to feel like you owe me."@
-`"Maybe, but the truth is that you saved me.@ Since you did, I want to thank you."\
+` — Спасибо... но, правда, не стоит.@ Ты из-за меня встретил Нерона, так что совсем мне ничем не обязан.@
+` — Да, но тем не менее, ты меня спасла.@ А раз так, то хочу тебя поблагодарить.\
 
-`"----But if I didn't make you watch over me, you never would have been involved in all that.@ I'm the one messing up your everyday life.@
-` So wouldn't it be more appropriate for you to hate me rather than be indebted to me?"@
-`"...... Well, certainly I do think you're a big bother.@ But you know, in the end I think I have to take responsibility for my actions.@
-` ...... A long, long time ago someone taught me this.@ She said whatever happens around me, I have to stick with things I started to the very end.@
-` While it seems quite natural, I am a supporter of that idea."\
+` — Но если бы ты, по моему приказу, не стоял у меня на страже, тебя бы это вообще не коснулось.@ Так что это я виновата, что у тебя жизнь пошла кувырком.@ Разве ненависть тут не более уместа, чем признательность?@
+` — Знаешь, ты ещё та заноза,@ однако, я считаю, что за свои поступки должен отвечать сам.@ Так меня научили, давным-давно.@ По её словам, чтобы вокруг меня не творилось, я всегда должен идти до конца.@ В сущности, я с этим согласен, да и идея эта мне по душе.\
 
-` Which is why I don't hate Arcueid.@
-` I just feel like I'm involved in something pretty bothersome.\
+` Вот поэтому я и не ненавижу Арквейд.@ Только чувствую, что меня втянули в историю, которая мне ещё не раз аукнется.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"----Oh.@ Now that you mention it, I did say I needed a shield because you killed me.@ So I guess I don't have to apologize for involving you in such things."@
-`"Right.@ The situation I'm in is my own fault."@
+` — О-о,@ ну раз так, тогда я не думаю, что должна перед тобой извиняться, потому что ты убил меня и мне нужен был «щит».@
+` — Правильно.@ В своём положении я сам виноват.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"Your fault, huh.@ Hm, I think you have bad luck, Shiki.@ If only you killed some other girl than me, things never would have ended up like this."@
+` — Сам, да?@ Хм, сдаётся мне, ты невезучий, Шики.@ Убил бы другую и не влез бы во всё это.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 \
 
-`"...... Hey."@
-` In the first place, you can't just assume I would kill someone other than you, Arcueid.@
-` I've only felt like that, stalked and killed only once, only Arcueid.@
+` — Эй.@ 
+` Даже не думай, что я мог бы убить кого-то ещё кроме тебя, Арквейд, это раз.@ Мне одной тебя хватило, чтобы я чувствовал себя хуже некуда, это два.@
 br
-` ...... Or I want to think she would be the only one.\
+` Или я только надеюсь на это.\
 
-`"----Ah."@
+` — Ах.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Hm?@ Did you remember something you forgot?"@
-`"No, that's not it.@ ...... I never really thought about it before, but I just wondered why I wanted to kill you."@
+` — М?@ Что-то вспомнил?@
+` — Да, нет.@ Мне только сейчас в голову пришло, а почему я вообще хотел тебя убить?@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-` Arcueid frowns as she looks at me.@
-` ...... Well, it's a natural reaction.@
-` I, the one who killed Arcueid, is saying that he doesn't know why he killed her.\
+` Ничего удивительного, что в ответ на это Арквейд только нахмурилась.@ Выходит, её убийца и сам не знает, зачем он это сделал.\
 
 ;CD-DA??
 playstop
@@ -203,88 +164,75 @@ playstop
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"There's no reason at all, right?@ Because you're just a born killer Shiki."@
-`"------Eh?"@
+` — А ведь не было никакой причины, да?@ Просто ты, Шики, родился убийцей.@
+` — Э?@
 br
-` Hold on.@
-` What, did, this, woman, just say about me----?@
+` «Придержите лошадей.@ Что эта женщина только что обо мне сказала?»@
 br
-`"You seemed really used to it when you attacked me.@ You rang the doorbell, put your hand through the door as it opened, and entered.\
+` — Твоё нападение выглядело очень сноровистым.@ Позвонил в звонок, просунул руку в дверь, когда та приоткрылась, а затем вошёл.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
-
-`"While I was still off guard with surprise, you killed me with your first strike, and just finished off by slicing me into pieces----Yeah, your surprise attack was perfect.@
-` How perfect was it?@ A painting of you from that time would have been an unparalleled masterpiece, that's how perfect it was."@
-`"Th----"\
+;над фразой про картину подумать ещё
+` — Получилось неожиданно, и я не успела защититься.@ Ты убил меня первым же ударом, а потом доделал дело, покромсав на куски...@ Да, элемент неожиданности в нападении был использован идеально.@ Насколько?@ Картина с ним стала бы непревзойденным шедевром.@
+` — Что..\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"But no matter how superb a killer, no matter how excellent your technique, the victim this time was a poor choice.@
-` I don't know how many people you killed until now, but I think it was time for you to be caught when you chose me as your prey."@
-`"Th, th-"@
+` — Но не важно насколько крут убийца и насколько крута его техника: жертву он выбрал неудачно.@ Не знаю, скольких ты убил до этого, но после того, как ты выбрал меня, твоя поимка стала бы лишь делом времени.@
+` — Что...@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"'Th-th-th'?@ What's with that scary face all of a sudden.@ If you want to say something it's better just to say it.@ We've never held anything back between us, right?"\
+` — Чего «что»?@ И чего, вдруг, такое страшное лицо?@ Если можешь сказать лучше, говори.@ Давно пора расставить все точки над «i», верно?\
 
 br
-` ----That may be true.@
-` I nod and motion her to come near me with my hand.@
+` Наверное, она права.@ Я кивнул и поманил её рукой.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
-`"Hm?@ A secret?"@
+` — М?@ Секрет?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
-` Arcueid approaches excitedly.@ I bring my mouth close to her ear and clearly state what I want to say.\
+` Арквейд с интересом подошла.@ А я наклонился к её уху и выложил всё, что хотел сказать:\
 
-`"...... You know, Arcueid..."@
-`"Yeah, what?"@
+` — Арквейд, знаешь...@
+` — Да, что?@
 br
-` Okay, ready...\
-br
-br
+` «Ну, что готова?..»\
 br
 br
 br
 br
 br
-`"THAT'S NOT IT AT ALL, YOU IDIOT----!!"\
+br
+br
+` — Да, ничего подобного, дура!!! — проорал я что было мочи.\
+br
+` «Дура... ура... а...», — эхом разнеслось по комнате.\
 
-` Idiot, diot, iot, ot.........
-br
-` My shout echoes through the room.@
-` I strike her eardrums with full power, not holding back one bit.\
-
-`"Ow...... owie........."@
-` Arcueid exaggeratingly covers her ears.@
+` — О... ой...@ — Арквейд закрыла уши.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
 
-`"I'm ticked off now!@ What are you doing all of a sudden Shiki!?"@
-`"I'm the one who should be angry!@ I was wondering why you were asking me all those impossible things, but now I understand!"@
+` — Ну, ты меня разозлил!@ Что это было, Шики?!@
+` — Это мне надо злиться!@ Я всё думал, какого чёрта ты задаешь мне такие невозможные вопросы, но теперь я понял!@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Eh----?@ Understand what......?"\
+` — А?@ Понял что?..\
 
-`"About you asking me to be a shield against a monster and watching over you because you think I'm some crazed killer!@
-` ...... Geez, you're unbelievably mistaken.@ You thought so highly of me because of that.@
-` Look, I'll tell you right now.@ I'm not a killer or a homicidal maniac.@
-` You----you were the first person I killed."@
+` — А то, что ты попросила меня быть твоей защитой от чудовищ, потому что думала, что я какой-то чокнутый убийца!@ Но, блин, как же ты ошибаешься и поэтому меня переоцениваешь.@ Я же тебе уже говорил:@ я не убийца и не маньяк одержимый.@ Ты первая... кого я убил.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
 
-` Arcueid's mouth hangs open.@
-` ...... Damn it, she really does seem totally surprised.\
+` У Арквейд аж рот открылся.@ Чёрт побери, для неё это, действительно, открытие.\
 
-`"----No way.@ It was your first time yet you were that skilled......!?"@
-`"...... Yeah.@ Certainly I do have the strange eyes but I still lived an honest life.@ I never even thought once of using these "lines" to kill people."\
+` — Не может быть.@ Чтобы в первый раз, да так гладко?!@
+` — Ага.@ Глаза у меня, конечно, необычные, но жил я честно.@ И никогда не думал использовать «линии» для убийств.\
 
-`"But--then why did you kill me?@ You never even saw me before."@
-`"I don't know why either.@
-` I just became so fixated when I saw you on the street--when I came to, I had already, sliced you into pieces----"@
+` — Тогда... зачем ты меня убил?@ Мы же даже не встречались.@
+` — Я и сам не знаю.@ Увидел тебя на улице, и меня просто переклинило, а когда пришёл в себя, ты уже была разрезана на части...@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
@@ -292,236 +240,195 @@ cl c,%type_crossfade_fst
 play "*8"
 
 br
-` In this room.@
-` Without reason, without purpose.\
+` В этой самой комнате.@ Без причин, без цели.\
 
-`"------I see."@
+` — Ясно.@
 br
-` ...... Yeah, I see.@
-` I don't have any right to be angry at Arcueid.@
-` Even if she's alive right now and isn't human.@
-` The truth is, I killed her with my own hands.\
+` Да,@ мне не за что злиться на Арквейд.@ То, что она сейчас жива и не человек,@ никак не отменяет того, что я убил её собственными руками.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Why are you all quiet again?@ What do you mean Shiki?"@
-`"............... I, I'm sorry...... I have to... apologize......"@
+` — Чего опять притих?@ Как это понимать, Шики?@
+` — Прости... я должен... извиниться...@
 br
-` Why----did I conveniently forget such an important thing?\
+` Было очень удобно забыть о таком важном обстоятельстве. И как я мог так поступить?\
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
-`"--Sorry.@ I'm sorry, Arcueid.@ I, Tohno Shiki killed you.@ More than anything else... I should have apologized for that from the very beginning----"@
-` ...... There really is something wrong with me.@
-` It's only natural she mistook me for a killer.@
-` Because, I don't even understand that impulse myself.@
-` So, maybe...
+` — Прости.@ Правда, прости, Арквейд.@ Я, Тоно Шики, убил тебя.@ Прежде всего... надо было сразу перед тобой извиниться.@
+` Что-то со мной не так.@ Ничего удивительного в том, что она перепутала меня с убийцей.@ Я, ведь, и сам не понимаю откуда взялся тот порыв.@ 
+` Так, может быть...
 br
-` Tohno Shiki
-` might be a real killer------.\
+` Может быть, Тоно Шики и правда убийца...\
 
-`"----The reality is, I killed you.@ So----I have to accept my sin and punishment.@
-` A killer like me, can't mix in with the rest of society."@
+` — Я убил тебя и этого не отменить.@ Поэтому... я должен осознать свой грех и принять наказание.@ Убийца, как я, не может быть частью общества.@
 br
-` ----Not realizing such an important thing until now is just too cowardly.@
-` No matter what Arcueid is--I am someone who kills for no reason.\
+` Трусливо было до сих пор гнать эту мысль.@ Неважно, как сейчас чувствет себя Арквейд... Я тот, кто убил без причины.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
-`"----I see.@ Then you really don't understand why yourself, Shiki."@
+` — Ясно. Значит, ты, Шики, и сам не понимаешь почему.@
 br
-` ...... I nod silently.@
+` Я молча кивнул.@
 br
-`"Then you didn't feel any enjoyment either?@ ...... Yes, certainly there are those killers for whom killing is like breathing, but you are really normal Shiki."@
-`"...... That's right.@ At least I try to be."@
-`"No, you are incredibly normal.@ Then I was the only one you wanted to kill?"@
-`"...... Yeah.@ Other than you, I never felt like that before."\
+` — Выходит, удовольствие ты тоже не получал?@ А то есть такие убицы, для которых убийство всё равно, что воздух. Зато ты вполне нормальный, Шики.@
+` — Так и есть.@ Во всяком случае, я стараюсь.@
+` — Нет, ты совершенно нормальный.@ Так, я единственная, кого ты убил?@
+` — Да.@ До тебя я никого не убивал.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"I see, then there's no problem.@ You're not a killer, Shiki."@
-` She says this lightly, almost dismissingly.\
+` — Что же, тогда никаких проблем.@ Ты не убийца, Шики@ — небрежно подытожила она.\
 
-`"I don't think you have to receive any punishment.@
-` By chance, I was the one you wanted to kill and worse, you were equipped with this unparalleled killing technique.@
-` But luckily I am a vampire so no one died, right?@ So you don't need to be troubled so much.@
-` I don't think you have to worry about those morals of human society."\
+` — А ещё я не думаю, что ты заслужил какого-либо наказания.@ Так уж вышло, что ты решил убить именно меня, и к тому же обладал такой непревзойдённой техникой убийства,@ но, на наше счастье, я — вампир и не умерла. Правильно?@ Так что ты сильно не переживай.@ О нормах человеческой морали тоже можешь не волноваться.\
 
-`"...... I know.@ But still, I killed someone.@ A dangerous person like me can't be allowed loose."@
+` — Знаю.@ Но я убийца, опасный тип,@ и мне нельзя оставаться на свободе.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
-`"That doesn't matter.@ Right now, the only ones who can condemn you are me, the victim, and you, yourself."@
-`"----That may be so, but it doesn't change the fact I killed you."@
+` — Да, какая разница?@ Кто тебя сейчас может осудить? Я, твоя жертва, и ты сам.@
+` — Может, так и есть, только я всё равно тебя убил.@
 br
-` Right.@
-` Even if there is no punishment, the sin will never disappear.\
+` Наказания может и не быть, но грех никуда не денется.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"Of course.@ Even now I still resent it, so it would be troubling if you just forgot.@
-` But you know, Shiki.@ If you feel that way and will always regret it, then I don't think there will be a problem."@
+` — Конечно.@ Я до сих пор возмущена — было бы странно, если бы ты об этом забыл.@ Но, знаешь, что, Шики?@ Если ты так думаешь и сожаление твоё никуда не денется, то не вижу над чем тут ещё горевать.@
 br
-` ----But, that's just sugar-coating it.@
+` Пытаешься подсластить ситуацию.@
 br
 \
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Shiki.@ There really are people who will not sell their souls to the devil even if they hated the world.@
-` Like... someone so honest they could apologize to a vampire.@
+; [переписать фразу про дущу]
+` — Шики,@ не все продадут душу дьяволу даже, если ненавидят весь белый свет.@ Например те... кому их совесть позволяет извиниться перед вампиром.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-` So I think it's alright.@ No matter what people say and no matter how much you say you're not----you can still stay in the world you want to live in."@
-`"Wha----"@
-` ...... I'm speechless.@
-` How can you----how can you smile and say that to the person who killed you?\
+; подумать ещё, кажется, слишком вольный перевод получился
+` — Поэтому я думаю, что всё нормально.@ Не важно, что скажут люди и не важно, сколько раз ты скажешь себе, что не можешь — этот мир по-прежнему твой, раз ты того хочешь.@
+` — Что...@ — я совсем потерял дар речи.@
+` «Как ты можешь... с улыбкой на лице говорить такое тому, кто тебя убил?»\
 
 ;CD-DA??
 playstop
 
 
-`"Ar...... cueid----"@
+` — Ар... квейд...@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Come on, we have a much more troublesome problem to worry about.@ Now that you are up Shiki, I want to talk about now on--"@
-` As she speaks, Arcueid collapses on the floor.@
+` — Хватит уже, у нас и без того есть более насущные проблемы.@ Раз ты проснулся, хочу поговорить с тобой о...@ — и не успела она договорить, как свалилась на пол.@
 ; ?????<?????(?)>
 cl c,%type_tcartain_fst
 
-`"Arcueid----!?"@
-` I rush over to her.@
-` Sweat glistens on her forehead and she is breathing painfully.@
-`"...... Aw man, it seems I still can't do much."@
-` I look down.@
-` Her white top is soaked red near her stomach.\
+` — Арквейд?!@ — я кинулся к ней.@
+` На её лбу блистели капельки пота и она с болью дышала.@
+` — Чёрт, кажется, я ещё не в форме.@
+` Я опустил глаза@ и увидел, что её белая одежда в области живота вся пропиталась красным.\
 
-`"You, that wound----"@
-`"Ah, this?@ The effects of your attack are still lingering and I can't even heal my wounds.@
-` I closed off the wound at least but it seems it didn't work too well."@
-` Her tone is very cheerful.@
-` But I notice it has a hint of pain.\
+` — Твоя рана...@
+` — А, эта?@ Всё никак не отойду после твоего нападения: нет сил даже раны залечить.@ Я её закрыла, но, кажется, не особо помогло.@
+` Голос у неё очень бодрый.@ Но я всё равно почувствовал в нём нотку боли.\
 
-`"Close off the wound?@ With what, Arcueid......!?"@
-`"Ummmm, that."@
-` Arcueid points to something on the floor.\
+` — Закрыла?@ И чем же, Акрвейд?!@
+` — М-м-м, этим,@ — она указала на пол.\
 
-` It's brown.@
-` At first glance, it looks like a doughnut or a baumkuchen, but it just turns out to be a roll of packing tape.\
+` Какая-то коричневая штука.@ На первый взгляд напоминает пончик или баумкухен, но на самом деле — это моток широкой клейкой ленты.\
 
-`"----Y, you idiot!@ Who the hell uses packing tape to close off a wound......!"@
-`"...... Hey, you shouldn't call people idiots all the time.@ I really might start thinking I am one after a while."@
-`"Shut up and let me see your wound...!"@
-` I reach out for her cloth.@
-` But she runs away by rolling across the floor.\
+` — Дура!@ Кто же раны скотчем заматывает?!@
+` — Эй, хватит постоянно дурой обзываться.@ А то я скоро сама в это поверю.@
+` — Замолчи и дай осмотреть рану!..@
+` Я потянулся к её одежде,@ но она откатилась от меня по полу.\
 
-`"Don't be ridiculous, what're you going to do if it opens up again!?"@
-`"It's fine, just leave it alone.@ You should stop acting stupid too.@ Trying to rip off a girl's clothes like this, you're worse than Nrvnqsr."@
-`"----Look.@ I don't see you as a human, so guy or girl it doesn't matter.@ Calm down okay?@
-` If you die from an injury you got protecting me, I'll be feeling guilty about it forever......!"@
-` Arcueid looks at me in displeasure, and this time, rolls towards me.\
+` — Издеваешься что ли? А если пять откроется?!@
+` — Ничего, оставь как есть.@ Ты тоже себя глупо ведёшь.@ Пытаешься сорвать с девушки одежду — ты ещё хуже, чем Нерон.@
+` — Слушай,@ я не воспринимаю тебя как человека, так что девочка или мальчик — всё равно.@ А теперь успокойся, ладно?@ Если ты помрёшь от раны, которую получила, когда защищала меня, я всю оставшуюся жизнь буду посыпать голову пеплом!@
+` Оглядев меня недовольным взглядом, Арквейд всё же подкатилась обратно.\
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`".................."@
-` Arcueid closes her mouth tightly.@
-` ...... It seems she's a bit sulky, but I guess it's okay to look at the wound.@
+` «...»@
+` Губы плотно сжаты,@ выглядит немного угрюмой, но рану осмотреть, думаю, можно.@
 
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t21.jpg",%type_crossfade_fst
 
-` I lift up her shirt and expose her stomach.@
-` Packing tape is wrapped all around her.@
-` It really is badly done and taking a good look, I can see blood seeping through.\
+` Я задрал её рубашку и обнажил живот.@ Она вся обмоталась этой лентой,@ только сделала это кое-как и, если присмотреться, видно как сочится кровь.\
 
-`"----"@
-` I'm disgusted.@
-` More than that, I'm pissed off.@
-` I lower her shirt back and pick Arcueid up.@
+` «...»@
+` Я расстроен@ и, более того, я зол.@ Опустив рубашку, я подхватил Арквейд.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
 
-`"Hey--what are you doing, Shiki!?"@
-`"I'm putting you to bed.@ I'd take you to the hospital but it's not like I can do that."@
-` As carefully as possible, I place her on the bed.\
+` — Эй, ты чего делаешь, Шики?!@
+` — Укладываю тебя в кровать.@ Лучше, конечно, сразу в больницу, но не в нашем случае, я думаю,@ — ответил я и как можно аккуратней уложил её на кровать.\
 
-`"Look.@ Until I come back, don't move around.@ If you walk around like before, I'll just forget all about you, so be prepared for the consequences."@
+` — А теперь слушай.@ Пока я не вернусь, лежи спокойно.@ А будешь вести себя, как раньше, я забуду всё, чем тебе обязан, так что будь готова.@
 br
-` I look around the room.@
-` As I thought, there's nothing like a first aid kit around at all.\
+` Полазив по комнате, я убедился, что никакой аптечки здесь нет и в помине.\
 
-`"Arcueid, you said you were rich."@
+` — Арквейд, ты говорила, что богатая.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t21.jpg",%type_crossfade_fst
 
-`"Eh--?@ Y, yeah... Money's not a concern for me, but what about it?"@
-`"Hand it over.@ I'm going to buy some things I'll need to treat you.@ ...... I don't know if it will work on you, but I have to treat you the same way I would treat an injured person."@
-`"Fine, but it might be useless."@
-`"----Even if it's useless I'll do it.@ I can't leave it alone like that."\
+` — А?@ Ну, да... деньги для меня не проблема, а что?@
+` — Тогда давай.@ Надо купить что-нибудь, чтобы тебя подлечить.@ Не знаю, подействует ли это, но надо обработать тебя так же, как и раненных.@
+` — Ладно, только это может и не помочь.@
+` — А я всё равно это сделаю.@ Не оставлять же всё как есть.\
 
-`"...... I see.@ My body is made the same way as yours, so it might have some meaning."@
-`"Hurry up and give me the money.@ Just be quiet and stay there.@ Oh, but don't sleep.@ You can lie around, but stay up."@
+` — Ясно.@ Тела у нас похожие, так что, может быть, что-нибудь получится.@
+` — Давай уже деньги.@ А потом лежи и не дёргайся.@ Но только не спи.@ Короче говоря, отдыхай, но не отключайся.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`"Wha...... Shiki, that's a really absurd order."\
+` — Чего?.. Ерунду какую-то просишь, Шики.\
 
-`"It's absurd but do it.@ I've heard your bodily functions weaken when you sleep.@
-` I think if you sleep with open wounds, your immune system will get weak and your wound will get even worse.@
-` Sleeping will only help your tiredness, not heal your wound.@ So for now, at least don't sleep until I get back."@
+` — Вот и выполняй эту ерунду.@ Слышал, что во сне все процессы в теле замедляются.@ Думаю, если ты уснешь с открытой раной, то твой иммунитет ослабнет и станет ещё хуже.@ Сон прогонит усталось, а раны он не вылечит.@ Поэтому, не спи, по крайней мере, до моего возвращения.@
 ; ??<?>=??????:??01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"----Really?@ Okay, I'll do that Shiki."@
+` — Правда?@ Тогда ладно, Шики,@ — Арквейд расплылась в улыбке.@
 br
-` Arcueid smiles happily.@
-` ...... As expected, Arcueid's thought process is completely a mystery.\
+` Как и следовало ожидать, ход её мыслей — сплошная загадка.\
 
 
-`"...... Um, why are you smiling?"@
-`"Because you're reliable, Shiki."@
-`"------"@
-` I say nothing and hold out my hand.@
-` Arcueid pulls her wallet out of her skirt and hands it to me.@
-`"----I'll be right back."@
-` I turn away from Arcueid and head out of the room.\
+` — А почему ты улыбаешься?@
+` — Потому что ты надёжный, Шики.@
+` «...»@
+` Я промолчал и вытянул руку.@ Арквейд достала из юбки бумажник и вручила его мне.@
+` — Я быстро,@ — сказал я, развернулся и пошёл из комнаты.\
 
 ; ???????????(?)<?????(?)>
 bg "image\bg\bg_14a.jpg",%type_lcartain_mid
 
 
-` As I go outside I notice something in the kitchen.@
-`"----Food."@
-` On the table is something less than a meal and more like food... something less like food and more like ingredients, you might say it's something "which appears edible".@
+` По пути к двери я увидел кое-что на кухне.@
+` — Еда.@
+` То, что лежало на столе, меньше всего походило на готовый обед и больше на заготовку...@ или на ингредиенты, короче говоря, на что-то съедобное.@
 br
-` ...... I guess this is why she was in the kitchen.\
+` Вот почему она была на кухне.\
 
-`".................. Idiot."@
-` Arcueid said she doesn't eat regular food.@
-` So I don't even have to think who this food was for.@
+` — Глупая,@ — сама же сказала, что не ест обычную еду.@ 
+` Можно не гадать, для кого это.@
 br
-`"Damn it----what's with her?"@
-` I'm getting very irritated.@
-` I'm getting so irritated, so I decide to hurry up and get something to treat her as fast as possible.\
+` — Чёрт, ну и зачем?@ — меня это сильно рассердило.@ Настолько, что я решил как можно скорее купить всё необходимое и вернуться обратно.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w1000
 
 
-` Although I say first-aid, the only things which come to mind are things like restraining bandages or painkillers.@
-` But it's still better than nothing.@
-` Even if it's a small thing, if it's something, then it's not zero.@
-` Believing that, I buy whatever I can think of.\
+` Сперва, я собирался взять всё необходимое, но в итоге оказалось, что из всего нужного я знаю только про бинты и обезболивающие. Но лучше так, чем ничего.@ 
+` «Хуже не будет, а лучше возможно»@ — рассудил я и купил всё, что пришло на ум.\
 
 !w1000
 
@@ -531,58 +438,49 @@ bg "image\bg\bg_15c.jpg",%type_rcartain_slw
 ;CD-DA??????
 play "*3"
 
-`"Hey, that tickles."@
-`".................."@
-` I ignore Arcueid's voice and fasten the gauze as carefully as I can.@
+` — Эй, щикотно.@
+` «...»@
+` Я проигнорировал её слова и продолжил, как можно аккуратней накладывать марлю.@
 br
-` The wound on her stomach wasn't really large.@ Arcueid said herself most of it is healed on the outside.\
+` Рана на её животе не была особо большой.@ По словам Арквейд, снаружи она уже почти зажила.\
 
-` But there are still four golf ball-sized black holes from the fangs of the crocodile.@
-` It might actually be bad for a wound this big, but considering the possible infection, I apply some disinfectant.@
-` I put gauze over the wound after that and carefully wrap it around in bandages.\
+` Однако, следы зубов крокодила: четыре дырки размером с мячик для гольфа, по-прежнему были на месте.@ Возможно, не стоило так поступать с ранами такой величины, но подумав о возможном заражении, я обработал их дезинфицирующим средством.@ Потом положил сверху марлю и аккуратно забинтовал.\
 
+` — Хватит уже.@ У тебя и так слишком хорошо получается,@ — Арквейд весело рассмеялась.@
+` «...»@
+` Я ничего ей не ответил и только потуже затянул бинты, чтобы предотвратить кровотечение.@
+` — Ай.@ Блин, забираю свои слова обратно.@
+` «...»@
+` Фух.@ Я сделал, всё что мог.\
 
-`"Ahahaha, quit it.@ You're too good."@
-` Arcueid is laughing cheerfully.@
-`"............"@
-` I ignore her and pin off her bandages.@
-` In order to stop the blood flow, I press a little to tighten the bandages around the wound.@
-`"----Ow.@ Sheesh, I'm taking points off for that one Shiki."@
-`"............"@
-` Whew.@ For now, I've done all I can.\
-
-`"----Well then.@ I at least made it look good, but how is it?@ Can you move alright Arcueid?"@
+` — Ну, ладно.@ Хотя бы выглядит прилично, а чувствуешь себя как?@ Двигаться можешь, Арквейд?@
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"Yeah, it doesn't seem like it will get in the way.@
-` My insides are still pretty messed up, so I can't move fully anyway."@
-`"I see.@ Well, the rest is up to you.@ My specialty is slicing apart, not healing."@
-` I step away from Arcueid and sit against the wall.\
+` — Могу, вроде, не мешается.@ Правда, внутренности всё ещё сильно повреждены, поэтому не в совсем.@
+` — Ясно.@ Ну, остальное зависит от тебя.@ Я специалист по разрезанию, а не по лечению,@ — я отошёл от Арквейд и присёл спиной к стене.\
 
-`"You can sleep now.@ Sleep will bring your strength back and you'll heal soon right?@ I'll keep watch so just relax and sleep."@
-`"No, sleeping won't really help me regain my strength.@ You said yourself sleeping only gets rid of tiredness.@
-` For me, regaining strength is only a matter of time.@ By tomorrow I'm sure I will be able to move normally."\
+` — Теперь можешь поспать.@ Сон вернёт тебе силы и ты быстрее вылечишься, верно?@ А я за тобой присмотрю, так что можешь расслабиться.@
+` — Нет, сон мне в этом деле не поможет.@ Сам же говорил, что он только прогонит усталость.@ Силы ко мне вернутся лишь со временем.@ Уверена, уже завтра я буду в норме.\
 
-`"----Just go to sleep already.@ You look like you're having trouble even talking."@
-`"Yes, but since you're up Shiki, it seems like a waste if I sleep now."@
+` — Спи уже.@ Такое ощущение, что тебе даже разговаривать трудно.@
+` Арквей уселась на кровати и бодро заявила:@
+` — Да, но ты же не спишь, поэтому я тоже не хочу тратить время впустую.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` Arcueid sits up in bed and talks cheerfully.@
-br
-`"----Geez."@
-` Oh well.@
-` There are some things I want to ask as well, so I guess it's alright to keep Arcueid company.\
+;` Arcueid sits up in bed and talks cheerfully.@
+;br
+` — Блин.@
+` «Ну, ладно.@ По правде говоря, у меня есть к ней пара вопросов, так почему бы не составить ей компанию.»\
 
 ;CD-DA??
 playstop
 
-`"Arcueid.@ Can I ask about the hotel from yesterday?"@
+` — Арквейд,@ можно тебя спросить про гостиницу?@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"...... That's right.@ I guess that's going to be our topic, considering us."@
-`"Yeah.@ I just have one question.@ The guy last night----the one you called Nrvnqsr... just what the hell is he?@
-` I'm being serious here, so please don't say something like he's a magician who can make crocodiles appear from his body."\
+` — Да, думаю, нам стоит об этом поговорить.@
+` — Угу,@ у меня есть один вопрос.@ Тот тип... которого зовут Нерон... кто он, вообще, такой?@ Я серьёзно спрашиваю, так что давай без «он маг, который может наколдовать крокодилов из своего тела».\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
@@ -590,146 +488,109 @@ ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 ;CD-DA???????
 play "*4"
 
-`"I won't say that.@
-` I think you know this already but he is also a vampire.@ We call him Nrvnqsr and he is quite an exception.@
-` ...... To tell the truth, he isn't someone you could talk to so casually like this."@
-`".................."@
-` So he was a vampire after all.@
-` But, for some reason----like Arcueid sitting in front of me, he doesn't match my image of a vampire either.\
+` — И не собиралась.@ Он тоже вампир, хотя ты, наверное, уже знаешь.@ Мы зовём его Нерон и считаем весьма особенным...@ По правде говоря, его даже просто так описать нельзя.@
+` «...»@
+` Значит, он всё-таки вампир.@ Только, как и Арквейд, которая сидит передо мной, он совершенно не вяжется у меня с этим образом.\
 
-`"So, this Nrvnqsr... what kind of guy is he?@ You seem to know him or something."@
+` — Так, кто он такой... этот Нерон?@ Вы с ним, кажется, знакомы, походу.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"Of course not.@ I don't have any vampire acquaintances.@ Knowing them means I'm going to kill them the next instant.@ This is the first time I ever met a vampire without killing it."\
+` — Нет, конечно.@ У меня нет знакомых-вампиров.@ Каждое моё знакомство с ними тут же заканчивалось их смертью.@ Это первый раз, когда я встретила вампира и не убила его.\
 
-`"But you guys were talking about a lot of things."@
-`"It would be hasty to call him an acquaintance because of that.@
-` Nrvnqsr is a famous vampire so no introductions were necessary when we met, that's all.@
-` Isn't it natural to know the name of vampires with unusual power and a long history?@
-` Among those, Nrvnqsr stands out even more.@
-` Despite being one of the oldest vampires, he has neither a castle nor territory and is an eccentric wanderer.@
-` The Church has given him a second name, Chaos."\
+` — Но вы же много говорили.@
+` — Одно это не делает его моим товарищем.@ Нерон — известный вампир, поэтому нужно было представиться, вот и всё.@ Что странного в том, чтобы знать имя старого вампира с необычной силой?@ Тем более, среди них Нерон выделяется ещё сильнее.@ У него никогда не было ни своего замка ни земли — всю жизнь эксцентричный скиталец.@ А церковь нарекла его Хаосом.\
 
-`"...... Chaos?@ What's that?"@
-`"Literally squirming, squelching chaos.@
-` Like various things mixed together in a primordial earth with no one knowing what will fly out...... a meaning I'm guessing from last night."@
-`"Not knowing what will fly out......?"\
+` — Хаос?..@ В смысле?@
+` — Буквально, бурлящий, постоянно изменяющийся хаос.@ В коем были слиты разные вещи на первобытной земле, когда никто не знал, что из него может появится... Так я стала думать с прошлой ночи.@
+` — Никто не знал, что может появится?\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
-`"Geez.@ You saw his body too, Shiki.@ We spoke of it earlier but aged vampires cannot easily regenerate damage to their bodies.@
-` To restore the body after centuries of existence, the weak life of a human isn't enough.@
-` So using the simply more superior life forms, wild animals and magic beasts, as raw material, they compose their body.@
-` ...... As one of the oldest vampires, Nrvnqsr probably is in a league of his own regarding the sheer amount of beasts he has caught and used for his body."\
+` — Блин.@ Ну, ты же сам видел его тело, Шики.@ Мы уже об этом говорили: старые вампиры не могут так просто восстанавливать свои тела.@ После столетий существования слабой человеческой жизни для этого мало.@ Поэтому они просто используют более сильные формы жизни: диких животных или магических тварей, в качестве сырья для своих тел.@ Нерон же, как один из старейших, по числу собранных тварей просто вне конкуренции.\
 
-`"A league of his own----Things like those black dogs are a part of his body then?"@
+` — Вне конкуренции? Тогда эти чёрные собаки... часть его тела?@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
-`"Exactly.@ But there is a limit to a human's capacity.@ Probably only about thirty beasts can be controlled at once.@
-` Having more than one illusionary beast such as a magical or phantom beast would overload one's capacity.@
-` Putting that into consideration, all of Nrvnqsr's familiars are probably real animals.@
-` ...... Yeah, that may be fortunate."@
+` — Именно.@ Но человеческое тело способно вместить лишь ограниченное их количество.@ Одновременно управлять можно, наверное, тремя десятками тварей.@ А больше одной иллюзорной твари, типа магической или фантома, перегрузят носитель.@ Принимая это во внимание, получаем, что все звери Нерона, наверное, обычные животные...@ Пожалуй, так даже лучше.@
 br
-` ...... I don't quite get the last part but that means there's thirty of those black dogs.\
+` Последнюю часть, я почти не понял, но, выходит, есть тридцать таких чёрных собак.\
 
-`"...... No, that can't be right.@ Black dogs weren't the only things rampaging in the hotel.@ I think there were things like lions and leopards too."@
+` — Тогда не сходится.@ В гостинице бушевали не только чёрные собаки.@ Мне кажется, там были ещё львы и леопарды.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
-`"Right.@ ...... To be able to bring together thirty animals of the same type is one thing, but for Nrvnqsr to have different beasts in his body truly places the strength of his willpower apart from others.@
+` — Верно.@ Одно дело держать в себе тридцать одинаковых тварей и другое дело — Нерон, в котором они разные. Получается, что его сила воли не идёт ни в какое сравнение с другими.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-` ...... Well, it does seem odd that if he has that sort of power he would only use wild animals.@
-` I would have thought he would employ more magical beasts with his sort of willpower----"@
-` Hmmm.@ Arcueid descends deep into thought.\
+` Правда, тогда странно, что при всём этом он используе только диких животных.@ Я могла бы подумать, что у него при себе больше магических тварей.@
+` Хм-м.@ Арквей совсем погрузилась в свои мысли.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Whatever.@ Anyway, we at least know his weapons are twenty or thirty familiars.@
-` ...... So now we can understand why he's called Chaos."@
-`"Eh......?@ His name really isn't Chaos?"@
-`"Yeah, most long-lived Dead Apostles don't use their names from their human lives.@
-` But they don't make up a new name themselves, the Church assigns them one.@
-` They add on names as they find new, special characteristics of the vampire so some of them have names as long as spells."\
+` — В любом случае,@ мы теперь знаем, что его оружие — двадцать-тридцать фамильяров...@ и почему его называют Хаосом.@
+` — Что?@ Так его на самом деле не Хаосом звать?@
+` — Ага, большинство долгоживущих мёртвых апостолов не используют свои человеческие имена, которые им дали при жизни.@ Но и новые они сами не придумывают: им их даёт церковь.@ И дополняет каждый раз, когда найдет ещё какую-нибудь вампирскую особенность, поэтому некоторые из них длинные, как заклинание.\
 
-`"...... And, I guess the Church must really have hated him to name him Chaos.@
-` It would have been enough for one lion to hunt the entire hotel, right?@ But he let loose all of his beasts to feed, meaning he seems to enjoy such excesses."@
+` — И, я думаю, они его действительно ненавидят, раз назвали Хаосом.@ Чтобы охотится в гостинице хватило бы одного льва, я прав?@ А он выпустил на поживу всех своих зверей, значит ему нравятся такие «пиры».@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-`".................."@
-` ...... Thirty beasts inside the vampire Nrvnqsr.@
-` Just with that, he killed and ate without trace a hundred people at the hotel in thirty minutes.\
+` «...»@
+` Тридцать тварей внутри вампира Нерона.@ И их ему хватило, чтобы за полчаса пожрать без остатка сотни постояльцев гостиницы.\
 
 
-`"----I can't believe it.@ He's a complete monster."@
+` — Не могу поверить.@ Да, самое что ни на есть чудовище.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t05b.jpg",%type_crossfade_fst
 
-`"Yes.@ He really is the worst opponent I could have at the moment.@ He's one of those you never want to meet.@
-` But what's worse is that such a guy knows where we are.@
-` Even now I'm sure his familiars are watching us."@
-`"Wha----"@
-`"Isn't it obvious?@ We were saved earlier because the sun rose, but we can't count on that tonight.@ He knows of this place so he will certainly come to kill us at the height of his power at midnight."\
+` — Да.@ Он худший противник, который когда-либо у меня был.@ С таким никогда не захочешь встречаться.@ Но хуже всего то, что он знает, где мы.@ Уверена, даже сейчас за нами наблюдают его посыльные.@
+` — Ка...@
+` — А разве это не очевидно?@ Прошлый раз нас спас восход солнца, но в эту ночь не стоит на это рассчитывать.@ Он знает где мы и наверняка явится сюда в полночь, когда он сильнее всего, чтобы убить нас.\
 
-`"Come to kill us, tonight......?"@
-; ??<?>=??????:?03(?????????)<???????(?)>
+` — Придёт убить нас?..@
+; *жим-жим*
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
-`"Yes, he said so himself."@
+` — Да, он же сам сказал.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` ----What is this?@
-` He----that man in the black coat is coming tonight?\
+` «Как же так?@ Он... этот тип в чёрном плаще явится сюда ночью?»\
 
-`"------"@
-` I... don't know what I should say.@
-` I should escape.@ I know that's the wisest decision.@
-` But Arcueid is in this condition.@
-` Even if she ran away, I don't think she can get away from that monster.\
+` «...»@
+` «Даже... не знаю, что сказать.@ Надо бежать@ — это самое мудрое решение.@ Но Арквейд в тяжелом состоянии.@ Даже если она побежит, не думаю, что сможет уйти от чудищ.\
 
-` No, less about her and more about me.@
-` If I stay here----if I stay involved with Arcueid, there's no mistaking the fact I'll face him.@
+` Думай больше о себе, а не о ней.@ Если я останусь здесь... если я останусь с Арквейд, я с ним точно повстречаюсь.@
 br
-` He is... dangerous.@
-` Clearly put, he isn't sane.@
-` More than his body which houses those animals, his eyes are like a machine's.@
+` А он... опасен.@ Просто маньяк.@ Мало того, что у него тело — приют для животных, его глаза, как у машины.@
 br
-` Devoid of even a single emotion.@
-` The true eyes of a killer which does whatever it is assigned to do.@
-` As one who has experienced his attack, I am sure that without a doubt, he is to be avoided.\
+` Ни тени эмоций.@ Глаза настоящего убийцы, который пойдёт на всё.@ Я уже испытал на себе его нападение и знаю, что встречи с ним надо избежать любой ценой.\
 
-`"------"@
-` But, does that mean I should just leave Arcueid here and run away?@
-` No matter who she is, she can't move because she protected me.@ And I can tell her good luck and go home------?@
+` «...»@
+` Значит ли это, что я должен бросить Арквейд и убежать?@ Кем бы она ни была, двигаться не может, потому что защитила меня.@ А я просто скажу ей «удачи» и пойду домой?..»@
 br
-`"Arcueid, I----"\
+` — Арквейд, я...\
 
 ;CD-DA??
 playstop
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"But it's alright.@ Even Nrvnqsr isn't a problem for you.@ No matter who it is, you can kill anyone with a single blow."@
-`"------Huh?"@
+` — Но это не проблема.@ Тебе и Нерон по плечу.@ Ты любого можешь убить одним ударом.@
+` — Чего?..@
 br
-` Arcueid says... something outrageous,
-` as if it was completely ordinary.\
+` Эту дурь она сказала, как что-то само собой разумеющееся.\
 
-`"Hey---what in the world are you saying?"@
+` — Эй, ты сейчас, вообще, о чём?@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
-`"What am I saying?@ You're going to fight with me, right?"@
-` Arcueid looks directly at me.@
-` Her eyes place all trust in me.@
-` But this isn't a joke.@
-` I------
+` — О чём?@ Ты будешь драться рядом со мной, разве нет?@ — сказала она и стала смотреть на меня.@ В её глазах читалась такая вера.@ 
+` Только это всё не шутки.@ Я...
 br
 
 
