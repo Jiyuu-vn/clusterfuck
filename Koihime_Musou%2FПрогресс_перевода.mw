@@ -40,811 +40,533 @@
 	|}
 |}
 
-== Сценарий ==
+==Системные==
 
 
-{|style="text-align/center"
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
+		|-
+		|[[Koihime Musou/_BTL_ASKSKIP|_BTL_ASKSKIP]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_BATTLE|_BTL_BATTLE]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_COVERINGFIRE|_BTL_COVERINGFIRE]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_COVERINGFIREENEMY|_BTL_COVERINGFIREENEMY]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_HUKUHEIENEMY|_BTL_HUKUHEIENEMY]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_ISEXITBATTLE|_BTL_ISEXITBATTLE]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZA|_BTL_WAZA]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZA_CHOUN|_BTL_WAZA_CHOUN]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZA_KOCHU|_BTL_WAZA_KOCHU]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZAENEMY|_BTL_WAZAENEMY]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZAENEMY_BUFFATK|_BTL_WAZAENEMY_BUFFATK]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZAENEMY_BUFFDEF|_BTL_WAZAENEMY_BUFFDEF]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZAENEMY_CONT|_BTL_WAZAENEMY_CONT]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZAENEMY_REF|_BTL_WAZAENEMY_REF]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_BTL_WAZAENEMY_RENATK|_BTL_WAZAENEMY_RENATK]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_LOADATTITLE|_LOADATTITLE]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/_TITLE|_TITLE]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/END_HANTEI|END_HANTEI]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/H_PANTU|H_PANTU]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/INIT|INIT]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/RCLICK|RCLICK]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/RCSL|RCSL]]||{{No}}||{{No}}||{{No}}
+	|}
+
+== Основной сюжет ==
+
+{|
  |- valign="top"
  |
-		{|class="wikitable"
-		! !!Перевод!!Правка!!Тест
-		|-
-		|[[Koihime Musou/SNBACHO-001|SNBACHO-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-002|SNBACHO-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-003|SNBACHO-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-004|SNBACHO-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-005|SNBACHO-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-006|SNBACHO-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007|SNBACHO-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007BAC|SNBACHO-007BAC]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007CHO|SNBACHO-007CHO]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007CUN|SNBACHO-007CUN]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007HG|SNBACHO-007HG]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007KAN|SNBACHO-007KAN]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007KOC|SNBACHO-007KOC]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007SYO|SNBACHO-007SYO]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-007TOT|SNBACHO-007TOT]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-008|SNBACHO-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-009|SNBACHO-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNBACHO-010|SNBACHO-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-001|SNCHOHI-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-002|SNCHOHI-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-003|SNCHOHI-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-004|SNCHOHI-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-005|SNCHOHI-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-006|SNCHOHI-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-007|SNCHOHI-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-008|SNCHOHI-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-009|SNCHOHI-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-010|SNCHOHI-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-011|SNCHOHI-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-012|SNCHOHI-012]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-013|SNCHOHI-013]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-014|SNCHOHI-014]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-015|SNCHOHI-015]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOHI-016|SNCHOHI-016]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-001|SNCHOUN-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-002|SNCHOUN-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-003|SNCHOUN-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-004|SNCHOUN-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-005|SNCHOUN-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-006|SNCHOUN-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-007|SNCHOUN-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-008|SNCHOUN-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-009|SNCHOUN-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-010|SNCHOUN-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNCHOUN-011|SNCHOUN-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-001|SNENSYO-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-002|SNENSYO-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-003|SNENSYO-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-004|SNENSYO-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-005|SNENSYO-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-005A|SNENSYO-005A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-006|SNENSYO-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-007|SNENSYO-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-008|SNENSYO-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-009|SNENSYO-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNENSYO-010|SNENSYO-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-001|SNKANU-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-002|SNKANU-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-003|SNKANU-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-004|SNKANU-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-005|SNKANU-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-006|SNKANU-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-007B|SNKANU-007B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-008|SNKANU-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-009|SNKANU-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-010|SNKANU-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-011|SNKANU-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-012|SNKANU-012]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-013|SNKANU-013]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-014|SNKANU-014]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-015|SNKANU-015]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKANU-016|SNKANU-016]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-001|SNKOCHU-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-002|SNKOCHU-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-003|SNKOCHU-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-004|SNKOCHU-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-005|SNKOCHU-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-006|SNKOCHU-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-007|SNKOCHU-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-008|SNKOCHU-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-009|SNKOCHU-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-010|SNKOCHU-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNKOCHU-011|SNKOCHU-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-001|SNRYOFU-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-002|SNRYOFU-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-003|SNRYOFU-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-004|SNRYOFU-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-005|SNRYOFU-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-006|SNRYOFU-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-007|SNRYOFU-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-008|SNRYOFU-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-009|SNRYOFU-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNRYOFU-010|SNRYOFU-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-001|SNSONGO-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-002|SNSONGO-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-003|SNSONGO-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-004|SNSONGO-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-005|SNSONGO-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-006|SNSONGO-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-007|SNSONGO-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-008|SNSONGO-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-009|SNSONGO-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-010|SNSONGO-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSONGO-011|SNSONGO-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-001|SNSOUSOU-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-002|SNSOUSOU-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-003|SNSOUSOU-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-004|SNSOUSOU-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-005|SNSOUSOU-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-006|SNSOUSOU-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-007|SNSOUSOU-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-008|SNSOUSOU-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSOUSOU-009|SNSOUSOU-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-001|SNSYOKA-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-002|SNSYOKA-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-003|SNSYOKA-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-004|SNSYOKA-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-005|SNSYOKA-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-006|SNSYOKA-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-007|SNSYOKA-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-008|SNSYOKA-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-009|SNSYOKA-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-010|SNSYOKA-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-011|SNSYOKA-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-012|SNSYOKA-012]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-013|SNSYOKA-013]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-014|SNSYOKA-014]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNSYOKA-015|SNSYOKA-015]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-001|SNTOUTAKU-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-002|SNTOUTAKU-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-003|SNTOUTAKU-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-004|SNTOUTAKU-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-005|SNTOUTAKU-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-006|SNTOUTAKU-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-007|SNTOUTAKU-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-008|SNTOUTAKU-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-009|SNTOUTAKU-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-010|SNTOUTAKU-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-011|SNTOUTAKU-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-012|SNTOUTAKU-012]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-013|SNTOUTAKU-013]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/SNTOUTAKU-014|SNTOUTAKU-014]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/TENTEN|TENTEN]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/YURE_R|YURE_R]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/YURE_T|YURE_T]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/YURE_Y|YURE_Y]]||{{no}}||{{no}}||{{no}}
-	|}
-|&nbsp;&nbsp;|
 	{|class="wikitable"
 		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/0SNMAIN-001|0SNMAIN-001]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-001|0SNMAIN-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-002|0SNMAIN-002]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-002|0SNMAIN-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-003|0SNMAIN-003]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-003|0SNMAIN-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-003A|0SNMAIN-003A]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-003A|0SNMAIN-003A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-004|0SNMAIN-004]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-004|0SNMAIN-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-004A|0SNMAIN-004A]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-004A|0SNMAIN-004A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-004B|0SNMAIN-004B]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-004B|0SNMAIN-004B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-004C|0SNMAIN-004C]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-004C|0SNMAIN-004C]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-005|0SNMAIN-005]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-005|0SNMAIN-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-005A|0SNMAIN-005A]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-005A|0SNMAIN-005A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-005B1|0SNMAIN-005B1]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-005B1|0SNMAIN-005B1]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-005B2|0SNMAIN-005B2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-005B2|0SNMAIN-005B2]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-006|0SNMAIN-006]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-006|0SNMAIN-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-006A|0SNMAIN-006A]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-006A|0SNMAIN-006A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-006B|0SNMAIN-006B]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-006B|0SNMAIN-006B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-006C|0SNMAIN-006C]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-006C|0SNMAIN-006C]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-007|0SNMAIN-007]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-007|0SNMAIN-007]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-008|0SNMAIN-008]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-008|0SNMAIN-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-008A|0SNMAIN-008A]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-008A|0SNMAIN-008A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNMAIN-008B|0SNMAIN-008B]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNMAIN-008B|0SNMAIN-008B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNSOUGI-001|0SNSOUGI-001]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-001|0SNSOUGI-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNSOUGI-002|0SNSOUGI-002]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-002|0SNSOUGI-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/0SNSOUGI-002A|0SNSOUGI-002A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-002B|0SNSOUGI-002B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-003|0SNSOUGI-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-003A|0SNSOUGI-003A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-003B|0SNSOUGI-003B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-004|0SNSOUGI-004]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-004A|0SNSOUGI-004A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-005|0SNSOUGI-005]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-005A|0SNSOUGI-005A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-005B|0SNSOUGI-005B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-005C|0SNSOUGI-005C]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-006|0SNSOUGI-006]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-006A|0SNSOUGI-006A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-006B|0SNSOUGI-006B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-006C|0SNSOUGI-006C]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-007|0SNSOUGI-007]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-008|0SNSOUGI-008]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-008A|0SNSOUGI-008A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-009|0SNSOUGI-009]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-009A|0SNSOUGI-009A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-009B|0SNSOUGI-009B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-009C|0SNSOUGI-009C]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-010|0SNSOUGI-010]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-010A|0SNSOUGI-010A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-010B|0SNSOUGI-010B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-010X|0SNSOUGI-010X]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-011|0SNSOUGI-011]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-012|0SNSOUGI-012]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013|0SNSOUGI-013]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013A|0SNSOUGI-013A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013B|0SNSOUGI-013B]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013C|0SNSOUGI-013C]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013D|0SNSOUGI-013D]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013X|0SNSOUGI-013X]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/0SNSOUGI-013X1|0SNSOUGI-013X1]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-AISYA-001|1END-AISYA-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-AISYA-001A|1END-AISYA-001A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-H-001|1END-H-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-H-001A|1END-H-001A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-RIN-001|1END-RIN-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-RIN-001A|1END-RIN-001A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-SYURI-001|1END-SYURI-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/1END-SYURI-001A|1END-SYURI-001A]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/2SNSIA-001|2SNSIA-001]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/2SNSIA-002|2SNSIA-002]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/2SNSIA-003|2SNSIA-003]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/01_MAIN|01_MAIN]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/02_SOUGI|02_SOUGI]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/04_SIA|04_SIA]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/05_BACHOI|05_BACHOI]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/06_CHOHI|06_CHOHI]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/07_CHOUN|07_CHOUN]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/08_ENSYO|08_ENSYO]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/09_KANU|09_KANU]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/10_KOCHU|10_KOCHU]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/11_RYOFU|11_RYOFU]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/12_SONGO|12_SONGO]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/13_SOUSOU|13_SOUSOU]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/14_SYOKA|14_SYOKA]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/15_TOUTAKU|15_TOUTAKU]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_ASKSKIP|_BTL_ASKSKIP]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_BATTLE|_BTL_BATTLE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_CLEANUPBTLGRP|_BTL_CLEANUPBTLGRP]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_CLEANUPNVL_BGM_BG|_BTL_CLEANUPNVL_BGM_BG]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_CONTINUE|_BTL_CONTINUE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_COVERINGFIRE|_BTL_COVERINGFIRE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_COVERINGFIREENEMY|_BTL_COVERINGFIREENEMY]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_CREATESTATUSSTRA|_BTL_CREATESTATUSSTRA]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_CREATESTATUSSTRB|_BTL_CREATESTATUSSTRB]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_HUKUHEIENEMY|_BTL_HUKUHEIENEMY]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_INITPARAM|_BTL_INITPARAM]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_ISEXITBATTLE|_BTL_ISEXITBATTLE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_RETRY|_BTL_RETRY]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_SC_ENEMY|_BTL_SC_ENEMY]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_SC_PLAYER|_BTL_SC_PLAYER]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_SETENEMYSTATUSGRP|_BTL_SETENEMYSTATUSGRP]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_SETPLAYERSTATUSGRP|_BTL_SETPLAYERSTATUSGRP]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_SETWAZABTNSRCY|_BTL_SETWAZABTNSRCY]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_TROOPS_CMGRPCHANGE|_BTL_TROOPS_CMGRPCHANGE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_TROOPS_GRPCHANGE|_BTL_TROOPS_GRPCHANGE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZA|_BTL_WAZA]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZA_CHOUN|_BTL_WAZA_CHOUN]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZA_KOCHU|_BTL_WAZA_KOCHU]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAE_EFC|_BTL_WAZAE_EFC]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAENEMY|_BTL_WAZAENEMY]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAENEMY_BUFFATK|_BTL_WAZAENEMY_BUFFATK]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAENEMY_BUFFDEF|_BTL_WAZAENEMY_BUFFDEF]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAENEMY_CONT|_BTL_WAZAENEMY_CONT]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAENEMY_REF|_BTL_WAZAENEMY_REF]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAENEMY_RENATK|_BTL_WAZAENEMY_RENATK]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAGRPLOAD|_BTL_WAZAGRPLOAD]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTL_WAZAP_EFC|_BTL_WAZAP_EFC]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTLP_GUNCMSRC|_BTLP_GUNCMSRC]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTLP_INFODISPSUB|_BTLP_INFODISPSUB]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTLP_PREBATTLE|_BTLP_PREBATTLE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTLP_SYOCMSRC|_BTLP_SYOCMSRC]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_BTLP_WHOCANSELECT|_BTLP_WHOCANSELECT]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/__MAINSTREAM|__MAINSTREAM]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_CREDIT|_CREDIT]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_KYOTENPHASE|_KYOTENPHASE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_LOADATTITLE|_LOADATTITLE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_MSGBOXMAIN_OFF|_MSGBOXMAIN_OFF]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_MSGBOXMAIN_ON|_MSGBOXMAIN_ON]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_TITLE|_TITLE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/ASE|ASE]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_OMM|_OMM]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/_OOM|_OOM]]||{{no}}||{{no}}||{{no}}
-		|-
-		|[[Koihime Musou/END_HANTEI|END_HANTEI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-002A|0SNSOUGI-002A]]||{{No}}||{{No}}||{{No}}
 	|}
-|&nbsp;&nbsp;|
+|&nbsp;&nbsp;
+|
 	{|class="wikitable"
 		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/_OCM|_OCM]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-002B|0SNSOUGI-002B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_BAC|_OCM_BAC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-003|0SNSOUGI-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_CHO|_OCM_CHO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-003A|0SNSOUGI-003A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_CUN|_OCM_CUN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-003B|0SNSOUGI-003B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_ENS|_OCM_ENS]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-004|0SNSOUGI-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_ETC|_OCM_ETC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-004A|0SNSOUGI-004A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_GI|_OCM_GI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-005|0SNSOUGI-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_GO|_OCM_GO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-005A|0SNSOUGI-005A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_KAN|_OCM_KAN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-005B|0SNSOUGI-005B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_KOC|_OCM_KOC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-005C|0SNSOUGI-005C]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_SYO|_OCM_SYO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-006|0SNSOUGI-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OCM_TOT|_OCM_TOT]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-006A|0SNSOUGI-006A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM|_OKM]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-006B|0SNSOUGI-006B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_BAC|_OKM_BAC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-006C|0SNSOUGI-006C]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_CHO|_OKM_CHO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-007|0SNSOUGI-007]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_CUN|_OKM_CUN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-008|0SNSOUGI-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_ENS|_OKM_ENS]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-008A|0SNSOUGI-008A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_GI|_OKM_GI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-009|0SNSOUGI-009]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_GO|_OKM_GO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-009A|0SNSOUGI-009A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_KAN|_OKM_KAN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-009B|0SNSOUGI-009B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_KOC|_OKM_KOC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-009C|0SNSOUGI-009C]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_SYO|_OKM_SYO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-010|0SNSOUGI-010]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_OKM_TOT|_OKM_TOT]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-010A|0SNSOUGI-010A]]||{{No}}||{{No}}||{{No}}
+	|}
+|&nbsp;&nbsp;
+|
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/_RC_RESETBGMVOL|_RC_RESETBGMVOL]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-010B|0SNSOUGI-010B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_RC_RESETSEVOL|_RC_RESETSEVOL]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-010X|0SNSOUGI-010X]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_RC_RESETVOVOL|_RC_RESETVOVOL]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-011|0SNSOUGI-011]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_AUTOMODE|_SB_AUTOMODE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-012|0SNSOUGI-012]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_BACKLOGMODE|_SB_BACKLOGMODE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013|0SNSOUGI-013]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_BACKLOGNEXT|_SB_BACKLOGNEXT]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013A|0SNSOUGI-013A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_BACKLOGPREV|_SB_BACKLOGPREV]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013B|0SNSOUGI-013B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_ERASEMSGBUTTON|_SB_ERASEMSGBUTTON]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013C|0SNSOUGI-013C]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_QSAVE|_SB_QSAVE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013D|0SNSOUGI-013D]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_REPLAYVOICE|_SB_REPLAYVOICE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013X|0SNSOUGI-013X]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_SB_SKIPBUTTON|_SB_SKIPBUTTON]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/0SNSOUGI-013X1|0SNSOUGI-013X1]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/_STAGESELECT|_STAGESELECT]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-AISYA-001|1END-AISYA-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_BAC|BATTLE_BAC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-AISYA-001A|1END-AISYA-001A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_BAC2|BATTLE_BAC2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-H-001|1END-H-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_BUN|BATTLE_BUN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-H-001A|1END-H-001A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_BUN2|BATTLE_BUN2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-RIN-001|1END-RIN-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CHO|BATTLE_CHO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-RIN-001A|1END-RIN-001A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CHO2|BATTLE_CHO2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-SYURI-001|1END-SYURI-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CRY|BATTLE_CRY]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/1END-SYURI-001A|1END-SYURI-001A]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CRY2|BATTLE_CRY2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/2SNSIA-001|2SNSIA-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CUN|BATTLE_CUN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/2SNSIA-002|2SNSIA-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CUN4|BATTLE_CUN4]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/2SNSIA-003|2SNSIA-003]]||{{No}}||{{No}}||{{No}}
+	|}
+|}
+
+== Персонажи ==
+=== Основные ===
+{|
+ |- valign="top"
+ |
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/BATTLE_CUNX|BATTLE_CUNX]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-001|SNCHOHI-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_CUNX4|BATTLE_CUNX4]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-002|SNCHOHI-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_EN|BATTLE_EN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-003|SNCHOHI-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_EN2|BATTLE_EN2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-004|SNCHOHI-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_GAN|BATTLE_GAN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-005|SNCHOHI-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_GAN2|BATTLE_GAN2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-006|SNCHOHI-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_HARAI|BATTLE_HARAI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-007|SNCHOHI-007]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_HARAI2|BATTLE_HARAI2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-008|SNCHOHI-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_HG|BATTLE_HG]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-009|SNCHOHI-009]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_HG2|BATTLE_HG2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-010|SNCHOHI-010]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KABUTO|BATTLE_KABUTO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-011|SNCHOHI-011]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KABUTO2|BATTLE_KABUTO2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-012|SNCHOHI-012]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KAN|BATTLE_KAN]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-013|SNCHOHI-013]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KAN2|BATTLE_KAN2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-014|SNCHOHI-014]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KAY|BATTLE_KAY]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-015|SNCHOHI-015]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KAY2|BATTLE_KAY2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOHI-016|SNCHOHI-016]]||{{No}}||{{No}}||{{No}}
+	|}
+|&nbsp;&nbsp;
+|
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/BATTLE_KERI|BATTLE_KERI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-001|SNKANU-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KERI3|BATTLE_KERI3]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-002|SNKANU-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KESA|BATTLE_KESA]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-003|SNKANU-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KESA2|BATTLE_KESA2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-004|SNKANU-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KIRIAGE|BATTLE_KIRIAGE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-005|SNKANU-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KIRIAGE2|BATTLE_KIRIAGE2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-006|SNKANU-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KNE|BATTLE_KNE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-007B|SNKANU-007B]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KNE2|BATTLE_KNE2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-008|SNKANU-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KOC|BATTLE_KOC]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-009|SNKANU-009]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KOC3|BATTLE_KOC3]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-010|SNKANU-010]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KSS|BATTLE_KSS]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-011|SNKANU-011]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KSS2|BATTLE_KSS2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-012|SNKANU-012]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KYO|BATTLE_KYO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-013|SNKANU-013]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_KYO2|BATTLE_KYO2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-014|SNKANU-014]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_NAGURI|BATTLE_NAGURI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-015|SNKANU-015]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_NAGURI2|BATTLE_NAGURI2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNKANU-016|SNKANU-016]]||{{No}}||{{No}}||{{No}}
+	|}
+|&nbsp;&nbsp;
+|
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/BATTLE_RYO|BATTLE_RYO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-001|SNSYOKA-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_RYO2|BATTLE_RYO2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-002|SNSYOKA-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SAJ|BATTLE_SAJ]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-003|SNSYOKA-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SAJ3|BATTLE_SAJ3]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-004|SNSYOKA-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SON|BATTLE_SON]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-005|SNSYOKA-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SON2|BATTLE_SON2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-006|SNSYOKA-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SOU|BATTLE_SOU]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-007|SNSYOKA-007]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SOU2|BATTLE_SOU2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-008|SNSYOKA-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SYK|BATTLE_SYK]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-009|SNSYOKA-009]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_SYK2|BATTLE_SYK2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-010|SNSYOKA-010]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_TON|BATTLE_TON]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-011|SNSYOKA-011]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_TON2|BATTLE_TON2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-012|SNSYOKA-012]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_TONX|BATTLE_TONX]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-013|SNSYOKA-013]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_TONX2|BATTLE_TONX2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-014|SNSYOKA-014]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/BATTLE_TUKI|BATTLE_TUKI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNSYOKA-015|SNSYOKA-015]]||{{No}}||{{No}}||{{No}}
+	|}
+|}
+
+=== Побочные ===
+
+{|
+ |- valign="top"
+ |
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
 		|-
-		|[[Koihime Musou/BATTLE_TUKI2|BATTLE_TUKI2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-001|SNBACHO-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/FLASH|FLASH]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-002|SNBACHO-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/FLASH_A|FLASH_A]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-003|SNBACHO-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/FLASH_B|FLASH_B]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-004|SNBACHO-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/FLASH_K|FLASH_K]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-005|SNBACHO-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/FLASH_M|FLASH_M]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-006|SNBACHO-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/H_PANTU|H_PANTU]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007|SNBACHO-007]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/HATENA|HATENA]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007BAC|SNBACHO-007BAC]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/INIT|INIT]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007CHO|SNBACHO-007CHO]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/KYARA_KESI|KYARA_KESI]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007CUN|SNBACHO-007CUN]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/M_YURE_R|M_YURE_R]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007HG|SNBACHO-007HG]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/M_YURE_T|M_YURE_T]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007KAN|SNBACHO-007KAN]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/M_YURE_Y|M_YURE_Y]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007KOC|SNBACHO-007KOC]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/MUKA|MUKA]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007SYO|SNBACHO-007SYO]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/NECEMEM|NECEMEM]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-007TOT|SNBACHO-007TOT]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/ONPU|ONPU]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-008|SNBACHO-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/R_O|R_O]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-009|SNBACHO-009]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/RCLICK|RCLICK]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNBACHO-010|SNBACHO-010]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/RCLICK_BTL|RCLICK_BTL]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-001|SNCHOUN-001]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/RCLICK_BTL_STAGEBKLOAD|RCLICK_BTL_STAGEBKLOAD]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-002|SNCHOUN-002]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/RCSL|RCSL]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-003|SNCHOUN-003]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/S_YURE_R|S_YURE_R]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-004|SNCHOUN-004]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/S_YURE_T|S_YURE_T]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-005|SNCHOUN-005]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/S_YURE_Y|S_YURE_Y]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-006|SNCHOUN-006]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/SENTAKU_ATO|SENTAKU_ATO]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-007|SNCHOUN-007]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/SENTAKU_MAE|SENTAKU_MAE]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-008|SNCHOUN-008]]||{{No}}||{{No}}||{{No}}
 		|-
-		|[[Koihime Musou/SENTAKU_MAE2|SENTAKU_MAE2]]||{{no}}||{{no}}||{{no}}
+		|[[Koihime Musou/SNCHOUN-009|SNCHOUN-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNCHOUN-010|SNCHOUN-010]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNCHOUN-011|SNCHOUN-011]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-001|SNENSYO-001]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-002|SNENSYO-002]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-003|SNENSYO-003]]||{{No}}||{{No}}||{{No}}
+	|}
+|&nbsp;&nbsp;
+|
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
+		|-
+		|[[Koihime Musou/SNENSYO-004|SNENSYO-004]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-005|SNENSYO-005]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-005A|SNENSYO-005A]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-006|SNENSYO-006]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-007|SNENSYO-007]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-008|SNENSYO-008]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-009|SNENSYO-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNENSYO-010|SNENSYO-010]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-001|SNKOCHU-001]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-002|SNKOCHU-002]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-003|SNKOCHU-003]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-004|SNKOCHU-004]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-005|SNKOCHU-005]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-006|SNKOCHU-006]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-007|SNKOCHU-007]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-008|SNKOCHU-008]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-009|SNKOCHU-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-010|SNKOCHU-010]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNKOCHU-011|SNKOCHU-011]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-001|SNRYOFU-001]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-002|SNRYOFU-002]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-003|SNRYOFU-003]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-004|SNRYOFU-004]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-005|SNRYOFU-005]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-006|SNRYOFU-006]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-007|SNRYOFU-007]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-008|SNRYOFU-008]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-009|SNRYOFU-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNRYOFU-010|SNRYOFU-010]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-001|SNSONGO-001]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-002|SNSONGO-002]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-003|SNSONGO-003]]||{{No}}||{{No}}||{{No}}
+	|}
+|&nbsp;&nbsp;
+|
+	{|class="wikitable"
+		! !!Перевод!!Правка!!Тест
+		|-
+		|[[Koihime Musou/SNSONGO-004|SNSONGO-004]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-005|SNSONGO-005]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-006|SNSONGO-006]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-007|SNSONGO-007]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-008|SNSONGO-008]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-009|SNSONGO-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-010|SNSONGO-010]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSONGO-011|SNSONGO-011]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-001|SNSOUSOU-001]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-002|SNSOUSOU-002]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-003|SNSOUSOU-003]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-004|SNSOUSOU-004]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-005|SNSOUSOU-005]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-006|SNSOUSOU-006]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-007|SNSOUSOU-007]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-008|SNSOUSOU-008]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNSOUSOU-009|SNSOUSOU-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-001|SNTOUTAKU-001]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-002|SNTOUTAKU-002]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-003|SNTOUTAKU-003]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-004|SNTOUTAKU-004]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-005|SNTOUTAKU-005]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-006|SNTOUTAKU-006]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-007|SNTOUTAKU-007]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-008|SNTOUTAKU-008]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-009|SNTOUTAKU-009]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-010|SNTOUTAKU-010]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-011|SNTOUTAKU-011]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-012|SNTOUTAKU-012]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-013|SNTOUTAKU-013]]||{{No}}||{{No}}||{{No}}
+		|-
+		|[[Koihime Musou/SNTOUTAKU-014|SNTOUTAKU-014]]||{{No}}||{{No}}||{{No}}
 	|}
 |}
