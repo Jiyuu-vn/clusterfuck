@@ -1,0 +1,4013 @@
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
+<poem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="1">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="2">
+    <Origin>bgm03</Origin>
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="3">
+    <Origin>$With Aisha and Rinrin&apos;s remarkable work, and Shokatsuryou&apos;s suggestion to strike a decisive blow at the right moment, we defeated the detached force of the Yellow Turbans.@</Origin>
+    <ToTranslate>$With Aisha and Rinrin&apos;s remarkable work, and Shokatsuryou&apos;s suggestion to strike a decisive blow at the right moment, we defeated the detached force of the Yellow Turbans.@</ToTranslate>
+  </String>
+  <String index="4">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="5">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="6">
+    <Origin>aisy0088</Origin>
+    <ToTranslate>aisy0088</ToTranslate>
+  </String>
+  <String index="7">
+    <Origin>Aisha$&quot;Hmph. They were not even a challenge.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hmph. They were not even a challenge.&quot;@</ToTranslate>
+  </String>
+  <String index="8">
+    <Origin>tcg_cho31da</Origin>
+    <ToTranslate>tcg_cho31da</ToTranslate>
+  </String>
+  <String index="9">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="10">
+    <Origin>rinr0062</Origin>
+    <ToTranslate>rinr0062</ToTranslate>
+  </String>
+  <String index="11">
+    <Origin>Rinrin$&quot;They were so weak, they stood no chance!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;They were so weak, they stood no chance!&quot;@</ToTranslate>
+  </String>
+  <String index="12">
+    <Origin>Kazuto$&quot;Well, anyway... I&apos;m glad we are all uninjured. What do our casualties look like?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Well, anyway... I&apos;m glad we are all uninjured. What do our casualties look like?&quot;@</ToTranslate>
+  </String>
+  <String index="13">
+    <Origin>tcg_syo12aa</Origin>
+    <ToTranslate>tcg_syo12aa</ToTranslate>
+  </String>
+  <String index="14">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="15">
+    <Origin>syot0042</Origin>
+    <ToTranslate>syot0042</ToTranslate>
+  </String>
+  <String index="16">
+    <Origin>Shokatsuryou$&quot;There shouldn&apos;t be much of a hindrance for a battle with the main force.&quot;@</Origin>
+    <ToTranslate>Shokatsuryou$&quot;There shouldn&apos;t be much of a hindrance for a battle with the main force.&quot;@</ToTranslate>
+  </String>
+  <String index="17">
+    <Origin>Kazuto$&quot;Thank you. ......Hey, I&apos;m already making you act as an aide-de-camp, aren&apos;t I?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Thank you. ......Hey, I&apos;m already making you act as an aide-de-camp, aren&apos;t I?&quot;@</ToTranslate>
+  </String>
+  <String index="18">
+    <Origin>tcg_syo12la</Origin>
+    <ToTranslate>tcg_syo12la</ToTranslate>
+  </String>
+  <String index="19">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="20">
+    <Origin>syot0043</Origin>
+    <ToTranslate>syot0043</ToTranslate>
+  </String>
+  <String index="21">
+    <Origin>Shokatsuryou$&quot;It&apos;s alright. I can&apos;t wield a weapon and fight. This is the best I can do to help.&quot;@</Origin>
+    <ToTranslate>Shokatsuryou$&quot;It&apos;s alright. I can&apos;t wield a weapon and fight. This is the best I can do to help.&quot;@</ToTranslate>
+  </String>
+  <String index="22">
+    <Origin>Kazuto$&quot;Thank you, Koumei.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Thank you, Koumei.&quot;@</ToTranslate>
+  </String>
+  <String index="23">
+    <Origin>tcg_syo22fa</Origin>
+    <ToTranslate>tcg_syo22fa</ToTranslate>
+  </String>
+  <String index="24">
+    <Origin>tcg_syo22m</Origin>
+    <ToTranslate>tcg_syo22m</ToTranslate>
+  </String>
+  <String index="25">
+    <Origin>syot0044</Origin>
+    <ToTranslate>syot0044</ToTranslate>
+  </String>
+  <String index="26">
+    <Origin>Shokatsuryou$&quot;Y-yes! U-Umm, by the way...Umm...If possible, I&apos;d like you to call me by my true name.&quot;@</Origin>
+    <ToTranslate>Shokatsuryou$&quot;Y-yes! U-Umm, by the way...Umm...If possible, I&apos;d like you to call me by my true name.&quot;@</ToTranslate>
+  </String>
+  <String index="27">
+    <Origin>Kazuto$&quot;Huh? But......True names are special names, right? I thought one only let those they held in special regard use that name?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Huh? But......True names are special names, right? I thought one only let those they held in special regard use that name?&quot;@</ToTranslate>
+  </String>
+  <String index="28">
+    <Origin>syot0045</Origin>
+    <ToTranslate>syot0045</ToTranslate>
+  </String>
+  <String index="29">
+    <Origin>Shokatsuryou$&quot;Yes. That&apos;s why I want you to use it...&quot;@</Origin>
+    <ToTranslate>Shokatsuryou$&quot;Yes. That&apos;s why I want you to use it...&quot;@</ToTranslate>
+  </String>
+  <String index="30">
+    <Origin>Kazuto$&quot;Are you... sure?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Are you... sure?&quot;@</ToTranslate>
+  </String>
+  <String index="31">
+    <Origin>tcg_syo12aa</Origin>
+    <ToTranslate>tcg_syo12aa</ToTranslate>
+  </String>
+  <String index="32">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="33">
+    <Origin>syot0046</Origin>
+    <ToTranslate>syot0046</ToTranslate>
+  </String>
+  <String index="34">
+    <Origin>Shokatsuryou$&quot;Yes! You are the one who will be My Lord, so I want you to call me by my true name!&quot;@</Origin>
+    <ToTranslate>Shokatsuryou$&quot;Yes! You are the one who will be My Lord, so I want you to call me by my true name!&quot;@</ToTranslate>
+  </String>
+  <String index="35">
+    <Origin>Kazuto$&quot;...Okay. I will call you by your real name. Shuri... right?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;...Okay. I will call you by your real name. Shuri... right?&quot;@</ToTranslate>
+  </String>
+  <String index="36">
+    <Origin>tcg_syo12la</Origin>
+    <ToTranslate>tcg_syo12la</ToTranslate>
+  </String>
+  <String index="37">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="38">
+    <Origin>syur0000</Origin>
+    <ToTranslate>syur0000</ToTranslate>
+  </String>
+  <String index="39">
+    <Origin>Shuri$&quot;Yes!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes!&quot;@</ToTranslate>
+  </String>
+  <String index="40">
+    <Origin>Kazuto$&quot;Okay Shuri, we&apos;ll be a good team.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Okay Shuri, we&apos;ll be a good team.&quot;@</ToTranslate>
+  </String>
+  <String index="41">
+    <Origin>tcg_syo12ka</Origin>
+    <ToTranslate>tcg_syo12ka</ToTranslate>
+  </String>
+  <String index="42">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="43">
+    <Origin>syur0001</Origin>
+    <ToTranslate>syur0001</ToTranslate>
+  </String>
+  <String index="44">
+    <Origin>Shuri$&quot;Eh? Heh-heh, yes, My Lord!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Eh? Heh-heh, yes, My Lord!&quot;@</ToTranslate>
+  </String>
+  <String index="45">
+    <Origin>tcg_kan31ha</Origin>
+    <ToTranslate>tcg_kan31ha</ToTranslate>
+  </String>
+  <String index="46">
+    <Origin>tcg_kan31m</Origin>
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="47">
+    <Origin>aisy0089</Origin>
+    <ToTranslate>aisy0089</ToTranslate>
+  </String>
+  <String index="48">
+    <Origin>Aisha$&quot;Ahem. Ahh, ahh. ...Now that the introductions are over, shall we depart?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Ahem. Ahh, ahh. ...Now that the introductions are over, shall we depart?&quot;@</ToTranslate>
+  </String>
+  <String index="49">
+    <Origin>tcg_cho11ca</Origin>
+    <ToTranslate>tcg_cho11ca</ToTranslate>
+  </String>
+  <String index="50">
+    <Origin>tcg_cho11m</Origin>
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="51">
+    <Origin>rinr0063</Origin>
+    <ToTranslate>rinr0063</ToTranslate>
+  </String>
+  <String index="52">
+    <Origin>Rinrin$&quot;We better hurry, or Kousonsan will be defeated!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;We better hurry, or Kousonsan will be defeated!&quot;@</ToTranslate>
+  </String>
+  <String index="53">
+    <Origin>Kazuto$&quot;Yeah, you&apos;re right. Let&apos;s go.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Yeah, you&apos;re right. Let&apos;s go.&quot;@</ToTranslate>
+  </String>
+  <String index="54">
+    <Origin>tcg_syo12ka</Origin>
+    <ToTranslate>tcg_syo12ka</ToTranslate>
+  </String>
+  <String index="55">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="56">
+    <Origin>syur0002</Origin>
+    <ToTranslate>syur0002</ToTranslate>
+  </String>
+  <String index="57">
+    <Origin>Shuri$&quot;Yes! Onward forth!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes! Onward forth!&quot;@</ToTranslate>
+  </String>
+  <String index="58">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="59">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="60">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="61">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="62">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="63">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="64">
+    <Origin>bgm02</Origin>
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="65">
+    <Origin>$Now that their detached unit was defeated, we reorganized our formations.@</Origin>
+    <ToTranslate>$Now that their detached unit was defeated, we reorganized our formations.@</ToTranslate>
+  </String>
+  <String index="66">
+    <Origin>$And we sent back our injured soldiers before making haste towards the camp where the Yellow Turbans&apos; main forces were deployed.@</Origin>
+    <ToTranslate>$And we sent back our injured soldiers before making haste towards the camp where the Yellow Turbans&apos; main forces were deployed.@</ToTranslate>
+  </String>
+  <String index="67">
+    <Origin>Kazuto$&quot;No matter how far we go, the scenery is always the same...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;No matter how far we go, the scenery is always the same...&quot;@</ToTranslate>
+  </String>
+  <String index="68">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="69">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="70">
+    <Origin>ase</Origin>
+    <ToTranslate>ase</ToTranslate>
+  </String>
+  <String index="71">
+    <Origin>aisy0090</Origin>
+    <ToTranslate>aisy0090</ToTranslate>
+  </String>
+  <String index="72">
+    <Origin>Aisha$&quot;How can you be so relaxed? We are headed to a battlefield.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;How can you be so relaxed? We are headed to a battlefield.&quot;@</ToTranslate>
+  </String>
+  <String index="73">
+    <Origin>Kazuto$&quot;Haha, sorry... I couldn&apos;t help it...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Haha, sorry... I couldn&apos;t help it...&quot;@</ToTranslate>
+  </String>
+  <String index="74">
+    <Origin>tcg_cho31da</Origin>
+    <ToTranslate>tcg_cho31da</ToTranslate>
+  </String>
+  <String index="75">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="76">
+    <Origin>rinr0064</Origin>
+    <ToTranslate>rinr0064</ToTranslate>
+  </String>
+  <String index="77">
+    <Origin>Rinrin$&quot;You&apos;re not mentally prepared at all.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;You&apos;re not mentally prepared at all.&quot;@</ToTranslate>
+  </String>
+  <String index="78">
+    <Origin>Kazuto$&quot;Huh? I sure don&apos;t want to hear that from you...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Huh? I sure don&apos;t want to hear that from you...&quot;@</ToTranslate>
+  </String>
+  <String index="79">
+    <Origin>tcg_cho31ia</Origin>
+    <ToTranslate>tcg_cho31ia</ToTranslate>
+  </String>
+  <String index="80">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="81">
+    <Origin>rinr0065</Origin>
+    <ToTranslate>rinr0065</ToTranslate>
+  </String>
+  <String index="82">
+    <Origin>Rinrin$&quot;Heh-hehn! Rinrin is always mentally prepared!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Heh-hehn! Rinrin is always mentally prepared!&quot;@</ToTranslate>
+  </String>
+  <String index="83">
+    <Origin>Kazuto$&quot;Hey, look... There&apos;s a dog...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Hey, look... There&apos;s a dog...&quot;@</ToTranslate>
+  </String>
+  <String index="84">
+    <Origin>tcg_cho21oa</Origin>
+    <ToTranslate>tcg_cho21oa</ToTranslate>
+  </String>
+  <String index="85">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="86">
+    <Origin>rinr0066</Origin>
+    <ToTranslate>rinr0066</ToTranslate>
+  </String>
+  <String index="87">
+    <Origin>Rinrin$&quot;A puppy?! Where&apos;s the puppy?! ....Ah!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;A puppy?! Where&apos;s the puppy?! ....Ah!&quot;@</ToTranslate>
+  </String>
+  <String index="88">
+    <Origin>Kazuto$&quot;See? You aren&apos;t prepared, yourself!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;See? You aren&apos;t prepared, yourself!&quot;@</ToTranslate>
+  </String>
+  <String index="89">
+    <Origin>tcg_cho21da</Origin>
+    <ToTranslate>tcg_cho21da</ToTranslate>
+  </String>
+  <String index="90">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="91">
+    <Origin>muka</Origin>
+    <ToTranslate>muka</ToTranslate>
+  </String>
+  <String index="92">
+    <Origin>rinr0067</Origin>
+    <ToTranslate>rinr0067</ToTranslate>
+  </String>
+  <String index="93">
+    <Origin>Rinrin$&quot;Grr! You tricked me, Onii-chan!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Grr! You tricked me, Onii-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="94">
+    <Origin>Kazuto$&quot;Ha-han, you&apos;re the one who fell for it!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Ha-han, you&apos;re the one who fell for it!&quot;@</ToTranslate>
+  </String>
+  <String index="95">
+    <Origin>tcg_kan31ha</Origin>
+    <ToTranslate>tcg_kan31ha</ToTranslate>
+  </String>
+  <String index="96">
+    <Origin>tcg_kan31m</Origin>
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="97">
+    <Origin>aisy0091</Origin>
+    <ToTranslate>aisy0091</ToTranslate>
+  </String>
+  <String index="98">
+    <Origin>Aisha$&quot;Hahh... Good grief.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hahh... Good grief.&quot;@</ToTranslate>
+  </String>
+  <String index="99">
+    <Origin>tcg_syo12ba</Origin>
+    <ToTranslate>tcg_syo12ba</ToTranslate>
+  </String>
+  <String index="100">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="101">
+    <Origin>syur0003</Origin>
+    <ToTranslate>syur0003</ToTranslate>
+  </String>
+  <String index="102">
+    <Origin>Shuri$&quot;Hee, hee, hee...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Hee, hee, hee...&quot;@</ToTranslate>
+  </String>
+  <String index="103">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="104">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="105">
+    <Origin>aisy0092</Origin>
+    <ToTranslate>aisy0092</ToTranslate>
+  </String>
+  <String index="106">
+    <Origin>Aisha$&quot;You should not be laughing either, Koumei. This friendly atmosphere will affect our troops&apos; morale. Furthermore...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;You should not be laughing either, Koumei. This friendly atmosphere will affect our troops&apos; morale. Furthermore...&quot;@</ToTranslate>
+  </String>
+  <String index="107">
+    <Origin>tcg_syo22ja</Origin>
+    <ToTranslate>tcg_syo22ja</ToTranslate>
+  </String>
+  <String index="108">
+    <Origin>tcg_syo22m</Origin>
+    <ToTranslate>tcg_syo22m</ToTranslate>
+  </String>
+  <String index="109">
+    <Origin>syur0004</Origin>
+    <ToTranslate>syur0004</ToTranslate>
+  </String>
+  <String index="110">
+    <Origin>Shuri$&quot;Oh...Umm, Kan&apos;u-san, Chouhi-san too...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Oh...Umm, Kan&apos;u-san, Chouhi-san too...&quot;@</ToTranslate>
+  </String>
+  <String index="111">
+    <Origin>tcg_kan21da</Origin>
+    <ToTranslate>tcg_kan21da</ToTranslate>
+  </String>
+  <String index="112">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="113">
+    <Origin>aisy0093</Origin>
+    <ToTranslate>aisy0093</ToTranslate>
+  </String>
+  <String index="114">
+    <Origin>Aisha$&quot;Hmm?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hmm?&quot;@</ToTranslate>
+  </String>
+  <String index="115">
+    <Origin>tcg_cho31ja</Origin>
+    <ToTranslate>tcg_cho31ja</ToTranslate>
+  </String>
+  <String index="116">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="117">
+    <Origin>rinr0068</Origin>
+    <ToTranslate>rinr0068</ToTranslate>
+  </String>
+  <String index="118">
+    <Origin>Rinrin$&quot;Yeah?&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Yeah?&quot;@</ToTranslate>
+  </String>
+  <String index="119">
+    <Origin>tcg_syo12ga</Origin>
+    <ToTranslate>tcg_syo12ga</ToTranslate>
+  </String>
+  <String index="120">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="121">
+    <Origin>syur0005</Origin>
+    <ToTranslate>syur0005</ToTranslate>
+  </String>
+  <String index="122">
+    <Origin>Shuri$&quot;Umm...Could you both please call me by my true name too?  Otherwise I&apos;ll feel like there&apos;s a wall between us.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Umm...Could you both please call me by my true name too?  Otherwise I&apos;ll feel like there&apos;s a wall between us.&quot;@</ToTranslate>
+  </String>
+  <String index="123">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="124">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="125">
+    <Origin>aisy0094</Origin>
+    <ToTranslate>aisy0094</ToTranslate>
+  </String>
+  <String index="126">
+    <Origin>Aisha$&quot;I do not mind...but are you sure? It is taboo to let others call you by your true name unless you have acknowledged them.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;I do not mind...but are you sure? It is taboo to let others call you by your true name unless you have acknowledged them.&quot;@</ToTranslate>
+  </String>
+  <String index="127">
+    <Origin>Aisha$&quot;If a stranger were to call you by your true name, would that not be an insulting disgrace to your honor?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;If a stranger were to call you by your true name, would that not be an insulting disgrace to your honor?&quot;@</ToTranslate>
+  </String>
+  <String index="128">
+    <Origin>tcg_cho11ca</Origin>
+    <ToTranslate>tcg_cho11ca</ToTranslate>
+  </String>
+  <String index="129">
+    <Origin>tcg_cho11m</Origin>
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="130">
+    <Origin>rinr0069</Origin>
+    <ToTranslate>rinr0069</ToTranslate>
+  </String>
+  <String index="131">
+    <Origin>Rinrin$&quot;You haven&apos;t acknowledged us yet, Koumei!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;You haven&apos;t acknowledged us yet, Koumei!&quot;@</ToTranslate>
+  </String>
+  <String index="132">
+    <Origin>aisy0095</Origin>
+    <ToTranslate>aisy0095</ToTranslate>
+  </String>
+  <String index="133">
+    <Origin>Aisha$&quot;Rinrin is right. That&apos;s why we&apos;ve been calling you by your common name...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Rinrin is right. That&apos;s why we&apos;ve been calling you by your common name...&quot;@</ToTranslate>
+  </String>
+  <String index="134">
+    <Origin>tcg_syo22da</Origin>
+    <ToTranslate>tcg_syo22da</ToTranslate>
+  </String>
+  <String index="135">
+    <Origin>tcg_syo22m</Origin>
+    <ToTranslate>tcg_syo22m</ToTranslate>
+  </String>
+  <String index="136">
+    <Origin>syur0006</Origin>
+    <ToTranslate>syur0006</ToTranslate>
+  </String>
+  <String index="137">
+    <Origin>Shuri$&quot;That&apos;s not true! Kan&apos;u-san, Chouhi-san, you&apos;re both very strong, and try very hard. I thought both of you were amazing!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;That&apos;s not true! Kan&apos;u-san, Chouhi-san, you&apos;re both very strong, and try very hard. I thought both of you were amazing!&quot;@</ToTranslate>
+  </String>
+  <String index="138">
+    <Origin>tcg_syo22ja</Origin>
+    <ToTranslate>tcg_syo22ja</ToTranslate>
+  </String>
+  <String index="139">
+    <Origin>tcg_syo22m</Origin>
+    <ToTranslate>tcg_syo22m</ToTranslate>
+  </String>
+  <String index="140">
+    <Origin>syur0007</Origin>
+    <ToTranslate>syur0007</ToTranslate>
+  </String>
+  <String index="141">
+    <Origin>Shuri$&quot;So...If I do say so myself, I greatly acknowledge both of you! That&apos;s why, umm...If you&apos;d be grateful enough to acknowledge me, then I&apos;d like you to call me by my true name.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;So...If I do say so myself, I greatly acknowledge both of you! That&apos;s why, umm...If you&apos;d be grateful enough to acknowledge me, then I&apos;d like you to call me by my true name.&quot;@</ToTranslate>
+  </String>
+  <String index="142">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="143">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="144">
+    <Origin>aisy0096</Origin>
+    <ToTranslate>aisy0096</ToTranslate>
+  </String>
+  <String index="145">
+    <Origin>Aisha$&quot;Hmm... you have proven your ability in the last battle, and we do acknowledge you. Your insight to spot the right moment to attack, and also your flexible strategy are absolutely impressive.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hmm... you have proven your ability in the last battle, and we do acknowledge you. Your insight to spot the right moment to attack, and also your flexible strategy are absolutely impressive.&quot;@</ToTranslate>
+  </String>
+  <String index="146">
+    <Origin>tcg_cho31ga</Origin>
+    <ToTranslate>tcg_cho31ga</ToTranslate>
+  </String>
+  <String index="147">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="148">
+    <Origin>rinr0070</Origin>
+    <ToTranslate>rinr0070</ToTranslate>
+  </String>
+  <String index="149">
+    <Origin>Rinrin$&quot;Grr, Rinrin thought the same thing!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Grr, Rinrin thought the same thing!&quot;@</ToTranslate>
+  </String>
+  <String index="150">
+    <Origin>Kazuto$&quot;Then why don&apos;t you all call each other by your real names? You both acknowledged each other.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Then why don&apos;t you all call each other by your real names? You both acknowledged each other.&quot;@</ToTranslate>
+  </String>
+  <String index="151">
+    <Origin>tcg_kan21aa</Origin>
+    <ToTranslate>tcg_kan21aa</ToTranslate>
+  </String>
+  <String index="152">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="153">
+    <Origin>aisy0097</Origin>
+    <ToTranslate>aisy0097</ToTranslate>
+  </String>
+  <String index="154">
+    <Origin>Aisha$&quot;......Yes, you&apos;re right. Since we have acknowledged one another, there should be no problems.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;......Yes, you&apos;re right. Since we have acknowledged one another, there should be no problems.&quot;@</ToTranslate>
+  </String>
+  <String index="155">
+    <Origin>tcg_syo12ka</Origin>
+    <ToTranslate>tcg_syo12ka</ToTranslate>
+  </String>
+  <String index="156">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="157">
+    <Origin>syur0008</Origin>
+    <ToTranslate>syur0008</ToTranslate>
+  </String>
+  <String index="158">
+    <Origin>Shuri$&quot;Ah, then...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Ah, then...&quot;@</ToTranslate>
+  </String>
+  <String index="159">
+    <Origin>tcg_cho31ba</Origin>
+    <ToTranslate>tcg_cho31ba</ToTranslate>
+  </String>
+  <String index="160">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="161">
+    <Origin>rinr0071</Origin>
+    <ToTranslate>rinr0071</ToTranslate>
+  </String>
+  <String index="162">
+    <Origin>Rinrin$&quot;Yup! Rinrin&apos;s true name is Rinrin! Shuri, we look forward to having you!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Yup! Rinrin&apos;s true name is Rinrin! Shuri, we look forward to having you!&quot;@</ToTranslate>
+  </String>
+  <String index="163">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="164">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="165">
+    <Origin>aisy0098</Origin>
+    <ToTranslate>aisy0098</ToTranslate>
+  </String>
+  <String index="166">
+    <Origin>Aisha$&quot;Same here. My true name is Aisha. ......Let us continue to fight together.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Same here. My true name is Aisha. ......Let us continue to fight together.&quot;@</ToTranslate>
+  </String>
+  <String index="167">
+    <Origin>tcg_syo12ba</Origin>
+    <ToTranslate>tcg_syo12ba</ToTranslate>
+  </String>
+  <String index="168">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="169">
+    <Origin>syur0009</Origin>
+    <ToTranslate>syur0009</ToTranslate>
+  </String>
+  <String index="170">
+    <Origin>Shuri$&quot;Yes!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes!&quot;@</ToTranslate>
+  </String>
+  <String index="171">
+    <Origin>$I watched the three of them as they finally began to get along and smile at each other.@</Origin>
+    <ToTranslate>$I watched the three of them as they finally began to get along and smile at each other.@</ToTranslate>
+  </String>
+  <String index="172">
+    <Origin>Kazuto$&quot;Anyway, now that we have deepened our bonds, let&apos;s quit chatting and head to the next battlefield.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Anyway, now that we have deepened our bonds, let&apos;s quit chatting and head to the next battlefield.&quot;@</ToTranslate>
+  </String>
+  <String index="173">
+    <Origin>$I spoke up to hurry my relaxing friends.@</Origin>
+    <ToTranslate>$I spoke up to hurry my relaxing friends.@</ToTranslate>
+  </String>
+  <String index="174">
+    <Origin>tcg_kan31la</Origin>
+    <ToTranslate>tcg_kan31la</ToTranslate>
+  </String>
+  <String index="175">
+    <Origin>tcg_kan31m</Origin>
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="176">
+    <Origin>aisy0099</Origin>
+    <ToTranslate>aisy0099</ToTranslate>
+  </String>
+  <String index="177">
+    <Origin>Aisha$&quot;Nngh. Were you not the first one to relax, My Lord?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Nngh. Were you not the first one to relax, My Lord?&quot;@</ToTranslate>
+  </String>
+  <String index="178">
+    <Origin>tcg_cho31da</Origin>
+    <ToTranslate>tcg_cho31da</ToTranslate>
+  </String>
+  <String index="179">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="180">
+    <Origin>rinr0072</Origin>
+    <ToTranslate>rinr0072</ToTranslate>
+  </String>
+  <String index="181">
+    <Origin>Rinrin$&quot;That&apos;s right!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;That&apos;s right!&quot;@</ToTranslate>
+  </String>
+  <String index="182">
+    <Origin>tcg_kan31ha</Origin>
+    <ToTranslate>tcg_kan31ha</ToTranslate>
+  </String>
+  <String index="183">
+    <Origin>tcg_kan31m</Origin>
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="184">
+    <Origin>aisy0100</Origin>
+    <ToTranslate>aisy0100</ToTranslate>
+  </String>
+  <String index="185">
+    <Origin>Aisha$&quot;Rinrin, did you not join him?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Rinrin, did you not join him?&quot;@</ToTranslate>
+  </String>
+  <String index="186">
+    <Origin>tcg_cho21da</Origin>
+    <ToTranslate>tcg_cho21da</ToTranslate>
+  </String>
+  <String index="187">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="188">
+    <Origin>rinr0073</Origin>
+    <ToTranslate>rinr0073</ToTranslate>
+  </String>
+  <String index="189">
+    <Origin>Rinrin$&quot;Grrr. Aisha betrayed me.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Grrr. Aisha betrayed me.&quot;@</ToTranslate>
+  </String>
+  <String index="190">
+    <Origin>tcg_syo12aa</Origin>
+    <ToTranslate>tcg_syo12aa</ToTranslate>
+  </String>
+  <String index="191">
+    <Origin>tcg_syo12m</Origin>
+    <ToTranslate>tcg_syo12m</ToTranslate>
+  </String>
+  <String index="192">
+    <Origin>syur0010</Origin>
+    <ToTranslate>syur0010</ToTranslate>
+  </String>
+  <String index="193">
+    <Origin>Shuri$&quot;Hee, hee, hee...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Hee, hee, hee...&quot;@</ToTranslate>
+  </String>
+  <String index="194">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="195">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="196">
+    <Origin>aisy0101</Origin>
+    <ToTranslate>aisy0101</ToTranslate>
+  </String>
+  <String index="197">
+    <Origin>Aisha$&quot;You should not be laughing either, Shuri. This friendly atmosphere will affect our troops&apos; morale. Furthermore...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;You should not be laughing either, Shuri. This friendly atmosphere will affect our troops&apos; morale. Furthermore...&quot;@</ToTranslate>
+  </String>
+  <String index="198">
+    <Origin>$Aisha started to preach at us again as we headed to our next battlefield.@</Origin>
+    <ToTranslate>$Aisha started to preach at us again as we headed to our next battlefield.@</ToTranslate>
+  </String>
+  <String index="199">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="200">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="201">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="202">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="203">
+    <Origin>bcg_camp_a</Origin>
+    <ToTranslate>bcg_camp_a</ToTranslate>
+  </String>
+  <String index="204">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="205">
+    <Origin>bgm03</Origin>
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="206">
+    <Origin>$Kousonsan&apos;s encampment is approximately two li east of the field where we defeated the Yellow Turbans&apos; detached forces.@</Origin>
+    <ToTranslate>$Kousonsan&apos;s encampment is approximately two li east of the field where we defeated the Yellow Turbans&apos; detached forces.@</ToTranslate>
+  </String>
+  <String index="207">
+    <Origin>$Once we arrived at the encampment, I headed to my meeting with Kousonsan with just Shuri so we could have a war council.@</Origin>
+    <ToTranslate>$Once we arrived at the encampment, I headed to my meeting with Kousonsan with just Shuri so we could have a war council.@</ToTranslate>
+  </String>
+  <String index="208">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="209">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="210">
+    <Origin>koso0000</Origin>
+    <ToTranslate>koso0000</ToTranslate>
+  </String>
+  <String index="211">
+    <Origin>Kousonsan$&quot;Hmm...So you&apos;re the man they call the Messenger from Heaven, huh?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Hmm...So you&apos;re the man they call the Messenger from Heaven, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="212">
+    <Origin>Kazuto$&quot;Hello...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Hello...&quot;@</ToTranslate>
+  </String>
+  <String index="213">
+    <Origin>$I answered sullenly as Kousonsan checked me out from head to toe, as if she was staring at a rare animal.@</Origin>
+    <ToTranslate>$I answered sullenly as Kousonsan checked me out from head to toe, as if she was staring at a rare animal.@</ToTranslate>
+  </String>
+  <String index="214">
+    <Origin>tcg_kss11aa</Origin>
+    <ToTranslate>tcg_kss11aa</ToTranslate>
+  </String>
+  <String index="215">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="216">
+    <Origin>koso0001</Origin>
+    <ToTranslate>koso0001</ToTranslate>
+  </String>
+  <String index="217">
+    <Origin>Kousonsan$&quot;Ha, ha, ha, sorry, that was rude of me. Sorry about that. I was a little curious, you know...&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Ha, ha, ha, sorry, that was rude of me. Sorry about that. I was a little curious, you know...&quot;@</ToTranslate>
+  </String>
+  <String index="218">
+    <Origin>$Kousonsan&apos;s expression quickly changed to a smile, allowing me to relax a little.@</Origin>
+    <ToTranslate>$Kousonsan&apos;s expression quickly changed to a smile, allowing me to relax a little.@</ToTranslate>
+  </String>
+  <String index="219">
+    <Origin>Kazuto$&quot;No, that&apos;s okay. Sorry to be rude myself. I couldn&apos;t help it, because you asked me if I was the messenger of Heaven out of the blue like that...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;No, that&apos;s okay. Sorry to be rude myself. I couldn&apos;t help it, because you asked me if I was the messenger of Heaven out of the blue like that...&quot;@</ToTranslate>
+  </String>
+  <String index="220">
+    <Origin>koso0002</Origin>
+    <ToTranslate>koso0002</ToTranslate>
+  </String>
+  <String index="221">
+    <Origin>Kousonsan$&quot;Don&apos;t worry. I was rude to you first, so I don&apos;t blame you for being angry.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Don&apos;t worry. I was rude to you first, so I don&apos;t blame you for being angry.&quot;@</ToTranslate>
+  </String>
+  <String index="222">
+    <Origin>koso0003</Origin>
+    <ToTranslate>koso0003</ToTranslate>
+  </String>
+  <String index="223">
+    <Origin>Kousonsan$&quot;But, well... it&apos;s a pleasure to meet you.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;But, well... it&apos;s a pleasure to meet you.&quot;@</ToTranslate>
+  </String>
+  <String index="224">
+    <Origin>Kazuto$&quot;Same here. By the way, thank you for holding back the Yellow Turbans. If it wasn&apos;t for you, the people in this area would have been attacked.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Same here. By the way, thank you for holding back the Yellow Turbans. If it wasn&apos;t for you, the people in this area would have been attacked.&quot;@</ToTranslate>
+  </String>
+  <String index="225">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="226">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="227">
+    <Origin>koso0004</Origin>
+    <ToTranslate>koso0004</ToTranslate>
+  </String>
+  <String index="228">
+    <Origin>Kousonsan$&quot;What, that? I was just on my way back to my nest in Ryousei Commandery. It was just a stop on the way.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;What, that? I was just on my way back to my nest in Ryousei Commandery. It was just a stop on the way.&quot;@</ToTranslate>
+  </String>
+  <String index="229">
+    <Origin>$Kousonsan waved her hand and bashfully turned away. Somehow I felt like we could get along well.@</Origin>
+    <ToTranslate>$Kousonsan waved her hand and bashfully turned away. Somehow I felt like we could get along well.@</ToTranslate>
+  </String>
+  <String index="230">
+    <Origin>Kazuto$&quot;Thank you so much.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Thank you so much.&quot;@</ToTranslate>
+  </String>
+  <String index="231">
+    <Origin>tcg_kss11aa</Origin>
+    <ToTranslate>tcg_kss11aa</ToTranslate>
+  </String>
+  <String index="232">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="233">
+    <Origin>koso0005</Origin>
+    <ToTranslate>koso0005</ToTranslate>
+  </String>
+  <String index="234">
+    <Origin>Kousonsan$&quot;T-that&apos;s enough already. By the way, how many soldiers did you bring with you?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;T-that&apos;s enough already. By the way, how many soldiers did you bring with you?&quot;@</ToTranslate>
+  </String>
+  <String index="235">
+    <Origin>Kazuto$&quot;About that...Shuri, go ahead.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;About that...Shuri, go ahead.&quot;@</ToTranslate>
+  </String>
+  <String index="236">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="237">
+    <Origin>tcg_kss11aa</Origin>
+    <ToTranslate>tcg_kss11aa</ToTranslate>
+  </String>
+  <String index="238">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="239">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="240">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="241">
+    <Origin>syur0011</Origin>
+    <ToTranslate>syur0011</ToTranslate>
+  </String>
+  <String index="242">
+    <Origin>Shuri$&quot;Yes. Considering the casualties we suffered in our battle with the Yellow Turbans&apos; detached force and the reserves called in to replace them, we currently have roughly five thousand men.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes. Considering the casualties we suffered in our battle with the Yellow Turbans&apos; detached force and the reserves called in to replace them, we currently have roughly five thousand men.&quot;@</ToTranslate>
+  </String>
+  <String index="243">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="244">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="245">
+    <Origin>koso0006</Origin>
+    <ToTranslate>koso0006</ToTranslate>
+  </String>
+  <String index="246">
+    <Origin>Kousonsan$&quot;Approximately five thousand... Adding them to my soldiers, we have a little over ten thousand...&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Approximately five thousand... Adding them to my soldiers, we have a little over ten thousand...&quot;@</ToTranslate>
+  </String>
+  <String index="247">
+    <Origin>tcg_syo11ea</Origin>
+    <ToTranslate>tcg_syo11ea</ToTranslate>
+  </String>
+  <String index="248">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="249">
+    <Origin>syur0012</Origin>
+    <ToTranslate>syur0012</ToTranslate>
+  </String>
+  <String index="250">
+    <Origin>Shuri$&quot;And the enemy numbers?&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;And the enemy numbers?&quot;@</ToTranslate>
+  </String>
+  <String index="251">
+    <Origin>koso0007</Origin>
+    <ToTranslate>koso0007</ToTranslate>
+  </String>
+  <String index="252">
+    <Origin>Kousonsan$&quot;Roughly 25,000. The difference in numbers is so vast that we&apos;ve had trouble just slowing them down.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Roughly 25,000. The difference in numbers is so vast that we&apos;ve had trouble just slowing them down.&quot;@</ToTranslate>
+  </String>
+  <String index="253">
+    <Origin>Kazuto$&quot;Letting 5,000 stand against 25,000 would be too reckless.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Letting 5,000 stand against 25,000 would be too reckless.&quot;@</ToTranslate>
+  </String>
+  <String index="254">
+    <Origin>tcg_kss11aa</Origin>
+    <ToTranslate>tcg_kss11aa</ToTranslate>
+  </String>
+  <String index="255">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="256">
+    <Origin>koso0008</Origin>
+    <ToTranslate>koso0008</ToTranslate>
+  </String>
+  <String index="257">
+    <Origin>Kousonsan$&quot;Ah, you realized it too? That&apos;s how it is. ...Now you know why we blocked off the roads to Zhuo District and confined ourselves in our encampment.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Ah, you realized it too? That&apos;s how it is. ...Now you know why we blocked off the roads to Zhuo District and confined ourselves in our encampment.&quot;@</ToTranslate>
+  </String>
+  <String index="258">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="259">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="260">
+    <Origin>koso0009</Origin>
+    <ToTranslate>koso0009</ToTranslate>
+  </String>
+  <String index="261">
+    <Origin>Kousonsan$&quot;If they can&apos;t get into Zhuo district, then the only other places for them to assault are Qiao and Hebei, right?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;If they can&apos;t get into Zhuo district, then the only other places for them to assault are Qiao and Hebei, right?&quot;@</ToTranslate>
+  </String>
+  <String index="262">
+    <Origin>Kousonsan$&quot;Sousou&apos;s and Enshou&apos;s strongholds are there, and they&apos;re well protected, so there&apos;s no point in protecting them.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Sousou&apos;s and Enshou&apos;s strongholds are there, and they&apos;re well protected, so there&apos;s no point in protecting them.&quot;@</ToTranslate>
+  </String>
+  <String index="263">
+    <Origin>Kazuto$&quot;So you guarded this place for us...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;So you guarded this place for us...&quot;@</ToTranslate>
+  </String>
+  <String index="264">
+    <Origin>koso0010</Origin>
+    <ToTranslate>koso0010</ToTranslate>
+  </String>
+  <String index="265">
+    <Origin>Kousonsan$&quot;Fool, I already told you I was just in the neighborhood! That&apos;s all! It&apos;s not like I thought I had to protect you or anything!&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Fool, I already told you I was just in the neighborhood! That&apos;s all! It&apos;s not like I thought I had to protect you or anything!&quot;@</ToTranslate>
+  </String>
+  <String index="266">
+    <Origin>Kazuto$&quot;Thank you...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Thank you...&quot;@</ToTranslate>
+  </String>
+  <String index="267">
+    <Origin>tcg_kss21ea</Origin>
+    <ToTranslate>tcg_kss21ea</ToTranslate>
+  </String>
+  <String index="268">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="269">
+    <Origin>koso0011</Origin>
+    <ToTranslate>koso0011</ToTranslate>
+  </String>
+  <String index="270">
+    <Origin>Kousonsan$&quot;Hey, shut up, don&apos;t thank me! You&apos;re embarrassing me!&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Hey, shut up, don&apos;t thank me! You&apos;re embarrassing me!&quot;@</ToTranslate>
+  </String>
+  <String index="271">
+    <Origin>Kazuto$&quot;Don&apos;t be shy about it.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Don&apos;t be shy about it.&quot;@</ToTranslate>
+  </String>
+  <String index="272">
+    <Origin>tcg_kss21ca</Origin>
+    <ToTranslate>tcg_kss21ca</ToTranslate>
+  </String>
+  <String index="273">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="274">
+    <Origin>koso0012</Origin>
+    <ToTranslate>koso0012</ToTranslate>
+  </String>
+  <String index="275">
+    <Origin>Kousonsan$&quot;I&apos;m not being shy! I&apos;m just embarrassed!&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;I&apos;m not being shy! I&apos;m just embarrassed!&quot;@</ToTranslate>
+  </String>
+  <String index="276">
+    <Origin>Kazuto$&quot;(Isn&apos;t that the same thing...?)&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;(Isn&apos;t that the same thing...?)&quot;@</ToTranslate>
+  </String>
+  <String index="277">
+    <Origin>$I couldn&apos;t help but smile on the inside.@</Origin>
+    <ToTranslate>$I couldn&apos;t help but smile on the inside.@</ToTranslate>
+  </String>
+  <String index="278">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="279">
+    <Origin>tcg_cun11aa</Origin>
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="280">
+    <Origin>tcg_cun11m</Origin>
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="281">
+    <Origin>bgm13</Origin>
+    <ToTranslate>bgm13</ToTranslate>
+  </String>
+  <String index="282">
+    <Origin>chou0000</Origin>
+    <ToTranslate>chou0000</ToTranslate>
+  </String>
+  <String index="283">
+    <Origin>Girl$&quot;Kousonsan-dono. May I?&quot;@</Origin>
+    <ToTranslate>Girl$&quot;Kousonsan-dono. May I?&quot;@</ToTranslate>
+  </String>
+  <String index="284">
+    <Origin>$A girl who had remained behind Kousonsan up until now stepped towards us in a dignified manner.@</Origin>
+    <ToTranslate>$A girl who had remained behind Kousonsan up until now stepped towards us in a dignified manner.@</ToTranslate>
+  </String>
+  <String index="285">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="286">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="287">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="288">
+    <Origin>tcg_cun11aa</Origin>
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="289">
+    <Origin>tcg_cun11m</Origin>
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="290">
+    <Origin>koso0013</Origin>
+    <ToTranslate>koso0013</ToTranslate>
+  </String>
+  <String index="291">
+    <Origin>Kousonsan$&quot;What is it?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;What is it?&quot;@</ToTranslate>
+  </String>
+  <String index="292">
+    <Origin>tcg_cun21ca</Origin>
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="293">
+    <Origin>tcg_cun21m</Origin>
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="294">
+    <Origin>chou0001</Origin>
+    <ToTranslate>chou0001</ToTranslate>
+  </String>
+  <String index="295">
+    <Origin>Girl$&quot;Reinforcements have arrived, which is splendid news.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;Reinforcements have arrived, which is splendid news.&quot;@</ToTranslate>
+  </String>
+  <String index="296">
+    <Origin>Girl$&quot;Therefore, I would like to hear your plan for defeating the Yellow Turbans. Thereafter, I shall lead the vanguard and confer victory upon you.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;Therefore, I would like to hear your plan for defeating the Yellow Turbans. Thereafter, I shall lead the vanguard and confer victory upon you.&quot;@</ToTranslate>
+  </String>
+  <String index="297">
+    <Origin>tcg_kss21ea</Origin>
+    <ToTranslate>tcg_kss21ea</ToTranslate>
+  </String>
+  <String index="298">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="299">
+    <Origin>koso0014</Origin>
+    <ToTranslate>koso0014</ToTranslate>
+  </String>
+  <String index="300">
+    <Origin>Kousonsan$&quot;There you go again... I can understand your desire to prove your valor, but I&apos;m talking with Hongou now. Don&apos;t you think it&apos;s insolent to interrupt?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;There you go again... I can understand your desire to prove your valor, but I&apos;m talking with Hongou now. Don&apos;t you think it&apos;s insolent to interrupt?&quot;@</ToTranslate>
+  </String>
+  <String index="301">
+    <Origin>tcg_cun31ea</Origin>
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="302">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="303">
+    <Origin>chou0002</Origin>
+    <ToTranslate>chou0002</ToTranslate>
+  </String>
+  <String index="304">
+    <Origin>Girl$&quot;Were I your vassal, then that would be the case. However, I do not recall becoming your vassal.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;Were I your vassal, then that would be the case. However, I do not recall becoming your vassal.&quot;@</ToTranslate>
+  </String>
+  <String index="305">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="306">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="307">
+    <Origin>koso0015</Origin>
+    <ToTranslate>koso0015</ToTranslate>
+  </String>
+  <String index="308">
+    <Origin>Kousonsan$&quot;That is true. Then what do you say we do?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;That is true. Then what do you say we do?&quot;@</ToTranslate>
+  </String>
+  <String index="309">
+    <Origin>tcg_cun31ia</Origin>
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="310">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="311">
+    <Origin>chou0003</Origin>
+    <ToTranslate>chou0003</ToTranslate>
+  </String>
+  <String index="312">
+    <Origin>Girl$It&apos;s obvious. We&apos;re up against a mob. If a matchless warrior attacks and strikes fear into them, they will surely rout. We should charge immediately.&quot;@</Origin>
+    <ToTranslate>Girl$It&apos;s obvious. We&apos;re up against a mob. If a matchless warrior attacks and strikes fear into them, they will surely rout. We should charge immediately.&quot;@</ToTranslate>
+  </String>
+  <String index="313">
+    <Origin>tcg_kss21da</Origin>
+    <ToTranslate>tcg_kss21da</ToTranslate>
+  </String>
+  <String index="314">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="315">
+    <Origin>koso0016</Origin>
+    <ToTranslate>koso0016</ToTranslate>
+  </String>
+  <String index="316">
+    <Origin>Kousonsan$&quot;That&apos;s a crazy idea. They outnumber us. The most basic strategy in war is to ready more soldiers than your opponent. With that in mind, attacking them with our current force is unthinkable!&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;That&apos;s a crazy idea. They outnumber us. The most basic strategy in war is to ready more soldiers than your opponent. With that in mind, attacking them with our current force is unthinkable!&quot;@</ToTranslate>
+  </String>
+  <String index="317">
+    <Origin>tcg_cun31ea</Origin>
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="318">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="319">
+    <Origin>chou0004</Origin>
+    <ToTranslate>chou0004</ToTranslate>
+  </String>
+  <String index="320">
+    <Origin>Girl$&quot;That would be correct if we faced a legitimate army. We need no strategy to defeat those ruffians. All we need is a mighty warrior and a relentless attack!&quot;@</Origin>
+    <ToTranslate>Girl$&quot;That would be correct if we faced a legitimate army. We need no strategy to defeat those ruffians. All we need is a mighty warrior and a relentless attack!&quot;@</ToTranslate>
+  </String>
+  <String index="321">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="322">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="323">
+    <Origin>koso0017</Origin>
+    <ToTranslate>koso0017</ToTranslate>
+  </String>
+  <String index="324">
+    <Origin>Kousonsan$&quot;There you go, boasting again. Are you saying we have a daring general capable of such frighteningly ferocious attacks in my army?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;There you go, boasting again. Are you saying we have a daring general capable of such frighteningly ferocious attacks in my army?&quot;@</ToTranslate>
+  </String>
+  <String index="325">
+    <Origin>tcg_cun11aa</Origin>
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="326">
+    <Origin>tcg_cun11m</Origin>
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="327">
+    <Origin>chou0005</Origin>
+    <ToTranslate>chou0005</ToTranslate>
+  </String>
+  <String index="328">
+    <Origin>Girl$&quot;There are at least three here.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;There are at least three here.&quot;@</ToTranslate>
+  </String>
+  <String index="329">
+    <Origin>tcg_kss11aa</Origin>
+    <ToTranslate>tcg_kss11aa</ToTranslate>
+  </String>
+  <String index="330">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="331">
+    <Origin>koso0018</Origin>
+    <ToTranslate>koso0018</ToTranslate>
+  </String>
+  <String index="332">
+    <Origin>Kousonsan$&quot;Oh? Name them, then.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Oh? Name them, then.&quot;@</ToTranslate>
+  </String>
+  <String index="333">
+    <Origin>tcg_cun31ia</Origin>
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="334">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="335">
+    <Origin>chou0006</Origin>
+    <ToTranslate>chou0006</ToTranslate>
+  </String>
+  <String index="336">
+    <Origin>Girl$&quot;Kan&apos;u-dono, Chouhi-dono, and then me.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;Kan&apos;u-dono, Chouhi-dono, and then me.&quot;@</ToTranslate>
+  </String>
+  <String index="337">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="338">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="339">
+    <Origin>koso0019</Origin>
+    <ToTranslate>koso0019</ToTranslate>
+  </String>
+  <String index="340">
+    <Origin>Kousonsan$&quot;Kan&apos;u and Chouhi? Who are they?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Kan&apos;u and Chouhi? Who are they?&quot;@</ToTranslate>
+  </String>
+  <String index="341">
+    <Origin>Kazuto$&quot;Ah... those two are my comrades. I&apos;m currently having them wait with our soldiers.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Ah... those two are my comrades. I&apos;m currently having them wait with our soldiers.&quot;@</ToTranslate>
+  </String>
+  <String index="342">
+    <Origin>koso0020</Origin>
+    <ToTranslate>koso0020</ToTranslate>
+  </String>
+  <String index="343">
+    <Origin>Kousonsan$&quot;......Are they as good as she claims?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;......Are they as good as she claims?&quot;@</ToTranslate>
+  </String>
+  <String index="344">
+    <Origin>Kazuto$&quot;Yeah. I&apos;m confident. They are awesome. I can&apos;t explain how awesome they are, but they really are awesome.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Yeah. I&apos;m confident. They are awesome. I can&apos;t explain how awesome they are, but they really are awesome.&quot;@</ToTranslate>
+  </String>
+  <String index="345">
+    <Origin>tcg_kss11aa</Origin>
+    <ToTranslate>tcg_kss11aa</ToTranslate>
+  </String>
+  <String index="346">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="347">
+    <Origin>koso0021</Origin>
+    <ToTranslate>koso0021</ToTranslate>
+  </String>
+  <String index="348">
+    <Origin>Kousonsan$&quot;Hmm...If the Messenger from Heaven says so, then I&apos;m positive they are.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Hmm...If the Messenger from Heaven says so, then I&apos;m positive they are.&quot;@</ToTranslate>
+  </String>
+  <String index="349">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="350">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="351">
+    <Origin>koso0022</Origin>
+    <ToTranslate>koso0022</ToTranslate>
+  </String>
+  <String index="352">
+    <Origin>Kousonsan$&quot;However, that doesn&apos;t mean we can waste our soldiers&apos; lives in such a reckless attack. Think of something else.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;However, that doesn&apos;t mean we can waste our soldiers&apos; lives in such a reckless attack. Think of something else.&quot;@</ToTranslate>
+  </String>
+  <String index="353">
+    <Origin>tcg_cun31ea</Origin>
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="354">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="355">
+    <Origin>chou0007</Origin>
+    <ToTranslate>chou0007</ToTranslate>
+  </String>
+  <String index="356">
+    <Origin>Girl$&quot;You&apos;re soft, Kousonsan-dono. You may be the general of a district, but you&apos;ll never be the ruler of a country that way.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;You&apos;re soft, Kousonsan-dono. You may be the general of a district, but you&apos;ll never be the ruler of a country that way.&quot;@</ToTranslate>
+  </String>
+  <String index="357">
+    <Origin>tcg_kss21ea</Origin>
+    <ToTranslate>tcg_kss21ea</ToTranslate>
+  </String>
+  <String index="358">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="359">
+    <Origin>koso0023</Origin>
+    <ToTranslate>koso0023</ToTranslate>
+  </String>
+  <String index="360">
+    <Origin>Kousonsan$&quot;How dare you... Fine, if you&apos;re that confident, why don&apos;t you do as you wish?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;How dare you... Fine, if you&apos;re that confident, why don&apos;t you do as you wish?&quot;@</ToTranslate>
+  </String>
+  <String index="361">
+    <Origin>tcg_cun31ia</Origin>
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="362">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="363">
+    <Origin>chou0008</Origin>
+    <ToTranslate>chou0008</ToTranslate>
+  </String>
+  <String index="364">
+    <Origin>Girl$&quot;Hmph. Offer accepted.&quot;@</Origin>
+    <ToTranslate>Girl$&quot;Hmph. Offer accepted.&quot;@</ToTranslate>
+  </String>
+  <String index="365">
+    <Origin>SE028</Origin>
+    <ToTranslate>SE028</ToTranslate>
+  </String>
+  <String index="366">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="367">
+    <Origin>bgm03</Origin>
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="368">
+    <Origin>$Contrary to Kousonsan who was furious, the girl simply nodded with little word, turned around, and left.@</Origin>
+    <ToTranslate>$Contrary to Kousonsan who was furious, the girl simply nodded with little word, turned around, and left.@</ToTranslate>
+  </String>
+  <String index="369">
+    <Origin>Kazuto$&quot;Ahh...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Ahh...&quot;@</ToTranslate>
+  </String>
+  <String index="370">
+    <Origin>tcg_kss11ga</Origin>
+    <ToTranslate>tcg_kss11ga</ToTranslate>
+  </String>
+  <String index="371">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="372">
+    <Origin>koso0024</Origin>
+    <ToTranslate>koso0024</ToTranslate>
+  </String>
+  <String index="373">
+    <Origin>Kousonsan$&quot;Sorry about that. Forget about what just happened.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Sorry about that. Forget about what just happened.&quot;@</ToTranslate>
+  </String>
+  <String index="374">
+    <Origin>Kazuto$&quot;It&apos;s not a matter of remembering it. ...Is that girl going to be okay? From what I saw, she looked like she truly intends to charge in alone.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;It&apos;s not a matter of remembering it. ...Is that girl going to be okay? From what I saw, she looked like she truly intends to charge in alone.&quot;@</ToTranslate>
+  </String>
+  <String index="375">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="376">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="377">
+    <Origin>koso0025</Origin>
+    <ToTranslate>koso0025</ToTranslate>
+  </String>
+  <String index="378">
+    <Origin>Kousonsan$&quot;Leave her be. People like that are all talk. I doubt she&apos;ll show that much courage in the face of their army.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Leave her be. People like that are all talk. I doubt she&apos;ll show that much courage in the face of their army.&quot;@</ToTranslate>
+  </String>
+  <String index="379">
+    <Origin>Kousonsan$&quot;She&apos;ll either meet an honorable death or come running home with her tail between her legs.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;She&apos;ll either meet an honorable death or come running home with her tail between her legs.&quot;@</ToTranslate>
+  </String>
+  <String index="380">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="381">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="382">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="383">
+    <Origin>tcg_syo21ja</Origin>
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="384">
+    <Origin>tcg_syo21m</Origin>
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="385">
+    <Origin>syur0013</Origin>
+    <ToTranslate>syur0013</ToTranslate>
+  </String>
+  <String index="386">
+    <Origin>Shuri$&quot;But... If a general falls before the battle, then won&apos;t that affect the whole army&apos;s morale?&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;But... If a general falls before the battle, then won&apos;t that affect the whole army&apos;s morale?&quot;@</ToTranslate>
+  </String>
+  <String index="387">
+    <Origin>Kazuto$&quot;That&apos;s true... What should we do?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;That&apos;s true... What should we do?&quot;@</ToTranslate>
+  </String>
+  <String index="388">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="389">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="390">
+    <Origin>syur0014</Origin>
+    <ToTranslate>syur0014</ToTranslate>
+  </String>
+  <String index="391">
+    <Origin>Shuri$&quot;Let&apos;s see... Please wait a moment.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Let&apos;s see... Please wait a moment.&quot;@</ToTranslate>
+  </String>
+  <String index="392">
+    <Origin>tcg_syo41ea</Origin>
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="393">
+    <Origin>tcg_syo41m</Origin>
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="394">
+    <Origin>tenten</Origin>
+    <ToTranslate>tenten</ToTranslate>
+  </String>
+  <String index="395">
+    <Origin>$Shuri seemed to be working her brain at an amazing pace.@</Origin>
+    <ToTranslate>$Shuri seemed to be working her brain at an amazing pace.@</ToTranslate>
+  </String>
+  <String index="396">
+    <Origin>$You could almost hear the clicking chatter of an abacus as she ran her calculations.@</Origin>
+    <ToTranslate>$You could almost hear the clicking chatter of an abacus as she ran her calculations.@</ToTranslate>
+  </String>
+  <String index="397">
+    <Origin>$After that period of silent thought, Shuri finally spoke.@</Origin>
+    <ToTranslate>$After that period of silent thought, Shuri finally spoke.@</ToTranslate>
+  </String>
+  <String index="398">
+    <Origin>tcg_syo11ka</Origin>
+    <ToTranslate>tcg_syo11ka</ToTranslate>
+  </String>
+  <String index="399">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="400">
+    <Origin>onpu</Origin>
+    <ToTranslate>onpu</ToTranslate>
+  </String>
+  <String index="401">
+    <Origin>syur0015</Origin>
+    <ToTranslate>syur0015</ToTranslate>
+  </String>
+  <String index="402">
+    <Origin>Shuri$&quot;I&apos;ve got it! I&apos;ve come up up with two plans: one for if she does attack and one for if she doesn&apos;t!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;I&apos;ve got it! I&apos;ve come up up with two plans: one for if she does attack and one for if she doesn&apos;t!&quot;@</ToTranslate>
+  </String>
+  <String index="403">
+    <Origin>$Like a flower suddenly blooming, a smile blossomed on her face, and she tugged on my sleeve.@</Origin>
+    <ToTranslate>$Like a flower suddenly blooming, a smile blossomed on her face, and she tugged on my sleeve.@</ToTranslate>
+  </String>
+  <String index="404">
+    <Origin>Kazuto$&quot;Oh, now that&apos;s our Shuri. You&apos;re so reliable.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Oh, now that&apos;s our Shuri. You&apos;re so reliable.&quot;@</ToTranslate>
+  </String>
+  <String index="405">
+    <Origin>$Rub rub...@</Origin>
+    <ToTranslate>$Rub rub...@</ToTranslate>
+  </String>
+  <String index="406">
+    <Origin>tcg_syo11la</Origin>
+    <ToTranslate>tcg_syo11la</ToTranslate>
+  </String>
+  <String index="407">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="408">
+    <Origin>syur0016</Origin>
+    <ToTranslate>syur0016</ToTranslate>
+  </String>
+  <String index="409">
+    <Origin>Shuri$&quot;Hee, hee... you rubbed my head...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Hee, hee... you rubbed my head...&quot;@</ToTranslate>
+  </String>
+  <String index="410">
+    <Origin>$Shuri closes her eyes and blushes.@</Origin>
+    <ToTranslate>$Shuri closes her eyes and blushes.@</ToTranslate>
+  </String>
+  <String index="411">
+    <Origin>tcg_kss21da</Origin>
+    <ToTranslate>tcg_kss21da</ToTranslate>
+  </String>
+  <String index="412">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="413">
+    <Origin>koso0026</Origin>
+    <ToTranslate>koso0026</ToTranslate>
+  </String>
+  <String index="414">
+    <Origin>Kousonsan$&quot;Is there any reason to go that far in saving Chouun? Wouldn&apos;t it be more constructive to devise a plan for wiping them out with our forces?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Is there any reason to go that far in saving Chouun? Wouldn&apos;t it be more constructive to devise a plan for wiping them out with our forces?&quot;@</ToTranslate>
+  </String>
+  <String index="415">
+    <Origin>$Kousonsan objected with a look.@</Origin>
+    <ToTranslate>$Kousonsan objected with a look.@</ToTranslate>
+  </String>
+  <String index="416">
+    <Origin>Kazuto$&quot;Wait a minute. What did you just say?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Wait a minute. What did you just say?&quot;@</ToTranslate>
+  </String>
+  <String index="417">
+    <Origin>tcg_kss21ea</Origin>
+    <ToTranslate>tcg_kss21ea</ToTranslate>
+  </String>
+  <String index="418">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="419">
+    <Origin>koso0027</Origin>
+    <ToTranslate>koso0027</ToTranslate>
+  </String>
+  <String index="420">
+    <Origin>Kousonsan$&quot;We should devise a plan for wiping them out with our forces?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;We should devise a plan for wiping them out with our forces?&quot;@</ToTranslate>
+  </String>
+  <String index="421">
+    <Origin>Kazuto$&quot;No, before that. Did you say her name is Chouun?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;No, before that. Did you say her name is Chouun?&quot;@</ToTranslate>
+  </String>
+  <String index="422">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="423">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="424">
+    <Origin>koso0028</Origin>
+    <ToTranslate>koso0028</ToTranslate>
+  </String>
+  <String index="425">
+    <Origin>Kousonsan$&quot;Yeah. Her name is Chou Shiryuu. She said she wanted to protect people, and ended up staying with us. Well, she is strong and smart, so I decided to let her stay as an ancillary general.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Yeah. Her name is Chou Shiryuu. She said she wanted to protect people, and ended up staying with us. Well, she is strong and smart, so I decided to let her stay as an ancillary general.&quot;@</ToTranslate>
+  </String>
+  <String index="426">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="427">
+    <Origin>Kazuto$&quot;I see...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;I see...&quot;@</ToTranslate>
+  </String>
+  <String index="428">
+    <Origin>$Kan&apos;u and Chouhi, also Shokatsuryou... They are all girls, so I half suspected it, but Chouun is a girl in this world too...@</Origin>
+    <ToTranslate>$Kan&apos;u and Chouhi, also Shokatsuryou... They are all girls, so I half suspected it, but Chouun is a girl in this world too...@</ToTranslate>
+  </String>
+  <String index="429">
+    <Origin>Kazuto$&quot;(But...)&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;(But...)&quot;@</ToTranslate>
+  </String>
+  <String index="430">
+    <Origin>$Kan&apos;u and Chouhi, Shokatsuryou and Chouun... Each one of them is a great general who gathered under a hero named Ryuubi.@</Origin>
+    <ToTranslate>$Kan&apos;u and Chouhi, Shokatsuryou and Chouun... Each one of them is a great general who gathered under a hero named Ryuubi.@</ToTranslate>
+  </String>
+  <String index="431">
+    <Origin>$But I still haven&apos;t heard &quot;Ryuubi&quot; once since I arrived in this world.@</Origin>
+    <ToTranslate>$But I still haven&apos;t heard &quot;Ryuubi&quot; once since I arrived in this world.@</ToTranslate>
+  </String>
+  <String index="432">
+    <Origin>Kazuto$&quot;(Does that mean I&apos;m playing the part of Ryuubi?)&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;(Does that mean I&apos;m playing the part of Ryuubi?)&quot;@</ToTranslate>
+  </String>
+  <String index="433">
+    <Origin>$If so, will Ryuubi&apos;s other vassals, like Bachou and Kouchuu, join me soon?@</Origin>
+    <ToTranslate>$If so, will Ryuubi&apos;s other vassals, like Bachou and Kouchuu, join me soon?@</ToTranslate>
+  </String>
+  <String index="434">
+    <Origin>Kazuto$&quot;(But...I thought Shokatsuryou didn&apos;t join Ryuubi until after the Yellow Turban Rebellion...)&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;(But...I thought Shokatsuryou didn&apos;t join Ryuubi until after the Yellow Turban Rebellion...)&quot;@</ToTranslate>
+  </String>
+  <String index="435">
+    <Origin>$Yet, she joined me in the middle of the Yellow Turban Rebellion... That means...@</Origin>
+    <ToTranslate>$Yet, she joined me in the middle of the Yellow Turban Rebellion... That means...@</ToTranslate>
+  </String>
+  <String index="436">
+    <Origin>Kazuto$&quot;(Is history being changed by my presence here?)&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;(Is history being changed by my presence here?)&quot;@</ToTranslate>
+  </String>
+  <String index="437">
+    <Origin>Kazuto$&quot;(No, wait... If I really did just time travel back into the Romance of the Three Kingdoms era, Kan&apos;u and Chouhi would be guys. ...This must be$a parallel world.)&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;(No, wait... If I really did just time travel back into the Romance of the Three Kingdoms era, Kan&apos;u and Chouhi would be guys. ...This must be$a parallel world.)&quot;@</ToTranslate>
+  </String>
+  <String index="438">
+    <Origin>$If that&apos;s the case, then will what I know about the Romance of the Three Kingdoms be of any use at all?@</Origin>
+    <ToTranslate>$If that&apos;s the case, then will what I know about the Romance of the Three Kingdoms be of any use at all?@</ToTranslate>
+  </String>
+  <String index="439">
+    <Origin>$I only know what I&apos;ve learned from novels and TV shows, though...@</Origin>
+    <ToTranslate>$I only know what I&apos;ve learned from novels and TV shows, though...@</ToTranslate>
+  </String>
+  <String index="440">
+    <Origin>$My reverie was broken by a loud uproar from nearby.@</Origin>
+    <ToTranslate>$My reverie was broken by a loud uproar from nearby.@</ToTranslate>
+  </String>
+  <String index="441">
+    <Origin>Kazuto$&quot;Eh? What? What happened?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Eh? What? What happened?&quot;@</ToTranslate>
+  </String>
+  <String index="442">
+    <Origin>Soldier$&quot;My Lady! Chouun-dono has left the camp and is preparing to charge the enemy army!&quot;@</Origin>
+    <ToTranslate>Soldier$&quot;My Lady! Chouun-dono has left the camp and is preparing to charge the enemy army!&quot;@</ToTranslate>
+  </String>
+  <String index="443">
+    <Origin>bgm13</Origin>
+    <ToTranslate>bgm13</ToTranslate>
+  </String>
+  <String index="444">
+    <Origin>Kazuto$&quot;...!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;...!&quot;@</ToTranslate>
+  </String>
+  <String index="445">
+    <Origin>tcg_kss21da</Origin>
+    <ToTranslate>tcg_kss21da</ToTranslate>
+  </String>
+  <String index="446">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="447">
+    <Origin>koso0029</Origin>
+    <ToTranslate>koso0029</ToTranslate>
+  </String>
+  <String index="448">
+    <Origin>Kousanson$&quot;Damn it, what is she thinking? Shit!&quot;@</Origin>
+    <ToTranslate>Kousanson$&quot;Damn it, what is she thinking? Shit!&quot;@</ToTranslate>
+  </String>
+  <String index="449">
+    <Origin>Kazuto$&quot;This isn&apos;t good... Shuri!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;This isn&apos;t good... Shuri!&quot;@</ToTranslate>
+  </String>
+  <String index="450">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="451">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="452">
+    <Origin>syur0017</Origin>
+    <ToTranslate>syur0017</ToTranslate>
+  </String>
+  <String index="453">
+    <Origin>Shuri$&quot;Yes!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes!&quot;@</ToTranslate>
+  </String>
+  <String index="454">
+    <Origin>Kazuto$&quot;Tell Aisha and Rinrin to gather the soldiers! We deploy immediately!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Tell Aisha and Rinrin to gather the soldiers! We deploy immediately!&quot;@</ToTranslate>
+  </String>
+  <String index="455">
+    <Origin>tcg_syo21ca</Origin>
+    <ToTranslate>tcg_syo21ca</ToTranslate>
+  </String>
+  <String index="456">
+    <Origin>tcg_syo21m</Origin>
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="457">
+    <Origin>syur0018</Origin>
+    <ToTranslate>syur0018</ToTranslate>
+  </String>
+  <String index="458">
+    <Origin>Shuri$&quot;Haooah?! R-Roger!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Haooah?! R-Roger!&quot;@</ToTranslate>
+  </String>
+  <String index="459">
+    <Origin>SE026</Origin>
+    <ToTranslate>SE026</ToTranslate>
+  </String>
+  <String index="460">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="461">
+    <Origin>tcg_kss21da</Origin>
+    <ToTranslate>tcg_kss21da</ToTranslate>
+  </String>
+  <String index="462">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="463">
+    <Origin>koso0030</Origin>
+    <ToTranslate>koso0030</ToTranslate>
+  </String>
+  <String index="464">
+    <Origin>Kousonsan$&quot;Hey, what do you mean? Why don&apos;t you leave her alone?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Hey, what do you mean? Why don&apos;t you leave her alone?&quot;@</ToTranslate>
+  </String>
+  <String index="465">
+    <Origin>Kazuto$&quot;We can&apos;t do that. Sorry, but we&apos;ll go after Chouun.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;We can&apos;t do that. Sorry, but we&apos;ll go after Chouun.&quot;@</ToTranslate>
+  </String>
+  <String index="466">
+    <Origin>tcg_kss21ea</Origin>
+    <ToTranslate>tcg_kss21ea</ToTranslate>
+  </String>
+  <String index="467">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="468">
+    <Origin>koso0031</Origin>
+    <ToTranslate>koso0031</ToTranslate>
+  </String>
+  <String index="469">
+    <Origin>Kousonsan$&quot;What are you saying? If our soldiers don&apos;t join forces, then we can&apos;t beat them?!&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;What are you saying? If our soldiers don&apos;t join forces, then we can&apos;t beat them?!&quot;@</ToTranslate>
+  </String>
+  <String index="470">
+    <Origin>Kazuto$&quot;Take care of yourselves. I trust you&apos;ll do well, General Kousonsan. ......You can even use us as bait, so come up with a good plan.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Take care of yourselves. I trust you&apos;ll do well, General Kousonsan. ......You can even use us as bait, so come up with a good plan.&quot;@</ToTranslate>
+  </String>
+  <String index="471">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="472">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="473">
+    <Origin>koso0032</Origin>
+    <ToTranslate>koso0032</ToTranslate>
+  </String>
+  <String index="474">
+    <Origin>Kousonsan$&quot;You can&apos;t do that to me... But... hmmm, bait, huh?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;You can&apos;t do that to me... But... hmmm, bait, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="475">
+    <Origin>$Kousonsan muttered and thought to herself.@</Origin>
+    <ToTranslate>$Kousonsan muttered and thought to herself.@</ToTranslate>
+  </String>
+  <String index="476">
+    <Origin>tcg_kss11fa</Origin>
+    <ToTranslate>tcg_kss11fa</ToTranslate>
+  </String>
+  <String index="477">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="478">
+    <Origin>koso0033</Origin>
+    <ToTranslate>koso0033</ToTranslate>
+  </String>
+  <String index="479">
+    <Origin>Kousonsan$&quot;Fine. Then we will use you as bait. We&apos;ll lay in ambush and attack them from behind. ...How about that?&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Fine. Then we will use you as bait. We&apos;ll lay in ambush and attack them from behind. ...How about that?&quot;@</ToTranslate>
+  </String>
+  <String index="480">
+    <Origin>Kazuto$&quot;Sure. Thank you for your help.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Sure. Thank you for your help.&quot;@</ToTranslate>
+  </String>
+  <String index="481">
+    <Origin>tcg_kss11ba</Origin>
+    <ToTranslate>tcg_kss11ba</ToTranslate>
+  </String>
+  <String index="482">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="483">
+    <Origin>koso0034</Origin>
+    <ToTranslate>koso0034</ToTranslate>
+  </String>
+  <String index="484">
+    <Origin>Kousonsan$&quot;Shut up. Do what you want. But you must endure their attack to at least allow us to prepare. Carve that into your mind.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;Shut up. Do what you want. But you must endure their attack to at least allow us to prepare. Carve that into your mind.&quot;@</ToTranslate>
+  </String>
+  <String index="485">
+    <Origin>Kazuto$&quot;Got it. We&apos;ll find a way.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Got it. We&apos;ll find a way.&quot;@</ToTranslate>
+  </String>
+  <String index="486">
+    <Origin>tcg_kss21ea</Origin>
+    <ToTranslate>tcg_kss21ea</ToTranslate>
+  </String>
+  <String index="487">
+    <Origin>tcg_kss21m</Origin>
+    <ToTranslate>tcg_kss21m</ToTranslate>
+  </String>
+  <String index="488">
+    <Origin>koso0035</Origin>
+    <ToTranslate>koso0035</ToTranslate>
+  </String>
+  <String index="489">
+    <Origin>Kousonsan$&quot;If I think it&apos;s too dangerous, we&apos;ll pull out. I have no reason to stay with you at that much risk to us.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;If I think it&apos;s too dangerous, we&apos;ll pull out. I have no reason to stay with you at that much risk to us.&quot;@</ToTranslate>
+  </String>
+  <String index="490">
+    <Origin>Kazuto$&quot;I understand.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;I understand.&quot;@</ToTranslate>
+  </String>
+  <String index="491">
+    <Origin>tcg_kss11ga</Origin>
+    <ToTranslate>tcg_kss11ga</ToTranslate>
+  </String>
+  <String index="492">
+    <Origin>tcg_kss11m</Origin>
+    <ToTranslate>tcg_kss11m</ToTranslate>
+  </String>
+  <String index="493">
+    <Origin>koso0036</Origin>
+    <ToTranslate>koso0036</ToTranslate>
+  </String>
+  <String index="494">
+    <Origin>Kousonsan$&quot;But...Well, I guess...I will be praying for your success.&quot;@</Origin>
+    <ToTranslate>Kousonsan$&quot;But...Well, I guess...I will be praying for your success.&quot;@</ToTranslate>
+  </String>
+  <String index="495">
+    <Origin>Kazuto$&quot;Okay, thanks.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Okay, thanks.&quot;@</ToTranslate>
+  </String>
+  <String index="496">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="497">
+    <Origin>$I said farewell to Kousonsan and headed to Aisha and Rinrin.@</Origin>
+    <ToTranslate>$I said farewell to Kousonsan and headed to Aisha and Rinrin.@</ToTranslate>
+  </String>
+  <String index="498">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="499">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="500">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="501">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="502">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="503">
+    <Origin>tcg_kan31ka</Origin>
+    <ToTranslate>tcg_kan31ka</ToTranslate>
+  </String>
+  <String index="504">
+    <Origin>tcg_kan31m</Origin>
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="505">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="506">
+    <Origin>bgm0000</Origin>
+    <ToTranslate>bgm0000</ToTranslate>
+  </String>
+  <String index="507">
+    <Origin>aisy0102</Origin>
+    <ToTranslate>aisy0102</ToTranslate>
+  </String>
+  <String index="508">
+    <Origin>Aisha$&quot;Hahh......What are you thinking? Good grief.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hahh......What are you thinking? Good grief.&quot;@</ToTranslate>
+  </String>
+  <String index="509">
+    <Origin>$Aisha heaved a deep sigh when she saw me.@</Origin>
+    <ToTranslate>$Aisha heaved a deep sigh when she saw me.@</ToTranslate>
+  </String>
+  <String index="510">
+    <Origin>$Shuri must have told her everything.@</Origin>
+    <ToTranslate>$Shuri must have told her everything.@</ToTranslate>
+  </String>
+  <String index="511">
+    <Origin>Kazuto$&quot;Sorry...&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Sorry...&quot;@</ToTranslate>
+  </String>
+  <String index="512">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="513">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="514">
+    <Origin>aisy0103</Origin>
+    <ToTranslate>aisy0103</ToTranslate>
+  </String>
+  <String index="515">
+    <Origin>Aisha$&quot;It is not a matter you can simply apologize for. Please think about our soldiers.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;It is not a matter you can simply apologize for. Please think about our soldiers.&quot;@</ToTranslate>
+  </String>
+  <String index="516">
+    <Origin>Kazuto$&quot;What you say is true......but that girl is one that we must save. We need her help to end these wars.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;What you say is true......but that girl is one that we must save. We need her help to end these wars.&quot;@</ToTranslate>
+  </String>
+  <String index="517">
+    <Origin>tcg_kan21da</Origin>
+    <ToTranslate>tcg_kan21da</ToTranslate>
+  </String>
+  <String index="518">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="519">
+    <Origin>aisy0104</Origin>
+    <ToTranslate>aisy0104</ToTranslate>
+  </String>
+  <String index="520">
+    <Origin>Aisha$&quot;Is she that powerful?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Is she that powerful?&quot;@</ToTranslate>
+  </String>
+  <String index="521">
+    <Origin>Kazuto$&quot;Yes. Most likely......No, I&apos;m sure she&apos;ll join our side.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Yes. Most likely......No, I&apos;m sure she&apos;ll join our side.&quot;@</ToTranslate>
+  </String>
+  <String index="522">
+    <Origin>tcg_cho11aa</Origin>
+    <ToTranslate>tcg_cho11aa</ToTranslate>
+  </String>
+  <String index="523">
+    <Origin>tcg_cho11m</Origin>
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="524">
+    <Origin>rinr0074</Origin>
+    <ToTranslate>rinr0074</ToTranslate>
+  </String>
+  <String index="525">
+    <Origin>Rinrin$&quot;That girl did seem strong.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;That girl did seem strong.&quot;@</ToTranslate>
+  </String>
+  <String index="526">
+    <Origin>Kazuto$&quot;You can tell, Rinrin?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;You can tell, Rinrin?&quot;@</ToTranslate>
+  </String>
+  <String index="527">
+    <Origin>tcg_cho31ja</Origin>
+    <ToTranslate>tcg_cho31ja</ToTranslate>
+  </String>
+  <String index="528">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="529">
+    <Origin>rinr0075</Origin>
+    <ToTranslate>rinr0075</ToTranslate>
+  </String>
+  <String index="530">
+    <Origin>Rinrin$&quot;Sure. Just by watching the way she walks I can tell she doesn&apos;t have a single opening.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Sure. Just by watching the way she walks I can tell she doesn&apos;t have a single opening.&quot;@</ToTranslate>
+  </String>
+  <String index="531">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="532">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="533">
+    <Origin>aisy0105</Origin>
+    <ToTranslate>aisy0105</ToTranslate>
+  </String>
+  <String index="534">
+    <Origin>Aisha$&quot;That&apos;s true. However...attacking a rebel army that large all by herself is nothing but reckless.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;That&apos;s true. However...attacking a rebel army that large all by herself is nothing but reckless.&quot;@</ToTranslate>
+  </String>
+  <String index="535">
+    <Origin>Kazuto$&quot;I know. But that&apos;s why we have to save her.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;I know. But that&apos;s why we have to save her.&quot;@</ToTranslate>
+  </String>
+  <String index="536">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="537">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="538">
+    <Origin>aisy0106</Origin>
+    <ToTranslate>aisy0106</ToTranslate>
+  </String>
+  <String index="539">
+    <Origin>Aisha$&quot;You may be right, but...their numbers are vast and ours are not. What are you saying we should...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;You may be right, but...their numbers are vast and ours are not. What are you saying we should...&quot;@</ToTranslate>
+  </String>
+  <String index="540">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="541">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="542">
+    <Origin>syur0019</Origin>
+    <ToTranslate>syur0019</ToTranslate>
+  </String>
+  <String index="543">
+    <Origin>Shuri$&quot;I have a plan.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;I have a plan.&quot;@</ToTranslate>
+  </String>
+  <String index="544">
+    <Origin>tcg_kan21da</Origin>
+    <ToTranslate>tcg_kan21da</ToTranslate>
+  </String>
+  <String index="545">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="546">
+    <Origin>aisy0107</Origin>
+    <ToTranslate>aisy0107</ToTranslate>
+  </String>
+  <String index="547">
+    <Origin>Aisha$&quot;You do?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;You do?&quot;@</ToTranslate>
+  </String>
+  <String index="548">
+    <Origin>tcg_syo11ba</Origin>
+    <ToTranslate>tcg_syo11ba</ToTranslate>
+  </String>
+  <String index="549">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="550">
+    <Origin>syur0020</Origin>
+    <ToTranslate>syur0020</ToTranslate>
+  </String>
+  <String index="551">
+    <Origin>Shuri$&quot;Yes. There may be a difference in our forces, but we can handle them with what we have.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes. There may be a difference in our forces, but we can handle them with what we have.&quot;@</ToTranslate>
+  </String>
+  <String index="552">
+    <Origin>tcg_cho21ja</Origin>
+    <ToTranslate>tcg_cho21ja</ToTranslate>
+  </String>
+  <String index="553">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="554">
+    <Origin>rinr0076</Origin>
+    <ToTranslate>rinr0076</ToTranslate>
+  </String>
+  <String index="555">
+    <Origin>Rinrin$&quot;Really? That&apos;s great, Shuri!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Really? That&apos;s great, Shuri!&quot;@</ToTranslate>
+  </String>
+  <String index="556">
+    <Origin>tcg_syo11ka</Origin>
+    <ToTranslate>tcg_syo11ka</ToTranslate>
+  </String>
+  <String index="557">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="558">
+    <Origin>syur0021</Origin>
+    <ToTranslate>syur0021</ToTranslate>
+  </String>
+  <String index="559">
+    <Origin>Shuri$&quot;Hee, hee, thank you!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Hee, hee, thank you!&quot;@</ToTranslate>
+  </String>
+  <String index="560">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="561">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="562">
+    <Origin>aisy0108</Origin>
+    <ToTranslate>aisy0108</ToTranslate>
+  </String>
+  <String index="563">
+    <Origin>Aisha$&quot;That&apos;s impressive. So what is the plan?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;That&apos;s impressive. So what is the plan?&quot;@</ToTranslate>
+  </String>
+  <String index="564">
+    <Origin>tcg_syo41ea</Origin>
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="565">
+    <Origin>tcg_syo41m</Origin>
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="566">
+    <Origin>syur0022</Origin>
+    <ToTranslate>syur0022</ToTranslate>
+  </String>
+  <String index="567">
+    <Origin>Shuri$&quot;I&apos;m not sure if it&apos;s big enough to call a plan, but Aisha-san, as soon as Chouun-san charges in, take your personal guard and have them charge in with you.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;I&apos;m not sure if it&apos;s big enough to call a plan, but Aisha-san, as soon as Chouun-san charges in, take your personal guard and have them charge in with you.&quot;@</ToTranslate>
+  </String>
+  <String index="568">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="569">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="570">
+    <Origin>aisy0109</Origin>
+    <ToTranslate>aisy0109</ToTranslate>
+  </String>
+  <String index="571">
+    <Origin>Aisha$&quot;Oh? I&apos;ll be charging in too?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Oh? I&apos;ll be charging in too?&quot;@</ToTranslate>
+  </String>
+  <String index="572">
+    <Origin>tcg_cho31ja</Origin>
+    <ToTranslate>tcg_cho31ja</ToTranslate>
+  </String>
+  <String index="573">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="574">
+    <Origin>rinr0077</Origin>
+    <ToTranslate>rinr0077</ToTranslate>
+  </String>
+  <String index="575">
+    <Origin>Rinrin$&quot;What about Rinrin?&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;What about Rinrin?&quot;@</ToTranslate>
+  </String>
+  <String index="576">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="577">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="578">
+    <Origin>syur0023</Origin>
+    <ToTranslate>syur0023</ToTranslate>
+  </String>
+  <String index="579">
+    <Origin>Shuri$&quot;Rinrin-chan, please lead the troops with Our Lord and follow Aisha-san. However, please place twice the number of standard bearers.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Rinrin-chan, please lead the troops with Our Lord and follow Aisha-san. However, please place twice the number of standard bearers.&quot;@</ToTranslate>
+  </String>
+  <String index="580">
+    <Origin>Kazuto$&quot;Standard bearers? Why are we doing that?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Standard bearers? Why are we doing that?&quot;@</ToTranslate>
+  </String>
+  <String index="581">
+    <Origin>syur0024</Origin>
+    <ToTranslate>syur0024</ToTranslate>
+  </String>
+  <String index="582">
+    <Origin>Shuri$&quot;We&apos;ll increase the number of flags to make the enemy think we have a huge army.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;We&apos;ll increase the number of flags to make the enemy think we have a huge army.&quot;@</ToTranslate>
+  </String>
+  <String index="583">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="584">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="585">
+    <Origin>aisy0110</Origin>
+    <ToTranslate>aisy0110</ToTranslate>
+  </String>
+  <String index="586">
+    <Origin>Aisha$&quot;I see. We are going to trick them, huh?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;I see. We are going to trick them, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="587">
+    <Origin>tcg_syo11ba</Origin>
+    <ToTranslate>tcg_syo11ba</ToTranslate>
+  </String>
+  <String index="588">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="589">
+    <Origin>syur0025</Origin>
+    <ToTranslate>syur0025</ToTranslate>
+  </String>
+  <String index="590">
+    <Origin>Shuri$&quot;Yes. The enemy is relying on their size and charging in, so Aisha-san, once your squad clashes with their vanguard, please retreat quickly to the main camp.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes. The enemy is relying on their size and charging in, so Aisha-san, once your squad clashes with their vanguard, please retreat quickly to the main camp.&quot;@</ToTranslate>
+  </String>
+  <String index="591">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="592">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="593">
+    <Origin>aisy0111</Origin>
+    <ToTranslate>aisy0111</ToTranslate>
+  </String>
+  <String index="594">
+    <Origin>Aisha$&quot;So our goal is to confuse them?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;So our goal is to confuse them?&quot;@</ToTranslate>
+  </String>
+  <String index="595">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="596">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="597">
+    <Origin>syur0026</Origin>
+    <ToTranslate>syur0026</ToTranslate>
+  </String>
+  <String index="598">
+    <Origin>Shuri$&quot;Yes. But when you retreat, please make sure you bring Chouun-san with you, okay?&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes. But when you retreat, please make sure you bring Chouun-san with you, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="599">
+    <Origin>aisy0112</Origin>
+    <ToTranslate>aisy0112</ToTranslate>
+  </String>
+  <String index="600">
+    <Origin>Aisha$&quot;Hmm... I hope Chouun won&apos;t refuse to retreat...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hmm... I hope Chouun won&apos;t refuse to retreat...&quot;@</ToTranslate>
+  </String>
+  <String index="601">
+    <Origin>syur0027</Origin>
+    <ToTranslate>syur0027</ToTranslate>
+  </String>
+  <String index="602">
+    <Origin>Shuri$&quot;If that happens, we&apos;ll think of something else. The main unit will signal you to retreat, so please don&apos;t miss it, okay?&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;If that happens, we&apos;ll think of something else. The main unit will signal you to retreat, so please don&apos;t miss it, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="603">
+    <Origin>tcg_kan21aa</Origin>
+    <ToTranslate>tcg_kan21aa</ToTranslate>
+  </String>
+  <String index="604">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="605">
+    <Origin>aisy0113</Origin>
+    <ToTranslate>aisy0113</ToTranslate>
+  </String>
+  <String index="606">
+    <Origin>Aisha$&quot;Of course not. But what happens after that?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Of course not. But what happens after that?&quot;@</ToTranslate>
+  </String>
+  <String index="607">
+    <Origin>tcg_syo41ea</Origin>
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="608">
+    <Origin>tcg_syo41m</Origin>
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="609">
+    <Origin>syur0028</Origin>
+    <ToTranslate>syur0028</ToTranslate>
+  </String>
+  <String index="610">
+    <Origin>Shuri$&quot;While you retreat, our main unit will spread out and surround the Yellow Turbans&apos; vanguard. When we do this, please leave their rear open or they&apos;ll become desperate to break through.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;While you retreat, our main unit will spread out and surround the Yellow Turbans&apos; vanguard. When we do this, please leave their rear open or they&apos;ll become desperate to break through.&quot;@</ToTranslate>
+  </String>
+  <String index="611">
+    <Origin>tcg_cho31da</Origin>
+    <ToTranslate>tcg_cho31da</ToTranslate>
+  </String>
+  <String index="612">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="613">
+    <Origin>rinr0078</Origin>
+    <ToTranslate>rinr0078</ToTranslate>
+  </String>
+  <String index="614">
+    <Origin>Rinrin$&quot;But then they&apos;ll escape?&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;But then they&apos;ll escape?&quot;@</ToTranslate>
+  </String>
+  <String index="615">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="616">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="617">
+    <Origin>syur0029</Origin>
+    <ToTranslate>syur0029</ToTranslate>
+  </String>
+  <String index="618">
+    <Origin>Shuri$&quot;That&apos;s fine. If they become desperate, we&apos;ll suffer greater casualties. ......After that, we&apos;ll match our timing with Kousonsan and catch them in a pincer attack.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;That&apos;s fine. If they become desperate, we&apos;ll suffer greater casualties. ......After that, we&apos;ll match our timing with Kousonsan and catch them in a pincer attack.&quot;@</ToTranslate>
+  </String>
+  <String index="619">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="620">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="621">
+    <Origin>aisy0114</Origin>
+    <ToTranslate>aisy0114</ToTranslate>
+  </String>
+  <String index="622">
+    <Origin>Aisha$&quot;I see. We use our charge to confuse the enemy, then we make a strategic retreat to lure their vanguard out and buy time for Kousonsan&apos;s army.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;I see. We use our charge to confuse the enemy, then we make a strategic retreat to lure their vanguard out and buy time for Kousonsan&apos;s army.&quot;@</ToTranslate>
+  </String>
+  <String index="623">
+    <Origin>syur0030</Origin>
+    <ToTranslate>syur0030</ToTranslate>
+  </String>
+  <String index="624">
+    <Origin>Shuri$&quot;Exactly.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Exactly.&quot;@</ToTranslate>
+  </String>
+  <String index="625">
+    <Origin>tcg_kan21ba</Origin>
+    <ToTranslate>tcg_kan21ba</ToTranslate>
+  </String>
+  <String index="626">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="627">
+    <Origin>aisy0115</Origin>
+    <ToTranslate>aisy0115</ToTranslate>
+  </String>
+  <String index="628">
+    <Origin>Aisha$&quot;Hmm... that&apos;s impressive, Shuri.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Hmm... that&apos;s impressive, Shuri.&quot;@</ToTranslate>
+  </String>
+  <String index="629">
+    <Origin>tcg_syo11ba</Origin>
+    <ToTranslate>tcg_syo11ba</ToTranslate>
+  </String>
+  <String index="630">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="631">
+    <Origin>syur0031</Origin>
+    <ToTranslate>syur0031</ToTranslate>
+  </String>
+  <String index="632">
+    <Origin>Shuri$&quot;Hee, hee, hee...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Hee, hee, hee...&quot;@</ToTranslate>
+  </String>
+  <String index="633">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="634">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="635">
+    <Origin>aisy0116</Origin>
+    <ToTranslate>aisy0116</ToTranslate>
+  </String>
+  <String index="636">
+    <Origin>Aisha$&quot;Very well. I leave our main unit in your hands. ......I&apos;ll be counting on you for our signal.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Very well. I leave our main unit in your hands. ......I&apos;ll be counting on you for our signal.&quot;@</ToTranslate>
+  </String>
+  <String index="637">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="638">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="639">
+    <Origin>syur0032</Origin>
+    <ToTranslate>syur0032</ToTranslate>
+  </String>
+  <String index="640">
+    <Origin>Shuri$&quot;Yes!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes!&quot;@</ToTranslate>
+  </String>
+  <String index="641">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="642">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="643">
+    <Origin>aisy0117</Origin>
+    <ToTranslate>aisy0117</ToTranslate>
+  </String>
+  <String index="644">
+    <Origin>Aisha$&quot;I wish you luck. My Lord. I&apos;ll be going now.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;I wish you luck. My Lord. I&apos;ll be going now.&quot;@</ToTranslate>
+  </String>
+  <String index="645">
+    <Origin>Kazuto$&quot;Yeah. Be careful.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Yeah. Be careful.&quot;@</ToTranslate>
+  </String>
+  <String index="646">
+    <Origin>tcg_kan21aa</Origin>
+    <ToTranslate>tcg_kan21aa</ToTranslate>
+  </String>
+  <String index="647">
+    <Origin>tcg_kan21m</Origin>
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="648">
+    <Origin>aisy0118</Origin>
+    <ToTranslate>aisy0118</ToTranslate>
+  </String>
+  <String index="649">
+    <Origin>Aisha$&quot;Thank you for the kind words. ......Farewell.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Thank you for the kind words. ......Farewell.&quot;@</ToTranslate>
+  </String>
+  <String index="650">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="651">
+    <Origin>$After a quick bow, Aisha led her squad onto the battlefield.@</Origin>
+    <ToTranslate>$After a quick bow, Aisha led her squad onto the battlefield.@</ToTranslate>
+  </String>
+  <String index="652">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="653">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="654">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="655">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="656">
+    <Origin>bcg_camp_a</Origin>
+    <ToTranslate>bcg_camp_a</ToTranslate>
+  </String>
+  <String index="657">
+    <Origin>tcg_cho31da</Origin>
+    <ToTranslate>tcg_cho31da</ToTranslate>
+  </String>
+  <String index="658">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="659">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="660">
+    <Origin>rinr0079</Origin>
+    <ToTranslate>rinr0079</ToTranslate>
+  </String>
+  <String index="661">
+    <Origin>Rinrin$&quot;Grr. Rinrin wants to charge too.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Grr. Rinrin wants to charge too.&quot;@</ToTranslate>
+  </String>
+  <String index="662">
+    <Origin>Kazuto$&quot;Hey, hey, give me a break. Rinrin. You need to stay by my side. If you don&apos;t, then who will command the soldiers?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Hey, hey, give me a break. Rinrin. You need to stay by my side. If you don&apos;t, then who will command the soldiers?&quot;@</ToTranslate>
+  </String>
+  <String index="663">
+    <Origin>rinr0080</Origin>
+    <ToTranslate>rinr0080</ToTranslate>
+  </String>
+  <String index="664">
+    <Origin>Rinrin$&quot;That&apos;s something you or Shuri can do, Onii-chan.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;That&apos;s something you or Shuri can do, Onii-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="665">
+    <Origin>tcg_syo21ja</Origin>
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="666">
+    <Origin>tcg_syo21m</Origin>
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="667">
+    <Origin>syur0033</Origin>
+    <ToTranslate>syur0033</ToTranslate>
+  </String>
+  <String index="668">
+    <Origin>Shuri$&quot;No we can&apos;t. All the soldiers follow you because they know you&apos;re very strong, Rinrin-chan.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;No we can&apos;t. All the soldiers follow you because they know you&apos;re very strong, Rinrin-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="669">
+    <Origin>tcg_syo21pa</Origin>
+    <ToTranslate>tcg_syo21pa</ToTranslate>
+  </String>
+  <String index="670">
+    <Origin>tcg_syo21m</Origin>
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="671">
+    <Origin>syur0034</Origin>
+    <ToTranslate>syur0034</ToTranslate>
+  </String>
+  <String index="672">
+    <Origin>Shuri$&quot;I haven&apos;t shown any achievements yet, so I doubt the soldiers would accept my commands.&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;I haven&apos;t shown any achievements yet, so I doubt the soldiers would accept my commands.&quot;@</ToTranslate>
+  </String>
+  <String index="673">
+    <Origin>Kazuto$&quot;That&apos;s the same with me. Don&apos;t be sad about that, Shuri.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;That&apos;s the same with me. Don&apos;t be sad about that, Shuri.&quot;@</ToTranslate>
+  </String>
+  <String index="674">
+    <Origin>tcg_syo11aa</Origin>
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="675">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="676">
+    <Origin>syur0035</Origin>
+    <ToTranslate>syur0035</ToTranslate>
+  </String>
+  <String index="677">
+    <Origin>Shuri$&quot;Okay...&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Okay...&quot;@</ToTranslate>
+  </String>
+  <String index="678">
+    <Origin>tcg_cho21da</Origin>
+    <ToTranslate>tcg_cho21da</ToTranslate>
+  </String>
+  <String index="679">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="680">
+    <Origin>rinr0081</Origin>
+    <ToTranslate>rinr0081</ToTranslate>
+  </String>
+  <String index="681">
+    <Origin>Rinrin$&quot;Hmm...is that how it is? Rinrin knows that Onii-chan is amazing and that Shuri is amazing too.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Hmm...is that how it is? Rinrin knows that Onii-chan is amazing and that Shuri is amazing too.&quot;@</ToTranslate>
+  </String>
+  <String index="682">
+    <Origin>Kazuto$&quot;I&apos;m glad to hear you say that, but you&apos;re more amazing, Rinrin.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;I&apos;m glad to hear you say that, but you&apos;re more amazing, Rinrin.&quot;@</ToTranslate>
+  </String>
+  <String index="683">
+    <Origin>tcg_cho21oa</Origin>
+    <ToTranslate>tcg_cho21oa</ToTranslate>
+  </String>
+  <String index="684">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="685">
+    <Origin>rinr0082</Origin>
+    <ToTranslate>rinr0082</ToTranslate>
+  </String>
+  <String index="686">
+    <Origin>Rinrin$&quot;Rinrin&apos;s amazing?&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Rinrin&apos;s amazing?&quot;@</ToTranslate>
+  </String>
+  <String index="687">
+    <Origin>Kazuto$&quot;Yes, you are. You&apos;re so cool! You&apos;re the best!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Yes, you are. You&apos;re so cool! You&apos;re the best!&quot;@</ToTranslate>
+  </String>
+  <String index="688">
+    <Origin>tcg_cho21ia</Origin>
+    <ToTranslate>tcg_cho21ia</ToTranslate>
+  </String>
+  <String index="689">
+    <Origin>tcg_cho21m</Origin>
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="690">
+    <Origin>onpu</Origin>
+    <ToTranslate>onpu</ToTranslate>
+  </String>
+  <String index="691">
+    <Origin>rinr0083</Origin>
+    <ToTranslate>rinr0083</ToTranslate>
+  </String>
+  <String index="692">
+    <Origin>Rinrin$&quot;...Hee, hee!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;...Hee, hee!&quot;@</ToTranslate>
+  </String>
+  <String index="693">
+    <Origin>$Rinrin smiled happily at my praise.@</Origin>
+    <ToTranslate>$Rinrin smiled happily at my praise.@</ToTranslate>
+  </String>
+  <String index="694">
+    <Origin>$Rinrin proudly gave us her promise.@</Origin>
+    <ToTranslate>$Rinrin proudly gave us her promise.@</ToTranslate>
+  </String>
+  <String index="695">
+    <Origin>tcg_cho31ba</Origin>
+    <ToTranslate>tcg_cho31ba</ToTranslate>
+  </String>
+  <String index="696">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="697">
+    <Origin>rinr0084</Origin>
+    <ToTranslate>rinr0084</ToTranslate>
+  </String>
+  <String index="698">
+    <Origin>Rinrin$&quot;Okay, I guess I&apos;ll protect you two.&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Okay, I guess I&apos;ll protect you two.&quot;@</ToTranslate>
+  </String>
+  <String index="699">
+    <Origin>Kazuto$&quot;I&apos;m counting on you.&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;I&apos;m counting on you.&quot;@</ToTranslate>
+  </String>
+  <String index="700">
+    <Origin>tcg_cho31ia</Origin>
+    <ToTranslate>tcg_cho31ia</ToTranslate>
+  </String>
+  <String index="701">
+    <Origin>tcg_cho31m</Origin>
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="702">
+    <Origin>rinr0085</Origin>
+    <ToTranslate>rinr0085</ToTranslate>
+  </String>
+  <String index="703">
+    <Origin>Rinrin$&quot;You better!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;You better!&quot;@</ToTranslate>
+  </String>
+  <String index="704">
+    <Origin>$Rinrin replied rather childishly, but she was also charming and reassuring.@</Origin>
+    <ToTranslate>$Rinrin replied rather childishly, but she was also charming and reassuring.@</ToTranslate>
+  </String>
+  <String index="705">
+    <Origin>Kazuto$&quot;Okay, let&apos;s deploy so we don&apos;t fall behind Aisha. The timing...I mean, the moment we signal her is crucial, so I&apos;ll leave that to you, Shuri. Is that okay?&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Okay, let&apos;s deploy so we don&apos;t fall behind Aisha. The timing...I mean, the moment we signal her is crucial, so I&apos;ll leave that to you, Shuri. Is that okay?&quot;@</ToTranslate>
+  </String>
+  <String index="706">
+    <Origin>tcg_syo11ba</Origin>
+    <ToTranslate>tcg_syo11ba</ToTranslate>
+  </String>
+  <String index="707">
+    <Origin>tcg_syo11m</Origin>
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="708">
+    <Origin>syur0036</Origin>
+    <ToTranslate>syur0036</ToTranslate>
+  </String>
+  <String index="709">
+    <Origin>Shuri$&quot;Yes! Leave it to me!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Yes! Leave it to me!&quot;@</ToTranslate>
+  </String>
+  <String index="710">
+    <Origin>Kazuto$&quot;Okay. Let&apos;s go!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Okay. Let&apos;s go!&quot;@</ToTranslate>
+  </String>
+  <String index="711">
+    <Origin>tcg_cho11ea</Origin>
+    <ToTranslate>tcg_cho11ea</ToTranslate>
+  </String>
+  <String index="712">
+    <Origin>tcg_cho11m</Origin>
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="713">
+    <Origin>rinr0086</Origin>
+    <ToTranslate>rinr0086</ToTranslate>
+  </String>
+  <String index="714">
+    <Origin>Rinrin$&quot;Everyone, move out! Follow boldly after me!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Everyone, move out! Follow boldly after me!&quot;@</ToTranslate>
+  </String>
+  <String index="715">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="716">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="717">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="718">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="719">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="720">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="721">
+    <Origin>bgm17</Origin>
+    <ToTranslate>bgm17</ToTranslate>
+  </String>
+  <String index="722">
+    <Origin>$The dark writhing mass of Yellow Turbans shrouded the earth.@</Origin>
+    <ToTranslate>$The dark writhing mass of Yellow Turbans shrouded the earth.@</ToTranslate>
+  </String>
+  <String index="723">
+    <Origin>$One girl stared at that mass and curled her lips into a smile.@</Origin>
+    <ToTranslate>$One girl stared at that mass and curled her lips into a smile.@</ToTranslate>
+  </String>
+  <String index="724">
+    <Origin>tcg_cun41aa</Origin>
+    <ToTranslate>tcg_cun41aa</ToTranslate>
+  </String>
+  <String index="725">
+    <Origin>tcg_cun41m</Origin>
+    <ToTranslate>tcg_cun41m</ToTranslate>
+  </String>
+  <String index="726">
+    <Origin>SE014</Origin>
+    <ToTranslate>SE014</ToTranslate>
+  </String>
+  <String index="727">
+    <Origin>chou0009</Origin>
+    <ToTranslate>chou0009</ToTranslate>
+  </String>
+  <String index="728">
+    <Origin>Chouun$&quot;Hu-hu-hu...Aren&apos;t you all brave.&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Hu-hu-hu...Aren&apos;t you all brave.&quot;@</ToTranslate>
+  </String>
+  <String index="729">
+    <Origin>$Across from her marched an army of 25,000 bandits which covered the entire field.@</Origin>
+    <ToTranslate>$Across from her marched an army of 25,000 bandits which covered the entire field.@</ToTranslate>
+  </String>
+  <String index="730">
+    <Origin>$Twenty-five thousand of them against one girl with a spear.@</Origin>
+    <ToTranslate>$Twenty-five thousand of them against one girl with a spear.@</ToTranslate>
+  </String>
+  <String index="731">
+    <Origin>$However, there was not a speck of fear in that girl&apos;s heart.@</Origin>
+    <ToTranslate>$However, there was not a speck of fear in that girl&apos;s heart.@</ToTranslate>
+  </String>
+  <String index="732">
+    <Origin>$All that lies in her heart is the joy of defeating those bandits accompanied by gratitude for the opportunity to display her military prowess.@</Origin>
+    <ToTranslate>$All that lies in her heart is the joy of defeating those bandits accompanied by gratitude for the opportunity to display her military prowess.@</ToTranslate>
+  </String>
+  <String index="733">
+    <Origin>$To her, the sound of the Yellow Turbans&apos; charge was applause for leaving her mark on history.@</Origin>
+    <ToTranslate>$To her, the sound of the Yellow Turbans&apos; charge was applause for leaving her mark on history.@</ToTranslate>
+  </String>
+  <String index="734">
+    <Origin>chou0010</Origin>
+    <ToTranslate>chou0010</ToTranslate>
+  </String>
+  <String index="735">
+    <Origin>Chouun$&quot;Chou Shiryuu. I shall now go down in history, so be proud thou hast heard my name!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Chou Shiryuu. I shall now go down in history, so be proud thou hast heard my name!&quot;@</ToTranslate>
+  </String>
+  <String index="736">
+    <Origin>$In her hands she held her dear comrade, one she had spent every day and night with.@</Origin>
+    <ToTranslate>$In her hands she held her dear comrade, one she had spent every day and night with.@</ToTranslate>
+  </String>
+  <String index="737">
+    <Origin>$Her hands were accustomed to it as if it was a part of her. By swinging her spear, she communicates with it.@</Origin>
+    <ToTranslate>$Her hands were accustomed to it as if it was a part of her. By swinging her spear, she communicates with it.@</ToTranslate>
+  </String>
+  <String index="738">
+    <Origin>$The pleasant sound of it dancing through the air was a proud display of her existence.@</Origin>
+    <ToTranslate>$The pleasant sound of it dancing through the air was a proud display of her existence.@</ToTranslate>
+  </String>
+  <String index="739">
+    <Origin>$As it slides through the air, it catches the sharp light of the sun and glitters as if it wore a cloak of light.@</Origin>
+    <ToTranslate>$As it slides through the air, it catches the sharp light of the sun and glitters as if it wore a cloak of light.@</ToTranslate>
+  </String>
+  <String index="740">
+    <Origin>$When the Yellow Turbans&apos; vanguard caught sight of that glimmer, their pace slowed down a little.@</Origin>
+    <ToTranslate>$When the Yellow Turbans&apos; vanguard caught sight of that glimmer, their pace slowed down a little.@</ToTranslate>
+  </String>
+  <String index="741">
+    <Origin>chou0011</Origin>
+    <ToTranslate>chou0011</ToTranslate>
+  </String>
+  <String index="742">
+    <Origin>Chouun$&quot;Hmph. ......Flinching before just one opponent? Bandits are nothing but bandits. Unless they join together, they&apos;re nothing but trash.&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Hmph. ......Flinching before just one opponent? Bandits are nothing but bandits. Unless they join together, they&apos;re nothing but trash.&quot;@</ToTranslate>
+  </String>
+  <String index="743">
+    <Origin>$She sneered and pointed the tip of her spear at the rampaging herd.@</Origin>
+    <ToTranslate>$She sneered and pointed the tip of her spear at the rampaging herd.@</ToTranslate>
+  </String>
+  <String index="744">
+    <Origin>$Did they notice her sneer?@</Origin>
+    <ToTranslate>$Did they notice her sneer?@</ToTranslate>
+  </String>
+  <String index="745">
+    <Origin>$The Yellow Turbans picked up speed after being called trash and continued to charge, preparing to ruthlessly trample her underfoot.@</Origin>
+    <ToTranslate>$The Yellow Turbans picked up speed after being called trash and continued to charge, preparing to ruthlessly trample her underfoot.@</ToTranslate>
+  </String>
+  <String index="746">
+    <Origin>$A cloud of dust rises in their wake and blots out the blue sky. The girl hid none of her discontent and furrowed her beautiful brows.@</Origin>
+    <ToTranslate>$A cloud of dust rises in their wake and blots out the blue sky. The girl hid none of her discontent and furrowed her beautiful brows.@</ToTranslate>
+  </String>
+  <String index="747">
+    <Origin>chou0012</Origin>
+    <ToTranslate>chou0012</ToTranslate>
+  </String>
+  <String index="748">
+    <Origin>Chouun$&quot;Thy churls who cannot understand beauty, kneel before my spear and apologize for the sin of soiling the blue sky!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Thy churls who cannot understand beauty, kneel before my spear and apologize for the sin of soiling the blue sky!&quot;@</ToTranslate>
+  </String>
+  <String index="749">
+    <Origin>$After shouting her derision, she readied her spear at her side and slowly lowered her hips.@</Origin>
+    <ToTranslate>$After shouting her derision, she readied her spear at her side and slowly lowered her hips.@</ToTranslate>
+  </String>
+  <String index="750">
+    <Origin>$The air around the girl suddenly changed.@</Origin>
+    <ToTranslate>$The air around the girl suddenly changed.@</ToTranslate>
+  </String>
+  <String index="751">
+    <Origin>$The warm and comfortable breeze was now hot enough to burn the skin.@</Origin>
+    <ToTranslate>$The warm and comfortable breeze was now hot enough to burn the skin.@</ToTranslate>
+  </String>
+  <String index="752">
+    <Origin>chou0013</Origin>
+    <ToTranslate>chou0013</ToTranslate>
+  </String>
+  <String index="753">
+    <Origin>Chouun$&quot;Whew...&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Whew...&quot;@</ToTranslate>
+  </String>
+  <String index="754">
+    <Origin>$A long breath escaped her luscious lips.@</Origin>
+    <ToTranslate>$A long breath escaped her luscious lips.@</ToTranslate>
+  </String>
+  <String index="755">
+    <Origin>$When all the air is out of her lungs...@</Origin>
+    <ToTranslate>$When all the air is out of her lungs...@</ToTranslate>
+  </String>
+  <String index="756">
+    <Origin>chou0014</Origin>
+    <ToTranslate>chou0014</ToTranslate>
+  </String>
+  <String index="757">
+    <Origin>Chouun$&quot;I am the rising dragon of Changshan, Chou Shiryuu! I shall defeat thee heinous bandits and protect the innocent in distress!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;I am the rising dragon of Changshan, Chou Shiryuu! I shall defeat thee heinous bandits and protect the innocent in distress!&quot;@</ToTranslate>
+  </String>
+  <String index="758">
+    <Origin>Chouun$&quot;Thy churls who have piled up thine misdeeds, let all the people know that my spear is the hammer of justice!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Thy churls who have piled up thine misdeeds, let all the people know that my spear is the hammer of justice!&quot;@</ToTranslate>
+  </String>
+  <String index="759">
+    <Origin>SE011</Origin>
+    <ToTranslate>SE011</ToTranslate>
+  </String>
+  <String index="760">
+    <Origin>tcg_cun91aa</Origin>
+    <ToTranslate>tcg_cun91aa</ToTranslate>
+  </String>
+  <String index="761">
+    <Origin>tcg_cun91m</Origin>
+    <ToTranslate>tcg_cun91m</ToTranslate>
+  </String>
+  <String index="762">
+    <Origin>chou0015</Origin>
+    <ToTranslate>chou0015</ToTranslate>
+  </String>
+  <String index="763">
+    <Origin>Chouun$&quot;Now! En Garde!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Now! En Garde!&quot;@</ToTranslate>
+  </String>
+  <String index="764">
+    <Origin>$After heroically shouting out her name, the girl readied her single spear against the wave of oncoming rebels and kicked off the ground.@</Origin>
+    <ToTranslate>$After heroically shouting out her name, the girl readied her single spear against the wave of oncoming rebels and kicked off the ground.@</ToTranslate>
+  </String>
+  <String index="765">
+    <Origin>SE026</Origin>
+    <ToTranslate>SE026</ToTranslate>
+  </String>
+  <String index="766">
+    <Origin>$Her sleeves fluttered as she glided over the bumpy field like the wind.@</Origin>
+    <ToTranslate>$Her sleeves fluttered as she glided over the bumpy field like the wind.@</ToTranslate>
+  </String>
+  <String index="767">
+    <Origin>$The difference in their forces was obvious.@</Origin>
+    <ToTranslate>$The difference in their forces was obvious.@</ToTranslate>
+  </String>
+  <String index="768">
+    <Origin>$As the distance between them shortened to nothing, a vulgar war cry erupted around her.@</Origin>
+    <ToTranslate>$As the distance between them shortened to nothing, a vulgar war cry erupted around her.@</ToTranslate>
+  </String>
+  <String index="769">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="770">
+    <Origin>ecg_cun11a</Origin>
+    <ToTranslate>ecg_cun11a</ToTranslate>
+  </String>
+  <String index="771">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="772">
+    <Origin>chou0016</Origin>
+    <ToTranslate>chou0016</ToTranslate>
+  </String>
+  <String index="773">
+    <Origin>Chouun$&quot;Haahhh!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Haahhh!&quot;@</ToTranslate>
+  </String>
+  <String index="774">
+    <Origin>battle_harai</Origin>
+    <ToTranslate>battle_harai</ToTranslate>
+  </String>
+  <String index="775">
+    <Origin>SE004</Origin>
+    <ToTranslate>SE004</ToTranslate>
+  </String>
+  <String index="776">
+    <Origin>yure_y</Origin>
+    <ToTranslate>yure_y</ToTranslate>
+  </String>
+  <String index="777">
+    <Origin>$Flash...@</Origin>
+    <ToTranslate>$Flash...@</ToTranslate>
+  </String>
+  <String index="778">
+    <Origin>$Her long spear swung through the air, mowing down the Yellow Turbans surrounding her and sending the black mass flying back.@</Origin>
+    <ToTranslate>$Her long spear swung through the air, mowing down the Yellow Turbans surrounding her and sending the black mass flying back.@</ToTranslate>
+  </String>
+  <String index="779">
+    <Origin>chou0017</Origin>
+    <ToTranslate>chou0017</ToTranslate>
+  </String>
+  <String index="780">
+    <Origin>Chouun$&quot;Those who fear, turn and run! Those who do not fear me, come! My name is Chou Shiryuu! My blade and I are one!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Those who fear, turn and run! Those who do not fear me, come! My name is Chou Shiryuu! My blade and I are one!&quot;@</ToTranslate>
+  </String>
+  <String index="781">
+    <Origin>battle_tuki</Origin>
+    <ToTranslate>battle_tuki</ToTranslate>
+  </String>
+  <String index="782">
+    <Origin>SE033</Origin>
+    <ToTranslate>SE033</ToTranslate>
+  </String>
+  <String index="783">
+    <Origin>yure_r</Origin>
+    <ToTranslate>yure_r</ToTranslate>
+  </String>
+  <String index="784">
+    <Origin>$Her spear thrusts out with the ferocity of a blaze, each thrust ending the lives of several rebels and planting fear in the hearts of those who remained.@</Origin>
+    <ToTranslate>$Her spear thrusts out with the ferocity of a blaze, each thrust ending the lives of several rebels and planting fear in the hearts of those who remained.@</ToTranslate>
+  </String>
+  <String index="785">
+    <Origin>chou0018</Origin>
+    <ToTranslate>chou0018</ToTranslate>
+  </String>
+  <String index="786">
+    <Origin>Chouun$&quot;Here, here, here!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Here, here, here!&quot;@</ToTranslate>
+  </String>
+  <String index="787">
+    <Origin>battle_tuki2</Origin>
+    <ToTranslate>battle_tuki2</ToTranslate>
+  </String>
+  <String index="788">
+    <Origin>SE035</Origin>
+    <ToTranslate>SE035</ToTranslate>
+  </String>
+  <String index="789">
+    <Origin>yure_t</Origin>
+    <ToTranslate>yure_t</ToTranslate>
+  </String>
+  <String index="790">
+    <Origin>SE034</Origin>
+    <ToTranslate>SE034</ToTranslate>
+  </String>
+  <String index="791">
+    <Origin>yure_y</Origin>
+    <ToTranslate>yure_y</ToTranslate>
+  </String>
+  <String index="792">
+    <Origin>$It was like a dance of death...@</Origin>
+    <ToTranslate>$It was like a dance of death...@</ToTranslate>
+  </String>
+  <String index="793">
+    <Origin>$Her spear arced through the air, glittering as it stole the lives of those rebels. Despite her beauty, she crushed the rebels&apos; souls with the harshness of a reaper.@</Origin>
+    <ToTranslate>$Her spear arced through the air, glittering as it stole the lives of those rebels. Despite her beauty, she crushed the rebels&apos; souls with the harshness of a reaper.@</ToTranslate>
+  </String>
+  <String index="794">
+    <Origin>$Some were fascinated by her beauty.@</Origin>
+    <ToTranslate>$Some were fascinated by her beauty.@</ToTranslate>
+  </String>
+  <String index="795">
+    <Origin>$Some were captivated by this angel of death.@</Origin>
+    <ToTranslate>$Some were captivated by this angel of death.@</ToTranslate>
+  </String>
+  <String index="796">
+    <Origin>$Her spear reaps the souls of the frozen rebels, painting death on the sky in the proud strokes of a great warrior.@</Origin>
+    <ToTranslate>$Her spear reaps the souls of the frozen rebels, painting death on the sky in the proud strokes of a great warrior.@</ToTranslate>
+  </String>
+  <String index="797">
+    <Origin>$Every time the tip of her brush sparkled in the blue sky, a deep crimson string of blood became her paint and depicted the death of the rebels in detail.@</Origin>
+    <ToTranslate>$Every time the tip of her brush sparkled in the blue sky, a deep crimson string of blood became her paint and depicted the death of the rebels in detail.@</ToTranslate>
+  </String>
+  <String index="798">
+    <Origin>Yellow Turbans$&quot;There is only one of her, and she&apos;s a girl! What the heck are you doing? Surround her and kill her!&quot;@</Origin>
+    <ToTranslate>Yellow Turbans$&quot;There is only one of her, and she&apos;s a girl! What the heck are you doing? Surround her and kill her!&quot;@</ToTranslate>
+  </String>
+  <String index="799">
+    <Origin>$By the time their leader shouted in irritation, dozens of his companions had already left this world.@</Origin>
+    <ToTranslate>$By the time their leader shouted in irritation, dozens of his companions had already left this world.@</ToTranslate>
+  </String>
+  <String index="800">
+    <Origin>$But...@</Origin>
+    <ToTranslate>$But...@</ToTranslate>
+  </String>
+  <String index="801">
+    <Origin>chou0019</Origin>
+    <ToTranslate>chou0019</ToTranslate>
+  </String>
+  <String index="802">
+    <Origin>Chouun$&quot;Please do. Otherwise, thou shalt lose your lives for nothing. However! Do not think it will be that easy!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Please do. Otherwise, thou shalt lose your lives for nothing. However! Do not think it will be that easy!&quot;@</ToTranslate>
+  </String>
+  <String index="803">
+    <Origin>$Her brave cry impresses many.@</Origin>
+    <ToTranslate>$Her brave cry impresses many.@</ToTranslate>
+  </String>
+  <String index="804">
+    <Origin>$Her voice could even entrance an angel of death, easily causing those threatening to surround her to back away.@</Origin>
+    <ToTranslate>$Her voice could even entrance an angel of death, easily causing those threatening to surround her to back away.@</ToTranslate>
+  </String>
+  <String index="805">
+    <Origin>battle_tuki</Origin>
+    <ToTranslate>battle_tuki</ToTranslate>
+  </String>
+  <String index="806">
+    <Origin>SE033</Origin>
+    <ToTranslate>SE033</ToTranslate>
+  </String>
+  <String index="807">
+    <Origin>yure_t</Origin>
+    <ToTranslate>yure_t</ToTranslate>
+  </String>
+  <String index="808">
+    <Origin>$Sometimes she jabbed them.@</Origin>
+    <ToTranslate>$Sometimes she jabbed them.@</ToTranslate>
+  </String>
+  <String index="809">
+    <Origin>battle_kiriage</Origin>
+    <ToTranslate>battle_kiriage</ToTranslate>
+  </String>
+  <String index="810">
+    <Origin>SE034</Origin>
+    <ToTranslate>SE034</ToTranslate>
+  </String>
+  <String index="811">
+    <Origin>yure_y</Origin>
+    <ToTranslate>yure_y</ToTranslate>
+  </String>
+  <String index="812">
+    <Origin>$Other times, she mowed them down.@</Origin>
+    <ToTranslate>$Other times, she mowed them down.@</ToTranslate>
+  </String>
+  <String index="813">
+    <Origin>$With a flash of light, the bandits flew away like they were caught in a windstorm.@</Origin>
+    <ToTranslate>$With a flash of light, the bandits flew away like they were caught in a windstorm.@</ToTranslate>
+  </String>
+  <String index="814">
+    <Origin>$Every time a flash of light arced through the air, a multitude of rebels trying to surround the girl became dozens of corpses piled around her.@</Origin>
+    <ToTranslate>$Every time a flash of light arced through the air, a multitude of rebels trying to surround the girl became dozens of corpses piled around her.@</ToTranslate>
+  </String>
+  <String index="815">
+    <Origin>$As the bodies continued to pile up into motionless heaps at her feet, so too did their resentment and obsession.@</Origin>
+    <ToTranslate>$As the bodies continued to pile up into motionless heaps at her feet, so too did their resentment and obsession.@</ToTranslate>
+  </String>
+  <String index="816">
+    <Origin>$The fence of rebel corpses around the girl began to interfere with her deadly dance.@</Origin>
+    <ToTranslate>$The fence of rebel corpses around the girl began to interfere with her deadly dance.@</ToTranslate>
+  </String>
+  <String index="817">
+    <Origin>chou0020</Origin>
+    <ToTranslate>chou0020</ToTranslate>
+  </String>
+  <String index="818">
+    <Origin>Chouun$&quot;Shit!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Shit!&quot;@</ToTranslate>
+  </String>
+  <String index="819">
+    <Origin>$She clicked her tongue as she began to feel the strain of trying to swing her spear in that narrowing foothold.@</Origin>
+    <ToTranslate>$She clicked her tongue as she began to feel the strain of trying to swing her spear in that narrowing foothold.@</ToTranslate>
+  </String>
+  <String index="820">
+    <Origin>Yellow Turbans$&quot;Good! Keep it up! Continue until she can&apos;t move anymore!&quot;@</Origin>
+    <ToTranslate>Yellow Turbans$&quot;Good! Keep it up! Continue until she can&apos;t move anymore!&quot;@</ToTranslate>
+  </String>
+  <String index="821">
+    <Origin>$Their leader issued his command, ignoring the value of their lives, and the rebels, mad with their seething blood, carried it out without hesitation.@</Origin>
+    <ToTranslate>$Their leader issued his command, ignoring the value of their lives, and the rebels, mad with their seething blood, carried it out without hesitation.@</ToTranslate>
+  </String>
+  <String index="822">
+    <Origin>battle_kesa</Origin>
+    <ToTranslate>battle_kesa</ToTranslate>
+  </String>
+  <String index="823">
+    <Origin>SE035</Origin>
+    <ToTranslate>SE035</ToTranslate>
+  </String>
+  <String index="824">
+    <Origin>yure_t</Origin>
+    <ToTranslate>yure_t</ToTranslate>
+  </String>
+  <String index="825">
+    <Origin>$Flash.@</Origin>
+    <ToTranslate>$Flash.@</ToTranslate>
+  </String>
+  <String index="826">
+    <Origin>battle_kiriage</Origin>
+    <ToTranslate>battle_kiriage</ToTranslate>
+  </String>
+  <String index="827">
+    <Origin>SE034</Origin>
+    <ToTranslate>SE034</ToTranslate>
+  </String>
+  <String index="828">
+    <Origin>yure_y</Origin>
+    <ToTranslate>yure_y</ToTranslate>
+  </String>
+  <String index="829">
+    <Origin>$Another flash.@</Origin>
+    <ToTranslate>$Another flash.@</ToTranslate>
+  </String>
+  <String index="830">
+    <Origin>$Her merciless spear drank their blood and turned the mad, raging rebels into a fence of corpses.@</Origin>
+    <ToTranslate>$Her merciless spear drank their blood and turned the mad, raging rebels into a fence of corpses.@</ToTranslate>
+  </String>
+  <String index="831">
+    <Origin>chou0021</Origin>
+    <ToTranslate>chou0021</ToTranslate>
+  </String>
+  <String index="832">
+    <Origin>Chouun$&quot;Hahh!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Hahh!&quot;@</ToTranslate>
+  </String>
+  <String index="833">
+    <Origin>$Her voice was starting to sound annoyed.@</Origin>
+    <ToTranslate>$Her voice was starting to sound annoyed.@</ToTranslate>
+  </String>
+  <String index="834">
+    <Origin>$But she couldn&apos;t help it.@</Origin>
+    <ToTranslate>$But she couldn&apos;t help it.@</ToTranslate>
+  </String>
+  <String index="835">
+    <Origin>$The abominable wall of rebel corpses had piled up to her waist.@</Origin>
+    <ToTranslate>$The abominable wall of rebel corpses had piled up to her waist.@</ToTranslate>
+  </String>
+  <String index="836">
+    <Origin>$She was literally knee-deep in corpses.@</Origin>
+    <ToTranslate>$She was literally knee-deep in corpses.@</ToTranslate>
+  </String>
+  <String index="837">
+    <Origin>$Will she soon lose the ability to move and come under attack from those rebels?@</Origin>
+    <ToTranslate>$Will she soon lose the ability to move and come under attack from those rebels?@</ToTranslate>
+  </String>
+  <String index="838">
+    <Origin>$She became impatient and irritated.@</Origin>
+    <ToTranslate>$She became impatient and irritated.@</ToTranslate>
+  </String>
+  <String index="839">
+    <Origin>$A premonition of death rises with her chagrin...@</Origin>
+    <ToTranslate>$A premonition of death rises with her chagrin...@</ToTranslate>
+  </String>
+  <String index="840">
+    <Origin>chou0022</Origin>
+    <ToTranslate>chou0022</ToTranslate>
+  </String>
+  <String index="841">
+    <Origin>Chunun$&quot;But I shall not go down yet!&quot;@</Origin>
+    <ToTranslate>Chunun$&quot;But I shall not go down yet!&quot;@</ToTranslate>
+  </String>
+  <String index="842">
+    <Origin>$She tried to shake off the thought running through her head, and shouted to steady her wavering attitude.@</Origin>
+    <ToTranslate>$She tried to shake off the thought running through her head, and shouted to steady her wavering attitude.@</ToTranslate>
+  </String>
+  <String index="843">
+    <Origin>$Then her spear danced through the air with another glitter of death.@</Origin>
+    <ToTranslate>$Then her spear danced through the air with another glitter of death.@</ToTranslate>
+  </String>
+  <String index="844">
+    <Origin>battle_kabuto</Origin>
+    <ToTranslate>battle_kabuto</ToTranslate>
+  </String>
+  <String index="845">
+    <Origin>SE034</Origin>
+    <ToTranslate>SE034</ToTranslate>
+  </String>
+  <String index="846">
+    <Origin>yure_t</Origin>
+    <ToTranslate>yure_t</ToTranslate>
+  </String>
+  <String index="847">
+    <Origin>$Flash.@</Origin>
+    <ToTranslate>$Flash.@</ToTranslate>
+  </String>
+  <String index="848">
+    <Origin>battle_tuki</Origin>
+    <ToTranslate>battle_tuki</ToTranslate>
+  </String>
+  <String index="849">
+    <Origin>SE033</Origin>
+    <ToTranslate>SE033</ToTranslate>
+  </String>
+  <String index="850">
+    <Origin>yure_r</Origin>
+    <ToTranslate>yure_r</ToTranslate>
+  </String>
+  <String index="851">
+    <Origin>$One more flash.@</Origin>
+    <ToTranslate>$One more flash.@</ToTranslate>
+  </String>
+  <String index="852">
+    <Origin>$However, as expected...@</Origin>
+    <ToTranslate>$However, as expected...@</ToTranslate>
+  </String>
+  <String index="853">
+    <Origin>$The flash starts to lose its sharpness, and shadows are now discernible on the tip of the spear.@</Origin>
+    <ToTranslate>$The flash starts to lose its sharpness, and shadows are now discernible on the tip of the spear.@</ToTranslate>
+  </String>
+  <String index="854">
+    <Origin>$The girl was well aware of that.@</Origin>
+    <ToTranslate>$The girl was well aware of that.@</ToTranslate>
+  </String>
+  <String index="855">
+    <Origin>$However, she continued to fight to protect her pride as a warrior.@</Origin>
+    <ToTranslate>$However, she continued to fight to protect her pride as a warrior.@</ToTranslate>
+  </String>
+  <String index="856">
+    <Origin>$However, the end was already near...@</Origin>
+    <ToTranslate>$However, the end was already near...@</ToTranslate>
+  </String>
+  <String index="857">
+    <Origin>$The blood-thirsty animals are about to descend on the lone girl, when...@</Origin>
+    <ToTranslate>$The blood-thirsty animals are about to descend on the lone girl, when...@</ToTranslate>
+  </String>
+  <String index="858">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="859">
+    <Origin>tcg_kan11ma</Origin>
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="860">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="861">
+    <Origin>bgm29</Origin>
+    <ToTranslate>bgm29</ToTranslate>
+  </String>
+  <String index="862">
+    <Origin>aisy0119</Origin>
+    <ToTranslate>aisy0119</ToTranslate>
+  </String>
+  <String index="863">
+    <Origin>Aisha$&quot;Brave warriors of the Hongou army! Now is the time to show the world our strength!&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Brave warriors of the Hongou army! Now is the time to show the world our strength!&quot;@</ToTranslate>
+  </String>
+  <String index="864">
+    <Origin>$Her beautiful, dignified voice resounded across the wild battlefield.@</Origin>
+    <ToTranslate>$Her beautiful, dignified voice resounded across the wild battlefield.@</ToTranslate>
+  </String>
+  <String index="865">
+    <Origin>aisy0120</Origin>
+    <ToTranslate>aisy0120</ToTranslate>
+  </String>
+  <String index="866">
+    <Origin>Aisha$&quot;All units, charge! Fear not death! Uphold your honor! We are proud, heavenly soldiers protected by Heaven!&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;All units, charge! Fear not death! Uphold your honor! We are proud, heavenly soldiers protected by Heaven!&quot;@</ToTranslate>
+  </String>
+  <String index="867">
+    <Origin>SE048</Origin>
+    <ToTranslate>SE048</ToTranslate>
+  </String>
+  <String index="868">
+    <Origin>SE124</Origin>
+    <ToTranslate>SE124</ToTranslate>
+  </String>
+  <String index="869">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="870">
+    <Origin>$A small squad of soldiers appeared from behind, and with a brave cry, rushed in to save the girl from danger.@</Origin>
+    <ToTranslate>$A small squad of soldiers appeared from behind, and with a brave cry, rushed in to save the girl from danger.@</ToTranslate>
+  </String>
+  <String index="871">
+    <Origin>$The rebels nearly began to flee at the appearance of a new enemy.@</Origin>
+    <ToTranslate>$The rebels nearly began to flee at the appearance of a new enemy.@</ToTranslate>
+  </String>
+  <String index="872">
+    <Origin>$The girl seized that moment to regain her stance.@</Origin>
+    <ToTranslate>$The girl seized that moment to regain her stance.@</ToTranslate>
+  </String>
+  <String index="873">
+    <Origin>tcg_cun11da</Origin>
+    <ToTranslate>tcg_cun11da</ToTranslate>
+  </String>
+  <String index="874">
+    <Origin>tcg_cun11m</Origin>
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="875">
+    <Origin>chou0023</Origin>
+    <ToTranslate>chou0023</ToTranslate>
+  </String>
+  <String index="876">
+    <Origin>Chouun$&quot;What is the meaning of this?!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;What is the meaning of this?!&quot;@</ToTranslate>
+  </String>
+  <String index="877">
+    <Origin>$She tilted her head in suspicion as the soldiers intruded upon her stage and charged into the enemy.@</Origin>
+    <ToTranslate>$She tilted her head in suspicion as the soldiers intruded upon her stage and charged into the enemy.@</ToTranslate>
+  </String>
+  <String index="878">
+    <Origin>tcg_kan11ea</Origin>
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="879">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="880">
+    <Origin>aisy0121</Origin>
+    <ToTranslate>aisy0121</ToTranslate>
+  </String>
+  <String index="881">
+    <Origin>Aisha$&quot;......Good grief. It was crazy of you to charge in alone.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;......Good grief. It was crazy of you to charge in alone.&quot;@</ToTranslate>
+  </String>
+  <String index="882">
+    <Origin>tcg_cun21ca</Origin>
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="883">
+    <Origin>tcg_cun21m</Origin>
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="884">
+    <Origin>chou0024</Origin>
+    <ToTranslate>chou0024</ToTranslate>
+  </String>
+  <String index="885">
+    <Origin>Chouun$&quot;Hmm? The Green Dragon Crescent Blade? Are you by chance the brave and honorable Kan Unchou-dono?&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Hmm? The Green Dragon Crescent Blade? Are you by chance the brave and honorable Kan Unchou-dono?&quot;@</ToTranslate>
+  </String>
+  <String index="886">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="887">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="888">
+    <Origin>aisy0122</Origin>
+    <ToTranslate>aisy0122</ToTranslate>
+  </String>
+  <String index="889">
+    <Origin>Aisha$&quot;Yes I am. I have followed My Lord&apos;s request and arrived to rescue you. ......Can I ask you to fight with us?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Yes I am. I have followed My Lord&apos;s request and arrived to rescue you. ......Can I ask you to fight with us?&quot;@</ToTranslate>
+  </String>
+  <String index="890">
+    <Origin>tcg_cun11ba</Origin>
+    <ToTranslate>tcg_cun11ba</ToTranslate>
+  </String>
+  <String index="891">
+    <Origin>tcg_cun11m</Origin>
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="892">
+    <Origin>chou0025</Origin>
+    <ToTranslate>chou0025</ToTranslate>
+  </String>
+  <String index="893">
+    <Origin>Chouun$&quot;Of course. I appreciate the help.&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Of course. I appreciate the help.&quot;@</ToTranslate>
+  </String>
+  <String index="894">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="895">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="896">
+    <Origin>aisy0123</Origin>
+    <ToTranslate>aisy0123</ToTranslate>
+  </String>
+  <String index="897">
+    <Origin>Aisha$&quot;Good. Then after a brief clash, I&apos;d like to have you retreat with us...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Good. Then after a brief clash, I&apos;d like to have you retreat with us...&quot;@</ToTranslate>
+  </String>
+  <String index="898">
+    <Origin>tcg_cun31ea</Origin>
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="899">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="900">
+    <Origin>chou0026</Origin>
+    <ToTranslate>chou0026</ToTranslate>
+  </String>
+  <String index="901">
+    <Origin>Chouun$&quot;Oh... I see. You&apos;re going to lure their vanguard, huh?&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Oh... I see. You&apos;re going to lure their vanguard, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="902">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="903">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="904">
+    <Origin>aisy0124</Origin>
+    <ToTranslate>aisy0124</ToTranslate>
+  </String>
+  <String index="905">
+    <Origin>Aisha$&quot;That&apos;s right. How did you know?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;That&apos;s right. How did you know?&quot;@</ToTranslate>
+  </String>
+  <String index="906">
+    <Origin>tcg_cun31ia</Origin>
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="907">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="908">
+    <Origin>chou0027</Origin>
+    <ToTranslate>chou0027</ToTranslate>
+  </String>
+  <String index="909">
+    <Origin>Chouun$&quot;Hmph... Any general would be able to see that much.&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Hmph... Any general would be able to see that much.&quot;@</ToTranslate>
+  </String>
+  <String index="910">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="911">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="912">
+    <Origin>aisy0125</Origin>
+    <ToTranslate>aisy0125</ToTranslate>
+  </String>
+  <String index="913">
+    <Origin>Aisha$&quot;I see. That makes things simpler. We crush the enemy for now, and then we shall retreat.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;I see. That makes things simpler. We crush the enemy for now, and then we shall retreat.&quot;@</ToTranslate>
+  </String>
+  <String index="914">
+    <Origin>tcg_cun31ea</Origin>
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="915">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="916">
+    <Origin>chou0028</Origin>
+    <ToTranslate>chou0028</ToTranslate>
+  </String>
+  <String index="917">
+    <Origin>Chouun$&quot;Very well. If I can entrust my back to the renowned Kan&apos;u, then I can fight seriously as well.&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Very well. If I can entrust my back to the renowned Kan&apos;u, then I can fight seriously as well.&quot;@</ToTranslate>
+  </String>
+  <String index="918">
+    <Origin>aisy0126</Origin>
+    <ToTranslate>aisy0126</ToTranslate>
+  </String>
+  <String index="919">
+    <Origin>Aisha$&quot;You sound promising.&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;You sound promising.&quot;@</ToTranslate>
+  </String>
+  <String index="920">
+    <Origin>tcg_cun31ia</Origin>
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="921">
+    <Origin>tcg_cun31m</Origin>
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="922">
+    <Origin>chou0029</Origin>
+    <ToTranslate>chou0029</ToTranslate>
+  </String>
+  <String index="923">
+    <Origin>Chouun$&quot;So do you.&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;So do you.&quot;@</ToTranslate>
+  </String>
+  <String index="924">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="925">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="926">
+    <Origin>aisy0127</Origin>
+    <ToTranslate>aisy0127</ToTranslate>
+  </String>
+  <String index="927">
+    <Origin>Aisha$&quot;All right...Then let us begin?&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;All right...Then let us begin?&quot;@</ToTranslate>
+  </String>
+  <String index="928">
+    <Origin>tcg_cun21ga</Origin>
+    <ToTranslate>tcg_cun21ga</ToTranslate>
+  </String>
+  <String index="929">
+    <Origin>tcg_cun21m</Origin>
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="930">
+    <Origin>chou0030</Origin>
+    <ToTranslate>chou0030</ToTranslate>
+  </String>
+  <String index="931">
+    <Origin>Chouun$&quot;Yes. ......Listen up, thee worthless dogs! My name is Chouun! If thou can hear that name and not tremble in fear, then come and try to take my life!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Yes. ......Listen up, thee worthless dogs! My name is Chouun! If thou can hear that name and not tremble in fear, then come and try to take my life!&quot;@</ToTranslate>
+  </String>
+  <String index="932">
+    <Origin>tcg_kan11ma</Origin>
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="933">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="934">
+    <Origin>aisy0128</Origin>
+    <ToTranslate>aisy0128</ToTranslate>
+  </String>
+  <String index="935">
+    <Origin>Aisha$&quot;Do not forget about me, Bandits! My name is Kan&apos;u! I am the first regent of the Messenger from Heaven, Hongou! If you wish to taste my Green Dragon Crescent Blade, then come!&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;Do not forget about me, Bandits! My name is Kan&apos;u! I am the first regent of the Messenger from Heaven, Hongou! If you wish to taste my Green Dragon Crescent Blade, then come!&quot;@</ToTranslate>
+  </String>
+  <String index="936">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="937">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="938">
+    <Origin>ecg_syoku1a</Origin>
+    <ToTranslate>ecg_syoku1a</ToTranslate>
+  </String>
+  <String index="939">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="940">
+    <Origin>$The two were back to back.@</Origin>
+    <ToTranslate>$The two were back to back.@</ToTranslate>
+  </String>
+  <String index="941">
+    <Origin>$Their voices rang out like a proclamation of death to the bandits.@</Origin>
+    <ToTranslate>$Their voices rang out like a proclamation of death to the bandits.@</ToTranslate>
+  </String>
+  <String index="942">
+    <Origin>$The two of them matched their pace, covering each others&apos; openings as they danced, spraying the rebels&apos; blood everywhere.@</Origin>
+    <ToTranslate>$The two of them matched their pace, covering each others&apos; openings as they danced, spraying the rebels&apos; blood everywhere.@</ToTranslate>
+  </String>
+  <String index="943">
+    <Origin>$Each time the Crescent Blade split the air, a rebel&apos;s head bounced away like a ball.@</Origin>
+    <ToTranslate>$Each time the Crescent Blade split the air, a rebel&apos;s head bounced away like a ball.@</ToTranslate>
+  </String>
+  <String index="944">
+    <Origin>$And each time, the blades of Chouun&apos;s spear flashed like lightning, a gutteral moan and a spray of blood arced through the air.@</Origin>
+    <ToTranslate>$And each time, the blades of Chouun&apos;s spear flashed like lightning, a gutteral moan and a spray of blood arced through the air.@</ToTranslate>
+  </String>
+  <String index="945">
+    <Origin>$It was a living hell for the bandits.@</Origin>
+    <ToTranslate>$It was a living hell for the bandits.@</ToTranslate>
+  </String>
+  <String index="946">
+    <Origin>$Piles upon piles of bandit corpses knelt before a mere two girls.@</Origin>
+    <ToTranslate>$Piles upon piles of bandit corpses knelt before a mere two girls.@</ToTranslate>
+  </String>
+  <String index="947">
+    <Origin>chou0031</Origin>
+    <ToTranslate>chou0031</ToTranslate>
+  </String>
+  <String index="948">
+    <Origin>Chouun$&quot;What&apos;s the matter, bandits! I&apos;m still standing! Is there no one here who can threaten my life?!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;What&apos;s the matter, bandits! I&apos;m still standing! Is there no one here who can threaten my life?!&quot;@</ToTranslate>
+  </String>
+  <String index="949">
+    <Origin>aisy0129</Origin>
+    <ToTranslate>aisy0129</ToTranslate>
+  </String>
+  <String index="950">
+    <Origin>Aisha$&quot;What&apos;s wrong?! Thou may be churls, but thou art men, art thy not?! Name thyself and fight!&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;What&apos;s wrong?! Thou may be churls, but thou art men, art thy not?! Name thyself and fight!&quot;@</ToTranslate>
+  </String>
+  <String index="951">
+    <Origin>$The girls ridiculed the bandits, and cut them down one by one.@</Origin>
+    <ToTranslate>$The girls ridiculed the bandits, and cut them down one by one.@</ToTranslate>
+  </String>
+  <String index="952">
+    <Origin>$They were truly like fierce gods of war.@</Origin>
+    <ToTranslate>$They were truly like fierce gods of war.@</ToTranslate>
+  </String>
+  <String index="953">
+    <Origin>$The overwhelming bandits began to show fear in the face of these twin incarnations.@</Origin>
+    <ToTranslate>$The overwhelming bandits began to show fear in the face of these twin incarnations.@</ToTranslate>
+  </String>
+  <String index="954">
+    <Origin>$Although the battlefield was filled with madness, they still feared to challenge them and lose their lives for nothing.@</Origin>
+    <ToTranslate>$Although the battlefield was filled with madness, they still feared to challenge them and lose their lives for nothing.@</ToTranslate>
+  </String>
+  <String index="955">
+    <Origin>$The bandits surrounded the two fierce gods, but they were too afraid to move in closer.@</Origin>
+    <ToTranslate>$The bandits surrounded the two fierce gods, but they were too afraid to move in closer.@</ToTranslate>
+  </String>
+  <String index="956">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="957">
+    <Origin>aa</Origin>
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="958">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="959">
+    <Origin>tcg_kan11aa</Origin>
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="960">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="961">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="962">
+    <Origin>aisy0130</Origin>
+    <ToTranslate>aisy0130</ToTranslate>
+  </String>
+  <String index="963">
+    <Origin>Aisha$&quot;It&apos;s about time...&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;It&apos;s about time...&quot;@</ToTranslate>
+  </String>
+  <String index="964">
+    <Origin>$Aisha readied her Green Dragon Crescent Blade and looked around from the corners of her eyes.@</Origin>
+    <ToTranslate>$Aisha readied her Green Dragon Crescent Blade and looked around from the corners of her eyes.@</ToTranslate>
+  </String>
+  <String index="965">
+    <Origin>SE047a</Origin>
+    <ToTranslate>SE047a</ToTranslate>
+  </String>
+  <String index="966">
+    <Origin>$That&apos;s when the signal from the main unit rang out over the battlefield.@</Origin>
+    <ToTranslate>$That&apos;s when the signal from the main unit rang out over the battlefield.@</ToTranslate>
+  </String>
+  <String index="967">
+    <Origin>tcg_kan11ca</Origin>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="968">
+    <Origin>tcg_kan11m</Origin>
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="969">
+    <Origin>aisy0131</Origin>
+    <ToTranslate>aisy0131</ToTranslate>
+  </String>
+  <String index="970">
+    <Origin>Aisha$&quot;There&apos;s our signal. Chouun-dono, fall back!&quot;@</Origin>
+    <ToTranslate>Aisha$&quot;There&apos;s our signal. Chouun-dono, fall back!&quot;@</ToTranslate>
+  </String>
+  <String index="971">
+    <Origin>tcg_cun21ca</Origin>
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="972">
+    <Origin>tcg_cun21m</Origin>
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="973">
+    <Origin>chou0032</Origin>
+    <ToTranslate>chou0032</ToTranslate>
+  </String>
+  <String index="974">
+    <Origin>Chouun$&quot;Yeah!&quot;@</Origin>
+    <ToTranslate>Chouun$&quot;Yeah!&quot;@</ToTranslate>
+  </String>
+  <String index="975">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="976">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="977">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="978">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="979">
+    <Origin>bcg_wasteland_a</Origin>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="980">
+    <Origin>tcg_syo21ca</Origin>
+    <ToTranslate>tcg_syo21ca</ToTranslate>
+  </String>
+  <String index="981">
+    <Origin>tcg_syo21m</Origin>
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="982">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="983">
+    <Origin>syur0037</Origin>
+    <ToTranslate>syur0037</ToTranslate>
+  </String>
+  <String index="984">
+    <Origin>Shuri$&quot;Ah...My Lord! Aisha-san and the others are retreating! The Yellow Turbans&apos; vanguard is in pursuit!&quot;@</Origin>
+    <ToTranslate>Shuri$&quot;Ah...My Lord! Aisha-san and the others are retreating! The Yellow Turbans&apos; vanguard is in pursuit!&quot;@</ToTranslate>
+  </String>
+  <String index="985">
+    <Origin>Kazuto$&quot;Good. Our plan is working so far. Okay Rinrin, now it&apos;s time to move out as planned!&quot;@</Origin>
+    <ToTranslate>Kazuto$&quot;Good. Our plan is working so far. Okay Rinrin, now it&apos;s time to move out as planned!&quot;@</ToTranslate>
+  </String>
+  <String index="986">
+    <Origin>tcg_cho11ca</Origin>
+    <ToTranslate>tcg_cho11ca</ToTranslate>
+  </String>
+  <String index="987">
+    <Origin>tcg_cho11m</Origin>
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="988">
+    <Origin>rinr0087</Origin>
+    <ToTranslate>rinr0087</ToTranslate>
+  </String>
+  <String index="989">
+    <Origin>Rinrin$&quot;Leave it to me! Everyone, prepare for battle!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Leave it to me! Everyone, prepare for battle!&quot;@</ToTranslate>
+  </String>
+  <String index="990">
+    <Origin>$At Rinrin&apos;s command, the soldiers got up and ran towards their stations.@</Origin>
+    <ToTranslate>$At Rinrin&apos;s command, the soldiers got up and ran towards their stations.@</ToTranslate>
+  </String>
+  <String index="991">
+    <Origin>tcg_cho11ea</Origin>
+    <ToTranslate>tcg_cho11ea</ToTranslate>
+  </String>
+  <String index="992">
+    <Origin>tcg_cho11m</Origin>
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="993">
+    <Origin>rinr0088</Origin>
+    <ToTranslate>rinr0088</ToTranslate>
+  </String>
+  <String index="994">
+    <Origin>Rinrin$&quot;Surround the incoming enemy and beat them to a pulp! Everyone, follow me!&quot;@</Origin>
+    <ToTranslate>Rinrin$&quot;Surround the incoming enemy and beat them to a pulp! Everyone, follow me!&quot;@</ToTranslate>
+  </String>
+  <String index="995">
+    <Origin>SE048</Origin>
+    <ToTranslate>SE048</ToTranslate>
+  </String>
+  <String index="996">
+    <Origin>SE124</Origin>
+    <ToTranslate>SE124</ToTranslate>
+  </String>
+  <String index="997">
+    <Origin>$Rinrin ran out in the lead, and the soldiers followed her towards the Yellow Turbans with a war cry.@</Origin>
+    <ToTranslate>$Rinrin ran out in the lead, and the soldiers followed her towards the Yellow Turbans with a war cry.@</ToTranslate>
+  </String>
+  <String index="998">
+    <Origin>$And now our battle has begun...@</Origin>
+    <ToTranslate>$And now our battle has begun...@</ToTranslate>
+  </String>
+  <String index="999">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1000">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+</DBS>
+
+</poem>
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
