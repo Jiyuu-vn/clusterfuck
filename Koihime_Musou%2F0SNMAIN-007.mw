@@ -1,0 +1,3073 @@
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
+<poem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <Origin>bcg_map_a</Origin>
+    <ToTranslate>bcg_map_a</ToTranslate>
+  </String>
+  <String index="1">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="2">
+    <Origin>bgm23</Origin>
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="3">
+    <Origin>$After we defeated Enshou and captured Jizhou, we used that momentum to begin our advance into the surrounding areas.@</Origin>
+    <ToTranslate>$After we defeated Enshou and captured Jizhou, we used that momentum to begin our advance into the surrounding areas.@</ToTranslate>
+  </String>
+  <String index="4">
+    <Origin>$Fortunately, both the small local militias and the great, major cities decided to cease their resistance once they lost their leader, Enshou, and volunteered to join our alliance.@</Origin>
+    <ToTranslate>$Fortunately, both the small local militias and the great, major cities decided to cease their resistance once they lost their leader, Enshou, and volunteered to join our alliance.@</ToTranslate>
+  </String>
+  <String index="5">
+    <Origin>$Aisha was indignant, shouting, &quot;Have they no shame to surrender without a fight?!&quot; but I&apos;d rather not fight.@</Origin>
+    <ToTranslate>$Aisha was indignant, shouting, &quot;Have they no shame to surrender without a fight?!&quot; but I&apos;d rather not fight.@</ToTranslate>
+  </String>
+  <String index="6">
+    <Origin>$That&apos;s why I&apos;m thankful that they volunteered to join us.@</Origin>
+    <ToTranslate>$That&apos;s why I&apos;m thankful that they volunteered to join us.@</ToTranslate>
+  </String>
+  <String index="7">
+    <Origin>$......Anyway.@</Origin>
+    <ToTranslate>$......Anyway.@</ToTranslate>
+  </String>
+  <String index="8">
+    <Origin>$We continued to take in local forces and became a sizable army.@</Origin>
+    <ToTranslate>$We continued to take in local forces and became a sizable army.@</ToTranslate>
+  </String>
+  <String index="9">
+    <Origin>$But at the same time, Sousou and Sonken were likewise pouring their strength into annexing their neighbors.@</Origin>
+    <ToTranslate>$But at the same time, Sousou and Sonken were likewise pouring their strength into annexing their neighbors.@</ToTranslate>
+  </String>
+  <String index="10">
+    <Origin>$Sousou began spreading her power around the city of Xuchang, particularly focusing on the west of the continent, and Sonken began spreading her power towards the south of the continent.@</Origin>
+    <ToTranslate>$Sousou began spreading her power around the city of Xuchang, particularly focusing on the west of the continent, and Sonken began spreading her power towards the south of the continent.@</ToTranslate>
+  </String>
+  <String index="11">
+    <Origin>$To be honest, it was only a matter of time before we would face those two.@</Origin>
+    <ToTranslate>$To be honest, it was only a matter of time before we would face those two.@</ToTranslate>
+  </String>
+  <String index="12">
+    <Origin>$Supposedly Sousou is still going on about how she wants Aisha, and she hates me anyways, so she&apos;s after my life.@</Origin>
+    <ToTranslate>$Supposedly Sousou is still going on about how she wants Aisha, and she hates me anyways, so she&apos;s after my life.@</ToTranslate>
+  </String>
+  <String index="13">
+    <Origin>$I don&apos;t like being the focus of someone as troublesome as her but I can&apos;t just say &quot;Here you go.&quot;, and hand over Aisha either.@</Origin>
+    <ToTranslate>$I don&apos;t like being the focus of someone as troublesome as her but I can&apos;t just say &quot;Here you go.&quot;, and hand over Aisha either.@</ToTranslate>
+  </String>
+  <String index="14">
+    <Origin>$I have to draw my own line somewhere.@</Origin>
+    <ToTranslate>$I have to draw my own line somewhere.@</ToTranslate>
+  </String>
+  <String index="15">
+    <Origin>$......However, the Sousou camp has plenty of talented people, as well as armaments.@</Origin>
+    <ToTranslate>$......However, the Sousou camp has plenty of talented people, as well as armaments.@</ToTranslate>
+  </String>
+  <String index="16">
+    <Origin>$Besides, they say she&apos;s aiming to unify the entire nation, so it&apos;s plain as day that she&apos;ll come attack our city once she&apos;s made her preparations.@</Origin>
+    <ToTranslate>$Besides, they say she&apos;s aiming to unify the entire nation, so it&apos;s plain as day that she&apos;ll come attack our city once she&apos;s made her preparations.@</ToTranslate>
+  </String>
+  <String index="17">
+    <Origin>$On the other hand, the Sonken camp is apparently waiting for the opportunity to snatch up part of our territory.@</Origin>
+    <ToTranslate>$On the other hand, the Sonken camp is apparently waiting for the opportunity to snatch up part of our territory.@</ToTranslate>
+  </String>
+  <String index="18">
+    <Origin>$Well, Sonken does have a better chance of winning if she advances north and attacks us than she would if she spread west and tried to tangle with Sousou.@</Origin>
+    <ToTranslate>$Well, Sonken does have a better chance of winning if she advances north and attacks us than she would if she spread west and tried to tangle with Sousou.@</ToTranslate>
+  </String>
+  <String index="19">
+    <Origin>$Frankly, it&apos;s annoying.@</Origin>
+    <ToTranslate>$Frankly, it&apos;s annoying.@</ToTranslate>
+  </String>
+  <String index="20">
+    <Origin>$......But I can&apos;t keep complaining.@</Origin>
+    <ToTranslate>$......But I can&apos;t keep complaining.@</ToTranslate>
+  </String>
+  <String index="21">
+    <Origin>$The real power in Sonken&apos;s land is held by Shuuyu, their warmonger, and it seems she&apos;s frequently proposed an invasion to the north.@</Origin>
+    <ToTranslate>$The real power in Sonken&apos;s land is held by Shuuyu, their warmonger, and it seems she&apos;s frequently proposed an invasion to the north.@</ToTranslate>
+  </String>
+  <String index="22">
+    <Origin>$In other words, she&apos;s set her sights directly on us.@</Origin>
+    <ToTranslate>$In other words, she&apos;s set her sights directly on us.@</ToTranslate>
+  </String>
+  <String index="23">
+    <Origin>$But while Go does have talented people, it&apos;s hard to say if they&apos;re as well armed as Sousou&apos;s.@</Origin>
+    <ToTranslate>$But while Go does have talented people, it&apos;s hard to say if they&apos;re as well armed as Sousou&apos;s.@</ToTranslate>
+  </String>
+  <String index="24">
+    <Origin>$Even if Go wages war against us, it&apos;s still possible for us to handle them.@</Origin>
+    <ToTranslate>$Even if Go wages war against us, it&apos;s still possible for us to handle them.@</ToTranslate>
+  </String>
+  <String index="25">
+    <Origin>$However, my one concern is how Shuuyu will play her cards.@</Origin>
+    <ToTranslate>$However, my one concern is how Shuuyu will play her cards.@</ToTranslate>
+  </String>
+  <String index="26">
+    <Origin>$She&apos;s known as an icy general who will use ruthless strategies without hesitation, so I have no idea what kind of tactics she&apos;ll try to use against us.@</Origin>
+    <ToTranslate>$She&apos;s known as an icy general who will use ruthless strategies without hesitation, so I have no idea what kind of tactics she&apos;ll try to use against us.@</ToTranslate>
+  </String>
+  <String index="27">
+    <Origin>$Our present policy is that there&apos;s no harm in being cautious.@</Origin>
+    <ToTranslate>$Our present policy is that there&apos;s no harm in being cautious.@</ToTranslate>
+  </String>
+  <String index="28">
+    <Origin>$Go says they&apos;re trying to unify the land as well, so I wouldn&apos;t be surprised if we had to clash with them, too.@</Origin>
+    <ToTranslate>$Go says they&apos;re trying to unify the land as well, so I wouldn&apos;t be surprised if we had to clash with them, too.@</ToTranslate>
+  </String>
+  <String index="29">
+    <Origin>$In the midst of all of those affairs, we were running around handling political affairs and strengthening our military while also deepening the bonds between us and our allies.@</Origin>
+    <ToTranslate>$In the midst of all of those affairs, we were running around handling political affairs and strengthening our military while also deepening the bonds between us and our allies.@</ToTranslate>
+  </String>
+  <String index="30">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="31">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="32">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="33">
+    <Origin>$Meanwhile, in Sousou&apos;s headquarters......@</Origin>
+    <ToTranslate>$Meanwhile, in Sousou&apos;s headquarters......@</ToTranslate>
+  </String>
+  <String index="34">
+    <Origin>bcg_gi_impseat_c</Origin>
+    <ToTranslate>bcg_gi_impseat_c</ToTranslate>
+  </String>
+  <String index="35">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="36">
+    <Origin>bgm27</Origin>
+    <ToTranslate>bgm27</ToTranslate>
+  </String>
+  <String index="37">
+    <Origin>jyun0012</Origin>
+    <ToTranslate>jyun0012</ToTranslate>
+  </String>
+  <String index="38">
+    <Origin>???$&quot;Mmm......sllr......slllrr......mmff......&quot;@</Origin>
+    <ToTranslate>???$&quot;Mmm......sllr......slllrr......mmff......&quot;@</ToTranslate>
+  </String>
+  <String index="39">
+    <Origin>$Lewd sounds resounded in the spacious room.@</Origin>
+    <ToTranslate>$Lewd sounds resounded in the spacious room.@</ToTranslate>
+  </String>
+  <String index="40">
+    <Origin>$Those wet sounds were drawn into the darkness of the ceiling and echoed back down to all corners of the room.@</Origin>
+    <ToTranslate>$Those wet sounds were drawn into the darkness of the ceiling and echoed back down to all corners of the room.@</ToTranslate>
+  </String>
+  <String index="41">
+    <Origin>jyun0013</Origin>
+    <ToTranslate>jyun0013</ToTranslate>
+  </String>
+  <String index="42">
+    <Origin>???$&quot;Mmmpp, mmm, sllrpp, sllrpp......Mmm, sllr......sllrr......mmmfaah...&quot;@</Origin>
+    <ToTranslate>???$&quot;Mmmpp, mmm, sllrpp, sllrpp......Mmm, sllr......sllrr......mmmfaah...&quot;@</ToTranslate>
+  </String>
+  <String index="43">
+    <Origin>jyun0014</Origin>
+    <ToTranslate>jyun0014</ToTranslate>
+  </String>
+  <String index="44">
+    <Origin>???$&quot;Karin-sama...How is my service...?&quot;@</Origin>
+    <ToTranslate>???$&quot;Karin-sama...How is my service...?&quot;@</ToTranslate>
+  </String>
+  <String index="45">
+    <Origin>sous0076</Origin>
+    <ToTranslate>sous0076</ToTranslate>
+  </String>
+  <String index="46">
+    <Origin>Sousou$&quot;Satisfactory. ......Continue as you were, Keifa.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Satisfactory. ......Continue as you were, Keifa.&quot;@</ToTranslate>
+  </String>
+  <String index="47">
+    <Origin>jyun0015</Origin>
+    <ToTranslate>jyun0015</ToTranslate>
+  </String>
+  <String index="48">
+    <Origin>Jun&apos;iku$&quot;Yes......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes......&quot;@</ToTranslate>
+  </String>
+  <String index="49">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="50">
+    <Origin>ecg_sou01a</Origin>
+    <ToTranslate>ecg_sou01a</ToTranslate>
+  </String>
+  <String index="51">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="52">
+    <Origin>jyun0016</Origin>
+    <ToTranslate>jyun0016</ToTranslate>
+  </String>
+  <String index="53">
+    <Origin>Jun&apos;iku$&quot;Mmm......sllrr, mmm, sllrrp......sllrp, sllrp, sllrp......Mmm, sllrrpp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm......sllrr, mmm, sllrrp......sllrp, sllrp, sllrp......Mmm, sllrrpp......&quot;@</ToTranslate>
+  </String>
+  <String index="54">
+    <Origin>jyun0017</Origin>
+    <ToTranslate>jyun0017</ToTranslate>
+  </String>
+  <String index="55">
+    <Origin>Jun&apos;iku$&quot;Haaahh...Mmm, slrr mmm, sllr......slrr, slrr......Haahh, Karin-sama, your feet are......very beautiful......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Haaahh...Mmm, slrr mmm, sllr......slrr, slrr......Haahh, Karin-sama, your feet are......very beautiful......&quot;@</ToTranslate>
+  </String>
+  <String index="56">
+    <Origin>jyun0018</Origin>
+    <ToTranslate>jyun0018</ToTranslate>
+  </String>
+  <String index="57">
+    <Origin>Jun&apos;iku$&quot;They&apos;re so smooth, and... mmm, sllrrp, mmm, mmm......luscious......Mmsch, sllr......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;They&apos;re so smooth, and... mmm, sllrrp, mmm, mmm......luscious......Mmsch, sllr......&quot;@</ToTranslate>
+  </String>
+  <String index="58">
+    <Origin>sous0077</Origin>
+    <ToTranslate>sous0077</ToTranslate>
+  </String>
+  <String index="59">
+    <Origin>Sousou$&quot;Is that so? Hu-hu......That&apos;s because you always take care of them like this, Keifa...&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Is that so? Hu-hu......That&apos;s because you always take care of them like this, Keifa...&quot;@</ToTranslate>
+  </String>
+  <String index="60">
+    <Origin>jyun0019</Origin>
+    <ToTranslate>jyun0019</ToTranslate>
+  </String>
+  <String index="61">
+    <Origin>Jun&apos;iku$&quot;Ahhh, Karin-sama......Your words are too kind to me...&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahhh, Karin-sama......Your words are too kind to me...&quot;@</ToTranslate>
+  </String>
+  <String index="62">
+    <Origin>sous0078</Origin>
+    <ToTranslate>sous0078</ToTranslate>
+  </String>
+  <String index="63">
+    <Origin>Sousou$&quot;What do you want to do, Keifa? ......Do what you want.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;What do you want to do, Keifa? ......Do what you want.&quot;@</ToTranslate>
+  </String>
+  <String index="64">
+    <Origin>jyun0020</Origin>
+    <ToTranslate>jyun0020</ToTranslate>
+  </String>
+  <String index="65">
+    <Origin>Jun&apos;iku$&quot;I...... I want to taste your feet more and more, Karin-sama......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;I...... I want to taste your feet more and more, Karin-sama......&quot;@</ToTranslate>
+  </String>
+  <String index="66">
+    <Origin>sous0079</Origin>
+    <ToTranslate>sous0079</ToTranslate>
+  </String>
+  <String index="67">
+    <Origin>Sousou$&quot;Hmmm, and how do you want to do that?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hmmm, and how do you want to do that?&quot;@</ToTranslate>
+  </String>
+  <String index="68">
+    <Origin>jyun0021</Origin>
+    <ToTranslate>jyun0021</ToTranslate>
+  </String>
+  <String index="69">
+    <Origin>Jun&apos;iku$&quot;Please use more force......and tease my mouth......Tease it more, more, however you wish, Karin-sama......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Please use more force......and tease my mouth......Tease it more, more, however you wish, Karin-sama......&quot;@</ToTranslate>
+  </String>
+  <String index="70">
+    <Origin>sous0080</Origin>
+    <ToTranslate>sous0080</ToTranslate>
+  </String>
+  <String index="71">
+    <Origin>Sousou$&quot;Oh my, are you trying to order me?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Oh my, are you trying to order me?&quot;@</ToTranslate>
+  </String>
+  <String index="72">
+    <Origin>jyun0022</Origin>
+    <ToTranslate>jyun0022</ToTranslate>
+  </String>
+  <String index="73">
+    <Origin>Jun&apos;iku$&quot;Ah......My deepest, apologies...&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ah......My deepest, apologies...&quot;@</ToTranslate>
+  </String>
+  <String index="74">
+    <Origin>sous0081</Origin>
+    <ToTranslate>sous0081</ToTranslate>
+  </String>
+  <String index="75">
+    <Origin>Sousou$&quot;Tee-hee......I&apos;m kidding, Keifa. I&apos;ll give your mouth plenty of teasing, but......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Tee-hee......I&apos;m kidding, Keifa. I&apos;ll give your mouth plenty of teasing, but......&quot;@</ToTranslate>
+  </String>
+  <String index="76">
+    <Origin>sous0082</Origin>
+    <ToTranslate>sous0082</ToTranslate>
+  </String>
+  <String index="77">
+    <Origin>Sousou$&quot;Before I do that, pour plenty of your love onto my foot, and make me satisfied.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Before I do that, pour plenty of your love onto my foot, and make me satisfied.&quot;@</ToTranslate>
+  </String>
+  <String index="78">
+    <Origin>jyun0023</Origin>
+    <ToTranslate>jyun0023</ToTranslate>
+  </String>
+  <String index="79">
+    <Origin>Jun&apos;iku$&quot;May I......?&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;May I......?&quot;@</ToTranslate>
+  </String>
+  <String index="80">
+    <Origin>sous0083</Origin>
+    <ToTranslate>sous0083</ToTranslate>
+  </String>
+  <String index="81">
+    <Origin>Sousou$&quot;Yes. Let my legs soak in your saliva. That&apos;s how you show your love, isn&apos;t it?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Yes. Let my legs soak in your saliva. That&apos;s how you show your love, isn&apos;t it?&quot;@</ToTranslate>
+  </String>
+  <String index="82">
+    <Origin>jyun0024</Origin>
+    <ToTranslate>jyun0024</ToTranslate>
+  </String>
+  <String index="83">
+    <Origin>Jun&apos;iku$&quot;Yes......I am your faithful servant, Karin-sama...... I&apos;m a dog whose only trick is serving you, Karin-sama.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes......I am your faithful servant, Karin-sama...... I&apos;m a dog whose only trick is serving you, Karin-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="84">
+    <Origin>sous0084</Origin>
+    <ToTranslate>sous0084</ToTranslate>
+  </String>
+  <String index="85">
+    <Origin>Sousou$&quot;Then love my feet. ......Lick my toes, run your tongue between them and taste them. ......I give you permission to love me.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Then love my feet. ......Lick my toes, run your tongue between them and taste them. ......I give you permission to love me.&quot;@</ToTranslate>
+  </String>
+  <String index="86">
+    <Origin>jyun0025</Origin>
+    <ToTranslate>jyun0025</ToTranslate>
+  </String>
+  <String index="87">
+    <Origin>Jun&apos;iku$&quot;Aaah, Karin-sama, mmm, shllrr, mmm, sllrpp......shllrrr, mmm, sllr, sllr, sllr.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Aaah, Karin-sama, mmm, shllrr, mmm, sllrpp......shllrrr, mmm, sllr, sllr, sllr.&quot;@</ToTranslate>
+  </String>
+  <String index="88">
+    <Origin>sous0085</Origin>
+    <ToTranslate>sous0085</ToTranslate>
+  </String>
+  <String index="89">
+    <Origin>Sousou$&quot;Hu-hu...... That tickles, Keifa.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu...... That tickles, Keifa.&quot;@</ToTranslate>
+  </String>
+  <String index="90">
+    <Origin>jyun0026</Origin>
+    <ToTranslate>jyun0026</ToTranslate>
+  </String>
+  <String index="91">
+    <Origin>Jun&apos;iku$&quot;More......Please let me love you more. Karin-sama, let me love your feet......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;More......Please let me love you more. Karin-sama, let me love your feet......&quot;@</ToTranslate>
+  </String>
+  <String index="92">
+    <Origin>sous0086</Origin>
+    <ToTranslate>sous0086</ToTranslate>
+  </String>
+  <String index="93">
+    <Origin>Sousou$&quot;Yes, you may.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Yes, you may.&quot;@</ToTranslate>
+  </String>
+  <String index="94">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="95">
+    <Origin>ecg_sou01b</Origin>
+    <ToTranslate>ecg_sou01b</ToTranslate>
+  </String>
+  <String index="96">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="97">
+    <Origin>jyun0027</Origin>
+    <ToTranslate>jyun0027</ToTranslate>
+  </String>
+  <String index="98">
+    <Origin>Jun&apos;iku$&quot;Mmm, sllr, slrrpp, mmm, sllrr......Haaahh......They&apos;re delicious. Mmslr, sllr, sllrr...&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, sllr, slrrpp, mmm, sllrr......Haaahh......They&apos;re delicious. Mmslr, sllr, sllrr...&quot;@</ToTranslate>
+  </String>
+  <String index="99">
+    <Origin>$Jun&apos;iku&apos;s dripping wet tongue diligently crawled over Sousou&apos;s toes.@</Origin>
+    <ToTranslate>$Jun&apos;iku&apos;s dripping wet tongue diligently crawled over Sousou&apos;s toes.@</ToTranslate>
+  </String>
+  <String index="100">
+    <Origin>sous0087</Origin>
+    <ToTranslate>sous0087</ToTranslate>
+  </String>
+  <String index="101">
+    <Origin>Sousou$&quot;Hu-hu...... you&apos;re just like a puppy, Keifa.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu...... you&apos;re just like a puppy, Keifa.&quot;@</ToTranslate>
+  </String>
+  <String index="102">
+    <Origin>jyun0028</Origin>
+    <ToTranslate>jyun0028</ToTranslate>
+  </String>
+  <String index="103">
+    <Origin>Jun&apos;iku$&quot;Ahh...... that&apos;s because...... Karin-sama, your feet are mmm, , sllr,  so very, sllrrp, mmm...... delicious to me...... sllr, sllrr, , &quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahh...... that&apos;s because...... Karin-sama, your feet are mmm, , sllr,  so very, sllrrp, mmm...... delicious to me...... sllr, sllrr, , &quot;@</ToTranslate>
+  </String>
+  <String index="104">
+    <Origin>sous0088</Origin>
+    <ToTranslate>sous0088</ToTranslate>
+  </String>
+  <String index="105">
+    <Origin>Sousou$&quot;Being forced to lick my feet and finding them delicious......What a pervert.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Being forced to lick my feet and finding them delicious......What a pervert.&quot;@</ToTranslate>
+  </String>
+  <String index="106">
+    <Origin>jyun0029</Origin>
+    <ToTranslate>jyun0029</ToTranslate>
+  </String>
+  <String index="107">
+    <Origin>Jun&apos;iku$&quot;Sllrr, Mmm......shhpp, shhpp, shhp, shhpp, shhpp, shhpp......Mmmmhhh, Mmmhhhh....&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Sllrr, Mmm......shhpp, shhpp, shhp, shhpp, shhpp, shhpp......Mmmmhhh, Mmmhhhh....&quot;@</ToTranslate>
+  </String>
+  <String index="108">
+    <Origin>sous0089</Origin>
+    <ToTranslate>sous0089</ToTranslate>
+  </String>
+  <String index="109">
+    <Origin>Sousou$&quot;Oh my, my. Look at you getting excited because I called you a pervert. What a dirty girl, Keifa.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Oh my, my. Look at you getting excited because I called you a pervert. What a dirty girl, Keifa.&quot;@</ToTranslate>
+  </String>
+  <String index="110">
+    <Origin>jyun0030</Origin>
+    <ToTranslate>jyun0030</ToTranslate>
+  </String>
+  <String index="111">
+    <Origin>Jun&apos;iku$&quot;Mmmpaah.......Haaahh......Yes......I am a pervert who gets turned on by being forced to lick your feet...&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmmpaah.......Haaahh......Yes......I am a pervert who gets turned on by being forced to lick your feet...&quot;@</ToTranslate>
+  </String>
+  <String index="112">
+    <Origin>jyun0031</Origin>
+    <ToTranslate>jyun0031</ToTranslate>
+  </String>
+  <String index="113">
+    <Origin>Jun&apos;iku$&quot;But that&apos;s only because they are yours, Karin-sama...... mmm, shlp...... I only become so dirty because it&apos;s you, my beloved Karin-sama. I want to receive your affection......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;But that&apos;s only because they are yours, Karin-sama...... mmm, shlp...... I only become so dirty because it&apos;s you, my beloved Karin-sama. I want to receive your affection......&quot;@</ToTranslate>
+  </String>
+  <String index="114">
+    <Origin>jyun0032</Origin>
+    <ToTranslate>jyun0032</ToTranslate>
+  </String>
+  <String index="115">
+    <Origin>Jun&apos;iku$&quot;That&apos;s why, mmshlp, shlp, shlp...... mmmfaaah... please, please tease me more......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;That&apos;s why, mmshlp, shlp, shlp...... mmmfaaah... please, please tease me more......&quot;@</ToTranslate>
+  </String>
+  <String index="116">
+    <Origin>jyun0033</Origin>
+    <ToTranslate>jyun0033</ToTranslate>
+  </String>
+  <String index="117">
+    <Origin>Jun&apos;iku$&quot;More, more, mmm sllrr, sllr......shhllrrr......please rebuke me more, Mmmm, sllr, sllr, sllr......shhlllrrr.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;More, more, mmm sllrr, sllr......shhllrrr......please rebuke me more, Mmmm, sllr, sllr, sllr......shhlllrrr.&quot;@</ToTranslate>
+  </String>
+  <String index="118">
+    <Origin>sous0090</Origin>
+    <ToTranslate>sous0090</ToTranslate>
+  </String>
+  <String index="119">
+    <Origin>Sousou$&quot;Pervert!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Pervert!&quot;@</ToTranslate>
+  </String>
+  <String index="120">
+    <Origin>jyun0034</Origin>
+    <ToTranslate>jyun0034</ToTranslate>
+  </String>
+  <String index="121">
+    <Origin>Jun&apos;iku$&quot;Mmm! Mmm, sllr..... shlp, mmm...... huff...... huff...... huff......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm! Mmm, sllr..... shlp, mmm...... huff...... huff...... huff......&quot;@</ToTranslate>
+  </String>
+  <String index="122">
+    <Origin>sous0091</Origin>
+    <ToTranslate>sous0091</ToTranslate>
+  </String>
+  <String index="123">
+    <Origin>Sousou$&quot;Pervert!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Pervert!&quot;@</ToTranslate>
+  </String>
+  <String index="124">
+    <Origin>jyun0035</Origin>
+    <ToTranslate>jyun0035</ToTranslate>
+  </String>
+  <String index="125">
+    <Origin>Jun&apos;iku$&quot;Mmm! Mmm, huff...... huff...... huff...... huff......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm! Mmm, huff...... huff...... huff...... huff......&quot;@</ToTranslate>
+  </String>
+  <String index="126">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="127">
+    <Origin>ecg_sou01a</Origin>
+    <ToTranslate>ecg_sou01a</ToTranslate>
+  </String>
+  <String index="128">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="129">
+    <Origin>sous0092</Origin>
+    <ToTranslate>sous0092</ToTranslate>
+  </String>
+  <String index="130">
+    <Origin>Sousou$&quot;......Your service has stopped.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;......Your service has stopped.&quot;@</ToTranslate>
+  </String>
+  <String index="131">
+    <Origin>jyun0036</Origin>
+    <ToTranslate>jyun0036</ToTranslate>
+  </String>
+  <String index="132">
+    <Origin>Jun&apos;iku$&quot;Whahhh...... I&apos;m sorry......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Whahhh...... I&apos;m sorry......&quot;@</ToTranslate>
+  </String>
+  <String index="133">
+    <Origin>sous0093</Origin>
+    <ToTranslate>sous0093</ToTranslate>
+  </String>
+  <String index="134">
+    <Origin>Sousou$&quot;If you have time to apologize, then service me more, perverted little Keifa-san. Tee-hee....&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;If you have time to apologize, then service me more, perverted little Keifa-san. Tee-hee....&quot;@</ToTranslate>
+  </String>
+  <String index="135">
+    <Origin>jyun0037</Origin>
+    <ToTranslate>jyun0037</ToTranslate>
+  </String>
+  <String index="136">
+    <Origin>Jun&apos;iku$&quot;Yesh...... mmmpp, mmm...... shhllrr, sllr...... shllrr, sllr...... shllrr, sllr......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yesh...... mmmpp, mmm...... shhllrr, sllr...... shllrr, sllr...... shllrr, sllr......&quot;@</ToTranslate>
+  </String>
+  <String index="137">
+    <Origin>$Jun&apos;iku obediently followed that teasing smile and devoted herself to serving Sousou.@</Origin>
+    <ToTranslate>$Jun&apos;iku obediently followed that teasing smile and devoted herself to serving Sousou.@</ToTranslate>
+  </String>
+  <String index="138">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="139">
+    <Origin>ecg_sou01b</Origin>
+    <ToTranslate>ecg_sou01b</ToTranslate>
+  </String>
+  <String index="140">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="141">
+    <Origin>jyun0038</Origin>
+    <ToTranslate>jyun0038</ToTranslate>
+  </String>
+  <String index="142">
+    <Origin>Jun&apos;iku$&quot;Sllrrr, sllr......shlllrrr......Mmmpfahh, hahh, haahh, hahh......Hammm, sllr, sllr......shlllrr, shllr, shhlp, shhlp, shhlp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Sllrrr, sllr......shlllrrr......Mmmpfahh, hahh, haahh, hahh......Hammm, sllr, sllr......shlllrr, shllr, shhlp, shhlp, shhlp......&quot;@</ToTranslate>
+  </String>
+  <String index="143">
+    <Origin>sous0094</Origin>
+    <ToTranslate>sous0094</ToTranslate>
+  </String>
+  <String index="144">
+    <Origin>Sousou$&quot;Hu-hu......Good, Keifa. Your lips are soaked and you&apos;re even drooling. You look so slutty, but so cute.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu......Good, Keifa. Your lips are soaked and you&apos;re even drooling. You look so slutty, but so cute.&quot;@</ToTranslate>
+  </String>
+  <String index="145">
+    <Origin>jyun0039</Origin>
+    <ToTranslate>jyun0039</ToTranslate>
+  </String>
+  <String index="146">
+    <Origin>Jun&apos;iku$&quot;Shllrr, shllrr, shlllrrr......Mmmm, huff, huff......Mmm, sllr, sllr, sllr......shlllrr, shllr, shllpp, shllpp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Shllrr, shllrr, shlllrrr......Mmmm, huff, huff......Mmm, sllr, sllr, sllr......shlllrr, shllr, shllpp, shllpp......&quot;@</ToTranslate>
+  </String>
+  <String index="147">
+    <Origin>sous0095</Origin>
+    <ToTranslate>sous0095</ToTranslate>
+  </String>
+  <String index="148">
+    <Origin>Sousou$&quot;Let me see your face look even sluttier. Give me even dirtier service. ......Devote everything, your everything, to me and only me.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Let me see your face look even sluttier. Give me even dirtier service. ......Devote everything, your everything, to me and only me.&quot;@</ToTranslate>
+  </String>
+  <String index="149">
+    <Origin>jyun0040</Origin>
+    <ToTranslate>jyun0040</ToTranslate>
+  </String>
+  <String index="150">
+    <Origin>Jun&apos;iku$&quot;Mmmpp, Ah, Haahh......Yes, Karin-sama. I offer you my everything. But, umm......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmmpp, Ah, Haahh......Yes, Karin-sama. I offer you my everything. But, umm......&quot;@</ToTranslate>
+  </String>
+  <String index="151">
+    <Origin>sous0096</Origin>
+    <ToTranslate>sous0096</ToTranslate>
+  </String>
+  <String index="152">
+    <Origin>Sousou$&quot;What&apos;s the matter? Why are you fidgeting? Uh-hu-hu....&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;What&apos;s the matter? Why are you fidgeting? Uh-hu-hu....&quot;@</ToTranslate>
+  </String>
+  <String index="153">
+    <Origin>jyun0041</Origin>
+    <ToTranslate>jyun0041</ToTranslate>
+  </String>
+  <String index="154">
+    <Origin>Jun&apos;iku$&quot;Well......umm......I, I can&apos;t stand it anymore......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Well......umm......I, I can&apos;t stand it anymore......&quot;@</ToTranslate>
+  </String>
+  <String index="155">
+    <Origin>sous0097</Origin>
+    <ToTranslate>sous0097</ToTranslate>
+  </String>
+  <String index="156">
+    <Origin>Sousou$&quot;Do you want to touch yourself?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Do you want to touch yourself?&quot;@</ToTranslate>
+  </String>
+  <String index="157">
+    <Origin>jyun0042</Origin>
+    <ToTranslate>jyun0042</ToTranslate>
+  </String>
+  <String index="158">
+    <Origin>Jun&apos;iku$&quot;......(Nod)&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;......(Nod)&quot;@</ToTranslate>
+  </String>
+  <String index="159">
+    <Origin>sous0098</Origin>
+    <ToTranslate>sous0098</ToTranslate>
+  </String>
+  <String index="160">
+    <Origin>Sousou$&quot;Then use your cute voice and beg. Ask me, &apos;May I touch my dirty spot that&apos;s dripping with slutty drops?&apos;&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Then use your cute voice and beg. Ask me, &apos;May I touch my dirty spot that&apos;s dripping with slutty drops?&apos;&quot;@</ToTranslate>
+  </String>
+  <String index="161">
+    <Origin>jyun0043</Origin>
+    <ToTranslate>jyun0043</ToTranslate>
+  </String>
+  <String index="162">
+    <Origin>Jun&apos;iku$&quot;Ahh......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahh......&quot;@</ToTranslate>
+  </String>
+  <String index="163">
+    <Origin>sous0099</Origin>
+    <ToTranslate>sous0099</ToTranslate>
+  </String>
+  <String index="164">
+    <Origin>Sousou$&quot;Oh? You don&apos;t want to say it?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Oh? You don&apos;t want to say it?&quot;@</ToTranslate>
+  </String>
+  <String index="165">
+    <Origin>jyun0044</Origin>
+    <ToTranslate>jyun0044</ToTranslate>
+  </String>
+  <String index="166">
+    <Origin>Jun&apos;iku$&quot;I&apos;m...... embarrassed.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;I&apos;m...... embarrassed.&quot;@</ToTranslate>
+  </String>
+  <String index="167">
+    <Origin>sous0100</Origin>
+    <ToTranslate>sous0100</ToTranslate>
+  </String>
+  <String index="168">
+    <Origin>Sousou$&quot;That&apos;s good. I want to see you full of shame, with cheeks aflame as you beg me to let you touch yourself.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;That&apos;s good. I want to see you full of shame, with cheeks aflame as you beg me to let you touch yourself.&quot;@</ToTranslate>
+  </String>
+  <String index="169">
+    <Origin>jyun0045</Origin>
+    <ToTranslate>jyun0045</ToTranslate>
+  </String>
+  <String index="170">
+    <Origin>Jun&apos;iku$&quot;Meanie......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Meanie......&quot;@</ToTranslate>
+  </String>
+  <String index="171">
+    <Origin>sous0101</Origin>
+    <ToTranslate>sous0101</ToTranslate>
+  </String>
+  <String index="172">
+    <Origin>Sousou$&quot;U-hu-hu, but that&apos;s why you like me, right?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;U-hu-hu, but that&apos;s why you like me, right?&quot;@</ToTranslate>
+  </String>
+  <String index="173">
+    <Origin>jyun0046</Origin>
+    <ToTranslate>jyun0046</ToTranslate>
+  </String>
+  <String index="174">
+    <Origin>Jun&apos;iku$&quot;......(Nod)&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;......(Nod)&quot;@</ToTranslate>
+  </String>
+  <String index="175">
+    <Origin>sous0102</Origin>
+    <ToTranslate>sous0102</ToTranslate>
+  </String>
+  <String index="176">
+    <Origin>Sousou$&quot;Then you can do what I told you to, right?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Then you can do what I told you to, right?&quot;@</ToTranslate>
+  </String>
+  <String index="177">
+    <Origin>jyun0047</Origin>
+    <ToTranslate>jyun0047</ToTranslate>
+  </String>
+  <String index="178">
+    <Origin>Jun&apos;iku$&quot;Yes...... May I touch my dirty spot that&apos;s dripping with slutty drops......?&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes...... May I touch my dirty spot that&apos;s dripping with slutty drops......?&quot;@</ToTranslate>
+  </String>
+  <String index="179">
+    <Origin>sous0103</Origin>
+    <ToTranslate>sous0103</ToTranslate>
+  </String>
+  <String index="180">
+    <Origin>Sousou$&quot;Do you want to touch it?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Do you want to touch it?&quot;@</ToTranslate>
+  </String>
+  <String index="181">
+    <Origin>jyun0048</Origin>
+    <ToTranslate>jyun0048</ToTranslate>
+  </String>
+  <String index="182">
+    <Origin>Jun&apos;iku$&quot;Yes, I do...... because while I was licking your legs, I......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes, I do...... because while I was licking your legs, I......&quot;@</ToTranslate>
+  </String>
+  <String index="183">
+    <Origin>sous0104</Origin>
+    <ToTranslate>sous0104</ToTranslate>
+  </String>
+  <String index="184">
+    <Origin>Sousou$&quot;You licked my legs and got turned on, so now you want to use your finger and stir up your precious spot?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;You licked my legs and got turned on, so now you want to use your finger and stir up your precious spot?&quot;@</ToTranslate>
+  </String>
+  <String index="185">
+    <Origin>jyun0049</Origin>
+    <ToTranslate>jyun0049</ToTranslate>
+  </String>
+  <String index="186">
+    <Origin>Jun&apos;iku$&quot;Yes......I want to use my finger and stir up where it&apos;s dripping wet like I wet myself, and I want you to watch me, Karin-sama, while I do it......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes......I want to use my finger and stir up where it&apos;s dripping wet like I wet myself, and I want you to watch me, Karin-sama, while I do it......&quot;@</ToTranslate>
+  </String>
+  <String index="187">
+    <Origin>sous0105</Origin>
+    <ToTranslate>sous0105</ToTranslate>
+  </String>
+  <String index="188">
+    <Origin>Sousou$&quot;Uh-hu-hu...... very good. You did a good job.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Uh-hu-hu...... very good. You did a good job.&quot;@</ToTranslate>
+  </String>
+  <String index="189">
+    <Origin>jyun0050</Origin>
+    <ToTranslate>jyun0050</ToTranslate>
+  </String>
+  <String index="190">
+    <Origin>Jun&apos;iku$&quot;Ah......Then......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ah......Then......&quot;@</ToTranslate>
+  </String>
+  <String index="191">
+    <Origin>sous0106</Origin>
+    <ToTranslate>sous0106</ToTranslate>
+  </String>
+  <String index="192">
+    <Origin>Sousou$&quot;Yes. I&apos;ll watch you until you come. So touch yourself as much you like. Touch that slutty spot of yours.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Yes. I&apos;ll watch you until you come. So touch yourself as much you like. Touch that slutty spot of yours.&quot;@</ToTranslate>
+  </String>
+  <String index="193">
+    <Origin>jyun0051</Origin>
+    <ToTranslate>jyun0051</ToTranslate>
+  </String>
+  <String index="194">
+    <Origin>Jun&apos;iku$&quot;Thank you......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Thank you......&quot;@</ToTranslate>
+  </String>
+  <String index="195">
+    <Origin>sous0107</Origin>
+    <ToTranslate>sous0107</ToTranslate>
+  </String>
+  <String index="196">
+    <Origin>Sousou$&quot;While you do, I&apos;ll take good care of the back of your mouth. ......Now, take my foot in your mouth. Lick it plenty with that small tongue of yours.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;While you do, I&apos;ll take good care of the back of your mouth. ......Now, take my foot in your mouth. Lick it plenty with that small tongue of yours.&quot;@</ToTranslate>
+  </String>
+  <String index="197">
+    <Origin>jyun0052</Origin>
+    <ToTranslate>jyun0052</ToTranslate>
+  </String>
+  <String index="198">
+    <Origin>Jun&apos;iku$&quot;Aaahh...... Karin-sama, I love you......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Aaahh...... Karin-sama, I love you......&quot;@</ToTranslate>
+  </String>
+  <String index="199">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="200">
+    <Origin>ecg_sou01b</Origin>
+    <ToTranslate>ecg_sou01b</ToTranslate>
+  </String>
+  <String index="201">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="202">
+    <Origin>jyun0053</Origin>
+    <ToTranslate>jyun0053</ToTranslate>
+  </String>
+  <String index="203">
+    <Origin>Jun&apos;iku$&quot;Mmm, shlp, shlp...... mmm, mmm, mmm, mmm...... shlp...... schlup, schlup, schlup, hahhh......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, shlp, shlp...... mmm, mmm, mmm, mmm...... shlp...... schlup, schlup, schlup, hahhh......&quot;@</ToTranslate>
+  </String>
+  <String index="204">
+    <Origin>jyun0054</Origin>
+    <ToTranslate>jyun0054</ToTranslate>
+  </String>
+  <String index="205">
+    <Origin>Jun&apos;iku$&quot;Hmm...... slrrr, mmmfhah...... mmm...... slrr, slrr...... slrr, mmm, sllr......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Hmm...... slrrr, mmmfhah...... mmm...... slrr, slrr...... slrr, mmm, sllr......&quot;@</ToTranslate>
+  </String>
+  <String index="206">
+    <Origin>sous0108</Origin>
+    <ToTranslate>sous0108</ToTranslate>
+  </String>
+  <String index="207">
+    <Origin>Sousou$&quot;Hu-hu, that tickles......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu, that tickles......&quot;@</ToTranslate>
+  </String>
+  <String index="208">
+    <Origin>jyun0055</Origin>
+    <ToTranslate>jyun0055</ToTranslate>
+  </String>
+  <String index="209">
+    <Origin>Jun&apos;iku$&quot;Mmm...... slrr, slrr slrr, slrr...... mmm, haaahhh...... mmmsllr, sllr, shlr, slrrr......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... slrr, slrr slrr, slrr...... mmm, haaahhh...... mmmsllr, sllr, shlr, slrrr......&quot;@</ToTranslate>
+  </String>
+  <String index="210">
+    <Origin>jyun0056</Origin>
+    <ToTranslate>jyun0056</ToTranslate>
+  </String>
+  <String index="211">
+    <Origin>Jun&apos;iku$&quot;When I, mmm, sllr......touch myself like this, mmmn......with you watching, Karin-sama, Aahnn......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;When I, mmm, sllr......touch myself like this, mmmn......with you watching, Karin-sama, Aahnn......&quot;@</ToTranslate>
+  </String>
+  <String index="212">
+    <Origin>jyun0057</Origin>
+    <ToTranslate>jyun0057</ToTranslate>
+  </String>
+  <String index="213">
+    <Origin>Jun&apos;iku$&quot;I feel like, haahhnnn......I could come quickly......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;I feel like, haahhnnn......I could come quickly......&quot;@</ToTranslate>
+  </String>
+  <String index="214">
+    <Origin>sous0109</Origin>
+    <ToTranslate>sous0109</ToTranslate>
+  </String>
+  <String index="215">
+    <Origin>Sousou$&quot;Oh my, that&apos;s no good. I haven&apos;t delighted in your mouth enough yet.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Oh my, that&apos;s no good. I haven&apos;t delighted in your mouth enough yet.&quot;@</ToTranslate>
+  </String>
+  <String index="216">
+    <Origin>jyun0058</Origin>
+    <ToTranslate>jyun0058</ToTranslate>
+  </String>
+  <String index="217">
+    <Origin>Jun&apos;iku$&quot;But...... Karin-sama, I can&apos;t stand......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;But...... Karin-sama, I can&apos;t stand......&quot;@</ToTranslate>
+  </String>
+  <String index="218">
+    <Origin>sous0110</Origin>
+    <ToTranslate>sous0110</ToTranslate>
+  </String>
+  <String index="219">
+    <Origin>Sousou$&quot;Now what am I going to do with you? If you can&apos;t bear it, then should I end this now?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Now what am I going to do with you? If you can&apos;t bear it, then should I end this now?&quot;@</ToTranslate>
+  </String>
+  <String index="220">
+    <Origin>jyun0059</Origin>
+    <ToTranslate>jyun0059</ToTranslate>
+  </String>
+  <String index="221">
+    <Origin>Jun&apos;iku$&quot;No, please......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;No, please......&quot;@</ToTranslate>
+  </String>
+  <String index="222">
+    <Origin>sous0111</Origin>
+    <ToTranslate>sous0111</ToTranslate>
+  </String>
+  <String index="223">
+    <Origin>Sousou$&quot;No?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;No?&quot;@</ToTranslate>
+  </String>
+  <String index="224">
+    <Origin>jyun0060</Origin>
+    <ToTranslate>jyun0060</ToTranslate>
+  </String>
+  <String index="225">
+    <Origin>Jun&apos;iku$&quot;Please don&apos;t......If you do, I&apos;ll......I&apos;ll go crazy......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Please don&apos;t......If you do, I&apos;ll......I&apos;ll go crazy......&quot;@</ToTranslate>
+  </String>
+  <String index="226">
+    <Origin>sous0112</Origin>
+    <ToTranslate>sous0112</ToTranslate>
+  </String>
+  <String index="227">
+    <Origin>Sousou$&quot;Hu-hu, then open your mouth wide. I&apos;ll let your cute little mouth taste my foot down to the back of your throat.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu, then open your mouth wide. I&apos;ll let your cute little mouth taste my foot down to the back of your throat.&quot;@</ToTranslate>
+  </String>
+  <String index="228">
+    <Origin>sous0113</Origin>
+    <ToTranslate>sous0113</ToTranslate>
+  </String>
+  <String index="229">
+    <Origin>Sousou$&quot;Come on, open wide......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Come on, open wide......&quot;@</ToTranslate>
+  </String>
+  <String index="230">
+    <Origin>jyun0061</Origin>
+    <ToTranslate>jyun0061</ToTranslate>
+  </String>
+  <String index="231">
+    <Origin>Jun&apos;iku$&quot;Ahhhh......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahhhh......&quot;@</ToTranslate>
+  </String>
+  <String index="232">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="233">
+    <Origin>ecg_sou01c</Origin>
+    <ToTranslate>ecg_sou01c</ToTranslate>
+  </String>
+  <String index="234">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="235">
+    <Origin>jyun0062</Origin>
+    <ToTranslate>jyun0062</ToTranslate>
+  </String>
+  <String index="236">
+    <Origin>Jun&apos;iku$&quot;Cough...... cough......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Cough...... cough......&quot;@</ToTranslate>
+  </String>
+  <String index="237">
+    <Origin>$Sousou shoved her toes in and Jun&apos;iku faintly coughed.@</Origin>
+    <ToTranslate>$Sousou shoved her toes in and Jun&apos;iku faintly coughed.@</ToTranslate>
+  </String>
+  <String index="238">
+    <Origin>$At that moment, a clear bead of drool welled up at the corner of her lovely lips and dripped  down to the floor.@</Origin>
+    <ToTranslate>$At that moment, a clear bead of drool welled up at the corner of her lovely lips and dripped  down to the floor.@</ToTranslate>
+  </String>
+  <String index="239">
+    <Origin>sous0114</Origin>
+    <ToTranslate>sous0114</ToTranslate>
+  </String>
+  <String index="240">
+    <Origin>Sousou$&quot;Look at you, you&apos;re drooling...... Uh-hu-hu......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Look at you, you&apos;re drooling...... Uh-hu-hu......&quot;@</ToTranslate>
+  </String>
+  <String index="241">
+    <Origin>jyun0063</Origin>
+    <ToTranslate>jyun0063</ToTranslate>
+  </String>
+  <String index="242">
+    <Origin>Jun&apos;iku$&quot;Hmmpp, mmm, Harin-sama...... mmm, shlp...... shlp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Hmmpp, mmm, Harin-sama...... mmm, shlp...... shlp......&quot;@</ToTranslate>
+  </String>
+  <String index="243">
+    <Origin>sous0115</Origin>
+    <ToTranslate>sous0115</ToTranslate>
+  </String>
+  <String index="244">
+    <Origin>Sousou$&quot;That&apos;s good, Keifa...... make some more noise as you lick...... let me hear your voice......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;That&apos;s good, Keifa...... make some more noise as you lick...... let me hear your voice......&quot;@</ToTranslate>
+  </String>
+  <String index="245">
+    <Origin>jyun0064</Origin>
+    <ToTranslate>jyun0064</ToTranslate>
+  </String>
+  <String index="246">
+    <Origin>Jun&apos;iku$&quot;Ahh, mmm...... mmpp, mmpp, mmpp, sllrrr...... mmmhfff, mmm, sllr, sllr......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahh, mmm...... mmpp, mmpp, mmpp, sllrrr...... mmmhfff, mmm, sllr, sllr......&quot;@</ToTranslate>
+  </String>
+  <String index="247">
+    <Origin>jyun0065</Origin>
+    <ToTranslate>jyun0065</ToTranslate>
+  </String>
+  <String index="248">
+    <Origin>Jun&apos;iku$&quot;Slrr, ppah, mmm......Mmmf, Delifiouf, mmmslr, shllrr......Delifiouf......Mmm......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Slrr, ppah, mmm......Mmmf, Delifiouf, mmmslr, shllrr......Delifiouf......Mmm......&quot;@</ToTranslate>
+  </String>
+  <String index="249">
+    <Origin>jyun0066</Origin>
+    <ToTranslate>jyun0066</ToTranslate>
+  </String>
+  <String index="250">
+    <Origin>Jun&apos;iku$&quot;Farin-sama, your foot, mmmfhaaah......Mmmppslr, sllpp, sllppp, mmm, If&apos;s delifiouf......Mmsllrrrrrr.........&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Farin-sama, your foot, mmmfhaaah......Mmmppslr, sllpp, sllppp, mmm, If&apos;s delifiouf......Mmsllrrrrrr.........&quot;@</ToTranslate>
+  </String>
+  <String index="251">
+    <Origin>sous0116</Origin>
+    <ToTranslate>sous0116</ToTranslate>
+  </String>
+  <String index="252">
+    <Origin>Sousou$&quot;Ahh......That&apos;s good, Keifa. Your face......Just watching your face twist in pleasure is getting me off.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Ahh......That&apos;s good, Keifa. Your face......Just watching your face twist in pleasure is getting me off.&quot;@</ToTranslate>
+  </String>
+  <String index="253">
+    <Origin>jyun0067</Origin>
+    <ToTranslate>jyun0067</ToTranslate>
+  </String>
+  <String index="254">
+    <Origin>Jun&apos;iku$&quot;Really......?&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Really......?&quot;@</ToTranslate>
+  </String>
+  <String index="255">
+    <Origin>sous0117</Origin>
+    <ToTranslate>sous0117</ToTranslate>
+  </String>
+  <String index="256">
+    <Origin>Sousou$&quot;Yes. Seeing my beloved&apos;s face so pleased brings me happiness like nothing else can. It makes me so happy, I&apos;m getting turned on,&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Yes. Seeing my beloved&apos;s face so pleased brings me happiness like nothing else can. It makes me so happy, I&apos;m getting turned on,&quot;@</ToTranslate>
+  </String>
+  <String index="257">
+    <Origin>$Shove.@</Origin>
+    <ToTranslate>$Shove.@</ToTranslate>
+  </String>
+  <String index="258">
+    <Origin>jyun0068</Origin>
+    <ToTranslate>jyun0068</ToTranslate>
+  </String>
+  <String index="259">
+    <Origin>Jun&apos;iku$&quot;Gugh!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Gugh!&quot;@</ToTranslate>
+  </String>
+  <String index="260">
+    <Origin>sous0118</Origin>
+    <ToTranslate>sous0118</ToTranslate>
+  </String>
+  <String index="261">
+    <Origin>Sousou$&quot;I&apos;m so turned on I could just break your throat......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I&apos;m so turned on I could just break your throat......&quot;@</ToTranslate>
+  </String>
+  <String index="262">
+    <Origin>jyun0069</Origin>
+    <ToTranslate>jyun0069</ToTranslate>
+  </String>
+  <String index="263">
+    <Origin>Jun&apos;iku$&quot;Mmm, huff...... huff...... mmm, shlp, shlp, mmm...... huff, huff......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, huff...... huff...... mmm, shlp, shlp, mmm...... huff, huff......&quot;@</ToTranslate>
+  </String>
+  <String index="264">
+    <Origin>sous0119</Origin>
+    <ToTranslate>sous0119</ToTranslate>
+  </String>
+  <String index="265">
+    <Origin>Sousou$&quot;......Did that calm your body a bit?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;......Did that calm your body a bit?&quot;@</ToTranslate>
+  </String>
+  <String index="266">
+    <Origin>jyun0070</Origin>
+    <ToTranslate>jyun0070</ToTranslate>
+  </String>
+  <String index="267">
+    <Origin>Jun&apos;iku$&quot;......(Nod)&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;......(Nod)&quot;@</ToTranslate>
+  </String>
+  <String index="268">
+    <Origin>sous0120</Origin>
+    <ToTranslate>sous0120</ToTranslate>
+  </String>
+  <String index="269">
+    <Origin>Sousou$&quot;Then why don&apos;t you continue......? Let me feel your love......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Then why don&apos;t you continue......? Let me feel your love......&quot;@</ToTranslate>
+  </String>
+  <String index="270">
+    <Origin>jyun0071</Origin>
+    <ToTranslate>jyun0071</ToTranslate>
+  </String>
+  <String index="271">
+    <Origin>Jun&apos;iku$&quot;Mmm...... shlp, shlp, mmm...... shlp, shlp...... shlp...... shlp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... shlp, shlp, mmm...... shlp, shlp...... shlp...... shlp......&quot;@</ToTranslate>
+  </String>
+  <String index="272">
+    <Origin>sous0121</Origin>
+    <ToTranslate>sous0121</ToTranslate>
+  </String>
+  <String index="273">
+    <Origin>Sousou$&quot;That&apos;s it...... use your tongue more......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;That&apos;s it...... use your tongue more......&quot;@</ToTranslate>
+  </String>
+  <String index="274">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="275">
+    <Origin>ecg_sou01b</Origin>
+    <ToTranslate>ecg_sou01b</ToTranslate>
+  </String>
+  <String index="276">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="277">
+    <Origin>jyun0072</Origin>
+    <ToTranslate>jyun0072</ToTranslate>
+  </String>
+  <String index="278">
+    <Origin>Jun&apos;iku$&quot;Hmmm...... shlp, mmm...... schlup...... schlup, schlup, mmm...... shlp, shlp, shlp, shlp, mmm...... schlup,...... schlup, schlup......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Hmmm...... shlp, mmm...... schlup...... schlup, schlup, mmm...... shlp, shlp, shlp, shlp, mmm...... schlup,...... schlup, schlup......&quot;@</ToTranslate>
+  </String>
+  <String index="279">
+    <Origin>sous0122</Origin>
+    <ToTranslate>sous0122</ToTranslate>
+  </String>
+  <String index="280">
+    <Origin>Sousou$&quot;Hu-hu... that&apos;s good. I can hear your tongue working hard...... I can also hear you stirring your wet, slutty slit. ......It&apos;s making me shudder with excitement......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu... that&apos;s good. I can hear your tongue working hard...... I can also hear you stirring your wet, slutty slit. ......It&apos;s making me shudder with excitement......&quot;@</ToTranslate>
+  </String>
+  <String index="281">
+    <Origin>$Shove.@</Origin>
+    <ToTranslate>$Shove.@</ToTranslate>
+  </String>
+  <String index="282">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="283">
+    <Origin>ecg_sou01c</Origin>
+    <ToTranslate>ecg_sou01c</ToTranslate>
+  </String>
+  <String index="284">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="285">
+    <Origin>jyun0073</Origin>
+    <ToTranslate>jyun0073</ToTranslate>
+  </String>
+  <String index="286">
+    <Origin>Jun&apos;iku$&quot;Guh, mm, shlp, shlp...... schlup, schlup, schlup, schlup, schlup, shlp, shlp...... mmm.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Guh, mm, shlp, shlp...... schlup, schlup, schlup, schlup, schlup, shlp, shlp...... mmm.&quot;@</ToTranslate>
+  </String>
+  <String index="287">
+    <Origin>sous0123</Origin>
+    <ToTranslate>sous0123</ToTranslate>
+  </String>
+  <String index="288">
+    <Origin>Sousou$&quot;Feel me more, love me more...... Taste me with your tongue and wrap my foot with your throat......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Feel me more, love me more...... Taste me with your tongue and wrap my foot with your throat......&quot;@</ToTranslate>
+  </String>
+  <String index="289">
+    <Origin>jyun0074</Origin>
+    <ToTranslate>jyun0074</ToTranslate>
+  </String>
+  <String index="290">
+    <Origin>Jun&apos;iku$&quot;Mmm, mmm...... guh, cough...... shlp, shlp, shlp, shlp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, mmm...... guh, cough...... shlp, shlp, shlp, shlp......&quot;@</ToTranslate>
+  </String>
+  <String index="291">
+    <Origin>sous0124</Origin>
+    <ToTranslate>sous0124</ToTranslate>
+  </String>
+  <String index="292">
+    <Origin>Sousou$&quot;Ahh...... It is so warm in your mouth, Keifa.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Ahh...... It is so warm in your mouth, Keifa.&quot;@</ToTranslate>
+  </String>
+  <String index="293">
+    <Origin>jyun0075</Origin>
+    <ToTranslate>jyun0075</ToTranslate>
+  </String>
+  <String index="294">
+    <Origin>Jun&apos;iku$&quot;That&apos;s because my love towards you, shlp, shlp, shlp, is burning...... shlp, shlp...... hot schlup, schlup......Farin-sama...... schlup......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;That&apos;s because my love towards you, shlp, shlp, shlp, is burning...... shlp, shlp...... hot schlup, schlup......Farin-sama...... schlup......&quot;@</ToTranslate>
+  </String>
+  <String index="295">
+    <Origin>sous0125</Origin>
+    <ToTranslate>sous0125</ToTranslate>
+  </String>
+  <String index="296">
+    <Origin>Sousou$&quot;Mmm...... that&apos;s good, Keifa...... love me more......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mmm...... that&apos;s good, Keifa...... love me more......&quot;@</ToTranslate>
+  </String>
+  <String index="297">
+    <Origin>jyun0076</Origin>
+    <ToTranslate>jyun0076</ToTranslate>
+  </String>
+  <String index="298">
+    <Origin>Jun&apos;iku$&quot;Yesh, mmm...... shlp...... shlp, schlup, schlup...... mmm...... shlp, shlp, shlp, shlp...... mmm, mmm, schlup, schlup, schlup......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yesh, mmm...... shlp...... shlp, schlup, schlup...... mmm...... shlp, shlp, shlp, shlp...... mmm, mmm, schlup, schlup, schlup......&quot;@</ToTranslate>
+  </String>
+  <String index="299">
+    <Origin>sous0126</Origin>
+    <ToTranslate>sous0126</ToTranslate>
+  </String>
+  <String index="300">
+    <Origin>Sousou$&quot;Hahh...... mmm, I feel it, Mmm... I feel your, love, hah...... mmm......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hahh...... mmm, I feel it, Mmm... I feel your, love, hah...... mmm......&quot;@</ToTranslate>
+  </String>
+  <String index="301">
+    <Origin>jyun0077</Origin>
+    <ToTranslate>jyun0077</ToTranslate>
+  </String>
+  <String index="302">
+    <Origin>Jun&apos;iku$&quot;Guhh, mmm, shlp, shlp, shlp...... schlup, schlup, shlp, shlp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Guhh, mmm, shlp, shlp, shlp...... schlup, schlup, shlp, shlp......&quot;@</ToTranslate>
+  </String>
+  <String index="303">
+    <Origin>jyun0078</Origin>
+    <ToTranslate>jyun0078</ToTranslate>
+  </String>
+  <String index="304">
+    <Origin>Jun&apos;iku$&quot;Wahh...... hah, hah, hah...... Karin-sama, my pussy is craving...... hah, hah, ahh......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Wahh...... hah, hah, hah...... Karin-sama, my pussy is craving...... hah, hah, ahh......&quot;@</ToTranslate>
+  </String>
+  <String index="305">
+    <Origin>sous0127</Origin>
+    <ToTranslate>sous0127</ToTranslate>
+  </String>
+  <String index="306">
+    <Origin>Sousou$&quot;Mine too, Keifa.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mine too, Keifa.&quot;@</ToTranslate>
+  </String>
+  <String index="307">
+    <Origin>jyun0079</Origin>
+    <ToTranslate>jyun0079</ToTranslate>
+  </String>
+  <String index="308">
+    <Origin>Jun&apos;iku$&quot;Ah, then......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ah, then......&quot;@</ToTranslate>
+  </String>
+  <String index="309">
+    <Origin>sous0128</Origin>
+    <ToTranslate>sous0128</ToTranslate>
+  </String>
+  <String index="310">
+    <Origin>Sousou$&quot;Yes. Lick it. Love me all over with your tongue.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Yes. Lick it. Love me all over with your tongue.&quot;@</ToTranslate>
+  </String>
+  <String index="311">
+    <Origin>jyun0080</Origin>
+    <ToTranslate>jyun0080</ToTranslate>
+  </String>
+  <String index="312">
+    <Origin>Jun&apos;iku$&quot;Yes...... I&apos;ll love you with my tongue, Karin-sama. Please, please...... enjoy my tongue everywhere on your body......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes...... I&apos;ll love you with my tongue, Karin-sama. Please, please...... enjoy my tongue everywhere on your body......&quot;@</ToTranslate>
+  </String>
+  <String index="313">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="314">
+    <Origin>ecg_sou01d</Origin>
+    <ToTranslate>ecg_sou01d</ToTranslate>
+  </String>
+  <String index="315">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="316">
+    <Origin>jyun0081</Origin>
+    <ToTranslate>jyun0081</ToTranslate>
+  </String>
+  <String index="317">
+    <Origin>Jun&apos;iku$&quot;Mmm, shlp...... schlup, schlup, schlup, hah...... Karin-sama, your pussy is so beautiful......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, shlp...... schlup, schlup, schlup, hah...... Karin-sama, your pussy is so beautiful......&quot;@</ToTranslate>
+  </String>
+  <String index="318">
+    <Origin>jyun0082</Origin>
+    <ToTranslate>jyun0082</ToTranslate>
+  </String>
+  <String index="319">
+    <Origin>Jun&apos;iku$&quot;It&apos;s twitching...... it&apos;s entrancingly cute......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;It&apos;s twitching...... it&apos;s entrancingly cute......&quot;@</ToTranslate>
+  </String>
+  <String index="320">
+    <Origin>sous0129</Origin>
+    <ToTranslate>sous0129</ToTranslate>
+  </String>
+  <String index="321">
+    <Origin>Sousou$&quot;Y-you don&apos;t need to say that. Your mouth is only there to love me...... hurry up and love me!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Y-you don&apos;t need to say that. Your mouth is only there to love me...... hurry up and love me!&quot;@</ToTranslate>
+  </String>
+  <String index="322">
+    <Origin>jyun0083</Origin>
+    <ToTranslate>jyun0083</ToTranslate>
+  </String>
+  <String index="323">
+    <Origin>Jun&apos;iku$&quot;Tee-hee......Yes. Please allow me to do my best to please you, Karin-sama.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Tee-hee......Yes. Please allow me to do my best to please you, Karin-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="324">
+    <Origin>jyun0084</Origin>
+    <ToTranslate>jyun0084</ToTranslate>
+  </String>
+  <String index="325">
+    <Origin>Jun&apos;iku$&quot;Amm, mmm, shlp...... schlup, schlup, schlup, mmm...... shlp...... schlup, schlup...... mmm......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Amm, mmm, shlp...... schlup, schlup, schlup, mmm...... shlp...... schlup, schlup...... mmm......&quot;@</ToTranslate>
+  </String>
+  <String index="326">
+    <Origin>sous0130</Origin>
+    <ToTranslate>sous0130</ToTranslate>
+  </String>
+  <String index="327">
+    <Origin>Sousou$&quot;Mmm...... your tongue feels so good, Keifa......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mmm...... your tongue feels so good, Keifa......&quot;@</ToTranslate>
+  </String>
+  <String index="328">
+    <Origin>jyun0085</Origin>
+    <ToTranslate>jyun0085</ToTranslate>
+  </String>
+  <String index="329">
+    <Origin>Jun&apos;iku$&quot;Mmm, shlp...... mmm, hah, ...... I love you, Karin-sama. Sllr, I love you, shlp, shlp, I love you, shlp, shlp, shlp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, shlp...... mmm, hah, ...... I love you, Karin-sama. Sllr, I love you, shlp, shlp, I love you, shlp, shlp, shlp......&quot;@</ToTranslate>
+  </String>
+  <String index="330">
+    <Origin>sous0131</Origin>
+    <ToTranslate>sous0131</ToTranslate>
+  </String>
+  <String index="331">
+    <Origin>Sousou$&quot;Mmm...... hah, haah, Keifa, mmm, I......mmm, ah...... love you...... too......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mmm...... hah, haah, Keifa, mmm, I......mmm, ah...... love you...... too......&quot;@</ToTranslate>
+  </String>
+  <String index="332">
+    <Origin>jyun0086</Origin>
+    <ToTranslate>jyun0086</ToTranslate>
+  </String>
+  <String index="333">
+    <Origin>Jun&apos;iku$&quot;Mmaahh! Karin-sama, more...please say that more......please say that you love me...&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmaahh! Karin-sama, more...please say that more......please say that you love me...&quot;@</ToTranslate>
+  </String>
+  <String index="334">
+    <Origin>sous0132</Origin>
+    <ToTranslate>sous0132</ToTranslate>
+  </String>
+  <String index="335">
+    <Origin>Sousou$&quot;I love you, Keifa. Your tongue, your moaning, your scent...... your obedience to offer me everything, I love it all......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I love you, Keifa. Your tongue, your moaning, your scent...... your obedience to offer me everything, I love it all......&quot;@</ToTranslate>
+  </String>
+  <String index="336">
+    <Origin>jyun0087</Origin>
+    <ToTranslate>jyun0087</ToTranslate>
+  </String>
+  <String index="337">
+    <Origin>Jun&apos;iku$&quot;Hah, hah, mmm, Karin-sama...... when I hear that from you...... I can&apos;t......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Hah, hah, mmm, Karin-sama...... when I hear that from you...... I can&apos;t......&quot;@</ToTranslate>
+  </String>
+  <String index="338">
+    <Origin>sous0133</Origin>
+    <ToTranslate>sous0133</ToTranslate>
+  </String>
+  <String index="339">
+    <Origin>Sousou$&quot;I can&apos;t hold it anymore either...... I&apos;ll give it to you, so drink up.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I can&apos;t hold it anymore either...... I&apos;ll give it to you, so drink up.&quot;@</ToTranslate>
+  </String>
+  <String index="340">
+    <Origin>jyun0088</Origin>
+    <ToTranslate>jyun0088</ToTranslate>
+  </String>
+  <String index="341">
+    <Origin>Jun&apos;iku$&quot;Ah......Yes, please, give me yours, Karin-sama...... Let me drink it......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ah......Yes, please, give me yours, Karin-sama...... Let me drink it......&quot;@</ToTranslate>
+  </String>
+  <String index="342">
+    <Origin>jyun0089</Origin>
+    <ToTranslate>jyun0089</ToTranslate>
+  </String>
+  <String index="343">
+    <Origin>Jun&apos;iku$&quot;Mmm..... shlp, shlp, mmm..... schlup, schlup, schlup......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm..... shlp, shlp, mmm..... schlup, schlup, schlup......&quot;@</ToTranslate>
+  </String>
+  <String index="344">
+    <Origin>sous0134</Origin>
+    <ToTranslate>sous0134</ToTranslate>
+  </String>
+  <String index="345">
+    <Origin>Sousou$&quot;Huff...... I&apos;m going to, mmm...... come soon......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Huff...... I&apos;m going to, mmm...... come soon......&quot;@</ToTranslate>
+  </String>
+  <String index="346">
+    <Origin>jyun0090</Origin>
+    <ToTranslate>jyun0090</ToTranslate>
+  </String>
+  <String index="347">
+    <Origin>Jun&apos;iku$&quot;Yes...... mmm, shlp...... I want your holy water......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Yes...... mmm, shlp...... I want your holy water......&quot;@</ToTranslate>
+  </String>
+  <String index="348">
+    <Origin>jyun0091</Origin>
+    <ToTranslate>jyun0091</ToTranslate>
+  </String>
+  <String index="349">
+    <Origin>Jun&apos;iku$&quot;Mmm, mmm, shlp, mmm...... huff, huff...... shlp, shlp, shlp.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, mmm, shlp, mmm...... huff, huff...... shlp, shlp, shlp.&quot;@</ToTranslate>
+  </String>
+  <String index="350">
+    <Origin>sous0135</Origin>
+    <ToTranslate>sous0135</ToTranslate>
+  </String>
+  <String index="351">
+    <Origin>Sousou$&quot;Hah, hah, hah, mmm, I can&apos;t hold it anymore, mmm...... Keifa, I&apos;m coming...... I&apos;m going to come, mmm,  hah, hah, in your mouth,......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hah, hah, hah, mmm, I can&apos;t hold it anymore, mmm...... Keifa, I&apos;m coming...... I&apos;m going to come, mmm,  hah, hah, in your mouth,......&quot;@</ToTranslate>
+  </String>
+  <String index="352">
+    <Origin>jyun0092</Origin>
+    <ToTranslate>jyun0092</ToTranslate>
+  </String>
+  <String index="353">
+    <Origin>Jun&apos;iku$&quot;Please, mmm, I want your holy water, lots of it, shlp, in me, shlp, please!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Please, mmm, I want your holy water, lots of it, shlp, in me, shlp, please!&quot;@</ToTranslate>
+  </String>
+  <String index="354">
+    <Origin>jyun0093</Origin>
+    <ToTranslate>jyun0093</ToTranslate>
+  </String>
+  <String index="355">
+    <Origin>Jun&apos;iku$&quot;Shlp, mmm, shlp, shlp, shlp, shlp, shlp, shlp, shlp, shlp!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Shlp, mmm, shlp, shlp, shlp, shlp, shlp, shlp, shlp, shlp!&quot;@</ToTranslate>
+  </String>
+  <String index="356">
+    <Origin>sous0136</Origin>
+    <ToTranslate>sous0136</ToTranslate>
+  </String>
+  <String index="357">
+    <Origin>Sousou$&quot;Mmm, ah, ah, ah, ah, Kei-fa, I&apos;m coming...... I&apos;m coming......I&apos;m coming!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mmm, ah, ah, ah, ah, Kei-fa, I&apos;m coming...... I&apos;m coming......I&apos;m coming!&quot;@</ToTranslate>
+  </String>
+  <String index="358">
+    <Origin>jyun0094</Origin>
+    <ToTranslate>jyun0094</ToTranslate>
+  </String>
+  <String index="359">
+    <Origin>Jun&apos;iku$&quot;Mmm, mm, mmm...... shlp! Ahhh, mmm, shlp!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, mm, mmm...... shlp! Ahhh, mmm, shlp!&quot;@</ToTranslate>
+  </String>
+  <String index="360">
+    <Origin>sous0137</Origin>
+    <ToTranslate>sous0137</ToTranslate>
+  </String>
+  <String index="361">
+    <Origin>Sousou$&quot;Ah, mmm...... I, I...... am, I&apos;m... coming...mmm...... ahhhh!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Ah, mmm...... I, I...... am, I&apos;m... coming...mmm...... ahhhh!&quot;@</ToTranslate>
+  </String>
+  <String index="362">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="363">
+    <Origin>ecg_sou01e</Origin>
+    <ToTranslate>ecg_sou01e</ToTranslate>
+  </String>
+  <String index="364">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="365">
+    <Origin>jyun0095</Origin>
+    <ToTranslate>jyun0095</ToTranslate>
+  </String>
+  <String index="366">
+    <Origin>Jun&apos;iku$&quot;Mmm, mmm, mmm, mmm!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, mmm, mmm, mmm!&quot;@</ToTranslate>
+  </String>
+  <String index="367">
+    <Origin>sous0138</Origin>
+    <ToTranslate>sous0138</ToTranslate>
+  </String>
+  <String index="368">
+    <Origin>Sousou$&quot;I can&apos;t hold it...... I&apos;m going to come......!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I can&apos;t hold it...... I&apos;m going to come......!&quot;@</ToTranslate>
+  </String>
+  <String index="369">
+    <Origin>jyun0096</Origin>
+    <ToTranslate>jyun0096</ToTranslate>
+  </String>
+  <String index="370">
+    <Origin>Jun&apos;iku$&quot;Mmm...... gulp...... gulp, gulp, gulp, gulp, gulp, gulp, gulp......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... gulp...... gulp, gulp, gulp, gulp, gulp, gulp, gulp......&quot;@</ToTranslate>
+  </String>
+  <String index="371">
+    <Origin>sous0139</Origin>
+    <ToTranslate>sous0139</ToTranslate>
+  </String>
+  <String index="372">
+    <Origin>Sousou$&quot;Mmm...... ahh...... you&apos;re drinking it, Keifa......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mmm...... ahh...... you&apos;re drinking it, Keifa......&quot;@</ToTranslate>
+  </String>
+  <String index="373">
+    <Origin>jyun0097</Origin>
+    <ToTranslate>jyun0097</ToTranslate>
+  </String>
+  <String index="374">
+    <Origin>Jun&apos;iku$&quot;Mmm...... Mmm...... mmm...... gulp.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... Mmm...... mmm...... gulp.&quot;@</ToTranslate>
+  </String>
+  <String index="375">
+    <Origin>sous0140</Origin>
+    <ToTranslate>sous0140</ToTranslate>
+  </String>
+  <String index="376">
+    <Origin>Sousou$&quot;Mmm...... hah, hah, hah...... that was everything......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Mmm...... hah, hah, hah...... that was everything......&quot;@</ToTranslate>
+  </String>
+  <String index="377">
+    <Origin>jyun0098</Origin>
+    <ToTranslate>jyun0098</ToTranslate>
+  </String>
+  <String index="378">
+    <Origin>Jun&apos;iku$&quot;Mmm...... hah...... hah, hah...... I drank all of your holy water......Mmm, Karin-sama......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... hah...... hah, hah...... I drank all of your holy water......Mmm, Karin-sama......&quot;@</ToTranslate>
+  </String>
+  <String index="379">
+    <Origin>jyun0099</Origin>
+    <ToTranslate>jyun0099</ToTranslate>
+  </String>
+  <String index="380">
+    <Origin>Jun&apos;iku$&quot;Mmm...... I feel you inside of me, ahh, mmm....Karin-sama, your warmth...... Mmm, ahh, ahh, no, no, I...... ahh!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... I feel you inside of me, ahh, mmm....Karin-sama, your warmth...... Mmm, ahh, ahh, no, no, I...... ahh!&quot;@</ToTranslate>
+  </String>
+  <String index="381">
+    <Origin>sous0141</Origin>
+    <ToTranslate>sous0141</ToTranslate>
+  </String>
+  <String index="382">
+    <Origin>Sousou$&quot;Ahh, mmm...... Keifa......?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Ahh, mmm...... Keifa......?&quot;@</ToTranslate>
+  </String>
+  <String index="383">
+    <Origin>jyun0100</Origin>
+    <ToTranslate>jyun0100</ToTranslate>
+  </String>
+  <String index="384">
+    <Origin>Jun&apos;iku$&quot;I&apos;m going to...... mmm!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;I&apos;m going to...... mmm!&quot;@</ToTranslate>
+  </String>
+  <String index="385">
+    <Origin>jyun0101</Origin>
+    <ToTranslate>jyun0101</ToTranslate>
+  </String>
+  <String index="386">
+    <Origin>Jun&apos;iku$&quot;I can&apos;t hold it...... I&apos;m going to come......!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;I can&apos;t hold it...... I&apos;m going to come......!&quot;@</ToTranslate>
+  </String>
+  <String index="387">
+    <Origin>jyun0102</Origin>
+    <ToTranslate>jyun0102</ToTranslate>
+  </String>
+  <String index="388">
+    <Origin>Jun&apos;iku$&quot;Ah, hahh....I, came......Karin-sama, I drank your pee, and I was so happy, mmm, I, I came......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ah, hahh....I, came......Karin-sama, I drank your pee, and I was so happy, mmm, I, I came......&quot;@</ToTranslate>
+  </String>
+  <String index="389">
+    <Origin>sous0142</Origin>
+    <ToTranslate>sous0142</ToTranslate>
+  </String>
+  <String index="390">
+    <Origin>Sousou$&quot;......You slutty girl.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;......You slutty girl.&quot;@</ToTranslate>
+  </String>
+  <String index="391">
+    <Origin>jyun0103</Origin>
+    <ToTranslate>jyun0103</ToTranslate>
+  </String>
+  <String index="392">
+    <Origin>Jun&apos;iku$&quot;Ahh...... rebuke me more, please......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahh...... rebuke me more, please......&quot;@</ToTranslate>
+  </String>
+  <String index="393">
+    <Origin>sous0143</Origin>
+    <ToTranslate>sous0143</ToTranslate>
+  </String>
+  <String index="394">
+    <Origin>Sousou$&quot;Pervert.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Pervert.&quot;@</ToTranslate>
+  </String>
+  <String index="395">
+    <Origin>jyun0104</Origin>
+    <ToTranslate>jyun0104</ToTranslate>
+  </String>
+  <String index="396">
+    <Origin>Jun&apos;iku$&quot;Mmm...... Ah, hah...... hah......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm...... Ah, hah...... hah......&quot;@</ToTranslate>
+  </String>
+  <String index="397">
+    <Origin>sous0144</Origin>
+    <ToTranslate>sous0144</ToTranslate>
+  </String>
+  <String index="398">
+    <Origin>Sousou$&quot;Pervert.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Pervert.&quot;@</ToTranslate>
+  </String>
+  <String index="399">
+    <Origin>jyun0105</Origin>
+    <ToTranslate>jyun0105</ToTranslate>
+  </String>
+  <String index="400">
+    <Origin>Jun&apos;iku$&quot;Mmm, ahh...... mmm......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Mmm, ahh...... mmm......&quot;@</ToTranslate>
+  </String>
+  <String index="401">
+    <Origin>sous0145</Origin>
+    <ToTranslate>sous0145</ToTranslate>
+  </String>
+  <String index="402">
+    <Origin>Sousou$&quot;Pervert.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Pervert.&quot;@</ToTranslate>
+  </String>
+  <String index="403">
+    <Origin>jyun0106</Origin>
+    <ToTranslate>jyun0106</ToTranslate>
+  </String>
+  <String index="404">
+    <Origin>Jun&apos;iku$&quot;Ahh! I-I&apos;m going to come again...... because you&apos;re, mmm, rebuking me......!&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ahh! I-I&apos;m going to come again...... because you&apos;re, mmm, rebuking me......!&quot;@</ToTranslate>
+  </String>
+  <String index="405">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="406">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="407">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="408">
+    <Origin>kato0145</Origin>
+    <ToTranslate>kato0145</ToTranslate>
+  </String>
+  <String index="409">
+    <Origin>Kakouton$&quot;Karin-sama!&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Karin-sama!&quot;@</ToTranslate>
+  </String>
+  <String index="410">
+    <Origin>bcg_gi_impseat_c</Origin>
+    <ToTranslate>bcg_gi_impseat_c</ToTranslate>
+  </String>
+  <String index="411">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="412">
+    <Origin>bgm09</Origin>
+    <ToTranslate>bgm09</ToTranslate>
+  </String>
+  <String index="413">
+    <Origin>tcg_ton24ia</Origin>
+    <ToTranslate>tcg_ton24ia</ToTranslate>
+  </String>
+  <String index="414">
+    <Origin>tcg_ton24m</Origin>
+    <ToTranslate>tcg_ton24m</ToTranslate>
+  </String>
+  <String index="415">
+    <Origin>kato0146</Origin>
+    <ToTranslate>kato0146</ToTranslate>
+  </String>
+  <String index="416">
+    <Origin>Kakouton$&quot;......What are you doing, Keifa?!&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;......What are you doing, Keifa?!&quot;@</ToTranslate>
+  </String>
+  <String index="417">
+    <Origin>tcg_ton24ia</Origin>
+    <ToTranslate>tcg_ton24ia</ToTranslate>
+  </String>
+  <String index="418">
+    <Origin>tcg_ton24m</Origin>
+    <ToTranslate>tcg_ton24m</ToTranslate>
+  </String>
+  <String index="419">
+    <Origin>tcg_jun21ba</Origin>
+    <ToTranslate>tcg_jun21ba</ToTranslate>
+  </String>
+  <String index="420">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="421">
+    <Origin>tcg_sou11aa</Origin>
+    <ToTranslate>tcg_sou11aa</ToTranslate>
+  </String>
+  <String index="422">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="423">
+    <Origin>jyun0107</Origin>
+    <ToTranslate>jyun0107</ToTranslate>
+  </String>
+  <String index="424">
+    <Origin>Jun&apos;iku$&quot;......Aww, I was almost there......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;......Aww, I was almost there......&quot;@</ToTranslate>
+  </String>
+  <String index="425">
+    <Origin>tcg_sou21ba</Origin>
+    <ToTranslate>tcg_sou21ba</ToTranslate>
+  </String>
+  <String index="426">
+    <Origin>tcg_sou21m</Origin>
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="427">
+    <Origin>sous0146</Origin>
+    <ToTranslate>sous0146</ToTranslate>
+  </String>
+  <String index="428">
+    <Origin>Sousou$&quot;Hu-hu, too bad, Keifa. ......I&apos;ll take good care of you again next time.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu, too bad, Keifa. ......I&apos;ll take good care of you again next time.&quot;@</ToTranslate>
+  </String>
+  <String index="429">
+    <Origin>tcg_jun11ba</Origin>
+    <ToTranslate>tcg_jun11ba</ToTranslate>
+  </String>
+  <String index="430">
+    <Origin>tcg_jun11m</Origin>
+    <ToTranslate>tcg_jun11m</ToTranslate>
+  </String>
+  <String index="431">
+    <Origin>jyun0108</Origin>
+    <ToTranslate>jyun0108</ToTranslate>
+  </String>
+  <String index="432">
+    <Origin>Jun&apos;iku$&quot;mmm......What a let-down. My unfulfilled desires are just building up......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;mmm......What a let-down. My unfulfilled desires are just building up......&quot;@</ToTranslate>
+  </String>
+  <String index="433">
+    <Origin>sous0147</Origin>
+    <ToTranslate>sous0147</ToTranslate>
+  </String>
+  <String index="434">
+    <Origin>Sousou$&quot;Don&apos;t be self-indulgent.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Don&apos;t be self-indulgent.&quot;@</ToTranslate>
+  </String>
+  <String index="435">
+    <Origin>tcg_jun11aa</Origin>
+    <ToTranslate>tcg_jun11aa</ToTranslate>
+  </String>
+  <String index="436">
+    <Origin>tcg_jun11m</Origin>
+    <ToTranslate>tcg_jun11m</ToTranslate>
+  </String>
+  <String index="437">
+    <Origin>jyun0109</Origin>
+    <ToTranslate>jyun0109</ToTranslate>
+  </String>
+  <String index="438">
+    <Origin>Jun&apos;iku$&quot;Okay......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Okay......&quot;@</ToTranslate>
+  </String>
+  <String index="439">
+    <Origin>tcg_ton14ca</Origin>
+    <ToTranslate>tcg_ton14ca</ToTranslate>
+  </String>
+  <String index="440">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="441">
+    <Origin>kato0147</Origin>
+    <ToTranslate>kato0147</ToTranslate>
+  </String>
+  <String index="442">
+    <Origin>Kakouton$&quot;What do you mean &apos;okay?!&apos; If I don&apos;t keep my eye on you, you&apos;d go and bother Karin-sama whenever you have some spare time!&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;What do you mean &apos;okay?!&apos; If I don&apos;t keep my eye on you, you&apos;d go and bother Karin-sama whenever you have some spare time!&quot;@</ToTranslate>
+  </String>
+  <String index="443">
+    <Origin>tcg_jun21ba</Origin>
+    <ToTranslate>tcg_jun21ba</ToTranslate>
+  </String>
+  <String index="444">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="445">
+    <Origin>jyun0110</Origin>
+    <ToTranslate>jyun0110</ToTranslate>
+  </String>
+  <String index="446">
+    <Origin>Jun&apos;iku$&quot;What&apos;s wrong with that? I&apos;m her slave.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;What&apos;s wrong with that? I&apos;m her slave.&quot;@</ToTranslate>
+  </String>
+  <String index="447">
+    <Origin>kato0148</Origin>
+    <ToTranslate>kato0148</ToTranslate>
+  </String>
+  <String index="448">
+    <Origin>Kakouton$&quot;There&apos;s a lot that&apos;s wrong with it!&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;There&apos;s a lot that&apos;s wrong with it!&quot;@</ToTranslate>
+  </String>
+  <String index="449">
+    <Origin>tcg_sou11aa</Origin>
+    <ToTranslate>tcg_sou11aa</ToTranslate>
+  </String>
+  <String index="450">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="451">
+    <Origin>sous0148</Origin>
+    <ToTranslate>sous0148</ToTranslate>
+  </String>
+  <String index="452">
+    <Origin>Sousou$&quot;Shunran, that&apos;s enough.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Shunran, that&apos;s enough.&quot;@</ToTranslate>
+  </String>
+  <String index="453">
+    <Origin>kato0149</Origin>
+    <ToTranslate>kato0149</ToTranslate>
+  </String>
+  <String index="454">
+    <Origin>Kakouton$&quot;But Karin-sama...&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;But Karin-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="455">
+    <Origin>tcg_sou21da</Origin>
+    <ToTranslate>tcg_sou21da</ToTranslate>
+  </String>
+  <String index="456">
+    <Origin>tcg_sou21m</Origin>
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="457">
+    <Origin>sous0149</Origin>
+    <ToTranslate>sous0149</ToTranslate>
+  </String>
+  <String index="458">
+    <Origin>Sousou$&quot;Shunran......Don&apos;t make me angry.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Shunran......Don&apos;t make me angry.&quot;@</ToTranslate>
+  </String>
+  <String index="459">
+    <Origin>tcg_ton14ea</Origin>
+    <ToTranslate>tcg_ton14ea</ToTranslate>
+  </String>
+  <String index="460">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="461">
+    <Origin>kato0150</Origin>
+    <ToTranslate>kato0150</ToTranslate>
+  </String>
+  <String index="462">
+    <Origin>Kakouton$&quot;Ooo...... okay......&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Ooo...... okay......&quot;@</ToTranslate>
+  </String>
+  <String index="463">
+    <Origin>tcg_jun21ia</Origin>
+    <ToTranslate>tcg_jun21ia</ToTranslate>
+  </String>
+  <String index="464">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="465">
+    <Origin>jyun0111</Origin>
+    <ToTranslate>jyun0111</ToTranslate>
+  </String>
+  <String index="466">
+    <Origin>Jun&apos;iku$&quot;......Pbbbt.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;......Pbbbt.&quot;@</ToTranslate>
+  </String>
+  <String index="467">
+    <Origin>tcg_ton14ca</Origin>
+    <ToTranslate>tcg_ton14ca</ToTranslate>
+  </String>
+  <String index="468">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="469">
+    <Origin>kato0151</Origin>
+    <ToTranslate>kato0151</ToTranslate>
+  </String>
+  <String index="470">
+    <Origin>Kakouton$&quot;......! Keifa, why you......!&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;......! Keifa, why you......!&quot;@</ToTranslate>
+  </String>
+  <String index="471">
+    <Origin>tcg_sou11ca</Origin>
+    <ToTranslate>tcg_sou11ca</ToTranslate>
+  </String>
+  <String index="472">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="473">
+    <Origin>sous0150</Origin>
+    <ToTranslate>sous0150</ToTranslate>
+  </String>
+  <String index="474">
+    <Origin>Sousou$&quot;Hah...... that&apos;s enough, both of you!&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hah...... that&apos;s enough, both of you!&quot;@</ToTranslate>
+  </String>
+  <String index="475">
+    <Origin>tcg_ton14ea</Origin>
+    <ToTranslate>tcg_ton14ea</ToTranslate>
+  </String>
+  <String index="476">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="477">
+    <Origin>kato0152</Origin>
+    <ToTranslate>kato0152</ToTranslate>
+  </String>
+  <String index="478">
+    <Origin>Kakouton$&quot;Ooo...... okay......&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Ooo...... okay......&quot;@</ToTranslate>
+  </String>
+  <String index="479">
+    <Origin>tcg_jun21ea</Origin>
+    <ToTranslate>tcg_jun21ea</ToTranslate>
+  </String>
+  <String index="480">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="481">
+    <Origin>jyun0112</Origin>
+    <ToTranslate>jyun0112</ToTranslate>
+  </String>
+  <String index="482">
+    <Origin>Jun&apos;iku$&quot;Okay......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Okay......&quot;@</ToTranslate>
+  </String>
+  <String index="483">
+    <Origin>tcg_sou11ca</Origin>
+    <ToTranslate>tcg_sou11ca</ToTranslate>
+  </String>
+  <String index="484">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="485">
+    <Origin>sous0151</Origin>
+    <ToTranslate>sous0151</ToTranslate>
+  </String>
+  <String index="486">
+    <Origin>Sousou$&quot;By the way, what&apos;s wrong? You sounded nervous......&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;By the way, what&apos;s wrong? You sounded nervous......&quot;@</ToTranslate>
+  </String>
+  <String index="487">
+    <Origin>tcg_ton14aa</Origin>
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="488">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="489">
+    <Origin>kato0153</Origin>
+    <ToTranslate>kato0153</ToTranslate>
+  </String>
+  <String index="490">
+    <Origin>Kakouton$&quot;Well, it&apos;s regarding Hongou&apos;s army. They repelled Enshou&apos;s invasion and conquered various regions in Jizhou. Now, they are reaching out towards other areas to further expand their territory.&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Well, it&apos;s regarding Hongou&apos;s army. They repelled Enshou&apos;s invasion and conquered various regions in Jizhou. Now, they are reaching out towards other areas to further expand their territory.&quot;@</ToTranslate>
+  </String>
+  <String index="491">
+    <Origin>tcg_sou11ha</Origin>
+    <ToTranslate>tcg_sou11ha</ToTranslate>
+  </String>
+  <String index="492">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="493">
+    <Origin>sous0152</Origin>
+    <ToTranslate>sous0152</ToTranslate>
+  </String>
+  <String index="494">
+    <Origin>Sousou$&quot;I see...... That&apos;s troublesome.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I see...... That&apos;s troublesome.&quot;@</ToTranslate>
+  </String>
+  <String index="495">
+    <Origin>tcg_ton14ga</Origin>
+    <ToTranslate>tcg_ton14ga</ToTranslate>
+  </String>
+  <String index="496">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="497">
+    <Origin>kato0154</Origin>
+    <ToTranslate>kato0154</ToTranslate>
+  </String>
+  <String index="498">
+    <Origin>Kakouton$&quot;Yes. They appear to be acquiring ample funds and military strength, so I believe we should take care of them soon.&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Yes. They appear to be acquiring ample funds and military strength, so I believe we should take care of them soon.&quot;@</ToTranslate>
+  </String>
+  <String index="499">
+    <Origin>sous0153</Origin>
+    <ToTranslate>sous0153</ToTranslate>
+  </String>
+  <String index="500">
+    <Origin>Sousou$&quot;......You&apos;re right, Shunran.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;......You&apos;re right, Shunran.&quot;@</ToTranslate>
+  </String>
+  <String index="501">
+    <Origin>tcg_jun21ha</Origin>
+    <ToTranslate>tcg_jun21ha</ToTranslate>
+  </String>
+  <String index="502">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="503">
+    <Origin>jyun0113</Origin>
+    <ToTranslate>jyun0113</ToTranslate>
+  </String>
+  <String index="504">
+    <Origin>Jun&apos;iku$&quot;But general Kakouen is currently executing our operation to conquer the Western countries as we speak. We can&apos;t afford to divide our army and deal with Hongou right now.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;But general Kakouen is currently executing our operation to conquer the Western countries as we speak. We can&apos;t afford to divide our army and deal with Hongou right now.&quot;@</ToTranslate>
+  </String>
+  <String index="505">
+    <Origin>tcg_ton14ga</Origin>
+    <ToTranslate>tcg_ton14ga</ToTranslate>
+  </String>
+  <String index="506">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="507">
+    <Origin>kato0155</Origin>
+    <ToTranslate>kato0155</ToTranslate>
+  </String>
+  <String index="508">
+    <Origin>Kakouton$&quot;Still, we can&apos;t ignore Hongou either.&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Still, we can&apos;t ignore Hongou either.&quot;@</ToTranslate>
+  </String>
+  <String index="509">
+    <Origin>tcg_jun21ia</Origin>
+    <ToTranslate>tcg_jun21ia</ToTranslate>
+  </String>
+  <String index="510">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="511">
+    <Origin>jyun0114</Origin>
+    <ToTranslate>jyun0114</ToTranslate>
+  </String>
+  <String index="512">
+    <Origin>Jun&apos;iku$&quot;But we can&apos;t start a dispute with Hongou right now. ......Or are you telling me to halt the operation and recall our army?&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;But we can&apos;t start a dispute with Hongou right now. ......Or are you telling me to halt the operation and recall our army?&quot;@</ToTranslate>
+  </String>
+  <String index="513">
+    <Origin>tcg_ton14aa</Origin>
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="514">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="515">
+    <Origin>kato0156</Origin>
+    <ToTranslate>kato0156</ToTranslate>
+  </String>
+  <String index="516">
+    <Origin>Kakouton$&quot;No, I&apos;m not saying that......&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;No, I&apos;m not saying that......&quot;@</ToTranslate>
+  </String>
+  <String index="517">
+    <Origin>tcg_jun21fa</Origin>
+    <ToTranslate>tcg_jun21fa</ToTranslate>
+  </String>
+  <String index="518">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="519">
+    <Origin>jyun0115</Origin>
+    <ToTranslate>jyun0115</ToTranslate>
+  </String>
+  <String index="520">
+    <Origin>Jun&apos;iku$&quot;Then leave Hongou&apos;s army alone.&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Then leave Hongou&apos;s army alone.&quot;@</ToTranslate>
+  </String>
+  <String index="521">
+    <Origin>tcg_ton14ca</Origin>
+    <ToTranslate>tcg_ton14ca</ToTranslate>
+  </String>
+  <String index="522">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="523">
+    <Origin>kato0157</Origin>
+    <ToTranslate>kato0157</ToTranslate>
+  </String>
+  <String index="524">
+    <Origin>Kakouton$&quot;I came here to talk to Karin-sama about it precisely because we can&apos;t leave them alone!&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;I came here to talk to Karin-sama about it precisely because we can&apos;t leave them alone!&quot;@</ToTranslate>
+  </String>
+  <String index="525">
+    <Origin>tcg_sou11aa</Origin>
+    <ToTranslate>tcg_sou11aa</ToTranslate>
+  </String>
+  <String index="526">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="527">
+    <Origin>sous0154</Origin>
+    <ToTranslate>sous0154</ToTranslate>
+  </String>
+  <String index="528">
+    <Origin>Sousou$&quot;Don&apos;t get angry, Shunran. ......Let&apos;s just see what happens for now. Just as Keifa suggests, we won&apos;t wage full war with them until after Shuuran returns. ......Is that alright?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Don&apos;t get angry, Shunran. ......Let&apos;s just see what happens for now. Just as Keifa suggests, we won&apos;t wage full war with them until after Shuuran returns. ......Is that alright?&quot;@</ToTranslate>
+  </String>
+  <String index="529">
+    <Origin>tcg_ton14aa</Origin>
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="530">
+    <Origin>tcg_ton14m</Origin>
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="531">
+    <Origin>kato0158</Origin>
+    <ToTranslate>kato0158</ToTranslate>
+  </String>
+  <String index="532">
+    <Origin>Kakouton$&quot;If you think that&apos;s best, Karin-sama, then I don&apos;t have anything to say.&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;If you think that&apos;s best, Karin-sama, then I don&apos;t have anything to say.&quot;@</ToTranslate>
+  </String>
+  <String index="533">
+    <Origin>tcg_sou11la</Origin>
+    <ToTranslate>tcg_sou11la</ToTranslate>
+  </String>
+  <String index="534">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="535">
+    <Origin>sous0155</Origin>
+    <ToTranslate>sous0155</ToTranslate>
+  </String>
+  <String index="536">
+    <Origin>Sousou$&quot;Hu-hu, you&apos;re stubborn as usual, Shunran.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu, you&apos;re stubborn as usual, Shunran.&quot;@</ToTranslate>
+  </String>
+  <String index="537">
+    <Origin>tcg_ton24fa</Origin>
+    <ToTranslate>tcg_ton24fa</ToTranslate>
+  </String>
+  <String index="538">
+    <Origin>tcg_ton24m</Origin>
+    <ToTranslate>tcg_ton24m</ToTranslate>
+  </String>
+  <String index="539">
+    <Origin>kato0159</Origin>
+    <ToTranslate>kato0159</ToTranslate>
+  </String>
+  <String index="540">
+    <Origin>Kakouton$&quot;Ugh......K-Karin-sama, please don&apos;t tease me, Karin-sama.&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Ugh......K-Karin-sama, please don&apos;t tease me, Karin-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="541">
+    <Origin>tcg_sou11aa</Origin>
+    <ToTranslate>tcg_sou11aa</ToTranslate>
+  </String>
+  <String index="542">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="543">
+    <Origin>sous0156</Origin>
+    <ToTranslate>sous0156</ToTranslate>
+  </String>
+  <String index="544">
+    <Origin>Sousou$&quot;I&apos;m not trying to tease you. I like it when you&apos;re that way, so...... come to my room later, okay?&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I&apos;m not trying to tease you. I like it when you&apos;re that way, so...... come to my room later, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="545">
+    <Origin>kato0160</Origin>
+    <ToTranslate>kato0160</ToTranslate>
+  </String>
+  <String index="546">
+    <Origin>Kakouton$&quot;Yes......&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;Yes......&quot;@</ToTranslate>
+  </String>
+  <String index="547">
+    <Origin>tcg_jun11ba</Origin>
+    <ToTranslate>tcg_jun11ba</ToTranslate>
+  </String>
+  <String index="548">
+    <Origin>tcg_jun11m</Origin>
+    <ToTranslate>tcg_jun11m</ToTranslate>
+  </String>
+  <String index="549">
+    <Origin>jyun0116</Origin>
+    <ToTranslate>jyun0116</ToTranslate>
+  </String>
+  <String index="550">
+    <Origin>Jun&apos;iku$&quot;Ooo...... what about me, Karin-sama?&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;Ooo...... what about me, Karin-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="551">
+    <Origin>tcg_sou21ba</Origin>
+    <ToTranslate>tcg_sou21ba</ToTranslate>
+  </String>
+  <String index="552">
+    <Origin>tcg_sou21m</Origin>
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="553">
+    <Origin>sous0157</Origin>
+    <ToTranslate>sous0157</ToTranslate>
+  </String>
+  <String index="554">
+    <Origin>Sousou$&quot;I&apos;ll just have to put you on hold for a while......Just console yourself as you remember my tastes.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;I&apos;ll just have to put you on hold for a while......Just console yourself as you remember my tastes.&quot;@</ToTranslate>
+  </String>
+  <String index="555">
+    <Origin>tcg_jun21ba</Origin>
+    <ToTranslate>tcg_jun21ba</ToTranslate>
+  </String>
+  <String index="556">
+    <Origin>tcg_jun21m</Origin>
+    <ToTranslate>tcg_jun21m</ToTranslate>
+  </String>
+  <String index="557">
+    <Origin>jyun0117</Origin>
+    <ToTranslate>jyun0117</ToTranslate>
+  </String>
+  <String index="558">
+    <Origin>Jun&apos;iku$&quot;......Meanie......&quot;@</Origin>
+    <ToTranslate>Jun&apos;iku$&quot;......Meanie......&quot;@</ToTranslate>
+  </String>
+  <String index="559">
+    <Origin>tcg_sou11la</Origin>
+    <ToTranslate>tcg_sou11la</ToTranslate>
+  </String>
+  <String index="560">
+    <Origin>tcg_sou11m</Origin>
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="561">
+    <Origin>sous0158</Origin>
+    <ToTranslate>sous0158</ToTranslate>
+  </String>
+  <String index="562">
+    <Origin>Sousou$&quot;Hu-hu, that&apos;s the best compliment. ......Now Keifa, take care of the clean up. ......Shunran, let&apos;s go.&quot;@</Origin>
+    <ToTranslate>Sousou$&quot;Hu-hu, that&apos;s the best compliment. ......Now Keifa, take care of the clean up. ......Shunran, let&apos;s go.&quot;@</ToTranslate>
+  </String>
+  <String index="563">
+    <Origin>kato0161</Origin>
+    <ToTranslate>kato0161</ToTranslate>
+  </String>
+  <String index="564">
+    <Origin>Kakouton$&quot;......(Nod)&quot;@</Origin>
+    <ToTranslate>Kakouton$&quot;......(Nod)&quot;@</ToTranslate>
+  </String>
+  <String index="565">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="566">
+    <Origin>aa</Origin>
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="567">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="568">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="569">
+    <Origin>$At Go&apos;s royal palace......@</Origin>
+    <ToTranslate>$At Go&apos;s royal palace......@</ToTranslate>
+  </String>
+  <String index="570">
+    <Origin>aa</Origin>
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="571">
+    <Origin>bcg_go_impseat_a</Origin>
+    <ToTranslate>bcg_go_impseat_a</ToTranslate>
+  </String>
+  <String index="572">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="573">
+    <Origin>bgm10</Origin>
+    <ToTranslate>bgm10</ToTranslate>
+  </String>
+  <String index="574">
+    <Origin>tcg_syu11aa</Origin>
+    <ToTranslate>tcg_syu11aa</ToTranslate>
+  </String>
+  <String index="575">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="576">
+    <Origin>syuy0025</Origin>
+    <ToTranslate>syuy0025</ToTranslate>
+  </String>
+  <String index="577">
+    <Origin>Shuuyu$&quot;Hongou&apos;s army is expanding its territory. It&apos;s only a matter of time before they outstrip our own army.&quot;@</Origin>
+    <ToTranslate>Shuuyu$&quot;Hongou&apos;s army is expanding its territory. It&apos;s only a matter of time before they outstrip our own army.&quot;@</ToTranslate>
+  </String>
+  <String index="578">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="579">
+    <Origin>tcg_syu11aa</Origin>
+    <ToTranslate>tcg_syu11aa</ToTranslate>
+  </String>
+  <String index="580">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="581">
+    <Origin>tcg_son12aa</Origin>
+    <ToTranslate>tcg_son12aa</ToTranslate>
+  </String>
+  <String index="582">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="583">
+    <Origin>sonk0045</Origin>
+    <ToTranslate>sonk0045</ToTranslate>
+  </String>
+  <String index="584">
+    <Origin>Sonken$&quot;I see. How are the preparations going for our army?&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;I see. How are the preparations going for our army?&quot;@</ToTranslate>
+  </String>
+  <String index="585">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="586">
+    <Origin>tcg_syu11aa</Origin>
+    <ToTranslate>tcg_syu11aa</ToTranslate>
+  </String>
+  <String index="587">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="588">
+    <Origin>tcg_rik11da</Origin>
+    <ToTranslate>tcg_rik11da</ToTranslate>
+  </String>
+  <String index="589">
+    <Origin>tcg_rik11m</Origin>
+    <ToTranslate>tcg_rik11m</ToTranslate>
+  </String>
+  <String index="590">
+    <Origin>tcg_son12aa</Origin>
+    <ToTranslate>tcg_son12aa</ToTranslate>
+  </String>
+  <String index="591">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="592">
+    <Origin>riku0008</Origin>
+    <ToTranslate>riku0008</ToTranslate>
+  </String>
+  <String index="593">
+    <Origin>Rikuson$&quot;Shishun-chan and I are currently training newly recruited soldiers, but......&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;Shishun-chan and I are currently training newly recruited soldiers, but......&quot;@</ToTranslate>
+  </String>
+  <String index="594">
+    <Origin>sonk0046</Origin>
+    <ToTranslate>sonk0046</ToTranslate>
+  </String>
+  <String index="595">
+    <Origin>Sonken$&quot;What is it?&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;What is it?&quot;@</ToTranslate>
+  </String>
+  <String index="596">
+    <Origin>tcg_rik21ha</Origin>
+    <ToTranslate>tcg_rik21ha</ToTranslate>
+  </String>
+  <String index="597">
+    <Origin>tcg_rik21m</Origin>
+    <ToTranslate>tcg_rik21m</ToTranslate>
+  </String>
+  <String index="598">
+    <Origin>riku0009</Origin>
+    <ToTranslate>riku0009</ToTranslate>
+  </String>
+  <String index="599">
+    <Origin>Rikuson$&quot;There aren&apos;t enough conscripts, and their training isn&apos;t going very smoothly, so I don&apos;t think we&apos;ll be able to take military action anytime soon.&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;There aren&apos;t enough conscripts, and their training isn&apos;t going very smoothly, so I don&apos;t think we&apos;ll be able to take military action anytime soon.&quot;@</ToTranslate>
+  </String>
+  <String index="600">
+    <Origin>tcg_son12ba</Origin>
+    <ToTranslate>tcg_son12ba</ToTranslate>
+  </String>
+  <String index="601">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="602">
+    <Origin>sonk0047</Origin>
+    <ToTranslate>sonk0047</ToTranslate>
+  </String>
+  <String index="603">
+    <Origin>Sonken$&quot;The training isn&apos;t going well?&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;The training isn&apos;t going well?&quot;@</ToTranslate>
+  </String>
+  <String index="604">
+    <Origin>tcg_rik21ga</Origin>
+    <ToTranslate>tcg_rik21ga</ToTranslate>
+  </String>
+  <String index="605">
+    <Origin>tcg_rik21m</Origin>
+    <ToTranslate>tcg_rik21m</ToTranslate>
+  </String>
+  <String index="606">
+    <Origin>riku0010</Origin>
+    <ToTranslate>riku0010</ToTranslate>
+  </String>
+  <String index="607">
+    <Origin>Rikuson$&quot;No, it&apos;s not. We can&apos;t seem to get the units to improve their coordination, , &quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;No, it&apos;s not. We can&apos;t seem to get the units to improve their coordination, , &quot;@</ToTranslate>
+  </String>
+  <String index="608">
+    <Origin>tcg_syu11ba</Origin>
+    <ToTranslate>tcg_syu11ba</ToTranslate>
+  </String>
+  <String index="609">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="610">
+    <Origin>syuy0026</Origin>
+    <ToTranslate>syuy0026</ToTranslate>
+  </String>
+  <String index="611">
+    <Origin>Shuuyu$&quot;Good grief. This is happening because you read too many books and neglected practicum.&quot;@</Origin>
+    <ToTranslate>Shuuyu$&quot;Good grief. This is happening because you read too many books and neglected practicum.&quot;@</ToTranslate>
+  </String>
+  <String index="612">
+    <Origin>tcg_rik21ga</Origin>
+    <ToTranslate>tcg_rik21ga</ToTranslate>
+  </String>
+  <String index="613">
+    <Origin>tcg_rik21m</Origin>
+    <ToTranslate>tcg_rik21m</ToTranslate>
+  </String>
+  <String index="614">
+    <Origin>riku0011</Origin>
+    <ToTranslate>riku0011</ToTranslate>
+  </String>
+  <String index="615">
+    <Origin>Rikuson$&quot;Urgh...... I can&apos;t argue with that......&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;Urgh...... I can&apos;t argue with that......&quot;@</ToTranslate>
+  </String>
+  <String index="616">
+    <Origin>tcg_syu11ca</Origin>
+    <ToTranslate>tcg_syu11ca</ToTranslate>
+  </String>
+  <String index="617">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="618">
+    <Origin>syuy0027</Origin>
+    <ToTranslate>syuy0027</ToTranslate>
+  </String>
+  <String index="619">
+    <Origin>Shuuyu$&quot;Hahh, , Oh well, I&apos;ll join in.&quot;@</Origin>
+    <ToTranslate>Shuuyu$&quot;Hahh, , Oh well, I&apos;ll join in.&quot;@</ToTranslate>
+  </String>
+  <String index="620">
+    <Origin>tcg_rik21ha</Origin>
+    <ToTranslate>tcg_rik21ha</ToTranslate>
+  </String>
+  <String index="621">
+    <Origin>tcg_rik21m</Origin>
+    <ToTranslate>tcg_rik21m</ToTranslate>
+  </String>
+  <String index="622">
+    <Origin>riku0012</Origin>
+    <ToTranslate>riku0012</ToTranslate>
+  </String>
+  <String index="623">
+    <Origin>Rikuson$&quot;That would be a great help......&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;That would be a great help......&quot;@</ToTranslate>
+  </String>
+  <String index="624">
+    <Origin>tcg_son12aa</Origin>
+    <ToTranslate>tcg_son12aa</ToTranslate>
+  </String>
+  <String index="625">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="626">
+    <Origin>sonk0048</Origin>
+    <ToTranslate>sonk0048</ToTranslate>
+  </String>
+  <String index="627">
+    <Origin>Sonken$&quot;Hmm, Then if Koukin helps with the training, how long do you think you&apos;ll need before we are ready?&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;Hmm, Then if Koukin helps with the training, how long do you think you&apos;ll need before we are ready?&quot;@</ToTranslate>
+  </String>
+  <String index="628">
+    <Origin>tcg_syu11aa</Origin>
+    <ToTranslate>tcg_syu11aa</ToTranslate>
+  </String>
+  <String index="629">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="630">
+    <Origin>syuy0028</Origin>
+    <ToTranslate>syuy0028</ToTranslate>
+  </String>
+  <String index="631">
+    <Origin>Shuuyu$&quot;Approximately...... a month I&apos;d say.&quot;@</Origin>
+    <ToTranslate>Shuuyu$&quot;Approximately...... a month I&apos;d say.&quot;@</ToTranslate>
+  </String>
+  <String index="632">
+    <Origin>tcg_son12ba</Origin>
+    <ToTranslate>tcg_son12ba</ToTranslate>
+  </String>
+  <String index="633">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="634">
+    <Origin>sonk0049</Origin>
+    <ToTranslate>sonk0049</ToTranslate>
+  </String>
+  <String index="635">
+    <Origin>Sonken$&quot;......A month, huh? That&apos;s a tricky spot.&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;......A month, huh? That&apos;s a tricky spot.&quot;@</ToTranslate>
+  </String>
+  <String index="636">
+    <Origin>tcg_rik11aa</Origin>
+    <ToTranslate>tcg_rik11aa</ToTranslate>
+  </String>
+  <String index="637">
+    <Origin>tcg_rik11m</Origin>
+    <ToTranslate>tcg_rik11m</ToTranslate>
+  </String>
+  <String index="638">
+    <Origin>riku0013</Origin>
+    <ToTranslate>riku0013</ToTranslate>
+  </String>
+  <String index="639">
+    <Origin>Rikuson$&quot;Both Hongou and Sousou are becoming very active lately......&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;Both Hongou and Sousou are becoming very active lately......&quot;@</ToTranslate>
+  </String>
+  <String index="640">
+    <Origin>sonk0050</Origin>
+    <ToTranslate>sonk0050</ToTranslate>
+  </String>
+  <String index="641">
+    <Origin>Sonken$&quot;Lamenting won&apos;t change anything. Work hard and finish up the training as quickly as possible.&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;Lamenting won&apos;t change anything. Work hard and finish up the training as quickly as possible.&quot;@</ToTranslate>
+  </String>
+  <String index="642">
+    <Origin>tcg_syu11ca</Origin>
+    <ToTranslate>tcg_syu11ca</ToTranslate>
+  </String>
+  <String index="643">
+    <Origin>tcg_syu11m</Origin>
+    <ToTranslate>tcg_syu11m</ToTranslate>
+  </String>
+  <String index="644">
+    <Origin>syuy0029</Origin>
+    <ToTranslate>syuy0029</ToTranslate>
+  </String>
+  <String index="645">
+    <Origin>Shuuyu$&quot;As you wish.&quot;@</Origin>
+    <ToTranslate>Shuuyu$&quot;As you wish.&quot;@</ToTranslate>
+  </String>
+  <String index="646">
+    <Origin>tcg_son12aa</Origin>
+    <ToTranslate>tcg_son12aa</ToTranslate>
+  </String>
+  <String index="647">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="648">
+    <Origin>sonk0051</Origin>
+    <ToTranslate>sonk0051</ToTranslate>
+  </String>
+  <String index="649">
+    <Origin>Sonken$&quot;Hakugen, why don&apos;t you send out spies and find out more about Hongou and Sousou&apos;s movements.&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;Hakugen, why don&apos;t you send out spies and find out more about Hongou and Sousou&apos;s movements.&quot;@</ToTranslate>
+  </String>
+  <String index="650">
+    <Origin>tcg_rik11ba</Origin>
+    <ToTranslate>tcg_rik11ba</ToTranslate>
+  </String>
+  <String index="651">
+    <Origin>tcg_rik11m</Origin>
+    <ToTranslate>tcg_rik11m</ToTranslate>
+  </String>
+  <String index="652">
+    <Origin>riku0014</Origin>
+    <ToTranslate>riku0014</ToTranslate>
+  </String>
+  <String index="653">
+    <Origin>Rikuson$&quot;Understood.&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;Understood.&quot;@</ToTranslate>
+  </String>
+  <String index="654">
+    <Origin>tcg_son12ba</Origin>
+    <ToTranslate>tcg_son12ba</ToTranslate>
+  </String>
+  <String index="655">
+    <Origin>tcg_son12m</Origin>
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="656">
+    <Origin>sonk0052</Origin>
+    <ToTranslate>sonk0052</ToTranslate>
+  </String>
+  <String index="657">
+    <Origin>Sonken$&quot;We don&apos;t fight battles we have no chance of winning. Don&apos;t forget that, and work hard, everyone. This war council is dismissed.&quot;@</Origin>
+    <ToTranslate>Sonken$&quot;We don&apos;t fight battles we have no chance of winning. Don&apos;t forget that, and work hard, everyone. This war council is dismissed.&quot;@</ToTranslate>
+  </String>
+  <String index="658">
+    <Origin>tcg_rik11da</Origin>
+    <ToTranslate>tcg_rik11da</ToTranslate>
+  </String>
+  <String index="659">
+    <Origin>tcg_rik11m</Origin>
+    <ToTranslate>tcg_rik11m</ToTranslate>
+  </String>
+  <String index="660">
+    <Origin>riku0015</Origin>
+    <ToTranslate>riku0015</ToTranslate>
+  </String>
+  <String index="661">
+    <Origin>Rikuson$&quot;Yes ma&apos;am.&quot;@</Origin>
+    <ToTranslate>Rikuson$&quot;Yes ma&apos;am.&quot;@</ToTranslate>
+  </String>
+  <String index="662">
+    <Origin>tcg_syu21da</Origin>
+    <ToTranslate>tcg_syu21da</ToTranslate>
+  </String>
+  <String index="663">
+    <Origin>tcg_syu21m</Origin>
+    <ToTranslate>tcg_syu21m</ToTranslate>
+  </String>
+  <String index="664">
+    <Origin>syuy0030</Origin>
+    <ToTranslate>syuy0030</ToTranslate>
+  </String>
+  <String index="665">
+    <Origin>Shuuyu$&quot;......As you wish.&quot;@</Origin>
+    <ToTranslate>Shuuyu$&quot;......As you wish.&quot;@</ToTranslate>
+  </String>
+  <String index="666">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="667">
+    <Origin>aa</Origin>
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="668">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="669">
+    <Origin>aa</Origin>
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="670">
+    <Origin>ecg_saj03a</Origin>
+    <ToTranslate>ecg_saj03a</ToTranslate>
+  </String>
+  <String index="671">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="672">
+    <Origin>bgm30</Origin>
+    <ToTranslate>bgm30</ToTranslate>
+  </String>
+  <String index="673">
+    <Origin>Chitasei$&quot;The foreign influence is growing stronger.&quot;@</Origin>
+    <ToTranslate>Chitasei$&quot;The foreign influence is growing stronger.&quot;@</ToTranslate>
+  </String>
+  <String index="674">
+    <Origin>Taishi$&quot;Soon its influence will reach the true history as well.&quot;@</Origin>
+    <ToTranslate>Taishi$&quot;Soon its influence will reach the true history as well.&quot;@</ToTranslate>
+  </String>
+  <String index="675">
+    <Origin>saji0038</Origin>
+    <ToTranslate>saji0038</ToTranslate>
+  </String>
+  <String index="676">
+    <Origin>Saji$&quot;I know.&quot;@</Origin>
+    <ToTranslate>Saji$&quot;I know.&quot;@</ToTranslate>
+  </String>
+  <String index="677">
+    <Origin>Denkyou$&quot;If you know, then hurry up and do something about it.&quot;@</Origin>
+    <ToTranslate>Denkyou$&quot;If you know, then hurry up and do something about it.&quot;@</ToTranslate>
+  </String>
+  <String index="678">
+    <Origin>Magician$&quot;Ho-ho-ho, if it could be easily dealt with, there would be no need for us to gather as we have.&quot;@</Origin>
+    <ToTranslate>Magician$&quot;Ho-ho-ho, if it could be easily dealt with, there would be no need for us to gather as we have.&quot;@</ToTranslate>
+  </String>
+  <String index="679">
+    <Origin>Denkyou$&quot;......I was simply voicing my sentiments.&quot;@</Origin>
+    <ToTranslate>Denkyou$&quot;......I was simply voicing my sentiments.&quot;@</ToTranslate>
+  </String>
+  <String index="680">
+    <Origin>ukit0000</Origin>
+    <ToTranslate>ukit0000</ToTranslate>
+  </String>
+  <String index="681">
+    <Origin>Ukitsu$&quot;Our opponents are warriors who were commended by many in the true history. .....It won&apos;t be that easy, Elders.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;Our opponents are warriors who were commended by many in the true history. .....It won&apos;t be that easy, Elders.&quot;@</ToTranslate>
+  </String>
+  <String index="682">
+    <Origin>Chitasei$&quot;But we can&apos;t ignore them, right?&quot;@</Origin>
+    <ToTranslate>Chitasei$&quot;But we can&apos;t ignore them, right?&quot;@</ToTranslate>
+  </String>
+  <String index="683">
+    <Origin>Magician$&quot;That&apos;s right. It&apos;s best to deal with them promptly, before they can influence the true history.&quot;@</Origin>
+    <ToTranslate>Magician$&quot;That&apos;s right. It&apos;s best to deal with them promptly, before they can influence the true history.&quot;@</ToTranslate>
+  </String>
+  <String index="684">
+    <Origin>Taishi$&quot;So, what do you plan to do?&quot;@</Origin>
+    <ToTranslate>Taishi$&quot;So, what do you plan to do?&quot;@</ToTranslate>
+  </String>
+  <String index="685">
+    <Origin>ukit0001</Origin>
+    <ToTranslate>ukit0001</ToTranslate>
+  </String>
+  <String index="686">
+    <Origin>Ukitsu$&quot;Gi, ruled by Sousou, and Go, ruled by Sonken. ......It would be most sound to use those two countries to deal with them.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;Gi, ruled by Sousou, and Go, ruled by Sonken. ......It would be most sound to use those two countries to deal with them.&quot;@</ToTranslate>
+  </String>
+  <String index="687">
+    <Origin>Denkyou$&quot;Hmm...... Fighting a hero with another hero, huh?&quot;@</Origin>
+    <ToTranslate>Denkyou$&quot;Hmm...... Fighting a hero with another hero, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="688">
+    <Origin>ukit0002</Origin>
+    <ToTranslate>ukit0002</ToTranslate>
+  </String>
+  <String index="689">
+    <Origin>Ukitsu$&quot;Yes. This alternate history is a somewhat troublesome world...&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;Yes. This alternate history is a somewhat troublesome world...&quot;@</ToTranslate>
+  </String>
+  <String index="690">
+    <Origin>Magician$&quot;There are too many existences with their own personal conceptions here. , , Your jobs as managers must be rough.&quot;@</Origin>
+    <ToTranslate>Magician$&quot;There are too many existences with their own personal conceptions here. , , Your jobs as managers must be rough.&quot;@</ToTranslate>
+  </String>
+  <String index="691">
+    <Origin>Chitasei$&quot;But the situation demands haste. Have you confirmed the existence of the road?&quot;@</Origin>
+    <ToTranslate>Chitasei$&quot;But the situation demands haste. Have you confirmed the existence of the road?&quot;@</ToTranslate>
+  </String>
+  <String index="692">
+    <Origin>ukit0003</Origin>
+    <ToTranslate>ukit0003</ToTranslate>
+  </String>
+  <String index="693">
+    <Origin>Ukitsu$&quot;Yes. Because he fell into this alternate history, the road appeared.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;Yes. Because he fell into this alternate history, the road appeared.&quot;@</ToTranslate>
+  </String>
+  <String index="694">
+    <Origin>Taishi$&quot;That&apos;s more trouble.&quot;@</Origin>
+    <ToTranslate>Taishi$&quot;That&apos;s more trouble.&quot;@</ToTranslate>
+  </String>
+  <String index="695">
+    <Origin>saji0039</Origin>
+    <ToTranslate>saji0039</ToTranslate>
+  </String>
+  <String index="696">
+    <Origin>Saji$&quot;Simply destroy the road, and that&apos;s solved. More importantly, getting rid of him should be our priority.&quot;@</Origin>
+    <ToTranslate>Saji$&quot;Simply destroy the road, and that&apos;s solved. More importantly, getting rid of him should be our priority.&quot;@</ToTranslate>
+  </String>
+  <String index="697">
+    <Origin>Magician$&quot;Ho-ho-ho, you young ones get excited so quickly. But, if we lay our own hands on it and the balance is broken, then who knows what effect it will have on the true history.&quot;@</Origin>
+    <ToTranslate>Magician$&quot;Ho-ho-ho, you young ones get excited so quickly. But, if we lay our own hands on it and the balance is broken, then who knows what effect it will have on the true history.&quot;@</ToTranslate>
+  </String>
+  <String index="698">
+    <Origin>saji0040</Origin>
+    <ToTranslate>saji0040</ToTranslate>
+  </String>
+  <String index="699">
+    <Origin>Saji$&quot;I&apos;m telling you, I know that. Just shut up and let me take care of it.&quot;@</Origin>
+    <ToTranslate>Saji$&quot;I&apos;m telling you, I know that. Just shut up and let me take care of it.&quot;@</ToTranslate>
+  </String>
+  <String index="700">
+    <Origin>Chitasei$&quot;Hmm......Then we will refrain from interferring.&quot;@</Origin>
+    <ToTranslate>Chitasei$&quot;Hmm......Then we will refrain from interferring.&quot;@</ToTranslate>
+  </String>
+  <String index="701">
+    <Origin>Taishi$&quot;Heh-heh-heh......Show us what you can do.&quot;@</Origin>
+    <ToTranslate>Taishi$&quot;Heh-heh-heh......Show us what you can do.&quot;@</ToTranslate>
+  </String>
+  <String index="702">
+    <Origin>Denkyou$&quot;You can&apos;t make any mistakes. You better keep that in mind.&quot;@</Origin>
+    <ToTranslate>Denkyou$&quot;You can&apos;t make any mistakes. You better keep that in mind.&quot;@</ToTranslate>
+  </String>
+  <String index="703">
+    <Origin>saji0041</Origin>
+    <ToTranslate>saji0041</ToTranslate>
+  </String>
+  <String index="704">
+    <Origin>Saji$&quot;Hmph......&quot;@</Origin>
+    <ToTranslate>Saji$&quot;Hmph......&quot;@</ToTranslate>
+  </String>
+  <String index="705">
+    <Origin>Magician$&quot;Then we shall take our leave. ......Deal with the foreign influence and destroy the road. We look forward to your success, Saji.&quot;@</Origin>
+    <ToTranslate>Magician$&quot;Then we shall take our leave. ......Deal with the foreign influence and destroy the road. We look forward to your success, Saji.&quot;@</ToTranslate>
+  </String>
+  <String index="706">
+    <Origin>saji0042</Origin>
+    <ToTranslate>saji0042</ToTranslate>
+  </String>
+  <String index="707">
+    <Origin>Saji$&quot;You don&apos;t need to tell me that.&quot;@</Origin>
+    <ToTranslate>Saji$&quot;You don&apos;t need to tell me that.&quot;@</ToTranslate>
+  </String>
+  <String index="708">
+    <Origin>Magician$&quot;Ho-ho-ho......You sure are lively. Very well, we shall return to our alternate histories. Farewell.&quot;@</Origin>
+    <ToTranslate>Magician$&quot;Ho-ho-ho......You sure are lively. Very well, we shall return to our alternate histories. Farewell.&quot;@</ToTranslate>
+  </String>
+  <String index="709">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="710">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="711">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="712">
+    <Origin>bb</Origin>
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="713">
+    <Origin>bcg_mir_impseat_a</Origin>
+    <ToTranslate>bcg_mir_impseat_a</ToTranslate>
+  </String>
+  <String index="714">
+    <Origin>_MsgBoxMain_On</Origin>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="715">
+    <Origin>bgm27</Origin>
+    <ToTranslate>bgm27</ToTranslate>
+  </String>
+  <String index="716">
+    <Origin>tcg_ukt11ca</Origin>
+    <ToTranslate>tcg_ukt11ca</ToTranslate>
+  </String>
+  <String index="717">
+    <Origin>tcg_ukt11m</Origin>
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="718">
+    <Origin>ukit0004</Origin>
+    <ToTranslate>ukit0004</ToTranslate>
+  </String>
+  <String index="719">
+    <Origin>Ukitsu$&quot;......Good grief, what am I going to do with you? Picking a fight with the Elders isn&apos;t going to solve anything.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;......Good grief, what am I going to do with you? Picking a fight with the Elders isn&apos;t going to solve anything.&quot;@</ToTranslate>
+  </String>
+  <String index="720">
+    <Origin>kyara_kesi</Origin>
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="721">
+    <Origin>tcg_ukt11ca</Origin>
+    <ToTranslate>tcg_ukt11ca</ToTranslate>
+  </String>
+  <String index="722">
+    <Origin>tcg_ukt11m</Origin>
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="723">
+    <Origin>tcg_saj11aa</Origin>
+    <ToTranslate>tcg_saj11aa</ToTranslate>
+  </String>
+  <String index="724">
+    <Origin>tcg_saj11m</Origin>
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="725">
+    <Origin>saji0043</Origin>
+    <ToTranslate>saji0043</ToTranslate>
+  </String>
+  <String index="726">
+    <Origin>Saji$&quot;......Hmph. Both they and we are all just scripted existences. Why must I show respect them?&quot;@</Origin>
+    <ToTranslate>Saji$&quot;......Hmph. Both they and we are all just scripted existences. Why must I show respect them?&quot;@</ToTranslate>
+  </String>
+  <String index="727">
+    <Origin>saji0044</Origin>
+    <ToTranslate>saji0044</ToTranslate>
+  </String>
+  <String index="728">
+    <Origin>Saji$&quot;They don&apos;t even understand that, and willingly allow themselves to be manipulated......It makes me sick.&quot;@</Origin>
+    <ToTranslate>Saji$&quot;They don&apos;t even understand that, and willingly allow themselves to be manipulated......It makes me sick.&quot;@</ToTranslate>
+  </String>
+  <String index="729">
+    <Origin>tcg_ukt11aa</Origin>
+    <ToTranslate>tcg_ukt11aa</ToTranslate>
+  </String>
+  <String index="730">
+    <Origin>tcg_ukt11m</Origin>
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="731">
+    <Origin>ukit0005</Origin>
+    <ToTranslate>ukit0005</ToTranslate>
+  </String>
+  <String index="732">
+    <Origin>Ukitsu$&quot;That is true, but getting upset over it won&apos;t change anything.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;That is true, but getting upset over it won&apos;t change anything.&quot;@</ToTranslate>
+  </String>
+  <String index="733">
+    <Origin>tcg_saj11ia</Origin>
+    <ToTranslate>tcg_saj11ia</ToTranslate>
+  </String>
+  <String index="734">
+    <Origin>tcg_saj11m</Origin>
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="735">
+    <Origin>saji0045</Origin>
+    <ToTranslate>saji0045</ToTranslate>
+  </String>
+  <String index="736">
+    <Origin>Saji$&quot;Hmph...... Is walking the path that&apos;s already laid out for us our only reason for existing?&quot;@</Origin>
+    <ToTranslate>Saji$&quot;Hmph...... Is walking the path that&apos;s already laid out for us our only reason for existing?&quot;@</ToTranslate>
+  </String>
+  <String index="737">
+    <Origin>ukit0006</Origin>
+    <ToTranslate>ukit0006</ToTranslate>
+  </String>
+  <String index="738">
+    <Origin>Ukitsu$&quot;That&apos;s right.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;That&apos;s right.&quot;@</ToTranslate>
+  </String>
+  <String index="739">
+    <Origin>tcg_saj11ba</Origin>
+    <ToTranslate>tcg_saj11ba</ToTranslate>
+  </String>
+  <String index="740">
+    <Origin>tcg_saj11m</Origin>
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="741">
+    <Origin>saji0046</Origin>
+    <ToTranslate>saji0046</ToTranslate>
+  </String>
+  <String index="742">
+    <Origin>Saji$&quot;Shit......&quot;@</Origin>
+    <ToTranslate>Saji$&quot;Shit......&quot;@</ToTranslate>
+  </String>
+  <String index="743">
+    <Origin>tcg_ukt11ba</Origin>
+    <ToTranslate>tcg_ukt11ba</ToTranslate>
+  </String>
+  <String index="744">
+    <Origin>tcg_ukt11m</Origin>
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="745">
+    <Origin>ukit0007</Origin>
+    <ToTranslate>ukit0007</ToTranslate>
+  </String>
+  <String index="746">
+    <Origin>Ukitsu$&quot;Hu-hu...... you&apos;re pouting like a child......&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;Hu-hu...... you&apos;re pouting like a child......&quot;@</ToTranslate>
+  </String>
+  <String index="747">
+    <Origin>tcg_saj11aa</Origin>
+    <ToTranslate>tcg_saj11aa</ToTranslate>
+  </String>
+  <String index="748">
+    <Origin>tcg_saj11m</Origin>
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="749">
+    <Origin>saji0047</Origin>
+    <ToTranslate>saji0047</ToTranslate>
+  </String>
+  <String index="750">
+    <Origin>Saji$&quot;Shut up. Why don&apos;t you think of a way to get rid of him, Ukitsu?&quot;@</Origin>
+    <ToTranslate>Saji$&quot;Shut up. Why don&apos;t you think of a way to get rid of him, Ukitsu?&quot;@</ToTranslate>
+  </String>
+  <String index="751">
+    <Origin>tcg_ukt11aa</Origin>
+    <ToTranslate>tcg_ukt11aa</ToTranslate>
+  </String>
+  <String index="752">
+    <Origin>tcg_ukt11m</Origin>
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="753">
+    <Origin>ukit0008</Origin>
+    <ToTranslate>ukit0008</ToTranslate>
+  </String>
+  <String index="754">
+    <Origin>Ukitsu$&quot;I have already taken measures towards that.&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;I have already taken measures towards that.&quot;@</ToTranslate>
+  </String>
+  <String index="755">
+    <Origin>tcg_saj11fa</Origin>
+    <ToTranslate>tcg_saj11fa</ToTranslate>
+  </String>
+  <String index="756">
+    <Origin>tcg_saj11m</Origin>
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="757">
+    <Origin>saji0048</Origin>
+    <ToTranslate>saji0048</ToTranslate>
+  </String>
+  <String index="758">
+    <Origin>Saji$&quot;What? What kind of measures?&quot;@</Origin>
+    <ToTranslate>Saji$&quot;What? What kind of measures?&quot;@</ToTranslate>
+  </String>
+  <String index="759">
+    <Origin>tcg_ukt11ba</Origin>
+    <ToTranslate>tcg_ukt11ba</ToTranslate>
+  </String>
+  <String index="760">
+    <Origin>tcg_ukt11m</Origin>
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="761">
+    <Origin>ukit0009</Origin>
+    <ToTranslate>ukit0009</ToTranslate>
+  </String>
+  <String index="762">
+    <Origin>Ukitsu$&quot;Secret measures. Now just watch as the finishing touches are placed......Hu-hu-hu......Although I may be scripted, I am still an element of this plot. I can still set things in motion......&quot;@</Origin>
+    <ToTranslate>Ukitsu$&quot;Secret measures. Now just watch as the finishing touches are placed......Hu-hu-hu......Although I may be scripted, I am still an element of this plot. I can still set things in motion......&quot;@</ToTranslate>
+  </String>
+  <String index="763">
+    <Origin>_MsgBoxMain_Off</Origin>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="764">
+    <Origin>bg_black</Origin>
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="765">
+    <Origin>_kyotenphase</Origin>
+    <ToTranslate>_kyotenphase</ToTranslate>
+  </String>
+</DBS>
+
+</poem>
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
