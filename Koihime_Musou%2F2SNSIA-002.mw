@@ -1,0 +1,2874 @@
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
+<poem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="1">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="2">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="3">
+    <ToTranslate>Kazuto$&quot;*Sigh...* I have to go out on patrol after finishing my administrative work, huh? I know everybody&apos;s doing this, but it&apos;s kind of a grueling schedule.&quot;@</ToTranslate>
+  </String>
+  <String index="4">
+    <ToTranslate>$I whimpered quietly so that the soldiers who were on patrol with me wouldn&apos;t hear.@</ToTranslate>
+  </String>
+  <String index="5">
+    <ToTranslate>$I was exhausted because I hadn&apos;t had a day off for quite a while now.@</ToTranslate>
+  </String>
+  <String index="6">
+    <ToTranslate>$I knew everybody else was also working hard, but the whole system would stop working if someone collapsed from fatigue.@</ToTranslate>
+  </String>
+  <String index="7">
+    <ToTranslate>Kazuto$&quot;I think I should talk to Shuri about this...&quot;@</ToTranslate>
+  </String>
+  <String index="8">
+    <ToTranslate>tcg_cry11ba</ToTranslate>
+  </String>
+  <String index="9">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="10">
+    <ToTranslate>bgm26</ToTranslate>
+  </String>
+  <String index="11">
+    <ToTranslate>chor0265</ToTranslate>
+  </String>
+  <String index="12">
+    <ToTranslate>Chouryou$&quot;What are you going to talk to her about?&quot;@</ToTranslate>
+  </String>
+  <String index="13">
+    <ToTranslate>Kazuto$&quot;Hmm? Oh, Shia... good timing.&quot;@</ToTranslate>
+  </String>
+  <String index="14">
+    <ToTranslate>tcg_cry31ka</ToTranslate>
+  </String>
+  <String index="15">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="16">
+    <ToTranslate>chor0266</ToTranslate>
+  </String>
+  <String index="17">
+    <ToTranslate>Chouryou$&quot;Ooh... I have a bad feeling...&quot;@</ToTranslate>
+  </String>
+  <String index="18">
+    <ToTranslate>Kazuto$&quot;I bet you do. You know, I have to go on patrol in the suburban area alone, but to be honest I feel kind of apprehensive about it. Will you come with me?&quot;@</ToTranslate>
+  </String>
+  <String index="19">
+    <ToTranslate>tcg_cry21ea</ToTranslate>
+  </String>
+  <String index="20">
+    <ToTranslate>tcg_cry21m</ToTranslate>
+  </String>
+  <String index="21">
+    <ToTranslate>chor0267</ToTranslate>
+  </String>
+  <String index="22">
+    <ToTranslate>Chouryou$&quot;Ahh... that sounds taxing...&quot;@</ToTranslate>
+  </String>
+  <String index="23">
+    <ToTranslate>Kazuto$&quot;Come on, don&apos;t say that. Please?&quot;@</ToTranslate>
+  </String>
+  <String index="24">
+    <ToTranslate>chor0268</ToTranslate>
+  </String>
+  <String index="25">
+    <ToTranslate>Chouryou$&quot;*Sigh...* All right. I think I told you before that I&apos;d help. Very well, then.&quot;@</ToTranslate>
+  </String>
+  <String index="26">
+    <ToTranslate>Kazuto$&quot;Thanks, it&apos;s a big help.&quot;@</ToTranslate>
+  </String>
+  <String index="27">
+    <ToTranslate>tcg_cry11ba</ToTranslate>
+  </String>
+  <String index="28">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="29">
+    <ToTranslate>chor0269</ToTranslate>
+  </String>
+  <String index="30">
+    <ToTranslate>Chouryou$&quot;You surprise me because you say thank you so easily, even though you&apos;re a ruler of a country.&quot;@</ToTranslate>
+  </String>
+  <String index="31">
+    <ToTranslate>Kazuto$&quot;Isn&apos;t it natural that you thank somebody if they do something for you?&quot;@</ToTranslate>
+  </String>
+  <String index="32">
+    <ToTranslate>chor0270</ToTranslate>
+  </String>
+  <String index="33">
+    <ToTranslate>Chouryou$&quot;You&apos;re right. I think that personality is your charm.&quot;@</ToTranslate>
+  </String>
+  <String index="34">
+    <ToTranslate>$Shia nodded in agreement with her observation.@</ToTranslate>
+  </String>
+  <String index="35">
+    <ToTranslate>chor0271</ToTranslate>
+  </String>
+  <String index="36">
+    <ToTranslate>Chouryou$&quot;Hold on a minute. I&apos;ll get my weapon.&quot;@</ToTranslate>
+  </String>
+  <String index="37">
+    <ToTranslate>$She started running towards the palace.@</ToTranslate>
+  </String>
+  <String index="38">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="39">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="40">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="41">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="42">
+    <ToTranslate>$Then, after a short while, she returned with her weapon.@</ToTranslate>
+  </String>
+  <String index="43">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="44">
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="45">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="46">
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="47">
+    <ToTranslate>tcg_cry11ba</ToTranslate>
+  </String>
+  <String index="48">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="49">
+    <ToTranslate>chor0272</ToTranslate>
+  </String>
+  <String index="50">
+    <ToTranslate>Chouryou$&quot;Anyways, why on earth do you have to go out on patrol?&quot;@</ToTranslate>
+  </String>
+  <String index="51">
+    <ToTranslate>Kazuto$&quot;We&apos;re short on people. In fact, there isn&apos;t really anybody other than Aisha and Shuri who can do the administrative work.&quot;@</ToTranslate>
+  </String>
+  <String index="52">
+    <ToTranslate>tcg_cry21ea</ToTranslate>
+  </String>
+  <String index="53">
+    <ToTranslate>tcg_cry21m</ToTranslate>
+  </String>
+  <String index="54">
+    <ToTranslate>chor0273</ToTranslate>
+  </String>
+  <String index="55">
+    <ToTranslate>Chouryou$&quot;*Sigh...* So you have to do the patrols yourself as well? I feel sorry for you.&quot;@</ToTranslate>
+  </String>
+  <String index="56">
+    <ToTranslate>Kazuto$&quot;So do I. But I believe things are getting better.&quot;@</ToTranslate>
+  </String>
+  <String index="57">
+    <ToTranslate>Kazuto$&quot;We&apos;re training more aides-de-camp, and you&apos;re helping me.&quot;@</ToTranslate>
+  </String>
+  <String index="58">
+    <ToTranslate>chor0274</ToTranslate>
+  </String>
+  <String index="59">
+    <ToTranslate>Chouryou$&quot;Hmm... I&apos;m glad that you rely on me even though I&apos;m a captive, and your generosity is definitely your charm, as Aisha said, but...&quot; @</ToTranslate>
+  </String>
+  <String index="60">
+    <ToTranslate>tcg_cry11ba</ToTranslate>
+  </String>
+  <String index="61">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="62">
+    <ToTranslate>chor0275</ToTranslate>
+  </String>
+  <String index="63">
+    <ToTranslate>Chouryou$&quot;The number of capable people represents the strength of a country. Big or small, there will be battles. So I think you should think more seriously about that.&quot;@</ToTranslate>
+  </String>
+  <String index="64">
+    <ToTranslate>Kazuto$&quot;Thanks for your input. I&apos;ll figure something out.&quot;@</ToTranslate>
+  </String>
+  <String index="65">
+    <ToTranslate>chor0276</ToTranslate>
+  </String>
+  <String index="66">
+    <ToTranslate>Chouryou$&quot;You should. I&apos;ll help you if there&apos;s anything I can do.&quot;@</ToTranslate>
+  </String>
+  <String index="67">
+    <ToTranslate>Kazuto$&quot;That&apos;d be great. Thank you, Shia.&quot; @</ToTranslate>
+  </String>
+  <String index="68">
+    <ToTranslate>tcg_cry31ja</ToTranslate>
+  </String>
+  <String index="69">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="70">
+    <ToTranslate>chor0277</ToTranslate>
+  </String>
+  <String index="71">
+    <ToTranslate>Chouryou$&quot;Oh... I feel embarrassed when you thank me like that.&quot;@</ToTranslate>
+  </String>
+  <String index="72">
+    <ToTranslate>$Shi averted her eyes from mine while scratching her head.@</ToTranslate>
+  </String>
+  <String index="73">
+    <ToTranslate>tcg_cry11ba</ToTranslate>
+  </String>
+  <String index="74">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="75">
+    <ToTranslate>chor0278</ToTranslate>
+  </String>
+  <String index="76">
+    <ToTranslate>Chouryou$&quot;Anyway, I have something I want to talk to you about later.&quot;@</ToTranslate>
+  </String>
+  <String index="77">
+    <ToTranslate>Kazuto$&quot;Oh? Okay... what is it?&quot;@</ToTranslate>
+  </String>
+  <String index="78">
+    <ToTranslate>tcg_cry31ja</ToTranslate>
+  </String>
+  <String index="79">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="80">
+    <ToTranslate>chor0279</ToTranslate>
+  </String>
+  <String index="81">
+    <ToTranslate>Chouryou$&quot;Hmm, I can&apos;t tell you here because I&apos;ll be embarrassed.&quot;@</ToTranslate>
+  </String>
+  <String index="82">
+    <ToTranslate>Kazuto$&quot;...?? Oh, okay.&quot;@</ToTranslate>
+  </String>
+  <String index="83">
+    <ToTranslate>$I guess she didn&apos;t want the soldiers to overhear it.@</ToTranslate>
+  </String>
+  <String index="84">
+    <ToTranslate>Kazuto$&quot;All right, why don&apos;t we talk about it after the patrol, when we take a break by the river?&quot;@</ToTranslate>
+  </String>
+  <String index="85">
+    <ToTranslate>chor0280</ToTranslate>
+  </String>
+  <String index="86">
+    <ToTranslate>Chouryou$&quot;Sure...&quot;@</ToTranslate>
+  </String>
+  <String index="87">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="88">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="89">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="90">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="91">
+    <ToTranslate>$We patrolled the meadow, and the grove near the village shrine.@</ToTranslate>
+  </String>
+  <String index="92">
+    <ToTranslate>$In the meadow, we drove away some thieves that had made the ruins their home. The thieves who saw Chouryou ran away quickly while screaming in terror,@</ToTranslate>
+  </String>
+  <String index="93">
+    <ToTranslate>$&quot;Ryou lai lai!&quot;@</ToTranslate>
+  </String>
+  <String index="94">
+    <ToTranslate>$I was really impressed by that.@</ToTranslate>
+  </String>
+  <String index="95">
+    <ToTranslate>$Well, she is a renowned warrior after all.@</ToTranslate>
+  </String>
+  <String index="96">
+    <ToTranslate>$She&apos;s usually joking around, but she becomes formidable when she&apos;s serious.@</ToTranslate>
+  </String>
+  <String index="97">
+    <ToTranslate>$After that incident, we finished the patrol. Then I told the troops to take a break by the river, and Shia and I walked away from them to have a moment in private.@</ToTranslate>
+  </String>
+  <String index="98">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="99">
+    <ToTranslate>bcg_river_a</ToTranslate>
+  </String>
+  <String index="100">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="101">
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="102">
+    <ToTranslate>Kazuto$&quot;So, what is it that you want to talk to me about?&quot;@</ToTranslate>
+  </String>
+  <String index="103">
+    <ToTranslate>tcg_cry31ja</ToTranslate>
+  </String>
+  <String index="104">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="105">
+    <ToTranslate>chor0281</ToTranslate>
+  </String>
+  <String index="106">
+    <ToTranslate>Chouryou$&quot;Well...&quot;@</ToTranslate>
+  </String>
+  <String index="107">
+    <ToTranslate>chor0282</ToTranslate>
+  </String>
+  <String index="108">
+    <ToTranslate>Chouryou$&quot;I want to ask you something...&quot;@</ToTranslate>
+  </String>
+  <String index="109">
+    <ToTranslate>Kazuto$&quot;Okay, shoot.&quot;@</ToTranslate>
+  </String>
+  <String index="110">
+    <ToTranslate>chor0283</ToTranslate>
+  </String>
+  <String index="111">
+    <ToTranslate>Chouryou$&quot;Do I look... charming?&quot;@</ToTranslate>
+  </String>
+  <String index="112">
+    <ToTranslate>Kazuto$&quot;What...?&quot;@</ToTranslate>
+  </String>
+  <String index="113">
+    <ToTranslate>chor0284</ToTranslate>
+  </String>
+  <String index="114">
+    <ToTranslate>Chouryou$&quot;Do you think that I&apos;m a charming girl?&quot;@</ToTranslate>
+  </String>
+  <String index="115">
+    <ToTranslate>Kazuto$&quot;Yes, I do. I think you&apos;re extremely charming.&quot;@</ToTranslate>
+  </String>
+  <String index="116">
+    <ToTranslate>tcg_cry11pa</ToTranslate>
+  </String>
+  <String index="117">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="118">
+    <ToTranslate>chor0285</ToTranslate>
+  </String>
+  <String index="119">
+    <ToTranslate>Chouryou$&quot;Really...? Do you really think so?&quot;@</ToTranslate>
+  </String>
+  <String index="120">
+    <ToTranslate>Kazuto$&quot;Yeah, truly... Did somebody tell you you&apos;re not charming or something?&quot;@</ToTranslate>
+  </String>
+  <String index="121">
+    <ToTranslate>Kazuto$&quot;If so, call that soldier over here. I&apos;ll abundantly point out your charm to that guy.&quot;@</ToTranslate>
+  </String>
+  <String index="122">
+    <ToTranslate>tcg_cry11oa</ToTranslate>
+  </String>
+  <String index="123">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="124">
+    <ToTranslate>chor0286</ToTranslate>
+  </String>
+  <String index="125">
+    <ToTranslate>Chouryou$&quot;Hee-hee,  no... Nobody told me that.&quot;@</ToTranslate>
+  </String>
+  <String index="126">
+    <ToTranslate>Kazuto$&quot;Hmm? So you&apos;ve been just worried though nobody said that to you?&quot;@</ToTranslate>
+  </String>
+  <String index="127">
+    <ToTranslate>chor0287</ToTranslate>
+  </String>
+  <String index="128">
+    <ToTranslate>Chouryou$&quot;Yeah... You know, My Lord...&quot;@</ToTranslate>
+  </String>
+  <String index="129">
+    <ToTranslate>chor0288</ToTranslate>
+  </String>
+  <String index="130">
+    <ToTranslate>Chouryou$&quot;If I stand right next to you like this...&quot;@</ToTranslate>
+  </String>
+  <String index="131">
+    <ToTranslate>$As she said that, Shia took my arm and held it close to her chest.@</ToTranslate>
+  </String>
+  <String index="132">
+    <ToTranslate>Kazuto$&quot;Oh... what&apos;s going on?&quot;@</ToTranslate>
+  </String>
+  <String index="133">
+    <ToTranslate>chor0289</ToTranslate>
+  </String>
+  <String index="134">
+    <ToTranslate>Chouryou$&quot;If I&apos;m really a charming girl, would you react to me?&quot;@</ToTranslate>
+  </String>
+  <String index="135">
+    <ToTranslate>Kazuto$&quot;Don&apos;t you believe what I said?&quot;@</ToTranslate>
+  </String>
+  <String index="136">
+    <ToTranslate>chor0290</ToTranslate>
+  </String>
+  <String index="137">
+    <ToTranslate>Chouryou$&quot;Yes, but I want to be convinced...&quot;@</ToTranslate>
+  </String>
+  <String index="138">
+    <ToTranslate>$Shia pushed her breasts against my arm again.@</ToTranslate>
+  </String>
+  <String index="139">
+    <ToTranslate>Kazuto$&quot;......&quot;@</ToTranslate>
+  </String>
+  <String index="140">
+    <ToTranslate>$Kazuto Jr. reacted slightly as I felt their soft touch.@</ToTranslate>
+  </String>
+  <String index="141">
+    <ToTranslate>$...it couldn&apos;t be helped. I&apos;m male.@</ToTranslate>
+  </String>
+  <String index="142">
+    <ToTranslate>tcg_cry31la</ToTranslate>
+  </String>
+  <String index="143">
+    <ToTranslate>tcg_cry31ml</ToTranslate>
+  </String>
+  <String index="144">
+    <ToTranslate>chor0291</ToTranslate>
+  </String>
+  <String index="145">
+    <ToTranslate>Chouryou$&quot;Did your... cock get hard?&quot;@</ToTranslate>
+  </String>
+  <String index="146">
+    <ToTranslate>Kazuto$&quot;What!?&quot;@</ToTranslate>
+  </String>
+  <String index="147">
+    <ToTranslate>chor0292</ToTranslate>
+  </String>
+  <String index="148">
+    <ToTranslate>Chouryou$&quot;Any man would get aroused in this kind of situation, right...? How about you...?&quot; @</ToTranslate>
+  </String>
+  <String index="149">
+    <ToTranslate>Kazuto$&quot;Yeah, I am aroused... Touch it.&quot;@</ToTranslate>
+  </String>
+  <String index="150">
+    <ToTranslate>chor0293</ToTranslate>
+  </String>
+  <String index="151">
+    <ToTranslate>Chouryou$&quot;Uh... it&apos;s true... it&apos;s really hard.&quot;@</ToTranslate>
+  </String>
+  <String index="152">
+    <ToTranslate>Kazuto$&quot;See? You proved it, so... take a step back.&quot; @</ToTranslate>
+  </String>
+  <String index="153">
+    <ToTranslate>tcg_cry11oa</ToTranslate>
+  </String>
+  <String index="154">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="155">
+    <ToTranslate>chor0294</ToTranslate>
+  </String>
+  <String index="156">
+    <ToTranslate>Chouryou$&quot;No...&quot;@</ToTranslate>
+  </String>
+  <String index="157">
+    <ToTranslate>Kazuto$&quot;B-but I may not be able to restrain myself if you don&apos;t...&quot;@</ToTranslate>
+  </String>
+  <String index="158">
+    <ToTranslate>chor0295</ToTranslate>
+  </String>
+  <String index="159">
+    <ToTranslate>Chouryou$&quot;That&apos;s good.&quot;@</ToTranslate>
+  </String>
+  <String index="160">
+    <ToTranslate>Kazuto$&quot;H-hey...&quot;@</ToTranslate>
+  </String>
+  <String index="161">
+    <ToTranslate>chor0296</ToTranslate>
+  </String>
+  <String index="162">
+    <ToTranslate>Chouryou$&quot;You don&apos;t have to restrain yourself. I... I love you the most among men.&quot;  @</ToTranslate>
+  </String>
+  <String index="163">
+    <ToTranslate>chor0297</ToTranslate>
+  </String>
+  <String index="164">
+    <ToTranslate>Chouryou$&quot;So I&apos;ll... give you my virginity...&quot;@</ToTranslate>
+  </String>
+  <String index="165">
+    <ToTranslate>Kazuto$&quot;Hey... don&apos;t say that!&quot;@</ToTranslate>
+  </String>
+  <String index="166">
+    <ToTranslate>tcg_cry31ka</ToTranslate>
+  </String>
+  <String index="167">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="168">
+    <ToTranslate>chor0298</ToTranslate>
+  </String>
+  <String index="169">
+    <ToTranslate>Chouryou$&quot;Why not? You don&apos;t think I&apos;m charming after all?&quot;@</ToTranslate>
+  </String>
+  <String index="170">
+    <ToTranslate>Kazuto$&quot;It&apos;s not a question of whether you&apos;re charming or not. Isn&apos;t it really important for girls to stay virgins? I don&apos;t think you should say you&apos;ll give your virginity to me, even if you get carried away in a conversation.&quot;@</ToTranslate>
+  </String>
+  <String index="171">
+    <ToTranslate>tcg_cry31ja</ToTranslate>
+  </String>
+  <String index="172">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="173">
+    <ToTranslate>chor0299</ToTranslate>
+  </String>
+  <String index="174">
+    <ToTranslate>Chouryou$&quot;But I love you, My Lord... Isn&apos;t that enough...?&quot;@</ToTranslate>
+  </String>
+  <String index="175">
+    <ToTranslate>Kazuto$&quot;You love Aisha, don&apos;t you?&quot;@</ToTranslate>
+  </String>
+  <String index="176">
+    <ToTranslate>chor0300</ToTranslate>
+  </String>
+  <String index="177">
+    <ToTranslate>Chouryou$&quot;Yes, I do. But I love you as well... I want you to make love to me as a woman.&quot;@</ToTranslate>
+  </String>
+  <String index="178">
+    <ToTranslate>tcg_cry11oa</ToTranslate>
+  </String>
+  <String index="179">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="180">
+    <ToTranslate>chor0301</ToTranslate>
+  </String>
+  <String index="181">
+    <ToTranslate>Chouryou$&quot;Because I don&apos;t know anybody who&apos;s stronger, kinder, better-looking, and more vigorous than you in this world.&quot;@</ToTranslate>
+  </String>
+  <String index="182">
+    <ToTranslate>Kazuto$&quot;You&apos;re totally overestimating me.&quot;@</ToTranslate>
+  </String>
+  <String index="183">
+    <ToTranslate>chor0302</ToTranslate>
+  </String>
+  <String index="184">
+    <ToTranslate>Chouryou$&quot;No. You have male strength and charm... It&apos;s natural that females are attracted to that kind of stud.&quot; @</ToTranslate>
+  </String>
+  <String index="185">
+    <ToTranslate>Kazuto$&quot;A stud? Am I a horse?&quot;@</ToTranslate>
+  </String>
+  <String index="186">
+    <ToTranslate>chor0303</ToTranslate>
+  </String>
+  <String index="187">
+    <ToTranslate>Chouryou$&quot;When it comes to this kind of things, there&apos;s no difference between humans and animals. We should just follow our instincts.&quot;@</ToTranslate>
+  </String>
+  <String index="188">
+    <ToTranslate>Kazuto$&quot;Maybe that&apos;s true...&quot;@</ToTranslate>
+  </String>
+  <String index="189">
+    <ToTranslate>tcg_cry31ka</ToTranslate>
+  </String>
+  <String index="190">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="191">
+    <ToTranslate>chor0304</ToTranslate>
+  </String>
+  <String index="192">
+    <ToTranslate>Chouryou$&quot;My instinct is telling me to do this... so don&apos;t embarrass me. I&apos;m a bit disappointed that you&apos;re rejecting me so much.&quot;  @</ToTranslate>
+  </String>
+  <String index="193">
+    <ToTranslate>Kazuto$&quot;All right... I&apos;m sorry.&quot;@</ToTranslate>
+  </String>
+  <String index="194">
+    <ToTranslate>Kazuto$&quot;I&apos;ll accept your feelings... I&apos;ll make love to you.&quot;@</ToTranslate>
+  </String>
+  <String index="195">
+    <ToTranslate>tcg_cry11oa</ToTranslate>
+  </String>
+  <String index="196">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="197">
+    <ToTranslate>chor0305</ToTranslate>
+  </String>
+  <String index="198">
+    <ToTranslate>Chouryou$&quot;Thanks... Right... I&apos;ll make you feel good first.&quot;@</ToTranslate>
+  </String>
+  <String index="199">
+    <ToTranslate>Kazuto$&quot;Huh!?&quot;@</ToTranslate>
+  </String>
+  <String index="200">
+    <ToTranslate>chor0306</ToTranslate>
+  </String>
+  <String index="201">
+    <ToTranslate>Chouryou$&quot;Kouchuu and Sei told me that... women&apos;s breasts are for raising children, and pleasing men like this...&quot;@</ToTranslate>
+  </String>
+  <String index="202">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="203">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="204">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="205">
+    <ToTranslate>$Shia knelt down, and sandwiched my cock between her honking great tits. They were surprisingly big for her build.@</ToTranslate>
+  </String>
+  <String index="206">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="207">
+    <ToTranslate>ecg_cry03a</ToTranslate>
+  </String>
+  <String index="208">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="209">
+    <ToTranslate>bgm20</ToTranslate>
+  </String>
+  <String index="210">
+    <ToTranslate>chor0307</ToTranslate>
+  </String>
+  <String index="211">
+    <ToTranslate>Chouryou$&quot;Hmm... hah... wow... your cock feels so hot...&quot;@</ToTranslate>
+  </String>
+  <String index="212">
+    <ToTranslate>$Her breasts had been cooled by the chilly air over the river. They enveloped my erect dick.@</ToTranslate>
+  </String>
+  <String index="213">
+    <ToTranslate>Kazuto$&quot;You breasts feel cold... Are you warm enough?&quot;@</ToTranslate>
+  </String>
+  <String index="214">
+    <ToTranslate>chor0308</ToTranslate>
+  </String>
+  <String index="215">
+    <ToTranslate>Chouryou$&quot;No, I&apos;m fine... I feel hot because I can see your cock...&quot;@</ToTranslate>
+  </String>
+  <String index="216">
+    <ToTranslate>Kazuto$&quot;Don&apos;t be embarrassed... it makes me feel embarrassed too...&quot;@</ToTranslate>
+  </String>
+  <String index="217">
+    <ToTranslate>chor0309</ToTranslate>
+  </String>
+  <String index="218">
+    <ToTranslate>Chouryou$&quot;How could I avoid that...? I&apos;ve never shown my naked body to a man before...&quot;@</ToTranslate>
+  </String>
+  <String index="219">
+    <ToTranslate>Kazuto$&quot;.....&quot;@</ToTranslate>
+  </String>
+  <String index="220">
+    <ToTranslate>chor0310</ToTranslate>
+  </String>
+  <String index="221">
+    <ToTranslate>Chouryou$&quot;Oh? I think your cock just got bigger again... Uh, I know why. You like the first flush of the tea leaves, don&apos;t you?&quot;@</ToTranslate>
+  </String>
+  <String index="222">
+    <ToTranslate>Kazuto$&quot;N-no...! I&apos;m just... glad that I get to be your first...&quot;@</ToTranslate>
+  </String>
+  <String index="223">
+    <ToTranslate>chor0311</ToTranslate>
+  </String>
+  <String index="224">
+    <ToTranslate>Chouryou$&quot;Hee-hee... Same here. I&apos;m honestly glad that you&apos;re my first.&quot;@</ToTranslate>
+  </String>
+  <String index="225">
+    <ToTranslate>Kazuto$&quot;I&apos;m relieved to hear that...&quot;@</ToTranslate>
+  </String>
+  <String index="226">
+    <ToTranslate>chor0312</ToTranslate>
+  </String>
+  <String index="227">
+    <ToTranslate>Chouryou$&quot;Don&apos;t worry... Okay, I&apos;m about to begin, all right?&quot;@</ToTranslate>
+  </String>
+  <String index="228">
+    <ToTranslate>Kazuto$&quot;Yeah...&quot;@</ToTranslate>
+  </String>
+  <String index="229">
+    <ToTranslate>chor0313</ToTranslate>
+  </String>
+  <String index="230">
+    <ToTranslate>Chouryou$&quot;I may not do very well because it&apos;s my first time... so will you tell me when it doesn&apos;t feel good?&quot;@</ToTranslate>
+  </String>
+  <String index="231">
+    <ToTranslate>Kazuto$&quot;Okay... you can start now, Shia.&quot;@</ToTranslate>
+  </String>
+  <String index="232">
+    <ToTranslate>chor0314</ToTranslate>
+  </String>
+  <String index="233">
+    <ToTranslate>Chouryou$&quot;Okay...&quot;@</ToTranslate>
+  </String>
+  <String index="234">
+    <ToTranslate>$Shia nodded, and gently started rubbing my dick between her boobs.@</ToTranslate>
+  </String>
+  <String index="235">
+    <ToTranslate>chor0315</ToTranslate>
+  </String>
+  <String index="236">
+    <ToTranslate>Chouryou$&quot;Hmm... huh... mmm... your cock feels... really... hmm... hot...&quot;@</ToTranslate>
+  </String>
+  <String index="237">
+    <ToTranslate>chor0316</ToTranslate>
+  </String>
+  <String index="238">
+    <ToTranslate>Chouryou$&quot;And it&apos;s twitching in-between my breasts... I think it&apos;s cute.&quot;@</ToTranslate>
+  </String>
+  <String index="239">
+    <ToTranslate>Kazuto$&quot;Cute? That&apos;s a strange thing to say...&quot;@</ToTranslate>
+  </String>
+  <String index="240">
+    <ToTranslate>chor0317</ToTranslate>
+  </String>
+  <String index="241">
+    <ToTranslate>Chouryou$&quot;Strange? But it&apos;s true. It twitches every time I stroke it.&quot;@</ToTranslate>
+  </String>
+  <String index="242">
+    <ToTranslate>Kazuto$&quot;That&apos;s because... it feels nice.&quot;@</ToTranslate>
+  </String>
+  <String index="243">
+    <ToTranslate>chor0318</ToTranslate>
+  </String>
+  <String index="244">
+    <ToTranslate>Chouryou$&quot;Oh... does it? Tee-hee... I&apos;m happy to hear that.&quot;@</ToTranslate>
+  </String>
+  <String index="245">
+    <ToTranslate>Kazuto$&quot;Happy?&quot;@</ToTranslate>
+  </String>
+  <String index="246">
+    <ToTranslate>chor0319</ToTranslate>
+  </String>
+  <String index="247">
+    <ToTranslate>Chouryou$&quot;Mmm. I feel like I&apos;m devoting myself to you... like I&apos;m a woman. That&apos;s why.&quot;@</ToTranslate>
+  </String>
+  <String index="248">
+    <ToTranslate>Kazuto$&quot;I&apos;m happy that I was born a man.&quot;@</ToTranslate>
+  </String>
+  <String index="249">
+    <ToTranslate>chor0320</ToTranslate>
+  </String>
+  <String index="250">
+    <ToTranslate>Chouryou$&quot;You&apos;re feeling that good, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="251">
+    <ToTranslate>Kazuto$&quot;Yeah...&quot;@</ToTranslate>
+  </String>
+  <String index="252">
+    <ToTranslate>chor0321</ToTranslate>
+  </String>
+  <String index="253">
+    <ToTranslate>Chouryou$&quot;Tee-hee... I have to do better then.&quot;@</ToTranslate>
+  </String>
+  <String index="254">
+    <ToTranslate>$Shia smiled bashfully and went back to tittyfucking me.@</ToTranslate>
+  </String>
+  <String index="255">
+    <ToTranslate>$Her slightly sweaty breasts smoothly stroked my cock. This felt extraordinary.@</ToTranslate>
+  </String>
+  <String index="256">
+    <ToTranslate>chor0322</ToTranslate>
+  </String>
+  <String index="257">
+    <ToTranslate>Chouryou$&quot;Haha... something&apos;s coming out of your cock.&quot;@</ToTranslate>
+  </String>
+  <String index="258">
+    <ToTranslate>Kazuto$&quot;Men also get wet when they get off.&quot;@</ToTranslate>
+  </String>
+  <String index="259">
+    <ToTranslate>chor0323</ToTranslate>
+  </String>
+  <String index="260">
+    <ToTranslate>Chouryou$&quot;So this is the proof that you&apos;re pleased... Come on, give me some more.&quot;@</ToTranslate>
+  </String>
+  <String index="261">
+    <ToTranslate>Kazuto$&quot;I can&apos;t control that...&quot;@</ToTranslate>
+  </String>
+  <String index="262">
+    <ToTranslate>chor0324</ToTranslate>
+  </String>
+  <String index="263">
+    <ToTranslate>Chouryou$&quot;Then I&apos;ll make you feel better... to make you even wetter.&quot;@</ToTranslate>
+  </String>
+  <String index="264">
+    <ToTranslate>Kazuto$&quot;Okay... I&apos;m a bit nervous...&quot;@</ToTranslate>
+  </String>
+  <String index="265">
+    <ToTranslate>chor0325</ToTranslate>
+  </String>
+  <String index="266">
+    <ToTranslate>Chouryou$&quot;Tee-hee... you should be.&quot;@</ToTranslate>
+  </String>
+  <String index="267">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="268">
+    <ToTranslate>ecg_cry03b</ToTranslate>
+  </String>
+  <String index="269">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="270">
+    <ToTranslate>chor0326</ToTranslate>
+  </String>
+  <String index="271">
+    <ToTranslate>Chouryou$&quot;Hmm... uh, hah.... hmm... huh...&quot;@</ToTranslate>
+  </String>
+  <String index="272">
+    <ToTranslate>$She squeezed my cock between her knockers and twisted her body around.@</ToTranslate>
+  </String>
+  <String index="273">
+    <ToTranslate>$Her smooth, pale breasts rubbed against my tool.@</ToTranslate>
+  </String>
+  <String index="274">
+    <ToTranslate>$Her sweat, and my dirty, liquidy mess got mixed up and even made it slippery, but something was missing.@</ToTranslate>
+  </String>
+  <String index="275">
+    <ToTranslate>Kazuto$&quot;Shia...&quot;@</ToTranslate>
+  </String>
+  <String index="276">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="277">
+    <ToTranslate>ecg_cry03a</ToTranslate>
+  </String>
+  <String index="278">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="279">
+    <ToTranslate>chor0327</ToTranslate>
+  </String>
+  <String index="280">
+    <ToTranslate>Chouryou$&quot;Hmm, hah, humm... what?&quot;@</ToTranslate>
+  </String>
+  <String index="281">
+    <ToTranslate>Kazuto$&quot;Can you... add your saliva?&quot;@</ToTranslate>
+  </String>
+  <String index="282">
+    <ToTranslate>chor0328</ToTranslate>
+  </String>
+  <String index="283">
+    <ToTranslate>Chouryou$&quot;Saliva? Where?&quot;@</ToTranslate>
+  </String>
+  <String index="284">
+    <ToTranslate>Kazuto$&quot;Here...&quot;@</ToTranslate>
+  </String>
+  <String index="285">
+    <ToTranslate>$I pushed up my cock to show what I meant.@</ToTranslate>
+  </String>
+  <String index="286">
+    <ToTranslate>chor0329</ToTranslate>
+  </String>
+  <String index="287">
+    <ToTranslate>Chouryou$&quot;Eh... but isn&apos;t it nasty?&quot;@</ToTranslate>
+  </String>
+  <String index="288">
+    <ToTranslate>Kazuto$&quot;No, it&apos;s not. It&apos;ll make it smoother, and...&quot;@</ToTranslate>
+  </String>
+  <String index="289">
+    <ToTranslate>chor0330</ToTranslate>
+  </String>
+  <String index="290">
+    <ToTranslate>Chouryou$&quot;You&apos;ll feel better?&quot;@</ToTranslate>
+  </String>
+  <String index="291">
+    <ToTranslate>Kazuto$&quot;Yeah...&quot;@</ToTranslate>
+  </String>
+  <String index="292">
+    <ToTranslate>chor0331</ToTranslate>
+  </String>
+  <String index="293">
+    <ToTranslate>Chouryou$&quot;Hee-hee... you&apos;re horny.&quot;@</ToTranslate>
+  </String>
+  <String index="294">
+    <ToTranslate>Kazuto$&quot;Shut up...&quot;@</ToTranslate>
+  </String>
+  <String index="295">
+    <ToTranslate>chor0332</ToTranslate>
+  </String>
+  <String index="296">
+    <ToTranslate>Chouryou$&quot;Ahaha, you&apos;re blushing. You&apos;re cute, My Lord.&quot;@</ToTranslate>
+  </String>
+  <String index="297">
+    <ToTranslate>$Chouryou smiled like a schoolgirl.@</ToTranslate>
+  </String>
+  <String index="298">
+    <ToTranslate>chor0333</ToTranslate>
+  </String>
+  <String index="299">
+    <ToTranslate>Chouryou$&quot;Okay. I&apos;ll drool on your cock... I&apos;m sorry if it&apos;s dirty...&quot;@</ToTranslate>
+  </String>
+  <String index="300">
+    <ToTranslate>$She moved her mouth.@</ToTranslate>
+  </String>
+  <String index="301">
+    <ToTranslate>chor0334</ToTranslate>
+  </String>
+  <String index="302">
+    <ToTranslate>Chouryou$&quot;Hmm...&quot;@</ToTranslate>
+  </String>
+  <String index="303">
+    <ToTranslate>$Then she spat plenty of saliva on my cock.@</ToTranslate>
+  </String>
+  <String index="304">
+    <ToTranslate>Kazuto$&quot;Oh... your saliva feels so hot... my cock might get burned.&quot;@</ToTranslate>
+  </String>
+  <String index="305">
+    <ToTranslate>chor0335</ToTranslate>
+  </String>
+  <String index="306">
+    <ToTranslate>Chouryou$&quot;Really? Maybe it&apos;s because I&apos;m excited...&quot;@</ToTranslate>
+  </String>
+  <String index="307">
+    <ToTranslate>Kazuto$&quot;Are you excited too?&quot;@</ToTranslate>
+  </String>
+  <String index="308">
+    <ToTranslate>chor0336</ToTranslate>
+  </String>
+  <String index="309">
+    <ToTranslate>Chouryou$&quot;Yeah, I can&apos;t help it, it&apos;s because I&apos;m doing this sexy thing.&quot;@</ToTranslate>
+  </String>
+  <String index="310">
+    <ToTranslate>$She puffed up her cheeks in mock anger.@</ToTranslate>
+  </String>
+  <String index="311">
+    <ToTranslate>Kazuto$&quot;You&apos;re right...&quot;@</ToTranslate>
+  </String>
+  <String index="312">
+    <ToTranslate>chor0337</ToTranslate>
+  </String>
+  <String index="313">
+    <ToTranslate>Chouryou$&quot;Yeah... but don&apos;t worry, I won&apos;t stop.&quot;@</ToTranslate>
+  </String>
+  <String index="314">
+    <ToTranslate>Kazuto$&quot;Okay... I&apos;m relieved, because... I&apos;d go crazy if you did.&quot;@</ToTranslate>
+  </String>
+  <String index="315">
+    <ToTranslate>chor0338</ToTranslate>
+  </String>
+  <String index="316">
+    <ToTranslate>Chouryou$&quot;Ahaha. Yeah, your cock is telling me the same thing. It&apos;s twitching badly. It&apos;s so cute.&quot;@</ToTranslate>
+  </String>
+  <String index="317">
+    <ToTranslate>$Shia smiled gently as she said that.@</ToTranslate>
+  </String>
+  <String index="318">
+    <ToTranslate>chor0339</ToTranslate>
+  </String>
+  <String index="319">
+    <ToTranslate>Chouryou$&quot;I should make you come quickly then... and... will you make me come after that...?&quot;@</ToTranslate>
+  </String>
+  <String index="320">
+    <ToTranslate>Kazuto$&quot;Yeah. I won&apos;t be satisfied with only one shot, so don&apos;t worry.&quot;@</ToTranslate>
+  </String>
+  <String index="321">
+    <ToTranslate>chor0340</ToTranslate>
+  </String>
+  <String index="322">
+    <ToTranslate>Chouryou$&quot;Right... I&apos;ll do it harder then.&quot;@</ToTranslate>
+  </String>
+  <String index="323">
+    <ToTranslate>chor0341</ToTranslate>
+  </String>
+  <String index="324">
+    <ToTranslate>Chouryou$&quot;You have to reward me for this later.&quot;@</ToTranslate>
+  </String>
+  <String index="325">
+    <ToTranslate>Kazuto$&quot;Yeah, of course.&quot;@</ToTranslate>
+  </String>
+  <String index="326">
+    <ToTranslate>chor0342</ToTranslate>
+  </String>
+  <String index="327">
+    <ToTranslate>Chouryou$&quot;I&apos;m looking forward to it.&quot;@</ToTranslate>
+  </String>
+  <String index="328">
+    <ToTranslate>$Chouryou giggled, and started indulging me between her bazooms.@</ToTranslate>
+  </String>
+  <String index="329">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="330">
+    <ToTranslate>ecg_cry03b</ToTranslate>
+  </String>
+  <String index="331">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="332">
+    <ToTranslate>chor0343</ToTranslate>
+  </String>
+  <String index="333">
+    <ToTranslate>Chouryou$&quot;Hmm.... huh, humm.... hah... mmm...&quot;@</ToTranslate>
+  </String>
+  <String index="334">
+    <ToTranslate>$I felt her warm breath puffing out of her nose.@</ToTranslate>
+  </String>
+  <String index="335">
+    <ToTranslate>$Every time she breathed out, her breath rustled my pubes.@</ToTranslate>
+  </String>
+  <String index="336">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="337">
+    <ToTranslate>ecg_cry03a</ToTranslate>
+  </String>
+  <String index="338">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="339">
+    <ToTranslate>chor0344</ToTranslate>
+  </String>
+  <String index="340">
+    <ToTranslate>Chouryou$&quot;Hmm... achoo! Ooh... your hair tickled my nose.&quot;@</ToTranslate>
+  </String>
+  <String index="341">
+    <ToTranslate>Kazuto$&quot;Uh, uh... I can&apos;t do anything about it...&quot;@</ToTranslate>
+  </String>
+  <String index="342">
+    <ToTranslate>chor0345</ToTranslate>
+  </String>
+  <String index="343">
+    <ToTranslate>Chouryou$&quot;Maybe that&apos;s true, but... why don&apos;t you shave it?&quot;@</ToTranslate>
+  </String>
+  <String index="344">
+    <ToTranslate>Kazuto$&quot;Come on. I don&apos;t want to look like a kid at this age...&quot;@</ToTranslate>
+  </String>
+  <String index="345">
+    <ToTranslate>chor0346</ToTranslate>
+  </String>
+  <String index="346">
+    <ToTranslate>Chouryou$&quot;You might look cute.&quot;@</ToTranslate>
+  </String>
+  <String index="347">
+    <ToTranslate>Kazuto$&quot;Please... I don&apos;t even want to imagine that.&quot;@</ToTranslate>
+  </String>
+  <String index="348">
+    <ToTranslate>chor0347</ToTranslate>
+  </String>
+  <String index="349">
+    <ToTranslate>Chouryou$&quot;I do...&quot;@</ToTranslate>
+  </String>
+  <String index="350">
+    <ToTranslate>Kazuto$&quot;Anyway, Shia, can you make it harder...?&quot;@</ToTranslate>
+  </String>
+  <String index="351">
+    <ToTranslate>chor0348</ToTranslate>
+  </String>
+  <String index="352">
+    <ToTranslate>Chouryou$&quot;Ahaha, sorry. It&apos;s so fun talking to you that I forgot about it.&quot;@</ToTranslate>
+  </String>
+  <String index="353">
+    <ToTranslate>$She smiled bashfully again.@</ToTranslate>
+  </String>
+  <String index="354">
+    <ToTranslate>chor0349</ToTranslate>
+  </String>
+  <String index="355">
+    <ToTranslate>Chouryou$&quot;You won&apos;t be able to give me your cum if I don&apos;t do better, huh...? Okay...&quot;@</ToTranslate>
+  </String>
+  <String index="356">
+    <ToTranslate>$Then she started moving her torso to try and stimulate my cock back to hardness.@</ToTranslate>
+  </String>
+  <String index="357">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="358">
+    <ToTranslate>ecg_cry03b</ToTranslate>
+  </String>
+  <String index="359">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="360">
+    <ToTranslate>chor0350</ToTranslate>
+  </String>
+  <String index="361">
+    <ToTranslate>Chouryou$&quot;Hmm... huh, mmm... huh, hmm...&quot;@</ToTranslate>
+  </String>
+  <String index="362">
+    <ToTranslate>$Her spit bubbled up when my cock moved between her jugs.@</ToTranslate>
+  </String>
+  <String index="363">
+    <ToTranslate>Kazuto$&quot;Hmmm...&quot;@</ToTranslate>
+  </String>
+  <String index="364">
+    <ToTranslate>$Her ample breasts felt so soft... the chills ran up my spine.@</ToTranslate>
+  </String>
+  <String index="365">
+    <ToTranslate>$My cock dripped more and more pre-cum as the level of sensation rose.@</ToTranslate>
+  </String>
+  <String index="366">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="367">
+    <ToTranslate>ecg_cry03a</ToTranslate>
+  </String>
+  <String index="368">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="369">
+    <ToTranslate>chor0351</ToTranslate>
+  </String>
+  <String index="370">
+    <ToTranslate>Chouryou$&quot;Tee-hee... Here it comes, your dirty juice.&quot;@</ToTranslate>
+  </String>
+  <String index="371">
+    <ToTranslate>Kazuto$&quot;Umg... I-I don&apos;t like the way you call it that.&quot;@</ToTranslate>
+  </String>
+  <String index="372">
+    <ToTranslate>chor0352</ToTranslate>
+  </String>
+  <String index="373">
+    <ToTranslate>Chouryou$&quot;Oh... you don&apos;t?&quot;@</ToTranslate>
+  </String>
+  <String index="374">
+    <ToTranslate>Kazuto$&quot;It turns me off...&quot;@</ToTranslate>
+  </String>
+  <String index="375">
+    <ToTranslate>chor0353</ToTranslate>
+  </String>
+  <String index="376">
+    <ToTranslate>Chouryou$&quot;Huh? Turns you off...? Oh, it&apos;s true. Your cock is shrinking...&quot;@</ToTranslate>
+  </String>
+  <String index="377">
+    <ToTranslate>$The moment I heard her corny dirty talk, I was visited by the melty man.@</ToTranslate>
+  </String>
+  <String index="378">
+    <ToTranslate>chor0354</ToTranslate>
+  </String>
+  <String index="379">
+    <ToTranslate>Chouryou$&quot;Oh... it&apos;s becoming so small... Come on Mr. Cock, get hard already!&quot;@</ToTranslate>
+  </String>
+  <String index="380">
+    <ToTranslate>Kazuto$&quot;Hmm... so, why don&apos;t you stick out your tongue?&quot;@</ToTranslate>
+  </String>
+  <String index="381">
+    <ToTranslate>chor0355</ToTranslate>
+  </String>
+  <String index="382">
+    <ToTranslate>Chouryou$&quot;Huh? D-do you want me to suck on it?&quot;@</ToTranslate>
+  </String>
+  <String index="383">
+    <ToTranslate>Kazuto$&quot;You know how to do that...? That&apos;s right, I want you to lick it so that it becomes hard again.&quot;@</ToTranslate>
+  </String>
+  <String index="384">
+    <ToTranslate>chor0356</ToTranslate>
+  </String>
+  <String index="385">
+    <ToTranslate>Chouryou$&quot;Ooh... I feel a bit reluctant to do that...&quot;@</ToTranslate>
+  </String>
+  <String index="386">
+    <ToTranslate>Kazuto$&quot;I see... well, maybe that&apos;s natural.&quot;@</ToTranslate>
+  </String>
+  <String index="387">
+    <ToTranslate>chor0357</ToTranslate>
+  </String>
+  <String index="388">
+    <ToTranslate>Chouryou$&quot;But... you want me to, right?&quot;@</ToTranslate>
+  </String>
+  <String index="389">
+    <ToTranslate>Kazuto$&quot;Yeah... because it feels so good...&quot;@</ToTranslate>
+  </String>
+  <String index="390">
+    <ToTranslate>chor0358</ToTranslate>
+  </String>
+  <String index="391">
+    <ToTranslate>Chouryou$&quot;All right, I&apos;ll do it. I promised to make you get off.&quot;@</ToTranslate>
+  </String>
+  <String index="392">
+    <ToTranslate>$Shia looked determined. @</ToTranslate>
+  </String>
+  <String index="393">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="394">
+    <ToTranslate>ecg_cry03b</ToTranslate>
+  </String>
+  <String index="395">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="396">
+    <ToTranslate>chor0359</ToTranslate>
+  </String>
+  <String index="397">
+    <ToTranslate>Chouryou$&quot;Hmm.... *lap, lap...* hmm... huff.&quot;@</ToTranslate>
+  </String>
+  <String index="398">
+    <ToTranslate>fse_cry01a</ToTranslate>
+  </String>
+  <String index="399">
+    <ToTranslate>$She started licking my cock.@</ToTranslate>
+  </String>
+  <String index="400">
+    <ToTranslate>Kazuto$&quot;Hmm!&quot;@</ToTranslate>
+  </String>
+  <String index="401">
+    <ToTranslate>$Her tongue felt soft and sticky.@</ToTranslate>
+  </String>
+  <String index="402">
+    <ToTranslate>$It was so good, I couldn&apos;t help grunting.@</ToTranslate>
+  </String>
+  <String index="403">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="404">
+    <ToTranslate>ecg_cry03a</ToTranslate>
+  </String>
+  <String index="405">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="406">
+    <ToTranslate>chor0360</ToTranslate>
+  </String>
+  <String index="407">
+    <ToTranslate>Chouryou$&quot;Oh? Did I do something bad!?&quot;@</ToTranslate>
+  </String>
+  <String index="408">
+    <ToTranslate>Kazuto$&quot;N-no... I felt good actually...&quot;@</ToTranslate>
+  </String>
+  <String index="409">
+    <ToTranslate>chor0361</ToTranslate>
+  </String>
+  <String index="410">
+    <ToTranslate>Chouryou$&quot;Uh... so I was doing well then... You scared me when you grunted.&quot;@</ToTranslate>
+  </String>
+  <String index="411">
+    <ToTranslate>Kazuto$&quot;Sorry... Shia. Go on.&quot;@</ToTranslate>
+  </String>
+  <String index="412">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="413">
+    <ToTranslate>ecg_cry03b</ToTranslate>
+  </String>
+  <String index="414">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="415">
+    <ToTranslate>chor0362</ToTranslate>
+  </String>
+  <String index="416">
+    <ToTranslate>Chouryou$&quot;Okay... *chup...* hmm, *lap,* umg, *slurp...* humm.&quot;@</ToTranslate>
+  </String>
+  <String index="417">
+    <ToTranslate>fse_cry01b</ToTranslate>
+  </String>
+  <String index="418">
+    <ToTranslate>$The way her tongue crawled around my tip felt excellent.@</ToTranslate>
+  </String>
+  <String index="419">
+    <ToTranslate>Kazuto$&quot;Shia, move your breasts...&quot;@</ToTranslate>
+  </String>
+  <String index="420">
+    <ToTranslate>chor0363</ToTranslate>
+  </String>
+  <String index="421">
+    <ToTranslate>Chouryou$&quot;Hmm, all right. Hmm... *chup, chup....* hmm... huh, mmm, huh... humm... *chup...*&quot;@</ToTranslate>
+  </String>
+  <String index="422">
+    <ToTranslate>fse_cry01c</ToTranslate>
+  </String>
+  <String index="423">
+    <ToTranslate>$She started jiggling her breasts as she licked the tip with her pointed tongue.@</ToTranslate>
+  </String>
+  <String index="424">
+    <ToTranslate>$Slop, slop, slop...@</ToTranslate>
+  </String>
+  <String index="425">
+    <ToTranslate>$My cock made a dirty sound from her spit.@</ToTranslate>
+  </String>
+  <String index="426">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="427">
+    <ToTranslate>ecg_cry03a</ToTranslate>
+  </String>
+  <String index="428">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="429">
+    <ToTranslate>chor0364</ToTranslate>
+  </String>
+  <String index="430">
+    <ToTranslate>Chouryou$&quot;Wow... hmm, *chup...* your cock is producing so much sticky fluid...&quot; @</ToTranslate>
+  </String>
+  <String index="431">
+    <ToTranslate>chor0365</ToTranslate>
+  </String>
+  <String index="432">
+    <ToTranslate>Chouryou$&quot;And... I think it has gotten bigger and... hotter again...&quot;@</ToTranslate>
+  </String>
+  <String index="433">
+    <ToTranslate>chor0366</ToTranslate>
+  </String>
+  <String index="434">
+    <ToTranslate>Chouryou$&quot;So, hmm... *chlurp...* humm... is this going to be in my pussy later?&quot;@</ToTranslate>
+  </String>
+  <String index="435">
+    <ToTranslate>Kazuto$&quot;Yeah. I&apos;m going to stir up your insides with it.&quot;@</ToTranslate>
+  </String>
+  <String index="436">
+    <ToTranslate>chor0367</ToTranslate>
+  </String>
+  <String index="437">
+    <ToTranslate>Chouryou$&quot;Okay... tee-hee, hmm, *chup... zrrr...* I&apos;m a bit anxious... hah, *chup...*&quot;@</ToTranslate>
+  </String>
+  <String index="438">
+    <ToTranslate>fse_cry01a</ToTranslate>
+  </String>
+  <String index="439">
+    <ToTranslate>$Shia stared into my eyes as if she was enraptured.@</ToTranslate>
+  </String>
+  <String index="440">
+    <ToTranslate>chor0368</ToTranslate>
+  </String>
+  <String index="441">
+    <ToTranslate>Chouryou$&quot;Hmm.... huh, mmm, *chup, slurp... jup, jup...* hahhh... my mouth is filled with the smell of your cock...&quot;@</ToTranslate>
+  </String>
+  <String index="442">
+    <ToTranslate>chor0369</ToTranslate>
+  </String>
+  <String index="443">
+    <ToTranslate>Chouryou$&quot;And... my boobs are soaking up your juice... This is so... sensual...&quot;@</ToTranslate>
+  </String>
+  <String index="444">
+    <ToTranslate>chor0370</ToTranslate>
+  </String>
+  <String index="445">
+    <ToTranslate>Chouryou$&quot;But I think... *chup...* I... *chlurp, chup...* I like this... hmm... *slurrrp...*&quot;@</ToTranslate>
+  </String>
+  <String index="446">
+    <ToTranslate>fse_cry01c</ToTranslate>
+  </String>
+  <String index="447">
+    <ToTranslate>Kazuto$&quot;You like this, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="448">
+    <ToTranslate>chor0371</ToTranslate>
+  </String>
+  <String index="449">
+    <ToTranslate>Chouryou$&quot;Yeah... I think I like serving a man like this... Haha, I think I have a modest side as well...&quot;@</ToTranslate>
+  </String>
+  <String index="450">
+    <ToTranslate>fse_cry01a</ToTranslate>
+  </String>
+  <String index="451">
+    <ToTranslate>Kazuto$&quot;Oh... I feel embarrassed when you say that.&quot;@</ToTranslate>
+  </String>
+  <String index="452">
+    <ToTranslate>chor0372</ToTranslate>
+  </String>
+  <String index="453">
+    <ToTranslate>Chouryou$&quot;Just embarrassed? Your cock is twitching like crazy.&quot;@</ToTranslate>
+  </String>
+  <String index="454">
+    <ToTranslate>fse_cry01b</ToTranslate>
+  </String>
+  <String index="455">
+    <ToTranslate>Kazuto$&quot;No man would stay calm when a girl told him she liked him.&quot;@</ToTranslate>
+  </String>
+  <String index="456">
+    <ToTranslate>chor0373</ToTranslate>
+  </String>
+  <String index="457">
+    <ToTranslate>Chouryou$&quot;Do you think you&apos;ll come soon?&quot;@</ToTranslate>
+  </String>
+  <String index="458">
+    <ToTranslate>fse_cry01a</ToTranslate>
+  </String>
+  <String index="459">
+    <ToTranslate>Kazuto$&quot;Yeah. If you keep at it.&quot;@</ToTranslate>
+  </String>
+  <String index="460">
+    <ToTranslate>$I stroked her silky hair.@</ToTranslate>
+  </String>
+  <String index="461">
+    <ToTranslate>chor0374</ToTranslate>
+  </String>
+  <String index="462">
+    <ToTranslate>Chouryou$&quot;Tee-hee... your hands are big.&quot;@</ToTranslate>
+  </String>
+  <String index="463">
+    <ToTranslate>Kazuto$&quot;Well... I&apos;m a man, you know.&quot;@</ToTranslate>
+  </String>
+  <String index="464">
+    <ToTranslate>chor0375</ToTranslate>
+  </String>
+  <String index="465">
+    <ToTranslate>Chouryou$&quot;Right. This whole thing reminds me that you&apos;re really a man...&quot;@</ToTranslate>
+  </String>
+  <String index="466">
+    <ToTranslate>$Squeak, squeak...@</ToTranslate>
+  </String>
+  <String index="467">
+    <ToTranslate>$She raised her breasts and squeezed my cock more tightly.@</ToTranslate>
+  </String>
+  <String index="468">
+    <ToTranslate>$At that moment, a slightly cloudy fluid oozed out of my swollen cock.@</ToTranslate>
+  </String>
+  <String index="469">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="470">
+    <ToTranslate>ecg_cry03b</ToTranslate>
+  </String>
+  <String index="471">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="472">
+    <ToTranslate>chor0376</ToTranslate>
+  </String>
+  <String index="473">
+    <ToTranslate>Chouryou$&quot;Oh... the color is a bit different this time...&quot;@</ToTranslate>
+  </String>
+  <String index="474">
+    <ToTranslate>Kazuto$&quot;That&apos;s because I&apos;m almost coming...&quot;@</ToTranslate>
+  </String>
+  <String index="475">
+    <ToTranslate>chor0377</ToTranslate>
+  </String>
+  <String index="476">
+    <ToTranslate>Chouryou$&quot;I see.... *slurp...* ew, it&apos;s bitter.&quot;@</ToTranslate>
+  </String>
+  <String index="477">
+    <ToTranslate>Kazuto$&quot;I know it doesn&apos;t taste so good...&quot;@</ToTranslate>
+  </String>
+  <String index="478">
+    <ToTranslate>chor0378</ToTranslate>
+  </String>
+  <String index="479">
+    <ToTranslate>Chouryou$&quot;It feels itchy in my mouth... Why is that? But I like it... *slurp... slurp... chlurp...*&quot;@</ToTranslate>
+  </String>
+  <String index="480">
+    <ToTranslate>fse_cry01a</ToTranslate>
+  </String>
+  <String index="481">
+    <ToTranslate>$She slurped on my cock as if she was drinking a soda with a straw.@</ToTranslate>
+  </String>
+  <String index="482">
+    <ToTranslate>$Her wet lips slipped along the head of my cock. I felt as though I was being electrified.@</ToTranslate>
+  </String>
+  <String index="483">
+    <ToTranslate>chor0379</ToTranslate>
+  </String>
+  <String index="484">
+    <ToTranslate>Chouryou$&quot;Hmm... *chlup...* humm, hah, hah, hah... I.. hmm, *chup...* I&apos;m feeling strange...&quot;@</ToTranslate>
+  </String>
+  <String index="485">
+    <ToTranslate>chor0380</ToTranslate>
+  </String>
+  <String index="486">
+    <ToTranslate>Chouryou$&quot;It tastes bitter but... hmm, *chlup, chup...* when I taste it in my mouth... hmm, *chup, chlop...* my head goes blank... *chlurp...*&quot;@</ToTranslate>
+  </String>
+  <String index="487">
+    <ToTranslate>chor0381</ToTranslate>
+  </String>
+  <String index="488">
+    <ToTranslate>Chouryou$&quot;I can&apos;t... hmm... stop it... hmm, *chlop, chlurp...*&quot;@</ToTranslate>
+  </String>
+  <String index="489">
+    <ToTranslate>fse_cry01b</ToTranslate>
+  </String>
+  <String index="490">
+    <ToTranslate>$Shia kept persistently licking up my pre-cum.@</ToTranslate>
+  </String>
+  <String index="491">
+    <ToTranslate>Kazuto$&quot;I can&apos;t... hold it anymore...&quot;@</ToTranslate>
+  </String>
+  <String index="492">
+    <ToTranslate>$I felt my desire welling up rapidly in my cock.@</ToTranslate>
+  </String>
+  <String index="493">
+    <ToTranslate>chor0382</ToTranslate>
+  </String>
+  <String index="494">
+    <ToTranslate>Chouryou$&quot;Hmm, *chup...* I&apos;ll make you come a lot.&quot;@</ToTranslate>
+  </String>
+  <String index="495">
+    <ToTranslate>$Shia smiled with dull eyes and buried her face in her own cleavage to suck my cock more deeply.@</ToTranslate>
+  </String>
+  <String index="496">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="497">
+    <ToTranslate>ecg_cry03e</ToTranslate>
+  </String>
+  <String index="498">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="499">
+    <ToTranslate>chor0383</ToTranslate>
+  </String>
+  <String index="500">
+    <ToTranslate>Chouryou$&quot;Umm... mmm... humb, mmm... *chlop...* hahh... hmm, mmm, mmm, mmm.&quot;@</ToTranslate>
+  </String>
+  <String index="501">
+    <ToTranslate>fse_cry02a</ToTranslate>
+  </String>
+  <String index="502">
+    <ToTranslate>$She started moving her head while sucking the tip of my cock hard.@</ToTranslate>
+  </String>
+  <String index="503">
+    <ToTranslate>chor0384</ToTranslate>
+  </String>
+  <String index="504">
+    <ToTranslate>Chouryou$&quot;Hummb... buh... hmm, hah... *chup, chup, chup, chup, chlurrrrp...*&quot;@</ToTranslate>
+  </String>
+  <String index="505">
+    <ToTranslate>chor0385</ToTranslate>
+  </String>
+  <String index="506">
+    <ToTranslate>Chouryou$&quot;Umpha... hah... Tee-hee, you cock is gleaming.&quot;@</ToTranslate>
+  </String>
+  <String index="507">
+    <ToTranslate>$Shia stared at my saliva-drenched cock in satisfaction. @</ToTranslate>
+  </String>
+  <String index="508">
+    <ToTranslate>$Her sensual expression aroused me even more.@</ToTranslate>
+  </String>
+  <String index="509">
+    <ToTranslate>Kazuto$&quot;Make it wetter...&quot;@</ToTranslate>
+  </String>
+  <String index="510">
+    <ToTranslate>chor0386</ToTranslate>
+  </String>
+  <String index="511">
+    <ToTranslate>Chouryou$&quot;Okay...&quot;@</ToTranslate>
+  </String>
+  <String index="512">
+    <ToTranslate>fse_cry02b</ToTranslate>
+  </String>
+  <String index="513">
+    <ToTranslate>$Shia nodded while exhaling a warm breath. She moved her mouth to work up more saliva.@</ToTranslate>
+  </String>
+  <String index="514">
+    <ToTranslate>chor0387</ToTranslate>
+  </String>
+  <String index="515">
+    <ToTranslate>Chouryou$&quot;*Chukk... chukk, chukk...* hmm...&quot;@</ToTranslate>
+  </String>
+  <String index="516">
+    <ToTranslate>fse_cry02c</ToTranslate>
+  </String>
+  <String index="517">
+    <ToTranslate>$I felt the spit bubbling up in her mouth via my cock.@</ToTranslate>
+  </String>
+  <String index="518">
+    <ToTranslate>Kazuto$&quot;Oh... it feels warm...&quot;@</ToTranslate>
+  </String>
+  <String index="519">
+    <ToTranslate>$Shia kept producing a lot of saliva.@</ToTranslate>
+  </String>
+  <String index="520">
+    <ToTranslate>$It felt warm and sticky, and it enveloped my cock.@</ToTranslate>
+  </String>
+  <String index="521">
+    <ToTranslate>chor0388</ToTranslate>
+  </String>
+  <String index="522">
+    <ToTranslate>Chouryou$&quot;Tee-hee-hee... *Chlop... humm... hmm... chup... chup... chup... jupp...*&quot;@</ToTranslate>
+  </String>
+  <String index="523">
+    <ToTranslate>fse_cry02a</ToTranslate>
+  </String>
+  <String index="524">
+    <ToTranslate>$She smirked, and slowly started moving her head so that she wouldn&apos;t spill any of the fluids from her mouth.@</ToTranslate>
+  </String>
+  <String index="525">
+    <ToTranslate>chor0389</ToTranslate>
+  </String>
+  <String index="526">
+    <ToTranslate>Chouryou$&quot;*Jupp... chlurp...* mmm, *chup... chlurrrp...* umph...&quot;@</ToTranslate>
+  </String>
+  <String index="527">
+    <ToTranslate>fse_cry02b</ToTranslate>
+  </String>
+  <String index="528">
+    <ToTranslate>$I felt her warm breath coming out of her small nose.@</ToTranslate>
+  </String>
+  <String index="529">
+    <ToTranslate>$At the same time, the saliva dripped onto her breasts via her chin.@</ToTranslate>
+  </String>
+  <String index="530">
+    <ToTranslate>$Her breasts wrapped around my cock with extra smoothness.@</ToTranslate>
+  </String>
+  <String index="531">
+    <ToTranslate>$It almost felt like my cock was inside her pussy.@</ToTranslate>
+  </String>
+  <String index="532">
+    <ToTranslate>$Her breasts softly stroked my cock.@</ToTranslate>
+  </String>
+  <String index="533">
+    <ToTranslate>$The two distinctively different sensations made my cock produce more juice.@</ToTranslate>
+  </String>
+  <String index="534">
+    <ToTranslate>chor0390</ToTranslate>
+  </String>
+  <String index="535">
+    <ToTranslate>Chouryou$&quot;*Jup, jup, jup, jup...* umg, hmm... umphaaa... umg, *chup... slurrrp...*&quot;@</ToTranslate>
+  </String>
+  <String index="536">
+    <ToTranslate>chor0391</ToTranslate>
+  </String>
+  <String index="537">
+    <ToTranslate>Chouryou$&quot;Y-your cock is... hmm... swelling in my... mouth... hmm, umb, *chlurrrp...*&quot;@</ToTranslate>
+  </String>
+  <String index="538">
+    <ToTranslate>chor0392</ToTranslate>
+  </String>
+  <String index="539">
+    <ToTranslate>Chouryou$&quot;I feel like... hmm, *chlop...* I&apos;m being fucked in my mouth... umph, hmm, *chlup...*&quot; @</ToTranslate>
+  </String>
+  <String index="540">
+    <ToTranslate>fse_cry02a</ToTranslate>
+  </String>
+  <String index="541">
+    <ToTranslate>$Shia looked at me, begging for my cum like an orphan begs for food.@</ToTranslate>
+  </String>
+  <String index="542">
+    <ToTranslate>Kazuto$&quot;Hah, hah, hah, hah...&quot;@</ToTranslate>
+  </String>
+  <String index="543">
+    <ToTranslate>chor0393</ToTranslate>
+  </String>
+  <String index="544">
+    <ToTranslate>Chouryou$&quot;Are you getting off, My Lord...? *Chup...chlup...* Do you want to come now? *Chlop* Answer me, *chlup...*&quot;@</ToTranslate>
+  </String>
+  <String index="545">
+    <ToTranslate>fse_cry02c</ToTranslate>
+  </String>
+  <String index="546">
+    <ToTranslate>Kazuto$&quot;Yeah... I do...!&quot;@</ToTranslate>
+  </String>
+  <String index="547">
+    <ToTranslate>chor0394</ToTranslate>
+  </String>
+  <String index="548">
+    <ToTranslate>Chouryou$&quot;Go ahead. I&apos;ll finish you with this...&quot;@</ToTranslate>
+  </String>
+  <String index="549">
+    <ToTranslate>$Shia smiled mysteriously. I swallowed hard.@</ToTranslate>
+  </String>
+  <String index="550">
+    <ToTranslate>chor0395</ToTranslate>
+  </String>
+  <String index="551">
+    <ToTranslate>Chouryou$&quot;Hee-hee...&quot;@</ToTranslate>
+  </String>
+  <String index="552">
+    <ToTranslate>$She smiled as if--@</ToTranslate>
+  </String>
+  <String index="553">
+    <ToTranslate>$She knew exactly what I was thinking...@</ToTranslate>
+  </String>
+  <String index="554">
+    <ToTranslate>chor0396</ToTranslate>
+  </String>
+  <String index="555">
+    <ToTranslate>Chouryou$&quot;Phoo... hmm... *chlurrrp*!&quot;@</ToTranslate>
+  </String>
+  <String index="556">
+    <ToTranslate>fse_cry03a</ToTranslate>
+  </String>
+  <String index="557">
+    <ToTranslate>$Shia opened her mouth wide, and took the head of my cock between her lips. She then started sucking with a loud slurping sound.@</ToTranslate>
+  </String>
+  <String index="558">
+    <ToTranslate>Kazuto$&quot;Ghh!?&quot;@</ToTranslate>
+  </String>
+  <String index="559">
+    <ToTranslate>chor0397</ToTranslate>
+  </String>
+  <String index="560">
+    <ToTranslate>Chouryou$&quot;Umph, umph, hmm, *chlop, chup, chup, chlurrp*! *Jup, jup, jup, jup...*!&quot;@</ToTranslate>
+  </String>
+  <String index="561">
+    <ToTranslate>chor0398</ToTranslate>
+  </String>
+  <String index="562">
+    <ToTranslate>Chouryou$&quot;Umph, huh, huh, huh, *chlop! Chlurrrp! Umphaah! Chup, chup, chup, chup, chup, chrrr!*&quot;@</ToTranslate>
+  </String>
+  <String index="563">
+    <ToTranslate>chor0399</ToTranslate>
+  </String>
+  <String index="564">
+    <ToTranslate>Chouryou$&quot;*Jup, jup, jup! Jup! Jup! Jupp... jup! Chlurrp!*&quot;@</ToTranslate>
+  </String>
+  <String index="565">
+    <ToTranslate>fse_cry03b</ToTranslate>
+  </String>
+  <String index="566">
+    <ToTranslate>Kazuto$&quot;Uh, ghh... Sh-Shia! It&apos;s so hard...!&quot; @</ToTranslate>
+  </String>
+  <String index="567">
+    <ToTranslate>chor0400</ToTranslate>
+  </String>
+  <String index="568">
+    <ToTranslate>Chouryou$&quot;Hee hee hee... *chlop, chlop*, hmm, *jrrr, chup, chup, chlurrp! Jup, jup, jup, jup, jup...!*&quot;@</ToTranslate>
+  </String>
+  <String index="569">
+    <ToTranslate>chor0401</ToTranslate>
+  </String>
+  <String index="570">
+    <ToTranslate>Chouryou$&quot;Hahh, umg! *Chlurrrp! Chlup! Chlup! Chlup! Chlop! Chlop! Chlup! Chlop!*&quot; @</ToTranslate>
+  </String>
+  <String index="571">
+    <ToTranslate>fse_cry03c</ToTranslate>
+  </String>
+  <String index="572">
+    <ToTranslate>$She rubbed my cock from the base upwards, and sucked it harder than ever. Her hair was getting disheveled.@</ToTranslate>
+  </String>
+  <String index="573">
+    <ToTranslate>$She used her entire upper body to give me the ultimate sensation.@</ToTranslate>
+  </String>
+  <String index="574">
+    <ToTranslate>Kazuto$&quot;Uh... ahh...!&quot;@</ToTranslate>
+  </String>
+  <String index="575">
+    <ToTranslate>$I felt like my whole body was going numb from rapture.@</ToTranslate>
+  </String>
+  <String index="576">
+    <ToTranslate>$The spunk kept accumulating in my balls, waiting to erupt like a volcano.@</ToTranslate>
+  </String>
+  <String index="577">
+    <ToTranslate>chor0402</ToTranslate>
+  </String>
+  <String index="578">
+    <ToTranslate>Chouryou$&quot;Umph, huh, huh, huh, *chlurp! Chrrr*! Umphaah! *Chup, chup, chup, chup, chup, chup, chrrr*!&quot;@</ToTranslate>
+  </String>
+  <String index="579">
+    <ToTranslate>chor0403</ToTranslate>
+  </String>
+  <String index="580">
+    <ToTranslate>Chouryou$&quot;*Chlop. Chlop,chlop! Chlop! Chlop! Chrrr...* umpha! *Chlup, chrrrr*!&quot;@</ToTranslate>
+  </String>
+  <String index="581">
+    <ToTranslate>fse_cry03a</ToTranslate>
+  </String>
+  <String index="582">
+    <ToTranslate>Kazuto$&quot;Shia, I-I&apos;m...!&quot;@</ToTranslate>
+  </String>
+  <String index="583">
+    <ToTranslate>chor0404</ToTranslate>
+  </String>
+  <String index="584">
+    <ToTranslate>Chouryou$&quot;Umph, hmm, okay... *chlup*, come.. humm... in my mouth... *chlurrrp!*&quot;@</ToTranslate>
+  </String>
+  <String index="585">
+    <ToTranslate>chor0405</ToTranslate>
+  </String>
+  <String index="586">
+    <ToTranslate>Chouryou$&quot;*Jup, jup, jup, jup...* hmmg, hmm... umphaa... umg, *chup.... chrrr...*&quot;@</ToTranslate>
+  </String>
+  <String index="587">
+    <ToTranslate>chor0406</ToTranslate>
+  </String>
+  <String index="588">
+    <ToTranslate>Chouryou$&quot;Umpha, come... hmm, *chup...* give me a lot of... your seed... *chup..* in my mouth!&quot;@</ToTranslate>
+  </String>
+  <String index="589">
+    <ToTranslate>fse_cry03b</ToTranslate>
+  </String>
+  <String index="590">
+    <ToTranslate>$She sounds desperate.@</ToTranslate>
+  </String>
+  <String index="591">
+    <ToTranslate>$Then she sucked up my cock as if trying to keep it from escaping.@</ToTranslate>
+  </String>
+  <String index="592">
+    <ToTranslate>chor0407</ToTranslate>
+  </String>
+  <String index="593">
+    <ToTranslate>Chouryou$&quot;*Chlurrrp*! Hmm, *chup, chlup, Chlurrrp!*&quot;@</ToTranslate>
+  </String>
+  <String index="594">
+    <ToTranslate>flash</ToTranslate>
+  </String>
+  <String index="595">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="596">
+    <ToTranslate>ecg_cry03c</ToTranslate>
+  </String>
+  <String index="597">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="598">
+    <ToTranslate>chor0408</ToTranslate>
+  </String>
+  <String index="599">
+    <ToTranslate>Chouryou$&quot;Hummb!? Mmm, hmmb!? Hmm!&quot;@</ToTranslate>
+  </String>
+  <String index="600">
+    <ToTranslate>$My cock throbbed and shot a massive load into her mouth.@</ToTranslate>
+  </String>
+  <String index="601">
+    <ToTranslate>$The spray surprised Shia and she raised a scream like moan.@</ToTranslate>
+  </String>
+  <String index="602">
+    <ToTranslate>chor0409</ToTranslate>
+  </String>
+  <String index="603">
+    <ToTranslate>Chouryou$&quot;Hummb!? Hmm, it&apos;s... a lot... hmm...&quot;@</ToTranslate>
+  </String>
+  <String index="604">
+    <ToTranslate>Kazuto$&quot;Sorry... but here&apos;s more...&quot;@</ToTranslate>
+  </String>
+  <String index="605">
+    <ToTranslate>$Even though she complained, I couldn&apos;t stop spewing my seed.@</ToTranslate>
+  </String>
+  <String index="606">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="607">
+    <ToTranslate>ecg_cry03d</ToTranslate>
+  </String>
+  <String index="608">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="609">
+    <ToTranslate>chor0410</ToTranslate>
+  </String>
+  <String index="610">
+    <ToTranslate>Chouryou$&quot;Huff, huff, huff... my mouth is filled with... your warm cum... hee-hee...&quot;@</ToTranslate>
+  </String>
+  <String index="611">
+    <ToTranslate>Kazuto$&quot;Humm...  still...&quot;@</ToTranslate>
+  </String>
+  <String index="612">
+    <ToTranslate>$My body twitched, and the cum that was left in the pipe flowed into her mouth.@</ToTranslate>
+  </String>
+  <String index="613">
+    <ToTranslate>chor0411</ToTranslate>
+  </String>
+  <String index="614">
+    <ToTranslate>Chouryou$&quot;*Chrrr... gulp...* hmm, huh... *gulp, gulp, gulp, gulp...*&quot;@</ToTranslate>
+  </String>
+  <String index="615">
+    <ToTranslate>chor0412</ToTranslate>
+  </String>
+  <String index="616">
+    <ToTranslate>Chouryou$&quot;Hmm... wheeew...&quot;@</ToTranslate>
+  </String>
+  <String index="617">
+    <ToTranslate>$I ejaculated a lot.@</ToTranslate>
+  </String>
+  <String index="618">
+    <ToTranslate>$Shia swallowed every drop, as if she didn&apos;t want to waste any of it.@</ToTranslate>
+  </String>
+  <String index="619">
+    <ToTranslate>chor0413</ToTranslate>
+  </String>
+  <String index="620">
+    <ToTranslate>Chouryou$&quot;Hahh... my throat is burning... How can your sperm be so hot...?&quot;@</ToTranslate>
+  </String>
+  <String index="621">
+    <ToTranslate>chor0414</ToTranslate>
+  </String>
+  <String index="622">
+    <ToTranslate>Chouryou$&quot;I feel like I&apos;m going to lose control...&quot;@</ToTranslate>
+  </String>
+  <String index="623">
+    <ToTranslate>$She licked the residue from the corner of her mouth.@</ToTranslate>
+  </String>
+  <String index="624">
+    <ToTranslate>chor0415</ToTranslate>
+  </String>
+  <String index="625">
+    <ToTranslate>Chouryou$&quot;Oh... there&apos;s still some seed on your cock.  I&apos;ll clean it.&quot;@</ToTranslate>
+  </String>
+  <String index="626">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="627">
+    <ToTranslate>ecg_cry03f</ToTranslate>
+  </String>
+  <String index="628">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="629">
+    <ToTranslate>$She licks my sperm-drenched dick with her sticky tongue.@</ToTranslate>
+  </String>
+  <String index="630">
+    <ToTranslate>chor0416</ToTranslate>
+  </String>
+  <String index="631">
+    <ToTranslate>Chouryou$&quot;*Chupp...* hmm, *chlup... chlurrp... chlurrp...* umg, uh, hah...&quot;@</ToTranslate>
+  </String>
+  <String index="632">
+    <ToTranslate>chor0417</ToTranslate>
+  </String>
+  <String index="633">
+    <ToTranslate>Chouryou$&quot;*Slurrrp...* hmm, *chrrr, chrr...* umg... hmm... hah... it&apos;s still dirty...&quot;@</ToTranslate>
+  </String>
+  <String index="634">
+    <ToTranslate>chor0418</ToTranslate>
+  </String>
+  <String index="635">
+    <ToTranslate>Chouryou$&quot;*Chlup...* hmm, *lap, lap, lap... chrrr... chrrr, chrrr... humg... chup.*&quot;@</ToTranslate>
+  </String>
+  <String index="636">
+    <ToTranslate>chor0419</ToTranslate>
+  </String>
+  <String index="637">
+    <ToTranslate>Chouryou$&quot;*Chlurrrp....* Hmm, my mouth is filled with your taste... hee-hee... *chlurrrp... chlop...* hmm.... *chup.*&quot;@</ToTranslate>
+  </String>
+  <String index="638">
+    <ToTranslate>chor0420</ToTranslate>
+  </String>
+  <String index="639">
+    <ToTranslate>Chouryou$&quot;*Chup, chup, chup... Chlurrrrp!*&quot;@</ToTranslate>
+  </String>
+  <String index="640">
+    <ToTranslate>chor0421</ToTranslate>
+  </String>
+  <String index="641">
+    <ToTranslate>Chouryou$&quot;Umpha! Huff, huff, huff... Hee-hee, here. Your cock is clean now, My Lord.&quot;@</ToTranslate>
+  </String>
+  <String index="642">
+    <ToTranslate>Kazuto$&quot;Thanks, but... you cleaned it so diligently that now...&quot;@</ToTranslate>
+  </String>
+  <String index="643">
+    <ToTranslate>chor0422</ToTranslate>
+  </String>
+  <String index="644">
+    <ToTranslate>Chouryou$&quot;Yeah, it&apos;s big again... you&apos;re so horny.&quot;@</ToTranslate>
+  </String>
+  <String index="645">
+    <ToTranslate>$Shia giggled.@</ToTranslate>
+  </String>
+  <String index="646">
+    <ToTranslate>Kazuto$&quot;That&apos;s how men are supposed to be... I have to make that clear.&quot;@</ToTranslate>
+  </String>
+  <String index="647">
+    <ToTranslate>chor0423</ToTranslate>
+  </String>
+  <String index="648">
+    <ToTranslate>Chouryou$&quot;Yes, that&apos;s what you are, My Lord... and so am I.&quot; @</ToTranslate>
+  </String>
+  <String index="649">
+    <ToTranslate>chor0424</ToTranslate>
+  </String>
+  <String index="650">
+    <ToTranslate>Chouryou$&quot;Ever since I tasted your seed, the core of my body has been itching...&quot;@</ToTranslate>
+  </String>
+  <String index="651">
+    <ToTranslate>chor0425</ToTranslate>
+  </String>
+  <String index="652">
+    <ToTranslate>Chouryou$&quot;I want your cum inside of me...&quot;@</ToTranslate>
+  </String>
+  <String index="653">
+    <ToTranslate>$Shia took my hand, and guided it to her pussy.@</ToTranslate>
+  </String>
+  <String index="654">
+    <ToTranslate>Kazuto$&quot;Wow... you&apos;re so wet.&quot;@</ToTranslate>
+  </String>
+  <String index="655">
+    <ToTranslate>chor0426</ToTranslate>
+  </String>
+  <String index="656">
+    <ToTranslate>Chouryou$&quot;Yeah... I couldn&apos;t help it when I was sucking your cock...&quot;@</ToTranslate>
+  </String>
+  <String index="657">
+    <ToTranslate>chor0427</ToTranslate>
+  </String>
+  <String index="658">
+    <ToTranslate>Chouryou$&quot;Umm, My Lord... my body is craving... coveting your cock... I can&apos;t stand this feeling...&quot;@</ToTranslate>
+  </String>
+  <String index="659">
+    <ToTranslate>chor0428</ToTranslate>
+  </String>
+  <String index="660">
+    <ToTranslate>Chouryou$&quot;So... now I want you to do me...&quot;@</ToTranslate>
+  </String>
+  <String index="661">
+    <ToTranslate>Kazuto$&quot;Shia...&quot;@</ToTranslate>
+  </String>
+  <String index="662">
+    <ToTranslate>chor0429</ToTranslate>
+  </String>
+  <String index="663">
+    <ToTranslate>Chouryou$&quot;Ooh... d-don&apos;t look me in the eyes... it makes me so wet...&quot;@</ToTranslate>
+  </String>
+  <String index="664">
+    <ToTranslate>Kazuto$&quot;Then... I&apos;ll see to it that you won&apos;t be too wet.&quot;@</ToTranslate>
+  </String>
+  <String index="665">
+    <ToTranslate>chor0430</ToTranslate>
+  </String>
+  <String index="666">
+    <ToTranslate>Chouryou$&quot;What do you mean...?&quot;@</ToTranslate>
+  </String>
+  <String index="667">
+    <ToTranslate>Kazuto$&quot;Stand up and leave the rest to me...&quot;@</ToTranslate>
+  </String>
+  <String index="668">
+    <ToTranslate>chor0431</ToTranslate>
+  </String>
+  <String index="669">
+    <ToTranslate>Chouryou$&quot;Okay. Love me hard...&quot;@</ToTranslate>
+  </String>
+  <String index="670">
+    <ToTranslate>$Shia smiled, and slowly got to her feet.@</ToTranslate>
+  </String>
+  <String index="671">
+    <ToTranslate>$I took her by the hand and led her to a nearby rock, making her lean on it with her hands.@</ToTranslate>
+  </String>
+  <String index="672">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="673">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="674">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="675">
+    <ToTranslate>chor0432</ToTranslate>
+  </String>
+  <String index="676">
+    <ToTranslate>Chouryou$&quot;I&apos;m so nervous...&quot;@</ToTranslate>
+  </String>
+  <String index="677">
+    <ToTranslate>Kazuto$&quot;Are you scared?&quot;@</ToTranslate>
+  </String>
+  <String index="678">
+    <ToTranslate>chor0433</ToTranslate>
+  </String>
+  <String index="679">
+    <ToTranslate>Chouryou$&quot;I&apos;m not scared, but... a little bit nervous.&quot;@</ToTranslate>
+  </String>
+  <String index="680">
+    <ToTranslate>chor0434</ToTranslate>
+  </String>
+  <String index="681">
+    <ToTranslate>Chouryou$&quot;This is my very first time, you know... I didn&apos;t know I was this cowardly.&quot;@</ToTranslate>
+  </String>
+  <String index="682">
+    <ToTranslate>Kazuto$&quot;Everybody gets nervous the first time... It&apos;s natural, and it doesn&apos;t mean that you&apos;re cowardly.&quot;@</ToTranslate>
+  </String>
+  <String index="683">
+    <ToTranslate>chor0435</ToTranslate>
+  </String>
+  <String index="684">
+    <ToTranslate>Chouryou$&quot;Are you sure?&quot;@</ToTranslate>
+  </String>
+  <String index="685">
+    <ToTranslate>Kazuto$&quot;Yeah.&quot;@</ToTranslate>
+  </String>
+  <String index="686">
+    <ToTranslate>chor0436</ToTranslate>
+  </String>
+  <String index="687">
+    <ToTranslate>Chouryou$&quot;Hee-hee... It&apos;s strange. I feel relaxed because you said that.&quot; @</ToTranslate>
+  </String>
+  <String index="688">
+    <ToTranslate>chor0437</ToTranslate>
+  </String>
+  <String index="689">
+    <ToTranslate>Chouryou$&quot;I think I know why Aisha loves you now.&quot; @</ToTranslate>
+  </String>
+  <String index="690">
+    <ToTranslate>Kazuto$&quot;I can&apos;t realize that myself, but... I don&apos;t want you to mention another girl&apos;s name at a time like this.&quot;@</ToTranslate>
+  </String>
+  <String index="691">
+    <ToTranslate>chor0438</ToTranslate>
+  </String>
+  <String index="692">
+    <ToTranslate>Chouryou$&quot;Uh, sorry... you&apos;re right. It would turn me off too.&quot;@</ToTranslate>
+  </String>
+  <String index="693">
+    <ToTranslate>$Shia smiled wryly.@</ToTranslate>
+  </String>
+  <String index="694">
+    <ToTranslate>chor0439</ToTranslate>
+  </String>
+  <String index="695">
+    <ToTranslate>Chouryou$&quot;So, uh... be gentle, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="696">
+    <ToTranslate>$She stuck her hips out at me.@</ToTranslate>
+  </String>
+  <String index="697">
+    <ToTranslate>$I held them gently.@</ToTranslate>
+  </String>
+  <String index="698">
+    <ToTranslate>Kazuto$&quot;Yeah... here I come.&quot;@</ToTranslate>
+  </String>
+  <String index="699">
+    <ToTranslate>$I started to massage her wet pussy with my cock. It was already hard again, thanks to her cleanup blowjob.@</ToTranslate>
+  </String>
+  <String index="700">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="701">
+    <ToTranslate>ecg_cry04a</ToTranslate>
+  </String>
+  <String index="702">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="703">
+    <ToTranslate>$Chubb...@</ToTranslate>
+  </String>
+  <String index="704">
+    <ToTranslate>$I opened her tight pussy with my stiff rod.@</ToTranslate>
+  </String>
+  <String index="705">
+    <ToTranslate>chor0440</ToTranslate>
+  </String>
+  <String index="706">
+    <ToTranslate>Chouryou$&quot;Eek?!&quot;@</ToTranslate>
+  </String>
+  <String index="707">
+    <ToTranslate>chor0441</ToTranslate>
+  </String>
+  <String index="708">
+    <ToTranslate>Chouryou$&quot;Ghaa, o-ow...&quot;@</ToTranslate>
+  </String>
+  <String index="709">
+    <ToTranslate>Kazuto$&quot;A-are you okay?&quot;@</ToTranslate>
+  </String>
+  <String index="710">
+    <ToTranslate>chor0442</ToTranslate>
+  </String>
+  <String index="711">
+    <ToTranslate>Chouryou$&quot;Ghh... I-I think so... I didn&apos;t know it&apos;d hurt this much...&quot;@</ToTranslate>
+  </String>
+  <String index="712">
+    <ToTranslate>chor0443</ToTranslate>
+  </String>
+  <String index="713">
+    <ToTranslate>Chouryou$&quot;But... I&apos;m fine. I can handle it.&quot;@</ToTranslate>
+  </String>
+  <String index="714">
+    <ToTranslate>Kazuto$&quot;But you look like... you&apos;re in pain.&quot; @</ToTranslate>
+  </String>
+  <String index="715">
+    <ToTranslate>chor0444</ToTranslate>
+  </String>
+  <String index="716">
+    <ToTranslate>Chouryou$&quot;Ooh... sorry, it hurts...&quot;@</ToTranslate>
+  </String>
+  <String index="717">
+    <ToTranslate>Kazuto$&quot;Okay, we can pause for now.&quot;@</ToTranslate>
+  </String>
+  <String index="718">
+    <ToTranslate>chor0445</ToTranslate>
+  </String>
+  <String index="719">
+    <ToTranslate>Chouryou$&quot;Thanks...&quot;@</ToTranslate>
+  </String>
+  <String index="720">
+    <ToTranslate>$Shia whimpered. She waited for her body to grow used to the pain. @</ToTranslate>
+  </String>
+  <String index="721">
+    <ToTranslate>$Then--@</ToTranslate>
+  </String>
+  <String index="722">
+    <ToTranslate>chor0446</ToTranslate>
+  </String>
+  <String index="723">
+    <ToTranslate>Chouryou$&quot;Hah, hah... okay... I&apos;m all right now...&quot;@</ToTranslate>
+  </String>
+  <String index="724">
+    <ToTranslate>$She still sounded a little shaken, though.@</ToTranslate>
+  </String>
+  <String index="725">
+    <ToTranslate>Kazuto$&quot;Are you sure? We can rest some more...&quot;@</ToTranslate>
+  </String>
+  <String index="726">
+    <ToTranslate>chor0447</ToTranslate>
+  </String>
+  <String index="727">
+    <ToTranslate>Chouryou$&quot;I&apos;m fine, really... This pain doesn&apos;t even compare to the pain that I&apos;ve endured in battle.&quot; @</ToTranslate>
+  </String>
+  <String index="728">
+    <ToTranslate>Kazuto$&quot;Don&apos;t push yourself too hard, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="729">
+    <ToTranslate>chor0448</ToTranslate>
+  </String>
+  <String index="730">
+    <ToTranslate>Chouryou$&quot;Okay... Hee-hee. Thanks for your concern.&quot;@</ToTranslate>
+  </String>
+  <String index="731">
+    <ToTranslate>$Shia smiled bravely. I felt sorely affectionate towards her.@</ToTranslate>
+  </String>
+  <String index="732">
+    <ToTranslate>chor0449</ToTranslate>
+  </String>
+  <String index="733">
+    <ToTranslate>Chouryou$&quot;Oh...? I think your cock is getting bigger in my pussy.&quot;@</ToTranslate>
+  </String>
+  <String index="734">
+    <ToTranslate>Kazuto$&quot;That&apos;s because you look cute.&quot;@</ToTranslate>
+  </String>
+  <String index="735">
+    <ToTranslate>chor0450</ToTranslate>
+  </String>
+  <String index="736">
+    <ToTranslate>Chouryou$&quot;Ahaha... is it because of me? That&apos;s flattering.&quot;@</ToTranslate>
+  </String>
+  <String index="737">
+    <ToTranslate>$Looks like she liked the way I said that.@</ToTranslate>
+  </String>
+  <String index="738">
+    <ToTranslate>$She giggled.@</ToTranslate>
+  </String>
+  <String index="739">
+    <ToTranslate>chor0451</ToTranslate>
+  </String>
+  <String index="740">
+    <ToTranslate>Chouryou$&quot;I&apos;m ready, My Lord... please love me hard...&quot;@</ToTranslate>
+  </String>
+  <String index="741">
+    <ToTranslate>$She asked me to continue with a flushed face.@</ToTranslate>
+  </String>
+  <String index="742">
+    <ToTranslate>Kazuto$&quot;I&apos;m going to push, Shia.&quot;@</ToTranslate>
+  </String>
+  <String index="743">
+    <ToTranslate>chor0452</ToTranslate>
+  </String>
+  <String index="744">
+    <ToTranslate>Chouryou$&quot;Okay...&quot;@</ToTranslate>
+  </String>
+  <String index="745">
+    <ToTranslate>$Shia nodded, so I started to slowly move my hips.@</ToTranslate>
+  </String>
+  <String index="746">
+    <ToTranslate>$Chubb... chubbb...@</ToTranslate>
+  </String>
+  <String index="747">
+    <ToTranslate>$I forced her tight pussy to open wide.@</ToTranslate>
+  </String>
+  <String index="748">
+    <ToTranslate>chor0453</ToTranslate>
+  </String>
+  <String index="749">
+    <ToTranslate>Chouryou$&quot;Heek, i-it&apos;s coming in... hmm, I feel your... cock...&quot;@</ToTranslate>
+  </String>
+  <String index="750">
+    <ToTranslate>$Shia&apos;s body was shaking.@</ToTranslate>
+  </String>
+  <String index="751">
+    <ToTranslate>$I didn&apos;t know if it was out of fear or rapture, but she accepted my manhood into her womb.@</ToTranslate>
+  </String>
+  <String index="752">
+    <ToTranslate>chor0454</ToTranslate>
+  </String>
+  <String index="753">
+    <ToTranslate>Chouryou$&quot;It&apos;s hot... your cock is so hot... I feel like it might burn me inside...&quot;@</ToTranslate>
+  </String>
+  <String index="754">
+    <ToTranslate>Kazuto$&quot;I&apos;m so excited... because of you...&quot;@</ToTranslate>
+  </String>
+  <String index="755">
+    <ToTranslate>chor0455</ToTranslate>
+  </String>
+  <String index="756">
+    <ToTranslate>Chouryou$&quot;Am I turning you on? Tee-hee... I think I am a charming girl, after all...&quot;@</ToTranslate>
+  </String>
+  <String index="757">
+    <ToTranslate>Kazuto$&quot;Do you believe me now?&quot;@</ToTranslate>
+  </String>
+  <String index="758">
+    <ToTranslate>chor0456</ToTranslate>
+  </String>
+  <String index="759">
+    <ToTranslate>Chouryou$&quot;Yeah... I can feel it via the temperature of your cock...&quot; @</ToTranslate>
+  </String>
+  <String index="760">
+    <ToTranslate>$She affectionately rubbed her lower belly...@</ToTranslate>
+  </String>
+  <String index="761">
+    <ToTranslate>chor0457</ToTranslate>
+  </String>
+  <String index="762">
+    <ToTranslate>Chouryou$&quot;Uh... it&apos;s reaching the end...&quot;@</ToTranslate>
+  </String>
+  <String index="763">
+    <ToTranslate>$She muttered in delight.@</ToTranslate>
+  </String>
+  <String index="764">
+    <ToTranslate>Kazuto$&quot;Yeah, it&apos;s completely in... Do you feel it?&quot;@</ToTranslate>
+  </String>
+  <String index="765">
+    <ToTranslate>$I lightly rocked my loins and felt the deepest part of her pussy. @</ToTranslate>
+  </String>
+  <String index="766">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="767">
+    <ToTranslate>ecg_cry04b</ToTranslate>
+  </String>
+  <String index="768">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="769">
+    <ToTranslate>chor0458</ToTranslate>
+  </String>
+  <String index="770">
+    <ToTranslate>Chouryou$&quot;Hee, hmm... I-I can feel it... your cock is touching the deep end...&quot;@</ToTranslate>
+  </String>
+  <String index="771">
+    <ToTranslate>Kazuto$&quot;So now...&quot;@</ToTranslate>
+  </String>
+  <String index="772">
+    <ToTranslate>$Chrrr...@</ToTranslate>
+  </String>
+  <String index="773">
+    <ToTranslate>$I slowly withdrew my hips.@</ToTranslate>
+  </String>
+  <String index="774">
+    <ToTranslate>chor0459</ToTranslate>
+  </String>
+  <String index="775">
+    <ToTranslate>Chouryou$&quot;Haau, hmm... it feels like my pussy is turning inside out...&quot;@</ToTranslate>
+  </String>
+  <String index="776">
+    <ToTranslate>$Shia writhed when the neck of my cock rubbed against the wall of her pussy.@</ToTranslate>
+  </String>
+  <String index="777">
+    <ToTranslate>Kazuto$&quot;Are you getting off...?&quot;@</ToTranslate>
+  </String>
+  <String index="778">
+    <ToTranslate>chor0460</ToTranslate>
+  </String>
+  <String index="779">
+    <ToTranslate>Chouryou$&quot;Hmm... it hurts, but it feels a little nice at the same time...&quot;@</ToTranslate>
+  </String>
+  <String index="780">
+    <ToTranslate>Kazuto$&quot;Can I start moving a bit harder?&quot;@</ToTranslate>
+  </String>
+  <String index="781">
+    <ToTranslate>chor0461</ToTranslate>
+  </String>
+  <String index="782">
+    <ToTranslate>Chouryou$&quot;Okay. Come on, My Lord...&quot;@</ToTranslate>
+  </String>
+  <String index="783">
+    <ToTranslate>$She nodded, so I put my arms around her thin waist.@</ToTranslate>
+  </String>
+  <String index="784">
+    <ToTranslate>Kazuto$&quot;Here I come...&quot;@</ToTranslate>
+  </String>
+  <String index="785">
+    <ToTranslate>$I slowly thrust my hips back and forth to stimulate her twitching pussy.@</ToTranslate>
+  </String>
+  <String index="786">
+    <ToTranslate>$Jukk... juk...@</ToTranslate>
+  </String>
+  <String index="787">
+    <ToTranslate>$Every time I thrust, her pussy juice burped a sticky, watery sound. @</ToTranslate>
+  </String>
+  <String index="788">
+    <ToTranslate>chor0462</ToTranslate>
+  </String>
+  <String index="789">
+    <ToTranslate>Chouryou$&quot;Heek, uh, hah... th-this is... hmm, great... y-your cock is so hard... hahh...&quot;@</ToTranslate>
+  </String>
+  <String index="790">
+    <ToTranslate>chor0463</ToTranslate>
+  </String>
+  <String index="791">
+    <ToTranslate>Chouryou$&quot;I can&apos;t stop my pussy from twitching... Wow...&quot;@</ToTranslate>
+  </String>
+  <String index="792">
+    <ToTranslate>Kazuto$&quot;Do you like this?&quot;@</ToTranslate>
+  </String>
+  <String index="793">
+    <ToTranslate>chor0464</ToTranslate>
+  </String>
+  <String index="794">
+    <ToTranslate>Chouryou$&quot;Yeah, hau... this is... mmm, huh... so great, because... every time your cock moves... umg... my head feels numb... hahh...&quot;@</ToTranslate>
+  </String>
+  <String index="795">
+    <ToTranslate>chor0465</ToTranslate>
+  </String>
+  <String index="796">
+    <ToTranslate>Chouryou$&quot;Wow... hmm, I&apos;ve never felt anything like this before... humm...&quot;@</ToTranslate>
+  </String>
+  <String index="797">
+    <ToTranslate>chor0466</ToTranslate>
+  </String>
+  <String index="798">
+    <ToTranslate>Chouryou$&quot;My Lord... fuck me harder... I want you to stir me inside...&quot;@</ToTranslate>
+  </String>
+  <String index="799">
+    <ToTranslate>Kazuto$&quot;Okay... here.&quot;@</ToTranslate>
+  </String>
+  <String index="800">
+    <ToTranslate>$SLAP!@</ToTranslate>
+  </String>
+  <String index="801">
+    <ToTranslate>$I thrust hard with a big stroke, slapping my hips against her arse.@</ToTranslate>
+  </String>
+  <String index="802">
+    <ToTranslate>chor0467</ToTranslate>
+  </String>
+  <String index="803">
+    <ToTranslate>Chouryou$&quot;Heeu! Uh, ah... hahh...&quot;@</ToTranslate>
+  </String>
+  <String index="804">
+    <ToTranslate>$Shia&apos;s body shook from the pleasure.@</ToTranslate>
+  </String>
+  <String index="805">
+    <ToTranslate>chor0468</ToTranslate>
+  </String>
+  <String index="806">
+    <ToTranslate>Chouryou$&quot;I feel like my body is on fire when you shove like that... this is awesome...&quot;@</ToTranslate>
+  </String>
+  <String index="807">
+    <ToTranslate>chor0469</ToTranslate>
+  </String>
+  <String index="808">
+    <ToTranslate>Chouryou$&quot;My Lord... give me some more...&quot;@</ToTranslate>
+  </String>
+  <String index="809">
+    <ToTranslate>Kazuto$&quot;How do you want me to do it?&quot;@</ToTranslate>
+  </String>
+  <String index="810">
+    <ToTranslate>chor0470</ToTranslate>
+  </String>
+  <String index="811">
+    <ToTranslate>Chouryou$&quot;I want you to... fuck me hard...&quot;@</ToTranslate>
+  </String>
+  <String index="812">
+    <ToTranslate>$Shia asked me to take her to a rapturous state.@</ToTranslate>
+  </String>
+  <String index="813">
+    <ToTranslate>$Her pussy kept moving, as if to prove that she was serious.@</ToTranslate>
+  </String>
+  <String index="814">
+    <ToTranslate>$I strongly felt the desire to come.@</ToTranslate>
+  </String>
+  <String index="815">
+    <ToTranslate>$I suppressed it and fucked her hard, just the way she wanted.@</ToTranslate>
+  </String>
+  <String index="816">
+    <ToTranslate>$The sound of our pounding flesh mingled with the rustling river.@</ToTranslate>
+  </String>
+  <String index="817">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="818">
+    <ToTranslate>ecg_cry04c</ToTranslate>
+  </String>
+  <String index="819">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="820">
+    <ToTranslate>chor0471</ToTranslate>
+  </String>
+  <String index="821">
+    <ToTranslate>Chouryou$&quot;Humm! Ghh, hmm, ahh... I... feel.. umm... so good! Your cock feels so great...!&quot;@</ToTranslate>
+  </String>
+  <String index="822">
+    <ToTranslate>$She threw back her head and moaned in rapture.@</ToTranslate>
+  </String>
+  <String index="823">
+    <ToTranslate>chor0472</ToTranslate>
+  </String>
+  <String index="824">
+    <ToTranslate>Chouryou$&quot;Umpha, hah, hah... My Lord... I feel like my mind is... hmm... going blank...&quot;@</ToTranslate>
+  </String>
+  <String index="825">
+    <ToTranslate>chor0473</ToTranslate>
+  </String>
+  <String index="826">
+    <ToTranslate>Chouryou$&quot;What is this...? Umg, I&apos;m a bit... hmm, mm, scared...&quot;@</ToTranslate>
+  </String>
+  <String index="827">
+    <ToTranslate>Kazuto$&quot;Do you want to stop this?&quot;@</ToTranslate>
+  </String>
+  <String index="828">
+    <ToTranslate>chor0474</ToTranslate>
+  </String>
+  <String index="829">
+    <ToTranslate>Chouryou$&quot;No...&quot;@</ToTranslate>
+  </String>
+  <String index="830">
+    <ToTranslate>Kazuto$&quot;Then hang in there for a little bit... I want to come with you...&quot;@</ToTranslate>
+  </String>
+  <String index="831">
+    <ToTranslate>chor0475</ToTranslate>
+  </String>
+  <String index="832">
+    <ToTranslate>Chouryou$&quot;Yeah. I&apos;ll be fine... let&apos;s come together...&quot;@</ToTranslate>
+  </String>
+  <String index="833">
+    <ToTranslate>$Shia nodded, and swayed her hips to increase her pleasure.@</ToTranslate>
+  </String>
+  <String index="834">
+    <ToTranslate>$Her voice, her expressions, everything turned me on.@</ToTranslate>
+  </String>
+  <String index="835">
+    <ToTranslate>$Whamp! Whamp! Whamp!@</ToTranslate>
+  </String>
+  <String index="836">
+    <ToTranslate>$Driven by lust, I kept deeply impaling her on my cock.@</ToTranslate>
+  </String>
+  <String index="837">
+    <ToTranslate>chor0476</ToTranslate>
+  </String>
+  <String index="838">
+    <ToTranslate>Chouryou$&quot;Argh, hmm, urgh! I feel your cock.. umg, hitting my womb...!&quot;@</ToTranslate>
+  </String>
+  <String index="839">
+    <ToTranslate>$Her back arched as I fucked her.@</ToTranslate>
+  </String>
+  <String index="840">
+    <ToTranslate>$I saw sweat on her body.@</ToTranslate>
+  </String>
+  <String index="841">
+    <ToTranslate>$I smelled the scent of her hair and kept thrusting hard.@</ToTranslate>
+  </String>
+  <String index="842">
+    <ToTranslate>chor0477</ToTranslate>
+  </String>
+  <String index="843">
+    <ToTranslate>Chouryou$&quot;Ahh, uh, uh, humm... ahh... m-my pussy is... electrified.... umm... I&apos;m losing my mind... hmm!&quot; @</ToTranslate>
+  </String>
+  <String index="844">
+    <ToTranslate>$Her pussy juice splashed out as her moaning intensified. @</ToTranslate>
+  </String>
+  <String index="845">
+    <ToTranslate>$It looked as if she was squirting. Her juice wet both of our legs.@</ToTranslate>
+  </String>
+  <String index="846">
+    <ToTranslate>Kazuto$&quot;You&apos;re so wet... I can tell you&apos;re almost at your climax. You&apos;re shivering...&quot;@</ToTranslate>
+  </String>
+  <String index="847">
+    <ToTranslate>chor0478</ToTranslate>
+  </String>
+  <String index="848">
+    <ToTranslate>Chouryou$&quot;Humm, hmm, uh, uh, umm... I-I can&apos;t help it...&quot;@</ToTranslate>
+  </String>
+  <String index="849">
+    <ToTranslate>Kazuto$&quot;Do you want to come?&quot;@</ToTranslate>
+  </String>
+  <String index="850">
+    <ToTranslate>chor0479</ToTranslate>
+  </String>
+  <String index="851">
+    <ToTranslate>Chouryou$&quot;Huff, hmm, uh, umm... I want to... come...&quot;@</ToTranslate>
+  </String>
+  <String index="852">
+    <ToTranslate>chor0480</ToTranslate>
+  </String>
+  <String index="853">
+    <ToTranslate>Chouryou$&quot;I can&apos;t... hold it anymore... so please... make me come...&quot;@</ToTranslate>
+  </String>
+  <String index="854">
+    <ToTranslate>Kazuto$&quot;Okay. I&apos;m at the edge myself too... Let&apos;s come at the same time then.&quot;@</ToTranslate>
+  </String>
+  <String index="855">
+    <ToTranslate>chor0481</ToTranslate>
+  </String>
+  <String index="856">
+    <ToTranslate>Chouryou$&quot;Yeah... Tee-hee, I&apos;ll be so happy if we can come together.&quot;@</ToTranslate>
+  </String>
+  <String index="857">
+    <ToTranslate>Kazuto$&quot;Yeah...&quot;@</ToTranslate>
+  </String>
+  <String index="858">
+    <ToTranslate>$Her smile looked so cute that it made me blush, so I replied emotionlessly to hide my embarrassment. I began speeding up my thrusts. @</ToTranslate>
+  </String>
+  <String index="859">
+    <ToTranslate>$Whamp! Whamp! Whamp!@</ToTranslate>
+  </String>
+  <String index="860">
+    <ToTranslate>$I stirred her spasming pussy while my cock rolled in the creases.@</ToTranslate>
+  </String>
+  <String index="861">
+    <ToTranslate>$The sticky sound made me even more aroused. @</ToTranslate>
+  </String>
+  <String index="862">
+    <ToTranslate>Kazuto$&quot;Hah, hah, hah, hah...&quot;@</ToTranslate>
+  </String>
+  <String index="863">
+    <ToTranslate>$Every time the walls of her pussy crawled along my cock, my cock injected more fluid into her pussy.@</ToTranslate>
+  </String>
+  <String index="864">
+    <ToTranslate>$I kept stirring her pussy, despite being overwhelmed by the mind-blowing sensation.@</ToTranslate>
+  </String>
+  <String index="865">
+    <ToTranslate>chor0482</ToTranslate>
+  </String>
+  <String index="866">
+    <ToTranslate>Chouryou$&quot;Heeya, hmm, uh, uh, uh, uh! My Lord, humm, My Lord!&quot;@</ToTranslate>
+  </String>
+  <String index="867">
+    <ToTranslate>chor0483</ToTranslate>
+  </String>
+  <String index="868">
+    <ToTranslate>Chouryou$&quot;I&apos;m... umpha, huh, hau! I&apos;m coming... umm!&quot;@</ToTranslate>
+  </String>
+  <String index="869">
+    <ToTranslate>chor0484</ToTranslate>
+  </String>
+  <String index="870">
+    <ToTranslate>Chouryou$&quot;Humm, mmm, hmm, can I... hmm, can I come? Umm, is that okay?&quot;@</ToTranslate>
+  </String>
+  <String index="871">
+    <ToTranslate>Kazuto$&quot;Yeah...&quot;@</ToTranslate>
+  </String>
+  <String index="872">
+    <ToTranslate>chor0485</ToTranslate>
+  </String>
+  <String index="873">
+    <ToTranslate>Chouryou$&quot;Uh... I... I&apos;m coming...!&quot;@</ToTranslate>
+  </String>
+  <String index="874">
+    <ToTranslate>$The moment she said that, her pussy jerked as if it was trying to squeeze out my sperm.@</ToTranslate>
+  </String>
+  <String index="875">
+    <ToTranslate>Kazuto$&quot;Ghh...!&quot;@</ToTranslate>
+  </String>
+  <String index="876">
+    <ToTranslate>$My entire body twitched with the pleasure. My lust finally found the moment to explode.@</ToTranslate>
+  </String>
+  <String index="877">
+    <ToTranslate>Kazuto$&quot;I&apos;m... coming  too...!&quot;@</ToTranslate>
+  </String>
+  <String index="878">
+    <ToTranslate>chor0486</ToTranslate>
+  </String>
+  <String index="879">
+    <ToTranslate>Chouryou$&quot;Humm! Okay, let&apos;s... hmm, uh, uh, come together! Come with me!&quot;@</ToTranslate>
+  </String>
+  <String index="880">
+    <ToTranslate>$Shia gave a strangled scream.@</ToTranslate>
+  </String>
+  <String index="881">
+    <ToTranslate>$I thrust inside very deeply, as if I was charmed by her scream.@</ToTranslate>
+  </String>
+  <String index="882">
+    <ToTranslate>chor0487</ToTranslate>
+  </String>
+  <String index="883">
+    <ToTranslate>Chouryou$&quot;Urgh, hmm, i-it&apos;s in my womb... hmm... I... I can&apos;t hold it... anymore!&quot;@</ToTranslate>
+  </String>
+  <String index="884">
+    <ToTranslate>chor0488</ToTranslate>
+  </String>
+  <String index="885">
+    <ToTranslate>Chouryou$&quot;Coming...! Hmm, I&apos;m coming... hmm.... hmm, mmm... aaahhhh!&quot;@</ToTranslate>
+  </String>
+  <String index="886">
+    <ToTranslate>Kazuto$&quot;Urgh, I&apos;m coming too!&quot;@</ToTranslate>
+  </String>
+  <String index="887">
+    <ToTranslate>flash</ToTranslate>
+  </String>
+  <String index="888">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="889">
+    <ToTranslate>ecg_cry04e</ToTranslate>
+  </String>
+  <String index="890">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="891">
+    <ToTranslate>$Shia threw back her head with a high-pitched scream, and her pussy squeezed my cock. @</ToTranslate>
+  </String>
+  <String index="892">
+    <ToTranslate>$My cock started jerking, and blew a hefty load into her womb.@</ToTranslate>
+  </String>
+  <String index="893">
+    <ToTranslate>chor0489</ToTranslate>
+  </String>
+  <String index="894">
+    <ToTranslate>Chouryou$&quot;Heeu! Mmm, ahh! Y-your cock is, umg, raging in my pussy...!&quot;@</ToTranslate>
+  </String>
+  <String index="895">
+    <ToTranslate>chor0490</ToTranslate>
+  </String>
+  <String index="896">
+    <ToTranslate>Chouryou$&quot;Uh, uh, uh, it&apos;s coming again... I&apos;m coming... hmm!&quot;@</ToTranslate>
+  </String>
+  <String index="897">
+    <ToTranslate>Kazuto$&quot;Ghh... I&apos;m still... coming...!&quot;@</ToTranslate>
+  </String>
+  <String index="898">
+    <ToTranslate>chor0491</ToTranslate>
+  </String>
+  <String index="899">
+    <ToTranslate>Chouryou$&quot;No, I can&apos;t take it... umg, anymore... I&apos;ll go crazy if this... hmm... goes on... humm!&quot;@</ToTranslate>
+  </String>
+  <String index="900">
+    <ToTranslate>$She shook her head as my cream whitewashed her insides.@</ToTranslate>
+  </String>
+  <String index="901">
+    <ToTranslate>chor0492</ToTranslate>
+  </String>
+  <String index="902">
+    <ToTranslate>Chouryou$&quot;It&apos;s so hot, hmm, uh.... you&apos;re still ejaculating... in my belly...&quot; @</ToTranslate>
+  </String>
+  <String index="903">
+    <ToTranslate>$My cock kept spraying seed like a fountain. It finally stopped after a few more twitches.@</ToTranslate>
+  </String>
+  <String index="904">
+    <ToTranslate>Kazuto$&quot;Hah... hah... hah... hah...&quot;@</ToTranslate>
+  </String>
+  <String index="905">
+    <ToTranslate>$I leaned against Shia&apos;s back, feeling exhaustion and satisfaction at the same time.@</ToTranslate>
+  </String>
+  <String index="906">
+    <ToTranslate>Kazuto$&quot;Sorry, Shia... I used up all my energy...&quot;  @</ToTranslate>
+  </String>
+  <String index="907">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="908">
+    <ToTranslate>ecg_cry04d</ToTranslate>
+  </String>
+  <String index="909">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="910">
+    <ToTranslate>chor0493</ToTranslate>
+  </String>
+  <String index="911">
+    <ToTranslate>Chouryou$&quot;Hmm... that&apos;s okay. You can rest on my back...&quot;@</ToTranslate>
+  </String>
+  <String index="912">
+    <ToTranslate>$Shia took a deep breath and put her hand to her pussy.@</ToTranslate>
+  </String>
+  <String index="913">
+    <ToTranslate>chor0494</ToTranslate>
+  </String>
+  <String index="914">
+    <ToTranslate>Chouryou$&quot;Ahh... this is...hmm... your seed... It&apos;s so hot... hmm, and it&apos;s a lot...&quot;@</ToTranslate>
+  </String>
+  <String index="915">
+    <ToTranslate>chor0495</ToTranslate>
+  </String>
+  <String index="916">
+    <ToTranslate>Chouryou$&quot;I&apos;m so happy that... hahh... you gave me this much seed...&quot;@</ToTranslate>
+  </String>
+  <String index="917">
+    <ToTranslate>$I couldn&apos;t take my eyes off her gentle smile, and I felt the warm breath escaping from within.@</ToTranslate>
+  </String>
+  <String index="918">
+    <ToTranslate>$We felt each other&apos;s warmth in that posture for a while...@</ToTranslate>
+  </String>
+  <String index="919">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="920">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="921">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="922">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="923">
+    <ToTranslate>bcg_river_a</ToTranslate>
+  </String>
+  <String index="924">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="925">
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="926">
+    <ToTranslate>tcg_cry21ea</ToTranslate>
+  </String>
+  <String index="927">
+    <ToTranslate>tcg_cry21m</ToTranslate>
+  </String>
+  <String index="928">
+    <ToTranslate>chor0496</ToTranslate>
+  </String>
+  <String index="929">
+    <ToTranslate>Chouryou$&quot;Ah... my clothes are all sticky...&quot;@</ToTranslate>
+  </String>
+  <String index="930">
+    <ToTranslate>Kazuto$&quot;I&apos;m sorry...&quot;@</ToTranslate>
+  </String>
+  <String index="931">
+    <ToTranslate>chor0497</ToTranslate>
+  </String>
+  <String index="932">
+    <ToTranslate>Chouryou$&quot;I don&apos;t think the smell will come off... What should I do? The soldiers might notice.&quot; @</ToTranslate>
+  </String>
+  <String index="933">
+    <ToTranslate>Kazuto$&quot;I think they might already have noticed...&quot;@</ToTranslate>
+  </String>
+  <String index="934">
+    <ToTranslate>tcg_cry31ja</ToTranslate>
+  </String>
+  <String index="935">
+    <ToTranslate>tcg_cry31m</ToTranslate>
+  </String>
+  <String index="936">
+    <ToTranslate>chor0498</ToTranslate>
+  </String>
+  <String index="937">
+    <ToTranslate>Chouryou$&quot;Ghh... you think so?&quot;@</ToTranslate>
+  </String>
+  <String index="938">
+    <ToTranslate>Kazuto$&quot;Yeah...&quot;@</ToTranslate>
+  </String>
+  <String index="939">
+    <ToTranslate>tcg_cry11oa</ToTranslate>
+  </String>
+  <String index="940">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="941">
+    <ToTranslate>chor0499</ToTranslate>
+  </String>
+  <String index="942">
+    <ToTranslate>Chouryou$&quot;Well, whatever. I&apos;m only a woman. It&apos;s not so surprising that I would have sex with a man.&quot;@</ToTranslate>
+  </String>
+  <String index="943">
+    <ToTranslate>$Shia laughed her worries away.@</ToTranslate>
+  </String>
+  <String index="944">
+    <ToTranslate>tcg_cry21da</ToTranslate>
+  </String>
+  <String index="945">
+    <ToTranslate>tcg_cry21m</ToTranslate>
+  </String>
+  <String index="946">
+    <ToTranslate>chor0500</ToTranslate>
+  </String>
+  <String index="947">
+    <ToTranslate>Chouryou$&quot;Okay. Now that I know I&apos;m a charming woman, I can woo Aisha.&quot;@</ToTranslate>
+  </String>
+  <String index="948">
+    <ToTranslate>$I hadn&apos;t expected her to say that.@</ToTranslate>
+  </String>
+  <String index="949">
+    <ToTranslate>Kazuto$&quot;Are you going to assault Aisha next?&quot;@</ToTranslate>
+  </String>
+  <String index="950">
+    <ToTranslate>chor0501</ToTranslate>
+  </String>
+  <String index="951">
+    <ToTranslate>Chouryou$&quot;That&apos;s right. She&apos;s going to learn how charming I am. She won&apos;t be able to resist me. Tee-hee, I&apos;m so nervous!&quot;@</ToTranslate>
+  </String>
+  <String index="952">
+    <ToTranslate>$Shia looked genuinely happy as she said that. I couldn&apos;t help smiling, because she was so cute.@</ToTranslate>
+  </String>
+  <String index="953">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="954">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+</DBS>
+
+</poem>
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
