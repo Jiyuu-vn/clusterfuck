@@ -1,0 +1,2127 @@
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
+<poem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <ToTranslate>bcg_map_a</ToTranslate>
+  </String>
+  <String index="1">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="2">
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="3">
+    <ToTranslate>$Ever since we withdrew from Gi&apos;s territory, we&apos;ve been preparing to invade them again.@</ToTranslate>
+  </String>
+  <String index="4">
+    <ToTranslate>$We held several councils to discuss our tactics, stratagems, and perfect our strategy, with Shuri as one of the key figures.@</ToTranslate>
+  </String>
+  <String index="5">
+    <ToTranslate>$Finally, everyone recuperated from their wounds, and we spent our days busily working towards deploying with even greater forces.@</ToTranslate>
+  </String>
+  <String index="6">
+    <ToTranslate>$Then, one day......@</ToTranslate>
+  </String>
+  <String index="7">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="8">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="9">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="10">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="11">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="12">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="13">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="14">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="15">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="16">
+    <ToTranslate>Soldier$&quot;Please excuse me. Two messengers from Go have just arrived, requesting an audience with Your Lordship.&quot;@</ToTranslate>
+  </String>
+  <String index="17">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="18">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="19">
+    <ToTranslate>aisy0795</ToTranslate>
+  </String>
+  <String index="20">
+    <ToTranslate>Aisha$&quot;Messengers from Go?&quot;@</ToTranslate>
+  </String>
+  <String index="21">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="22">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="23">
+    <ToTranslate>Soldier$&quot;Yes. They say they&apos;ve come to propose an Anti-Toutaku Alliance......&quot;@</ToTranslate>
+  </String>
+  <String index="24">
+    <ToTranslate>tcg_bac11ca</ToTranslate>
+  </String>
+  <String index="25">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="26">
+    <ToTranslate>sui_0132</ToTranslate>
+  </String>
+  <String index="27">
+    <ToTranslate>Sui$&quot;An Anti-Toutaku Alliance? What would they gain by allying with us? We lost to Gi, after all.&quot;@</ToTranslate>
+  </String>
+  <String index="28">
+    <ToTranslate>tcg_cho41ha</ToTranslate>
+  </String>
+  <String index="29">
+    <ToTranslate>tcg_cho41m</ToTranslate>
+  </String>
+  <String index="30">
+    <ToTranslate>rinr0447</ToTranslate>
+  </String>
+  <String index="31">
+    <ToTranslate>Rinrin$&quot;Maybe it&apos;s a trap.&quot;@</ToTranslate>
+  </String>
+  <String index="32">
+    <ToTranslate>tcg_koc31ia</ToTranslate>
+  </String>
+  <String index="33">
+    <ToTranslate>tcg_koc31m</ToTranslate>
+  </String>
+  <String index="34">
+    <ToTranslate>shio0058</ToTranslate>
+  </String>
+  <String index="35">
+    <ToTranslate>Shion$&quot;I wonder. Maybe there&apos;s something they stand to gain by allying with us that we don&apos;t know about.&quot;@</ToTranslate>
+  </String>
+  <String index="36">
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="37">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="38">
+    <ToTranslate>syur0388</ToTranslate>
+  </String>
+  <String index="39">
+    <ToTranslate>Shuri$&quot;Yes, there is.&quot;@</ToTranslate>
+  </String>
+  <String index="40">
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="41">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="42">
+    <ToTranslate>tcg_cun11da</ToTranslate>
+  </String>
+  <String index="43">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="44">
+    <ToTranslate>sei_0177</ToTranslate>
+  </String>
+  <String index="45">
+    <ToTranslate>Sei$&quot;What do you mean?&quot;@</ToTranslate>
+  </String>
+  <String index="46">
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="47">
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="48">
+    <ToTranslate>syur0389</ToTranslate>
+  </String>
+  <String index="49">
+    <ToTranslate>Shuri$&quot;If you compare the differences in military might on the continent now, Go will benefit from forming an Anti-Toutaku Alliance with us.&quot;@</ToTranslate>
+  </String>
+  <String index="50">
+    <ToTranslate>syur0390</ToTranslate>
+  </String>
+  <String index="51">
+    <ToTranslate>Shuri$&quot;The forces on the continent are Gi, Go, a few small countries, and us.&quot;@</ToTranslate>
+  </String>
+  <String index="52">
+    <ToTranslate>syur0391</ToTranslate>
+  </String>
+  <String index="53">
+    <ToTranslate>Shuri$&quot;Comparing their military might, Gi is four, Go is three, we are two, and those small countries all together amount to one.&quot;@</ToTranslate>
+  </String>
+  <String index="54">
+    <ToTranslate>syur0392</ToTranslate>
+  </String>
+  <String index="55">
+    <ToTranslate>Shuri$&quot;In other words, even if Gi joins with Go and defeats us, there&apos;s a possibility that Gi will take them over next.&quot;@</ToTranslate>
+  </String>
+  <String index="56">
+    <ToTranslate>tcg_koc31ia</ToTranslate>
+  </String>
+  <String index="57">
+    <ToTranslate>tcg_koc31m</ToTranslate>
+  </String>
+  <String index="58">
+    <ToTranslate>shio0059</ToTranslate>
+  </String>
+  <String index="59">
+    <ToTranslate>Shion$&quot;And since that possibility exists, Go has no choice but to ally with us......is that it?&quot;@</ToTranslate>
+  </String>
+  <String index="60">
+    <ToTranslate>tcg_kan31ha</ToTranslate>
+  </String>
+  <String index="61">
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="62">
+    <ToTranslate>aisy0796</ToTranslate>
+  </String>
+  <String index="63">
+    <ToTranslate>Aisha$&quot;I see......They want to ally with us, crush the Gi, then turn around and crush us before our wounds have a chance to heal.&quot;@</ToTranslate>
+  </String>
+  <String index="64">
+    <ToTranslate>tcg_cun31fa</ToTranslate>
+  </String>
+  <String index="65">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="66">
+    <ToTranslate>sei_0178</ToTranslate>
+  </String>
+  <String index="67">
+    <ToTranslate>Sei$&quot;Sonken is pretty vicious.&quot;@</ToTranslate>
+  </String>
+  <String index="68">
+    <ToTranslate>tcg_bac11ca</ToTranslate>
+  </String>
+  <String index="69">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="70">
+    <ToTranslate>sui_0133</ToTranslate>
+  </String>
+  <String index="71">
+    <ToTranslate>Sui$&quot;But we&apos;ll have a hard time defeating Gi by ourselves, right? So what&apos;s wrong with allying with them?&quot;@</ToTranslate>
+  </String>
+  <String index="72">
+    <ToTranslate>tcg_cho21da</ToTranslate>
+  </String>
+  <String index="73">
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="74">
+    <ToTranslate>rinr0448</ToTranslate>
+  </String>
+  <String index="75">
+    <ToTranslate>Rinrin$&quot;I don&apos;t like the fact they&apos;re going to betray us afterwards.&quot;@</ToTranslate>
+  </String>
+  <String index="76">
+    <ToTranslate>tcg_koc21aa</ToTranslate>
+  </String>
+  <String index="77">
+    <ToTranslate>tcg_koc21m</ToTranslate>
+  </String>
+  <String index="78">
+    <ToTranslate>shio0060</ToTranslate>
+  </String>
+  <String index="79">
+    <ToTranslate>Shion$&quot;That&apos;s true. But if we act with that in mind, maybe we can minimize our losses.&quot;@</ToTranslate>
+  </String>
+  <String index="80">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="81">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="82">
+    <ToTranslate>sei_0179</ToTranslate>
+  </String>
+  <String index="83">
+    <ToTranslate>Sei$&quot;......Are you saying their proposal is much appreciated?&quot;@</ToTranslate>
+  </String>
+  <String index="84">
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="85">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="86">
+    <ToTranslate>syur0393</ToTranslate>
+  </String>
+  <String index="87">
+    <ToTranslate>Shuri$&quot;Yes. Although we did withdraw, we hardly lost any soldiers, thanks to Rinrin-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="88">
+    <ToTranslate>syur0394</ToTranslate>
+  </String>
+  <String index="89">
+    <ToTranslate>Shuri$&quot;I&apos;m sure Sonken-san is proposing this Anti-Toutaku Alliance because she knows that. ......My Lord, this may be divine grace.&quot;@</ToTranslate>
+  </String>
+  <String index="90">
+    <ToTranslate>Kazuto$&quot;Divine grace?&quot;@</ToTranslate>
+  </String>
+  <String index="91">
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="92">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="93">
+    <ToTranslate>sei_0180</ToTranslate>
+  </String>
+  <String index="94">
+    <ToTranslate>Sei$&quot;A command from Heaven. If we put our power and Go&apos;s power together, we can fight against Gi.&quot;@</ToTranslate>
+  </String>
+  <String index="95">
+    <ToTranslate>Kazuto$&quot;I see. So it&apos;s our last chance.&quot;@</ToTranslate>
+  </String>
+  <String index="96">
+    <ToTranslate>tcg_koc11aa</ToTranslate>
+  </String>
+  <String index="97">
+    <ToTranslate>tcg_koc11m</ToTranslate>
+  </String>
+  <String index="98">
+    <ToTranslate>shio0061</ToTranslate>
+  </String>
+  <String index="99">
+    <ToTranslate>Shion$&quot;That it is.&quot;@</ToTranslate>
+  </String>
+  <String index="100">
+    <ToTranslate>Kazuto$&quot;Hmm...... Then I&apos;ll meet these messengers with the intent of accepting their Anti-Toutaku Alliance.&quot;@</ToTranslate>
+  </String>
+  <String index="101">
+    <ToTranslate>tcg_syo11ba</ToTranslate>
+  </String>
+  <String index="102">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="103">
+    <ToTranslate>syur0395</ToTranslate>
+  </String>
+  <String index="104">
+    <ToTranslate>Shuri$&quot;That should be good. ......Now, could you please bring the messengers here?&quot;@</ToTranslate>
+  </String>
+  <String index="105">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="106">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="107">
+    <ToTranslate>Soldier$&quot;Yes ma&apos;am! I shall bring the messengers right away, so please wait a moment.&quot;@</ToTranslate>
+  </String>
+  <String index="108">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="109">
+    <ToTranslate>cc</ToTranslate>
+  </String>
+  <String index="110">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="111">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="112">
+    <ToTranslate>$Soon after,  our soldiers escorted two young girls into the throne room.@</ToTranslate>
+  </String>
+  <String index="113">
+    <ToTranslate>cc</ToTranslate>
+  </String>
+  <String index="114">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="115">
+    <ToTranslate>tcg_big11ca</ToTranslate>
+  </String>
+  <String index="116">
+    <ToTranslate>tcg_big11m</ToTranslate>
+  </String>
+  <String index="117">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="118">
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="119">
+    <ToTranslate>daik0044</ToTranslate>
+  </String>
+  <String index="120">
+    <ToTranslate>Daikyou$&quot;We have come under the decree of Go&apos;s royal lord, Sonken-sama, bestowed with the honor of requesting an Anti-Toutaku Alliance. My name is Daikyou.&quot;@</ToTranslate>
+  </String>
+  <String index="121">
+    <ToTranslate>tcg_sml11aa</ToTranslate>
+  </String>
+  <String index="122">
+    <ToTranslate>tcg_sml11m</ToTranslate>
+  </String>
+  <String index="123">
+    <ToTranslate>syok0039</ToTranslate>
+  </String>
+  <String index="124">
+    <ToTranslate>Shoukyou$&quot;And I am Shoukyou. It may be abrupt, but please accept this personal letter from Sonken-sama. Please review it.&quot;@</ToTranslate>
+  </String>
+  <String index="125">
+    <ToTranslate>Kazuto$&quot;Thank you. ......&quot;@</ToTranslate>
+  </String>
+  <String index="126">
+    <ToTranslate>$I accepted the letter from Daikyou and Shoukyou, then examined it&apos;s contents.@</ToTranslate>
+  </String>
+  <String index="127">
+    <ToTranslate>$As the girls said, it was a proposal for an Anti-Toutaku Alliance written in careful handwriting.@</ToTranslate>
+  </String>
+  <String index="128">
+    <ToTranslate>Kazuto$&quot;Hmmm......I agree with your proposal for an Anti-Toutaku Alliance, but can I really trust this proposal?&quot;@</ToTranslate>
+  </String>
+  <String index="129">
+    <ToTranslate>daik0045</ToTranslate>
+  </String>
+  <String index="130">
+    <ToTranslate>Daikyou$&quot;Your suspicions are well founded. Therefore, until you unite with Son-Go&apos;s army and eliminate Gi, we offer you hostages from our own camp.&quot;@</ToTranslate>
+  </String>
+  <String index="131">
+    <ToTranslate>syok0040</ToTranslate>
+  </String>
+  <String index="132">
+    <ToTranslate>Shoukyou$&quot;Please treat my sister, Daikyou, and I as your hostages. In the event Sonken-sama betrays you......&quot;@</ToTranslate>
+  </String>
+  <String index="133">
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="134">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="135">
+    <ToTranslate>sei_0181</ToTranslate>
+  </String>
+  <String index="136">
+    <ToTranslate>Sei$&quot;Kill both of you in retribution, huh?&quot;@</ToTranslate>
+  </String>
+  <String index="137">
+    <ToTranslate>syok0041</ToTranslate>
+  </String>
+  <String index="138">
+    <ToTranslate>Shoukyou$&quot;Yes.&quot;@</ToTranslate>
+  </String>
+  <String index="139">
+    <ToTranslate>tcg_kan31ha</ToTranslate>
+  </String>
+  <String index="140">
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="141">
+    <ToTranslate>aisy0797</ToTranslate>
+  </String>
+  <String index="142">
+    <ToTranslate>Aisha$&quot;Hmph......The sisters known as the two great beauties of Jiangdong reduced to collateral?&quot;@</ToTranslate>
+  </String>
+  <String index="143">
+    <ToTranslate>Kazuto$&quot;Hostages......&quot;@</ToTranslate>
+  </String>
+  <String index="144">
+    <ToTranslate>tcg_big11ca</ToTranslate>
+  </String>
+  <String index="145">
+    <ToTranslate>tcg_big11m</ToTranslate>
+  </String>
+  <String index="146">
+    <ToTranslate>$They looked about the same age as Rinrin.@</ToTranslate>
+  </String>
+  <String index="147">
+    <ToTranslate>$I just can&apos;t accept taking those girls as hostages.@</ToTranslate>
+  </String>
+  <String index="148">
+    <ToTranslate>Kazuto$&quot;But......so long as we can&apos;t deny the possibility of Sonken&apos;s betrayal, I guess I have to, huh...&quot;@</ToTranslate>
+  </String>
+  <String index="149">
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="150">
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="151">
+    <ToTranslate>syur0396</ToTranslate>
+  </String>
+  <String index="152">
+    <ToTranslate>Shuri$&quot;I believe we can say there&apos;s hardly any chance of that, but offering hostages is often a way to demonstrate sincerity in cases like this. I believe we ought to accept them...&quot;@</ToTranslate>
+  </String>
+  <String index="153">
+    <ToTranslate>Kazuto$&quot;......All right. I will accept Sonken&apos;s proposal. As hostages, you two may experience some inconveniences, though.&quot;@</ToTranslate>
+  </String>
+  <String index="154">
+    <ToTranslate>tcg_big11aa</ToTranslate>
+  </String>
+  <String index="155">
+    <ToTranslate>tcg_big11m</ToTranslate>
+  </String>
+  <String index="156">
+    <ToTranslate>daik0046</ToTranslate>
+  </String>
+  <String index="157">
+    <ToTranslate>Daikyou$&quot;Thank you very much......!&quot;@</ToTranslate>
+  </String>
+  <String index="158">
+    <ToTranslate>tcg_sml21da</ToTranslate>
+  </String>
+  <String index="159">
+    <ToTranslate>tcg_sml21m</ToTranslate>
+  </String>
+  <String index="160">
+    <ToTranslate>syok0042</ToTranslate>
+  </String>
+  <String index="161">
+    <ToTranslate>Shoukyou$&quot;......&quot;@</ToTranslate>
+  </String>
+  <String index="162">
+    <ToTranslate>tcg_syo11ea</ToTranslate>
+  </String>
+  <String index="163">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="164">
+    <ToTranslate>syur0397</ToTranslate>
+  </String>
+  <String index="165">
+    <ToTranslate>Shuri$&quot;I&apos;ll send a messenger to inform her we&apos;ve entered an Anti-Toutaku Alliance. We&apos;ll wait for their return......&quot;@</ToTranslate>
+  </String>
+  <String index="166">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="167">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="168">
+    <ToTranslate>aisy0798</ToTranslate>
+  </String>
+  <String index="169">
+    <ToTranslate>Aisha$&quot;And recommence battle against Sougi.&quot;@</ToTranslate>
+  </String>
+  <String index="170">
+    <ToTranslate>Kazuto$&quot;Okay. I&apos;ll let you take care of the rest, Shuri. Shion, could you prepare a room for Daikyou-chan and Shoukyou-chan?&quot;@</ToTranslate>
+  </String>
+  <String index="171">
+    <ToTranslate>tcg_koc21aa</ToTranslate>
+  </String>
+  <String index="172">
+    <ToTranslate>tcg_koc21m</ToTranslate>
+  </String>
+  <String index="173">
+    <ToTranslate>shio0062</ToTranslate>
+  </String>
+  <String index="174">
+    <ToTranslate>Shion$&quot;As you wish. What about surveillance?&quot;@</ToTranslate>
+  </String>
+  <String index="175">
+    <ToTranslate>tcg_sml11ea</ToTranslate>
+  </String>
+  <String index="176">
+    <ToTranslate>tcg_sml11m</ToTranslate>
+  </String>
+  <String index="177">
+    <ToTranslate>syok0043</ToTranslate>
+  </String>
+  <String index="178">
+    <ToTranslate>Shoukyou$&quot;There&apos;s no need for that, we won&apos;t try to escape.&quot;@</ToTranslate>
+  </String>
+  <String index="179">
+    <ToTranslate>tcg_big11fa</ToTranslate>
+  </String>
+  <String index="180">
+    <ToTranslate>tcg_big11m</ToTranslate>
+  </String>
+  <String index="181">
+    <ToTranslate>daik0047</ToTranslate>
+  </String>
+  <String index="182">
+    <ToTranslate>Daikyou$&quot;S-Shoukyou-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="183">
+    <ToTranslate>syok0044</ToTranslate>
+  </String>
+  <String index="184">
+    <ToTranslate>Shoukyou$&quot;Don&apos;t insult us. We are members of Son-Go. We don&apos;t break contracts.&quot;@</ToTranslate>
+  </String>
+  <String index="185">
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="186">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="187">
+    <ToTranslate>sei_0182</ToTranslate>
+  </String>
+  <String index="188">
+    <ToTranslate>Sei$&quot;Hmph......Come to think of it, the two of you are wedded to Sonken-dono and Shuuyu-dono.&quot;@</ToTranslate>
+  </String>
+  <String index="189">
+    <ToTranslate>tcg_kan21aa</ToTranslate>
+  </String>
+  <String index="190">
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="191">
+    <ToTranslate>aisy0799</ToTranslate>
+  </String>
+  <String index="192">
+    <ToTranslate>Aisha$&quot;I suppose you won&apos;t disgrace your spouses...... Okay, I trust you two.&quot;@</ToTranslate>
+  </String>
+  <String index="193">
+    <ToTranslate>Kazuto$&quot;......Hmm, then there&apos;s no need for surveillance. You are free to leave the palace and venture into town, but you may go no further. Please obey that rule.&quot;@</ToTranslate>
+  </String>
+  <String index="194">
+    <ToTranslate>tcg_sml21da</ToTranslate>
+  </String>
+  <String index="195">
+    <ToTranslate>tcg_sml21m</ToTranslate>
+  </String>
+  <String index="196">
+    <ToTranslate>syok0045</ToTranslate>
+  </String>
+  <String index="197">
+    <ToTranslate>Shoukyou$&quot;Understood.&quot;@</ToTranslate>
+  </String>
+  <String index="198">
+    <ToTranslate>tcg_big11ba</ToTranslate>
+  </String>
+  <String index="199">
+    <ToTranslate>tcg_big11m</ToTranslate>
+  </String>
+  <String index="200">
+    <ToTranslate>daik0048</ToTranslate>
+  </String>
+  <String index="201">
+    <ToTranslate>Daikyou$&quot;Whew......&quot;@</ToTranslate>
+  </String>
+  <String index="202">
+    <ToTranslate>tcg_bac11aa</ToTranslate>
+  </String>
+  <String index="203">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="204">
+    <ToTranslate>sui_0134</ToTranslate>
+  </String>
+  <String index="205">
+    <ToTranslate>Sui$&quot;What are we going to do about the messenger to Go?&quot;@</ToTranslate>
+  </String>
+  <String index="206">
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="207">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="208">
+    <ToTranslate>bgm05</ToTranslate>
+  </String>
+  <String index="209">
+    <ToTranslate>syur0398</ToTranslate>
+  </String>
+  <String index="210">
+    <ToTranslate>Shuri$&quot;I&apos;ll go by myself.&quot;@</ToTranslate>
+  </String>
+  <String index="211">
+    <ToTranslate>Kazuto$&quot;What!? It&apos;s too dangerous for you to go alone, Shuri!&quot;@</ToTranslate>
+  </String>
+  <String index="212">
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="213">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="214">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="215">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="216">
+    <ToTranslate>sei_0183</ToTranslate>
+  </String>
+  <String index="217">
+    <ToTranslate>Sei$&quot;I agree with my lord. You are an important strategist for our army. We can&apos;t put you in danger.&quot;@</ToTranslate>
+  </String>
+  <String index="218">
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="219">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="220">
+    <ToTranslate>syur0399</ToTranslate>
+  </String>
+  <String index="221">
+    <ToTranslate>Shuri$&quot;But......&quot;@</ToTranslate>
+  </String>
+  <String index="222">
+    <ToTranslate>tcg_koc11aa</ToTranslate>
+  </String>
+  <String index="223">
+    <ToTranslate>tcg_koc11m</ToTranslate>
+  </String>
+  <String index="224">
+    <ToTranslate>shio0063</ToTranslate>
+  </String>
+  <String index="225">
+    <ToTranslate>Shion$&quot;Sei-chan is right, Shuri-chan. You&apos;re not Aisha-chan, so listen obediently.&quot;@</ToTranslate>
+  </String>
+  <String index="226">
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="227">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="228">
+    <ToTranslate>aisy0800</ToTranslate>
+  </String>
+  <String index="229">
+    <ToTranslate>Aisha$&quot;Grr......I think it&apos;s a bit mean to say it that way, but I do mostly concur with Shion.&quot;@</ToTranslate>
+  </String>
+  <String index="230">
+    <ToTranslate>Kazuto$&quot;......There you have it. This time we&apos;ll send someone else as our messenger. Okay?&quot;@</ToTranslate>
+  </String>
+  <String index="231">
+    <ToTranslate>tcg_syo21da</ToTranslate>
+  </String>
+  <String index="232">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="233">
+    <ToTranslate>syur0400</ToTranslate>
+  </String>
+  <String index="234">
+    <ToTranslate>Shuri$&quot;Yes. Uhh...... everyone, thank you for thinking about me.&quot;@</ToTranslate>
+  </String>
+  <String index="235">
+    <ToTranslate>$*Bow.*@</ToTranslate>
+  </String>
+  <String index="236">
+    <ToTranslate>$Shuri held her hat and bowed.@</ToTranslate>
+  </String>
+  <String index="237">
+    <ToTranslate>tcg_syo21fa</ToTranslate>
+  </String>
+  <String index="238">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="239">
+    <ToTranslate>syur0401</ToTranslate>
+  </String>
+  <String index="240">
+    <ToTranslate>Shuri$&quot;Lately my strategies have all been seen through......That&apos;s led to people calling me the &apos;Hawawa General&apos;. It&apos;s frustrating, and so......&quot;@</ToTranslate>
+  </String>
+  <String index="241">
+    <ToTranslate>tcg_bac11ba</ToTranslate>
+  </String>
+  <String index="242">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="243">
+    <ToTranslate>sui_0135</ToTranslate>
+  </String>
+  <String index="244">
+    <ToTranslate>Sui$&quot;You wanted to clear your name, huh? But what happened doesn&apos;t matter. You are our strategist, Shuri.&quot;@</ToTranslate>
+  </String>
+  <String index="245">
+    <ToTranslate>tcg_cho31ba</ToTranslate>
+  </String>
+  <String index="246">
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="247">
+    <ToTranslate>rinr0449</ToTranslate>
+  </String>
+  <String index="248">
+    <ToTranslate>Rinrin$&quot;That&apos;s right! So be proud of yourself, like Rinrin!&quot;@</ToTranslate>
+  </String>
+  <String index="249">
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="250">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="251">
+    <ToTranslate>sei_0184</ToTranslate>
+  </String>
+  <String index="252">
+    <ToTranslate>Sei$&quot;Maybe you should be a little more reserved.&quot;@</ToTranslate>
+  </String>
+  <String index="253">
+    <ToTranslate>tcg_cho41ha</ToTranslate>
+  </String>
+  <String index="254">
+    <ToTranslate>tcg_cho41m</ToTranslate>
+  </String>
+  <String index="255">
+    <ToTranslate>rinr0450</ToTranslate>
+  </String>
+  <String index="256">
+    <ToTranslate>Rinrin$&quot;Nyahh...... I shouldn&apos;t have said anything......&quot;@</ToTranslate>
+  </String>
+  <String index="257">
+    <ToTranslate>$Rinrin ducked her head and grumbled, causing everyone to burst into laughter.@</ToTranslate>
+  </String>
+  <String index="258">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="259">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="260">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="261">
+    <ToTranslate>$After that......@</ToTranslate>
+  </String>
+  <String index="262">
+    <ToTranslate>$We met with Son-Go several times, and negotiated the terms and duration of our Anti-Toutaku Alliance.@</ToTranslate>
+  </String>
+  <String index="263">
+    <ToTranslate>$After about a month of those exchanges, we finally reached an agreement, and we began preparations to invade Sougi once again.@</ToTranslate>
+  </String>
+  <String index="264">
+    <ToTranslate>bcg_outcast_a</ToTranslate>
+  </String>
+  <String index="265">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="266">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="267">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="268">
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="269">
+    <ToTranslate>Soldier$&quot;Dust cloud in the forefront! Their flags read e Riku&apos; and e Kan&apos;! Their national standard reads e Son&apos;! The allied forces have arrived!&quot;@</ToTranslate>
+  </String>
+  <String index="270">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="271">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="272">
+    <ToTranslate>aisy0801</ToTranslate>
+  </String>
+  <String index="273">
+    <ToTranslate>Aisha$&quot;Good!&quot;@</ToTranslate>
+  </String>
+  <String index="274">
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="275">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="276">
+    <ToTranslate>sei_0185</ToTranslate>
+  </String>
+  <String index="277">
+    <ToTranslate>Sei$&quot;They&apos;re right on time...... Sonken must be very conscientious.&quot;@</ToTranslate>
+  </String>
+  <String index="278">
+    <ToTranslate>tcg_cho21da</ToTranslate>
+  </String>
+  <String index="279">
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="280">
+    <ToTranslate>rinr0451</ToTranslate>
+  </String>
+  <String index="281">
+    <ToTranslate>Rinrin$&quot;We don&apos;t know that yet.&quot;@</ToTranslate>
+  </String>
+  <String index="282">
+    <ToTranslate>Kazuto$&quot;Rinrin is right. But I&apos;m sure that once we come face to face, we should be able to figure it out, don&apos;t you think?&quot;@</ToTranslate>
+  </String>
+  <String index="283">
+    <ToTranslate>tcg_syo41aa</ToTranslate>
+  </String>
+  <String index="284">
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="285">
+    <ToTranslate>syur0402</ToTranslate>
+  </String>
+  <String index="286">
+    <ToTranslate>Shuri$&quot;You may be right. Having a conversation tells you quite a bit about the other person.&quot;@</ToTranslate>
+  </String>
+  <String index="287">
+    <ToTranslate>Kazuto$&quot;That&apos;s true. Well, I&apos;m going to go welcome them.&quot;@</ToTranslate>
+  </String>
+  <String index="288">
+    <ToTranslate>tcg_bac12ba</ToTranslate>
+  </String>
+  <String index="289">
+    <ToTranslate>tcg_bac12m</ToTranslate>
+  </String>
+  <String index="290">
+    <ToTranslate>sui_0136</ToTranslate>
+  </String>
+  <String index="291">
+    <ToTranslate>Sui$&quot;Rinrin and I will be your guards.&quot;@</ToTranslate>
+  </String>
+  <String index="292">
+    <ToTranslate>tcg_cho31ba</ToTranslate>
+  </String>
+  <String index="293">
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="294">
+    <ToTranslate>rinr0452</ToTranslate>
+  </String>
+  <String index="295">
+    <ToTranslate>Rinrin$&quot;The most powerful guards ever!&quot;@</ToTranslate>
+  </String>
+  <String index="296">
+    <ToTranslate>Kazuto$&quot;Haha, I&apos;m counting on you. Let&apos;s go, Shuri.&quot;@</ToTranslate>
+  </String>
+  <String index="297">
+    <ToTranslate>tcg_syo11ba</ToTranslate>
+  </String>
+  <String index="298">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="299">
+    <ToTranslate>syur0403</ToTranslate>
+  </String>
+  <String index="300">
+    <ToTranslate>Shuri$&quot;As you wish!&quot;@</ToTranslate>
+  </String>
+  <String index="301">
+    <ToTranslate>$I headed over to where Sonken set up their camp accompanied by Shuri and our two guards.@</ToTranslate>
+  </String>
+  <String index="302">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="303">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="304">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="305">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="306">
+    <ToTranslate>bcg_camp_a</ToTranslate>
+  </String>
+  <String index="307">
+    <ToTranslate>tcg_son12ba</ToTranslate>
+  </String>
+  <String index="308">
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="309">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="310">
+    <ToTranslate>bgm10</ToTranslate>
+  </String>
+  <String index="311">
+    <ToTranslate>sonk0086</ToTranslate>
+  </String>
+  <String index="312">
+    <ToTranslate>Sonken$&quot;......Long time, no see, Hongou Kazuto.&quot;@</ToTranslate>
+  </String>
+  <String index="313">
+    <ToTranslate>Kazuto$&quot;Good to see you again. We last met at the anti-Tantoku Anti-Toutaku Alliance&apos;s war council, I believe.&quot;@</ToTranslate>
+  </String>
+  <String index="314">
+    <ToTranslate>tcg_son12ca</ToTranslate>
+  </String>
+  <String index="315">
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="316">
+    <ToTranslate>sonk0087</ToTranslate>
+  </String>
+  <String index="317">
+    <ToTranslate>Sonken$&quot;That&apos;s right. Back then, I didn&apos;t expect your army to grow this big...&quot;@</ToTranslate>
+  </String>
+  <String index="318">
+    <ToTranslate>Kazuto$&quot;I&apos;m blessed with comrades. Thanks to them, I&apos;ve somehow managed to survive.&quot;@</ToTranslate>
+  </String>
+  <String index="319">
+    <ToTranslate>tcg_son12aa</ToTranslate>
+  </String>
+  <String index="320">
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="321">
+    <ToTranslate>sonk0088</ToTranslate>
+  </String>
+  <String index="322">
+    <ToTranslate>Sonken$&quot;Comrades?&quot;@</ToTranslate>
+  </String>
+  <String index="323">
+    <ToTranslate>Kazuto$&quot;Kan&apos;u, Chouhi, Chouun, Bachou, Kouchuu, and Shokatsuryou. They are all precious comrades.&quot;@</ToTranslate>
+  </String>
+  <String index="324">
+    <ToTranslate>tcg_son12ca</ToTranslate>
+  </String>
+  <String index="325">
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="326">
+    <ToTranslate>sonk0089</ToTranslate>
+  </String>
+  <String index="327">
+    <ToTranslate>Sonken$&quot;Hmph...... calling your vassals comrades? What a strange man.&quot;@</ToTranslate>
+  </String>
+  <String index="328">
+    <ToTranslate>Kazuto$&quot;I don&apos;t think so. By the way, about our Anti-Toutaku Alliance. Your proposal was a great help to us.&quot;@</ToTranslate>
+  </String>
+  <String index="329">
+    <ToTranslate>tcg_son12ha</ToTranslate>
+  </String>
+  <String index="330">
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="331">
+    <ToTranslate>sonk0090</ToTranslate>
+  </String>
+  <String index="332">
+    <ToTranslate>Sonken$&quot;I don&apos;t mean to help you in any way. Since Gi is expanding its borders, Go has no choice but to side with you.&quot;@</ToTranslate>
+  </String>
+  <String index="333">
+    <ToTranslate>Kazuto$&quot;I know that, but......if we can be friends, then what&apos;s the harm in being friendly?&quot;@</ToTranslate>
+  </String>
+  <String index="334">
+    <ToTranslate>tcg_son12ba</ToTranslate>
+  </String>
+  <String index="335">
+    <ToTranslate>tcg_son12m</ToTranslate>
+  </String>
+  <String index="336">
+    <ToTranslate>sonk0091</ToTranslate>
+  </String>
+  <String index="337">
+    <ToTranslate>Sonken$&quot;Hmm...... that&apos;s true...... Can I really trust you?&quot;@</ToTranslate>
+  </String>
+  <String index="338">
+    <ToTranslate>Kazuto$&quot;You&apos;ll just have to. But that&apos;s also my line. ......I trust you.&quot;@</ToTranslate>
+  </String>
+  <String index="339">
+    <ToTranslate>sonk0092</ToTranslate>
+  </String>
+  <String index="340">
+    <ToTranslate>Sonken$&quot;As the leader of the Son Family, I will honor my contract, even at the cost of my life.&quot;@</ToTranslate>
+  </String>
+  <String index="341">
+    <ToTranslate>Kazuto$&quot;Understood. ......&quot;@</ToTranslate>
+  </String>
+  <String index="342">
+    <ToTranslate>sonk0093</ToTranslate>
+  </String>
+  <String index="343">
+    <ToTranslate>Sonken$&quot;Now that we both understand that, I&apos;d like to discuss our future......&quot;@</ToTranslate>
+  </String>
+  <String index="344">
+    <ToTranslate>Kazuto$&quot;Yes, I&apos;ll let our strategist explain that. Shuri, if you would.&quot;@</ToTranslate>
+  </String>
+  <String index="345">
+    <ToTranslate>tcg_syo21da</ToTranslate>
+  </String>
+  <String index="346">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="347">
+    <ToTranslate>syur0404</ToTranslate>
+  </String>
+  <String index="348">
+    <ToTranslate>Shuri$&quot;Y-yes!&quot;@</ToTranslate>
+  </String>
+  <String index="349">
+    <ToTranslate>$Shuri jerked and nodded, stiffening up as she started to explain our strategy.@</ToTranslate>
+  </String>
+  <String index="350">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="351">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="352">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="353">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="354">
+    <ToTranslate>bcg_gi_impseat_a</ToTranslate>
+  </String>
+  <String index="355">
+    <ToTranslate>tcg_jun12da</ToTranslate>
+  </String>
+  <String index="356">
+    <ToTranslate>tcg_jun12m</ToTranslate>
+  </String>
+  <String index="357">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="358">
+    <ToTranslate>bgm09</ToTranslate>
+  </String>
+  <String index="359">
+    <ToTranslate>jyun0136</ToTranslate>
+  </String>
+  <String index="360">
+    <ToTranslate>Jun&apos;iku$&quot;Karin-sama. Hongou&apos;s army has started to move again. This time, he&apos;s formed an Anti-Toutaku Alliance with Go.&quot;@</ToTranslate>
+  </String>
+  <String index="361">
+    <ToTranslate>tcg_ton13ja</ToTranslate>
+  </String>
+  <String index="362">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="363">
+    <ToTranslate>kato0272</ToTranslate>
+  </String>
+  <String index="364">
+    <ToTranslate>Kakouton$&quot;Tsk...... that&apos;s troublesome.&quot;@</ToTranslate>
+  </String>
+  <String index="365">
+    <ToTranslate>tcg_en11da</ToTranslate>
+  </String>
+  <String index="366">
+    <ToTranslate>tcg_en11m</ToTranslate>
+  </String>
+  <String index="367">
+    <ToTranslate>kaen0125</ToTranslate>
+  </String>
+  <String index="368">
+    <ToTranslate>Kakouen$&quot;Yes. With their armies combined, they are a formidable opponent. Goodness, this going to be difficult.&quot;@</ToTranslate>
+  </String>
+  <String index="369">
+    <ToTranslate>tcg_sou11ca</ToTranslate>
+  </String>
+  <String index="370">
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="371">
+    <ToTranslate>sous0219</ToTranslate>
+  </String>
+  <String index="372">
+    <ToTranslate>Sousou$&quot;......Sounds like I&apos;ll have to participate.&quot;@</ToTranslate>
+  </String>
+  <String index="373">
+    <ToTranslate>tcg_sou11ca</ToTranslate>
+  </String>
+  <String index="374">
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="375">
+    <ToTranslate>tcg_jun12ga</ToTranslate>
+  </String>
+  <String index="376">
+    <ToTranslate>tcg_jun12m</ToTranslate>
+  </String>
+  <String index="377">
+    <ToTranslate>jyun0137</ToTranslate>
+  </String>
+  <String index="378">
+    <ToTranslate>Jun&apos;iku$&quot;No! It is still premature for you to participate personally!&quot;@</ToTranslate>
+  </String>
+  <String index="379">
+    <ToTranslate>tcg_sou11ha</ToTranslate>
+  </String>
+  <String index="380">
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="381">
+    <ToTranslate>sous0220</ToTranslate>
+  </String>
+  <String index="382">
+    <ToTranslate>Sousou$&quot;Thank you for worrying about me, but if it&apos;s time, it&apos;s time.&quot;@</ToTranslate>
+  </String>
+  <String index="383">
+    <ToTranslate>tcg_jun12ba</ToTranslate>
+  </String>
+  <String index="384">
+    <ToTranslate>tcg_jun12m</ToTranslate>
+  </String>
+  <String index="385">
+    <ToTranslate>jyun0138</ToTranslate>
+  </String>
+  <String index="386">
+    <ToTranslate>Jun&apos;iku$&quot;That&apos;s...... true...... but.&quot;@</ToTranslate>
+  </String>
+  <String index="387">
+    <ToTranslate>tcg_sou21da</ToTranslate>
+  </String>
+  <String index="388">
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="389">
+    <ToTranslate>sous0221</ToTranslate>
+  </String>
+  <String index="390">
+    <ToTranslate>Sousou$&quot;Then I will fight. Shunran, Kii, you will go on ahead. The rear guard will consist of Shuuran and Keifa. Shia&apos;s unit will act as our reserves.&quot;@</ToTranslate>
+  </String>
+  <String index="391">
+    <ToTranslate>tcg_ton13ca</ToTranslate>
+  </String>
+  <String index="392">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="393">
+    <ToTranslate>kato0273</ToTranslate>
+  </String>
+  <String index="394">
+    <ToTranslate>Kakouton$&quot;But! That distribution leaves no generals for your unit......!&quot;@</ToTranslate>
+  </String>
+  <String index="395">
+    <ToTranslate>tcg_sou21ba</ToTranslate>
+  </String>
+  <String index="396">
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="397">
+    <ToTranslate>sous0222</ToTranslate>
+  </String>
+  <String index="398">
+    <ToTranslate>Sousou$&quot;Hu-hu...... what are you talking about Shuuran? I am Sou Montoku. I don&apos;t need a general&apos;s help to take one or two ugly men.&quot;@</ToTranslate>
+  </String>
+  <String index="399">
+    <ToTranslate>tcg_jun22ea</ToTranslate>
+  </String>
+  <String index="400">
+    <ToTranslate>tcg_jun22m</ToTranslate>
+  </String>
+  <String index="401">
+    <ToTranslate>jyun0139</ToTranslate>
+  </String>
+  <String index="402">
+    <ToTranslate>Jun&apos;iku$&quot;But Karin-sama, what if something happens to you......?&quot;@</ToTranslate>
+  </String>
+  <String index="403">
+    <ToTranslate>tcg_sou11aa</ToTranslate>
+  </String>
+  <String index="404">
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="405">
+    <ToTranslate>sous0223</ToTranslate>
+  </String>
+  <String index="406">
+    <ToTranslate>Sousou$&quot;That&apos;s why you&apos;re going on ahead, isn&apos;t it? Rouse yourselves for me.&quot;@</ToTranslate>
+  </String>
+  <String index="407">
+    <ToTranslate>tcg_en21ga</ToTranslate>
+  </String>
+  <String index="408">
+    <ToTranslate>tcg_en21m</ToTranslate>
+  </String>
+  <String index="409">
+    <ToTranslate>kaen0126</ToTranslate>
+  </String>
+  <String index="410">
+    <ToTranslate>Kakouen$&quot;Do you have to......participate yourself?&quot;@</ToTranslate>
+  </String>
+  <String index="411">
+    <ToTranslate>tcg_sou21ga</ToTranslate>
+  </String>
+  <String index="412">
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="413">
+    <ToTranslate>sous0224</ToTranslate>
+  </String>
+  <String index="414">
+    <ToTranslate>Sousou$&quot;Shuuran, enough.&quot;@</ToTranslate>
+  </String>
+  <String index="415">
+    <ToTranslate>tcg_en11aa</ToTranslate>
+  </String>
+  <String index="416">
+    <ToTranslate>tcg_en11m</ToTranslate>
+  </String>
+  <String index="417">
+    <ToTranslate>kaen0127</ToTranslate>
+  </String>
+  <String index="418">
+    <ToTranslate>Kakouen$&quot;......Pardon me.&quot;@</ToTranslate>
+  </String>
+  <String index="419">
+    <ToTranslate>tcg_en11aa</ToTranslate>
+  </String>
+  <String index="420">
+    <ToTranslate>tcg_en11m</ToTranslate>
+  </String>
+  <String index="421">
+    <ToTranslate>tcg_sou21ga</ToTranslate>
+  </String>
+  <String index="422">
+    <ToTranslate>tcg_sou21m</ToTranslate>
+  </String>
+  <String index="423">
+    <ToTranslate>tcg_cry11ba</ToTranslate>
+  </String>
+  <String index="424">
+    <ToTranslate>tcg_cry11m</ToTranslate>
+  </String>
+  <String index="425">
+    <ToTranslate>chor0164</ToTranslate>
+  </String>
+  <String index="426">
+    <ToTranslate>Chouryou$&quot;Well, if we do our best, Mou-chan won&apos;t need to make an appearance. If we want to protect Mou-chan, we&apos;ll just have to do our best.&quot;@</ToTranslate>
+  </String>
+  <String index="427">
+    <ToTranslate>tcg_ton13ja</ToTranslate>
+  </String>
+  <String index="428">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="429">
+    <ToTranslate>kato0274</ToTranslate>
+  </String>
+  <String index="430">
+    <ToTranslate>Kakouton$&quot;......That&apos;s true.&quot;@</ToTranslate>
+  </String>
+  <String index="431">
+    <ToTranslate>tcg_sou11aa</ToTranslate>
+  </String>
+  <String index="432">
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="433">
+    <ToTranslate>sous0225</ToTranslate>
+  </String>
+  <String index="434">
+    <ToTranslate>Sousou$&quot;Now that you understand, go get ready. We deploy in four hours.&quot;@</ToTranslate>
+  </String>
+  <String index="435">
+    <ToTranslate>tcg_ton13ga</ToTranslate>
+  </String>
+  <String index="436">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="437">
+    <ToTranslate>kato0275</ToTranslate>
+  </String>
+  <String index="438">
+    <ToTranslate>Kakouton$&quot;As you wish!&quot;@</ToTranslate>
+  </String>
+  <String index="439">
+    <ToTranslate>tcg_en11fa</ToTranslate>
+  </String>
+  <String index="440">
+    <ToTranslate>tcg_en11m</ToTranslate>
+  </String>
+  <String index="441">
+    <ToTranslate>kaen0128</ToTranslate>
+  </String>
+  <String index="442">
+    <ToTranslate>Kakouen$&quot;Keifa, where do you predict we&apos;ll encounter Hongou&apos;s army?&quot;@</ToTranslate>
+  </String>
+  <String index="443">
+    <ToTranslate>tcg_jun22ha</ToTranslate>
+  </String>
+  <String index="444">
+    <ToTranslate>tcg_jun22m</ToTranslate>
+  </String>
+  <String index="445">
+    <ToTranslate>jyun0140</ToTranslate>
+  </String>
+  <String index="446">
+    <ToTranslate>Jun&apos;iku$&quot;I suspect it will be within one li of the fortress where Shunran and Kii barricaded themselves the first time...&quot;@</ToTranslate>
+  </String>
+  <String index="447">
+    <ToTranslate>tcg_cry21ga</ToTranslate>
+  </String>
+  <String index="448">
+    <ToTranslate>tcg_cry21m</ToTranslate>
+  </String>
+  <String index="449">
+    <ToTranslate>chor0165</ToTranslate>
+  </String>
+  <String index="450">
+    <ToTranslate>Chouryou$&quot;Then after we face them, have Gen-chan take the vanguard, I&apos;ll attack from the flank, and Myou-chan can finish them off. How does that three-fold setup sound?&quot;@</ToTranslate>
+  </String>
+  <String index="451">
+    <ToTranslate>tcg_jun12aa</ToTranslate>
+  </String>
+  <String index="452">
+    <ToTranslate>tcg_jun12m</ToTranslate>
+  </String>
+  <String index="453">
+    <ToTranslate>jyun0141</ToTranslate>
+  </String>
+  <String index="454">
+    <ToTranslate>Jun&apos;iku$&quot;That&apos;s a good plan.&quot;@</ToTranslate>
+  </String>
+  <String index="455">
+    <ToTranslate>tcg_cry21da</ToTranslate>
+  </String>
+  <String index="456">
+    <ToTranslate>tcg_cry21m</ToTranslate>
+  </String>
+  <String index="457">
+    <ToTranslate>chor0166</ToTranslate>
+  </String>
+  <String index="458">
+    <ToTranslate>Chouryou$&quot;All right. We have Keifa&apos;s approval, so let&apos;s use it.&quot;@</ToTranslate>
+  </String>
+  <String index="459">
+    <ToTranslate>tcg_ton13ja</ToTranslate>
+  </String>
+  <String index="460">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="461">
+    <ToTranslate>kato0276</ToTranslate>
+  </String>
+  <String index="462">
+    <ToTranslate>Kakouton$&quot;I have no objection. Everyone, return to your units. We&apos;ll meet by the palace gate in four hours.&quot;@</ToTranslate>
+  </String>
+  <String index="463">
+    <ToTranslate>tcg_en11fa</ToTranslate>
+  </String>
+  <String index="464">
+    <ToTranslate>tcg_en11m</ToTranslate>
+  </String>
+  <String index="465">
+    <ToTranslate>kaen0129</ToTranslate>
+  </String>
+  <String index="466">
+    <ToTranslate>Kakouen$&quot;Okay.&quot;@</ToTranslate>
+  </String>
+  <String index="467">
+    <ToTranslate>tcg_ton13aa</ToTranslate>
+  </String>
+  <String index="468">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="469">
+    <ToTranslate>kato0277</ToTranslate>
+  </String>
+  <String index="470">
+    <ToTranslate>Kakouton$&quot;......Now then, Karin-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="471">
+    <ToTranslate>tcg_sou11la</ToTranslate>
+  </String>
+  <String index="472">
+    <ToTranslate>tcg_sou11m</ToTranslate>
+  </String>
+  <String index="473">
+    <ToTranslate>sous0226</ToTranslate>
+  </String>
+  <String index="474">
+    <ToTranslate>Sousou$&quot;I&apos;ll be waiting for news of our victory.&quot;@</ToTranslate>
+  </String>
+  <String index="475">
+    <ToTranslate>tcg_ton13ga</ToTranslate>
+  </String>
+  <String index="476">
+    <ToTranslate>tcg_ton13m</ToTranslate>
+  </String>
+  <String index="477">
+    <ToTranslate>kato0278</ToTranslate>
+  </String>
+  <String index="478">
+    <ToTranslate>Kakouton$&quot;Okay!&quot;@</ToTranslate>
+  </String>
+  <String index="479">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="480">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="481">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="482">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="483">
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="484">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="485">
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="486">
+    <ToTranslate>$We joined Son-Go&apos;s army and invaded Gi, our two armies moving in parallel.@</ToTranslate>
+  </String>
+  <String index="487">
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="488">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="489">
+    <ToTranslate>sei_0186</ToTranslate>
+  </String>
+  <String index="490">
+    <ToTranslate>Sei$&quot;Now......how will our enemy act? We&apos;ll need to stay on guard from now on.&quot;@</ToTranslate>
+  </String>
+  <String index="491">
+    <ToTranslate>Kazuto$&quot;You&apos;re right. Is everyone in position?&quot;@</ToTranslate>
+  </String>
+  <String index="492">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="493">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="494">
+    <ToTranslate>aisy0802</ToTranslate>
+  </String>
+  <String index="495">
+    <ToTranslate>Aisha$&quot;Rinrin and Sui are taking the vanguard, and we&apos;re sending scouts out in all directions every hour. Shion is in the rear guarding our supply convoy.&quot;@</ToTranslate>
+  </String>
+  <String index="496">
+    <ToTranslate>Kazuto$&quot;They did get us last time. But will Shion be alright by herself?&quot;@</ToTranslate>
+  </String>
+  <String index="497">
+    <ToTranslate>tcg_cun11ba</ToTranslate>
+  </String>
+  <String index="498">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="499">
+    <ToTranslate>sei_0187</ToTranslate>
+  </String>
+  <String index="500">
+    <ToTranslate>Sei$&quot;What, Shion is a warrior equal to a thousand men. She also has the wisdom that comes with age. She&apos;ll fulfill her duty just fine on her own.&quot;@</ToTranslate>
+  </String>
+  <String index="501">
+    <ToTranslate>Kazuto$&quot;.........&quot;@</ToTranslate>
+  </String>
+  <String index="502">
+    <ToTranslate>tcg_cun11ba</ToTranslate>
+  </String>
+  <String index="503">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="504">
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="505">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="506">
+    <ToTranslate>aisy0803</ToTranslate>
+  </String>
+  <String index="507">
+    <ToTranslate>Aisha$&quot;.........&quot;@</ToTranslate>
+  </String>
+  <String index="508">
+    <ToTranslate>tcg_cun11da</ToTranslate>
+  </String>
+  <String index="509">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="510">
+    <ToTranslate>sei_0188</ToTranslate>
+  </String>
+  <String index="511">
+    <ToTranslate>Sei$&quot;Hmm? What&apos;s the matter, My Lord? And why are you being quiet too, Aisha?&quot;@</ToTranslate>
+  </String>
+  <String index="512">
+    <ToTranslate>Kazuto$&quot;Well...... there&apos;s something that&apos;s really dangerous in what you just said......&quot;@</ToTranslate>
+  </String>
+  <String index="513">
+    <ToTranslate>tcg_kan31ha</ToTranslate>
+  </String>
+  <String index="514">
+    <ToTranslate>tcg_kan31m</ToTranslate>
+  </String>
+  <String index="515">
+    <ToTranslate>aisy0804</ToTranslate>
+  </String>
+  <String index="516">
+    <ToTranslate>Aisha$&quot;That was really a courageous remark. If she heard you, I&apos;ll have nothing to do with it.&quot;@</ToTranslate>
+  </String>
+  <String index="517">
+    <ToTranslate>tcg_cun11ba</ToTranslate>
+  </String>
+  <String index="518">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="519">
+    <ToTranslate>sei_0189</ToTranslate>
+  </String>
+  <String index="520">
+    <ToTranslate>Sei$&quot;......Oh. You&apos;re right, I said something I shouldn&apos;t have. Pardon me.&quot;@</ToTranslate>
+  </String>
+  <String index="521">
+    <ToTranslate>Kazuto$&quot;The wrath of an angry god of destruction descends upon us! ......is something I don&apos;t want to deal with at an important time like this.&quot;@</ToTranslate>
+  </String>
+  <String index="522">
+    <ToTranslate>tcg_cun11aa</ToTranslate>
+  </String>
+  <String index="523">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="524">
+    <ToTranslate>sei_0190</ToTranslate>
+  </String>
+  <String index="525">
+    <ToTranslate>Sei$&quot;Yes, understood. I&apos;ll be careful from now on.&quot;@</ToTranslate>
+  </String>
+  <String index="526">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="527">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="528">
+    <ToTranslate>sei_0191</ToTranslate>
+  </String>
+  <String index="529">
+    <ToTranslate>Sei$&quot;By the way, Lord, how will Son-Go&apos;s army take part in the battle with us?&quot;@</ToTranslate>
+  </String>
+  <String index="530">
+    <ToTranslate>Kazuto$&quot;Basically, they&apos;re our back up. We can&apos;t have them extensively participating in our decisive battle against Songi.&quot;@</ToTranslate>
+  </String>
+  <String index="531">
+    <ToTranslate>tcg_cun31fa</ToTranslate>
+  </String>
+  <String index="532">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="533">
+    <ToTranslate>sei_0192</ToTranslate>
+  </String>
+  <String index="534">
+    <ToTranslate>Sei$&quot;Oh? That&apos;s strange. Didn&apos;t we join hands to crush the enemy as allies?&quot;@</ToTranslate>
+  </String>
+  <String index="535">
+    <ToTranslate>tcg_cun31fa</ToTranslate>
+  </String>
+  <String index="536">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="537">
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="538">
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="539">
+    <ToTranslate>syur0405</ToTranslate>
+  </String>
+  <String index="540">
+    <ToTranslate>Shuri$&quot;We can&apos;t trust them that much. We requested they stay out of the battle.&quot;@</ToTranslate>
+  </String>
+  <String index="541">
+    <ToTranslate>tcg_cun11da</ToTranslate>
+  </String>
+  <String index="542">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="543">
+    <ToTranslate>sei_0193</ToTranslate>
+  </String>
+  <String index="544">
+    <ToTranslate>Sei$&quot;Do you think Sonken is going to betray us, Shuri?&quot;@</ToTranslate>
+  </String>
+  <String index="545">
+    <ToTranslate>syur0406</ToTranslate>
+  </String>
+  <String index="546">
+    <ToTranslate>Shuri$&quot;Sonken-san won&apos;t betray us. After talking to her, I can tell she&apos;s a woman of her word.  ......What I&apos;m afraid of is their strategist, Shuuyu-san.&quot;@</ToTranslate>
+  </String>
+  <String index="547">
+    <ToTranslate>tcg_cun11da</ToTranslate>
+  </String>
+  <String index="548">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="549">
+    <ToTranslate>tcg_syo41ea</ToTranslate>
+  </String>
+  <String index="550">
+    <ToTranslate>tcg_syo41m</ToTranslate>
+  </String>
+  <String index="551">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="552">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="553">
+    <ToTranslate>aisy0805</ToTranslate>
+  </String>
+  <String index="554">
+    <ToTranslate>Aisha$&quot;Shuuyu, huh?...... According to the rumors, she and Sonken aren&apos;t on good terms......&quot;@</ToTranslate>
+  </String>
+  <String index="555">
+    <ToTranslate>syur0407</ToTranslate>
+  </String>
+  <String index="556">
+    <ToTranslate>Shuri$&quot;No, but she was the right hand woman of Sonsaku-san, the previous head of Son-Go&apos;s, and one of the founders of Go. ......It&apos;s not likely she&apos;ll simply sit back and watch us fight Sougi.&quot;@</ToTranslate>
+  </String>
+  <String index="557">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="558">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="559">
+    <ToTranslate>sei_0194</ToTranslate>
+  </String>
+  <String index="560">
+    <ToTranslate>Sei$&quot;Do you think she&apos;s planning to do something while we fight?&quot;@</ToTranslate>
+  </String>
+  <String index="561">
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="562">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="563">
+    <ToTranslate>syur0408</ToTranslate>
+  </String>
+  <String index="564">
+    <ToTranslate>Shuri$&quot;......I hope I&apos;m just over thinking, but as long as that danger exists, we don&apos;t want them joining in the decisive battle.&quot;@</ToTranslate>
+  </String>
+  <String index="565">
+    <ToTranslate>aisy0806</ToTranslate>
+  </String>
+  <String index="566">
+    <ToTranslate>Aisha$&quot;I see. And if she betrays us during the key battle, we&apos;ll be at a complete loss.&quot;@</ToTranslate>
+  </String>
+  <String index="567">
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="568">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="569">
+    <ToTranslate>syur0409</ToTranslate>
+  </String>
+  <String index="570">
+    <ToTranslate>Shuri$&quot;Yes. However, Sonken-san says that would make the Anti-Toutaku Alliance meaningless, so she&apos;s commanding a few small units to act as our reserves.&quot;@</ToTranslate>
+  </String>
+  <String index="571">
+    <ToTranslate>Kazuto$&quot;I bet she knew what we were thinking. That&apos;s why she specifically chose to lead small units as our reserve army.&quot;@</ToTranslate>
+  </String>
+  <String index="572">
+    <ToTranslate>tcg_cun31fa</ToTranslate>
+  </String>
+  <String index="573">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="574">
+    <ToTranslate>sei_0195</ToTranslate>
+  </String>
+  <String index="575">
+    <ToTranslate>Sei$&quot;I don&apos;t think she is that admirable.&quot;@</ToTranslate>
+  </String>
+  <String index="576">
+    <ToTranslate>Kazuto$&quot;You don&apos;t......?&quot;@</ToTranslate>
+  </String>
+  <String index="577">
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="578">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="579">
+    <ToTranslate>aisy0807</ToTranslate>
+  </String>
+  <String index="580">
+    <ToTranslate>Aisha$&quot;You&apos;re a bit too naive, My Lord. You need to be a little more careful.&quot;@</ToTranslate>
+  </String>
+  <String index="581">
+    <ToTranslate>Kazuto$&quot;......I&apos;ll try.&quot;@</ToTranslate>
+  </String>
+  <String index="582">
+    <ToTranslate>SE024</ToTranslate>
+  </String>
+  <String index="583">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="584">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="585">
+    <ToTranslate>bgm0000</ToTranslate>
+  </String>
+  <String index="586">
+    <ToTranslate>Soldier$&quot;Message from General Bachou!&quot;@</ToTranslate>
+  </String>
+  <String index="587">
+    <ToTranslate>$A young soldier dashed up, huffing and puffing.@</ToTranslate>
+  </String>
+  <String index="588">
+    <ToTranslate>Soldier$&quot;An army was spotted three li ahead! The flag bears &apos;Kakou&apos;!&quot;@</ToTranslate>
+  </String>
+  <String index="589">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="590">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="591">
+    <ToTranslate>sei_0196</ToTranslate>
+  </String>
+  <String index="592">
+    <ToTranslate>Sei$&quot;Which one? Ton or En?&quot;@</ToTranslate>
+  </String>
+  <String index="593">
+    <ToTranslate>Soldier$&quot;We don&apos;t know yet!&quot;@</ToTranslate>
+  </String>
+  <String index="594">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="595">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="596">
+    <ToTranslate>aisy0808</ToTranslate>
+  </String>
+  <String index="597">
+    <ToTranslate>Aisha$&quot;Okay. Let Bachou know we&apos;ll be right there. Also......order Chouhi not to charge, no matter what.&quot;@</ToTranslate>
+  </String>
+  <String index="598">
+    <ToTranslate>Soldier$&quot;Yes, ma&apos;am!&quot;@</ToTranslate>
+  </String>
+  <String index="599">
+    <ToTranslate>SE026</ToTranslate>
+  </String>
+  <String index="600">
+    <ToTranslate>tcg_cun31ia</ToTranslate>
+  </String>
+  <String index="601">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="602">
+    <ToTranslate>sei_0197</ToTranslate>
+  </String>
+  <String index="603">
+    <ToTranslate>Sei$&quot;Well then...... shall we get started?&quot;@</ToTranslate>
+  </String>
+  <String index="604">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="605">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="606">
+    <ToTranslate>aisy0809</ToTranslate>
+  </String>
+  <String index="607">
+    <ToTranslate>Aisha$&quot;Yeah. This time, we&apos;ll silence Sougi!&quot;@</ToTranslate>
+  </String>
+  <String index="608">
+    <ToTranslate>Kazuto$&quot;......Don&apos;t be reckless.&quot;@</ToTranslate>
+  </String>
+  <String index="609">
+    <ToTranslate>tcg_cun11ba</ToTranslate>
+  </String>
+  <String index="610">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="611">
+    <ToTranslate>sei_0198</ToTranslate>
+  </String>
+  <String index="612">
+    <ToTranslate>Sei$&quot;Understood. Hu-hu, you&apos;re so sweet.&quot;@</ToTranslate>
+  </String>
+  <String index="613">
+    <ToTranslate>Kazuto$&quot;Worrying about you is all I can do. ......Now, shall we go?&quot;@</ToTranslate>
+  </String>
+  <String index="614">
+    <ToTranslate>tcg_syo11aa</ToTranslate>
+  </String>
+  <String index="615">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="616">
+    <ToTranslate>syur0410</ToTranslate>
+  </String>
+  <String index="617">
+    <ToTranslate>Shuri$&quot;Yes!&quot;@</ToTranslate>
+  </String>
+  <String index="618">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="619">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="620">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="621">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="622">
+    <ToTranslate>bcg_camp_a</ToTranslate>
+  </String>
+  <String index="623">
+    <ToTranslate>tcg_zgi11aa</ToTranslate>
+  </String>
+  <String index="624">
+    <ToTranslate>tcg_zgi11m</ToTranslate>
+  </String>
+  <String index="625">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="626">
+    <ToTranslate>Soldier$&quot;Enemy&apos;s vanguard spotted! Distance, approximately three li!&quot;@</ToTranslate>
+  </String>
+  <String index="627">
+    <ToTranslate>tcg_ton14ja</ToTranslate>
+  </String>
+  <String index="628">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="629">
+    <ToTranslate>kato0279</ToTranslate>
+  </String>
+  <String index="630">
+    <ToTranslate>Kakouton$&quot;There they are. Kii!&quot;@</ToTranslate>
+  </String>
+  <String index="631">
+    <ToTranslate>tcg_kyo22fa</ToTranslate>
+  </String>
+  <String index="632">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="633">
+    <ToTranslate>kii_0050</ToTranslate>
+  </String>
+  <String index="634">
+    <ToTranslate>Kyocho$&quot;Yes!&quot;@</ToTranslate>
+  </String>
+  <String index="635">
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="636">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="637">
+    <ToTranslate>kato0280</ToTranslate>
+  </String>
+  <String index="638">
+    <ToTranslate>Kakouton$&quot;Get ready for battle immediately. Also, Shuuran and Shia, send a message to Karin-sama about the enemy attack.&quot;@</ToTranslate>
+  </String>
+  <String index="639">
+    <ToTranslate>tcg_kyo22ba</ToTranslate>
+  </String>
+  <String index="640">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="641">
+    <ToTranslate>kii_0051</ToTranslate>
+  </String>
+  <String index="642">
+    <ToTranslate>Kyocho$&quot;Understood, General Ton! See ya!&quot;@</ToTranslate>
+  </String>
+  <String index="643">
+    <ToTranslate>SE026</ToTranslate>
+  </String>
+  <String index="644">
+    <ToTranslate>tcg_ton14ca</ToTranslate>
+  </String>
+  <String index="645">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="646">
+    <ToTranslate>kato0281</ToTranslate>
+  </String>
+  <String index="647">
+    <ToTranslate>Kakouton$&quot;Listen, elite soldiers of Gi! This battle will decide the fate of the land! Remember that Sougi&apos;s future depends on our victory!&quot;@</ToTranslate>
+  </String>
+  <String index="648">
+    <ToTranslate>kato0282</ToTranslate>
+  </String>
+  <String index="649">
+    <ToTranslate>Kakouton$&quot;Do not fear for your lives! Carve the fear of Gi&apos;s warriors into the hearts of Hongou&apos;s army!&quot;@</ToTranslate>
+  </String>
+  <String index="650">
+    <ToTranslate>kato0283</ToTranslate>
+  </String>
+  <String index="651">
+    <ToTranslate>Kakouton$&quot;Swing your swords! Thrust your spears! Fire your arrows until the bowstrings snap! Charge, pulverize them, and seize victory with your own hands!&quot;@</ToTranslate>
+  </String>
+  <String index="652">
+    <ToTranslate>kato0284</ToTranslate>
+  </String>
+  <String index="653">
+    <ToTranslate>Kakouton$&quot;Know that my voice is the grand decree of Gi! All units, advance! We shall hereby annihilate the enemy! All units, put forth your best efforts!&quot;@</ToTranslate>
+  </String>
+  <String index="654">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="655">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="656">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="657">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="658">
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="659">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="660">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="661">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="662">
+    <ToTranslate>bgm29</ToTranslate>
+  </String>
+  <String index="663">
+    <ToTranslate>Soldier$&quot;Charge the enemy!&quot;@</ToTranslate>
+  </String>
+  <String index="664">
+    <ToTranslate>tcg_bac12ea</ToTranslate>
+  </String>
+  <String index="665">
+    <ToTranslate>tcg_bac12m</ToTranslate>
+  </String>
+  <String index="666">
+    <ToTranslate>sui_0137</ToTranslate>
+  </String>
+  <String index="667">
+    <ToTranslate>Sui$&quot;Yeah! Everyone, be patient and hold positions!&quot;@</ToTranslate>
+  </String>
+  <String index="668">
+    <ToTranslate>tcg_cho11aa</ToTranslate>
+  </String>
+  <String index="669">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="670">
+    <ToTranslate>rinr0453</ToTranslate>
+  </String>
+  <String index="671">
+    <ToTranslate>Rinrin$&quot;Shuri! Give us your commands!&quot;@</ToTranslate>
+  </String>
+  <String index="672">
+    <ToTranslate>tcg_syo21da</ToTranslate>
+  </String>
+  <String index="673">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="674">
+    <ToTranslate>syur0411</ToTranslate>
+  </String>
+  <String index="675">
+    <ToTranslate>Shuri$&quot;Yes! Front line: Bachou squad, Chouhi squad, prepare to intercept them immediately! Kan&apos;u squad, Chouun squad, assume position quickly and prepare to flank them!&quot;@</ToTranslate>
+  </String>
+  <String index="676">
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="677">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="678">
+    <ToTranslate>aisy0810</ToTranslate>
+  </String>
+  <String index="679">
+    <ToTranslate>Aisha$&quot;Got it!&quot;@</ToTranslate>
+  </String>
+  <String index="680">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="681">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="682">
+    <ToTranslate>sei_0199</ToTranslate>
+  </String>
+  <String index="683">
+    <ToTranslate>Sei$&quot;Understood!&quot;@</ToTranslate>
+  </String>
+  <String index="684">
+    <ToTranslate>tcg_syo21da</ToTranslate>
+  </String>
+  <String index="685">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="686">
+    <ToTranslate>syur0412</ToTranslate>
+  </String>
+  <String index="687">
+    <ToTranslate>Shuri$&quot;There will likely be an even bigger army behind the enemy! But we cannot lose! So everyone......do your best!&quot;@</ToTranslate>
+  </String>
+  <String index="688">
+    <ToTranslate>tcg_cho11aa</ToTranslate>
+  </String>
+  <String index="689">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="690">
+    <ToTranslate>rinr0454</ToTranslate>
+  </String>
+  <String index="691">
+    <ToTranslate>Rinrin$&quot;Leave it to us! Sui, let&apos;s go!&quot;@</ToTranslate>
+  </String>
+  <String index="692">
+    <ToTranslate>tcg_bac12ca</ToTranslate>
+  </String>
+  <String index="693">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="694">
+    <ToTranslate>sui_0138</ToTranslate>
+  </String>
+  <String index="695">
+    <ToTranslate>Sui$&quot;Yeah! Let&apos;s give them one hell of a show!&quot;@</ToTranslate>
+  </String>
+  <String index="696">
+    <ToTranslate>tcg_cho31ba</ToTranslate>
+  </String>
+  <String index="697">
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="698">
+    <ToTranslate>rinr0455</ToTranslate>
+  </String>
+  <String index="699">
+    <ToTranslate>Rinrin$&quot;Yeah!&quot;@</ToTranslate>
+  </String>
+  <String index="700">
+    <ToTranslate>tcg_bac12ea</ToTranslate>
+  </String>
+  <String index="701">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="702">
+    <ToTranslate>sui_0139</ToTranslate>
+  </String>
+  <String index="703">
+    <ToTranslate>Sui$&quot;Okay! Here we come!&quot;@</ToTranslate>
+  </String>
+  <String index="704">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="705">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+</DBS>
+
+</poem>
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
