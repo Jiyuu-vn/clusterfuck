@@ -1,0 +1,1533 @@
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
+<poem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <ToTranslate>bcg_map_a</ToTranslate>
+  </String>
+  <String index="1">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="2">
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="3">
+    <ToTranslate>$After we united most of the continent, we dissolved the army and triumphantly returned to Youzhou.@</ToTranslate>
+  </String>
+  <String index="4">
+    <ToTranslate>$After that, we took a little break and then set out to manage the territories, but since the Zhuo District was located in the northern part of the continent, it was inconvenient.@</ToTranslate>
+  </String>
+  <String index="5">
+    <ToTranslate>$We decided to move to somewhere more convenient, and ended up moving our capital to Luoyang, the former capital of Gi.@</ToTranslate>
+  </String>
+  <String index="6">
+    <ToTranslate>$While the people of Youzhou were all sad to see us leave, once we moved to Luoyang, we set about managing our territories.@</ToTranslate>
+  </String>
+  <String index="7">
+    <ToTranslate>$First, we sent a Deputy Administrator appointed by Sousou to the former territory of Gi, a plain just south of the center of the continent.@</ToTranslate>
+  </String>
+  <String index="8">
+    <ToTranslate>$Likewise, we sent a Deputy Administrator chosen by Sonken to the former territory of Go in the east.@</ToTranslate>
+  </String>
+  <String index="9">
+    <ToTranslate>$After that, we handed down instructions to them and began our work on carefully removing the scars of the Yellow Turban Rebellion and other wars.@</ToTranslate>
+  </String>
+  <String index="10">
+    <ToTranslate>$Some issues were simple, but some were extremely difficult.@</ToTranslate>
+  </String>
+  <String index="11">
+    <ToTranslate>$I felt the difficulty of managing domestic affairs, but my comrades all helped me through the work.@</ToTranslate>
+  </String>
+  <String index="12">
+    <ToTranslate>$Now that we finally managed to settle the first stage and have some free time for ourselves, I consulted Shuri, and had us send scouts out across the land to uncover the White Clothes.@</ToTranslate>
+  </String>
+  <String index="13">
+    <ToTranslate>$While we waited for their reports, we decided to enjoy our time off.@</ToTranslate>
+  </String>
+  <String index="14">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="15">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="16">
+    <ToTranslate>_kyotenphase</ToTranslate>
+  </String>
+  <String index="17">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="18">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="19">
+    <ToTranslate>bcg_town_a</ToTranslate>
+  </String>
+  <String index="20">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="21">
+    <ToTranslate>bgm03</ToTranslate>
+  </String>
+  <String index="22">
+    <ToTranslate>Kazuto$&quot;Do you think...... people are smiling more nowadays? I think the city has become livelier.&quot;@</ToTranslate>
+  </String>
+  <String index="23">
+    <ToTranslate>tcg_kan21aa</ToTranslate>
+  </String>
+  <String index="24">
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="25">
+    <ToTranslate>aisy0992</ToTranslate>
+  </String>
+  <String index="26">
+    <ToTranslate>Aisha$&quot;You&apos;re not just imagining it, it&apos;s a fact. Recently, the merchants have become more active.&quot;@</ToTranslate>
+  </String>
+  <String index="27">
+    <ToTranslate>aisy0993</ToTranslate>
+  </String>
+  <String index="28">
+    <ToTranslate>Aisha$&quot;When the merchants are active, the economy flourishes, and people become even more motivated to work. I believe that&apos;s why the city feels like it&apos;s bustling more.&quot;@</ToTranslate>
+  </String>
+  <String index="29">
+    <ToTranslate>Kazuto$&quot;I see. Come to think of it, merchants from Gi and Go never came into our territory before.&quot;@</ToTranslate>
+  </String>
+  <String index="30">
+    <ToTranslate>tcg_kan21ba</ToTranslate>
+  </String>
+  <String index="31">
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="32">
+    <ToTranslate>aisy0994</ToTranslate>
+  </String>
+  <String index="33">
+    <ToTranslate>Aisha$&quot;That&apos;s part of it, but the laws you proposed such as abolishment of customs and a free-market system have also gone well and played a major role.&quot;@</ToTranslate>
+  </String>
+  <String index="34">
+    <ToTranslate>Kazuto$&quot;Well...... I only applied what I learned in the real world.&quot;@</ToTranslate>
+  </String>
+  <String index="35">
+    <ToTranslate>tcg_kan11aa</ToTranslate>
+  </String>
+  <String index="36">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="37">
+    <ToTranslate>aisy0995</ToTranslate>
+  </String>
+  <String index="38">
+    <ToTranslate>Aisha$&quot;The real world...... do you mean Heaven?&quot;@</ToTranslate>
+  </String>
+  <String index="39">
+    <ToTranslate>Kazuto$&quot;Yeah, I guess something like that.&quot;@</ToTranslate>
+  </String>
+  <String index="40">
+    <ToTranslate>$As I was giving Aisha a casual reply......@</ToTranslate>
+  </String>
+  <String index="41">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="42">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="43">
+    <ToTranslate>bgm16</ToTranslate>
+  </String>
+  <String index="44">
+    <ToTranslate>chos0044</ToTranslate>
+  </String>
+  <String index="45">
+    <ToTranslate>Chousen$&quot;Oh dear, My Lord! Today you&apos;re out for a walk with Aisha-chan? How lovely!&quot;@</ToTranslate>
+  </String>
+  <String index="46">
+    <ToTranslate>$A giant, naked penis......I mean man, showed up.@</ToTranslate>
+  </String>
+  <String index="47">
+    <ToTranslate>Kazuto$&quot;Hey, Chousen. Are you taking a walk too?&quot;@</ToTranslate>
+  </String>
+  <String index="48">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="49">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="50">
+    <ToTranslate>onpu</ToTranslate>
+  </String>
+  <String index="51">
+    <ToTranslate>chos0045</ToTranslate>
+  </String>
+  <String index="52">
+    <ToTranslate>Shousen$&quot;It&apos;s more like......I&apos;m searching for someone special? Hee-hee!&quot;@</ToTranslate>
+  </String>
+  <String index="53">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="54">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="55">
+    <ToTranslate>tcg_kan21pa</ToTranslate>
+  </String>
+  <String index="56">
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="57">
+    <ToTranslate>aisy0996</ToTranslate>
+  </String>
+  <String index="58">
+    <ToTranslate>Aisha$&quot;S-searching for someone?! Yuck, A-All men out there, run away! You&apos;ll be eaten alive!!&quot;@</ToTranslate>
+  </String>
+  <String index="59">
+    <ToTranslate>tcg_hg21ba</ToTranslate>
+  </String>
+  <String index="60">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="61">
+    <ToTranslate>chos0046</ToTranslate>
+  </String>
+  <String index="62">
+    <ToTranslate>Chousen$&quot;My, Aisha-chan, if you keep saying that, I&apos;ll get angry!&quot;@</ToTranslate>
+  </String>
+  <String index="63">
+    <ToTranslate>tcg_kan11qa</ToTranslate>
+  </String>
+  <String index="64">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="65">
+    <ToTranslate>muka</ToTranslate>
+  </String>
+  <String index="66">
+    <ToTranslate>aisy0997</ToTranslate>
+  </String>
+  <String index="67">
+    <ToTranslate>Aisha$&quot;Eegh, stop smiling! It&apos;s disgusting!&quot;@</ToTranslate>
+  </String>
+  <String index="68">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="69">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="70">
+    <ToTranslate>chos0047</ToTranslate>
+  </String>
+  <String index="71">
+    <ToTranslate>Chousen$&quot;Oh, how cruel! Hey, My Lord, say something to her!&quot;@</ToTranslate>
+  </String>
+  <String index="72">
+    <ToTranslate>Kazuto$&quot;I can&apos;t help it she&apos;s disgusted by something disgusting. ......By the way, Chousen, how does the city look in your eyes? Can you give me your honest opinion?&quot;@</ToTranslate>
+  </String>
+  <String index="73">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="74">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="75">
+    <ToTranslate>chos0048</ToTranslate>
+  </String>
+  <String index="76">
+    <ToTranslate>Chousen$&quot;Oh my, are you inspecting the city?&quot;@</ToTranslate>
+  </String>
+  <String index="77">
+    <ToTranslate>Kazuto$&quot;Yeah, something like that. ......So what do you think?&quot;@</ToTranslate>
+  </String>
+  <String index="78">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="79">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="80">
+    <ToTranslate>chos0049</ToTranslate>
+  </String>
+  <String index="81">
+    <ToTranslate>Chousen$&quot;Well, there are more smiles around the city, and prices are stabilizing......I think it&apos;s impressive that the city recovered so well in such short time.&quot;@</ToTranslate>
+  </String>
+  <String index="82">
+    <ToTranslate>Kazuto$&quot;I see. It gives me confidence to hear a resident of the city like you say so.&quot;@</ToTranslate>
+  </String>
+  <String index="83">
+    <ToTranslate>bgm13</ToTranslate>
+  </String>
+  <String index="84">
+    <ToTranslate>saji0080</ToTranslate>
+  </String>
+  <String index="85">
+    <ToTranslate>???$&quot;I&apos;m sure you must be satisfied. You, who had no potential for achievement otherwise, are now a hero and savior of this country.&quot;@</ToTranslate>
+  </String>
+  <String index="86">
+    <ToTranslate>Kazuto$&quot;Huh?&quot;@</ToTranslate>
+  </String>
+  <String index="87">
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="88">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="89">
+    <ToTranslate>aisy0998</ToTranslate>
+  </String>
+  <String index="90">
+    <ToTranslate>Aisha$&quot;Who are you!?&quot;@</ToTranslate>
+  </String>
+  <String index="91">
+    <ToTranslate>SE069</ToTranslate>
+  </String>
+  <String index="92">
+    <ToTranslate>SE079</ToTranslate>
+  </String>
+  <String index="93">
+    <ToTranslate>tcg_saj11aa</ToTranslate>
+  </String>
+  <String index="94">
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="95">
+    <ToTranslate>saji0081</ToTranslate>
+  </String>
+  <String index="96">
+    <ToTranslate>Saji$&quot;Hmph...... don&apos;t tell me you&apos;ve forgotten my face.&quot;@</ToTranslate>
+  </String>
+  <String index="97">
+    <ToTranslate>Kazuto$&quot;Ah...... I remember you!&quot;@</ToTranslate>
+  </String>
+  <String index="98">
+    <ToTranslate>tcg_saj11ia</ToTranslate>
+  </String>
+  <String index="99">
+    <ToTranslate>tcg_saj11m</ToTranslate>
+  </String>
+  <String index="100">
+    <ToTranslate>saji0082</ToTranslate>
+  </String>
+  <String index="101">
+    <ToTranslate>Saji$&quot;Long time no see, I should say...... Thanks to you, I suffered a great deal, but that&apos;s all over now.&quot;@</ToTranslate>
+  </String>
+  <String index="102">
+    <ToTranslate>tcg_saj21ca</ToTranslate>
+  </String>
+  <String index="103">
+    <ToTranslate>tcg_saj21m</ToTranslate>
+  </String>
+  <String index="104">
+    <ToTranslate>saji0083</ToTranslate>
+  </String>
+  <String index="105">
+    <ToTranslate>Saji$&quot;Go to hell, Hongou Kazuto!&quot;@</ToTranslate>
+  </String>
+  <String index="106">
+    <ToTranslate>SE030</ToTranslate>
+  </String>
+  <String index="107">
+    <ToTranslate>battle_saj</ToTranslate>
+  </String>
+  <String index="108">
+    <ToTranslate>tcg_hg61aa</ToTranslate>
+  </String>
+  <String index="109">
+    <ToTranslate>tcg_hg61m</ToTranslate>
+  </String>
+  <String index="110">
+    <ToTranslate>chos0050</ToTranslate>
+  </String>
+  <String index="111">
+    <ToTranslate>Chousen$&quot;Here!&quot;@</ToTranslate>
+  </String>
+  <String index="112">
+    <ToTranslate>battle_hg</ToTranslate>
+  </String>
+  <String index="113">
+    <ToTranslate>SE002</ToTranslate>
+  </String>
+  <String index="114">
+    <ToTranslate>s_yure_r</ToTranslate>
+  </String>
+  <String index="115">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="116">
+    <ToTranslate>ecg_saj02a</ToTranslate>
+  </String>
+  <String index="117">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="118">
+    <ToTranslate>bgm17</ToTranslate>
+  </String>
+  <String index="119">
+    <ToTranslate>saji0084</ToTranslate>
+  </String>
+  <String index="120">
+    <ToTranslate>Saji$&quot;Ggh...... don&apos;t interfere, Chousen!&quot;@</ToTranslate>
+  </String>
+  <String index="121">
+    <ToTranslate>chos0051</ToTranslate>
+  </String>
+  <String index="122">
+    <ToTranslate>Chousen$&quot;Oh dear, no, no, no, that&apos;s a no-can-do, Saji-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="123">
+    <ToTranslate>saji0085</ToTranslate>
+  </String>
+  <String index="124">
+    <ToTranslate>Saji$&quot;Curse you! Are you saying you acknowledge this world, despite being a scripted existence just like us?!&quot;@</ToTranslate>
+  </String>
+  <String index="125">
+    <ToTranslate>chos0052</ToTranslate>
+  </String>
+  <String index="126">
+    <ToTranslate>Chousen$&quot;Acknowledge it or not, the fact is that I&apos;m here. That&apos;s all there is to it!&quot;@</ToTranslate>
+  </String>
+  <String index="127">
+    <ToTranslate>saji0086</ToTranslate>
+  </String>
+  <String index="128">
+    <ToTranslate>Saji$&quot;You traitor!&quot;@</ToTranslate>
+  </String>
+  <String index="129">
+    <ToTranslate>aisy0999</ToTranslate>
+  </String>
+  <String index="130">
+    <ToTranslate>Aisha$&quot;Traitor?! Chousen, art thou on his side?!&quot;@</ToTranslate>
+  </String>
+  <String index="131">
+    <ToTranslate>chos0053</ToTranslate>
+  </String>
+  <String index="132">
+    <ToTranslate>Chousen$&quot;No, I&apos;m on Our Lord&apos;s side! That&apos;s why I&apos;m saving him right now!&quot;@</ToTranslate>
+  </String>
+  <String index="133">
+    <ToTranslate>aisy1000</ToTranslate>
+  </String>
+  <String index="134">
+    <ToTranslate>Aisha$&quot;But he just said......&quot;@</ToTranslate>
+  </String>
+  <String index="135">
+    <ToTranslate>chos0054</ToTranslate>
+  </String>
+  <String index="136">
+    <ToTranslate>Chousen$&quot;I&apos;ll explain that later. For now, we have to stop Saji-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="137">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="138">
+    <ToTranslate>ecg_saj02b</ToTranslate>
+  </String>
+  <String index="139">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="140">
+    <ToTranslate>saji0087</ToTranslate>
+  </String>
+  <String index="141">
+    <ToTranslate>Saji$&quot;Why?! Why, Chousen?! You&apos;re a scripted existence meant to be pruned, aren&apos;t you?! So why do you permit this world to exist?! This fabricated world?!&quot;@</ToTranslate>
+  </String>
+  <String index="142">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="143">
+    <ToTranslate>ecg_saj02c</ToTranslate>
+  </String>
+  <String index="144">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="145">
+    <ToTranslate>chos0055</ToTranslate>
+  </String>
+  <String index="146">
+    <ToTranslate>Chousen$&quot;Even if it was fabricated, this world already holds its own story now. Nobody is able to destroy that anymore.&quot;@</ToTranslate>
+  </String>
+  <String index="147">
+    <ToTranslate>chos0056</ToTranslate>
+  </String>
+  <String index="148">
+    <ToTranslate>Chousen$&quot;This world will expand......endlessly. It will chance and divide into branches......&quot;@</ToTranslate>
+  </String>
+  <String index="149">
+    <ToTranslate>chos0057</ToTranslate>
+  </String>
+  <String index="150">
+    <ToTranslate>Chousen$&quot;If we reject all the alternate histories, then the true history will only retain 0 and 1, not any color. That wouldn&apos;t be fun, would it?&quot;@</ToTranslate>
+  </String>
+  <String index="151">
+    <ToTranslate>chos0058</ToTranslate>
+  </String>
+  <String index="152">
+    <ToTranslate>Chousen$&quot;Then we should just acknowledge these alternate histories. In doing so, the true history will become a warm world to its communities, not a colorless one.&quot;@</ToTranslate>
+  </String>
+  <String index="153">
+    <ToTranslate>chos0059</ToTranslate>
+  </String>
+  <String index="154">
+    <ToTranslate>Chousen$&quot;The stacking of those is what makes the true history a rich reality.&quot;@</ToTranslate>
+  </String>
+  <String index="155">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="156">
+    <ToTranslate>ecg_saj02b</ToTranslate>
+  </String>
+  <String index="157">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="158">
+    <ToTranslate>saji0088</ToTranslate>
+  </String>
+  <String index="159">
+    <ToTranslate>Saji$&quot;Are you saying we should repeat the same thing again and again in this scripted world forever just for that?&quot;@</ToTranslate>
+  </String>
+  <String index="160">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="161">
+    <ToTranslate>ecg_saj02c</ToTranslate>
+  </String>
+  <String index="162">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="163">
+    <ToTranslate>chos0060</ToTranslate>
+  </String>
+  <String index="164">
+    <ToTranslate>Chousen$&quot;That&apos;s right. That&apos;s not very difficult for scripted existences like us, is it?&quot;@</ToTranslate>
+  </String>
+  <String index="165">
+    <ToTranslate>chos0061</ToTranslate>
+  </String>
+  <String index="166">
+    <ToTranslate>Chousen$&quot;As long as we properly fulfill our roles, there will be people who find this world enjoyable. ......Isn&apos;t that wonderful?&quot;@</ToTranslate>
+  </String>
+  <String index="167">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="168">
+    <ToTranslate>ecg_saj02b</ToTranslate>
+  </String>
+  <String index="169">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="170">
+    <ToTranslate>saji0089</ToTranslate>
+  </String>
+  <String index="171">
+    <ToTranslate>Saji$&quot;Unfortunately, I&apos;m not some masochist who enjoys serving others.  A smile? Wonderful? ......What meaning can there be to an alternate history which only bears pain?&quot;@</ToTranslate>
+  </String>
+  <String index="172">
+    <ToTranslate>saji0091</ToTranslate>
+  </String>
+  <String index="173">
+    <ToTranslate>Saji$&quot;......I just want to destroy this alternate history created by the factor, Hongou Kazuto!&quot;@</ToTranslate>
+  </String>
+  <String index="174">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="175">
+    <ToTranslate>ecg_saj02d</ToTranslate>
+  </String>
+  <String index="176">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="177">
+    <ToTranslate>chos0062</ToTranslate>
+  </String>
+  <String index="178">
+    <ToTranslate>Chousen$&quot;It&apos;s not like I don&apos;t understand how you feel, but...this is still one reality. The worlds created as alternate histories become more difficult to change as time passes...&quot;@</ToTranslate>
+  </String>
+  <String index="179">
+    <ToTranslate>chos0063</ToTranslate>
+  </String>
+  <String index="180">
+    <ToTranslate>Chousen$&quot;Please accept that, Saji-chan. ......Even if you are driven by the impulses of destruction and creation.&quot;@</ToTranslate>
+  </String>
+  <String index="181">
+    <ToTranslate>saji0092</ToTranslate>
+  </String>
+  <String index="182">
+    <ToTranslate>Saji$&quot;Bah, I refuse. ......Talking to you won&apos;t bring any resolution.&quot;@</ToTranslate>
+  </String>
+  <String index="183">
+    <ToTranslate>chos0064</ToTranslate>
+  </String>
+  <String index="184">
+    <ToTranslate>Chousen$&quot;Are you determined to destroy this world......?&quot;@</ToTranslate>
+  </String>
+  <String index="185">
+    <ToTranslate>saji0093</ToTranslate>
+  </String>
+  <String index="186">
+    <ToTranslate>Saji$&quot;......?! You&apos;re well informed. So, you already knew that much?&quot;@</ToTranslate>
+  </String>
+  <String index="187">
+    <ToTranslate>chos0065</ToTranslate>
+  </String>
+  <String index="188">
+    <ToTranslate>Chousen$&quot;Well, just as you have your comrades, I have my own as well.&quot;@</ToTranslate>
+  </String>
+  <String index="189">
+    <ToTranslate>saji0094</ToTranslate>
+  </String>
+  <String index="190">
+    <ToTranslate>Saji$&quot;I see...oh well. You can&apos;t stop my anymore. This is a scripted performance - a play with a plot that&apos;s already written. Ukitsu is already making the preparations. This world will end.&quot;@</ToTranslate>
+  </String>
+  <String index="191">
+    <ToTranslate>chos0066</ToTranslate>
+  </String>
+  <String index="192">
+    <ToTranslate>Chousen$&quot;I see...... By &apos;preparing&apos;, you mean there&apos;s still some time, right?&quot;@</ToTranslate>
+  </String>
+  <String index="193">
+    <ToTranslate>saji0095</ToTranslate>
+  </String>
+  <String index="194">
+    <ToTranslate>Saji$&quot;......Who knows.&quot;@</ToTranslate>
+  </String>
+  <String index="195">
+    <ToTranslate>chos0067</ToTranslate>
+  </String>
+  <String index="196">
+    <ToTranslate>Chousen$&quot;Ahhh! Your face just said &apos;oh no!&apos; Hee-hee-hee, you&apos;re so adorable, Saji-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="197">
+    <ToTranslate>saji0096</ToTranslate>
+  </String>
+  <String index="198">
+    <ToTranslate>Saji$&quot;......Tsk.&quot;@</ToTranslate>
+  </String>
+  <String index="199">
+    <ToTranslate>saji0097</ToTranslate>
+  </String>
+  <String index="200">
+    <ToTranslate>Saji$&quot;Because of interference, I couldn&apos;t kill you today. ......I&apos;ll let you keep a hold on your life for now.&quot;@</ToTranslate>
+  </String>
+  <String index="201">
+    <ToTranslate>saji0098</ToTranslate>
+  </String>
+  <String index="202">
+    <ToTranslate>Saji$&quot;But the next time we meet...... I will kill you.&quot;@</ToTranslate>
+  </String>
+  <String index="203">
+    <ToTranslate>SE093</ToTranslate>
+  </String>
+  <String index="204">
+    <ToTranslate>bcg_town_a</ToTranslate>
+  </String>
+  <String index="205">
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="206">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="207">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="208">
+    <ToTranslate>bgm10</ToTranslate>
+  </String>
+  <String index="209">
+    <ToTranslate>aisy1001</ToTranslate>
+  </String>
+  <String index="210">
+    <ToTranslate>Aisha$&quot;Ahh! Ch-Chousen! Curse thou! What&apos;s the meaning of this?!&quot;@</ToTranslate>
+  </String>
+  <String index="211">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="212">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="213">
+    <ToTranslate>chos0068</ToTranslate>
+  </String>
+  <String index="214">
+    <ToTranslate>Chousen$&quot;Now wait! Calm down, Aisha-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="215">
+    <ToTranslate>aisy1002</ToTranslate>
+  </String>
+  <String index="216">
+    <ToTranslate>Aisha$&quot;How can I calm down?&quot;@</ToTranslate>
+  </String>
+  <String index="217">
+    <ToTranslate>Kazuto$&quot;Aisha, calm down. There are things I want to ask Chousen.&quot;@</ToTranslate>
+  </String>
+  <String index="218">
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="219">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="220">
+    <ToTranslate>aisy1003</ToTranslate>
+  </String>
+  <String index="221">
+    <ToTranslate>Aisha$&quot;B-but My Lord......&quot;@</ToTranslate>
+  </String>
+  <String index="222">
+    <ToTranslate>Kazuto$&quot;Sorry. Please do what I tell you for now, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="223">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="224">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="225">
+    <ToTranslate>aisy1004</ToTranslate>
+  </String>
+  <String index="226">
+    <ToTranslate>Aisha$&quot;......Understood.&quot;@</ToTranslate>
+  </String>
+  <String index="227">
+    <ToTranslate>$Aisha must have sensed something from my behavior, since she nodded obediently.@</ToTranslate>
+  </String>
+  <String index="228">
+    <ToTranslate>Kazuto$&quot;All right. Chousen, there are many things I wish to enquire about from you...Can you come to my throne room?&quot;@</ToTranslate>
+  </String>
+  <String index="229">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="230">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="231">
+    <ToTranslate>chos0069</ToTranslate>
+  </String>
+  <String index="232">
+    <ToTranslate>Chousen$&quot;Yes. The story of this alternate history is already nearing its finale. Perhaps it&apos;s time to explain things you and the others.&quot;@</ToTranslate>
+  </String>
+  <String index="233">
+    <ToTranslate>Kazuto$&quot;Please do. Shall we go?&quot;@</ToTranslate>
+  </String>
+  <String index="234">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="235">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="236">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="237">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="238">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="239">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="240">
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="241">
+    <ToTranslate>Kazuto$&quot;All right, Chousen...... Please explain in front of everyone. Tell us about this world, and your relation to that Saji fellow.&quot;@</ToTranslate>
+  </String>
+  <String index="242">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="243">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="244">
+    <ToTranslate>chos0070</ToTranslate>
+  </String>
+  <String index="245">
+    <ToTranslate>Chousen$&quot;Certainly. ......Let me start by telling everyone this: I don&apos;t belong to this world.&quot;@</ToTranslate>
+  </String>
+  <String index="246">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="247">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="248">
+    <ToTranslate>chos0071</ToTranslate>
+  </String>
+  <String index="249">
+    <ToTranslate>Chousen$&quot;No, perhaps it would be more accurate to say that I was created to exist in this world, borrowing the name of someone who should be in this world.&quot;@</ToTranslate>
+  </String>
+  <String index="250">
+    <ToTranslate>tcg_cho31ja</ToTranslate>
+  </String>
+  <String index="251">
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="252">
+    <ToTranslate>rinr0529</ToTranslate>
+  </String>
+  <String index="253">
+    <ToTranslate>Rinrin$&quot;Nyah? What do you mean?&quot;@</ToTranslate>
+  </String>
+  <String index="254">
+    <ToTranslate>tcg_syo21ja</ToTranslate>
+  </String>
+  <String index="255">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="256">
+    <ToTranslate>syur0504</ToTranslate>
+  </String>
+  <String index="257">
+    <ToTranslate>Shuri$&quot;When you say you don&apos;t belong to this world...... does that mean there are other worlds?&quot;@</ToTranslate>
+  </String>
+  <String index="258">
+    <ToTranslate>tcg_hg21ba</ToTranslate>
+  </String>
+  <String index="259">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="260">
+    <ToTranslate>chos0072</ToTranslate>
+  </String>
+  <String index="261">
+    <ToTranslate>Chousen$&quot;That&apos;s right! For example...... let&apos;s see. The world Our Lord was in.&quot;@</ToTranslate>
+  </String>
+  <String index="262">
+    <ToTranslate>tcg_cun11da</ToTranslate>
+  </String>
+  <String index="263">
+    <ToTranslate>tcg_cun11m</ToTranslate>
+  </String>
+  <String index="264">
+    <ToTranslate>sei_0328</ToTranslate>
+  </String>
+  <String index="265">
+    <ToTranslate>Sei$&quot;Oh, I see. The world called Heaven?&quot;@</ToTranslate>
+  </String>
+  <String index="266">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="267">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="268">
+    <ToTranslate>aisy1005</ToTranslate>
+  </String>
+  <String index="269">
+    <ToTranslate>Aisha$&quot;Hmm......that would make sense. So there are two worlds: our world, and the world of Heaven.&quot;@</ToTranslate>
+  </String>
+  <String index="270">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="271">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="272">
+    <ToTranslate>chos0073</ToTranslate>
+  </String>
+  <String index="273">
+    <ToTranslate>Chousen$&quot;I&apos;m sorry, there are more than just two worlds. There are many, many others.&quot;@</ToTranslate>
+  </String>
+  <String index="274">
+    <ToTranslate>chos0074</ToTranslate>
+  </String>
+  <String index="275">
+    <ToTranslate>Chousen$&quot;We call them alternate histories.&quot;@</ToTranslate>
+  </String>
+  <String index="276">
+    <ToTranslate>Kazuto$&quot;Alternate histories...... I&apos;m not mistaken, they&apos;re histories which never came to fruition, right?&quot;@</ToTranslate>
+  </String>
+  <String index="277">
+    <ToTranslate>chos0075</ToTranslate>
+  </String>
+  <String index="278">
+    <ToTranslate>Chousen$&quot;By definition, yes. But that&apos;s not what we mean. ......Well, I&apos;ll explain that in a bit.&quot;@</ToTranslate>
+  </String>
+  <String index="279">
+    <ToTranslate>chos0076</ToTranslate>
+  </String>
+  <String index="280">
+    <ToTranslate>Chousen$&quot;Anyway, the world Our Lord was in, this world, and the other worlds...... we call those worlds alternate histories.&quot;@</ToTranslate>
+  </String>
+  <String index="281">
+    <ToTranslate>chos0077</ToTranslate>
+  </String>
+  <String index="282">
+    <ToTranslate>Chousen$&quot;However, there is another world called the true history, whose concept stands in contrast to the alternate histories.&quot;@</ToTranslate>
+  </String>
+  <String index="283">
+    <ToTranslate>tcg_hg31ea</ToTranslate>
+  </String>
+  <String index="284">
+    <ToTranslate>tcg_hg31m</ToTranslate>
+  </String>
+  <String index="285">
+    <ToTranslate>chos0078</ToTranslate>
+  </String>
+  <String index="286">
+    <ToTranslate>Chousen$&quot;In other words, there are basically two kinds of worlds, the true history, and the alternate histories.&quot;@</ToTranslate>
+  </String>
+  <String index="287">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="288">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="289">
+    <ToTranslate>chos0079</ToTranslate>
+  </String>
+  <String index="290">
+    <ToTranslate>Chousen$&quot;An alternate and a true history......The true history would be the real world. People live their lives in it, but it is only one world, and it never opens a path to another world.&quot;@</ToTranslate>
+  </String>
+  <String index="291">
+    <ToTranslate>chos0080</ToTranslate>
+  </String>
+  <String index="292">
+    <ToTranslate>Chousen$&quot;It has no magic, and no creatures such as dragons. However it is a world where the people who live there can be certain such things don&apos;t exist. The world that create stories, and percieve them.&quot;@</ToTranslate>
+  </String>
+  <String index="293">
+    <ToTranslate>Chousen$&quot;That world is founded on the universal and abstract concept that only that which is supposed to exist, exists.&quot;@</ToTranslate>
+  </String>
+  <String index="294">
+    <ToTranslate>Kazuto$&quot;......?? This is getting a little too complicated.&quot;@</ToTranslate>
+  </String>
+  <String index="295">
+    <ToTranslate>tcg_hg21ba</ToTranslate>
+  </String>
+  <String index="296">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="297">
+    <ToTranslate>chos0081</ToTranslate>
+  </String>
+  <String index="298">
+    <ToTranslate>Chousen$&quot;To put it simply, there are several kinds of reality.&quot;@</ToTranslate>
+  </String>
+  <String index="299">
+    <ToTranslate>chos0082</ToTranslate>
+  </String>
+  <String index="300">
+    <ToTranslate>Chousen$&quot;There is this real world, in which Our Lord is the main character of one alternate history, and there is the real world known as the true history, wherein people are watching said Lord.&quot;@</ToTranslate>
+  </String>
+  <String index="301">
+    <ToTranslate>Kazuto$&quot;......Then what is an alternate history?&quot;@</ToTranslate>
+  </String>
+  <String index="302">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="303">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="304">
+    <ToTranslate>chos0083</ToTranslate>
+  </String>
+  <String index="305">
+    <ToTranslate>Chousen$&quot;An alternate history is a conceptual world created by an idea born from the true history.&quot;@</ToTranslate>
+  </String>
+  <String index="306">
+    <ToTranslate>chos0084</ToTranslate>
+  </String>
+  <String index="307">
+    <ToTranslate>Chousen$&quot;To put it simply, let&apos;s say someone in the true history created a story.&quot;@</ToTranslate>
+  </String>
+  <String index="308">
+    <ToTranslate>Kazuto$&quot;Created? ......You mean like a novelist writing a novel?&quot;@</ToTranslate>
+  </String>
+  <String index="309">
+    <ToTranslate>chos0085</ToTranslate>
+  </String>
+  <String index="310">
+    <ToTranslate>Chousen$&quot;Yes. That world which is created becomes the first alternate history.&quot;@</ToTranslate>
+  </String>
+  <String index="311">
+    <ToTranslate>chos0086</ToTranslate>
+  </String>
+  <String index="312">
+    <ToTranslate>Chousen$&quot;Then, people find that story interesting, and support it, going on to think about the story. ......In other words, they think of various ideas for the story.&quot;@</ToTranslate>
+  </String>
+  <String index="313">
+    <ToTranslate>chos0087</ToTranslate>
+  </String>
+  <String index="314">
+    <ToTranslate>Chousen$&quot;Those ideas give birth to other alternate histories.&quot;@</ToTranslate>
+  </String>
+  <String index="315">
+    <ToTranslate>tcg_hg21ba</ToTranslate>
+  </String>
+  <String index="316">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="317">
+    <ToTranslate>chos0088</ToTranslate>
+  </String>
+  <String index="318">
+    <ToTranslate>Chousen$&quot;For example...yes, I&apos;m sure you&apos;ll understand this, My Lord. There&apos;s a world known as the Romance of the Three Kingdoms, yes?&quot;@</ToTranslate>
+  </String>
+  <String index="319">
+    <ToTranslate>Chousen$&quot;One in which all of the generals depicted in that tale are male.&quot;@</ToTranslate>
+  </String>
+  <String index="320">
+    <ToTranslate>Kazuto$&quot;Yeah. The legitimate Romance of the Three Kingdoms that&apos;s different from this world, right?&quot;@</ToTranslate>
+  </String>
+  <String index="321">
+    <ToTranslate>tcg_hg21ca</ToTranslate>
+  </String>
+  <String index="322">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="323">
+    <ToTranslate>chos0089</ToTranslate>
+  </String>
+  <String index="324">
+    <ToTranslate>Chousen$&quot;That&apos;s right. And someone who read that story liked that world and thought about it.&quot;@</ToTranslate>
+  </String>
+  <String index="325">
+    <ToTranslate>tcg_hg21fa</ToTranslate>
+  </String>
+  <String index="326">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="327">
+    <ToTranslate>chos0090</ToTranslate>
+  </String>
+  <String index="328">
+    <ToTranslate>Chousen$&quot;Maybe Sousou and Kakouton were lovers......&quot;@</ToTranslate>
+  </String>
+  <String index="329">
+    <ToTranslate>chos0091</ToTranslate>
+  </String>
+  <String index="330">
+    <ToTranslate>Chousen$&quot;Maybe Shuuyu and Sonsaku&apos;s friendship was only on the surface...&quot;@</ToTranslate>
+  </String>
+  <String index="331">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="332">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="333">
+    <ToTranslate>chos0092</ToTranslate>
+  </String>
+  <String index="334">
+    <ToTranslate>Chousen$&quot;Such ideas create a new, alternate history, which complies with those ideas and exists in a different dimension from the true history. ......A metaphysical world.&quot;@</ToTranslate>
+  </String>
+  <String index="335">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="336">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="337">
+    <ToTranslate>chos0093</ToTranslate>
+  </String>
+  <String index="338">
+    <ToTranslate>Chousen$&quot;The characters of the story actually live their lives in that world, just as the readers do. They carry their own feelings and act on their own......Such a world is conceptually created.&quot;@</ToTranslate>
+  </String>
+  <String index="339">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="340">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="341">
+    <ToTranslate>chos0094</ToTranslate>
+  </String>
+  <String index="342">
+    <ToTranslate>Chousen$&quot;Maybe the Sousou who lives in that world hates Kakouton.&quot;@</ToTranslate>
+  </String>
+  <String index="343">
+    <ToTranslate>tcg_hg21ca</ToTranslate>
+  </String>
+  <String index="344">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="345">
+    <ToTranslate>chos0095</ToTranslate>
+  </String>
+  <String index="346">
+    <ToTranslate>Chousen$&quot;But maybe in another world that&apos;s very similar to that world, Sousou loves Kakouton.&quot;@</ToTranslate>
+  </String>
+  <String index="347">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="348">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="349">
+    <ToTranslate>chos0096</ToTranslate>
+  </String>
+  <String index="350">
+    <ToTranslate>Chousen$&quot;Each and every idea born from the true history creates an abstract, conceptual, metaphysical world.&quot;@</ToTranslate>
+  </String>
+  <String index="351">
+    <ToTranslate>chos0097</ToTranslate>
+  </String>
+  <String index="352">
+    <ToTranslate>Chousen$&quot;We define those stories that are created from the true history which branch and spread as alternate histories.&quot;@</ToTranslate>
+  </String>
+  <String index="353">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="354">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="355">
+    <ToTranslate>chos0098</ToTranslate>
+  </String>
+  <String index="356">
+    <ToTranslate>Chousen$&quot;However, those worlds are frail and ephemeral. ......When people forget the story that founded them, those alternate histories disappear as well.&quot;@</ToTranslate>
+  </String>
+  <String index="357">
+    <ToTranslate>chos0099</ToTranslate>
+  </String>
+  <String index="358">
+    <ToTranslate>Chousen$&quot;Once it fades from people&apos;s memory, the concepts vanish, and nothing is left to support the alternate history, so it too vanishes.&quot;@</ToTranslate>
+  </String>
+  <String index="359">
+    <ToTranslate>chos0100</ToTranslate>
+  </String>
+  <String index="360">
+    <ToTranslate>Chousen$&quot;Or perhaps people become interested in different stories, forget the stories they once supported, and then those worlds fail to exist......&quot;@</ToTranslate>
+  </String>
+  <String index="361">
+    <ToTranslate>chos0101</ToTranslate>
+  </String>
+  <String index="362">
+    <ToTranslate>Chousen$&quot;We either crush those alternate histories one by one, or we give them a conceptual link to the true history, and secure the concept into a fixed form.&quot;@</ToTranslate>
+  </String>
+  <String index="363">
+    <ToTranslate>tcg_hg21ca</ToTranslate>
+  </String>
+  <String index="364">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="365">
+    <ToTranslate>chos0102</ToTranslate>
+  </String>
+  <String index="366">
+    <ToTranslate>Chousen$&quot;That is the role we sages, heroes, or whatever name we held are to fulfill. In this world at least...&quot;@</ToTranslate>
+  </String>
+  <String index="367">
+    <ToTranslate>Kazuto$&quot;Wait a minute. I still don&apos;t get it at all, but...... Another reality? That&apos;s just impossible.&quot;@</ToTranslate>
+  </String>
+  <String index="368">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="369">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="370">
+    <ToTranslate>chos0103</ToTranslate>
+  </String>
+  <String index="371">
+    <ToTranslate>Chousen$&quot;How can you be so sure? Why?&quot;@</ToTranslate>
+  </String>
+  <String index="372">
+    <ToTranslate>Kazuto$&quot;Huh...... that&apos;s because I&apos;m here......&quot;@</ToTranslate>
+  </String>
+  <String index="373">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="374">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="375">
+    <ToTranslate>chos0104</ToTranslate>
+  </String>
+  <String index="376">
+    <ToTranslate>Chousen$&quot;But the reality in this world isn&apos;t the only one. There is another reality that doesn&apos;t exist in this world.&quot;@</ToTranslate>
+  </String>
+  <String index="377">
+    <ToTranslate>chos0105</ToTranslate>
+  </String>
+  <String index="378">
+    <ToTranslate>Chousen$&quot;The concept of reality seems concrete, but depending on a person, it&apos;s very abstract and subjective.&quot;@</ToTranslate>
+  </String>
+  <String index="379">
+    <ToTranslate>chos0106</ToTranslate>
+  </String>
+  <String index="380">
+    <ToTranslate>Chousen$&quot;Reality can exist in many forms, but you can not say that it doesn&apos;t exist in any form.&quot;@</ToTranslate>
+  </String>
+  <String index="381">
+    <ToTranslate>Kazuto$&quot;In other words?&quot;@</ToTranslate>
+  </String>
+  <String index="382">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="383">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="384">
+    <ToTranslate>chos0107</ToTranslate>
+  </String>
+  <String index="385">
+    <ToTranslate>Chousen$&quot;You just can&apos;t deny anything. Even if you don&apos;t want to admit it.&quot;@</ToTranslate>
+  </String>
+  <String index="386">
+    <ToTranslate>chos0108</ToTranslate>
+  </String>
+  <String index="387">
+    <ToTranslate>Chousen$&quot;And this alternate history will disappear someday. Aisha-chan, Shuri-chan, Rinrin-chan, and everyone else, all of it will disappear......&quot;@</ToTranslate>
+  </String>
+  <String index="388">
+    <ToTranslate>tcg_hg11ga</ToTranslate>
+  </String>
+  <String index="389">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="390">
+    <ToTranslate>chos0109</ToTranslate>
+  </String>
+  <String index="391">
+    <ToTranslate>Chousen$&quot;But even if it disappears, you can create another alternate history.&quot;@</ToTranslate>
+  </String>
+  <String index="392">
+    <ToTranslate>chos0110</ToTranslate>
+  </String>
+  <String index="393">
+    <ToTranslate>Chousen$&quot;An alternate history is created by a concept belong to a person existing in the true history, and the people in one alternate history can be led to that new world.&quot;@</ToTranslate>
+  </String>
+  <String index="394">
+    <ToTranslate>chos0111</ToTranslate>
+  </String>
+  <String index="395">
+    <ToTranslate>Chousen$&quot;By creating such a new world, the people in an alternate history don&apos;t have to disappear......Even though that&apos;s only temporary as well.&quot;@</ToTranslate>
+  </String>
+  <String index="396">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="397">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="398">
+    <ToTranslate>chos0112</ToTranslate>
+  </String>
+  <String index="399">
+    <ToTranslate>Chousen$&quot;Well, that was a long story, but essentially this world is about to perish soon-at the hands of Saji and Ukitsu.&quot;@</ToTranslate>
+  </String>
+  <String index="400">
+    <ToTranslate>tcg_hg21da</ToTranslate>
+  </String>
+  <String index="401">
+    <ToTranslate>tcg_hg21m</ToTranslate>
+  </String>
+  <String index="402">
+    <ToTranslate>tcg_kan11ea</ToTranslate>
+  </String>
+  <String index="403">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="404">
+    <ToTranslate>aisy1006</ToTranslate>
+  </String>
+  <String index="405">
+    <ToTranslate>Aisha$&quot;What do you mean...... perish?&quot;@</ToTranslate>
+  </String>
+  <String index="406">
+    <ToTranslate>chos0113</ToTranslate>
+  </String>
+  <String index="407">
+    <ToTranslate>Chousen$&quot;Exactly what I said. This world&apos;s very existence itself with vanish. Everyone will disappear. That&apos;s the fate of this alternate history.&quot;@</ToTranslate>
+  </String>
+  <String index="408">
+    <ToTranslate>Kazuto$&quot;......I&apos;m not going to let that happen!&quot;@</ToTranslate>
+  </String>
+  <String index="409">
+    <ToTranslate>Kazuto$&quot;This world belongs to people of this world!&quot;@</ToTranslate>
+  </String>
+  <String index="410">
+    <ToTranslate>tcg_hg11ga</ToTranslate>
+  </String>
+  <String index="411">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="412">
+    <ToTranslate>chos0114</ToTranslate>
+  </String>
+  <String index="413">
+    <ToTranslate>Chousen$&quot;......That&apos;s one way to put it. But you can also say that&apos;s not true if you look it as a concept born from another alternate history.&quot;@</ToTranslate>
+  </String>
+  <String index="414">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="415">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="416">
+    <ToTranslate>chos0115</ToTranslate>
+  </String>
+  <String index="417">
+    <ToTranslate>Chousen$&quot;However...... this moment does belong to this world. What are you going to do?&quot;@</ToTranslate>
+  </String>
+  <String index="418">
+    <ToTranslate>bgm29</ToTranslate>
+  </String>
+  <String index="419">
+    <ToTranslate>Kazuto$&quot;There&apos;s only one thing to do! I absolutely will not allow this world to perish!&quot;@</ToTranslate>
+  </String>
+  <String index="420">
+    <ToTranslate>Kazuto$&quot;Because if this world disappears, Aisha and the others will disappear too, right?! How can I let that happen?!&quot;@</ToTranslate>
+  </String>
+  <String index="421">
+    <ToTranslate>tcg_kan21da</ToTranslate>
+  </String>
+  <String index="422">
+    <ToTranslate>tcg_kan21m</ToTranslate>
+  </String>
+  <String index="423">
+    <ToTranslate>aisy1007</ToTranslate>
+  </String>
+  <String index="424">
+    <ToTranslate>Aisha$&quot;My Lord......&quot;@</ToTranslate>
+  </String>
+  <String index="425">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="426">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="427">
+    <ToTranslate>chos0116</ToTranslate>
+  </String>
+  <String index="428">
+    <ToTranslate>Chousen$&quot;I see...... Then fight. That&apos;s your role.&quot;@</ToTranslate>
+  </String>
+  <String index="429">
+    <ToTranslate>Kazuto$&quot;Of course I will. You don&apos;t even need to tell me! Everyone...... help me.&quot;@</ToTranslate>
+  </String>
+  <String index="430">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="431">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="432">
+    <ToTranslate>aisy1008</ToTranslate>
+  </String>
+  <String index="433">
+    <ToTranslate>Aisha$&quot;As you wish!&quot;@</ToTranslate>
+  </String>
+  <String index="434">
+    <ToTranslate>tcg_cun21ca</ToTranslate>
+  </String>
+  <String index="435">
+    <ToTranslate>tcg_cun21m</ToTranslate>
+  </String>
+  <String index="436">
+    <ToTranslate>sei_0329</ToTranslate>
+  </String>
+  <String index="437">
+    <ToTranslate>Sei$&quot;I&apos;ll be more than happy to.&quot;@</ToTranslate>
+  </String>
+  <String index="438">
+    <ToTranslate>tcg_syo21da</ToTranslate>
+  </String>
+  <String index="439">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="440">
+    <ToTranslate>syur0505</ToTranslate>
+  </String>
+  <String index="441">
+    <ToTranslate>Shuri$&quot;I-I&apos;ll do my best too!&quot;@</ToTranslate>
+  </String>
+  <String index="442">
+    <ToTranslate>tcg_cho11aa</ToTranslate>
+  </String>
+  <String index="443">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="444">
+    <ToTranslate>rinr0530</ToTranslate>
+  </String>
+  <String index="445">
+    <ToTranslate>Rinrin$&quot;Of course!&quot;@</ToTranslate>
+  </String>
+  <String index="446">
+    <ToTranslate>tcg_bac11ba</ToTranslate>
+  </String>
+  <String index="447">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="448">
+    <ToTranslate>sui_0243</ToTranslate>
+  </String>
+  <String index="449">
+    <ToTranslate>Sui$&quot;I don&apos;t mind risking my life for you, My Lord.&quot;@</ToTranslate>
+  </String>
+  <String index="450">
+    <ToTranslate>tcg_koc11ba</ToTranslate>
+  </String>
+  <String index="451">
+    <ToTranslate>tcg_koc11m</ToTranslate>
+  </String>
+  <String index="452">
+    <ToTranslate>shio0112</ToTranslate>
+  </String>
+  <String index="453">
+    <ToTranslate>Shion$&quot;It&apos;s our duty to be by your side, My Lord.&quot;@</ToTranslate>
+  </String>
+  <String index="454">
+    <ToTranslate>tcg_hg11ga</ToTranslate>
+  </String>
+  <String index="455">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="456">
+    <ToTranslate>chos0117</ToTranslate>
+  </String>
+  <String index="457">
+    <ToTranslate>Chousen$&quot;......Okay, I understand how you all feel. Let&apos;s go see Saji and Ukitsu.&quot;@</ToTranslate>
+  </String>
+  <String index="458">
+    <ToTranslate>chos0118</ToTranslate>
+  </String>
+  <String index="459">
+    <ToTranslate>Chousen$&quot;There lies a huge mirror with them. That was the beginning of this story, and the symbol of its end. If you&apos;re able to protect it, then all will be settled.&quot;@</ToTranslate>
+  </String>
+  <String index="460">
+    <ToTranslate>chos0119</ToTranslate>
+  </String>
+  <String index="461">
+    <ToTranslate>Chousen$&quot;A mirror reflects one&apos;s own idea...... If you can protect it, this alternate history may become firmer, and remain in people&apos;s hearts.&quot;@</ToTranslate>
+  </String>
+  <String index="462">
+    <ToTranslate>chos0120</ToTranslate>
+  </String>
+  <String index="463">
+    <ToTranslate>Chousen$&quot;In the heart of Our Lord, the hearts of those who tell this story in the true history, and in the hearts of those in the true history...&quot;@</ToTranslate>
+  </String>
+  <String index="464">
+    <ToTranslate>Kazuto$&quot;What do you mean it &apos;may&apos;......?&quot;@</ToTranslate>
+  </String>
+  <String index="465">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="466">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="467">
+    <ToTranslate>chos0121</ToTranslate>
+  </String>
+  <String index="468">
+    <ToTranslate>Chousen$&quot;......Unfortunately, we can&apos;t be sure. ......Do what you can, and let Heaven take care of the rest. That&apos;s all I can say.&quot;@</ToTranslate>
+  </String>
+  <String index="469">
+    <ToTranslate>Kazuto$&quot;Wait for Heaven&apos;s judgment, huh? ......That&apos;s better than sitting around doing nothing though.&quot;@</ToTranslate>
+  </String>
+  <String index="470">
+    <ToTranslate>chos0122</ToTranslate>
+  </String>
+  <String index="471">
+    <ToTranslate>Chousen$&quot;That&apos;s true. But remember one thing: Every world is formed with a balance of creation and destruction.&quot;@</ToTranslate>
+  </String>
+  <String index="472">
+    <ToTranslate>chos0123</ToTranslate>
+  </String>
+  <String index="473">
+    <ToTranslate>Chousen$&quot;......Even if this world ends, it will stay as a seed for a new creation. No matter what......&quot;@</ToTranslate>
+  </String>
+  <String index="474">
+    <ToTranslate>Kazuto$&quot;All right...... but I will never let this world end.&quot;@</ToTranslate>
+  </String>
+  <String index="475">
+    <ToTranslate>$I have comrades who protected me and followed me.@</ToTranslate>
+  </String>
+  <String index="476">
+    <ToTranslate>$I have the people of the city who accepted me.@</ToTranslate>
+  </String>
+  <String index="477">
+    <ToTranslate>$I absolutely refuse to let those people cease to exist.@</ToTranslate>
+  </String>
+  <String index="478">
+    <ToTranslate>$I don&apos;t care about reality or the alternate histories Chousen was talking about.@</ToTranslate>
+  </String>
+  <String index="479">
+    <ToTranslate>$I just want to protect my comrades.@</ToTranslate>
+  </String>
+  <String index="480">
+    <ToTranslate>$That&apos;s the only emotion I have in me.@</ToTranslate>
+  </String>
+  <String index="481">
+    <ToTranslate>Kazuto$&quot;I will fight...... and protect everyone.&quot;@</ToTranslate>
+  </String>
+  <String index="482">
+    <ToTranslate>$With that oath in my heart, I began giving everyone my commands.@</ToTranslate>
+  </String>
+  <String index="483">
+    <ToTranslate>tcg_hg11ga</ToTranslate>
+  </String>
+  <String index="484">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="485">
+    <ToTranslate>chos0124</ToTranslate>
+  </String>
+  <String index="486">
+    <ToTranslate>Chousen$&quot;Good luck...... You will find Saji and Ukitsu in the temple up on Mount Tai. They will execute a ceremony to destroy the mirror on the night of a full moon...... in about twenty days from now.&quot;@</ToTranslate>
+  </String>
+  <String index="487">
+    <ToTranslate>tcg_hg11ba</ToTranslate>
+  </String>
+  <String index="488">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="489">
+    <ToTranslate>chos0125</ToTranslate>
+  </String>
+  <String index="490">
+    <ToTranslate>Chousen$&quot;Use that time to make certain you&apos;re prepared.&quot;@</ToTranslate>
+  </String>
+  <String index="491">
+    <ToTranslate>Kazuto$&quot;Of course......!&quot;@</ToTranslate>
+  </String>
+  <String index="492">
+    <ToTranslate>$He doesn&apos;t even need to remind me.@</ToTranslate>
+  </String>
+  <String index="493">
+    <ToTranslate>$I&apos;ll do my very best for my comrades.@</ToTranslate>
+  </String>
+  <String index="494">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="495">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="496">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="497">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="498">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="499">
+    <ToTranslate>chos0126</ToTranslate>
+  </String>
+  <String index="500">
+    <ToTranslate>Chousen$&quot;Good luck. Even if you have been scripted to do so......&quot;@</ToTranslate>
+  </String>
+  <String index="501">
+    <ToTranslate>tcg_hg11ga</ToTranslate>
+  </String>
+  <String index="502">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="503">
+    <ToTranslate>chos0127</ToTranslate>
+  </String>
+  <String index="504">
+    <ToTranslate>Chousen$&quot;It will connect to the next story...&quot;@</ToTranslate>
+  </String>
+  <String index="505">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="506">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="507">
+    <ToTranslate>_kyotenphase</ToTranslate>
+  </String>
+</DBS>
+
+</poem>
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
