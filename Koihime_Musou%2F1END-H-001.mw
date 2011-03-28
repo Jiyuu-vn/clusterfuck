@@ -1,0 +1,5325 @@
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
+<poem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="1">
+    <ToTranslate>bcg_mir_impseat_a</ToTranslate>
+  </String>
+  <String index="2">
+    <ToTranslate>SE042</ToTranslate>
+  </String>
+  <String index="3">
+    <ToTranslate>bcg_edeff</ToTranslate>
+  </String>
+  <String index="4">
+    <ToTranslate>bcg_edeffmask2</ToTranslate>
+  </String>
+  <String index="5">
+    <ToTranslate>_msg_black</ToTranslate>
+  </String>
+  <String index="6">
+    <ToTranslate>_msg_mask</ToTranslate>
+  </String>
+  <String index="7">
+    <ToTranslate>sounyu_vom</ToTranslate>
+  </String>
+  <String index="8">
+    <ToTranslate>%$The mirror started emitting a pale light.</ToTranslate>
+  </String>
+  <String index="9">
+    <ToTranslate>%$It was the same light that shone when this story began.</ToTranslate>
+  </String>
+  <String index="10">
+    <ToTranslate>%$As the white light enveloped me, I realized I was parting with this world.</ToTranslate>
+  </String>
+  <String index="11">
+    <ToTranslate>%$There was an idea that gave form to my existence.</ToTranslate>
+  </String>
+  <String index="12">
+    <ToTranslate>%$Yet as I felt that idea fading, I pictured the people I loved in my mind.</ToTranslate>
+  </String>
+  <String index="13">
+    <ToTranslate>%$Everybody--</ToTranslate>
+  </String>
+  <String index="14">
+    <ToTranslate>%$Everybody who&apos;s been supporting me.</ToTranslate>
+  </String>
+  <String index="15">
+    <ToTranslate>%$Ren is quiet. Shia is cheerful. Ei is nagging, and Yue is sweet.</ToTranslate>
+  </String>
+  <String index="16">
+    <ToTranslate>%$Sousou and the others used to be my enemies but we became friends, and now they help me.</ToTranslate>
+  </String>
+  <String index="17">
+    <ToTranslate>%$Sonken and the others who taught me the role and responsibility of a ruler.</ToTranslate>
+  </String>
+  <String index="18">
+    <ToTranslate>%$Kousonsan, who is full of chivalry, helped me when I felt powerless.</ToTranslate>
+  </String>
+  <String index="19">
+    <ToTranslate>%$Everyones&apos;s faces appeared one after another - oh, wait, I think I&apos;m missing one person...</ToTranslate>
+  </String>
+  <String index="20">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="21">
+    <ToTranslate>%Kazuto$&quot;Who&apos;d that be?&quot;@</ToTranslate>
+  </String>
+  <String index="22">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="23">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="24">
+    <ToTranslate>chos0154</ToTranslate>
+  </String>
+  <String index="25">
+    <ToTranslate>Chousen$&quot;What&apos;s wrong?&quot;@</ToTranslate>
+  </String>
+  <String index="26">
+    <ToTranslate>Kazuto$&quot;I think I&apos;m forgetting somebody...&quot;@</ToTranslate>
+  </String>
+  <String index="27">
+    <ToTranslate>SE072</ToTranslate>
+  </String>
+  <String index="28">
+    <ToTranslate>yure_t</ToTranslate>
+  </String>
+  <String index="29">
+    <ToTranslate>bgm18</ToTranslate>
+  </String>
+  <String index="30">
+    <ToTranslate>Kazuto$&quot;...!? Wh-what!?&quot;@</ToTranslate>
+  </String>
+  <String index="31">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="32">
+    <ToTranslate>tcg_ukt21ea</ToTranslate>
+  </String>
+  <String index="33">
+    <ToTranslate>tcg_ukt21m</ToTranslate>
+  </String>
+  <String index="34">
+    <ToTranslate>tcg_hg11aa</ToTranslate>
+  </String>
+  <String index="35">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="36">
+    <ToTranslate>ukit0145</ToTranslate>
+  </String>
+  <String index="37">
+    <ToTranslate>Ukitsu$&quot;Hmm!? What&apos;s this quake? This shouldn&apos;t be in the plot...!&quot;@</ToTranslate>
+  </String>
+  <String index="38">
+    <ToTranslate>chos0155</ToTranslate>
+  </String>
+  <String index="39">
+    <ToTranslate>Chousen$&quot;Something must be happening to this world...&quot;@</ToTranslate>
+  </String>
+  <String index="40">
+    <ToTranslate>tcg_ukt11aa</ToTranslate>
+  </String>
+  <String index="41">
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="42">
+    <ToTranslate>ukit0146</ToTranslate>
+  </String>
+  <String index="43">
+    <ToTranslate>Ukitsu$&quot;Do you mean a new ending has been created instead of the scripted one...?&quot; @</ToTranslate>
+  </String>
+  <String index="44">
+    <ToTranslate>tcg_hg11ga</ToTranslate>
+  </String>
+  <String index="45">
+    <ToTranslate>tcg_hg11m</ToTranslate>
+  </String>
+  <String index="46">
+    <ToTranslate>chos0156</ToTranslate>
+  </String>
+  <String index="47">
+    <ToTranslate>Chousen$&quot;Yes. But that&apos;s fine. Any kind of story has the right to exist if someone wants it...&quot;@</ToTranslate>
+  </String>
+  <String index="48">
+    <ToTranslate>tcg_ukt11ba</ToTranslate>
+  </String>
+  <String index="49">
+    <ToTranslate>tcg_ukt11m</ToTranslate>
+  </String>
+  <String index="50">
+    <ToTranslate>ukit0147</ToTranslate>
+  </String>
+  <String index="51">
+    <ToTranslate>Ukitsu$&quot;Good grief... alternate histories are so complicated...&quot;@</ToTranslate>
+  </String>
+  <String index="52">
+    <ToTranslate>chos0157</ToTranslate>
+  </String>
+  <String index="53">
+    <ToTranslate>Chousen$&quot;They sure are... but that might be why people of the true history are attracted to them. Because they see endless possibilities...&quot;@</ToTranslate>
+  </String>
+  <String index="54">
+    <ToTranslate>ukit0148</ToTranslate>
+  </String>
+  <String index="55">
+    <ToTranslate>Ukitsu$&quot;So why don&apos;t we let time control everything? Let&apos;s see how this new alternate history is going to be formed...&quot;@</ToTranslate>
+  </String>
+  <String index="56">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="57">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="58">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="59">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="60">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="61">
+    <ToTranslate>ensy0150</ToTranslate>
+  </String>
+  <String index="62">
+    <ToTranslate>Enshou$&quot;How--&quot;@</ToTranslate>
+  </String>
+  <String index="63">
+    <ToTranslate>ensy0151</ToTranslate>
+  </String>
+  <String index="64">
+    <ToTranslate>Enshou$&quot;How did this happen...?&quot;@</ToTranslate>
+  </String>
+  <String index="65">
+    <ToTranslate>ganr0115</ToTranslate>
+  </String>
+  <String index="66">
+    <ToTranslate>Ganryou$&quot;Hee hee. Enshou-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="67">
+    <ToTranslate>ensy0152</ToTranslate>
+  </String>
+  <String index="68">
+    <ToTranslate>Enshou$&quot;No... no...!&quot;@</ToTranslate>
+  </String>
+  <String index="69">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="70">
+    <ToTranslate>bcg_street_a</ToTranslate>
+  </String>
+  <String index="71">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="72">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="73">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="74">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="75">
+    <ToTranslate>ganr0116</ToTranslate>
+  </String>
+  <String index="76">
+    <ToTranslate>Ganryou$&quot;Hey, Enshou-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="77">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="78">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="79">
+    <ToTranslate>ensy0153</ToTranslate>
+  </String>
+  <String index="80">
+    <ToTranslate>Enshou$&quot;What is it, Ganryou-san?&quot;@</ToTranslate>
+  </String>
+  <String index="81">
+    <ToTranslate>ganr0117</ToTranslate>
+  </String>
+  <String index="82">
+    <ToTranslate>Ganryou$&quot;Is there really a paradise?&quot;@</ToTranslate>
+  </String>
+  <String index="83">
+    <ToTranslate>tcg_ens22ia</ToTranslate>
+  </String>
+  <String index="84">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="85">
+    <ToTranslate>ensy0154</ToTranslate>
+  </String>
+  <String index="86">
+    <ToTranslate>Enshou$&quot;Of course there is. Or do you not belive the information I gathered?&quot;@</ToTranslate>
+  </String>
+  <String index="87">
+    <ToTranslate>ganr0118</ToTranslate>
+  </String>
+  <String index="88">
+    <ToTranslate>Ganryou$&quot;Hmm, but even the local people don&apos;t know that island. How can a traveling Taoist know about it...?&quot;@</ToTranslate>
+  </String>
+  <String index="89">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="90">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="91">
+    <ToTranslate>ensy0155</ToTranslate>
+  </String>
+  <String index="92">
+    <ToTranslate>Enshou$&quot;That makes it look even more truthful. If the local people knew about it, it wouldn&apos;t be called a legendary paradise.&quot;@</ToTranslate>
+  </String>
+  <String index="93">
+    <ToTranslate>ganr0119</ToTranslate>
+  </String>
+  <String index="94">
+    <ToTranslate>Ganryou$&quot;Well... that kind of makes sense...&quot;@</ToTranslate>
+  </String>
+  <String index="95">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="96">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="97">
+    <ToTranslate>ganr0120</ToTranslate>
+  </String>
+  <String index="98">
+    <ToTranslate>Ganryou$&quot;It&apos;s not going to be like that one cave, right?&quot;@</ToTranslate>
+  </String>
+  <String index="99">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="100">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="101">
+    <ToTranslate>ensy0156</ToTranslate>
+  </String>
+  <String index="102">
+    <ToTranslate>Enshou$&quot;No way... Ganryou-san, are you skeptical about the information I got?&quot; @</ToTranslate>
+  </String>
+  <String index="103">
+    <ToTranslate>ganr0121</ToTranslate>
+  </String>
+  <String index="104">
+    <ToTranslate>Ganryou$&quot;It&apos;s not like that...&quot;@</ToTranslate>
+  </String>
+  <String index="105">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="106">
+    <ToTranslate>tcg_bun22ba</ToTranslate>
+  </String>
+  <String index="107">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="108">
+    <ToTranslate>bgm26</ToTranslate>
+  </String>
+  <String index="109">
+    <ToTranslate>buns0110</ToTranslate>
+  </String>
+  <String index="110">
+    <ToTranslate>Bunshuu$&quot;Enshou-sama! We&apos;ve got a ship now!&quot;@</ToTranslate>
+  </String>
+  <String index="111">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="112">
+    <ToTranslate>tcg_ens12ha</ToTranslate>
+  </String>
+  <String index="113">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="114">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="115">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="116">
+    <ToTranslate>tcg_bun22ba</ToTranslate>
+  </String>
+  <String index="117">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="118">
+    <ToTranslate>ensy0157</ToTranslate>
+  </String>
+  <String index="119">
+    <ToTranslate>Enshou$&quot;Oh, Bunshuu-san, you work fast. Okay, Ganryou-san, let&apos;s head to the paradise!&quot;@</ToTranslate>
+  </String>
+  <String index="120">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="121">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="122">
+    <ToTranslate>ganr0122</ToTranslate>
+  </String>
+  <String index="123">
+    <ToTranslate>Ganryou$&quot;Uh, okay.&quot;@</ToTranslate>
+  </String>
+  <String index="124">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="125">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="126">
+    <ToTranslate>ensy0158</ToTranslate>
+  </String>
+  <String index="127">
+    <ToTranslate>Enshou$&quot;Bunshuu-san, the ship is exquisite enough for me to ride, isn&apos;t it?&quot;@</ToTranslate>
+  </String>
+  <String index="128">
+    <ToTranslate>tcg_bun12ia</ToTranslate>
+  </String>
+  <String index="129">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="130">
+    <ToTranslate>buns0111</ToTranslate>
+  </String>
+  <String index="131">
+    <ToTranslate>Bunshuu$&quot;Of course! I rented the best one available in this port!&quot;@</ToTranslate>
+  </String>
+  <String index="132">
+    <ToTranslate>tcg_ens12ha</ToTranslate>
+  </String>
+  <String index="133">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="134">
+    <ToTranslate>ensy0159</ToTranslate>
+  </String>
+  <String index="135">
+    <ToTranslate>Enshou$&quot;Great job, Bunshuu-san! Can you sail it perfectly?&quot;@</ToTranslate>
+  </String>
+  <String index="136">
+    <ToTranslate>buns0112</ToTranslate>
+  </String>
+  <String index="137">
+    <ToTranslate>Bunshuu$&quot;Of course! I learned how to from the owner!&quot;@</ToTranslate>
+  </String>
+  <String index="138">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="139">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="140">
+    <ToTranslate>ensy0160</ToTranslate>
+  </String>
+  <String index="141">
+    <ToTranslate>Enshou$&quot;You truly deserve to be my minion, Bunshuu-san. Ganryou, you should learn from her.&quot;@</ToTranslate>
+  </String>
+  <String index="142">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="143">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="144">
+    <ToTranslate>ganr0123</ToTranslate>
+  </String>
+  <String index="145">
+    <ToTranslate>Ganryou$&quot;All right.&quot;@</ToTranslate>
+  </String>
+  <String index="146">
+    <ToTranslate>tcg_ens22ba</ToTranslate>
+  </String>
+  <String index="147">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="148">
+    <ToTranslate>ensy0161</ToTranslate>
+  </String>
+  <String index="149">
+    <ToTranslate>Enshou$&quot;Okay, now let us sail for the paradise!&quot;@</ToTranslate>
+  </String>
+  <String index="150">
+    <ToTranslate>tcg_bun22ba</ToTranslate>
+  </String>
+  <String index="151">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="152">
+    <ToTranslate>buns0113</ToTranslate>
+  </String>
+  <String index="153">
+    <ToTranslate>Bunshuu$&quot;Yeah!&quot;@</ToTranslate>
+  </String>
+  <String index="154">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="155">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="156">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="157">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="158">
+    <ToTranslate>bcg_sea_a</ToTranslate>
+  </String>
+  <String index="159">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="160">
+    <ToTranslate>bgm11</ToTranslate>
+  </String>
+  <String index="161">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="162">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="163">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="164">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="165">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="166">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="167">
+    <ToTranslate>ensy0162</ToTranslate>
+  </String>
+  <String index="168">
+    <ToTranslate>Enshou$&quot;Bunshuu-san...?&quot;@</ToTranslate>
+  </String>
+  <String index="169">
+    <ToTranslate>buns0114</ToTranslate>
+  </String>
+  <String index="170">
+    <ToTranslate>Bunshuu$&quot;Yes?&quot;@</ToTranslate>
+  </String>
+  <String index="171">
+    <ToTranslate>ensy0163</ToTranslate>
+  </String>
+  <String index="172">
+    <ToTranslate>Enshou$&quot;Didn&apos;t I ask you if the ship was exquisite enough for me?&quot;@</ToTranslate>
+  </String>
+  <String index="173">
+    <ToTranslate>tcg_bun12ia</ToTranslate>
+  </String>
+  <String index="174">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="175">
+    <ToTranslate>buns0115</ToTranslate>
+  </String>
+  <String index="176">
+    <ToTranslate>Bunshuu$&quot;Yes, you did.&quot;@</ToTranslate>
+  </String>
+  <String index="177">
+    <ToTranslate>ensy0164</ToTranslate>
+  </String>
+  <String index="178">
+    <ToTranslate>Enshou$&quot;I heard that the ocean here is very rough and there are man-eating sharks as well.&quot;@</ToTranslate>
+  </String>
+  <String index="179">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="180">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="181">
+    <ToTranslate>buns0116</ToTranslate>
+  </String>
+  <String index="182">
+    <ToTranslate>Bunshuu$&quot;I heard so too.&quot;@</ToTranslate>
+  </String>
+  <String index="183">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="184">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="185">
+    <ToTranslate>ensy0165</ToTranslate>
+  </String>
+  <String index="186">
+    <ToTranslate>Enshou$&quot;So what is with this tattered ship... No, no matter how you look it, it&apos;s a raft! How can we sail across the ocean on this?!&quot;@</ToTranslate>
+  </String>
+  <String index="187">
+    <ToTranslate>tcg_bun22fa</ToTranslate>
+  </String>
+  <String index="188">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="189">
+    <ToTranslate>buns0117</ToTranslate>
+  </String>
+  <String index="190">
+    <ToTranslate>Bunshuu$&quot;I did rent the most exquisite ship we could affored......on our budget.&quot;@</ToTranslate>
+  </String>
+  <String index="191">
+    <ToTranslate>tcg_gan12ca</ToTranslate>
+  </String>
+  <String index="192">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="193">
+    <ToTranslate>ganr0124</ToTranslate>
+  </String>
+  <String index="194">
+    <ToTranslate>Ganryou$&quot;D-don&apos;t look at me!&quot;@</ToTranslate>
+  </String>
+  <String index="195">
+    <ToTranslate>ensy0166</ToTranslate>
+  </String>
+  <String index="196">
+    <ToTranslate>Enshou$&quot;Hmph. This is proof that you don&apos;t have enough awareness that you&apos;re a member of my party... Why don&apos;t you get a sailing ship like that one over there, Bunshuu-san?&quot;@</ToTranslate>
+  </String>
+  <String index="197">
+    <ToTranslate>tcg_bun22ha</ToTranslate>
+  </String>
+  <String index="198">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="199">
+    <ToTranslate>buns0118</ToTranslate>
+  </String>
+  <String index="200">
+    <ToTranslate>Bunshuu$&quot;Oh, I negotiated with that one too, and including the crew, the price is...*mutter*&quot;@</ToTranslate>
+  </String>
+  <String index="201">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="202">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="203">
+    <ToTranslate>ensy0167</ToTranslate>
+  </String>
+  <String index="204">
+    <ToTranslate>Enshou$&quot;What...?&quot;@</ToTranslate>
+  </String>
+  <String index="205">
+    <ToTranslate>buns0119</ToTranslate>
+  </String>
+  <String index="206">
+    <ToTranslate>Bunshuu$&quot;You want to hear it too, Toshi?&quot;@</ToTranslate>
+  </String>
+  <String index="207">
+    <ToTranslate>ganr0125</ToTranslate>
+  </String>
+  <String index="208">
+    <ToTranslate>Ganryou$&quot;Not too much, but how much would it be?&quot;@</ToTranslate>
+  </String>
+  <String index="209">
+    <ToTranslate>buns0120</ToTranslate>
+  </String>
+  <String index="210">
+    <ToTranslate>Bunshuu$&quot;(Mutter, mutter.)&quot;@</ToTranslate>
+  </String>
+  <String index="211">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="212">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="213">
+    <ToTranslate>ganr0126</ToTranslate>
+  </String>
+  <String index="214">
+    <ToTranslate>Ganryou$&quot;What...? Is it really that expensive?&quot;@</ToTranslate>
+  </String>
+  <String index="215">
+    <ToTranslate>buns0121</ToTranslate>
+  </String>
+  <String index="216">
+    <ToTranslate>Bunshuu$&quot;That&apos;s what they told me. But it&apos;s still so low they don&apos;t want me to say the price out loud.&quot;@</ToTranslate>
+  </String>
+  <String index="217">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="218">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="219">
+    <ToTranslate>ganr0127</ToTranslate>
+  </String>
+  <String index="220">
+    <ToTranslate>Ganryou$&quot;I&apos;m sorry, Enshou-sama, but we can&apos;t afford that, no matter what we do.&quot;@</ToTranslate>
+  </String>
+  <String index="221">
+    <ToTranslate>tcg_ens22ea</ToTranslate>
+  </String>
+  <String index="222">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="223">
+    <ToTranslate>ensy0168</ToTranslate>
+  </String>
+  <String index="224">
+    <ToTranslate>Enshou$&quot;B-but will we able to overcome the rough waves and the sharks with this raft?&quot;@</ToTranslate>
+  </String>
+  <String index="225">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="226">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="227">
+    <ToTranslate>buns0122</ToTranslate>
+  </String>
+  <String index="228">
+    <ToTranslate>Bunshuu$&quot;Don&apos;t worry. We&apos;ll be all right. I guess.&quot;@</ToTranslate>
+  </String>
+  <String index="229">
+    <ToTranslate>ganr0128</ToTranslate>
+  </String>
+  <String index="230">
+    <ToTranslate>Ganryou$&quot;Bun-chan... Shouldn&apos;t we think of something else..?&quot; @</ToTranslate>
+  </String>
+  <String index="231">
+    <ToTranslate>tcg_bun22ba</ToTranslate>
+  </String>
+  <String index="232">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="233">
+    <ToTranslate>buns0123</ToTranslate>
+  </String>
+  <String index="234">
+    <ToTranslate>Bunshuu$&quot;Oh, don&apos;t worry, Ganryou. We&apos;re lucky, you know. We&apos;re not going to die.&quot;@</ToTranslate>
+  </String>
+  <String index="235">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="236">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="237">
+    <ToTranslate>ganr0129</ToTranslate>
+  </String>
+  <String index="238">
+    <ToTranslate>Ganryou$&quot;Is that really so...?&quot;@</ToTranslate>
+  </String>
+  <String index="239">
+    <ToTranslate>buns0124</ToTranslate>
+  </String>
+  <String index="240">
+    <ToTranslate>Bunshuu$&quot;Come on, get on it, you two. I know how to sail it!&quot;@</ToTranslate>
+  </String>
+  <String index="241">
+    <ToTranslate>ensy0169</ToTranslate>
+  </String>
+  <String index="242">
+    <ToTranslate>Enshou$&quot;You do? We&apos;re counting on you, right?&quot;@</ToTranslate>
+  </String>
+  <String index="243">
+    <ToTranslate>tcg_bun12ia</ToTranslate>
+  </String>
+  <String index="244">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="245">
+    <ToTranslate>buns0125</ToTranslate>
+  </String>
+  <String index="246">
+    <ToTranslate>Bunshuu$&quot;Have no worries! Just sit back and relax!&quot;@</ToTranslate>
+  </String>
+  <String index="247">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="248">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="249">
+    <ToTranslate>ganr0130</ToTranslate>
+  </String>
+  <String index="250">
+    <ToTranslate>Ganryou$&quot;I&apos;m so nervous...&quot;@</ToTranslate>
+  </String>
+  <String index="251">
+    <ToTranslate>buns0126</ToTranslate>
+  </String>
+  <String index="252">
+    <ToTranslate>Bunshuu$&quot;Here we go!&quot;@</ToTranslate>
+  </String>
+  <String index="253">
+    <ToTranslate>ganr0131</ToTranslate>
+  </String>
+  <String index="254">
+    <ToTranslate>Ganryou$&quot;Yeah.&quot;@</ToTranslate>
+  </String>
+  <String index="255">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="256">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="257">
+    <ToTranslate>ensy0170</ToTranslate>
+  </String>
+  <String index="258">
+    <ToTranslate>Enshou$&quot;Yeah.&quot;@</ToTranslate>
+  </String>
+  <String index="259">
+    <ToTranslate>tcg_bun12ia</ToTranslate>
+  </String>
+  <String index="260">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="261">
+    <ToTranslate>buns0127</ToTranslate>
+  </String>
+  <String index="262">
+    <ToTranslate>Bunshuu$&quot;Louder, girls!&quot;@</ToTranslate>
+  </String>
+  <String index="263">
+    <ToTranslate>tcg_gan22fa</ToTranslate>
+  </String>
+  <String index="264">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="265">
+    <ToTranslate>ganr0132</ToTranslate>
+  </String>
+  <String index="266">
+    <ToTranslate>Ganryou$&quot;Y-yeah!&quot;@</ToTranslate>
+  </String>
+  <String index="267">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="268">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="269">
+    <ToTranslate>ensy0171</ToTranslate>
+  </String>
+  <String index="270">
+    <ToTranslate>Enshou$&quot;Yeah!&quot;@</ToTranslate>
+  </String>
+  <String index="271">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="272">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="273">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="274">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="275">
+    <ToTranslate>bcg_sky_a</ToTranslate>
+  </String>
+  <String index="276">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="277">
+    <ToTranslate>bgm18</ToTranslate>
+  </String>
+  <String index="278">
+    <ToTranslate>buns0128</ToTranslate>
+  </String>
+  <String index="279">
+    <ToTranslate>Bunshuu$&quot;Uh!&quot;@</ToTranslate>
+  </String>
+  <String index="280">
+    <ToTranslate>SE122</ToTranslate>
+  </String>
+  <String index="281">
+    <ToTranslate>yure_r</ToTranslate>
+  </String>
+  <String index="282">
+    <ToTranslate>$Splash!@</ToTranslate>
+  </String>
+  <String index="283">
+    <ToTranslate>ganr0133</ToTranslate>
+  </String>
+  <String index="284">
+    <ToTranslate>Ganryou$&quot;Kyaah!&quot;@</ToTranslate>
+  </String>
+  <String index="285">
+    <ToTranslate>ensy0172</ToTranslate>
+  </String>
+  <String index="286">
+    <ToTranslate>Enshou$&quot;B-Bunshuu-san! I see something in the water!&quot;@</ToTranslate>
+  </String>
+  <String index="287">
+    <ToTranslate>SE123</ToTranslate>
+  </String>
+  <String index="288">
+    <ToTranslate>$Swish, swash...@</ToTranslate>
+  </String>
+  <String index="289">
+    <ToTranslate>ganr0134</ToTranslate>
+  </String>
+  <String index="290">
+    <ToTranslate>Ganryou$&quot;I-is that a shark...? Kyaa!&quot;@</ToTranslate>
+  </String>
+  <String index="291">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="292">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="293">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="294">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="295">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="296">
+    <ToTranslate>ganr0135</ToTranslate>
+  </String>
+  <String index="297">
+    <ToTranslate>Ganryou$&quot;Enshou-sama! Enshou-sama!&quot;@</ToTranslate>
+  </String>
+  <String index="298">
+    <ToTranslate>ensy0173</ToTranslate>
+  </String>
+  <String index="299">
+    <ToTranslate>Enshou$&quot;Hmm... I can&apos;t eat anymore...&quot;@</ToTranslate>
+  </String>
+  <String index="300">
+    <ToTranslate>ganr0136</ToTranslate>
+  </String>
+  <String index="301">
+    <ToTranslate>Ganryou$&quot;Please wake up, Enshou-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="302">
+    <ToTranslate>ensy0174</ToTranslate>
+  </String>
+  <String index="303">
+    <ToTranslate>Enshou$&quot;Uh, what&apos;s the matter, Ganryou-san...?&quot;@</ToTranslate>
+  </String>
+  <String index="304">
+    <ToTranslate>ganr0137</ToTranslate>
+  </String>
+  <String index="305">
+    <ToTranslate>Ganryou$&quot;Oh, you&apos;re finally awake.&quot;@</ToTranslate>
+  </String>
+  <String index="306">
+    <ToTranslate>ensy0175</ToTranslate>
+  </String>
+  <String index="307">
+    <ToTranslate>Enshou$&quot;Oh? What is this place? I thought we were...&quot;@</ToTranslate>
+  </String>
+  <String index="308">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="309">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="310">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="311">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="312">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="313">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="314">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="315">
+    <ToTranslate>ganr0138</ToTranslate>
+  </String>
+  <String index="316">
+    <ToTranslate>Ganryou$&quot;Yes. We fell off the raft and a shark attacked us, but...&quot; @</ToTranslate>
+  </String>
+  <String index="317">
+    <ToTranslate>ensy0176</ToTranslate>
+  </String>
+  <String index="318">
+    <ToTranslate>Enshou$&quot;Didn&apos;t you two save me?&quot;@</ToTranslate>
+  </String>
+  <String index="319">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="320">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="321">
+    <ToTranslate>ganr0139</ToTranslate>
+  </String>
+  <String index="322">
+    <ToTranslate>Ganryou$&quot;I can&apos;t remember what happened, and neither can Bun-chan. I woke up in this hall.&quot;@</ToTranslate>
+  </String>
+  <String index="323">
+    <ToTranslate>ensy0177</ToTranslate>
+  </String>
+  <String index="324">
+    <ToTranslate>Enshou$&quot;It looks like a shrine or a castle... Is there a way out?&quot;@</ToTranslate>
+  </String>
+  <String index="325">
+    <ToTranslate>ganr0140</ToTranslate>
+  </String>
+  <String index="326">
+    <ToTranslate>Ganryou$&quot;Yes, that way.&quot;@</ToTranslate>
+  </String>
+  <String index="327">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="328">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="329">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="330">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="331">
+    <ToTranslate>bcg_shrine_a</ToTranslate>
+  </String>
+  <String index="332">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="333">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="334">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="335">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="336">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="337">
+    <ToTranslate>ensy0178</ToTranslate>
+  </String>
+  <String index="338">
+    <ToTranslate>Enshou$&quot;It looks like some kind of a shrine to something...&quot;@</ToTranslate>
+  </String>
+  <String index="339">
+    <ToTranslate>ganr0141</ToTranslate>
+  </String>
+  <String index="340">
+    <ToTranslate>Ganryou$&quot;Bun-chan is checking the surroundings. I think we&apos;ll get to know what this place is when she comes back.&quot; @</ToTranslate>
+  </String>
+  <String index="341">
+    <ToTranslate>ensy0179</ToTranslate>
+  </String>
+  <String index="342">
+    <ToTranslate>Enshou$&quot;Ganryou-san... Is it possible that we might have...?&quot;@</ToTranslate>
+  </String>
+  <String index="343">
+    <ToTranslate>tcg_gan12ka</ToTranslate>
+  </String>
+  <String index="344">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="345">
+    <ToTranslate>ganr0142</ToTranslate>
+  </String>
+  <String index="346">
+    <ToTranslate>Ganryou$&quot;Uggh, no, Enshsou-sama, please don&apos;t say the rest...&quot;@</ToTranslate>
+  </String>
+  <String index="347">
+    <ToTranslate>ensy0180</ToTranslate>
+  </String>
+  <String index="348">
+    <ToTranslate>Enshou$&quot;Died...?&quot;@</ToTranslate>
+  </String>
+  <String index="349">
+    <ToTranslate>tcg_gan22fa</ToTranslate>
+  </String>
+  <String index="350">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="351">
+    <ToTranslate>ganr0143</ToTranslate>
+  </String>
+  <String index="352">
+    <ToTranslate>Ganryou$&quot;Nooo, nooo! Please don&apos;t say that! Bun-chan, come back!&quot;@</ToTranslate>
+  </String>
+  <String index="353">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="354">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="355">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="356">
+    <ToTranslate>bgm26</ToTranslate>
+  </String>
+  <String index="357">
+    <ToTranslate>buns0129</ToTranslate>
+  </String>
+  <String index="358">
+    <ToTranslate>Bunshuu$&quot;I&apos;m back.&quot;@</ToTranslate>
+  </String>
+  <String index="359">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="360">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="361">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="362">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="363">
+    <ToTranslate>tcg_gan22fa</ToTranslate>
+  </String>
+  <String index="364">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="365">
+    <ToTranslate>ganr0144</ToTranslate>
+  </String>
+  <String index="366">
+    <ToTranslate>Ganryou$&quot;Whaaaah. Welcome back, Bun-chan!&quot; @</ToTranslate>
+  </String>
+  <String index="367">
+    <ToTranslate>tcg_bun12ma</ToTranslate>
+  </String>
+  <String index="368">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="369">
+    <ToTranslate>buns0130</ToTranslate>
+  </String>
+  <String index="370">
+    <ToTranslate>Bunshuu$&quot;Wh-what&apos;s wrong, Toshi? Why are you crying in my arms? Aren&apos;t you being more forward than usual today...?&quot;@</ToTranslate>
+  </String>
+  <String index="371">
+    <ToTranslate>ganr0145</ToTranslate>
+  </String>
+  <String index="372">
+    <ToTranslate>Ganryou$&quot;Enshou-sama scared me... What did you find out in the surroundings?&quot; @</ToTranslate>
+  </String>
+  <String index="373">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="374">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="375">
+    <ToTranslate>buns0131</ToTranslate>
+  </String>
+  <String index="376">
+    <ToTranslate>Bunshuu$&quot;I saw a signboard that says Mt. Penglai, so I believe this is the island we wanted to go to... But I didn&apos;t see any sign of anybody living here. This is the only building around.&quot;@</ToTranslate>
+  </String>
+  <String index="377">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="378">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="379">
+    <ToTranslate>ganr0146</ToTranslate>
+  </String>
+  <String index="380">
+    <ToTranslate>Ganryou$&quot;Then who rescued us...?&quot;@</ToTranslate>
+  </String>
+  <String index="381">
+    <ToTranslate>tcg_bun12fa</ToTranslate>
+  </String>
+  <String index="382">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="383">
+    <ToTranslate>buns0132</ToTranslate>
+  </String>
+  <String index="384">
+    <ToTranslate>Bunshuu$&quot;I don&apos;t know. I found a stream and some fruit trees, so we won&apos;t starve... but this place might really be the afterlife... heeyaaahhh!&quot;@</ToTranslate>
+  </String>
+  <String index="385">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="386">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="387">
+    <ToTranslate>ensy0181</ToTranslate>
+  </String>
+  <String index="388">
+    <ToTranslate>Enshou$&quot;Is this the mouth trying to say such ominous things?!&quot;@</ToTranslate>
+  </String>
+  <String index="389">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="390">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="391">
+    <ToTranslate>buns0133</ToTranslate>
+  </String>
+  <String index="392">
+    <ToTranslate>Bunshuu$&quot;Buw Emfou-fama, fou fwee few firff fo fay if!&quot;@</ToTranslate>
+  </String>
+  <String index="393">
+    <ToTranslate>ensy0182</ToTranslate>
+  </String>
+  <String index="394">
+    <ToTranslate>Enshou$I don&apos;t know what you&apos;re saying! Join me, Ganryou-san!&quot;@</ToTranslate>
+  </String>
+  <String index="395">
+    <ToTranslate>tcg_gan22ma</ToTranslate>
+  </String>
+  <String index="396">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="397">
+    <ToTranslate>ganr0147</ToTranslate>
+  </String>
+  <String index="398">
+    <ToTranslate>Ganryou$&quot;Hmm, they say it&apos;s not a dream if it hurts... Sorry, Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="399">
+    <ToTranslate>buns0134</ToTranslate>
+  </String>
+  <String index="400">
+    <ToTranslate>Bunshuu$&quot;Uwaaah! If furff! If furff!&quot;@</ToTranslate>
+  </String>
+  <String index="401">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="402">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="403">
+    <ToTranslate>ensy0183</ToTranslate>
+  </String>
+  <String index="404">
+    <ToTranslate>Enshou$&quot;Looks like it hurts.&quot;@</ToTranslate>
+  </String>
+  <String index="405">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="406">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="407">
+    <ToTranslate>ganr0148</ToTranslate>
+  </String>
+  <String index="408">
+    <ToTranslate>Ganryou$&quot;So this isn&apos;t a dream and we&apos;re alive.&quot;@</ToTranslate>
+  </String>
+  <String index="409">
+    <ToTranslate>tcg_bun22ha</ToTranslate>
+  </String>
+  <String index="410">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="411">
+    <ToTranslate>buns0135</ToTranslate>
+  </String>
+  <String index="412">
+    <ToTranslate>Bunshuu$&quot;Whew. You should&apos;ve thought of a better way to check that. Ouch... It really hurt, you two.&quot;@</ToTranslate>
+  </String>
+  <String index="413">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="414">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="415">
+    <ToTranslate>ensy0184</ToTranslate>
+  </String>
+  <String index="416">
+    <ToTranslate>Enshou$&quot;You deserved it.&quot;@</ToTranslate>
+  </String>
+  <String index="417">
+    <ToTranslate>tcg_gan12ca</ToTranslate>
+  </String>
+  <String index="418">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="419">
+    <ToTranslate>ganr0149</ToTranslate>
+  </String>
+  <String index="420">
+    <ToTranslate>Ganryou$&quot;Definitely.&quot;@</ToTranslate>
+  </String>
+  <String index="421">
+    <ToTranslate>buns0136</ToTranslate>
+  </String>
+  <String index="422">
+    <ToTranslate>Bunshuu$&quot;I know Enshou-sama tried to say the same thi... uha wa ha!&quot;@</ToTranslate>
+  </String>
+  <String index="423">
+    <ToTranslate>ganr0150</ToTranslate>
+  </String>
+  <String index="424">
+    <ToTranslate>Ganryou$&quot;Hey, we already know we&apos;re safe, so that&apos;s enough.&quot;@</ToTranslate>
+  </String>
+  <String index="425">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="426">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="427">
+    <ToTranslate>ensy0185</ToTranslate>
+  </String>
+  <String index="428">
+    <ToTranslate>Enshou$&quot;Well... you have a point. I think we should find a way to get out of gloomy place instead of toying with Bunshuu-san.&quot;@</ToTranslate>
+  </String>
+  <String index="429">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="430">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="431">
+    <ToTranslate>buns0137</ToTranslate>
+  </String>
+  <String index="432">
+    <ToTranslate>Bunshuu$&quot;Uh, that&apos;s impossible.&quot;@</ToTranslate>
+  </String>
+  <String index="433">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="434">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="435">
+    <ToTranslate>ensy0186</ToTranslate>
+  </String>
+  <String index="436">
+    <ToTranslate>Enshou$&quot;What?&quot;@</ToTranslate>
+  </String>
+  <String index="437">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="438">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="439">
+    <ToTranslate>ganr0151</ToTranslate>
+  </String>
+  <String index="440">
+    <ToTranslate>Ganryou$&quot;Eh?&quot;@</ToTranslate>
+  </String>
+  <String index="441">
+    <ToTranslate>tcg_bun22fa</ToTranslate>
+  </String>
+  <String index="442">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="443">
+    <ToTranslate>buns0138</ToTranslate>
+  </String>
+  <String index="444">
+    <ToTranslate>Bunshuu$&quot;As I said, there&apos;s no sign of people living here. There&apos;s no ship either. How do you think we can get off this island?&quot;@</ToTranslate>
+  </String>
+  <String index="445">
+    <ToTranslate>tcg_ens12ha</ToTranslate>
+  </String>
+  <String index="446">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="447">
+    <ToTranslate>ensy0187</ToTranslate>
+  </String>
+  <String index="448">
+    <ToTranslate>Enshou$&quot;Eh? Why don&apos;t you build a raft?&quot;@</ToTranslate>
+  </String>
+  <String index="449">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="450">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="451">
+    <ToTranslate>ganr0152</ToTranslate>
+  </String>
+  <String index="452">
+    <ToTranslate>Ganryou$&quot;Uh...&quot;@</ToTranslate>
+  </String>
+  <String index="453">
+    <ToTranslate>buns0139</ToTranslate>
+  </String>
+  <String index="454">
+    <ToTranslate>Bunshuu$&quot;Do you remember how we got here?&quot;@</ToTranslate>
+  </String>
+  <String index="455">
+    <ToTranslate>tcg_ens22ga</ToTranslate>
+  </String>
+  <String index="456">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="457">
+    <ToTranslate>ensy0188</ToTranslate>
+  </String>
+  <String index="458">
+    <ToTranslate>Enshou$&quot;Oh...&quot;@</ToTranslate>
+  </String>
+  <String index="459">
+    <ToTranslate>buns0140</ToTranslate>
+  </String>
+  <String index="460">
+    <ToTranslate>Bunshuu$&quot;In short, we&apos;re stuck here. Why don&apos;t we fortify ourselves with a meal and think about how to get away after that?&quot;@</ToTranslate>
+  </String>
+  <String index="461">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="462">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="463">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="464">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="465">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="466">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="467">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="468">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="469">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="470">
+    <ToTranslate>buns0141</ToTranslate>
+  </String>
+  <String index="471">
+    <ToTranslate>Bunshuu$&quot;I&apos;m back.&quot;@</ToTranslate>
+  </String>
+  <String index="472">
+    <ToTranslate>tcg_gan11aa</ToTranslate>
+  </String>
+  <String index="473">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="474">
+    <ToTranslate>ganr0153</ToTranslate>
+  </String>
+  <String index="475">
+    <ToTranslate>Ganryou$&quot;Welcome back, Bun-chan. Did you catch anything?&quot;@</ToTranslate>
+  </String>
+  <String index="476">
+    <ToTranslate>tcg_bun21ca</ToTranslate>
+  </String>
+  <String index="477">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="478">
+    <ToTranslate>buns0142</ToTranslate>
+  </String>
+  <String index="479">
+    <ToTranslate>Bunshuu$&quot;Sorry. I fought with a humongous boar but it was a draw. So I picked some fruit instead.&quot;@</ToTranslate>
+  </String>
+  <String index="480">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="481">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="482">
+    <ToTranslate>ganr0154</ToTranslate>
+  </String>
+  <String index="483">
+    <ToTranslate>Ganryou$&quot;A draw...? Did you get hurt? Are you alright?&quot;@</ToTranslate>
+  </String>
+  <String index="484">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="485">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="486">
+    <ToTranslate>buns0143</ToTranslate>
+  </String>
+  <String index="487">
+    <ToTranslate>Bunshuu$&quot;I&apos;m fine. That boar must be the owner of this island.&quot;@</ToTranslate>
+  </String>
+  <String index="488">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="489">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="490">
+    <ToTranslate>ganr0155</ToTranslate>
+  </String>
+  <String index="491">
+    <ToTranslate>Ganryou$&quot;Good... Bun-chan, do you want to take a bath? Or have a meal? Or maybe...?&quot;@</ToTranslate>
+  </String>
+  <String index="492">
+    <ToTranslate>tcg_gan11ja</ToTranslate>
+  </String>
+  <String index="493">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="494">
+    <ToTranslate>ganr0156</ToTranslate>
+  </String>
+  <String index="495">
+    <ToTranslate>Ganryou$&quot;Me?&quot;@</ToTranslate>
+  </String>
+  <String index="496">
+    <ToTranslate>tcg_bun21ja</ToTranslate>
+  </String>
+  <String index="497">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="498">
+    <ToTranslate>buns0144</ToTranslate>
+  </String>
+  <String index="499">
+    <ToTranslate>Bunshuu$&quot;Ooh... Toshi!&quot;@</ToTranslate>
+  </String>
+  <String index="500">
+    <ToTranslate>tcg_gan21la</ToTranslate>
+  </String>
+  <String index="501">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="502">
+    <ToTranslate>ganr0157</ToTranslate>
+  </String>
+  <String index="503">
+    <ToTranslate>Ganryou$&quot;Hah! B-Bun-chan... Y-you&apos;re rushing... we should... at least prepare a mattress... hmm.&quot;@</ToTranslate>
+  </String>
+  <String index="504">
+    <ToTranslate>buns0145</ToTranslate>
+  </String>
+  <String index="505">
+    <ToTranslate>Bunshuu$&quot;But......Mmm... you started it, Toshi... Hmm... chup, chup, chukk... hmm... umpha!&quot;@</ToTranslate>
+  </String>
+  <String index="506">
+    <ToTranslate>tcg_gan11ja</ToTranslate>
+  </String>
+  <String index="507">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="508">
+    <ToTranslate>ganr0158</ToTranslate>
+  </String>
+  <String index="509">
+    <ToTranslate>Ganryou$&quot;Ohh, Bun-chan...&quot;@</ToTranslate>
+  </String>
+  <String index="510">
+    <ToTranslate>buns0146</ToTranslate>
+  </String>
+  <String index="511">
+    <ToTranslate>Bunshuu$&quot;Tee hee. That phrase really makes me happy. I&apos;m happy that we came here.&quot;@</ToTranslate>
+  </String>
+  <String index="512">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="513">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="514">
+    <ToTranslate>ganr0159</ToTranslate>
+  </String>
+  <String index="515">
+    <ToTranslate>Ganryou$&quot;You&apos;re exaggerating, Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="516">
+    <ToTranslate>tcg_bun21ca</ToTranslate>
+  </String>
+  <String index="517">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="518">
+    <ToTranslate>buns0147</ToTranslate>
+  </String>
+  <String index="519">
+    <ToTranslate>Bunshuu$&quot;But you didn&apos;t say that very often before we came here.&quot;@</ToTranslate>
+  </String>
+  <String index="520">
+    <ToTranslate>tcg_gan11ja</ToTranslate>
+  </String>
+  <String index="521">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="522">
+    <ToTranslate>ganr0160</ToTranslate>
+  </String>
+  <String index="523">
+    <ToTranslate>Ganryou$&quot;That&apos;s because you&apos;ve been kind and reliable ever since we came here... So I want to contribute something...&quot;@</ToTranslate>
+  </String>
+  <String index="524">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="525">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="526">
+    <ToTranslate>buns0148</ToTranslate>
+  </String>
+  <String index="527">
+    <ToTranslate>Bunshuu$&quot;I see... But I want to save you until tonight to savor you more.&quot;@</ToTranslate>
+  </String>
+  <String index="528">
+    <ToTranslate>ganr0161</ToTranslate>
+  </String>
+  <String index="529">
+    <ToTranslate>Ganryou$&quot;See? You would&apos;ve forcefully had me before we came here.&quot;@</ToTranslate>
+  </String>
+  <String index="530">
+    <ToTranslate>buns0149</ToTranslate>
+  </String>
+  <String index="531">
+    <ToTranslate>Bunshuu$&quot;Ah, maybe that&apos;s right... How long have we been here now?&quot; @</ToTranslate>
+  </String>
+  <String index="532">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="533">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="534">
+    <ToTranslate>ganr0162</ToTranslate>
+  </String>
+  <String index="535">
+    <ToTranslate>Ganryou$&quot;About twenty days?&quot;@</ToTranslate>
+  </String>
+  <String index="536">
+    <ToTranslate>tcg_bun21ca</ToTranslate>
+  </String>
+  <String index="537">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="538">
+    <ToTranslate>buns0150</ToTranslate>
+  </String>
+  <String index="539">
+    <ToTranslate>Bunshuu$&quot;The first ten days we were busy with building a raft, but... now I feel more relaxed, you know?&quot;@</ToTranslate>
+  </String>
+  <String index="540">
+    <ToTranslate>ganr0163</ToTranslate>
+  </String>
+  <String index="541">
+    <ToTranslate>Ganryou$&quot;Is that because we gave up on leaving this island?&quot;@</ToTranslate>
+  </String>
+  <String index="542">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="543">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="544">
+    <ToTranslate>buns0151</ToTranslate>
+  </String>
+  <String index="545">
+    <ToTranslate>Bunshuu$&quot;We didn&apos;t really give up on that. But you&apos;re cute, the food is delicious, and I get pretty busy with hunting, so... I have pretty much everything I need.&quot;@</ToTranslate>
+  </String>
+  <String index="546">
+    <ToTranslate>tcg_gan11aa</ToTranslate>
+  </String>
+  <String index="547">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="548">
+    <ToTranslate>ganr0164</ToTranslate>
+  </String>
+  <String index="549">
+    <ToTranslate>Ganryou$&quot;I don&apos;t feel like getting off this island either... I like living here like this. Enshou-sama seems to hate it here, though...&quot;@</ToTranslate>
+  </String>
+  <String index="550">
+    <ToTranslate>buns0152</ToTranslate>
+  </String>
+  <String index="551">
+    <ToTranslate>Bunshuu$&quot;Oh, where did she go anyway?&quot;@</ToTranslate>
+  </String>
+  <String index="552">
+    <ToTranslate>ganr0165</ToTranslate>
+  </String>
+  <String index="553">
+    <ToTranslate>Ganryou$&quot;Well, it seems she went fishing.&quot;@</ToTranslate>
+  </String>
+  <String index="554">
+    <ToTranslate>tcg_bun21ga</ToTranslate>
+  </String>
+  <String index="555">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="556">
+    <ToTranslate>buns0153</ToTranslate>
+  </String>
+  <String index="557">
+    <ToTranslate>Bunshuu$&quot;What? I&apos;ve never seen her fish even when we were in Nanpi. What happened to her?&quot;@</ToTranslate>
+  </String>
+  <String index="558">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="559">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="560">
+    <ToTranslate>ganr0166</ToTranslate>
+  </String>
+  <String index="561">
+    <ToTranslate>Ganryou$&quot;Odd, isn&apos;t it? I heard that fish gather at this island before we got here... Is it possible that she heard it too?&quot; @</ToTranslate>
+  </String>
+  <String index="562">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="563">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="564">
+    <ToTranslate>buns0154</ToTranslate>
+  </String>
+  <String index="565">
+    <ToTranslate>Bunshuu$&quot;It is odd......It&apos;s not going to rain spears, is it?&quot;@</ToTranslate>
+  </String>
+  <String index="566">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="567">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="568">
+    <ToTranslate>ganr0167</ToTranslate>
+  </String>
+  <String index="569">
+    <ToTranslate>Ganryou$&quot;Aha ha, that&apos;s too harsh.&quot;@</ToTranslate>
+  </String>
+  <String index="570">
+    <ToTranslate>buns0155</ToTranslate>
+  </String>
+  <String index="571">
+    <ToTranslate>Bunshuu$&quot;All right, I&apos;ll take a bath while waiting for Enshou-sama to come back with the fish. You&apos;re coming too, right?&quot;@</ToTranslate>
+  </String>
+  <String index="572">
+    <ToTranslate>tcg_gan11aa</ToTranslate>
+  </String>
+  <String index="573">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="574">
+    <ToTranslate>ganr0168</ToTranslate>
+  </String>
+  <String index="575">
+    <ToTranslate>Ganryou$&quot;Oh, I have to clean up this room first... you can wait for me there.&quot;@</ToTranslate>
+  </String>
+  <String index="576">
+    <ToTranslate>buns0156</ToTranslate>
+  </String>
+  <String index="577">
+    <ToTranslate>Bunshuu$&quot;Oh, what are you saying? I&apos;ll help you. It&apos;ll be quicker if we do it together.&quot;@</ToTranslate>
+  </String>
+  <String index="578">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="579">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="580">
+    <ToTranslate>ganr0169</ToTranslate>
+  </String>
+  <String index="581">
+    <ToTranslate>Ganryou$&quot;Are you sure?&quot;@</ToTranslate>
+  </String>
+  <String index="582">
+    <ToTranslate>tcg_bun21ca</ToTranslate>
+  </String>
+  <String index="583">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="584">
+    <ToTranslate>buns0157</ToTranslate>
+  </String>
+  <String index="585">
+    <ToTranslate>Bunshuu$&quot;Of course.&quot;@</ToTranslate>
+  </String>
+  <String index="586">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="587">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="588">
+    <ToTranslate>ganr0170</ToTranslate>
+  </String>
+  <String index="589">
+    <ToTranslate>Ganryou$&quot;Tee hee. Thanks, Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="590">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="591">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="592">
+    <ToTranslate>buns0158</ToTranslate>
+  </String>
+  <String index="593">
+    <ToTranslate>Bunshuu$&quot;All right! Let&apos;s get to it! Where should we move this box to?&quot;@</ToTranslate>
+  </String>
+  <String index="594">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="595">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="596">
+    <ToTranslate>ganr0171</ToTranslate>
+  </String>
+  <String index="597">
+    <ToTranslate>Ganryou$&quot;Oh, that box? I haven&apos;t checked what&apos;s in it. Can you open it first?&quot;@</ToTranslate>
+  </String>
+  <String index="598">
+    <ToTranslate>tcg_bun11ia</ToTranslate>
+  </String>
+  <String index="599">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="600">
+    <ToTranslate>buns0159</ToTranslate>
+  </String>
+  <String index="601">
+    <ToTranslate>Bunshuu$&quot;Okay. Why don&apos;t we take a look together?&quot;@</ToTranslate>
+  </String>
+  <String index="602">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="603">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="604">
+    <ToTranslate>ganr0172</ToTranslate>
+  </String>
+  <String index="605">
+    <ToTranslate>Ganryou$&quot;Okay.&quot;@</ToTranslate>
+  </String>
+  <String index="606">
+    <ToTranslate>tcg_bun11da</ToTranslate>
+  </String>
+  <String index="607">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="608">
+    <ToTranslate>buns0160</ToTranslate>
+  </String>
+  <String index="609">
+    <ToTranslate>Bunshuu$&quot;Oh...&quot;@</ToTranslate>
+  </String>
+  <String index="610">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="611">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="612">
+    <ToTranslate>ganr0173</ToTranslate>
+  </String>
+  <String index="613">
+    <ToTranslate>Ganryou$&quot;Is this... a mirror?&quot;@</ToTranslate>
+  </String>
+  <String index="614">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="615">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="616">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="617">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="618">
+    <ToTranslate>bcg_sea_a</ToTranslate>
+  </String>
+  <String index="619">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="620">
+    <ToTranslate>tcg_ens11aa</ToTranslate>
+  </String>
+  <String index="621">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="622">
+    <ToTranslate>ensy0189</ToTranslate>
+  </String>
+  <String index="623">
+    <ToTranslate>Enshou$&quot;Fishing was surprisingly entertaining, even though I started it out of boredom...&quot;@</ToTranslate>
+  </String>
+  <String index="624">
+    <ToTranslate>ensy0190</ToTranslate>
+  </String>
+  <String index="625">
+    <ToTranslate>Enshou$&quot;Who would&apos;ve thought I could fish just by sticking the pole in... I never noticed before, but perhaps I have talent as a fisher.&quot;@</ToTranslate>
+  </String>
+  <String index="626">
+    <ToTranslate>tcg_ens21ba</ToTranslate>
+  </String>
+  <String index="627">
+    <ToTranslate>tcg_ens21m</ToTranslate>
+  </String>
+  <String index="628">
+    <ToTranslate>ensy0191</ToTranslate>
+  </String>
+  <String index="629">
+    <ToTranslate>Enshou$&quot;That famous Tai Kung Wang was a great angler... Ah, my immense talent scares me!&quot;@</ToTranslate>
+  </String>
+  <String index="630">
+    <ToTranslate>tcg_ens11aa</ToTranslate>
+  </String>
+  <String index="631">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="632">
+    <ToTranslate>ensy0192</ToTranslate>
+  </String>
+  <String index="633">
+    <ToTranslate>Enshou$&quot;Looks like this is enough for the three... wait, Bunshuu-san is very greedy, so she might eat them all...&quot;@</ToTranslate>
+  </String>
+  <String index="634">
+    <ToTranslate>tcg_ens21la</ToTranslate>
+  </String>
+  <String index="635">
+    <ToTranslate>tcg_ens21m</ToTranslate>
+  </String>
+  <String index="636">
+    <ToTranslate>ensy0193</ToTranslate>
+  </String>
+  <String index="637">
+    <ToTranslate>Enshou$&quot;Well, whatever. I can come fish some more if that happens. For a genius angler such as I, it&apos;s nothing! Oh-ho-ho-ho!&quot;@</ToTranslate>
+  </String>
+  <String index="638">
+    <ToTranslate>tcg_ens11ja</ToTranslate>
+  </String>
+  <String index="639">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="640">
+    <ToTranslate>ensy0194</ToTranslate>
+  </String>
+  <String index="641">
+    <ToTranslate>Enshou$&quot;Wah...!&quot;@</ToTranslate>
+  </String>
+  <String index="642">
+    <ToTranslate>tcg_ens11fa</ToTranslate>
+  </String>
+  <String index="643">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="644">
+    <ToTranslate>ensy0195</ToTranslate>
+  </String>
+  <String index="645">
+    <ToTranslate>Enshou$&quot;No, no, hang on... I shouldn&apos;t get used to this kind of lowly life...&quot;@</ToTranslate>
+  </String>
+  <String index="646">
+    <ToTranslate>ensy0196</ToTranslate>
+  </String>
+  <String index="647">
+    <ToTranslate>Enshou$&quot;Bunshuu-san and Ganryou-san are slacking too much lately. I have to chide them!&quot;@</ToTranslate>
+  </String>
+  <String index="648">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="649">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="650">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="651">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="652">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="653">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="654">
+    <ToTranslate>bgm26</ToTranslate>
+  </String>
+  <String index="655">
+    <ToTranslate>tcg_ens21ia</ToTranslate>
+  </String>
+  <String index="656">
+    <ToTranslate>tcg_ens21m</ToTranslate>
+  </String>
+  <String index="657">
+    <ToTranslate>ensy0197</ToTranslate>
+  </String>
+  <String index="658">
+    <ToTranslate>Enshou$&quot;Bunshuu-san! Ganryou-san! I&apos;m back!&quot;@</ToTranslate>
+  </String>
+  <String index="659">
+    <ToTranslate>tcg_gan11aa</ToTranslate>
+  </String>
+  <String index="660">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="661">
+    <ToTranslate>ganr0174</ToTranslate>
+  </String>
+  <String index="662">
+    <ToTranslate>Ganryou$&quot;Oh, welcome back, Enshou-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="663">
+    <ToTranslate>tcg_bun21ha</ToTranslate>
+  </String>
+  <String index="664">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="665">
+    <ToTranslate>buns0161</ToTranslate>
+  </String>
+  <String index="666">
+    <ToTranslate>Bunshuu$&quot;Oh, you&apos;re late. We started already.&quot;@</ToTranslate>
+  </String>
+  <String index="667">
+    <ToTranslate>tcg_ens11aa</ToTranslate>
+  </String>
+  <String index="668">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="669">
+    <ToTranslate>ensy0198</ToTranslate>
+  </String>
+  <String index="670">
+    <ToTranslate>Enshou$&quot;Oh, what is it?&quot;@</ToTranslate>
+  </String>
+  <String index="671">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="672">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="673">
+    <ToTranslate>ganr0175</ToTranslate>
+  </String>
+  <String index="674">
+    <ToTranslate>Ganryou$&quot;Enshou-sama. Do you want to have a meal first? Or a bath? Or maybe...&quot;@</ToTranslate>
+  </String>
+  <String index="675">
+    <ToTranslate>tcg_ens11ha</ToTranslate>
+  </String>
+  <String index="676">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="677">
+    <ToTranslate>ensy0199</ToTranslate>
+  </String>
+  <String index="678">
+    <ToTranslate>Enshou$&quot;Oh, you give me that too today? I thought that phrase was exclusively for Bunshuu-san.&quot;@</ToTranslate>
+  </String>
+  <String index="679">
+    <ToTranslate>ganr0176</ToTranslate>
+  </String>
+  <String index="680">
+    <ToTranslate>Ganryou$&quot;Hee hee. It&apos;s because you brought us fish. Right, Bun-chan?&quot;@</ToTranslate>
+  </String>
+  <String index="681">
+    <ToTranslate>tcg_bun11aa</ToTranslate>
+  </String>
+  <String index="682">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="683">
+    <ToTranslate>buns0162</ToTranslate>
+  </String>
+  <String index="684">
+    <ToTranslate>Bunshuu$&quot;Yeah, I believe you deserve it today.&quot;@</ToTranslate>
+  </String>
+  <String index="685">
+    <ToTranslate>tcg_gan11ja</ToTranslate>
+  </String>
+  <String index="686">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="687">
+    <ToTranslate>ganr0177</ToTranslate>
+  </String>
+  <String index="688">
+    <ToTranslate>Ganryou$&quot;So, do you want a meal, a bath, or maybe... me?&quot;@</ToTranslate>
+  </String>
+  <String index="689">
+    <ToTranslate>tcg_ens11ka</ToTranslate>
+  </String>
+  <String index="690">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="691">
+    <ToTranslate>ensy0200</ToTranslate>
+  </String>
+  <String index="692">
+    <ToTranslate>Enshou$&quot;Ah... I can understand why Iishe doesn&apos;t want to leave... no, I mean...&quot;@</ToTranslate>
+  </String>
+  <String index="693">
+    <ToTranslate>ganr0178</ToTranslate>
+  </String>
+  <String index="694">
+    <ToTranslate>Ganryou$&quot;So, which one do you choose, Enshou-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="695">
+    <ToTranslate>ensy0201</ToTranslate>
+  </String>
+  <String index="696">
+    <ToTranslate>Enshou$&quot;Of course I choose you, Toshi.&quot;@</ToTranslate>
+  </String>
+  <String index="697">
+    <ToTranslate>tcg_bun21ha</ToTranslate>
+  </String>
+  <String index="698">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="699">
+    <ToTranslate>buns0163</ToTranslate>
+  </String>
+  <String index="700">
+    <ToTranslate>Bunshuu$&quot;Uh, that&apos;s not fair. Toshi, include me too.&quot;@</ToTranslate>
+  </String>
+  <String index="701">
+    <ToTranslate>ensy0202</ToTranslate>
+  </String>
+  <String index="702">
+    <ToTranslate>Enshou$&quot;Of course you can join, Iishe. I&apos;ll savor both of you.&quot;@</ToTranslate>
+  </String>
+  <String index="703">
+    <ToTranslate>tcg_gan21ba</ToTranslate>
+  </String>
+  <String index="704">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="705">
+    <ToTranslate>ganr0179</ToTranslate>
+  </String>
+  <String index="706">
+    <ToTranslate>Ganryou$&quot;Yay. Enshou-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="707">
+    <ToTranslate>tcg_bun21ja</ToTranslate>
+  </String>
+  <String index="708">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="709">
+    <ToTranslate>buns0164</ToTranslate>
+  </String>
+  <String index="710">
+    <ToTranslate>Bunshuu$&quot;Enshou-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="711">
+    <ToTranslate>tcg_ens31ma</ToTranslate>
+  </String>
+  <String index="712">
+    <ToTranslate>tcg_ens31m</ToTranslate>
+  </String>
+  <String index="713">
+    <ToTranslate>bgm11</ToTranslate>
+  </String>
+  <String index="714">
+    <ToTranslate>ensy0203</ToTranslate>
+  </String>
+  <String index="715">
+    <ToTranslate>Enshou$&quot;Huh...!? Wh-what happened to you two...?&quot;@</ToTranslate>
+  </String>
+  <String index="716">
+    <ToTranslate>buns0165</ToTranslate>
+  </String>
+  <String index="717">
+    <ToTranslate>Bunshuu$&quot;Eh? Do you mean this?&quot;@</ToTranslate>
+  </String>
+  <String index="718">
+    <ToTranslate>tcg_gan11ja</ToTranslate>
+  </String>
+  <String index="719">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="720">
+    <ToTranslate>ganr0180</ToTranslate>
+  </String>
+  <String index="721">
+    <ToTranslate>Ganryou$&quot;Hee hee. You know what it is, don&apos;t you? It&apos;s a cock.&quot;@</ToTranslate>
+  </String>
+  <String index="722">
+    <ToTranslate>ensy0204</ToTranslate>
+  </String>
+  <String index="723">
+    <ToTranslate>Enshou$&quot;I know, but... why on earth do you have those...?&quot;@</ToTranslate>
+  </String>
+  <String index="724">
+    <ToTranslate>ganr0181</ToTranslate>
+  </String>
+  <String index="725">
+    <ToTranslate>Ganryou$&quot;I don&apos;t know. But when I tried it in Bun-chan, it felt so good. See? It&apos;s so wet...&quot;@</ToTranslate>
+  </String>
+  <String index="726">
+    <ToTranslate>tcg_bun21ca</ToTranslate>
+  </String>
+  <String index="727">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="728">
+    <ToTranslate>buns0166</ToTranslate>
+  </String>
+  <String index="729">
+    <ToTranslate>Bunshuu$&quot;I poured so much into Toshi too, but it&apos;s still this hard... We&apos;ll make you happy with these, Enshou-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="730">
+    <ToTranslate>ensy0205</ToTranslate>
+  </String>
+  <String index="731">
+    <ToTranslate>Enshou$&quot;No...!? Eeek...!&quot;@</ToTranslate>
+  </String>
+  <String index="732">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="733">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="734">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="735">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="736">
+    <ToTranslate>ecg_ens13a</ToTranslate>
+  </String>
+  <String index="737">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="738">
+    <ToTranslate>bgm26</ToTranslate>
+  </String>
+  <String index="739">
+    <ToTranslate>ganr0182</ToTranslate>
+  </String>
+  <String index="740">
+    <ToTranslate>Ganryou$&quot;Enshou-sama... please, lick mine...&quot;@</ToTranslate>
+  </String>
+  <String index="741">
+    <ToTranslate>$Slurp.@</ToTranslate>
+  </String>
+  <String index="742">
+    <ToTranslate>ensy0206</ToTranslate>
+  </String>
+  <String index="743">
+    <ToTranslate>Enshou$&quot;Eeek... wh-why is your cock so slimy...? It&apos;s so gross...&quot;@</ToTranslate>
+  </String>
+  <String index="744">
+    <ToTranslate>ganr0183</ToTranslate>
+  </String>
+  <String index="745">
+    <ToTranslate>Ganryou$&quot;That&apos;s because I banged Bun-chan a lot... She cleaned it, but I couldn&apos;t help it, so we did it again...&quot;@</ToTranslate>
+  </String>
+  <String index="746">
+    <ToTranslate>ensy0207</ToTranslate>
+  </String>
+  <String index="747">
+    <ToTranslate>Enshou$&quot;This... smell... hah...&quot; @</ToTranslate>
+  </String>
+  <String index="748">
+    <ToTranslate>buns0167</ToTranslate>
+  </String>
+  <String index="749">
+    <ToTranslate>Bunshuu$&quot;You should&apos;ve seen how great Toshi was... She came over and over inside of me... I finally got a break to clean her off, but then she said she couldn&apos;t take it any more.&quot;@</ToTranslate>
+  </String>
+  <String index="750">
+    <ToTranslate>ganr0184</ToTranslate>
+  </String>
+  <String index="751">
+    <ToTranslate>Ganryou$&quot;That&apos;s because your mouth feels so good, Bun-chan... so I couldn&apos;t help it...&quot;@</ToTranslate>
+  </String>
+  <String index="752">
+    <ToTranslate>buns0168</ToTranslate>
+  </String>
+  <String index="753">
+    <ToTranslate>Bunshuu$&quot;My belly is filled with your sperm. I&apos;m sure she&apos;ll fill you too, Reiha-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="754">
+    <ToTranslate>ensy0208</ToTranslate>
+  </String>
+  <String index="755">
+    <ToTranslate>Enshou$&quot;Ahh... no, I won&apos;t let you... put that thing in me...&quot;@</ToTranslate>
+  </String>
+  <String index="756">
+    <ToTranslate>buns0169</ToTranslate>
+  </String>
+  <String index="757">
+    <ToTranslate>Bunshuu$&quot;Oh, Reiha-sama, can you clean my cock too...?&quot;@</ToTranslate>
+  </String>
+  <String index="758">
+    <ToTranslate>ensy0209</ToTranslate>
+  </String>
+  <String index="759">
+    <ToTranslate>Enshou$&quot;Eeek... Hey, Bunshuu-san, stop rubbing that thing on my cheek... please?&quot;@</ToTranslate>
+  </String>
+  <String index="760">
+    <ToTranslate>ganr0185</ToTranslate>
+  </String>
+  <String index="761">
+    <ToTranslate>Ganryou$&quot;Oh, your cheek feels very soft, Reiha-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="762">
+    <ToTranslate>ensy0210</ToTranslate>
+  </String>
+  <String index="763">
+    <ToTranslate>Enshou$&quot;Eww... it&apos;s so... slimy...&quot;@</ToTranslate>
+  </String>
+  <String index="764">
+    <ToTranslate>buns0170</ToTranslate>
+  </String>
+  <String index="765">
+    <ToTranslate>Bunshuu$&quot;Whaat? Reiha-sama, Toshi&apos;s fluid isn&apos;t dirty. You didn&apos;t mind licking her before.&quot; @</ToTranslate>
+  </String>
+  <String index="766">
+    <ToTranslate>ganr0186</ToTranslate>
+  </String>
+  <String index="767">
+    <ToTranslate>Ganryou$&quot;That&apos;s right. Why can&apos;t you like it today too? Here, isn&apos;t it delicious, Reiha-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="768">
+    <ToTranslate>ensy0211</ToTranslate>
+  </String>
+  <String index="769">
+    <ToTranslate>Enshou$&quot;Humg... umg, ew... humm, hah, ahh... it&apos;s smelly... Wait, that&apos;s because... it wasn&apos;t like this... at that time...&quot;@</ToTranslate>
+  </String>
+  <String index="770">
+    <ToTranslate>ganr0187</ToTranslate>
+  </String>
+  <String index="771">
+    <ToTranslate>Ganryou$&quot;Hee hee. But, hah, you&apos;re licking it after all... I&apos;m glad...&quot; @</ToTranslate>
+  </String>
+  <String index="772">
+    <ToTranslate>ensy0212</ToTranslate>
+  </String>
+  <String index="773">
+    <ToTranslate>Enshou$&quot;N-no... you&apos;re forcing me... ahh...&quot;@</ToTranslate>
+  </String>
+  <String index="774">
+    <ToTranslate>ganr0188</ToTranslate>
+  </String>
+  <String index="775">
+    <ToTranslate>Ganryou$&quot;It&apos;s not fair that you get to have us forcefully and not the other way around... right, Bun-chan?&quot;@</ToTranslate>
+  </String>
+  <String index="776">
+    <ToTranslate>buns0171</ToTranslate>
+  </String>
+  <String index="777">
+    <ToTranslate>Bunshuu$&quot;You&apos;re right. Hmm, what should I going make her do to me...?&quot;@</ToTranslate>
+  </String>
+  <String index="778">
+    <ToTranslate>ensy0213</ToTranslate>
+  </String>
+  <String index="779">
+    <ToTranslate>Enshou$&quot;Wh-what&apos;s going on... with you two...? You aren&apos;t... acting like... hmm, chup, chup... yourselves... chuk, chup.... hahh.&quot;@</ToTranslate>
+  </String>
+  <String index="780">
+    <ToTranslate>buns0172</ToTranslate>
+  </String>
+  <String index="781">
+    <ToTranslate>Bunshuu$&quot;Oh, Reiha-sama. I have an idea.&quot;@</ToTranslate>
+  </String>
+  <String index="782">
+    <ToTranslate>ensy0214</ToTranslate>
+  </String>
+  <String index="783">
+    <ToTranslate>Enshou$&quot;H-hey! Bunshuu-san! D-don&apos;t...!&quot;@</ToTranslate>
+  </String>
+  <String index="784">
+    <ToTranslate>buns0173</ToTranslate>
+  </String>
+  <String index="785">
+    <ToTranslate>Bunshuu$&quot;Your boobs are so big...&quot;@</ToTranslate>
+  </String>
+  <String index="786">
+    <ToTranslate>ensy0215</ToTranslate>
+  </String>
+  <String index="787">
+    <ToTranslate>Enshou$&quot;Uh, what are you doing!? Bunsh... umm.&quot;@</ToTranslate>
+  </String>
+  <String index="788">
+    <ToTranslate>buns0174</ToTranslate>
+  </String>
+  <String index="789">
+    <ToTranslate>Bunshuu$&quot;Reiha-sama...Your lips are very soft.&quot;@</ToTranslate>
+  </String>
+  <String index="790">
+    <ToTranslate>ensy0216</ToTranslate>
+  </String>
+  <String index="791">
+    <ToTranslate>Enshou$&quot;Please... don&apos;t... put that thing on my lips...&quot;@</ToTranslate>
+  </String>
+  <String index="792">
+    <ToTranslate>ganr0189</ToTranslate>
+  </String>
+  <String index="793">
+    <ToTranslate>Ganryou$&quot;Oh, your lips are gleaming with my juice... Hee hee. I see a sticky string when I take my cock away from them.&quot;@</ToTranslate>
+  </String>
+  <String index="794">
+    <ToTranslate>ensy0217</ToTranslate>
+  </String>
+  <String index="795">
+    <ToTranslate>Enshou$&quot;D-don&apos;t... tell me that...! B-Bunshuu-san!?&quot;@</ToTranslate>
+  </String>
+  <String index="796">
+    <ToTranslate>buns0175</ToTranslate>
+  </String>
+  <String index="797">
+    <ToTranslate>Bunshuu$&quot;Yes?&quot;@</ToTranslate>
+  </String>
+  <String index="798">
+    <ToTranslate>ensy0218</ToTranslate>
+  </String>
+  <String index="799">
+    <ToTranslate>Enshou$&quot;Wh-what are you doing...?&quot;@</ToTranslate>
+  </String>
+  <String index="800">
+    <ToTranslate>buns0176</ToTranslate>
+  </String>
+  <String index="801">
+    <ToTranslate>Bunshuu$&quot;I thought I&apos;d feel great if I put my cock between your boobs...&quot;@</ToTranslate>
+  </String>
+  <String index="802">
+    <ToTranslate>ensy0219</ToTranslate>
+  </String>
+  <String index="803">
+    <ToTranslate>Enshou$&quot;No! D-don&apos;t do that, ahhh!&quot;@</ToTranslate>
+  </String>
+  <String index="804">
+    <ToTranslate>buns0177</ToTranslate>
+  </String>
+  <String index="805">
+    <ToTranslate>Bunshuu$&quot;Wow... this is awesome...!&quot;@</ToTranslate>
+  </String>
+  <String index="806">
+    <ToTranslate>ganr0190</ToTranslate>
+  </String>
+  <String index="807">
+    <ToTranslate>Ganryou$&quot;Wow. How do you feel, Bun-chan?&quot;@</ToTranslate>
+  </String>
+  <String index="808">
+    <ToTranslate>buns0178</ToTranslate>
+  </String>
+  <String index="809">
+    <ToTranslate>Bunshuu$&quot;They&apos;re soft and warm... My cock is entirely wrapped in them... Ahh, this is addicting...&quot;@</ToTranslate>
+  </String>
+  <String index="810">
+    <ToTranslate>ensy0220</ToTranslate>
+  </String>
+  <String index="811">
+    <ToTranslate>Enshou$&quot;I-I feel sticky ......between my tits... B-Bunshuu-san... stop it... stop moving!&quot;@</ToTranslate>
+  </String>
+  <String index="812">
+    <ToTranslate>$Slop... slop, slop... @</ToTranslate>
+  </String>
+  <String index="813">
+    <ToTranslate>buns0179</ToTranslate>
+  </String>
+  <String index="814">
+    <ToTranslate>Bunshuu$&quot;E-Enshou-sama... suck it...&quot;@</ToTranslate>
+  </String>
+  <String index="815">
+    <ToTranslate>ensy0221</ToTranslate>
+  </String>
+  <String index="816">
+    <ToTranslate>Enshou$&quot;Hah... hmm... umg... humph... mmm, chup, chup...&quot;@</ToTranslate>
+  </String>
+  <String index="817">
+    <ToTranslate>buns0180</ToTranslate>
+  </String>
+  <String index="818">
+    <ToTranslate>Bunshuu$&quot;Wow... that&apos;s great, Reiha-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="819">
+    <ToTranslate>ganr0191</ToTranslate>
+  </String>
+  <String index="820">
+    <ToTranslate>Ganryou$&quot;That looks so enticing...&quot;@</ToTranslate>
+  </String>
+  <String index="821">
+    <ToTranslate>buns0181</ToTranslate>
+  </String>
+  <String index="822">
+    <ToTranslate>Bunshuu$&quot;You can enjoy this later. You need to feel this.&quot;@</ToTranslate>
+  </String>
+  <String index="823">
+    <ToTranslate>ensy0222</ToTranslate>
+  </String>
+  <String index="824">
+    <ToTranslate>Enshou$&quot;Y-you don&apos;t need to...  uhh.&quot;@</ToTranslate>
+  </String>
+  <String index="825">
+    <ToTranslate>ganr0192</ToTranslate>
+  </String>
+  <String index="826">
+    <ToTranslate>Ganryou$&quot;Really? Is it that good...?&quot;@</ToTranslate>
+  </String>
+  <String index="827">
+    <ToTranslate>ensy0223</ToTranslate>
+  </String>
+  <String index="828">
+    <ToTranslate>Enshou$&quot;Hah! Ganryou-san, stop poking my tits with it...!&quot;@</ToTranslate>
+  </String>
+  <String index="829">
+    <ToTranslate>ganr0193</ToTranslate>
+  </String>
+  <String index="830">
+    <ToTranslate>Ganryou$&quot;Wow. Your breasts are so soft... I&apos;m sure it feels great to be wrapped in them...&quot; @</ToTranslate>
+  </String>
+  <String index="831">
+    <ToTranslate>ensy0224</ToTranslate>
+  </String>
+  <String index="832">
+    <ToTranslate>Enshou$&quot;Ga-Ganryou-san... D-don&apos;t prod my nipples with it... Ahh... it&apos;s so... slimy...&quot;@</ToTranslate>
+  </String>
+  <String index="833">
+    <ToTranslate>ganr0194</ToTranslate>
+  </String>
+  <String index="834">
+    <ToTranslate>Ganryou$&quot;Your nipples are getting hard. Aren&apos;t you getting off on this?&quot; @</ToTranslate>
+  </String>
+  <String index="835">
+    <ToTranslate>ensy0225</ToTranslate>
+  </String>
+  <String index="836">
+    <ToTranslate>Enshou$&quot;N-no...&quot;@</ToTranslate>
+  </String>
+  <String index="837">
+    <ToTranslate>ganr0195</ToTranslate>
+  </String>
+  <String index="838">
+    <ToTranslate>Ganryou$&quot;The fact is, I often feel good when I say no.&quot;@</ToTranslate>
+  </String>
+  <String index="839">
+    <ToTranslate>buns0182</ToTranslate>
+  </String>
+  <String index="840">
+    <ToTranslate>Bunshuu$&quot;Oh, is that true, Toshi?&quot;@</ToTranslate>
+  </String>
+  <String index="841">
+    <ToTranslate>ganr0196</ToTranslate>
+  </String>
+  <String index="842">
+    <ToTranslate>Ganryou$&quot;Yeah... when I&apos;m embarrassed... Don&apos;t you do that sometimes yourself?&quot; @</ToTranslate>
+  </String>
+  <String index="843">
+    <ToTranslate>buns0183</ToTranslate>
+  </String>
+  <String index="844">
+    <ToTranslate>Bunshuu$&quot;Well, yeah.&quot;@</ToTranslate>
+  </String>
+  <String index="845">
+    <ToTranslate>ganr0197</ToTranslate>
+  </String>
+  <String index="846">
+    <ToTranslate>Ganryou$&quot;So, would you tell us when you really feel good?&quot;@</ToTranslate>
+  </String>
+  <String index="847">
+    <ToTranslate>ensy0226</ToTranslate>
+  </String>
+  <String index="848">
+    <ToTranslate>Enshou$&quot;I... I&apos;m not getting off... ahh.&quot;@</ToTranslate>
+  </String>
+  <String index="849">
+    <ToTranslate>ganr0198</ToTranslate>
+  </String>
+  <String index="850">
+    <ToTranslate>Ganryou$&quot;Your nipples are gleaming with my dirty fluid... they look cute...&quot;@</ToTranslate>
+  </String>
+  <String index="851">
+    <ToTranslate>ensy0227</ToTranslate>
+  </String>
+  <String index="852">
+    <ToTranslate>Enshou$&quot;Hah...! Please don&apos;t... lick them...&quot;@</ToTranslate>
+  </String>
+  <String index="853">
+    <ToTranslate>ganr0199</ToTranslate>
+  </String>
+  <String index="854">
+    <ToTranslate>Ganryou$&quot;You must be really getting off, Bun-chan. It&apos;s bubbling up between you cock and her boobs...&quot;@</ToTranslate>
+  </String>
+  <String index="855">
+    <ToTranslate>$Slop, slop, slop... chlop.@</ToTranslate>
+  </String>
+  <String index="856">
+    <ToTranslate>ensy0228</ToTranslate>
+  </String>
+  <String index="857">
+    <ToTranslate>Enshou$&quot;Umm, umph, mmm... hah... chup, chuk...&quot;@</ToTranslate>
+  </String>
+  <String index="858">
+    <ToTranslate>buns0184</ToTranslate>
+  </String>
+  <String index="859">
+    <ToTranslate>Bunshuu$&quot;Ah. This is awesome...&quot;@</ToTranslate>
+  </String>
+  <String index="860">
+    <ToTranslate>ganr0200</ToTranslate>
+  </String>
+  <String index="861">
+    <ToTranslate>Ganryou$&quot;Oh...... Bun-chan, let me do it after you, okay?&quot;@</ToTranslate>
+  </String>
+  <String index="862">
+    <ToTranslate>buns0185</ToTranslate>
+  </String>
+  <String index="863">
+    <ToTranslate>Bunshuu$&quot;Sure. Maybe I&apos;ll have you to do this to me sometime.&quot;@</ToTranslate>
+  </String>
+  <String index="864">
+    <ToTranslate>ganr0201</ToTranslate>
+  </String>
+  <String index="865">
+    <ToTranslate>Ganryou$&quot;Hee hee. If you&apos;ll be gentle.&quot;@</ToTranslate>
+  </String>
+  <String index="866">
+    <ToTranslate>buns0186</ToTranslate>
+  </String>
+  <String index="867">
+    <ToTranslate>Bunshuu$&quot;Reiha-sama, please touch hers too. Don&apos;t make her feel lonely...&quot;@</ToTranslate>
+  </String>
+  <String index="868">
+    <ToTranslate>ensy0229</ToTranslate>
+  </String>
+  <String index="869">
+    <ToTranslate>Enshou$&quot;Humm... hah, chup, chup, chrrr... I can&apos;t... do that...&quot;@</ToTranslate>
+  </String>
+  <String index="870">
+    <ToTranslate>ganr0202</ToTranslate>
+  </String>
+  <String index="871">
+    <ToTranslate>Ganryou$&quot;I&apos;m okay. I&apos;m happy just looking at her enraptured face.&quot;@</ToTranslate>
+  </String>
+  <String index="872">
+    <ToTranslate>buns0187</ToTranslate>
+  </String>
+  <String index="873">
+    <ToTranslate>Bunshuu$&quot;That&apos;s not fair. Here, Reiha-sama, touch her with your free hand...&quot;@</ToTranslate>
+  </String>
+  <String index="874">
+    <ToTranslate>ensy0230</ToTranslate>
+  </String>
+  <String index="875">
+    <ToTranslate>Enshou$&quot;Umm... umph, chup, no... mmm, I... can&apos;t...&quot;@</ToTranslate>
+  </String>
+  <String index="876">
+    <ToTranslate>buns0188</ToTranslate>
+  </String>
+  <String index="877">
+    <ToTranslate>Bunshuu$&quot;Aww. But you&apos;re going to get this later, Toshi.&quot;@</ToTranslate>
+  </String>
+  <String index="878">
+    <ToTranslate>ensy0231</ToTranslate>
+  </String>
+  <String index="879">
+    <ToTranslate>Enshou$&quot;Chup, chup, chuk... shlorp, shlorp...&quot;@</ToTranslate>
+  </String>
+  <String index="880">
+    <ToTranslate>buns0189</ToTranslate>
+  </String>
+  <String index="881">
+    <ToTranslate>Bunshuu$&quot;Oh, Reiha-sama... that&apos;s terrific...&quot;@</ToTranslate>
+  </String>
+  <String index="882">
+    <ToTranslate>ganr0203</ToTranslate>
+  </String>
+  <String index="883">
+    <ToTranslate>Ganryou$&quot;Ah, Bun-chan... I feel like I&apos;m coming now...&quot;@</ToTranslate>
+  </String>
+  <String index="884">
+    <ToTranslate>buns0190</ToTranslate>
+  </String>
+  <String index="885">
+    <ToTranslate>Bunshuu$&quot;Oh, again? How many times have you come so far...?&quot;@</ToTranslate>
+  </String>
+  <String index="886">
+    <ToTranslate>ganr0204</ToTranslate>
+  </String>
+  <String index="887">
+    <ToTranslate>Ganryou$&quot;I-it just feels so good... I&apos;m so excited just from looking at Reiha-sama&apos;s sexy boobs and your cock...&quot;@</ToTranslate>
+  </String>
+  <String index="888">
+    <ToTranslate>buns0191</ToTranslate>
+  </String>
+  <String index="889">
+    <ToTranslate>Bunshuu$&quot;Ohh, you&apos;re so sensitive Toshi... Okay, I&apos;ll come too...&quot;@</ToTranslate>
+  </String>
+  <String index="890">
+    <ToTranslate>$Chlop, shlop, chlop.@</ToTranslate>
+  </String>
+  <String index="891">
+    <ToTranslate>ensy0232</ToTranslate>
+  </String>
+  <String index="892">
+    <ToTranslate>Enshou$&quot;Heeya! B-Bunshuu-san... y-you&apos;re moving so fast... hah, hmmm!&quot;@</ToTranslate>
+  </String>
+  <String index="893">
+    <ToTranslate>buns0192</ToTranslate>
+  </String>
+  <String index="894">
+    <ToTranslate>Bunshuu$&quot;Ahh! Reiha-sama!&quot;@</ToTranslate>
+  </String>
+  <String index="895">
+    <ToTranslate>ganr0205</ToTranslate>
+  </String>
+  <String index="896">
+    <ToTranslate>Ganryou$&quot;Hummm!&quot;@</ToTranslate>
+  </String>
+  <String index="897">
+    <ToTranslate>$Throb! Throb! Throb, throb!@</ToTranslate>
+  </String>
+  <String index="898">
+    <ToTranslate>$Twitch! Twitch! Twitch!&quot;@</ToTranslate>
+  </String>
+  <String index="899">
+    <ToTranslate>flash</ToTranslate>
+  </String>
+  <String index="900">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="901">
+    <ToTranslate>ecg_ens13b</ToTranslate>
+  </String>
+  <String index="902">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="903">
+    <ToTranslate>buns0193</ToTranslate>
+  </String>
+  <String index="904">
+    <ToTranslate>Bunshuu$&quot;Uh... Enshou-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="905">
+    <ToTranslate>ensy0233</ToTranslate>
+  </String>
+  <String index="906">
+    <ToTranslate>Enshou$&quot;Uh... ahh... ahhh......  I&apos;m... I&apos;m...&quot;@</ToTranslate>
+  </String>
+  <String index="907">
+    <ToTranslate>ganr0206</ToTranslate>
+  </String>
+  <String index="908">
+    <ToTranslate>Ganryou$&quot;Wow... Reiha-sama&apos;s face is covered with our sperm...&quot;@</ToTranslate>
+  </String>
+  <String index="909">
+    <ToTranslate>buns0194</ToTranslate>
+  </String>
+  <String index="910">
+    <ToTranslate>Bunshuu$&quot;Heh heh. Her tits, too...&quot;@</ToTranslate>
+  </String>
+  <String index="911">
+    <ToTranslate>$Blorp... chlurp... glup.@</ToTranslate>
+  </String>
+  <String index="912">
+    <ToTranslate>buns0195</ToTranslate>
+  </String>
+  <String index="913">
+    <ToTranslate>Bunshuu$&quot;Look... her cleavage is filled with the thick white fluid...&quot;@</ToTranslate>
+  </String>
+  <String index="914">
+    <ToTranslate>ensy0234</ToTranslate>
+  </String>
+  <String index="915">
+    <ToTranslate>Enshou$&quot;Hahh... d-don&apos;t squeeze out... your sperm... ahh...&quot;@</ToTranslate>
+  </String>
+  <String index="916">
+    <ToTranslate>buns0196</ToTranslate>
+  </String>
+  <String index="917">
+    <ToTranslate>Bunshuu$&quot;B-but, Reiha-sama, it just feels... extraordinary...&quot;@</ToTranslate>
+  </String>
+  <String index="918">
+    <ToTranslate>ensy0235</ToTranslate>
+  </String>
+  <String index="919">
+    <ToTranslate>Enshou$&quot;Noo... Bunshuu-san, your cock is still coming... P-Please stop defiling my tits... any...any further.&quot;@</ToTranslate>
+  </String>
+  <String index="920">
+    <ToTranslate>ganr0207</ToTranslate>
+  </String>
+  <String index="921">
+    <ToTranslate>Ganryou$&quot;I&apos;m envious, Bun-chan, that you&apos;re wiping your cock with her boobs...&quot;@</ToTranslate>
+  </String>
+  <String index="922">
+    <ToTranslate>ensy0236</ToTranslate>
+  </String>
+  <String index="923">
+    <ToTranslate>Enshou$&quot;Uh... Ganryou... san... humg.&quot;@</ToTranslate>
+  </String>
+  <String index="924">
+    <ToTranslate>ganr0208</ToTranslate>
+  </String>
+  <String index="925">
+    <ToTranslate>Ganryou$&quot;Reiha-sama, please clean mine too.&quot;@</ToTranslate>
+  </String>
+  <String index="926">
+    <ToTranslate>ensy0237</ToTranslate>
+  </String>
+  <String index="927">
+    <ToTranslate>Enshou$&quot;Humm... umg, chup, humm, hmm...!&quot;@</ToTranslate>
+  </String>
+  <String index="928">
+    <ToTranslate>ganr0209</ToTranslate>
+  </String>
+  <String index="929">
+    <ToTranslate>Ganryou$&quot;Hahh... your mouth feels so warm.&quot;@</ToTranslate>
+  </String>
+  <String index="930">
+    <ToTranslate>ensy0238</ToTranslate>
+  </String>
+  <String index="931">
+    <ToTranslate>Enshou$&quot;Hmmm!&quot;@</ToTranslate>
+  </String>
+  <String index="932">
+    <ToTranslate>ganr0210</ToTranslate>
+  </String>
+  <String index="933">
+    <ToTranslate>Ganryou$&quot;Reiha-sama, please suck the tip.&quot;@</ToTranslate>
+  </String>
+  <String index="934">
+    <ToTranslate>ensy0239</ToTranslate>
+  </String>
+  <String index="935">
+    <ToTranslate>Enshou$&quot;Glonf, chup, chlop, slurp...&quot;@</ToTranslate>
+  </String>
+  <String index="936">
+    <ToTranslate>ganr0211</ToTranslate>
+  </String>
+  <String index="937">
+    <ToTranslate>Ganryou$&quot;Ahhh! Y-yes...! Your sucking is fantastic...!&quot;@</ToTranslate>
+  </String>
+  <String index="938">
+    <ToTranslate>buns0197</ToTranslate>
+  </String>
+  <String index="939">
+    <ToTranslate>Bunshuu$&quot;I&apos;m envious as well, Toshi... How does it feel?&quot;@</ToTranslate>
+  </String>
+  <String index="940">
+    <ToTranslate>ganr0212</ToTranslate>
+  </String>
+  <String index="941">
+    <ToTranslate>Ganryou$&quot;It&apos;s so... good... You&apos;re so good at sucking, Reiha-sama... I feel like I&apos;m coming again...&quot;@</ToTranslate>
+  </String>
+  <String index="942">
+    <ToTranslate>ensy0240</ToTranslate>
+  </String>
+  <String index="943">
+    <ToTranslate>Enshou$&quot;Humb... Ga... Ganryou... san... please don&apos;t... shove... hummm.&quot;@</ToTranslate>
+  </String>
+  <String index="944">
+    <ToTranslate>buns0198</ToTranslate>
+  </String>
+  <String index="945">
+    <ToTranslate>Bunshuu$&quot;Oh, your cock is sticking out over her cheek... Is this it?&quot;@</ToTranslate>
+  </String>
+  <String index="946">
+    <ToTranslate>ganr0213</ToTranslate>
+  </String>
+  <String index="947">
+    <ToTranslate>Ganryou$&quot;Y-yes... that&apos;s my cock... It feels wondrous when you rub it...!&quot;@</ToTranslate>
+  </String>
+  <String index="948">
+    <ToTranslate>buns0199</ToTranslate>
+  </String>
+  <String index="949">
+    <ToTranslate>Bunshuu$&quot;I see, you can feel this over her cheek, huh? Did you know that, Reiha-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="950">
+    <ToTranslate>ensy0241</ToTranslate>
+  </String>
+  <String index="951">
+    <ToTranslate>Enshou$&quot;O-of course I... humg... I don&apos;t... uh... uhh...!&quot;@</ToTranslate>
+  </String>
+  <String index="952">
+    <ToTranslate>ganr0214</ToTranslate>
+  </String>
+  <String index="953">
+    <ToTranslate>Ganryou$&quot;Uh, I&apos;m coming... I&apos;m coming again!&quot;@</ToTranslate>
+  </String>
+  <String index="954">
+    <ToTranslate>ensy0242</ToTranslate>
+  </String>
+  <String index="955">
+    <ToTranslate>Enshou$&quot;Huuhhh!&quot;@</ToTranslate>
+  </String>
+  <String index="956">
+    <ToTranslate>flash</ToTranslate>
+  </String>
+  <String index="957">
+    <ToTranslate>$Throb! Throb, throb, throb...!@</ToTranslate>
+  </String>
+  <String index="958">
+    <ToTranslate>ensy0243</ToTranslate>
+  </String>
+  <String index="959">
+    <ToTranslate>Enshou$&quot;Kaff, buh, kaff, kaff...!&quot;@</ToTranslate>
+  </String>
+  <String index="960">
+    <ToTranslate>buns0200</ToTranslate>
+  </String>
+  <String index="961">
+    <ToTranslate>Bunshuu$&quot;Oh, Reiha-sama... you shouldn&apos;t waste her sperm like that...&quot;@</ToTranslate>
+  </String>
+  <String index="962">
+    <ToTranslate>ensy0244</ToTranslate>
+  </String>
+  <String index="963">
+    <ToTranslate>Enshou$&quot;Eww... Ganryou-san... it&apos;s too much...&quot;@</ToTranslate>
+  </String>
+  <String index="964">
+    <ToTranslate>ganr0215</ToTranslate>
+  </String>
+  <String index="965">
+    <ToTranslate>Ganryou$&quot;Ooh... I couldn&apos;t help it because it felt really good... Right, Bun-chan?&quot;@</ToTranslate>
+  </String>
+  <String index="966">
+    <ToTranslate>buns0201</ToTranslate>
+  </String>
+  <String index="967">
+    <ToTranslate>Bunshuu$&quot;Yeah... So, Reiha-sama...?&quot;@</ToTranslate>
+  </String>
+  <String index="968">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="969">
+    <ToTranslate>ecg_ens14a</ToTranslate>
+  </String>
+  <String index="970">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="971">
+    <ToTranslate>ensy0245</ToTranslate>
+  </String>
+  <String index="972">
+    <ToTranslate>Enshou$&quot;No! Not, not that! Anything but...that...No!&quot;@</ToTranslate>
+  </String>
+  <String index="973">
+    <ToTranslate>ganr0216</ToTranslate>
+  </String>
+  <String index="974">
+    <ToTranslate>Ganryou$&quot;We can&apos;t stop this anymore... So can we come inside of you?&quot; @</ToTranslate>
+  </String>
+  <String index="975">
+    <ToTranslate>ensy0246</ToTranslate>
+  </String>
+  <String index="976">
+    <ToTranslate>Enshou$&quot;No, you can not... the only person who is allowed to do that is... is...&quot;@</ToTranslate>
+  </String>
+  <String index="977">
+    <ToTranslate>buns0202</ToTranslate>
+  </String>
+  <String index="978">
+    <ToTranslate>Bunshuu$&quot;But we can&apos;t hold it ......anymore... And I know your pussy...... is already so wet. See...&quot;@</ToTranslate>
+  </String>
+  <String index="979">
+    <ToTranslate>$Slop... chlop...@</ToTranslate>
+  </String>
+  <String index="980">
+    <ToTranslate>ensy0247</ToTranslate>
+  </String>
+  <String index="981">
+    <ToTranslate>Enshou$&quot;Whaaah... th-this is enough already...! Wh-why... have you become like th... ahh! Ganryou-san, that&apos;s my butt..!&quot;@</ToTranslate>
+  </String>
+  <String index="982">
+    <ToTranslate>ganr0217</ToTranslate>
+  </String>
+  <String index="983">
+    <ToTranslate>Ganryou$&quot;But when I touch this hole, it twitches in delight.&quot;@</ToTranslate>
+  </String>
+  <String index="984">
+    <ToTranslate>ensy0248</ToTranslate>
+  </String>
+  <String index="985">
+    <ToTranslate>Enshou$&quot;No... don&apos;t massage around the hole...&quot;@</ToTranslate>
+  </String>
+  <String index="986">
+    <ToTranslate>buns0203</ToTranslate>
+  </String>
+  <String index="987">
+    <ToTranslate>Bunshuu$&quot;Can I... Can I insert my cock now...? You&apos;re very used to this kind of things, right?&quot;@</ToTranslate>
+  </String>
+  <String index="988">
+    <ToTranslate>ensy0249</ToTranslate>
+  </String>
+  <String index="989">
+    <ToTranslate>Enshou$&quot;N-no, don&apos;t! I&apos;m not used to this, I&apos;m not used to it...!&quot;@</ToTranslate>
+  </String>
+  <String index="990">
+    <ToTranslate>buns0204</ToTranslate>
+  </String>
+  <String index="991">
+    <ToTranslate>Bunshuu$&quot;Huh? You aren&apos;t, Reiha-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="992">
+    <ToTranslate>ensy0250</ToTranslate>
+  </String>
+  <String index="993">
+    <ToTranslate>Enshou$&quot;N-no... I&apos;ve never... I, I&apos;ve never......done this, or had sex before......&quot;@</ToTranslate>
+  </String>
+  <String index="994">
+    <ToTranslate>ganr0218</ToTranslate>
+  </String>
+  <String index="995">
+    <ToTranslate>Ganryou$&quot;So is this your first anal sex too? Will it hurt then?&quot;@</ToTranslate>
+  </String>
+  <String index="996">
+    <ToTranslate>ensy0251</ToTranslate>
+  </String>
+  <String index="997">
+    <ToTranslate>Enshou$&quot;Of course... it will hurt...&quot;@</ToTranslate>
+  </String>
+  <String index="998">
+    <ToTranslate>buns0205</ToTranslate>
+  </String>
+  <String index="999">
+    <ToTranslate>Ganryou$&quot;It&apos;s all right. She is Enshou-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="1000">
+    <ToTranslate>ganr0219</ToTranslate>
+  </String>
+  <String index="1001">
+    <ToTranslate>Ganryou$&quot;That&apos;s right. She should be fine.&quot;@</ToTranslate>
+  </String>
+  <String index="1002">
+    <ToTranslate>ensy0252</ToTranslate>
+  </String>
+  <String index="1003">
+    <ToTranslate>Enshou$&quot;Eeek... he-hey, what do you think I am...? Uh... what are you doing...?&quot;@</ToTranslate>
+  </String>
+  <String index="1004">
+    <ToTranslate>$Slop... chlop... chlop, chup, shlop.@</ToTranslate>
+  </String>
+  <String index="1005">
+    <ToTranslate>ensy0253</ToTranslate>
+  </String>
+  <String index="1006">
+    <ToTranslate>Enshou$&quot;Oww ahhhh!&quot;@</ToTranslate>
+  </String>
+  <String index="1007">
+    <ToTranslate>$Chug, chlurp, chubb... chlurp.@</ToTranslate>
+  </String>
+  <String index="1008">
+    <ToTranslate>ensy0254</ToTranslate>
+  </String>
+  <String index="1009">
+    <ToTranslate>Enshou$&quot;Ow... uh... ah... ooh......&quot;@</ToTranslate>
+  </String>
+  <String index="1010">
+    <ToTranslate>buns0206</ToTranslate>
+  </String>
+  <String index="1011">
+    <ToTranslate>Bunshuu$&quot;Ahah... It really is your first time, Reiha-sama... Hee hee, so we took your virginity...&quot; @</ToTranslate>
+  </String>
+  <String index="1012">
+    <ToTranslate>ensy0255</ToTranslate>
+  </String>
+  <String index="1013">
+    <ToTranslate>Enshou$&quot;Urgh... heeu... it... it hurts... hikk... ow...&quot;@</ToTranslate>
+  </String>
+  <String index="1014">
+    <ToTranslate>ganr0220</ToTranslate>
+  </String>
+  <String index="1015">
+    <ToTranslate>Ganryou$&quot;Bun-chan... I can feel your... uh, cock inside of  Reiha-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="1016">
+    <ToTranslate>ensy0256</ToTranslate>
+  </String>
+  <String index="1017">
+    <ToTranslate>Enshou$&quot;Hikk... don&apos;t say that...&quot;@</ToTranslate>
+  </String>
+  <String index="1018">
+    <ToTranslate>buns0207</ToTranslate>
+  </String>
+  <String index="1019">
+    <ToTranslate>Bunshuu$&quot;Yeah... I feel you cock too... it&apos;s twitching inside Reiha-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="1020">
+    <ToTranslate>ganr0221</ToTranslate>
+  </String>
+  <String index="1021">
+    <ToTranslate>Ganryou$&quot;Reiha-sama... I&apos;m going to move slowly... okay?&quot;@</ToTranslate>
+  </String>
+  <String index="1022">
+    <ToTranslate>ensy0257</ToTranslate>
+  </String>
+  <String index="1023">
+    <ToTranslate>Enshou$&quot;No... don&apos;t... hah...! Ooh... uh, ahh.... ahhh! Urgh... ooooh...&quot;@</ToTranslate>
+  </String>
+  <String index="1024">
+    <ToTranslate>buns0208</ToTranslate>
+  </String>
+  <String index="1025">
+    <ToTranslate>Bunshuu$&quot;This feels great, Reiha-sama... I feel like my cock is being crushed...&quot;@</ToTranslate>
+  </String>
+  <String index="1026">
+    <ToTranslate>ganr0222</ToTranslate>
+  </String>
+  <String index="1027">
+    <ToTranslate>Ganryou$&quot;Your anus is enticing too... I think I&apos;m going to come soon... It feels too good... I can&apos;t stop this...&quot;@</ToTranslate>
+  </String>
+  <String index="1028">
+    <ToTranslate>buns0209</ToTranslate>
+  </String>
+  <String index="1029">
+    <ToTranslate>Bunshuu$&quot;You just came, Toshi. Hold it longer this time, will you? Until we make Reiha-sama get off, all right?&quot;@</ToTranslate>
+  </String>
+  <String index="1030">
+    <ToTranslate>ganr0223</ToTranslate>
+  </String>
+  <String index="1031">
+    <ToTranslate>Ganryou$&quot;O-okay... Let&apos;s feel good together, Reiha-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="1032">
+    <ToTranslate>ensy0258</ToTranslate>
+  </String>
+  <String index="1033">
+    <ToTranslate>Enshou$&quot;Hah... humg. ooh... hikk... hmm, mmm...&quot;@</ToTranslate>
+  </String>
+  <String index="1034">
+    <ToTranslate>buns0210</ToTranslate>
+  </String>
+  <String index="1035">
+    <ToTranslate>Bunshuu$&quot;Okay, Toshi, match your movement with mine.&quot;@</ToTranslate>
+  </String>
+  <String index="1036">
+    <ToTranslate>ganr0224</ToTranslate>
+  </String>
+  <String index="1037">
+    <ToTranslate>Ganryou$&quot;O... kay. Uh, wow...&quot;@</ToTranslate>
+  </String>
+  <String index="1038">
+    <ToTranslate>ensy0259</ToTranslate>
+  </String>
+  <String index="1039">
+    <ToTranslate>Enshou$&quot;Ahh... your cocks are... heeyaa...! Moving inside of me......!&quot;@</ToTranslate>
+  </String>
+  <String index="1040">
+    <ToTranslate>buns0211</ToTranslate>
+  </String>
+  <String index="1041">
+    <ToTranslate>Bunshuu$&quot;Huff... Reiha-sama, Reiha-sama, aren&apos;t you getting off...?&quot;@</ToTranslate>
+  </String>
+  <String index="1042">
+    <ToTranslate>ensy0260</ToTranslate>
+  </String>
+  <String index="1043">
+    <ToTranslate>Enshou$&quot;N-no... no I&apos;m not... huh, ahhh! B-Bunshuu-san... y-you&apos;re penetrating me so deep...!&quot;@</ToTranslate>
+  </String>
+  <String index="1044">
+    <ToTranslate>ganr0225</ToTranslate>
+  </String>
+  <String index="1045">
+    <ToTranslate>Ganryou$&quot;Hah! Bun-chan! Y-your cock is hitting mine...!&quot;@</ToTranslate>
+  </String>
+  <String index="1046">
+    <ToTranslate>buns0212</ToTranslate>
+  </String>
+  <String index="1047">
+    <ToTranslate>Bunshuu$&quot;Here, you should move too, Toshi.&quot;@</ToTranslate>
+  </String>
+  <String index="1048">
+    <ToTranslate>ganr0226</ToTranslate>
+  </String>
+  <String index="1049">
+    <ToTranslate>Ganryou$&quot;O-okay... hmm...&quot;@</ToTranslate>
+  </String>
+  <String index="1050">
+    <ToTranslate>$Chlop, slop, chlop!@</ToTranslate>
+  </String>
+  <String index="1051">
+    <ToTranslate>ensy0261</ToTranslate>
+  </String>
+  <String index="1052">
+    <ToTranslate>Enshou$&quot;Hahhh! Ganryou...san!&quot;@</ToTranslate>
+  </String>
+  <String index="1053">
+    <ToTranslate>buns0213</ToTranslate>
+  </String>
+  <String index="1054">
+    <ToTranslate>Bunshuu$&quot;Ghhaa...! Toshi... that... that feels awesome...&quot;@</ToTranslate>
+  </String>
+  <String index="1055">
+    <ToTranslate>ganr0227</ToTranslate>
+  </String>
+  <String index="1056">
+    <ToTranslate>Ganryou$&quot;Now, together...&quot; @</ToTranslate>
+  </String>
+  <String index="1057">
+    <ToTranslate>buns0214</ToTranslate>
+  </String>
+  <String index="1058">
+    <ToTranslate>Bunshuu$&quot;Yeah... Toshi, Reiha-sama!&quot;@</ToTranslate>
+  </String>
+  <String index="1059">
+    <ToTranslate>$Slop, jup, chlop, chlop!@</ToTranslate>
+  </String>
+  <String index="1060">
+    <ToTranslate>ensy0262</ToTranslate>
+  </String>
+  <String index="1061">
+    <ToTranslate>Enshou$&quot;Heeyaa! Y-you&apos;re breaking me!&quot;@</ToTranslate>
+  </String>
+  <String index="1062">
+    <ToTranslate>ganr0228</ToTranslate>
+  </String>
+  <String index="1063">
+    <ToTranslate>Ganryou$&quot;Haahh! Bun-chaaan!&quot;@</ToTranslate>
+  </String>
+  <String index="1064">
+    <ToTranslate>buns0215</ToTranslate>
+  </String>
+  <String index="1065">
+    <ToTranslate>Bunshuu$&quot;Ahahh! Th-this is freaking awesome...!&quot;@</ToTranslate>
+  </String>
+  <String index="1066">
+    <ToTranslate>ganr0229</ToTranslate>
+  </String>
+  <String index="1067">
+    <ToTranslate>Ganryou$&quot;Tee hee... Reiha-sama... I know you&apos;re starting to get off...&quot;@</ToTranslate>
+  </String>
+  <String index="1068">
+    <ToTranslate>ensy0263</ToTranslate>
+  </String>
+  <String index="1069">
+    <ToTranslate>Enshou$&quot;N-no... no... that&apos;s not happening...&quot;@</ToTranslate>
+  </String>
+  <String index="1070">
+    <ToTranslate>buns0216</ToTranslate>
+  </String>
+  <String index="1071">
+    <ToTranslate>Bunshuu$&quot;You&apos;re lying... your pussy is... way too wet... and your face looks... so enraptured!&quot;@</ToTranslate>
+  </String>
+  <String index="1072">
+    <ToTranslate>ganr0230</ToTranslate>
+  </String>
+  <String index="1073">
+    <ToTranslate>Ganryou$&quot;Th-that&apos;s right... your anus is... tightening up...! Umgh...!&quot;@</ToTranslate>
+  </String>
+  <String index="1074">
+    <ToTranslate>buns0217</ToTranslate>
+  </String>
+  <String index="1075">
+    <ToTranslate>Bunshuu$&quot;Y-you&apos;ve always wanted to... hmm, be fucked in both holes... like this... haven&apos;t you...? Heh heh.&quot;@</ToTranslate>
+  </String>
+  <String index="1076">
+    <ToTranslate>ensy0264</ToTranslate>
+  </String>
+  <String index="1077">
+    <ToTranslate>Enshou$&quot;N-no... I... I never...! I&apos;m from noble family! I... ahhhah! I&apos;d never... ahh, want something dirty... like that... It disgusts me!&quot;@</ToTranslate>
+  </String>
+  <String index="1078">
+    <ToTranslate>buns0218</ToTranslate>
+  </String>
+  <String index="1079">
+    <ToTranslate>Bunshuu$&quot;You&apos;re lying... I know you&apos;re watching enviously... hah... whenever Toshi and I make love... urgh...&quot;@</ToTranslate>
+  </String>
+  <String index="1080">
+    <ToTranslate>ganr0231</ToTranslate>
+  </String>
+  <String index="1081">
+    <ToTranslate>Ganryou$&quot;Hee hee. Reiha-sama... you&apos;re just scared because... this is your first time... hmm... right?&quot;@</ToTranslate>
+  </String>
+  <String index="1082">
+    <ToTranslate>buns0219</ToTranslate>
+  </String>
+  <String index="1083">
+    <ToTranslate>Bunshuu$&quot;Here, look there.&quot;@</ToTranslate>
+  </String>
+  <String index="1084">
+    <ToTranslate>ensy0265</ToTranslate>
+  </String>
+  <String index="1085">
+    <ToTranslate>Enshou$&quot;Heeek...!&quot;@</ToTranslate>
+  </String>
+  <String index="1086">
+    <ToTranslate>ganr0232</ToTranslate>
+  </String>
+  <String index="1087">
+    <ToTranslate>Ganryou$&quot;You look so horny in the mirror, Reiha-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="1088">
+    <ToTranslate>ensy0266</ToTranslate>
+  </String>
+  <String index="1089">
+    <ToTranslate>Enshou$&quot;Hah... no... no...!&quot;@</ToTranslate>
+  </String>
+  <String index="1090">
+    <ToTranslate>buns0220</ToTranslate>
+  </String>
+  <String index="1091">
+    <ToTranslate>Bunshuu$&quot;Both of your holes are plugged up... and you&apos;re producing so much pussy juice...&quot;@</ToTranslate>
+  </String>
+  <String index="1092">
+    <ToTranslate>$Chlop... chlurp... chup...@</ToTranslate>
+  </String>
+  <String index="1093">
+    <ToTranslate>ganr0233</ToTranslate>
+  </String>
+  <String index="1094">
+    <ToTranslate>Ganryou$&quot;You&apos;ve been... hah... wanting to be... hah... fucked like this, haven&apos;t you...?&quot;@</ToTranslate>
+  </String>
+  <String index="1095">
+    <ToTranslate>ensy0267</ToTranslate>
+  </String>
+  <String index="1096">
+    <ToTranslate>Enshou$&quot;No... that&apos;s not... true...&quot;@</ToTranslate>
+  </String>
+  <String index="1097">
+    <ToTranslate>ganr0234</ToTranslate>
+  </String>
+  <String index="1098">
+    <ToTranslate>Ganryou$&quot;It&apos;s okay, Reiha-sama... You don&apos;t have to... umg, pretend, umg... in front of Bun-chan and me...&quot;@</ToTranslate>
+  </String>
+  <String index="1099">
+    <ToTranslate>buns0221</ToTranslate>
+  </String>
+  <String index="1100">
+    <ToTranslate>Bunshuu$&quot;Come on... why don&apos;t you be honest, Reiha-sama...? Ahh... Toshi, that feels really good...!&quot;@</ToTranslate>
+  </String>
+  <String index="1101">
+    <ToTranslate>ganr0235</ToTranslate>
+  </String>
+  <String index="1102">
+    <ToTranslate>Ganryou$&quot;Hah... are you getting off?&quot;@</ToTranslate>
+  </String>
+  <String index="1103">
+    <ToTranslate>buns0222</ToTranslate>
+  </String>
+  <String index="1104">
+    <ToTranslate>Bunshuu$&quot;Reiha-sama... you must be getting off... from getting fuck in both holes, right...?&quot;@</ToTranslate>
+  </String>
+  <String index="1105">
+    <ToTranslate>ensy0268</ToTranslate>
+  </String>
+  <String index="1106">
+    <ToTranslate>Enshou$&quot;Ooh... no... I&apos;m not... getting off.&quot;@</ToTranslate>
+  </String>
+  <String index="1107">
+    <ToTranslate>ganr0236</ToTranslate>
+  </String>
+  <String index="1108">
+    <ToTranslate>Ganryou$&quot;You&apos;re just pretending, right? You&apos;re actually happy that... we&apos;re penetrating you at the same time... right?&quot;@</ToTranslate>
+  </String>
+  <String index="1109">
+    <ToTranslate>ensy0269</ToTranslate>
+  </String>
+  <String index="1110">
+    <ToTranslate>Enshou$&quot;H-happy...? N-no...&quot;@</ToTranslate>
+  </String>
+  <String index="1111">
+    <ToTranslate>buns0223</ToTranslate>
+  </String>
+  <String index="1112">
+    <ToTranslate>Bunshuu$&quot;Humph. Toshi.&quot;@</ToTranslate>
+  </String>
+  <String index="1113">
+    <ToTranslate>ganr0237</ToTranslate>
+  </String>
+  <String index="1114">
+    <ToTranslate>Ganryou$&quot;Okay.&quot;@</ToTranslate>
+  </String>
+  <String index="1115">
+    <ToTranslate>$Chup, slop...@</ToTranslate>
+  </String>
+  <String index="1116">
+    <ToTranslate>ensy0270</ToTranslate>
+  </String>
+  <String index="1117">
+    <ToTranslate>Enshou$&quot;Hahhh! D-don&apos;t take it awa... uh!&quot;@</ToTranslate>
+  </String>
+  <String index="1118">
+    <ToTranslate>ganr0238</ToTranslate>
+  </String>
+  <String index="1119">
+    <ToTranslate>Ganryou$&quot;See? You&apos;re want this.&quot;@</ToTranslate>
+  </String>
+  <String index="1120">
+    <ToTranslate>ensy0271</ToTranslate>
+  </String>
+  <String index="1121">
+    <ToTranslate>Enshou$&quot;Uh, uh...&quot;@</ToTranslate>
+  </String>
+  <String index="1122">
+    <ToTranslate>buns0224</ToTranslate>
+  </String>
+  <String index="1123">
+    <ToTranslate>Bunshuu$&quot;You want these cocks, don&apos;t you?&quot;@</ToTranslate>
+  </String>
+  <String index="1124">
+    <ToTranslate>ensy0272</ToTranslate>
+  </String>
+  <String index="1125">
+    <ToTranslate>Enshou$&quot;Ooh... uh... umm...&quot;@</ToTranslate>
+  </String>
+  <String index="1126">
+    <ToTranslate>ganr0239</ToTranslate>
+  </String>
+  <String index="1127">
+    <ToTranslate>Ganryou$&quot;You look so sad in the mirror, Reiha-sama. Your two holes down there are craving our cocks.&quot;@</ToTranslate>
+  </String>
+  <String index="1128">
+    <ToTranslate>buns0225</ToTranslate>
+  </String>
+  <String index="1129">
+    <ToTranslate>Bunshuu$&quot;Come on, Reiha-sama, just tell us honestly what you want...&quot;@</ToTranslate>
+  </String>
+  <String index="1130">
+    <ToTranslate>ganr0240</ToTranslate>
+  </String>
+  <String index="1131">
+    <ToTranslate>Ganryou$&quot;You want to be fucked hard, don&apos;t you?&quot;@</ToTranslate>
+  </String>
+  <String index="1132">
+    <ToTranslate>ensy0273</ToTranslate>
+  </String>
+  <String index="1133">
+    <ToTranslate>Enshou$&quot;Y-yes... fuck me... hard...&quot;@</ToTranslate>
+  </String>
+  <String index="1134">
+    <ToTranslate>buns0226</ToTranslate>
+  </String>
+  <String index="1135">
+    <ToTranslate>Bunshuu$&quot;And? What else do you want?&quot;@</ToTranslate>
+  </String>
+  <String index="1136">
+    <ToTranslate>ensy0274</ToTranslate>
+  </String>
+  <String index="1137">
+    <ToTranslate>Enshou$&quot;Uh, uh... and... give me a lot of... cum...&quot;@</ToTranslate>
+  </String>
+  <String index="1138">
+    <ToTranslate>ganr0241</ToTranslate>
+  </String>
+  <String index="1139">
+    <ToTranslate>Ganryou$&quot;Reiha-sama, how do you call the thing you want?&quot;@</ToTranslate>
+  </String>
+  <String index="1140">
+    <ToTranslate>ensy0275</ToTranslate>
+  </String>
+  <String index="1141">
+    <ToTranslate>Enshou$&quot;Ahh... a cock. Give me both of your cocks...&quot;@</ToTranslate>
+  </String>
+  <String index="1142">
+    <ToTranslate>buns0227</ToTranslate>
+  </String>
+  <String index="1143">
+    <ToTranslate>Bunshuu$&quot;What are you supposed to say when you ask for something?&quot;@</ToTranslate>
+  </String>
+  <String index="1144">
+    <ToTranslate>ensy0276</ToTranslate>
+  </String>
+  <String index="1145">
+    <ToTranslate>Enshou$&quot;Um... uh.. ah...&quot;@</ToTranslate>
+  </String>
+  <String index="1146">
+    <ToTranslate>ganr0242</ToTranslate>
+  </String>
+  <String index="1147">
+    <ToTranslate>Ganryou$&quot;Reiha-sama, if you don&apos;t say it, we won&apos;t give them to you?&quot;@</ToTranslate>
+  </String>
+  <String index="1148">
+    <ToTranslate>$Slop... chlop.@</ToTranslate>
+  </String>
+  <String index="1149">
+    <ToTranslate>ensy0277</ToTranslate>
+  </String>
+  <String index="1150">
+    <ToTranslate>Enshou$&quot;Hahh... Y-your cock is... touching me down there...!&quot;@</ToTranslate>
+  </String>
+  <String index="1151">
+    <ToTranslate>ganr0243</ToTranslate>
+  </String>
+  <String index="1152">
+    <ToTranslate>Ganryou$&quot;Come on. What do you want with this? Do you want us to stir just the entrance?@</ToTranslate>
+  </String>
+  <String index="1153">
+    <ToTranslate>$Chlop, chlurp, chup...@</ToTranslate>
+  </String>
+  <String index="1154">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1155">
+    <ToTranslate>ecg_ens14b</ToTranslate>
+  </String>
+  <String index="1156">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1157">
+    <ToTranslate>ensy0278</ToTranslate>
+  </String>
+  <String index="1158">
+    <ToTranslate>Enshou$&quot;Shove it into me... not just the entrance...&quot;@</ToTranslate>
+  </String>
+  <String index="1159">
+    <ToTranslate>ganr0244</ToTranslate>
+  </String>
+  <String index="1160">
+    <ToTranslate>Ganryou$&quot;So, what do you have to say here? I won&apos;t insert it deeper than this if you don&apos;t say the magic word.&quot;@</ToTranslate>
+  </String>
+  <String index="1161">
+    <ToTranslate>ensy0279</ToTranslate>
+  </String>
+  <String index="1162">
+    <ToTranslate>Enshou$&quot;No......no, no, no....Ple...ase, please...&quot;@</ToTranslate>
+  </String>
+  <String index="1163">
+    <ToTranslate>buns0228</ToTranslate>
+  </String>
+  <String index="1164">
+    <ToTranslate>Bunshuu$&quot;Come on. One more time.&quot;@</ToTranslate>
+  </String>
+  <String index="1165">
+    <ToTranslate>ensy0280</ToTranslate>
+  </String>
+  <String index="1166">
+    <ToTranslate>Enshou$&quot;Please! Please! Please fuck me hard  with your cocks and give me a lot of your cum!&quot;@</ToTranslate>
+  </String>
+  <String index="1167">
+    <ToTranslate>buns0229</ToTranslate>
+  </String>
+  <String index="1168">
+    <ToTranslate>Bunshuu$&quot;I want to hear it again.&quot;@</ToTranslate>
+  </String>
+  <String index="1169">
+    <ToTranslate>ensy0281</ToTranslate>
+  </String>
+  <String index="1170">
+    <ToTranslate>Enshou$&quot;Please! Please stir my dirty pussy with your hard cocks! Please... please...!&quot;@</ToTranslate>
+  </String>
+  <String index="1171">
+    <ToTranslate>ganr0245</ToTranslate>
+  </String>
+  <String index="1172">
+    <ToTranslate>Ganryou$&quot;Hee hee. Good girl.&quot;@</ToTranslate>
+  </String>
+  <String index="1173">
+    <ToTranslate>$Jup! Chuk, jup! @</ToTranslate>
+  </String>
+  <String index="1174">
+    <ToTranslate>ensy0282</ToTranslate>
+  </String>
+  <String index="1175">
+    <ToTranslate>Enshou$&quot;Ahhhh! It&apos;s in! Your cock is in!&quot;@</ToTranslate>
+  </String>
+  <String index="1176">
+    <ToTranslate>buns0230</ToTranslate>
+  </String>
+  <String index="1177">
+    <ToTranslate>Bunshuu$&quot;Ah... Reiha-sama...  Reiha-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="1178">
+    <ToTranslate>ensy0283</ToTranslate>
+  </String>
+  <String index="1179">
+    <ToTranslate>Enshou$&quot;Ah! Bunshuu-san, this is great... I feel your cock in my ass too, Toshi...&quot;@</ToTranslate>
+  </String>
+  <String index="1180">
+    <ToTranslate>ganr0246</ToTranslate>
+  </String>
+  <String index="1181">
+    <ToTranslate>Ganryou$&quot;Wow, you move so fast, Bun-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="1182">
+    <ToTranslate>$Jup! Chugg, chup!@</ToTranslate>
+  </String>
+  <String index="1183">
+    <ToTranslate>ensy0284</ToTranslate>
+  </String>
+  <String index="1184">
+    <ToTranslate>Enshou$&quot;Heeya! Y-your movement is... getting out of synch a little bit...! Great... great...!&quot;@</ToTranslate>
+  </String>
+  <String index="1185">
+    <ToTranslate>buns0231</ToTranslate>
+  </String>
+  <String index="1186">
+    <ToTranslate>Bunshuu$&quot;Come on, faster, Toshi.&quot;@</ToTranslate>
+  </String>
+  <String index="1187">
+    <ToTranslate>ganr0247</ToTranslate>
+  </String>
+  <String index="1188">
+    <ToTranslate>Ganryou$&quot;You&apos;re too fast, Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="1189">
+    <ToTranslate>ensy0285</ToTranslate>
+  </String>
+  <String index="1190">
+    <ToTranslate>Enshou$&quot;Th-this sensation is... excessive...&quot;@</ToTranslate>
+  </String>
+  <String index="1191">
+    <ToTranslate>buns0232</ToTranslate>
+  </String>
+  <String index="1192">
+    <ToTranslate>Bunshuu$&quot;Uh, ah... Reiha-sama...&quot;@</ToTranslate>
+  </String>
+  <String index="1193">
+    <ToTranslate>ensy0286</ToTranslate>
+  </String>
+  <String index="1194">
+    <ToTranslate>Enshou$&quot;Hyeaah. You&apos;re both great... Ghh, Ganryou-san, please don&apos;t bite my ear...&quot;@</ToTranslate>
+  </String>
+  <String index="1195">
+    <ToTranslate>ganr0248</ToTranslate>
+  </String>
+  <String index="1196">
+    <ToTranslate>Ganryou$&quot;Then how about this?&quot;@</ToTranslate>
+  </String>
+  <String index="1197">
+    <ToTranslate>ensy0287</ToTranslate>
+  </String>
+  <String index="1198">
+    <ToTranslate>Enshou$&quot;Hahh... not my tits... ahh... it&apos;s so sensual...&quot;@</ToTranslate>
+  </String>
+  <String index="1199">
+    <ToTranslate>ganr0249</ToTranslate>
+  </String>
+  <String index="1200">
+    <ToTranslate>Ganryou$&quot;Your boobs feel sticky with Bun-chan&apos;s body fluid... Do you hear this sound?&quot;@</ToTranslate>
+  </String>
+  <String index="1201">
+    <ToTranslate>$Slurp, chlop, slurp...@</ToTranslate>
+  </String>
+  <String index="1202">
+    <ToTranslate>buns0233</ToTranslate>
+  </String>
+  <String index="1203">
+    <ToTranslate>Bunshuu$&quot;Uh, Toshi, I want to do that too...&quot;@</ToTranslate>
+  </String>
+  <String index="1204">
+    <ToTranslate>$Slurp...  chlurp, chlup...@</ToTranslate>
+  </String>
+  <String index="1205">
+    <ToTranslate>ensy0288</ToTranslate>
+  </String>
+  <String index="1206">
+    <ToTranslate>Enshou$&quot;Uh, ahh... you&apos;re spreading that sticky stuff... Ahh! You&apos;re sticking to me...&quot;@</ToTranslate>
+  </String>
+  <String index="1207">
+    <ToTranslate>ganr0250</ToTranslate>
+  </String>
+  <String index="1208">
+    <ToTranslate>Ganryou$&quot;You smell so good, Reiha-sama... and your boobs smell so horny...&quot;@</ToTranslate>
+  </String>
+  <String index="1209">
+    <ToTranslate>buns0234</ToTranslate>
+  </String>
+  <String index="1210">
+    <ToTranslate>Bunshuu$&quot;Don&apos;t you feel good? I&apos;m certainly feeling good...&quot;@</ToTranslate>
+  </String>
+  <String index="1211">
+    <ToTranslate>ensy0289</ToTranslate>
+  </String>
+  <String index="1212">
+    <ToTranslate>Enshou$&quot;I am feeling good... extremely good... ahhh! Y-you&apos;re thrusting it all the way down at the same time...!&quot;@</ToTranslate>
+  </String>
+  <String index="1213">
+    <ToTranslate>buns0235</ToTranslate>
+  </String>
+  <String index="1214">
+    <ToTranslate>Bunshuu$&quot;Ghaa... it&apos;s so... tight...!&quot;@</ToTranslate>
+  </String>
+  <String index="1215">
+    <ToTranslate>ganr0251</ToTranslate>
+  </String>
+  <String index="1216">
+    <ToTranslate>Ganryou$&quot;B-Bun-chan... let&apos;s try that one again...&quot;@</ToTranslate>
+  </String>
+  <String index="1217">
+    <ToTranslate>buns0236</ToTranslate>
+  </String>
+  <String index="1218">
+    <ToTranslate>Bunshuu$&quot;Okay... Toshi, here we go...&quot;@</ToTranslate>
+  </String>
+  <String index="1219">
+    <ToTranslate>ensy0290</ToTranslate>
+  </String>
+  <String index="1220">
+    <ToTranslate>Enshou$&quot;Ghaa! You&apos;re both so great...!&quot;@</ToTranslate>
+  </String>
+  <String index="1221">
+    <ToTranslate>ganr0252</ToTranslate>
+  </String>
+  <String index="1222">
+    <ToTranslate>Ganryou$&quot;Bun-chan, let&apos;s do that more...&quot;@</ToTranslate>
+  </String>
+  <String index="1223">
+    <ToTranslate>buns0237</ToTranslate>
+  </String>
+  <String index="1224">
+    <ToTranslate>Bunshuu$&quot;O-okay, Toshi!&quot;@</ToTranslate>
+  </String>
+  <String index="1225">
+    <ToTranslate>$Jup! Jup! Jup!@</ToTranslate>
+  </String>
+  <String index="1226">
+    <ToTranslate>ensy0291</ToTranslate>
+  </String>
+  <String index="1227">
+    <ToTranslate>Enshou$&quot;Hahh, humm... hmm... hahh...&quot;@</ToTranslate>
+  </String>
+  <String index="1228">
+    <ToTranslate>buns0238</ToTranslate>
+  </String>
+  <String index="1229">
+    <ToTranslate>Bunshuu$&quot;Toshi, it looks Reiha-sama is really getting off.&quot;@</ToTranslate>
+  </String>
+  <String index="1230">
+    <ToTranslate>ganr0253</ToTranslate>
+  </String>
+  <String index="1231">
+    <ToTranslate>Ganryou$&quot;Really? I&apos;m... hah, getting off, too... How about you, Bun-chan?&quot;@</ToTranslate>
+  </String>
+  <String index="1232">
+    <ToTranslate>buns0239</ToTranslate>
+  </String>
+  <String index="1233">
+    <ToTranslate>Bunshuu$&quot;Y-yeah... I feel like... I&apos;m coming now...&quot;@</ToTranslate>
+  </String>
+  <String index="1234">
+    <ToTranslate>ensy0292</ToTranslate>
+  </String>
+  <String index="1235">
+    <ToTranslate>Enshou$&quot;Come, come inside of me...!&quot;@</ToTranslate>
+  </String>
+  <String index="1236">
+    <ToTranslate>buns0240</ToTranslate>
+  </String>
+  <String index="1237">
+    <ToTranslate>Bunshuu$&quot;Huh...? Are you sure, Reiha-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="1238">
+    <ToTranslate>ensy0293</ToTranslate>
+  </String>
+  <String index="1239">
+    <ToTranslate>Enshou$&quot;Yes... so please... make me feel better...&quot;@</ToTranslate>
+  </String>
+  <String index="1240">
+    <ToTranslate>ganr0254</ToTranslate>
+  </String>
+  <String index="1241">
+    <ToTranslate>Ganryou$&quot;Bun-chan, Reiha-sama... I&apos;m coming... I&apos;m coming too...!&quot;@</ToTranslate>
+  </String>
+  <String index="1242">
+    <ToTranslate>ensy0294</ToTranslate>
+  </String>
+  <String index="1243">
+    <ToTranslate>Enshou$&quot;T-Toshi... you&apos;re so hard...! Heeya, you&apos;re grabbing my tits too...! Whaaahh!&quot;@</ToTranslate>
+  </String>
+  <String index="1244">
+    <ToTranslate>flash</ToTranslate>
+  </String>
+  <String index="1245">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1246">
+    <ToTranslate>ecg_ens14c</ToTranslate>
+  </String>
+  <String index="1247">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1248">
+    <ToTranslate>$Throb! Throb! Throb!@</ToTranslate>
+  </String>
+  <String index="1249">
+    <ToTranslate>ganr0255</ToTranslate>
+  </String>
+  <String index="1250">
+    <ToTranslate>Ganryou$&quot;Hahhhh! Bun-chaaaan!&quot;@</ToTranslate>
+  </String>
+  <String index="1251">
+    <ToTranslate>$Twitch! Twitch! Twiiiitch!@</ToTranslate>
+  </String>
+  <String index="1252">
+    <ToTranslate>ensy0295</ToTranslate>
+  </String>
+  <String index="1253">
+    <ToTranslate>Enshou$&quot;Ghaaaa! It&apos;s burning!&quot;@</ToTranslate>
+  </String>
+  <String index="1254">
+    <ToTranslate>$Throb! Throb! Throb, throb, throb...@</ToTranslate>
+  </String>
+  <String index="1255">
+    <ToTranslate>ganr0256</ToTranslate>
+  </String>
+  <String index="1256">
+    <ToTranslate>Ganryou$&quot;Ooh... I feel your cock... twitching through the wall...&quot;@</ToTranslate>
+  </String>
+  <String index="1257">
+    <ToTranslate>buns0241</ToTranslate>
+  </String>
+  <String index="1258">
+    <ToTranslate>Bunshuu$&quot;I feel... hah... your cock too... How about you, Reiha-sama...?&quot; @</ToTranslate>
+  </String>
+  <String index="1259">
+    <ToTranslate>ensy0296</ToTranslate>
+  </String>
+  <String index="1260">
+    <ToTranslate>Enshou$&quot;Hah... ahh... ahh...... It&apos;s... it&apos;s so... grea-- Uh... uh... ahh...&quot;@</ToTranslate>
+  </String>
+  <String index="1261">
+    <ToTranslate>buns0242</ToTranslate>
+  </String>
+  <String index="1262">
+    <ToTranslate>Bunshuu$&quot;Hee hee. Looks like Enshou-sama felt so good she can&apos;t even speak...&quot;@</ToTranslate>
+  </String>
+  <String index="1263">
+    <ToTranslate>ganr0257</ToTranslate>
+  </String>
+  <String index="1264">
+    <ToTranslate>Ganryou$&quot;Bun-chan... you know what...?&quot;@</ToTranslate>
+  </String>
+  <String index="1265">
+    <ToTranslate>buns0243</ToTranslate>
+  </String>
+  <String index="1266">
+    <ToTranslate>Bunshuu$&quot;Toshi, why don&apos;t we trade spots?&quot;@</ToTranslate>
+  </String>
+  <String index="1267">
+    <ToTranslate>ganr0258</ToTranslate>
+  </String>
+  <String index="1268">
+    <ToTranslate>Ganryou$&quot;Really? Are you sure?&quot;@</ToTranslate>
+  </String>
+  <String index="1269">
+    <ToTranslate>buns0244</ToTranslate>
+  </String>
+  <String index="1270">
+    <ToTranslate>Bunshuu$&quot;I want to try Reiha-sama&apos;s anus too...&quot;@</ToTranslate>
+  </String>
+  <String index="1271">
+    <ToTranslate>ganr0259</ToTranslate>
+  </String>
+  <String index="1272">
+    <ToTranslate>Ganryou$&quot;Oh, I&apos;m glad because I was going to ask you the same thing.&quot;@</ToTranslate>
+  </String>
+  <String index="1273">
+    <ToTranslate>$Chuk... slop, slop...@</ToTranslate>
+  </String>
+  <String index="1274">
+    <ToTranslate>buns0245</ToTranslate>
+  </String>
+  <String index="1275">
+    <ToTranslate>Bunshuu$&quot;Okay, trading spots now...&quot;@</ToTranslate>
+  </String>
+  <String index="1276">
+    <ToTranslate>$Chuk... jup... slop... chlop...@</ToTranslate>
+  </String>
+  <String index="1277">
+    <ToTranslate>ensy0297</ToTranslate>
+  </String>
+  <String index="1278">
+    <ToTranslate>Enshou$&quot;Ahh... your... cum is coming out...&quot;@</ToTranslate>
+  </String>
+  <String index="1279">
+    <ToTranslate>ganr0260</ToTranslate>
+  </String>
+  <String index="1280">
+    <ToTranslate>Ganryou$&quot;All right, Reiha-sama. I&apos;ll fuck your pussy this time.&quot;@</ToTranslate>
+  </String>
+  <String index="1281">
+    <ToTranslate>ensy0298</ToTranslate>
+  </String>
+  <String index="1282">
+    <ToTranslate>Enshou$&quot;Huh...?&quot;@</ToTranslate>
+  </String>
+  <String index="1283">
+    <ToTranslate>buns0246</ToTranslate>
+  </String>
+  <String index="1284">
+    <ToTranslate>Bunshuu$&quot;Wow, her anus is filled with your cum, Toshi.&quot;@</ToTranslate>
+  </String>
+  <String index="1285">
+    <ToTranslate>ganr0261</ToTranslate>
+  </String>
+  <String index="1286">
+    <ToTranslate>Ganryou$&quot;Her pussy is the same because of you, Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="1287">
+    <ToTranslate>buns0247</ToTranslate>
+  </String>
+  <String index="1288">
+    <ToTranslate>Bunshuu$&quot;Well, I don&apos;t mind because it&apos;s yours.&quot;@</ToTranslate>
+  </String>
+  <String index="1289">
+    <ToTranslate>ganr0262</ToTranslate>
+  </String>
+  <String index="1290">
+    <ToTranslate>Ganryou$&quot;All right, on three. One, two...&quot;@</ToTranslate>
+  </String>
+  <String index="1291">
+    <ToTranslate>buns0248</ToTranslate>
+  </String>
+  <String index="1292">
+    <ToTranslate>Bunshuu$&quot;Three!&quot;@</ToTranslate>
+  </String>
+  <String index="1293">
+    <ToTranslate>ensy0299</ToTranslate>
+  </String>
+  <String index="1294">
+    <ToTranslate>Enshou$&quot;Huh... ahhhh! Y-you both just came...!&quot;@</ToTranslate>
+  </String>
+  <String index="1295">
+    <ToTranslate>buns0249</ToTranslate>
+  </String>
+  <String index="1296">
+    <ToTranslate>Bunshuu$&quot;Ahh... your butt hole is so tight, too!&quot;@</ToTranslate>
+  </String>
+  <String index="1297">
+    <ToTranslate>ganr0263</ToTranslate>
+  </String>
+  <String index="1298">
+    <ToTranslate>Ganryou$&quot;Your pussy is... so wet and warm... it feels too good...&quot;@</ToTranslate>
+  </String>
+  <String index="1299">
+    <ToTranslate>ensy0300</ToTranslate>
+  </String>
+  <String index="1300">
+    <ToTranslate>Enshou$&quot;Hahhh... arghhhh...&quot;@</ToTranslate>
+  </String>
+  <String index="1301">
+    <ToTranslate>ganr0264</ToTranslate>
+  </String>
+  <String index="1302">
+    <ToTranslate>Ganryou$&quot;Hahh! Reiha-sama, you&apos;re so great...!&quot;@</ToTranslate>
+  </String>
+  <String index="1303">
+    <ToTranslate>flash</ToTranslate>
+  </String>
+  <String index="1304">
+    <ToTranslate>$Throb! Throb! Throb!@</ToTranslate>
+  </String>
+  <String index="1305">
+    <ToTranslate>buns0250</ToTranslate>
+  </String>
+  <String index="1306">
+    <ToTranslate>Bunshuu$&quot;What, Toshi? Did you come already?&quot;@</ToTranslate>
+  </String>
+  <String index="1307">
+    <ToTranslate>ganr0265</ToTranslate>
+  </String>
+  <String index="1308">
+    <ToTranslate>Ganryou$&quot;W-well... that&apos;s because Reiha-sama&apos;s pussy feels too good...&quot;@</ToTranslate>
+  </String>
+  <String index="1309">
+    <ToTranslate>ensy0301</ToTranslate>
+  </String>
+  <String index="1310">
+    <ToTranslate>Enshou$&quot;Hahh... my pussy is... filled again... I&apos;ve had enough... I&apos;ve had enough...&quot;@</ToTranslate>
+  </String>
+  <String index="1311">
+    <ToTranslate>buns0251</ToTranslate>
+  </String>
+  <String index="1312">
+    <ToTranslate>Bunshuu$&quot;Eh? This isn&apos;t over yet, Reiha-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="1313">
+    <ToTranslate>ganr0266</ToTranslate>
+  </String>
+  <String index="1314">
+    <ToTranslate>Ganryou$&quot;That&apos;s right. We&apos;ll continue this until you&apos;re full. Or maybe you&apos;ll lose your mind first.&quot;@</ToTranslate>
+  </String>
+  <String index="1315">
+    <ToTranslate>ensy0302</ToTranslate>
+  </String>
+  <String index="1316">
+    <ToTranslate>Enshou$&quot;Ooh... no... no...&quot;@</ToTranslate>
+  </String>
+  <String index="1317">
+    <ToTranslate>ganr0267</ToTranslate>
+  </String>
+  <String index="1318">
+    <ToTranslate>Ganryou$&quot;Hee hee. But even if you go crazy, we&apos;ll take care of you.&quot;@</ToTranslate>
+  </String>
+  <String index="1319">
+    <ToTranslate>ensy0303</ToTranslate>
+  </String>
+  <String index="1320">
+    <ToTranslate>Enshou$&quot;Nooo... whaaaahhh!&quot;@</ToTranslate>
+  </String>
+  <String index="1321">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1322">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="1323">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="1324">
+    <ToTranslate>bb</ToTranslate>
+  </String>
+  <String index="1325">
+    <ToTranslate>bcg_impseat_a</ToTranslate>
+  </String>
+  <String index="1326">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1327">
+    <ToTranslate>bgm11</ToTranslate>
+  </String>
+  <String index="1328">
+    <ToTranslate>tcg_bun21fa</ToTranslate>
+  </String>
+  <String index="1329">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="1330">
+    <ToTranslate>buns0252</ToTranslate>
+  </String>
+  <String index="1331">
+    <ToTranslate>Bunshuu$&quot;Hah... hah... hah... Toshi... it was great...&quot;@</ToTranslate>
+  </String>
+  <String index="1332">
+    <ToTranslate>tcg_gan21ma</ToTranslate>
+  </String>
+  <String index="1333">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1334">
+    <ToTranslate>ganr0268</ToTranslate>
+  </String>
+  <String index="1335">
+    <ToTranslate>Ganryou$&quot;Wow. You were great too, Bun-chan...&quot;@</ToTranslate>
+  </String>
+  <String index="1336">
+    <ToTranslate>tcg_ens11ja</ToTranslate>
+  </String>
+  <String index="1337">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="1338">
+    <ToTranslate>ensy0304</ToTranslate>
+  </String>
+  <String index="1339">
+    <ToTranslate>Enshou$&quot;Oh...? Are you finished already?&quot;@</ToTranslate>
+  </String>
+  <String index="1340">
+    <ToTranslate>buns0253</ToTranslate>
+  </String>
+  <String index="1341">
+    <ToTranslate>Bunshuu$&quot;Huh...? Re-Reiha-sama? Are you still all right?&quot;@</ToTranslate>
+  </String>
+  <String index="1342">
+    <ToTranslate>ensy0305</ToTranslate>
+  </String>
+  <String index="1343">
+    <ToTranslate>Enshou$&quot;Why wouldn&apos;t I be? You haven&apos;t filled my stomach fully yet.&quot;@</ToTranslate>
+  </String>
+  <String index="1344">
+    <ToTranslate>tcg_gan21ea</ToTranslate>
+  </String>
+  <String index="1345">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1346">
+    <ToTranslate>ganr0269</ToTranslate>
+  </String>
+  <String index="1347">
+    <ToTranslate>Ganryou$&quot;I... I can&apos;t do it anymore...&quot;@</ToTranslate>
+  </String>
+  <String index="1348">
+    <ToTranslate>tcg_ens11aa</ToTranslate>
+  </String>
+  <String index="1349">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="1350">
+    <ToTranslate>ensy0306</ToTranslate>
+  </String>
+  <String index="1351">
+    <ToTranslate>Enshou$&quot;Okay then, Iishe, you continue.&quot;@</ToTranslate>
+  </String>
+  <String index="1352">
+    <ToTranslate>buns0254</ToTranslate>
+  </String>
+  <String index="1353">
+    <ToTranslate>Bunshuu$&quot;I&apos;m sorry. I can&apos;t do it anymore either.&quot;@</ToTranslate>
+  </String>
+  <String index="1354">
+    <ToTranslate>tcg_ens21ia</ToTranslate>
+  </String>
+  <String index="1355">
+    <ToTranslate>tcg_ens21m</ToTranslate>
+  </String>
+  <String index="1356">
+    <ToTranslate>ensy0307</ToTranslate>
+  </String>
+  <String index="1357">
+    <ToTranslate>Enshou$&quot;Humph! You&apos;re both pathetic. Come on. I&apos;ll suck your cocks or whatever, so fuck me, front or back!&quot;@</ToTranslate>
+  </String>
+  <String index="1358">
+    <ToTranslate>ganr0270</ToTranslate>
+  </String>
+  <String index="1359">
+    <ToTranslate>Ganryou$&quot;I can&apos;t... I will die if I continue...&quot;@</ToTranslate>
+  </String>
+  <String index="1360">
+    <ToTranslate>ensy0308</ToTranslate>
+  </String>
+  <String index="1361">
+    <ToTranslate>Enshou$&quot;You just told me you&apos;d fuck me until I went mad, didn&apos;t you!? Why don&apos;t you do it until I&apos;m content at least!?&quot;@</ToTranslate>
+  </String>
+  <String index="1362">
+    <ToTranslate>tcg_gan21fa</ToTranslate>
+  </String>
+  <String index="1363">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1364">
+    <ToTranslate>ganr0271</ToTranslate>
+  </String>
+  <String index="1365">
+    <ToTranslate>Ganryou$&quot;I don&apos;t want to do this anymore. Bun-chaan...&quot;@</ToTranslate>
+  </String>
+  <String index="1366">
+    <ToTranslate>buns0255</ToTranslate>
+  </String>
+  <String index="1367">
+    <ToTranslate>Bunshuu$&quot;Me neither... We&apos;ll die before we drive Reiha-sama mad...&quot;@</ToTranslate>
+  </String>
+  <String index="1368">
+    <ToTranslate>ensy0309</ToTranslate>
+  </String>
+  <String index="1369">
+    <ToTranslate>Enshou$&quot;Don&apos;t you have any balls? Oh, if only I had a cock on me too, it&apos;d be different...&quot;@</ToTranslate>
+  </String>
+  <String index="1370">
+    <ToTranslate>tcg_bun21oa</ToTranslate>
+  </String>
+  <String index="1371">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="1372">
+    <ToTranslate>buns0256</ToTranslate>
+  </String>
+  <String index="1373">
+    <ToTranslate>Bunshuu$&quot;I&apos;m sure I&apos;d go crazy if Reiha-sama fucked me now...&quot;@</ToTranslate>
+  </String>
+  <String index="1374">
+    <ToTranslate>tcg_gan21ea</ToTranslate>
+  </String>
+  <String index="1375">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1376">
+    <ToTranslate>ganr0272</ToTranslate>
+  </String>
+  <String index="1377">
+    <ToTranslate>Ganryou$&quot;Yeah... I&apos;m sure I&apos;d die too...&quot;@</ToTranslate>
+  </String>
+  <String index="1378">
+    <ToTranslate>ensy0310</ToTranslate>
+  </String>
+  <String index="1379">
+    <ToTranslate>Enshou$&quot;You should look at yourself in the mirror to reflect! I need you to ejaculate at least twice as much...&quot;@</ToTranslate>
+  </String>
+  <String index="1380">
+    <ToTranslate>SE040</ToTranslate>
+  </String>
+  <String index="1381">
+    <ToTranslate>$Crack...@</ToTranslate>
+  </String>
+  <String index="1382">
+    <ToTranslate>tcg_ens11ja</ToTranslate>
+  </String>
+  <String index="1383">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="1384">
+    <ToTranslate>bgm18</ToTranslate>
+  </String>
+  <String index="1385">
+    <ToTranslate>ensy0311</ToTranslate>
+  </String>
+  <String index="1386">
+    <ToTranslate>Enshou$&quot;Oh? The mirror is cracking...?&quot;@</ToTranslate>
+  </String>
+  <String index="1387">
+    <ToTranslate>$Crack... crash... crack...!@</ToTranslate>
+  </String>
+  <String index="1388">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="1389">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1390">
+    <ToTranslate>ganr0273</ToTranslate>
+  </String>
+  <String index="1391">
+    <ToTranslate>Ganryou$&quot;Eh?&quot;@</ToTranslate>
+  </String>
+  <String index="1392">
+    <ToTranslate>tcg_bun11ka</ToTranslate>
+  </String>
+  <String index="1393">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="1394">
+    <ToTranslate>buns0257</ToTranslate>
+  </String>
+  <String index="1395">
+    <ToTranslate>Bunshuu$&quot;Oh?&quot;@</ToTranslate>
+  </String>
+  <String index="1396">
+    <ToTranslate>SE041</ToTranslate>
+  </String>
+  <String index="1397">
+    <ToTranslate>$Craaaaash!@</ToTranslate>
+  </String>
+  <String index="1398">
+    <ToTranslate>tcg_gan21ga</ToTranslate>
+  </String>
+  <String index="1399">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1400">
+    <ToTranslate>tcg_bun21ga</ToTranslate>
+  </String>
+  <String index="1401">
+    <ToTranslate>tcg_bun21m</ToTranslate>
+  </String>
+  <String index="1402">
+    <ToTranslate>gousei0039</ToTranslate>
+  </String>
+  <String index="1403">
+    <ToTranslate>gousei0039</ToTranslate>
+  </String>
+  <String index="1404">
+    <ToTranslate>Both$&quot;Ahh!&quot;@</ToTranslate>
+  </String>
+  <String index="1405">
+    <ToTranslate>ensy0312</ToTranslate>
+  </String>
+  <String index="1406">
+    <ToTranslate>Enshou$&quot;Uh-oh.&quot;@</ToTranslate>
+  </String>
+  <String index="1407">
+    <ToTranslate>tcg_bun11ea</ToTranslate>
+  </String>
+  <String index="1408">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="1409">
+    <ToTranslate>buns0259</ToTranslate>
+  </String>
+  <String index="1410">
+    <ToTranslate>Bunshuu$&quot;Wh-what did you do, Enshou-sama!?&quot;@</ToTranslate>
+  </String>
+  <String index="1411">
+    <ToTranslate>tcg_ens11fa</ToTranslate>
+  </String>
+  <String index="1412">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="1413">
+    <ToTranslate>ensy0313</ToTranslate>
+  </String>
+  <String index="1414">
+    <ToTranslate>Enshou$&quot;I-I didn&apos;t even touch it!&quot;@</ToTranslate>
+  </String>
+  <String index="1415">
+    <ToTranslate>tcg_gan11ha</ToTranslate>
+  </String>
+  <String index="1416">
+    <ToTranslate>tcg_gan11m</ToTranslate>
+  </String>
+  <String index="1417">
+    <ToTranslate>ganr0275</ToTranslate>
+  </String>
+  <String index="1418">
+    <ToTranslate>Ganryou$&quot;What if that was a precious treasure?!&quot;@</ToTranslate>
+  </String>
+  <String index="1419">
+    <ToTranslate>ensy0314</ToTranslate>
+  </String>
+  <String index="1420">
+    <ToTranslate>Enshou$&quot;I&apos;m not going to take responsibility for something that broke by itself!&quot;@</ToTranslate>
+  </String>
+  <String index="1421">
+    <ToTranslate>tcg_bun11da</ToTranslate>
+  </String>
+  <String index="1422">
+    <ToTranslate>tcg_bun11m</ToTranslate>
+  </String>
+  <String index="1423">
+    <ToTranslate>buns0260</ToTranslate>
+  </String>
+  <String index="1424">
+    <ToTranslate>Bunshuu$&quot;M-maybe you&apos;re right... but...&quot;@</ToTranslate>
+  </String>
+  <String index="1425">
+    <ToTranslate>tcg_gan21ia</ToTranslate>
+  </String>
+  <String index="1426">
+    <ToTranslate>tcg_gan21m</ToTranslate>
+  </String>
+  <String index="1427">
+    <ToTranslate>ganr0276</ToTranslate>
+  </String>
+  <String index="1428">
+    <ToTranslate>Ganryou$&quot;Oh... I suddenly feel sleepy...&quot;@</ToTranslate>
+  </String>
+  <String index="1429">
+    <ToTranslate>tcg_ens11ja</ToTranslate>
+  </String>
+  <String index="1430">
+    <ToTranslate>tcg_ens11m</ToTranslate>
+  </String>
+  <String index="1431">
+    <ToTranslate>ensy0315</ToTranslate>
+  </String>
+  <String index="1432">
+    <ToTranslate>Enshou$&quot;Wh-what&apos;s wrong, you... two...?&quot;@</ToTranslate>
+  </String>
+  <String index="1433">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1434">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1435">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="1436">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1437">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="1438">
+    <ToTranslate>ganr0277</ToTranslate>
+  </String>
+  <String index="1439">
+    <ToTranslate>Ganryou$&quot;Enshou-sama! Enshou-sama!&quot;@</ToTranslate>
+  </String>
+  <String index="1440">
+    <ToTranslate>ensy0316</ToTranslate>
+  </String>
+  <String index="1441">
+    <ToTranslate>Enshou$&quot;...Hmm... I can&apos;t eat anymore...&quot;@</ToTranslate>
+  </String>
+  <String index="1442">
+    <ToTranslate>ganr0278</ToTranslate>
+  </String>
+  <String index="1443">
+    <ToTranslate>Ganryou$&quot;Please wake up, Enshou-sama.&quot;@</ToTranslate>
+  </String>
+  <String index="1444">
+    <ToTranslate>ensy0317</ToTranslate>
+  </String>
+  <String index="1445">
+    <ToTranslate>Enshou$&quot;Wh-what&apos;s the matter... Ganryou-san?&quot;@</ToTranslate>
+  </String>
+  <String index="1446">
+    <ToTranslate>ganr0279</ToTranslate>
+  </String>
+  <String index="1447">
+    <ToTranslate>Ganryou$&quot;Ah, you&apos;re finally awake.&quot;@</ToTranslate>
+  </String>
+  <String index="1448">
+    <ToTranslate>ensy0318</ToTranslate>
+  </String>
+  <String index="1449">
+    <ToTranslate>Enshou$&quot;Oh? What is this place? I thought we were...&quot;@</ToTranslate>
+  </String>
+  <String index="1450">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1451">
+    <ToTranslate>bcg_river_a</ToTranslate>
+  </String>
+  <String index="1452">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1453">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="1454">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1455">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="1456">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="1457">
+    <ToTranslate>ganr0280</ToTranslate>
+  </String>
+  <String index="1458">
+    <ToTranslate>Ganryou$&quot;Yes. We fell off the raft and a shark attacked us, but...&quot;@</ToTranslate>
+  </String>
+  <String index="1459">
+    <ToTranslate>ensy0319</ToTranslate>
+  </String>
+  <String index="1460">
+    <ToTranslate>Enshou$&quot;What...?&quot;@</ToTranslate>
+  </String>
+  <String index="1461">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="1462">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1463">
+    <ToTranslate>ganr0281</ToTranslate>
+  </String>
+  <String index="1464">
+    <ToTranslate>Ganryou$&quot;What&apos;s wrong, Enshou-sama?&quot;@</ToTranslate>
+  </String>
+  <String index="1465">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="1466">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1467">
+    <ToTranslate>ensy0320</ToTranslate>
+  </String>
+  <String index="1468">
+    <ToTranslate>Enshou$&quot;Wasn&apos;t I cast onto a deserted island and then forced to satisfy the excessive lust of you and Iishe?&quot;@</ToTranslate>
+  </String>
+  <String index="1469">
+    <ToTranslate>ganr0282</ToTranslate>
+  </String>
+  <String index="1470">
+    <ToTranslate>Ganryou$&quot;Enshou-sama...?&quot;@</ToTranslate>
+  </String>
+  <String index="1471">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="1472">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1473">
+    <ToTranslate>ensy0321</ToTranslate>
+  </String>
+  <String index="1474">
+    <ToTranslate>Enshou$&quot;I-I&apos;m not crazy! I refuse to let our life on that island just be a delusion!&quot;@</ToTranslate>
+  </String>
+  <String index="1475">
+    <ToTranslate>tcg_gan12ca</ToTranslate>
+  </String>
+  <String index="1476">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="1477">
+    <ToTranslate>ganr0283</ToTranslate>
+  </String>
+  <String index="1478">
+    <ToTranslate>Ganryou$&quot;So you had the same dream...? I think mine was a bit different though...&quot;@</ToTranslate>
+  </String>
+  <String index="1479">
+    <ToTranslate>ensy0322</ToTranslate>
+  </String>
+  <String index="1480">
+    <ToTranslate>Enshou$&quot;A dream...?&quot;@</ToTranslate>
+  </String>
+  <String index="1481">
+    <ToTranslate>tcg_gan12ja</ToTranslate>
+  </String>
+  <String index="1482">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="1483">
+    <ToTranslate>ganr0284</ToTranslate>
+  </String>
+  <String index="1484">
+    <ToTranslate>Ganryou$&quot;Bun-chan and I had a dream in which we cast on a deserted island, lived happily together and...  we did a lot of dirty things together...&quot;@</ToTranslate>
+  </String>
+  <String index="1485">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="1486">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1487">
+    <ToTranslate>ensy0323</ToTranslate>
+  </String>
+  <String index="1488">
+    <ToTranslate>Enshou$&quot;Oh, you can take it that way too. But was that a dream...? Ganryou-san, do you still have a cock?&quot;@</ToTranslate>
+  </String>
+  <String index="1489">
+    <ToTranslate>ganr0285</ToTranslate>
+  </String>
+  <String index="1490">
+    <ToTranslate>Ganryou$&quot;No. I checked Bun-chan too but... we both lost it...&quot;@</ToTranslate>
+  </String>
+  <String index="1491">
+    <ToTranslate>ensy0324</ToTranslate>
+  </String>
+  <String index="1492">
+    <ToTranslate>Enshou$&quot;That&apos;s a pity. They worked really well.&quot;@</ToTranslate>
+  </String>
+  <String index="1493">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="1494">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1495">
+    <ToTranslate>ganr0286</ToTranslate>
+  </String>
+  <String index="1496">
+    <ToTranslate>Ganryou$&quot;I thought you almost killed us because of them...&quot; @</ToTranslate>
+  </String>
+  <String index="1497">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="1498">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1499">
+    <ToTranslate>ensy0325</ToTranslate>
+  </String>
+  <String index="1500">
+    <ToTranslate>Enshou$&quot;You&apos;re just imagining that. So, is this Penglai?&quot;@</ToTranslate>
+  </String>
+  <String index="1501">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="1502">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="1503">
+    <ToTranslate>ganr0287</ToTranslate>
+  </String>
+  <String index="1504">
+    <ToTranslate>Ganryou$&quot;I don&apos;t think so. Bun-chan is checking the surroundings now, so we&apos;ll find out something when she gets back.&quot;@</ToTranslate>
+  </String>
+  <String index="1505">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="1506">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1507">
+    <ToTranslate>ensy0326</ToTranslate>
+  </String>
+  <String index="1508">
+    <ToTranslate>Enshou$&quot;Ganryou-san... I just thought that, this time for real, we might have...&quot;@</ToTranslate>
+  </String>
+  <String index="1509">
+    <ToTranslate>tcg_gan22ea</ToTranslate>
+  </String>
+  <String index="1510">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1511">
+    <ToTranslate>ganr0288</ToTranslate>
+  </String>
+  <String index="1512">
+    <ToTranslate>Ganryou$&quot;Oh no, Enshou-sama, please don&apos;t say that...&quot;@</ToTranslate>
+  </String>
+  <String index="1513">
+    <ToTranslate>ensy0327</ToTranslate>
+  </String>
+  <String index="1514">
+    <ToTranslate>Enshou$&quot;Di--&quot;@</ToTranslate>
+  </String>
+  <String index="1515">
+    <ToTranslate>tcg_gan22fa</ToTranslate>
+  </String>
+  <String index="1516">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1517">
+    <ToTranslate>ganr0289</ToTranslate>
+  </String>
+  <String index="1518">
+    <ToTranslate>Ganryou$&quot;Ahh, ahh! Please don&apos;t say that! Bun-chan, come back!&quot;@</ToTranslate>
+  </String>
+  <String index="1519">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="1520">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="1521">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1522">
+    <ToTranslate>bgm26</ToTranslate>
+  </String>
+  <String index="1523">
+    <ToTranslate>buns0261</ToTranslate>
+  </String>
+  <String index="1524">
+    <ToTranslate>Bunshuu$&quot;I&apos;m back.&quot;@</ToTranslate>
+  </String>
+  <String index="1525">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="1526">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="1527">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1528">
+    <ToTranslate>tcg_gan22fa</ToTranslate>
+  </String>
+  <String index="1529">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1530">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="1531">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1532">
+    <ToTranslate>ganr0290</ToTranslate>
+  </String>
+  <String index="1533">
+    <ToTranslate>Ganryou$&quot;Whaah. Welcome back, Bun-chan!&quot;@</ToTranslate>
+  </String>
+  <String index="1534">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1535">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1536">
+    <ToTranslate>buns0262</ToTranslate>
+  </String>
+  <String index="1537">
+    <ToTranslate>Bunshuu$&quot;What&apos;s wrong, Toshi? You&apos;re clinging to me. Did you miss the life on that island?&quot;@</ToTranslate>
+  </String>
+  <String index="1538">
+    <ToTranslate>ganr0291</ToTranslate>
+  </String>
+  <String index="1539">
+    <ToTranslate>Ganryou$&quot;E-Enshou-sama scared me... What did you find out in the surroundings?&quot;@</ToTranslate>
+  </String>
+  <String index="1540">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="1541">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1542">
+    <ToTranslate>buns0263</ToTranslate>
+  </String>
+  <String index="1543">
+    <ToTranslate>Bunshuu$&quot;Well, I found a village of people. This isn&apos;t Mt. Penglai, it&apos;s Yangzhou they said.&quot;@</ToTranslate>
+  </String>
+  <String index="1544">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="1545">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1546">
+    <ToTranslate>ensy0328</ToTranslate>
+  </String>
+  <String index="1547">
+    <ToTranslate>Enshou$&quot;Yangzhou? So we were cast onto the mainland, not an island?&quot;@</ToTranslate>
+  </String>
+  <String index="1548">
+    <ToTranslate>buns0264</ToTranslate>
+  </String>
+  <String index="1549">
+    <ToTranslate>Bunshuu$&quot;I guess so awa wa ha!&quot;@</ToTranslate>
+  </String>
+  <String index="1550">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1551">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1552">
+    <ToTranslate>ganr0292</ToTranslate>
+  </String>
+  <String index="1553">
+    <ToTranslate>Ganryou$&quot;E-Enshou-sama!?&quot;@</ToTranslate>
+  </String>
+  <String index="1554">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="1555">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1556">
+    <ToTranslate>ensy0329</ToTranslate>
+  </String>
+  <String index="1557">
+    <ToTranslate>Enshou$&quot;Um, I thought this might be a dream we&apos;re having in Penglai... So tell me if it hurts, Bunshuu-san.&quot;@</ToTranslate>
+  </String>
+  <String index="1558">
+    <ToTranslate>tcg_bun12la</ToTranslate>
+  </String>
+  <String index="1559">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1560">
+    <ToTranslate>buns0265</ToTranslate>
+  </String>
+  <String index="1561">
+    <ToTranslate>Bunshuu$&quot;If furff! If furff! If furff!&quot;@</ToTranslate>
+  </String>
+  <String index="1562">
+    <ToTranslate>ensy0330</ToTranslate>
+  </String>
+  <String index="1563">
+    <ToTranslate>Enshou$&quot;I don&apos;t know what you&apos;re saying. Why don&apos;t you join, Ganryou-san?&quot;@</ToTranslate>
+  </String>
+  <String index="1564">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="1565">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1566">
+    <ToTranslate>ganr0293</ToTranslate>
+  </String>
+  <String index="1567">
+    <ToTranslate>Ganryou$&quot;Hmm, they say it&apos;s not a dream if it hurts... Sorry Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="1568">
+    <ToTranslate>buns0266</ToTranslate>
+  </String>
+  <String index="1569">
+    <ToTranslate>Bunshuu$&quot;Ufaaaaah! If furff, Frimffeff! Fomf fuuu!&quot;@</ToTranslate>
+  </String>
+  <String index="1570">
+    <ToTranslate>tcg_ens12ja</ToTranslate>
+  </String>
+  <String index="1571">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1572">
+    <ToTranslate>ensy0331</ToTranslate>
+  </String>
+  <String index="1573">
+    <ToTranslate>Enshou$&quot;Looks like it hurts.&quot;@</ToTranslate>
+  </String>
+  <String index="1574">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="1575">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="1576">
+    <ToTranslate>ganr0294</ToTranslate>
+  </String>
+  <String index="1577">
+    <ToTranslate>Ganryou$&quot;So this isn&apos;t a dream?&quot;@</ToTranslate>
+  </String>
+  <String index="1578">
+    <ToTranslate>tcg_bun22ha</ToTranslate>
+  </String>
+  <String index="1579">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1580">
+    <ToTranslate>buns0267</ToTranslate>
+  </String>
+  <String index="1581">
+    <ToTranslate>Bunshuu$&quot;Whew. You should&apos;ve thought of a better way to check that. Ouch... It really hurt, you two.&quot;@</ToTranslate>
+  </String>
+  <String index="1582">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="1583">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1584">
+    <ToTranslate>ensy0332</ToTranslate>
+  </String>
+  <String index="1585">
+    <ToTranslate>Enshou$&quot;It hurts if I pinch my own cheek.&quot;@</ToTranslate>
+  </String>
+  <String index="1586">
+    <ToTranslate>tcg_gan22ba</ToTranslate>
+  </String>
+  <String index="1587">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1588">
+    <ToTranslate>ganr0295</ToTranslate>
+  </String>
+  <String index="1589">
+    <ToTranslate>Ganryou$&quot;That&apos;s right.&quot;@</ToTranslate>
+  </String>
+  <String index="1590">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1591">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1592">
+    <ToTranslate>buns0268</ToTranslate>
+  </String>
+  <String index="1593">
+    <ToTranslate>Bunshuu$&quot;How mean! Is that why you pinched my cheeks?&quot;@</ToTranslate>
+  </String>
+  <String index="1594">
+    <ToTranslate>tcg_ens12fa</ToTranslate>
+  </String>
+  <String index="1595">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1596">
+    <ToTranslate>ensy0333</ToTranslate>
+  </String>
+  <String index="1597">
+    <ToTranslate>Enshou$&quot;Didn&apos;t you take my virginity in Penglai, Bunshuu-san? Your pain doesn&apos;t compare to mine.&quot;@</ToTranslate>
+  </String>
+  <String index="1598">
+    <ToTranslate>ensy0334</ToTranslate>
+  </String>
+  <String index="1599">
+    <ToTranslate>Enshou$&quot;Which means that Ganryou took my anal virginity....&quot;@</ToTranslate>
+  </String>
+  <String index="1600">
+    <ToTranslate>tcg_gan22ia</ToTranslate>
+  </String>
+  <String index="1601">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1602">
+    <ToTranslate>ganr0296</ToTranslate>
+  </String>
+  <String index="1603">
+    <ToTranslate>Ganryou$&quot;Come to think of it, you took my virginity, too...&quot;@</ToTranslate>
+  </String>
+  <String index="1604">
+    <ToTranslate>tcg_bun22ba</ToTranslate>
+  </String>
+  <String index="1605">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1606">
+    <ToTranslate>buns0269</ToTranslate>
+  </String>
+  <String index="1607">
+    <ToTranslate>Bunshuu$&quot;Yeah, that was good... It was good when I did Enshuu-sama too, but... I won&apos;t be able to forget that for the rest of my life.&quot;@</ToTranslate>
+  </String>
+  <String index="1608">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="1609">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1610">
+    <ToTranslate>ensy0335</ToTranslate>
+  </String>
+  <String index="1611">
+    <ToTranslate>Enshou$&quot;Ganryou-san.&quot;@</ToTranslate>
+  </String>
+  <String index="1612">
+    <ToTranslate>tcg_gan22ba</ToTranslate>
+  </String>
+  <String index="1613">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1614">
+    <ToTranslate>ganr0297</ToTranslate>
+  </String>
+  <String index="1615">
+    <ToTranslate>Ganryou$&quot;Yes. Looks like we should pinch her again.&quot;@</ToTranslate>
+  </String>
+  <String index="1616">
+    <ToTranslate>tcg_bun12ea</ToTranslate>
+  </String>
+  <String index="1617">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1618">
+    <ToTranslate>buns0270</ToTranslate>
+  </String>
+  <String index="1619">
+    <ToTranslate>Bunshuu$&quot;W-wait! You broke the mirror in Penglai, Enshou-sama! Why aren&apos;t you being pinched for that?&quot;@</ToTranslate>
+  </String>
+  <String index="1620">
+    <ToTranslate>tcg_ens32da</ToTranslate>
+  </String>
+  <String index="1621">
+    <ToTranslate>tcg_ens32m</ToTranslate>
+  </String>
+  <String index="1622">
+    <ToTranslate>ensy0336</ToTranslate>
+  </String>
+  <String index="1623">
+    <ToTranslate>Enshou$&quot;Wh-what was that?&quot;@</ToTranslate>
+  </String>
+  <String index="1624">
+    <ToTranslate>tcg_bun22ha</ToTranslate>
+  </String>
+  <String index="1625">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1626">
+    <ToTranslate>buns0271</ToTranslate>
+  </String>
+  <String index="1627">
+    <ToTranslate>Bunshuu$&quot;If that mirror hadn&apos;t broken, we might still be in Penglai, living happily...&quot;@</ToTranslate>
+  </String>
+  <String index="1628">
+    <ToTranslate>tcg_ens22ia</ToTranslate>
+  </String>
+  <String index="1629">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="1630">
+    <ToTranslate>ensy0337</ToTranslate>
+  </String>
+  <String index="1631">
+    <ToTranslate>Enshou$&quot;Humph. If the dream ended so easily, then it wasn&apos;t a very good one!  Don&apos;t you agree, Ganryou-san?&quot;@</ToTranslate>
+  </String>
+  <String index="1632">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1633">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1634">
+    <ToTranslate>ganr0298</ToTranslate>
+  </String>
+  <String index="1635">
+    <ToTranslate>Ganryou$&quot;A-are you asking me!?&quot;@</ToTranslate>
+  </String>
+  <String index="1636">
+    <ToTranslate>tcg_bun12ea</ToTranslate>
+  </String>
+  <String index="1637">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1638">
+    <ToTranslate>buns0272</ToTranslate>
+  </String>
+  <String index="1639">
+    <ToTranslate>Bunshuu$&quot;Yeah, Toshi. What do you think? Which side do you support!?&quot;@</ToTranslate>
+  </String>
+  <String index="1640">
+    <ToTranslate>ganr0299</ToTranslate>
+  </String>
+  <String index="1641">
+    <ToTranslate>Ganryou$&quot;W-well... uh...&quot;@</ToTranslate>
+  </String>
+  <String index="1642">
+    <ToTranslate>tcg_ens12aa</ToTranslate>
+  </String>
+  <String index="1643">
+    <ToTranslate>tcg_ens12m</ToTranslate>
+  </String>
+  <String index="1644">
+    <ToTranslate>bgm11</ToTranslate>
+  </String>
+  <String index="1645">
+    <ToTranslate>ensy0338</ToTranslate>
+  </String>
+  <String index="1646">
+    <ToTranslate>Enshou$&quot;All right. Whatever. There should be a better place than that petty island somewhere. Come on, you two!&quot;@</ToTranslate>
+  </String>
+  <String index="1647">
+    <ToTranslate>tcg_bun22fa</ToTranslate>
+  </String>
+  <String index="1648">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1649">
+    <ToTranslate>buns0273</ToTranslate>
+  </String>
+  <String index="1650">
+    <ToTranslate>Bunshuu$&quot;Jeez, whatever. Let&apos;s go, Ganryou.&quot;@</ToTranslate>
+  </String>
+  <String index="1651">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="1652">
+    <ToTranslate>tcg_gan12m</ToTranslate>
+  </String>
+  <String index="1653">
+    <ToTranslate>ganr0300</ToTranslate>
+  </String>
+  <String index="1654">
+    <ToTranslate>Ganryou$&quot;O-okay, Bun-chan.&quot;@</ToTranslate>
+  </String>
+  <String index="1655">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1656">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="1657">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="1658">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="1659">
+    <ToTranslate>ecg_ens15a</ToTranslate>
+  </String>
+  <String index="1660">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1661">
+    <ToTranslate>ensy0339</ToTranslate>
+  </String>
+  <String index="1662">
+    <ToTranslate>Enshou$&quot;I said come on! What are you doing? I&apos;ll leave you behind!&quot;@</ToTranslate>
+  </String>
+  <String index="1663">
+    <ToTranslate>buns0274</ToTranslate>
+  </String>
+  <String index="1664">
+    <ToTranslate>Bunshuu$&quot;We&apos;re coming!&quot;@</ToTranslate>
+  </String>
+  <String index="1665">
+    <ToTranslate>ganr0301</ToTranslate>
+  </String>
+  <String index="1666">
+    <ToTranslate>Ganryou$&quot;W-wait for me, please! Do you know where we&apos;re going!?&quot; @</ToTranslate>
+  </String>
+  <String index="1667">
+    <ToTranslate>ensy0340</ToTranslate>
+  </String>
+  <String index="1668">
+    <ToTranslate>Enshou$&quot;Of course I do!&quot;@</ToTranslate>
+  </String>
+  <String index="1669">
+    <ToTranslate>buns0275</ToTranslate>
+  </String>
+  <String index="1670">
+    <ToTranslate>Bunshuu$&quot;We&apos;re going to the paradise in the south, right, Enshou-sama!?&quot;@</ToTranslate>
+  </String>
+  <String index="1671">
+    <ToTranslate>ensy0341</ToTranslate>
+  </String>
+  <String index="1672">
+    <ToTranslate>Enshou$&quot;That&apos;s right! Oh ho ho ho! Oho ho ho ho!&quot;@</ToTranslate>
+  </String>
+  <String index="1673">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1674">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1675">
+    <ToTranslate>SE042</ToTranslate>
+  </String>
+  <String index="1676">
+    <ToTranslate>tcg_ens22la</ToTranslate>
+  </String>
+  <String index="1677">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="1678">
+    <ToTranslate>tcg_gan12aa</ToTranslate>
+  </String>
+  <String index="1679">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1680">
+    <ToTranslate>tcg_bun12aa</ToTranslate>
+  </String>
+  <String index="1681">
+    <ToTranslate>tcg_bun12m</ToTranslate>
+  </String>
+  <String index="1682">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1683">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1684">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+  <String index="1685">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1686">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1687">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1688">
+    <ToTranslate>tcg_ens22la</ToTranslate>
+  </String>
+  <String index="1689">
+    <ToTranslate>tcg_ens22m</ToTranslate>
+  </String>
+  <String index="1690">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1691">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1692">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1693">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1694">
+    <ToTranslate>ensy0342</ToTranslate>
+  </String>
+  <String index="1695">
+    <ToTranslate>Enshou$&quot;Ho ho ho? Oh? What is going on? This white thing suddenly appeared around me...&quot;@</ToTranslate>
+  </String>
+  <String index="1696">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1697">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1698">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+  <String index="1699">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1700">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1701">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1702">
+    <ToTranslate>tcg_ens32da</ToTranslate>
+  </String>
+  <String index="1703">
+    <ToTranslate>tcg_ens32m</ToTranslate>
+  </String>
+  <String index="1704">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1705">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1706">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1707">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1708">
+    <ToTranslate>buns0276</ToTranslate>
+  </String>
+  <String index="1709">
+    <ToTranslate>Bunshuu$&quot;P-Princess! Toshi! Your bodies are shining!&quot;@</ToTranslate>
+  </String>
+  <String index="1710">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1711">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1712">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+  <String index="1713">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1714">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1715">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1716">
+    <ToTranslate>tcg_ens32da</ToTranslate>
+  </String>
+  <String index="1717">
+    <ToTranslate>tcg_ens32m</ToTranslate>
+  </String>
+  <String index="1718">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1719">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1720">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1721">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1722">
+    <ToTranslate>ganr0302</ToTranslate>
+  </String>
+  <String index="1723">
+    <ToTranslate>Ganryou$&quot;What!? Oh, what&apos;s this? Light is coming out of my stomach!&quot;@</ToTranslate>
+  </String>
+  <String index="1724">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1725">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1726">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+  <String index="1727">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1728">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1729">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1730">
+    <ToTranslate>tcg_ens32da</ToTranslate>
+  </String>
+  <String index="1731">
+    <ToTranslate>tcg_ens32m</ToTranslate>
+  </String>
+  <String index="1732">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1733">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1734">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1735">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1736">
+    <ToTranslate>buns0277</ToTranslate>
+  </String>
+  <String index="1737">
+    <ToTranslate>Bunshuu$&quot;Whoa! Me too!? What the heck is this!?&quot;@</ToTranslate>
+  </String>
+  <String index="1738">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1739">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1740">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+  <String index="1741">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1742">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1743">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1744">
+    <ToTranslate>tcg_ens32da</ToTranslate>
+  </String>
+  <String index="1745">
+    <ToTranslate>tcg_ens32m</ToTranslate>
+  </String>
+  <String index="1746">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1747">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1748">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1749">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1750">
+    <ToTranslate>ensy0343</ToTranslate>
+  </String>
+  <String index="1751">
+    <ToTranslate>Enshou$&quot;What&apos;s going on!? What is this thing!? Bunshuu-san, Ganryou-san! Do something about this light!&quot;@</ToTranslate>
+  </String>
+  <String index="1752">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1753">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1754">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+  <String index="1755">
+    <ToTranslate>dd</ToTranslate>
+  </String>
+  <String index="1756">
+    <ToTranslate>bcg_forest_a</ToTranslate>
+  </String>
+  <String index="1757">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="1758">
+    <ToTranslate>tcg_ens32da</ToTranslate>
+  </String>
+  <String index="1759">
+    <ToTranslate>tcg_ens32m</ToTranslate>
+  </String>
+  <String index="1760">
+    <ToTranslate>tcg_gan22da</ToTranslate>
+  </String>
+  <String index="1761">
+    <ToTranslate>tcg_gan22m</ToTranslate>
+  </String>
+  <String index="1762">
+    <ToTranslate>tcg_bun22ga</ToTranslate>
+  </String>
+  <String index="1763">
+    <ToTranslate>tcg_bun22m</ToTranslate>
+  </String>
+  <String index="1764">
+    <ToTranslate>ganr0303</ToTranslate>
+  </String>
+  <String index="1765">
+    <ToTranslate>Ganryou$&quot;W-we can&apos;t...!&quot;@</ToTranslate>
+  </String>
+  <String index="1766">
+    <ToTranslate>buns0278</ToTranslate>
+  </String>
+  <String index="1767">
+    <ToTranslate>Bunshuu$&quot;Th-the light is getting bigger... it&apos;s surrounding us...!&quot;@</ToTranslate>
+  </String>
+  <String index="1768">
+    <ToTranslate>ensy0344</ToTranslate>
+  </String>
+  <String index="1769">
+    <ToTranslate>Enshou$&quot;Wh-wh-what on earth is going on!?&quot;@</ToTranslate>
+  </String>
+  <String index="1770">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="1771">
+    <ToTranslate>bg_white</ToTranslate>
+  </String>
+</DBS>
+
+</poem>
+[[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
