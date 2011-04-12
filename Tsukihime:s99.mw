@@ -6,24 +6,22 @@
 ; ???? : ?????? : ??B(?????)<????>
 bg "image\bg\bg_29c.jpg",%type_nowaitdisp
 
-` ...... No, it's too early.@
-` Nrvnqsr just arrived.@
-` A little more---until his attention is focused more on Arcueid, I can't launch a surprise attack.\
+` Нет, ещё слишком рано.@ Он только пришёл.@ Я не смогу внезапно напасть, пока всё его внимание не будет сосредоточено на Арквейд.\
 
 ; ?<?>=??????:??03(02?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
-`"Don't get it wrong, Nrvnqsr.@ The Dead Apostles are not a group of twenty-seven, but of twenty-eight.@ You do not recognize 'The Serpent' as one of your own?"@
+` — Может, я чего-то не понимаю, Нерон,@ но мёртвых апостолов двадцать восемь, а не двадцать семь.@ Или ты не считаешь Змея за своего?@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 ; ?<?>=??:??<???????(?)>
 ld c,":a;image\tachi\nero_t02a.jpg",%type_crossfade_fst
-`"Of course.@ His ideals differ from ours.@ He is a vampire, but he does not hold to the meaning of being a vampire.@ Consequently, we do not accept him as one of us."\
+` — Конечно.@ У него другие идеалы.@ Он вампир, однако живёт не как вампир.@ Посему, и мы не считаем его одним из нас.\
 
 ; ?<?>=??:??<???????(?)>
 ld c,":a;image\tachi\nero_t02c.jpg",%type_crossfade_fst
-`"----But, we are old friends.@ I believe I understand him more than the other Dead Apostles."@
+` — Но, всё равно, мы с ним старые друзья.@ Думаю, я понимаю его куда лучше, чем любой другой мёртвый апостол.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
@@ -31,7 +29,7 @@ cl c,%type_crossfade_fst
 ; ?<?>=??????:??03(02?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-`"...... I see.@ Come to think of it, you are like 'The Serpent' as well, as you are unlike the other vampires too.@ Since you are both heretics, you must share common interests."\
+` — Ясно.@ Ты ведь, как Змей, тоже не похож на остальных вампиров.@ Раз вы оба еретики, то должны же у вас быть общие интересы.\
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
@@ -39,30 +37,28 @@ cl c,%type_crossfade_fst
 
 ; ?<?>=??:??<???????(?)>
 ld c,":a;image\tachi\nero_t02a.jpg",%type_crossfade_fst
-`"Wrong.@ Heresy is isolated therefore it is heresy.@ Just because we both are separated from the flock doesn't mean we comprehend one another."@
+` — Не верно.@ Ересь всегда сама по себе, потому и ересь.@ Мы оба отбились от стада, но это не значит, что мы прониклись друг другом.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 ; ?<?>=??????:??03(02?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-`"Really?@ Coming as far as this country to pursue me, I think you guys are similar."@
+` — В самом деле?@ Вы оба погнались за мной в другую страну: по-моему, у вас есть что-то общее.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 ; ?<?>=??:??<???????(?)>
 ld c,":a;image\tachi\nero_t02a.jpg",%type_crossfade_fst
 
-`"Do not be ridiculous.@ You are the one capricious one.@
-` Your purpose is to execute Dead Apostles, so why do you persistently pursue the Serpent of Akasha.@ The 'Serpent's' poison is not something the Princess of the True Ancestors should be persistent about."\
+` — Что за вздор.@ Не тебе говорить о чужих причудах.@ Вместо того, чтобы казнить мёртвых апостолов, ты всё время преследуешь Змея Акаши.@ Не пристало Принцессе истинных предков столько тревожиться о его яде.\
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` ...... Nrvnqsr's voice gets slightly louder.@
-` Arcueid's taunting must be working.@ Nrvnqsr is looking only at his enemy Arcueid.@
+` Его голос зазвучал немного громче.@ Должно быть, насмешки Арквейд сработали.@ Нерон смотрит только на своего врага.@
 br
-` ---What do I do now?@
+` Как поступить?@
 br
 
 
