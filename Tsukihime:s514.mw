@@ -1,4 +1,8 @@
-[[Tsukihime|[Назад]]]<pre>*s514
+;[[Tsukihime|[Назад]]]
+
+;<pre>
+
+*s514
 
 ;S.E."??"
 wave se2
@@ -19,35 +23,29 @@ ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
 
-` Bonjour!@
-` And now the hint corner for the sake of the mischievous Tohno-kun who quickly ended up in a Dead End,
-` It is time for "Teach me, Ciel-sensei!"@
+` Бонжур!@ И снова с Вами бюро советов для озорника Тоно, который быстро попал в тупик.@ Самое время для «Научи меня, Сиэль-сенсей!»@
 br
-` Well then, now for the third of the ever-popular series, "Shakes 'n Shivers Animal Land".\
+` Сегодня у нас третий выпуск из вечно-популярной серии «Хаотичный зоопарк».\
 
 ; ?????? : 01~10 : 01_?01(????)<??????(?)>
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 
-`"Liar!@ I don't see any animals coming out!"@
+` — Врушка!@ А где звери?!@
 br
-` Denied.@
-` No Longer Human (Pet's Name), Go!@
+` — Вопрос не принимается.@ Больше не человек, фас!@
 
 ; ?????????? : ???<??????(?)>
 ld c,":a;image\tachi\kemo_t04.jpg",%type_lshutter_fst
 br
-`"Killing junkie~"@
+` — Чокнутая маньячка...@
 cl l,%type_lshutter_fst
 
 br
-`"Kyaaaaaaaaaaaaa............ hunyaa!"@
+` — А-а-а... о-ой!@
 cl c,%type_lshutter_fst
 
 br
-` Well then, the third in our animal series.@
-` Why did Tohno-kun end up dying?@
-` This time, we have brought a special guest lecturer.@ I have called in this person who was wandering about after finishing his task earlier.@
-` Professor Nrvnqsr, please go ahead.\
+` — И так, третий выпуск.@ Почему Тоно так плохо кончил?@ Сегодня на этот вопрос нам ответит наш специальный докладчик.@ Он, всё равно, закончил работу и слонялся без дела.@ Начинайте, пожалуйста, профессор Хаос.\
 
 
 ;CD-DA???????
@@ -56,28 +54,24 @@ play "*4"
 ; ?? : ?????<??????(?)>
 ld l,":a;image\tachi\nero_t03.jpg",%type_lshutter_fst
 
-`"Nothing."@
+` — Нечего.@
 br
-` ...... Um.@
+` — Что?..@
 br
-`"Nothing.@ I will only speak when I am victorious."@
+` — Мне нечего сказать.@ Я говорю только, когда побеждаю.@
 br
-` ...... Um, if we're here, it means you have won in a way, Professor Nrvnqsr.@
+` — А... ну, Вы же здесь, профессор. Стало быть, победили.@
 ; ?? : ????<???????(?)>
 ld l,":a;image\tachi\nero_t02c.jpg",%type_crossfade_fst
 br
-`"---I see.@ That is a sound argument.@
-` But there is nothing to be said.@ I do not know of anyone who would miss a once in a lifetime opportunity.@
-` Return to the choice before and correct yourself."\
+` — А что,@ звучит логично.@ Но мне всё равно нечего сказать.@ Я ничего не знаю о тех, кто упускает свой единственный в жизни шанс.@ Вернись обратно и исправся.\
 cl l,%type_lshutter_mid
 
 
 ;CD-DA??????
 play "*3"
 
-` Um...... Yes, thank you very much.@
-` This concludes our fourth period lesson.@
-` Please continue enjoying the main storyline.\
+` — А... спасибо Вам большое.@ На этом и закончим наш четвёртый урок.@ Пожалуйста, продолжайте наслаждаться историей.\
 
 
 
@@ -93,4 +87,6 @@ return
 
 
 
-</pre>[[Tsukihime|[Назад]]][[Категория:Tsukihime]]
+;</pre>
+;[[Tsukihime|[Назад]]]
+;[[Категория:Tsukihime]]
