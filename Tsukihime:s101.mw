@@ -1,16 +1,14 @@
-[[Tsukihime|[Назад]]]
+;[[Tsukihime|[Назад]]]
 
-<pre>
+;<pre>
 *s101
 
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-` Nrvnqsr is looking only at Arcueid.@
-` My chance is only during this instant.@
-` Gripping my knife, I crouch down.@
-` With everything I have, I run towards Nrvnqsr.\
+` Нерон смотрит только на Арквейд.@ Вот он мой единственный шанс.@
+` Сжав в руке нож, я пригнулся и пулей помчался к Нерону.\
 
 ; ??B(?????)<?????(?)>
 bg "image\bg\bg_29c.jpg",%type_rcartain_fst
@@ -18,25 +16,18 @@ bg "image\bg\bg_29c.jpg",%type_rcartain_fst
 ;S.E.??
 wavestop
 
-` All his senses are directed toward Arcueid.@
-` Even I, who is not in this conversation, can tell Nrvnqsr is only looking forward.@
-` His back looks defenseless, not knowing I will dismantle it in a few seconds.@
+` Даже мне со стороны видно, что всё его внимание сейчас сосредоточено на Арквейд.@
+` Его спина совсем открыта — он даже не подозревает, что я рассеку её за считанные мгновения.@
 br
-` ----I can do it.@
+` У меня получится.@
 br
-` I feel it.@
-` Without a doubt, I can kill him.\
+` Я это чувствую.@ Сейчас я его точно прикончу.\
 
-`"----"@
-` I run.@
-` Only a matter of steps before I can reach his back with my knife.@
-` His back.@
-` His defenseless back.@
-` There's no mistake; he does not sense me.\
+` «...»@
+` Бегу.@ Лишь пара шагов разделяет мой нож и его спину.@ Его беззащитную спину.@ Он действительно меня не почуял.\
 
-`"----"@
-` One more step.@
-` Then it's all over.@
+` «...»@
+` Ещё шаг@ и всё.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
@@ -44,19 +35,15 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_29c.jpg",%type_nowaitdisp
 
 
-`"------Eh?"@
-` I stop.@
-` What?@
-` What... is his body------!?\
+` — А?@
+` Я остановился.@
+` Что это?@ Его тело... оно?!..\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
-`"No----where."@
-` Nowhere.@
-` Nowhere, nowhere, nowherenowherenowherenowhere......!@
-` There's not a single "line" anywhere!@
-` Impossible, no such "life" is possible----\
+` «Нет.»@
+` Нигде.@ Совсем нигде, совершенно нигде!..@ Ни единой «линии» на его теле!@ Такого не может быть, такое не может существовать...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
@@ -64,107 +51,82 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
 
-` ----Thro, b.@
+` Стук...@
 br
-` Headache.@
-` My fingers gripping the knife tremble.@
-` After a stab of pain in my brain,
-` I see a single black "point" on Nrvnqsr's back.@
+` Заболела голова@ и задрожали пальцы на ноже.@ После этого приступа боли, я наконец-то увидел единсвенную чёрную точку на его спине.@
 
 ; ???<???????(?)>
 bg "image\bg\cmo_17.jpg",%type_crossfade_fst
 
 \
 
-`"------!"@
+` «!..»@
 br
-` ----There.@
-` That should be where his fatal flaw is.@
-` ...... There's something wrong with it being a point rather than a line, but anyway----I'll stab him there!\
+` Вот оно.@ Наверное, это и есть его слабое место.@ Странно, что это точка, а не линия, но я всё равно её проткну!\
 
-` I take a lunging step.@
-` The knife in my right hand races towards his "point".@
+` Рывок на встречу и мой нож стремится к его «точке».@
 br
-`"------Eh?"@
+` — А?@
 br
-` Right before my hit connects,
-` the points along his back multiply rapidly.@
+` За мгновение до удара точки на его спине стали быстро множиться.@
 ; ???<???????(?)>
 bg "image\bg\cmo_18.jpg",%type_crossfade_fst
 
 
 
-` One.@ Two.@ Three.@ Four.@ Five, Eight, Nine, Ten, Twenty------
+` Одна.@ Две.@ Три.@ Четыре.@ Пять, восемь, девять, десять, двадцать...
 !w500
 
 ; ???<???????(?)>
 bg "image\bg\cmo_19.jpg",%type_crossfade_fst
 
-` Eighty, One Hundred, Two Hundred, Three Hundred, Four Hundred------!\
+` Восемьдесят, сотня, двести, триста, четыреста!..\
 
-`"------!?"@
-` ...... This... isn't right.@
-` This doesn't feel like his "death".@
-` These are more like heterogeneous aggregation.@
-` His----His body, what the hell is it----?@
+` «?!..»@
+` Так... не должно... быть.@ Это не похоже на его «смерть».@ Скорее на скопление чего-то разнородного.@ Да, что у него за тело?..@
 br
-`"----Shiki!"@
+` — Шики!@
 br
-` ...... Arcueid's voice.@
-` No, I don't have time to think now.@
-` His back is right there.@ Right now, I can just pick any one of his "points" and it will be over.\
+` Я слышу Арквейд,@ но нет времени думать над тем, что она хочет мне сказать.@ Его спина прямо передо мной, и мне остается только нанести удар в одну из его «точек» и положить этому конец.\
 
-`"----There!"@
+` — Получай!@ — закричал я и занёс нож.@
 br
-` I bring my knife down as I yell.@
-br
-` However, before then,
-` Nrvnqsr's back rises up like a balloon.@
-` Pop.@
-` A black dog appears from his back as if emerging from a black sea.\
+` Однако, за секунду до удара, спина Нерона надулась, как пузырь.@ А потом он лопнул,@ и наружу, как из чёрной пучины, на меня вынырнула такая же чёрная собака.\
 
 ; ????<???????(?)>
 bg "image\bg\ima_14.jpg",%type_crossfade_fst
 
-`"Wha----!?"@
-` The black dog shoots forth like a missile.@
-`"----!"@
-` I slice its "line" with my knife.@
-` But, it's just a "line".\
+` — Что?!@
+` Собака выстрелила, как пуля.@
+` «!..»@
+` Я полоснул её «линию», но это всего лишь «линия».\
 
-` Only the dog's legs are cut off.@
-` Its trajectory does not stop.@
-`"Gah----!"@
-` Whud!@
-` The black dog rams its head into my stomach.@
+` Собака лишилась ноги, но курс не изменила.@
+` — Гх!@
+` «Бам!»@
+` Чёрная псина врезалась мне в живот.@
 quakex 4,100
 
 \
 
-`"-----Ggh!"@
-` What strength.@
-` I fly back several meters and get pushed down on the ground.@
-` The black dog then tries to bite into my neck.@
+` — Гх!@
+` Вот это сила.@ Меня отбросило на несколько метров назад, и я повалился на землю.@ А собака, тут же попыталась укусить меня в шею.@
 br
-`"Ha...... aa----!@
-` I pierce the dog's right abdomen with my knife.@
-` My knife enters the black dog's "Point of Death" as easily as going through air.@
+` — А-а!..@
+` Я воткнул ей нож в брюхо с правой стороны.@ Он прошёл через её «точку смерти» так же легко, как через воздух.@
 br
-` The black dog's movements stop.@
-` In that instant----its body becomes a black fluid and pours over me.\
+` Собака замерла.@ В то же мгновение... её тело стало чёрной жижей и пролилось на меня.\
 
 ; ????(??????)<???????(?)>
 bg "image\bg\ima_13b.jpg",%type_crossfade_fst
 
-`"----!?"@
-` Covered in the black fluid, I can't stand up.@
-`"Why----you!"@
-` I can't get it off.@
-` As if sewn to the ground, I can't move.@
+` «?!..»@
+` Это тёмное покрывало не даёт мне подняться.@
+` — Какого... чёрта!@
+` Не снимается.@ Меня словно пришили к земле.@
 br
-`"----Hmph.@ It seems something has happened behind me."@
-` I hear Nrvnqsr's voice.@
-` Stretched out against the ground, I look towards Nrvnqsr and Arcueid.\
+` — Хм.@ Кажется, за моей спиной что-то произошло,@ — донесся голос Нерона.@
+` Распластанный на земле, я смотрел в сторону него и Арквейд.\
 
 ; ??B(?????)<???????(?)>
 bg "image\bg\bg_29c.jpg",%type_crossfade_fst
@@ -173,7 +135,7 @@ bg "image\bg\bg_29c.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\nero_t02a.jpg",%type_crossfade_fst
 
 
-`"Your familiar?@ But, how unfortunate.@ Those who enter my domain will be recognized and attacked by one of us even if I do not notice.@ There can be no surprise attacks against me."@
+` — Твой фамильяр?@ Не повезло.@ Всякий, кто попадёт на мою территорию, будет тут же обнаружен и атакован кем-то из нас, даже если я его не замечу.@ Со мной неожиданное нападение не пройдёт.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
@@ -182,89 +144,75 @@ cl c,%type_crossfade_fst
 ; ?<?>=??????:??01(??????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t05c.jpg",%type_crossfade_fst
 
-`"...... It seems so.@ You weren't even looking at anything but me, yet you still reacted to the danger behind you.@ That is the strength of a collective, is it not, Nrvnqsr Chaos?"@
+` — Похоже, что так.@ Ты всё время смотрел на меня, но всё равно среагировал на опасность за спиной.@ Один хорошо, а много — лучше, не так ли, Нерон Хаос?@
 
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Arcueid narrows her eyes slightly and walks toward Nrvnqsr.\
+` Арквейд слегка сощурилась и направилась к Нерону.\
 
 ; ?<?>=??:??<???????(?)>
 ld c,":a;image\tachi\nero_t01b.jpg",%type_crossfade_fst
 
-`"----Interesting.@ Your are so weak you cannot even use your Marble Phantasm, yet you still challenge me?"@
-`"There's no need.@ It can't be helped, even if I am fighting a Dead Apostle.@
-` For someone like you----these claws will be enough, Nrvnqsr Chaos."@
+` — Как интересно.@ Ты настолько ослабла, что не можешь использовать воплощение фантазии, но всё же бросаешь мне вызов?@
+` — А он мне не понадобится.@ Даже, если противник — мёртвый апостол.@ Такому, как ты хватит и моих когтей, Нерон Хаос.@
 br
-` A short laugh comes up.@
+` В ответ он только коротко рассмеялся.@
 ; ?<?>=??:??<???????(?)>
 ld c,":a;image\tachi\nero_t02c.jpg",%type_crossfade_fst
 
-`"----Fool.@ Realize your folly, Arcueid Brunestud----!"\
+` — Дура.@ Осознай же свою глупость, Акрвейд Брюнстад!..\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-` Nrvnqsr raises an arm.@
-` His coat ruffles like a cape and countless animals fly forth.@
+` Нерон вскинул руку,@ отчего по поверхности полы пошли волны из которых хлынул поток зверей.@
 
 ; ??<?>=??????????:???<???????(?)>
 ld c,":a;image\tachi\kemo_t04.jpg",%type_crossfade_fst
 
 br
-` Grrrrrrrrr.@
+` «Гр-р-р»@
 br
-` With a thunderous roar, three beasts run towards Arcueid like bullets.\
+` На встречу Арквейд молнией кинулись три зверя, разрывая воздух своим громоподобным рыком.\
 
-` Not anything like black dogs,
-` but three giant leopards larger than Nrvnqsr himself, like large demonic silhouettes.\
+` На этот раз зловещие фигуры принадлежали не собакам, а трём громадным леопардам, каждый из которых был больше самого Нерона.\
 
-`"------"@
-` Arcueid can't move.@
-` Three leopards run, cracking the bricks under them just by running.@
-` They're far faster than Arcueid, who is trying to run away.@
+` «...»@
+` Арквейд и дёрнуться не успеет.@ 
+` Они бегут к ней, одной лишь поступью своей разбивая мостовую.@ Леопарды гораздо быстрее: о бегстве и речи быть не может.@
 br
-` ----The three beasts pounce towards Arcueid.@
+` И вот три зверя прыгнули вперёд.@
 !w2000
 
 br
-` It's over quickly.\
+` Всё произошло в одно мгновение.\
 
 ; ????(???)<????>
 bg "image\bg\ima_12b.jpg",%type_nowaitdisp
 ; ??????:??????????????<????>
 bg "image\event\ark_e03.jpg",%type_nowaitdisp
 
-` In an instant,
-` the three leopards' bodies are cut in half and fall to the ground.@
+` И три разрезанные по полам туши упали на землю.@
 br
-`"----What?"@
-` Nrvnqsr's voice booms.@
-` Arcueid is silent.@
-` From there, she moves to attack him.\
+` — Что?!@ — взревел Нерон.@ Арквейд же напротив не издала ни звука. Вместо этого она пошла в атаку.\
 
-`"----!"@
-` Beasts emerge from Nrvnqsr's body.@
+` «!..»@
+` Вновь тело Нерона исторгло зверей.@
 br
-` The instant it emerges, the lion's head is grabbed and torn apart from its body.@
+` Наружу появилась голова льва и тут же была оторвана от тела.@
 br
-` The leopard is killed the instant it attacks Arcueid by getting pierced by her punch through its head.@
+` А леопарду Арквейд рукой пробила голову, когда тот прыгнул на неё.@
 br
-` The tiger is torn apart like clay.@
-` Everything following them suffers the same fate.\
+` Тигра порвала, как пластилин.@ И всех, кто вылез за ними, постигла та же участь.\
 
-` The same with the flying eagle and the giant grizzly bear.@
-` The same with the shark swimming in the ground.@
-` The same with the ridiculously large elephant.@
+` И орла, и гиганского медведя-гризли,@ и окулу, которая плыла по земле,@ и необычайно большого слона.@
 br
-` In the end, they can't even stop her, and turn back into a black, sticky fluid.\
+` Все они снова стали той чёрной липкой жижей из который вышли, так и не сумев помешать Арквейд.\
 
-`"----Wha..."@
-` Nrvnqsr tries to escape.@
-` Arcueid swings her claws.@
+` — Како...@ — Нерон попытался убежать,@ но когти Арквейд тут же рассекли воздух.@
 br
-` ----After the sound of ripping flesh,
-`    Nrvnqsr's body is split in two from the neck down.\
+` Раздался звук рвущейся плоти, и тело Нерона разделилось на две половинки.\
 
 ; ????(??????)<???????(?)>
 bg "image\bg\ima_13b.jpg",%type_crossfade_fst
@@ -273,70 +221,59 @@ bg "image\bg\ima_13b.jpg",%type_crossfade_fst
 bg "image\event\ark_e03.jpg",%type_crossfade_fst
 
 
-`"Gaaaaaaaaaaaahhhhh!!"@
+` — А-а-агх!@ — взвыл от боли Нерон и отскочил от Арквейд
 br
-` Roaring in pain, Nrvnqsr leaps away from Arcueid.@
-` Split from the neck to the waist, he's lost over half his body.@
+` После удара, рассёкшего его от шеи до пояса, он лишился половины тела.@
 br
-` Splat.@
-` The rest of his body falls at Arcueid's feet.\
+` *Плюх*.@
+` Другая половина упала к ногам Арквейд.\
 
-`"--------"@
-` This isn't a fight.@
-` ...... What about Arcueid saying she was only able to move?@
-` The beasts Nrvnqsr let out weren't weak.@
-` Those lions and tigers, just one of them can tear a car into scraps.@
-` And that grizzly bear could have torn a tank apart with it's uncontrolled violence.@
-` But such beasts were torn apart by Arcueid, and Nrvnqsr himself is half dead.\
+` «...»@
+` Это даже не драка.@ 
+` Разве она не говорила, что её сил едва хватает на передвижение?@
+` Звери, которых выпустил Нерон, были отнють не слабые.@ Те же львы и тигры могли бы в металлолом превратить машину, а гризли в порыве гнева и танк бы порвал на кусочки.@ А она разорвала их на части и лишила Нерона половины тела.\
 
-`"Ha--------"@
-` It almost seems like a joke.@
-` If it was this easy, maybe it would have been better if I wasn't here from the start----
+` — Ха...@
+` Просто цирк какой-то.@ Раз на то пошло, может мне и вовсе не надо было в это лезть?..
 
 ; ??B(?????)<???????(?)>
 bg "image\bg\bg_29c.jpg",%type_crossfade_mid
 
 
-`"GA...... AH, aaaaa......!"@
-` Nrvnqsr keeps retreating as if to escape.@
+` — А... а-ах!..@
+` Нерон продолжает отступать и, кажется, собирается сбежать.@
 ; ??<?>=??????:??(?????)<??????(?)>
 ld c,":a;image\tachi\ark_t18.jpg",%type_lshutter_slw
 
-` She might be tired... Arcueid walks towards Nrvnqsr slowly.\
+` Арквейд медленно идёт к нему... Наверное, она устала.\
 
-` Panting.@
+` Одышка.@
 br
-` I can hear heavy breathing.@
-` ...... It belongs to Arcueid.@
+` Я слышу тяжелое дыхание.@ Это Арквейд.@
 br
-` Ragged, painful breathing.@
-` Why is that?@
-` Arcueid's breathing sounds more painful than Nrvnqsr's, who is torn in half.@
+` Она тяжело и сдавлено дышит.@
+` Как же так? Выходит, ей больнее, чем порубленному на пополам Нерону.@ 
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
 \
-
+ 
 ;CD-DA???????
 play "*6"
 
 ; ??<?>=??:??(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02d.jpg",%type_crossfade_fst
 
-`"--It is quite unbelievable.@ Weakened as you are, you still have that much power.@ As expected from the executioner prepared by the True Ancestors.@
-` ...... Do not face the white vampire princess----It seems the warnings of others were correct."@
+` — Сложно поверить.@ Даже в таком потрёпаном состоянии, у тебя по-прежнему столько сил.@ Истинные предки знали толк в подготовке палачей.@ «Не пересекись с белой принцессой вампиров», — так они мне говорили и, похоже, не зря,@ — его голос не растерял ни капли своей твёрдости.
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
-
-` Nrvnqsr's voice isn't dimmed at all.@
 br
-` ----I feel,
-`   a horribly sinking sense of despair.@
+` Меня же одолело чувство невыразимого отчаяния.@
 br
-` Arcueid tries to catch her breath as she slowly draws near Nrvnqsr.\
+` Арквейд, тем времем, пыталась совладать со своим дыханием и потихоньку приближалась к Нерону.\
 
 ; ?<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02d.jpg",%type_crossfade_fst
-`"But, I never expected to defeat you with only ten or twenty of myself in the first place."@
+` — С другой стороны, я и не планировал победить тебя лишь десятком другим моих частей.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
@@ -344,43 +281,38 @@ cl c,%type_crossfade_fst
 ; ?<?>=??????:??(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t15.jpg",%type_crossfade_fst
 
-`"----Enough boasting.@ You can't kill me with any amount of such familiars, and I have cut off half your body.@ No matter what, you have no chance of winning."@
+` — Довольно бахвальства.@ Тебе никаких фамильяров не хватит, а я уже отрезала от тебя половину тела.@ У тебя ни единого шанса на победу.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 ; ?<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02d.jpg",%type_crossfade_fst
 
-`"Hah----My familiars have all been killed, but you seem to be mistaken."@
-`"----?"@
-`"I do not carry familiars, nor do I use them.@ All those things you fought were truly me.@
-` ...... It is quite unpleasant to be considered similar to the other mongrels who capture other living things to repair their damaged flesh."\
+` — Ха... да, они мертвы, но мне кажется ты кое чего не понимаешь.@
+` — ?..@
+` — Я не ношу в себе фамильяров и не использую их.@ Они все и есть я.@ Поэтому мне очень обидно, когда меня сравнивают с прочими грязнокровками, которые ловят животных, чтобы залечить свою плоть.\
 
 ; ?<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02b.jpg",%type_crossfade_fst
 
-`"You should have been able to tell with a glance if you had not been weakened.@ Use your golden Mystic Eyes and see.@ Can you see it?@ The chaos of the 666 "beasts" inside my body---"@
+` — Была бы ты в форме, сразу бы заметила.@ Используй свои золотые мистические глаза и узри.@ Ну что, видишь?@ Внутри меня хаос шестиста шестидесяти шести «зверей»...@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` Splash.@
-` Something moves quickly at the edge of my vision.@
+` Всплеск.@ Что-то скользнуло на границе зрения.@
 br
-`"A----"@
-` Behind Arcueid.@
-` The half of Nrvnqsr's body which was cut off by Arcueid is shaking.@
-` It rises up in a large clot and shoots toward Arcueid----.\
+` — А...@
+` Оно позади Арквейд.@
+` Это зашевелилась отрубленная половина.@ Она поднялась гигантским сгуском и ринулась на Арквейд...\
 
-`"Arcueid, behind you----!"@
+` — Арквейд, сзади!..@
 ; ?<?>=??????:??(?????)<????>
 ld c,":a;image\tachi\ark_t18.jpg",%type_nowaitdisp
 
-`"Shiki----?"@
-` Arcueid turns around.@
-` But, she doesn't make it.@
-` The half of Nrvnqsr's body lying on the ground becomes countless large serpents which attack Arcueid from behind.\
+` — Шики?..@ — она обернулась, но не поняла о чём я.@
+` Тем временем, та половина Нерона, что лежала на земле, обернулась клубком бесчисленных змей и кинулась на Акрвейд.\
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
@@ -830,8 +762,8 @@ br
 return
 
 
-</pre>
+;</pre>
 
-[[Tsukihime|[Назад]]]
+;[[Tsukihime|[Назад]]]
 
-[[Категория:Tsukihime]]
+;[[Категория:Tsukihime]]
