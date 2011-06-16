@@ -4,831 +4,1302 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DBS>
   <String index="0">
-    <ToTranslate>bcg_gi_outcast_a</ToTranslate>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
   </String>
   <String index="1">
-    <ToTranslate>tcg_kan11ca</ToTranslate>
+    <ToTranslate>tcg_ton14ga</ToTranslate>
   </String>
   <String index="2">
-    <ToTranslate>tcg_kan11m</ToTranslate>
+    <ToTranslate>tcg_ton14m</ToTranslate>
   </String>
   <String index="3">
     <ToTranslate>_MsgBoxMain_On</ToTranslate>
   </String>
   <String index="4">
-    <ToTranslate>bgm29</ToTranslate>
-  </String>
-  <String index="5">
-    <ToTranslate>aisy0751</ToTranslate>
-  </String>
-  <String index="6">
-    <ToTranslate>Аиша$"Прекрасно! Передовой строй врага прорван!"@</ToTranslate>
-  </String>
-  <String index="7">
-    <ToTranslate>tcg_syo11ea</ToTranslate>
-  </String>
-  <String index="8">
-    <ToTranslate>tcg_syo11m</ToTranslate>
-  </String>
-  <String index="9">
-    <ToTranslate>syur0365</ToTranslate>
-  </String>
-  <String index="10">
-<ToTranslate>Шури$"Отряды Чоухи и Бачё, пожалуйста, атакуйте центр! Отряд Кану -окружить врага с правого фланга! Отряд Чёун, атакуйте с левого!"@</ToTranslate>
-  </String>
-  <String index="11">
-    <ToTranslate>tcg_koc22aa</ToTranslate>
-  </String>
-  <String index="12">
-    <ToTranslate>tcg_koc22m</ToTranslate>
-  </String>
-  <String index="13">
-    <ToTranslate>shio0036</ToTranslate>
-  </String>
-  <String index="14">
-    <ToTranslate>Сион$"Отряд Кочу продолжает вести подавляющий огонь с заднего ряда. Три залпа в центр, после два на правый фланг. После этого наступайте на их левый фланг."@</ToTranslate>
-  </String>
-  <String index="15">
-    <ToTranslate>tcg_bac12ea</ToTranslate>
-  </String>
-  <String index="16">
-    <ToTranslate>tcg_bac12m</ToTranslate>
-  </String>
-  <String index="17">
-    <ToTranslate>sui_0078</ToTranslate>
-  </String>
-  <String index="18">
-    <ToTranslate>Суи$"Есть, Ринрин, за мной!"@</ToTranslate>
-  </String>
-  <String index="19">
-    <ToTranslate>tcg_cho11ea</ToTranslate>
-  </String>
-  <String index="20">
-    <ToTranslate>tcg_cho11m</ToTranslate>
-  </String>
-  <String index="21">
-    <ToTranslate>rinr0396</ToTranslate>
-  </String>
-  <String index="22">
-    <ToTranslate>Ринрин$"Есть!"@</ToTranslate>
-  </String>
-  <String index="23">
-    <ToTranslate>SE026</ToTranslate>
-  </String>
-  <String index="24">
-    <ToTranslate>tcg_kan11ma</ToTranslate>
-  </String>
-  <String index="25">
-    <ToTranslate>tcg_kan11m</ToTranslate>
-  </String>
-  <String index="26">
-    <ToTranslate>aisy0752</ToTranslate>
-  </String>
-  <String index="27">
-    <ToTranslate>Аиша$"Отряд Кану на позиции! Всем следовать за моим флагом!"@</ToTranslate>
-  </String>
-  <String index="28">
-    <ToTranslate>tcg_zsh11aa</ToTranslate>
-  </String>
-  <String index="29">
-    <ToTranslate>tcg_zsh11m</ToTranslate>
-  </String>
-  <String index="30">
-    <ToTranslate>Солдаты$"Есть!"@</ToTranslate>
-  </String>
-  <String index="31">
-    <ToTranslate>SE026</ToTranslate>
-  </String>
-  <String index="32">
-    <ToTranslate>tcg_cun21ca</ToTranslate>
-  </String>
-  <String index="33">
-    <ToTranslate>tcg_cun21m</ToTranslate>
-  </String>
-  <String index="34">
-    <ToTranslate>sei_0150</ToTranslate>
-  </String>
-  <String index="35">
-    <ToTranslate>Сэй$"Не отставать от отряда Кану! Покажем остальным нашу силу!"@</ToTranslate>
-  </String>
-  <String index="36">
-    <ToTranslate>tcg_zsh11aa</ToTranslate>
-  </String>
-  <String index="37">
-    <ToTranslate>tcg_zsh11m</ToTranslate>
-  </String>
-  <String index="38">
-    <ToTranslate>Солдаты$"Есть!"@</ToTranslate>
-  </String>
-  <String index="39">
-    <ToTranslate>SE026</ToTranslate>
-  </String>
-  <String index="40">
-    <ToTranslate>tcg_koc32ga</ToTranslate>
-  </String>
-  <String index="41">
-    <ToTranslate>tcg_koc32m</ToTranslate>
-  </String>
-  <String index="42">
-    <ToTranslate>shio0037</ToTranslate>
-  </String>
-  <String index="43">
-    <ToTranslate>Сион$"Вот это да, какие же они все энергичные."@</ToTranslate>
-  </String>
-  <String index="44">
-    <ToTranslate>Казуто$"Это же хорошо."@</ToTranslate>
-  </String>
-  <String index="45">
-    <ToTranslate>shio0038</ToTranslate>
-  </String>
-  <String index="46">
-    <ToTranslate>Сион$"Так и есть. Ну, Господин, мне тоже нужно вести войска в наступление и помочь нанести окончательный удар."@</ToTranslate>
-  </String>
-  <String index="47">
-    <ToTranslate>Казуто$"Да, рассчитываю на тебя."@</ToTranslate>
-  </String>
-  <String index="48">
-    <ToTranslate>tcg_koc12ba</ToTranslate>
-  </String>
-  <String index="49">
-    <ToTranslate>tcg_koc12m</ToTranslate>
-  </String>
-  <String index="50">
-    <ToTranslate>shio0039</ToTranslate>
-  </String>
-  <String index="51">
-    <ToTranslate>Сион$"Тогда......"@</ToTranslate>
-  </String>
-  <String index="52">
-    <ToTranslate>SE028</ToTranslate>
-  </String>
-  <String index="53">
-    <ToTranslate>Казуто$"Пожалуйста...... возвращайтесь невредимыми, все вы."@</ToTranslate>
-  </String>
-  <String index="54">
-    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
-  </String>
-  <String index="55">
-    <ToTranslate>aa</ToTranslate>
-  </String>
-  <String index="56">
-    <ToTranslate>bg_black</ToTranslate>
-  </String>
-  <String index="57">
-    <ToTranslate>aa</ToTranslate>
-  </String>
-  <String index="58">
-    <ToTranslate>bcg_wasteland_a</ToTranslate>
-  </String>
-  <String index="59">
-    <ToTranslate>tcg_kyo12ca</ToTranslate>
-  </String>
-  <String index="60">
-    <ToTranslate>tcg_kyo12m</ToTranslate>
-  </String>
-  <String index="61">
-    <ToTranslate>_MsgBoxMain_On</ToTranslate>
-  </String>
-  <String index="62">
     <ToTranslate>bgm13</ToTranslate>
   </String>
-  <String index="63">
-    <ToTranslate>kii_0030</ToTranslate>
+  <String index="5">
+    <ToTranslate>kato0229</ToTranslate>
   </String>
-  <String index="64">
-    <ToTranslate>Кёчё$"Шууран-сама! Передовая линия вот-вот будет прорвана! Наша линия фронта скоро будет уничтожена!"@</ToTranslate>
+  <String index="6">
+    <ToTranslate>Kakouton$&quot;Shit...... I didn&apos;t know Hongou&apos;s army was this strong!&quot;@</ToTranslate>
   </String>
-  <String index="65">
-    <ToTranslate>tcg_en12fa</ToTranslate>
-  </String>
-  <String index="66">
-    <ToTranslate>tcg_en12m</ToTranslate>
-  </String>
-  <String index="67">
-    <ToTranslate>kaen0085</ToTranslate>
-  </String>
-  <String index="68">
-    <ToTranslate>Какоэн$"Хмм...... Шунран, как ты и говорила, армия Хонго стала гораздо сильнее......"@</ToTranslate>
-  </String>
-  <String index="69">
-    <ToTranslate>tcg_ton14aa</ToTranslate>
-  </String>
-  <String index="70">
-    <ToTranslate>tcg_ton14m</ToTranslate>
-  </String>
-  <String index="71">
-    <ToTranslate>kato0262</ToTranslate>
-  </String>
-  <String index="72">
-    <ToTranslate>Какотон$"Да. Даже если у них не такая многочисленная армия, её возглавляют воины, каждый из которых стоит тысячи."@</ToTranslate>
-  </String>
-  <String index="73">
-    <ToTranslate>tcg_en12ha</ToTranslate>
-  </String>
-  <String index="74">
-    <ToTranslate>tcg_en12m</ToTranslate>
-  </String>
-  <String index="75">
-    <ToTranslate>kaen0086</ToTranslate>
-  </String>
-  <String index="76">
-    <ToTranslate>Какоэн$"Мы в невыгодном положении......"@</ToTranslate>
-  </String>
-  <String index="77">
+  <String index="7">
     <ToTranslate>tcg_kyo12ca</ToTranslate>
   </String>
-  <String index="78">
+  <String index="8">
     <ToTranslate>tcg_kyo12m</ToTranslate>
   </String>
-  <String index="79">
-    <ToTranslate>kii_0031</ToTranslate>
+  <String index="9">
+    <ToTranslate>kii_0011</ToTranslate>
   </String>
-  <String index="80">
-    <ToTranslate>Кёчё$"Что нам делать?"@</ToTranslate>
+  <String index="10">
+    <ToTranslate>Kyocho$&quot;What do we do, Shunran-sama?!&quot;@</ToTranslate>
   </String>
-  <String index="81">
-    <ToTranslate>tcg_en12aa</ToTranslate>
-  </String>
-  <String index="82">
-    <ToTranslate>tcg_en12m</ToTranslate>
-  </String>
-  <String index="83">
-    <ToTranslate>kaen0087</ToTranslate>
-  </String>
-  <String index="84">
-    <ToTranslate>Какоэн$"......мы должны отступать."@</ToTranslate>
-  </String>
-  <String index="85">
-    <ToTranslate>tcg_ton14ja</ToTranslate>
-  </String>
-  <String index="86">
-    <ToTranslate>tcg_ton14m</ToTranslate>
-  </String>
-  <String index="87">
-    <ToTranslate>kato0263</ToTranslate>
-  </String>
-  <String index="88">
-    <ToTranslate>Какотон$"Разве у нас нет другого выбора? Чёрт. Если бы я была сильнее......!"@</ToTranslate>
-  </String>
-  <String index="89">
-    <ToTranslate>tcg_en12da</ToTranslate>
-  </String>
-  <String index="90">
-    <ToTranslate>tcg_en12m</ToTranslate>
-  </String>
-  <String index="91">
-    <ToTranslate>kaen0088</ToTranslate>
-  </String>
-  <String index="92">
-    <ToTranslate>Какоэн$"Сестрица, ты не одна. Мы обе не достаточно сильны...... но это ещё далеко не конец."@</ToTranslate>
-  </String>
-  <String index="93">
-    <ToTranslate>tcg_kyo12ea</ToTranslate>
-  </String>
-  <String index="94">
-    <ToTranslate>tcg_kyo12m</ToTranslate>
-  </String>
-  <String index="95">
-    <ToTranslate>kii_0032</ToTranslate>
-  </String>
-  <String index="96">
-    <ToTranslate>Кёчё$"Конечно нет! Я уверена, нет, я точно уничтожу эту Чоухи!"@</ToTranslate>
-  </String>
-  <String index="97">
-    <ToTranslate>tcg_en12ba</ToTranslate>
-  </String>
-  <String index="98">
-    <ToTranslate>tcg_en12m</ToTranslate>
-  </String>
-  <String index="99">
-    <ToTranslate>kaen0089</ToTranslate>
-  </String>
-  <String index="100">
-    <ToTranslate>Какоэн$"Хм, хороший настрой. Сестра, отступаем."@</ToTranslate>
-  </String>
-  <String index="101">
-    <ToTranslate>tcg_ton14ea</ToTranslate>
-  </String>
-  <String index="102">
-    <ToTranslate>tcg_ton14m</ToTranslate>
-  </String>
-  <String index="103">
-    <ToTranslate>kato0264</ToTranslate>
-  </String>
-  <String index="104">
-    <ToTranslate>Какотон$"......ух."@</ToTranslate>
-  </String>
-  <String index="105">
-    <ToTranslate>tcg_en22ga</ToTranslate>
-  </String>
-  <String index="106">
-    <ToTranslate>tcg_en22m</ToTranslate>
-  </String>
-  <String index="107">
-    <ToTranslate>kaen0090</ToTranslate>
-  </String>
-  <String index="108">
-    <ToTranslate>Какоэн$"Не реви."@</ToTranslate>
-  </String>
-  <String index="109">
+  <String index="11">
     <ToTranslate>tcg_ton14ca</ToTranslate>
   </String>
-  <String index="110">
+  <String index="12">
     <ToTranslate>tcg_ton14m</ToTranslate>
   </String>
-  <String index="111">
-    <ToTranslate>kato0265</ToTranslate>
+  <String index="13">
+    <ToTranslate>kato0230</ToTranslate>
   </String>
-  <String index="112">
-    <ToTranslate>Какотон$"Я не реву! "@</ToTranslate> *гыыыыыы
+  <String index="14">
+    <ToTranslate>Kakouton$&quot;Shuuran should be here soon with reinforcements! Until then we&apos;ll just have to dig our heels in!&quot;@</ToTranslate>
   </String>
-  <String index="113">
-    <ToTranslate>tcg_en12aa</ToTranslate>
+  <String index="15">
+    <ToTranslate>kii_0012</ToTranslate>
   </String>
-  <String index="114">
-    <ToTranslate>tcg_en12m</ToTranslate>
+  <String index="16">
+    <ToTranslate>Kyocho$&quot;I&apos;m doing that, but I don&apos;t think we can hold out that long?!&quot;@</ToTranslate>
   </String>
-  <String index="115">
-    <ToTranslate>kaen0091</ToTranslate>
+  <String index="17">
+    <ToTranslate>kato0231</ToTranslate>
   </String>
-  <String index="116">
-    <ToTranslate>Какоэн$"Тогда держи голову поднятой. Собираем остатки солдат и отступаем. Я прикрою тылы, Сестра, я рассчитываю на тебя, Кии – руководи отступлением."@</ToTranslate>
+  <String index="18">
+    <ToTranslate>Kakouton$&quot;Don&apos;t act weak! If they pass through here, they&apos;ll have a direct path to Xuchang!&quot;@</ToTranslate>
   </String>
-  <String index="117">
+  <String index="19">
+    <ToTranslate>tcg_kyo22ga</ToTranslate>
+  </String>
+  <String index="20">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="21">
+    <ToTranslate>kii_0013</ToTranslate>
+  </String>
+  <String index="22">
+    <ToTranslate>Kyocho$&quot;Ooo, I&apos;ll do my best so don&apos;t yell at me!&quot;@</ToTranslate>
+  </String>
+  <String index="23">
+    <ToTranslate>SE018</ToTranslate>
+  </String>
+  <String index="24">
+    <ToTranslate>tcg_ton14ca</ToTranslate>
+  </String>
+  <String index="25">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="26">
+    <ToTranslate>bgm17</ToTranslate>
+  </String>
+  <String index="27">
+    <ToTranslate>kato0232</ToTranslate>
+  </String>
+  <String index="28">
+    <ToTranslate>Kakouton$&quot;Kii?!&quot;@</ToTranslate>
+  </String>
+  <String index="29">
+    <ToTranslate>battle_kabuto</ToTranslate>
+  </String>
+  <String index="30">
+    <ToTranslate>SE015</ToTranslate>
+  </String>
+  <String index="31">
+    <ToTranslate>m_yure_y</ToTranslate>
+  </String>
+  <String index="32">
+    <ToTranslate>tcg_kyo22da</ToTranslate>
+  </String>
+  <String index="33">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="34">
+    <ToTranslate>kii_0014</ToTranslate>
+  </String>
+  <String index="35">
+    <ToTranslate>Kyocho$&quot;Wahh! W-what was that?&quot;@</ToTranslate>
+  </String>
+  <String index="36">
+    <ToTranslate>tcg_ton14ga</ToTranslate>
+  </String>
+  <String index="37">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="38">
+    <ToTranslate>kato0233</ToTranslate>
+  </String>
+  <String index="39">
+    <ToTranslate>Kakouton$&quot;Tsk! I can&apos;t believe we let you get so close, Chouhi!&quot;@</ToTranslate>
+  </String>
+  <String index="40">
+    <ToTranslate>tcg_cho31ba</ToTranslate>
+  </String>
+  <String index="41">
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="42">
+    <ToTranslate>rinr0383</ToTranslate>
+  </String>
+  <String index="43">
+    <ToTranslate>Rinrin$&quot;Hee, hee, you found me. But I&apos;m impressed that you managed to knock down Shion&apos;s arrow.&quot;@</ToTranslate>
+  </String>
+  <String index="44">
+    <ToTranslate>kato0234</ToTranslate>
+  </String>
+  <String index="45">
+    <ToTranslate>Kakouton$&quot;This belongs to Kouchuu, huh......?&quot;@</ToTranslate>
+  </String>
+  <String index="46">
+    <ToTranslate>tcg_cho31ia</ToTranslate>
+  </String>
+  <String index="47">
+    <ToTranslate>tcg_cho31m</ToTranslate>
+  </String>
+  <String index="48">
+    <ToTranslate>rinr0384</ToTranslate>
+  </String>
+  <String index="49">
+    <ToTranslate>Rinrin$&quot;She gave me cover fire.&quot;@</ToTranslate>
+  </String>
+  <String index="50">
+    <ToTranslate>tcg_kyo12ea</ToTranslate>
+  </String>
+  <String index="51">
+    <ToTranslate>tcg_kyo12m</ToTranslate>
+  </String>
+  <String index="52">
+    <ToTranslate>kii_0015</ToTranslate>
+  </String>
+  <String index="53">
+    <ToTranslate>Kyocho$&quot;Oooo, how dare you shoot at me!&quot;@</ToTranslate>
+  </String>
+  <String index="54">
+    <ToTranslate>rinr0385</ToTranslate>
+  </String>
+  <String index="55">
+    <ToTranslate>Rinrin$&quot;No, actually, we were aiming for Kakouton-oneechan. You just happened to be in the way, that&apos;s all. No point bothering with small fry like you.&quot;@</ToTranslate>
+  </String>
+  <String index="56">
+    <ToTranslate>kii_0016</ToTranslate>
+  </String>
+  <String index="57">
+    <ToTranslate>Kyocho$&quot;Small fry? Am I small fry? Argh, Shunran-sama! I&apos;m going to take her down!&quot;@</ToTranslate>
+  </String>
+  <String index="58">
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="59">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="60">
+    <ToTranslate>kato0235</ToTranslate>
+  </String>
+  <String index="61">
+    <ToTranslate>Kakouton$&quot;Hmm...... Okay, I&apos;ll let you take care of her, Kii. I&apos;m going to urge on the soldiers in the right flank.&quot;@</ToTranslate>
+  </String>
+  <String index="62">
+    <ToTranslate>kii_0017</ToTranslate>
+  </String>
+  <String index="63">
+    <ToTranslate>Kyocho$&quot;Okay!&quot;@</ToTranslate>
+  </String>
+  <String index="64">
     <ToTranslate>tcg_ton14ja</ToTranslate>
   </String>
-  <String index="118">
+  <String index="65">
     <ToTranslate>tcg_ton14m</ToTranslate>
   </String>
+  <String index="66">
+    <ToTranslate>kato0236</ToTranslate>
+  </String>
+  <String index="67">
+    <ToTranslate>Kakouton$&quot;......Good luck.&quot;@</ToTranslate>
+  </String>
+  <String index="68">
+    <ToTranslate>SE026</ToTranslate>
+  </String>
+  <String index="69">
+    <ToTranslate>tcg_cho11ca</ToTranslate>
+  </String>
+  <String index="70">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="71">
+    <ToTranslate>rinr0386</ToTranslate>
+  </String>
+  <String index="72">
+    <ToTranslate>Rinrin$&quot;Ahh! I won&apos;t let you get away!&quot;@</ToTranslate>
+  </String>
+  <String index="73">
+    <ToTranslate>tcg_kyo31aa</ToTranslate>
+  </String>
+  <String index="74">
+    <ToTranslate>tcg_kyo31m</ToTranslate>
+  </String>
+  <String index="75">
+    <ToTranslate>kii_0018</ToTranslate>
+  </String>
+  <String index="76">
+    <ToTranslate>Kyocho$&quot;I&apos;m you&apos;re opponent!&quot;@</ToTranslate>
+  </String>
+  <String index="77">
+    <ToTranslate>battle_kyo</ToTranslate>
+  </String>
+  <String index="78">
+    <ToTranslate>SE017</ToTranslate>
+  </String>
+  <String index="79">
+    <ToTranslate>m_yure_r</ToTranslate>
+  </String>
+  <String index="80">
+    <ToTranslate>tcg_cho71aa</ToTranslate>
+  </String>
+  <String index="81">
+    <ToTranslate>tcg_cho71m</ToTranslate>
+  </String>
+  <String index="82">
+    <ToTranslate>rinr0387</ToTranslate>
+  </String>
+  <String index="83">
+    <ToTranslate>Rinrin$&quot;Whoah!?&quot;@</ToTranslate>
+  </String>
+  <String index="84">
+    <ToTranslate>SE031</ToTranslate>
+  </String>
+  <String index="85">
+    <ToTranslate>tcg_cho11ca</ToTranslate>
+  </String>
+  <String index="86">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="87">
+    <ToTranslate>rinr0388</ToTranslate>
+  </String>
+  <String index="88">
+    <ToTranslate>Rinrin$&quot;Hey, that&apos;s dangerous.&quot;@</ToTranslate>
+  </String>
+  <String index="89">
+    <ToTranslate>tcg_kyo22ba</ToTranslate>
+  </String>
+  <String index="90">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="91">
+    <ToTranslate>kii_0019</ToTranslate>
+  </String>
+  <String index="92">
+    <ToTranslate>Kyocho$&quot;Hmph! This is what you get for calling me small fry!&quot;@</ToTranslate>
+  </String>
+  <String index="93">
+    <ToTranslate>tcg_cho11aa</ToTranslate>
+  </String>
+  <String index="94">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="95">
+    <ToTranslate>rinr0389</ToTranslate>
+  </String>
+  <String index="96">
+    <ToTranslate>Rinrin$&quot;Hmmm...... but you are small fry, no two ways about it!&quot;@</ToTranslate>
+  </String>
+  <String index="97">
+    <ToTranslate>tcg_kyo31aa</ToTranslate>
+  </String>
+  <String index="98">
+    <ToTranslate>tcg_kyo31m</ToTranslate>
+  </String>
+  <String index="99">
+    <ToTranslate>kii_0020</ToTranslate>
+  </String>
+  <String index="100">
+    <ToTranslate>Kyocho$&quot;Hey, you called me small fry again! You&apos;ll pay for that!&quot;@</ToTranslate>
+  </String>
+  <String index="101">
+    <ToTranslate>battle_kyo</ToTranslate>
+  </String>
+  <String index="102">
+    <ToTranslate>SE031</ToTranslate>
+  </String>
+  <String index="103">
+    <ToTranslate>tcg_cho51aa</ToTranslate>
+  </String>
+  <String index="104">
+    <ToTranslate>tcg_cho51m</ToTranslate>
+  </String>
+  <String index="105">
+    <ToTranslate>rinr0390</ToTranslate>
+  </String>
+  <String index="106">
+    <ToTranslate>Rinrin$&quot;Wow.&quot;@</ToTranslate>
+  </String>
+  <String index="107">
+    <ToTranslate>tcg_kyo22ha</ToTranslate>
+  </String>
+  <String index="108">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="109">
+    <ToTranslate>kii_0021</ToTranslate>
+  </String>
+  <String index="110">
+    <ToTranslate>Kyocho$&quot;Oooo! Don&apos;t dodge, coward!&quot;@</ToTranslate>
+  </String>
+  <String index="111">
+    <ToTranslate>tcg_cho21da</ToTranslate>
+  </String>
+  <String index="112">
+    <ToTranslate>tcg_cho21m</ToTranslate>
+  </String>
+  <String index="113">
+    <ToTranslate>rinr0391</ToTranslate>
+  </String>
+  <String index="114">
+    <ToTranslate>Rinrin$&quot;Don&apos;t be ridiculous. If I don&apos;t dodge, I&apos;ll die.&quot;@</ToTranslate>
+  </String>
+  <String index="115">
+    <ToTranslate>tcg_kyo12ea</ToTranslate>
+  </String>
+  <String index="116">
+    <ToTranslate>tcg_kyo12m</ToTranslate>
+  </String>
+  <String index="117">
+    <ToTranslate>kii_0022</ToTranslate>
+  </String>
+  <String index="118">
+    <ToTranslate>Kyocho$&quot;Die, midget!&quot;@</ToTranslate>
+  </String>
   <String index="119">
-    <ToTranslate>kato0266</ToTranslate>
+    <ToTranslate>tcg_cho31da</ToTranslate>
   </String>
   <String index="120">
-    <ToTranslate>Какотон$"......хорошо."@</ToTranslate>
+    <ToTranslate>tcg_cho31m</ToTranslate>
   </String>
   <String index="121">
-    <ToTranslate>tcg_en12fa</ToTranslate>
+    <ToTranslate>rinr0392</ToTranslate>
   </String>
   <String index="122">
-    <ToTranslate>tcg_en12m</ToTranslate>
+    <ToTranslate>Rinrin$&quot;Don&apos;t call me midget, flat chest.&quot;@</ToTranslate>
   </String>
   <String index="123">
-    <ToTranslate>kaen0092</ToTranslate>
+    <ToTranslate>tcg_kyo22ha</ToTranslate>
   </String>
   <String index="124">
-    <ToTranslate>Какоэн$"Я надеюсь на вас. Дайте сигнал! Приказ всей армии к отступлению! К сожалению, наша армия отказывается от замка и отступает!"@</ToTranslate>
+    <ToTranslate>tcg_kyo22m</ToTranslate>
   </String>
   <String index="125">
-    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+    <ToTranslate>kii_0023</ToTranslate>
   </String>
   <String index="126">
-    <ToTranslate>aa</ToTranslate>
+    <ToTranslate>Kyocho$&quot;Look at yourself, you&apos;re flat, too!&quot;@</ToTranslate>
   </String>
   <String index="127">
-    <ToTranslate>bg_black</ToTranslate>
+    <ToTranslate>tcg_cho21ia</ToTranslate>
   </String>
   <String index="128">
-    <ToTranslate>aa</ToTranslate>
+    <ToTranslate>tcg_cho21m</ToTranslate>
   </String>
   <String index="129">
-    <ToTranslate>bcg_gi_outcast_a</ToTranslate>
+    <ToTranslate>rinr0393</ToTranslate>
   </String>
   <String index="130">
-    <ToTranslate>tcg_syo11aa</ToTranslate>
+    <ToTranslate>Rinrin$&quot;Rinrin still has plenty of room to grow. But you&apos;re......heh-heh, all out of luck.&quot;@</ToTranslate>
   </String>
   <String index="131">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>tcg_kyo12ea</ToTranslate>
   </String>
   <String index="132">
-    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+    <ToTranslate>tcg_kyo12m</ToTranslate>
   </String>
   <String index="133">
-    <ToTranslate>bgm05</ToTranslate>
+    <ToTranslate>kii_0024</ToTranslate>
   </String>
   <String index="134">
-    <ToTranslate>syur0366</ToTranslate>
+    <ToTranslate>Kyocho$&quot;Ooo...... I&apos;m going to blow you away!&quot;@</ToTranslate>
   </String>
   <String index="135">
-<ToTranslate>Шури$"Господин, враги начали отступать!"@</ToTranslate>
+    <ToTranslate>tcg_cho11aa</ToTranslate>
   </String>
   <String index="136">
-    <ToTranslate>Казуто$"Да. Я вижу как их флаги отходят."@</ToTranslate>
+    <ToTranslate>tcg_cho11m</ToTranslate>
   </String>
   <String index="137">
-    <ToTranslate>tcg_koc22aa</ToTranslate>
+    <ToTranslate>rinr0394</ToTranslate>
   </String>
   <String index="138">
-    <ToTranslate>tcg_koc22m</ToTranslate>
+    <ToTranslate>Rinrin$&quot;Go ahead, do it if you can!&quot;@</ToTranslate>
   </String>
   <String index="139">
-    <ToTranslate>shio0040</ToTranslate>
+    <ToTranslate>tcg_kyo31aa</ToTranslate>
   </String>
   <String index="140">
-    <ToTranslate>Сион$"Ещё одна победа за нами."@</ToTranslate>
+    <ToTranslate>tcg_kyo31m</ToTranslate>
   </String>
   <String index="141">
-    <ToTranslate>Казуто$"......да. Что скажете? Следует их проследовать?"@</ToTranslate>
+    <ToTranslate>kii_0025</ToTranslate>
   </String>
   <String index="142">
-    <ToTranslate>tcg_syo11ea</ToTranslate>
+    <ToTranslate>Kyocho$&quot;Sure thing! Here I come!&quot;@</ToTranslate>
   </String>
   <String index="143">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>tcg_kyo91aa</ToTranslate>
   </String>
   <String index="144">
-    <ToTranslate>syur0367</ToTranslate>
+    <ToTranslate>tcg_kyo91m</ToTranslate>
   </String>
   <String index="145">
-<ToTranslate>Шури$"Нет. Сейчас совсем не так, как было с Эншо-сан. В этой битве мы понесли большие потери. Мы должны захватить крепость и восстановиться."@</ToTranslate>
+    <ToTranslate>BSE09</ToTranslate>
   </String>
   <String index="146">
-    <ToTranslate>Казуто$"Хорошо. Тогда дадим врагу отступить, и когда они уйдут, мы захватим крепость."@</ToTranslate>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
   </String>
   <String index="147">
-    <ToTranslate>Казуто$"Шури, Сион, детали поручаю вам."@</ToTranslate>
+    <ToTranslate>aa</ToTranslate>
   </String>
   <String index="148">
-    <ToTranslate>tcg_syo11ba</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="149">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>aa</ToTranslate>
   </String>
   <String index="150">
-    <ToTranslate>syur0368</ToTranslate>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
   </String>
   <String index="151">
-<ToTranslate>Шури$"Как прикажете."@</ToTranslate>
+    <ToTranslate>tcg_ton14ea</ToTranslate>
   </String>
   <String index="152">
-    <ToTranslate>Казуто$"......фух."@</ToTranslate>
+    <ToTranslate>tcg_ton14m</ToTranslate>
   </String>
   <String index="153">
-    <ToTranslate>tcg_koc12aa</ToTranslate>
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
   </String>
   <String index="154">
-    <ToTranslate>tcg_koc12m</ToTranslate>
+    <ToTranslate>kato0237</ToTranslate>
   </String>
   <String index="155">
-    <ToTranslate>shio0041</ToTranslate>
+    <ToTranslate>Kakouton$&quot;Kii......I hope she&apos;ll be okay......&quot;@</ToTranslate>
   </String>
   <String index="156">
-    <ToTranslate>Сион$"Ху-ху...... похоже кто-то изнеможён."@</ToTranslate>
+    <ToTranslate>tcg_kan11ca</ToTranslate>
   </String>
   <String index="157">
-    <ToTranslate>Казуто$"Да...... я всё ещё не привык к сражениям......"@</ToTranslate>
+    <ToTranslate>tcg_kan11m</ToTranslate>
   </String>
   <String index="158">
-    <ToTranslate>tcg_syo11aa</ToTranslate>
+    <ToTranslate>aisy0736</ToTranslate>
   </String>
   <String index="159">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>Aisha$&quot;Do you have time to be worrying about someone else?&quot;@</ToTranslate>
   </String>
   <String index="160">
-    <ToTranslate>syur0369</ToTranslate>
+    <ToTranslate>tcg_ton14ga</ToTranslate>
   </String>
   <String index="161">
-<ToTranslate>Шури$"Может будет лучше нам отойти на задние позиции?"@</ToTranslate>
+    <ToTranslate>tcg_ton14m</ToTranslate>
   </String>
   <String index="162">
-    <ToTranslate>Казуто$"Нет. Не хочу в одиночку отсиживаться в безопасном месте, покуда остальные сражаются. Поэтому я и нахожусь здесь."@</ToTranslate>
+    <ToTranslate>kato0238</ToTranslate>
   </String>
   <String index="163">
-    <ToTranslate>tcg_koc32ga</ToTranslate>
+    <ToTranslate>Kakouton$&quot;......Kan&apos;u, huh?&quot;@</ToTranslate>
   </String>
   <String index="164">
-    <ToTranslate>tcg_koc32m</ToTranslate>
+    <ToTranslate>aisy0737</ToTranslate>
   </String>
   <String index="165">
-    <ToTranslate>shio0042</ToTranslate>
+    <ToTranslate>Aisha$&quot;Long time no see, Kakouton.&quot;@</ToTranslate>
   </String>
   <String index="166">
-    <ToTranslate>Сион$"......я знала, что ты так ответишь."@</ToTranslate>
+    <ToTranslate>kato0239</ToTranslate>
   </String>
   <String index="167">
-    <ToTranslate>Казуто$"Не хочу действовать вразрез собственным убеждениям. Хотя и знаю что этим я просто тешу своё самолюбство."@</ToTranslate>
+    <ToTranslate>Kakouton$&quot;Hmph...... I think we last saw each other at the Anti-Toutaku Alliance&apos;s camp, am I right?&quot;@</ToTranslate>
   </String>
   <String index="168">
-    <ToTranslate>tcg_syo11ba</ToTranslate>
+    <ToTranslate>tcg_kan11fa</ToTranslate>
   </String>
   <String index="169">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>tcg_kan11m</ToTranslate>
   </String>
   <String index="170">
-    <ToTranslate>syur0370</ToTranslate>
+    <ToTranslate>aisy0738</ToTranslate>
   </String>
   <String index="171">
-<ToTranslate>Шури$"Нет. Все следуют за тобой, потому что ты рискуешь жизнью, оставаясь на передовой."@</ToTranslate>
+    <ToTranslate>Aisha$&quot;That&apos;s right. I&apos;ve wanted to give you a taste of my blade ever since that day......&quot;@</ToTranslate>
   </String>
   <String index="172">
-    <ToTranslate>tcg_koc12aa</ToTranslate>
+    <ToTranslate>SE014</ToTranslate>
   </String>
   <String index="173">
-    <ToTranslate>tcg_koc12m</ToTranslate>
+    <ToTranslate>tcg_kan41aa</ToTranslate>
   </String>
   <String index="174">
-    <ToTranslate>shio0043</ToTranslate>
+    <ToTranslate>tcg_kan41m</ToTranslate>
   </String>
   <String index="175">
-    <ToTranslate>Сион$"И пока следующие за тобой люди поддерживают тебя это не самолюбство."@</ToTranslate>
+    <ToTranslate>aisy0739</ToTranslate>
   </String>
   <String index="176">
-    <ToTranslate>Казуто$"......это правда, так?"@</ToTranslate>
+    <ToTranslate>Aisha$&quot;Now, face me!&quot;@</ToTranslate>
   </String>
   <String index="177">
-    <ToTranslate>tcg_syo11aa</ToTranslate>
+    <ToTranslate>tcg_ton32aa</ToTranslate>
   </String>
   <String index="178">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>tcg_ton32m</ToTranslate>
   </String>
   <String index="179">
-    <ToTranslate>syur0371</ToTranslate>
+    <ToTranslate>kato0240</ToTranslate>
   </String>
   <String index="180">
-<ToTranslate>Шури$"Именно так. Но...... Господин, если почувствуете что устали, немедленно сообщите нам."@</ToTranslate>
+    <ToTranslate>Kakouton$&quot;Very well......&quot;@</ToTranslate>
   </String>
   <String index="181">
-    <ToTranslate>tcg_koc12ba</ToTranslate>
+    <ToTranslate>SE013</ToTranslate>
   </String>
   <String index="182">
-    <ToTranslate>tcg_koc12m</ToTranslate>
+    <ToTranslate>kato0241</ToTranslate>
   </String>
   <String index="183">
-    <ToTranslate>shio0044</ToTranslate>
+    <ToTranslate>Kakouton$&quot;Kneel before my blade, Kan&apos;u!&quot;@</ToTranslate>
   </String>
   <String index="184">
-    <ToTranslate>Сион$"Помогать нашему Господину......одна из причин, почему мы здесь."@</ToTranslate>
+    <ToTranslate>tcg_kan41aa</ToTranslate>
   </String>
   <String index="185">
-    <ToTranslate>Казуто$"......Спасибо. Полагаюсь на вас."@</ToTranslate>
+    <ToTranslate>tcg_kan41m</ToTranslate>
   </String>
   <String index="186">
-    <ToTranslate>tcg_syo11ba</ToTranslate>
+    <ToTranslate>aisy0740</ToTranslate>
   </String>
   <String index="187">
-    <ToTranslate>tcg_syo11m</ToTranslate>
+    <ToTranslate>Aisha$&quot;I&apos;ll say the same to you!&quot;@</ToTranslate>
   </String>
   <String index="188">
-    <ToTranslate>syur0372</ToTranslate>
+    <ToTranslate>tcg_ton32aa</ToTranslate>
   </String>
   <String index="189">
-<ToTranslate>Шури$"Хее, хее, хее...... пожалуйста, полагайтесь на нас в своё удовольствие!"@</ToTranslate>
+    <ToTranslate>tcg_ton32m</ToTranslate>
   </String>
   <String index="190">
-    <ToTranslate>$Я улыбнулся Шури, лупившей себя кулаком в грудь, и мы направились в сторону брошенной крепости.@</ToTranslate>
+    <ToTranslate>kato0242</ToTranslate>
   </String>
   <String index="191">
-    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+    <ToTranslate>Kakouton$&quot;Hmph. En garde.&quot;@</ToTranslate>
   </String>
   <String index="192">
-    <ToTranslate>bb</ToTranslate>
+    <ToTranslate>tcg_kan41aa</ToTranslate>
   </String>
   <String index="193">
-    <ToTranslate>bg_black</ToTranslate>
+    <ToTranslate>tcg_kan41m</ToTranslate>
   </String>
   <String index="194">
-    <ToTranslate>bb</ToTranslate>
+    <ToTranslate>aisy0741</ToTranslate>
   </String>
   <String index="195">
-    <ToTranslate>bcg_go_impseat_a</ToTranslate>
+    <ToTranslate>Aisha$&quot;......&quot;@</ToTranslate>
   </String>
   <String index="196">
-    <ToTranslate>tcg_rik11ca</ToTranslate>
+    <ToTranslate>tcg_ton32aa</ToTranslate>
   </String>
   <String index="197">
-    <ToTranslate>tcg_rik11m</ToTranslate>
+    <ToTranslate>tcg_ton32m</ToTranslate>
   </String>
   <String index="198">
-    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+    <ToTranslate>kato0243</ToTranslate>
   </String>
   <String index="199">
-    <ToTranslate>bgm10</ToTranslate>
+    <ToTranslate>Kakouton$&quot;......&quot;@</ToTranslate>
   </String>
   <String index="200">
-    <ToTranslate>riku0023</ToTranslate>
+    <ToTranslate>gousei0002</ToTranslate>
   </String>
   <String index="201">
-    <ToTranslate>Рикусон$"Срочно, очень срочно. Получены результаты второго сражения между Хонго и Цао Вэй!"@</ToTranslate>
+    <ToTranslate>gousei0002</ToTranslate>
   </String>
   <String index="202">
-    <ToTranslate>tcg_son12aa</ToTranslate>
+    <ToTranslate>Both$&quot;Hahh!@</ToTranslate>
   </String>
   <String index="203">
-    <ToTranslate>tcg_son12m</ToTranslate>
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
   </String>
   <String index="204">
-    <ToTranslate>sonk0079</ToTranslate>
+    <ToTranslate>ef_kesa01a</ToTranslate>
   </String>
   <String index="205">
-<ToTranslate>Сонкен$"Прекрасно...... и?"@</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="206">
-    <ToTranslate>tcg_rik11ba</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="207">
-    <ToTranslate>tcg_rik11m</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="208">
-    <ToTranslate>riku0024</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="209">
-    <ToTranslate>Рикусон$"Не знаю, сможете те ли вы мне поверить, но армия Хонго победила второй раз! Разве они не удивительны? Они и правда очень сильны."@</ToTranslate>
+    <ToTranslate>ef_kesa01a_m</ToTranslate>
   </String>
   <String index="210">
-    <ToTranslate>tcg_kne11ga</ToTranslate>
+    <ToTranslate>BSE08</ToTranslate>
   </String>
   <String index="211">
-    <ToTranslate>tcg_kne11m</ToTranslate>
+    <ToTranslate>bg_white</ToTranslate>
   </String>
   <String index="212">
-    <ToTranslate>kann0018</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="213">
-    <ToTranslate>Канней$"То, что они сильны хорошо, но... но если они окажутся слишком сильны, это может быть плохо для нас."@</ToTranslate>
+    <ToTranslate>bg_white</ToTranslate>
   </String>
   <String index="214">
-    <ToTranslate>tcg_son12ia</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="215">
-    <ToTranslate>tcg_son12m</ToTranslate>
+    <ToTranslate>ef_kabuto01a</ToTranslate>
   </String>
   <String index="216">
-    <ToTranslate>sonk0080</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="217">
-<ToTranslate>Сонкен$"Коха права. Но с другой стороны, это редкий шанс раздавить Цао Вэй."@</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="218">
-    <ToTranslate>tcg_syu11aa</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="219">
-    <ToTranslate>tcg_syu11m</ToTranslate>
+    <ToTranslate>ef_kabuto01a_m</ToTranslate>
   </String>
   <String index="220">
-    <ToTranslate>syuy0047</ToTranslate>
+    <ToTranslate>BSE15</ToTranslate>
   </String>
   <String index="221">
-    <ToTranslate>Шую$"Значит, следуя первоначальному решению, нам следует протянуть руку помощи Хонго?"@</ToTranslate>
+    <ToTranslate>bg_white</ToTranslate>
   </String>
   <String index="222">
-    <ToTranslate>tcg_son12aa</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="223">
-    <ToTranslate>tcg_son12m</ToTranslate>
+    <ToTranslate>bg_white</ToTranslate>
   </String>
   <String index="224">
-    <ToTranslate>sonk0081</ToTranslate>
+    <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="225">
-<ToTranslate>Сонкен$"Да, так и сделаем. Я позволю Кокен самой выбрать нашего посланника."@</ToTranslate>
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
   </String>
   <String index="226">
-    <ToTranslate>syuy0048</ToTranslate>
-  </String>
-  <String index="227">
-    <ToTranslate>Шую$"Как скажете."@</ToTranslate>
-  </String>
-  <String index="228">
-    <ToTranslate>sonk0082</ToTranslate>
-  </String>
-  <String index="229">
-<ToTranslate>Сонкен$"Коха, Хакуген, готовьтесь к походу."@</ToTranslate>
-  </String>
-  <String index="230">
-    <ToTranslate>tcg_kne11ga</ToTranslate>
-  </String>
-  <String index="231">
-    <ToTranslate>tcg_kne11m</ToTranslate>
-  </String>
-  <String index="232">
-    <ToTranslate>kann0019</ToTranslate>
-  </String>
-  <String index="233">
-    <ToTranslate>Канней$"Да госпожа!"@</ToTranslate>
-  </String>
-  <String index="234">
-    <ToTranslate>tcg_rik11ba</ToTranslate>
-  </String>
-  <String index="235">
-    <ToTranslate>tcg_rik11m</ToTranslate>
-  </String>
-  <String index="236">
-    <ToTranslate>riku0025</ToTranslate>
-  </String>
-  <String index="237">
-    <ToTranslate>Рикусон$"Какую армию вы хотите собрать?"@</ToTranslate>
-  </String>
-  <String index="238">
-    <ToTranslate>sonk0083</ToTranslate>
-  </String>
-  <String index="239">
-<ToTranslate>Сонкен$"Мы возьмём столько солдат, сколько сможем. ......мы должны продемонстрировать свою мощь другим странам. Не возражаешь, Кокен?"@</ToTranslate>
-  </String>
-  <String index="240">
-    <ToTranslate>tcg_syu11ca</ToTranslate>
-  </String>
-  <String index="241">
-    <ToTranslate>tcg_syu11m</ToTranslate>
-  </String>
-  <String index="242">
-    <ToTranslate>syuy0049</ToTranslate>
-  </String>
-  <String index="243">
-    <ToTranslate>Шую$"......как скажете."@</ToTranslate>
-  </String>
-  <String index="244">
-    <ToTranslate>tcg_rik11aa</ToTranslate>
-  </String>
-  <String index="245">
-    <ToTranslate>tcg_rik11m</ToTranslate>
-  </String>
-  <String index="246">
-    <ToTranslate>riku0026</ToTranslate>
-  </String>
-  <String index="247">
-    <ToTranslate>Рикусон$"Ну...... т-тогда я пойду готовить к походу всю армию, как и сказала Рэнфа-сама."@</ToTranslate>
-  </String>
-  <String index="248">
-    <ToTranslate>tcg_son12ba</ToTranslate>
-  </String>
-  <String index="249">
-    <ToTranslate>tcg_son12m</ToTranslate>
-  </String>
-  <String index="250">
-    <ToTranslate>sonk0084</ToTranslate>
-  </String>
-  <String index="251">
-<ToTranslate>Сонкен$"Оставляю всё на тебя. Это сражение станет точкой опоры в истории Ву. Надеюсь, вы все покажете себя должным образом."@</ToTranslate>
-  </String>
-  <String index="252">
-    <ToTranslate>tcg_kne11ga</ToTranslate>
-  </String>
-  <String index="253">
-    <ToTranslate>tcg_kne11m</ToTranslate>
-  </String>
-  <String index="254">
-    <ToTranslate>kann0020</ToTranslate>
-  </String>
-  <String index="255">
-    <ToTranslate>Канней$"Да госпожа!"@</ToTranslate>
-  </String>
-  <String index="256">
-    <ToTranslate>sonk0085</ToTranslate>
-  </String>
-  <String index="257">
-<ToTranslate>Сонкен$"Все свободны!"@</ToTranslate>
-  </String>
-  <String index="258">
-    <ToTranslate>tcg_syu11aa</ToTranslate>
-  </String>
-  <String index="259">
-    <ToTranslate>tcg_syu11m</ToTranslate>
-  </String>
-  <String index="260">
-    <ToTranslate>syuy0050</ToTranslate>
-  </String>
-  <String index="261">
-    <ToTranslate>Шую$"........."@</ToTranslate>
-  </String>
-  <String index="262">
-    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
-  </String>
-  <String index="263">
-    <ToTranslate>bb</ToTranslate>
-  </String>
-  <String index="264">
-    <ToTranslate>bg_black</ToTranslate>
-  </String>
-  <String index="265">
-    <ToTranslate>bb</ToTranslate>
-  </String>
-  <String index="266">
-    <ToTranslate>bcg_go_impseat_a</ToTranslate>
-  </String>
-  <String index="267">
-    <ToTranslate>tcg_syu11ca</ToTranslate>
-  </String>
-  <String index="268">
-    <ToTranslate>tcg_syu11m</ToTranslate>
-  </String>
-  <String index="269">
     <ToTranslate>_MsgBoxMain_On</ToTranslate>
   </String>
-  <String index="270">
-    <ToTranslate>syuy0051</ToTranslate>
+  <String index="227">
+    <ToTranslate>SE017</ToTranslate>
   </String>
-  <String index="271">
-    <ToTranslate>Шую$"Хм, хотите сделать меня наживкой......да, Госпожа?"@</ToTranslate>
+  <String index="228">
+    <ToTranslate>m_yure_r</ToTranslate>
   </String>
-  <String index="272">
+  <String index="229">
+    <ToTranslate>SE031</ToTranslate>
+  </String>
+  <String index="230">
+    <ToTranslate>SE031</ToTranslate>
+  </String>
+  <String index="231">
+    <ToTranslate>gousei0003</ToTranslate>
+  </String>
+  <String index="232">
+    <ToTranslate>gousei0003</ToTranslate>
+  </String>
+  <String index="233">
+    <ToTranslate>Both$&quot;Kkh......&quot;$&quot;Tsk......&quot;@</ToTranslate>
+  </String>
+  <String index="234">
+    <ToTranslate>tcg_ton32aa</ToTranslate>
+  </String>
+  <String index="235">
+    <ToTranslate>tcg_ton32m</ToTranslate>
+  </String>
+  <String index="236">
+    <ToTranslate>kato0246</ToTranslate>
+  </String>
+  <String index="237">
+    <ToTranslate>Kakouton$&quot;Who&apos;d have thought you could parry my blow so easily. I guess your title of brave general isn&apos;t just for show, Kan&apos;u.&quot;@</ToTranslate>
+  </String>
+  <String index="238">
+    <ToTranslate>tcg_kan41aa</ToTranslate>
+  </String>
+  <String index="239">
+    <ToTranslate>tcg_kan41m</ToTranslate>
+  </String>
+  <String index="240">
+    <ToTranslate>aisy0744</ToTranslate>
+  </String>
+  <String index="241">
+    <ToTranslate>Aisha$&quot;Hmph...... of course. But your skill lives up to the rumors too, Blind Kakou.&quot;@</ToTranslate>
+  </String>
+  <String index="242">
+    <ToTranslate>tcg_ton32aa</ToTranslate>
+  </String>
+  <String index="243">
+    <ToTranslate>tcg_ton32m</ToTranslate>
+  </String>
+  <String index="244">
+    <ToTranslate>kato0247</ToTranslate>
+  </String>
+  <String index="245">
+    <ToTranslate>Kakouton$&quot;Don&apos;t call me by that name!&quot;@</ToTranslate>
+  </String>
+  <String index="246">
+    <ToTranslate>tcg_kan41aa</ToTranslate>
+  </String>
+  <String index="247">
+    <ToTranslate>tcg_kan41m</ToTranslate>
+  </String>
+  <String index="248">
+    <ToTranslate>aisy0745</ToTranslate>
+  </String>
+  <String index="249">
+    <ToTranslate>Aisha$&quot;Hmph, if you say so, I won&apos;t. But your head is mine!&quot;@</ToTranslate>
+  </String>
+  <String index="250">
+    <ToTranslate>battle_kan</ToTranslate>
+  </String>
+  <String index="251">
+    <ToTranslate>tcg_ton32aa</ToTranslate>
+  </String>
+  <String index="252">
+    <ToTranslate>tcg_ton32m</ToTranslate>
+  </String>
+  <String index="253">
+    <ToTranslate>kato0248</ToTranslate>
+  </String>
+  <String index="254">
+    <ToTranslate>Kakouton$&quot;Come and get it, if you can!&quot;@</ToTranslate>
+  </String>
+  <String index="255">
+    <ToTranslate>battle_ton</ToTranslate>
+  </String>
+  <String index="256">
+    <ToTranslate>SE016</ToTranslate>
+  </String>
+  <String index="257">
+    <ToTranslate>m_yure_t</ToTranslate>
+  </String>
+  <String index="258">
+    <ToTranslate>SE015</ToTranslate>
+  </String>
+  <String index="259">
+    <ToTranslate>m_yure_y</ToTranslate>
+  </String>
+  <String index="260">
+    <ToTranslate>tcg_kan61aa</ToTranslate>
+  </String>
+  <String index="261">
+    <ToTranslate>tcg_kan61m</ToTranslate>
+  </String>
+  <String index="262">
+    <ToTranslate>aisy0746</ToTranslate>
+  </String>
+  <String index="263">
+    <ToTranslate>Aisha$&quot;Kkh?!&quot;@</ToTranslate>
+  </String>
+  <String index="264">
+    <ToTranslate>tcg_ton32aa</ToTranslate>
+  </String>
+  <String index="265">
+    <ToTranslate>tcg_ton32m</ToTranslate>
+  </String>
+  <String index="266">
+    <ToTranslate>kato0249</ToTranslate>
+  </String>
+  <String index="267">
+    <ToTranslate>Kakouton$&quot;You&apos;ll have to do better than that!&quot;@</ToTranslate>
+  </String>
+  <String index="268">
     <ToTranslate>_MsgBoxMain_Off</ToTranslate>
   </String>
-  <String index="273">
+  <String index="269">
+    <ToTranslate>ecg_ton02d</ToTranslate>
+  </String>
+  <String index="270">
     <ToTranslate>bg_black</ToTranslate>
   </String>
-  <String index="274">
-    <ToTranslate>_kyotenphase</ToTranslate>
+  <String index="271">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
   </String>
-
+  <String index="272">
+    <ToTranslate>kato0250</ToTranslate>
+  </String>
+  <String index="273">
+    <ToTranslate>Kakouton$&quot;Kan&apos;u, taste the full might of my blow!&quot;@</ToTranslate>
+  </String>
+  <String index="274">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="275">
+    <ToTranslate>ecg_ton02h</ToTranslate>
+  </String>
+  <String index="276">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="277">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="278">
+    <ToTranslate>kato0251</ToTranslate>
+  </String>
+  <String index="279">
+    <ToTranslate>Kakouton$&quot;Yahhhhh!&quot;@</ToTranslate>
+  </String>
+  <String index="280">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="281">
+    <ToTranslate>battle_kabuto</ToTranslate>
+  </String>
+  <String index="282">
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="283">
+    <ToTranslate>SE017</ToTranslate>
+  </String>
+  <String index="284">
+    <ToTranslate>m_yure_r</ToTranslate>
+  </String>
+  <String index="285">
+    <ToTranslate>SE031</ToTranslate>
+  </String>
+  <String index="286">
+    <ToTranslate>tcg_kan61aa</ToTranslate>
+  </String>
+  <String index="287">
+    <ToTranslate>tcg_kan61m</ToTranslate>
+  </String>
+  <String index="288">
+    <ToTranslate>aisy0747</ToTranslate>
+  </String>
+  <String index="289">
+    <ToTranslate>Aisha$&quot;Gugh......!! This is s-strong...... what a strike......!&quot;@</ToTranslate>
+  </String>
+  <String index="290">
+    <ToTranslate>kyara_kesi</ToTranslate>
+  </String>
+  <String index="291">
+    <ToTranslate>tcg_ton32aa</ToTranslate>
+  </String>
+  <String index="292">
+    <ToTranslate>tcg_ton32m</ToTranslate>
+  </String>
+  <String index="293">
+    <ToTranslate>kato0252</ToTranslate>
+  </String>
+  <String index="294">
+    <ToTranslate>Kakouton$&quot;This is nothing! This greatsword is Karin-sama&apos;s......&quot;@</ToTranslate>
+  </String>
+  <String index="295">
+    <ToTranslate>tcg_zgi11aa</ToTranslate>
+  </String>
+  <String index="296">
+    <ToTranslate>tcg_zgi11m</ToTranslate>
+  </String>
+  <String index="297">
+    <ToTranslate>Soldier$&quot;Reinforcements! Our reinforcements are here!&quot;@</ToTranslate>
+  </String>
+  <String index="298">
+    <ToTranslate>tcg_ton14ga</ToTranslate>
+  </String>
+  <String index="299">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="300">
+    <ToTranslate>kato0253</ToTranslate>
+  </String>
+  <String index="301">
+    <ToTranslate>Kakouton$&quot;Is that Shuuran......? Kan&apos;u, we&apos;ll have to postpone this match!&quot;@</ToTranslate>
+  </String>
+  <String index="302">
+    <ToTranslate>tcg_kan11ca</ToTranslate>
+  </String>
+  <String index="303">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="304">
+    <ToTranslate>aisy0748</ToTranslate>
+  </String>
+  <String index="305">
+    <ToTranslate>Aisha$&quot;What? Are you running away, Kakouton?&quot;@</ToTranslate>
+  </String>
+  <String index="306">
+    <ToTranslate>tcg_ton14ja</ToTranslate>
+  </String>
+  <String index="307">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="308">
+    <ToTranslate>kato0254</ToTranslate>
+  </String>
+  <String index="309">
+    <ToTranslate>Kakouton$&quot;Running away? Hmph...... don&apos;t get the wrong idea. I&apos;m going to fight you as a general, not as a soldier.&quot;@</ToTranslate>
+  </String>
+  <String index="310">
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="311">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="312">
+    <ToTranslate>kato0255</ToTranslate>
+  </String>
+  <String index="313">
+    <ToTranslate>Kakouton$&quot;My army will chop off your lord&apos;s head!&quot;@</ToTranslate>
+  </String>
+  <String index="314">
+    <ToTranslate>tcg_ton14ca</ToTranslate>
+  </String>
+  <String index="315">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="316">
+    <ToTranslate>kato0256</ToTranslate>
+  </String>
+  <String index="317">
+    <ToTranslate>Kakouton$&quot;Farewell, Kan&apos;u!&quot;@</ToTranslate>
+  </String>
+  <String index="318">
+    <ToTranslate>SE026</ToTranslate>
+  </String>
+  <String index="319">
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="320">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="321">
+    <ToTranslate>aisy0749</ToTranslate>
+  </String>
+  <String index="322">
+    <ToTranslate>Aisha$&quot;Hey, wait! Ghh, at this rate, Our Lord is in danger!&quot;@</ToTranslate>
+  </String>
+  <String index="323">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="324">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="325">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="326">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="327">
+    <ToTranslate>bcg_gi_outcast_a</ToTranslate>
+  </String>
+  <String index="328">
+    <ToTranslate>tcg_syo21ca</ToTranslate>
+  </String>
+  <String index="329">
+    <ToTranslate>tcg_syo21m</ToTranslate>
+  </String>
+  <String index="330">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="331">
+    <ToTranslate>bgm0000</ToTranslate>
+  </String>
+  <String index="332">
+    <ToTranslate>syur0362</ToTranslate>
+  </String>
+  <String index="333">
+    <ToTranslate>Shuri$&quot;My Lord! Our enemy has received reinforcements! We must call back everyone on the front!&quot;@</ToTranslate>
+  </String>
+  <String index="334">
+    <ToTranslate>Kazuto$&quot;Call them back?&quot;@</ToTranslate>
+  </String>
+  <String index="335">
+    <ToTranslate>tcg_koc32ca</ToTranslate>
+  </String>
+  <String index="336">
+    <ToTranslate>tcg_koc32m</ToTranslate>
+  </String>
+  <String index="337">
+    <ToTranslate>shio0035</ToTranslate>
+  </String>
+  <String index="338">
+    <ToTranslate>Shion$&quot;Yes! We must call everyone back and reassemble our formation immediately or it&apos;ll be too dangerous.&quot;@</ToTranslate>
+  </String>
+  <String index="339">
+    <ToTranslate>Kazuto$&quot;I see...... Okay, sound the gong and signal them to retreat!&quot;@</ToTranslate>
+  </String>
+  <String index="340">
+    <ToTranslate>tcg_zsh11aa</ToTranslate>
+  </String>
+  <String index="341">
+    <ToTranslate>tcg_zsh11m</ToTranslate>
+  </String>
+  <String index="342">
+    <ToTranslate>Soldier$&quot;Yes sir!&quot;@</ToTranslate>
+  </String>
+  <String index="343">
+    <ToTranslate>tcg_syo11ea</ToTranslate>
+  </String>
+  <String index="344">
+    <ToTranslate>tcg_syo11m</ToTranslate>
+  </String>
+  <String index="345">
+    <ToTranslate>syur0363</ToTranslate>
+  </String>
+  <String index="346">
+    <ToTranslate>Shuri$&quot;As soon as everyone returns, we&apos;ll reform and attack!&quot;@</ToTranslate>
+  </String>
+  <String index="347">
+    <ToTranslate>Kazuto$&quot;Alright. Shuri, please issue the orders!&quot;@</ToTranslate>
+  </String>
+  <String index="348">
+    <ToTranslate>syur0364</ToTranslate>
+  </String>
+  <String index="349">
+    <ToTranslate>Shuri$&quot;As you wish!&quot;@</ToTranslate>
+  </String>
+  <String index="350">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="351">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="352">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="353">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="354">
+    <ToTranslate>bcg_wasteland_a</ToTranslate>
+  </String>
+  <String index="355">
+    <ToTranslate>tcg_en12aa</ToTranslate>
+  </String>
+  <String index="356">
+    <ToTranslate>tcg_en12m</ToTranslate>
+  </String>
+  <String index="357">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="358">
+    <ToTranslate>bgm13</ToTranslate>
+  </String>
+  <String index="359">
+    <ToTranslate>kaen0080</ToTranslate>
+  </String>
+  <String index="360">
+    <ToTranslate>Kakouen$&quot;They got you pretty good once again, didn&apos;t they?&quot;@</ToTranslate>
+  </String>
+  <String index="361">
+    <ToTranslate>tcg_ton14aa</ToTranslate>
+  </String>
+  <String index="362">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="363">
+    <ToTranslate>kato0257</ToTranslate>
+  </String>
+  <String index="364">
+    <ToTranslate>Kakouton$&quot;I can&apos;t argue with that. But now that you&apos;re here, we can counterattack.&quot;@</ToTranslate>
+  </String>
+  <String index="365">
+    <ToTranslate>tcg_kyo12ea</ToTranslate>
+  </String>
+  <String index="366">
+    <ToTranslate>tcg_kyo12m</ToTranslate>
+  </String>
+  <String index="367">
+    <ToTranslate>kii_0026</ToTranslate>
+  </String>
+  <String index="368">
+    <ToTranslate>Kyocho$&quot;That&apos;s right! The enemy is exhausted! We&apos;ll absolutely, positively blow them away!&quot;@</ToTranslate>
+  </String>
+  <String index="369">
+    <ToTranslate>kaen0081</ToTranslate>
+  </String>
+  <String index="370">
+    <ToTranslate>Kakouen$&quot;......You&apos;re pretty psyched. Did something happen?&quot;@</ToTranslate>
+  </String>
+  <String index="371">
+    <ToTranslate>tcg_ton24ba</ToTranslate>
+  </String>
+  <String index="372">
+    <ToTranslate>tcg_ton24m</ToTranslate>
+  </String>
+  <String index="373">
+    <ToTranslate>kato0258</ToTranslate>
+  </String>
+  <String index="374">
+    <ToTranslate>Kakouton$&quot;She let Chouhi get away.&quot;@</ToTranslate>
+  </String>
+  <String index="375">
+    <ToTranslate>muka</ToTranslate>
+  </String>
+  <String index="376">
+    <ToTranslate>kii_0027</ToTranslate>
+  </String>
+  <String index="377">
+    <ToTranslate>Kyocho$&quot;She didn&apos;t get away! I let her go!&quot;@</ToTranslate>
+  </String>
+  <String index="378">
+    <ToTranslate>kato0259</ToTranslate>
+  </String>
+  <String index="379">
+    <ToTranslate>Kakouton$&quot;......That&apos;s her version.&quot;@</ToTranslate>
+  </String>
+  <String index="380">
+    <ToTranslate>tcg_en12ba</ToTranslate>
+  </String>
+  <String index="381">
+    <ToTranslate>tcg_en12m</ToTranslate>
+  </String>
+  <String index="382">
+    <ToTranslate>kaen0082</ToTranslate>
+  </String>
+  <String index="383">
+    <ToTranslate>Kakouen$&quot;Hmph, I see...... They why don&apos;t you direct that anger at Hongou&apos;s army?&quot;@</ToTranslate>
+  </String>
+  <String index="384">
+    <ToTranslate>tcg_kyo12aa</ToTranslate>
+  </String>
+  <String index="385">
+    <ToTranslate>tcg_kyo12m</ToTranslate>
+  </String>
+  <String index="386">
+    <ToTranslate>kii_0028</ToTranslate>
+  </String>
+  <String index="387">
+    <ToTranslate>Kyocho$&quot;I will! My iron ball of anger will pay them quite a few visits!&quot;@</ToTranslate>
+  </String>
+  <String index="388">
+    <ToTranslate>kato0260</ToTranslate>
+  </String>
+  <String index="389">
+    <ToTranslate>Kakouton$&quot;That&apos;s good to hear. Now, Shuuran, shall we go?&quot;@</ToTranslate>
+  </String>
+  <String index="390">
+    <ToTranslate>tcg_en12fa</ToTranslate>
+  </String>
+  <String index="391">
+    <ToTranslate>tcg_en12m</ToTranslate>
+  </String>
+  <String index="392">
+    <ToTranslate>kaen0083</ToTranslate>
+  </String>
+  <String index="393">
+    <ToTranslate>Kakouen$&quot;Yes. I&apos;ll take command of the army. Aneja, you and Kii take care of your units.&quot;@</ToTranslate>
+  </String>
+  <String index="394">
+    <ToTranslate>tcg_ton14ga</ToTranslate>
+  </String>
+  <String index="395">
+    <ToTranslate>tcg_ton14m</ToTranslate>
+  </String>
+  <String index="396">
+    <ToTranslate>kato0261</ToTranslate>
+  </String>
+  <String index="397">
+    <ToTranslate>Kakouton$&quot;Alright.&quot;@</ToTranslate>
+  </String>
+  <String index="398">
+    <ToTranslate>tcg_kyo22ba</ToTranslate>
+  </String>
+  <String index="399">
+    <ToTranslate>tcg_kyo22m</ToTranslate>
+  </String>
+  <String index="400">
+    <ToTranslate>kii_0029</ToTranslate>
+  </String>
+  <String index="401">
+    <ToTranslate>Kyocho$&quot;Hurry! Let&apos;s hurry up and go!&quot;@</ToTranslate>
+  </String>
+  <String index="402">
+    <ToTranslate>kaen0084</ToTranslate>
+  </String>
+  <String index="403">
+    <ToTranslate>Kakouen$&quot;We&apos;re moving out. Follow my flag.&quot;@</ToTranslate>
+  </String>
+  <String index="404">
+    <ToTranslate>tcg_zgi11aa</ToTranslate>
+  </String>
+  <String index="405">
+    <ToTranslate>tcg_zgi11m</ToTranslate>
+  </String>
+  <String index="406">
+    <ToTranslate>Soldier$&quot;Yeah!&quot;@</ToTranslate>
+  </String>
+  <String index="407">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="408">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="409">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="410">
+    <ToTranslate>aa</ToTranslate>
+  </String>
+  <String index="411">
+    <ToTranslate>bcg_gi_outcast_a</ToTranslate>
+  </String>
+  <String index="412">
+    <ToTranslate>tcg_bac11ca</ToTranslate>
+  </String>
+  <String index="413">
+    <ToTranslate>tcg_bac11m</ToTranslate>
+  </String>
+  <String index="414">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="415">
+    <ToTranslate>bgm0000</ToTranslate>
+  </String>
+  <String index="416">
+    <ToTranslate>sui_0077</ToTranslate>
+  </String>
+  <String index="417">
+    <ToTranslate>Sui$&quot;Hey! The enemy troops are charging towards us!&quot;@</ToTranslate>
+  </String>
+  <String index="418">
+    <ToTranslate>tcg_cun31ea</ToTranslate>
+  </String>
+  <String index="419">
+    <ToTranslate>tcg_cun31m</ToTranslate>
+  </String>
+  <String index="420">
+    <ToTranslate>sei_0149</ToTranslate>
+  </String>
+  <String index="421">
+    <ToTranslate>Sei$&quot;Interesting! I accept their challenge!&quot;@</ToTranslate>
+  </String>
+  <String index="422">
+    <ToTranslate>tcg_kan11ma</ToTranslate>
+  </String>
+  <String index="423">
+    <ToTranslate>tcg_kan11m</ToTranslate>
+  </String>
+  <String index="424">
+    <ToTranslate>aisy0750</ToTranslate>
+  </String>
+  <String index="425">
+    <ToTranslate>Aisha$&quot;All men, prepare to intercept!&quot;@</ToTranslate>
+  </String>
+  <String index="426">
+    <ToTranslate>tcg_cho11aa</ToTranslate>
+  </String>
+  <String index="427">
+    <ToTranslate>tcg_cho11m</ToTranslate>
+  </String>
+  <String index="428">
+    <ToTranslate>rinr0395</ToTranslate>
+  </String>
+  <String index="429">
+    <ToTranslate>Rinrin$&quot;Commence battle!&quot;@</ToTranslate>
+  </String>
+  <String index="430">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="431">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+</DBS>
 
 </poem>
 [[Koihime Musou/Прогресс перевода/Сюжет|[Назад]]]
