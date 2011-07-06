@@ -400,92 +400,70 @@ br
 ;S.E."?????????"
 wave se11
 
-` The black fluid becomes like mere water as I slice the lines.\
+` Чёрная жижа сразу стала, как вода.\
 ;S.E."????(???)"
 waveloop se1
 
-`"Alright......!"@
-` I breathe heavily as I stand up.@
+` — Готово!..@ — тяжело дыша, я поднялся с земли.@
 br
-` ----I have to save her.@
-`   I have to save Arcueid from that monster.@
+` Нужно её спасти.@ Я должен вырвать Арквейд из лап этого чудовища.@
 br
-` But, how?@
-` I can't even get close to Nrvnqsr.@
-` Even Arcueid----as terrific as she was, she wasn't able to take him.\
+` Вот только как?@ Я даже близко не могу к нему подойти.@ Арквейд со своей чудовищной силой, и та не смогла с ним справиться.\
 
-` Then if I stand and face him, wouldn't I be killed instantly?@
-` I only barely managed to kill one dog; I wouldn't last a second against those other beasts like the lions or leopards.\
+` Я еле справился с одной единственной собакой, а против льва, леопарда и других я бы и секунды не продержался.@ Где гарантии, что Нерон не убъет меня, как только я выйду против него?@\
 
-` Furthermore,
-` I can see hundreds of "points" on his back.@
-` I couldn't fully understand the conversation between Nrvnqsr and Arcueid, but it seems that each one of those beasts are him.@
+` К тому же, у него на спине сотни «точек».@ 
+` Я не до конца понял о чём говорили Нерон и Арквейд, но, кажется, каждый зверь — это он.@
 br
-` Then,
-` if I want to defeat the vampire Nrvnqsr, I will have to kill all the beasts having that "point"----\
+` Тогда, чтобы убить этого вампира, мне понадобиться прикончить каждого зверя с «точкой»...\
 
-`"Agh----"@
-` I can't step forward.@
-` No matter what----A human can't step forward toward a monster like that.@
+` — У-у...@
+` Не могу заставить себя шагнуть вперёд.@ Куда человеку тягаться с таким чудовищем?@
 br
-`"Damn----it."@
-` In the end,
-` once more, I'm trying to save my life and do nothing about someone getting killed----\
+` — Чёрт.@
+` И снова я больше забочусь о своей шкуре, чем о том, кто в смертельной опасности...\
 
 ; ??<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02b.jpg",%type_crossfade_fst
 
-`"----Oh?"@
-` I hear a voice.@
-` Nrvnqsr's voice is full of contained amusement.@
+` — О?@ — я слышу изумление в его голосе.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` No.@
-` It's not his voice.@
-` I can hear something like the sound of footsteps.\
+` Нет,@ это не он.@ 
+` Где-то рядом, кажется, слышны шаги.\
 
-`"This----can't be."@
-` The sound is far away.@
-` But without a doubt, the sound of light, skipping footsteps is drawing closer.@
+` «Не может быть.»@
+` Кто-то шагает вдалеке. И с каждой минутой звук лёгких шагов всё ближе и ближе.@
 br
-` ----Arcueid said earlier.@
-` The park is empty of people at night----and if people pass by, then they are simply out of luck.@
+` Как уже говорила Арквейд,@ ночью в парке никого, а если кто появится, значит ему просто не повезло.@
 br
-` Far away, I see a small human shape.@
-` Some girl I do not know about my own age.\
+` Вдалеке видно чью-то фигуру.@ Какая-то незнакомая девочка моего возраста.\
 
-`"----"@
-` This isn't good.@ For her to come here, it means----
+` «...»@
+` Дело дрянь.@ Для неё это может...
 br
-`"Run away~~~~~!"@
+` — Беги!!!@ — закричал я, совсем позабыв о том, что Нерон забыл обо мне и том, что теперь он может напасть на меня.\
 br
-` I scream.@
-` I scream, forgetting that Nrvnqsr wasn't even paying attention to me or that he might attack me.\
 
-` Yet, the passerby does not stop.@
-` Not knowing anything, she casually heads for this place.@
+` Но прохожая не остановилась.@ Ни о чём не подозревая, она продолжила движение в нашу сторону.@
 br
-` Half of the vampire in the black coat breathes out in content.@
+` Половина вампира в чёрном плаще довольно хмыкнула.@
 ; ??<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02d.jpg",%type_crossfade_fst
 
-`"...... My body has just been torn apart.@ I need more sustenance."@
-` His half of a coat squirms like a living thing.\
-
-`"Fortunately, it seems sustenance has arrived."@
+` — Моему разорванному телу нужна пища,@ — сказал он, и его половина плаща стала извиваться, как живая. — И на мою удачу, вижу, она пришла.\
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ??<?>=??????????:???<???????(?)>
 ld c,":a;image\tachi\kemo_t03.jpg",%type_crossfade_fst
 
-` A black beast flies from Nrvnqsr's body.@
+` Из тела Нерона вылетела чёрная тварь.@
 br
-`"Sto------!"@
-` My voice doesn't reach her.@
-` The beast runs like a black wind towards the far-away figure.\
+` — Стой!@ — но мой голос её не достиг.@
+` А та тварь тёмным вихрем мчалась к далекой фигуре.\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -496,14 +474,12 @@ playstop
 ; ????(???)<????>
 bg "image\bg\ima_12b.jpg",%type_nowaitdisp
 
-` It's over in an instant.@
-` A short scream, the sound of a body hitting the ground.@
-` The smell of blood wafting on the air.@
+` Всё закончилось в одно мгновение.@ Короткий вскрик и звук упавшего тела.@ А потом ветер разнёс запах крови.@
 br
-` The black tiger retrieves the human in its mouth.@
+` Чёрный тигр вернулся с человеческим телом в пасти.@
 br
-` ...... the girl's face is... is no more.@
-` Most likely gouged out by the tiger's claws.\
+` Лицо девушки... его не было.@ Скорее всего, тигр вцепился в него зубами и отгрыз.\
+
 
 br
 br
@@ -511,8 +487,9 @@ br
 br
 br
 br
-` ----Too... ruthless.@
-` A repulsive, one-sided violence.\
+` Какая... жестокость.@ Омерзительная и безответная.\
+;` Пиздец... жесть.@
+
 
 ;S.E."??"
 wave se0
@@ -523,26 +500,23 @@ bg "image\bg\ima_11.jpg",%type_nowaitdisp
 bg "image\bg\ima_12b.jpg",%type_nowaitdisp
 
 
-`"Gah----!"@
-` My head hurts.@
-` My throat is starting to dry.@
-` My mind starts to compress, and I can only see the enemy in front of me----\
+` — Аа-а!@ — голова раскалывается и горло пересыхает.@ 
+` Перед собой я вижу врага, и все мысли только о нём...\
 
 monocro #ff0000
 
 ; ????(???)<???????(?)>
 bg "image\bg\ima_13b.jpg",%type_crossfade_fst
 
-` The tiger slithers like a snake into Nrvnqsr's body.@
-` It's strange.@
-` The corpse of the girl in the tiger's mouth disappears.@
+` Тигр подобно змее, заползшей в нору, вернулся в тело Нерона.@
+` Странно.@ А куда из его зубов делся труп девушки?@
 br
-` Yet.\
+` И в тот же момент...\
 
 
 br
 br
-` ------Munch.@ Crunch.@ Grind.\
+` ...раздался звук разрываемой плоти, хруст костей и чавканье.\
 
 br
 br
@@ -550,13 +524,13 @@ br
 ;S.E."??"
 wave se0
 
-` She's not there, yet I still hear the sound.\
+` Её здесь нет, но я всё равно всё слышу.\
 
 br
 br
 br
 br
-` ------Rip.@ Gorge.@ Gulp.\
+` Как рвётся плоть, как её жадно поглощают и как потом глотают.\
 
 br
 br
@@ -566,8 +540,7 @@ br
 ;S.E."??"
 wave se0
 
-` The sounds are coming from inside the man called Nrvnqsr.@
-` The sound of dissolving flesh, shattering bones, the slow chewing of a human----\
+` Источник звука в том, кого называют Нерон.@ Где-то там внутри распадается плоть, дробятся кости и съедается человек...\
 
 monocro off
 ; ???<???????(?)>
