@@ -8,285 +8,285 @@ mov $phasetitle_a,":a;image\word\PCEL_07A.PNG"
 mov $phasetitle_b,":a;image\word\day_07.png"
 gosub *left_phase
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
 
 
 br
-` I'm watching a dream.@
-` A vague dream without any particular significance.@
+` Я вижу сон.@
+` Невнятный и бессмысленный.@
 br
 
 
-; ??????:???????????????????<???????(?)>
+; ??????:???????????????????<???????(?)>
 bg "image\event\ark_e01.jpg",%type_crossfade_fst
 
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 
-` Do I like her?@
+` Люблю ли я её?@
 br
 
 
-; ??????:???????????????<???????(?)>
+; ??????:???????????????<???????(?)>
 bg "image\event\ark_e02.jpg",%type_crossfade_fst
 
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 
-` I don't know my true feelings, but I can't deny the reality that I'm always concerned about her.\
+` Я не знаю своих чувств, но не могу отрицать, что постоянно о ней думаю.\
 
 
-; ???:???????????(?)<???????(?)>
+; ???:???????????(?)<???????(?)>
 bg "image\event\cel_e02a.jpg",%type_crossfade_fst
 
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 
 br
-` Do I like her?@
+` Люблю ли я её?@
 br
 
 
-; ???:????????(????)<???????(?)>
+; ???:????????(????)<???????(?)>
 bg "image\event\cel_e03a.jpg",%type_crossfade_fst
 
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 
-` ...... I don't know.@ It's just that when I was completely lost within myself, she helped me.@
+` Не знаю...@ Просто когда я был потерян в себе, она оказалась рядом.@
 br
-` If she wasn't there,
-` I may have just died under the pouring rain.\
+` Если бы не она,
+` то я скорее всего умер бы под дождём.\
 
 
-; ???:??????????????<???????(?)>
+; ???:??????????????<???????(?)>
 bg "image\event\cel_e04.jpg",%type_crossfade_fst
 
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 
 br
-` ----I don't know.@
-` That's why I have to ask.@
-` Why she is doing this.@
-` Why her eyes are so devoid of any emotion----\
+` Не знаю.@
+` И поэтому я должен спросить.@
+` Почему она это делает.@
+` Почему в её глазах нету ни единой эмоции...\
 
 
-`"---Shiki-sama."@
-` ...... I can hear Hisui's voice mingling with the morning light.@
-`"---Shiki-sama, it is time.@ Please wake up."@
-` Her inflectionless voice awakens me.\
+`— Шики-сама.@
+` До меня доносится голос Хисуи, смешанный с утренним светом.@
+`— Шики-сама, пора вставать.@ Проснитесь, пожалуйста."@
+` Её безэмоциональный голос будит меня.\
 
 
-; ?????(???)<???????(?)>
+; ?????(???)<???????(?)>
 bg "image\bg\bg_40e.jpg",%type_crossfade_slw
 
 
-; ??<?>=??:?01(?????)<???????(?)>
+; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_mid
 
 
-`"------"@
+` «...»@
 br
-` As soon as I wake up, terrible things enter my vision.@
-` I get a headache like I was just shot in the head.@
-`"Ah----"@
-` I almost lose my just awakened consciousness.@
-` Before I fade away completely, I quickly grab my glasses.\
+` Как только я открываю глаза, перед ними встаёт ужасная картина.@
+` По голове разносится боль, словно в неё только что выстрелили.@
+` — А...@
+` Я почти потерял сознание, не успев толком проснуться.@
+` Чтобы оконочательно не отключиться, я быстро хватаю свои очки.\
 
 
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_slw
 
 ;CD-DA?????
 play "*2"
 
-; ??<?>=??:?01(?????)<???????(?)>
+; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 
-`"Shiki-sama......?@ Are you not feeling well?"@
-`"...... No, that's not it.@ It's just my anemia acting up."@
-` Lightly shaking my head, I clear my head of what I was seeing.@
-`"More than that, good morning Hisui.@ Thanks for waking me up."@
-` Sitting up in bed, I do my best to smile naturally.\
+`— Шики-сама?..@ С Вами всё в порядке?@
+`— Да, не волнуйся.@ Просто приступ анемии.@
+` Слегка встряхнув голову, я прогоняю жуткие видения.@
+`— С добрым утром, Хисуи.@ Спасибо, что разбудила.@
+` Садясь на кровати, я стараюсь улыбнуться как можно более натурально.\
 
 
 
-`"No, this is my duty.@ There is no need for you to thank me, Shiki-sama."@
-`"Maybe, but I am grateful.@ You are infinitely better than an alarm clock."@
+`— Не стоит благодарности, Шики-сама.@ Это мой долг.@
+`— Вполне возможно, но я всё равно благодарен.@ Ты куда лучше, чем будильник.@
 br
-` I stand up.@
-` It's not yet seven o'clock---about ten minutes earlier than I usually get up.@
+` Я встаю.@
+` Ещё даже семи нет... Я обычно встаю минут на десять позже.@
 br
-`"...... Hmm, breakfast?@ I'll be there soon, so please go ahead of me."\
+`— Хмм... Завтрак?@ Ты иди вперёд, я скоро спущусь.\
 
 
-; ??<?>=??:??02(????????)<???????(?)>
+; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
 
 
-`"Shiki-sama, about that, um---Akiha-sama is waiting for you in the sitting room.@ It seems she has some questions for you."@
-` Hisui says this with some difficulty.@
-`"...... Some things she needs to ask?@ ...... Is she in a bad mood......?"@
-`"...... Yes.@ Akiha-sama seems to have realized that you left late last night, Shiki-sama."@
-`"...... Ah."@
-` I blurt that out without thinking.@
-` Last night, I went to look for Arcueid and came home late.\
+`— Шики-сама, на счёт этого... Акиха-сама ждёт Вас в гостиной.@ Похоже у неё к Вам какие-то вопросы.@
+` Хисуи явно не просто было это сказать.@
+`— Вопросы?..@ У неё плохое настроение?..@
+`— Да...@ Похоже она узнала, что Вы вчера ночью уходили@
+`— А...@
+` Это всё, что я могу из себя выдавить.@
+` Прошлой ночью я искал Арквейд и домой вернулся поздно.\
 
-`"...... Uh-oh...... I thought no one noticed."@
+`— Мда... Я то думал, что никто не заметил.@
 
 
-; ??<?>=??:?01(?????)<???????(?)>
+; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 
-`"Yes, I also thought that I was the only one who noticed."@
-` Hisui answers solemnly.@
-`"......?@ Hisui, you realized I left......?"@
+`— Да, я тоже думала, что заметила только я, — спокойно отвечает Хисуи.@
+`— ......?@ Ты знала, что я уходил@
 
 
-; ??<?>=??:??02(????????)<???????(?)>
+; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t05.jpg",%type_crossfade_fst
 
 
-`"Oh......"@
-` Hisui looks very apologetic.\
+`— Ох...@
+` У неё очень виноватый вид.\
 
-`"I see, you knew.@ No wonder the mansion's entrance was open."@
-`".................. Yes."@
-` Hisui answers reluctantly.@
-`"Thanks, it was a big help.@ And, thanks for going out of your way to do that."@
-`"But Nee-san realized too because of that.@ Nee-san and I have two-hour shifts watching the mansion.@
-` And she found out about me unlocking the entrance---"\
+`— Значит ты знала...@ Не удивительно, что двери не были заперты@
+`— Да...@
+; и всё таки как много выразительности она теряет вместе с зарубленными вами точками =___=
+` Её ответ весьма нерешителен.@
+`— Спасибо, ты мне очень помогла.@ И спасибо, что рискнула ради этого.@
+`  Но из-за этого нээ-сан тоже поняла.@ Мы с ней по очереди раз в два часа обходим особняк.@
+`   И она заметила, что я открыла дверь...\
 
-` ...... I see now.@
-` Kohaku-san is Akiha's servant, so she would have leaked it to Akiha about last night.@
-`"Hisui, there is no need to apologize.@ It was my fault that I was walking around at night, so I should take the blame.@
-` I'm still very happy that you left the door unlocked."@
+` Ясно.@
+` Кохаку-сан — служанка Акихи, так что она  ей скорее всего и рассказала о том, что я уходил.@
+`— Не надо извиняться, Хисуи.@ Я сам виноват, что ушёл посреди ночи.@
+`  И я очень рад, что меня ждала открытая дверь."@
 
 
-; ??<?>=??:??02(????????)<???????(?)>
+; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
 
-`"-----"@
-` Hisui just looks at me.\
+` «...»@
+` Она смотрит на меня.\
 
-`"...... Hm?"@
+`"Мм?.."@
 
 
-; ??<?>=??:??02(????????)<???????(?)>
+; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t05.jpg",%type_crossfade_fst
 
 
-`"...... It is nothing.@ As soon as you change, please go to the sitting room."@
+`— Ничего.@ Пожалуйста, идите в гостиную, как только переоденетесь@
 
 
-; ?????<??????(?)>
+; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
 
-` Still looking like she wants to say something, Hisui exits into the hallway.@
-`"...... Dang, I'm going to get scolded by Akiha again."@
-` I mutter to myself as I change.@
-` If I have time for that---there's still something important I have to do instead.\
+` Явно не сказав всего, что хотела, Хисуи выходит из комнаты.@
+`— Блин, опять меня Акиха ругать будет.@
+` Переодеваясь я ворчу в пол голоса.@
+` Как юудто у меня есть на это время... Меня ждут куда более важные дела.\
 
 ;CD-DA??
 playstop
 
-; ???<???????(?)>
+; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-; ???:??????????????<???????(?)>
+; ???:??????????????<???????(?)>
 bg "image\event\cel_e04.jpg",%type_crossfade_mid
 
 
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 
 
-`"...... That's right, I have to talk to Senpai---"@
+`— Верно. Мне нужно поговорить с Семпай...@
 br
 
 ;S.E."??"
 wave se0
 
-; ???<????>
+; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
-`"-----"@
-` I get the headache again.@
-` It faded when I was talking to Hisui, but as soon as she left, it started hurting again.@
+` «...»@
+` Голова снова начинает болеть.@
+` Боль прошла, пока я говорил с Хисуи, но теперь она возвращается.@
 br
-`"Gh...... crap, this--doesn't look, like it will end, soon......"@
-` I bear the pain as I collapse on the bed.\
+`— Ух... Чёрт... Не похоже... Что это... Скоро пройдёт...@
+` [ с трудом сдерживаю боль, падая на кровать.\
 
 ;S.E."??"
 wave se0
 
-; ???<????>
+; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
-` ...... It doesn't ease up.@
-` Throb, throb.@ A pain like I'm being stabbed in the head.@
+` Она не проходит...@
+` Тук, тук.@ Словно в голову раз за разом вгоняют нож.@
 br
-` ...... It makes me completely forget what I was thinking about earlier.@
+` Я уже даже не могу вспомнить о чём только что думал.@
 br
-` Come to think of it, eight years since that accident, I've always had to deal with my broken body.@
-` Dizziness, headaches, and anemia occurring unexpectedly.@
-` I can't count how many things I had to give up because of that.\
+` Если подумать, то все восемь лет после аварии мне приходилось справляться со своим изломанным телом.@
+` Головокружения, головные боли, анемия... И всё это когда меньше всего этого ждёшь.@
+` Не могу даже упомнить всего, от чего пришлось отказаться из-за этого.\
 
-` The doctor said it was a miracle just surviving it.@
-` Just being able to live is a miracle, so putting up with various pains is perhaps necessary.@
-` ...... These broken eyes.@ Sensei, who was able to alleviate these eyes, told me to treat that miracle very importantly.\
+` Врач сказал, что уже одно то, что я выжил само по себе чудо.@
+` Если возможность жить — чудо, то, быть может, эти боли — необходимость.@
+` Мои сломанные глаза...@ Сенсей, которая смогла оценить эти глаза, сказала, чтобы я всегда относился к этому чуду с уважением.\
 
 ;S.E."??"
 wave se0
 
-; ???<????>
+; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 
-` ...... Those words.@
-` Did she mean that human life is not so much precious as it is not returnable, so I should treat it carefully?@
+` Эти слова.@
+` Хотела ли она сказать, что человеческая жизнь хрупка и невосполнима и, поэтому, я должен обращаться с нею осторожно?@
 br
-` These past few days, I've seen the deaths of many people.@
-` Too easily.@ Lives ending so easily, it's almost comical.@
-` If it is something that ends so easily, doesn't it mean that it was only worth that much from the beginning?@
-` If that's the case, it is meaningless to view life as precious.\
+` За последние несколько дней я видел немало смертей.@
+` Слишком просто.@ Жизни обрывались столь легко, что это даже смешно.@
+` Если жизнь так легко оборвать, то, быть может, она ничего не стоит изначально?@
+` В таком случае как можно считать её ценной.\
 
 ;S.E."??"
 wave se0
 
-; ???<????>
+; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 br
-` ............ H, uh?@
+`        Э?..@
 br
-` Why,          Since when,
+` Почему,          С каких пор,
 ;S.E."??"
 wave se0
 
@@ -294,7 +294,7 @@ wave se0
 ;S.E."??"
 wave se0
 
-` am I,         did you start,
+` я,         ты стал,
 ;S.E."??"
 wave se0
 !w1000
@@ -302,46 +302,44 @@ wave se0
 wave se0
 
 br
-`    thinking like that?\
+`    так думать?\
 
 ;S.E."??"
 wave se0
 
-; ???<????>
+; ???<????>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 
-` ...... []*sigh*@
-` The headache finally stops.@
-`"...... Maybe I saw too much blood.@ What a horrible thought."@
-` I take a deep breath.@
-` Filling my lungs with fresh air, I clear away the unpleasantness.@
-`"---I should hurry up and go to school."@
-` I should go and see Ciel-senpai.@
-` Enduring the slight pain lingering in my head, I leave my room.\
+` *Вздох*@
+` Боль наконец-то прошла.@
+`— Может я видел слишком много крови.@ До чего жуткие мысли.@
+` [ глубоко вдыхаю.@
+` Наполнив лёгкие свежим воздухом, я отгоняю неприятные чувства.@
+`— Надо бы поторопиться в школу@
+` Я должен встретиться с Семпай.@
+` Терпя лёгкую головную боль, я покидаю комнату.\
 
-; ???<?????(?)>
+; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
 
 
-; ?????(?)<???????(?)>
+; ?????(?)<???????(?)>
 bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 
 
-` I go down the stairs and into the lobby.@
-` Next to me is the hallway that goes down towards the sitting room.@
-` In front of me is the front door that leads outside.@
-`".................."@
-` What should I do?@
-` Akiha is waiting in the sitting room, but I want to hurry up and see Senpai.@
+` Я спускаюсь в прихожую.@
+` Рядом корридор, ведущий в гостиную.@
+` Передо мной дверь, ведущая наружу.@
+` «...»@
+` Что мне делать?@
+` Акиха меня ждёт, но я хочу поскорее увидеть Семпай.@
 br
 
 
 
 return
-
-
 </pre>
 
 [[Tsukihime|[Назад]]]
