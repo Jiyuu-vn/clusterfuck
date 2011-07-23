@@ -1,7 +1,8 @@
 [[Men_at_Work 2|[Назад]]]
 
 <pre>
-<?xml version="1.0" encoding="UTF-8"?>
+
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Lines Count="1037">
   <Line StartPos="1112" Length="27" Skip="false">
     <Translated>"Тебе что-то нужно?.."</Translated>
@@ -1755,8 +1756,12 @@
   <Line StartPos="28638" Length="21" Skip="false">
     <Translated>"Фух... закончил..."</Translated>
   </Line>
-          Как стыдно, только 600 раз       * что-тоявнопропущено
-
+    <Line StartPos="28673" Length="3" Skip="false">
+    <Translated>Аой</Translated>
+  </Line>
+<Line StartPos="28689" Length="37" Skip="false">
+    <Translated>Как стыдно, только 600 раз.</Translated>
+  </Line>
   <Line StartPos="28778" Length="8" Skip="false">
     <Translated>Не думаю, что смогу взмахнуть мечём больше шестисот раз...</Translated> 
   </Line>
@@ -1766,11 +1771,17 @@
   <Line StartPos="28818" Length="39" Skip="false">
     <Translated>"Ты всегда делаешь что-то вроде этого?"</Translated>
   </Line>
-           Я делаю 1000 раз каждый день
-
-           1000?!..
+  <Line StartPos="28871" Length="3" Skip="false">
+    <Translated>Аой</Translated>
+  </Line>
+  <Line StartPos="28887" Length="31" Skip="false">
+    <Translated>Я делаю 1000 раз каждый день.</Translated>
+  </Line>
   <Line StartPos="28923" Length="5" Skip="false">
     <Translated>Клиф</Translated>
+  </Line>
+  <Line StartPos="28950" Length="11" Skip="false">
+    <Translated>1000?!</Translated>
   </Line>
   <Line StartPos="28968" Length="21" Skip="false">
     <Translated>Я никогда так не смогу.</Translated>
@@ -3120,7 +3131,6 @@
     <Translated>Draw\0Aoi</Translated>
   </Line>
 </Lines>
-
 
 </pre>
 
