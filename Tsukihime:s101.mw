@@ -552,45 +552,37 @@ ld c,":a;image\tachi\nero_t02d.jpg",%type_crossfade_fst
 ;S.E."??"
 wave se0
 
-`"Y------"@
-` No mistake.@
-` Inside his body, he's eating that person.@
+` — Ты...@ 
+` Он же жрёт ту девушку.@
 ; ??<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02b.jpg",%type_crossfade_fst
 
-` Nrvnqsr's lips twist in a smile.@
+` Губы Нерона расплылись в улыбке.@
 br
-` ----With that,
+` А потом...
 br
-` a switch goes off in my brain.\
+` ...в голове что-то счёлкнуло.\
 
-`"You fucking bastard------!!!!"@
-` I can't think.@
-` I just run towards Nrvnqsr.\
+` — Ах ты, ублюдок!!!@ — ничего не соображая, я рванул к нему.\
 
 monocro #ff0000
 
 ; ??B(?????)<??????(?)>
 bg "image\bg\bg_29c.jpg",%type_lshutter_fst
 
-` ----My vision soaks in red.@
+` Перед глазами повисла кровавая пелена.@
 br
-`"----Feed."@
-` A black leopard flies from Nrvnqsr's body.@
-` How many times greater than the black dogs are its speed and ferocity?@
-`"------"@
-` But, I don't care about that.@
-` It's a living thing.@
-` If it lives, then it's nothing against me.\
+` — Еда.@
+` Наружу выскочил черный леопард.@ Куда быстрее и злее чёрных собак.@
+` «...»@
+` Только мне наплевать.@ Он живой, а раз так, мне нечего бояться.\
 
 
 ; ????<???????(?)>
 bg "image\bg\ima_14.jpg",%type_crossfade_fst
 
 
-`"You're in my way."@
-` I stop and say so to the corpse by my feet.@
-` The black leopard is lying in four pieces.@
+` — Мешаешь,@ — сказал я трупу у своих ног.@ Леопард был разрезан на четыре части.@
 
 monocro off
 
@@ -600,49 +592,41 @@ bg "image\bg\bg_29c.jpg",%type_crossfade_fst
 ; ??<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02b.jpg",%type_crossfade_fst
 
-`"----I see.@ You are the one who attacked me from behind earlier."@
-` It seems he finally has realized I am here.@
+` — Ясно.@ Так это ты напал на меня со спины.@ 
+` Кажется, он наконец-то меня заметил.@
 br
-` Emotionless eyes look toward me.@
-` ----Yeah, just like Arcueid said.@
-` As long as I don't allow myself to get lost, being stared by him doesn't change anything.\
+` На меня уставились его бесстрастные глаза.@
+` Да, Арквейд говорила правду.@ До тех пор, пока я контролирую своё сознание, его взгляд бессилен.\
 
-`"...... Let Arcueid go, monster."@
-`"------"@
-`"I said, let her go.@ I'm your opponent.@ You're nothing with that half body of yours."@
-`"------"@
-` Without a word.@
-` Without a word, the vampire with the black coat looks both Arcueid and I over.\
+` — Отпусти Арквейд, чудовище.@
+` «...»@
+` — Я сказал, отпусти её.@ Я твой противник.@ А ты лишь жалкий обрубок.@
+` «...»@
+` Вампир в чёрном плаще ничего не ответил.@ Вместо этого он вниматель посмотрел на меня и на Арквейд.\
+;` Ничего не ответив, вампир в чёрном плаще внимательно посмотрел на меня и Арквейд.\
 
-`"You say you can be my opponent?"@
-`"Yes.@ So I'm saying release her and then hurry up and return your body to normal."@
-`"------, ----, ------"@
-` His neck moves up and down.@
-` It seems... like... he's laughing.\
+` — Говоришь, ты можешь быть мне противником?@
+` — Да.@ Так что освободи её и, давай уже, соберись.@
+` «...»@
+` Его шея задёргалась вверх и вниз, как будто он... смеётся.\
 
 ; ??<?>=??:????????(?????)<???????(?)>
 ld c,":a;image\tachi\nero_t02d.jpg",%type_crossfade_fst
 
-`"You have taken away the fun.@ Receive your punishment, human."@
-` Nrvnqsr doesn't change.@
-` He seems like he will leave Arcueid with half of his body and remain as he is.\
+;` — Мне было весело, а ты всё испортил, человек. Прими наказание.@
+` — Ты лишил меня веселья, человек. Прими наказание.@
+` Сращиваться он не стал.@ Видимо, решил оставить половину себя для Арквейд.\
 
-`"I promise you.@ I will slowly chew you apart alive."@
-` Flutter.@
-` His remaining arm is lifted.@
-`"----Such an inferior mental circuit.@ The price of your arrogance thinking you can face me will be your certain death."@
+` — Обещаю.@ Я буду медленно откусывать от тебя кусочек за кусочком, пока ты ещё жив,@ — сказал он и поднял руку.@ Это движение заставило его плащ захлопать.@
+` — Убогое создание.@ Думаешь, ты мне ровня?@ За свою наглость ты поплатишься жизнью.@
 br
-` Whoosh.@
-br
-` A warm wind blows.@
-` Scores of beasts emerge from Nrvnqsr's half body.\
+` В мою сторону подул теплый ветер,@ а из половины Нерона стали появляться многочисленные твари.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-`"----"@
-` The number of beasts emerging isn't ten or twenty.@
-` Even if each is not a strong beast, it is close to a hundred of them against a single human like me, and they swarm like ants gathering around a sugar cube.\
+` «...»@
+` Их было не десять и не двадцать.@ Пусть они не сильные, но их добрая сотня, а я один.@ Твари сползаются ко мне, как муравьи на сахарный кубик.\
 
 `"Wha----"@
 ` I stick my knife into the neck of the black dog before me.@
