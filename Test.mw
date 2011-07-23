@@ -2,12 +2,12 @@
 *define
 spi "jpgplgin.dll|jpg"
 arc "arc.sar|scrunarc.dll"
-;caption "向日の夢"
+
 caption "Visions from the Other Side"
 clickstr "！？。」",2
 defaultfont "ＭＳ 明朝"
 windoweffect 10,300
-;versionstr "向日の夢 ver1.1","制作：RAIL"
+
 versionstr "`Visions from the Other Side v1.1E","`Created by: RAIL"
 globalon
 game
@@ -21,7 +21,7 @@ game
 
 
 bg white,10,800
-;wait 1000
+
 bg "data/logo.jpg",18,2000,"data/m3.jpg"
 wave "data/Bell.wav"
 wait 2100
@@ -42,16 +42,16 @@ goto *nomal
 
 *nomal
 locate 9,12
-;select "始めから",*s_0,
-;"終了する",*ending
+
+
 select "`   Start",*s_0,
 "`   Quit",*ending
 
 *omake
 locate 9,12
-;select "始めから",*s_0,
-;"ＣＧ閲覧",*cgmode,
-;"終了する",*ending
+
+
+
 select "`   Start",*s_0,
 "`CG Gallery",*cgmode,
 "`   Quit",*ending
@@ -63,7 +63,7 @@ bg black,10,500
 wait 500
 !s40
 locate 3,7
-;ここではＣＧの閲覧ができます。\
+
 `Here you can look at the game's CGs.\
 wait 500
 
@@ -103,14 +103,14 @@ bg black,10,1000
 goto *title
 
 *s_0
-;;加筆部分
+
 wait 2000
 bg black,18,1000,"data/m3.jpg"
 play "data/syu-syou.mid"
 wait 2000
 
-;;はぁ…はぁ…
-;`*huff*... *huff*...
+
+
 bg "data/com01.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
@@ -120,8 +120,8 @@ wave "data/korogi.wav"
 bg "data/michi.jpg",1
 bg black,18,2000,"data/m3.jpg"
 
-;;はぁ…はぁ…
-;`*huff*... *huff*...
+
+
 bg "data/com01.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
@@ -131,8 +131,8 @@ bg black,18,2000,"data/m3.jpg"
 wave "data/korogi.wav"
 wait 700
 
-;;―――何も　わからなくなっていた。
-;`--- I didn't know anything anymore.
+
+
 bg "data/com02.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
@@ -142,23 +142,23 @@ bg black,18,2000,"data/m3.jpg"
 wait 700
 
 
-;;…行く宛てなんてどこにも無かった。 
-;`... not where I was going, not even where I was right now.
+
+
 bg "data/com03.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
 wait 700
 wave "data/korogi.wav"
 
-;;ただ暗い三道をひとりさまよっていた。
-;`I was just... wandering alone, blindly... on a dark mountain trail.
+
+
 bg "data/com04.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
 wait 700
 
-;;でもたったひとつだけ…
-;`But I DID know one thing, and one thing alone...
+
+
 bg "data/com05.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
@@ -170,15 +170,15 @@ wait 700
 wave "data/korogi.wav"
 bg black,10,2000
 
-;;もう、もとには戻れないんだってことだけは、わかった。
-;`That there was no turning back anymore.
+
+
 bg "data/com06.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
 wait 700
 
-;;そして―――
-;`And then ---
+
+
 bg "data/com07.jpg",10,800
 wait 500
 bg black,18,2000,"data/m3.jpg"
@@ -188,12 +188,12 @@ bg "data/tukiyo.jpg",18,2000,"data/m2.jpg"
 wait 500
 !s40
 locate 5,9
-;　　　淡い月明かりだけが、!w300
+
 ` Слабое лунное свечение
 locate 5,10
 `  -- и больше ничего --!w300
 locate 5,11
-;傷付いた私を慰めるかのように照らしていた…\
+
 `    льётся на меня свысока,
 locate 5,12
 `смывая прочь мою боль...\
@@ -210,21 +210,21 @@ bg white,10,1000
 wait 500
 bg "data/sea.jpg",10,1500
 wait 1000
-;;終章
-;　気がつくと、!w50私は水平線の見える崖に立っていた。
+
+
 `  When I came to, !w50I was standing on a cliff looking out at the horizon.@
-;　見上げれば、!w50澄み渡った青空を滑る鳥たちがいた。
+
 `  Glancing upwards, !w50I saw birds gracefully slipping through a perfectly clear, blue sky.@
-;　私は、目を閉じて、両腕を大きく広げる。
+
 `  I closed my eyes, and stretched my arms wide.@
-;　思い出すのは、楽しかった日々。
+
 `  And basked in the afterglow of the memory of happier days.@
-;　頬を熱いものが伝った。
+
 `  Something warm rolled down my cheek.@
 br
 !s70
-;　そして―――\
-;soshite (and then)---
+
+
 `  And then ---\
 !s20
 bg white,10,1000
@@ -233,98 +233,98 @@ bg black,18,2000,"data/m1.jpg"
 stop
 wait 2000
 
-;;第壱章
+
 bg white,10,2000
 bg "data/machi.jpg",10,1000
 wait 1000
 play "data/nazo.mid"
 wave "data/semi.wav"
-;　目が覚めた。周りを見渡すと、たくさんの人達が忙しそうに歩いている。
+
 `  I opened my eyes.@  All around me, I could see throngs of people hurrying past in both directions, their final destinations a mystery.@
 br
-;　「…？」
+
 `  "...?"@
 br
-;　不思議。なんで私はここにいるのだろう。
+
 `  How bizarre.@  What was I doing here?@
-;　確か、崖から飛び下りたはずだ。
+
 `  I mean, if memory served, I'd jumped off a cliff but moments ago.@
-;　だけどここは、どう見ても町の中心にある大通り。\
+
 `  So what was I doing here in the middle of a town's main street?\
-;　考え事をしていたら、人にぶつかりそうになった。
+
 `  I was so lost in my thoughts that I didn't see that I was about to crash into somebody.@
-;　避けようとしたけど、間に合わず正面衝突!s100―――!s20しなかった。
+
 `  I tried to avoid him, but I didn't quite make it, and a head-on collision !s100-- !s20didn't happen.@
 br
-;　その人は、まるでそこに何も無いかのように普通に通り過ぎていった。
+
 `  In fact, he just kept walking on as if I weren't even there, as if there was nothing in his path...@
-;　私の体をすり抜けて。
+
 `  ... as if he'd slipped right through my body...@
 br
 !s80
-;　「嘘………」
+
 `  "No way......"\
 !s20
 br
-;　人が人をすり抜けるなんてこと、あるはずがない。
+
 `  You don't just expect people to 'slip though' other people like that!@
-;　それこそ幽霊でもない限り…\
+
 `  I mean, as long as they're not ghosts or...\
-;　「あ。」
+
 `  "Oh."@
 br
-;　そこでようやく事態を理解する。
+
 `  And that was how I finally came to understand what had happened.@
-;　私は確かに死んだ。
+
 `  I was quite certainly dead, you see.@
-;　それじゃあここにいる私は？\
+
 `  Wellll then, what did that say about me, and the fact that I was standing here?\
 wait 300
-;　答えは簡単。幽霊だったのだ。
+
 `  Obviously, I was a ghost.@
-;　まさか本当に幽霊なんてものが存在するなんてねぇ…。\
+
 `  Really!  A ghost, you don't say!@  They actually exist, who would have thought...\
 bg black,10,800
 wait 300
 bg "data/kawara.jpg",10,1000
-;　私は近くの河原にいた。
+
 `  I found myself in the vicinity of the riverbank.@
-;　とりあえず、することもないから散歩と洒落こんでみた。
+
 `  For the time being, I thought I'd try to take a walk around and mingle, since there wasn't anything else to do.@
 wait 300
 br
-;「…ん？」
+
 `  "... Hmm?"
 br
-;　途中、何か魚っぽいものを踏んだ気がするけど、気にしない。\
+
 `  Hmm, for a moment there, I could have sworn that I'd stepped on something a bit fishy, but I didn't pay it much attention.\
-;　河原には、なにやら人だかりができていた。
+
 `  Anyway, there were a bunch of people gathered here, at one end of the river bank.@
 br
-;　「あのー、何かあったんですか？」
+
 `  "Ummm, did something just happen here?"@
 br
-;　近くにいた人に聞いてみる。\
+
 `  I tried to ask of someone standing nearby.\
-;　返事は無い。やっぱり聞こえていないようだ。
+
 `  No reply.@  Almost as if nobody could hear me...@
-;　まぁ、分かりきっていたことだけど、一応…ね。\
+
 `  Well, it didn't come as a TOTAL shock, you know, but still, I was really new at this ghost thing, so...\
 
-;　しょうがないので、人の間を文字通りすり抜けていく。
+
 `  So I shrugged and started slipping through -- literally -- the folks in the crowd.@
-;　最初は驚いたけど、さすがにもう慣れた。\
+
 `  At first it was astonishing, but as you might expect, pretty soon you get used to it.\
-;　「……」
+
 `  "......"@
 br
-;　人ごみを抜けた先には、二人の少女がいた。
+
 `  When I finally worked my way to the center of the crowd, I found that I was looking upon two girls.@
-;　見覚えのある緋袴の女の子と、!w300矢絣の着物を着た女の子。
+
 `  A familiar-looking girl clad in a scarlet hakama, !w300and a girl in an arrow-pattern kimono.@
 br
 !s50
-;　…私と、妹。\
+
 `  ... Me, and my little sister.\
 !w20
 
@@ -332,31 +332,31 @@ play "data/sad.mid"
 bg "data/eve02.jpg",10,1000
 wait 1000
 !s60
-;　「お姉ちゃん…どうして……どうして自殺なんか…@お姉ちゃんが死んじゃったら…@あたし…あたし…」
+
 `  "Sis... why... why'd you have to go kill yourself...@  Sis, now that you're gone...@ then... then..."@
 !s20
 br
-;　私の胸を罪悪感がかすめた。
+
 `  My chest tightened as a wave of guilt swept over me.@
 br
-;　「…ごめん、千柚…でも…」\
+
 `  "... Sorry, Chiyu... but..."\
 wait 500
 !s60
-;　「お姉ちゃんが死んじゃったら…あたし…@誰を実験台にすればいいのよぅ…」
+
 `  "Sis, now that you're gone... then...@ then who am I supposed to experiment on...?"@
 !s20
 br
 stop
-;　「…マテ。」\
+
 `  "... WAITASEC."\
-;　なんか違う気がする。私が死んだことが悲しいのか、実験台がいなくなったことが悲しいのか。
+
 `  So much for this wave of guilt!@  I mean, was she sad because I'd died, or was she sad because she'd lost a guinea pig?@
 br
-;　「……」
+
 `  "......"@
 br
-;　ちょっと複雑な気分。\
+
 `  Somewhat mixed feelings here, you know?\
 bg black,10,800
 wait 2000
@@ -365,422 +365,422 @@ wait 500
 play "data/nazo.mid"
 wave "data/semi.wav"
 !s80
-;　「はぁぁ…!s20これからどうしようかなぁ……」
+
 `  "*sigh*...  !s20Now what should I do...?"@
 br
-;　結局、あれ以上あそこにいるのは辛かったので、逃げ出してきてしまった。
+
 `  In the end, it was so painful for me to remain in that place that I just upped and bolted.@
 br
-;　とりあえず今は、過ぎたことより先のこと。
+
 `  No use crying over spilled milk, after all.@
-;　色々と試してみてわかったことは…\
+
 `  So instead, I started trying different things out, and as a result of this experimentation I found that:\
-;　・ 人や動物など、生命力の強いものには触れることはできないが、!w300人工物のような生命力の弱いものには触れることができる。
+
 `  * I couldn't touch anything that had a strong life force in it -- live humans and animals, for instance -- !w300but I could touch things that had little or no life force in them, like inanimate objects.@
-;　・ 空を自由に飛ぶことができる。
+
 `  * I could do stuff like fly in the air.@
-;　・ 人と話すことはできない。
+
 `  * I couldn't do stuff like speak to anyone.@
-;　・ ものを食べなくても平気。
+
 `  * I couldn't eat, obviously, but that was just as well.@
-;　・ 御不浄に行かなくても平気。
+
 `  * I couldn't go to the bathroom, either, but that was REALLY just as well.@
-;　・ その気になれば姿を具現化させることもできる。\
+
 `  * I could even change my very form, if I really felt like it.\
-;　空を飛べるっていいよね。
+
 `  Pretty awesome, eh?  Being able to fly, that is.@
 !s50
-;　これなら長年の夢だったアレも…@
+
 `  In fact, now I'd be able to fulfill one of my wildest dreams...@
 !s20
-;　西洋で人気の、@ぽるたぁがいすとなんてのもできるかもしれない。
+
 `  I mean, maybe I could finally try my hand at this "poltergeist" thing, that seemed to be all the rage in the West!@
-;　私は、これからどうやってすごすかで頭がいっぱいだった。\
+
 `  ... And I went on thinking for a long, long time of interesting things I could do to fill my days from now on...\
 bg black,10,800
 wait 1000
-;;第弐章
+
 play "data/sad.mid"
 bg "data/kawara.jpg",10,1000
 wave "data/semi.wav"
 wait 500
 !s80
-;　「うぅ…ぐすっ…」
+
 `  "*sob*... *sob*..."@
 !s20
 br
-;　目の前に横たわるのは、お姉ちゃんの亡骸。
+
 `  I mean, this sucks!@  There my big sister is, lying there, right before my eyes.@
-;　声をかければ起きるんじゃないかって思うぐらい、@いつも通りの顔。
+
 `  With that usual serene half-smile on her face,@ ya know, the one that makes her look like she'd wake up if I just called out to her.@
-;　そんなことは無いってわかってるのに。
+
 `  But no such thing will happen, will it now?@  This sucks...@
 br
 !s80
-;　「ねぇ…起きてよ…お姉ちゃん……」
+
 `  "Hey... Sis... c'mon, wake up......"\
 !s20
 br
-;　認めてしまったら、本当に遠くに行ってしまいそうで怖かった。
+
 `  But... I still can't believe it.  I WON'T.  Because if I have to, then I really never will be able to reach her again, she'll be so far away.  I'm so scared...@
-;　もう、実験台のことなんてどうでもよかった。\
+
 `  I don't care about experiments or guinea pigs or whatever anymore!\
-;　失ってから気付く、大切なもの。
+
 `  Why must it be this way?  Why must I always realize how precious something is only AFTER I lose it?@
-;　あの時に、それに気付いたはずなのに。
+
 `  I mean, you'd think that I'd have learned my lesson the last time around...@
-;　また、同じことをしてる。
+
 `  And yet here I am, in the same situation, doing the same thing.@  As if I hadn't learned a thing.@
-;　あの時も、私は助けられなかった。
+
 `  Back then, I couldn't save her.@
-;　そして、また。\
+
 `  ... And I couldn't save her now, either.\
-;　野次馬はもういなくなって、今は二人だけ。
+
 `  The onlookers are all but gone, and now it's just the two of us.@
-;　懐にしのばせておいた包みを取り出す。
+
 `  And so I pull out a vial that I'd hidden away in the folds of my kimono.@
-;　いつか、お姉ちゃんで試そうと思っていた薬。
+
 `  Medicine that I'd been planning on testing on my sister someday.@
-;　でも、それももう叶わない。
+
 `  But that isn't possible anymore.@
-;　顆粒状のそれは、水なしで飲み込むにはちょっと辛かったけど、@我慢した。
+
 `  It's a coarse powder, so somewhat tough to take without any water, but I'm past the point of caring.@  I swallow it all down.@
-;　お姉ちゃんの唇に、自分のそれを重ねる。\
+
 `  Then I touch my lips to my sister's.\
-;　お別れと、再開の祈りを込めて。
+
 `  And I breathe a little prayer of parting and reunion.@
-;　お姉ちゃんの手を離さないように、固く固く握り絞める。
+
 `  I grip my sister's hands tightly -- so tightly -- so that we will never be separated again.@
-;　また、会えるように。
+
 `  So that we will be able to meet again.@
-;　お姉ちゃんとの絆を信じて。\
+
 `  For my bond with my sister is my first and last faith.\
 bg white,10,1200
 wait 500
-;　そして私の意識は薄れていく。
+
 `  And everything starts to fade away...@
 br
 !s50
-;　ねぇ、お姉ちゃん。
+
 `  Hey, Sis.@
-;　また、会えるかな…？
+
 `  I wonder if we'll meet again...?@
-;　今度は、お母さんと三人で暮らしたいな…@
+
 `  Maybe this time around, we'll finally be able to live together with Mom...?@
-;　お母さんってどんな人だったの…？
+
 `  What kind of person was she...?@
-;　なんか、もうすごく眠い…@
+
 `  Hmmm, getting really sleepy already...@
-;　おやすみ…お姉ちゃん……@
+
 `  G'night... Sis...@
 !s70
-;　目が覚めたら…!w100お姉ちゃんがいるといいな…\
+
 `  When next my eyes open... !w100it'd be nice if my big sister would be right there...\
 !s20
 bg black,18,2000,"data/m2.jpg"
 play "data/soryo.mid"
 wait 2000
-;;間奏
+
 bg "data/kawara.jpg",10,900
 wait 500
-;　千柚が意識を閉じてからしばらくして、一人の男がやってきた。
+
 `  Shortly after Chiyu lost consciousness, a man showed up.@
-;　男は、しばらく二人の亡骸を見つめていたが、やがて近くを通った青年に、@
+
 `  He stared at the two bodies for a little while, and then he finally asked a young man who was close by,@
 br
 !s50
-;　「この娘たちはどこの娘だ？」!s20と聞いた。
+
 `  "Where did these girls come from?"@
 br
-;　青年が答えると、!s50「ありがとう。」!s20と言って二人の亡骸を何処かへ運び去ってしまった。\
+
 `  And after the young man answered him, he merely said, !s50"Ah, thanks," !s20picked up the bodies, and started carrying them away.\
 bg black,10,2000
 stop
 wait 1000
 
-;;第参章
+
 play "data/hitisagasi.mid"
 wait 500
-;　「この町にはいない…か。」
+
 `  "So... she's not in this town, is she?"@
 br
 bg "data/eve03.jpg",10,1000
 wait 1000
-;　俺は今、一人の女の子を探している。
+
 `  I've been looking for a certain girl for a while now.@
-;　別に惚れた女を追いかけてるわけじゃねぇぞ。\
+
 `  Oh, it's not like I'm stalking my ex or some crap like that.\
-;　そう、復讐だ。
+
 `  Nah, it's revenge.@
-;　あの小娘…人のこと踏んづけておいて詫びの一つもないとは…@見つけたらただじゃおかねぇ。
+
 `  That broad... so she STEPS on me, literally STEPS on me, and then prances on off without so much as a WORD of apology...@  If I find her, I won't just let it go.@
-;　何か違う目的があった気がしたが、忘れた。
+
 `  I kinda think there was something else I was after as well, but I forgot.@
-;　まぁ、思い出せないってことはどうでもいいってことなんだろう。
+
 `  Oh, well, if I can't remember what, it must not have been very important, I guess.@
 br
-;　俺は少しずれたお面を直して、次の町へと向かった。\
+
 `  After I straighten up my lovely mug, I flipper off to the nearest town.\
 bg black,10,1000
 wait 700
 bg "data/machi.jpg",10,1000
 wave "data/semi.wav"
 wait 500
-;　「ちっ、この町にもいないのか？!s60……ん？!s20
+
 `  "Pssh, and she's not around here either?  !s60...... Hmmm?!s20@
-;あれは…」
+
 `Wait, that's..."@
 br
 bg black,10,1000
 bg "data/eve04.jpg",10,800
 wait 1000
-;　いた。何が楽しいのか鼻歌を歌いながらたらたらと歩いている。
+
 `  Ah, it is.  There she is, walking along, humming some kind of happy little tune with every single step.@
-;　俺は気付かれないように背後まで近寄って、@蹴り飛ばそうと足を振り上げた時\
+
 `  And so I approach her from behind, all stealthy-like,@ and I'm just about ready to kick her with everything that I've got when...\
 wait 500
 !s50
-;　「何してるの？」
+
 `  "Err, what are you doing?"@
 !s20
 br
-;　小娘がこっちを見て不思議そうな顔をしていた。
+
 `  The broad turns around and shoots me a strange look.@
 br
-;　「？」
+
 `  "?"@
 br
-;　ちっ、ばれたからにはしょうがねぇ。\
+
 `  Pssh, cat's out the bag.  Sucks.\
 bg "data/machi.jpg",10,1000
 ld c,":a;data/chisato.jpg",10,500
 wait 500
-;　「何か用？」
+
 `  "May I help you?"@
 br
-;　「ばれたからにはしょうがない。…三十年ほど前の事だ。道端で気持ちよく昼寝をしていた俺をお前は踏んづけていった。しかも、何の侘びもいれずにとっととどこかに逃げやがった。!s70この恨み、晴らさでおくべきかぁぁ！」!s20
+
 `  "Screw this, yo.  I'll tell you flat out... So I was having a nice, pleasant afternoon nap by the roadside around thirty years ago, when you came along and STEPPED on me, you bitch.  Then you ran off without even TRYING to apologize.  !s70YOU THINK I'LL LET YOU OFF?!"!s20@
 br
 wait 800
-;　…と、そこまでいって、小娘を見ると、!w100冷たい視線が帰ってきた。\
+
 `  ... And I shot the broad a glare, !w100but man, she just gave me an icy look that stopped me in my tracks.\
 ld c,":a;data/chisato8.jpg",10,500
-;　「…何かの間違いじゃない？私はアンタなんて知らないし、そんな昔のことなんて覚えてるわけ無いじゃない。」
+
 `  "... Isn't this some kind of mistake?  I don't have a clue WHO you are, and in any case how would I remember something that happened that long ago?"@
 br
-;　む、やはりこの姿がいけなかったか。
+
 `  Ugh, so I guess this form really ISN'T that convincing after all.@
-;　仕方が無い。あの姿はあまり好きじゃないが…@
+
 `  Can't be helped.  Well, I don't like this next form that much, but...@
 br
-;　「これならどうだっ！」\
+
 `  "What about THIS!"\
 bg white,10,1000
 wait 500
 bg "data/machi.jpg",0
 ld c,":a;data/chisato8.jpg",10,500
-;　まばゆい光とともに俺の体がその形を変えていく。
+
 `  My body begins to change shape as a dazzling light surrounds me.@
-;　光が収まった時、俺の体は一匹の魚になっていた。\
+
 `  And by the time the light fades away, I've completed my metamorphosis... into a fish.\
-;　恥を忍んでなったこの姿。それなのに目の前の小娘ときたら…@
+
 `  I just have to live with this form -- yes, it's embarrassing, but what can I do?@  But you know what this broad dares to say the moment she sees it?@
 br
 wait 800
-;　「カッコわる。」
+
 `  "Disgusting!"@
 br
-;　一言で片付けやがった。
+
 `  Finishes me off with one damn blow.@
-;　そりゃ、俺だってかっこいいとは思ってないが…@これだけストレートに言われたのは初めてだ。
+
 `  Well, yeah, I know that I'm not the end-all and be-all or anything, but still...@  This is the first time anyone's said it to me so up-front-like.@
-;　俺は激しく傷ついたぞ。\
+
 `  That sort of thing really hurts, ya know.\
-;　「くっ、今日のところはこれぐらいで勘弁してやろう。だが、次はないぞ！」
+
 `  "Pssh, fine, I guess I'll more or less forgive you for now.@  But not next time, you hear!"@
 br
-;　小娘は相変らず冷めた目で俺を見ている。しかし、ここで引き下がるわけには行かない。
+
 `  The broad just fixes at me with that ever-chilly stare.@  Ooh, scary.  But I can't walk away, not just yet.@
 br
-;　「な、名前ぐらいは覚えておいてやろう。小娘、名はなんと言う。」
+
 `  "G-guess you're worth remembering, for now.@  What's your name, girl?"@
 br
 ld c,":a;data/chisato.jpg",10,500
 wait 500
-;　「千郷。御子神千郷。」\
+
 `  "Chisato.@  Chisato Mikogami."\
 !s50
-;　御子神!w100千郷。
+
 `  Chisato !w100Mikogami.@
 !s20
 br
-;　その名前を聞いた時、俺の中である一つの記憶が蘇った。\
+
 `  When I hear that name, something -- a distant memory -- stirs within me.\
 wait 500
 play "data/hiro.mid"
 wait 1000
 bg black,10,1000
-;　「魚匠、一つお願いがあるんだけど。」
+
 `  "Fishman, I have a request for you."@
 br
 bg "data/eve05.jpg",10,1500
 wait 500
-;　俺の目の前にいるのは、霊界でもかなりの力を持つといわれている女。
+
 `  The woman before my eyes radiated an incredible amount of power, incredible even for a being of the spirit world.@
-;　なんでも、あの閻魔を手玉にとったとかなんとか。
+
 `  I mean, she could probably have yanked the very Devil any direction she wanted, if she but put her mind to it.@
 br
-;　「私の娘たちがどうしているか見てきてほしいの。二人姉妹なんだけどね、千郷と千柚って言うの。」\
+
 `  "I wish for you to go and see how my daughters are doing.@  There are two of them -- named Chisato and Chiyu."\
-;　俺の頭をある考えがよぎる。
+
 `  All sorts of thoughts whizzed through my head.@
-;　ここで断ったらどうなるだろう。
+
 `  For instance, what would happen to me if I refused?@
 br
-;　「ね、頼めるかしら？」
+
 `  "So may I make this request of you?"@
 br
-;　考えるまでも無い。結果はわかりきっている。
+
 `  There wasn't even a need to think about it.@  The consequences either way were all too obvious.@
-;　そして、俺はそれを実行に移すほど冒険家でもない。
+
 `  And after all, I wasn't enough of a traveler to have any chance in hell of finding these girls.@
 br
-;　つまり、俺は二つ返事で承諾したのだった。\
+
 `  In other words, I gave my assent immediately, and enthusiastically.\
 bg black,10,2000
 play "data/hitisagasi.mid"
 bg "data/machi.jpg",10,500
 ld c,":a;data/chisato.jpg",10,100
 !s50
-;　御子神千郷@
+
 `  Chisato Mikogami.@
 !s20
 br
-;　それを監視する事が俺の降りてきた目的じゃなかったのか？
+
 `  Isn't this the very reason I came down here for, staring me right in the face?@
-;　背中を冷や汗が伝う。!s40もし、この小娘…もとい千郷を襲ったと知れたら俺はどうなるだろう？
+
 `  A shiver ran up my spine.@  !s40Supposing it's this girl...  If I'd struck Chisato before I knew it was her, what would happen next?@
 !s20
-;　もしかしたら、明日の朝日が拝めなくなるかもしれない。\
+
 `  Yeah, then there'd be no tomorrow for me.  Literally.\
 !s30
-;　「スマン、俺が悪かった。」
+
 `  "Sorry.  Totally my fault."@
 !s20
 br
-;　千郷はと言えば、いきなり謝りだした俺に少々面食らっている様子だった。\
+
 `  And then this Chisato girl gave me another odd look, no doubt at my sudden and inexplicable apology.\
 
 
-;;間奏
+
 bg black,10,1000
 wait 1000
 play "data/hiro.mid"
 wait 1000
 !s70
-;　「はぁ…。」
+
 `  "*sigh*..."@
 !s20
 br
 bg "data/teien.jpg",10,1000
 wait 500
-;　今日何度目かのため息。
+
 `  I sigh for the umpteenth time this day alone.@
-;　お使いを頼んだ魚匠からの報告はまだ来ないし…@
+
 `  The fishman I sent on that errand has not reported back yet...@
 br
-;　「ホント、何してるのかしら。」
+
 `  "What in the world could he be doing?"@
 br
-;　あれからしばらく経って、千郷も大人になっただろうし、@千柚もどんな女の子に育ったのか。
+
 `  My, by this time, Chisato has probably grown into an adult,@ and I'm really rather curious as to what kind of girl Chiyu has grown to be.@
-;　色々と楽しみだけど…\
+
 `  Now, I could just sit here and wait, but...\
 wait 500
-;　「決めた。私も下界に行きますか。」
+
 `  "I've decided.@  I, too, shall travel to the mortal realm."@
 br
-;　さて…と。そうと決まったら色々と準備しなくちゃね。\
+
 `  Well, then...@  Now that I've settled on this undertaking, I've got all manner of preparations to make.\
 bg black,10,1000
 wait 1500
 
-;;第四章
+
 play "data/nomal.mid"
 wait 1000
 bg "data/machi.jpg",10,1000
 wave "data/semi.wav"
 wait 500
-;　なんか知らないけど、変なお面が一緒に来る事になった。
+
 `  Anyway, I had no idea how this came to be, but somehow I'd gained an odd traveling companion.@
-;　私の名前を聞いた途端、顔色（お面色？）を変えて謝ってきたり。
+
 `  When he'd heard my name, he'd suddenly wiped that sour expression off his face, and he'd just as suddenly apologized.@
-;　変な奴。\
+
 `  What an odd fellow.\
 wait 500
-;　「ねぇ魚拓…」
+
 `  "Hey, Fishstick..."@
 br
 `  "I am NOT a 'Fishstick'!"@
 br
-;　結構名前のこととか気にしたりする。
+
 `  Yeah, and he got all flustered like this about the littlest things -- names, for instance.@
-;　どっちだって一緒なのに…@
+
 `  I mean, what did it matter anymore...?@
 br
-;　「そういやお前さん、妹はどうした？」
+
 `  "Oh, yeah, tell me, what happened to your little sister?"@
 br
-;　魚匠がそんなことを聞いてくる。\
+
 `  Fishman asked abruptly.\
 wait 500
 !s80
-;　「……あぁ？妹？」
+
 `  "... Huh?  What little sister?"@
 !s20
 br
 wait 500
-;　「ガラ悪いぞ。なんだよ、いきなり態度変えやがって。」\
+
 `  "TERRIBLE manners.@  What is it with the cold shoulder there?!"\
-;　あーそういやいたねー。そんなのが。
+
 `  Oh, right, I remember now.@  I DID have one.@
-;　あの毒物狂、どうしたかな。実験台に飢えて他人襲ってなきゃいいけど…って、@
+
 `  I wonder how that little poison-freak is doing.@  Although I hope she hasn't found any more "guinea pigs" to experiment on...@
 br
-;　「ちょっと待て。なんでアンタがアイツのこと知ってんのよ。」\
+
 `  "Now wait just a minute.@  How do YOU know a thing about HER?"\
-;　「ふ、そこは色々とオトナの事情ってヤツが…」
+
 `  "Ho ho, well I'm just this GUY who knows all sort of SERIOUS stuff..."@
 br
-;　「はいはい、ごたくはいいから。」
+
 `  "Yeah, yeah, this is going nowhere."@
 br
-;　そう言って、魚匠の尻尾を掴むと、力任せに地面へと叩き付ける。\
+
 `  And with that, I grabbed Fishman's tail and slapped him against the ground with all my might.\
 wave "data/hit.wav"
 quakey 1,200
-;　べちっ！
+
 `  *SMACK*!@
 br
-;　いい音がした。さてと、@
+
 `  Mmm, such a nice sound.@  Now then:@
 br
-;　「で、なんでアンタがアイツのこと知ってるの？」
+
 `  "I said, how do YOU know a thing about HER?"@
 br
-;　さすがに効いたのか、今度は正直に話しだす。\
+
 `  As you might expect, this was rather effective, and this time around he began to speak honestly.\
 ver
-;　「お前らの母親に頼まれたんだよ。どうしてるか様子を見てきてくれって。あー痛ぇ。」
+
 `  "Your damned mother asked me.@  To check up on you to see how you were.@  Aiii, that smarts."@
 br
 !s80
-;　…お母さんが…@
+
 `  ... My mother...@
 !s20
-;　そんなことを考えていたら、聞き覚えのある声が響いてきた。\
+
 `  While I was pondering that, a rather familiar voice rang out.\
-;　「あ…あー！ようやく見つけたぁ！」
+
 `  "Ah-ha!  I finally found you!"@
 br
 stop
@@ -790,92 +790,92 @@ wave "data/heart.wav"
 wait 800
 wave "data/heart.wav"
 !s60
-;　私は、アイツではないことを祈りつつ、@振り返る。
+
 `  I turned around,@ fervently praying that it WASN'T her.@
 wave "data/heart.wav"
 wait 800
 wave "data/heart.wav"
 wait 800
-;　…私の祈りは無残にも打ち砕かれた。\
+
 `  ... And my fervent prayers went cruelly unheard.\
 !s20
 play "data/sad.mid"
 bg "data/eve06.jpg",10,1000
 wait 1000
-;　「お姉ちゃん！」
+
 `  "Sis!"@
 br
-;　言うやいなや、私の胸に飛びついてくる千柚。
+
 `  The instant she said that, Chiyu came flying into my arms.@
-;　お姉ちゃんお姉ちゃんと言いながら、!w200泣きじゃくっている。
+
 `  Saying, "Sis, Sis," !w200and crying all the while.@
-;　意外な展開に、千郷さんびっくり。
+
 `  Needless to say, this came as a total shock.@ 
 br
-;　こうしてると千柚もかわいいんだけどなぁ…\
+
 `  I mean, who'd have thought that Chiyu could actually be CUTE...?\
 bg black,10,1000
 wait 1500
 locate 7,8
 stop
-;　十分後\
+
 `Ten minutes later\
 wait 1000
 play "data/nomal.mid"
 bg "data/machi.jpg",10,1000
 ld c,":a;data/chiyu.jpg",10,500
-;　「で、アンタはなんでこんなところにいるわけ？」
+
 `  "So.  What are YOU doing here?"@
 br
-;　「なんでって…お姉ちゃん探してたに決まってるじゃない。」
+
 `  "What do you mean, what am I doing here...? Obviously, I've been looking for you, Sis."@
 br
 !s70
-;　「……」\
+
 `  "......"\
 !s20
-;　…正直気分が重い。これからまた、実験台生活が始まるのかなぁ…\
+
 `  ... My heart totally sank.@  I mean, did this mean that I was going to be experimented on ruthlessly again...?\
 bg black,10,1000
 wait 2000
 play "data/soryo.mid"
 wait 1000
-;;間奏
-;　さて、時間は少し遡り、三十年ほど前。
+
+
 `  And now, back in time a bit, about thirty years.@
 wave "data/semi.wav"
 bg "data/tera.jpg",18,2000,"data/m2.jpg"
-;　二人の亡骸を抱えた男がやってきたのは、とある寺。
+
 `  The man who had carried the two corpses off with him had arrived at a certain temple.@
 br
-;　「おお、どうした僧雲？おなごなぞ抱えて。」
+
 `  "Ahh, what's the matter, Brother Kumo?@  And you come bringing some mysterious women, I see."@
 br
-;　「この娘たちを弔ってやりたくて。」
+
 `  "I want to give these girls a proper burial."@
 br
-;　この寺の住職と思われる老人は、「そうか…」とだけ呟き、石工に連絡を入れた。\
+
 `  The elder man, probably the head priest of this temple, replied, "Ah, I see..."@ though just in a murmur, and called for a stonemason.\
 bg black,10,2000
 wait 1000
 wave "data/semi.wav"
 wait 500
 bg "data/tera.jpg",10,2000
-;　翌日。
+
 `  The next day.@
 br
-;　「僧雲、娘たちの墓が来たぞ。」
+
 `  "Brother Kumo, the gravesite for the girls has been prepared."@
 br
-;　二つの墓石にはそれぞれ、@
+
 `  There were two tombstones, and on them were engraved the legends:@
-;　「千郷之墓」「千柚之墓」と彫られている。
+
 `"Here lies Chisato" and "Here lies Chiyu".@
 br
-;　「すまない。宗派は違うだろうが、これで許してくれ。」
+
 `  "My apologies.@  I know you were of a different sect, so please forgive me -- this is all I can do."@
 br
-;　僧雲と呼ばれた男はそう言って、二人の墓に花を生けた。\
+
 `  Said the man called Brother Kumo, as he arranged flowers around the two graves.\
 wait 500
 bg black,18,2000,"data/m2.jpg"
@@ -883,151 +883,151 @@ wait 1000
 play "data/nazo.mid"
 bg "data/machi.jpg",10,1000
 wave "data/semi.wav"
-;;第伍章
-;　不吉だ。
+
+
 `  How ominous.@
-;　今日は嫌な予感がする。
+
 `  I was just getting a really, REALLY bad feeling about today.@
-;　目が覚めたら、烏が目の前を通り過ぎた。
+
 `  When I woke up, a raven flew by right before my eyes.@
-;　散歩をしていたら、塀の上を黒猫が散歩していた。
+
 `  When I took a walk, a black cat strolled past on the top of a wall.@
-;　河原の道端でひなたぼっこをしていたら、霊柩車が通り過ぎていった。
+
 `  When I basked in the sun next to the riverside road, a hearse passed by.@
-;　機嫌が悪くて魚匠を蹴り飛ばしたら、草履の紐が切れた。\
+
 `  And when I gave Fishman a swift kick because I was in a bad mood, the strap on my sandal snapped.\
-;　……今日は何かが起こる。
+
 `  ...... Something was going to happen today.@
-;　それも今までで最大級に悪いことが。
+
 `  And the worst omen of all was:@
 br
 ld c,":a;data/chiyu.jpg",10,500
-;　「…お姉ちゃん？顔色悪いよ？」
+
 `  "... Sis?  Why the dark expression?"@
 br
 wait 500
-;　千柚が私のことを心配している。
+
 `  Chiyu was worried about me.@
 !s80
-;　不吉だ。\
+
 `  THAT was ominous.\
 !s20
 bg black,10,500
-;　そんなことを考えていたら、@
+
 `  While I was pondering all that...@
 br
-;　トントン@
+
 `  *tap* *tap*@
 br
 wait 500
 !s70
-;　肩を叩くもの。
+
 `  Someone tapped my shoulder.@
-;　恐る恐る振り返ってみると…@
+
 `  I cringed and began to turn around, and...@
 !s20
 bg "data/machi.jpg",0
 ld c,":a;data/hiro.jpg",10,1000
-;　「やっほー。元気だったぁ？」\
+
 `  "Yoo-hoo!@  How's it going?"\
 stop
 bg black,10,300
 wait 500
 !s70
-;　…眩暈がした。
+
 `  ... I felt dizzy.@
 !s20
 br
-;　これのことだったのか。
+
 `  So THIS was what it had all been about, huh?@
-;　朝の烏も!w100黒猫も!w100霊柩車も!w100草履の紐が切れたのも!w100千柚が私を心配していたのも。\
+
 `  The raven this morning, !w100the black cat, !w100snapping my sandal strap, !w100and even Chiyu being worried about me.\ 
 play "data/hitisagasi.mid"
 bg "data/machi.jpg",0,1000
 ld l,":a;data/hiro.jpg",0
 ld r,":a;data/chiyu.jpg",10,500
-;　千柚はその人物を訝しげに見ている。
+
 `  Chiyu was just staring at this new arrival with utter suspicion.@
-;　覚えていないのも無理は無い。
+
 `  Well, it wasn't as if she'd remember, after all.@
-;　当時千柚は一歳だったんだから。\
-;touji (at that time) Chiyu wa issai (one-year-old) datta (da: is) n' da (is) kara (because).
+
+
 `  Since she was just one year old at the time.\
 !s80
-;　「お母さん…なんでここにいるの？」
+
 `  "Mom... what are you doing here?"@
 !s20
 br
-;　「何でって…かわいいかわいい娘たちに会いに来たんじゃない。」
+
 `  "Well, obviously... I wanted to come and see my adorable, adorable daughters!"@
 br
 !s70
-;　「え…っていや、そんな簡単に言われても…」\
+
 `  "Uh... huh, somehow I get the feeling that you're not telling me HALF of it..."\
 !s20
 
 bg black,10,1000
 wait 500
-;　お母さんの興味は千柚に移り、色々と話をしていた。
+
 `  My mother shifted her interest to Chiyu, and the two of them talked about all sorts of things.@
-;　千柚とお母さんが打ち解けられるか心配だったけど、それも杞憂に終ったようだ。\
+
 `  I'd been worried that Chiyu and Mom wouldn't really connect, but this put those groundless fears to rest.\
 bg "data/machi.jpg",0
 ld c,":a;data/hiro8.jpg",10,1000
 !s40
-;　「ところで魚匠…あなた私のお使いはどうしたの？まさか忘れたわけじゃあないわよねぇ？」
+
 `  "By the way, Fishman... what happened to that errand I sent you on?@  I'm sure you didn't forget about it, or DID YOU?"@
 !s20
 br
-;　あ、魚匠の危機。
+
 `  Oooh, so now the fishman was out of the frying pan and into the fire.@
-;　魚匠の目が助けを求めてるけど無視。\
+
 `  He turned to me, his eyes pleading for help, but I ignored him.\
-;　私だって命は惜しい。もう死んでるけど。
+
 `  My life was just too precious to me.  Though I WAS already dead.@
 br
 bg "data/sora.jpg",10,1000
-;　それにしても最近は、自動車とか言うのが出てきて空気が汚れてきた。
+
 `  ... My, how polluted the air has become recently.@  It must be because of those newfangled "cars" people are driving these days...@
-;　そんなことを考えて現実逃避してみる。
+
 `  I resorted to making observations like that in order to try to block out Fishman's unearthly screams.@  I failed, by the way.@
 br
-;　「さて、久し振りに会ったから、色々と話を聞きたいわぁ。」\
+
 `  "Well now, since we're meeting again after such a long time, there are lots of things I want to know about."\
-;　お母さんは、あの頃からちぃとも変わってない。
+
 `  Apparently, my mother hadn't changed ONE BIT since the last time I'd seen her.@
-;　それこそ怖いくらいに。
+
 `  Talk about scary...@
-;　…はぁ、若いっていいねぇ。\
+
 `  ... *sigh*  I mean, they say that it's nice to be young, but THIS WAS RIDICULOUS.\
 bg "data/machi.jpg",10,1000
-;　お母さんはこっちに背を向けて、千柚と話している。
+
 `  My mother was now chatting away gaily with Chiyu, her back turned to me.@
-;　……ちょっと待て。
+
 `  ...... Hang on a sec.@
 br
-;　「ねぇ、お母さん…その背中についているモノは何？」
+
 `  "Hey, Mom... what's that THING on your back?"@
 br
-;　私はお母さんの背中に生えているソレを指さして聞く。
+
 `  I asked, pointing at SOMETHING that was growing out of her back.@
 ld c,":a;data/hiro.jpg",10,500
 br
-;　「ん？ああ、これね。これはね、霊界に住んでた時に色々あってね、その時に一緒に貰ったの。」
+
 `  "Hmm?@  Ah, this.@  Well, once you've lived in the spiritual realm for a while, you see, you start being gifted with stuff like this..."\
 br
-;　いや、貰ったって…そんな簡単に生えるものなのだろうか？
+
 `  BEING GIFTED...?!  Was it THAT SIMPLE to just start sprouting stuff like that?!@
-;　私はお母さんの背中に生えている漆黒の翼を見ながら思った。\
+
 `  I wondered as I stared at the jet-black wings that were protruding from my mother's back.\
 bg "data/sora.jpg",10,1000
-;　これから騒がしくなりそうだ。
+
 `  I'm sure that the look on my face just then was priceless.@
 br
 !s60
-;　だけど、!w200少しだけ。!s30
+
 `  But you know, !w200even if it was just a little bit...!s30@
-;　ほんの少しだけ嬉しいのは、!w200@内緒の秘密。\
+
 `  I was just a teeny, tiny bit happy about all of this...!w200@ and I'd keep that locked away within me forever.\
 !s20
 wait 1000
@@ -1035,40 +1035,40 @@ bg black,10,1500
 stop
 wait 1000
 
-;;序章
-;　私がいつも通りお墓の中で眠っていると、@
+
+
 `  I was sleeping in my usual tomb when,@
-;　魚匠が、@
+
 `  Fishman suddenly burbled,
 br
-;　「おい、誰かいるぞ。」
+
 `  "Hey!  There's somebody here!"\
 br
-;　なんて呼んできた。\
-;　「え、もしかしてお墓ごと降霊されちゃったの？」
+
+
 `  "What, are we being seanced from the grave or something?"@
 br
-;　そこでようやくお墓からでる。
+
 `  And so I went out of the tomb and took a look.@
-;　すると、本当に誰かいた。\
+
 `  Wow, there really WAS somebody here.\
-;　軽く自己紹介して、相手の反応をうかがう。
+
 `  I introduced myself casually, and watched what this person would do.@
-;　幸い気に入ってくれたようだ。
+
 `  But fortunately, he seemed rather pleased with me.@
 br
-;　…せっかく降霊されたんだし、@除霊されないように気をつけなきゃ。
+
 `  ... Well, after all, being summoned like this was pretty unusual,@ and I had to make a note to make sure that this kind of thing didn't happen again.@
 br
-;　それにしても、幽霊になった時は驚いたけど、@まさか電脳世界まで入り込むとはね。
+
 `  Anyway, it was unthinkable at the time that I became a ghost,@ but can you imagine?  We can even surf the internet these days!@
-;　人生なにがあるかわからないもんだぁね。\
+
 `  After all, there are lots of things in life that you'll never really understand, right?\
 bg "data/eve07.jpg",10,1000
 wait 700
 locate 0,9
 !s50
-;　「ま、そういうわけなんで、!w100これからよろしく。　　　　　　　　　ユーザーさん。」\
+
 `  "Well, anyway, !w100so it's nice to meet you,                      User-san."\
 !s20
 wait 2000
