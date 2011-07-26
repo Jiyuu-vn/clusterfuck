@@ -2,7 +2,8 @@
 
 <pre>
 
-<?xml version="1.0" encoding="UTF-8"?>
+
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Lines Count="374">
   <Line StartPos="559" Length="5" Skip="false">
     <Origin>Cliff</Origin>
@@ -26,7 +27,7 @@
   </Line>
   <Line StartPos="771" Length="40" Skip="false">
     <Origin>"Trouble...? I wonder what\0it could be?"</Origin>
-    <Translated>"Неприятности...? Интересно, что это может быть?"</Translated>
+    <Translated>"Неприятности?.. Интересно, что это может быть?"</Translated>
   </Line>
   <Line StartPos="840" Length="31" Skip="false">
     <Origin>There&apos;s a sign on the entrance.</Origin>
@@ -34,7 +35,7 @@
   </Line>
   <Line StartPos="874" Length="70" Skip="false">
     <Origin>"We will be closed today for private\0reasons. Yours sincerely, Master"</Origin>
-    <Translated>"Сегодня мы закрыты по личным причинам. С уважением, владелец"</Translated>
+    <Translated>"Сегодня мы закрыты по личным причинам. С уважением, владелец".</Translated>
   </Line>
   <Line StartPos="961" Length="5" Skip="false">
     <Origin>Cliff</Origin>
@@ -157,8 +158,8 @@
     <Translated>Клиф</Translated>
   </Line>
   <Line StartPos="2128" Length="65" Skip="false">
-    <Origin>«Sensei told me I could\0decide whether to take a job\0or not...»</Origin>
-    <Translated>«Учитель сказал, мне можно самому решать, приниматься за работу или нет...»</Translated>
+    <Origin>Sensei told me I could\0decide whether to take a job\0or not...</Origin>
+    <Translated>Учитель сказал, мне можно самому решать, приниматься за работу или нет...</Translated>
   </Line>
   <Line StartPos="2198" Length="5" Skip="false">
     <Origin>Cliff</Origin>
@@ -544,17 +545,17 @@
     <Origin>Will</Origin>
     <Translated>Вилл</Translated>
   </Line>
-  <Line StartPos="6166" Length="9" Skip="false">
-    <Origin>minutes."</Origin>
-    <Translated>минута."</Translated>*одну минуту
+  <Line StartPos="6093" Length="82" Skip="false">
+    <Origin>I can beat a normal mouse in 3 seconds But a strong one will take me 3</Origin>
+    <Translated>Обычную мышь я могу убить за 3 секунды, а на сильную, потрачу 3 минуты.</Translated>
   </Line>
   <Line StartPos="6180" Length="5" Skip="false">
     <Origin>Cliff</Origin>
     <Translated>Клиф</Translated>
   </Line>
   <Line StartPos="6234" Length="33" Skip="false">
-    <Origin>even with simple\0calculations..."</Origin>
-    <Translated>даже при обычных вычислениях..."</Translated>
+    <Origin>"So it's 60 times stronger even with simple calculations...</Origin>
+    <Translated>Если даже грубо прикинуть, то получается, что она в 60 раз сильнее...</Translated>
   </Line>
   <Line StartPos="6281" Length="4" Skip="false">
     <Origin>Will</Origin>
@@ -564,9 +565,9 @@
     <Origin>"That&apos;s right. Be careful."</Origin>
     <Translated>"Верно. Будьте осторожны."</Translated>
   </Line>
-  <Line StartPos="6369" Length="16" Skip="false">
-    <Origin>beat that mouse.</Origin>
-    <Translated>победить эту мышь.</Translated>
+  <Line StartPos="6332" Length="16" Skip="false">
+    <Origin>...It'll probably take me 3 years to beat that mouse.</Origin>
+    <Translated>Чтобы убить такую мышь, мне понадобиться 3 года...</Translated>
   </Line>
   <Line StartPos="6414" Length="31" Skip="false">
     <Origin>...There&apos;s a memo on the table.</Origin>
@@ -712,9 +713,13 @@
     <Origin>"...I wonder if they&apos;re\0around."</Origin>
     <Translated>"...надеюсь они рядом."</Translated>
   </Line>
+  <Line StartPos="7788" Length="31" Skip="false">
+    <Origin>There's a big hole on the wall.</Origin>
+    <Translated>Здесь большая дыра в стене.</Translated>
+  </Line>
   <Line StartPos="7826" Length="57" Skip="false">
     <Origin>Plug it up and go up\0Check out the other side of the hole</Origin>
-    <Translated>Завалить и вернуться наверх\0Проверить другую сторону дыры</Translated>
+    <Translated>Завалить и вернуться наверх\0Посмотреть что с другой стороны</Translated>
   </Line>
   <Line StartPos="8023" Length="5" Skip="false">
     <Origin>Cliff</Origin>
@@ -1501,7 +1506,6 @@
     <Translated>main\0Закат</Translated>
   </Line>
 </Lines>
-
 
 
 
