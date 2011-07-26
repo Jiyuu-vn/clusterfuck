@@ -1,1153 +1,133 @@
-<pre>
-*define
-spi "jpgplgin.dll|jpg"
-arc "arc.sar|scrunarc.dll"
-
-caption "Visions from the Other Side"
-clickstr "！？。」",2
-defaultfont "ＭＳ 明朝"
-windoweffect 10,300
-
-versionstr "`Visions from the Other Side v1.1E","`Created by: RAIL"
-globalon
-game
-
-
-*start
-
-
-
-
-
-
-bg white,10,800
-
-bg "data/logo.jpg",18,2000,"data/m3.jpg"
-wave "data/Bell.wav"
-wait 2100
-bg white,10,500
-bg black,10,1500
-wait 2000
-rmode 1
-goto *title
-
-*title
-bg "data/tukiyo.jpg",18,2000,"data/m2.jpg"
-wait 500
-bg "data/tukiyo2.jpg",18,2500,"data/m1.jpg"
-play "data/title.mid"
-wait 1000
-if %200>0 goto *omake
-goto *nomal
-
-*nomal
-locate 9,12
-
-
-select "`   Start",*s_0,
-"`   Quit",*ending
-
-*omake
-locate 9,12
-
-
-
-select "`   Start",*s_0,
-"`CG Gallery",*cgmode,
-"`   Quit",*ending
-
-
-*cgmode
-stop
-bg black,10,500
-wait 500
-!s40
-locate 3,7
-
-`Here you can look at the game's CGs.\
-wait 500
-
-*cg2
-bg "data/eve02.jpg",10,500
-click
-
-goto *cg3
-
-*cg3
-bg "data/eve03.jpg",10,500
-click
-goto *cg4
-
-*cg4
-bg "data/eve04.jpg",10,500
-click
-goto *cg5
-
-*cg5
-bg "data/eve05.jpg",10,500
-click
-goto *cg6
-
-*cg6
-bg "data/eve06.jpg",10,500
-click
-goto *cg7
-
-*cg7
-bg "data/eve07.jpg",10,500
-click
-goto *cgend
-
- *cgend
-bg black,10,1000
-goto *title
-
-*s_0
-
-wait 2000
-bg black,18,1000,"data/m3.jpg"
-play "data/syu-syou.mid"
-wait 2000
-
-
-
-bg "data/com01.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-
-wait 300
-wave "data/korogi.wav"
-bg "data/michi.jpg",1
-bg black,18,2000,"data/m3.jpg"
-
-
-
-bg "data/com01.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-
-bg "data/michi.jpg",1
-bg black,18,2000,"data/m3.jpg"
-wave "data/korogi.wav"
-wait 700
-
-
-
-bg "data/com02.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-
-bg "data/michi.jpg",1
-bg black,18,2000,"data/m3.jpg"
-wait 700
-
-
-
-
-bg "data/com03.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
-wave "data/korogi.wav"
-
-
-
-bg "data/com04.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
-
-
-
-bg "data/com05.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
-
-
-bg "data/michi2.jpg",18,2000,"data/m3.jpg"
-wait 700
-wave "data/korogi.wav"
-bg black,10,2000
-
-
-
-bg "data/com06.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
-
-
-
-bg "data/com07.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
-
-bg "data/tukiyo.jpg",18,2000,"data/m2.jpg"
-wait 500
-!s40
-locate 5,9
-
-` A faint fall of moonlight
-locate 5,10
-`  -- and nothing else --!w300
-locate 5,11
-
-`    spilled down on me,
-locate 5,12
-`as if to wash away my pain...\
-wait 500
-bg black,10,2000
-!s20
-wait 2500
-stop
-bg black,10,1000
-play "data/syu-syou.mid"
-wave "data/SeaD.wav"
-wait 500
-bg white,10,1000
-wait 500
-bg "data/sea.jpg",10,1500
-wait 1000
-
-
-`  When I came to, !w50I was standing on a cliff looking out at the horizon.@
-
-`  Glancing upwards, !w50I saw birds gracefully slipping through a perfectly clear, blue sky.@
-
-`  I closed my eyes, and stretched my arms wide.@
-
-`  And basked in the afterglow of the memory of happier days.@
-
-`  Something warm rolled down my cheek.@
-br
-!s70
-
-
-`  And then ---\
-!s20
-bg white,10,1000
-bg #732628,10,300,"data/m1.jpg"
-bg black,18,2000,"data/m1.jpg"
-stop
-wait 2000
-
-
-bg white,10,2000
-bg "data/machi.jpg",10,1000
-wait 1000
-play "data/nazo.mid"
-wave "data/semi.wav"
-
-`  I opened my eyes.@  All around me, I could see throngs of people hurrying past in both directions, their final destinations a mystery.@
-br
-
-`  "...?"@
-br
-
-`  How bizarre.@  What was I doing here?@
-
-`  I mean, if memory served, I'd jumped off a cliff but moments ago.@
-
-`  So what was I doing here in the middle of a town's main street?\
-
-`  I was so lost in my thoughts that I didn't see that I was about to crash into somebody.@
-
-`  I tried to avoid him, but I didn't quite make it, and a head-on collision !s100-- !s20didn't happen.@
-br
-
-`  In fact, he just kept walking on as if I weren't even there, as if there was nothing in his path...@
-
-`  ... as if he'd slipped right through my body...@
-br
-!s80
-
-`  "No way......"\
-!s20
-br
-
-`  You don't just expect people to 'slip though' other people like that!@
-
-`  I mean, as long as they're not ghosts or...\
-
-`  "Oh."@
-br
-
-`  And that was how I finally came to understand what had happened.@
-
-`  I was quite certainly dead, you see.@
-
-`  Wellll then, what did that say about me, and the fact that I was standing here?\
-wait 300
-
-`  Obviously, I was a ghost.@
-
-`  Really!  A ghost, you don't say!@  They actually exist, who would have thought...\
-bg black,10,800
-wait 300
-bg "data/kawara.jpg",10,1000
-
-`  I found myself in the vicinity of the riverbank.@
-
-`  For the time being, I thought I'd try to take a walk around and mingle, since there wasn't anything else to do.@
-wait 300
-br
-
-`  "... Hmm?"
-br
-
-`  Hmm, for a moment there, I could have sworn that I'd stepped on something a bit fishy, but I didn't pay it much attention.\
-
-`  Anyway, there were a bunch of people gathered here, at one end of the river bank.@
-br
-
-`  "Ummm, did something just happen here?"@
-br
-
-`  I tried to ask of someone standing nearby.\
-
-`  No reply.@  Almost as if nobody could hear me...@
-
-`  Well, it didn't come as a TOTAL shock, you know, but still, I was really new at this ghost thing, so...\
-
-
-`  So I shrugged and started slipping through -- literally -- the folks in the crowd.@
-
-`  At first it was astonishing, but as you might expect, pretty soon you get used to it.\
-
-`  "......"@
-br
-
-`  When I finally worked my way to the center of the crowd, I found that I was looking upon two girls.@
-
-`  A familiar-looking girl clad in a scarlet hakama, !w300and a girl in an arrow-pattern kimono.@
-br
-!s50
-
-`  ... Me, and my little sister.\
-!w20
-
-play "data/sad.mid"
-bg "data/eve02.jpg",10,1000
-wait 1000
-!s60
-
-`  "Sis... why... why'd you have to go kill yourself...@  Sis, now that you're gone...@ then... then..."@
-!s20
-br
-
-`  My chest tightened as a wave of guilt swept over me.@
-br
-
-`  "... Sorry, Chiyu... but..."\
-wait 500
-!s60
-
-`  "Sis, now that you're gone... then...@ then who am I supposed to experiment on...?"@
-!s20
-br
-stop
-
-`  "... WAITASEC."\
-
-`  So much for this wave of guilt!@  I mean, was she sad because I'd died, or was she sad because she'd lost a guinea pig?@
-br
-
-`  "......"@
-br
-
-`  Somewhat mixed feelings here, you know?\
-bg black,10,800
-wait 2000
-bg "data/machi.jpg",10,500
-wait 500
-play "data/nazo.mid"
-wave "data/semi.wav"
-!s80
-
-`  "*sigh*...  !s20Now what should I do...?"@
-br
-
-`  In the end, it was so painful for me to remain in that place that I just upped and bolted.@
-br
-
-`  No use crying over spilled milk, after all.@
-
-`  So instead, I started trying different things out, and as a result of this experimentation I found that:\
-
-`  * I couldn't touch anything that had a strong life force in it -- live humans and animals, for instance -- !w300but I could touch things that had little or no life force in them, like inanimate objects.@
-
-`  * I could do stuff like fly in the air.@
-
-`  * I couldn't do stuff like speak to anyone.@
-
-`  * I couldn't eat, obviously, but that was just as well.@
-
-`  * I couldn't go to the bathroom, either, but that was REALLY just as well.@
-
-`  * I could even change my very form, if I really felt like it.\
-
-`  Pretty awesome, eh?  Being able to fly, that is.@
-!s50
-
-`  In fact, now I'd be able to fulfill one of my wildest dreams...@
-!s20
-
-`  I mean, maybe I could finally try my hand at this "poltergeist" thing, that seemed to be all the rage in the West!@
-
-`  ... And I went on thinking for a long, long time of interesting things I could do to fill my days from now on...\
-bg black,10,800
-wait 1000
-
-play "data/sad.mid"
-bg "data/kawara.jpg",10,1000
-wave "data/semi.wav"
-wait 500
-!s80
-
-`  "*sob*... *sob*..."@
-!s20
-br
-
-`  I mean, this sucks!@  There my big sister is, lying there, right before my eyes.@
-
-`  With that usual serene half-smile on her face,@ ya know, the one that makes her look like she'd wake up if I just called out to her.@
-
-`  But no such thing will happen, will it now?@  This sucks...@
-br
-!s80
-
-`  "Hey... Sis... c'mon, wake up......"\
-!s20
-br
-
-`  But... I still can't believe it.  I WON'T.  Because if I have to, then I really never will be able to reach her again, she'll be so far away.  I'm so scared...@
-
-`  I don't care about experiments or guinea pigs or whatever anymore!\
-
-`  Why must it be this way?  Why must I always realize how precious something is only AFTER I lose it?@
-
-`  I mean, you'd think that I'd have learned my lesson the last time around...@
-
-`  And yet here I am, in the same situation, doing the same thing.@  As if I hadn't learned a thing.@
-
-`  Back then, I couldn't save her.@
-
-`  ... And I couldn't save her now, either.\
-
-`  The onlookers are all but gone, and now it's just the two of us.@
-
-`  And so I pull out a vial that I'd hidden away in the folds of my kimono.@
-
-`  Medicine that I'd been planning on testing on my sister someday.@
-
-`  But that isn't possible anymore.@
-
-`  It's a coarse powder, so somewhat tough to take without any water, but I'm past the point of caring.@  I swallow it all down.@
-
-`  Then I touch my lips to my sister's.\
-
-`  And I breathe a little prayer of parting and reunion.@
-
-`  I grip my sister's hands tightly -- so tightly -- so that we will never be separated again.@
-
-`  So that we will be able to meet again.@
-
-`  For my bond with my sister is my first and last faith.\
-bg white,10,1200
-wait 500
-
-`  And everything starts to fade away...@
-br
-!s50
-
-`  Hey, Sis.@
-
-`  I wonder if we'll meet again...?@
-
-`  Maybe this time around, we'll finally be able to live together with Mom...?@
-
-`  What kind of person was she...?@
-
-`  Hmmm, getting really sleepy already...@
-
-`  G'night... Sis...@
-!s70
-
-`  When next my eyes open... !w100it'd be nice if my big sister would be right there...\
-!s20
-bg black,18,2000,"data/m2.jpg"
-play "data/soryo.mid"
-wait 2000
-
-bg "data/kawara.jpg",10,900
-wait 500
-
-`  Shortly after Chiyu lost consciousness, a man showed up.@
-
-`  He stared at the two bodies for a little while, and then he finally asked a young man who was close by,@
-br
-!s50
-
-`  "Where did these girls come from?"@
-br
-
-`  And after the young man answered him, he merely said, !s50"Ah, thanks," !s20picked up the bodies, and started carrying them away.\
-bg black,10,2000
-stop
-wait 1000
-
-
-play "data/hitisagasi.mid"
-wait 500
-
-`  "So... she's not in this town, is she?"@
-br
-bg "data/eve03.jpg",10,1000
-wait 1000
-
-`  I've been looking for a certain girl for a while now.@
-
-`  Oh, it's not like I'm stalking my ex or some crap like that.\
-
-`  Nah, it's revenge.@
-
-`  That broad... so she STEPS on me, literally STEPS on me, and then prances on off without so much as a WORD of apology...@  If I find her, I won't just let it go.@
-
-`  I kinda think there was something else I was after as well, but I forgot.@
-
-`  Oh, well, if I can't remember what, it must not have been very important, I guess.@
-br
-
-`  After I straighten up my lovely mug, I flipper off to the nearest town.\
-bg black,10,1000
-wait 700
-bg "data/machi.jpg",10,1000
-wave "data/semi.wav"
-wait 500
-
-`  "Pssh, and she's not around here either?  !s60...... Hmmm?!s20@
-
-`Wait, that's..."@
-br
-bg black,10,1000
-bg "data/eve04.jpg",10,800
-wait 1000
-
-`  Ah, it is.  There she is, walking along, humming some kind of happy little tune with every single step.@
-
-`  And so I approach her from behind, all stealthy-like,@ and I'm just about ready to kick her with everything that I've got when...\
-wait 500
-!s50
-
-`  "Err, what are you doing?"@
-!s20
-br
-
-`  The broad turns around and shoots me a strange look.@
-br
-
-`  "?"@
-br
-
-`  Pssh, cat's out the bag.  Sucks.\
-bg "data/machi.jpg",10,1000
-ld c,":a;data/chisato.jpg",10,500
-wait 500
-
-`  "May I help you?"@
-br
-
-`  "Screw this, yo.  I'll tell you flat out... So I was having a nice, pleasant afternoon nap by the roadside around thirty years ago, when you came along and STEPPED on me, you bitch.  Then you ran off without even TRYING to apologize.  !s70YOU THINK I'LL LET YOU OFF?!"!s20@
-br
-wait 800
-
-`  ... And I shot the broad a glare, !w100but man, she just gave me an icy look that stopped me in my tracks.\
-ld c,":a;data/chisato8.jpg",10,500
-
-`  "... Isn't this some kind of mistake?  I don't have a clue WHO you are, and in any case how would I remember something that happened that long ago?"@
-br
-
-`  Ugh, so I guess this form really ISN'T that convincing after all.@
-
-`  Can't be helped.  Well, I don't like this next form that much, but...@
-br
-
-`  "What about THIS!"\
-bg white,10,1000
-wait 500
-bg "data/machi.jpg",0
-ld c,":a;data/chisato8.jpg",10,500
-
-`  My body begins to change shape as a dazzling light surrounds me.@
-
-`  And by the time the light fades away, I've completed my metamorphosis... into a fish.\
-
-`  I just have to live with this form -- yes, it's embarrassing, but what can I do?@  But you know what this broad dares to say the moment she sees it?@
-br
-wait 800
-
-`  "Disgusting!"@
-br
-
-`  Finishes me off with one damn blow.@
-
-`  Well, yeah, I know that I'm not the end-all and be-all or anything, but still...@  This is the first time anyone's said it to me so up-front-like.@
-
-`  That sort of thing really hurts, ya know.\
-
-`  "Pssh, fine, I guess I'll more or less forgive you for now.@  But not next time, you hear!"@
-br
-
-`  The broad just fixes at me with that ever-chilly stare.@  Ooh, scary.  But I can't walk away, not just yet.@
-br
-
-`  "G-guess you're worth remembering, for now.@  What's your name, girl?"@
-br
-ld c,":a;data/chisato.jpg",10,500
-wait 500
-
-`  "Chisato.@  Chisato Mikogami."\
-!s50
-
-`  Chisato !w100Mikogami.@
-!s20
-br
-
-`  When I hear that name, something -- a distant memory -- stirs within me.\
-wait 500
-play "data/hiro.mid"
-wait 1000
-bg black,10,1000
-
-`  "Fishman, I have a request for you."@
-br
-bg "data/eve05.jpg",10,1500
-wait 500
-
-`  The woman before my eyes radiated an incredible amount of power, incredible even for a being of the spirit world.@
-
-`  I mean, she could probably have yanked the very Devil any direction she wanted, if she but put her mind to it.@
-br
-
-`  "I wish for you to go and see how my daughters are doing.@  There are two of them -- named Chisato and Chiyu."\
-
-`  All sorts of thoughts whizzed through my head.@
-
-`  For instance, what would happen to me if I refused?@
-br
-
-`  "So may I make this request of you?"@
-br
-
-`  There wasn't even a need to think about it.@  The consequences either way were all too obvious.@
-
-`  And after all, I wasn't enough of a traveler to have any chance in hell of finding these girls.@
-br
-
-`  In other words, I gave my assent immediately, and enthusiastically.\
-bg black,10,2000
-play "data/hitisagasi.mid"
-bg "data/machi.jpg",10,500
-ld c,":a;data/chisato.jpg",10,100
-!s50
-
-`  Chisato Mikogami.@
-!s20
-br
-
-`  Isn't this the very reason I came down here for, staring me right in the face?@
-
-`  A shiver ran up my spine.@  !s40Supposing it's this girl...  If I'd struck Chisato before I knew it was her, what would happen next?@
-!s20
-
-`  Yeah, then there'd be no tomorrow for me.  Literally.\
-!s30
-
-`  "Sorry.  Totally my fault."@
-!s20
-br
-
-`  And then this Chisato girl gave me another odd look, no doubt at my sudden and inexplicable apology.\
-
-
-
-bg black,10,1000
-wait 1000
-play "data/hiro.mid"
-wait 1000
-!s70
-
-`  "*sigh*..."@
-!s20
-br
-bg "data/teien.jpg",10,1000
-wait 500
-
-`  I sigh for the umpteenth time this day alone.@
-
-`  The fishman I sent on that errand has not reported back yet...@
-br
-
-`  "What in the world could he be doing?"@
-br
-
-`  My, by this time, Chisato has probably grown into an adult,@ and I'm really rather curious as to what kind of girl Chiyu has grown to be.@
-
-`  Now, I could just sit here and wait, but...\
-wait 500
-
-`  "I've decided.@  I, too, shall travel to the mortal realm."@
-br
-
-`  Well, then...@  Now that I've settled on this undertaking, I've got all manner of preparations to make.\
-bg black,10,1000
-wait 1500
-
-
-play "data/nomal.mid"
-wait 1000
-bg "data/machi.jpg",10,1000
-wave "data/semi.wav"
-wait 500
-
-`  Anyway, I had no idea how this came to be, but somehow I'd gained an odd traveling companion.@
-
-`  When he'd heard my name, he'd suddenly wiped that sour expression off his face, and he'd just as suddenly apologized.@
-
-`  What an odd fellow.\
-wait 500
-
-`  "Hey, Fishstick..."@
-br
-`  "I am NOT a 'Fishstick'!"@
-br
-
-`  Yeah, and he got all flustered like this about the littlest things -- names, for instance.@
-
-`  I mean, what did it matter anymore...?@
-br
-
-`  "Oh, yeah, tell me, what happened to your little sister?"@
-br
-
-`  Fishman asked abruptly.\
-wait 500
-!s80
-
-`  "... Huh?  What little sister?"@
-!s20
-br
-wait 500
-
-`  "TERRIBLE manners.@  What is it with the cold shoulder there?!"\
-
-`  Oh, right, I remember now.@  I DID have one.@
-
-`  I wonder how that little poison-freak is doing.@  Although I hope she hasn't found any more "guinea pigs" to experiment on...@
-br
-
-`  "Now wait just a minute.@  How do YOU know a thing about HER?"\
-
-`  "Ho ho, well I'm just this GUY who knows all sort of SERIOUS stuff..."@
-br
-
-`  "Yeah, yeah, this is going nowhere."@
-br
-
-`  And with that, I grabbed Fishman's tail and slapped him against the ground with all my might.\
-wave "data/hit.wav"
-quakey 1,200
-
-`  *SMACK*!@
-br
-
-`  Mmm, such a nice sound.@  Now then:@
-br
-
-`  "I said, how do YOU know a thing about HER?"@
-br
-
-`  As you might expect, this was rather effective, and this time around he began to speak honestly.\
-ver
-
-`  "Your damned mother asked me.@  To check up on you to see how you were.@  Aiii, that smarts."@
-br
-!s80
-
-`  ... My mother...@
-!s20
-
-`  While I was pondering that, a rather familiar voice rang out.\
-
-`  "Ah-ha!  I finally found you!"@
-br
-stop
-bg black,10,500
-wait 1000
-wave "data/heart.wav"
-wait 800
-wave "data/heart.wav"
-!s60
-
-`  I turned around,@ fervently praying that it WASN'T her.@
-wave "data/heart.wav"
-wait 800
-wave "data/heart.wav"
-wait 800
-
-`  ... And my fervent prayers went cruelly unheard.\
-!s20
-play "data/sad.mid"
-bg "data/eve06.jpg",10,1000
-wait 1000
-
-`  "Sis!"@
-br
-
-`  The instant she said that, Chiyu came flying into my arms.@
-
-`  Saying, "Sis, Sis," !w200and crying all the while.@
-
-`  Needless to say, this came as a total shock.@ 
-br
-
-`  I mean, who'd have thought that Chiyu could actually be CUTE...?\
-bg black,10,1000
-wait 1500
-locate 7,8
-stop
-
-`Ten minutes later\
-wait 1000
-play "data/nomal.mid"
-bg "data/machi.jpg",10,1000
-ld c,":a;data/chiyu.jpg",10,500
-
-`  "So.  What are YOU doing here?"@
-br
-
-`  "What do you mean, what am I doing here...? Obviously, I've been looking for you, Sis."@
-br
-!s70
-
-`  "......"\
-!s20
-
-`  ... My heart totally sank.@  I mean, did this mean that I was going to be experimented on ruthlessly again...?\
-bg black,10,1000
-wait 2000
-play "data/soryo.mid"
-wait 1000
-
-
-`  And now, back in time a bit, about thirty years.@
-wave "data/semi.wav"
-bg "data/tera.jpg",18,2000,"data/m2.jpg"
-
-`  The man who had carried the two corpses off with him had arrived at a certain temple.@
-br
-
-`  "Ahh, what's the matter, Brother Kumo?@  And you come bringing some mysterious women, I see."@
-br
-
-`  "I want to give these girls a proper burial."@
-br
-
-`  The elder man, probably the head priest of this temple, replied, "Ah, I see..."@ though just in a murmur, and called for a stonemason.\
-bg black,10,2000
-wait 1000
-wave "data/semi.wav"
-wait 500
-bg "data/tera.jpg",10,2000
-
-`  The next day.@
-br
-
-`  "Brother Kumo, the gravesite for the girls has been prepared."@
-br
-
-`  There were two tombstones, and on them were engraved the legends:@
-
-`"Here lies Chisato" and "Here lies Chiyu".@
-br
-
-`  "My apologies.@  I know you were of a different sect, so please forgive me -- this is all I can do."@
-br
-
-`  Said the man called Brother Kumo, as he arranged flowers around the two graves.\
-wait 500
-bg black,18,2000,"data/m2.jpg"
-wait 1000
-play "data/nazo.mid"
-bg "data/machi.jpg",10,1000
-wave "data/semi.wav"
-
-
-`  How ominous.@
-
-`  I was just getting a really, REALLY bad feeling about today.@
-
-`  When I woke up, a raven flew by right before my eyes.@
-
-`  When I took a walk, a black cat strolled past on the top of a wall.@
-
-`  When I basked in the sun next to the riverside road, a hearse passed by.@
-
-`  And when I gave Fishman a swift kick because I was in a bad mood, the strap on my sandal snapped.\
-
-`  ...... Something was going to happen today.@
-
-`  And the worst omen of all was:@
-br
-ld c,":a;data/chiyu.jpg",10,500
-
-`  "... Sis?  Why the dark expression?"@
-br
-wait 500
-
-`  Chiyu was worried about me.@
-!s80
-
-`  THAT was ominous.\
-!s20
-bg black,10,500
-
-`  While I was pondering all that...@
-br
-
-`  *tap* *tap*@
-br
-wait 500
-!s70
-
-`  Someone tapped my shoulder.@
-
-`  I cringed and began to turn around, and...@
-!s20
-bg "data/machi.jpg",0
-ld c,":a;data/hiro.jpg",10,1000
-
-`  "Yoo-hoo!@  How's it going?"\
-stop
-bg black,10,300
-wait 500
-!s70
-
-`  ... I felt dizzy.@
-!s20
-br
-
-`  So THIS was what it had all been about, huh?@
-
-`  The raven this morning, !w100the black cat, !w100snapping my sandal strap, !w100and even Chiyu being worried about me.\ 
-play "data/hitisagasi.mid"
-bg "data/machi.jpg",0,1000
-ld l,":a;data/hiro.jpg",0
-ld r,":a;data/chiyu.jpg",10,500
-
-`  Chiyu was just staring at this new arrival with utter suspicion.@
-
-`  Well, it wasn't as if she'd remember, after all.@
-
-
-`  Since she was just one year old at the time.\
-!s80
-
-`  "Mom... what are you doing here?"@
-!s20
-br
-
-`  "Well, obviously... I wanted to come and see my adorable, adorable daughters!"@
-br
-!s70
-
-`  "Uh... huh, somehow I get the feeling that you're not telling me HALF of it..."\
-!s20
-
-bg black,10,1000
-wait 500
-
-`  My mother shifted her interest to Chiyu, and the two of them talked about all sorts of things.@
-
-`  I'd been worried that Chiyu and Mom wouldn't really connect, but this put those groundless fears to rest.\
-bg "data/machi.jpg",0
-ld c,":a;data/hiro8.jpg",10,1000
-!s40
-
-`  "By the way, Fishman... what happened to that errand I sent you on?@  I'm sure you didn't forget about it, or DID YOU?"@
-!s20
-br
-
-`  Oooh, so now the fishman was out of the frying pan and into the fire.@
-
-`  He turned to me, his eyes pleading for help, but I ignored him.\
-
-`  My life was just too precious to me.  Though I WAS already dead.@
-br
-bg "data/sora.jpg",10,1000
-
-`  ... My, how polluted the air has become recently.@  It must be because of those newfangled "cars" people are driving these days...@
-
-`  I resorted to making observations like that in order to try to block out Fishman's unearthly screams.@  I failed, by the way.@
-br
-
-`  "Well now, since we're meeting again after such a long time, there are lots of things I want to know about."\
-
-`  Apparently, my mother hadn't changed ONE BIT since the last time I'd seen her.@
-
-`  Talk about scary...@
-
-`  ... *sigh*  I mean, they say that it's nice to be young, but THIS WAS RIDICULOUS.\
-bg "data/machi.jpg",10,1000
-
-`  My mother was now chatting away gaily with Chiyu, her back turned to me.@
-
-`  ...... Hang on a sec.@
-br
-
-`  "Hey, Mom... what's that THING on your back?"@
-br
-
-`  I asked, pointing at SOMETHING that was growing out of her back.@
-ld c,":a;data/hiro.jpg",10,500
-br
-
-`  "Hmm?@  Ah, this.@  Well, once you've lived in the spiritual realm for a while, you see, you start being gifted with stuff like this..."\
-br
-
-`  BEING GIFTED...?!  Was it THAT SIMPLE to just start sprouting stuff like that?!@
-
-`  I wondered as I stared at the jet-black wings that were protruding from my mother's back.\
-bg "data/sora.jpg",10,1000
-
-`  I'm sure that the look on my face just then was priceless.@
-br
-!s60
-
-`  But you know, !w200even if it was just a little bit...!s30@
-
-`  I was just a teeny, tiny bit happy about all of this...!w200@ and I'd keep that locked away within me forever.\
-!s20
-wait 1000
-bg black,10,1500
-stop
-wait 1000
-
-
-
-`  I was sleeping in my usual tomb when,@
-
-`  Fishman suddenly burbled,
-br
-
-`  "Hey!  There's somebody here!"\
-br
-
-
-`  "What, are we being seanced from the grave or something?"@
-br
-
-`  And so I went out of the tomb and took a look.@
-
-`  Wow, there really WAS somebody here.\
-
-`  I introduced myself casually, and watched what this person would do.@
-
-`  But fortunately, he seemed rather pleased with me.@
-br
-
-`  ... Well, after all, being summoned like this was pretty unusual,@ and I had to make a note to make sure that this kind of thing didn't happen again.@
-br
-
-`  Anyway, it was unthinkable at the time that I became a ghost,@ but can you imagine?  We can even surf the internet these days!@
-
-`  After all, there are lots of things in life that you'll never really understand, right?\
-bg "data/eve07.jpg",10,1000
-wait 700
-locate 0,9
-!s50
-
-`  "Well, anyway, !w100so it's nice to meet you,                      User-san."\
-!s20
-wait 2000
-bg black,10,2000
-play "data/ending.mid"
-wait 2000
-bg white,10,2500
-wait 2000
-
-bg "data/end01.jpg",10,1500
-ld r,":c;data/text01.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-wait 500
-
-ld r,":c;data/text08.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end02.jpg",10,1000
-ld r,":c;data/text02.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end03.jpg",10,1000
-ld r,":c;data/text03.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end04.jpg",10,1000
-ld r,":c;data/text04.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end05.jpg",10,1000
-ld r,":c;data/text05.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end07.jpg",10,1000
-ld r,":c;data/text06.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end01.jpg",10,1000
-ld r,":c;data/text07.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end02.jpg",10,1000
-ld r,":c;data/text09.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end03.jpg",10,1000
-ld r,":c;data/text10.jpg",10,1300
-wait 4000
-click
-ld r,":c;data/textwhite.jpg",18,2200,"data/m3.jpg"
-
-bg white,10,2000
-bg black,10,500
-
-mov %200,1
-stop
-bg black,10,2000
-wait 1000
-goto *start
-
-*ending
-bg black,10,500
-wait 500
-end
-</pre>
+[[Файл:7908.jpg|right]]
+'''Название:''' Shuffle!
+<br>'''Жанр:''' Школа, романтика, мистика, драма
+<br>'''Продолжительность:''' Большая (30 - 50 часов)
+<br>[http://vndb.org/v7 '''Страница на vndb.org'''] {{vndb|28}}
+<br>'''Направление перевода:''' {{lang-en}} → {{lang-ru}}
+
+
+<br>'''Описание:'''
+<br>Эта интерактивная новелла, повествующая о жизни обычного японского школьника в мире, в котором живут рядом люди, боги и демоны. Сколько-то лет назад на Земле (а конкретно - в Японии) открылись порталы, откуда и хлынули представители двух рас. И теперь перед протагонистом стоит нелегкий выбор - стать наследником расы демонов или богов, женившись на одной из принцесс. Кроме них, главный герой может выбрать и других девушек - подругу детства Каэде, Асу-семпай, или даже юную демонессу Примулу.
+<br>
+<br>
+----
+<br>
+*'''<u>Участники</u>'''
+**'''Перевод:'''
+**'''Редактура:''' 
+**'''Графика:'''
+**'''Инструменты:'''
+<br>
+----
+== Статус ==
+*'''Первеод:''' xxx/yyy
+*'''Редактура:''' xxx/yyy
+*'''Графика:''' xxx/yyy
+
+
+== Скрипты ==
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	!Готово !!Ведётся работа!! Не начато
+	|-
+	| {{OK}} || {{Work}} || {{No}}
+	|}
+|}
+=== {{Work}} Основная ветка ===
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	! Скрипт !! Перевод !! Правка !! Комментарии
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка''': %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|}
+|}
+=== {{Work}} Ветка Сии ===
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	! Скрипт !! Перевод !! Правка !! Комментарии
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка''': %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|}
+|}
+=== {{Work}} Ветка Неринэ ===
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	! Скрипт !! Перевод !! Правка !! Комментарии
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка''': %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|}
+|}
+=== {{Work}} Ветка Каэдэ ===
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	! Скрипт !! Перевод !! Правка !! Комментарии
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка''': %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|}
+|}
+=== {{No}} Ветка Асы ===
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	! Скрипт !! Перевод !! Правка !! Комментарии
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка''': %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|}
+|}
+=== {{No}} Ветка Примулы ===
+{|style="text-align:center"
+ |- valign="top"
+ |
+	{|class="wikitable" style="background: #ffffff;"
+	! Скрипт !! Перевод !! Правка !! Комментарии
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка''': %username%
+	|-
+	| [[Shuffle!:%скрипт%]] || {{Work}} || {{No}} || '''Перевод:''' %username%, '''Правка:''' %username%
+	|}
+|}
