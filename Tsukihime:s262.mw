@@ -8,33 +8,33 @@ bg "image\bg\bg_33a.jpg",%type_nowaitdisp
 
 
 br
-` ---No, I have to find out about Senpai.@
-` I don't have time to eat this morning.@
+` Нет, я должен узнать о Семпай.@
+` У меня нет времени на завтрак.@
 br
 
 
 ; ??<?>=??:?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"---Shiki-sama?"@
-` Hisui comes from the sitting room.@
-` She must have come to check on me since I did not show up after a while.\
+`— Шики-сама?..@
+` Хисуи выходит из гостиной.@
+` Наверно она вышла чтобы проведать меня, так как меня слишком долго не было.\
 
-`"...... Sorry.@ I'm going to school, please tell Akiha I'm sorry."@
+`— Извини...@ Я пошёл в школу. Передай Акихе, что мне очень жаль.@
 
 
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
 
-`"...... Please wait Shiki-sama.@ You do not look well.@ Are you sure you are feeling well......?"@
-`"---I'm fine, just a little headache.@ Well, I'm off...... Sorry, I'm being selfish again."@
+`— Подождите пожалуйста, Шики-сама.@ Вы не очень хорошо выглядите.@ Вы точно хорошо себя чувствуете?..@
+`— Я в порядке, только голова немного побаливает.@ Ну, я пошёл... Извини, что снова думаю только о себе.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
 
-` ...... I say something really selfish and open the door before she can respond.\
+` С этими словами я открываю дверь, прежде чем она успевает ответить.\
 
 
 ; ???<???????(?)>
@@ -45,72 +45,74 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 bg "image\bg\bg_01a.jpg",%type_crossfade_slw
 
 
-` I reach the school gate.@
-` Since I ran from the mansion, it's not even half past seven yet.@
+` Я ув школьных ворот.@
+` Благодаря тому, что я бежал от самого особняка, сейчас и половины восьмого ещё нет.@
 br
-`"............"@
-` I stand and wait for Senpai by the gate.@
-` It probably looks a little strange to the other students walking by, but I don't really care.\
+` «…»@
+` Я стою у ворот и жду Семпай.@
+` Наверно я смотрюсь странно для учеников, проходящих мимо, но мне плевать.\
 
 !w5000
 
-`"..............."@
-` Senpai doesn't show up.@
-` It's past seven thirty already.\
+` «...»@
+` Семпай всё никак не появится.@
+` Уж половина миновала.\
 
 !w5000
 
-` Ten more minutes pass by.@
-` The school gate is flooded with students as they arrive.\
+` Прошло ещё десять минут.@
+` Ворота забиты прибывающими студентами.\
 
 
 !w5000
 
-` There's only about five minutes before the gate closes.@
-` But Senpai still does not come.\
+` Минут через пять они закроются.@
+` А её всё нет.\
 
-`"........."@
-` She---might not come today.@
-` Yesterday, I saw all that happened, so she might not come today, or tomorrow, or the day after---
+` «…»@
+` Она… Может сегодня и не прийти.@
+` Вчера я видел всё, что случилось, так что она может не прийти ни сегодня, ни завтра. Может она вообще больше не придёт в школу...
 br
-` ---Thump.@
+` «Тук».@
 br
-`"......... Ah."@
-` Thinking that, I feel a little faint.@
-` I shake my head to clear it of terrible thoughts.\
+`— Аа...@
+` От этой мысли мне становится дурно.@
+` Я мотаю головой, пытаясь её отогнать.\
 
-` ...... And then,
-` someone pats me on the shoulder from behind.@
+` И вдруг...
+` Кто-то хлопает меня сзади по плечу.@
 br
 
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07a.jpg",%type_lshutter_fst
 
-`"Tohno-kun, what are you doing here?"@
-`"Se, Senpai......!?"@
-`"Yes."@
-` Senpai nods.\
-`"R, really......!?@ But yesterday, you were---"@
-` Mph.@
-` Before I could finish, Senpai puts her hand over my mouth.\
+`— Тоно-кун, ты что тут делаешь?@
+`— Се-Семпай?!@
+`— Ну да.@
+` Она кивает.\
+
+`— П-правда?@ Но вчера ты…@
+` Мфх.@
+` Она закрывает мне рот ладонью.\
+
 
 
 ; ??<?>=???:?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
 
-` "Tohno-kun, not here.@ Let's go behind the gymnasium."@
-` Senpai gives her usual smile as she keeps her hand over my mouth and pulls my arm.@
+`— Не здесь.@ Пойдём за спортзал.@
+` Со своей обычной улыбкой она тянет меня за рукав, не убирая, впрочем, ладони от моего рта.@
 
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
 
-`"..., ...!"@
-` I try to tell her to stop, but I can't speak.@
-` She forcefully pulls me away.\
+` «…, …!»@
+` Я хочу сказать ей прекратить, но говорить не могу.@
+` Она силой меня уводит.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -123,11 +125,12 @@ play "*3"
 ;S.E."??"
 wave se2
 
-` ----The school bell rings overhead.@
+` Раздаётся школьный звонок.@
+
 !w5000
 
-` ...... Homeroom has begun.@
-` Furthermore, no one else is around.@
+` Первый урок начался.@
+` И никого в округе нет.@
 br
 
 
@@ -135,30 +138,26 @@ br
 ld c,":a;image\tachi\cel_t07a.jpg",%type_lshutter_fst
 
 
-`"Yes, no one can hear us here."@
-` Senpai finally releases me.@
-` Jumping back, I face Senpai directly.\
+`— Да, здесь нас никто не услышит@
+` Семпай наконец-то меня отпустила.@
+` Отпрыгнув назад, я разворачиваюсь к ней лицом.\
 
-`"You want to talk about last night, right?@ If there's anything you want to say, please go ahead, Tohno-kun."@
-` Senpai speaks calmly.@
-` As if what happened last night was not a big deal.@
-`"...............!"@
-` But it was a big deal for me.@
-` Her attitude right now makes me mad.\
+`— Ты ведь хотел поговорить о прошлой ночи?@ Я вся внимание, Тоно-кун."@
+` Она говорит спокойно.@
+` Словно вчра не проихошло ничего необычного.@
+` «…!»@
+` Но это было необычным для меня.@
+` Это её отношение меня злит.\
 
-`"So that really was you last night......!?"@
-`"Yes.@ I did say your name back then too, so it's impossible to hide it any longer."@
+`— Так это и впрямь была ты?!@
+`— Да.@ Я ведь назвала тебя по имени, так что скрывать больше не выйдет.@
 cl c,%type_crossfade_fst
 
-`" ............!"@
-` I grit my teeth.@
-` ...... I didn't expect an apology or anything, but still---\
-
-
+` «…!»@
+` Я сжимаю зубы.@
+` Я не ожидал извинений, но всё же...\
 
 return
-
-
 </pre>
 
 [[Tsukihime|[Назад]]]
