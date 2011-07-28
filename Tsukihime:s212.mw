@@ -11,20 +11,20 @@ bg "image\bg\bg_06a.jpg",%type_nowaitdisp
 
 
 
-`"...... Sorry.@ I really don't feel too good right now.@ I'm going to the clinic, so please just have lunch with Arihiko."@
+`"...... Прости.@ Я правда не очень хорошо себя чувствую.@ Я собираюсь в клинику, так что, пожалуйста позавтракай с Арихико."@
 
 ;(????09)
 ld c,":a;image\tachi\cel_t09.jpg",%type_crossfade_fst
 
-` Senpai sighs.@
-` "...... I don't know what is going on, but please do not push yourself, Tohno-kun."@
-`"Haha--I'm going to the clinic so I won't push myself."@
+` Семпай вздохнула.@
+` "...... Я не знаю, что происходит, но, пожалуйста, не заставляй себя, Тоно-кун."@
+`"Хаха--Я собираюсь в клинику, поэтому я заставляю себя."@
 
 ;(???????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Forcing a smile, I leave the classroom.\
+` Выдавив улыбку, я вышел из класса.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -36,13 +36,13 @@ playstop
 bg "image\bg\bg_06b.jpg",%type_lshutter_mid
 
 
-` When I get back, homeroom has ended.@
-` I'm the only one left in the classroom as everyone else has rushed off to club activities or to their houses.@
+` Когда я вернулся, класс был пуст.@
+` Единственным, кто оставался в классе, был я. Все остальные либо разошлись по клубам, либо вернулись домой.@
 br
-`"----Well."@
+`"----Хорошо."@
 br
-` There's really no need for me to stay here.@
-` Putting my things in my bag, I leave the classroom.\
+` У меня нет причин оставаться здесь.@
+` Сложив свои вещи в сумку я покинул класс.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -51,8 +51,8 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_23b.jpg",%type_lcartain_mid
 
 
-` It's past four o'clock.@
-` I told Hisui that I'd return around four, so I don't have time to wander around.\
+` Было уже четыре часа.@
+` Я сказал Хисуи, что вернусь около четырех, так что у меня не оставалось времени побродить по окрестностям.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -62,14 +62,14 @@ bg "image\bg\bg_22b.jpg",%type_lcartain_mid
 
 
 `"......"@
-` I suddenly stop as I walk up the hill.@
-` Yesterday, at this same time.@
-` I remember how natural the parting was between Yumizuka and I.\
+` Подойдя к холму, я вдруг остановился.@
+` Вчера, в это же время.@
+` Я помню, каким естественным было расставание с Юмизукой.\
 
 `"............"@
-` To be honest, I'm concerned about Yumizuka.@ But no matter how much I worry, there's nothing I can do.@
-` I told her I would help her as much as I could whenever she was in a pinch.@
-` But now, I don't even know how I can help.\
+` Говоря откровенно, я беспокоился о Юмизуке.@ Но, не имеет значения как много я думаю об этом, ведь я ничего не могу сделать.@
+` Я сказал ей, что помогу чем смогу, когда бы она ни нуждалась.@
+` Но сейчас, я даже не знаю, что я могу сделать.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -80,71 +80,72 @@ bg "image\bg\bg_32b.jpg",%type_lcartain_mid
 play "*1"
 
 
-` I reach the top of the hill, walk along the wall and reach the front gate of the mansion.@
-`"...... This western mansion does seem out of place."@
-` In the middle of a residential area and at the top of a hill, this imposing mansion really does give the impression that it is from a country other than Japan.@
-` Besides, to top it all off----
+` Я поднялся на вершину холма, прошел вдоль стены и добрался до ворот особняка.@
+`"...... Здесь, это здание, построенное в западном стиле кажется неуместным."@
+` В центре жилого района, на вершине холма, этот внушительный особняк действительно производит впечатление, что он иностранный, а не японский.@
+` И кроме того, в довершение ко всему----
 
 ;(?????)
 ; ?? : 11~20 : 16_???<??????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_lshutter_mid
 
-`"Welcome back, Shiki-sama."@
+`"С возвращением, Шики-сама."@
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` And standing there in front of the gate to welcome me is a maid.@
-` Hisui stands like a statue in front of the gate.\
+` Стоящая здесь, перед воротами, встречающая меня служанка.@
+` Хисуи стоит как статуя перед воротами.\
 
-`"Thanks, Hisui...... Um, forgive me for asking, but have you been waiting for me here the whole time?"@
+`"Спасибо, Хисуи...... хм, прости за вопрос, ты долго ждала меня здесь?"@
 
 
-`"No, not the whole time.@ I have only waited for half an hour.@ Is there something wrong?"@
-` She speaks extremely matter-of-factly.@
-` ...... Wait a minute, waiting for me like that is going overboard.\
+`"Нет, не долго.@ Я жду здесь всего полчаса.@ Что-то не так?"@
+` Она говорит очень сухо.@
+` ...... Стоп, так ждать меня - уже слишком.\
 
-`"---I'm really happy that you waited to greet me, but you don't have to go that far.@ Wearing that and standing so conspicuously, I feel a little embarrassed."@
-` Plus it is autumn.@ It'll get pretty cold out soon.@
+`"---Я действительно счастлив, что ты встретила меня, но тебе не следует заходить так далеко.@ Носить эту одежду и стоять здесь... я немного смущен."@
+` К тому же уже осень.@ Скоро на улице будет довольно холодно.@
 
 `"........................"@
-` Hisui is silent.@
-` She might be part foreigner, as her blue eyes are like finely crafted glass, staring at me lifelessly without emotion.@
-` A brief silence ensues.\
+` Хисуи молчит.@
+` Она, должно быть, наполовину иностранка, так как её голубые глаза, как хорошо обработанные линзы, смотрели на меня безжизненно, безо всяких эмоций.@
+` Следует короткое молчание.\
 
 ld c,":a;image\tachi\his_t01b.jpg",%type_crossfade_fst
 
-`"...... I understand.@ Then, starting tomorrow, I will wait in the lobby."@
-` Hisui gives a brief bow and opens the gate.@
+`"...... Я понимаю.@ Тогда, с завтрашнего дня, я буду ожидать вас в прихожей."
+` Хисуи слегка поклонилась и открыла ворота.@
 
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` After that, she resumes her immobile depiction of a statue.@
-` After I walk through the gate and enter the garden, she quietly follows behind me.\
+` После этого, она снова стала изображать неподвижную статую.@
+` Затем, я прошел через ворота и вошел в сад, Хисуи тихо шла позади.\
 
 ; ?? : ?? : ????(?)<??????(?)>
 bg "image\bg\bg_48b.jpg",%type_lshutter_mid
 
 
-` When we reach the entrance, Hisui whooshes past me.@
-`"Uwaa!"@
-` I instinctively jump back.@
+` Когда мы добрались до входа, Хисуи со свистом пронеслась мимо меня.@
+`"Уяя!"@
+` Я инстинктивно отскочил.@
 
 ;(???08)
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`"...... What is it, Shiki-sama?"@
-`"Uh, no-----nothing, it's nothing."@
+`"...... Что-то не так, Шики-сама?"@
+`"Хм, н---нет, всё впорядке."@
 `"..............."@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` She silently opens the front door.@
-` She must have moved ahead of me to do so.\
+` Она тихо открыла дверь.@
+` Ей требовалось обойти меня, чтобы сделать это.\
 
-` Waiting behind her master until her turn arises and quietly fulfilling her duty.@
-` Perhaps that is the duty of a maid, but it makes a normal person like me a little nervous to have her attending my every move.@
-` ...... This isn't good at all.@ This just makes me feel like a perpetual guest in my own home.\
+
+` Ждать позади хозяина, пока ее не позовут и тихо выполнять свой работу.@
+` Наверное это долг служанки, но ее слежка за каждым шагом, немного раздражает, обычного человека вроде меня.@
+` ...... Это совсем плохо.@ Такие вещи всего лишь заставляют меня чувствовать себя вечным гостем в своем доме.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -153,65 +154,64 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_33b.jpg",%type_lshutter_mid
 
 
-`"Um, Hisui?"@
+`"Хм, Хисуи?"@
 
 ;(????)
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 
-`"Yes, what is it, Shiki-sama?"@
-`"I said this yesterday already, but I'd like to do things that I can do by myself.@ No, please let me.@
-` This is sort of a secret, I suppose, but the truth is, I really am pretty lazy deep inside, so I tend to let things go."@
-` Yeah, I really want that to be a secret from Akiha.\
+`"Да, что случилось, Шики-сама?"@
+`"Я уже говорил вчера, но я хотел бы делать то, что могу, сам.@ Нет, пожалуйста, дай мне продолжить.@
+` Это, как бы, секрет, я думаю, но, по-правде говоря, глубоко внутри себя я действительно довольно ленив, поэтому я склонен позволять вещам идти своим чередом."@
+` Да, я правда хочу, чтобы Акиха не знала об этом.\
 
+`"...... Я не понимаю, вы хотите, чтобы я была строже?"@
+`"Нет, совсем нет.@ Я всего лишь хочу жить как можно спокойнее."@
+`"...... Приношу свои извинения.@ Я не думаю, что поняла то, что вы сейчас сказали, Шики-сама."@
+`"...... Хм, вот почему я говорю, что тебе тебе не стоит выглядеть настолько серьёзной."@
+` ...... Меня беспокоит это.@
+` Прошлым вечером, когда я говорил ей об этом, у меня было предчувствие, но я не знал что она воспримет всё всерьез.\
 
-`"...... I do not understand, are you telling me to be more strict?"@
-`"No, that's definitely not it.@ I just want to live as relaxed as possible."@
-`"...... I am deeply sorry.@ I do not appear to understand what you are saying, Shiki-sama."@
-`"...... Um, that's why I'm saying--you don't have to look so serious."@
-` ...... This is troubling.@
-` Last night when I talked to her a little about this I had a premonition, but I didn't know she took things this seriously.\
-
-`"---Sheesh, what I'm saying is that you don't have to worry about me.@
-` I don't mind being helped with things like laundry and cooking, but other than that, I can take care of myself.@
-` Isn't it just you and Kohaku-san taking care of this enormous mansion?@ So I don't want to add to your duties; just relax!"@
+`"---Тьфу, Я говорю, что тебе не следует беспокоиться обо мне.@
+` Я не думаю, что могу справиться с такими вещами как стирка и готовка, но о других вещах я могу позаботиться сам.@
+` Разве не только ты и Кохаку-сан заботитесь об этом громадном доме?@ Поэтому я не хочу добавляться к списку твоих обязанностей; просто расслабься!"@
 
 ;(????01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 `"........."@
-` Her expression doesn't change.@
-` She doesn't answer or even give a nod.@
-` Just... a quick closing of the eyes, I think.\
+` Её выражение лица не изменилось.@
+` Она не ответила, и, даже не кивнула.@
+` Только... быстро закрыла глаза, я думаю.\
 
-`"I understand.@ But you do not have to worry about me, Shiki-sama."@
+`"Я понимаю.@ Но вам не следует беспокоиться обо мне, Шики-сама."@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
 br
-` ----Argh, she doesn't understand at all.........@
+` ----Ох, она ничего не понимает.........@
 br
-` Hisui swiftly swishes to the side to make way for me.\
+` Хисуи быстро отошла в сторону, освобождая мне дорогу.\
 
-` I sigh.@
-` ...... I am really taken aback...@
-` All this devotion really does make me happy, but I think it'll be good if she was just half as cheerful as Kohaku-san.@
-` She has such a beautiful atmosphere around her, maybe if I just relax a little bit, that would be--\
+` Я вздохнул.@
+` ...... Меня сбили с толку...@
+` Эта преданность радовала меня, но мне кажется, что было лучше, если бы Хисуи была хотя бы наполовину такой же веселой, как Кохаку-сан.@
+` Вокруг нее царила такая приятная атмосфера. Наверное, если бы я хоть немного расслабился, было бы--\
 
 ;(????)
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
-`"Shiki-sama, are you not going to return to your room?"@
-`"No, I was just thinking about something."@
-` I turn to the side and face the stairs.@
-` Hisui looks rather longingly at the bag in my hand.@
-` ...... I think she wants me to let her carry it.@
-` She already went through all this trouble just to greet me, and now she wants to carry my bag.@
-` I ignore her longing attitude as I quickly walk towards my room.\
+`"Шики-сама, вы не собираетесь возвращаться в свою комнату?"@
+`"Нет, собираюсь, просто немного задумался."@
+` Я повернулся лицом к лестнице.@
+` Хисуи пристально смотрела на сумку в моей руке.@
+` ...... Я подумал, что она хочет взять её у меня.@
+` Она уже прошла через столько трудностей чтобы встретить меня, а сейчас она хочет нести мою сумку.@
+` Я проигнорировал её, быстро направившись к своей комнате.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -223,21 +223,21 @@ bg "image\bg\bg_40b.jpg",%type_lcartain_fst
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Please take off your school clothes and place them here.@ I have to clean the mansion, so if you need anything, please call for me."@
-`"...... Hisui, you clean the mansion?@ I wonder what Akiha and Kohaku-san are doing."@
-`"Akiha-sama is in the salon taking care of Makihisa-sama's business and inheritance matters.@ Nee-san would most likely be sweeping in the courtyard."\
+`"Пожалуйста, снимите свою одежду и положите ее здесь.@ Я должна убраться в особняке, поэтому, если вам что-то понадобится, позовите меня."@
+`"...... Хисуи, ты убираешься в особняке?@ Я думал, что Акиха и Кохаку-сан занимаются этим."@
+`"Акиха-сама в гостинной. Она ведет дела Макихисы-сама и заботится о наследстве.@ Сестра, скорее всего, подметает во внутреннем дворе."\
 
-`"...... Huh?@ My old man's business inheritance?@ Is she talking with a lawyer or something?"@
-`"Yes.@ It seems that she is being informed about all of the administration policies, so she will be extremely busy until dinner time."@
+`"...... Что?@ Семейный бизнес моего отца?@ Она разговаривает с юристом или кем-то вроде того?"@
+`"Да.@ Кажется, что она уже в курсе всей политики администрации, поэтому до ужина она очень занята."@
 `"..............."@
-` Well, the old man DID suddenly pass away, so he probably didn't tell her anything about his company.@
+` Ну, отец НЕОЖИДАННО умер, поэтому он, наверное, не рассказал ей ничего о компании.@
 
-`"Sorry for taking your time.@ I'll call you if anything happens, so you can return to what you were doing."@
+`"Прости что отнимаю твоё время.@ Я позову, если что-то случится, так что ты можешь вернуться к своей работе."@
 
 ;(???)
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"I understand.@ Well, then, please excuse me."\
+`"Я поняла.@ Тогда прошу меня извинить."\
 
 ;(??????)
 ; ?????<??????(?)>
@@ -253,9 +253,9 @@ bg "image\bg\bg_40b.jpg",%type_lshutter_mid
 playstop
 
 
-` I change out of my uniform and into some normal clothes.@
-` The clock says it's just past five o'clock.@
-` It'd be a waste if I just spaced out in my room, so now I should----
+` Я переоделся в свою обычную одежду.@
+` Часы показывали только пять часов вечера.@
+` Было бы пустой тратой времени оставаться в своей комнате, поэтому сейчас я должен----
 br
 
 
