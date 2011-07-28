@@ -150,7 +150,7 @@ suppress_overlay = False
 play music "music/fieldsoftenerron.ogg"
 
 <00000E80:00000E8D>
-Heal, please!
+Хил, плиз!
 
 <00000EFF:00000F00>
 r
@@ -159,7 +159,7 @@ r
 play sound "sounds/healing.ogg"
 
 <00000FD4:00000FF1>
-*FionaWings casts Holy Light*
+*FionaWings произносит заклинание Святое Сияние*
 
 <00001054:00001055>
 g
@@ -174,25 +174,25 @@ fightB = True
 fightC = False
 
 <000011D3:000011DA>
-Thanks!
+Спасиб!
 
 <0000123F:00001240>
 r
 
 <00001266:00001275>
-No problem. ^_^
+Нет проблем. ^_^
 
 <000012D8:000012D9>
 f
 
 <000012FF:00001326>
-But are you really sure we can do this?
+Но ты уверена, что мы справимся?
 
 <00001346:00001347>
 f
 
 <00001373:00001384>
-What do you mean?
+А почему нет?
 
 <000013F2:000013F3>
 r
@@ -201,7 +201,7 @@ r
 play sound "sounds/sword.ogg"
 
 <000014C4:000014F3>
-*RuiOfTheSword uses Blade of a Hundred Strikes*
+*МечеРуи применяет Сто ударов клинком*
 
 <00001561:00001562>
 g
@@ -210,13 +210,13 @@ g
 hpunch
 
 <000015D3:0000161F>
-We've been fighting for so long. I think this boss might be too much for us.
+Мы бьём его уже целую вечность. Думаю, этот босс нам не под силу.
 
 <00001642:00001643>
 f
 
 <0000166F:0000169A>
-Are you kidding? He hardly has any HP left!
+Ты чего? Ещё чуть-чуть и он умрёт!
 
 <000016BA:000016BB>
 r
@@ -225,7 +225,7 @@ r
 play sound "sounds/punch.ogg"
 
 <00001743:00001763>
-*RuiOfTheSword uses Swift Slash*
+*МечеРуи применяет Сверхзвуковой Удар*
 
 <000017D1:000017D2>
 g
@@ -234,19 +234,19 @@ g
 hpunch
 
 <00001843:0000188E>
-But I'm almost out of MP, and I don't have any more recovery potions! TT_TT
+Но у меня почти не осталось МП, и лечилки закончились! TT_TT
 
 <000018AE:000018AF>
 f
 
 <000018DB:00001914>
-Maybe we should train more before we try this boss again.
+Может, нам лучше ещё прокачаться, прежде чем идти на этого босса.
 
 <00001934:00001935>
 f
 
 <00001961:00001986>
-But I really want that Blessed Stone!
+Но мне нужен этот Священный Камень!
 
 <000019F4:000019F5>
 r
@@ -255,7 +255,7 @@ r
 play sound "sounds/sword.ogg"
 
 <00001AC6:00001AF5>
-*RuiOfTheSword uses Blade of a Hundred Strikes*
+*МечеРуи применяет Сто ударов клинком*
 
 <00001B18:00001B19>
 g
@@ -263,26 +263,25 @@ g
 <00001B56:00001B5C>
 hpunch
 
-<00001B8A:00001BD4>
-Besides, it's almost out of HP. I bet I could get it with one more attack.
+<00001B8A:00001BD4>К тому же, у него осталось совсем немного ХП. Я его уложу ещё одним ударом.
 
 <00001BF7:00001BF8>
 r
 
 <00001C24:00001C47>
-But aren't you out of skill points?
+Но разве у тебя ещё остались скилл-поинты?
 
 <00001C6A:00001C6B>
 f
 
 <00001C97:00001CFB>
-Don't worry. It'll only take a minute to recharge, and I can take him down with another Swift Slash.
+Не боись. Я восстановлюсь через минуту, а затем добью его Сверхзвуковым Ударом.
 
 <00001D1E:00001D1F>
 r
 
 <00001D4B:00001D5D>
-If you say so. . .
+Ну, раз так. . .
 
 <00001DCB:00001DCC>
 f
@@ -297,7 +296,7 @@ fightB = False
 fightC = True
 
 <00001F3B:00001F5E>
-Alright, all charged up! Here I go!
+Порядок, всё восполнилось! Вперёд!
 
 <00001FC7:00001FC8>
 r
@@ -306,7 +305,7 @@ r
 play sound "sounds/punch.ogg"
 
 <00002050:00002070>
-*RuiOfTheSword uses Swift Slash*
+*МечеРуи применяет Сверхзвуковой Удар*
 
 <00002093:00002094>
 g
@@ -318,7 +317,7 @@ hpunch
 play sound "sounds/sword.ogg"
 
 <000021AA:000021CB>
-*Alistair uses Blade of Darkness*
+*Алистер применяет Клинок Тьмы*
 
 <000021EE:000021EF>
 g
@@ -327,7 +326,7 @@ g
 hpunch
 
 <00002263:00002294>
-*Alistair has defeated the Troll of Mt. Mourning*
+*Алистер побеждает Тролля Мрачных Гор*
 
 <00002302:00002303>
 g
@@ -432,7 +431,7 @@ Dissolve(0.7, alpha = True)
 r
 
 <00002A39:00002A60>
-*Alistair has received a Blessed Stone*
+*Алистер получает Священный Камень*
 
 <00002A83:00002A84>
 g
@@ -480,13 +479,13 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <00002E65:00002E7E>
-What the ***** was that!?
+Что за ***** !?
 
 <00002EEC:00002EED>
 r
 
 <00002F19:00002F2C>
-Hey, you! Alistair!
+Эй, ты! Алистер!
 
 <00002F4C:00002F4D>
 r
@@ -504,19 +503,19 @@ normal
 Dissolve(0.7, alpha = True)
 
 <0000309F:000030A3>
-Huh?
+Ха?
 
 <0000310C:0000310D>
 a
 
 <00003139:00003155>
-THAT WAS MY KILL, YOU *****!
+ЭТО БЫЛ МОЙ МОБ, ТЫ, *****!
 
 <00003178:00003179>
 r
 
 <000031A5:000031BC>
-AGH, ***** this censor!
+ЧТОБ ЭТУ ***** цензуру!
 
 <000031DF:000031E0>
 r
@@ -534,7 +533,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <0000332D:00003373>
-Rui. . . calm down before you get a warning from the global moderator.
+Руи. . . спокойствие, а то получишь предупреждение от ГМа.
 
 <000033E1:000033E2>
 f
@@ -552,13 +551,13 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <00003537:00003571>
-Yeah, Rui. You wouldn't want the mods to come down on you.
+Точно, Руи. Ты же не хочешь, чтобы модераторы забанили тебя.
 
 <00003591:00003592>
 a
 
 <000035BE:000035F4>
-Shut up. You're the reason I'm mad in the first place!
+Заткнись. Это ты вывел меня из себя!
 
 <00003617:00003618>
 r
@@ -576,7 +575,7 @@ happy
 Dissolve(0.7, alpha = True)
 
 <00003769:00003779>
-Oh? Why is that?
+О? С чего это?
 
 <0000379C:0000379D>
 a
@@ -594,7 +593,7 @@ angry
 Dissolve(0.7, alpha = True)
 
 <000038E8:00003942>
-You know very well! You stole my kill, and you KNOW that Blessed Stone is rightfully mine!
+А ты будто не знаешь! Ты состилил моего моба, и Священный Камень по праву принадлежит мне!
 
 <00003965:00003966>
 r
@@ -612,7 +611,7 @@ smirk
 Dissolve(0.7, alpha = True)
 
 <00003AB7:00003AFF>
-Meh. The way I see it, I saved you from getting killed in a boss battle.
+Да ну. А по мне так я спас тебя от гибели.
 
 <00003B22:00003B23>
 a
@@ -630,7 +629,7 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <00003C71:00003C7B>
-SAVED ME!?
+СПАС МЕНЯ!?
 
 <00003C9E:00003C9F>
 r
@@ -648,19 +647,19 @@ happy
 Dissolve(0.7, alpha = True)
 
 <00003DF1:00003E35>
-He was about to strike, and you were too busy powering up to notice.
+Он собирался ударить, а ты была слишком занята восстановлением, чтобы заметить.
 
 <00003E58:00003E59>
 a
 
 <00003E85:00003EDC>
-And from the looks of your friend's stats, she doesn't have enough MP to resurrect you.
+И, судя по статам твоей подруги, у ней не хватило бы МП, чтобы воскресить тебя.
 
 <00003EFF:00003F00>
 a
 
 <00003F2C:00003F9B>
-If I hadn't come along when I did, you'd find yourself waking up in some start town with 15%%  less experience.
+Если бы я не вмешался, то ты бы оказалась в стартовом городе, потеряв 15%% опыта.
 
 <00004004:00004005>
 a
@@ -696,7 +695,7 @@ normal
 Dissolve(0.7, alpha = True)
 
 <000042CE:000042DB>
-Your welcome.
+Всегда пожалуйста.
 
 <00004344:00004345>
 a
@@ -714,13 +713,13 @@ normal
 Dissolve(0.7, alpha = True)
 
 <000044DA:000044F6>
-I'm not thanking you, idiot!
+Я и не собиралась благодарить тебя, идиот!
 
 <00004519:0000451A>
 r
 
 <00004546:00004591>
-Fiona and I were doing JUST FINE on our own, and I want that Blessed Stone!
+Мы с Фионой и без тебя хорошо справлялись и вообще, отдай мне Священный Камень!
 
 <000045B4:000045B5>
 r
@@ -738,19 +737,19 @@ happy
 Dissolve(0.7, alpha = True)
 
 <00004707:00004716>
-Well it's mine.
+Так-то он мой.
 
 <00004739:0000473A>
 a
 
 <00004766:00004787>
-No, it's mine and I want it back.
+Нет, мой!Верни его.
 
 <000047F5:000047F6>
 r
 
 <00004822:00004853>
-*RuiOfTheSword has challenged Alistair to a duel*
+*МечеРуи вызывает Алистера на поединок*
 
 <00004876:00004877>
 g
@@ -780,7 +779,7 @@ sad
 Dissolve(0.7, alpha = True)
 
 <00004AE8:00004B09>
-Are you sure you want to do this?
+Ты правда хочешь сразиться?
 
 <00004B2C:00004B2D>
 a
@@ -798,7 +797,7 @@ angry
 Dissolve(0.7, alpha = True)
 
 <00004C77:00004C93>
-Don't tell me you're scared.
+Неужто испугался.
 
 <00004CB6:00004CB7>
 r
@@ -816,7 +815,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <00004E0C:00004E3B>
-I'd just feel bad beating you down, that's all.
+Просто не хочу тебя убивать, вот и всё.
 
 <00004E5E:00004E5F>
 a
@@ -834,25 +833,25 @@ normal
 Dissolve(0.7, alpha = True)
 
 <00004FAB:00004FD3>
-Well you don't have to worry about that.
+Насчёт этого не волнуйся.
 
 <00004FF6:00004FF7>
 r
 
 <00005023:00005031>
-If you insist.
+Ну, раз ты настаиваешь.
 
 <00005054:00005055>
 a
 
 <00005081:000050B2>
-*Alistair has accepted RuiOfTheSword's challenge*
+*Алистер принимает вызов МечеРуи*
 
 <000050D5:000050D6>
 g
 
 <00005102:0000511E>
-Connecting to PvP arena. . .
+Соединение с ПвП ареной. . .
 
 <00005187:00005188>
 g
@@ -903,64 +902,64 @@ suppress_overlay = False
 renpy.block_rollback()
 
 <00005A8D:00005AE3>
-I stare at the screen in shock for a few moments, trying hard not to let out a scream.
+Я в шоке уставилась на экран монитора, сдерживаясь, чтобы не закричать.
 
 <00005B8F:00005BAA>
 play music "music/walk.ogg"
 
 <00005BD1:00005C65>
-Finally I slam my hands down on the table. The keyboard in front of me shakes, and a student using the computer next to me stares at me in surprise.
+В конце концов я ударила руками по столу. Клавиатура передо мной подскочила, отчего ученик, сидящий за соседним компьютером, удивлённо посмотрел на меня.
 
 <00005CBC:00005CC0>
 es=1
 
 <00005D60:00005D69>
-    What?
+   Что?
 
 <00005DD2:00005DD3>
 m
 
 <00005DFF:00005E29>
-I glare at him, and he quickly looks away.
+Я сверкнула на него взглядом, отчего он поспешил отвести свой.
 
 <00005ECB:00005ECF>
 es=6
 
 <00005F24:00005F2F>
-Thought so.
+Как мне показалось.
 
 <00005F52:00005F53>
 m
 
 <00005F7F:00005FD2>
-The computer lab is surpisingly empty right now. I glance at the clock on the wall.
+Компьютерный класс на удивление пуст. Я взглянула на настенные часы.
 
 <0000601D:00006087>
-Lunch will be over in ten minutes. Figures. I always lose track of time when I'm playing Rivenwell Online.
+Обеденный перерыв закончится через 10 минут. Мда уж. Я всегда теряю ход времени, играя в Rivenwell Online.
 
 <0000611D:000061BC>
-Still, darn this school's spotty internet connection. I'll bet that I automatically forfeited that duel. That Alistair jerk must think I'm some sort of coward.
+Чёрт побери этот непостоянный школьный интернет. Наверняка я автоматически считаюсь проигравшей в этом поединке. Этот негодяй Алистер будет считать меня трусихой.
 
 <00006253:000062C0>
-I refresh the screen, but the blinking message on my monitor informs me there's still no internet connection.
+Я обновила экран, но мигающее сообщение на мониторе извещало, что соединения всё ещё нет.
 
 <0000630C:00006386>
-Ugh... what if it's not a clean disconnect? Alistair could be hacking away at poor, defenseless, Rui! I bet he would, too.
+Ух... а что если это частичный разрыв соединения? Наверняка Алистер бьёт беззащитную Руи! Уж он воспользуется этим точно.
 
 <000063D2:00006453>
-I have to get back online right now! But it's not like refreshing my screen over and over is going to make things magically work.
+Мне надо вернуться в онлайн сейчас же! Но вряд ли обновление экрана поможет в этом волшебным образом.
 
 <0000649F:000064B0>
-I need an expert.
+Мне нужен знаток.
 
 <000064FC:0000654B>
-I scan the computer lab, looking for someone who might know what they're doing.
+Я пробежала глазами по классу, ища того, кто осведомлён в этом деле.
 
 <00006597:0000659B>
-Aha!
+Ага!
 
 <000065E7:0000664F>
-At the far end of the lab, leaning back in a dark corner, a guy is typing away furiously on his machine.
+В дальнем конце класса, откинувшись в темном углу, сидел парень, что-то яростно печатающий без остановки.
 
 <00006702:0000670A>
 dissolve
@@ -975,31 +974,31 @@ travis01
 play music "music/fluctuations.ogg"
 
 <0000691E:00006985>
-I think I've seen him before. He's in here a lot, especially when the Computer Games Club has meetings.
+Кажется, я встречала его раньше. Он здесь часто бывает, особенно, когда проводятся встречи по Клубу Компьютерных игр.
 
 <000069D1:00006A09>
-I quickly approach him and flash my most charming smile.
+Я быстро подошла к нему и расплылась в своей самой обаятельной улыбке.
 
 <00006A61:00006A65>
 es=0
 
 <00006B02:00006B08>
-Hello.
+Привет.
 
 <00006B2B:00006B2C>
 m
 
 <00006B59:00006B6C>
-He doesn't respond.
+Он не ответил.
 
 <00006BB8:00006BC3>
-Um...hello!
+Мм...привет!
 
 <00006BE6:00006BE7>
 m
 
 <00006C14:00006C2F>
-I heard you the first time.
+Я тебя услышал в первый раз.
 
 <00006C52:00006C59>
 unknown
@@ -1008,46 +1007,46 @@ unknown
 es=6
 
 <00006D38:00006D56>
-Then why didn't you answer me?
+А чего не ответил?
 
 <00006D79:00006D7A>
 m
 
 <00006DA7:00006DB7>
-I did. I nodded.
+Ответил. Я кивнул.
 
 <00006DDA:00006DE1>
 unknown
 
 <00006E13:00006E21>
-No you didn't.
+Не было такого.
 
 <00006E44:00006E45>
 m
 
 <00006E72:00006EBD>
-No, you just weren't paying attention. Is this conversation going anywhere?
+Было, ты просто не обратила внимания. Этот разговор куда-нибудь идёт?
 
 <00006EE0:00006EE7>
 unknown
 
 <00006F19:00006F8C>
-Ugh, this guy is so RUDE. No wonder he spends so much time with computers. I bet he doesn't even have a girlfriend.
+Ух, этот парень такой ГРУБИЯН. Не удивительно, почему он проводит столько времени за компьютером. Да и девушки у него наверняка нет.
 
 <00006FE4:00006FE8>
 es=2
 
 <0000708A:000070BC>
-Um yeah, you're in the Computer Games Club, right?
+Мм, да, ты же состоишь в клубе компьютерных игр?
 
 <000070DF:000070E0>
 m
 
 <0000710D:00007152>
-He raises an eyebrow, as if I just asked a painfully stupid question.
+Он поднял бровь, как будто я задала наиглупейший вопрос.
 
 <0000719E:000071EC>
-I'm the president of the Computer Gaming Club. Travis. Or haven't you noticed?
+Я президент Клуба Компьютерных игр. Тревис. Ты не замечала?
 
 <0000720F:00007210>
 t
@@ -1056,13 +1055,13 @@ t
 es=5
 
 <000072A4:000072B9>
-O-oh...I didn't know.
+О-о...Не знала.
 
 <000072DC:000072DD>
 m
 
 <0000730A:00007371>
-I'm surprised. You're always here in the lab playing your silly little online game while we're meeting.
+Я удивлён. Каждый раз, когда у нас проходит встреча клуба, ты здесь играешься в свою глупую онлайн игру.
 
 <00007394:00007395>
 t
@@ -1071,34 +1070,34 @@ t
 es=2
 
 <0000746F:000074D3>
-But I suppose you never bothered to pay any attention to us, though. Otherwise you would have known.
+Но ты, похоже, не обращала на нас внимания. Так бы знала.
 
 <000074F6:000074F7>
 t
 
 <00007524:0000752E>
-R-right...
+В-верно...
 
 <0000759C:0000759D>
 m
 
 <000075CA:00007601>
-How on earth do the other members put up with this guy?
+И как остальные в клубе уживаются с этим парнем?
 
 <00007659:0000765D>
 es=6
 
 <000076FA:00007722>
-So you know how to fix computers, right?
+Значит ты разбираешься в компах?
 
 <00007745:00007746>
 m
 
 <00007773:000077B8>
-His eye twitches...only slightly, but it's obvious that he's annoyed.
+Его глаз слегка дёрнулся, но было заметно,что он раздражён.
 
 <0000784A:00007850>
-Maybe.
+Может быть.
 
 <00007873:00007874>
 t
@@ -1107,13 +1106,13 @@ t
 es=5
 
 <0000794E:0000796B>
-Well, the internet is down...
+В общем, интернет не работает...
 
 <0000798E:0000798F>
 m
 
 <000079BC:00007A19>
-Travis lets out a long sigh, rubbing the sides of his head slowly before he turns to face me.
+Тревис глубоко вздохнул, потирая голову, прежде чем повернутсья ко мне лицом
 
 <00007A66:00007A71>
 computerlab
@@ -1128,7 +1127,7 @@ normal
 dissolve
 
 <00007B6A:00007B76>
-Listen uh...
+Слушай, э...
 
 <00007B99:00007B9A>
 t
@@ -1137,19 +1136,19 @@ t
 es=6
 
 <00007C74:00007C7A>
-Merui.
+Меруи.
 
 <00007C9D:00007C9E>
 m
 
 <00007CCB:00007CD7>
-Yeah. Merui.
+Да. Меруи.
 
 <00007CFA:00007CFB>
 t
 
 <00007D28:00007D58>
-He shakes his head as if he doesn't really care.
+Он покачал головой, как будто ему было вообще всё равно.
 
 <00007E0B:00007E13>
 dissolve
@@ -1161,25 +1160,25 @@ travis
 annoyed
 
 <00007ED8:00007F11>
-Fixing computers does not work the way you think it does.
+Починка компьютера это не то, как ты себе представляешь.
 
 <00007F34:00007F35>
 t
 
 <00007F62:00007FB6>
-He measures each word out slowly and carefully as if he's speaking to a small child.
+Он взвешивал каждое слово медленно и тщательно, будто разговаривал с маленьким ребёнком.
 
 <00008090:000080A7>
-Ugh...what should I do?
+Ух...что мне делать?
 
 <000080BE:000080CD>
-Argue with him.
+Спорить с ним.
 
 <000080FD:00008113>
 renpy.block_rollback()
 
 <0000816A:000081E2>
-I know how computers work! I'm just asking you to see if you can get the internet working again. Is that so much to ask?
+Я знаю, как работают компьютеры! Я лишь прошу посмотреть, можно ли что-то сделать с интернетом, чтобы он снова заработал. Это так сложно?
 
 <00008250:00008251>
 m
@@ -1194,13 +1193,13 @@ travis
 angry
 
 <00008365:000083A6>
-You know what? Yes. Yes it is. Because it's not my network, okay?
+Знанешь что? Да. Да, сложно. Потому что это не моя сеть, ясно?
 
 <000083C9:000083CA>
 t
 
 <000083F7:00008484>
-Oh, so all the times that there were computer problems during your club hours and you rushed off to fix it, it magically became your network?
+А, так значит, когда возникали проблемы с компами во время ваших встреч клуба, и ты бросался их чинить, сеть волшебным образом становилась твоей?
 
 <000084A7:000084A8>
 m
@@ -1224,7 +1223,7 @@ t
 es = 0
 
 <0000867D:000086A7>
-Believe it or not, I WAS paying attention.
+Как видишь, я ОБРАЩАЛА внимание.
 
 <000086CA:000086CB>
 m
@@ -1239,13 +1238,13 @@ travis
 annoyed
 
 <000087E1:0000882A>
-Fixing a computer issue is different from rebooting a network connection.
+Ремонт компьютера не имеет ничего общего с перезагрузкой сетевого подключения.
 
 <0000884D:0000884E>
 t
 
 <0000886F:00008881>
-Play on his pride.
+Играть на его гордости.
 
 <000088B1:000088C7>
 renpy.block_rollback()
@@ -1260,13 +1259,13 @@ travisXP += 4
 es = 2
 
 <00008A6D:00008ACC>
-I'm sorry... I just thought that since you knew a lot about computers, you'd be able to fix it.
+Извини... Я просто подумала, что раз ты разбираешься в компах, то можешь что-то сделать.
 
 <00008AEF:00008AF0>
 m
 
 <00008B1D:00008B3D>
-But I guess I overestimated you.
+Но похоже, я переоценила тебя.
 
 <00008B60:00008B61>
 m
@@ -1281,25 +1280,25 @@ travis
 angry
 
 <00008C75:00008C90>
-Travis' eye twitches again.
+Глаз Тревиса снова дёрнулся.
 
 <00008CDC:00008D09>
-It's fine. A lot of people make that mistake.
+Всё в порядке. Многие ошибаются.
 
 <00008D2C:00008D2D>
 t
 
 <00008D5A:00008DA0>
-His voice is laced with bitterness. I think I really hit a sweet spot.
+Его голос был полон горечи. Видимо, я задела его за живое.
 
 <00008E06:00008E8E>
-But seeing as you hold so much faith in me, I'll see what I can do about the internet connection if you can solve a quick puzzle for me.
+Но раз ты возлагаешь на меня надежды, я посмотрю, что там с интернет соединением, если ты решишь небольшую загадку.
 
 <00008EB1:00008EB2>
 t
 
 <00008EDF:00008EE8>
-A puzzle?
+Загадку?
 
 <00008F0B:00008F0C>
 m
@@ -1314,7 +1313,7 @@ travis
 happy
 
 <0000906B:000090D1>
-Yeah. Imagine you're in one of your silly online games and there are two classes - knights and demons.
+Да. Представь, что ты в одной из своих дурацких онлайн игр, где существует два класса-рыцари и демоны.
 
 <000090F4:000090F5>
 t
@@ -1329,31 +1328,31 @@ es=6
 m
 
 <00009223:00009295>
-Knights and demons are exactly the same in all ways but one. Knights always tell the truth, and demons always lie.
+Рыцари и демоны почти одинаковы, но с одним отличием. Рыцари говорят только правду, а демоны всегда лгут.
 
 <000092B8:000092B9>
 t
 
 <000092E6:000092E9>
-So?
+И?
 
 <0000930C:0000930D>
 m
 
 <0000933A:00009398>
-You run into two of these guys and you know that one must be a knight and one must be a demon.
+Столкнувшись с ними, ты знаешь, что один из них должен быть демоном, а другой рыцарем.
 
 <000093BB:000093BC>
 t
 
 <000093E9:000093ED>
-How?
+Как?
 
 <00009410:00009411>
 m
 
 <0000943E:00009450>
-He rolls his eyes.
+Он закатил глаза.
 
 <00009503:0000950B>
 dissolve
@@ -1365,13 +1364,13 @@ travis
 annoyed
 
 <000095D0:000095DC>
-You just do.
+Просто знаешь.
 
 <000095FF:00009600>
 t
 
 <0000962D:000096A9>
-Anyway, you're only allowed to ask one yes or no question. How do you figure out which is the knight and which is the demon?
+Ты можешь задать лишь один вопрос, на который можно ответить "да" или "нет". Как выяснить, кто из них рыцарь, а кто демон?
 
 <00009717:00009718>
 t
@@ -1380,7 +1379,7 @@ t
 es=2
 
 <000097F2:0000981D>
-Um... you ask one of them if he's a knight?
+Мм... спросить одного из них, не рыцарь ли он?
 
 <0000988B:0000988C>
 m
@@ -1395,7 +1394,7 @@ travis
 normal
 
 <000099EC:00009A3E>
-Wrong. Now if you'll excuse me, I have to get to class. I suggest you do the same.
+Неверно. Что ж, с твоего позволения, мне пора на занятия. Советую и тебе пойти.
 
 <00009A61:00009A62>
 t
@@ -1404,7 +1403,7 @@ t
 es = 3
 
 <00009B43:00009B6A>
-    Wait, is there even a right answer?
+    Погоди, а есть ли вобще правильный ответ?
 
 <00009B8D:00009B8E>
 m
@@ -1419,13 +1418,13 @@ travis
 annoyed
 
 <00009CA4:00009CB2>
-Hm...I wonder.
+Хм...кто знает.
 
 <00009CD5:00009CD6>
 t
 
 <00009D03:00009D58>
-He grabs a messenger bag from the ground, slings it over his shoulder, and walks off.
+Взяв сумку с пола и перекинув её через плечо, он вышел из класса.
 
 <00009E0B:00009E17>
 moveoutright
@@ -1434,7 +1433,7 @@ moveoutright
 travis
 
 <00009EE0:00009F5B>
-Before I have any time to think about his puzzle any longer, the warning bell rings. I grab my books and dash off to class.
+Прежде, чем я успела ещё подумать о загадке, прозвенел предупредительный звонок. Я схватила учебники и поспешила на урок.
 
 <00009FC3:00009FDB>
 stop music fadeout (1.5)
@@ -1449,43 +1448,43 @@ classroom
 play sound "sounds/schoolbell.ogg"
 
 <0000A1E1:0000A238>
-I slide into the only empty seat left in the class just as the bell rings. Phew...safe.
+Я проскочила на оставшееся свободное место в классе, как раз, когда прозвенел звонок на урок. Фух...спасена.
 
 <0000A2CA:0000A348>
-The teacher begins her lecture, and I summarily ignore her, contenting myself with doodling a series of flowers on my handout.
+Учитель начала свою лекцию, а я, игнорируя её, начала разрисовывать свою тетрадь цветочками.
 
 <0000A394:0000A3F9>
-Since we've just concluded our section on ancient civilizations, we'll be doing a term project on it.
+Так как мы заверишили раздел о древних цивилизациях, то вы должны будете сделать курсовой проект по данному разделу.
 
 <0000A467:0000A46E>
 teacher
 
 <0000A4A0:0000A506>
-You will be split up into teams of two. Whoever is sitting at the table with you will be your partner.
+Вы разделитесь на группы по двое. Вашим партнёром будет сосед по парте.
 
 <0000A529:0000A530>
 teacher
 
 <0000A562:0000A5DD>
-I glance at the person sitting next to me. He's huddled up in the corner staring mindlessly out the window. Is he sleeping?
+Я взглянула на парня, сидящего рядом со мной. Уткнувшись в углу, он бездумно смотрел в окно. Он что, спит?
 
 <0000A629:0000A6A1>
-You and your partner will submit an eight page report and give a five minute presentation on the topic of your choosing.
+Вы с партнёром должны будете предоставить доклад на восемь страниц и выступить с презентацией на пять минут по выбранной теме.
 
 <0000A70F:0000A716>
 teacher
 
 <0000A748:0000A7A0>
-I will give you the rest of the class to discuss an appropriate topic with your partner.
+Я даю вам оставшееся от урока время на обсуждение с партнёром соответствующей темы.
 
 <0000A7C3:0000A7CA>
 teacher
 
 <0000A7FC:0000A84D>
-Great. A project with some sleeping kid. He'd better not make me do all the work.
+Круто. Делать проект со спящим парнем. Пусть даже и не надеется, что я сделаю всю работу.
 
 <0000A899:0000A8E4>
-I turn to face him. He appears to be awake, but he's completely spaced out.
+Я повернулась лицом к нему. Оказывается, он не спал, но как будто находился не здесь.
 
 <0000A9E2:0000A9EA>
 dissolve
@@ -1500,55 +1499,55 @@ play music "music/thanks.ogg" fadeout 2.0
 es = 2
 
 <0000AC0E:0000AC16>
-Uh, hey.
+Хм, эй.
 
 <0000AC39:0000AC3A>
 m
 
 <0000AC67:0000AC93>
-I wave my hand, trying to get his attention.
+Я помахала рукой, чтобы привлечь его внимание.
 
 <0000ACEB:0000ACF1>
 es = 0
 
 <0000AD8E:0000ADC1>
-I'm Merui. We're supposed to be working together...
+Я Меруи. Нам предстоит работать вместе...
 
 <0000ADE4:0000ADE5>
 m
 
 <0000AE12:0000AE17>
-Yeah.
+Угу.
 
 <0000AE3A:0000AE41>
 unknown
 
 <0000AE73:0000AE87>
-So what's your name?
+А тебя как зовут?
 
 <0000AEAA:0000AEAB>
 m
 
 <0000AED8:0000AEDE>
-Shiro.
+Широ.
 
 <0000AF01:0000AF02>
 s
 
 <0000AF2F:0000AF46>
-Cool! Nice to meet you.
+Круто! Рада знакомству.
 
 <0000AF69:0000AF6A>
 m
 
 <0000AF97:0000B02E>
-He's still not looking at me. In fact, he's staring so hard at the window, I'm starting to wonder if the meaning of life is written on it or something.
+Он так и не смотрел в мою сторону. Этот парень так усердно смотрел в окно, что я задалась вопросом-не указан ли там смысл жизни или ещё чего.
 
 <0000B086:0000B08C>
 es = 2
 
 <0000B12E:0000B13B>
-Are you okay?
+Ты в порядке?
 
 <0000B15E:0000B15F>
 m
@@ -1560,22 +1559,22 @@ dissolve
 shiro01_2
 
 <0000B2BB:0000B2D9>
-His face flushes a bright red.
+Он густо покраснел.
 
 <0000B325:0000B32E>
-I'm fine.
+В порядке.
 
 <0000B351:0000B352>
 s
 
 <0000B37F:0000B3A1>
-You don't look okay. Are you sick?
+Выглядишь неважно. Ты не болен?
 
 <0000B3C4:0000B3C5>
 m
 
 <0000B3F2:0000B401>
-N-no. I just...
+Н-нет. Я просто...
 
 <0000B424:0000B425>
 s
@@ -1587,10 +1586,10 @@ dissolve
 shiro01_3
 
 <0000B536:0000B566>
-He glances to the side and shifts uncomfortably.
+Он посмотрел в сторону и неловко пододвинулся.
 
 <0000B5B2:0000B5E5>
-We should pick a topic. Is there anything you like?
+Мы должны выбрать тему для проекта. О чём бы ты хотела рассказать?
 
 <0000B608:0000B609>
 s
@@ -1599,28 +1598,28 @@ s
 es = 6
 
 <0000B69F:0000B6D5>
-Uh, I dunno. Is there anything you want to talk about?
+Ну, не знаю. А у тебя есть задумки?
 
 <0000B6F8:0000B6F9>
 m
 
 <0000B726:0000B733>
-Not really...
+Нет...
 
 <0000B756:0000B757>
 s
 
 <0000B784:0000B7D7>
-Uyyyy...another uncooperative guy. Just my luck, running into three jerks in a row.
+Уууу...ещё один несговорчивый. Мне просто везёт-три идиота заподряд.
 
 <0000B823:0000B896>
-At least Shiro isn't mocking me. It's obvious that Travis was just making fun of me with that stupid riddle of his.
+Но Широ хотя бы не насмехается надо мной. Понятное дело, что Тревис высмеивал меня этой дурацкой загадкой.
 
 <0000B8E2:0000B945>
-No matter what I ask, those dumb demons will always lie, so how on earth can I tell which is which?
+Независимо от того, что я спрашиваю, эти тупые демоны всегда лгут, так как, чёрт побери, узнать, кто из них кто?
 
 <0000B991:0000B9A1>
-It's impossible!
+Это невозможно!
 
 <0000B9C4:0000B9C5>
 m
@@ -1638,19 +1637,19 @@ surprised
 dissolve
 
 <0000BAF7:0000BAFF>
-Wh-what?
+Ч-что?
 
 <0000BB22:0000BB23>
 s
 
 <0000BB50:0000BB8B>
-Shiro looks at me, a bit startled by my sudden declaration.
+От моего неожиданного возгласа Широ посмотрел на меня испуганно.
 
 <0000BC2E:0000BC34>
 es = 2
 
 <0000BCD1:0000BCF4>
-Oh, I'm sorry. I was just thinking.
+Ой, извини. Я просто задумалась.
 
 <0000BD17:0000BD18>
 m
@@ -1665,25 +1664,25 @@ shiro
 normal
 
 <0000BE2C:0000BE37>
-About what?
+О чём?
 
 <0000BE5A:0000BE5B>
 s
 
 <0000BE88:0000BE9B>
-Knights and demons.
+О рыцарях и демонах.
 
 <0000BEBE:0000BEBF>
 m
 
 <0000BEEC:0000BEF3>
-Demons?
+Демонах?
 
 <0000BF16:0000BF17>
 s
 
 <0000BF44:0000BF9A>
-Well, not demons exactly. Liars. Knights always tell the truth, and demons always lie.
+Ну, они не совсем демоны. Лгуны. Рыцари говорят только правду, а демоны всегда лгут.
 
 <0000BFBD:0000BFBE>
 m
@@ -1698,16 +1697,16 @@ shiro
 happy
 
 <0000C117:0000C163>
-Oh! You're supposed to ask "Would the person with you claim to be a knight?"
+О! А тебе нужно спросить "Будет ли человек рядом с Вами утверждать, что он рыцарь?"
 
 <0000C186:0000C187>
 s
 
 <0000C1B4:0000C1D4>
-Shiro's face suddenly brightens.
+Внезапно лицо Широ прояснилось.
 
 <0000C220:0000C224>
-Huh?
+А?
 
 <0000C247:0000C248>
 m
@@ -1716,55 +1715,55 @@ m
 play music "music/walk.ogg" fadeout 2.0
 
 <0000C2DF:0000C32B>
-It's a riddle, right? One always tells the truth, and the other always lies.
+Это загадка, так ведь? Один говорит только правду, а другой всегда лжёт.
 
 <0000C34E:0000C34F>
 s
 
 <0000C37C:0000C381>
-Yeah?
+Ну?
 
 <0000C3A4:0000C3A5>
 m
 
 <0000C3D2:0000C416>
-So you have to ask "Would the person with you claim to be a knight?"
+Поэтому тебе надо спросить "Будет ли человек рядом с Вами утверждать, что он рыцарь?"
 
 <0000C439:0000C43A>
 s
 
 <0000C467:0000C4E4>
-If you asked directly, both the truth teller and the liar would claim to be a knight. So you have to ask about the other one.
+Если ты спросишь прямо, то оба скажут, что он рыцарь. Поэтому ты должна спросить их о друг друге.
 
 <0000C507:0000C508>
 s
 
 <0000C535:0000C59A>
-If the knight answers, he will tell you truthfully that the demon with him will claim to be a knight.
+Если отвечает рыцарь, то он правдиво скажет, что демон рядом с ним утверждает, что он и есть рыцарь.
 
 <0000C5BD:0000C5BE>
 s
 
 <0000C5EB:0000C649>
-If the demon answers, he will lie and say that the person with him won't claim to be a knight.
+А если отвечает демон, то он будет лгать и скажет, что человек рядом с ним не является рыцарем.
 
 <0000C66C:0000C66D>
 s
 
 <0000C69A:0000C6BF>
-And then you can tell the difference!
+И тогда ты сможешь увидеть различие!
 
 <0000C6E2:0000C6E3>
 s
 
 <0000C710:0000C745>
-Shiro smiles proudly as he explains the riddle to me.
+Широ гордо улыбался, что объяснил мне загадку.
 
 <0000C79D:0000C7A3>
 es = 5
 
 <0000C840:0000C88F>
-Hmm...I think I get it. It's a little complicated, but it makes sense, I think.
+Хмм...Кажется, дошло. Немного запутано правда, но в этом есть смысл.
 
 <0000C8B2:0000C8B3>
 m
@@ -1773,7 +1772,7 @@ m
 es = 0
 
 <0000C98F:0000C9BD>
-Still, you're pretty smart to figure that out.
+А ты умный, раз смог такое разгадать.
 
 <0000C9E0:0000C9E1>
 m
@@ -1788,13 +1787,13 @@ shiro
 surprisedblush
 
 <0000CB48:0000CBB0>
-Huh? N-no! I've just heard it before. I really like puzzles, you see. It's a really well-known riddle...
+Что? Н-нет! Я просто слышал её раньше. Видишь ли, мне нравятся загадки. И эта довольно-таки известная...
 
 <0000CBD3:0000CBD4>
 s
 
 <0000CC01:0000CC07>
-I see.
+Понятно.
 
 <0000CC2A:0000CC2B>
 m
@@ -1809,49 +1808,49 @@ shiro
 normal
 
 <0000CD8A:0000CDE7>
-Shiro. Merui. I trust that if you're getting chatty like this, you've already chosen a topic?
+Широ. Меруи. Судя по вашей непринуждённой беседе, вы уже выбрали тему?
 
 <0000CE0A:0000CE11>
 teacher
 
 <0000CE43:0000CE77>
-From across the room, the teacher eyes us carefully.
+Учитель строго смотрела на нас с другого конца класса.
 
 <0000CECF:0000CED5>
 es = 3
 
 <0000CF72:0000CF80>
-    Oh, sorry!
+    Ой, извините!
 
 <0000CFE9:0000CFEA>
 m
 
 <0000D017:0000D02C>
-I turn back to Shiro.
+Я повернулась к Широ.
 
 <0000D084:0000D08A>
 es = 0
 
 <0000D127:0000D143>
-We should pick a topic, huh?
+Давай выберем тему?
 
 <0000D166:0000D167>
 m
 
 <0000D194:0000D19B>
-Yeah...
+Ага...
 
 <0000D209:0000D20A>
 s
 
 <0000D237:0000D25B>
-He's back to his recluse self again.
+Он вновь закрылся.
 
 <0000D2CE:0000D325>
-We really need to talk about this project, but he seems like he doesn't want to talk...
+Нам правда надо обсудить проект, но он, похоже, не хочет разговаривать...
 
 <0000D336:0000D34A>
-Ask him for a topic.
+Спросить его про тему.
 
 <0000D37A:0000D390>
 renpy.block_rollback()
@@ -1863,7 +1862,7 @@ shiro_picktopic = True
 shiroXP += 4
 
 <0000D4CF:0000D4FD>
-So, was there anything you were interested in?
+Ну, так что, о чём бы ты хотел сделать доклад?
 
 <0000D520:0000D521>
 m
@@ -1878,19 +1877,19 @@ shiro
 shy
 
 <0000D632:0000D67D>
-I don't know. I was thinking we should report on one of the major cities...
+Я не знаю. Может нам рассказать об одном из главных городов...
 
 <0000D6A0:0000D6A1>
 s
 
 <0000D6C2:0000D6D2>
-Suggest a topic.
+Предложить тему.
 
 <0000D702:0000D718>
 renpy.block_rollback()
 
 <0000D76F:0000D7C2>
-Why don't we do our report on Greece? I thought studying that was kinda fun. Kinda.
+Почему бы нам не подготовить доклад о Греции? Изучать её было чуток интересно. Чуток.
 
 <0000D7E5:0000D7E6>
 m
@@ -1905,19 +1904,19 @@ shiro
 sad
 
 <0000D8F7:0000D93D>
-Mn...Greece is a really wide topic. We should probably narrow it down.
+Мм...Греция - слишком широкая тема. Нам лучше её сузить.
 
 <0000D960:0000D961>
 s
 
 <0000D9A8:0000D9C0>
-Okay, what about Athens?
+Хорошо, как насчёт Афин?
 
 <0000D9E3:0000D9E4>
 m
 
 <0000DA11:0000DA5F>
-That's an important Greek city, and it's a focused enough topic for us, right?
+Это важный греческий город, и сосредоточенная тема для нас, так ведь?
 
 <0000DA82:0000DA83>
 m
@@ -1932,64 +1931,64 @@ shiro
 normal
 
 <0000DC28:0000DC39>
-That sounds good.
+Звучит неплохо.
 
 <0000DC5C:0000DC5D>
 s
 
 <0000DC8A:0000DCE0>
-I scribble down "Athens" in bold letters in my notebook. At least we have a topic now.
+Я записала жирными буквами "Афины" в свою тетрадь. Теперь у нас хотя бы есть тема.
 
 <0000DD8E:0000DDB0>
 play sound "sounds/schoolbell.ogg"
 
 <0000DDD7:0000DE0A>
-The bell rings, and we quickly gather up our books.
+Прозвенел звонок, и мы быстро собрали учебники.
 
 <0000DEA1:0000DEA6>
-Um...
+Мм...
 
 <0000DEC9:0000DECA>
 s
 
 <0000DEF7:0000DF01>
-What's up?
+Что такое?
 
 <0000DF24:0000DF25>
 m
 
 <0000DF52:0000DF82>
-Shiro hands me a folded sheet of notebook paper.
+Широ протянул мне сложенный лист тетради.
 
 <0000E019:0000E026>
-What is this?
+Что это?
 
 <0000E049:0000E04A>
 m
 
 <0000E077:0000E0A6>
-It's my email address. We should stay in touch.
+Мой е-мейл адрес. Мы должны быть на связи.
 
 <0000E0C9:0000E0CA>
 s
 
 <0000E0F7:0000E105>
-Oh, good idea!
+О, хорошая идея!
 
 <0000E128:0000E129>
 m
 
 <0000E156:0000E1A3>
-I tear the sheet in half, scribble my email address down, and hand it to him.
+Я разорвала лист пополам и, набросив свой е-мейл адрес, передала ему.
 
 <0000E1EF:0000E1FB>
-Here you go.
+Вот, держи.
 
 <0000E21E:0000E21F>
 m
 
 <0000E24C:0000E29A>
-He nods and smiles a bit before walking off, clutching his books to his chest.
+Он кивнул и слегка улыбнулся перед тем как выйти, прижимая учебники к груди.
 
 <0000E398:0000E3A3>
 moveoutleft
@@ -1998,7 +1997,7 @@ moveoutleft
 shiro
 
 <0000E45B:0000E4A6>
-As soon as he leaves, I tear off down the hallway towards the computer lab.
+Как только он вышел, я ринулась вниз по коридору к компьютерному классу.
 
 <0000E50E:0000E516>
 dissolve
@@ -2007,31 +2006,31 @@ dissolve
 hallway
 
 <0000E5D4:0000E649>
-As I turn the corner, I nearly collide with another student, but I quickly skid to a halt and wind my way around him.
+Завернув за угол, я чуть не столкнулась с другим учеником, но вовремя притормозив перед ним, перевела дух.
 
 <0000E6A1:0000E6A7>
 es = 3
 
 <0000E749:0000E753>
-    Sorry!
+    Извини!
 
 <0000E7BC:0000E7BD>
 m
 
 <0000E7EA:0000E854>
-This month, the school is offering an after school work program for students who want to make extra money.
+В этом месяце школа предлагает подработку после занятий для учеников, которые хотят подзаработать.
 
 <0000E8A0:0000E91C>
-It's only menial tasks like mailing envelopes or calling people to ask for donations, but I could always use the spare cash.
+Это была "чёрная" работёнка, как отправка конвертов по почте или звонки людям, выпрашивая пожертвования, но зато у меня всегда были наличные.
 
 <0000E968:0000E9AD>
-Even though I get allowance on the weekend, more money couldn't hurt.
+Даже при том, что я получаю на карманные расходы по выходным, больше денег не будет лишним.
 
 <0000EA44:0000EAC0>
-However, the work program doesn't start for another thirty minutes, so now is the perfect time to check on how Rui is doing.
+Подработка начнётся только через тридцать минут, так что самое время проверить как там Руи.
 
 <0000EB0C:0000EB4D>
-I wait impatiently outside the computer lab as students file out.
+Я терпеливо ждала у компьютерного класса, пока оттуда не вышли ученики.
 
 <0000EC00:0000EC08>
 dissolve
@@ -2040,7 +2039,7 @@ dissolve
 computerlab
 
 <0000ECCA:0000ED26>
-Finally, I rush in and grab the nearest computer. I wonder if the internet is working again.
+Наконец, я влетела в класс и заняла ближайший компьютер. Интересно, заработал ли интернет.
 
 <0000ED8E:0000ED99>
 moveinright
@@ -2052,19 +2051,19 @@ travis
 happy
 
 <0000EE5C:0000EE74>
-Worried about your game?
+Беспокоишься о своей игре?
 
 <0000EE97:0000EE98>
 t
 
 <0000EEC5:0000EEF6>
-Travis is standing in the doorway smirking at me.
+Тревис стоял в дверях, ухмыляясь.
 
 <0000EF4E:0000EF54>
 es = 6
 
 <0000EFAB:0000EFBB>
-Why do you care?
+А тебе-то что?
 
 <0000EFDE:0000EFDF>
 m
@@ -2079,31 +2078,31 @@ travis
 normal
 
 <0000F13F:0000F1AA>
-I don't. You just look terribly anxious. I was wondering if it had something to do with that game of yours.
+Ничего. Просто ты выглядишь такой встревоженной. Мне стало интересно, не связано ли это с игрой.
 
 <0000F1CD:0000F1CE>
 t
 
 <0000F1FB:0000F224>
-Hmph. Well I don't feel like telling you.
+Хм. У меня нет желания тебе об этом говорить.
 
 <0000F247:0000F248>
 m
 
 <0000F275:0000F2B6>
-And by the way, I figured out the answer to that riddle of yours.
+И кстати, я нашла ответ на твою загадку.
 
 <0000F2D9:0000F2DA>
 m
 
 <0000F307:0000F370>
-No doubt. It's a fairly common one, after all. I was a bit disappointed that you hadn't heard it already.
+Несомненно. Она довольно-таки распространена. Я даже был немного разочарован, что ты её не слышала до этого.
 
 <0000F393:0000F394>
 t
 
 <0000F3C1:0000F405>
-But I'm no dealbreaker. The internet works now, so you can have fun.
+Но сделка есть сделка. Интернет теперь снова работает, так что наслаждайся.
 
 <0000F428:0000F429>
 t
@@ -2112,13 +2111,13 @@ t
 es = 2
 
 <0000F50A:0000F519>
-Did you fix it?
+Ты его починил?
 
 <0000F53C:0000F53D>
 m
 
 <0000F56A:0000F5CA>
-No. I just waited, and it came back on its own. What did you think I could actually DO about it?
+Нет. Я просто подождал, и он сам включился. А что ты думаешь я МОГ сделать?
 
 <0000F638:0000F639>
 t
@@ -2127,7 +2126,7 @@ t
 es = 6
 
 <0000F6CF:0000F6FD>
-So you didn't hold up your end of the bargain.
+Так значит ты не сдержал до конца своё обещание.
 
 <0000F720:0000F721>
 m
@@ -2142,7 +2141,7 @@ travis
 annoyed
 
 <0000F882:0000F8ED>
-Neither did you, I assume. Or are you telling me that someone else didn't tell you the answer to my riddle?
+Как и ты, я полагаю. Или хочешь сказать, что сама решила эту загадку?
 
 <0000F910:0000F911>
 t
@@ -2163,7 +2162,7 @@ travis
 happy
 
 <0000FA79:0000FA96>
-I thought so. See you around.
+Как я и думал. Увидимся.
 
 <0000FAB9:0000FABA>
 t
@@ -2175,7 +2174,7 @@ moveoutleft
 travis
 
 <0000FC58:0000FC8F>
-Agh, what a conceited jerk. I hope he gets his someday.
+Арх, что за тщеславный кретин. Надеюсь, он получит когда-нибудь по заслугам.
 
 <0000FD42:0000FD58>
 stop music fadeout 1.0
@@ -2241,7 +2240,7 @@ suppress_overlay = False
 renpy.block_rollback()
 
 <0001051F:00010569>
-*Current Promotion: Trade in 50 Fluffabit paws for a piece of Lucky Armor*
+*Игровое событие: Обменяй 50 лап Пушистиков на часть Счастливой Брони*
 
 <000105D2:000105D3>
 g
@@ -2274,13 +2273,13 @@ zoom
 wipedown
 
 <0001076E:0001078B>
-*RuiOfTheSword has logged on*
+*МечеРуи зашла в игру*
 
 <000107F9:000107FA>
 g
 
 <00010827:000108A8>
-Game Announcement: The PvP match you participated in with player Alistair has been cancelled due to inactivity from both parties.
+Объявление игры: ПвП состязание с игроком Алистер было отменёно всвязи с бездействием обеих сторон.
 
 <000108CB:000108CC>
 g
@@ -2301,7 +2300,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00010A6C:00010A8D>
-Rui! Are you okay? What happened?
+Руи! Ты в порядке? Что произошло?
 
 <00010AB0:00010AB1>
 f
@@ -2319,7 +2318,7 @@ normal
 Dissolve(0.7, alpha = True)
 
 <00010BFF:00010C3E>
-Hey, Fiona. My internet connection dropped. I just got back on.
+Привет, Фиона. У меня интернет пропадал. Вот только подключился.
 
 <00010C61:00010C62>
 r
@@ -2340,19 +2339,19 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00010E07:00010E28>
-I was so worried about you! TT_TT
+Я так волновалась за тебя! TT_TT
 
 <00010E91:00010E92>
 f
 
 <00010EBF:00010EC9>
-Sorry. . .
+Извини. . .
 
 <00010F37:00010F38>
 r
 
 <00010F65:00010FBB>
-So if your connection dropped, does that mean you automatically forfeited to Alistair?
+Значит, раз у тебя отрубился интернет, ты автоматически проиграла Алистеру?
 
 <00010FDE:00010FDF>
 f
@@ -2370,7 +2369,7 @@ happy
 Dissolve(0.7, alpha = True)
 
 <0001112D:0001116B>
-Um, it doesn't look like it. Apparently he didn't do anything.
+Мм, похоже, что нет. Видимо, он ничего не сделал.
 
 <000111D9:000111DA>
 r
@@ -2391,7 +2390,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00011335:0001135B>
-Maybe he didn't want such an easy win.
+Может он не захотел лёгкой победы.
 
 <000113C9:000113CA>
 f
@@ -2409,7 +2408,7 @@ happy
 Dissolve(0.7, alpha = True)
 
 <00011519:00011577>
-I don't think so. If he was willing to steal our kill, he'd definitely accept an auto forfeit.
+Вряд ли. Если он был готов на килстилинг, то наверняка принял бы и автоматическую победу.
 
 <0001159A:0001159B>
 r
@@ -2430,13 +2429,13 @@ flip
 Dissolve(0.7, alpha = True)
 
 <000116F4:00011715>
-Oh. . . then maybe he logged off?
+Эх. . . а если он просто вышел из игры?
 
 <00011738:00011739>
 f
 
 <00011766:000117A1>
-Maybe. It seems weird that we'd both drop at the same time.
+Может. Но это странно, что мы вылетели одновременно.
 
 <000117C4:000117C5>
 r
@@ -2457,7 +2456,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <0001191C:00011935>
-Maybe you just got lucky.
+Или просто повезло.
 
 <00011958:00011959>
 f
@@ -2484,13 +2483,13 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00011B55:00011B62>
-What's wrong?
+Что случилось?
 
 <00011B85:00011B86>
 f
 
 <00011BB3:00011BC5>
-Just thinking. . .
+Просто задумалась. . .
 
 <00011BE8:00011BE9>
 r
@@ -2502,31 +2501,31 @@ o_o?
 f
 
 <00011CB1:00011D08>
-What if his connection dropped at the same time because we're both on the same network?
+А что если его интернет отрубился в этот же момент, так как мы играли на одной сети?
 
 <00011D2B:00011D2C>
 r
 
 <00011D59:00011D6C>
-I don't understand.
+Не поняла.
 
 <00011D8F:00011D90>
 f
 
 <00011DBD:00011E2A>
-I lost my connection because my internet died. What if Alistair was using the same internet connection as me?
+Я вылетела, потому что отрубился интернет. А что если Алистер использует то же самое интернет соединение?
 
 <00011E4D:00011E4E>
 r
 
 <00011E7B:00011EB1>
-U-um. . . I guess that's a possibility. Where are you?
+М-м. . . Думаю, это возможно. А где ты?
 
 <00011F1F:00011F20>
 f
 
 <00011F4D:00011FA8>
-At school. The school's net went down for awhile, so he would have been logged off like me!
+В школе. Школьная сеть временно выключалась, и поэтому он мог вылететь как и я!
 
 <00011FCB:00011FCC>
 r
@@ -2547,7 +2546,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00012127:00012163>
-Wait. . . you think Alistair goes to the same school as you?
+Погоди. . . ты думаешь, что Алистер учится в одной школе с тобой?
 
 <000121CC:000121CD>
 f
@@ -2565,25 +2564,25 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <0001231D:00012336>
-Yeah! It all makes sense!
+Ну да! Всё сходится!
 
 <00012359:0001235A>
 r
 
 <00012387:00012405>
-People can lose internet connections for all sorts of reasons. What if his mom told him it was time to go to bed or something?
+Интернет может отключиться по разным причинам. Может его мама погнала спать?
 
 <0001246E:0001246F>
 f
 
 <0001249C:000124E4>
-No, it's too much of a coincidence. It has to be someone at this school!
+Не, слишком много совпадений. Это точно кто-то из моей школы!
 
 <00012507:00012508>
 r
 
 <00012535:00012565>
-If you say so. . . but I think that's a stretch.
+Как скажешь. . . но я думаю это просто случайность.
 
 <000125D3:000125D4>
 f
@@ -2601,13 +2600,13 @@ normal
 Dissolve(0.7, alpha = True)
 
 <00012722:0001276D>
-No, it's perfect! That means I'll be able to exact my revenge in real life!
+Нет, это даже хорошо! Если всё так, то я смогу отомстить в реальной жизни!
 
 <00012790:00012791>
 r
 
 <000127BE:000127E1>
-Um. . . how do you plan to do that?
+Мм. . . и каков твой план?
 
 <00012804:00012805>
 f
@@ -2625,25 +2624,25 @@ happy
 Dissolve(0.7, alpha = True)
 
 <00012955:0001295A>
-What?
+В смысле?
 
 <000129C8:000129C9>
 r
 
 <000129F6:00012A35>
-If you do manage to find him, what exactly are you going to do?
+Если ты сможешь найти его, что ты собираешься сделать?
 
 <00012A58:00012A59>
 f
 
 <00012A86:00012AC7>
-It's not as if you can just challenge him to a duel in real life.
+Ты же не сможешь вызвать его на сражение в реальной жизни.
 
 <00012AEA:00012AEB>
 f
 
 <00012B18:00012B6C>
-Uh. . . well. . . I guess I'll figure that out later. But the important part is. . .
+Хм. . . ну. . . Над этим я подумаю потом. Сейчас самое важное это. . .
 
 <00012B8F:00012B90>
 r
@@ -2661,7 +2660,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <00012D2C:00012D34>
-REVENGE.
+МЕСТЬ.
 
 <00012D57:00012D58>
 r
@@ -2682,13 +2681,13 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00012EB5:00012ECD>
-Are you sure about that?
+Ты уверена?
 
 <00012EF0:00012EF1>
 f
 
 <00012F1E:00012F47>
-That guy deserves to pay for what he did!
+Этот негодяй должен ответить за то, что он сделал!
 
 <00012F6A:00012F6B>
 r
@@ -2709,13 +2708,13 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00013106:0001312A>
-It's only an item in a game, though.
+Это же всего лишь предмет в игре.
 
 <0001314D:0001314E>
 f
 
 <0001317B:000131B6>
-It's not about the item! It's about being courteous online!
+Дело не в камне! Речь идёт  о порядочности в интернете!
 
 <000131D9:000131DA>
 r
@@ -2736,25 +2735,25 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00013333:0001336E>
-I think that's a lot to ask for people on the internet. . .
+Я думаю, что такое требовать слишком. . .
 
 <000133D7:000133D8>
 f
 
 <00013405:00013463>
-Hmph. Well just because it's the internet doesn't mean we should give up standards of decency.
+Хм. Люди не должны забывать о правилах приличия, только потому что это интернет.
 
 <00013486:00013487>
 r
 
 <000134B4:000134C3>
-I guess so. . .
+Наверно. . .
 
 <0001352C:0001352D>
 f
 
 <0001355A:000135AB>
-But you really shouldn't jump to conclusions, okay? You might do something brash.
+Но не делай поспешных выводов, хорошо? Не поступай опрометчиво.
 
 <000135CE:000135CF>
 f
@@ -2772,7 +2771,7 @@ happy
 Dissolve(0.7, alpha = True)
 
 <0001371F:00013744>
-When have I ever done anything brash?
+А когда я поступала опрометчиво?
 
 <00013767:00013768>
 r
@@ -2793,7 +2792,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <000138C3:000138D6>
-N-never mind. ^_^;;
+Н-неважно. ^_^;;
 
 <000138F9:000138FA>
 f
@@ -2811,7 +2810,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <00013A4B:00013A98>
-Anyway, I just wanted to make sure Rui wasn't dead. I've gotta get going now.
+Ну, я зашла только проверить жива Руи или нет. Мне пора идти.
 
 <00013ABB:00013ABC>
 r
@@ -2832,13 +2831,13 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00013C5A:00013C6B>
-Un. I'll see you.
+Мм. До встречи.
 
 <00013C8E:00013C8F>
 f
 
 <00013CBC:00013CC2>
-Later.
+Пока.
 
 <00013CE5:00013CE6>
 r
@@ -2907,43 +2906,43 @@ renpy.block_rollback()
 play music "music/spring.ogg"
 
 <00014530:00014579>
-I log off Rivenwell Online and quickly bring up my school's network list.
+Я вышла из Rivenwell Online и быстро просмотрела список сети школы.
 
 <00014610:00014677>
-In the name of "trust and honesty," the school keeps close tabs on all of the students' computer usage.
+Во имя "правды и справедливости," в школьном компьютере хранятся закладки всех пользователей.
 
 <00014709:0001476E>
-I don't know how much trust it shows, but it's really handy for seeing who's on the network and when.
+Я не знаю насколько достоверны эти источники, но хотя бы можно узнать, кто и когда находился в сети.
 
 <000147BA:00014818>
-Looking at this afternoon's logs, only four students were logged on when the internet dropped.
+Судя по дневным логам, только четверо учащихся были онлайн, когда отключился интернет.
 
 <00014864:000148E7>
-Naturally, I'm one of them. Shiro was on, too. Huh...he doesn't seem like a gamer, though. He was probably just checking his email.
+Ествественно, я одна из них. Широ тоже заходил. Хм...но он совсем не похож на геймера. Наверно просто проверял почту.
 
 <00014979:000149D2>
-Some guy named Derek Nevine. His name sounds familiar...but where have I heard it before?
+Какой-то Дерек Невин. Мне знакомо его имя...но где я могла его слышать?
 
 <00014A1E:00014A2E>
-And...{w}TRAVIS.
+И...{w}ТРЕВИС.
 
 <00014A7A:00014ABC>
-Ugh, of course he was online! He was even sitting right behind me!
+Ух, ну конечно он был онлайн! Он даже сидел позади меня!
 
 <00014B08:00014B5C>
-I wouldn't be too surprised if he was Alistair. They both have rotten personalities.
+Я не удивлюсь, если он и есть Алистер. Они оба те ещё негодяи.
 
 <00014BA8:00014C0F>
-But Travis didn't seem too interested in Rivenwell Online. In fact, he said that it was a silly game...
+Но похоже, что Тревис не интересуется Rivenwell Online. Он вообще сказал, что это глупая игра...
 
 <00014C5B:00014C99>
-Maybe he doesn't play it after all. I guess that leaves Derek.
+Наверно он всё-таки не играет. Значит, остаётся Дерек.
 
 <00014CE5:00014D5D>
-I click on his student profile. Apparently he's on the student council. I guess that's where I've heard his name before.
+Я щёлкнула на его школьную характеристику. Оказывается, он состоит в Студенческом совете. Вот откуда мне знакомо его имя.
 
 <00014DA9:00014E03>
-He's on the basketball team as well. They're practicing right now, so he's probably there.
+Ещё он входит в баскетбольную команду. У них сейчас как раз тренировка, он должен быть в зале.
 
 <00014E6B:00014E73>
 dissolve
@@ -2952,10 +2951,10 @@ dissolve
 hallway
 
 <00014F31:00014FA2>
-I hurry down the hallway and stop outside the school gym. I can hear shouts and the echoing boom of a basketball.
+Я побежала вниз по коридору и остановилась перед спортивным залом. Я услышала крики и эхо отбивающегося мяча.
 
 <00014FEE:00015018>
-Slowly, I crack the door open and peer in.
+Медленно приоткрыв дверь, я заглянула внутрь.
 
 <00015080:000150A4>
 play music "music/secretmission.ogg"
@@ -2970,19 +2969,19 @@ derek01
 play sound "sounds/basketball.ogg"
 
 <00015212:000152AE>
-The basketball players are rushing back and forth across the court. The current center of attention seems to be a guy with blond hair and bright highlights.
+Баскетболисты бегали по площадке. Внимание всех устремлено на парня со светлыми волосами и яркой прядью.
 
 <00015340:00015393>
-He races across the court, expertly dribbling the ball as he weaves back and forth.
+Мастерски владея мячом, он бежал, петляя по площадке.
 
 <0001542A:00015470>
-I remember seeing posters of him all over the school during elections.
+Я вспомнила постеры с его изображением, которые были развешены по всей школе во время выборов.
 
 <000154BC:00015504>
-I guess he's Derek, then. He looks like he really knows what he's doing.
+Так значит это Дерек. Похоже, он знает своё дело.
 
 <00015550:00015601>
-Another player leaps in front of him, holding his arms out to block him. Derek pauses for a moment, then grins playfully at him and fakes left before making a dash to the right.
+Другой игрок выскочил перед ним и протянул руки, блокируя путь. Остановившись, Дерек игриво ухмыльнулся и, притворившись что идёт влево, сделал рывок в противоположную сторону.
 
 <000156B4:000156BC>
 dissolve
@@ -2991,34 +2990,34 @@ dissolve
 derek01_2
 
 <0001577C:000157CE>
-He skids to a halt in front of the basket as another player moves in to block him.
+Он остановился перед кольцом, как другой игрок выскочил ему навстречу.
 
 <0001581A:0001582B>
-Derek! Over here!
+Дерек! Сюда!
 
 <00015899:000158A0>
 student
 
 <000158D2:00015956>
-One of his teammates waves his arms to indicate that he's open, but Derek shakes his head and weaves around the player blocking him.
+Один из его товарищей по команде махал руками, показывая, что он открыт, но Дерек покачал головой и начал увиливать от противника.
 
 <000159BE:000159E4>
 play sound "sounds/basketballdunk.ogg"
 
 <00015A0B:00015A61>
-To the cheers of his teammates, he leaps into the air and dunks the ball into the net.
+К ликованию товарищей по команде, он подпрыгнул вверх и забросил мяч в корзину.
 
 <00015AAD:00015AE3>
-That's enough showing off, Nevine. Take a water break!
+Хорош красоваться, Невин. Перерыв!
 
 <00015B06:00015B0B>
 coach
 
 <00015B3D:00015BBB>
-A couple guys surround Derek, clapping him on the back and laughing. One of them leans towards him and points in my direction.
+Несколько парней окружили Дерека, смеясь и хлопая его по спине. Один из них склонился к нему и указал в мою сторону.
 
 <00015C07:00015C0C>
-Oops!
+Ой!
 
 <00015C74:00015C7C>
 dissolve
@@ -3027,10 +3026,10 @@ dissolve
 hallway
 
 <00015D3A:00015D64>
-I slam the door shut, but not fast enough.
+Я поспешила захлопнуть дверь, но было поздно.
 
 <00015DB0:00015DF6>
-In a few seconds, the door opens and Derek steps out into the hallway.
+Через несколько секунд дверь открылась, и в коридор вышел Дерек.
 
 <00015EF4:00015EFE>
 moveinleft
@@ -3045,13 +3044,13 @@ b
 normal
 
 <00016012:00016035>
-Hey, cutie. Did you want something?
+Эй, милашка. Ты что-то хотела?
 
 <00016058:00016059>
 d
 
 <00016086:0001608E>
-C-cutie?
+М-милашка?
 
 <000160E6:000160EC>
 es = 5
@@ -3075,13 +3074,13 @@ b
 smirk
 
 <000162C9:000162E2>
-Oh, was that too forward?
+Ох, я забегаю вперёд?
 
 <00016305:00016306>
 d
 
 <00016333:0001634A>
-He bursts out laughing.
+Он рассмеялся.
 
 <000163B2:000163BA>
 dissolve
@@ -3096,13 +3095,13 @@ b
 happy
 
 <00016482:000164DC>
-Haha, I'm sorry. I'm just a forward kind of guy! It gets me in a lot of trouble sometimes.
+Хаха, извини. Я просто прямолинейный парень! Порой из-за этого возникают проблемы.
 
 <000164FF:00016500>
 d
 
 <0001652D:00016548>
-Especially with cute girls.
+Особенно с такими милашками.
 
 <0001656B:0001656C>
 d
@@ -3126,13 +3125,13 @@ b
 normal
 
 <00016725:00016795>
-Something wrong? Don't be shy. I'm really a nice guy, y'know. You can come in and watch us practice if you want.
+Что-то не так? Не стесняйся. Я так-то хороший парень. Ты можешь зайти и понаблюдать за нашей тренировкой.
 
 <000167B8:000167B9>
 d
 
 <000167E6:000167F6>
-It's not that...
+Я вовсе не...
 
 <00016819:0001681A>
 m
@@ -3150,7 +3149,7 @@ b
 happy
 
 <0001697E:000169B6>
-Oh, so you DO speak! That's great! So, what's your name?
+О, так ты разговариваешь! Круто! А как тебя зовут?
 
 <000169D9:000169DA>
 d
@@ -3159,19 +3158,19 @@ d
 es = 0
 
 <00016AB6:00016ABC>
-Merui.
+Меруи.
 
 <00016ADF:00016AE0>
 m
 
 <00016B0D:00016B33>
-Sweet. I like girls with unique names.
+Как мило. Мне нравятся девушки с необычными именами.
 
 <00016B56:00016B57>
 d
 
 <00016B84:00016BA1>
-He nods back at the gym door.
+Он кивнул в сторону зала.
 
 <00016C54:00016C5C>
 dissolve
@@ -3186,25 +3185,25 @@ b
 smirk
 
 <00016D24:00016D89>
-I'd love to stay and chat, but coach probably wants me back in a few. Was there something you wanted?
+Я бы с радостью остался поболтать, но нужно возвращаться. Так что ты хотела?
 
 <00016DAC:00016DAD>
 d
 
 <00016DDA:00016E08>
-I just had a few questions. Nothing important.
+Я хотела задать пару вопросов. Ничего важного.
 
 <00016E2B:00016E2C>
 m
 
 <00016E59:00016EAA>
-Hey, I'm vice president. Anything from a member of the student body is important!
+Эй, я ж вице-президент совета. Всё, что касается учеников важно!
 
 <00016ECD:00016ECE>
 d
 
 <00016EFB:00016F25>
-It's not exactly about the school, though.
+Но это не касается школы.
 
 <00016F48:00016F49>
 m
@@ -3222,28 +3221,28 @@ b
 normal
 
 <000170AE:0001711D>
-Oh? That's even more interesting! Why don't we talk about it at the mall? We could call it a date, if you want.
+Вот как? Это даже интересней! Почему бы нам не обсудить это в Торговом центре? Если хочешь, это будет свиданием.
 
 <00017140:00017141>
 d
 
 <0001716E:000171D8>
-Is this guy actually asking me out on a date? He hardly even knows me. I guess he is kinda cute, though...
+Этот парень приглашает меня на свидание? Он меня почти не знает. Но он милый...
 
 <00017224:0001728A>
-Ugh, no! Focus. What if he's Alistair? I'd never be able to forgive myself if I went on date with him.
+Ух, нет! Сосредоточься. А что если он Алистер? Я себе никогда не прощу, если схожу с ним на свидание.
 
 <000172FD:0001730E>
-What should I do?
+Что мне делать?
 
 <0001731F:0001733C>
-Ask for just a friendly chat.
+Попросить о дружеской беседе.
 
 <0001736C:00017382>
 renpy.block_rollback()
 
 <000173D9:00017435>
-I wouldn't mind meeting you at the mall, but I don't think we're really on dating terms yet.
+Я непротив того, чтобы встретиться в Торговом центре, но не думаю, что мы знакомы настолько, чтобы идти на свидание.
 
 <00017458:00017459>
 m
@@ -3261,13 +3260,13 @@ b
 happy
 
 <000175B8:000175E8>
-Haha, I understand. Then just as friends, right?
+Хаха, понял. Значит как друзья, верно?
 
 <0001760B:0001760C>
 d
 
 <00017639:0001764F>
-Yeah. Just as friends.
+Ага. Только как друзья.
 
 <00017672:00017673>
 m
@@ -3285,7 +3284,7 @@ b
 normal
 
 <00017781:00017791>
-Agree on a date.
+Согласиться на свидание.
 
 <000177C1:000177D7>
 renpy.block_rollback()
@@ -3297,7 +3296,7 @@ derek_date = True
 derekXP += 4
 
 <0001795C:0001798F>
-Well, I guess a date doesn't sound like a bad idea.
+Вообще-то, свидание будет неплохой идеей.
 
 <000179B2:000179B3>
 m
@@ -3315,28 +3314,28 @@ b
 happy
 
 <00017AE6:00017B44>
-Cool! We'll work out the details later. Your email address is in the student directory, right?
+Круто! Обговорим детали позже. Твой е-мейл в каталоге учащихся, так ведь?
 
 <00017B67:00017B68>
 d
 
 <00017B95:00017B9F>
-Um...yeah.
+Мм...да.
 
 <00017BC2:00017BC3>
 m
 
 <00017BF0:00017C07>
-Then we'll be in touch.
+Тогда спишемся.
 
 <00017C2A:00017C2B>
 d
 
 <00017C58:00017C88>
-He winks at me before heading back into the gym.
+Перед тем как вернуться в зал, он подмигнул мне.
 
 <00017CD4:00017CEA>
-Catch ya later, Merui.
+До связи, Меруи.
 
 <00017D0D:00017D0E>
 d
@@ -3348,22 +3347,22 @@ moveoutright
 derek
 
 <00017E66:00017EBF>
-Oy, I didn't get to ask him what I wanted. Oh well. At least we'll be able to talk later.
+Oy, я не успела расспросить его. Что ж. Мы сможем поговорить позже.
 
 <00017F72:00017F8D>
 play music "music/calm.ogg"
 
 <00017FB4:00017FDB>
-For now, I should probably get to work.
+А сейчас самое время поработать.
 
 <00018027:00018072>
-I spend the next hour folding and sealing envelopes in the school's office.
+Следующий час я складывала и склеивала конверты в школьном кабинете.
 
 <00018104:0001816E>
-It's not exactly the most glamorous job in the world, but money is money, and I can't complain about that.
+Конечно, эту работу не назвать самой лучшей в мире, но деньги есть деньги, так что я не жалуюсь.
 
 <000181BA:000181DF>
-After the office closes, I head home.
+После того, как закрылся кабинет, я отправилась домой.
 
 <00018247:0001824B>
 fade
@@ -3372,7 +3371,7 @@ fade
 ruibedroom
 
 <0001830C:0001834C>
-As soon as I get home, I turn my computer on and check my email.
+Вернувшись домой, я включила компьютер и проверила почту.
 
 <00018431:0001843A>
 initEmail
@@ -3387,16 +3386,16 @@ dissolve
 ruibedroom
 
 <00018663:000186AD>
-I search for information about Athens online, but there really isn't much.
+Я поискала какую-нибудь информацию об Афинах в интернете, но нашлось совсем немного.
 
 <0001873F:000187DE>
-Some history, some mythology, and a bit of info on the culture, but nothing very deep. Shiro was right. I'll actually have to get some books or something, huh?
+Где-то про историю, где-то про мифологию и чуток информации о культуре, и всё упоминалось вскользь. Широ был прав. Похоже придётся порыться в книгах, хех?
 
 <0001882A:000188AA>
-I copy and paste a few interesting facts, but my attention wanders pretty quickly. I'm still thinking about what happened today.
+Я скопировала несколько важных фактов, но вскоре моё внимание быстро улетучилось. Я всё ещё думала о случившемся сегодня.
 
 <00018941:000189BA>
-Fine. If I can't concentrate on this, I might as well just log on. Maybe hacking away at monsters will help calm me down.
+Ну ладно. Если я не могу сосредоточиться на домашке, то почему бы не зайти в игру. Может поубивая мобов, я немного успокоюсь.
 
 <00018A12:00018A29>
 suppress_overlay = True
@@ -3486,7 +3485,7 @@ zoom
 wipedown
 
 <00019353:00019370>
-*RuiOfTheSword has logged on*
+*МечеРуи зашла в игру*
 
 <00019393:00019394>
 g
@@ -3507,7 +3506,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <000194EE:000194F9>
-Hi Rui~ ^_^
+Привет, Руи~ ^_^
 
 <0001951C:0001951D>
 f
@@ -3525,19 +3524,19 @@ normal
 Dissolve(0.7, alpha = True)
 
 <0001966B:00019686>
-Hey, Fiona. How's it going?
+Привет, Фиона. Как делища?
 
 <000196A9:000196AA>
 r
 
 <000196D7:000196FF>
-I'm doing well. Taking a break. And you?
+Всё хорошо. Решила отдохнуть. А ты?
 
 <00019722:00019723>
 f
 
 <00019750:00019778>
-Heh, I'm procrastinating on my homework.
+Хех, а я решила забить на домашку.
 
 <0001979B:0001979C>
 r
@@ -3558,13 +3557,13 @@ flip
 Dissolve(0.7, alpha = True)
 
 <000198F6:0001991F>
-Ara. . . Are you sure that's a good idea?
+Ох. . . Ты уверена, что это хорошая идея?
 
 <00019942:00019943>
 f
 
 <00019970:000199CD>
-I'll be fine! Besides, I need to blow off some steam. Wanna be in a party with me for awhile?
+Всё путём! Да и мне надо выпустить пар. Походишь со мной в пати?
 
 <000199F0:000199F1>
 r
@@ -3585,7 +3584,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <00019B4B:00019B50>
-Sure.
+Конечно.
 
 <00019B73:00019B74>
 f
@@ -3594,25 +3593,25 @@ f
 fiona_present = True
 
 <00019C18:00019C39>
-*FionaWings has joined your team*
+*FionaWings присоединилась к партии*
 
 <00019C5C:00019C5D>
 g
 
 <00019C8A:00019C9D>
-Where should we go?
+Куда отправимся?
 
 <00019CC0:00019CC1>
 r
 
 <00019CEE:00019D3B>
-Well, I think there's a promotion going on in the Morose Mountains right now.
+В Мрачных Горах сейчас проводится акция.
 
 <00019D5E:00019D5F>
 f
 
 <00019D8C:00019DA1>
-Then let's get going.
+Тогда идём туда.
 
 <00019DC4:00019DC5>
 r
@@ -3699,7 +3698,7 @@ zoom
 .85
 
 <0001A34B:0001A370>
-*Teleported to the Morose Mountains!*
+*Телепортировались к Мрачным Горам!*
 
 <0001A393:0001A394>
 g
@@ -3741,7 +3740,7 @@ normal
 Dissolve(0.7, alpha = True)
 
 <0001A731:0001A77A>
-Well, well. If it isn't the lovely Rui. Come for the promotion, I assume?
+Так-так. Неужели милашка-Руи собственной персоной. Решила прокачаться?
 
 <0001A79D:0001A79E>
 a
@@ -3759,7 +3758,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <0001A8EF:0001A90D>
-AGH! WHAT ARE YOU DOING HERE!?
+АРХ! А ТЫ ЧТО ЗДЕСЬ ДЕЛАЕШЬ!?
 
 <0001A930:0001A931>
 r
@@ -3777,13 +3776,13 @@ smirk
 Dissolve(0.7, alpha = True)
 
 <0001AACC:0001AB1E>
-Killing adorable bunny-like creatures until the game awards me with a new costume.
+Убиваю милых кролико-подобных мобов, чтобы выбить новый костюм.
 
 <0001AB41:0001AB42>
 a
 
 <0001AB6F:0001AB86>
-What does it look like?
+Интересно, как он выглядит?
 
 <0001ABA9:0001ABAA>
 a
@@ -3801,7 +3800,7 @@ angry
 Dissolve(0.7, alpha = True)
 
 <0001ACF9:0001AD0F>
-You know what I meant.
+Ты понял, о чём я.
 
 <0001AD32:0001AD33>
 r
@@ -3819,7 +3818,7 @@ happy
 Dissolve(0.7, alpha = True)
 
 <0001AE89:0001AE9C>
-Hm. . . not really.
+Хм. . . вообще-то нет.
 
 <0001AEBF:0001AEC0>
 a
@@ -3837,13 +3836,13 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <0001B015:0001B070>
-Rui. . . let's just go. The mountains are big enough for us to stay far away from this guy.
+Руи. . . забудь. Нам хватит гор, чтобы держаться от него подальше.
 
 <0001B093:0001B094>
 f
 
 <0001B0C1:0001B114>
-You should listen to your friend. She's clearly more forward-thinking than you are.
+Послушай свою подругу. Она явно дальновидней тебя.
 
 <0001B137:0001B138>
 a
@@ -3861,7 +3860,7 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <0001B287:0001B2A1>
-Are you calling me stupid?
+Ты намекаешь, что я глупая?
 
 <0001B2C4:0001B2C5>
 r
@@ -3879,7 +3878,7 @@ normal
 Dissolve(0.7, alpha = True)
 
 <0001B41B:0001B435>
-Hm. . . what do you think?
+Хм. . . А ты как думаешь?
 
 <0001B458:0001B459>
 a
@@ -3897,7 +3896,7 @@ angry
 Dissolve(0.7, alpha = True)
 
 <0001B5F3:0001B62B>
-Well, for your information, I'm not as stupid as I look!
+К твоему сведению, я не такая глупая, как ты думаешь!
 
 <0001B64E:0001B64F>
 r
@@ -3915,7 +3914,7 @@ worried
 Dissolve(0.7, alpha = True)
 
 <0001B79E:0001B7A6>
-Rui. . .
+Руи. . .
 
 <0001B7C9:0001B7CA>
 f
@@ -3933,7 +3932,7 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <0001B91A:0001B94B>
-In fact, I already know who you are in real life!
+И вообще, я знаю, кто ты в реальной жизни!
 
 <0001B96E:0001B96F>
 r
@@ -3951,7 +3950,7 @@ smirk
 Dissolve(0.7, alpha = True)
 
 <0001BAC4:0001BAC9>
-What?
+Что?
 
 <0001BAEC:0001BAED>
 a
@@ -3969,13 +3968,13 @@ normal
 Dissolve(0.7, alpha = True)
 
 <0001BC3B:0001BCA0>
-HA! Are you scared now? And you can be sure that when I see you at school tomorrow, you'll get yours.
+ХА! Испугался? И будь уверен, что когда я увижу тебя завтра в школе, тебе не поздоровится.
 
 <0001BCC3:0001BCC4>
 r
 
 <0001BCF1:0001BCFB>
-At school?
+В школе?
 
 <0001BD1E:0001BD1F>
 a
@@ -4011,13 +4010,13 @@ happy
 Dissolve(0.7, alpha = True)
 
 <0001BFF1:0001C02A>
-Ahahahahaha, I see. The internet crash during lunch, huh?
+Ахахахахаха, понятно. Интернет отрубился во время обеда, так ведь?
 
 <0001C04D:0001C04E>
 a
 
 <0001C07B:0001C090>
-So you must be Merui!
+Так ты значит Меруи!
 
 <0001C0B3:0001C0B4>
 a
@@ -4053,19 +4052,19 @@ happy
 Dissolve(0.7, alpha = True)
 
 <0001C385:0001C3BB>
-Oh come on. RuiOfTheSword? Merui? It's pretty obvious.
+Ох, да брось. МечеРуи? Меруи? Это ж очевидно.
 
 <0001C3DE:0001C3DF>
 a
 
 <0001C40C:0001C44D>
-And since we only met today, your name is still fresh in my mind.
+И, так как мы встретились только сегодня, твоё имя всё ещё свежо в моей памяти.
 
 <0001C470:0001C471>
 a
 
 <0001C49E:0001C4DB>
-But it's only fair, right? Since you know who I am after all.
+Но так ведь нечестно, так ведь? Ты-то знаешь, кто я.
 
 <0001C4FE:0001C4FF>
 a
@@ -4083,7 +4082,7 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <0001C64E:0001C65D>
-Of course I do!
+Конечно знаю!
 
 <0001C680:0001C681>
 r
@@ -4131,13 +4130,13 @@ angry
 Dissolve(0.7, alpha = True)
 
 <0001CAC2:0001CB01>
-No you don't. If you did, you would have done something by now.
+Неа, не знаешь. Если бы знала, то уже что-нибудь успела сделать.
 
 <0001CB24:0001CB25>
 a
 
 <0001CB52:0001CB8B>
-You still haven't figured out exactly who I am, have you?
+Ты же до сих пор меня не вычислила, так ведь?
 
 <0001CBAE:0001CBAF>
 a
@@ -4155,7 +4154,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <0001CD02:0001CD0F>
-. . . I will.
+. . . Вычислю.
 
 <0001CD32:0001CD33>
 r
@@ -4173,7 +4172,7 @@ normal
 Dissolve(0.7, alpha = True)
 
 <0001CE89:0001CEAF>
-Hm. . . sounds like this might be fun.
+Хм. . . это будет весело.
 
 <0001CF1D:0001CF1E>
 a
@@ -4191,13 +4190,13 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <0001D070:0001D075>
-What?
+Что?
 
 <0001D098:0001D099>
 r
 
 <0001D0C6:0001D133>
-Let's make a deal. If you can figure out who I am sometime in the next month, I'll give you my Blessed Stone.
+Заключим сделку. Если ты сможешь выяснить кто я за следующий месяц, то я отдам свой Священный Камень.
 
 <0001D156:0001D157>
 a
@@ -4215,7 +4214,7 @@ surprised
 Dissolve(0.7, alpha = True)
 
 <0001D2AA:0001D2C4>
-You mean MY Blessed Stone.
+Ты имел ввиду МОЙ Священный Камень.
 
 <0001D2E7:0001D2E8>
 r
@@ -4233,7 +4232,7 @@ smirk
 Dissolve(0.7, alpha = True)
 
 <0001D43E:0001D4BD>
-Whatever suits your fancy. But if you can't figure it out, then you'll fork over all the gold that you make for the next month.
+Ну, помечтай. А если не сможешь, то тебе придётся отдать мне весь голд, что ты соберёшь за месяц.
 
 <0001D4E0:0001D4E1>
 a
@@ -4251,7 +4250,7 @@ unhappy
 Dissolve(0.7, alpha = True)
 
 <0001D630:0001D64E>
-Ha! As if. I accept your deal.
+Ха! Как же. Я принимаю сделку.
 
 <0001D671:0001D672>
 r
@@ -4269,7 +4268,7 @@ sad
 Dissolve(0.7, alpha = True)
 
 <0001D7BF:0001D7CA>
-Rui! Don't!
+Руи! Не надо!
 
 <0001D7ED:0001D7EE>
 f
@@ -4299,13 +4298,13 @@ angry
 Dissolve(0.7, alpha = True)
 
 <0001DA66:0001DAA5>
-Ah, such confidence. At least you have that much going for you.
+Ха, какая самоуверенность. At least you have that much going for you.
 
 <0001DAC8:0001DAC9>
 a
 
 <0001DAF6:0001DB40>
-Oh, but it's getting so late, don't you think? I'll see you tomorrow, Rui.
+О, уже так поздно, да? Увидимся завтра, Руи.
 
 <0001DB63:0001DB64>
 a
@@ -4314,7 +4313,7 @@ a
 alistair
 
 <0001DBE6:0001DBFF>
-*Alistair has logged off*
+*Алистер вышел из игры*
 
 <0001DC22:0001DC23>
 g
@@ -4413,7 +4412,7 @@ xalign
 .5
 
 <0001E135:0001E19F>
-Ugh, that guy seriously ticks me off! And I'm not going to let him just get away with being a jerk online.
+Тьфу, как же он меня бесит! И я не позволю ему остаться неизвестным онлайн-придурком.
 
 <0001E1C2:0001E1C3>
 r
@@ -4452,7 +4451,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <0001E530:0001E584>
-Don't worry. I won't. At the most, I know there were only three other people online.
+Не волнуйся. Не проиграю. Мне известно, что лишь трое были онлайн.
 
 <0001E5A7:0001E5A8>
 r
@@ -4473,7 +4472,7 @@ flip
 Dissolve(0.7, alpha = True)
 
 <0001E700:0001E743>
-I just have to figure out which one of them plays Rivenwell Online.
+Мне осталось лишь выяснить, кто из них играет в Rivenwell Online.
 
 <0001E766:0001E767>
 r
@@ -4491,7 +4490,7 @@ worried
 Dissolve(0.7, alpha = True)
 
 <0001E901:0001E949>
-::sigh:: Rui, you really do leap into things without thinking, you know?
+::вздох:: Руи, ты сначала делаешь и только потом думаешь.
 
 <0001E96C:0001E96D>
 f
@@ -4512,25 +4511,25 @@ flip
 Dissolve(0.7, alpha = True)
 
 <0001EAC5:0001EB2B>
-Heh, that's why I have you to back me up. I can always count on you to bail me out of a bad situation.
+Хех, для этого у меня есть ты. Я всегда могу положиться на тебя, если попаду в беду.
 
 <0001EB4E:0001EB4F>
 r
 
 <0001EB7C:0001EBB6>
-I wish you'd be a little more careful on your own, though.
+Я бы хотела, чтобы ты была более осторожна.
 
 <0001EBD9:0001EBDA>
 f
 
 <0001EC07:0001EC2C>
-I won't always be around to save you.
+Я не всегда могу быть рядом, чтобы помочь.
 
 <0001EC4F:0001EC50>
 f
 
 <0001EC7D:0001ECBB>
-Hey, that's enough of this glum talk. Let's kill some bunnies!
+Эй, долой мрачную болтовню. Идём поубиваем заек!
 
 <0001ECDE:0001ECDF>
 r
@@ -4548,7 +4547,7 @@ sad
 Dissolve(0.7, alpha = True)
 
 <0001EE2C:0001EE3D>
-Y-yeah. . . ^_^;;
+Х-хорошо. . . ^_^;;
 
 <0001EE60:0001EE61>
 f
@@ -4581,34 +4580,34 @@ renpy.block_rollback()
 play music "music/again.ogg" fadein 2.0
 
 <0001F346:0001F393>
-Fiona and I play for a few hours before exchanging farewells and logging off.
+Мы с Фионой поиграли несколько часов перед тем как попрощаться и выйти из игры.
 
 <0001F3DF:0001F416>
-As I get ready for bed, I think back on today's events.
+Перед сном я подумала о том, что произошло сегодня.
 
 <0001F462:0001F4A7>
-Only Travis, Shiro, and Derek were online, so it must be one of them.
+Онлайн были лишь Тревис, Широ и Дерек. Алистер кто-то из них.
 
 <0001F4F3:0001F557>
-Travis seems to hate Rivenwell Online. He acts like it's beneath him because he's a "serious" gamer.
+Тревис, похоже, недолюбливает Rivenwell Online. Он ведёт себя будто это ниже его звания "суровый" геймер.
 
 <0001F5A3:0001F61F>
-But he might just be trying to save face in front of other serious gamers. He has his position as club president, after all.
+Но он может просто пытается сохранить лицо в глазах других суровых геймеров. Всё-таки, он президент клуба.
 
 <0001F66B:0001F6D5>
-Shiro doesn't seem like a gamer at all. Besides, he's so shy, I doubt he and Alistair are the same person.
+Широ вообще не похож на геймера. К тому же, он такой стеснительный, что совсем непохоже на Алистера.
 
 <0001F721:0001F7A8>
-Then again, some of the nicest people turn into rotten jerks online. Playing online might be his way of blowing off steam or something.
+Хотя опять-таки самые милые люди в жизни могут вести себя в интернете как мерзкие гады. Онлайн-игра может быть его методом расслабления.
 
 <0001F7F4:0001F85E>
-As for Derek, I really don't know anything about him yet besides the fact that he's school vice president.
+Что касается Дерека, я о нём почти ничего не знаю, кроме того, что он школьный вице-президент.
 
 <0001F8AA:0001F8D5>
-What does a vice president even DO, anyway?
+Чем ВООБЩЕ занимается вице-призидент?
 
 <0001F921:0001F97D>
-Well, it doesn't really matter in the end. I'll figure out which one it is tomorrow, anyway.
+Что ж, это уже неважно. Завтра я выясню кто есть кто.
 
 <0001F9E7:0001F9F0>
 scheduler
