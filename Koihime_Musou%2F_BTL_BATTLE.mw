@@ -1,393 +1,295 @@
 [[Koihime Musou/Прогресс перевода/Системные|[Назад]]]
 <poem>
-
 <?xml version="1.0" encoding="UTF-8"?>
 <DBS>
   <String index="0">
-    <Origin>_btl_CleanupNVL_BGM_BG</Origin>
     <ToTranslate>_btl_CleanupNVL_BGM_BG</ToTranslate>
   </String>
   <String index="1">
-    <Origin>_btl_mainmsg</Origin>
     <ToTranslate>_btl_mainmsg</ToTranslate>
   </String>
   <String index="2">
-    <Origin>_btl_mainmsg_m</Origin>
     <ToTranslate>_btl_mainmsg_m</ToTranslate>
   </String>
   <String index="3">
-    <Origin>_btl_turnmsg</Origin>
     <ToTranslate>_btl_turnmsg</ToTranslate>
   </String>
   <String index="4">
-    <Origin>_btl_turnmsg_m</Origin>
     <ToTranslate>_btl_turnmsg_m</ToTranslate>
   </String>
   <String index="5">
-    <Origin>_btl_SetPlayerStatusGrp</Origin>
     <ToTranslate>_btl_SetPlayerStatusGrp</ToTranslate>
   </String>
   <String index="6">
-    <Origin>_btl_SetEnemyStatusGrp</Origin>
     <ToTranslate>_btl_SetEnemyStatusGrp</ToTranslate>
   </String>
   <String index="7">
-    <Origin>_btl_cmdbase</Origin>
     <ToTranslate>_btl_cmdbase</ToTranslate>
   </String>
   <String index="8">
-    <Origin>_btl_cmdbase_m</Origin>
     <ToTranslate>_btl_cmdbase_m</ToTranslate>
   </String>
   <String index="9">
-    <Origin>_btl_JinCMbase</Origin>
     <ToTranslate>_btl_JinCMbase</ToTranslate>
   </String>
   <String index="10">
-    <Origin>_btl_JinCMbase_m</Origin>
     <ToTranslate>_btl_JinCMbase_m</ToTranslate>
   </String>
   <String index="11">
-    <Origin>bg_black</Origin>
     <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="12">
-    <Origin>bgefc_rgb120</Origin>
     <ToTranslate>bgefc_rgb120</ToTranslate>
   </String>
   <String index="13">
-    <Origin>_btl_InitParam</Origin>
     <ToTranslate>_btl_InitParam</ToTranslate>
   </String>
   <String index="14">
-    <Origin>_btl_WazaGrpLoad</Origin>
     <ToTranslate>_btl_WazaGrpLoad</ToTranslate>
   </String>
   <String index="15">
-    <Origin>_btl_Troops_CMGrpChange</Origin>
     <ToTranslate>_btl_Troops_CMGrpChange</ToTranslate>
   </String>
   <String index="16">
-    <Origin>_btl_CreateStatusStrB</Origin>
     <ToTranslate>_btl_CreateStatusStrB</ToTranslate>
   </String>
   <String index="17">
-    <Origin>��$</Origin>
-    <ToTranslate>��$</ToTranslate>
+    <ToTranslate>%�$</ToTranslate>
   </String>
   <String index="18">
-    <Origin>���</Origin>
-    <ToTranslate>���</ToTranslate>
+    <ToTranslate>%�^</ToTranslate>
   </String>
   <String index="19">
-    <Origin>_btl_CreateStatusStrA</Origin>
     <ToTranslate>_btl_CreateStatusStrA</ToTranslate>
   </String>
   <String index="20">
-    <Origin>��$</Origin>
-    <ToTranslate>��$</ToTranslate>
+    <ToTranslate>%�$</ToTranslate>
   </String>
   <String index="21">
-    <Origin>���</Origin>
-    <ToTranslate>���</ToTranslate>
+    <ToTranslate>%�^</ToTranslate>
   </String>
   <String index="22">
-    <Origin> </Origin>
     <ToTranslate> </ToTranslate>
   </String>
   <String index="23">
-    <Origin>��</Origin>
-    <ToTranslate>��</ToTranslate>
+    <ToTranslate>%�</ToTranslate>
   </String>
   <String index="24">
-    <Origin>_btl_IsExitBattle</Origin>
     <ToTranslate>_btl_IsExitBattle</ToTranslate>
   </String>
   <String index="25">
-    <Origin>_btl_CoveringFire</Origin>
     <ToTranslate>_btl_CoveringFire</ToTranslate>
   </String>
   <String index="26">
-    <Origin>� The enemy has been destroyed!@</Origin>
-    <ToTranslate>� Враг уничтожен!@</ToTranslate>
+    <ToTranslate>% The enemy has been destroyed!@</ToTranslate>
   </String>
   <String index="27">
-    <Origin>_btl_CoveringFireEnemy</Origin>
     <ToTranslate>_btl_CoveringFireEnemy</ToTranslate>
   </String>
   <String index="28">
-    <Origin>� You have been annihilated...@</Origin>
-    <ToTranslate>� Ваши войска разбиты...@</ToTranslate>
+    <ToTranslate>% You have been annihilated...@</ToTranslate>
   </String>
   <String index="29">
-    <Origin>_btl_jinselchip</Origin>
     <ToTranslate>_btl_jinselchip</ToTranslate>
   </String>
   <String index="30">
-    <Origin>_btl_onmouse</Origin>
     <ToTranslate>_btl_onmouse</ToTranslate>
   </String>
   <String index="31">
-    <Origin>_btl_selected</Origin>
     <ToTranslate>_btl_selected</ToTranslate>
   </String>
   <String index="32">
-    <Origin>_btl_Troops_CMGrpChange</Origin>
     <ToTranslate>_btl_Troops_CMGrpChange</ToTranslate>
   </String>
   <String index="33">
-    <Origin>_btl_CreateStatusStrB</Origin>
     <ToTranslate>_btl_CreateStatusStrB</ToTranslate>
   </String>
   <String index="34">
-    <Origin>��$</Origin>
-    <ToTranslate>��$</ToTranslate>
+    <ToTranslate>%�$</ToTranslate>
   </String>
   <String index="35">
-    <Origin>���</Origin>
-    <ToTranslate>���</ToTranslate>
+    <ToTranslate>%�^</ToTranslate>
   </String>
   <String index="36">
-    <Origin>You: $��</Origin>
     <ToTranslate>You: $��</ToTranslate>
   </String>
   <String index="37">
-    <Origin>_btl_SetWazaBtnSrcY</Origin>
     <ToTranslate>_btl_SetWazaBtnSrcY</ToTranslate>
   </String>
   <String index="38">
-    <Origin>_btl_cmdchip</Origin>
     <ToTranslate>_btl_cmdchip</ToTranslate>
   </String>
   <String index="39">
-    <Origin>_btl_cmdchip_m</Origin>
     <ToTranslate>_btl_cmdchip_m</ToTranslate>
   </String>
   <String index="40">
-    <Origin>_btl_onmouse</Origin>
     <ToTranslate>_btl_onmouse</ToTranslate>
   </String>
   <String index="41">
-    <Origin>_btl_selected</Origin>
     <ToTranslate>_btl_selected</ToTranslate>
   </String>
   <String index="42">
-    <Origin>_btl_Retry</Origin>
     <ToTranslate>_btl_Retry</ToTranslate>
   </String>
   <String index="43">
-    <Origin>_btl_CleanupBtlGrp</Origin>
     <ToTranslate>_btl_CleanupBtlGrp</ToTranslate>
   </String>
   <String index="44">
-    <Origin>bg_black</Origin>
     <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="45">
-    <Origin>_btl_Waza</Origin>
     <ToTranslate>_btl_Waza</ToTranslate>
   </String>
   <String index="46">
-    <Origin>� The enemy has been destroyed!@</Origin>
-    <ToTranslate>� Враг уничтожен!@</ToTranslate>
+    <ToTranslate>% The enemy has been destroyed!@</ToTranslate>
   </String>
   <String index="47">
-    <Origin>_btl_WazaEnemy_Cont</Origin>
     <ToTranslate>_btl_WazaEnemy_Cont</ToTranslate>
   </String>
   <String index="48">
-    <Origin>� You have been annihilated...@</Origin>
-    <ToTranslate>� Ваши войска разбиты...@</ToTranslate>
+    <ToTranslate>% You have been annihilated...@</ToTranslate>
   </String>
   <String index="49">
-    <Origin>_btl_WazaEnemy</Origin>
     <ToTranslate>_btl_WazaEnemy</ToTranslate>
   </String>
   <String index="50">
-    <Origin>� You have been annihilated...@</Origin>
-    <ToTranslate>� Ваши войска разбиты...@</ToTranslate>
+    <ToTranslate>% You have been annihilated...@</ToTranslate>
   </String>
   <String index="51">
-    <Origin>_btl_WazaEnemy_BuffDEF</Origin>
     <ToTranslate>_btl_WazaEnemy_BuffDEF</ToTranslate>
   </String>
   <String index="52">
-    <Origin>_btl_WazaEnemy_Ref</Origin>
     <ToTranslate>_btl_WazaEnemy_Ref</ToTranslate>
   </String>
   <String index="53">
-    <Origin>� Your light infantry is charging.@</Origin>
-    <ToTranslate>� Ваша лёгкая пехота атакует.@</ToTranslate>
+    <ToTranslate>% Your light infantry is charging.@</ToTranslate>
   </String>
   <String index="54">
-    <Origin>�Your heavy infantry is intercepting.@</Origin>
-    <ToTranslate>�Ваша тяжёлая пехота вступает в бой.@</ToTranslate>
+    <ToTranslate>%Your heavy infantry is intercepting.@</ToTranslate>
   </String>
   <String index="55">
-    <Origin>�Your archers are firing@</Origin>
-    <ToTranslate>�Ваши лучники стреляют.@</ToTranslate>
+    <ToTranslate>%Your archers are firing@</ToTranslate>
   </String>
   <String index="56">
-    <Origin>_btl_SC_Player</Origin>
     <ToTranslate>_btl_SC_Player</ToTranslate>
   </String>
   <String index="57">
-    <Origin>You killed �k</Origin>
-    <ToTranslate>Противник потерял: �k</ToTranslate>
+    <ToTranslate>You killed �k</ToTranslate>
   </String>
   <String index="58">
-    <Origin>_btl_Waza_Choun</Origin>
     <ToTranslate>_btl_Waza_Choun</ToTranslate>
   </String>
   <String index="59">
-    <Origin>_btl_WazaEnemy_BuffATK</Origin>
     <ToTranslate>_btl_WazaEnemy_BuffATK</ToTranslate>
   </String>
   <String index="60">
-    <Origin>_btl_Waza_Kochu</Origin>
     <ToTranslate>_btl_Waza_Kochu</ToTranslate>
   </String>
   <String index="61">
-    <Origin>�The enemy&apos;s light infantry is charging.@</Origin>
-    <ToTranslate>�Вражеская лёгкая пехота атакует.@</ToTranslate>
+    <ToTranslate>%The enemy&apos;s light infantry is charging.@</ToTranslate>
   </String>
   <String index="62">
-    <Origin>�The enemy&apos;s heavy infantry is intercepting.@</Origin>
-    <ToTranslate>�Вражеская тяжёлая пехота вступает в бой.@</ToTranslate>
+    <ToTranslate>%The enemy&apos;s heavy infantry is intercepting.@</ToTranslate>
   </String>
   <String index="63">
-    <Origin>�The enemy&apos;s archers are firing@</Origin>
-    <ToTranslate>�Вражеские лучники стреляют.@</ToTranslate>
+    <ToTranslate>%The enemy&apos;s archers are firing@</ToTranslate>
   </String>
   <String index="64">
-    <Origin>_btl_SC_Enemy</Origin>
     <ToTranslate>_btl_SC_Enemy</ToTranslate>
   </String>
   <String index="65">
-    <Origin>You suffered �n</Origin>
-    <ToTranslate>Понесены потери: �n</ToTranslate>
+    <ToTranslate>You suffered �n</ToTranslate>
   </String>
   <String index="66">
-    <Origin>_btl_HukuheiEnemy</Origin>
     <ToTranslate>_btl_HukuheiEnemy</ToTranslate>
   </String>
   <String index="67">
-    <Origin>�You have been annihilated...@</Origin>
-    <ToTranslate>�Ваши войска разбиты...@</ToTranslate>
+    <ToTranslate>%You have been annihilated...@</ToTranslate>
   </String>
   <String index="68">
-    <Origin>_btl_CreateStatusStrB</Origin>
     <ToTranslate>_btl_CreateStatusStrB</ToTranslate>
   </String>
   <String index="69">
-    <Origin>��$</Origin>
-    <ToTranslate>��$</ToTranslate>
+    <ToTranslate>%�$</ToTranslate>
   </String>
   <String index="70">
-    <Origin>���</Origin>
-    <ToTranslate>���</ToTranslate>
+    <ToTranslate>%�^</ToTranslate>
   </String>
   <String index="71">
-    <Origin>_btl_Troops_GrpChange</Origin>
     <ToTranslate>_btl_Troops_GrpChange</ToTranslate>
   </String>
   <String index="72">
-    <Origin>_btl_WazaEnemy_RenATK</Origin>
     <ToTranslate>_btl_WazaEnemy_RenATK</ToTranslate>
   </String>
   <String index="73">
-    <Origin>�You have been annihilated...@</Origin>
-    <ToTranslate>�Ваши войска разбиты...@</ToTranslate>
+    <ToTranslate>%You have been annihilated...@</ToTranslate>
   </String>
   <String index="74">
-    <Origin>�The enemy has been destroyed!@</Origin>
-    <ToTranslate>�Враг уничтожен!@</ToTranslate>
+    <ToTranslate>%The enemy has been destroyed!@</ToTranslate>
   </String>
   <String index="75">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="76">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="77">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="78">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="79">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="80">
-    <Origin>_btl_Lose</Origin>
     <ToTranslate>_btl_Lose</ToTranslate>
   </String>
   <String index="81">
-    <Origin>_btl_Lose_m</Origin>
     <ToTranslate>_btl_Lose_m</ToTranslate>
   </String>
   <String index="82">
-    <Origin>BGM38</Origin>
     <ToTranslate>BGM38</ToTranslate>
   </String>
   <String index="83">
-    <Origin>_btl_Continue</Origin>
     <ToTranslate>_btl_Continue</ToTranslate>
   </String>
   <String index="84">
-    <Origin>_btl_CleanupBtlGrp</Origin>
     <ToTranslate>_btl_CleanupBtlGrp</ToTranslate>
   </String>
   <String index="85">
-    <Origin>bg_black</Origin>
     <ToTranslate>bg_black</ToTranslate>
   </String>
   <String index="86">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="87">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="88">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="89">
-    <Origin>�</Origin>
-    <ToTranslate>�</ToTranslate>
+    <ToTranslate>%</ToTranslate>
   </String>
   <String index="90">
-    <Origin>_btl_Win</Origin>
     <ToTranslate>_btl_Win</ToTranslate>
   </String>
   <String index="91">
-    <Origin>_btl_Win_m</Origin>
     <ToTranslate>_btl_Win_m</ToTranslate>
   </String>
   <String index="92">
-    <Origin>BGM37</Origin>
     <ToTranslate>BGM37</ToTranslate>
   </String>
   <String index="93">
-    <Origin>�Retreat!@</Origin>
-    <ToTranslate>�Отступаем!@</ToTranslate>
+    <ToTranslate>%Retreat!@</ToTranslate>
   </String>
   <String index="94">
-    <Origin>_btl_CleanupBtlGrp</Origin>
     <ToTranslate>_btl_CleanupBtlGrp</ToTranslate>
   </String>
   <String index="95">
-    <Origin>bg_black</Origin>
     <ToTranslate>bg_black</ToTranslate>
   </String>
 </DBS>
-
 </poem>
 [[Koihime Musou/Прогресс перевода/Системные|[Назад]]]
