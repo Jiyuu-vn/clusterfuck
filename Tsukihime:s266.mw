@@ -3,56 +3,46 @@
 <pre>
 *s266
 
-; ?? : ?? : ???(?)<????>
 bg "image\bg\bg_05a.jpg",%type_nowaitdisp
 
+`— Но... Но... Но тысказала, что это была не ты!@
+`— Что «была не я»?@
+`— Три дня назад!@ Я спросил не ты ли помогла мне в парке, а ты сказала, что это был кто-то другой!\
 
-`"...... But...... but, you said that wasn't you!"@
-`"?@ What wasn't?"@
-`"Three nights ago!@ I asked if you were the one that helped me that night in the park, and you said it wasn't you......!"\
-
-; ??<?>=???:?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
-`"That was a lie."@
-` Succinctly.@
-` Senpai simply says so.\
+`— Я соврала.@
+` И всё.@
+` Это всё, что она сказала.\
 
-`"...... Um...... a lie, Senpai?"@
-`"I lied for your sake, Tohno-kun.@ I have to seal the mouth of any ordinary person who finds out my true identity.@
-` Tohno-kun, you don't like pain, right?"@
-` Senpai says such an unbelievable thing with a rather bright and cheerful voice.\
+`— Э... Соврала?..@
+`— Я ради тебя соврала, Тоно-кун.@ Я должна убедиться, что любой обычный человек, который обо мне узнал уже никому этого не расскажет.@
+`  Тебе ведь не по душе такой план, правда, Тоно-кун?@
+` На удивление радостный голос Семпай резко контрастирует со смыслом сказанного.\
 
-`"Seal the mouth, um......"@
-`"To put it simply, dead people can't talk.@ ...... Um, I think I put it too simply."@
-`"Uh---"@
-` I step back without even thinking about it.@
-` Senpai sounds like she is only half-joking.\
+`— Убедиться что никому не расскажет?..@
+`— Если по простому, то трупы крайне молчаливы.@ Наверно это было слишком по простому...@
+`— Ух...@
+` Я невольно делаю шаг назад.@
+` Судя по голосу Семпай это не совсем шутка.\
 
-; ??<?>=???:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
-`"So, I cannot let you go free depending on what you tell me.@ Tohno-kun, just what is your connection with that woman?"@
-` My heart almost stops as those emotionless eyes stare at me.\
+`— Так что я не могу тебя просто так отпустить. Всё зависит от того, что ты мне расскажешь.@ Тоно-кун, какие у тебя отношения с той женщиной?@
+` Её бесчувственный взгляд меня пугает.\
 
-` ---I thought I would be asking the questions, but our positions have been reversed.@
-` But I don't know what Senpai will do if I don't answer, and a chill runs through me.@
-; ?????<???????(?)>
+` ...Я думал, что вопросы буду задавать я, а вышло всё наоборот.@
+` Но я не знаю что она сделает, если я не отвечу.@
+
 cl c,%type_crossfade_fst
 \
 
-`"Ah---no, that's not it.@ About last night, I thought Arcueid was the one behind the serial killings, but that couldn't be right, so I went to ask her and---"@
-br
-` I tell her all about last night.@
-` Senpai listens to it all silently.@
-` How I met her accidentally, how she explained to me about the vampire in this city, how I teamed up with her to save the city, and everything up until now.\
-
-
-
-return
-
-
-</pre>
+`— А... Нет, Семпай, не в этом дело...@ Вчера я думал, что это Арквейд виновата в серийных убийствах, но этого же не может быть, так что я решил выяснить всё у неё.@
+` Я рассказываю всё о прошлой ночи.@
+` Семпай слушает не перебивая.@
+` Как мы сучайно встретились, как она рассказала мне о вампире, как мы объединили усилия, чтобы спасти город... Всё, что произошло.\
+return</pre>
 
 [[Tsukihime|[Назад]]]
 
