@@ -16,60 +16,60 @@ play "*3"
 bg "image\bg\bg_34c.jpg",%type_rshutter_mid
 
 
-` -----And...
+` -----И...
 br
-` In less than an hour, Hisui falls asleep and Kohaku-san carries her to her room with a smile.\
+` Меньше чем через час, Хисуи уснула, и Кохаку-сан с улыбкой отнесла её в её комнату.\
 
 `"............"@
-` Not being used to alcohol, my mind is a little fuzzy.@
-` Akiha sits nearby and is still drinking eagerly.@ It doesn't bode well for the rest of the evening.@
-`"...... Akiha, you really have some tolerance, don't you."@
+` Я не привык к спиртному, так что голова немного мутная.@
+` Акиха сидит рядом и всё ещё целеустремлённо пьёт.@ Остаток вечера ощущалась некая неловкость.@
+`"...... Акиха, ты действительно хорошо переносишь спиртное, не так ли."@
 
 ; ?? : 21~30 : 26_????<???????(?)>
 ld c,":a;image\tachi\aki_t26.jpg",%type_crossfade_fst
 
-`"Oh?@ I'm not drinking it straight up so I think it is about normal."@
-` ...... Um, that's not the point...
-` I'm saying she's pretty used to drinking for being a minor.\
+`"Э?@ Я не пью залпом, так что, думаю, вполне нормально."@
+` ...... Эм, не в этом суть......
+` Я о том, что она изрядно привыкла к спиртному для несовершенноетней.\
 
 ; ?? : 21~30 : 21_??<???????(?)>
 ld c,":a;image\tachi\aki_t13b.jpg",%type_crossfade_fst
 
-`"Geez, making that face again.@ Please get at least a little drunk, Nii-san.@
-` Kohaku prepared all this to cheer you up, so isn't it meaningless if you don't?"@
-`"Ah, that's right.@ ...... Yeah, I have to thank Kohaku-san for her consideration.@ Thanks to that, I do feel a bit better."\
+`"Фи, опять делаешь такое лицо.@ Выпей хоть немного, Нии-сан.@
+` Кохаку приготовила всё это, чтобы подбодрить тебя, так что всё бессмысленно, если ты не будешь, разве нет?"@
+`"Ах, ты права....@ ...... Действительно, стоит поблагодарить Кохаку-сан за её заботу.@ Благодаря этому мне стало немного лучше."\
 
 ; ?? : 01~10 : 03_?03(?????)<???????(?)>
 ld c,":a;image\tachi\aki_t03b.jpg",%type_crossfade_fst
 
-`"What are you saying?@ You don't look happy at all.@ If alcohol doesn't make you feel better, isn't there nothing left?"@
-`"Wow, that's a little bold.@ Saying nothing is left if alcohol doesn't work... isn't that mistaken?"@
+`"О чём ты говоришь?@ Ты совсем не выглядишь довольным.@ Если алкоголь не поднял твоё настроение, то что осталось?"@
+`"Вау, это прямолинейно.@ Говорить, что если не работает алкоголь, то ничего не осталось... тебе не кажется, что это неправильно?"@
 
 ; ?? : 11~20 : 18_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 
-`"It cannot be helped if you do not wish to speak to me, Nii-san.@ If you would talk about last night, I wouldn't ask for the help of alcohol."@
+`"Ничего не поделать, если ты не хочешь со мной говорить, Нии-сан.@ Если бы ты рассказал про прошлую ночь, мне бы не понадобилась помощь спиртного."@
 `"------"@
-` I see.@
-` Just like Kohaku-san, Akiha is concerned about me.\
+` Понятно.@
+` Как и Кохаку-сан, Акиха беспокоится обо мне.\
 
 ; ?? : 11~20 : 16_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t16b.jpg",%type_crossfade_fst
 
-`"But, I can't ask, right?@ I already promised no longer to ask about it."@
-`"...... Sorry.@ I'm just a big burden to everyone."@
+`"Но я не могу спрашивать, верно?@ Я уже обещала больше не мпрашивать об этом."@
+`"...... Прости.@ Я просто большая обуза для всех."@
 
 ; ?? : 21~30 : 26_????<???????(?)>
 ld c,":a;image\tachi\aki_t26.jpg",%type_crossfade_fst
 
-`"Well, as long as you understand it is alright.@
-` ----Um, as you say I seem to be a little drunk, so I will go outside."@
+`"Ну, пока ты это понимаешь, всё нормально.@
+` ----Эм, как ты сказал, я, похоже, немного пьяна, так что пройдусь наружу."@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_mid
 
 br
-` She says "drunk", but her steps are firm as she exits the dining room.\
+` Она сказала "пьяна", но её шаги, когда она вышла из обеденной комнаты, чёткие и уверенные.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -82,33 +82,33 @@ bg "image\bg\bg_42b.jpg",%type_lcartain_mid
 ;CD-DA????????????
 play "*9"
 
-` Following Akiha, I go out to the courtyard to get some fresh air.@
-` It is still before six o'clock.@
-` The red sun paints the sky.@
-`"...... Still the afternoon?"@
-` There's no one else around.@
-` I thought Akiha was going to be here but I guess we missed each other.\
+` Последовав за Акихой, я вышел во двор, чтобы вздохнуть свежим воздухом.@
+` Ещё нет шести.@
+` Красное солнце окрашивает небо.@
+`"...... Всё ещё послеобеденное время?"@
+` Никого вокруг.@
+` Я думал, Акиха идёт сюда, но, похоже, мы разминулись.\
 
-`"...... Red sunset?"@
-` Until now, the red sunset reminded me of fresh blood.@
-` But today,
-` it reminded me of her final smile as we parted on the road home.@
+`"...... Красный закат?"@
+` Раньше, красный закат напоминал мне свежую кровь.@
+` Но сегодня,
+` он напомнил мне её прощальную улыбку, когда мы расстались на дороге домой.@
 br
 ;S.E."??"
 wave se0
 
-` ...... Throb.@ A stabbing pain in my chest.@
+` ...... Пульсация.@ Пронзительная боль в груди.@
 br
 ;S.E."??"
 wave se0
 
-` Does the scar on my chest hurt?@
-` Or is my heart in pain from regret?\
+` Это болит шрам на моей груди?@
+` Или моё сердце болит от сожаления?\
 
 
-` I can't tell the difference.@
-` Only that my chest hurts.@
-` As if it was bleeding.@
+` Я не могу определить разницу.@
+` Просто ощущаю боль в груди.@
+` Словно она истекает кровью.@
 br
 ;S.E."??"
 wave se0
@@ -118,36 +118,36 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_42b.jpg",%type_crossfade_fst
 
 
-`"Gah------"@
-` Dizziness assails me.@
-` Because of the alcohol and the pain in my chest,
-` such a small, insignificant thing causes me to lose consciousness----\
+`"Ах------"@
+` На меня накатило головокружение.@
+` Из-за алкоголя и боли в груди,
+` такая незначительная мелочь заставляет меня терять сознание----\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 !w2000
 
-` ...... My house is this way.@
-` Saying that, she went down a different path.\
+` ...... Мой дом там.@
+` Сказав это, она пошла по другой дороге.\
 
-` ...... Thanks.@
-` She probably said that since I was there for her until the very end.\
+` ...... Спасибо.@
+` Скорее всего, она сказала это, потому что я был с ней до самого конца.\
 br
-` ...... Sorry.@
-` She probably said that since she knew I would carry this regret from now on.\
+` ...... Прости.@
+` Скорее всего, она сказала это, потому что знала, что отныне это сожаление останется со мной.\
 
-` ...... So it's okay to forget.@
+` ...... Так что забыть - нормально.@
 br
-` It felt like she whispered those words in my ears.\
-` ...... Isn't that just a false happiness?@
-` In a dream I dreamed about, I dream such selfish words.\
+` Такое чувство, словно она шепнула эти слова в мои уши.\
+` ...... Но разве это не ложное счастье?@
+` В приснившемся мне сне, я грежу о таких эгоистичных словах.\
 
-` If I can just forget, it will be very easy for me.@
-` But I can't forget.@
-` I didn't like her nor did I hate her, but,
-` I think I shouldn't forget her smile.@
-` And more than that,
-` as long as this scar remains on my neck, I can't forget----\
+` Если бы я мог просто забыть, это было бы очень просто для меня.@
+` Но я не могу забыть.@
+` Я не люблю и не ненавижу её, но,
+` думаю, я не смогу забыть её улыбку.@
+` И кроме того,
+` пока этот шрам остаётся на моей шее, я не могу забыть----\
 
 ;CD-DA??
 playstop
@@ -159,55 +159,55 @@ bg "image\bg\bg_40c.jpg",%type_crossfade_mid
 ;CD-DA?????
 play "*1"
 
-`"Ah-----"@
-` When I come to, I'm lying in my room.@
-` While I was sleeping, Akiha must have been watching me because she is there in front of me.@
-`"Aki, ha?"@
+`"Ах-----"@
+` Когда я пришёл в себя, я лежал в своей комнате.@
+` Должно быть, пока я спал, Акиха следила за мной, поскольку сейчас она передо мной.@
+`"Аки, ха?"@
 
 ; ?? : 11~20 : 17_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t17b.jpg",%type_crossfade_fst
 
-`"Have you awakened?@ Goodness, suddenly collapsing like that, what happened Nii-san?"@
-`"I see...... did I pass out?"@
+`"Ты очнулся?@ Господи, так внезапно потерять сознание, что случилось, Нии-сан?"@
+`"Понятно...... я отключился?"@
 
 ; ?? : 11~20 : 12_??01(???????)<???????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_crossfade_fst
 
-`"Yes.@ Thankfully, you woke up quickly.@ I'm sorry for forcing you to drink like that."@
-`"No, that has nothing to do with this.@ I just collapsed on my own."\
+`"Да.@ К счастью, ты быстро очнулся.@ Извини, что заставила тебя так пить."@
+`"Нет, это тут ни при чём.@ Я просто сам потерял сознание."\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Saying that, I stare up at the ceiling.@
-` My head is still dizzy, and I don't feel like talking with Akiha right now.@
-` ...... Even still, Akiha is not bothered by this and she quietly tends to me.\
+` Сказав это, я уставился в потолок.@
+` Моя голова ещё кружится, и я не хочу сейчас разговаривать с Акихой.@
+` ...... Впрочем, Акиху это не беспокоит, и она прислонилась ко мне.\
 
-`"...... Akiha?"@
+`"...... Акиха?"@
 
 ; ?? : 01~10 : 01_?01(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
 
-`"Yes?@ What is it, Nii-san?"@
-`"---Um, well.@ Isn't this boring for you?@ I'm fine, so you can go back to your room if you want."@
+`"Да?@ Что такое, Нии-сан?"@
+`"---Эм, ну...@ Тебе не скучно?@ Я в порядке, так что ты можешь возвращаться к себе, если хочешь."@
 
 ; ?? : 11~20 : 12_??01(???????)<???????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_crossfade_fst
 
-`"Are you saying I'm bothering you?"@
-`"No, that's not it at all.@ I was just thinking that maybe you were a little bored."@
+`"Хочешь сказать, что я тебе мешаю?"@
+`"Нет, ничего подобного.@ Я просто подумал, что тебе может быть скучно."@
 
 ; ?? : 01~10 : 01_?01(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"It is boring, but I can stand it.@ This is something I'm doing out of my own interest, so there is no need for you to worry, Nii-san."@
+`"Скучно, но я могу это выдержать.@ Это нечто, что я делаю для себя, так что тебе не стоит беспокоиться, Нии-сан."@
 br
-` Then----I guess that's alright.\
+` Ну, тогда ---- полагаю, всё нормально.\
 
-` Time passes.@
-` It's past seven o'clock.@
-` Seven hours since then.@ Has Akiha been tending me this long?@
-` Akiha silently takes my temperature.@
+` Проходит время.@
+` Уже больше семи часов.@
+` Семь часов с того момента.@ Акиха так долго за мной ухаживает?@
+` Акиха молча меряет мою температуру.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -218,15 +218,15 @@ monocro #ffff00
 bg "image\bg\bg_45b.jpg",%type_crossfade_mid
 
 
-` ...... Ah, I remember now.@
-` That had to have been more than eight years ago.@
-` Akiha came to watch over me after I caught a cold or something like that.\
+` ...... Ах, я вспомнил.@
+` Должно быть, это было больше восьми лет назад.@
+` Акиха пришла проведать меня, когда я подхватил простуду, или что-то в этом роде.\
 
-` It really was a terrible cold; even breathing was painful.@
-` The black-haired girl sat by my pillow, holding my hand and just staring at me.@
-` Tatami and the shouji.@
-` The cool winter air.@
-` In the dark tatami mat room, the young figure of Akiha watching me on the verge of tears.\
+` Это действительно была ужасная простуда; даже дышать было больно.@
+` Черноволосая девочка сидела рядом с моей подушкой, держала меня за руку и просто смотрела на меня.@
+` Татами и шоджи.@
+` Прохладный зимний воздух.@
+` В тёмной комнате с татами, молодая фигура Акихи смотрит на меня, едва сдерживая слёзы.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
@@ -235,27 +235,27 @@ monocro off
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-`"...... I'm a little relieved."@
+`"...... Мне стало немного спокойнее."@
 
 ; ?? : 01~10 : 01_?01(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
 
-`"Eh?@ Did you say something Nii-san?"@
-`"...... Yeah.@ I was just thinking there is a little bit of the old Akiha in you.@ It's not really anything, but it makes me pretty happy."@
-` I give Akiha a gentle smile so naturally, it almost surprises me.\
+`"Э?@ Ты что-то сказал, Нии-сан?"@
+`"...... Ага.@ Я просто подумал, что в тебе осталось немного от старой Акихи.@ Ничего особенного, но я рад."@
+` Я так искренне и нежно улыбнулся Акихе, что сам удивился.\
 
 ; ?? : 11~20 : 16_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t16b.jpg",%type_crossfade_fst
 
-`"That is fine, but you haven't changed at all Nii-san.@ Causing so much work for others... please act more properly."@
-` Akiha looks away and complains.@
-` Understanding she is just embarrassed, I start to feel even more happier.\
+`"Это хорошо, но вот ты ничуть не изменился, Нии-сан.@ Устраивать столько работы для других... пожалуйста, веди себя более подобающе."@
+` Пожаловалась Акиха, отвернувшись.@
+` Я понимаю, что она просто смущена, так что мне стало ещё приятнее.\
 
 ; ?? : 11~20 : 13_??02(?~???????)<???????(?)>
 ld c,":a;image\tachi\aki_t13b.jpg",%type_crossfade_fst
 
-`"...... Sheesh, why are you smiling like that?@ If you have this much energy I guess you don't need me to take care of you."@
-`"No, that's not it.@ I just remembered something from a long time ago.@ Akiha, in that tatami room----"\
+`"...... Ну вот, почему ты так улыбаешься?@ Если у тебя столько энергии, то, полагаю, мне не нужно о тебе заботиться."@
+`"Нет, не в том дело.@ Я просто вспомнил кое-что из прошлого.@ Акиха, в той комнате с татами----"\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -263,58 +263,58 @@ cl a,%type_crossfade_fst
 wave se0
 
 br
-` ----Tatami room?@
+` ----Комнате с татами?@
 br
-` What is that all about?@
-` I understand Akiha taking care of me, but why was it in a tatami room and not my room?@
+` Что за?..@
+` Я понимаю, что Акиха ухаживала за мной, но почему это было в комнате с татами, а не в моей комнате?@
 br
-` Something.@
-` There's something not quite right.\
+` Что-то.@
+` Что-то определённо неправильно.\
 
-`"Akiha.@ Is there a room with tatami in this mansion?"@
+`"Акиха.@ В этой усадьбе есть комната с татами?"@
 
 ; ?? : 01~10 : 01_?01(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
 
-`"No.@ There are no Japanese rooms in this mansion."@
-`"Yeah, you're right.@ It's nothing.@ I just thought it was odd, don't worry about it."@
+`"Нет.@ В этой усадьбе нет Японских комнат."@
+`"Да, ты права.@ Не обращай внимания.@ Я просто подумал, что это странно, не беспокойся об этом."@
 
 ; ?? : 11~20 : 13_??02(?~???????)<???????(?)>
 ld c,":a;image\tachi\aki_t13b.jpg",%type_crossfade_fst
 
-`"Hm?@ What is so odd about not having a Japanese room?"@
-`"Oh, you know.@ This mansion is so big, I thought maybe there was at least one."@
+`"Хм?@ Что такого странного в том, что у нас нет Японской комнаты?"@
+`"Ну, знаешь.@ Эта усадьба такая большая, я думал, что, может быть, есть хоть одна."@
 
 ; ?? : 01~10 : 01_?01(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
 
-`"There is a detached Japanese-style building however."@
-`"Eh----?"@
-` ----Now that she mentions it, of course.@
-` In the middle of the forest in the garden, there was a Japanese-style mansion.\
+`"Правда, есть отдельное здание в японском стиле."@
+`"Э----?"@
+` ----Теперь, когда она это сказала... Действительно.@
+` Посреди леса в саду была усадьба в Японском стиле.\
 
 ; ?? : 11~20 : 16_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t16b.jpg",%type_crossfade_fst
 
-`"...... Goodness, you really have become more energetic.@ I think I will only be in the way if I stay longer so I will return to my room."@
+`"...... Слава богу, ты действительно ожил.@ Думаю, я буду только мешать, если задержусь, так что я возвращаюсь в свою комнату."@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Standing up from the chair, Akiha goes to leave the room.\
+` Встав с кресла, Акиха направилась к выходу из комнаты.\
 
-`"Thanks, Akiha.@ Sorry for making you stay here this whole time."@
+`"Спасибо, Акиха.@ Извини, что заставил тебя столько времени здесь проторчать."@
 
 ; ?? : 01~10 : 04_?04(?????)<???????(?)>
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"Please don't mind.@ Starting tomorrow your daily life will become more like this."@
+`"Ничего.@ С завтрашнего дня твоя жизнь будет в этом духе."@
 
 ; ?????<???????(?)>
 cl a,%type_lcartain_mid
 
 `".........?"@
-` After saying something I don't quite understand, Akiha exits the room.\
+` Сказав нечто, чего я толком не понял, Акиха вышла из комнаты.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -324,12 +324,12 @@ bg "image\bg\bg_40d.jpg",%type_rcartain_mid
 
 
 
-` ----I turn off the lights and rest in bed.@
+` ----Я выключил свет и улёгся в постель.@
 br
-` Thanks to Akiha taking care of me, I feel more relaxed.@
-` At this rate, I should be able to dream peacefully for the first time in days.@
+` Благодаря заботе Акихи, я чувствовал себя более расслабленным.@
+` Похоже, так я смогу впервые за последние дни мирно выспаться.@
 br
-` I take a deep breath and slowly close my eyes.\
+` Я глубоко вздохнул и медленно закрыл глаза.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
@@ -339,30 +339,30 @@ bg "image\bg\bg_45b.jpg",%type_crossfade_mid
 
 
 
-` ...... Right before I fall asleep,
-` the memory of myself being tended by a young Akiha freshly surfaces in my mind.\
+` ...... Прямо перед тем, как заснуть,
+` свежее воспоминание о том, как молодая Акиха ухаживала за мной, всплыло в моём разуме.\
 
-` The dark Japanese-style room where no one came to see me.@
-` Did she sneak away from Makihisa?@ Akiha snuck in and cried as she held my hand.@
-` "I'm sorry," she was saying.@
-` I didn't know why, but the black-haired young girl kept repeating "I'm sorry" over and over.\
+` Тёмная комната в японском стиле, где никто не приходил меня проведать.@
+` Она проскользнула в тайне от Макихисы?@ Акиха прошмыгнула внутрь и плакала, держа меня за руку.@
+` "Прости", говорила она.@
+` Я не знаю, почему, но черноволосая девочка снова и снова продолжала повторять "прости...".\
 
-` ------I remember.@
+` ------Я вспомнил.@
 br
-` About the proud eldest daughter of the Tohno family who was the only one to care for me.\
+` Гордую старшую дочь семейства Тоно, которая была единственной, кто заботился обо мне.\
 
 `".................."@
-` The young girl always crying in the dark Japanese room.@ I bit my tongue in frustration while being dizzy from fever.@
-` I wonder why she was crying.@
-` If it was me,
-` I would never, never let Akiha cry.\
+` Девочка всегда плакала в тёмной Японской комнате.@ Я раздражённо прикусил язык, всё ещё с головокружением от недомогания.@
+` Хотел бы я знать, почему она плакала.@
+` Если бы это был я,
+` Я бы никогда, никогда не позволил Акихе плакать.\
 
 
-` ...... I'm sorry.@
-` ...... I'm sorry, Shiki-nii-san.@
+` ...... Прости.@
+` ...... Прости, Шики-нии-сан.@
 br
-` Her tears were simply beautiful.@
-` Since that time, I vowed to be her real brother----\
+` Её слёзы были прекрасны.@
+` С того момента, я поклялся быть её настоящим братом----\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
