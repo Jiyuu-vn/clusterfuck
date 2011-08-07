@@ -10,7 +10,7 @@ bg "image\bg\bg_40b.jpg",%type_nowaitdisp
 
 
 
-` ...... That's right.@ She's been taking care of me since yesterday, so if I have time to fool around, I ought to go help Hisui.\
+` Точно...@ Она заботится обо мне со вчерашнего дня, так что если у меня есть время на глупости, лучше сходить помочь Хисуи.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -19,8 +19,8 @@ bg "image\bg\bg_46b.jpg",%type_lshutter_mid
 ;CD-DA?????
 play "*1"
 
-` ---Well then.@
-` Hisui said she'd be cleaning the mansion, but where could she be?@
+` Ну, в таком случае....@
+` Хисуи сказала, что будет убирать усадьбу, но где именно она может быть?..@
 br
 
 ; ???<??????(?)>
@@ -29,38 +29,38 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_33b.jpg",%type_lshutter_fst
 
-` I go down to the lobby.@
-` She wasn't in the hallway on the second floor, so maybe she's in the sitting room?@
+` Я спустился в лобби.@
+` В коридоре на втором этаже её не было; возможно, она в гостиной?@
 br
 
 ; ?? : ?? : ????(?)<??????(?)>
 bg "image\bg\bg_34c.jpg",%type_lshutter_mid
 
-` ...... Not here.\
+` ...... Не здесь.\
 br
 ; ?? : ?? : ????(??)<??????(?)>
 bg "image\bg\bg_35.jpg",%type_lshutter_mid
 
-` ............ Not here.@
+` ............ Не здесь.@
 br
 ; ?? : ???? : ????(?)<??????(?)>
 bg "image\bg\bg_46b.jpg",%type_lshutter_mid
 
-` .................. Not here.@
+` .................. Не здесь.@
 br
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
-` ........................ Not here.\
+` ........................ Не здесь.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_33b.jpg",%type_lshutter_mid
 
 
-` She's not anywhere on the first floor.@
-` The only place I haven't been are the locked recreation rooms, the guest rooms, and the salon where Akiha is right now.@
-`"...... I guess she's on the second floor then."@
-` It is a big mansion, so there's probably a bunch of places I haven't looked.@
-` Psyching myself up, I start up the stairs.\
+` На первом этаже её нигде нет.@
+` Я не посмотрел только в запертых комнатах отдыха, в гостевых комнатах, и в салоне, где сейчас Акиха.@
+` - В таком случае, полагаю, она на втором этаже...@
+` Это большая усадьба, так что, полагаю, осталось изрядно мест, где я ещё не смотрел.@
+` Подбадривая себя, я стал подниматься по лестнице.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -69,9 +69,9 @@ bg "image\bg\bg_46b.jpg",%type_lcartain_mid
 ;CD-DA??
 playstop
 
-` I go up the stairs and glance down the hallway.@
-` And then,
-` I see Hisui's silhouette standing by the window in the east hall of the mansion.\
+` Я поднялся по лестнице и взглянул вдоль коридора.@
+` И в этот момент,
+` я заметил силуэт Хисуи, стоящей у окна в восточном зале усадьбы.\
 
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
@@ -81,63 +81,63 @@ bg "image\event\his_e04.jpg",%type_crossfade_mid
 play "*9"
 
 
-`"Hisu--"@
-` My voice dies in my throat.@
-` In the middle of the hallway.@
-` In the twilight, between light and shadow, Hisui stands motionless.\
+` - Хису...@
+` Слова застряле в горле.@
+` Посреди коридора.@
+` В сумраке, между светом и тенью, неподвижно стоит Хисуи.\
 
-`"------"@
-` ...... I can't... speak.@
-` Something about her seems... dangerous.@
+` - ...@
+` Я не могу... ничего сказать...@
+` Что-то в ней выглядит... опасным.@
 br
-` Hisui lingering in the gloom of this western-style mansion.@
-` She seems so incredibly beautiful; but at the same time, a chill runs through me, as if I were looking at a ghost.@
+` Хисуи стоит в полумраке этой усадьбы в западном стиле.@
+` Она выглядит такой красивой; но в то же время, озноб пробежал по моей спине, словно я смотрю на привидение.@
 br
-` She doesn't even move a finger.@ She simply stares out the window.@
-`"------"@
-` That window.@
-` Is that the same one she watched us from back then?\
+` Она не движет даже пальцом.@ Она просто смотрит в окно.@
+` - ...@
+` Это окно.@
+` Это то самое, из которого на наблюдала за нами тогда?\
 
-`"Hisu----i"@
-` I can't do anything but stare in fascination.@
-` I'm so dumbstruck I can't speak, or even blink.@ I can only watch her.@
+` - Хису...и@
+` Я не могу ничего сделать, просто смотрю в восхищении.@
+` Я так ошарашен, что не могу не то что говорить - даже моргать.@ Я могу только наблюдать за ней.@
 br
-` ----And then.@
-` Her eyes, still like that of a doll's, suddenly turn towards me.\
+` И затем...@
+` Её глаза, всё ещё словно глаза куклы, внезапно обратились ко мне.\
 
-`"Shiki-sama, is something wrong?"@
-`"Ah---no, nothing, I just, um......"@
+` - Шики-сама, что-то не так?@
+` - Ах... нет, ничего, я просто, эм...@
 `"?"@
-` Hisui tilts her head in curiosity.@
-` That seems to break the mysterious spell I was under.\
+` Хисуи вопросительно наклонила голову.@
+` Такое чувство, что это разбило наложеные на меня таинственные чары.\
 
-`"I was looking for you because I had some free time and thought I'd give you a hand.@ For some reason, I couldn't find you, but I made it."@
-`" ...... I see.@ But Shiki-sama, there is no need for you to do that.@ Please return to your room."@
-`"Hmmm........."@
-` I thought it would turn out like this, Hisui doesn't want me to do any work.\
+` - Я искал тебя, потому что у меня есть свободное время, и я подумал, что стоит тебе помочь.@ Почему-то никак не мог тебя найти, но в конце концов справился.@
+` - Понятно...@ Но, Шики-сама, вам не нужно этого делать.@ Пожалуйста, вернитесь в свою комнату.@
+` - Хмм...@
+` Так и знал, что так получится. Хисуи не хочет, чтобы я занимался какой-то работой.\
 
-`"But Hisui, I don't have anything else to do.@ I don't like just doing nothing, so I thought I ought to pitch in."@
-`"Shiki-sama, you may say that, but there is no longer any work that you might assist me with.@ The only thing that remains is to arrange Akiha's bedroom.@
-` No males are allowed to enter Akiha's bedroom.@ Not even you, Shiki-sama."@
-`"Hmmmm............"@
-` Well, that's definitely true.@
-` ...... But, it is a little cruel.@ She didn't have to emphasize that last part.\
+` - Но хисуи, мне больше нечем заняться.@ Я не хочу просто бездельничать, так что решил, что мне следует помочь, чем могу.@
+` - Шики-сама, вы можете так говорить, но работы, с которой вы могли бы мне помочь, не осталось.@ Единственное, что осталось, это позаботиться о спальне Акихи.@
+` А в спальню Акихи мужчинам входить не позволено.@ Даже вам, Шики-сама.@
+` - Хмммм...@
+` Ну, это действительно так.@
+` Но это немного жестоко...@ Ей не нужно было делать акцент на последней части.\
 
-`"Please excuse me, I have to finish my duties."@
+` - Пожалуйста, извините меня, мне нужно закончить свои обязанности.@
 
 ; ?? : ???? : ????(?)<???????(?)>
 bg "image\bg\bg_46b.jpg",%type_crossfade_mid
 
 
-` Her footsteps echo in the air and she goes into Akiha's bedroom.@
-`"............... Sheesh."@
-` I can't just go into a girl's bedroom because I have free time.@
-`"...... Oh well, I guess I'll go back to my room."@
-` I turn on my heels.@
-` Before doing so, I get curious about the window Hisui was staring out of.@
-`"Huh---isn't that Kohaku-san in the courtyard?"@
-` You can see the whole courtyard from this window.@
-` Was Hisui looking out into the courtyard from this window just as she did when she was a child......?\
+` Её шаги разносятся эхом, когда она проходит в спальню Акихи.@
+` - Ну вот...@
+` Я не могу войти в спальню девушки просто потому, что у меня есть свободное время.@
+` - Ну, ладно, в таком случае вернусь к себе...@
+` Я повернулся на каблуках.@
+` Но прежде чем это сделать, я полюбопытствовал насчёт окна, в которое смотрела Хисуи.@
+` - Хм... Это не Кохаку-сан там во дворе?@
+` Из этого окна виден весь двор.@
+` Хисуи смотрела во двор из окна, как в детстве?..\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
