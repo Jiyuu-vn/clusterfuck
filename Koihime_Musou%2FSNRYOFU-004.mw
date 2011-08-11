@@ -1,0 +1,835 @@
+[[Koihime Musou/Персонажи/Побочные|[Назад]]]
+{{Не Трожь!|Predtech}}
+
+<pre>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DBS>
+  <String index="0">
+    <ToTranslate>bcg_castgurden_a</ToTranslate>
+  </String>
+  <String index="1">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="2">
+    <ToTranslate>bgm02</ToTranslate>
+  </String>
+  <String index="3">
+    <ToTranslate>$Lately it was becoming my habit to take a break from unpleasant desk work, just around the time it felt like my head was about to explode.@</ToTranslate>
+  </String>
+  <String index="4">
+    <ToTranslate>$Aisha didn&apos;t seem to have a problem with it, though she would hunt me down like a demon if I stayed away for too long.@</ToTranslate>
+  </String>
+  <String index="5">
+    <ToTranslate>$The sky was blue and clear as far as the eye could see. I filled my lungs with the fresh air...@</ToTranslate>
+  </String>
+  <String index="6">
+    <ToTranslate>Kazuto$&quot;I wish there was a vending machine out here.&quot; @</ToTranslate>
+  </String>
+  <String index="7">
+    <ToTranslate>$Remembering the taste of a Coke took a bit of color out of the sky... but I wasn&apos;t going to let it put a damper on the day.@</ToTranslate>
+  </String>
+  <String index="8">
+    <ToTranslate>$I decided to take a walk around the garden before heading back to my room.@</ToTranslate>
+  </String>
+  <String index="9">
+    <ToTranslate>tcg_ryo11aa</ToTranslate>
+  </String>
+  <String index="10">
+    <ToTranslate>tcg_ryo11m</ToTranslate>
+  </String>
+  <String index="11">
+    <ToTranslate>ren_0169</ToTranslate>
+  </String>
+  <String index="12">
+    <ToTranslate>Ren$&quot;............&quot;@</ToTranslate>
+  </String>
+  <String index="13">
+    <ToTranslate>$I stopped in my tracks as I caught a glimpse of an unusual parade. It was Ren, surrounded by a crowd of dogs and cats.@</ToTranslate>
+  </String>
+  <String index="14">
+    <ToTranslate>$In a spur-of-the-moment decision, I hid behind a tree.@</ToTranslate>
+  </String>
+  <String index="15">
+    <ToTranslate>$There&apos;s no reason why I couldn&apos;t have just said hello but... I was curious to see what she would do next.@</ToTranslate>
+  </String>
+  <String index="16">
+    <ToTranslate>$What kind of girl might she be when she&apos;s alone?@</ToTranslate>
+  </String>
+  <String index="17">
+    <ToTranslate>$..................@</ToTranslate>
+  </String>
+  <String index="18">
+    <ToTranslate>$...not very different, apparently.@</ToTranslate>
+  </String>
+  <String index="19">
+    <ToTranslate>Sekito$&quot;Ruff! Ruff! Ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="20">
+    <ToTranslate>tcg_ryo21aa</ToTranslate>
+  </String>
+  <String index="21">
+    <ToTranslate>tcg_ryo21m</ToTranslate>
+  </String>
+  <String index="22">
+    <ToTranslate>ren_0170</ToTranslate>
+  </String>
+  <String index="23">
+    <ToTranslate>Ren$&quot;......... hm.&quot;@</ToTranslate>
+  </String>
+  <String index="24">
+    <ToTranslate>$Sekito wagged his tail. I let them gain as much distance as possible while keeping them in my sights, then stepped out from behind the tree.@</ToTranslate>
+  </String>
+  <String index="25">
+    <ToTranslate>$Given her prowess as a warrior, she would certainly sense me if I got too close.@</ToTranslate>
+  </String>
+  <String index="26">
+    <ToTranslate>$I quieted my breathing and followed her, feeling a bit like a private detective.@</ToTranslate>
+  </String>
+  <String index="27">
+    <ToTranslate>Sekito$&quot;Ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="28">
+    <ToTranslate>tcg_ryo11aa</ToTranslate>
+  </String>
+  <String index="29">
+    <ToTranslate>tcg_ryo11m</ToTranslate>
+  </String>
+  <String index="30">
+    <ToTranslate>ren_0171</ToTranslate>
+  </String>
+  <String index="31">
+    <ToTranslate>Ren$&quot;Don&apos;t be so impatient. I&apos;ll give it to you. Over there.&quot;@</ToTranslate>
+  </String>
+  <String index="32">
+    <ToTranslate>Puppy$&quot;Ruff, ruff.&quot;@</ToTranslate>
+  </String>
+  <String index="33">
+    <ToTranslate>$His mood changed, as if he understood completely. The dogs and cats ran toward the spot she had indicated, forming a great circle.@</ToTranslate>
+  </String>
+  <String index="34">
+    <ToTranslate>$Ren fumbled around in her pocket as she walked toward the center of the circle.@</ToTranslate>
+  </String>
+  <String index="35">
+    <ToTranslate>Dog$&quot;Ruff! Ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="36">
+    <ToTranslate>$The pups began a chorus of barking.@</ToTranslate>
+  </String>
+  <String index="37">
+    <ToTranslate>Kazuto$&quot;Oh... I see.&quot;@</ToTranslate>
+  </String>
+  <String index="38">
+    <ToTranslate>$I watched her from behind, and began to understand.@</ToTranslate>
+  </String>
+  <String index="39">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="40">
+    <ToTranslate>ecg_ryo03a</ToTranslate>
+  </String>
+  <String index="41">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="42">
+    <ToTranslate>bgm05</ToTranslate>
+  </String>
+  <String index="43">
+    <ToTranslate>Sekito$&quot;Ruff, woof, huh, huh, huh... ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="44">
+    <ToTranslate>ren_0172</ToTranslate>
+  </String>
+  <String index="45">
+    <ToTranslate>Ren$&quot;Don&apos;t eat too fast...&quot;@</ToTranslate>
+  </String>
+  <String index="46">
+    <ToTranslate>Puppy$&quot;Ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="47">
+    <ToTranslate>ren_0173</ToTranslate>
+  </String>
+  <String index="48">
+    <ToTranslate>Ren$&quot;Don&apos;t sound so sad. There&apos;s a lot of food. You can share.&quot;@</ToTranslate>
+  </String>
+  <String index="49">
+    <ToTranslate>Cat$&quot;Meow...&quot;@</ToTranslate>
+  </String>
+  <String index="50">
+    <ToTranslate>$She was feeding them a late lunch. The dogs and cats swarmed around her to eat out of her hand.@</ToTranslate>
+  </String>
+  <String index="51">
+    <ToTranslate>ren_0174</ToTranslate>
+  </String>
+  <String index="52">
+    <ToTranslate>Ren$&quot;Hehe, is it good...?&quot;@</ToTranslate>
+  </String>
+  <String index="53">
+    <ToTranslate>ren_0175</ToTranslate>
+  </String>
+  <String index="54">
+    <ToTranslate>Ren$&quot;Hehehe.&quot;@</ToTranslate>
+  </String>
+  <String index="55">
+    <ToTranslate>$That gentle expression was something no one in the palace had ever seen. Unconsciously, my heart began to beat faster.@</ToTranslate>
+  </String>
+  <String index="56">
+    <ToTranslate>$I felt as though I had found a new side of her.@</ToTranslate>
+  </String>
+  <String index="57">
+    <ToTranslate>Kazuto$&quot;Ren... I didn&apos;t know she could be so adorable.&quot;@</ToTranslate>
+  </String>
+  <String index="58">
+    <ToTranslate>$I wondered why she always hid it from us. It seemed like a good place to start.@</ToTranslate>
+  </String>
+  <String index="59">
+    <ToTranslate>ren_0176</ToTranslate>
+  </String>
+  <String index="60">
+    <ToTranslate>Ren$&quot;You ate it so quickly...&quot;@</ToTranslate>
+  </String>
+  <String index="61">
+    <ToTranslate>Sekito$&quot;Ruff, ruff, ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="62">
+    <ToTranslate>ren_0177</ToTranslate>
+  </String>
+  <String index="63">
+    <ToTranslate>Ren$&quot;You&apos;re still hungry? You&apos;re eating too much, Sekito. You have to share with your friends.&quot;@</ToTranslate>
+  </String>
+  <String index="64">
+    <ToTranslate>$Ren seemed determined to feed them one by one, despite the inefficiency of the method.@</ToTranslate>
+  </String>
+  <String index="65">
+    <ToTranslate>ren_0178</ToTranslate>
+  </String>
+  <String index="66">
+    <ToTranslate>Ren$&quot;Oh, come on.&quot;@</ToTranslate>
+  </String>
+  <String index="67">
+    <ToTranslate>$She searched in her pocket for more food. They poked their noses toward her hand again, with Sekito leading the others once again.@</ToTranslate>
+  </String>
+  <String index="68">
+    <ToTranslate>Sekito$&quot;Woof, woof, ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="69">
+    <ToTranslate>ren_0179</ToTranslate>
+  </String>
+  <String index="70">
+    <ToTranslate>Ren$&quot;Sekito, you&apos;re a big boy. You have to give it to the younger kids...&quot;@</ToTranslate>
+  </String>
+  <String index="71">
+    <ToTranslate>$She was chiding Sekito like a mother with a selfish child. I sputtered with laughter.@</ToTranslate>
+  </String>
+  <String index="72">
+    <ToTranslate>Kazuto$&quot;Haha... the little ones will never get any at this rate.&quot;@</ToTranslate>
+  </String>
+  <String index="73">
+    <ToTranslate>$I was tired of observing. I walked closer, addressing her softly.@</ToTranslate>
+  </String>
+  <String index="74">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="75">
+    <ToTranslate>ecg_ryo03c</ToTranslate>
+  </String>
+  <String index="76">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="77">
+    <ToTranslate>ren_0180</ToTranslate>
+  </String>
+  <String index="78">
+    <ToTranslate>Ren$&quot;Oh......&quot;@</ToTranslate>
+  </String>
+  <String index="79">
+    <ToTranslate>Kazuto$&quot;Hey. You guys are always together.&quot;@</ToTranslate>
+  </String>
+  <String index="80">
+    <ToTranslate>ren_0181</ToTranslate>
+  </String>
+  <String index="81">
+    <ToTranslate>Ren$&quot;......(*Nod.*)&quot;Ѓ@@</ToTranslate>
+  </String>
+  <String index="82">
+    <ToTranslate>$She nodded, and muttered something. It was as if she had been caught doing something unseemly. I laughed again, unable to restrain it.@</ToTranslate>
+  </String>
+  <String index="83">
+    <ToTranslate>ren_0182</ToTranslate>
+  </String>
+  <String index="84">
+    <ToTranslate>Ren$&quot;...they&apos;ll eat when he&apos;s full.&quot; @</ToTranslate>
+  </String>
+  <String index="85">
+    <ToTranslate>Kazuto$&quot;What? Oh, I see.&quot;@</ToTranslate>
+  </String>
+  <String index="86">
+    <ToTranslate>$I had become so relaxed, it took me a moment to remember what she was replying to.@</ToTranslate>
+  </String>
+  <String index="87">
+    <ToTranslate>$I was more interested in the blush that was spreading across her cheeks.@</ToTranslate>
+  </String>
+  <String index="88">
+    <ToTranslate>Kazuto$&quot;But it seems cruel to make them wait. Look, they&apos;re drooling.&quot;@</ToTranslate>
+  </String>
+  <String index="89">
+    <ToTranslate>Puppy$&quot;Urrrrr.&quot;@</ToTranslate>
+  </String>
+  <String index="90">
+    <ToTranslate>$Trying to change the mood, I patted the head of the nearest puppy, who was slavering with hunger.@</ToTranslate>
+  </String>
+  <String index="91">
+    <ToTranslate>ren_0183</ToTranslate>
+  </String>
+  <String index="92">
+    <ToTranslate>Ren$&quot;... if that&apos;s what you think, you can feed them.&quot;@</ToTranslate>
+  </String>
+  <String index="93">
+    <ToTranslate>Kazuto$&quot;Huh? Did you say something?&quot; @</ToTranslate>
+  </String>
+  <String index="94">
+    <ToTranslate>ren_0184</ToTranslate>
+  </String>
+  <String index="95">
+    <ToTranslate>Ren$&quot;.........(*Nod.*)&quot;@</ToTranslate>
+  </String>
+  <String index="96">
+    <ToTranslate>$It seems she did. Ren was still blushing.@</ToTranslate>
+  </String>
+  <String index="97">
+    <ToTranslate>Kazuto$&quot;Am I interrupting you?&quot;@</ToTranslate>
+  </String>
+  <String index="98">
+    <ToTranslate>ren_0185</ToTranslate>
+  </String>
+  <String index="99">
+    <ToTranslate>Ren$&quot;.........(*Shake, shake , shake.*)&quot;@</ToTranslate>
+  </String>
+  <String index="100">
+    <ToTranslate>$Her hair swung as she shook her head vigorously. That was a relief, at least.@</ToTranslate>
+  </String>
+  <String index="101">
+    <ToTranslate>ren_0186</ToTranslate>
+  </String>
+  <String index="102">
+    <ToTranslate>Ren$&quot;... here.&quot;@</ToTranslate>
+  </String>
+  <String index="103">
+    <ToTranslate>$She pulled some of the dried meat from her pocket and handed it to me.@</ToTranslate>
+  </String>
+  <String index="104">
+    <ToTranslate>Kazuto$&quot;Oh, you want me to feed them too?&quot;@</ToTranslate>
+  </String>
+  <String index="105">
+    <ToTranslate>ren_0187</ToTranslate>
+  </String>
+  <String index="106">
+    <ToTranslate>Ren$&quot;... stay.&quot;@</ToTranslate>
+  </String>
+  <String index="107">
+    <ToTranslate>$How could I refuse? I took the food from her slender fingers.@</ToTranslate>
+  </String>
+  <String index="108">
+    <ToTranslate>Puppy$&quot;Ruff! Ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="109">
+    <ToTranslate>$The smaller animals seemed to realize it was their chance. They stared at my hand and began to whine.@</ToTranslate>
+  </String>
+  <String index="110">
+    <ToTranslate>Kazuto$&quot;You guys must be starving. Here you go.&quot;@</ToTranslate>
+  </String>
+  <String index="111">
+    <ToTranslate>Sekito$&quot;Ruff?&quot;@</ToTranslate>
+  </String>
+  <String index="112">
+    <ToTranslate>Kazuto$&quot;You can get your food from your mom.&quot;@</ToTranslate>
+  </String>
+  <String index="113">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="114">
+    <ToTranslate>ecg_ryo03b</ToTranslate>
+  </String>
+  <String index="115">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="116">
+    <ToTranslate>ren_0188</ToTranslate>
+  </String>
+  <String index="117">
+    <ToTranslate>Ren$&quot;... mom?&quot;@</ToTranslate>
+  </String>
+  <String index="118">
+    <ToTranslate>$I realized I shouldn&apos;t have said that out loud. Trying to explain would just be awkward, so I decided to ignore the question.@</ToTranslate>
+  </String>
+  <String index="119">
+    <ToTranslate>ren_0189</ToTranslate>
+  </String>
+  <String index="120">
+    <ToTranslate>Ren$&quot;Mom...&quot;@</ToTranslate>
+  </String>
+  <String index="121">
+    <ToTranslate>$Her blush seemed to deepen. Maybe it was just a trick of the light? Or maybe it&apos;s just how I felt.@</ToTranslate>
+  </String>
+  <String index="122">
+    <ToTranslate>Puppy$&quot;*Munch, munch*, ruff ruff ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="123">
+    <ToTranslate>Kazuto$&quot;Good boy. Eat a lot and grow big and strong!&quot;@</ToTranslate>
+  </String>
+  <String index="124">
+    <ToTranslate>$I spoke louder than was strictly necessary, and rubbed the puppy&apos;s back hard. I was overdoing it in my own embarrassment.@</ToTranslate>
+  </String>
+  <String index="125">
+    <ToTranslate>$What was it that had me in such a panic?@</ToTranslate>
+  </String>
+  <String index="126">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="127">
+    <ToTranslate>ecg_ryo03a</ToTranslate>
+  </String>
+  <String index="128">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="129">
+    <ToTranslate>ren_0190</ToTranslate>
+  </String>
+  <String index="130">
+    <ToTranslate>Ren$&quot;... dad.&quot;@</ToTranslate>
+  </String>
+  <String index="131">
+    <ToTranslate>$......!?@</ToTranslate>
+  </String>
+  <String index="132">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="133">
+    <ToTranslate>ecg_ryo03d</ToTranslate>
+  </String>
+  <String index="134">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="135">
+    <ToTranslate>ren_0191</ToTranslate>
+  </String>
+  <String index="136">
+    <ToTranslate>Ren$&quot;........................&quot;@</ToTranslate>
+  </String>
+  <String index="137">
+    <ToTranslate>Kazuto$&quot;Did you say something? Sorry, they&apos;re barking so loud I couldn&apos;t hear.&quot;@</ToTranslate>
+  </String>
+  <String index="138">
+    <ToTranslate>ren_0192</ToTranslate>
+  </String>
+  <String index="139">
+    <ToTranslate>Ren$&quot;............... just trying something.&quot;@</ToTranslate>
+  </String>
+  <String index="140">
+    <ToTranslate>$With that, she turned away. I had actually heard what she said, but once again, I didn&apos;t feel like pressing the point.@</ToTranslate>
+  </String>
+  <String index="141">
+    <ToTranslate>$There was an indescribably odd tension between us.@</ToTranslate>
+  </String>
+  <String index="142">
+    <ToTranslate>Puppy$&quot;Urrr, ruff. *Lick lick lick.*&quot; @</ToTranslate>
+  </String>
+  <String index="143">
+    <ToTranslate>Kazuto$&quot;Aaah!? That tickles!&quot;Ѓ@@</ToTranslate>
+  </String>
+  <String index="144">
+    <ToTranslate>$I suddenly realized that my hand was empty. The food was gone, and I had no idea what to do.@</ToTranslate>
+  </String>
+  <String index="145">
+    <ToTranslate>Puppy$&quot;*Lick, lick, lick.*&quot;@</ToTranslate>
+  </String>
+  <String index="146">
+    <ToTranslate>Kazuto$&quot;Ahahahahahahaha!&quot;@</ToTranslate>
+  </String>
+  <String index="147">
+    <ToTranslate>$I had never faced such an assault! Countless tongues licking and snuffling at my hand... my body twisted as they tickled me.@</ToTranslate>
+  </String>
+  <String index="148">
+    <ToTranslate>ren_0193</ToTranslate>
+  </String>
+  <String index="149">
+    <ToTranslate>Ren$&quot;... hehehe.&quot;@</ToTranslate>
+  </String>
+  <String index="150">
+    <ToTranslate>$As I looked at her for aid, I was sure I heard her laugh.@</ToTranslate>
+  </String>
+  <String index="151">
+    <ToTranslate>Kazuto$&quot;Hahahahahahaha!&quot;@</ToTranslate>
+  </String>
+  <String index="152">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="153">
+    <ToTranslate>ecg_ryo03b</ToTranslate>
+  </String>
+  <String index="154">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="155">
+    <ToTranslate>ren_0194</ToTranslate>
+  </String>
+  <String index="156">
+    <ToTranslate>Ren$&quot;... oh.&quot;@</ToTranslate>
+  </String>
+  <String index="157">
+    <ToTranslate>$As I joined in with her laughter, she became aware of her own.@</ToTranslate>
+  </String>
+  <String index="158">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="159">
+    <ToTranslate>ecg_ryo03c</ToTranslate>
+  </String>
+  <String index="160">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="161">
+    <ToTranslate>ren_0195</ToTranslate>
+  </String>
+  <String index="162">
+    <ToTranslate>Ren$&quot;......(*Shake, shake, shake.*)&quot;@</ToTranslate>
+  </String>
+  <String index="163">
+    <ToTranslate>$She shook her head in fierce denial before I even said anything. I didn&apos;t even know what she was denying, but that made it funnier.@</ToTranslate>
+  </String>
+  <String index="164">
+    <ToTranslate>Kazuto$&quot;Why are you hiding your face? You were finally laughing.&quot;@</ToTranslate>
+  </String>
+  <String index="165">
+    <ToTranslate>ren_0196</ToTranslate>
+  </String>
+  <String index="166">
+    <ToTranslate>Ren$&quot;You&apos;re mean...&quot;@</ToTranslate>
+  </String>
+  <String index="167">
+    <ToTranslate>Kazuto$&quot;What? I didn&apos;t do anything mean to you...&quot;@</ToTranslate>
+  </String>
+  <String index="168">
+    <ToTranslate>ren_0197</ToTranslate>
+  </String>
+  <String index="169">
+    <ToTranslate>Ren$&quot;... you laughed.&quot;@</ToTranslate>
+  </String>
+  <String index="170">
+    <ToTranslate>$She looked up at me... then looked back down. A frown crossed her cheeks.@</ToTranslate>
+  </String>
+  <String index="171">
+    <ToTranslate>ren_0198</ToTranslate>
+  </String>
+  <String index="172">
+    <ToTranslate>Ren$&quot;You laughed at me when I laughed.&quot;@</ToTranslate>
+  </String>
+  <String index="173">
+    <ToTranslate>$I didn&apos;t mean to, but her misunderstanding made it even more hilarious. Laughter welled up inside me again, but I restrained it.@</ToTranslate>
+  </String>
+  <String index="174">
+    <ToTranslate>Kazuto$&quot;I know I laughed, but I wasn&apos;t laughing at you, you know?&quot;@</ToTranslate>
+  </String>
+  <String index="175">
+    <ToTranslate>ren_0199</ToTranslate>
+  </String>
+  <String index="176">
+    <ToTranslate>Ren$&quot;......?&quot;@</ToTranslate>
+  </String>
+  <String index="177">
+    <ToTranslate>Kazuto$&quot;I laughed because I was happy to see you laugh, and you were adorable.&quot;@</ToTranslate>
+  </String>
+  <String index="178">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="179">
+    <ToTranslate>ecg_ryo03b</ToTranslate>
+  </String>
+  <String index="180">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="181">
+    <ToTranslate>ren_0200</ToTranslate>
+  </String>
+  <String index="182">
+    <ToTranslate>Ren$&quot;... adorable?&quot;@</ToTranslate>
+  </String>
+  <String index="183">
+    <ToTranslate>$She seemed to mean the question seriously. I nodded, meeting her eyes with reassurance.@</ToTranslate>
+  </String>
+  <String index="184">
+    <ToTranslate>ren_0201</ToTranslate>
+  </String>
+  <String index="185">
+    <ToTranslate>Ren$&quot;........................&quot;@</ToTranslate>
+  </String>
+  <String index="186">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="187">
+    <ToTranslate>ecg_ryo03d</ToTranslate>
+  </String>
+  <String index="188">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="189">
+    <ToTranslate>$Ren was the one who turned away. She scratched her blushing cheek.@</ToTranslate>
+  </String>
+  <String index="190">
+    <ToTranslate>Kazuto$&quot;I&apos;m not kidding. You&apos;re a properly... no, that sounds strange. You&apos;re an extremely pretty girl.&quot;@</ToTranslate>
+  </String>
+  <String index="191">
+    <ToTranslate>ren_0202</ToTranslate>
+  </String>
+  <String index="192">
+    <ToTranslate>Ren$&quot;That&apos;s not true.&quot;@</ToTranslate>
+  </String>
+  <String index="193">
+    <ToTranslate>Kazuto$&quot;It is true! I don&apos;t want you to be embarrassed. From now on, I want you to be willing to laugh in front of us.&quot;@</ToTranslate>
+  </String>
+  <String index="194">
+    <ToTranslate>$She refused to meet my eyes. I was starting to get completely flustered...@</ToTranslate>
+  </String>
+  <String index="195">
+    <ToTranslate>Kazuto$&quot;... we&apos;ll all have more fun if you do. It will build a better relationship between us.&quot;@</ToTranslate>
+  </String>
+  <String index="196">
+    <ToTranslate>$... still, I managed to get the words out.@</ToTranslate>
+  </String>
+  <String index="197">
+    <ToTranslate>ren_0203</ToTranslate>
+  </String>
+  <String index="198">
+    <ToTranslate>Ren$&quot;I don&apos;t know about that.&quot;@</ToTranslate>
+  </String>
+  <String index="199">
+    <ToTranslate>Kazuto$&quot;What do you mean, you don&apos;t know?&quot;@</ToTranslate>
+  </String>
+  <String index="200">
+    <ToTranslate>Sekito$&quot;*Gulp.*&quot;@</ToTranslate>
+  </String>
+  <String index="201">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="202">
+    <ToTranslate>ecg_ryo03a</ToTranslate>
+  </String>
+  <String index="203">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="204">
+    <ToTranslate>ren_0204</ToTranslate>
+  </String>
+  <String index="205">
+    <ToTranslate>Ren$&quot;... Sekito is full. Meal time is over now.&quot;@</ToTranslate>
+  </String>
+  <String index="206">
+    <ToTranslate>$She wasn&apos;t even going to acknowledge the other hungry animals. She rubbed Sekito&apos;s full belly, still avoiding my gaze.@</ToTranslate>
+  </String>
+  <String index="207">
+    <ToTranslate>Kazuto$&quot;You don&apos;t need to be so shy... I just wanted to...&quot;@</ToTranslate>
+  </String>
+  <String index="208">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="209">
+    <ToTranslate>ecg_ryo03c</ToTranslate>
+  </String>
+  <String index="210">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="211">
+    <ToTranslate>ren_0205</ToTranslate>
+  </String>
+  <String index="212">
+    <ToTranslate>Ren$&quot;......(*Shake, shake, shake!*)&quot;Ѓ@@</ToTranslate>
+  </String>
+  <String index="213">
+    <ToTranslate>$Her denial just confirmed her embarrassment. But the more stubbornly she denied it, the more adorable it made her.@</ToTranslate>
+  </String>
+  <String index="214">
+    <ToTranslate>Sekito$&quot;Ruff, ruff, ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="215">
+    <ToTranslate>Puppy$&quot;Ruff!&quot;@</ToTranslate>
+  </String>
+  <String index="216">
+    <ToTranslate>$The animals began their chorus, as if concerned for her feelings. They knew when things weren&apos;t right with their master.@</ToTranslate>
+  </String>
+  <String index="217">
+    <ToTranslate>ren_0206</ToTranslate>
+  </String>
+  <String index="218">
+    <ToTranslate>Ren$&quot;.........&quot;@</ToTranslate>
+  </String>
+  <String index="219">
+    <ToTranslate>$Ren&apos;s eyes were firmly planted on the ground. I didn&apos;t want to make things worse.@</ToTranslate>
+  </String>
+  <String index="220">
+    <ToTranslate>Kazuto$&quot;I need to get back to work now.&quot;@</ToTranslate>
+  </String>
+  <String index="221">
+    <ToTranslate>$It was time for me to leave. I was relieved, but somehow disappointed... maybe I had gotten overconfident...@</ToTranslate>
+  </String>
+  <String index="222">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="223">
+    <ToTranslate>ecg_ryo03a</ToTranslate>
+  </String>
+  <String index="224">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="225">
+    <ToTranslate>ren_0207</ToTranslate>
+  </String>
+  <String index="226">
+    <ToTranslate>Ren$&quot;...... I think you should.&quot;@</ToTranslate>
+  </String>
+  <String index="227">
+    <ToTranslate>$... because I had caught a glimpse of her girlish side today.@</ToTranslate>
+  </String>
+  <String index="228">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="229">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+  <String index="230">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="231">
+    <ToTranslate>ecg_ryo03d</ToTranslate>
+  </String>
+  <String index="232">
+    <ToTranslate>_MsgBoxMain_On</ToTranslate>
+  </String>
+  <String index="233">
+    <ToTranslate>bgm23</ToTranslate>
+  </String>
+  <String index="234">
+    <ToTranslate>ren_0208</ToTranslate>
+  </String>
+  <String index="235">
+    <ToTranslate>Ren$&quot;... what is this awkward stirring in my heart. When is it going to stop?&quot;@</ToTranslate>
+  </String>
+  <String index="236">
+    <ToTranslate>ren_0209</ToTranslate>
+  </String>
+  <String index="237">
+    <ToTranslate>Ren$&quot;When is this thought going away? I can&apos;t stop thinking of him.&quot;@</ToTranslate>
+  </String>
+  <String index="238">
+    <ToTranslate>ren_0210</ToTranslate>
+  </String>
+  <String index="239">
+    <ToTranslate>Ren$&quot;...... it is so strange.&quot;@</ToTranslate>
+  </String>
+  <String index="240">
+    <ToTranslate>Sekito$&quot;Ruff?&quot;@</ToTranslate>
+  </String>
+  <String index="241">
+    <ToTranslate>ren_0211</ToTranslate>
+  </String>
+  <String index="242">
+    <ToTranslate>Ren$&quot;Me... and My Lord... I don&apos;t understand any of it.&quot; @</ToTranslate>
+  </String>
+  <String index="243">
+    <ToTranslate>ren_0212</ToTranslate>
+  </String>
+  <String index="244">
+    <ToTranslate>Ren$&quot;I&apos;m strong. I don&apos;t obey anyone&apos;s orders...&quot; @</ToTranslate>
+  </String>
+  <String index="245">
+    <ToTranslate>ren_0213</ToTranslate>
+  </String>
+  <String index="246">
+    <ToTranslate>Ren$&quot;Everyone is scared of me. I don&apos;t mind that.&quot;@</ToTranslate>
+  </String>
+  <String index="247">
+    <ToTranslate>ren_0214</ToTranslate>
+  </String>
+  <String index="248">
+    <ToTranslate>Ren$&quot;...... but.&quot;@</ToTranslate>
+  </String>
+  <String index="249">
+    <ToTranslate>ren_0215</ToTranslate>
+  </String>
+  <String index="250">
+    <ToTranslate>Ren$&quot;He was laughing.&quot;@</ToTranslate>
+  </String>
+  <String index="251">
+    <ToTranslate>ren_0216</ToTranslate>
+  </String>
+  <String index="252">
+    <ToTranslate>Ren$&quot;He is always laughing. He&apos;s not afraid of me.&quot;@</ToTranslate>
+  </String>
+  <String index="253">
+    <ToTranslate>ren_0217</ToTranslate>
+  </String>
+  <String index="254">
+    <ToTranslate>Ren$&quot;...... maybe I&apos;m the one afraid of him.&quot;@</ToTranslate>
+  </String>
+  <String index="255">
+    <ToTranslate>ren_0218</ToTranslate>
+  </String>
+  <String index="256">
+    <ToTranslate>Ren$&quot;I&apos;ve never met anyone like him. He comes so close to me, he calls my name like a friend...&quot;@</ToTranslate>
+  </String>
+  <String index="257">
+    <ToTranslate>ren_0219</ToTranslate>
+  </String>
+  <String index="258">
+    <ToTranslate>Ren$&quot;...... it&apos;s strange.&quot;@</ToTranslate>
+  </String>
+  <String index="259">
+    <ToTranslate>ren_0220</ToTranslate>
+  </String>
+  <String index="260">
+    <ToTranslate>Ren$&quot;I don&apos;t want him in my heart... but he won&apos;t go away.&quot;@</ToTranslate>
+  </String>
+  <String index="261">
+    <ToTranslate>ren_0221</ToTranslate>
+  </String>
+  <String index="262">
+    <ToTranslate>Ren$&quot;My heart is hurting.&quot;@</ToTranslate>
+  </String>
+  <String index="263">
+    <ToTranslate>ren_0222</ToTranslate>
+  </String>
+  <String index="264">
+    <ToTranslate>Ren$&quot;...... this is so strange.&quot;@</ToTranslate>
+  </String>
+  <String index="265">
+    <ToTranslate>ren_0223</ToTranslate>
+  </String>
+  <String index="266">
+    <ToTranslate>Ren$&quot;...... this is really really......&quot;@</ToTranslate>
+  </String>
+  <String index="267">
+    <ToTranslate>ren_0224</ToTranslate>
+  </String>
+  <String index="268">
+    <ToTranslate>Ren$&quot;Such a strange...... way to be.&quot; @</ToTranslate>
+  </String>
+  <String index="269">
+    <ToTranslate>ren_0225</ToTranslate>
+  </String>
+  <String index="270">
+    <ToTranslate>Ren$&quot;Such a strange.......... feeling.&quot;@</ToTranslate>
+  </String>
+  <String index="271">
+    <ToTranslate>_MsgBoxMain_Off</ToTranslate>
+  </String>
+  <String index="272">
+    <ToTranslate>bg_black</ToTranslate>
+  </String>
+</DBS>
+
+
+
+
+</pre>
+[[Koihime Musou/Персонажи/Побочные|[Назад]]]
