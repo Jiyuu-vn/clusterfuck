@@ -10,28 +10,28 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ;S.E."??????????…?(???)"
 waveloop se10
 
-`"-----Hisui, perhaps?"@
-` ...... Maybe she is just checking to see if I am sleeping soundly during her nighttime patrol.@
-` It wouldn't be strange if Akiha told her to check up on me since I've been spending the night somewhere else......@
-`"..............., Zzzz~"@
-` Well, I should just pretend I'm fast asleep to make Hisui feel better if that's the case.\
+` - Возможно, Хисуи?..@
+` Возможно, она просто проверяет, сплю ли я, во время её ночного обхода...@
+` Не вижу ничего странного, если Акиха скажет ей проверить меня, учитывая, что я провёл ноч на стороне...@
+` - Хрр...@
+` Ну, в этом случае мне просто стоит притвориться спящим, чтобы не расстраивать Хисуи.\
 
 ;S.E."???????????????"
 wave se8
 
 
-` ...... The footsteps don't stop.@
+` Шаги не остановились...@
 ;S.E."??????????…?(???)"
 waveloop se10
 
-` The noisy footsteps don't sound like Hisui.@
-` She is always trying to politely hide her presence, so this is very strange.\
+` Шумные шаги, не похоже на Хисуи.@
+` Она всегда старается вежливо скрыть своё присутствие, так что это очень странно.\
 
-` ...... I sense her draw near.@
-` It seems she is just standing by my bed.@
-`".................. Zzzz~"@
-` It might not be Hisui.@
-` I open my eyes slightly so as not to give myself away.@
+` Я чувствую, как она приближается...@
+` Похоже, она просто стоит возле моей кровати.@
+` - Хрр...@
+` Возможно, это не Хисуи.@
+` Я приоткрыл глаза - слегка, чтобы не выдать себя.@
 
 ; ?? : ?? : ?????(??)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_crossfade_mid
@@ -41,16 +41,16 @@ ld c,":a;image\tachi\his_t02.jpg",%type_lshutter_fst
 cl c,%type_lshutter_fst
 
 
-`"............... Zzzz~"@
-` Without a doubt, it's Hisui.@
-` But I'm certain that she appears to be acting strange.\
+` - Хрр...@
+` Несомненно, это Хисуи.@
+` Но она определённо странно себя ведёт.\
 
-`".............................."@
-`".............................. Zzzz~"@
-` Hisui stares at me silently.@
-`"------Ah."@
-` She tries to speak, but stops herself.@
-` ...... Hisui repeats herself and remains in place.@
+` - ..............................@
+` - Хрр..............................@
+` Хисуи молча смотрит на меня.@
+` - Ах...@
+` Она попыталась что-то сказать, но остановилась.@
+` Она замерла на месте...@
 ` ......@
 ` ............\
 ` ..................@
@@ -58,20 +58,20 @@ cl c,%type_lshutter_fst
 ` ..............................\
 ` ....................................\
 
-` .......................................... It's gotten very tense.@
+` .......................................... В воздухе повисло напряжение.@
 br
-` I don't know what she wants to say, but to leave her like that seems pitiful.@
-` First of all, I can't sleep like this.@
-`".................. Zzzz~"@
-` But the instant I decide to stop pretending I'm asleep and ask her,
+` Я не знаю, что она хочет сказать, но не могу её так оставить.@
+` К тому же я всё равно не могу так спать.@
+`- Хрр...@
+` Но в тот же миг, как я решил перестать притворяься и спросить её...
 br
-`"......... Are you awake, Shiki-sama......?"@
+` - ...Вы не спите, Шики-сама?..@
 br
-` I hear her hesitant voice.\
+` Я услышал её нерешительный голос.\
 
-`".................. Hisui?"@
-` As naturally as I can, I pretend to wake up.@
-` As soon as I sit up, there---
+` - Хисуи?..@
+` Я постарался как можно более естественно притвориться, что проснулся.@
+` Как только я сел...
 ;S.E.??
 wavestop
 
@@ -81,102 +81,102 @@ ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_mid
 play "*1"
 
 br
-` ----I see Hisui acting strangely.@
+` ...Я заметил, что Хисуи странно себя ведёт.@
 br
-`"What is it Hisui?@ This late at night... did something happen?"@
-`"...... Yes, I have come to complete my nighttime duty, Shiki-sama."@
-` Hisui says something I can't quite understand in a fading voice.\
+` - Что такое, Хисуи??@ Так поздно ночью... Что-то случилось?@
+` - Да, я пришла выполнить свои ночные обязанности, Шики-сама.@
+` Хисуи гаснущим голосом произнесла нечто, чего я не понял.\
 
-`"......?@ A nighttime, duty?@ What's that?"@
-` Titling my head, I look at Hisui directly.@
+` ?..@ Ночные обязанности?@ Это ещё что?@
+` Прямо спросил я у Хисуи, наклонив голову.@
 `"........................"@
-` Hisui doesn't answer but just averts her gaze.@
+` Хисуи не ответила, только отвела взгляд.@
 `".................."@
 `"........................"@
 `".............................."@
 `"...................................."@
 `".........................................."@
 br
-` ----Another long, uncomfortable silence ensues.\
+` Вновь воцарилось долгое, неловкое молчание...\
 
-`"Hisui.@ Um, unless you explain a bit clearer, I won't understand what you mean."@
-` I say this to break the silence.@
-` And then,
+` - Хисуи.@ Эм, если ты не объяснишь яснее, я не смогу понять, о чём ты.@
+` Я сказал это, чтобы разорвать тишину.@
+` И тогда...
 ld c,":a;image\tachi\his_t13.jpg",%type_crossfade_fst
 
-`"A nighttime duty is a nighttime duty.@ It is what you desired, so such words are very troublesome."@
-` She almost looks like she is sulking.\
+` - Ночные обязанности - это ночные обязанности.@ Это то, чего вы хотели, так что когда вы так говорите... это проблемно.@
+` Она выглядит, словно обиделась.\
 
-`"-------"@
-` I don't understand what she is getting at.@
-` But, more than that...... tonight, she seems different from her usual self.@
-` ...... Not so much her words, but she seems so cute, I suddenly want to tease her.\
+` - ...@
+` Я не понимаю, о чём она.@
+` Но, помимо этого... Сегодня она какая-то не такая, как обычно.@
+` ...И она выглядит так мило, что мне вдуг захотелось её поддразнить.\
 
-`"...... Hisui?@ Sorry, but I still don't get it.@ What is this nighttime duty?"@
+` - Хисуи?..@ Извини, но я всё равно не понимаю.@ Что за "ночные обязанности"?@
 ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
 
-`"...... Um, do you really not understand, Shiki-sama?"@
-`"Isn't that what I'm saying?@ If I can help, I'll help, so tell me what you need."@
-`"........................"@
-` Hisui goes quiet again.@
-` But this time, it isn't for very long.@
+` - Эм, вы действительно не понимаете, Шики-сама?..@
+` - Разве я не сказал уже?@ Если могу чем-то помочь, помогу, так что скажи мне, что тебе нужно.@
+` - ...@
+` Хисуи снова затихла.@
+` Но в этот раз ненадолго.@
 
 ld c,":a;image\tachi\his_t21.jpg",%type_crossfade_mid
 
-`"I am here to be your nighttime partner, Shiki-sama."@
-` Hisui blushes furiously as she says this.\
+` - Я здесь, чтобы быть вашей ночной партнёршей, Шики-сама.@
+` Произнося это, Хисуи отчаянно покраснела.\
 
-`"Oh, I see.@ My nighttime partner.@ That's what it is."@
-` After I understand,
+` - О, понятно.@ Ночная партнёрша.@ Вот оно что.@
+` И тут я въехал...
 ;CD-DA??
 playstop
 
 br
-`"-----EeeeEEEEh!?"@
+` - ЭэээЭЭЭЭэ?!..@
 br
-` I pull back so quickly I almost fall out of bed.\
+` Я отдёрнулся так резко, что чуть не свалился с кровати.\
 
-`".................."@
-` Still looking down, Hisui doesn't say anything.@
-`"--------Wha--"@
-` I try to say something, but I can't speak.@
-` ...... Um, in other words,
-` it seems Hisui came here to sleep with me.@
-`".................. I'm dreaming."@
-` I pinch myself to check.@
-` ...... It hurts, and Hisui doesn't disappear.@
-`"W-why?"@
-` All I manage to blurt out is that single word.\
+` - ..................@
+` Хисуи продолжает молчать, всё так же опустив взгляд.@
+` - Че...@
+` Я пытаюсь что-то сказать, но у меня нет слов.@
+` Эм, другими словами...
+` получается, Хисуи пришла сюда, чтобы спать со мной.@
+` - Я сплю...@
+` Я ущипнул себя.@
+` Больно, и Хисуи не исчезает...@
+` - П-почему?@
+` Я смог только выдавить это одно слово.\
 
 ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
-`"........................"@
-` Clutching her hands together, Hisui barely meets my gaze.@
+` - ........................@
+` Сжимая руки, Хисуи посмотрела мне в глаза.@
 br
-`"............ Because, I am yours, Shiki-sama."@
+` - Потому что ваша, Шики-сама...@
 br
-` Her voice is full of warmth.\
-`"Mine?@ Hisui-----"@
-` Thump.@ My pulse quickens.@
-`"I don't think of you like that---"@
-` I don't want to think about it, but.@
+` Её голос полон теплоты.\
+` - Моя?@ Хисуи...@
+` Бум.@ Мой пульс ускоряется.@
+` 0 Я не думаю о тебе так...@
+` Я не хочу об этом думать, но...@
 
 ld c,":a;image\tachi\his_t28.jpg",%type_crossfade_fst
 
-`"-------"@
-` If she makes that expression,
-` my dizziness gets worse.\
+` - ...@
+` Когда она делает такое выражение лица,
+` у меня начинает кружиться голова.\
 
-`"---Hisui, you can't be serious.@ I don't... really."@
-` I never thought about having sex with Hisui or anything like that---
-`"...... Shiki-sama, are you saying you hate me?"@
-` She looks like she's scared I might say yes.@
-` There's no man in this world who could resist those eyes.@
-`"N-no way......!@ Hisui, I---"@
+` - Хисуи, ты же не можешь это серьёзно...@ Я действительно не...@
+` Я никогда не думал о сексе с Хисуи или о чём-то таком...
+` - Шики-сама, вы хотите сказать, что я вам неприятна?@
+` Она выглядит так, словно боится услышать "да".@
+` В мире нет мужчины, который мог бы сопротивляться этим глазам.@
+` - Н-ни в коем случае!..@ Хисуи, я...@
 br
-` ...... In the very depths of my dreams,
-` did I think I want Hisui?\
+` ...В глубочайших мечтах,
+` я хотел Хисуи?\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -188,38 +188,38 @@ waveloop se1
 bg "image\bg\bg_40d.jpg",%type_crossfade_fst
 
 
-` ...... My pulse races.@
-` ...... My reasoning is fading.@
-` ...... There's something wrong.@
-` ...... I just confirmed this wasn't a dream.@
-` But it seems like I'm in a dream and my thoughts are inconsistent, and I really am thinking that I want Hisui-----\
+` ...Мой пульс ускоряется.@
+` ...Мой здравый смысл увядает.@
+` ...Что-то не правильно.@
+` ...Я только что убедился, что это не сон.@
+` Но такое чувство, словно я сплю; мои мысли непоследовательны, и, думаю, я действительно хочу Хисуи...\
 
 ld c,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
 
-`"Shiki-sama...... am I no good?"@
-`"Stupid---That's not it.@ Hisui, I like you."@
+` - Шики-сама... я недостаточно хороша?@
+` - Глупая... дело не в этом.@ Хисуи, ты мне нравишься.@
 ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
-` Hisui relaxes visibly.@
-`"...... But, this is something different.@ Even if you are my servant, this isn't something you have to do...... I can't do anything you don't want to do."@
-` Thump, Thump.@
-` I manage to gather up enough reason to point this out.@
+` Хисуи заметно расслабилась.@
+` - Но это нечто другое...@ Даже если ты моя служанка, это не то, что ты должна делать... Я не могу сделать ничего, чего ты не хочешь.@
+` Бум, бум.@
+` Я сумел достаточно собраться, чтобы указать на это.@
 ld c,":a;image\tachi\his_t21.jpg",%type_crossfade_fst
 
-`"---------Shiki... sama."@
-` She clenches her hands even tighter.\
+` - Шики... сама...@
+` Она сжала кулаки ещё сильнее.\
 
-`"...... I am not against it.@ I am completely yours.@
-` ...... So is it wrong for me to wish for you to love me too?"@
-` She speaks in bits and pieces.@
-` As it reaches my ears, the last traces of rational thought disappear.@
-`"Hisui, but---"@
-` I take my eyes away from Hisui as I speak.@
-` But, even that,
+` - Я не против этого.@ Я полностью ваша.@
+` Разве мне неправильно хотеть, чтобы вы тоже любили меня?..@
+` Она говорит обрывочно.@
+` Когда её слова достигли моих ушей, последние следы рациональных мыслей исчезли.@
+` - Хисуи, но...@
+` Говоря, я отвёл взгляд от Хисуи.@
+` Но, даже так...
 ld c,":a;image\tachi\his_t22.jpg",%type_crossfade_mid
 
-`"Please...... take a look, Shiki-sama."@
-` Once I glimpse her fingers grasping her skirt, I can no longer look away.\
+` - Пожалуйста... взгляните, Шики-сама.@
+` Стоило мне бросить взгляд на её пальцы, держащие её юбку, как отвести его я уже не мог.\
 ;S.E.??
 wavestop
 
@@ -230,213 +230,212 @@ play "*5"
 bg "image\event\his_h15.jpg",%type_bshutter_mid
 
 
-` That instant, my breath catches in my throat.@
-`"-----------"@
-` Her upraised skirt.@
-` The delicate, graceful legs of a young girl.@
-` And between those legs, that which would normally be covered is plainly visible.@
-`".............................."@
-` I can hear her trembling as she breathes.@
-` Her delicately curved, trembling white body.@
-` Her exposed slit is a perfect match for the rest of her beautiful body.@
-` The lips around it are so small, they really do seem like flower petals.\
+` В этот миг моё дыхание застряло в горле.@
+` - ...@
+` Её поднятая юбка.@
+` Изящные, грациозные ноги молодой девушки.@
+` И между этих ног, то, что обычно закрыто, сейчас прекрасно видно.@
+` - ...@
+` Я слышу, как дрожит её дыхание.@
+` Изящные изгибы её белого, дрожащего тела.@
+` Её выставленная напоказ щель идеально подходит к её красивому остальному телу.@
+` Губы вокруг такие маленькие, они действительно похожи на цветочные лепестки.\
 
-`"............ Ah..............."@
-` Those petals quiver slightly.@
-` Being seen must be extremely embarrassing for her.@
-`"..........................."@
-` But she still doesn't move.@
-` Skirt raised and completely exposed, she closes her eyes and blushes, waiting for me.\
+` - ............ Ах...............@
+` Эти лепестки слегка дрожат.@
+` Должно быть, ей очень стыдно, что её видят.@
+` - ...@
+` Но она всё равно не движется.@
+` Полностью выставленная напоказ, с поднятой юбкой, она закрыла глаза и краснеет, ожидая меня.\
 
-`"Hi----sui."@
-` It's all I can say.@
-` ...... There is no smell coming from her.@
-` Yet I am completely intoxicated from the aroma.@
-` Her figure isn't full of womanly curves, but I still feel my heart racing.@
-` It feels like the warmth from underneath her skirt has somehow filled the entire room.@
-` My head, my throat, even my fingertips are all held in thrall.\
+` - Хи...суи.@
+` Это всё, что я смог сказать.@
+` От неё не доносится никакого запаха...@
+` Но я опьянён ароматом.@
+` Её фигура не исполнена женственных изгибов, но моё сердце всё равно отчаянно бьётся.@
+` Моя голова, моё горло, даже кончики моих пальцев парализованы трепетом.\
 
-` ----Hisui.@
+` Хисуи...@
 br
-` Hisui, who is shyly closing her eyes...
-` Even though I know I should stop her, I keep on thinking the opposite----\
+` Хисуи, застенчиво закрывающая глаза...
+` Хотя я и понимаю, что должен её остановить, но продолжаю думать о противоположном...\
 
-`"........................"@
-` Hisui trembles in silence.@
-` Her delicate trembling.@
-` It was only her fingers at first, but then her legs, and her thighs too.@
-` She's shaking.@
-` She brings her legs closer together, as if to hide the glorious treasure between them.\
+` - ...@
+` Хисуи дрожит в тишине.@
+` Её изящная дрожь.@
+` Сперва это были только пальцы, но затем ноги и бёдра.@
+` Она дрожит.@
+` Она свела ноги ближе, словно чтобы спрятать славное сокровище между них.\
 
-`"......................................................"@
-` Hisui's breathing becomes harder.@
-` ...... I thought she would speak up.@
-` No, that's not it, I just simply---
+` - ...@
+` Дыхание Хисуи становится более тяжёлым.@
+` Я думал, она заговорит...@
+` Нет, не в этом дело, я просто...
 br
-`"---Hisui."@
+` - Хисуи...@
 br
-` wanted to hear her voice.\
+` Хчу услышать её голос.\
 
-` I reach out.@
-` And bring Hisui's trembling body into my embrace.@
+` Я потянулся.@
+` И дрожащее тело Хисуи оказалось в моих объятьях.@
 br
-`"........................... Ah."@
+` - Ах...@
 br
-` Her body jerks.@
-`"Hisui, I----"@
-` I don't know what I should say.@
-` When I snatch her violently into my arms, she looks up at me with moistened eyes.\
+` Её тело дёрнулось.@
+` - Хисуи, я...@
+` Я не знаю, что сказать.@
+` Когда я ухватил её, она взглянула на меня влажными глазами.\
 
 
-`"...... Yes.@ Please, take good care of me, Shiki-sama."@
-`"-----------"@
-` Her words have a strange magic.@
-` My raging heart suddenly calms.\
+` - Да...@ Пожалуйста, позаботьтесь обо мне как следует, Шики-сама.@
+`- ...@
+` Её слова обладают странной магией.@
+` Моё буйствующее сердце внезапно успокоилось.\
 
-`"...... I understand.@ That makes me very happy, Hisui."@
-` I sit her down on the bed.@
-`"Then, don't move until I tell you to.@ And don't speak unless I ask you."@
-` Hisui nods.@
-` My fingers moves under her upraised skirt.@
-` "........................"@
-` She watches my finger, unable to do anything.@
-` Pretending not to notice, I reach out with my middle finger and lightly stroke her slit.\
+` - Я понима...@ Мне очень приятно, Хисуи...@
+` Я усадил её на кровать.@
+` - В таком случае, не двигайся, пока я не скажу.@ И не говори, если я не спрошу.@
+` Хисуи кивнула.@
+` Мои пальцы двигаются под её поднятой юбкой.@
+`  - ...@
+` Она наблюдает за моим пальцем, неспособная ничего сделать.@
+` Притворившись, что ничего не заметил, я протянул средний палец и слегка погладил её щель.\
 
-`"Ah.................."@
-` Hisui's whole body quivers.@
-` I tried to be as gentle as I could, but she seems to have felt it strongly.@
-`"...... Mm...... you're so soft here, Hisui."@
-` I put my middle and index fingers together and continue stroking her.@
-` As gently as I can, I stroke the entire area.\
+` - Ах...@
+` Всё тело Хисуи содрогнулось.@
+` Я старался быть как можно нежнее, н она, похоже, ощутила это сильно.@
+` - Ммм... Ты здесь такая мягкая, Хисуи...@
+` Я сложил вместе средний и указательный пальцы и продолжил её поглаживать.@
+` Насколько возможно нежно, я глажу всю зону.\
 
-`"Ha............ ah........."@
-` Her breathing becomes louder.@
-` A soft caress.@
-` I continue my soft massage, taking my finger up and down her slit.@
-`"-----, Nn............!"@
-`"Hm......?@ Hisui, did you say something?"@
-`"Ah...... No, it is...... nothing, Shiki... sama."@
-`"I see, that's good.@ I thought you forgot I told you not to speak."@
-` Saying that,
-` I suddenly slip a finger inside her.\
+` - Ха... ах...@
+` Её дыхание становится громче.@
+` Мягкая ласка.@
+` Я продолжаю мой мягкий массаж, проводя пальцем вверх-вниз по её щели.@
+` - ...Нн!..@
+` - Хмм?..@ Хисуи, ты что-то сказала?@
+` - Ах... Нет, ничего, Шики... сама@
+` - Понятно, хорошо.@ Я думал, ты забыла, что я сказал тебе не разговаривать.@
+` Сказав это,
+` Я внезапно ввёл в неё палец.\
 
-`"------Nha............!"@
-` Her back arches in response.@
-` I haven't even put more than the tip of my finger in yet, so I don't know what will happen if I go farther.@
-`"...... Wow, this is how it always is?@ It's moist all over and it's really wet."@
-`"Ah.................."@
-` Hisui swallows her words and blushes to the tips of her ears.@
-` Probably to obey my order not to speak.@
-`"You really are dirty.@ I haven't even done anything, and you're already wet, Hisui."@
-`"---------"@
-` Hisui stands there in embarrassment.\
+` - ...Ннха!..@
+` Её спина изогнулась в ответ.@
+` Я даже ещё не ввёл больше чем кончик пальца, так что не представляю, что будет, если пойду дальше.@
+` - Вау, здесь всегда так?@ Оно всё влажное, даже мокрое.@
+` - Ах...@
+` Хисуи проглотила слова и покраснела до кончиков ушей.@
+` Скорее всего, подчиняясь моему приказу не говорить.@
+` - Ты действительно грязная.@ Я даже ещё ничего не сделал, а ты уже влажная, Хисуи.@
+` - ...@
+` Хисуи стыдно.\
 
-`"No, I'm sorry.@ If that's how it is, I should have hurried up and done... this!"@
-` I plunge my finger deeper.@
-`"Kgh......, mm.........!"@
-` Hisui throws her head back.@
-` I feel her body squeeze me lightly in response.\
+` - Нет, извини.@ Если оно так, мне следует поторопиться и сделать... это!@
+` Я погрузил палец глубже.@
+` - Кгх..., ммм!..@
+` Хисуи отбросила голову назад.@
+` Я чувствую, как её тело в ответ слегка сжимает меня.\
 
-`"...... Man, it's only one finger.@ You must be sensitive, Hisui."@
-` I slide my finger in deeper and slowly twist it around inside of her.@
-`"------!@ Tss,...... a."@
-` Her lips shake uncontrollably.@
-` ...... But still, she continues to follow my command.@
-` Desperately trying to keep from crying out and breaking the rule I've set for her.\
+` - Однако... Это всего один палец.@ Должно быть, ты чувствительна, Хисуи.@
+` Я скользнул пальцем глубже и медленно покрутил им внутри неё.@
+` - !..@ Тсс, ... а.@
+` Её губы неуправляемо дрожат.@
+` Но тем не менее, она продолжает выполнять мой приказ...@
+` Отчаянно пытаясь удержаться от вскрика и нарушения установленных мной для неё правил.\
 
-`"...... You're pretty persistent, Hisui.@ But, well---it doesn't seem like you can hold out much longer."@
-`"Eh...... Shiki... sama......?"@
-`"Because you're already really wet inside.@ Being wet from just one finger, there's something wrong with that."@
-`"--------"@
-` Hisui's face turns even redder.@
-`"...... No, Shiki-sama---it is because you're the one touching me, I----"@
-`"Hey, don't speak.@ I didn't ask you about that."@
-`"Ah------!"\
+` - Ты довольно стойка, Хисуи.@ Но, ну... Не думаю, что ты сможешь долго продержаться.@
+` - Э... Шики... сама?..@
+` - Потому что ты уже откровенно влажная внутри.@ От одного пальца... С этим явно что-то не то.@
+` - ...@
+` Хисуи покраснела ещё сильнее.@
+` - ...Нет, Шики-сама... это потому что ко мне прикасаетесь вы...@
+` - Эй, не разговаривай.@ Я тебя об этом не спрашивал.@
+` - Ах!..\
 
-` I move my finger again.@
-` It slides along her inner walls.@
-`"---Ah---ngah, mm............!"@
-` I can feel the warmth of her breath.@
-`"...... Hisui, did you say something?"@
-`"...... Ah............ no, noth... ing-----"@
-` She clenches her teeth.@
-` But she can't keep her breathing from growing louder.@
-`"...... That's good, but... I don't think this finger will be enough for you."@
-` I pull my finger out with a wet sound.@
-` Coated in her juice, a wet line connects my finger to her.\
+` Я снова двинул пальцем.@
+` Но скользит по её внутренним стенам.@
+` - Ах... нга, ммм!..@
+` Я чувствую теплоту её дыхания.@
+` - Хисуи, ты что-то сказала?@
+` - ...Ах ... Нет, ниче... го...@
+` Она сжала зубы.@
+` Но она не может удержать дыхание от нарастания громкости.@
+` - Это хорошо, но... Не думаю, что тебе будет достаточно этого пальца.@
+` Я с влажным звуком вытащил палец.@
+` Нить жидкости соединила мой покрытый её соком палец с ней.\
 
-`"Ah-----"@
-` Hisui looks down in amazement.@
-`"Then I'll do this next...... Hisui, make sure you remember what I told you."@
-`"Ah......... Ye... s."@
-` Hisui nods.@ At the same time, I thrust two fingers inside of her.@
-`"Hya, nn------!"@
-` Her back arches once more and she tightens inside.@
-`"Ah...... oh...... ahn------"@
-` Her escaping breath is so hot it's almost burning me.@
-` To make it even hotter, I slide both of my fingers up and down.\
+` - Ах...@
+` Хисуи потрясённо смотрит вниз.@
+` - Так что дальше я сделаю вот что... Хисуи, не забывай, что я тебе сказал.@
+` - Ах... Д...а.@
+` Хисуи кивнула.@ В тот же момент я ввёл в неё два пальца.@
+` - Хья, ннн!..@
+` Её спина вновь изогнулась, и она стянулась внутри.@
+` - Ах... ох... ахх...@
+` Вырывающееся у неё дыхание столь жарко, что почти обжигает меня.@
+` Чтобы сделать его ещё жарче, я скользнул обоими пальцами вверх-вниз.\
 
-`"Nn...... nn----"@
-` Her whole body shakes in response.@
-` No matter how she tries, she can't seem to resist the pleasure seeping through her whole body.@
-` Her movement betrays her passion even as she tries to stifle her cries.\
+` - Нн... нн...@
+` Всё её тело дрожит в ответ.@
+` Как бы она не старалась, похоже, она не может сопротивляться удовольствию, пронизывающему всё её тело.@
+` Её движения выдают её страсть, несмотря на старания сдержать голос.\
 
-`"Hisui, even if you moan this much, I can't hear it.@ You're making too much noise down here."@
-` I move my fingers hard, and the sound of wet flesh on flesh gets louder.@
-`"No----no...... Shiki-sama."@
-` She looks away, blushing furiously.@
-` Her face is so cute---I just want to tease her even more.\
+` - Хисуи, даже если ты будешь так стонать, это всё равно не слышно.@ Ты слишком шумна здесь внизу.@
+` Я сильно двигаю пальцами, и звуки влажной плоти о плоть становятся громче.@
+` - Нет... - нет... Шики-сама.@
+` Она отворачивается, яростно краснея.@
+` Её лицо такое милое... Что я просто немогу не хотеть подразнить её ещё.\
 
-`"You have to want this.@ You're leaking so much you're making my carpet dirty.@ It's pretty obvious that you're a dirty girl."@
-`"Ah...... nhaa......,........."@
-` I continue to work my fingers as I speak.@
-` While moving my finger inside her, I curl my middle finger.@
-`"----Ha...............!?"@
-` Her body instantly jerks.@
-` My bent finger slides along her inner wall.\
+` - Ты определённо хочешь этого.@ Ты так течёшь, что пачкаешь мой ковёр.@ Совершенно очевидно, что ты грязная двчонка.@
+` - Ах... нхаа...@
+` Говоря, я продолжаю работать пальцами.@
+` Двигая их внутри неё, я согнул средний палец.@
+` - ...Ха!..@
+` Её тело мгновенно дёрнулось.@
+` Мой согнутый палец скользит по её внутренним стенам.\
 
-`"Aahh----nghaa, hwah-----!"@
-` She must be really sensitive there; she can't stifle her cries.@
-`"Hisui, didn't I tell you not to say anything?"@
-`"A-----Yes, Shiki... sama----"@
-` Hisui is panting heavily.@
-` But I still don't stop rubbing inside her.\
+` - Аахх... нгхаа, хва!..@
+` Должно быть, она там действительно чувствительна; она не может сдержать голос.@
+` - Хисуи, разве я не говорил тебе молчать?@
+` - А... Да, Шики... сама...@
+` Хисуи тяжело дышит.@
+` Но я всё равно не перестаю поглаживать её внутри.\
 
-`"Nn...... haa, ah----Ah."@
-` She's breathing hard, as if she has a high fever.@
-`"...... Hm...... You've even gotten bigger down here."@
-` I lean forward and lick her swollen clit.@
-`"Nahh------!?"@
-` Hisui tries to arch back.@
-`"Hisui.@ I didn't say you could move."@
-`"...... Ye...... yes...... Shiki... sa...... ma."@
-` Her voice is barely audible.@
-` I caress her, inside and out.@
-` Even though I'm barely doing anything, her body seems to be at its limit already.\
+` - Нн... хаа, ах... Ах.@
+` Она тяжело дышит, словно в лихорадке.@
+` - ...Хмм.. Ты даже стала здесь больше.@
+` Я наклонился и лисзнул её набухший клитор.@
+` - Наахх?!..@
+` Хисуи попыталась отклониться.@
+` - Хисуи.@ Я не разрешал двигаться.@
+` - Д... да... Шики... са... ма...@
+` Её голос едва слышен.@
+` Я ласкаю её, внутри и снаружи.@
+` Даже несмотря на то, что я почти ничего не делаю, её тело, похоже, уже на пределе.\
 
-`"...... Hisui.@ Is this, your first time?"@
-`"A---n, Ah...... Ye... s.......@ Because, Shiki-sama, you are... my only master-----"@
-` She answers me with a quivering voice.@
-`"...... I see.@ Then, here is your reward."@
-` I lick her once more.@
-` Using the tip of my tongue, I pull her hood back and lick her clit.@
-`"Eh---ah, oh.........!!!"\
+` - Хисуи.@ Это твой первый раз?@
+` - А...н, Ах... Д...а...@ Потому что, Шики-сама, вы мой... мой единственный господин...@
+` Дрожащим головос ответила она мне.@
+` - Понятно...@ В таком случае, вот твоя награда.@
+` Я лизнул её снова.@
+` Кончиком языка я раздвинул складки и лизнул её клитор.@
+` - Эх... ах, ох!!!..\
 
-` It's her loudest cry so far.@
-` Ignoring that, I lick even harder.@
-`"Ah, haa, ah----Shiki-sa... ma------!"@
-` It isn't just licking.@
-` I lick as if I was trying to flatten her clit.\
+` Это её самый громкий стон за прошедшее время.@
+` Игнорируя это, я лизнул сильнее.@
+` - Ах, хаа, ах... Шики-са... ма!..@
+` Это не просто лизание.@
+` Я лизнул так, словно пытался расплющить её клитор.\
 
-`"Ah...... ngah...... N, no-----Shiki-sama, please----please stop it-----Haa, ahn, ah...... Shiki... sama......!"@
-` She convulses with pleasure.@
-` Her face rises up to heaven as she breathes wildly.@
+` - Ах... нга... Н, нет... Шики-сама, пожалуйста... пожалуйста, хватит... Хаа... ан, ах... Шики... Шики... Сама!..@
+` Она содрогается от наслаждения.@
+` Она тяжело дышит, её лицо поднялось к небесам.@
 br
-` The knuckles of the fingers grasping her skirt turn white.\
+` Костяшки её пальцев, держащих юбку, побелели.\
 
-`"Ha---This is... too much---!@ Ahh...... Shiki... sama, please...... please forgive me, Shiki... sa... maaa-----!"@
-` She gives a crumbling, weak cry.@
-` Her knees give out and she falls onto the bed.\
+` - Ха... Это... слишком!..@ Ахх... Шикик... сама, пожалуйста... пожалуйста простите меня, Шики... са... маа!..@
+` Она издала слабый, затихающий стон.@
+` Её ноги не выдержали и она упала на кровать.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -444,68 +443,68 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_40d.jpg",%type_crossfade_fst
 
 
-` ...... The sound of labored breathing echoes throughout the room.@
-` Hisui lays exhausted on the bed.@ Since I am sitting on the bed, Hisui naturally falls into my arms.\
+` Звук усталого дыхания разносится по комнате...@
+` Хисуи без сил лежит на кровати.@ Поскольку я сидел на ней, Хисуи, естественно, упала мне на руки.\
 
-`".................. Hisui?"@
-` I whisper into her ear as I hold her.@
-`"--------"@
-` There's no response.@
-` All I can hear is her heavy breathing.@ She does not seem capable of answering me.@
-` ...... Just,
-` the warmth of her arms grabbing me tells me she is conscious.\
+` - Хисуи?..@
+` Шепнул я ей на ухо, держа её.@
+` - ...@
+` Ответа нет.@
+` Я слышу только её тяжёлое дыхание.@ Похоже, она не в состоянии мне ответить.@
+` Только...
+` её тёплые руки, держащиеся за меня, говорят мне, что она в сознании.\
 
-`".................."@
-` Time passes by with the two of us like that.@
-` Just holding her warm body in my arms feels so nice---and more than that, I'm thrilled by the feeling of Hisui grabbing onto me like a child.@
-`"-------Mm."@
-` I can feel her heartbeat.@
-` ...... Really, what came over me earlier?@
-` Hisui was entrusting herself to me so honestly, and I treated her like that.@ I feel so guilty I want to die.@
-`"...... If Akiha finds out, she'll kill me......"@
-` ...... Yeah, there's no denying that.\
+` - ...@
+` Время идёт. Мы остаёмся в том же положении.@
+` Просто держать её тёплое тело в руках так приятно... К тому же я просто тащусь от того, как Хисуи держится за меня, словно ребёнок.@
+` - Ммм...@
+` Я чувствую её сердцебиение.@
+` Действительно, и что на меня нашло?..@
+` Хисуи так честно доверилась мне, а я так с ней обошёлся.@ Я чувствую себя таким виноватым, что умереть готов.@
+` - ...Если Акиха об этом узнает, она меня убьёт...@
+` Да, с этим не поспоришь...\
 
 
-`".................."@
-` Hisui finally catches her breath.@
-`"............... Shiki... sama......?"@
-` Still in my arms, she looks up at me.@
-`"...... Oh, I'm sorry, Hisui.@ I guess I overdid it."@
-`".................."@
-` She looks directly at me with vacant eyes.\
+` - ...@
+` Хисуи наконец отдышалась.@
+` - ...Шики... сама?..@
+` Всё ещё в моих руках, она подняла на меня взгляд.@
+` - О, извини, Хисуи.@ Полагаю, я переборщил.@
+` - ...@
+` Она смотрит на меня отсутствующим взглядом.\
 
-`"...... No, I am fine.@ Shiki-sama, if you are satisfied, then I am happy."@
-` Blushing, she speaks with her usual serious expression.@
-` ...... That face... is just too cute.@
-` Thanks to that, something that was calm starts to re-awaken inside of me.@
-`"--------!"@
-` I quickly pull away from Hisui.@
-` ...... Because if we stayed in that position, my hardened shaft would poke into her stomach.\
+` - Нет, я в порядке...@ Шики-сама, если вы довольны, то я рада.@
+` Произнесла она своим обычным тоном, покраснев.@
+` Это лицо... ну очень мило.@
+` Из-за этого, то, что успокоилось, снова начало пробуждаться во мне.@
+` - !..@
+` Я поспешно отстранился от Хисуи.@
+` Потому что если я останусь в этой позиции, мой затвердевший ствол упрётся ей в живот...\
 
-`"...... Shiki-sama......?"@
-` Hisui looks at me in confusion.@
-`"Is something wrong?@ Um...... was I... unsatisfactory after all......?"@
-` She sounds uneasy.@
-` Like she's worried that I might hate her.@
-`"---No.@ It's not like that at all.@ There's nothing unsatisfactory about you.@ See, it's just that my mind is satisfied, but my body isn't......"@
-` I don't say it exactly right.@
+` - ...Шики-сама?..@
+` Хисуи растерянно смотрит на меня.@
+` - Что-то не так?@ Эм... Я была... всё-таки неудовлетворительна?..@
+` Похоже, она беспокоится.@
+` Словно она беспокоится, что я могу испытывать к ней неприязнь.@
+` - Нет.@ Ничего подобного.@ В тебе нет ничего неудовлетворительного.@ Просто, мой разум удовлетворён, но вот тело...@
+` Не могу это толком сказать.@
 br
-` ----And then,
-` Hisui blushes and looks down.\
+` И тогда...
+` Хисуи покраснела и опустила взгляд.\
 
-`"...... Hisui?"@
-`"...... Please forgive me for making you say that, Shiki-sama."@
-` She speaks hesitantly.@
-`"Ah-----"@
-` Looking down, I realize that I am standing fully erect in front of her.......@ It would be strange if she didn't notice, really.\
+` - Хисуи?..@
+` - Пожалуйста, простите меня, что заставила вас это сказать, Шики-сама.@
+` Нерешительно произнесла она.@
+` - Ах...@
+` Опустив взгляд, я понял, что стою перед ней с эрекцией...@ На самом деле было бы странно, если бы она не заметила.\
 
-`"Ah, no, that---that's fine, really!@ I'll calm down soon, so don't worry about it!"@
-` My frantic stammering seems to have the opposite effect.@
-`"...... Shiki-sama.@ I have not yet serviced you."@
-` She looks directly at me.@
-`"Please relax.@ I am not used to this, but I will do my best to serve you."@
-` I don't even have time to stop her.@
-` She takes off her clothes and slowly brings her face towards my crotch.\
+` - Ах, нет, это... всё нормально, правда!@ Я скоро успокоюсь, так что не беспокойся об этом!@
+` Моя дёрганая речь, похоже, возымела противоположный эффект.@
+` - Шики-сама...@ Я вас ещё не обслужила.@
+` Она смотрит прямо на меня.@
+` - Пожалуйста, расслабьтесь.@ Я раньше этого не делала, но приложу все усилия, чтобы обслужить вас.@
+` Я даже не успел её остановить.@
+` Она сняла свою одежду и педленно приблизила лицо к моей промежности.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -513,86 +512,86 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\event\his_h16.jpg",%type_crossfade_mid
 
 
-` ...... Her movements really are innocent.@
-` Lowering my zipper, she exposes my swelling member.@
-` She doesn't show so much as a hint of distaste at seeing this large, grotesque thing, but touches me with hands that seem to be doing this for the first time.\
+` Её движения так невинны...@
+` Расстегнув мне молнию, она достала мой вздувшийся член.@
+` Она не показывает ни намёка на отвращение при виде этой большой, гротескной штуки, лишь прикасается ко мне руками, впервые делающими такое.\
 
-`"...... Ah......"@
-` She touches it and lets out a gasp, probably out of surprise at how hot it is.@
-` Slowly and hesitantly, she grasps my shaft, moving as if handling something fragile.@
-`"...... Hisui, if it's your first time, you don't have to force yourself."@
-`"....................."@
-` Hisui shakes her head.@
-` Without hesitating, almost as if she is kissing it, she touches me with her lips.@
-`"-------"@
-` I swell in response to that soft sensation.@
-` The feeling of another's lips...... the feeling of Hisui's lips causes my blood to burn.\
+` - ...Ах...@
+` Она прикасается к нему и у неё вырывается вздох, возможно, от неожиданности, какой он горячий.@
+` Медленно и нерешительно, она берётся за мой ствол, словно держит нечто хрупкое.@
+` - Хисуи, это твой первый раз, не заставляй себя...@
+` - ...@
+` Хисуи покачала головой.@
+` Без нерешительности, почти как целуя, она она прикоснулась ко мне губами.@
+` - ...@
+` В ответ на это мягкое ощущение меня переполняют чувства.@
+` Ощущение чьих-то губ... ощущение губ Хисуи заставляет мою кровь кипеть.\
 
-`"Shiki-sama......?@ Does it... hurt?"@
-`"Oh, no.@ Your lips just felt so good."@
-`"...... So, it doesn't hurt......?"@
-`"Of course not," I say with a smile, trying to reassure her as she looks at me full of worry.@
-` Clearly relieved, she uses more pressure than before.\
+` - Шики-сама?..@ Это... больно?..@
+` - О, нет.@ Просто твои губы... так приятно.@
+` - ...То есть не больно?..@
+` - Разумеется, нет - с улыбкой произнёс я, пытаясь успокоить ей, поскольку она обеспокоенно смотрит на меня.@
+` Она явно испытывает облегчение, и брилагает большее давление.\
 
-`"N-------"@
-` Heat boils deep in my loins.@
-` Her caress really is light.@
-` She might not know how to do it, because she only holds me with her fingers and sucks my tip gently.@
-` ...... But, that doesn't mean it doesn't feel good.@
+` - Н...@
+` Жар закипает в моих чреслах.@
+` Её ласка совсем лёгкая.@
+` Она даже не знает, как это делать - просто держит пальцами и слегка сосёт кончик.@
+` ...Но это не значит, что это не приятно.@
 br
-`"...... Ah...... mm...... Shiki-sama, is this... good......?"@
+` - ...Ах... ммм... Шики-сама, это... хорошо?..@
 br
-` Even though she is inexperienced, she does her best to please me.@
-` The delightful sensation of her lips as they embrace me.@
-` Not even fully in her mouth, but just between her lips.\
+` Хотя она и неопытна, она прилагает все усилия, чтобы доставить мне удовольствие.@
+` Блаженное ощущение её обнимающих меня губ.@
+` Даже не полностью у неё во рту, просто между губ.\
 
-`"...... Oh...... you're starting to drip."@
-` A line of pre-come drizzles out.@
-` Not minding it the least bit, she uses her tongue to lap it up.@
-`"----, Ah----"@
-` My hips rise in response to the sensation.@
-`"...... Mm...... Shiki-sama, it's so hot."@
-` Hisui tightens her grip, trying to stop my shaft from moving around.@
-`"............... Hisui."@
-` ...... I could have told her what to do to make it feel even better.\
-` But, I don't need it.@
-` Just having her trying her best to please me is enough.\
+` - ...Ох... Вы начинаете капать.@
+` Выступила капля предварительной жидкости.@
+` Она без запинки начинает работать языком.@
+` - ..., Ах...@
+` Мои бёдра поднимаются в ответ на это ощущение.@
+` - ...Ммм... Шики-сама, так горячо...@
+` Хисуи усиливает хватку, пытаясь удержать мой ствол от движений.@
+` - Хисуи.@
+` Я мог бы сказать ей, что делать, чтобы было ещё приятнее...\
+` Но в этом нет необходимости.@
+` Просто предоставить ей пытаться удовлетворить меня достаточно.\
 
-`"...... Shiki... sama......?"@
-`"...... Yeah, it feels good, Hisui."@
-` I let my fingers wander through her hair.@
-` I love her right now more than I want her.@
-` Her red hair, her flushed cheeks...... Trying so hard, even though it's her first time.\
+` - ...Шики... сама?..@
+` - Да, это приятно, Хисуи...@
+` Я позволил своим пальцам прогуляться в её волосах.@
+` В настоящий момент я я больше люблю её, чем хочу её.@
+` Её рыжие волосы, её покрасневшие щёки... Старается изо всех сил, хотя это её первый раз.\
 
-`"Ah...... Yes, I am very happy, Shiki-sa, ma---"@
-` She continues to work on me with even more enthusiasm.@
-` Her fingers squeeze me hungrily.@
-` Her tongue, her mouth, they caress me almost non-stop.\
+` - Ах... Да, я очень рада, Шики-са, ма...@
+` Она продолжает действовать с ещё большим энтузиазмом.@
+` Её пальцы голодно сжимают меня.@
+` Её язык, её рот, они ласкают меня почти безостановочно.\
 
-`"-----Ah."@
-` The heat within me rises higher.@
-` ...... As if she started to figure out what to do, she starts to kiss not only my tip, but my whole shaft.@
-`"Mm...... ahmm...... Shiki-sama, is this good......?"@
-`"-------"@
-` Not answering, I resist the urge welling up within me.@
-`"...... Ah...... nn, mmh-----"@
-` Her lips lower themselves around my shaft.@
-` In between them, her tongue plays back and forth.\
+` - Ах...@
+` Жар во мне поднимается выше.@
+` Словно начав понимать, что делать, она начинает целовать не только кончик, но и весь мой ствол.@
+` - Ммм... ахмм... Шики-сама, это хорошо?..@
+` - ...@
+` Не отвечая, я борюсь с поднимающимся во мне порывом.@
+` - ...Ах... нн, ммх...@
+` Её губы опускаются по моему стволу.@
+` Между ними её язык играет назад и вперёд.\
 
-`"Hey----Hisui, you should get back."@
-` I say this, but I don't even try to make her get away.@
+` - Эй... Хисуи, тебе стоит отодвинуться.@
+` Я сказал это, но даже не попытался отодвинуть её.@
 
-`"Ah---Shiki-sama, it is... so----"@
-` Big, she probably means to say.@
-` On the verge of release, I'm swelling even larger.@
-`"Hi... sui---I'm going to come, so you should... get back."@
-`"Yes...... please come, Shiki... sama......"@
-` As she says this, her hot breath billows all around me.@
-` ...... She knows.@
-` She knows what's coming next, and embraces my manhood firmly with her lips.\
+` - Ах... Шики-сама, он такой...@
+` Скорее всего, она хотела сказать «большой».@
+` На грани спуска, я вздулся ещё больше.@
+` - Хи... суи... я сейчас кончу, так что тебе стоит... отодвинуться.@
+` - Да... Пожалуйста, кончайте, Шики... сама...@
+` Когда она говорит это, её жаркое дыхание обдувает меня.@
+` Она знает...@
+` Она знает, что сейчас последует, и твёрдо обнимает мою мужественность своими губами.\
 
-`"Ahh----,---!"@
-` With that, I explode.@
+` - Ахх..., !..@
+` И я взорвался.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -600,25 +599,25 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\event\his_h16.jpg",%type_crossfade_fst
 
 
-`"Ah, mmph------!?"@
-` I can hear Hisui's muffled voice.@
-` I release all of my pent up desire.@
-` With her small lips, she diligently swallows it.\
+` - Ах, ммф?!..@
+` Я слышу сдавленный голос Хисуи.@
+` Я отпускаю всё моё накопившееся желание.@
+` Своими маленькими губками она прилежно глотает всё.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
 
-`"-------Hi, sui."@
-` Intoxicated by the feeling of release, I look at Hisui's throat.@
-` She's swallowing every drop.@
-` Her blue eyes like glass, brimming with tears.@
+` - Хи, суи.@
+` Опьянённый чувством освобождения, я взглянул на горло Хисуи.@
+` Она глотает всё до капли.@
+` Её синие глаза, наполненные слезами, словно стекло.@
 br
-` ----With that, I suddenly think.@
+` И я внезапно подумал...@
 br
-` Hisui is so dedicated, but clumsy.@
-` ...... It really is sad.@
-` If this is reality and not a dream, I wouldn't make the mistake of thinking of her as being like a doll-----\
+` Хисуи такая преданная, но неуклюжая.@
+` Это действительно печально...@
+` Если это реальность, а не сон, я не совершу ошибку мыслей о ней, как о кукле...\
 
 !w4000
 
@@ -653,132 +652,132 @@ play "*2"
 
 ` ........., .................., ........................@
 br
-`"---Mor---ning?"@
-` I dazedly open my eyes.@
-` Sunshine pours in from the window, and the room is enveloped in a warm atmosphere.\
+` - Ут...ро?@
+` Я оцепенело открыл глаза.@
+` Солнечный свет льётся в окно, и комната объята тёплой атмосферой.\
 
-`"--------"@
-` I stare down at my hands.@
-` My hands are a little sweaty.@ My body is drenched in sweat as well, as if I was in an incredibly hot night.@
-` My body is sluggish.@ It isn't uncomfortable, rather it is more the feeling of completion.@
+` - ...@
+` Я взглянул на свои руки.@
+` Они немного потные.@ Моё тело тоже потное, словно ночь была очень жаркой.@
+` Я заторможен.@ Это не некомфортно, скорее напоминает чувство завершённости.@
 br
-`"-------?"@
-` I shake out my shoulders.@
-` ...... My body seems just fine.@
-` But Hisui is not in front of me.@ Her fingers and breath that were caressing me until now have disappeared like they were never there.\
+` - ...@
+` Я встряхнул плечами.@
+` Со мной всё в порядке...@
+` Но Хисуи не передо мной.@ Её пальцы и дыхание, ласкавшие меня, исчезли, словно их никогда и не было.\
 
-`"Huh-----?"@
-` Hisui's fingers, and breath......?@
+` - Э?..@
+` Пальцы и дыхание Хисуи?..@
 br
-`"AAH-------!"@
+` - ААХ!..@
 br
-` I jump out of bed.@
-` Thinking back to that dream, I'm suddenly assailed by regret.@
-`"I don't, believe it----"@
-` ...... Just what kind of dream was I having?@
-` I imagined Hisui coming here and telling me she's here to do her nighttime duty...... I really have to question my taste.\
+` Я вскочил с кровати.@
+` Вспоминая этот сон, я вдруг ощутил приступ стыда.@
+` - Не могу поверить...@
+` У меня такие сны?..@
+` Мне привиделось, что Хисуи пришла сюда «выполнить ночные обязанности»... У меня действительно сомнительные вкусы.\
 
-`"Haa----ahhh."@
-` Stretching my back, I take in a deep breath.@
-` ...... I try to forget about my dream, but it won't fade that easily.@
-`".................. Hisui."@
-` I know it had to be a dream---but it felt too real.@ It makes me think it might have actually happened.\
-` ...... All the same, it had to have been a dream.@
-` I could say that it was good at least on that note.\
+` - Хаа... ахх.@
+` Потянувшись, я глубоко вздохнул.@
+` Я пытаюсь забыть свой сон, но это не так-то просто...@
+` - Хисуи...@
+` Я понимаю, что это должно быть сном... но он был таким реалистичным.@ Заставляет думать, что это могло быть и на самом деле.\
+` Как бы там ни было, это определённо был сон...@
+` Но, по крайней мере, хороший.\
 
-`"...... But she sure was cute."@
+` - Она была такой милой...@
 br
-` ---As I remember the dream, my feelings are mixed.@
-` The real Hisui is never that open about her feelings.@
-` She is always calm and expressionless, and she rarely blushes.@
-`"........................"@
-` ...... So I still can't help but to feel regret on that part.@
-` I know it's wrong, but I think back to the honest Hisui in my dream.\
+` Вспоминая сон, я испытываю смешанные чувства...@
+` Реальная Хисуи не бывает столь открытой в чувствах.@
+` Она всегда спокойна и лишена выражения, и редко когда краснеет.@
+` - ...@
+` ... Так что я ничего не могу поделать, только сожалеть об этом.@
+` Я понимаю, что это неправильно, но продолжаю думать о честной Хисуи в моём сне.\
 
-` And, then,
+` И тут...
 
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 
-`"Shiki-sama."@
-`"Uwaaaaaaa!"@
+` - Шики-сама.@
+` - Увааааа!@
 quakey 2,100
 
 br
-` ---Hisui appears with her usual expression.\
+` ...С её обычным выражением лица появилась Хисуи.\
 
-`"AAAhHHHhh Hisui!"@
-` Scramble, scramble, roll, thud.@
-` The shock causes me to roll out of the bed and plaster the nearby wall.@
-` Thankfully, the sheets were still wrapped around my waists.\
+` - АААхХХХхх Хисуи!@
+` Дерг, шмяк, кать-кать, бум.@
+` От неожиданности я свалился с кровати и прокатился к ближайшей стене.@
+` К счастью, простыня обмоталась вокруг пояса.\
 
 ld c,":a;image\tachi\his_t18.jpg",%type_crossfade_fst
 
-`"...... Shiki-sama.@ Do you have something against me?"@
-` She looks angry.@
-` ...... Well, suddenly spinning around like that and calling her name, she probably has a right to feel I'm acting strange.@
-`"...... N-no, it's nothing...... uh, anyway, how long, were you here?"@
-` ...... Still in disarray, I blurt the first thing to come to mind.\
+` - Шики-сама.@ У вас есть что-то против меня.@
+` Она выглядит сердитой.@
+` Ну, учитывая как я вдруг свалился, выкрикнув ей имя, полагаю, у неё уважительная причина считать, что я странно себя веду...@
+` - Н-нет, ничего... Эм, в любом случае, как долго ты здесь была? Когда ты вошла?@
+` Всё ещё растерянный, я произнёс первое, что пришло на ум...\
 
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`"Before you awoke, Shiki-sama, why do you ask?"@
-` She looks at me with a dissatisfied expression.@
-`"Uh..............."@
-` Seeing her eyes like that, I feel like I am the lowest form of life on earth.@
+` - Перед тем, как вы проснулись, Шики, сама, а почему спрашиваете,@
+` Она недовольно смотрит на меня.@
+` - Ух...@
+` Глядя в её глаза, я чувствую себя низшей формой жизни на земле.@
 cl c,%type_crossfade_fst
 br
-`"...... Oh.@ Before I, woke up......"@
-` ---Eh.@
-` That means,
-` Hisui saw my face when I was having that dream?---\
+` - Ох...@ Перед тем, как я проснулся...@
+` Э...@
+` Это значит,
+` Хисуи видела моё лицо, когда у меня был этот сон?..\
 
-`"Hisu, Hisui, um-----"@
-` Still lying on the floor tangled in the sheets and unable to stand, I look up at Hisui's face.@
-` Hisui just stands there expressionless as usual and makes no attempt to speak.@
-`"Um...... Did I look, strange......?"@
+` - Хису, Хисуи, эм...@
+` Всё ещё лёжа на полу, запутавшийся в простынях и неспособный встать, я взглянул в лицо Хисуи.@
+` Хисуи просто стоит здесь без выражения, как обычно, и не пытается говорить.@
+` - Эм... Я выгледел странно?..@
 
 ld c,":a;image\tachi\his_t01b.jpg",%type_crossfade_fst
 
-`"I do not wish to describe it."@
-`"Ah---oh."@
-` ...... I knew it.@ I must have looked really weird.\
+` - Я бы предпочла не описывать.@
+` - О-о...@
+` Я так и знал...@ Должно быть, я выглядел очень странно.\
 
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"But, if you insist, Shiki-sama, I can describe as accurately as I can."@
-`"...... No, you don't... have to do that......"@
-` My face still flushed, I speak in a fading voice.@
-`"Um, Hisui-san?"@
-`"What is it, Shiki-sama?"@
-`"Um, I'm going to change, so could you please go outside?"@
+` - Но, если вы настаиваете, Шики-сама, я могу описать насколько возможно точно.@
+` - ...Нет, тебе не нужно... этого делать...@
+` Гаснущим голосом, с покрасневшим лицом, произнёс я.@
+` - Эм, Хисуи-сан?@
+` - Что такое, Шики-сама?@
+` - Эм, я собираюсь переодеться, так что не могла бы ты выйти?@
 br
-` --Or rather, I'm so embarrassed, I just want her to leave.\
+` На самом деле, мне просто стыдно, так что я хочу, чтобы она вышла.\
 
-`"...... I understand.@ Please excuse me."@
+` - Понимаю.@ Пожалуйста, извините.@
 cl c,%type_crossfade_mid
 
-` She gives a bow and goes to leave.@
-` I take a deep breath,
-` and relax.@
+` Она поклонилась и направилась к выходу.@
+` Я глубоко вздохнул,
+` и расслабился.@
 
 ld c,":a;image\tachi\his_t18.jpg",%type_crossfade_fst
 
-`"...... By the way, Shiki-sama."@
-` She turns around with a fearsome expression.@
-`"Could you please tell me what kind of dream you were having?"@
-` She looks at me.@
-` ...... This isn't good.@ I might have said something really bad in my sleep.\
+` - Кстати, Шики-сама...@
+` Она обернулась с пугающим выражением лица.@
+` - Не могли бы вы сказать, что за сон вам снился?@
+` Она смотрит на меня.@
+` Это нехорошо...@ Я мог сказать во сне что-то очень плохое.\
 
-`"...... Um, it isn't much to talk about.@
-` I may have spoke something in my sleep, but it would be great if you think it has nothing to do with me at all......"@
+` - Эм, да в общем-то не о чем рассказывать.@
+` Я мог сказать что-то во сне, но было бы хорошо, если ты сделала вид, что ничего не слышала...@
 ld c,":a;image\tachi\his_t09.jpg",%type_crossfade_fst
 
-`"...... That is fine.@ But from now on, please refrain from sleeping while talking about the smallness of someone's chest, or the wideness of their foreheads, or other characteristics of their body.@
-` It makes my duty to wake you up a little more difficult."@
+` - Я не возражаю.@ Но впредь, пожалуйста постарайтесь воздержаться от описания во сне маленького размера чьих-то грудей, или ширины лба, или других характеристик тела.@
+` Это делает мою обязанность будить вас несколько более сложной.@
 cl c,%type_crossfade_fst
 
-` "Please excuse me," Hisui says as she leaves the room.\
+` - Пожалуйста, извините - закончила Хисуи и вышла из комнаты.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -786,60 +785,60 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
-` After calming down enough, I head to the sitting room.@
-` As usual, Akiha is sitting on the sofa, elegantly sipping tea.@
+` Успокоившись достаточно, я направился в гостиную.@
+` Ак обычно, Акиха сидит на софе, элегантно потягивая чай.@
 
 ld c,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"Oh, good morning Nii-san.@ You are certainly up early this morning."@
-` She must be happy I woke up early because she greets me with a smile.@
+` - О, доброе утро, Нии-сан.@ Ты рано этим утром.@
+` Должно быть, она рада, что я проснулся рано, поскольку приветствовала меня улыбкой.@
 
 cl c,%type_crossfade_fst
 
-`"Yeah, good morning.@ There were, well, a lot of things going on this morning."@
-`"?@ A lot of things?@ What do you mean by that?"@
-`"Um, well-----"@
+` - Ага, доброе утро.@ Было, ну, много всего этим утром.@
+` - ?@ Много всего@ Что ты имеешь в виду?@
+` - Эм, ну...@
 br
-` ----And then,
-` I suddenly recall my dream about Hisui.\
+` И тут...
+` Я вдруг вспомнил свой сон про Хисуи.\
 
-`"Ugh---"@
-` This isn't good.@ I can tell my face is blushing beyond my control.@
-`"Nii-san---?"@
-` A brief clamor.@
+` - Ух...@
+` Нехорошо...@ Я чувствую, как неуправляемо краснею.@
+` - Нии-сан?..@
+` Краткий шум.@
 
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"What's wrong?@ Your face is red, do you have a fever?"@
-`"-----!"@
-` Rushing over to me, she looks up at me from below.@
-` But, that angle,
-` Looking up at me like that, it resembles too much of the dream last night----\
+` - Что такое?@ Твое лицо красное, у тебя температура?@
+` - !..@
+` Поспешив ко мне, она смотрит на меня снизу верх.@
+` Но, с этого угла,
+` Когда она так на меня смотрит, это слишком напоминает тот сон...\
 
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-` Akiha sighs.@
-`"You do seem to have a fever.@ Kohaku, come quickly.@ Nii-san doesn't seem to be well."@
-` Akiha calls out to the dining room.@
-` Kohaku-san has to be preparing my breakfast in the kitchen.\
+` Акиха вздохнула.@
+` - Похоже, у тебя жар.@ Кохаку, сюда, быстрее.@ Похоже, Нии-сану нехорошо.@
+` Обратилась в столовую Акиха.@
+` Должно быть, на кухне Кохаку-сан готовит мой завтрак.\
 
-`"I'm fine--!@ It's just a minor cold, so don't worry!"@
+` - Я в порядке!@ Это просто мелкая простуда, так что не обращай внимания!@
 
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"If it is a cold, then I can't let it go by.@ For you, a trivial illness is a big deal.@ The strength of your immune system is much lower than most people's."@
+` - Если это простуда, я не могу не обращать внимания.@ Для тебя обычная болезнь может быть большой проблемой.@ Твоя имунная система намного слабее, чем у большинства людей.@
 
 cl c,%type_crossfade_fst
 
-` Akiha seems to be fed up and puts her hand on my forehead.@
+` Акиха положила руку мне на лоб.@
 br
-` The sensation of her cool, delicate hand.@
-` Her white, delicate fingers.@
-` Completely different from a man's, those slender, pretty, white fingers------\
+` Ощущение её прохладной, изящной руки.@
+` Её белые, изящные пальцы.@
+` Совсем не такие, как у мужчины, эти тонкие, красивые белые пальцы...\
 
-`"Ah!"@
-` This isn't good.@
-` This isn't good at all, so I break loose and run out to the lobby.\
+` - Ах!@
+` Это нехорошо.@
+` Это совсем нехорошо, так что я вырвался и выбежал в лобби.\
 
 
 
@@ -859,11 +858,11 @@ bg "image\bg\bg_40a.jpg",%type_lcartain_mid
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama?@ Have you finished your breakfast already?"@
-`"No, that's not it, but--um, where's my bag?"@
-`"I have your bag here.@ Are you already going to school?"@
-` Nodding, I snatch my bag from Hisui.@
-`"I'm going.@ Don't worry about seeing me off!"\
+` - Шики-сама?@ Вы уже закончили завтракать?@
+` - Нет, но... неважно, где моя сумка?@
+` - Вот, здесь у меня.@ Вы уже отправляетесь в школу?@
+` Кивнув, я выхватил у Хисуи свою сумку.@
+` - Я пошёл.@ Провожать не нужно!\
 
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_33a.jpg",%type_lcartain_mid
@@ -871,29 +870,29 @@ bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 ; ??<?>=??:?02(????)<???????(?)>
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`"Nii-san, you've been acting strange.@ What are you doing with that fever?"@
-`"Geez, I told you it's nothing!@ Since it's nothing, I'm going to school!@ I'll have breakfast later, so leave me alone!"@
-`"Leave you alone---hey, Nii-san!?"@
+` - Нии-сан, ты странно себя ведёшь.@ Куда ты собираешься с этим жаром?@
+` - Блин, я же сказал, что ничего серьёзного!@ А раз ничего, я отправляюсь в школу!@ Я потом позавтракаю, так что оставь меня в покое!@
+` - «Оставь в покое»... Эй, Нии-сан?!@
 br
-` The sound of my running footsteps are my only response.\
+` Топот бега - мой единственный ответ.\
 
 ; ????(?)<?????(?)>
 bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 
-` []*sigh*@
-` Even if it is Akiha, she wouldn't chase me this far.\
-` Since we're not kids anymore, she won't stop me from going to school.\
+` []*вздох*@
+` Даже если это Акиха, он ане будет так далеко за мной гнаться.\
+` Поскольку мы больше не дети, она не остановит меня от того, чтобы идти в школу.\
 
-`"----Whew."@
-` I take a deep breath and calm down.@
-`"......... What am I running away for?"@
-` Once I calm down, I can think clearly.@
-` I didn't do anything wrong, so there was no need for me to run away like that.\
+` - Уфф...@
+` Я глубоко вздохнул и успокоился.@
+` - Почему я убегаю?..@
+` Успокоившись, я смог думать чётко.@
+` Я ничего такого не сделал, так что мне не было нужды так убегать.\
 
-`"---I don't believe it.@ I look like a complete idiot."@
-` But, to go back to the mansion to eat breakfast sounds more dumb.@
-`"---School, then?"@
-` Letting out a sigh, I go downhill along the residential street.\
+` - Не могу в это поверить...@ Я повёл себя как полный идиот.@
+` Но возвращаться в усадьбу, чтобы позавтракать, было бы ещё тупее.@
+` - В таком случае, в школу?..@
+` Вздохнув, я зашагал по улице, вниз по холму.\
 
 ;CD-DA??
 playstop
