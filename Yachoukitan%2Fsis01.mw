@@ -24,24 +24,36 @@ mp3stop
 bgm"m\rondon.mp3"
 #ffffff
 br
-^Descending the long spiral staircase. @
-^Counterclockwise, down, down, down. @
-^The stairs are not angular—they are fatally warped. @
-^Even the shadows of each step are twisted en route. @
-^In the monochrome silence, the pressure on my lungs continues. @
+^Я спускаюсь по длинной винтовой лестнице. @
+^Против часовой стрелки, вниз, вниз, вниз. @
+^Ступеньки не прямоугольные — они жутко искривлены. @
+^Даже моя тень искажается с каждым шагом. @
+^В чёрно-белой тишине мои лёгкие продолжает что-то сдавливать. @
 br
-^~c1 +4~DOWN DOWN DOWN~d =0~@
+^~c1 +4~ВНИЗ, ВНИЗ, ВНИЗ~d =0~@
 br2 10
-^Even the echoing footsteps sound surreal. @
-^If possible, I want to go back up.@ But both my feet continue to be pulled by gravity.@ Left foot. Right foot. Left foot. Right foot.@
+^Даже звуки шагов звучат как-то нереально. @
+^Я бы хотел вернуться наверх, если бы это было возможно.@ Но гравитация продолжает тянуть мои ноги вниз.@ Левая нога. Правая нога. Левая. Правая.@
 br
-^~c1 +4~DOWN DOWN DOWN~d =0~@
+^~c1 +4~ВНИЗ, ВНИЗ, ВНИЗ~d =0~@
 br2 10
-^Because I have to.@———It's my job.\
+^Потому что я должен.@ Это моя работа.\
 h_usewindow "main6"
 textspeed 20
 br
-^~c3~It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job It's my job~d~\
+^~c3~Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя 
+
+работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя 
+
+работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя 
+
+работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя 
+
+работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя 
+
+работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя работа Это моя 
+
+работа Это моя работа Это моя работа Это моя работа~d~\
 flushout 300
 h_usewindow "mainfs"
 textspeed 20
@@ -52,27 +64,27 @@ textspeed 20
 bg"e\tobira-t.jpg",12
 br
 wavestop
-^When I come to my senses, I realize I'm at the end of the helix. @
-^Before me stands a wooden door. @
-^There is an exaggerated padlock on the double handles. @
-^I start to feel unwell.@ Terrified. Anxious. Cold. Full of dread. @
-^There's "something" behind this door. I'm sure of it. @
-^My hands tremble as I grasp the lock tightly. @
-^I have to open it.———It's my job. @
+^Когда я опомнился, я понял, что дошёл до конца спирали. @
+^Передо мной деревянная дверь. @
+^На двойных ручках висит гигантский замок. @
+^Мне становится нехорошо.@ Мне страшно. Тревожно. Холодно. Меня наполняет ужас. @
+^За этой дверью ЧТО-ТО есть. Я в этом уверен. @
+^Дрожащими руками я крепко хватаюсь за замок. @
+^Я должен открыть дверь. Это моя работа. @
 br
 wave"m\kagi.wav"
-^~c1 +4~KA-CHAK~d =0~@
+^~c1 +4~КРРРРР~d =0~@
 wavestop
 br2 10
-^The opening click of the lock echoes.@
+^Раздаётся щелчок открывающегося замка.@
 wave"m\tobira-1.wav"
-^Timidly, I take hold of the handle and pull. @
-^I breathe in the air of a mold-infested basement. @
-^My fear-sharpened sense of smell catches the wretched stench. \
+^Я робко хватаюсь за ручку и тяну. @
+^Я вдыхаю воздух пропахшего плесенью подвала. @
+^Моё обоняние, обострившееся от страха, улавливает ужасную вонь. \
 h_usewindow "center6"
 textspeed 20
-h_centreline ^~c3~Blood———and flesh.~d~
-^~c3~Blood———and flesh.~d~\
+h_centreline ^~c3~Кровь... и плоть.~d~
+^~c3~Кровь... и плоть.~d~\
 h_usewindow "main6"
 textspeed 20
 bg #000000,12
@@ -80,51 +92,51 @@ br
 !w1000
 wave"m\tobira-2.wav"
 !w2000
-^Behind the door is a dimly lit darkness. @
-^In the bizarre silence, the presence of a living thing floods over me. @
-^———There's something here. @
-^But I can't see anything. I can't hear anything. @
+^За дверью тускло освещённая темнота. @
+^В странной тишине я ощущаю присутствие чего-то живого. @
+^...Здесь что-то есть. @
+^Но я ничего не вижу. Ничего не слышу. @
 br
 bgmfadeout 3000
 bgmstop
 bg"e\cg.jpg",11
-^———No. @
+^...Нет. @
 br
-^Unnoticed, there is a flash of crimson eyes. @
-^In front of me sits a pure white child. @
-^Wearing soft white, hair and skin white as well. @
-^Like weathered bone. @
-^No shadow nor color, a flawless white. @
-^Almost as if it isn't human. \
+^Блеск алых глаз, до этого не замеченный мной. @
+^Передо мной сидит белоснежное дитя. @
+^"Её" одежда белоснежна, волосы и кожа тоже белые. @
+^Как высушенная кость. @
+^Ни теней, ни цвета, безупречная белизна. @
+^В "ней" нет почти ничего человеческого. \
 rubyoff
 br
 !w1000
 wave"m\kazeoto.wav"
-^There is a sharp sound of wind. @
-^The gust blows against "its" cheek. Nostalgically, crushingly. @
+^Слышен звук сильного порыва ветра. @
+^Ветер обдувает "её" щёку. Ностальгически, сокрушающе. @
 #8B0000
-^~c3~it's hot it's hot it's hot it's hot it's hot~d~@
+^~c3~жарко жарко жарко жарко жарко~d~@
 #ffffff
-^I see something crushed in "its" palm. @ 
-^It's a single butterfly. @
-^The fluttering transparent white wings are spread apart. @
-^Even while cruelly torn apart, the antennae and legs continue to tremble. @
-^The white butterfly is smeared in deep red blood, almost as if it's part of its own body.@
-^Blood keeps gushing forth from the corpse of the butterfly. @
-^———No.@
-^Dark brown blood flows from a deeply torn wound on its palm. @
+^В "её" руке я вижу что-то сломанное. @ 
+^Это бабочка. @
+^Трепещущие прозрачные белые крылья раскрыты. @
+^Даже жестоко порванные, её усики и ножки продолжают дрожать. @
+^Белая бабочка покрыта красной кровью, она напоминает часть "её" тела..@
+^Из тела бабочки продолжает литься кровь.. @
+^...Нет.@
+^Тёмно-коричневая кровь течёт из глубокой раны на "её" ладони. @
 #8B0000
-^~c3~it hurts it hurts it hurts it hurts it hurts~d~@
+^~c3~больно больно больно больно больно~d~@
 #ffffff
-^There's an explosion of pain with the fear. @
-^All the pores in my body open, unconsciously breathing in to scream. \
+^Боль перерастает в страх. @
+^Все поры моего тела открываются и невольно вдыхают, чтобы закричать. \
 h_locate 0,204
-^———And then it happens. \
+^...А потом происходит это. \
 h_usewindow "center62"
-h_centreline ^The butterfly, buried deeply within thecrowded walls and ceiling,
-^The butterfly, buried deeply within the crowded walls and ceiling,@
-h_centreline ^Takes flight with an explosion of violently fluttering wings.
-^Takes flight with an explosion of violently fluttering wings.\
+h_centreline ^Бабочка, глубоко похороненная в тесных стенах.
+^Бабочка, глубоко похороненная в тесных стенах,@
+h_centreline ^Взлетает, вспыхнув неистово трепещущими крыльями.
+^ВЗлетает, вспыхнув неистово трепещущими крыльями.\
 h_usewindow "red"
 textspeed 20
 erasetextwindow 0
@@ -132,7 +144,11 @@ erasetextwindow 0
 bg #000000,12
 bgm"m\tyo.mp3"
 br
-^~c2 +2~Deep crimson~c0 =0~. #ffffffIn an instant, everything is #8B0000~c2 +2~dyed scarlet~c0 =0~. #ffffffThe breathing. The pain. The screaming. Anything and everything #8B0000~c2 +2~red crimson vermillion scarlet bloody red red red red red red red red ~c0 =0~#fffffftens hundreds thousands #8B0000~c2 +2~red red red red red red red red red red red red red red red red red red~c0 =0~ #ffffffskin eye socket scalp mouth #8B0000~c2 +2~red red red red red red red red red red red red red~c0 =0~ #ffffffcutting tearing gouging peeling #8B0000~c2 +2~red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\
+^~c2 +2~Глубокий алый цвет~c0 =0~. #ffffffВ один миг всё #8B0000~c2 +2~окрашивается алым~c0 =0~. #ffffffДыхание. Боль. Крик. Абсолютно всё #8B0000~c2 +2~красный малиновый алый кровавый красный красный красный красный ~c0 =0~#ffffffдесятки сотни тысячи #8B0000~c2 +2~красный красный красный красный красный красный красный красный красный~c0 =0~ #ffffffкожа глазная впадина кожа головы рот #8B0000~c2 +2~красный красный красный красный красный красный~c0 =0~ 
+
+#ffffffрежет рвёт долбит сдирает кожу #8B0000~c2 +2~красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный  
+
+краааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа\
 flushout 200
 h_usewindow "mainfs"
 textspeed 20
@@ -149,19 +165,19 @@ bgm"m\mati.mp3"
 bg"e\akari1.jpg",12
 #ffffff
 br
-^Like a study. @
-^A bookshelf that covers an entire wall, lined up with an antique book collection. @
-^The unique odor of leather blended with paper. @
-^A curtain-covered window that hides the distinction of day and night. @
-^In the center of the carpet stands one velvet couch. @
-^There is a form of a child in black. @
-^Black suit. White shirt. A fragile frame. Androgynous.@ Wearing slender black glasses. @
-^Stretched out on the couch, reading a book with a posture that suggests sleep. @
-^The sound of a turning page shakes the atmosphere.@
+^Похоже на рабочий кабинет. @
+^Книжная полка, закрывающая целую стену, заставлена коллекцией старинных книг. @
+^Неповторимый запах кожи, смешанный с запахом бумаги. @
+^Окно, закрытое занавесками, стирает различия между ночью и днём. @
+^Посредине ковра стоит бархатная кушетка. @
+^Фигура мальчика в чёрном. @
+^Чёрный костюм. Белая рубашка. Хрупкий. Бесполая внешность.@ На нём чёрные очки в тонкой оправе. @
+^Растянувшись на кушетке, он читает книгу в позе, наводящей на мысль о сне. @
+^Звук переворачивающихся страниц разряжает атмосферу.@
 br
-^"One, come here." @
+^"Эй, ты там, подойди сюда." @
 br
-^As if in answer, a single butterfly appears.@ Looping down in a spiral, the butterfly settles on the child's shoulder and closes its wings. \
+^Как бы в ответ на его слова появляется бабочка.@ Снижаясь по спирали, бабочка садится на плечо мальчика и складывает крылья. \
 br
 ^"What happened to its feed?" @
 br
@@ -263,7 +279,19 @@ br
 ^"No, it's very charming. It's nice to meet you———Mutsuki-san."@
 ^"Please, call me Yoru."\
 br
-^"Then, if it's alright with you, Yoru-san.@ My name is!s10————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"\
+^"Then, if it's alright with you, Yoru-san.@ My name is!s10
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+—————————————————————————————————————————————————————"\
 h_usewindow "main6"
 textspeed 20
 br
@@ -1028,17 +1056,25 @@ bgm"m\seishun.mp3"
 ^Finally, we employ them (the butterflies) to work (as ChouTsukai), butterfly users.@
 ^Those in the Mutsuki house call them the "YaCho," evening butterflies.@
 ^Nobody knows their true forms.@ Perhaps they may be the souls of the dead.@ Or they could be dead souls that dwell in other plants and animals.@
-^However, that does not matter. @They hardly have anything to do with us.@ Whatever their true forms may be, the "ChouTsukai," the "YaCho," work for us, and that is more than enough. @
+^However, that does not matter. @They hardly have anything to do with us.@ Whatever their true forms may be, the "ChouTsukai," the "YaCho," work for us, and that is 
+
+more than enough. @
 ^————Are you worried about the burglar?\
 br
-^What he said, (ChouTsuki), a butterfly spirit, the obsessed child, is called the Chouji. Long ago, the ChouTsuki and the Mutsuki were bound in contract.@ In that agreement, it must be reported to our founder when a new child is born. @
+^What he said, (ChouTsuki), a butterfly spirit, the obsessed child, is called the Chouji. Long ago, the ChouTsuki and the Mutsuki were bound in contract.@ In that 
+
+agreement, it must be reported to our founder when a new child is born. @
 ^Thereafter, the Mutsuki has borne one child in about ten years that is a ChouTsuki.@ Most died from abnormalities soon after birth. @
-^In Western religion, in order to save mankind, God made a pact with them. The Old and New Testament. Moses and Christ.@ At that point, (the living god) ChouTsuki did nothing. @
+^In Western religion, in order to save mankind, God made a pact with them. The Old and New Testament. Moses and Christ.@ At that point, (the living god) ChouTsuki did 
+
+nothing. @
 ^————Like when you met Chou. @
 ^Also, ChouTsuki had a thirst for blood. So in order to pacify it, a sacrifice was given. @
 ^————Like you.\
 br
-^Perhaps now, you can recall something from your affected memory.@ This is the result of the drug administration. Your recollection is temporarily impeded.@ But it will all be better in several days. @
+^Perhaps now, you can recall something from your affected memory.@ This is the result of the drug administration. Your recollection is temporarily impeded.@ But it 
+
+will all be better in several days. @
 ^Incidentally, this is not my doing. @I do not know who, but it is by means of the Mutsuki. @
 ^I am merely the caretaker of Chou. \
 bg #000000,12
@@ -1284,7 +1320,9 @@ br
 ^But, strangely, I'm not terrified.@
 ^In eight or nine out of ten cases, they kill when you run.@
 ^Last night, when the intruder was killed right before my eyes, I'd made no reckless movements.@
-^Since the beginning, the worry of death or of being killed had already broken my sense of reality.@ Or perhaps the idea that I will not regain my memory has had an effect on me.@
+^Since the beginning, the worry of death or of being killed had already broken my sense of reality.@ Or perhaps the idea that I will not regain my memory has had an 
+
+effect on me.@
 br
 ^"————Maybe I'm just stupid."@
 br
@@ -1600,10 +1638,14 @@ br
 ^"...Why are the ChouTsuki in the basement?"@
 ^"You mean why they are caged?"@
 ^"...Yes."@
-^"An insect cage isn't only for keeping things in.@ It is to keep alive something that is fragile and dies easily.@ The ChouTsuki, so to speak, are creatures of the night.@ The reason Chou's eyesight is weak is because her eyes were burnt from the light when she was born."@
+^"An insect cage isn't only for keeping things in.@ It is to keep alive something that is fragile and dies easily.@ The ChouTsuki, so to speak, are creatures of the 
+
+night.@ The reason Chou's eyesight is weak is because her eyes were burnt from the light when she was born."@
 ^"...But—"\
 br
-^Albinos are weak against ultraviolet rays because of their insufficient melanin pigmentation.@ And unlike caucasians, who are similar in appearance, they are many times more likely to develop skin cancer.@
+^Albinos are weak against ultraviolet rays because of their insufficient melanin pigmentation.@ And unlike caucasians, who are similar in appearance, they are many 
+
+times more likely to develop skin cancer.@
 ^But confining someone in the basement is odd nonetheless.@
 ^————Maybe there is a reason I do not know.@
 ^I don't feel like the blame should go to him.@
@@ -2007,7 +2049,17 @@ textspeed 20
 bg"e\class1.jpg",11
 bgm"m\class.mp3"
 h_locate 0,55
-^#ffffffIt feels as if both my hands and tongue are tied. #000000Although we are of the same species, the physical differences are evident. These differences are variations, so to speak. Whether these variations are inherent or not, they are classified as follows. #ffffffI am a needy youth, living alone in a narrow alley. #000000She is a pure white albino who either lacks sufficient melanin pigmentation, has a type of sickle cell disease, or has a kind of genetic mutation. #ffffffSeeing her for the first time brings about a suffocating sensation, then nostalgia. #000000Chromosomes come in the configurations of X's and Y's; XX for female, and XY for male. #ffffffAnd added to everything else, she appears to not have a single friend nor is there a familiar face there to greet her. #000000Further distinction comes from the combination of the mother's XX and the father's XY. #ffffffThat night I stood at the window with intense sadness. #000000Then, the next puzzle is Sera. \
+^#ffffffIt feels as if both my hands and tongue are tied. #000000Although we are of the same species, the physical differences are evident. These differences are 
+
+variations, so to speak. Whether these variations are inherent or not, they are classified as follows. #ffffffI am a needy youth, living alone in a narrow alley. 
+
+#000000She is a pure white albino who either lacks sufficient melanin pigmentation, has a type of sickle cell disease, or has a kind of genetic mutation. #ffffffSeeing 
+
+her for the first time brings about a suffocating sensation, then nostalgia. #000000Chromosomes come in the configurations of X's and Y's; XX for female, and XY for 
+
+male. #ffffffAnd added to everything else, she appears to not have a single friend nor is there a familiar face there to greet her. #000000Further distinction comes 
+
+from the combination of the mother's XX and the father's XY. #ffffffThat night I stood at the window with intense sadness. #000000Then, the next puzzle is Sera. \
 h_usewindow "mainfs"
 textspeed 20
 bg"e\class3.jpg",12
