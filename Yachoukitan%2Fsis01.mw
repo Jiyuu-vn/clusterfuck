@@ -144,11 +144,19 @@ erasetextwindow 0
 bg #000000,12
 bgm"m\tyo.mp3"
 br
-^~c2 +2~Глубокий алый цвет~c0 =0~. #ffffffВ один миг всё #8B0000~c2 +2~окрашивается алым~c0 =0~. #ffffffДыхание. Боль. Крик. Абсолютно всё #8B0000~c2 +2~красный малиновый алый кровавый красный красный красный красный ~c0 =0~#ffffffдесятки сотни тысячи #8B0000~c2 +2~красный красный красный красный красный красный красный красный красный~c0 =0~ #ffffffкожа глазная впадина кожа головы рот #8B0000~c2 +2~красный красный красный красный красный красный~c0 =0~ 
+^~c2 +2~Глубокий алый цвет~c0 =0~. #ffffffВ один миг всё #8B0000~c2 +2~окрашивается алым~c0 =0~. #ffffffДыхание. Боль. Крик. Абсолютно всё #8B0000~c2 +2~красный 
 
-#ffffffрежет рвёт долбит сдирает кожу #8B0000~c2 +2~красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный  
+малиновый алый кровавый красный красный красный красный ~c0 =0~#ffffffдесятки сотни тысячи #8B0000~c2 +2~красный красный красный красный красный красный красный 
 
-краааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа\
+красный красный~c0 =0~ #ffffffкожа глазная впадина кожа головы рот #8B0000~c2 +2~красный красный красный красный красный красный~c0 =0~ #ffffffрежет рвёт долбит 
+
+сдирает кожу #8B0000~c2 +2~красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный красный 
+
+красный красный красный красный красный красный красный красный красный красный  
+
+крааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа
+
+ааааааааааааааааааааааааааааааааааааааааааааааа\
 flushout 200
 h_usewindow "mainfs"
 textspeed 20
@@ -175,24 +183,24 @@ br
 ^Растянувшись на кушетке, он читает книгу в позе, наводящей на мысль о сне. @
 ^Звук переворачивающихся страниц разряжает атмосферу.@
 br
-^"Эй, ты там, подойди сюда." @
+^ -- Эй, ты там, подойди сюда. @
 br
 ^Как бы в ответ на его слова появляется бабочка.@ Снижаясь по спирали, бабочка садится на плечо мальчика и складывает крылья. \
 br
-^"What happened to its feed?" @
+^ -- Что случилось с её едой? @
 br
-^A bored voice rings out. @
-^Almost as if in conversation, the jet-black insect hovers close to the child's ear, flapping its wings as though whispering. @
+^Его голос звучит скучно. @
+^Как будто разговаривая, чёрное как смоль насекомое близко наклоняется к уху мальчика, хлопанье крыльев похоже на шёпот. @
 br
-^"I see. Got it." @
+^ -- Ясно. Я понял. @
 br
-^Listening to the butterfly, the child nods without a change of expression. @
-^With a crack, the book is snapped shut. @
+^Слушая бабочку, мальчик кивает, не меняя выражения лица. @
+^Он с треском захлопывает книгу. @
 br
-^———How tedious.@
+^...Как скучно.@
 br
-^Impressions are expressed through one simple statement, but there is no reply. @
-^The books lined up against the wall reek of death. \
+^Все мои впечатления выражены в одном предложении, но никто мне не отвечает. @
+^Книги на полке пахнут смертью. \
 h_usewindow "mainfs"
 textspeed 20
 bgmfadeout 2000
@@ -213,49 +221,49 @@ wave"m\tobira-2.wav"
 h_usewindow "main6"
 textspeed 20
 br
-^The door opens with the creak of aged iron. @
+^Дверь открывается со скрипом старого железа. @
 br
-^The achromatic world holds its breath, asleep. @
-^Only the occasional flapping of a bird's wings slips through the leaves.@
-^Before me is nothing but the shadows of the trees. @
-^There is one path that continues deep into the forest. @
-^With trees thick all around, there is no sign of human existence. @
-^As though guided, I continue on. @
-^The sound of footfalls upon dew-moist undergrowth hangs and dissolves into the darkness. @
+^Заснув, бесцветный мир задерживает дыхание. @
+^Только иногда через листву просачивается хлопанье птичьих крыльев.@
+^Позади меня - ничего, кроме теней деревьев. @
+^Есть только одна тропа, ведущая всё дальше в глубь леса. @
+^В чаще леса нет никаких следов человека. @
+^Я продолжаю идти, как будто меня кто-то ведёт. @
+^Звук моих шагов по мокрому от росы подлеску раздаётся и растворяется в темноте. @
 bg"e\yoru-k.jpg",12
-^The night sky is concealed by the mysterious foliage. @
-^A crack between the groups of leaves reveals the color of ash. @
-^The stars and moon are confined in the clouds, and the outlines of the trees are blurred. @
-^The small path that seems to stretch on and on is interrupted at length. \
+^Ночное небо скрыто загадочной листвой. @
+^В просвете между листьями виден цвет пепла. @
+^Звёзды и луна скрыты в облаках, и очертания деревьев расплываются. @
+^Тропинка, кажется, кончится ещё не скоро, но вдруг она прерывается посреди пути. \
 erasetextwindow 1
 bg"e\yoru-y.jpg",12
 br
-^There is an old Western-style house. @
-^It towers above me in my suddenly expanded field of vision. @
-^An enormous shadow that throbs in the darkness. @
-^Countless rows of windows are lined up in the visible wall. @
-^As if uninhabited, not a single light is lit. @
-^Without change, the scene is neutral in color. @
+^Старый дом в европейском стиле. @
+^Он возвышается надо мной в моём неожиданно расширившемся поле зрения. @
+^Гигантская тень трепещет в темноте. @
+^На стене передо мной - бесчисленные ряды окон. @
+^В доме не горит свет, кажется, что в нём никто не живёт. @
+^Всё вокруг всё так же окрашено в нейтральные цвета. @
 erasetextwindow 0
 bg"e\tobira.jpg",12
 wave"m\bell.wav"
-^I ring the bell adjacent to the door at the entryway. @
+^Я звоню в колокольчик рядом с входной дверью. @
 erasetextwindow 1
-^Twice, thrice, but there is no sign of life. @
-^I grasp the handle. @
+^Дважды, трижды. Никаких признаков жизни. @
+^Я берусь за ручку. @
 wave"m\kagi.wav"
-^~c1 +4~Click.~d =0~ With a sound, the door opens. @
+^~c1 +4~Щёлк.~d =0~ С этим звуком дверь открывается. @
 br
-^Lightly so.\
+^Очень легко открывается.\
 br
-^From the crack in the open door, a lone butterfly flies out. @
-^Large and black, its wings melt into the darkness. \
+^Из открытой двери вылетает одинокая бабочка. @
+^Её большие чёрные крылья тают в темноте. \
 bg #000000,12
 bgmfadeout 1000
 bgmstop
 h_usewindow "center6"
 textspeed 20
-h_centreline ^"Welcome."
+h_centreline ^ - Добро пожаловать.
 ^"Welcome."\
 h_usewindow "main6"
 textspeed 20
@@ -263,23 +271,23 @@ erasetextwindow 1
 bg"e\tatie0.jpg",12
 bgm"m\rondon.mp3"
 br
-^Looking around, I see a child in black standing there. @
-^Gender-neutral with arranged features, the child is abnormally pale. @
-^Dressed in a tailored suit and wearing black-rimmed spectacles. @
-^Around the collar of the shirt is a necktie of the same color. @
-^The whiteness of the child's slender neck floats in the darkness. @
+^Оглядевшись, я вижу стоящего рядом мальчика в чёрном. @
+^У него бесполая внешность с характерными особенностями, мальчик необычно бледен. @
+^На нём строгий костюм и очки в чёрной оправе. @
+^На шее галстук, тоже чёрный. @
+^Белизна тонкой шеи мальчика виднеется в темноте. @
 br
-^"I apologize. There was no reply, and I just opened the door."@
-^"I do not mind. Certainly, there is nobody inside."@
+^ - Извините. Мне никто не ответил, и я просто открыл дверь.@
+^ - Ничего страшного. Конечно, в доме никого нет.@
 br
-^An emotionless voice. @
-^From behind those glasses, the child glances at me in greeting. @
+^Голос без эмоций. @
+^Приветствуя меня, мальчик смотрит на меня через очки. @
 br
-^"It's nice to meet you. My name is Mutsuki Yoru. A moonless night. Whimsical, is it not?"@
-^"No, it's very charming. It's nice to meet you———Mutsuki-san."@
-^"Please, call me Yoru."\
+^ - Приятно познакомиться. Меня зовут Муцуки Ёру. Безлунная ночь. Странно, правда?@
+^ - Нет, это очаровательное имя. Приятно познакомиться... Муцуки-сан.@
+^ - Прошу вас, называйте меня Ёру.\
 br
-^"Then, if it's alright with you, Yoru-san.@ My name is!s10
+^ - Тогда, если вы не против, Ёру-сан.@ Меня зовут!s10
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
@@ -291,33 +299,33 @@ br
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-—————————————————————————————————————————————————————"\
+—————————————————————————————————————————————————————\
 h_usewindow "main6"
 textspeed 20
 br
 !s35
-^"Sera Kaoru-san, right?"@
-^"...Hah, yes. That's right."@
+^ - Сэра Каору-сан, так ведь?@
+^ - Ах, да. Верно.@
 br
-^I answer in a quiet voice, taken aback. @
-^If I have to say it, it surely is my name. @
-^But, right then. @
-^For just a moment, my mind is overcome with chaos. @
-^Why? @
-^———What? @
-^———What caused it? @
-^I look up, and before my eyes is Yoru's smiling face. @
-^For some reason, it looks unnatural. @
+^Отвечаю я тихим голосом, захваченный врасплох. @
+^Конечно, это моё имя. @
+^Но тогда... @
+^Лишь на одно мгновение мой разум заполнился хаосом. @
+^Почему? @
+^...Из-за чего? @
+^Из-за чего это произошло? @
+^Я поднимаю взгляд и вижу улыбающееся лицо Ёру. @
+^Почему-то оно выглядит ненатурально. @
 br
-^"Well then, let's go."@
-^"...To where?"\
+^ - Ну, тогда пойдём.@
+^ - Куда?\
 bg #000000,12
 bgmfadeout 2000
 bgmstop
 h_usewindow "center6"
 textspeed 20
-h_centreline ^"To where you work."
-^"To where you work."\
+h_centreline ^ - Туда, где вы работаете.
+^ - Туда, где вы работаете.\
 #ffffff
 
 bg"e\monooki.jpg",12
@@ -325,119 +333,119 @@ bgm"m\sekaijyu.mp3"
 h_usewindow "main6"
 textspeed 20
 br
-^The place I am led to is a small shed on the outskirts of the western house. @
-^The brick building is under construction, halfway below ground. @
-^Past the doors is a narrow set of stairs that goes down. @
-^There is a smell of old dust. @
-^A naked lightbulb hangs from a beam on the bare ceiling. @
-^Yoru switches it on with an accustomed hand. @
-^A great amount of rubbish is revealed to my obscured vision. @
-^A broken chair. A desk. Gardening manure. A jug of kerosene. @
-^On one side, a bundle of firewood occupies a wall. @
-^It appears to be an ordinary storage shed. @
+^Место, в которое он меня приводит - маленький сарай на заднем дворе дома. @
+^Кирпичное здание недостроено, оно наполовину под землёй. @
+^За дверями - узкая лестница, ведущая вниз. @
+^Пахнет старой пылью. @
+^С потолочной балки свисает оголённая лампочка. @
+^Привычным движением Ёру включает её. @
+^Моему смутному зрению открывается куча мусора. @
+^Сломанный стул. Письменный стол. Садовые удобрения. Банка с керосином. @
+^С одной стороны к стене привалилась куча дров. @
+^Похоже, это обычная кладовка. @
 br
-^"There is a door on the inner wall."@
+^ - На внутренней стене есть дверь.@
 br
-^The voice cuts through as if it's reading my mind. @
-^As instructed, I step into the darkness. \
+^Он как будто читает мои мысли. @
+^По его указанию я ступаю в темноту. \
 bg"e\tobira-n.jpg",11
 br
-^Giving off a strange aura, there stands a metal door. @
-^Bound above the padlock are iron chains. @
+^Там металлическая дверь, окружённая странной атмосферой. @
+^Замок придерживают железные цепи. @
 wave"m\tobira-2.wav"
-^Yoru skillfully removes the chain and opens the door. @
+^Ёру умело снимает цепь и открывает дверь. @
 br
-^"I'm handing it over to you. This is the key to the basement below.@ That is where you will work."@
+^ - Я отдаю его вам. Это ключ от подвала там, внизу.@ Там вы будете работать.@
 br
-^It's an old brass key.@
-^Yoru holds the door open as if to urge me on.@
-^My feet move, but I feel a sense of dread. @
+^Это старый латунный ключ.@
+^Ёру держит дверь открытой, как будто подгоняя меня.@
+^Мои ноги двигаются, но я испытываю ужас. @
 erasetextwindow 0
 bg"e\rasen.jpg",11
 br
-^Through the door is a white spiral.@
-^The angular stairs are bent at a curious angle.@
-^The black fibred railings drop faint, geometric shadows.@
-^Anything and everything is distorted. \
+^За дверью белая спираль.@
+^Ступеньки лестницы изогнуты под необычным углом.@
+^Чёрные перила отбрасывают тусклые геометрические тени.@
+^Искажено абсолютно всё. \
 br
-^"Then, I'll leave it to you."@
+^ - Ну, оставляю это на вас. @
 br
 wave"m\tobira-1.wav"
-^I can hear the grating of the door closing behind me.@
-^The word "isolation" flickers through my mind. @
+^Я слышу скрежет закрывающейся за мной двери.@
+^В моём мозгу мелькает слово "изоляция". @
 br
-^"...Wait."@
-^"What?"@
+^ - Подождите. @
+^ - Что такое?@
 br
-^At my strained voice, the grating sound stops.@
-^Obsidian eyes peer at me from behind a slit in the door.@
-^My figure is reflected in those emotionless pupils. @
+^Когда звучит мой напряжённый голос, скрежет прекращается.@
+^Обсидиановые глаза смотрят на меня из щёлки.@
+^В его зрачках, не выражающих никаких эмоций, отражается моя фигура. @
 br
-^"What is my job?"@
-^"There is a child at the end of these stairs.@ Please distract her from her boredom."\
+^ - В чём заключается моя работа?@
+^ - Там внизу ребёнок.@ Ей скучно, развлеките её чем-нибудь.\
 br
-^"...Child?"@
-^"...Now then, farewell."@
+^ - Ребёнок?..@
+^ - Ну, прощайте.@
 br
 wave"m\tobira-2.wav"
-^The door closes, ending all conversation. @
+^Дверь закрывается, положив конец разговору. @
 wave"m\kagi.wav"
-^Next is the sound of a padlock's click.@
-^Only silence remains. There is nothing else. @
+^Затем щёлкает замок.@
+^Остаётся только тишина. И больше ничего. @
 br
-^White walls. White ceiling. White stairs.@
-^Light and shadow. Curves and lines. Vertical and horizontal. @
+^Белые стены. Белый потолок. Белые ступеньки.@
+^Свет и тень. Кривые и прямые линии. Вертикальные и горизонтальные. @
 br
-^I do not feel danger as I am guided down the illuminated steps.@
-^As instructed, I begin my descent down the helix.@
-^In the tight space, the echoes of my steps disappear into nothing. \
+^Я не чувствую опасности в спуске по освещённой лестнице.@
+^Следуя указаниям, я начинаю спускаться по спирали.@
+^В замкнутом пространстве эхо моих шагов превращается в ничто. \
 br
 wave"m\asioto1.wav"
 !w5000
-^I step down from the infinite stairs.@
+^Я спускаюсь с бесконечной лестницы.@
 br
 bg"e\rasen2.jpg",12
-^Reaching solid ground, I look up towards the way I came.@
-^The pure white spiral stretches on, drawn out in a warped line.@
-^Distance and time are convoluted. @
+^Ступив на твёрдую землю, я смотрю вверх, туда, откуда я пришёл.@
+^Белоснежная спираль тянется вверх искривлённой линией.@
+^Расстояние и время закручиваются спиралью. @
 br
 bg"e\tobira-t.jpg",11
-^In front of me is a black wooden door.@
-^The exaggerated lock suggests either a prison or a safe.@
-^I insert the key and turn it. @
+^Передо мной чёрная деревянная дверь.@
+^Огромный замок наводит на мысли о тюрьме или о сейфе.@
+^Я вставляю ключ и поворачиваю его. @
 wave"m\kagi.wav"
-^~c1 +4~Click.~d =0~ I retrieve the key. \
+^~c1 +4~Щёлк.~d =0~ Я вынимаю ключ. \
 br
 wave"m\knock.wav"
 !w1000
-^I knock at the door, but there is no reply. @
+^Я стучу в дверь, но никто мне не отвечает. @
 wave"m\knock.wav"
 !w1000
-^A second knock. Again, there is no reply.@
-^After a moment's hesitation, I grip the handle and pull. @
+^Стучу ещё раз. И снова мне никто не отвечает.@
+^После секундного колебания я берусь за ручку и тяну. @
 wave"m\tobira-1.wav"
 br
 bgmfadeout 3000
 bgmstop
 bg #8B0000,12
-^There are deep crimson eyes. @
+^Глубокие алые глаза. @
 br
-^The deep red eyes peek out from the crevice.@
-^Like a ripened pomegranate, a transparent ruby red.@
-^Red, crimson, scarlet, vermillion pupils.@
-^Still grasping the handle, I am petrified in surprise.@
-^One white finger pokes from between the gap and grasps at the door. @
+^Тёмно-красные глаза смотрят на меня из щели.@
+^Прозрачные рубиново-красные, как спелый гранат.@
+^Красные, малиновые, алые, кровавые зрачки.@
+^Остолбенев от удивления, я всё ещё держусь за ручку двери.@
+^Из щели высовывается белый палец и дотрагивается до двери. @
 wave"m\tobira-2.wav"
-^With the slow creaking of the hinges, the door opens before me. \
+^Заскрипев петлями, дверь медленно открывается передо мной. \
 br
 erasetextwindow 1
 bg"e\cg1.jpg",11
 bgm"m\hitotuno.mp3"
-^There is a pure white child.@
-^It is impossible to tell whether it is a boy or a girl; there lacks distinction.@
-^With hair of a snow maiden. With unrealistically pale limbs.@
+^Белоснежное дитя.@
+^Невозможно понять, мальчик это или девочка; никаких отличительных признаков.@
+^Волосы снежной девы. Неправдоподобно бледные конечности.@
 br
-^———An albino.@
+^...Альбинос.@
 br
 ^Perhaps its whole being is of inactive tyrosinase.@
 ^Translucent to the point of exposing blood, not one shadow is cast.@
