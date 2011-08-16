@@ -277,17 +277,17 @@ br
 ^На шее галстук, тоже чёрный. @
 ^Белизна тонкой шеи мальчика виднеется в темноте. @
 br
-^ - Извините. Мне никто не ответил, и я просто открыл дверь.@
-^ - Ничего страшного. Конечно, в доме никого нет.@
+^ -- Извините. Мне никто не ответил, и я просто открыл дверь.@
+^ -- Ничего страшного. Конечно, в доме никого нет.@
 br
 ^Голос без эмоций. @
 ^Приветствуя меня, мальчик смотрит на меня через очки. @
 br
-^ - Приятно познакомиться. Меня зовут Муцуки Ёру. Безлунная ночь. Странно, правда?@
-^ - Нет, это очаровательное имя. Приятно познакомиться... Муцуки-сан.@
-^ - Прошу вас, называйте меня Ёру.\
+^ -- Приятно познакомиться. Меня зовут Муцуки Ёру. Безлунная ночь. Странно, правда?@
+^ -- Нет, это очаровательное имя. Приятно познакомиться... Муцуки-сан.@
+^ -- Прошу вас, называйте меня Ёру.\
 br
-^ - Тогда, если вы не против, Ёру-сан.@ Меня зовут!s10
+^ -- Тогда, если вы не против, Ёру-сан.@ Меня зовут!s10
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
@@ -304,8 +304,8 @@ h_usewindow "main6"
 textspeed 20
 br
 !s35
-^ - Сэра Каору-сан, так ведь?@
-^ - Ах, да. Верно.@
+^ -- Сэра Каору-сан, так ведь?@
+^ -- Ах, да. Верно.@
 br
 ^Отвечаю я тихим голосом, захваченный врасплох. @
 ^Конечно, это моё имя. @
@@ -317,8 +317,8 @@ br
 ^Я поднимаю взгляд и вижу улыбающееся лицо Ёру. @
 ^Почему-то оно выглядит ненатурально. @
 br
-^ - Ну, тогда пойдём.@
-^ - Куда?\
+^ -- Ну, тогда пойдём.@
+^ -- Куда?\
 bg #000000,12
 bgmfadeout 2000
 bgmstop
@@ -344,7 +344,7 @@ br
 ^С одной стороны к стене привалилась куча дров. @
 ^Похоже, это обычная кладовка. @
 br
-^ - Во внутренней стене есть дверь.@
+^ -- Во внутренней стене есть дверь.@
 br
 ^Он как будто читает мои мысли. @
 ^По его указанию я ступаю в темноту. \
@@ -355,7 +355,7 @@ br
 wave"m\tobira-2.wav"
 ^Ёру умело снимает цепь и открывает дверь. @
 br
-^ - Я отдаю его вам. Это ключ от подвала там, внизу.@ Там вы будете работать.@
+^ -- Я отдаю его вам. Это ключ от подвала там, внизу.@ Там вы будете работать.@
 br
 ^Это старый латунный ключ.@
 ^Ёру держит дверь открытой, как будто подгоняя меня.@
@@ -368,24 +368,24 @@ br
 ^Чёрные перила отбрасывают тусклые геометрические тени.@
 ^Искажено абсолютно всё. \
 br
-^ - Ну, оставляю это на вас. @
+^ -- Ну, оставляю это на вас. @
 br
 wave"m\tobira-1.wav"
 ^Я слышу скрежет закрывающейся за мной двери.@
 ^В моём мозгу мелькает слово "изоляция". @
 br
-^ - Подождите. @
-^ - Что такое?@
+^ -- Подождите. @
+^ -- Что такое?@
 br
 ^Когда звучит мой напряжённый голос, скрежет прекращается.@
 ^Обсидиановые глаза смотрят на меня из щёлки.@
 ^В его зрачках, не выражающих никаких эмоций, отражается моя фигура. @
 br
-^ - В чём заключается моя работа?@
-^ - Там внизу ребёнок.@ Ей скучно, развлеките её чем-нибудь.\
+^ -- В чём заключается моя работа?@
+^ -- Там внизу ребёнок.@ Ей скучно, развлеките её чем-нибудь.\
 br
-^ - Ребёнок?..@
-^ - Ну, прощайте.@
+^ -- Ребёнок?..@
+^ -- Ну, прощайте.@
 br
 wave"m\tobira-2.wav"
 ^Дверь закрывается, положив конец разговору. @
@@ -447,124 +447,124 @@ bgm"m\hitotuno.mp3"
 br
 ^...Альбинос.@
 br
-^Perhaps its whole being is of inactive tyrosinase.@
-^Translucent to the point of exposing blood, not one shadow is cast.@
-^Wearing subdued white clothing, as if perfectly molded and arranged. @
+^Возможно, своим существованием она обязана тирозиназе.@
+^Она до того прозрачная, что кровь просвечивает, на ней нет ни одной тени.@
+^На ней одежда приглушённого белого цвета, как будто отлитая из металла. @
 br
-^———Carmine eyes. @
+^...Багровые глаза. @
 br
-^The black irises are transparent, showing through the color of blood.@
-^But the radius that surrounds the iris is white.@
-^———It is breathtakingly beautiful. \
+^Чёрные радужки глаз прозрачны, сквозь них просвечивает цвет крови.@
+^Но радужки окружает белизна.@
+^...Дух захватывает от её красоты. \
 br
-^I can't move; my attention is stolen.@
-^So entranced by this maiden that I've forgetten to breathe.@
-^There is no one else in this square room.@
-^Within this ash-black darkness, only she is white. @
+^Я не могу пошевелиться; моё внимание полностью захвачено ею.@
+^Я так очарован девой, что забываю дышать.@
+^В этой квадратной комнате больше никого нет.@
+^В этой пепельно-чёрной темноте белеет только она. @
 br
-^"..."@
+^ -- ...@
 br
-^She watches me silently with her ruby eyes.@
-^I realize that she is extremely fascinated. @
+^Она молча смотрит на меня багровыми глазами.@
+^Я понимаю, что она совершенно очарована. @
 br
-^"..."@
+^ -- ...@
 br
-^I clear my throat and avert my eyes.@
-^But she continues to watch me without moving.@
-^Giving no response, like a wax figure.@
-^I become unsure if she is really breathing. \
+^Я прокашливаюсь и отвожу взгляд.@
+^Но она продолжает, не двигаясь, смотреть на меня.@
+^Не реагируя на меня, словно восковая фигура.@
+^Я начинаю сомневаться, дышит ли она. \
 br
-^Without thinking, I brush gently at her hair.@
-^Her hair is soft, like a kitten's. And warm. @
+^Не раздумывая, я осторожно провожу рукой по её волосам.@
+^Они мягкие, как шерсть у котёнка. И тёплые. @
 br
-^"..."@
+^ -- ...@
 br
-^Silence.@
+^Молчание.@
 br
-^"..."@
+^ -- ...@
 br
-^And more silence. @
+^Молчание продолжается. @
 br
-^"...Good evening."@
+^ -- Добрый вечер.@
 br
-^I try greeting her. But again, silence.@
-^I unconsciously reach into my pocket as if to search for something.@
-^My fingertips touch a hard round object. \
+^Я пытаюсь поприветствовать её. Но она продолжает молчать.@
+^Я неосознанно лезу в карман, как будто разыскивая что-то.@
+^Мои пальцы натыкаются на что-то твёрдое и круглое. \
 br
-^Pulling it out, I see that it is candy.@
-^Wrapped in transparent cellophane, it has a fair lemony luster.@
-^I raise my face, and find the girl staring intently at my hand.@
-^———She seems interested. @
+^Я вытаскиваю предмет из кармана и вижу, что это конфета.@
+^Она завёрнута в прозрачный целлофан и блестит светло-лимонным цветом.@
+^Я поднимаю голову и вижу, что девочка пристально смотрит на мою руку.@
+^...Похоже, ей интересно. @
 br
-^"...Would you like to try it?"@
+^ -- Хочешь попробовать?@
 br
-^Perplexed, I present it to the girl before me.@
-^After a moment's observation, she tries to bite into it.@
-^———Along with my finger.@
-^Recoiling, I pull my hand and the candy away.@
-^———She surprised me.@
-^My heart is beating rapidly beneath my rib cage.@
-^I somehow calm my pulse and slow my breath.@
-^I peel the cellophane off the candy. \
+^Удивлённый, я протягиваю девочке конфету.@
+^После минутного наблюдения она пытается укусить её.@
+^Вместе с моим пальцем.@
+^Я отскакиваю и убираю руку с конфетой.@
+^...Она меня удивила.@
+^Моё сердце быстро бьётся под моей грудной клеткой.@
+^Как-то я всё же успокаиваю свой пульс и замедляю дыхание.@
+^Я снимаю целлофан с конфеты. \
 br
-^This time, I take her hand and place the candy in it. @
+^На этот раз я беру её за руку и кладу ей в руку конфету. @
 br
-^"Here you go."@
+^ -- Держи.@
 br
-^But she becomes fixated on her palm, unmoving.@
-^She looks at it, bewildered at what it could be.@
-^———I remember.@
-^There are many cases in which albinos have imperfect vision if they lack pupil pigmentation. @
+^Но она сосредотачивается на своей ладони, не двигаясь.@
+^Она смотрит на свою руку с конфетой, сбитая с толку, не зная, что бы это могло быть.@
+^...Вспомнил.@
+^Часто у альбиносов плохое зрение, если у них нарушена пигментация зрачков. @
 br
-^"Is it because you can't see very well?"@
+^ -- Это из-за того, что ты не очень хорошо видишь?@
 br
-^Once asked, she nods her head. It is the behavior of a young child. @
+^В ответ на мой вопрос она кивает. Она ведёт себя, как маленький ребёнок. @
 br
-^"I'm sorry. What I just handed to you is candy. If you would like to eat it... um, it will make me happy."\
+^ -- Прости. Я тебе дал конфету. Если захочешь съесть её... нуу, я буду рад.\
 br
-^After observing it again, she puts it in her mouth.@
-^As the orb hits her teeth, the clear sound rings forth.@
+^Снова осмотрев конфету, она кладёт её в рот.@
+^Хорошо слышно, как конфета ударяется о её зубы.@
 br
-^"...Is it good?"@
+^ -- Вкусно?@
 br
-^She nods in silence.@
-^Relieved, I realize—@
-^I haven't heard her say a single word. @
+^Она молча кивает.@
+^Успокоившись, я понимаю...@
+^Я не услышал от неё ни одного слова. @
 br
-^"...You can't talk?"@
+^ -- Ты не можешь говорить?@
 br
-^She nods in affirmation. @
+^Она утвердительно кивает. @
 br
-^"Excuse me. I've been asking questions nonstop."@
-^"...?"\
+^ -- Извини. Я всё время задавал вопросы.@
+^ -- ?..\
 br
-^As if finding the apology strange, she tilts her head.@
-^It is something a canary would do.@
-^She continues to look straight at me. @
+^Она наклоняет голову, как будто мои извинения кажутся ей странными.@
+^Как канарейка.@
+^Она продолжает смотреть прямо на меня. @
 br
-^"..."@
-^"..."@
+^ -- ...@
+^ -- ...@
 br
-^Once again in silence, I search my pockets again.@
-^Unfortunately, I don't have another piece of candy.@
+^В снова наступившей тишине я ещё раз обыскиваю свои карманы.@
+^Увы, у меня нет другой конфеты.@
 br
-^"...Oh no."@
+^ -- О нет.@
 br
-^What had been said to me before—"Please distract her"—must have meant that I am to be her playmate.@
-^And my workplace must be this room. \
+^То, что было мне сказано, - "Развлеките её чем-нибудь", — должно означать, что мне нужно поиграть с ней.@
+^А эта комната, должно быть, - моё рабочее место. \
 br
-^But since my entrance, only darkness has prevailed in this gloomy room.@
-^All four walls, including the floor, are made of iron-reinforced concrete.@
-^This is too inappropriately dreary to be a child's playroom. @
+^Но с того момента, как я вошёл, этой мрачной комнатой владеет только тьма.@
+^Все четыре стены и пол - из бетона, укреплённого железом.@
+^Слишком безотрадно для детской. @
 br
-^"...For the moment, where is the light switch?"@ I mutter to myself.@
+^ - Где же тут выключатель?@  - шепчу я про себя.@
 br
-^The girl stands up abruptly. @
+^Неожиданно девочка встаёт. @
 erasetextwindow 0
-^It is a light gesture, mysteriously as if there is no gravity.@
-^She takes hold of my arm and begins pulling me into the inner darkness. @
+^Такое лёгкое движение, как будто на неё не действует гравитация.@
+^Она берёт меня за руку и тянет в темноту внутри комнаты. @
 br
-^"...?"@
+^ - ?..@
 br
 ^I am perplexed by her unknown intentions. @
 br
