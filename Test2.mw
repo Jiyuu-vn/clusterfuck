@@ -1,3160 +1,1612 @@
 <poem>
-<00000130:00000148>
-_game_menu_screen = None
-
-<000001EC:0000035D>
-g = Character(None, 
-        window_background=Image("GUI/gtextbox.png", xalign=0.0, yalign=1.0), window_left_padding=40, window_right_padding=385, window_bottom_padding=60,
-        what_font="fonts/NeogreyRegular.otf", what_size = 15, what_color="#77cc77", what_drop_shadow = (1,1), what_drop_shadow_color = "#000", 
-        font="fonts/NeogreyRegular.otf", size = 5) 
-
-<000003F3:00000589>
-r = Character(None, 
-        window_background=Image("GUI/gtextbox.png", xalign=0.0, yalign=1.0),window_left_padding=40, window_right_padding=385, window_bottom_padding=60,
-        what_font="fonts/NeogreyRegular.otf", what_size = 15, what_color="#FF4422", what_drop_shadow = (1,1), what_drop_shadow_color = "#000",
-        font="fonts/NeogreyRegular.otf", size = 5,
-        what_prefix="МечеРуи: ") 
-
-<0000061F:000007B3>
-f = Character(None, 
-        window_background=Image("GUI/gtextbox.png", xalign=0.0, yalign=1.0), window_left_padding=40, window_right_padding=385, window_bottom_padding=60,
-        what_font="fonts/NeogreyRegular.otf", what_size = 15, what_color="#FF9933", what_drop_shadow = (1,1), what_drop_shadow_color = "#000",
-        font="fonts/NeogreyRegular.otf", size = 5,
-        what_prefix="Фиона-Крылышки: ") 
-
-<0000084B:000009DD>
-a = Character(None, 
-        window_background=Image("GUI/gtextbox.png", xalign=0.0, yalign=1.0), window_left_padding=40, window_right_padding=385, window_bottom_padding=60,
-        what_font="fonts/NeogreyRegular.otf", what_size = 15, what_color="#5577cc", what_drop_shadow = (1,1), what_drop_shadow_color = "#000",
-        font="fonts/NeogreyRegular.otf", size = 5,
-        what_prefix="Алистер: ") 
-
-<00000A73:00000C00>
-o = Character(None, 
-        window_background=Image("GUI/gtextbox.png", xalign=0.0, yalign=1.0), window_left_padding=40, window_right_padding=385, window_bottom_padding=60,
-        what_font="fonts/NeogreyRegular.otf", what_size = 15, what_color="#9988FF", what_drop_shadow = (1,1), what_drop_shadow_color = "#000",
-        font="fonts/NeogreyRegular.otf", size = 5,
-        what_prefix="Ода: ") 
-
-<00000C4C:00000C52>
-es = 0
-
-<00000CEA:00000D2B>
-unknown = Character('???', color="#333", show_two_window = True) 
-
-<00000DC1:00000F21>
-m = Character('Меруи', color="#aa4933",show_side_image=ConditionSwitch("es==0","prosprites/ruinormal.png","es==1","prosprites/ruiangry.png", "es==2","prosprites/ruisad.png","es==3","prosprites/ruishock.png","es==4","prosprites/ruishy.png","es==5","prosprites/ruishy2.png","es==6","prosprites/ruistern.png", xalign=0,yalign=1.0), show_two_window = True)
-
-<00000FB7:00000FF8>
-t = Character('Тревис', color="#112044", show_two_window = True) 
-
-<0000108E:000010CE>
-s = Character('Широ', color="#886633", show_two_window = True) 
-
-<00001164:000011A4>
-d = Character('Дерек', color="#997700", show_two_window = True) 
-
-<0000123A:0000127E>
-teacher = Character('Учительница',color="#333", show_two_window = True) 
-
-<00001316:0000135A>
-student = Character('Ученик',color="#333", show_two_window = True) 
-
-<000013A6:000013E5>
-coach= Character('Тренер',color="#333", show_two_window = True) 
-
-<00001431:00001440>
-email_body = u""
-
-<000014D6:000014E1>
-emails = []
-
-<00001588:0000159D>
-"images/sakelogo.jpg"
-
-<0000162B:0000162F>
-logo
-
-<00001657:0000166F>
-"images/promoposter.jpg"
-
-<000016E7:000016F2>
-creditimage
-
-<0000171A:00001727>
-Solid("#000")
-
-<0000179F:000017A4>
-black
-
-<000017CC:000017E4>
-"images/loginscreen.jpg"
-
-<0000185E:00001863>
-login
-
-<0000188B:000018A4>
-"images/logoutscreen.jpg"
-
-<000018D2:000018D8>
-logout
-
-<00001900:0000191E>
-"images/disconnectmessage.png"
-
-<00001996:000019A0>
-disconnect
-
-<000019C8:000019D7>
-"BG/plains.jpg"
-
-<00001A05:00001A0E>
-gamefield
-
-<00001A36:00001A48>
-"BG/mountains.jpg"
-
-<00001AC0:00001ACD>
-gamemountains
-
-<00001AF5:00001B02>
-"BG/town.jpg"
-
-<00001B7A:00001B82>
-gametown
-
-<00001BAA:00001BB7>
-"BG/cave.jpg"
-
-<00001C31:00001C39>
-gamecave
-
-<00001C61:00001C75>
-"BG/computerlab.jpg"
-
-<00001CED:00001CF8>
-computerlab
-
-<00001D20:00001D32>
-"BG/classroom.jpg"
-
-<00001D60:00001D69>
-classroom
-
-<00001D91:00001DA1>
-"BG/hallway.jpg"
-
-<00001DCF:00001DD6>
-hallway
-
-<00001DFE:00001E11>
-"BG/ruibedroom.jpg"
-
-<00001E89:00001E93>
-ruibedroom
-
-<00001EBB:00001ED0>
-"BG/shirobedroom.jpg"
-
-<00001F48:00001F54>
-shirobedroom
-
-<00001F7C:00001F89>
-"BG/mall.jpg"
-
-<00002001:00002005>
-mall
-
-<0000202D:00002039>
-"BG/gym.jpg"
-
-<000020B3:000020B6>
-gym
-
-<000020E7:000020F9>
-"GUI/bookshop.jpg"
-
-<0000217F:00002187>
-bookshop
-
-<000021BB:000021CE>
-"GUI/clothshop.jpg"
-
-<00002208:00002213>
-clothesshop
-
-<00002247:00002259>
-"GUI/gameshop.jpg"
-
-<00002293:0000229B>
-gameshop
-
-<000022CF:000022E3>
-"images/morning.jpg"
-
-<00002369:00002370>
-morning
-
-<000023A4:000023BA>
-"images/afternoon.jpg"
-
-<000023F4:000023FD>
-afternoon
-
-<00002431:00002445>
-"images/evening.jpg"
-
-<0000247F:00002486>
-evening
-
-<000024BA:000024CE>
-"images/weekend.jpg"
-
-<00002554:0000255B>
-weekend
-
-<0000258F:0000259B>
-Solid("000")
-
-<0000261C:00002621>
-black
-
-<00002655:00002661>
-Solid("fff")
-
-<00002698:0000269D>
-white
-
-<000026D1:000026EA>
-"images/creditsblack.png"
-
-<0000276B:00002777>
-creditsblack
-
-<000027AB:000027B9>
-"GUI/mail.jpg"
-
-<0000283A:0000283F>
-inbox
-
-<00002873:000028D6>
-renpy.ParameterizedText(ypos=0.5, font="DejaVuSans.ttf", color="#fff", drop_shadow=(0,0))
-
-<00002957:0000295B>
-text
-
-<0000298F:000029EE>
-renpy.ParameterizedText(size=16, font="DejaVuSans.ttf", color="#fff", drop_shadow=(0,0))
-
-<00002A6F:00002A76>
-credits
-
-<00002AAA:00002AC8>
-"prosprites/gameruinormal.png"
-
-<00002B4E:00002B51>
-rui
-
-<00002B56:00002B5C>
-normal
-
-<00002B90:00002BAD>
-"prosprites/gameruiangry.png"
-
-<00002BE7:00002BEA>
-rui
-
-<00002BEF:00002BF4>
-angry
-
-<00002C28:00002C45>
-"prosprites/gameruihappy.png"
-
-<00002C7F:00002C82>
-rui
-
-<00002C87:00002C8C>
-happy
-
-<00002CC0:00002CDF>
-"prosprites/gameruiunhappy.png"
-
-<00002D19:00002D1C>
-rui
-
-<00002D21:00002D28>
-unhappy
-
-<00002D5C:00002D7C>
-"prosprites/gameruisurprise.png"
-
-<00002DB6:00002DB9>
-rui
-
-<00002DBE:00002DC7>
-surprised
-
-<00002DFB:00002E18>
-"prosprites/gameruiangry.png"
-
-<00002E52:00002E55>
-rui
-
-<00002E5A:00002E5F>
-angry
-
-<00002E93:00002EB2>
-"prosprites/gameruinormalf.png"
-
-<00002F38:00002F3B>
-rui
-
-<00002F40:00002F46>
-normal
-
-<00002F4B:00002F4F>
-flip
-
-<00002F83:00002FA1>
-"prosprites/gameruiangryf.png"
-
-<00002FDB:00002FDE>
-rui
-
-<00002FE3:00002FE8>
-angry
-
-<00002FED:00002FF1>
-flip
-
-<00003025:00003043>
-"prosprites/gameruihappyf.png"
-
-<0000307D:00003080>
-rui
-
-<00003085:0000308A>
-happy
-
-<0000308F:00003093>
-flip
-
-<000030C7:000030E7>
-"prosprites/gameruiunhappyf.png"
-
-<00003121:00003124>
-rui
-
-<00003129:00003130>
-unhappy
-
-<00003135:00003139>
-flip
-
-<0000316D:0000318E>
-"prosprites/gameruisurprisef.png"
-
-<000031C8:000031CB>
-rui
-
-<000031D0:000031D9>
-surprised
-
-<000031DE:000031E2>
-flip
-
-<00003216:00003234>
-"prosprites/gameruiangryf.png"
-
-<0000326E:00003271>
-rui
-
-<00003276:0000327B>
-angry
-
-<00003280:00003284>
-flip
-
-<000032B8:000032D6>
-"othersprites/fionanormal.png"
-
-<0000335C:00003361>
-fiona
-
-<00003366:0000336C>
-normal
-
-<000033A0:000033BD>
-"othersprites/fionahappy.png"
-
-<000033F7:000033FC>
-fiona
-
-<00003401:00003406>
-happy
-
-<0000343A:00003455>
-"othersprites/fionasad.png"
-
-<0000348F:00003494>
-fiona
-
-<00003499:0000349C>
-sad
-
-<000034D0:000034ED>
-"othersprites/fionashock.png"
-
-<00003527:0000352C>
-fiona
-
-<00003531:0000353A>
-surprised
-
-<0000356E:0000358B>
-"othersprites/fionablush.png"
-
-<000035C5:000035CA>
-fiona
-
-<000035CF:000035D2>
-shy
-
-<00003606:00003625>
-"othersprites/fionaworried.png"
-
-<0000365F:00003664>
-fiona
-
-<00003669:00003670>
-worried
-
-<000036A4:000036C3>
-"othersprites/fionanormalf.png"
-
-<00003744:00003749>
-fiona
-
-<0000374E:00003754>
-normal
-
-<00003759:0000375D>
-flip
-
-<00003791:000037AF>
-"othersprites/fionahappyf.png"
-
-<00003835:0000383A>
-fiona
-
-<0000383F:00003844>
-happy
-
-<00003849:0000384D>
-flip
-
-<00003881:0000389D>
-"othersprites/fionasadf.png"
-
-<000038D7:000038DC>
-fiona
-
-<000038E1:000038E4>
-sad
-
-<000038E9:000038ED>
-flip
-
-<00003921:0000393F>
-"othersprites/fionashockf.png"
-
-<00003979:0000397E>
-fiona
-
-<00003983:0000398C>
-surprised
-
-<00003991:00003995>
-flip
-
-<000039C9:000039E7>
-"othersprites/fionablushf.png"
-
-<00003A21:00003A26>
-fiona
-
-<00003A2B:00003A2E>
-shy
-
-<00003A33:00003A37>
-flip
-
-<00003A6B:00003A8B>
-"othersprites/fionaworriedf.png"
-
-<00003AC5:00003ACA>
-fiona
-
-<00003ACF:00003AD6>
-worried
-
-<00003ADB:00003ADF>
-flip
-
-<00003B13:00003B34>
-"othersprites/alistairnormal.png"
-
-<00003BBA:00003BC2>
-alistair
-
-<00003BC7:00003BCD>
-normal
-
-<00003C01:00003C21>
-"othersprites/alistairhappy.png"
-
-<00003C5B:00003C63>
-alistair
-
-<00003C68:00003C6D>
-happy
-
-<00003CA1:00003CC1>
-"othersprites/alistairshock.png"
-
-<00003CFB:00003D03>
-alistair
-
-<00003D08:00003D11>
-surprised
-
-<00003D45:00003D65>
-"othersprites/alistairsmirk.png"
-
-<00003D9F:00003DA7>
-alistair
-
-<00003DAC:00003DB1>
-smirk
-
-<00003DE5:00003E01>
-"othersprites/odanormal.png"
-
-<00003E82:00003E85>
-oda
-
-<00003E8A:00003E90>
-normal
-
-<00003EC4:00003EE0>
-"guysprites/shironormal.png"
-
-<00003F66:00003F6B>
-shiro
-
-<00003F70:00003F76>
-normal
-
-<00003FAA:00003FC5>
-"guysprites/shiroangry.png"
-
-<00003FFF:00004004>
-shiro
-
-<00004009:0000400E>
-angry
-
-<00004042:0000405B>
-"guysprites/shirosad.png"
-
-<00004095:0000409A>
-shiro
-
-<0000409F:000040A2>
-sad
-
-<000040D6:000040F1>
-"guysprites/shiroshock.png"
-
-<0000412B:00004130>
-shiro
-
-<00004135:0000413E>
-surprised
-
-<00004172:0000418D>
-"guysprites/shirosmile.png"
-
-<000041C7:000041CC>
-shiro
-
-<000041D1:000041D6>
-happy
-
-<0000420A:00004223>
-"guysprites/shiroshy.png"
-
-<0000425D:00004262>
-shiro
-
-<00004267:0000426A>
-shy
-
-<0000429E:000042C1>
-"guysprites/shirosurpriseblush.png"
-
-<000042FB:00004300>
-shiro
-
-<00004305:00004313>
-surprisedblush
-
-<00004347:00004364>
-"guysprites/travisnormal.png"
-
-<000043EA:000043F0>
-travis
-
-<000043F5:000043FB>
-normal
-
-<0000442F:0000444B>
-"guysprites/travisangry.png"
-
-<00004485:0000448B>
-travis
-
-<00004490:00004495>
-angry
-
-<000044C9:000044E7>
-"guysprites/travisannoyed.png"
-
-<00004521:00004527>
-travis
-
-<0000452C:00004533>
-annoyed
-
-<00004567:00004581>
-"guysprites/travissad.png"
-
-<000045BB:000045C1>
-travis
-
-<000045C6:000045C9>
-sad
-
-<000045FD:00004619>
-"guysprites/travisshock.png"
-
-<00004653:00004659>
-travis
-
-<0000465E:00004667>
-surprised
-
-<0000469B:000046B7>
-"guysprites/travissmile.png"
-
-<000046F1:000046F7>
-travis
-
-<000046FC:00004701>
-happy
-
-<00004735:00004751>
-"guysprites/dereknormal.png"
-
-<000047D7:000047DC>
-derek
-
-<000047E1:000047E7>
-normal
-
-<0000481B:00004836>
-"guysprites/derekangry.png"
-
-<00004870:00004875>
-derek
-
-<0000487A:0000487F>
-angry
-
-<000048B3:000048CE>
-"guysprites/derekblush.png"
-
-<00004908:0000490D>
-derek
-
-<00004912:00004917>
-blush
-
-<0000494B:00004964>
-"guysprites/derekheh.png"
-
-<0000499E:000049A3>
-derek
-
-<000049A8:000049AD>
-smirk
-
-<000049E1:000049FC>
-"guysprites/dereklaugh.png"
-
-<00004A36:00004A3B>
-derek
-
-<00004A40:00004A45>
-happy
-
-<00004A79:00004A92>
-"guysprites/dereksad.png"
-
-<00004ACC:00004AD1>
-derek
-
-<00004AD6:00004AD9>
-sad
-
-<00004B0D:00004B28>
-"guysprites/derekshock.png"
-
-<00004B62:00004B67>
-derek
-
-<00004B6C:00004B75>
-surprised
-
-<00004BA9:00004BC6>
-"guysprites/derekbnormal.png"
-
-<00004C00:00004C05>
-derek
-
-<00004C0A:00004C0B>
-b
-
-<00004C10:00004C16>
-normal
-
-<00004C4A:00004C66>
-"guysprites/derekbangry.png"
-
-<00004CA0:00004CA5>
-derek
-
-<00004CAA:00004CAB>
-b
-
-<00004CB0:00004CB5>
-angry
-
-<00004CE9:00004D05>
-"guysprites/derekbblush.png"
-
-<00004D3F:00004D44>
-derek
-
-<00004D49:00004D4A>
-b
-
-<00004D4F:00004D54>
-blush
-
-<00004D88:00004DA2>
-"guysprites/derekbheh.png"
-
-<00004DDC:00004DE1>
-derek
-
-<00004DE6:00004DE7>
-b
-
-<00004DEC:00004DF1>
-smirk
-
-<00004E25:00004E41>
-"guysprites/derekblaugh.png"
-
-<00004E7B:00004E80>
-derek
-
-<00004E85:00004E86>
-b
-
-<00004E8B:00004E90>
-happy
-
-<00004EC4:00004EDE>
-"guysprites/derekbsad.png"
-
-<00004F18:00004F1D>
-derek
-
-<00004F22:00004F23>
-b
-
-<00004F28:00004F2B>
-sad
-
-<00004F5F:00004F7B>
-"guysprites/derekbshock.png"
-
-<00004FB5:00004FBA>
-derek
-
-<00004FBF:00004FC0>
-b
-
-<00004FC5:00004FCE>
-surprised
-
-<00005002:00005010>
-"CG/troll.jpg"
-
-<00005096:0000509B>
-troll
-
-<000050CF:000050E1>
-"CG/travis1-1.jpg"
-
-<00005162:0000516A>
-travis01
-
-<0000519E:000051B0>
-"CG/travis2-1.jpg"
-
-<00005236:0000523E>
-travis02
-
-<00005272:00005284>
-"CG/travis2-2.jpg"
-
-<000052BE:000052C8>
-travis02_2
-
-<000052FC:0000530C>
-"CG/travis3.jpg"
-
-<00005346:0000534E>
-travis03
-
-<00005382:00005392>
-"CG/travis4.jpg"
-
-<000053CC:000053D4>
-travis04
-
-<00005408:00005418>
-"CG/travis5.jpg"
-
-<00005452:0000545A>
-travis05
-
-<0000548E:0000549E>
-"CG/travis6.jpg"
-
-<00005524:0000552C>
-travis06
-
-<00005560:00005571>
-"CG/shiro1-1.jpg"
-
-<000055F7:000055FE>
-shiro01
-
-<00005632:00005643>
-"CG/shiro1-2.jpg"
-
-<0000567D:00005686>
-shiro01_2
-
-<000056BA:000056CB>
-"CG/shiro1-3.jpg"
-
-<00005705:0000570E>
-shiro01_3
-
-<00005742:00005753>
-"CG/shiro2-1.jpg"
-
-<000057D9:000057E0>
-shiro02
-
-<00005814:00005825>
-"CG/shiro2-2.jpg"
-
-<0000585F:00005868>
-shiro02_2
-
-<0000589C:000058AB>
-"CG/shiro3.jpg"
-
-<000058E5:000058EC>
-shiro03
-
-<00005920:00005931>
-"CG/shiro4-1.jpg"
-
-<000059B7:000059BE>
-shiro04
-
-<000059F2:00005A03>
-"CG/shiro4-2.jpg"
-
-<00005A3D:00005A46>
-shiro04_2
-
-<00005A7A:00005A8B>
-"CG/shiro4-3.jpg"
-
-<00005AC5:00005ACE>
-shiro04_3
-
-<00005B02:00005B13>
-"CG/shiro5-1.jpg"
-
-<00005B4D:00005B54>
-shiro05
-
-<00005B88:00005B99>
-"CG/shiro5-2.jpg"
-
-<00005BD3:00005BDC>
-shiro05_2
-
-<00005C10:00005C1F>
-"CG/shiro6.jpg"
-
-<00005C59:00005C60>
-shiro06
-
-<00005C94:00005CA5>
-"CG/derek1-1.jpg"
-
-<00005D2B:00005D32>
-derek01
-
-<00005D66:00005D77>
-"CG/derek1-2.jpg"
-
-<00005DB1:00005DBA>
-derek01_2
-
-<00005DEE:00005DFF>
-"CG/derek2-1.jpg"
-
-<00005E85:00005E8C>
-derek02
-
-<00005EC0:00005ED1>
-"CG/derek2-2.jpg"
-
-<00005F0B:00005F14>
-derek02_2
-
-<00005F48:00005F57>
-"CG/derek3.jpg"
-
-<00005F91:00005F98>
-derek03
-
-<00005FCC:00005FDD>
-"CG/derek4-1.jpg"
-
-<00006017:0000601E>
-derek04
-
-<00006052:00006063>
-"CG/derek4-2.jpg"
-
-<0000609D:000060A6>
-derek04_2
-
-<000060DA:000060E9>
-"CG/derek5.jpg"
-
-<00006123:0000612A>
-derek05
-
-<0000615E:0000616D>
-"CG/derek6.jpg"
-
-<000061EE:000061F5>
-derek06
-
-<00006229:00006237>
-"CG/group.jpg"
-
-<000062BD:000062C2>
-group
-
-<000062F6:00006308>
-"action/study.png"
-
-<0000638E:00006393>
-study
-
-<000063C7:000063DC>
-"action/studybig.png"
-
-<00006416:0000641E>
-studybig
-
-<00006452:0000646A>
-"action/studynormal.png"
-
-<000064A4:000064AF>
-studynormal
-
-<000064E3:000064FA>
-"action/studysmall.png"
-
-<00006534:0000653E>
-studysmall
-
-<00006572:00006582>
-"action/net.png"
-
-<000065BC:000065BF>
-net
-
-<000065F3:00006606>
-"action/netbig.png"
-
-<00006640:00006646>
-netbig
-
-<0000667A:00006690>
-"action/netnormal.png"
-
-<000066CA:000066D3>
-netnormal
-
-<00006707:0000671C>
-"action/netsmall.png"
-
-<00006756:0000675E>
-netsmall
-
-<00006792:000067A1>
-"action/tv.png"
-
-<000067DB:000067DD>
-tv
-
-<00006811:00006823>
-"action/tvbig.png"
-
-<0000685D:00006862>
-tvbig
-
-<00006896:000068AB>
-"action/tvnormal.png"
-
-<000068E5:000068ED>
-tvnormal
-
-<00006921:00006935>
-"action/tvsmall.png"
-
-<0000696F:00006976>
-tvsmall
-
-<000069AA:000069BB>
-school_01 = False
-
-<00006A19:00006A2A>
-school_02 = False
-
-<00006AD7:00006AE8>
-school_03 = False
-
-<00006B49:00006B62>
-school_shiroderek = False
-
-<00006C0F:00006C28>
-school_monochrome = False
-
-<00006CD5:00006CEC>
-school_notebook = False
-
-<00006D4D:00006D66>
-school_trackpants = False
-
-<00006DC7:00006DDF>
-school_planetost = False
-
-<00006E8C:00006EA4>
-storedescription = False
-
-<00006F51:00006F67>
-lunchexplained = False
-
-<00007014:00007028>
-explainnight = False
-
-<000070D5:000070E7>
-familytalk = False
-
-<0000718F:0000719F>
-aloneend = False
-
-<00007247:0000725B>
-travis_pride = False
-
-<000072B9:000072CA>
-travis_01 = False
-
-<00007328:00007339>
-travis_02 = False
-
-<000073E1:000073F2>
-travis_03 = False
-
-<0000749F:000074B5>
-travis_helpful = False
-
-<00007562:00007577>
-travis_worked = False
-
-<0000761F:00007637>
-travis_playsgame = False
-
-<000076DF:000076F5>
-travis_warning = False
-
-<000077A2:000077B8>
-travis_knowoda = False
-
-<00007816:0000782C>
-travis_hasgame = False
-
-<000078D9:000078EC>
-travis_game = False
-
-<0000794D:00007969>
-travis_chataboutgame = False
-
-<00007A16:00007A2B>
-travis_riddle = False
-
-<00007AD3:00007AEA>
-travis_siblings = False
-
-<00007B92:00007BA5>
-travisguess = False
-
-<00007C52:00007C63>
-travisend = False
-
-<00007CC4:00007CD7>
-travisbonus = False
-
-<00007D38:00007D4F>
-shiro_picktopic = False
-
-<00007DAD:00007DC5>
-shiro_compliment = False
-
-<00007E26:00007E3D>
-shiro_playsgame = False
-
-<00007EE5:00007EF8>
-shiro_tease = False
-
-<00007FA5:00007FB9>
-shiro01_read = False
-
-<00008017:0000802B>
-shiro02_read = False
-
-<000080D3:000080E3>
-shiro_01 = False
-
-<00008141:00008151>
-shiro_02 = False
-
-<000081B2:000081C2>
-shiro_03 = False
-
-<0000826F:00008284>
-shiro_warning = False
-
-<000082E5:000082FA>
-shiro_hasbook = False
-
-<0000835B:0000836D>
-shiro_book = False
-
-<000083CE:000083E9>
-shiro_chataboutbook = False
-
-<0000844A:0000845D>
-shiro_visit = False
-
-<00008505:00008517>
-shiroguess = False
-
-<00008578:00008588>
-shiroend = False
-
-<000085E9:000085FB>
-shirobonus = False
-
-<0000865C:0000866E>
-derek_date = False
-
-<000086CC:000086DC>
-derek_01 = False
-
-<0000873A:0000874A>
-derek_02 = False
-
-<000087F2:00008802>
-derek_03 = False
-
-<00008863:0000887A>
-derek_boyfriend = False
-
-<000088D8:000088E8>
-derek_sc = False
-
-<00008992:000089A9>
-derek_playsgame = False
-
-<00008A58:00008A6C>
-derek_grades = False
-
-<00008ACF:00008AED>
-derek_chataboutclothes = False
-
-<00008B50:00008B65>
-derek_warning = False
-
-<00008BC8:00008BDE>
-derek_hasdress = False
-
-<00008C41:00008C53>
-derek_hurt = False
-
-<00008D02:00008D1B>
-derek_aboutfamily = False
-
-<00008DCA:00008DDC>
-derekguess = False
-
-<00008E3F:00008E4F>
-derekend = False
-
-<00008EB2:00008EC4>
-derekbonus = False
-
-<00008F27:00008F33>
-ro01 = False
-
-<00008F93:00008F9F>
-ro02 = False
-
-<00009049:00009055>
-ro03 = False
-
-<00009104:00009110>
-ro04 = False
-
-<000091BA:000091C6>
-book1 = True
-
-<00009275:00009281>
-book2 = True
-
-<000092E4:000092F0>
-book3 = True
-
-<00009353:0000935F>
-book4 = True
-
-<000093C2:000093CE>
-book5 = True
-
-<00009431:0000943D>
-book6 = True
-
-<000094A0:000094AC>
-book7 = True
-
-<0000950F:0000951B>
-book8 = True
-
-<0000957E:0000958D>
-clothes1 = True
-
-<000095F0:000095FF>
-clothes2 = True
-
-<00009662:00009671>
-clothes3 = True
-
-<000096D4:000096E3>
-clothes4 = True
-
-<00009746:00009755>
-clothes5 = True
-
-<000097B8:000097C7>
-clothes6 = True
-
-<0000982A:00009839>
-clothes7 = True
-
-<0000989C:000098AB>
-clothes8 = True
-
-<0000990E:0000991A>
-game1 = True
-
-<0000997D:00009989>
-game2 = True
-
-<000099EC:000099F8>
-game3 = True
-
-<00009A5B:00009A67>
-game4 = True
-
-<00009ACA:00009AD6>
-game5 = True
-
-<00009B39:00009B45>
-game6 = True
-
-<00009BA8:00009BB4>
-game7 = True
-
-<00009C17:00009C23>
-game8 = True
-
-<00009C86:00009C96>
-intelligence = 5
-
-<00009D45:00009D52>
-socialRep = 5
-
-<00009DB5:00009DC2>
-onlineRep = 5
-
-<00009E25:00009E35>
-projectGrade = 1
-
-<00009EE4:00009EF2>
-allowance = 15
-
-<00009FA1:00009FAB>
-money = 50
-
-<0000A00E:0000A019>
-derekXP = 5
-
-<0000A0C8:0000A0D3>
-shiroXP = 5
-
-<0000A136:0000A142>
-travisXP = 5
-
-<0000A1A5:0000A1AC>
-day = 1
-
-<0000A20F:0000A21B>
-dayName = ""
-
-<0000A28A:0000A293>
-scheduler
-
-<0000A2E3:0000A2F4>
-game_start = True
-
-<0000A3A6:0000A3AF>
-day == 31
-
-<0000A410:0000A417>
-endGame
-
-<0000A462:0000A47B>
-day == 2 and not derek_01
-
-<0000A4CA:0000A4EC>
-receiveEmail(emails, derekEmail01)
-
-<0000A588:0000A590>
-day == 5
-
-<0000A5DF:0000A606>
-receiveEmail(emails, fantastianEmail02)
-
-<0000A6A2:0000A6C1>
-day == 20 and projectGrade < 10
-
-<0000A710:0000A732>
-receiveEmail(emails, shiroEmail04)
-
-<0000A7A0:0000A7B4>
-currentDay = day % 7
-
-<0000A893:0000A8B0>
-play music "music/spring.ogg"
-
-<0000A960:0000A96F>
-currentDay >= 6
-
-<0000A9BF:0000A9D2>
-dayName = "Weekend"
-
-<0000AA35:0000AA3D>
-day += 2
-
-<0000AA9A:0000AAA1>
-weekend
-
-<0000AAE0:0000AAEF>
-currentDay == 5
-
-<0000AB3E:0000AB50>
-dayName = "Friday"
-
-<0000ABA0:0000ABAF>
-currentDay == 4
-
-<0000ABFE:0000AC12>
-dayName = "Thursday"
-
-<0000AC62:0000AC71>
-currentDay == 3
-
-<0000ACC0:0000ACD5>
-dayName = "Wednesday"
-
-<0000AD25:0000AD34>
-currentDay == 2
-
-<0000AD83:0000AD96>
-dayName = "Tuesday"
-
-<0000ADE6:0000ADF5>
-currentDay == 1
-
-<0000AE44:0000AE56>
-dayName = "Monday"
-
-<0000AEC4:0000AECC>
-day += 1
-
-<0000AF54:0000AF63>
-currentDay == 1
-
-<0000B041:0000B04C>
-status_menu
-
-<0000B15C:0000B160>
-fade
-
-<0000B1A8:0000B1B2>
-ruibedroom
-
-<0000B27C:0000B29B>
-Самое время отправиться в школу.
-
-<0000B366:0000B37D>
-suppress_overlay = True
-
-<0000B3E0:0000B402>
-_window_during_transitions = False
-
-<0000B513:0000B532>
-play sound "sounds/morning.ogg"
-
-<0000B584:0000B58C>
-dissolve
-
-<0000B5BB:0000B5C2>
-morning
-
-<0000B66E:0000B67B>
-renpy.pause()
-
-<0000B79B:0000B7C1>
-not clothes7 and not school_trackpants
-
-<0000B831:0000B842>
-school_trackpants
-
-<0000B8DC:0000B8E9>
-not school_01
-
-<0000B9A0:0000B9A8>
-school01
-
-<0000B9FE:0000BA19>
-travis_01 and not school_03
-
-<0000BAD5:0000BADD>
-school03
-
-<0000BB33:0000BB4D>
-day > 11 and not school_02
-
-<0000BBBD:0000BBC5>
-school02
-
-<0000BCAF:0000BCB3>
-fade
-
-<0000BCE2:0000BCEB>
-classroom
-
-<0000BD97:0000BDAF>
-suppress_overlay = False
-
-<0000BE12:0000BE33>
-_window_during_transitions = True
-
-<0000BEBC:0000BEDD>
-not book1 and not school_notebook
-
-<0000BF4D:0000BF5C>
-school_notebook
-
-<0000BFD1:0000C015>
-Уроки, как всегда, были нудными. Так трудно было не уснуть.
-
-<0000C0AA:0000C0CD>
-not game5 and not school_monochrome
-
-<0000C13D:0000C14E>
-school_monochrome
-
-<0000C1A4:0000C1C6>
-not book3 and not school_planetost
-
-<0000C236:0000C246>
-school_planetost
-
-<0000C2E7:0000C2F9>
-not lunchexplained
-
-<0000C349:0000C35E>
-lunchexplained = True
-
-<0000C3BB:0000C3DC>
-Ну, хотя бы пришло время обеда!
-
-<0000C43A:0000C499>
-У нас нет столовой, потому большинство учеников обедают либо в спортзале, либо в классах.
-
-<0000C4F7:0000C568>
-Многие ребята в обеденный перерыв любят играть в баскетбол, если я пойду в спортзал, то обязательно их встречу.
-
-<0000C5C6:0000C633>
-В классе сейчас тихо. Те кто остаются здесь на обед, предпочитают потратить часть времени ещё и на учёбу. 
-
-<0000C691:0000C717>
-Ну а я всегда могу обосноваться в компьютерном классе. Есть там нельзя, но я ведь могу перекусить по-быстрому и двинуть дальше.
-
-<0000C7BD:0000C7C9>
-Обед!
-
-<0000C7DA:0000C7EF>
-Остаться в классе.
-
-<0000C81F:0000C835>
-renpy.block_rollback()
-
-<0000C8DE:0000C907>
-Думаю, сегодня я останусь в классе.
-
-<0000C96B:0000C992>
-meetShiro = renpy.random.randint(1, 26)
-
-<0000CA1B:0000CA27>
-shiroXP > 22
-
-<0000CA76:0000CA84>
-shiroTemp = 22
-
-<0000CAF9:0000CB0C>
-shiroTemp = shiroXP
-
-<0000CBA0:0000CBB5>
-meetShiro < shiroTemp
-
-<0000CC25:0000CC33>
-encounterShiro
-
-<0000CCA8:0000CCE4>
-Это и впрямь приятно просто сесть и спокойно пообедать.
-
-<0000CD3B:0000CD54>
-Сходить в компьютерный класс.
-
-<0000CD84:0000CD9A>
-renpy.block_rollback()
-
-<0000CE19:0000CE21>
-dissolve
-
-<0000CE50:0000CE5B>
-computerlab
-
-<0000CF07:0000CF2F>
-meetTravis = renpy.random.randint(1, 26)
-
-<0000CFB8:0000CFC5>
-travisXP > 22
-
-<0000D014:0000D023>
-travisTemp = 22
-
-<0000D098:0000D0AD>
-travisTemp = travisXP
-
-<0000D141:0000D170>
-travisXP > 29 and not game6 and not travis_game
-
-<0000D22C:0000D237>
-travis_game
-
-<0000D28D:0000D2A4>
-meetTravis < travisTemp
-
-<0000D314:0000D323>
-encounterTravis
-
-<0000D398:0000D3ED>
-Надо бы сходить в компьютерный класс и проверить почту со Спэйсбуком. Эх, ничего интересного.
-
-<0000D444:0000D452>
-Пойти в спортзал.
-
-<0000D482:0000D498>
-renpy.block_rollback()
-
-<0000D517:0000D51F>
-dissolve
-
-<0000D54E:0000D551>
-gym
-
-<0000D5FD:0000D624>
-meetDerek = renpy.random.randint(1, 26)
-
-<0000D6F9:0000D705>
-derekXP > 22
-
-<0000D754:0000D762>
-derekTemp = 22
-
-<0000D7D7:0000D7EA>
-derekTemp = derekXP
-
-<0000D87E:0000D8B0>
-derekXP > 29 and derek_hasdress and not derek_hurt
-
-<0000D920:0000D92A>
-derek_hurt
-
-<0000D980:0000D995>
-meetDerek < derekTemp
-
-<0000DA05:0000DA13>
-encounterDerek
-
-<0000DA88:0000DADC>
-Обедая в спортзале, я наблюдала за игрой ребят. Похоже, они вовсю веселятся.
-
-<0000DB7E:0000DB95>
-suppress_overlay = True
-
-<0000DBF8:0000DC1A>
-_window_during_transitions = False
-
-<0000DC93:0000DCB5>
-play sound "sounds/schoolbell.ogg"
-
-<0000DD07:0000DD0F>
-dissolve
-
-<0000DD3E:0000DD47>
-afternoon
-
-<0000DDF3:0000DE00>
-renpy.pause()
-
-<0000DE7F:0000DE87>
-dissolve
-
-<0000DEB6:0000DEBD>
-hallway
-
-<0000DF69:0000DF81>
-suppress_overlay = False
-
-<0000E030:0000E051>
-_window_during_transitions = True
-
-<0000E0D9:0000E108>
-shiro_02 and derek_02 and not school_shiroderek
-
-<0000E175:0000E186>
-school_shiroderek
-
-<0000E20D:0000E228>
-play music "music/calm.ogg"
-
-<0000E258:0000E292>
-Вот и уроки закончились, чем бы мне сегодня заняться?
-
-<0000E311:0000E32D>
-Сегодня я хочу...
-
-<0000E33E:0000E34D>
-Пойти в торговый центр!
-
-<0000E37D:0000E393>
-renpy.block_rollback()
-
-<0000E416:0000E41A>
-mall
-
-<0000E46B:0000E47E>
-Поработать над проектом.
-
-<0000E4AE:0000E4C4>
-renpy.block_rollback()
-
-<0000E547:0000E54E>
-project
-
-<0000E59F:0000E5B2>
-Помочь по школе.
-
-<0000E5E2:0000E5F8>
-renpy.block_rollback()
-
-<0000E67B:0000E681>
-school
-
-<0000E707:0000E729>
-_window_during_transitions = False
-
-<0000E78C:0000E7A3>
-suppress_overlay = True
-
-<0000E8AA:0000E8CB>
-play sound "sounds/nighttime.ogg"
-
-<0000E91D:0000E921>
-fade
-
-<0000E950:0000E957>
-evening
-
-<0000EA4A:0000EA57>
-renpy.pause()
-
-<0000EAD6:0000EADE>
-dissolve
-
-<0000EB0D:0000EB17>
-ruibedroom
-
-<0000EBC3:0000EBDB>
-suppress_overlay = False
-
-<0000EC3E:0000EC5F>
-_window_during_transitions = True
-
-<0000ECD5:0000ECF2>
-play music "music/spring.ogg"
-
-<0000ED4D:0000ED5D>
-not explainnight
-
-<0000EDAD:0000EDC0>
-explainnight = True
-
-<0000EE1D:0000EE57>
-Ну, уже ночь, и мне однозначно стоит чем-то заняться.
-
-<0000EEB5:0000EEFE>
-Проверка почты не занимает много времени, так что это я могу сделать в любой момент.
-
-<0000EFA3:0000EFEC>
-Я могу посмотреть телевизор и узнать, о чем это гудит вся школа.
-
-<0000F04A:0000F091>
-Или можно почитать сообщения и поиграть в онлайн игры.
-
-<0000F0EF:0000F133>
-Или, думаю... Заняться уроками... В смысле, это было бы полезно...
-
-<0000F1A2:0000F1B3>
-jumpnight = False
-
-<0000F248:0000F255>
-not jumpnight
-
-<0000F2CA:0000F2EA>
-Ладно, сегодня ночью я...
-
-<0000F2FB:0000F306>
-Проверю почту
-
-<0000F356:0000F35F>
-mail_menu
-
-<0000F3E4:0000F3EC>
-dissolve
-
-<0000F41B:0000F425>
-ruibedroom
-
-<0000F4B9:0000F4BE>
-Буду учиться
-
-<0000F4EE:0000F504>
-renpy.block_rollback()
-
-<0000F567:0000F577>
-jumpnight = True
-
-<0000F5FA:0000F5FF>
-study
-
-<0000F650:0000F658>
-Смотреть ТВ
-
-<0000F688:0000F69E>
-renpy.block_rollback()
-
-<0000F701:0000F711>
-jumpnight = True
-
-<0000F794:0000F79A>
-movies
-
-<0000F7EB:0000F7F8>
-Лазать по И-нету
-
-<0000F828:0000F83E>
-renpy.block_rollback()
-
-<0000F8A1:0000F8B1>
-jumpnight = True
-
-<0000F934:0000F93A>
-online
-
-<0000F9BE:0000F9C7>
-scheduler
-
-<0000FA14:0000FA18>
-mall
-
-<0000FA82:0000FA8E>
-not derek_01
-
-<0000FAFE:0000FB05>
-derek01
-
-<0000FB5B:0000FB78>
-derekXP > 20 and not derek_02
-
-<0000FBE8:0000FBEF>
-derek02
-
-<0000FC45:0000FC5E>
-day > 22 and not derek_03
-
-<0000FCCE:0000FCD5>
-derek03
-
-<0000FD2B:0000FD86>
-derek_03 and not familytalk and not derek_aboutfamily and derekXP > max (shiroXP, travisXP)
-
-<0000FDF6:0000FE07>
-derek_aboutfamily
-
-<0000FE9F:0000FEA7>
-dissolve
-
-<0000FED6:0000FEDA>
-mall
-
-<0000FF80:0000FF9D>
-Ладно, пора за покупками!
-
-<00010027:0001003B>
-not storedescription
-
-<0001008B:000100A2>
-storedescription = True
-
-<000100FF:000101A5>
-В «Книжном мире» огромный выбор книг - от современной литературы до учебников. Покупка книг может помочь мне с учебой или же просто быть в курсе того, что нынче популярно.
-
-<00010203:0001029E>
-В «Одежде для всех» нынче широкий выбор. На вкус и цвет товарищей нет, так что покупка одежды будет для кого-то более понятной, а для кого-то менее.
-
-<000102FC:0001038B>
-«Поиграем!» — это просто кладезь новых игр для компьютера и КПК. Быть в курсе последних новинок не такая уж плохая идея.
-
-<000103FB:00010456>
-Некоторые из этих магазинов слишком дорогие. Ох, но ведь всем надо как-то зарабатывать деньги, верно?
-
-<000104E5:000104EA>
-shops
-
-<0001054D:00010583>
-На сегодня покупок хватит. Пора домой.
-
-<00010608:0001061E>
-stop music fadeout 2.0
-
-<0001069E:000106A3>
-shops
-
-<00010702:0001070F>
-Я загляну в...
-
-<00010720:00010731>
-«Книжный мир»
-
-<0001075B:00010774>
-Я пошла в книжный магазин.
-
-<000107D3:000107DB>
-bookshop
-
-<0001084E:00010856>
-dissolve
-
-<00010894:000108A3>
-in_store = True
-
-<00010972:0001097B>
+<00000057:00000060>
 bookstore
 
-<00010A46:00010A51>
-window hide
+<00000134:0000014A>
+renpy.block_rollback()
 
-<00010A87:00010A97>
-in_store = False
+<00000217:00000222>
+window show
 
-<00010AF4:00010AF9>
-shops
+<00000251:0000025E>
+showShop()   
 
-<00010B33:00010B47>
-«Одежда для всех»
+<000002F4:000002FE>
+showBook()
 
-<00010B71:00010BB6>
-Я остановилась возле магазина одежды. Некоторые из моделей такие милые!
+<0000034A:00000360>
+result = ui.interact()
 
-<00010C15:00010C20>
-clothesshop
+<000003EB:000003F6>
+result == 0
 
-<00010C93:00010C9B>
+<0000042F:0000043A>
+cleanBook()
+
+<00000497:0000049B>
+mall
+
+<00000513:0000051B>
 dissolve
 
-<00010CD9:00010CE8>
-in_store = True
+<00000589:00000594>
+result == 1
 
-<00010D6B:00010D73>
+<000005D9:00000648>
+Блокнот -
+ Как раз подойдет для конспектов лекций. Говорят, если записывать, то лучше запоминаешь.
+Стоит $12.
+
+<000006AD:000006B8>
+cleanBook()
+
+<0000072C:0000073C>
+Стоит ли мне купить его?
+
+<0000074D:00000750>
+Да
+
+<00000786:00000791>
+money >= 12
+
+<000007CA:000007D5>
+money -= 12
+
+<00000821:0000082E>
+book1 = False
+
+<0000087A:0000088C>
+intelligence += 10
+
+<000008E7:000008F0>
+bookstore
+
+<0000092D:00000950>
+Мне не хватит на это денег.
+
+<0000098C:00000995>
+bookstore
+
+<000009C7:000009C9>
+Нет
+
+<000009E0:000009E9>
+bookstore
+
+<00000A2B:00000A36>
+result == 2
+
+<00000A66:00000ACF>
+История Греции -
+ Книга содержит множество информации о Древней Греции. Может пригодиться.
+Стоит $35
+
+<00000B14:00000B1F>
+cleanBook()
+
+<00000B77:00000B87>
+Стоит ли мне купить ее?
+
+<00000B92:00000B95>
+Да
+
+<00000BCB:00000BD6>
+money >= 35
+
+<00000C0F:00000C1A>
+money -= 35
+
+<00000C66:00000C73>
+book2 = False
+
+<00000CBF:00000CD3>
+shiro_hasbook = True
+
+<00000D16:00000D1F>
+bookstore
+
+<00000D5C:00000D7F>
+I don't have enough money for that.
+
+<00000DBB:00000DC4>
+bookstore
+
+<00000DF6:00000DF8>
+Нет
+
+<00000E0F:00000E18>
+bookstore
+
+<00000E5A:00000E65>
+result == 3
+
+<00000E95:00000F1B>
+Планетост -
+ первая в серии книг о мальчике, узнавшем о своем внеземном происхождении и поступившем во внеземную школу.
+Стоит $15.
+
+<00000F60:00000F6B>
+cleanBook()
+
+<00000FD8:00000FE8>
+Стоит ли мне купить ее?
+
+<00000FF6:00000FF9>
+Да
+
+<0000103E:00001049>
+money >= 15
+
+<00001097:000010A2>
+money -= 15
+
+<00001100:0000110D>
+book3 = False
+
+<0000116B:0000117C>
+intelligence -= 6
+
+<000011DA:000011E9>
+socialRep += 20
+
+<0000123B:00001244>
+bookstore
+
+<00001293:000012B6>
+Мне не хватит денег.
+
+<000012FE:00001307>
+bookstore
+
+<00001345:00001347>
+Нет
+
+<00001367:00001370>
+bookstore
+
+<000013BE:000013C9>
+result == 4
+
+<0000140B:0000147F>
+официальный Гид по Ривенвэлл Онлайн -
+ Важная информация об игре на фоне потрясающий иллюстраций!
+Стоит $35.
+
+<000014D3:000014DE>
+cleanBook()
+
+<0000154B:0000155B>
+Стоит ли мне купить ее?
+
+<00001569:0000156C>
+Да
+
+<000015B1:000015BC>
+money >= 35
+
+<0000160A:00001615>
+money -= 35
+
+<00001673:00001680>
+book4 = False
+
+<000016DE:000016ED>
+onlineRep += 10
+
+<0000173F:00001748>
+bookstore
+
+<00001797:000017BA>
+Мне не хватит денег.
+
+<00001802:0000180B>
+bookstore
+
+<00001849:0000184B>
+Нет
+
+<0000186B:00001874>
+bookstore
+
+<000018C2:000018CD>
+result == 5
+
+<0000190F:0000197F>
+Дневник -
+ Удобный дневник для ежедневных записей. Также хорош для восстановления памяти путем прочтения последних событий.
+Стоит $20.
+
+<000019D3:000019DE>
+cleanBook()
+
+<00001A4B:00001A5B>
+Стоит ли мне купить его?
+
+<00001A69:00001A6C>
+Да
+
+<00001AB1:00001ABC>
+money >= 20
+
+<00001B0A:00001B15>
+money -= 20
+
+<00001B73:00001B80>
+book5 = False
+
+<00001BDE:00001BEF>
+intelligence += 6
+
+<00001C4D:00001C5B>
+socialRep += 6
+
+<00001CAD:00001CB6>
+bookstore
+
+<00001D05:00001D28>
+Мне не хватит денег.
+
+<00001D70:00001D79>
+bookstore
+
+<00001DB7:00001DB9>
+Нет
+
+<00001DD9:00001DE2>
+bookstore
+
+<00001E30:00001E3B>
+result == 6
+
+<00001E7D:00001EDD>
+Энциклопедия -
+ Огромная книга, содержащая информацию на любую тему. Тяжелая!
+Стоит $70.
+
+<00001F31:00001F3C>
+cleanBook()
+
+<00001FA9:00001FB9>
+Стоит купить ее?
+
+<00001FC7:00001FCA>
+Да
+
+<0000200F:0000201A>
+money >= 70
+
+<00002068:00002073>
+money -= 70
+
+<000020D1:000020DE>
+book6 = False
+
+<0000213C:0000214E>
+intelligence += 25
+
+<000021AC:000021BD>
+projectGrade += 3
+
+<0000220F:00002218>
+bookstore
+
+<00002267:0000228A>
+Мне не хватит денег.
+
+<000022D2:000022DB>
+bookstore
+
+<00002319:0000231B>
+Нет
+
+<0000233B:00002344>
+bookstore
+
+<00002392:0000239D>
+result == 7
+
+<000023DF:00002455>
+Классическая литература -
+ Сборник прозы и поэзии, которые давно признана классическими.
+Стоит $25.
+
+<000024A9:000024B4>
+cleanBook()
+
+<00002521:00002531>
+Стоит ли мне купить ее?
+
+<0000253F:00002542>
+Да
+
+<00002587:00002592>
+money >= 25
+
+<000025E0:000025EB>
+money -= 25
+
+<00002649:00002656>
+book7 = False
+
+<000026B4:000026C6>
+intelligence += 13
+
+<00002718:00002721>
+bookstore
+
+<000027BD:000027E0>
+Мне не хватит денег.
+
+<0000282B:00002834>
+bookstore
+
+<00002875:00002877>
+Нет
+
+<00002897:000028A0>
+bookstore
+
+<000028EE:000028F9>
+result == 8
+
+<0000293B:0000299D>
+Кулинарная книга -
+ Книга рецептов всех стран мира.
+Стоит $30.
+
+<000029F1:000029FC>
+cleanBook()
+
+<00002A69:00002A79>
+Стоит мне купить ее?
+
+<00002A87:00002A8A>
+Да
+
+<00002AD2:00002ADD>
+money >= 30
+
+<00002B2B:00002B36>
+money -= 30
+
+<00002B97:00002BA4>
+book8 = False
+
+<00002C02:00002C14>
+intelligence += 10
+
+<00002C72:00002C80>
+onlineRep -= 4
+
+<00002CDE:00002CED>
+socialRep += 12
+
+<00002D3F:00002D48>
+bookstore
+
+<00002D97:00002DBA>
+Мне не хватит денег.
+
+<00002E02:00002E0B>
+bookstore
+
+<00002E49:00002E4B>
+Нет
+
+<00002E6B:00002E74>
+bookstore
+
+<00002EEB:00002EF6>
+cleanBook()
+
+<00002F48:00002F51>
+bookstore
+
+<00002F9F:00002FA7>
 clothing
 
-<00010DF2:00010DFD>
-window hide
+<00002FE7:00002FFD>
+renpy.block_rollback()
 
-<00010E33:00010E43>
-in_store = False
+<00003067:00003072>
+window show
 
-<00010EA0:00010EA5>
-shops
+<000030A5:000030B2>
+showShop()   
 
-<00010EDF:00010EE6>
-«Поиграем!»
+<00003110:0000311D>
+showclothes()
 
-<00010F10:00010F36>
-Интересно, какие нынче новинки появились?
+<0000317B:00003191>
+result = ui.interact()
 
-<00010F95:00010F9D>
-gameshop
+<00003208:00003213>
+result == 0
 
-<00011010:00011018>
+<00003261:0000326F>
+cleanclothes()
+
+<000032C2:000032C6>
+mall
+
+<00003323:0000332B>
 dissolve
 
-<00011056:00011065>
-in_store = True
+<00003382:0000338D>
+result == 1
 
-<000110E8:000110F1>
+<000033CF:00003419>
+Вечерний наряд -
+ Идеальен для романтических свиданий.
+Стоит $65.
+
+<0000346D:0000347B>
+cleanclothes()
+
+<000034E8:000034F8>
+Стоит это купить?
+
+<00003506:00003509>
+Да
+
+<0000354E:00003559>
+money >= 65
+
+<000035A7:000035B2>
+money -= 65
+
+<00003610:00003620>
+clothes1 = False
+
+<0000367E:00003693>
+derek_hasdress = True
+
+<000036E5:000036ED>
+clothing
+
+<0000373C:0000375F>
+Мне не хватит денег.
+
+<000037A7:000037AF>
+clothing
+
+<000037ED:000037EF>
+Нет
+
+<0000380F:00003817>
+clothing
+
+<00003865:00003870>
+result == 2
+
+<000038B2:00003902>
+Весенние платья -
+ пастельные тона в моде в этом сезоне.
+Стоит $35
+
+<00003956:00003964>
+cleanclothes()
+
+<000039D1:000039E1>
+стоит это купить?
+
+<000039EF:000039F2>
+Да
+
+<00003A37:00003A42>
+money >= 35
+
+<00003A90:00003A9B>
+money -= 35
+
+<00003AF9:00003B09>
+clothes2 = False
+
+<00003B67:00003B73>
+shiroXP += 9
+
+<00003BD1:00003BDD>
+derekXP -= 3
+
+<00003C2F:00003C37>
+clothing
+
+<00003C86:00003CA9>
+Мне не хватит денег.
+
+<00003CF1:00003CF9>
+clothing
+
+<00003D37:00003D39>
+Нет
+
+<00003D59:00003D61>
+clothing
+
+<00003DAF:00003DBA>
+result == 3
+
+<00003DFC:00003E3C>
+серый свитер -
+ 100%% коттон. Очень мягкий.
+Стоит $25.
+
+<00003E90:00003E9E>
+cleanclothes()
+
+<00003F0B:00003F1B>
+Стоит это купить?
+
+<00003F29:00003F2C>
+Да
+
+<00003F71:00003F7C>
+money >= 25
+
+<00003FCA:00003FD5>
+money -= 25
+
+<00004033:00004043>
+clothes3 = False
+
+<000040A4:000040B1>
+travisXP += 8
+
+<00004103:0000410B>
+clothing
+
+<0000415A:0000417D>
+Мне не хватит денег.
+
+<000041C5:000041CD>
+clothing
+
+<0000420B:0000420D>
+Нет
+
+<0000422D:00004235>
+clothing
+
+<00004283:0000428E>
+result == 4
+
+<000042D0:00004318>
+Топ -
+ Милый вырез в виде сердечка спереди.
+Стоит $17.
+
+<0000436C:0000437A>
+cleanclothes()
+
+<000043E7:000043F7>
+Стоит купить это?
+
+<00004405:00004408>
+Да
+
+<0000444D:00004458>
+money >= 17
+
+<000044A6:000044B1>
+money -= 17
+
+<0000450F:0000451F>
+clothes4 = False
+
+<0000457D:00004589>
+derekXP += 7
+
+<000045DB:000045E3>
+clothing
+
+<00004632:00004655>
+Мне не хватит денег.
+
+<0000469D:000046A5>
+clothing
+
+<000046E3:000046E5>
+Нет
+
+<00004705:0000470D>
+clothing
+
+<0000475B:00004766>
+result == 5
+
+<000047A8:00004800>
+Розовая рубашка -
+ Идеально подходит для обычного и выходного дня.
+Стоит $40.
+
+<00004854:00004862>
+cleanclothes()
+
+<000048CF:000048DF>
+Стоит мне купить?
+
+<000048ED:000048F0>
+Да
+
+<00004936:00004941>
+money >= 40
+
+<00004991:0000499C>
+money -= 40
+
+<000049FC:00004A0C>
+clothes5 = False
+
+<00004A6C:00004A79>
+travisXP += 4
+
+<00004AD9:00004AE5>
+shiroXP += 4
+
+<00004B45:00004B51>
+derekXP += 4
+
+<00004BA5:00004BAD>
+clothing
+
+<00004BFD:00004C20>
+Мне не хватит денег.
+
+<00004C69:00004C71>
+clothing
+
+<00004CB0:00004CB2>
+Нет
+
+<00004CD2:00004CDA>
+clothing
+
+<00004D29:00004D34>
+result == 6
+
+<00004D78:00004DB5>
+Юбка бабочка -
+ безумно милая дизайнерская вещь.
+Стоит $30.
+
+<00004E0A:00004E18>
+cleanclothes()
+
+<00004E87:00004E97>
+Стоит это купить?
+
+<00004EA5:00004EA8>
+Да
+
+<00004EEE:00004EF9>
+money >= 30
+
+<00004F49:00004F54>
+money -= 30
+
+<00004FB4:00004FC4>
+clothes6 = False
+
+<00005024:00005030>
+shiroXP += 8
+
+<00005084:0000508C>
+clothing
+
+<000050DC:000050FF>
+Мне не хватит денег.
+
+<00005148:00005150>
+clothing
+
+<0000518F:00005191>
+Нет
+
+<000051B1:000051B9>
+clothing
+
+<00005209:00005214>
+result == 7
+
+<00005258:0000529F>
+Спортивыне штаны -
+ прочные и удобные. Как можно пройти мимо?
+Стоит $25.
+
+<000052F4:00005302>
+cleanclothes()
+
+<00005371:00005381>
+Стоит купить?
+
+<0000538F:00005392>
+Да
+
+<000053D8:000053E3>
+money >= 25
+
+<00005433:0000543E>
+money -= 25
+
+<0000549E:000054AE>
+clothes7 = False
+
+<0000550E:0000551A>
+derekXP -= 4
+
+<0000557A:00005588>
+travisXP += 13
+
+<000055DC:000055E4>
+clothing
+
+<00005634:00005657>
+Мне не хватит денег.
+
+<000056A0:000056A8>
+clothing
+
+<000056E7:000056E9>
+Нет
+
+<00005709:00005711>
+clothing
+
+<00005761:0000576C>
+result == 8
+
+<000057B0:00005811>
+Модны капри -
+ Вместе с бесплатным поясом! Или его стоимость уже включена в общую цену?
+Цена $45.
+
+<00005866:00005874>
+cleanclothes()
+
+<000058E3:000058F3>
+Стоит купить?
+
+<00005901:00005904>
+Да
+
+<0000594A:00005955>
+money >= 45
+
+<000059A5:000059B0>
+money -= 45
+
+<00005A10:00005A20>
+clothes8 = False
+
+<00005A80:00005A91>
+intelligence += 5
+
+<00005AF1:00005AFE>
+travisXP -= 4
+
+<00005B5E:00005B6B>
+derekXP += 13
+
+<00005BBF:00005BC7>
+clothing
+
+<00005C17:00005C3A>
+Мне не хватит денег.
+
+<00005C83:00005C8B>
+clothing
+
+<00005CCA:00005CCC>
+Нет
+
+<00005CEC:00005CF4>
+clothing
+
+<00005D6A:00005D78>
+cleanclothes()
+
+<00005DCC:00005DD4>
+clothing
+
+<00005E57:00005E60>
 gamestore
 
-<00011170:0001117B>
-window hide
-
-<000111B1:000111C1>
-in_store = False
-
-<0001121E:00011223>
-shops
-
-<0001125D:00011265>
-Пойти домой.
-
-<000112F2:000112FD>
-window hide
-
-<000113BF:000113C6>
-project
-
-<00011404:0001144A>
-Все-таки мне стоит хоть немного, но уделить время работе над проектом.
-
-<00011520:0001152C>
-not shiro_01
-
-<0001157C:0001158C>
-projectGrade +=1
-
-<0001160F:00011616>
-shiro01
-
-<0001166C:0001169D>
-shiroXP > 29 and shiro_hasbook and not shiro_book
-
-<000116ED:000116FE>
-projectGrade += 5
-
-<00011781:0001178B>
-shiro_book
-
-<000117E1:000117FE>
-shiroXP > 20 and not shiro_02
-
-<0001184E:0001185E>
-projectGrade +=3
-
-<0001192D:00011934>
-shiro02
-
-<0001198A:000119A3>
-day > 22 and not shiro_03
-
-<00011A13:00011A1A>
-shiro03
-
-<00011A70:00011AC5>
-shiro_03 and not shiro_visit and not familytalk and shiroXP > max (derekXP, travisXP)
-
-<00011B35:00011B40>
-shiro_visit
-
-<00011BD8:00011BDC>
-fade
-
-<00011C0B:00011C15>
-ruibedroom
-
-<00011CBB:00011CEA>
-Исследования и конспектирование заняло пару часов.
-
-<00011D8F:00011DC0>
-Это немного скучно, но хотя бы легко.
-
-<00011E76:00011E87>
-projectGrade += 2
-
-<00011F22:00011F28>
-school
-
-<00011F92:00011F9F>
-not travis_01
-
-<0001205B:00012063>
-travis01
-
-<000120B9:000120DC>
-not travis_riddle and travisXP > 12
-
-<00012198:000121A5>
-travis_riddle
-
-<000121FB:0001221A>
-travisXP > 20 and not travis_02
-
-<0001228A:00012292>
-travis02
-
-<000122E8:00012302>
-day > 22 and not travis_03
-
-<00012372:0001237A>
-travis03
-
-<000123D0:0001242A>
-travis_03 and not travis_siblings and not familytalk and travisXP > max (shiroXP, derekXP)
-
-<0001249A:000124A9>
-travis_siblings
-
-<0001251F:0001257C>
-Я провела час, попеременно обзванивая людей с просьбой сделать пожертвование и рассылкой конвертов.
-
-<000125DA:00012611>
-Ух... Не самая благодарная работа на свете.
-
-<00012675:00012680>
-money += 12
-
-<000126DD:000126F3>
-У меня теперь $%(money)i .
-
-<00012751:00012761>
-Пора домой.
-
-<00012808:0001280D>
-study
-
-<000128B9:000128C2>
-moveintop
-
-<00012901:00012906>
-study
-
-<000129A2:000129B9>
-Ладно, пора за уроки!
-
-<00012A1D:00012A42>
-increase = renpy.random.randint(2, 8)
-
-<00012B17:00012B23>
-increase < 4
-
-<00012B6E:00012B78>
-studysmall
-
-<00012D2F:00012D35>
-xalign
-
-<00012D3A:00012D3F>
-0.65 
-
-<00012D4A:00012D50>
-yalign
-
-<00012D55:00012D5A>
-0.07 
-
-<00012D65:00012D69>
-zoom
-
-<00012D6E:00012D72>
-0.5 
-
-<00012D7D:00012D83>
-rotate
-
-<00012D88:00012D8B>
-0.0
-
-<00012DE3:00012DE9>
-linear
-
-<00012DF8:00012DFC>
-0.2 
-
-<00012E2A:00012E30>
-xalign
-
-<00012E35:00012E3A>
-0.67 
-
-<00012E45:00012E4B>
-yalign
-
-<00012E50:00012E55>
-0.02 
-
-<00012E60:00012E64>
-zoom
-
-<00012E69:00012E6C>
-1.0
-
-<00012EF0:00012EF6>
-linear
-
-<00012F05:00012F09>
-0.3 
-
-<00012F36:00012F3C>
-rotate
-
-<00012F41:00012F45>
-10.0
-
-<00012F94:00012F9A>
-linear
-
-<00012FA9:00012FAD>
-0.3 
-
-<00012FDA:00012FE0>
-rotate
-
-<00012FE5:00012FE8>
-0.0
-
-<000130ED:000130F5>
-dissolve
-
-<0001312D:0001315E>
-Ааа! Я ничего не понимаю. Я сдаюсь.
-
-<00013219:00013223>
-studysmall
-
-<000132C2:000132C7>
-study
-
-<0001332D:0001333A>
-moveoutbottom
-
-<00013365:00013371>
-increase > 6
-
-<000133BC:000133C4>
-studybig
-
-<000134CF:000134D5>
-xalign
-
-<000134DA:000134DF>
-0.65 
-
-<000134EA:000134F0>
-yalign
-
-<000134F5:000134FA>
-0.07 
-
-<00013505:00013509>
-zoom
-
-<0001350E:00013512>
-0.5 
-
-<0001351D:00013523>
-rotate
-
-<00013528:0001352B>
-0.0
-
-<0001357A:00013580>
-linear
-
-<0001358F:00013593>
-0.2 
-
-<000135C1:000135C7>
-xalign
-
-<000135CC:000135D1>
-0.67 
-
-<000135DC:000135E2>
-yalign
-
-<000135E7:000135EC>
-0.02 
-
-<000135F7:000135FB>
-zoom
-
-<00013600:00013603>
-1.0
-
-<00013687:0001368D>
-linear
-
-<0001369C:000136A0>
-0.3 
-
-<000136CD:000136D3>
-rotate
-
-<000136D8:000136DC>
-10.0
-
-<0001372B:00013731>
-linear
-
-<00013740:00013744>
-0.3 
-
-<00013771:00013777>
-rotate
-
-<0001377C:0001377F>
-0.0
-
-<0001381A:00013822>
-dissolve
-
-<0001385A:00013895>
-Ого, да это просто на самом деле! Думаю, я усвоила информацию.
-
-<0001393B:00013943>
-studybig
-
-<00013996:0001399B>
-study
-
-<00013A01:00013A0E>
-moveoutbottom
-
-<00013A5A:00013A65>
-studynormal
-
-<00013B29:00013B2F>
-xalign
-
-<00013B34:00013B39>
-0.65 
-
-<00013B44:00013B4A>
-yalign
-
-<00013B4F:00013B54>
-0.07 
-
-<00013B5F:00013B63>
-zoom
-
-<00013B68:00013B6C>
-0.5 
-
-<00013B77:00013B7D>
-rotate
-
-<00013B82:00013B85>
-0.0
-
-<00013BD4:00013BDA>
-linear
-
-<00013BE9:00013BED>
-0.2 
-
-<00013C1B:00013C21>
-xalign
-
-<00013C26:00013C2B>
-0.67 
-
-<00013C36:00013C3C>
-yalign
-
-<00013C41:00013C46>
-0.02 
-
-<00013C51:00013C55>
-zoom
-
-<00013C5A:00013C5D>
-1.0
-
-<00013CE1:00013CE7>
-linear
-
-<00013CF6:00013CFA>
-0.3 
-
-<00013D27:00013D2D>
-rotate
-
-<00013D32:00013D36>
-10.0
-
-<00013D85:00013D8B>
-linear
-
-<00013D9A:00013D9E>
-0.3 
-
-<00013DCB:00013DD1>
-rotate
-
-<00013DD6:00013DD9>
-0.0
-
-<00013E74:00013E7C>
-dissolve
-
-<00013EB4:00013F00>
-Хм... Думаю, я наконец-то поняла. На сегодня учебы хватит.
-
-<00013F5F:00013F6A>
-studynormal
-
-<00013FBD:00013FC2>
-study
-
-<00014028:00014035>
-moveoutbottom
-
-<0001407E:00014096>
-intelligence += increase
-
-<00014131:00014137>
-movies
-
-<000141E3:000141EC>
-moveintop
-
-<0001421B:0001421D>
-tv
-
-<000142B9:000142D7>
-Думаю, сегодня я посмотрю ТВ.
-
-<0001433B:00014360>
-increase = renpy.random.randint(2, 8)
-
-<000143E9:000143F5>
-increase < 4
-
-<00014440:00014447>
-tvsmall
-
-<0001450B:00014511>
-xalign
-
-<00014516:0001451B>
-0.55 
-
-<00014526:0001452C>
-yalign
-
-<00014531:00014536>
-0.07 
-
-<00014541:00014545>
-zoom
-
-<0001454A:0001454E>
-0.5 
-
-<00014559:0001455F>
-rotate
-
-<00014564:00014567>
-0.0
-
-<000145B6:000145BC>
-linear
-
-<000145CB:000145CF>
-0.2 
-
-<000145FD:00014603>
-xalign
-
-<00014608:0001460D>
-0.49 
-
-<00014618:0001461E>
-yalign
-
-<00014623:00014628>
-0.02 
-
-<00014633:00014637>
-zoom
-
-<0001463C:0001463F>
-1.0
-
-<000146C3:000146C9>
-linear
-
-<000146D8:000146DC>
-0.3 
-
-<00014709:0001470F>
-rotate
-
-<00014714:00014719>
--10.0
-
-<00014768:0001476E>
-linear
-
-<0001477D:00014781>
-0.3 
-
-<000147AE:000147B4>
-rotate
-
-<000147B9:000147BC>
-0.0
-
-<00014857:0001485F>
-dissolve
-
-<00014897:000148CB>
-Блин, ну почему когда надо, смотреть совершенно нечего?! Мне скучно!
-
-<0001492A:00014931>
-tvsmall
-
-<00014984:00014986>
-tv
-
-<000149EC:000149F9>
-moveoutbottom
-
-<00014A24:00014A30>
-increase > 6
-
-<00014A7B:00014A80>
-tvbig
-
-<00014B90:00014B96>
-xalign
-
-<00014B9B:00014BA0>
-0.55 
-
-<00014BAB:00014BB1>
-yalign
-
-<00014BB6:00014BBB>
-0.07 
-
-<00014BC6:00014BCA>
-zoom
-
-<00014BCF:00014BD3>
-0.5 
-
-<00014BDE:00014BE4>
-rotate
-
-<00014BE9:00014BEC>
-0.0
-
-<00014C3B:00014C41>
-linear
-
-<00014C50:00014C54>
-0.2 
-
-<00014C82:00014C88>
-xalign
-
-<00014C8D:00014C92>
-0.49 
-
-<00014C9D:00014CA3>
-yalign
-
-<00014CA8:00014CAD>
-0.02 
-
-<00014CB8:00014CBC>
-zoom
-
-<00014CC1:00014CC4>
-1.0
-
-<00014D48:00014D4E>
-linear
-
-<00014D5D:00014D61>
-0.3 
-
-<00014D8E:00014D94>
-rotate
-
-<00014D99:00014D9E>
--10.0
-
-<00014DED:00014DF3>
-linear
-
-<00014E02:00014E06>
-0.3 
-
-<00014E33:00014E39>
-rotate
-
-<00014E3E:00014E41>
-0.0
-
-<00014F28:00014F30>
-dissolve
-
-<00014F68:00014FA5>
-Это шоу так затягивает! Не могу дождаться следующего выпуска.
-
-<00015050:00015055>
-tvbig
-
-<000150A8:000150AA>
-tv
-
-<00015110:0001511D>
-moveoutbottom
-
-<00015169:00015171>
-tvnormal
-
-<00015235:0001523B>
-xalign
-
-<00015240:00015245>
-0.55 
-
-<00015250:00015256>
-yalign
-
-<0001525B:00015260>
-0.07 
-
-<0001526B:0001526F>
-zoom
-
-<00015274:00015278>
-0.5 
-
-<00015283:00015289>
-rotate
-
-<0001528E:00015291>
-0.0
-
-<000152E0:000152E6>
-linear
-
-<000152F5:000152F9>
-0.2 
-
-<00015327:0001532D>
-xalign
-
-<00015332:00015337>
-0.49 
-
-<00015342:00015348>
-yalign
-
-<0001534D:00015352>
-0.02 
-
-<0001535D:00015361>
-zoom
-
-<00015366:00015369>
-1.0
-
-<000153ED:000153F3>
-linear
-
-<00015402:00015406>
-0.3 
-
-<00015433:00015439>
-rotate
-
-<0001543E:00015443>
--10.0
-
-<00015492:00015498>
-linear
-
-<000154A7:000154AB>
-0.3 
-
-<000154D8:000154DE>
-rotate
-
-<000154E3:000154E6>
-0.0
-
-<00015581:00015589>
-dissolve
-
-<000155C1:000155F2>
-Это повтор, но смотреть все равно интересно.
-
-<00015651:00015659>
-tvnormal
-
-<000156AC:000156AE>
-tv
-
-<00015714:00015721>
-moveoutbottom
-
-<0001576A:0001577F>
-socialRep += increase
-
-<0001581A:00015820>
-online
-
-<000158CC:000158D5>
-moveintop
-
-<00015904:00015907>
-net
-
-<000159A3:000159B8>
-Пора залезть в интернет!
-
-<00015A1C:00015A41>
-increase = renpy.random.randint(2, 8)
-
-<00015ACA:00015AD6>
-increase < 4
-
-<00015B21:00015B29>
-netsmall
-
-<00015BED:00015BF3>
-xalign
-
-<00015BF8:00015BFD>
-0.65 
-
-<00015C08:00015C0E>
-yalign
-
-<00015C13:00015C18>
-0.07 
-
-<00015C23:00015C27>
-zoom
-
-<00015C2C:00015C30>
-0.5 
-
-<00015C3B:00015C41>
-rotate
-
-<00015C46:00015C49>
-0.0
-
-<00015C98:00015C9E>
-linear
-
-<00015CAD:00015CB1>
-0.2 
-
-<00015CDF:00015CE5>
-xalign
-
-<00015CEA:00015CEF>
-0.64 
-
-<00015CFA:00015D00>
-yalign
-
-<00015D05:00015D0B>
--0.02 
-
-<00015D16:00015D1A>
-zoom
-
-<00015D1F:00015D22>
-1.0
-
-<00015DA6:00015DAC>
-linear
-
-<00015DBB:00015DBF>
-0.3 
-
-<00015DEC:00015DF2>
-rotate
-
-<00015DF7:00015DFB>
-10.0
-
-<00015E4A:00015E50>
-linear
-
-<00015E5F:00015E63>
-0.3 
-
-<00015E90:00015E96>
-rotate
-
-<00015E9B:00015E9E>
-0.0
-
-<00015F39:00015F41>
-dissolve
-
-<00015F79:00015FAD>
-Почему в интернете столько придурков? Гадство.
-
-<00016053:0001605B>
-netsmall
-
-<000160FA:000160FD>
-net
-
-<00016163:00016170>
-moveoutbottom
-
-<0001619B:000161A7>
-increase > 6
-
-<000161F2:000161F8>
-netbig
-
-<000162BC:000162C2>
-xalign
-
-<000162C7:000162CC>
-0.65 
-
-<000162D7:000162DD>
-yalign
-
-<000162E2:000162E7>
-0.07 
-
-<000162F2:000162F6>
-zoom
-
-<000162FB:000162FF>
-0.5 
-
-<0001630A:00016310>
-rotate
-
-<00016315:00016318>
-0.0
-
-<00016367:0001636D>
-linear
-
-<0001637C:00016380>
-0.2 
-
-<000163AE:000163B4>
-xalign
-
-<000163B9:000163BE>
-0.64 
-
-<000163C9:000163CF>
-yalign
-
-<000163D4:000163DA>
--0.02 
-
-<000163E5:000163E9>
-zoom
-
-<000163EE:000163F1>
-1.0
-
-<00016475:0001647B>
-linear
-
-<0001648A:0001648E>
-0.3 
-
-<000164BB:000164C1>
-rotate
-
-<000164C6:000164CA>
-10.0
-
-<00016519:0001651F>
-linear
-
-<0001652E:00016532>
-0.3 
-
-<0001655F:00016565>
-rotate
-
-<0001656A:0001656D>
-0.0
-
-<00016608:00016610>
-dissolve
-
-<00016648:0001669F>
-Ах... Я люблю онлайн игры. Нет ничего лучше для того, чтобы развеяться после трудного дня.
-
-<00016745:0001674B>
-netbig
-
-<0001679E:000167A1>
-net
-
-<00016807:00016814>
-moveoutbottom
-
-<00016860:00016869>
-netnormal
-
-<0001692D:00016933>
-xalign
-
-<00016938:0001693D>
-0.65 
-
-<00016948:0001694E>
-yalign
-
-<00016953:00016958>
-0.07 
-
-<00016963:00016967>
-zoom
-
-<0001696C:00016970>
-0.5 
-
-<0001697B:00016981>
-rotate
-
-<00016986:00016989>
-0.0
-
-<000169D8:000169DE>
-linear
-
-<000169ED:000169F1>
-0.2 
-
-<00016A1F:00016A25>
-xalign
-
-<00016A2A:00016A2F>
-0.64 
-
-<00016A3A:00016A40>
-yalign
-
-<00016A45:00016A4B>
--0.02 
-
-<00016A56:00016A5A>
-zoom
-
-<00016A5F:00016A62>
-1.0
-
-<00016AE6:00016AEC>
-linear
-
-<00016AFB:00016AFF>
-0.3 
-
-<00016B2C:00016B32>
-rotate
-
-<00016B37:00016B3B>
-10.0
-
-<00016B8A:00016B90>
-linear
-
-<00016B9F:00016BA3>
-0.3 
-
-<00016BD0:00016BD6>
-rotate
-
-<00016BDB:00016BDE>
-0.0
-
-<00016C79:00016C81>
-dissolve
-
-<00016CB9:00016CDC>
-Ох! Эти видео очень забавны!
-
-<00016D82:00016D8B>
-netnormal
-
-<00016DDE:00016DE1>
-net
-
-<00016E47:00016E54>
-moveoutbottom
-
-<00016E9D:00016EB2>
-onlineRep += increase
-
-<00016F94:00016F9B>
-weekend
-
-<00016FDF:00017001>
-_window_during_transitions = False
-
-<000170AB:000170C2>
-suppress_overlay = True
-
-<0001718D:00017195>
-dissolve
-
-<000171C4:000171CB>
-weekend
-
-<00017277:00017284>
-renpy.pause()
-
-<00017307:0001730F>
-saturday
-
-<00017378:0001738A>
-money += allowance
-
-<000173E7:000173F0>
-scheduler
-
-<0001743D:00017444>
-endGame
-
-<000174A4:000174A8>
-fade
-
-<000174D7:000174E0>
-classroom
-
-<000175E9:00017604>
-play music "music/calm.ogg"
-
-<00017634:00017665>
-О, Боже... Время бежит быстрее, чем хотелось бы.
-
-<000176EF:00017700>
-projectGrade > 25
-
-<00017750:0001775D>
-shiroXP += 10
-
-<000177BA:00017828>
-Сегодня у нас с Широ была презентация. Все прошло на ура, и учитель сказал, что наша работа — пример для подражания.
-
-<000178CD:000178E1>
-И неважно, что это значит.
-
-<00017932:00017943>
-projectGrade < 10
-
-<00017993:000179A0>
-derekXP += 10
-
-<000179FD:00017A68>
-Сегодня мы с Широ проводили презентацию. Я была явно не готова, и это было заметно.
-
-<00017AC6:00017B08>
-Наверное, Широ очень зол за то, что из-за меня ему снизили оценку...
-
-<00017B7F:00017B8D>
-travisXP += 10
-
-<00017BEA:00017C57>
-Сегодня мы с Широ проводили свою презентацию. Все прошло хорошо, хотя я очень нервничала, когда подошла моя очередь выступать.
-
-<00017CB5:00017CD6>
-Я просто рада, что это уже позади.
-
-<00017D3F:00017DB7>
-В любом случае, мы сдали работу, а это означает, что прошел ровно месяц с момента заключения пари с Алистером.
-
-<00017E15:00017E40>
-Думаю, самое время мне с ним встретиться.
-
-<00017EBF:00017EEE>
-Я все еще не уверена до конца, но думаю, это...
-
-<00017EFF:00017F06>
-Тревис.
-
-<00017F36:00017F4C>
+<00005EA1:00005EB7>
 renpy.block_rollback()
 
-<00017FFB:0001800E>
-travisguess =  True
+<00005F6C:00005F77>
+window show
 
-<00018059:0001805F>
-Широ.
+<00005FAA:00005FB7>
+showShop()   
 
-<0001808F:000180A5>
-renpy.block_rollback()
+<00006017:00006021>
+showgame()
 
-<00018108:00018119>
-shiroguess = True
+<00006081:00006097>
+result = ui.interact()
 
-<00018164:0001816A>
-Дерек.
+<00006111:0000611C>
+result == 0
 
-<0001819A:000181B0>
-renpy.block_rollback()
+<0000616C:00006177>
+cleangame()
 
-<00018213:00018224>
-derekguess = True
+<000061CC:000061D0>
+mall
 
-<000182CA:00018328>
-shiroXP >= max (travisXP, derekXP) and intelligence > 50 and onlineRep > 35 and socialRep > 16
+<0000622E:00006236>
+dissolve
 
-<00018378:00018387>
-shiroend = True
+<0000628F:0000629A>
+result == 1
 
-<0001840F:0001842D>
-shiroXP > 55 and shiro_hasbook
+<000062DE:0000634F>
+империалон -
+ Стрелялка от первого лица, основана на онлайн модуле. Не очень забавный сюжет, правда...
+Стоит $50.
 
-<0001847C:0001848D>
-shirobonus = True
+<000063A4:000063AF>
+cleangame()
 
-<000184E8:00018537>
-travisXP >= derekXP and onlineRep > 50 and intelligence > 35 and socialRep > 16
+<0000641E:0000642E>
+Стоит мне купить?
 
-<00018587:00018597>
-travisend = True
+<0000643C:0000643F>
+Да
 
-<0001861F:0001863F>
-travisXP > 55 and travis_hasgame
+<00006485:00006490>
+money >= 50
 
-<0001868E:000186A0>
-travisbonus = True
+<000064E0:000064EB>
+money -= 50
 
-<000186FB:00018732>
-socialRep > 50 and onlineRep > 35 and intelligence > 16
+<0000654B:00006558>
+game1 = False
 
-<00018782:00018791>
-derekend = True
+<000065BB:000065CC>
+intelligence -= 4
 
-<00018819:00018838>
-derekXP > 55 and derek_hasdress
+<0000662C:0000663B>
+onlineRep += 15
 
-<00018887:00018898>
-derekbonus = True
+<0000668F:00006698>
+gamestore
 
-<0001897D:00018984>
-guesses
+<000066E8:0000670B>
+Мне не хватит денег.
 
-<000189E7:000189EE>
-credits
+<00006754:0000675D>
+gamestore
 
+<0000679C:0000679E>
+Нет
+
+<000067BE:000067C7>
+gamestore
+
+<00006817:00006822>
+result == 2
+
+<00006866:000068CA>
+Киноманьяк -
+ обычная игра о популярных фильмах и прочей дребедени поп-культурыp.
+Стоит $30
+
+<0000691F:0000692A>
+cleangame()
+
+<00006999:000069A9>
+Стоит мне купить?
+
+<000069B7:000069BA>
+Да
+
+<00006A00:00006A0B>
+money >= 30
+
+<00006A5B:00006A66>
+money -= 30
+
+<00006AC6:00006AD3>
+game2 = False
+
+<00006B34:00006B45>
+intelligence += 5
+
+<00006BA5:00006BB3>
+socialRep += 9
+
+<00006C07:00006C10>
+gamestore
+
+<00006C61:00006C84>
+Мне не хватит денег.
+
+<00006CCE:00006CD7>
+gamestore
+
+<00006D17:00006D19>
+Нет
+
+<00006D39:00006D42>
+gamestore
+
+<00006D92:00006D9D>
+result == 3
+
+<00006DE1:00006E39>
+Бриллиантовая Луна: Последняя Фаза -
+ Последняя версия популярной РПГ серии игр.
+Стоит $50.
+
+<00006E8E:00006E99>
+cleangame()
+
+<00006F08:00006F18>
+Стоит мне купить?
+
+<00006F26:00006F29>
+Да
+
+<00006F70:00006F7B>
+money >= 50
+
+<00006FCB:00006FD6>
+money -= 50
+
+<00007037:00007044>
+game3 = False
+
+<000070A5:000070BA>
+travis_hasgame = True
+
+<00007156:0000715F>
+gamestore
+
+<000071B0:000071D3>
+Мне не хватит денег.
+
+<0000721D:00007226>
+gamestore
+
+<00007266:00007268>
+Нет
+
+<00007288:00007291>
+gamestore
+
+<000072E2:000072ED>
+result == 4
+
+<00007331:00007390>
+Другая Сага -
+ В игры вы строите дом и заводите друзей в фэнтезийном мире.
+It costs $35.
+
+<000073E5:000073F0>
+cleangame()
+
+<0000745F:0000746F>
+Стоит мне купить?
+
+<0000747D:00007480>
+Да
+
+<000074C7:000074D2>
+money >= 35
+
+<00007522:0000752D>
+money -= 35
+
+<0000758E:0000759B>
+game4 = False
+
+<000075FC:0000760A>
+onlineRep += 7
+
+<0000766A:00007678>
+socialRep += 9
+
+<000076CC:000076D5>
+gamestore
+
+<00007728:0000774B>
+Мне не хватит денег.
+
+<00007797:000077A0>
+gamestore
+
+<000077E2:000077E4>
+Нет
+
+<00007804:0000780D>
+gamestore
+
+<0000785E:00007869>
+result == 5
+
+<000078AD:00007912>
+Монохромная Диета -
+ Страшилка, в которой вы охотитесь и уничтожаете призраков. Реально страшно.
+Стоит $35.
+
+<00007967:00007972>
+cleangame()
+
+<000079E1:000079F1>
+Стоит мне купить?
+
+<000079FF:00007A02>
+Да
+
+<00007A4B:00007A56>
+money >= 35
+
+<00007AA6:00007AB1>
+money -= 35
+
+<00007B14:00007B21>
+game5 = False
+
+<00007B84:00007B93>
+onlineRep += 12
+
+<00007BF3:00007C01>
+socialRep -= 4
+
+<00007C55:00007C5E>
+gamestore
+
+<00007CAF:00007CD2>
+Мне не хватит денег.
+
+<00007D1C:00007D25>
+gamestore
+
+<00007D65:00007D67>
+Нет
+
+<00007D87:00007D90>
+gamestore
+
+<00007DE3:00007DEE>
+result == 6
+
+<00007E32:00007E92>
+демон Эдо -
+ Игра осонована на одноименной серии новелл.
+Стоит $35.
+
+<00007EE7:00007EF2>
+cleangame()
+
+<00007F61:00007F71>
+Стоит мне купить?
+
+<00007F7F:00007F82>
+Да
+
+<00007FC9:00007FD4>
+money >= 35
+
+<00008024:0000802F>
+money -= 35
+
+<00008090:0000809D>
+game6 = False
+
+<000080FE:0000810D>
+onlineRep += 10
+
+<00008161:0000816A>
+gamestore
+
+<000081BA:000081DD>
+Мне не хватит денег.
+
+<00008226:0000822F>
+gamestore
+
+<0000826E:00008270>
+Нет
+
+<00008290:00008299>
+gamestore
+
+<000082EA:000082F5>
+result == 7
+
+<00008339:00008390>
+Иди Этой Дорогой -
+ Откровенно сложная игра-паззл с более, чем 100 уровнями.
+Стоит $20.
+
+<000083E5:000083F0>
+cleangame()
+
+<0000845F:0000846F>
+Стоит мне купить?
+
+<0000847D:00008480>
+Да
+
+<000084C6:000084D1>
+money >= 20
+
+<00008521:0000852C>
+money -= 20
+
+<0000858C:00008599>
+game7 = False
+
+<000085FA:0000860C>
+intelligence += 10
+
+<00008661:0000866A>
+gamestore
+
+<000086BB:000086DE>
+Мне не хватит денег.
+
+<00008728:00008731>
+gamestore
+
+<00008771:00008773>
+Нет
+
+<00008793:0000879C>
+gamestore
+
+<000087EC:000087F7>
+result == 8
+
+<0000883B:000088A2>
+Рок Фестиваль - очень популярная игра, где вы создаете свой рок группу и ездите с ней.
+Стоит $60.
+
+<000088F7:00008902>
+cleangame()
+
+<00008971:00008981>
+Стоит мне купить?
+
+<0000898F:00008992>
+Да
+
+<000089D9:000089E4>
+money >= 60
+
+<00008A34:00008A3F>
+money -= 60
+
+<00008AA0:00008AAD>
+game8 = False
+
+<00008B0E:00008B1D>
+socialRep += 15
+
+<00008B71:00008B7A>
+gamestore
+
+<00008BCA:00008BED>
+Мне не хватит денег.
+
+<00008C36:00008C3F>
+gamestore
+
+<00008C7E:00008C80>
+Нет
+
+<00008CA0:00008CA9>
+gamestore
+
+<00008D20:00008D2B>
+cleangame()
+
+<00008D7F:00008D88>
+gamestore
+
+<00008E71:00008FE1>
+
+
+def commonShop():
+    ui.vbox(xpos=710,ypos=288)
+    ui.imagebutton("GUI/shopReturnIdle.jpg", "GUI/shopReturnHover.jpg", clicked=ui.returns(0), hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    ui.close()
+    
+    ui.vbox(xpos=645,ypos=52)
+    ui.text(str(money))
+    ui.close() 
+
+def showShop():
+    config.overlay_functions.append(commonShop)
+
+
+<00009085:0000A1BF>
+
+
+def buttonBook1():
+    ui.vbox(xpos=70,ypos=112)
+    if book1 == True:
+        ui.imagebutton("GUI/items/book1idle.png", "GUI/items/book1hover.png",  clicked=ui.returns(1),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book1inactive.png", "GUI/items/book1inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=55,ypos=195)
+    ui.text("$12")
+    ui.close()
+
+def buttonBook2():
+    ui.vbox(xpos=190,ypos=112)
+    if book2 == True:
+        ui.imagebutton("GUI/items/book2idle.png", "GUI/items/book2hover.png",  clicked=ui.returns(2),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book2inactive.png", "GUI/items/book2inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=175,ypos=195)
+    ui.text("$35")
+    ui.close()
+
+def buttonBook3():
+    ui.vbox(xpos=310,ypos=112)
+    if book3 == True:
+        ui.imagebutton("GUI/items/book3idle.png", "GUI/items/book3hover.png",  clicked=ui.returns(3),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book3inactive.png", "GUI/items/book3inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=295,ypos=195)
+    ui.text("$15")
+    ui.close()
+
+def buttonBook4():
+    ui.vbox(xpos=435,ypos=112)
+    if book4 == True:
+        ui.imagebutton("GUI/items/book4idle.png", "GUI/items/book4hover.png",  clicked=ui.returns(4),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book4inactive.png", "GUI/items/book4inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=420,ypos=195)
+    ui.text("$35")
+    ui.close()
+
+def buttonBook5():
+    ui.vbox(xpos=130,ypos=232)
+    if book5 == True:
+        ui.imagebutton("GUI/items/book5idle.png", "GUI/items/book5hover.png",  clicked=ui.returns(5),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book5inactive.png", "GUI/items/book5inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=115,ypos=315)
+    ui.text("$20")
+    ui.close()
+
+def buttonBook6():
+    ui.vbox(xpos=250,ypos=232)
+    if book6 == True:
+        ui.imagebutton("GUI/items/book6idle.png", "GUI/items/book6hover.png",  clicked=ui.returns(6),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book6inactive.png", "GUI/items/book6inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=235,ypos=315)
+    ui.text("$70")
+    ui.close()
+
+def buttonBook7():
+    ui.vbox(xpos=370,ypos=232)
+    if book7 == True:
+        ui.imagebutton("GUI/items/book7idle.png", "GUI/items/book7hover.png",  clicked=ui.returns(7),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book7inactive.png", "GUI/items/book7inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=355,ypos=315)
+    ui.text("$25")
+    ui.close()
+
+def buttonBook8():
+    ui.vbox(xpos=495,ypos=232)
+    if book8 == True:
+        ui.imagebutton("GUI/items/book8idle.png", "GUI/items/book8hover.png",  clicked=ui.returns(8),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/book8inactive.png", "GUI/items/book8inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=480,ypos=315)
+    ui.text("$30")
+    ui.close()
+
+def showBook():
+    config.overlay_functions.append(buttonBook1)
+    config.overlay_functions.append(buttonBook2)
+    config.overlay_functions.append(buttonBook3)
+    config.overlay_functions.append(buttonBook4)
+    config.overlay_functions.append(buttonBook5)
+    config.overlay_functions.append(buttonBook6)
+    config.overlay_functions.append(buttonBook7)
+    config.overlay_functions.append(buttonBook8)
+
+def cleanBook():
+    config.overlay_functions.remove(buttonBook1)
+    config.overlay_functions.remove(buttonBook2)
+    config.overlay_functions.remove(buttonBook3)
+    config.overlay_functions.remove(buttonBook4)
+    config.overlay_functions.remove(buttonBook5)
+    config.overlay_functions.remove(buttonBook6)
+    config.overlay_functions.remove(buttonBook7)
+    config.overlay_functions.remove(buttonBook8)
+    config.overlay_functions.remove(commonShop)
+
+
+<0000A263:0000B423>
+
+
+def buttonclothes1():
+    ui.vbox(xpos=70,ypos=112)
+    if clothes1 == True:
+        ui.imagebutton("GUI/items/cloth1idle.png", "GUI/items/cloth1hover.png",  clicked=ui.returns(1),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth1inactive.png", "GUI/items/cloth1inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=50,ypos=195)
+    ui.text("$65")
+    ui.close()
+
+def buttonclothes2():
+    ui.vbox(xpos=195,ypos=112)
+    if clothes2 == True:
+        ui.imagebutton("GUI/items/cloth2idle.png", "GUI/items/cloth2hover.png",  clicked=ui.returns(2),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth2inactive.png", "GUI/items/cloth2inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=175,ypos=195)
+    ui.text("$35")
+    ui.close()
+
+def buttonclothes3():
+    ui.vbox(xpos=320,ypos=112)
+    if clothes3 == True:
+        ui.imagebutton("GUI/items/cloth3idle.png", "GUI/items/cloth3hover.png",  clicked=ui.returns(3),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth3inactive.png", "GUI/items/cloth3inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=295,ypos=195)
+    ui.text("$25")
+    ui.close()
+
+def buttonclothes4():
+    ui.vbox(xpos=435,ypos=112)
+    if clothes4 == True:
+        ui.imagebutton("GUI/items/cloth4idle.png", "GUI/items/cloth4hover.png",  clicked=ui.returns(4),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth4inactive.png", "GUI/items/cloth4inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=420,ypos=195)
+    ui.text("$17")
+    ui.close()
+
+def buttonclothes5():
+    ui.vbox(xpos=130,ypos=232)
+    if clothes5 == True:
+        ui.imagebutton("GUI/items/cloth5idle.png", "GUI/items/cloth5hover.png",  clicked=ui.returns(5),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth5inactive.png", "GUI/items/cloth5inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=115,ypos=315)
+    ui.text("$40")
+    ui.close()
+
+def buttonclothes6():
+    ui.vbox(xpos=255,ypos=232)
+    if clothes6 == True:
+        ui.imagebutton("GUI/items/cloth6idle.png", "GUI/items/cloth6hover.png",  clicked=ui.returns(6),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth6inactive.png", "GUI/items/cloth6inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=235,ypos=315)
+    ui.text("$30")
+    ui.close()
+
+def buttonclothes7():
+    ui.vbox(xpos=375,ypos=232)
+    if clothes7 == True:
+        ui.imagebutton("GUI/items/cloth7idle.png", "GUI/items/cloth7hover.png",  clicked=ui.returns(7),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth7inactive.png", "GUI/items/cloth7inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=355,ypos=315)
+    ui.text("$25")
+    ui.close()
+
+def buttonclothes8():
+    ui.vbox(xpos=495,ypos=232)
+    if clothes8 == True:
+        ui.imagebutton("GUI/items/cloth8idle.png", "GUI/items/cloth8hover.png",  clicked=ui.returns(8),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/cloth8inactive.png", "GUI/items/cloth8inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=480,ypos=315)
+    ui.text("$45")
+    ui.close()
+
+def showclothes():
+    config.overlay_functions.append(buttonclothes1)
+    config.overlay_functions.append(buttonclothes2)
+    config.overlay_functions.append(buttonclothes3)
+    config.overlay_functions.append(buttonclothes4)
+    config.overlay_functions.append(buttonclothes5)
+    config.overlay_functions.append(buttonclothes6)
+    config.overlay_functions.append(buttonclothes7)
+    config.overlay_functions.append(buttonclothes8)
+
+def cleanclothes():
+    config.overlay_functions.remove(buttonclothes1)
+    config.overlay_functions.remove(buttonclothes2)
+    config.overlay_functions.remove(buttonclothes3)
+    config.overlay_functions.remove(buttonclothes4)
+    config.overlay_functions.remove(buttonclothes5)
+    config.overlay_functions.remove(buttonclothes6)
+    config.overlay_functions.remove(buttonclothes7)
+    config.overlay_functions.remove(buttonclothes8)
+    config.overlay_functions.remove(commonShop)
+
+
+<0000B4C7:0000C601>
+
+
+def buttongame1():
+    ui.vbox(xpos=70,ypos=112)
+    if game1 == True:
+        ui.imagebutton("GUI/items/game1idle.png", "GUI/items/game1hover.png",  clicked=ui.returns(1),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game1inactive.png", "GUI/items/game1inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=55,ypos=195)
+    ui.text("$50")
+    ui.close()
+
+def buttongame2():
+    ui.vbox(xpos=190,ypos=112)
+    if game2 == True:
+        ui.imagebutton("GUI/items/game2idle.png", "GUI/items/game2hover.png",  clicked=ui.returns(2),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game2inactive.png", "GUI/items/game2inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=175,ypos=195)
+    ui.text("$30")
+    ui.close()
+
+def buttongame3():
+    ui.vbox(xpos=310,ypos=112)
+    if game3 == True:
+        ui.imagebutton("GUI/items/game3idle.png", "GUI/items/game3hover.png",  clicked=ui.returns(3),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game3inactive.png", "GUI/items/game3inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=295,ypos=195)
+    ui.text("$50")
+    ui.close()
+
+def buttongame4():
+    ui.vbox(xpos=435,ypos=112)
+    if game4 == True:
+        ui.imagebutton("GUI/items/game4idle.png", "GUI/items/game4hover.png",  clicked=ui.returns(4),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game4inactive.png", "GUI/items/game4inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=420,ypos=195)
+    ui.text("$35")
+    ui.close()
+
+def buttongame5():
+    ui.vbox(xpos=130,ypos=232)
+    if game5 == True:
+        ui.imagebutton("GUI/items/game5idle.png", "GUI/items/game5hover.png",  clicked=ui.returns(5),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game5inactive.png", "GUI/items/game5inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=115,ypos=315)
+    ui.text("$35")
+    ui.close()
+
+def buttongame6():
+    ui.vbox(xpos=250,ypos=232)
+    if game6 == True:
+        ui.imagebutton("GUI/items/game6idle.png", "GUI/items/game6hover.png",  clicked=ui.returns(6),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game6inactive.png", "GUI/items/game6inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=235,ypos=315)
+    ui.text("$35")
+    ui.close()
+
+def buttongame7():
+    ui.vbox(xpos=370,ypos=232)
+    if game7 == True:
+        ui.imagebutton("GUI/items/game7idle.png", "GUI/items/game7hover.png",  clicked=ui.returns(7),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game7inactive.png", "GUI/items/game7inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=355,ypos=315)
+    ui.text("$20")
+    ui.close()
+
+def buttongame8():
+    ui.vbox(xpos=495,ypos=232)
+    if game8 == True:
+        ui.imagebutton("GUI/items/game8idle.png", "GUI/items/game8hover.png",  clicked=ui.returns(8),  hover_sound="sounds/hover.wav", activate_sound="sounds/click.wav")
+    else:
+        ui.imagebutton("GUI/items/game8inactive.png", "GUI/items/game8inactive.png",  clicked=None)
+    
+    ui.close()
+    
+    ui.vbox(xpos=480,ypos=315)
+    ui.text("$60")
+    ui.close()
+
+def showgame():
+    config.overlay_functions.append(buttongame1)
+    config.overlay_functions.append(buttongame2)
+    config.overlay_functions.append(buttongame3)
+    config.overlay_functions.append(buttongame4)
+    config.overlay_functions.append(buttongame5)
+    config.overlay_functions.append(buttongame6)
+    config.overlay_functions.append(buttongame7)
+    config.overlay_functions.append(buttongame8)
+
+def cleangame():
+    config.overlay_functions.remove(buttongame1)
+    config.overlay_functions.remove(buttongame2)
+    config.overlay_functions.remove(buttongame3)
+    config.overlay_functions.remove(buttongame4)
+    config.overlay_functions.remove(buttongame5)
+    config.overlay_functions.remove(buttongame6)
+    config.overlay_functions.remove(buttongame7)
+    config.overlay_functions.remove(buttongame8)
+    config.overlay_functions.remove(commonShop)
 
 </poem>
