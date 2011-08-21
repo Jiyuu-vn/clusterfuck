@@ -6,18 +6,18 @@
 ; ???? : ? : ?????(?)<????>
 bg "image\bg\bg_19d.jpg",%type_nowaitdisp
 
-`"------Alright."@
-` I've decided what to do from the very beginning.@
-` Taking the knife out of my pocket, I walk up to the door.@
+` - Ладно...@
+` Я с самого начала решил, что делать.@
+` Достав из кармана нож, я прошёл к двери.@
 
 
 ; ??<?>=??????:??02(???????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
 
-`"----Shiki?"@
-`"I'm going to go check things out.@ Don't leave this room until I come back."@
-` I step out into the hallway, shaking off Arcueid's look that she wants to say something.\
+` - Шики?..@
+` - Я схожу проверю, что там.@ Не выходи из комнаты, пока я не вернусь.@
+` Арквейд выглядела так, словно хочет что-то сказать, но я шагнул в коридор.\
 
 
 ; ???<?????(?)>
@@ -28,101 +28,101 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_20a.jpg",%type_lcartain_mid
 
 
-` No one is in the hallway.@
-` ...... I couldn't hear from inside, but the hallway is noisy.@
-` It's not that this floor is noisy.@
-` Rather, the noise is coming from beneath my feet.@
-` There is some kind of ruckus on the floor below, I can hear the noise of many people talking.@
+` В коридоре - никого.@
+` Из комнаты не было слышно, но здесь шумно...@
+` Не на этом этаже.@
+` Скорее, шум доносится из-под моих ног.@
+` На нижнем этаже что-то происходит, я слышу шум голосов множества людей.@
 br
-` ...... That's odd.@
-` It's just past four in the morning.@
-` Even under the assumption some people have woken up early, it's not normal for this many people to be up at this hour.\
+` Это странно...@
+` Сейчас четыре часа утра.@
+` Даже если предположить, что кто-то рано проснулся, не так же много народа в такое время... Это ненормально.\
 
-`"......... Doesn't look strange so far."@
-` I walk down the hallway.@
+` - Пока ничего не вижу...@
+` Я спустился по коридору.@
 br
-` The noise from downstairs is like the sound of ocean waves.@
+` Шум снизу напоминает звук океанских волн.@
 br
-` Noisy--and yet so very solitary and inactive.\
+` Шумно, но так одиноко и бездействующе.\
 
-`"------!"@
-` My fingers gripping the knife feel numb.@
-` A chill runs over the back of my neck.@
-` There's something near my temple.@
-` Pain emerges from the back of my eyes.@
+` - !..@
+` Мои пальцы, вцепишиеся в нож, занемели.@
+` Озноб пробежал позади моей шеи.@
+` И что-то у лба...@
+` Боль позади моих глаз.@
 br
-` Enduring it, I walk down the hallway.\
+` Ощущая всё это, я прошёл дальше по коридору.\
 
-`"------"@
-` It... hurts.@
-` My eyes... hurt.@
-` My head grows heavy, and I feel a drifting sensation, like I'm about to collapse right here.@
+` - ...@
+` Это... больно.@
+` Мои глаза... болят.@
+` Моя голова потяжелела, и меня покачивает, словно вот-вот свалюсь на месте.@
 br
-` Yeah, I know what this is.@ This is the feeling I get right before I collapse from anemia.\
+` Да, я знаю, что это.@ Такое чувство у меня бывает перед тем, как меня валит анемия.\
 
-`"Ah----gu.........!"@
+` - Ах... гу!..@
 br
-` It hurts.@
-` It hurts.@ Unable to withstand it any longer, I remove my glasses.\
+` Это больно.@
+` Это больно.@ Больше не в состоянии это выносить, я снял очки.\
 
 ; ?????(?????)<???????(?)>
 bg "image\bg\bg_20b.jpg",%type_crossfade_mid
 
 
 
-` ...... There are two elevators.@
-` One is stopped on the first floor, the other on the fifth.@
-`"........."@
-` There is an unpleasant feeling in the air.@
-` A suffocating, tense sensation.@
-` I push the button to call the elevator.@
-` I just want to know what's going on downstairs for now.\
+` Передо мной два лифта...@
+` Один остановился на первом этаже, другой на пятом.@
+` - ...@
+` В воздухе повисло неприятное чувство.@
+` Удушливое, напряжённое ощущение.@
+` Я нажал кнопку, вызывая лифт.@
+` Пока что я просто хочу выяснить, что происходит внизу.\
 
-` The elevator rises.@
-` ...... Sixth floor.@
+` Лифт понимается.@
+` ...... Шестой этаж.@
 !w500
 
-` ............... Seventh floor.@
+` ............... Седьмой этаж.@
 !w1000
 
-` .............................. Eighth floor.@
+` .............................. Восьмой этаж.@
 !w1500
 
-` ............................................. Ninth floor.\
+` ............................................. Девятый этаж.\
 
-`"--Damn it, what's up with it?"@
-` The elevator is awfully slow.@
-` Something--a shapeless, shadow-like premonition of something fatally irrevocable clings to me--
+` - Блин, что с ним такое?..@
+` Лифт движется ужасно медленно.@
+` Нечто - безформенное, тенеподобное предчувствие чего-то фатально непоправимого цепляется ко мне...
 br
-` .............................. Tenth floor.@
+` .............................. Десятый этаж.@
 br
-` Just one more floor until the elevator reaches this one.\
+` Ещё всего один этаж, и лифт будет здесь.\
 
-`"------Hurry up."@
-` My breath catches.@
-` I realize all the noise I heard from below is now long gone.@
+` - Быстрее...@
+` У меня сбилось дыхание.@
+` Я вдруг понял, что шум снизу давно пропал.@
 br
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 ; ?????(?????)<???????(?)>
 bg "image\bg\bg_20b.jpg",%type_crossfade_fst
-` With a ridiculous electronic 'ding', the elevator arrives.@
-` The door opens.@
-` There is no one inside.@
-` The interior of the narrow steel box is surprisingly clean and tidy.\
+` С неестественным электронным "динь!" лифт прибыл.@
+` Дверь открылась.@
+` Внутри никого нет.@
+` Интерьер узкой стальной коробки неожитанно чистый и опрятный.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10b.jpg",%type_lcartain_mid
 
-`"------"@
-` I enter, and press the button for the tenth floor.@
-` With a heavy noise, the elevator descends.@
-` Just one floor down, but it feels awfully far.@
-` The current floor display shifts to show the tenth floor.@
-`"Finally--"@
+` - ...@
+` Я вошёл и нажал кнопку десятого этажа.@
+` С тяжёлым шумом лифт начал спускаться.@
+` Всего один этаж вниз, но чувство такое, словно это очень далеко.@
+` Показатель этажа сменился на десятку.@
+` - Наконец-то...@
 br
-` Suddenly---
+` Внезапно...
 
 
 ; ???<????>
@@ -132,65 +132,65 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 playstop
 
 
-` The world is engulfed in darkness.\
+` Мир окутан тьмой.\
 
 ;S.E."????(???)"
 waveloop se1
 
-`".........!?"@
+` - ?!..@
 br
-` Darkness.@ Total darkness.@
-` Pitch black, utterly without light.@
+` Тьма.@ Полная тьма.@
+` Угольно чёрная, абсолютно лишённая света.@
 br
-` In that,
-` all I can see is the faint glimmer of the 'lines' of death.\
+` В этом,
+` Всё, что я могу видеть, это слабые отблески «линий смерти».\
 
-`"Why--?"@
-` My breath freezes in my throat.@
-` From all around, something--some kind of rustling sound, like the sound of insects crawling around--can be heard.\
-
-br
-br
-` *rustle*@
-br
-br
-` *rustle* *rustle*@
-br
-br
-` *rustle* *rustle* *rustle* *rustle* ......!\
-
-`"-----!"@
-` I am about to cry out, but I hold back my scream.@
-`"...... First, I've got to examine the situation..."@
-` Just like Sensei taught me long ago.@
-`"...... And then, think carefully..."@
-` Taking a huge breath, I manage to calm my thoughts.\
-
-`"...... I see...... A blackout."@
-` ...... But a hotel like this should have a backup generator for occasions like this.@
-` Something must be wrong with the cables, if even that's not working.\
+` - Почему?..@
+` Моё дыхание застыло в глотке.@
+` Отовсюду слышно нечто... какое-то шуршание, словно звуки ползающих кругом насекомых.\
 
 br
 br
+` *шур*@
 br
 br
+` *шур* *шур*@
 br
 br
-br
-` *rustle* *rustle* *rustllllllle*\
+` *шур* *шур* *шур* *шур* !..\
 
-`"......!"@
-` Gripping the knife, I tense up.@
-` The sound of the crawling insects is coming from around the elevator.@
-` It's like...
-` It feels like there are hundreds of giant cockroaches clinging to the outside of the elevator.\
+` - !..@
+` Я чуть не заорал, но сумел сдержать вопль.@
+` - ...Сперва нужно разобраться с ситуацией...@
+` Как когда-то учила меня Сенсей.@
+` - ...И затем тщательно обдумать...@
+` Глубоко вздохнув, я сумел успокоить мысли.\
 
-`"--There's no point in staying here."@
-` The display stopped when the tenth floor was lit.@
-` Then it means that if I open the door, I should be at the tenth floor.@
-`"----Guess I'll cut it."@
-` I whisper to myself.@
-` Thrusting the knife into the only 'line' I can see, I cut apart the door of the elevator.\
+` - ...Понятно... Отключение электричества.@
+` Но в подобном отеле на такой случай должен быть резервный генератор...@
+` Должно быть, что-то с кабелями, если даже он не работает.\
+
+br
+br
+br
+br
+br
+br
+br
+` *шур* *шур* *шшшур*\
+
+` - !..@
+` Я напрягся и схватился за нож.@
+` Звуки ползущих насекомых доносятся со всех сторон лифта.@
+` Это словно...
+` Такое чувство, словно к лифту снаружи прижимаются сотни гигантских тараканов.\
+
+` - Нет смысла здесь оставаться...@
+` Когда отключился дисплей, на нём горела десятка.@
+` Что значит, если я открою дверь, то окажусь на десятом этаже.@
+` - Полагаю, придётся её разрезать.@
+` Шепнул я себе.@
+` Вонзив нож в единственную видимую «линию», я распорол дверь лифта.\
 
 monocro #0f00f0
 
@@ -198,144 +198,144 @@ monocro #0f00f0
 bg "image\bg\bg_20b.jpg",%type_lshutter_mid
 
 
-`"...... !?"@
-` The instant the door opens--I am enveloped by a suffocating stench.@
-` The tenth floor is filled with it.@
-` It's so thick just breathing it is enough to clog my airways.\
+` - ?!..@
+` В тот же миг, как дверь лифта открылась... Меня окутала удушливая вонь.@
+` Десятый этаж наполнен ей.@
+` Она такая густая, что дыхание забивает дыхательные пути.\
 
-`"-----"@
-` But even so, if I were to take a step outside, I would be on the tenth floor's hallway.@
-` In the distance, there is the faint glow of the lamp marking the fire escape.@
-` Apart from that, the world is painted over in darkness.@
-` I take a step outside.@
-`"...... Is anyone..."@
-` I'm about to say "there", but I stop.@
-` I don't quite know why, but I feel as though it would be a bad idea to raise my voice.\
+` - ...@
+` Но даже так, если шагнуть наружу, я окажусь в коридоре десятого этажа.@
+` На отдалении слабое свечение лампы отмечает пожарный выход.@
+` Если не считать этого, мир окутан тьмой.@
+` Я шагнул наружу.@
+` - ...Есть кто-нибудь...@
+` Я хотел сказать "здесь", но остановился.@
+` Я не уверен, почему, но у меня такое чувство, что повышать голос - плохая идея.\
 
-` I take another step.@
-` Slowly, I enter the hallway.@
-` The corridor reeks of the terrible smell.@
-` A raw smell.@ The smell of beasts.@
-` That, and a grinding sound coming from somewhere.\
+` Я сделал ещё один шаг.@
+` Медленно вошёл в проход.@
+` Коридор разит ужасным запахом.@
+` Сырая вонь.@ Запах зверей.@
+` Это и доносящийся откуда-то хруст.\
 
-`"........."@
-` There's been a stinging pain in my neck for a while now.@
-` The darkness is frightening.@
-` This silence is frightening.@
-` ...... To find out what happened here is more frightening than anything else.@
-` The pain from the back of my neck running to the top of my spine holds back my nervousness.@
-` That throbbing pain,
-` it's the price of my desperate attempts to repress the urge to just scream and flee.\
-
-br
-br
-` *rustle* *rustle* *rustle*@
-br
-br
-` *grind* *grind* *grind*@
-br
-br
-` []*scratch* []*scratch* []*scratch*\
-
-`"Ha...!"@
-` My breathing goes wild.@
-` My body is drenched in sweat.@
-` ...... Knife in hand, I am unable to take another step.@
-` I have the feeling that if I were to move even a little, I would see something unimaginably horrible.\
-
-` *pant*  *pant*@
-` But I'll really be in trouble if I don't get back upstairs.@
-` ...... To stay on this floor is worse.@
-br
-` It feels like each second passing is grinding a year off my life.@ That's how fast I feel 'death' closing in on me.\
-
-` My breath comes quicker and heavier.@
-` Fortunately, I can see where the fire escape is, thanks to the lamp.@
-` It's down the end of the hallway.@
-` If I can reach that green emergency light, I can go back upstairs.@
-br
-` Gripping the knife, I set off down the dark hallway.\
+` - ...@
+` У меня в шее уже какое-то время колет.@
+` Тьма пугает.@
+` Это безмолвие пугает.@
+` Выяснение того, что здесь случилось, пугает больше, чем что-либо другое...@
+` Боль в шее, бегущая по верхней части позвоночника, сдерживает мою нервозность.@
+` Эта пульсирующая боль,
+` это цена моих отчаянных усилий сдержать порыв просто завопить и броситься в бегство.\
 
 br
 br
+` *шур* *шур* *шур*@
+br
+br
+` *хрусть* *хрусть* *хрусть*@
+br
+br
+` []*скряб* []*скряб* []*скряб*\
+
+` - Ух!..@
+` Моё дыхание сбивается.@
+` Моё тело обливается потом.@
+` С ножом в руке, я неспособен сделать ещё один шаг...@
+` Я меня предчувствие, что если я сдвинусь хоть немного, то увижу нечто невообразимо ужасное.\
+
+` *тяжёлое дыхание*@
+` Но у меня действительно будут проблемы, если я не вернусь обратно наверх.@
+` Оставаться на этом этаже ещё хуже...@
+br
+` Такое чувство, словно каждая проходящая секунда отнимает год моей жизни.@ Настолько быстро, я чувствую, приближается ко мне «смерть».\
+
+` Моё дыхание становится быстрее и тяжелее.@
+` К счастью, благодаря лампе я вижу, где пожарный выход.@
+` Он в конце коридора.@
+` Если я смогу добраться до этого зелёного аварийного света, то смогу вернуться обратно наверх.@
+br
+` Держась за нож, я отправился в путь по тёмному коридору.\
+
 br
 br
 br
 br
-` -----[]*splash*\
-` I can hear something from beneath my feet.\
-
-`"-----"@
-` I guess the hallway is soaked in water.@
-` In addition, my feet keep bumping into things as I walk.@
-`"-----"@
-` Even so, I stay silent.@
-` Bearing with the terrible stench smothering me, I head for the emergency light.@
-` Only a few more meters to go.@
-` Then, I see something squirming beneath the emergency light.\
-
-`"......... Eh?"@
-` I break my silence.@
 br
-` A squishing, lukewarm sound.@
-` A dry, grinding sound.@
-` The wild panting breath of beasts.\
-
-`"Wh--"@
-` Under the green light of the fire escape...
-` All sorts of animals are swarming around some human-shaped object.@
 br
-` I can't tell what sorts of animals are eating it.@
-` The hallway is dark, and the emergency light is too weak.@
-` That's why all I can gather is this image.\
+` ...[]*плеск*\
+` Я слышу что-то под ногами.\
 
-` ---Numerous cockroaches are devouring the human corpse while emitting a laughing buzzing sound.@
-` That's the only way I can make sense of this nightmare.\
+` - ...@
+` Полагаю, в коридор протекла вода.@
+` Вдобавок, когда я иду, мои ноги то и дело натыкаются на какие-то предметы.@
+` - ...@
+` Даже так, я соблюдаю тишину.@
+` Борясь с ужасной удушливой вонью, я направляюсь к аварийному освещению.@
+` Осталось всего несколько метров.@
+` И тут я увидел, как что-то шевелится под аварийным освещением.\
 
-` *rustle*@
-` There is a noise coming from the direction of the elevator.\
+` - Э?..@
+` Я нарушил молчание.@
+br
+` Шмякающий, тепловатый звук.@
+` Сухой, хрустящий звук.@
+` Дикое дыхание зверей.\
 
-`"Ha----"@
-` I turn around.@
-` Perhaps it's because my eyes have adjusted to the darkness?@
-` Or maybe it's thanks to light from the fire escape, but I now see exactly what sort of condition the hallway I just passed through is in.\
+` - Чт...@
+` Под зелёным светом пожарного выхода...
+` Различные животные кишат вокруг какого-то человекоподобного объекта.@
+br
+` Я не могу определить, что за животные его едят.@
+` Коридор тёмен, а аварийный свет слишком слаб.@
+` Поэтому я могу составить лишь такую картину.\
+
+` Бесчисленные тараканы поглощают человеческий труп, испуская смеющееся жужжание...@
+` Это единственный разумный вариант для этого кошмара.\
+
+` *шорох*@
+` Со стороны лифта доносится шум.\
+
+` - Ха...@
+` Я обернулся.@
+` Возможно, это из-за того, что мои глаза привыкли к темноте?@
+` Или, возможно, из-за отсвета аварийного освещения, но теперь я могу точно видеть, в каком состоянии находится коридор, через который я только что прошёл.\
 
 monocro #ff0000
 ; ?????(?????)<???????(?)>
 bg "image\bg\bg_20b.jpg",%type_crossfade_fst
 
 
-` The hallway is a sea of red.@
-` Lying around within that sea are human arms and legs.@
-` The soaked hallway.@ Scraggy, hard objects which I felt on my legs.@
-` It must have been what I was stepping on.@
-`"------"@
-` My mind goes blank.@
-` The hallway is red only on the floor.@
-` Clinging to the ceiling and walls are all sorts of black things.\
+` Красное море.@
+` И в этом море лежат человеческие руки и ноги.@
+` Промокший коридор.@ Неровные, твёрдые предметы, которые я ощущал под ногами.@
+` Вот на что я наступал.@
+` - ...@
+` Мой разум опустел.@
+` Коридор красный только на полу.@
+` К стенам и потолку цепляются различные чёрные объекты.\
 
-` It's not because there are no lights that they look black.@
-` They are black to begin with.@
-` They don't seem to have any solid shape, sticking to the ceiling and walls like some sort of liquid.@
-` But I know they are animals from the eyes.@
-` The glinting eyes of the many beast-like forms are trained on me, the only surviving human-----\
+` Они выглядят чёрными не потому что нет света.@
+` Они изначально были чёрными.@
+` У них словно нет твёрдой формы, они липнут к потолку и стенам как некая жидкость.@
+` Но я по глазам знаю, что это животные.@
+` Поблёскивающие глаза множества звероподобных форм направлены на меня, единственного выжившего человека...\
 
-`"Hya......"@
-` I manage to suppress my scream.@
-` The beasts are staring at me intently.@
-` They hold their breath, waiting to assault me the moment I scream out.@
-`"Ha---hhh."@
-` I manage to regulate my ragged breathing.@
-` I can feel it, awfully so, that the moment I cry out, they'll all attack me at once.@
-` None of the creatures on the wall possess the same eyes.@
-` It's almost ridiculous to see even shark-like eyes clinging to the wall.\
+` - Хья...@
+` Я сумел сдержать вопль.@
+` Звери внимательно смотрят на меня.@
+` Они сдерживают дыхания, ожидая момента напасть на меня, когда я закричу.@
+` - Ух... ххх.@
+` Я сумел совладать со своим оборванным дыханием.@
+` Я чувствую, и до ужаса чётко, что стоит мне вскрикнуть, и все они разом нападут на меня.@
+` Ни у кого из существ на стене нет одинаковых глаз.@
+` Почти безумие видеть на стене даже глаза акулы.\
 
-`"............"@
-` I order my feet to move, but they won't budge an inch.@
+` - ...@
+` Я приказываю ногам двигаться, но они не сдвигаются и на дюйм.@
 br
-` ----I can't move.@
+` Я не могу двигаться...@
 br
-` My feet will not move, after having seen a world like this.\
+` Мои ноги неспособны двигаться после такого зрелища.\
 
 br
 br
@@ -344,21 +344,21 @@ br
 br
 br
 br
-` *grind* ...... *grind* ...... *gr* ...... *ind* ......\
+` *хрусь* ...... *хрусь* ...... *хр* ...... *усь* ......\
 
-` The noise from beneath the emergency light grows smaller.@
-` Those beasts are probably finishing off the corpse.@
-`"........."@
-` My breath catches.@
-` The rustling draws closer.@
-` It seems--the creatures found their next prey called Tohno Shiki.\
+` Шум из-под экстренного света стихает.@
+` Эти звери, похоже, закончили с трупом.@
+` - ...@
+` Моё дыхание сбилось.@
+` Шуршание приближается.@
+` Похоже... существа нашли следующую добычу, называемую Тоно Шики.\
 
-`"Ah........."@
-` But my legs would not move.@
-` This world is too different, my mind doesn't operate properly.@
+` - Ах...@
+` Но мои ноги не хотят двигаться.@
+` Этот мир слишком непривычный, мой разум не может правильно работать.@
 br
-` ---I've made a mistake.@
-` I shouldn't have come to this floor----\
+` Я совершил ошибку....@
+` Мне не следовало приходить на этот этаж...\
 
 monocro off
 
@@ -368,24 +368,24 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
 
 br
-` ---Then.@
+` И тут...@
 br
-` I can hear a terribly familiar sound.@
-` The very normal sound of human footsteps.@
-` A completely normal, common-sense sound from the world I lived in until a moment ago.\
+` Я услышал ужасно знакомый звук.@
+` Нормальный звук человеческих шагов.@
+` Совешенно нормальный, обыкновенный звук из мира, в котором я жил момент назад.\
 
-`"Aaaaaaah----!"@
-` My numbed mind infuses strength into my paralyzed legs.@
-` I run.@
-` Kicking up soaked blood in the hallway, I dash towards the emergency light.@
-` Run.@
-` I have to get away from this place as fast as possible...!\
+` - Аааах!..@
+` Мой онемевший разум вложил силу в мои парализованые ноги.@
+` Я побежал.@
+` Взбивая пропитавшую коридор кровь, я помчался к аварийному освещению.@
+` Бежать.@
+` Мне нужно как можно быстрее убраться из этого места!..\
 
-` But that was a mistake.@
-` Reacting to my dash, the black things clinging to the wall and ceilings crash after me like a wave.@
-`"----!"@
-` I dash towards the stairs with everything I have.@
-` But the black wave is so many times faster than I am, and in an instant, my body is--\
+` Но это было ошибкой.@
+` Среагировав на мой рывок, чёрные вещи, липнущие стенам и потолку, волной бросились за мной.@
+` - !..@
+` Я бросился к лестнице изо всех сил.@
+` Но чёрная волна во много раз быстрее меня, и через мгновение, моё тело...\
 
 ;S.E.??
 wavestop
