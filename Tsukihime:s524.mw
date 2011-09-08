@@ -20,16 +20,16 @@ cl c,%type_lcartain_mid
 ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
-` Merci!@ Time for the fourth period lesson.@
-` ...... Oh, too bad.@
-` Showing your back like that in a fight, you're still no good, Tohno-kun.@
-` There's too much difference in experience between an expert fighter like Ciel-san and Tohno-kun.@
-` You should have acted in a way Ciel-san would not expect.\
+` Мерси!@ Время для урока четвёртого периода.@
+` О, какая жалость...@
+` Так показывать спину во время боя... Ты всё ещё зелёный, Тоно-кун.@
+` Между таким бывалым бойцом, как Сиэль-сан и Тоно-кун слишком большая разница в опыте.@
+` Тебе следовало действовать так, как Сиэль-сан не ожидала бы.\
 
 ; ?????? : 01~10 : 01_?01(????)<??????(?)>
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 
-`"Hmph, attacking someone from behind like that, it really shows your character, Ciel.@ Are you showing your true self nyaa?"@
+` - Хмф, атаковать кого-то со спины, это действительно многое о тебе говорит, Сиэль.@ Ты демонстрируешь свои настощие цвета, ня?@
 br
 ` ............@
 
@@ -38,21 +38,21 @@ bg "image\bg\ima_14.jpg",%type_lshutter_fst
 ;S.E."?????????"
 wave se11
 br
-`"Unyaa!@ You stabbed me, you just stabbed me when the camera couldn't see us, nyaaa!"@
+` - Уняаа!@ Ты меня проткнула, ты проткнула меня, когда камера отвернулась в сторону, няаа!@
 br
 ` ........................@
 ; ????????<????>
 bg "image\bg\ima_13.jpg",%type_nowaitdisp
 br
-`"Unyaaaaaaaaaaaaaaaaa!"\
+` - Уняааааааааааааааааа!\
 
 ; ?? : ?? : ??(?)<??????(?)>
 bg "image\bg\bg_06a.jpg",%type_lshutter_mid
 ld r,":a;image\tachi\cel_t20.jpg",%type_lshutter_fst
 
-` Extermination of the noisy cat has been completed.@
-` Goodness, a vampire like you who takes away someone's lover has no right to say anything.@
-` Now then everyone, please enjoy the rest of the main story!\
+` Истребление шумной кошки завершено.@
+` Господи, вампирша вроде тебя, ворующая чужого любимого, не имеет права что-то говорить.@
+` Ну а теперь, все, пожалуйста, наслаждайтесь остатком основной истории!\
 
 
 ; ???<???????(?)>
@@ -61,12 +61,12 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ?????? : 01~10 : 01_?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t30.jpg",%type_lscroll_mid
 
-`"Nyaa, what is this?@ I haven't done that yet."@
+` - Ня, ты о чём?@ Я этого ещё не делала.@
 
 br
-` "Yet" means you're going to do so in the future?@
+` «Ещё» означает, что собираешься в будущем?@
 br
-`"Ehehe.@ I'll leave the answer to that for later."\
+` - Эхехе.@ Я оставлю ответ на потом.\
 cl c,%type_lscroll_mid
 
 
