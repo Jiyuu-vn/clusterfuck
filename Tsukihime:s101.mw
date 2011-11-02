@@ -626,35 +626,29 @@ br
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 ` «...»@
-` Их было не десять и не двадцать.@ Пусть они не сильные, но их добрая сотня, а я один.@ Твари сползаются ко мне, как муравьи на сахарный кубик.\
+` Уже не первый десяток пошёл, а они всё лезут и лезут: не силой возьмут, так числом.@ Сотня этих тварей обступили меня, как муравьи кусочек сахара.\
 
-`"Wha----"@
-` I stick my knife into the neck of the black dog before me.@
+` — А...@ — я воткнул нож в шею собаки.@
 ;S.E."??????"
 wave se5
 
-` The black dog dies as it's 'death' is cut.@
+` Удар пришёлся в «точку», и она умерла.@
 br
-` Instantly, the sound of birds' wings overhead.@
+` Но тут же над головой захлопали крылья.@
 ;S.E."?????"
 wave se9
 
-` With a grating sound, the meat of my forehead is taken to the bone.\
+` Птица пронзительно закричала, и я получил удар в лоб, который проник да самого черепа.\
 
-`"Ach----!"@
-` I don't have time to react in pain.@
-` At the same time, several black dogs bite my arms and torso from both sides.@
+` — Ай! — закричал я.@ Но не успела пройти эта боль, как в мои руку и туловище вцепились собаки.@
 ; ????(??????)<??????(?)>
 bg "image\bg\ima_13.jpg",%type_lshutter_fst
 
-`"You, junk----!"@
+` — Суки!@
 ;S.E."????????????"
 wave se6
 
-` Slice.@ Slice.@
-` I stab the "death" of the two dogs in my line of vision.@
-` But, it isn't enough.@
-` For each one I kill, ten more beasts take its place to rip into my body.\
+` Удар.@ Ещё удар.@ Пара собак получила ножом по точкам смерти.@ Но их слишком много.@ Когда падала одна, в моё тело вгрызались ещё десять.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -662,34 +656,19 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ;S.E."??"
 wave se0
 
-`"Ah----Ah..."@
-` I can't see.@
-` I can't see anything.@
-` Everything is pitch black.@
-` There isn't anything wrong with my eyes.@
-` All around me----the black beasts envelop me in darkness.\
+` — А... а...@
+` Ничего не вижу.@ Совсем ничего.@ Сплошная чернота.@ И дело не в моих глазах.@ Просто тёмные твари накрыли меня чёрным одеялом.\
 
-`"------!!!!!!"@
-` Things can't keep going this way.@
-` I will die.@ I won't last five more seconds.@
-` My ankles are bit.@ Blood flows.@ My body feels like it will fall.@ If I collapse, it will all be over.@
-` They will ravenously feast on my body if I hit the ground.@
+` Так нельзя!@ Я умру.@ Мне не протянуть и пяти секунд.@
+` Раны на лодыжках.@ Истекаю кровью.@ Чувствую, что падаю в пустоту.@ Нельзя терять сознание, иначе конец.@ Если упаду на землю, они начнут свой кровавый пир.@
 br
-`"No----"@
-` No.@
-` That is more fearful than painful.\
+` «Нет!»@
+` Хватит.@ Страх сильнее боли.\
 
-` ---Everything is pitch black.@
-` I can't see anything.@ I can't do anything.@
-` But, that's why I have to think.@
+` Вокруг всё черно.@ Я ничего не вижу.@ Ничего не могу.@ Но надо думать.@
 br
-
-
-
-
 
 return
-
 
 </pre>
 
