@@ -1,1158 +1,550 @@
 <poem>
-*define
-spi "jpgplgin.dll|jpg"
-arc "arc.sar|scrunarc.dll"
+A twinkling in the river. Then a sudden turn and I can see silveryscales. At the same time, the bobber that has been sitting patiently suddenly catches and dips into the water.  
 
-caption "Visions from the Other Side"
-clickstr "!???",2
-defaultfont "MS ??"
-windoweffect 10,300
+【Rick】 "Alright! Got it!" 
 
-versionstr "`Visions from the Other Side v1.1E","`Created by: RAIL"
-globalon
-game
+I carefully time it and pull the rod up.  
 
+The trees in the forest shake and rustle. I heave and send the fish flying out of the river, the splash getting water on my whiskers. 
 
-*start
+I take the cover off the fish basket that's floating in the water, and pull the hook  out of the fish I just caught.  
 
+【Rick】 "Ah-, Aah!"
 
+The fish slips through my hands and falls back into the river with a splash,disappearing  from my sight.
 
+The noise of the water and the cry of the cicadas are all I'm left with.  
 
+I wipe off my wet whiskers. 
 
+【Rick】 "... oh well." 
 
-bg white,10,800
+In the fish basket are more than enough fish to make dinner for me and my littlebrother.
 
-bg "data/logo.jpg",18,2000,"data/m3.jpg"
-wave "data/Bell.wav"
-wait 2100
+I pull the basket out of the water. Cold water drips off it and leaves wetmarks on the ground.  
 
-bg "data/logo+jiyuu.jpg",18,2000,"data/m3.jpg"
-wave "data/Bell.wav"
-wait 2100
+I moan as I stretch my back and take adeep breath, filling my lungs with thesmell of the water and flowers. 
 
-bg white,10,500
-bg black,10,1500
-wait 2000
-rmode 1
-goto *title
+This riverside is far away from Bastokvillage.  
 
-*title
-bg "data/tukiyo.jpg",18,2000,"data/m2.jpg"
-wait 500
-bg "data/tukiyo2.jpg",18,2500,"data/m1.jpg"
-play "data/title.mid"
-wait 1000
-if %200>0 goto *omake
-goto *nomal
+On a huge island afloat in the middle ofthe river bloom the fragrant flowers knownas Amorea.  
 
-*nomal
-locate 9,12
+This has become my favorite fishing spot, I can easily catch a side dish for dinner here. Since it's so far away from the village nobody ever comes here, so it feels like my own private spot. 
 
+I wind up the fishing rod and lift thebasket on my shoulder.
 
-select "` Начать игру",*s_0,
-"` Выход",*ending
+With the setting sun at my back, I head home. 
 
-*omake
-locate 9,12
+From the top of the hill I can see theedge of the continent. As always, all you can see below is the everflowing stream ofpure white clouds.  
 
+The smell of the wind that brushes againstmy fur is different here than the forest. Perhaps it's the smell of those clouds. 
 
+"What if I could cross this edge, whatwould lie beyond those clouds?", I wonder.  
 
-select "` Начать игру",*s_0,
-"` Галерея",*cgmode,
-"` Выход",*ending
+Spreading out beyond them lies a newworld that I have yet to see. I don't knowwhether or not that world really exists,but I feel it definitely does.
 
+In the holy scripture it says that belowthe continent there's nothing but thick lavaand darkness, and that the continent we liveon was born from that darkness. 
 
-*cgmode
-stop
-bg black,10,500
-wait 500
-!s40
-locate 3,7
+I don't believe in that nonsense. 
 
-` Здесь вы можете полюбоваться открытыми рисунками. \
-wait 500
+Our father was a scholar. He studiedancient documents and myths. And he found out that another world exists below those clouds. 
 
-*cg2
-bg "data/eve02.jpg",10,500
-click
+Below this continent, a civilization is flourishing, a whole different world exists there. That's what he wrote in his diaryand his research papers.
 
-goto *cg3
+I don't really have any memories of myfather. All I know is what my mother told me. 
 
-*cg3
-bg "data/eve03.jpg",10,500
-click
-goto *cg4
+She said that in order to go to the out-side world, father engaged in forbidden research about aircraft.  
 
-*cg4
-bg "data/eve04.jpg",10,500
-click
-goto *cg5
+Because of that, because he had committed heresy, he was arrested by the Holy Order's military police and executed. That's what mother said.  
 
-*cg5
-bg "data/eve05.jpg",10,500
-click
-goto *cg6
+But that isn't true.I've found father's secret study. Left therewere records about the completion of hisairplane, dated until the day before hisflight. 
 
-*cg6
-bg "data/eve06.jpg",10,500
-click
-goto *cg7
+Dad being arrested by the order, that was all a lie.Dad flew his airplane to that other world.
 
-*cg7
-bg "data/eve07.jpg",10,500
-click
-goto *cgend
+The Order probably wanted to cover up thatthe forbidden airplane really flew throughthe sky.
 
- *cgend
-bg black,10,1000
-goto *title
+I too want to fly through the sky, just like my father. And I want to make sure with my own eyes what kind of world iswaiting for me out there. 
 
-*s_0
+Luckily dad left an unfinished airplane together with the blueprints in his study.I can only take one step at a time, but I will continue building it.
 
-wait 2000
-bg black,18,1000,"data/m3.jpg"
-play "data/syu-syou.mid"
-wait 2000
+One day I will feel my body shake as Ihead for the end of the clouds. 
 
+The drifting clouds are starting to get tinged with a faint orange. The cry of thecicadas has changed and an evening breeze has started to blow.
 
+I realize that I must be making mybrother wait for dinner, so I hurry down  that hill and back home.
 
-bg "data/com01.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
+・・・・
 
-wait 300
-wave "data/korogi.wav"
-bg "data/michi.jpg",1
-bg black,18,2000,"data/m3.jpg"
+【Napp】 "Hey, welcome back big brother." 
 
+【Rick】 "I'm home. Anything happened?" 
 
+【Napp】 "Nah, all the same." 
 
-bg "data/com01.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
+【Rick】 "I see. Alright, just wait a minute, I'll  start making dinner right away."
 
-bg "data/michi.jpg",1
-bg black,18,2000,"data/m3.jpg"
-wave "data/korogi.wav"
-wait 700
+My little brother Napp nods lightly and continues to read his book. 
 
+Napp is suffering from an illness.Because he has been ill ever since he was a child, he never got out of the house much.
 
+It's like he has a weak heart, and as longas he lies down there really is no problemat all, but having to spend most of the timelaying in bed, I really can't take seeing him like this.  
 
-bg "data/com02.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
+Today's dinner is a hot egg soup with lotsof milk in it, salt-fried fish stuffed with aromatic herbs, and nuts bread. 
 
-bg "data/michi.jpg",1
-bg black,18,2000,"data/m3.jpg"
-wait 700
+Since we both love egg soup with milk weshare a pot of it and end up making quite a mess. 
 
+After resting a bit Napp returns to his room, and I think: Why not tag along to chat with him for a while?
 
+【Rick】 "You know, the last fish that I let free was the biggest I caught today."
 
+While saying that I point out with both of my index fingers how big that fish was.
 
-bg "data/com03.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
-wave "data/korogi.wav"
+【Napp】 "Hahaha, wasn't it more like the size of the ones we had for dinner? You're  exaggerating big brother."  
 
+【Rick】 "Come on, how could you know without seeing."
 
+【Napp】 "Because you said you let the big one free." 
 
-bg "data/com04.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
+Napp says, giggling afterwards. 
 
+【Rick】 "Earlier I found a new document in dad's study, did I tell you about that?"
 
+【Napp】 "I don't think you have, but I'm not really  interested in that anyway." 
 
-bg "data/com05.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
+【Rick】 "Always the same old story." 
 
+【Napp】 "That's my line big brother, you are the one that talks about nothing but that silly stuff." 
 
-bg "data/michi2.jpg",18,2000,"data/m3.jpg"
-wait 700
-wave "data/korogi.wav"
-bg black,10,2000
+【Rick】 "Is that so? Are you really not interested in that? Whether there's a new world  beyond those clouds?" 
 
+【Napp】 "Wanting to go beyond the clouds is already  a disgraceful thought! What right do we have to intrude into the sky?"  
 
+【Rick】 "That's just what that monk used to tell us  long ago. You have to see that with the eyes of a scientist." 
 
-bg "data/com06.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
+【Napp】 "That's not the only reason! Wasn't it because dad went to the other world that  mom has had such a hard time?"
 
+【Rick】 "But, dad flew with an airplane, beyond  the clouds. That's amazing, isn't it?"
 
+【Napp】 "That's all you see in him big brother! I  will never forgive him. 
 
-bg "data/com07.jpg",10,800
-wait 500
-bg black,18,2000,"data/m3.jpg"
-wait 700
+I know what he did was amazing. But, wasn't it his fault that our mother  died? 
 
-bg "data/tukiyo.jpg",18,2000,"data/m2.jpg"
-wait 500
-!s40
-locate 5,9
+Was it not father's fault that we had to  suffer that much?"  
 
-` Слабый лунный свет
-locate 5,10
-`  -- и больше ничего --!w300
-locate 5,11
+【Rick】 "That may be true, but-" 
 
-`    падает на меня свысока,
-locate 5,12
-`словно пытаясь смыть всю мою боль...\
-wait 500
-bg black,10,2000
-!s20
-wait 2500
-stop
-bg black,10,1000
-play "data/syu-syou.mid"
-wave "data/SeaD.wav"
-wait 500
-bg white,10,1000
-wait 500
-bg "data/sea.jpg",10,1500
-wait 1000
+【Napp】 "I cannot forgive him! And also, aren't  aircraft banned by the Holy Order?
 
+We don't even know if he made it over to  the other side safely, and it's the same  with you, you too can't say for sure if you can make it there.
 
-`  Очнувшись, !w50I я обнаружила себя стоящей на скале и глядящей на горизонт.@
+It's just as possible that you'll be  arrested and punished." 
 
-`  Взглянув вверх, !w50I я увидела птиц, изящно скользящих по голубому простору неба.@
+【Rick】 "Hahaha, now you're the one that's exaggerating, Napp."
 
-`  Я закрыла глаза и раскинула руки в стороны. I closed my eyes, and stretched my arms wide.@
+【Napp】 "No I'm not! I'm worried about you brother..." 
 
-`  And basked in the afterglow of the memory of happier days.@
+【Rick】 "I know I know. Still, my dream remains  unchanged. I will travel to the outside world, just like our father." 
 
-`  Что-то тёплое скатилось по моей щеке.@
-br
-!s70
+【Napp】 "I wonder how often we've fought about this..."
 
+【Rick】 "Well, by the way, this year is the year of the Stormrise. That will be my chance."
 
-`  And then ---\
-!s20
-bg white,10,1000
-bg #732628,10,300,"data/m1.jpg"
-bg black,18,2000,"data/m1.jpg"
-stop
-wait 2000
+【Napp】 "That's right, but still...... No, enough of that. Now that you've come  this far, there's no way you'd listen to  me, right big brother?" 
 
+He giggles after saying that. 
 
-bg white,10,2000
-bg "data/machi.jpg",10,1000
-wait 1000
-play "data/nazo.mid"
-wave "data/semi.wav"
+【Rick】 "Well, I'll finish my milk then and go to  bed." 
 
-`  I opened my eyes.@  All around me, I could see throngs of people hurrying past in both directions, their final destinations a mystery.@
-br
+【Napp】 "Uh huh, good night."
 
-`  "...?"@
-br
+【Rick】 "It's late so don't keep reading those books for too long, ok?"  
 
-`  How bizarre.@  What was I doing here?@
+【Napp】 "Sure thing."
 
-`  I mean, if memory served, I'd jumped off a cliff but moments ago.@
+After I leave Napp's room, I go to theliving room to pour some cinnamon syrup into my hot milk, then I gulp it down, go back to my room and dive into bed.
 
-`  So what was I doing here in the middle of a town's main street?\
+As I curl up under the blanket, for somereason I'm getting the feeling that I willhave a good dream tonight. I smirk and laugh. 
 
-`  I was so lost in my thoughts that I didn't see that I was about to crash into somebody.@
+・・・・
 
-`  I tried to avoid him, but I didn't quite make it, and a head-on collision !s100-- !s20didn't happen.@
-br
+I'm on my way back from catching fish asusual.  
 
-`  In fact, he just kept walking on as if I weren't even there, as if there was nothing in his path...@
+I got a couple of really big ones today,so as I approach the hill I wonder if I should dry them in the sun. 
 
-`  ... as if he'd slipped right through my body...@
-br
-!s80
+【？？？】 "Yo, Rick. How's it going?"
 
-`  "No way......"\
-!s20
-br
+I hear a voice from somewhere, I know thatvoice. How long has it been? A voice that I used to hear a lot as a child, it came from behind me.  
 
-`  You don't just expect people to 'slip though' other people like that!@
+【Rick】 "Eeh!? Zail!"
 
-`  I mean, as long as they're not ghosts or...\
+【Zail】 "Fit as a fiddle, I see."  
 
-`  "Oh."@
-br
+【Rick】 "Sure am. What are you doing here? Jeez it's been ages." 
 
-`  And that was how I finally came to understand what had happened.@
+【Zail】 "I just kind of felt like seeing Bastok  again after being gone for so long."
 
-`  I was quite certainly dead, you see.@
+Zail is a few years older than me; when wewere little he was somewhat like my big brother. Even though he was born into a wealthy family he hung out with poor kids like me, as if it didn't matter.  
 
-`  Wellll then, what did that say about me, and the fact that I was standing here?\
-wait 300
+When he grew up he moved to Midel so he could attend the academy, and we really couldn't see each other that much anymore.  
 
-`  Obviously, I was a ghost.@
+I haven't thought about him much lately,since he left Midel to live in the capital. 
 
-`  Really!  A ghost, you don't say!@  They actually exist, who would have thought...\
-bg black,10,800
-wait 300
-bg "data/kawara.jpg",10,1000
+The Zail that is standing in front of menow is a completely different person from the boy I knew back then, but when I see hisface and hear his voice now it's like the many years that we haven't seen each otherare erased in an instant. 
 
-`  I found myself in the vicinity of the riverbank.@
+【Rick】 "Those clothes...  You're an officer of the Holy Order?" 
 
-`  For the time being, I thought I'd try to take a walk around and mingle, since there wasn't anything else to do.@
-wait 300
-br
+【Zail】 "Yeah. After finishing the academy in  Midel, I went for the entrance exam.  From now on I am a member of the branch in  Midel." 
 
-`  "... Hmm?"
-br
+【Rick】 "Wow.  But I heard the officer exam of the Order is really tough." 
 
-`  Hmm, for a moment there, I could have sworn that I'd stepped on something a bit fishy, but I didn't pay it much attention.\
+【Zail】 "Hahaha. Well, it was a real pain. But thanks to that I can finally protect  the peace in our homeland." 
 
-`  Anyway, there were a bunch of people gathered here, at one end of the river bank.@
-br
+Bastok and Zapat, with Midel in the centerform the greater Midel area.To protect Midel also means protecting  Bastok. 
 
-`  "Ummm, did something just happen here?"@
-br
+Zail, with his strong sense of justice andhis keen mind, is perfect for that job in myopinion.
 
-`  I tried to ask of someone standing nearby.\
+【Zail】 "It's so beautiful, isn't it?  The scenery hasn't changed one bit since  I was a child." 
 
-`  No reply.@  Almost as if nobody could hear me...@
+【Rick】 "Yeah, you're right. From here you got a great view on the outside of our continent."
 
-`  Well, it didn't come as a TOTAL shock, you know, but still, I was really new at this ghost thing, so...\
+【Zail】 "Rick, do you mean to tell me that you still want to go to the outside world?" 
 
+【Rick】 "Eh? Of course I do! It's my dream after all." 
 
-`  So I shrugged and started slipping through -- literally -- the folks in the crowd.@
+Long ago, while playing with Zail, we stood at this place and spoke about the outside world.
 
-`  At first it was astonishing, but as you might expect, pretty soon you get used to it.\
+Even before I found out what father was actually doing, I have always had aninterest in that world. It's in our blood I guess.
 
-`  "......"@
-br
+【Zail】 "Having an interest in the outside world implies the wish to break into the sky. That is blasphemy! Flying through the gracious sky is a disgraceful wish that we  should not even think about!" 
 
-`  When I finally worked my way to the center of the crowd, I found that I was looking upon two girls.@
+What he's saying now is the same as backthen. Zail is deeply religious and used towarn me like that even when we were still kids. 
 
-`  A familiar-looking girl clad in a scarlet hakama, !w300and a girl in an arrow-pattern kimono.@
-br
-!s50
+【Rick】 "I am grateful to the sky, but you see,  this and that are two different things. In my dreams I see the place beyond those clouds."
 
-`  ... Me, and my little sister.\
-!w20
+【Zail】 "I knew it, you're still saying the same things you did as a child." 
 
-play "data/sad.mid"
-bg "data/eve02.jpg",10,1000
-wait 1000
-!s60
+He rubs the underside of his nose and laughs lightly. 
 
-`  "Sis... why... why'd you have to go kill yourself...@  Sis, now that you're gone...@ then... then..."@
-!s20
-br
+【Zail】 "Well, I think that way of thinking is what  makes mankind advance.  No matter what I think about it,  I do understand how you feel."
 
-`  My chest tightened as a wave of guilt swept over me.@
-br
+He used to say "Sorry", close his mouth bitterly and continue his preaching.It seems like he really has changed since back then.
 
-`  "... Sorry, Chiyu... but..."\
-wait 500
-!s60
+【Zail】 "But, I just don't want to see you go down the same road your father did." 
 
-`  "Sis, now that you're gone... then...@ then who am I supposed to experiment on...?"@
-!s20
-br
-stop
+【Rick】 "My father?" 
 
-`  "... WAITASEC."\
+【Zail】 "He studied the outside world and was  arrested and punished by the Holy Order.  You know that, don't you?"  
 
-`  So much for this wave of guilt!@  I mean, was she sad because I'd died, or was she sad because she'd lost a guinea pig?@
-br
+【Rick】 "Yeah, I sure know that."
 
-`  "......"@
-br
+It seems like Zail only knows what theOrder told him. 
 
-`  Somewhat mixed feelings here, you know?\
-bg black,10,800
-wait 2000
-bg "data/machi.jpg",10,500
-wait 500
-play "data/nazo.mid"
-wave "data/semi.wav"
-!s80
+【Zail】 "As you can see I am now an officer of the Holy Order. I don't want to have to arrest  you." 
 
-`  "*sigh*...  !s20Now what should I do...?"@
-br
+【Rick】 "Can't you just look away then?  I'm just one person, who's gonna find out?" 
 
-`  In the end, it was so painful for me to remain in that place that I just upped and bolted.@
-br
+I laugh as I say that.  
 
-`  No use crying over spilled milk, after all.@
+【Zail】 "What kind of an officer would that make me? Of course I can't do that!" 
 
-`  So instead, I started trying different things out, and as a result of this experimentation I found that:\
+For an instant, I can see a sparkling inhis eyes. 
 
-`  * I couldn't touch anything that had a strong life force in it -- live humans and animals, for instance -- !w300but I could touch things that had little or no life force in them, like inanimate objects.@
+【Rick】 "But still, even if you catch me, I'll..." 
 
-`  * I could do stuff like fly in the air.@
+【Zail】 "Stop, don't speak any further.  If I were to hear anymore I would have to arrest you right here." 
 
-`  * I couldn't do stuff like speak to anyone.@
+He holds his index finger in front of mymouth, so I shut up.
 
-`  * I couldn't eat, obviously, but that was just as well.@
+【Zail】 "I'll be in Bastok today and tomorrow. I live in Midel, on 5th Street now. Come  around and show your face from time to  time, ok? I know a great place there."
 
-`  * I couldn't go to the bathroom, either, but that was REALLY just as well.@
+He takes his finger away as he says that. 
 
-`  * I could even change my very form, if I really felt like it.\
+【Rick】 "Ah, alright. I'll show up when I visit  Midel, I promise!"
 
-`  Pretty awesome, eh?  Being able to fly, that is.@
-!s50
+We say goodbye and head back to our homes.
 
-`  In fact, now I'd be able to fulfill one of my wildest dreams...@
-!s20
+・・・・
 
-`  I mean, maybe I could finally try my hand at this "poltergeist" thing, that seemed to be all the rage in the West!@
+To the west of Midel lies a mountain wherecoal is mined, allowing the town to prosper.
 
-`  ... And I went on thinking for a long, long time of interesting things I could do to fill my days from now on...\
-bg black,10,800
-wait 1000
+Many young folk from Bastok also work inthe mines.
 
-play "data/sad.mid"
-bg "data/kawara.jpg",10,1000
-wave "data/semi.wav"
-wait 500
-!s80
+When I went shopping in Midel I bumpedinto a couple of friends that came home from work and was dragged along into atavern. 
 
-`  "*sob*... *sob*..."@
-!s20
-br
+I'm not really a big drinker, but thatdoesn't mean I don't like having a drink. 
 
-`  I mean, this sucks!@  There my big sister is, lying there, right before my eyes.@
+And I hope that they serve lots of grilledstockfish there.
 
-`  With that usual serene half-smile on her face,@ ya know, the one that makes her look like she'd wake up if I just called out to her.@
+【Tiegel】 "Today everything's on me. Drink as much as you want!" 
 
-`  But no such thing will happen, will it now?@  This sucks...@
-br
-!s80
+【Rick】 "Why so generous today?" 
 
-`  "Hey... Sis... c'mon, wake up......"\
-!s20
-br
+【Mag 】 "We found a really big coal vein, you know.  Got a special bonus for that."
 
-`  But... I still can't believe it.  I WON'T.  Because if I have to, then I really never will be able to reach her again, she'll be so far away.  I'm so scared...@
+【Tiegel】 "Yeah! Isn't that great? How long do you want to keep wasting your time as a fisherman?  You should join us in the mines and make  some real money!" 
 
-`  I don't care about experiments or guinea pigs or whatever anymore!\
+【Rick】 "It's alright, fishing may not pay well, but I'm the type of guy that enjoys living  this way, I'm happy the way it is." 
 
-`  Why must it be this way?  Why must I always realize how precious something is only AFTER I lose it?@
+Honestly, manual work just doesn't suit me. Not that mental work really suits meeither; I'm not smart like my little brotherNapp, 
 
-`  I mean, you'd think that I'd have learned my lesson the last time around...@
+but I still enjoy the way my life is rightnow and I'm happy.
 
-`  And yet here I am, in the same situation, doing the same thing.@  As if I hadn't learned a thing.@
+Living in Bastok you don't really needmoney that badly. Food, a roof over yourhead, you get all that from nature there. 
 
-`  Back then, I couldn't save her.@
+Shortly after, the booze we ordered arrives and things are turning into a drinking bout.
 
-`  ... And I couldn't save her now, either.\
+In this bar the waitresses are all cute girls, with thin tails wrapped around their hips. 
 
-`  The onlookers are all but gone, and now it's just the two of us.@
+While putting the steins down on the tablethe soft hairtuft on the girl's breasts waves right in front of our noses 
 
-`  And so I pull out a vial that I'd hidden away in the folds of my kimono.@
+and Tiegel whistles lewdly. 
 
-`  Medicine that I'd been planning on testing on my sister someday.@
+The girls here are used to it and she answers with a light wink.
 
-`  But that isn't possible anymore.@
+Since I haven't eaten anything fancy in a while, I'm ordering my favorite dish: Fried fish, pickled vegetables, fresh potatoes and a fried mincemeat roll with soysauce, as well as a trout pot pie.
 
-`  It's a coarse powder, so somewhat tough to take without any water, but I'm past the point of caring.@  I swallow it all down.@
+【Mag 】 "Aaah-! That's good! A big mug of beer after work is the greatest thing after all!"
 
-`  Then I touch my lips to my sister's.\
+Mag empties the whole stein in one go and wipes the foam away.
 
-`  And I breathe a little prayer of parting and reunion.@
+【Rick】 "Whew, a good beer like that really makes  you feel alive, right?" 
 
-`  I grip my sister's hands tightly -- so tightly -- so that we will never be separated again.@
+【Tiegel】 "You bet! And that's why you can't just  stop after one beer. C'mon Rick, have another one. Hey lil' sweetie, another  round for me and my friend here!" 
 
-`  So that we will be able to meet again.@
+With these words Tiegel orders another mugof beer for me without waiting for my answer. 
 
-`  For my bond with my sister is my first and last faith.\
-bg white,10,1200
-wait 500
+The two of us, our faces red from all the beer, are gulping down one mug after theother without end.
 
-`  And everything starts to fade away...@
-br
-!s50
+Even our fluffy tails are hanging downlazily. 
 
-`  Hey, Sis.@
+【？？？】 "We sure are in a good mood, aren't we?" 
 
-`  I wonder if we'll meet again...?@
+We hear a voice say.
 
-`  Maybe this time around, we'll finally be able to live together with Mom...?@
+【Tiegel】 "Hm? Ya want something?" 
 
-`  What kind of person was she...?@
+Tiegel answers flippantly and laughs as helooks over to the stranger. 
 
-`  Hmmm, getting really sleepy already...@
+A pair of guys is standing in front of ourtable, laughing as they look down on us three.
 
-`  G'night... Sis...@
-!s70
+【？？？】 "Nyahaha. Oh, nothing! I just couldn't help  but notice that awful stench of yours." 
 
-`  When next my eyes open... !w100it'd be nice if my big sister would be right there...\
-!s20
-bg black,18,2000,"data/m2.jpg"
-play "data/soryo.mid"
-wait 2000
+【Tiegel】 "What!?" 
 
-bg "data/kawara.jpg",10,900
-wait 500
+He barks at the two and stands up from hisseat. 
 
-`  Shortly after Chiyu lost consciousness, a man showed up.@
+【？？？】 "It's the stench of a guy from Bastok."
 
-`  He stared at the two bodies for a little while, and then he finally asked a young man who was close by,@
-br
-!s50
+The two start to laugh in a sinister way. 
 
-`  "Where did these girls come from?"@
-br
+【Mag 】 "Well look whose here, some striped tails."
 
-`  And after the young man answered him, he merely said, !s50"Ah, thanks," !s20picked up the bodies, and started carrying them away.\
-bg black,10,2000
-stop
-wait 1000
+The two have a striped pattern at the tip of their tails. They are from Zapat.
 
+Zapat is a village in the fork of a big river, just on the other side of Bastok.
 
-play "data/hitisagasi.mid"
-wait 500
+For ages there has been a feud betweenBastok and Zapat, there have been confron-tations at every opportunity, the fightinggoes on and on. 
 
-`  "So... she's not in this town, is she?"@
-br
-bg "data/eve03.jpg",10,1000
-wait 1000
+The reason for that feud has long beenforgotten by the citizens of both villages, nobody really knows why they never get along. 
 
-`  I've been looking for a certain girl for a while now.@
+Whatever it was, I'm sure it was a stupid reason to begin with. 
 
-`  Oh, it's not like I'm stalking my ex or some crap like that.\
+The Holy Order tore down the bridge connecting the two cities, because of the on-going quarrels, a few years after I wasborn. 
 
-`  Nah, it's revenge.@
+The citizens of both villages each have tails with special traits.People from Bastok have tails that are allfluffy at the end. Those from Zapat have astripe pattern on theirs. 
 
-`  That broad... so she STEPS on me, literally STEPS on me, and then prances on off without so much as a WORD of apology...@  If I find her, I won't just let it go.@
+That's why we derisively call the villagers of Zapat "striped tails". 
 
-`  I kinda think there was something else I was after as well, but I forgot.@
+People from Zapat in return got a nickname for us too, "fluffy tails", and nothingpisses us off more than that awfully cute name. 
 
-`  Oh, well, if I can't remember what, it must not have been very important, I guess.@
-br
+【Stiped Tail 1 】 "Are those fluffy tails in fashion now? Aw,  aren't you the cutest." 
 
-`  After I straighten up my lovely mug, I flipper off to the nearest town.\
-bg black,10,1000
-wait 700
-bg "data/machi.jpg",10,1000
-wave "data/semi.wav"
-wait 500
+【Tiegel】 "You bastard-!"  
 
-`  "Pssh, and she's not around here either?  !s60...... Hmmm?!s20@
+He yanks the striped tail. And it goeswithout saying that he gets his yanked back.
 
-`Wait, that's..."@
-br
-bg black,10,1000
-bg "data/eve04.jpg",10,800
-wait 1000
+Tiegel beats his opponent to the ground.
 
-`  Ah, it is.  There she is, walking along, humming some kind of happy little tune with every single step.@
+The surprised look in the striped tail'sface turns into a sharp one,
 
-`  And so I approach her from behind, all stealthy-like,@ and I'm just about ready to kick her with everything that I've got when...\
-wait 500
-!s50
+a vein pops up in his face and he sends Tiegel flying.
 
-`  "Err, what are you doing?"@
-!s20
-br
+【Mag 】 "Now you're gonna get it too-!"
 
-`  The broad turns around and shoots me a strange look.@
-br
+Mag grabs the other striped tail andstarts beating him up.
 
-`  "?"@
-br
+【Striped Tail 2】 "Guh-!"
 
-`  Pssh, cat's out the bag.  Sucks.\
-bg "data/machi.jpg",10,1000
-ld c,":a;data/chisato.jpg",10,500
-wait 500
+I just idly look on.
 
-`  "May I help you?"@
-br
+I'm not in the mood for a fight.
 
-`  "Screw this, yo.  I'll tell you flat out... So I was having a nice, pleasant afternoon nap by the roadside around thirty years ago, when you came along and STEPPED on me, you bitch.  Then you ran off without even TRYING to apologize.  !s70YOU THINK I'LL LET YOU OFF?!"!s20@
-br
-wait 800
+While I'm not exactly strong, I also seehow pointless these fights with the striped tails are.
 
-`  ... And I shot the broad a glare, !w100but man, she just gave me an icy look that stopped me in my tracks.\
-ld c,":a;data/chisato8.jpg",10,500
+With the stein in one hand, I continuewatching the fight. 
 
-`  "... Isn't this some kind of mistake?  I don't have a clue WHO you are, and in any case how would I remember something that happened that long ago?"@
-br
+【Rick】 "Leave me out of this."
 
-`  Ugh, so I guess this form really ISN'T that convincing after all.@
+I don't know if anyone can hear me but I'msaying it anyway and try to act like an innocent bystander. 
 
-`  Can't be helped.  Well, I don't like this next form that much, but...@
-br
+In front of my eyes my two friends andthose striped tails are beating each otherup. 
 
-`  "What about THIS!"\
-bg white,10,1000
-wait 500
-bg "data/machi.jpg",0
-ld c,":a;data/chisato8.jpg",10,500
+【Striped Tail 1】 "Guah-...!"
 
-`  My body begins to change shape as a dazzling light surrounds me.@
+Tiegel's claws rip the face of the stripedtail apart. 
 
-`  And by the time the light fades away, I've completed my metamorphosis... into a fish.\
+We are no idiots, it's common sense that theclaws and fangs of us guys from Bastok arestrong enough to kill anybody that provokes us. 
 
-`  I just have to live with this form -- yes, it's embarrassing, but what can I do?@  But you know what this broad dares to say the moment she sees it?@
-br
-wait 800
+That's why we don't bite or scratch anybody thoughtlessly.
 
-`  "Disgusting!"@
-br
+【Tiegel】 "... Nh- you bastard!" 
 
-`  Finishes me off with one damn blow.@
+Nonetheless, the fact that even a guy likeTiegel got his claws out right away shows how much the striped tail are pissing us off. 
 
-`  Well, yeah, I know that I'm not the end-all and be-all or anything, but still...@  This is the first time anyone's said it to me so up-front-like.@
+【Mag 】 "-Aah!"
 
-`  That sort of thing really hurts, ya know.\
+The other striped tail has bitten Mag inhis shoulder. 
 
-`  "Pssh, fine, I guess I'll more or less forgive you for now.@  But not next time, you hear!"@
-br
+From the beginning it was clear that this wasn't a fight either side would allowthemselves to lose. 
 
-`  The broad just fixes at me with that ever-chilly stare.@  Ooh, scary.  But I can't walk away, not just yet.@
-br
+... a fight without reason. 
 
-`  "G-guess you're worth remembering, for now.@  What's your name, girl?"@
-br
-ld c,":a;data/chisato.jpg",10,500
-wait 500
+Neither of them knowing why.
 
-`  "Chisato.@  Chisato Mikogami."\
-!s50
+It's just that they can't stand each other, it's just that they live in Bastok andthe others in Zapat.
 
-`  Chisato !w100Mikogami.@
-!s20
-br
+It all comes down to hate.It's the only reason they're fighting.
 
-`  When I hear that name, something -- a distant memory -- stirs within me.\
-wait 500
-play "data/hiro.mid"
-wait 1000
-bg black,10,1000
+Even if winning that fight won't change a damn thing. 
 
-`  "Fishman, I have a request for you."@
-br
-bg "data/eve05.jpg",10,1500
-wait 500
+There's no way that this hate could havealways been there, and that's why winning won't change anything.
 
-`  The woman before my eyes radiated an incredible amount of power, incredible even for a being of the spirit world.@
+As usual some of that hate would remain.
 
-`  I mean, she could probably have yanked the very Devil any direction she wanted, if she but put her mind to it.@
-br
+The two villages hate each other. Theyhate the fluffy tail or the striped one. Andfueled by that, the hatred lives on day after day.
 
-`  "I wish for you to go and see how my daughters are doing.@  There are two of them -- named Chisato and Chiyu."\
+... it's so ridiculous. 
 
-`  All sorts of thoughts whizzed through my head.@
+What if...
 
-`  For instance, what would happen to me if I refused?@
-br
+What if I could go beyond those clouds, how would that world be, I wonder.
 
-`  "So may I make this request of you?"@
-br
+If it's possible, I wish for it to be a world without pointless fighting. 
 
-`  There wasn't even a need to think about it.@  The consequences either way were all too obvious.@
+I hope that it's a world where people can always work happily together, 
 
-`  And after all, I wasn't enough of a traveler to have any chance in hell of finding these girls.@
-br
+where they can share tasty meals with eachother and were they can spend their dayssurrounded by their family and loved ones.
 
-`  In other words, I gave my assent immediately, and enthusiastically.\
-bg black,10,2000
-play "data/hitisagasi.mid"
-bg "data/machi.jpg",10,500
-ld c,":a;data/chisato.jpg",10,100
-!s50
+And even if all of that can't be true inthat place, I still hope for it to be a better world. 
 
-`  Chisato Mikogami.@
-!s20
-br
+【Tiegel】 "Rick! Come here and help us!" 
 
-`  Isn't this the very reason I came down here for, staring me right in the face?@
+He is staring at me and grinding his teeth. 
 
-`  A shiver ran up my spine.@  !s40Supposing it's this girl...  If I'd struck Chisato before I knew it was her, what would happen next?@
-!s20
+While I had been watching the fight someother striped tails came to help the firsttwo.
 
-`  Yeah, then there'd be no tomorrow for me.  Literally.\
-!s30
+【Rick】 "None of my business...You're on your own."  
 
-`  "Sorry.  Totally my fault."@
-!s20
-br
+I say that as I take a deep gulp from the stein.
 
-`  And then this Chisato girl gave me another odd look, no doubt at my sudden and inexplicable apology.\
+Whether or not I join in on the fight wouldn't change anything anyways. I'd just get a beating. 
 
+Both Tiegel and Mag are built prettysturdily, so I figure a little beating andbiting isn't going to kill them.
 
+Even if the barkeep would like to stopthem, it's not really a big deal, you'll getfights in a tavern like weeds in a garden,so you're unlikely to see all the ruckus in the bar die down at once. 
 
-bg black,10,1000
-wait 1000
-play "data/hiro.mid"
-wait 1000
-!s70
+Jeez it's really astonishing. 
 
-`  "*sigh*..."@
-!s20
-br
-bg "data/teien.jpg",10,1000
-wait 500
+I'd gladly leave this village and all thispointless fighting behind me and fly off to that new world. 
 
-`  I sigh for the umpteenth time this day alone.@
+As I picture myself flying off to the other world, I gulp down what's left in mystein.
 
-`  The fishman I sent on that errand has not reported back yet...@
-br
+【Rick】 "You two, stop fooling around already-!" 
 
-`  "What in the world could he be doing?"@
-br
+Since I've run out of beer, I'm alsolosing my interest in watching them fight.
 
-`  My, by this time, Chisato has probably grown into an adult,@ and I'm really rather curious as to what kind of girl Chiyu has grown to be.@
+【Striped Tail 1】 "Guh... nuh... uh" 
 
-`  Now, I could just sit here and wait, but...\
-wait 500
+【Tiegel】 "Phew... Nng..." 
 
-`  "I've decided.@  I, too, shall travel to the mortal realm."@
-br
+It's taken a while, but finally none of them can stand up anymore, so the fight isover. 
 
-`  Well, then...@  Now that I've settled on this undertaking, I've got all manner of preparations to make.\
-bg black,10,1000
-wait 1500
+Tiegel and Mag are completely trashed,just like the bar's chairs and tables.
 
+"I'm really sorry" and "Please excuse this" 
 
-play "data/nomal.mid"
-wait 1000
-bg "data/machi.jpg",10,1000
-wave "data/semi.wav"
-wait 500
+and "As long as you pay the repair costs, a fight isn't bad at all" I hear the barkeepsay.
 
-`  Anyway, I had no idea how this came to be, but somehow I'd gained an odd traveling companion.@
+He's as round as a barrel with arms full of old scars.  
 
-`  When he'd heard my name, he'd suddenly wiped that sour expression off his face, and he'd just as suddenly apologized.@
+I search Tiegel's breast pocket for his bonus money and hand it to the barkeep to pay for the damages.
 
-`  What an odd fellow.\
-wait 500
+I don't know what the striped tails are going to do about this. 
 
-`  "Hey, Fishstick..."@
-br
-`  "I am NOT a 'Fishstick'!"@
-br
+I just leave the bar, dragging the twobehind me until I reach the town's fountain.
 
-`  Yeah, and he got all flustered like this about the littlest things -- names, for instance.@
+Leaving this place I hate to go to a newworld makes me look like a coward. But it's not like I'm running away, I'm going thereto explore that new world.
 
-`  I mean, what did it matter anymore...?@
-br
+Just like my father. I wonder how dad feltas he took off back then. 
 
-`  "Oh, yeah, tell me, what happened to your little sister?"@
-br
+I look up to the white moon in the nightsky.
 
-`  Fishman asked abruptly.\
-wait 500
-!s80
+【Rick】 "One day, to fulfill my dream, I will have to break into your sky, when that time  comes, please turn a blind eye to it."
 
-`  "... Huh?  What little sister?"@
-!s20
-br
-wait 500
+I put my hands against each other and say a prayer, something I rarely do.
 
-`  "TERRIBLE manners.@  What is it with the cold shoulder there?!"\
+・・・・
 
-`  Oh, right, I remember now.@  I DID have one.@
+There is no special treatment for Napp's  disease, but it is not something that would kill him either, if it should be ignored. 
 
-`  I wonder how that little poison-freak is doing.@  Although I hope she hasn't found any more "guinea pigs" to experiment on...@
-br
+The doctor said that there is nothing toworry about as long as he doesn't exert himself.
 
-`  "Now wait just a minute.@  How do YOU know a thing about HER?"\
+However, he is inevitably struck by coughing fits from time to time,
 
-`  "Ho ho, well I'm just this GUY who knows all sort of SERIOUS stuff..."@
-br
+though they are quite easily suppressed by medicine.
 
-`  "Yeah, yeah, this is going nowhere."@
-br
+I sometimes go pick medicinal herbs tohelp with those fits. 
 
-`  And with that, I grabbed Fishman's tail and slapped him against the ground with all my might.\
-wave "data/hit.wav"
-quakey 1,200
+It's the same island where I go fishing.  
 
-`  *SMACK*!@
-br
+Lots of good quality medicinal herbs grow there on the waterfront.I could just go and buy medicine, but the herbs growing on the island seem to workbest for Napp's body. 
 
-`  Mmm, such a nice sound.@  Now then:@
-br
+I arrive at the riverbank and hop acrosson the conveniently lined up stones in thewater.
 
-`  "I said, how do YOU know a thing about HER?"@
-br
+The island is quite large, and Amorea flowers bloom vividly on it, making it look like a flower garden. 
 
-`  As you might expect, this was rather effective, and this time around he began to speak honestly.\
-ver
+I carefully gather the medicinal herbsgrowing on the waterfront.
 
-`  "Your damned mother asked me.@  To check up on you to see how you were.@  Aiii, that smarts."@
-br
-!s80
+Since the ones with a deep green color arethe best, I examine them carefully firstlike a botanist.
 
-`  ... My mother...@
-!s20
+I have gathered almost all the good onesand stand up. 
 
-`  While I was pondering that, a rather familiar voice rang out.\
+A cool breeze from upriver blows against thenape of my neck.
 
-`  "Ah-ha!  I finally found you!"@
-br
-stop
-bg black,10,500
-wait 1000
-wave "data/heart.wav"
-wait 800
-wave "data/heart.wav"
-!s60
+I gaze at the empty, spacious flower fieldThe light purple petals sway as a refreshingly sweet scent grazes my face.
 
-`  I turned around,@ fervently praying that it WASN'T her.@
-wave "data/heart.wav"
-wait 800
-wave "data/heart.wav"
-wait 800
+My whiskers tremble slightly. It’s not the flowers, there's another  smell...Is there someone else here but me?
 
-`  ... And my fervent prayers went cruelly unheard.\
-!s20
-play "data/sad.mid"
-bg "data/eve06.jpg",10,1000
-wait 1000
+When I turn around, there is... 
 
-`  "Sis!"@
-br
+A girl I've never seen. 
 
-`  The instant she said that, Chiyu came flying into my arms.@
+Our eyes meet.
 
-`  Saying, "Sis, Sis," !w200and crying all the while.@
+The girl's fur is a light peach color.  Her tail is wrapped in a piece of cloth.
 
-`  Needless to say, this came as a total shock.@ 
-br
+It looks like she came from the direction of Zapat, but since her tail is wrapped upI can't tell which village she is from. 
 
-`  I mean, who'd have thought that Chiyu could actually be CUTE...?\
-bg black,10,1000
-wait 1500
-locate 7,8
-stop
+Just by looking at her from afar I cantell that she is very cute and her redwrapping really suits her.
 
-`Ten minutes later\
-wait 1000
-play "data/nomal.mid"
-bg "data/machi.jpg",10,1000
-ld c,":a;data/chiyu.jpg",10,500
+All these thoughts come to me in a briefmoment just after our eyes met. 
 
-`  "So.  What are YOU doing here?"@
-br
+It seems as though she is here to pickAmorea flowers as she is holding a few in her hand. 
 
-`  "What do you mean, what am I doing here...? Obviously, I've been looking for you, Sis."@
-br
-!s70
+I want to know more about her, but what should I do?
 
-`  "......"\
-!s20
+What should I do? 
 
-`  ... My heart totally sank.@  I mean, did this mean that I was going to be experimented on ruthlessly again...?\
-bg black,10,1000
-wait 2000
-play "data/soryo.mid"
-wait 1000
-
-
-`  And now, back in time a bit, about thirty years.@
-wave "data/semi.wav"
-bg "data/tera.jpg",18,2000,"data/m2.jpg"
-
-`  The man who had carried the two corpses off with him had arrived at a certain temple.@
-br
-
-`  "Ahh, what's the matter, Brother Kumo?@  And you come bringing some mysterious women, I see."@
-br
-
-`  "I want to give these girls a proper burial."@
-br
-
-`  The elder man, probably the head priest of this temple, replied, "Ah, I see..."@ though just in a murmur, and called for a stonemason.\
-bg black,10,2000
-wait 1000
-wave "data/semi.wav"
-wait 500
-bg "data/tera.jpg",10,2000
-
-`  The next day.@
-br
-
-`  "Brother Kumo, the gravesite for the girls has been prepared."@
-br
-
-`  There were two tombstones, and on them were engraved the legends:@
-
-`"Here lies Chisato" and "Here lies Chiyu".@
-br
-
-`  "My apologies.@  I know you were of a different sect, so please forgive me -- this is all I can do."@
-br
-
-`  Said the man called Brother Kumo, as he arranged flowers around the two graves.\
-wait 500
-bg black,18,2000,"data/m2.jpg"
-wait 1000
-play "data/nazo.mid"
-bg "data/machi.jpg",10,1000
-wave "data/semi.wav"
-
-
-`  How ominous.@
-
-`  I was just getting a really, REALLY bad feeling about today.@
-
-`  When I woke up, a raven flew by right before my eyes.@
-
-`  When I took a walk, a black cat strolled past on the top of a wall.@
-
-`  When I basked in the sun next to the riverside road, a hearse passed by.@
-
-`  And when I gave Fishman a swift kick because I was in a bad mood, the strap on my sandal snapped.\
-
-`  ...... Something was going to happen today.@
-
-`  And the worst omen of all was:@
-br
-ld c,":a;data/chiyu.jpg",10,500
-
-`  "... Sis?  Why the dark expression?"@
-br
-wait 500
-
-`  Chiyu was worried about me.@
-!s80
-
-`  THAT was ominous.\
-!s20
-bg black,10,500
-
-`  While I was pondering all that...@
-br
-
-`  *tap* *tap*@
-br
-wait 500
-!s70
-
-`  Someone tapped my shoulder.@
-
-`  I cringed and began to turn around, and...@
-!s20
-bg "data/machi.jpg",0
-ld c,":a;data/hiro.jpg",10,1000
-
-`  "Yoo-hoo!@  How's it going?"\
-stop
-bg black,10,300
-wait 500
-!s70
-
-`  ... I felt dizzy.@
-!s20
-br
-
-`  So THIS was what it had all been about, huh?@
-
-`  The raven this morning, !w100the black cat, !w100snapping my sandal strap, !w100and even Chiyu being worried about me.\ 
-play "data/hitisagasi.mid"
-bg "data/machi.jpg",0,1000
-ld l,":a;data/hiro.jpg",0
-ld r,":a;data/chiyu.jpg",10,500
-
-`  Chiyu was just staring at this new arrival with utter suspicion.@
-
-`  Well, it wasn't as if she'd remember, after all.@
-
-
-`  Since she was just one year old at the time.\
-!s80
-
-`  "Mom... what are you doing here?"@
-!s20
-br
-
-`  "Well, obviously... I wanted to come and see my adorable, adorable daughters!"@
-br
-!s70
-
-`  "Uh... huh, somehow I get the feeling that you're not telling me HALF of it..."\
-!s20
-
-bg black,10,1000
-wait 500
-
-`  My mother shifted her interest to Chiyu, and the two of them talked about all sorts of things.@
-
-`  I'd been worried that Chiyu and Mom wouldn't really connect, but this put those groundless fears to rest.\
-bg "data/machi.jpg",0
-ld c,":a;data/hiro8.jpg",10,1000
-!s40
-
-`  "By the way, Fishman... what happened to that errand I sent you on?@  I'm sure you didn't forget about it, or DID YOU?"@
-!s20
-br
-
-`  Oooh, so now the fishman was out of the frying pan and into the fire.@
-
-`  He turned to me, his eyes pleading for help, but I ignored him.\
-
-`  My life was just too precious to me.  Though I WAS already dead.@
-br
-bg "data/sora.jpg",10,1000
-
-`  ... My, how polluted the air has become recently.@  It must be because of those newfangled "cars" people are driving these days...@
-
-`  I resorted to making observations like that in order to try to block out Fishman's unearthly screams.@  I failed, by the way.@
-br
-
-`  "Well now, since we're meeting again after such a long time, there are lots of things I want to know about."\
-
-`  Apparently, my mother hadn't changed ONE BIT since the last time I'd seen her.@
-
-`  Talk about scary...@
-
-`  ... *sigh*  I mean, they say that it's nice to be young, but THIS WAS RIDICULOUS.\
-bg "data/machi.jpg",10,1000
-
-`  My mother was now chatting away gaily with Chiyu, her back turned to me.@
-
-`  ...... Hang on a sec.@
-br
-
-`  "Hey, Mom... what's that THING on your back?"@
-br
-
-`  I asked, pointing at SOMETHING that was growing out of her back.@
-ld c,":a;data/hiro.jpg",10,500
-br
-
-`  "Hmm?@  Ah, this.@  Well, once you've lived in the spiritual realm for a while, you see, you start being gifted with stuff like this..."\
-br
-
-`  BEING GIFTED...?!  Was it THAT SIMPLE to just start sprouting stuff like that?!@
-
-`  I wondered as I stared at the jet-black wings that were protruding from my mother's back.\
-bg "data/sora.jpg",10,1000
-
-`  I'm sure that the look on my face just then was priceless.@
-br
-!s60
-
-`  But you know, !w200even if it was just a little bit...!s30@
-
-`  I was just a teeny, tiny bit happy about all of this...!w200@ and I'd keep that locked away within me forever.\
-!s20
-wait 1000
-bg black,10,1500
-stop
-wait 1000
-
-
-
-`  I was sleeping in my usual tomb when,@
-
-`  Fishman suddenly burbled,
-br
-
-`  "Hey!  There's somebody here!"\
-br
-
-
-`  "What, are we being seanced from the grave or something?"@
-br
-
-`  And so I went out of the tomb and took a look.@
-
-`  Wow, there really WAS somebody here.\
-
-`  I introduced myself casually, and watched what this person would do.@
-
-`  But fortunately, he seemed rather pleased with me.@
-br
-
-`  ... Well, after all, being summoned like this was pretty unusual,@ and I had to make a note to make sure that this kind of thing didn't happen again.@
-br
-
-`  Anyway, it was unthinkable at the time that I became a ghost,@ but can you imagine?  We can even surf the internet these days!@
-
-`  After all, there are lots of things in life that you'll never really understand, right?\
-bg "data/eve07.jpg",10,1000
-wait 700
-locate 0,9
-!s50
-
-`  "Well, anyway, !w100so it's nice to meet you,                      User-san."\
-!s20
-wait 2000
-bg black,10,2000
-play "data/ending.mid"
-wait 2000
-bg white,10,2500
-wait 2000
-
-bg "data/end01.jpg",10,1500
-ld r,":c;data/text01.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-wait 500
-
-ld r,":c;data/text08.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end02.jpg",10,1000
-ld r,":c;data/text02.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end03.jpg",10,1000
-ld r,":c;data/text03.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end04.jpg",10,1000
-ld r,":c;data/text04.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end05.jpg",10,1000
-ld r,":c;data/text05.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end07.jpg",10,1000
-ld r,":c;data/text06.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end01.jpg",10,1000
-ld r,":c;data/text07.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end02.jpg",10,1000
-ld r,":c;data/text09.jpg",10,1000
-wait 2000
-ld r,":c;data/textwhite.jpg",18,2000,"data/m3.jpg"
-
-bg white,10,2000
-bg "data/end03.jpg",10,1000
-ld r,":c;data/text10.jpg",10,1300
-wait 4000
-click
-ld r,":c;data/textwhite.jpg",18,2200,"data/m3.jpg"
-
-bg white,10,2000
-bg black,10,500
-
-mov %200,1
-stop
-bg black,10,2000
-wait 1000
-goto *start
-
-*ending
-bg black,10,500
-wait 500
-end
+● Talk to her.
+○ Don't talk to her.
 </poem>
