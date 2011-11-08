@@ -62,35 +62,35 @@ init:
     image bg fog = "Fog2.png"
     image bg pool = "PoolParty2.png"
     image bg tree = "Tree2.png"
-    $ j = Character('Josh', color="00ee00", show_two_window=True)
-    $ jslow = Character('Josh', color="00ee00", what_slow_cps=20, show_two_window=True)
-    $ m = Character('Melissa', color="#C71585", show_two_window=True)
-    $ mslow = Character('Melissa', color="#C71585", what_slow_cps=20, show_two_window=True)
-    $ m1 = Character('Girl', color="#C71585", show_two_window=True)
+    $ j = Character(u'Джош', color="00ee00", show_two_window=True)
+    $ jslow = Character(u'Джош', color="00ee00", what_slow_cps=20, show_two_window=True)
+    $ m = Character(u'Мелисса', color="#C71585", show_two_window=True)
+    $ mslow = Character('Мелисса', color="#C71585", what_slow_cps=20, show_two_window=True)
+    $ m1 = Character(u'Девушка', color="#C71585", show_two_window=True)
     $ flash = Fade(.25, 0, .50, color="b22222")
     $ flash2 = Fade(.25, 0, .50, color="fffafa")
-    $ priest = Character('Priest', color ="#F5F5F5", show_two_window=True)
-    $ bartender = Character('Bartender', color ="#F5F5F5", show_two_window=True)
+    $ priest = Character(u'Священник', color ="#F5F5F5", show_two_window=True)
+    $ bartender = Character(u'Бармен', color ="#F5F5F5", show_two_window=True)
     $ slow = Character(None, color ="#F5F5F5", what_slow_cps=20)
-    $ p = Character('Proctor', color ="#F5F5F5", show_two_window=True)
-    $ pwoman = Character('Puritan Woman', color ="#F5F5F5", show_two_window=True)
-    $ pman = Character('Puritan Man', color ="#F5F5F5", show_two_window=True)
-    $ goody = Character('Goody Good', color ="#F5F5F5", show_two_window=True)
-    $ b = Character('Bradford', color ="#F5F5F5", show_two_window=True)
+    $ p = Character(u'Proctor', color ="#F5F5F5", show_two_window=True)
+    $ pwoman = Character(u'Пуританка', color ="#F5F5F5", show_two_window=True)
+    $ pman = Character(u'Пуританин', color ="#F5F5F5", show_two_window=True)
+    $ goody = Character(u'Goody Good', color ="#F5F5F5", show_two_window=True)
+    $ b = Character(u'Брэнфорд', color ="#F5F5F5", show_two_window=True)
     $ teleport = ImageDissolve("id_teleport2.png", 1.0, 0)
-    $ s1 = Character('Soldier 1', color ="#F5F5F5", show_two_window=True)
-    $ s2 = Character('Soldier 2', color ="#F5F5F5", show_two_window=True)
-    $ f1 = Character('Farmer 1', color ="#F5F5F5", show_two_window=True)
-    $ f2 = Character('Farmer 2', color ="#F5F5F5", show_two_window=True)
-    $ c = Character('Connor', color ="ff1493", show_two_window = True)
-    $ o = Character('Odd Man', color ="#F5F5F5", show_two_window = True)
-    $ o2 = Character('Very Odd Man', color ="ff3030", show_two_window=True)
-    $ w = Character('Woman', color ="#f5f5f5", show_two_window = True)
-    $ g = Character('Gladys', color ="cd0000", show_two_window = True)
+    $ s1 = Character(u'Солдат 1', color ="#F5F5F5", show_two_window=True)
+    $ s2 = Character(u'Солдат 2', color ="#F5F5F5", show_two_window=True)
+    $ f1 = Character(u'Крестьянин 1', color ="#F5F5F5", show_two_window=True)
+    $ f2 = Character(u'Крестьянин 2', color ="#F5F5F5", show_two_window=True)
+    $ c = Character(u'Connor', color ="ff1493", show_two_window = True)
+    $ o = Character(u'Пожилой мужчина', color ="#F5F5F5", show_two_window = True)
+    $ o2 = Character(u'Старик', color ="ff3030", show_two_window=True)
+    $ w = Character(u'Женщина', color ="#f5f5f5", show_two_window = True)
+    $ g = Character(u'Глэдис', color ="cd0000", show_two_window = True)
     $ circleirisin = ImageDissolve("id_circleiris2.png", 1.0, 8, reverse=True)
-    $ d = Character('Drunk Man', color="ffd700", show_two_window = True)
-    $ lg = Character('Little Girl', color="fffafa", show_two_window = True)
-    $ mo = Character("Girl's Mother", color="fffafa", show_two_window = True)
+    $ d = Character(u'Пьяный мужчина', color="ffd700", show_two_window = True)
+    $ lg = Character(u'Маленькая девочка', color="fffafa", show_two_window = True)
+    $ mo = Character(u"Мать девочки", color="fffafa", show_two_window = True)
     $ nvlj = NVLCharacter("Joshua", color="#00ee00")
     $ nvlt = NVLCharacter(None, color="fffafa")
     $ config.adv_nvl_transition = dissolve
@@ -333,9 +333,9 @@ label start:
     
     "Её коляска вместе с лошадьми соравлась с Бруклинского моста в Нью-Йорке и упала в реку."
     
-    priest " Cегодня мы собрались чтобы проститься..."
+    priest " Сегодня мы собрались, чтобы проститься..."
     
-    "Тала они так и не нашли. Только коляску, которую прибило к берегу ниже по течению..."
+    "Тела они так и не нашли. Только коляску, которую прибило к берегу ниже по течению..."
     
     priest " Она ушла слишком рано, в самом расцвете сил..."
     
