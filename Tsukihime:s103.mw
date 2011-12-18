@@ -1,56 +1,51 @@
 [[Tsukihime|[Назад]]]
 
+{{HM:T|[[Участник:Hemet|Hemet]] ([[Обсуждение участника:Hemet|обсуждение]]) 13:22, 18 декабря 2011 (UTC)}}
+
 <pre>
 *s103
 
 
-`"------"@
-` ...... The main source.@
-` If I can do something to Nrvnqsr's main body manipulating the beasts, I might be able to save at least Arcueid--\
+` «...»@
+` Источник. Тварями управляет Нерон. Мне бы добраться до него, тогда хоть спасу Арквейд...\
 
-`"AAAAAAAAAH!"@
+` — А-а-а-а-а!@
 
 ;S.E."????????????"
 wave se6
 
-` I blindly swing my knife.@
-` I force my faltering body and run forward.@
-` If he hasn't moved as he toys with me,
-` then, he should be standing with his half body ahead of here----\
+` Я наугад взмахнув ножом и погнал своё измождённое тело вперёд.@ Если он никуда не отошёл, пока играл со мной, то должен быть прямо там...\
 
 ; ??B(?????)<????>
 bg "image\bg\bg_29c.jpg",%type_nowaitdisp
 ; ??<?>=??:????????(?????)<????>
 ld c,":a;image\tachi\nero_t02d.jpg",%type_nowaitdisp
 
-`"----!"@
-` Nrvnqsr----!@
-`"Stop your noisemaking, it is unpleasant."@
-` His coat wavers.@
+` «!..»@
+` Нерон!@
+` — Хватит мне докучать, это неприятно.@
+` Его плащ зашевелился.@
 br
-` From there,
-` a white horn comes straight at me.\
+` Оттуда вылезли белые рога.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ??<?>=??????????:?<??????(?)>
 ld c,":a;image\tachi\kemo_t05.jpg",%type_bshutter_mid
 
-`"Eh----?"@
-` Something like antlers... sticks... into my torso.@
-` Thud.@
-` It's so sharp, it doesn't really hurt.@
+` — А?@
+` Какой-то лось... поднял меня на них.@
+` Всё случилось так быстро, и рога были такими острыми, что даже боли почти не было.@
 br
-`"------"@
-` I fall flat on my back.\
+` «...»@
+` А потом я упал на спину.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-`"I am quite the fastidious person.@ Rest assured, there will not even be one of your cells left."@
+` — Я очень дотошный.@ Будь уверен, заберу всё до последний капли крови,@ — услышал я.
 br
-` I hear a voice.@
-` At the same time, a black dome arches over me.\
+` И меня накрыла чёрная тень.\
 
 
 
