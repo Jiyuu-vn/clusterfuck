@@ -1,0 +1,1064 @@
+<poem>
+# You can place the script of your game in this file.
+
+# Declare images below this line, using the image statement.
+# eg. image eileen happy = "eileen_happy.png"
+image bg fountain = "fountain.jpg"
+image bg town = "town.jpg"
+image bg room = "room.jpg"
+image bg hall = "hall.png"
+image bg shop = "shop.jpg"
+image white = Solid((255, 255, 255, 255))
+
+image anyo normal = "anyo_normal.png"
+image leo normal = "leo_normal.png"
+image leo sad = "leo_sad.png"
+image leo angry = "leo_angry.png"
+image leo nervous = "leo_nervous.png"
+image leo shock = "leo_shock.png"
+image leo dokidoki = "leo_dokidoki.png"
+image leo deformed = "leo_deformed.png"
+image leo happy = "leo_happy.png"
+image rei normal = "rei_normal.png"
+
+# Declare characters used by this game.
+init:
+    $ k = Character(None, what_ypos = 30, window_background="saybox_noname.png")
+    $ n = Character('???')
+    $ l = Character('LEO', color="#ffffff")
+    $ nel = Character('LEONEL', color="#ffffff")
+    $ r = Character('REI', color="#ffffff")
+    $ an = Character('ANYO', color="#ffffff")
+    $ a = Character('ANYO',
+                color="#ffffff",
+                what_xpos = 50,
+                show_side_image=ConditionSwitch(
+                    "anyo == 'happy'", "anyo_happy.png",
+                    "anyo == 'normal'", "anyo_normal.png",
+                    "anyo == 'blush'", "anyo_blush.png",
+                    "anyo == 'omg'", "anyo_omg.png",  
+                    "anyo == 'speechless'", "anyo_speechless.png",  
+                    "anyo == 'thought'", "anyo_thought.png",
+                    "anyo == 'surprised'", "anyo_surprised.png",  
+                    "anyo == 'sigh'", "anyo_sigh.png", 
+                    "anyo == 'blue'", "anyo_blue.png", 
+                    None, Null(),
+                    xalign=0.0, yalign=0.9))
+    
+# The game starts here.
+label start:
+    $ points = 0
+    $ crack = 0
+    $ fountainscene = False
+    
+    stop music
+    play music "happy.ogg"
+    scene black
+    with fade
+    
+    n "..."
+    n "I'm sorry Keane-sensei..."
+    n "This lecture... it's so boring..."
+    n "I... can't stay awake..."
+    n "...zzzzz..."
+    n "..."
+    
+    k "-yo."
+    n "...nn?"
+    k "Anyo!"
+    n "..."
+    k "Anyo Balfourme!!"
+    $ anyo = 'surprised'
+    play sound "thud.wav"
+    a "Woah!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    
+    scene white
+    with fade
+    
+    pause 1
+    
+    scene bg hall
+    with fade
+    
+    $ anyo = 'sigh'
+    a "I got in trouble for falling asleep in class again."
+    a "This has been happening way too often."
+    a "Why do I feel so tired these days?"
+    
+    $ anyo = 'normal'
+    a "Anyway, I should introduce myself. My name is Anyo."
+    a "I'm a senior here at this school, Antique Ivy."
+    a "It's supposedly a prestigious school known for rich and smart students."
+    a "But there is more than one exception for both of those cases..."
+    $ anyo = 'sigh'
+    a "I'm usually a good student."
+    a "But for some reason, it's hard for me to stay up during classes these days."
+    a "I've been making sure to sleep well at night, too..."
+    
+    $ anyo = 'surprised'
+    play sound "thud.wav"
+    a "Oh!" with Shake((0, 0, 0, 0), 0.3, dist=15)
+    
+    show rei normal
+    with dissolve
+    
+    $ anyo = 'normal'
+    a "Sorry, Rei-chan. I didn't see you there."
+    a "I was just thinking to myself."
+    
+    r "..."
+    
+    $ anyo = 'speechless'
+    a "(This is Rei-chan, Leo's little sister. She's a bit of an enigma.)"
+    a "(She's well-known for her psychic powers and her role in the Occult Club.)"
+    a "Is there something wrong?"
+    
+    stop music 
+    r "...You're cursed."
+    $ anyo = 'speechless'
+    a "What?"
+    
+    play music "serious.ogg"
+    r "I said, you're cursed."
+    r "There's a ghost attached to you right now."
+    
+    a "Huh..."
+    $ anyo = 'omg'
+    a "You're serious...?"
+    a "Is it dangerous?"
+
+    r "It's... how should I put it..."
+    r "It seems to be a princess."
+    
+    $ anyo = 'speechless'
+    a "Eh?"
+    
+    r "It's a lonely princess from the past."
+    r "She seems to have died without having found true love."
+    r "She's haunting you out of bitterness for lost love."
+    
+    a "Why me?"
+    
+    r "There doesn't seem to be any reason."
+    r "You're just unlucky to have been picked."
+    
+    a "Seriously? Can you get her off of me?"
+    
+    r "The only way to chase out a ghost like that is to kiss your true love."
+    
+    a "What is this, a shoujo manga?"
+    
+    r "I'm just telling you the truth here."
+    r "Good luck."
+    
+    hide rei normal
+    with dissolve
+    
+    a "What was that all about?"
+    
+    show rei normal
+    with dissolve
+    
+    r "Oh, and I forgot to tell you: you only have today."
+    r "She was a weak ghost, but she's been sucking out your life energy with every passing moment."
+    r "By the looks of it, she's gotten to you weeks ago, so her presence is getting stronger."
+    r "You're probably feeling the effects of it now."
+    r "As time goes by, you'll get even weaker and weaker."
+    r "You might even die by tomorrow."
+    r "I suggest you hurry up."
+    
+    play sound "thud.wav"
+    $ anyo = 'omg'
+    a "What?!" with Shake((0, 0, 0, 0), 0.3, dist=15)
+    
+    hide rei normal
+    with dissolve
+    
+    scene black
+    with fade
+    
+    a "I...I could die from this?"
+    a "To be honest, I'm not scared of death, but there are still so many things that I need to do!"
+    a "My youth..."
+    a "Whatever. All I have to do is find my true love and kiss them, right?"
+    a "It should be easy enough. I still have until the end of today!"
+    
+    $ anyo = 'thought'
+    a "But... who could my 'true love' be?"
+    a "I can't think of anyone off the top of my head."
+    a "Hmm..."
+    a "Maybe I could try kissing Merilu?"
+    
+    scene bg room
+    with fade
+    
+    stop music
+    
+    $ anyo = 'sigh'
+    a "School's ended for the day, but I couldn't even concentrate on the rest of my classes."
+    a "I don't even know where to begin looking!"
+    a "Sure, there are a lot of guys in our school..."
+    a "But could say I say I love any of them...?"
+    
+    play sound "knock.wav"
+    
+    a "..."
+    a "I love them as friends, sure, but... 'true love'?"
+    a "I'm not even sure what true love is."
+    a "Sure, I've read about it and all, but..."
+    
+    play sound "knock.wav"
+    
+    a "My life's on the line..."
+    a "Over such a ridiculous thing, too!"
+    
+    play sound "knock.wav"
+    k "ANYO! I KNOW YOU'RE IN THERE!" with Shake((0, 0, 0, 0), 0.3, dist=5)
+    k "Don't ignore me!" with Shake((0, 0, 0, 0), 0.3, dist=5)
+    
+    $ anyo = 'blue'
+    a "It's unlocked, idiot!"
+    
+    play sound "door.wav"
+    pause 1
+    
+    play music "happy.ogg"
+    
+    show leo normal
+    with dissolve
+    l "Oh, it was! Sorry about that."
+    l "I hadn't seen you all day, so I thought you forgot about your promise."
+    
+    show leo angry
+    with dissolve
+    l "You... didn't forget about our date today, did you?"   
+    
+    menu:
+
+        "Date? What date?":
+            jump no
+        
+        "Sorry, I was worried about something else...":
+            jump maybe
+            
+        "Of course not!":
+            jump yes
+
+label no:
+    $ anyo = 'surprised'
+    a "What? Why would I go on a date with you?"
+    show leo shock
+    l "Horrible...!"
+    show leo nervous
+    with dissolve
+    l "Remember that you promised last week to go out on a date with me?"
+    l "After you lost that card game..."
+    $ anyo = 'thought'
+    a "Eh... Did I really?"
+    l "Yes, you did!"
+    $ anyo = 'normal'
+    a "Just kidding. I remember now."
+    jump date
+
+label maybe:
+    $ points += 1
+    $ anyo = 'normal'
+    a "Sorry, something came up, and I forgot about it for a bit."
+    a "I owe you after losing that card game last week, right?"
+    a "I have time now, so wanna go?"
+    show leo normal
+    with dissolve
+    l "Yes!"
+    jump date
+    
+label yes:
+    $ points += 2
+    $ anyo = 'normal'
+    a "Of course I remember, idiot."
+    a "Who do you take me for?"
+    show leo happy
+    with dissolve
+    l "Really?"
+    l "You're the best, Anyo!"
+    jump date
+
+label date:
+    show leo normal
+    with dissolve
+    $ anyo = 'normal'
+    a "But just so you know, I never said that it was a date."
+    a "I lost a bet to you, that's all."
+    l "A date is a date, even if it was over a bet."
+    $ anyo = 'sigh'
+    a "Fine. Let's get this over with."
+    l "I'll make sure you have fun."
+    $ anyo = 'normal'
+    a "(It'll at least keep my mind off of my ghost dilemma for a bit.)"
+    
+    play music "normal.ogg"
+    scene bg town
+    with fade
+    
+    show leo happy
+    with dissolve    
+    l "Ahh, what a nice day out!"
+    l "It's been a while since we've wandered off campus, huh?"
+    l "The sky is blue, the air is fresh, and the sun is shining."
+    show leo normal
+    with dissolve
+    l "Aren't you glad you came?"
+    
+    menu:
+        "Yes":
+            $ points += 2
+            a "Yeah, I'm glad I came, actually."
+            a "It's good to get away from the school once in a while."
+            l "Right? Glad you think so, too."
+            l "Here, there aren't any teachers running after you."
+            a "You mean Dante-sensei?"
+            show leo nervous
+            with dissolve
+            l "He's a brute... I get tired of running away..."
+            $ anyo = 'happy'
+            a "Then why don't you just not run away?"
+            l "And do 500 laps? No thanks."
+        
+        "No":
+            $ anyo = 'sigh'
+            a "Eh, not really..."
+            show leo shock
+            l "What? Then what else would you be doing?"
+            $ anyo = 'thought'
+            a "Hm..."
+            
+            menu:
+                "Studying":
+                    $ anyo = 'normal'
+                    a "Probably studying for the upcoming finals."
+                    $ anyo = 'sigh'
+                    a "Just like you should be doing."
+                    show leo nervous
+                    with dissolve
+                    l "Ahaha..."
+                    $ anyo = 'normal'
+                    a "You know it's true."
+                    l "You're too blunt sometimes."
+                    
+                "Reading doujinshi":
+                    a "Well, my latest doujinshi orders just arrived in the mail..."
+                    show leo nervous
+                    with dissolve
+                    l "..."
+                    l "I'd rather not know..."
+                    $ anyo = 'happy'
+                    a "I'll show them to you afterwards, if you want."
+                    l "No thanks..."
+                    a "You sure?"
+                    a "They're about..."
+                    menu: 
+                        "BL":
+                            l "Just as I thought..."
+                        "Deformed Leo":
+                            $ crack += 1
+                            show leo shock
+                            l "Eh?! What?"
+                            l "There are comics about that?"
+                            a "You'd be surprised!"
+                        "Shoujo-genre love stories":
+                            $ points += 1
+                            show leo dokidoki
+                            with dissolve
+                            l "Really? Why are you reading those?"
+                            $ anyo = 'blush'
+                            a "N-no reason, idiot!"
+    show leo normal
+    with dissolve
+    l "A-anyway. Let's talk about something else."
+    hide leo
+    with dissolve
+    
+    scene black
+    with fade
+    $ anyo = 'normal'
+    a "We walked about for a while, talking and joking around."
+    a "It feels good, just hanging around like this."
+    a "I was really worrying too much over the curse thing..."
+    a "But I feel like my shoulders have lightened up a bit."
+    a "Maybe the ghost left already..."
+    
+    scene bg town
+    with dissolve
+    
+    show leo normal
+    with dissolve
+    l "Look, Anyo! Over here!"
+    $ anyo = 'blush'
+    a "I-idiot! Don't grab my hand all of a sudden!"
+    show leo happy
+    with dissolve
+    l "Haha, sorry about that. Check out this shop."
+    show leo normal
+    with dissolve
+    l "Apparently they're closing down and are clearing out the shop."
+    l "It says we could grab one item each, free of charge!"
+    l "Let's go inside and get something!"
+    $ anyo = 'normal'
+    a "Sure, why not?"
+    
+    scene bg shop
+    with fade
+    show leo normal
+    with dissolve
+    l "To make it fun, let's choose something for each other."
+    show leo nervous
+    with dissolve
+    l "But... this shop's a bit weird. They have such a strange collection of things..."
+    show leo normal
+    with dissolve
+    l "I'm gonna look around a bit. You pick out something too, okay?"
+    hide leo
+    with dissolve
+    
+    $ anyo = 'thought'
+    a "What should I get for Leo?"
+
+    menu:
+        "Strawberry Milk":
+            $ gift = "milk"
+        "Couple Keychain Set":
+            $ gift = "keychain"
+        "Book":
+            $ gift = "book"
+        "Backscratcher":
+            $ gift = "backscratcher"
+        "Deformed Leo Doll":
+            $ gift = "deformed"
+   
+    if gift == "milk":
+       $ anyo = 'normal'
+       a "This should be funny..."
+       show leo normal
+       with dissolve
+       l "Alright, I've picked. What'd you choose?"
+       $ anyo = 'happy'
+       a "Here."
+       show leo nervous
+       with dissolve
+       l "Um... Anyo..."
+       l "You know that I have a thousand of these, right?"
+       a "Exactly! I thought it'd be funny."
+       l "Haha..."
+       jump keychain
+    if gift == "backscratcher":
+       $ anyo = 'normal'
+       a "This should be useful for Leo... Everyone needs a backscratcher."
+       show leo normal
+       with dissolve
+       l "Alright, I've picked. What'd you choose?"
+       a "Here."
+       show leo nervous
+       with dissolve
+       l "Er..."
+       l "Thanks...? (Why's she giving me this? Am I an old man...?)"
+       $ anyo = 'blue'
+       a "Hey, it's chosen by yours sincerely! You should be more grateful!"
+       l "No, I am! I just expected something less practical, and more..."
+       a "More?"
+       jump keychain
+    if gift == "book":
+       $ anyo = 'normal'
+       a "This should be useful for Leo... He needs to study more, afterall."
+       show leo normal
+       with dissolve
+       l "Alright, I've picked. What'd you choose?"
+       a "Here."
+       show leo nervous
+       with dissolve
+       l "Er... thanks...?"
+       l "(I don't really want to study... Why's she giving me this...?)"
+       $ anyo = 'blue'
+       a "Hey, it's chosen by yours sincerely! You should be more grateful!"
+       l "No, I am! I just expected something less practical, and more..."
+       a "More?"
+       jump keychain
+    if gift == "deformed":
+       $ anyo = 'surprised'
+       a "Woah! Why is this here?"
+       a "I know it's gotten pretty popular, but I never thought it'd end up somewhere like this."
+       $ anyo = 'thought'
+       a "And it says on the tag: 'Beware, cursed doll'... I wonder why?"
+       $ anyo = 'normal'
+       a "I can't imagine that it'd be cursed."
+       a "I'll just take off the tag here..."
+       show leo normal
+       with dissolve
+       l "Alright, I've picked. What'd you choose?"
+       a "Here."
+       show leo shock
+       l "...!!!"
+       l "Um... Anyo..."
+       a "What? Here!"
+       l "I don't want it!"
+       $ anyo = 'blue'
+       a "Take it! It's my gift to you!"
+       show leo nervous
+       with dissolve
+       l "Anything but that...! Why is that here, anyway?"
+       l "Er... Instead..."
+       jump keychain       
+    if gift == "keychain":
+       $ points += 2
+       $ anyo = 'normal'
+       a "This is a cute keychain..."
+       show leo normal
+       with dissolve
+       l "Alright, I've picked. What'd you choose?"
+       a "Here."
+       show leo dokidoki
+       with dissolve
+       l "...!!! Anyo... You...!"
+       $ anyo = 'blush'
+       a "W-what!"
+       l "I'm so touched!"
+       show leo normal
+       with dissolve
+       l "I picked out the couple keychain set too. So I was going to ask you if we could both take one each..."
+       l "But we ended up picking the same thing!"
+       l "We must be on the same wavelength."
+       a "I just thought it was cute, okay?"
+       show leo happy
+       with dissolve
+       l "Okay."
+       l "You're the best!"
+       $ anyo = 'normal'
+       a "I know, I know."
+       jump next
+
+label keychain:
+    show leo normal
+    with dissolve
+    l "Actually, I was wondering if we could get these..."
+    $ anyo = 'speechless'
+    a "A couple keychain set?"
+    show leo dokidoki
+    with dissolve
+    l "Well, since there are two, we could get it for each other."
+    l "What do you think...?"
+    menu:
+        "Sure, let's get them.":
+            $ anyo = 'normal'
+            $ points += 1
+            $ gift = "keychain"
+            a "Sure, they're cute. So why not? Though I do like the gift I chose..."
+            show leo happy
+            with dissolve
+            l "You're the best!"
+            $ anyo = 'normal'
+            a "I know, I know."
+            jump next
+        "Are you kidding me?":
+            $ anyo = 'omg'
+            a "A couple keychain set? No way!"
+            show leo sad
+            with dissolve
+            l "I should have expected that."
+            l "I don't really want anything, then."
+            l "You should get something for yourself, then let's leave."
+            $ anyo = 'speechless'
+            a "Okay... (Is he sad?)"
+            jump next 
+        "No, I want you to keep the deformed Leo doll!" if gift == "deformed" and crack == 1:
+            $ crack += 1
+            $ anyo = 'happy'
+            a "No, you have to keep the deformed Leo doll!"
+            show leo shock
+            l "What! W-why?"
+            a "I want you to! Don't refuse me!"
+            show leo nervous
+            with dissolve
+            l "Er... o-okay."
+            l "I'll just take it, then..."
+label next:
+    scene bg town
+    with fade
+    $ anyo = 'normal'
+    if gift == "keychain":
+        show leo happy
+        with dissolve
+        l "This has made my day. Thanks so much, Anyo!"
+        a "(It's good to see him so happy.)"
+        a "(It makes me... feel at ease too. I wonder why?)"
+    show leo normal
+    with dissolve
+    l "It's starting to get late, so we should go back."
+    a "Yeah, let's go."
+    
+if points > 2 or crack == 2:
+    l "But I want to take you to one last place before the day is over."
+    jump fountain
+else:
+    jump end
+
+label fountain:
+    stop music
+    scene bg fountain
+    with fade
+    play music "water.ogg"
+    show leo normal
+    with dissolve
+    $ anyo = 'blush'
+    a "This is... the fountain of love..."
+    a "Why are you bringing me here?"
+    show leo dokidoki
+    with dissolve
+    l "Well... I just thought it would be a good way to end our date."
+    a "Ah..."
+    l "..."
+    a "..."
+    a "(There's way too much tension here...!)"
+    l "Hey Anyo..."
+    a "Y-yeah?"
+    l "I know you already know this, and I've told you many times before, but..."
+    l "I love you."
+    a "I-idiot!"
+    l "So this time, could you tell me properly: What do you think of me?"
+    menu:
+        "I love you too" if points == 6:
+            play music "love.ogg"
+            $ points += 2
+            $ anyo = 'normal'
+            a "I think I realized this a while ago, but..."
+            $ anyo = 'happy'
+            a "I... love you too."
+            l "R-really?"
+            $ anyo = 'blush'
+            a "Idiot, don't make me say it twice...!"
+            show leo happy
+            with dissolve
+            l "But... I'm so happy!"
+            a "I know, I know..."
+            an "I think I've understood."
+            an "My true love is... Leo."
+            an "How did I not see it before...?"
+            $ anyo = 'normal'
+            a "Leo... Could you give me a kiss?"
+            show leo dokidoki
+            with dissolve
+            l "E-eh?"
+            $ anyo = 'blush'
+            a "Well, any couple who kiss in front of this fountain are supposed to be blessed for the rest of their lives, right?"
+            a "I-I just thought we should try it out, you know."
+            a "Just... in case."
+            l "Yeah."
+            hide leo
+            with dissolve
+            an "(I close my eyes and brace myself.)"
+            play sound "heartbeat.wav"
+            an "(My heart is beating wildly. I can't hear anything else.)"
+            play sound "kiss.wav"
+            a "...!"
+            a "O-on the cheek?"
+            show leo dokidoki
+            with dissolve
+            l "Were you expecting somewhere else?"
+            a "No, idiot!"
+            l "Haha, alright... (Darn, should have gone for the lips...)"
+        "I don't know":
+            $ points += 1
+            a "I'm sorry, but I can't say."
+            a "I... really don't know how I feel about you."
+            $ anyo = 'normal'
+            a "Just... give me some more time, okay?"
+            show leo sad
+            with dissolve
+            l "Ah..."
+            l "I understand."
+            show leo happy
+            with dissolve
+            l "I've waited this long; I could wait some more!"
+            an "(Ah... I could tell he's trying to act strong...)"
+            an "(It's unfortunate, but I don't know what else to say.)"
+        "Don't be ridiculous, I don't love you":
+            $ anyo = 'blue'
+            a "What are you saying? Don't be ridiculous!"
+            a "You know my answer already, so why bring this up?"
+            show leo sad
+            with dissolve
+            l "Haha... You're right..."
+            show leo normal
+            with dissolve
+            l "It's... fine. Forget about what I said."
+        "Sorry, but I love someone else":
+            a "Sorry, but I love someone else."
+            show leo sad
+            with dissolve
+            l "Ah..."
+            show leo angry
+            with dissolve
+            l "If it's alright, can you tell me who?"
+            menu:
+                "Lance":
+                    a "I'm sorry, but I love Lance."
+                    $ anyo = 'normal'
+                    a "He's... cool and smart."
+                    show leo sad
+                    with dissolve
+                    l "Really..."
+                    l "I guess I should have known..."
+                    show leo normal
+                    with dissolve
+                    l "But... I still won't give up!"
+                    l "One day, I'll make you fall in love with me!"
+                    a "We'll see about that!"
+                "Merilu":
+                    a "Sorry..."
+                    $ anyo = 'normal'
+                    a "I love Merilu."
+                    a "She's gentle, kind, and the opposite of me."
+                    a "I need her and she needs me."
+                    a "Right now, she's the one I love the most."
+                    show leo sad
+                    with dissolve
+                    l "Really..."
+                    l "I guess I should have known..."
+                    show leo normal
+                    with dissolve
+                    l "But... I still won't give up!"
+                    l "One day, I'll make you fall in love with me!"
+                    a "We'll see about that!"
+                "Farant":
+                    a "I'm sorry, but I love Farant."
+                    $ anyo = 'normal'
+                    a "He's a funny, but smart and charming character."
+                    show leo sad
+                    with dissolve
+                    l "Really..."
+                    show leo normal
+                    with dissolve
+                    l "But... I still won't give up!"
+                    l "One day, I'll make you fall in love with me!"
+                    a "We'll see about that!"
+                "Lucien":
+                    a "Sorry, but I love Lucien."
+                    $ anyo = 'normal'
+                    show leo shock
+                    l "A perv like him?"
+                    a "Well... He's interesting, and has a somewhat of a similar personality with me."
+                    show leo sad
+                    with dissolve
+                    l "Really..."
+                    show leo normal
+                    with dissolve
+                    l "But... I still won't give up!"
+                    l "One day, I'll make you fall in love with me!"
+                    a "We'll see about that!"
+                "Zelos":
+                    a "Sorry, but I love Zelos."
+                    $ anyo = 'normal'
+                    a "He's cool and mysterious, but doesn't forget to be kind."
+                    show leo sad
+                    with dissolve
+                    l "Really..."
+                    show leo normal
+                    with dissolve
+                    l "But... I still won't give up!"
+                    l "One day, I'll make you fall in love with me!"
+                    a "We'll see about that!"
+                "Keane":
+                    a "Sorry, but I love Keane."
+                    show leo shock
+                    l "Why? He's a scruffy drunk!"
+                    a "J-just... He's really manly..."
+                    $ anyo = 'normal'
+                    a "I guess you could say he's just my ideal type."
+                    show leo sad
+                    with dissolve
+                    l "Really..."
+                    show leo normal
+                    with dissolve
+                    l "But... I still won't give up!"
+                    l "One day, I'll make you fall in love with me!"
+                    a "We'll see about that!"
+                "Deformed Leo" if crack == 2:
+                    $ crack += 1
+                    a "I'm... sorry, Leo."
+                    a "I only love the ultimate culmination of beauty."
+                    a "Though you come close, you don't quite meet the mark..."
+                    $ anyo = 'normal'
+                    a "I love Leonel, the deformed version of you."
+                    show leo nervous
+                    with dissolve
+                    l "A-anyo, are you serious?"
+                    a "As serious as could be."
+                    l "I... guess I can't argue with you, then."
+                    l "I worry for you..."
+        "You're just a friend":
+            a "Sorry, but I consider you only as a friend..."
+            a "You're one of my best friends, and I don't want to risk losing that."
+            a "I hope you understand."
+            show leo sad
+            with dissolve
+            l "Ah..."
+            show leo happy
+            with dissolve
+            l "I understand. Lance, you, and me, right?"
+            show leo normal
+            with dissolve
+            l "But... I still won't give up!"
+            l "One day, I'll make you fall in love with me!"
+            $ anyo = 'normal'
+            a "Go ahead and try!"
+    hide leo
+    with dissolve
+    an "We sat near the fountain a bit longer, before heading back."      
+    jump end
+    
+label end:
+    scene black
+    with fade
+    stop music
+    $ anyo = 'normal'
+    a "We're on the way back to school now."
+    a "...It was an interesting day."
+    a "I even forgot all about the curse."
+    $ anyo = 'omg'
+    a "But... why do I feel so tired now?"
+    a "Oh no... I think the ghost might be sapping out my energy..."
+    a "I feel weaker with every step I take..."
+    a "I don't think I can..."
+    play sound "thud.wav"
+    k "" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    l "Anyo?! Anyo!"
+    if crack == 3:
+        jump crack
+    elif points < 3:
+        jump bad
+    elif points < 7:
+        jump good
+    elif points == 8:
+        jump best
+label bad:
+    scene white
+    with fade
+    an "So... I was unable to kiss my true love..."
+    an "...Am I dead...?"
+    an "It's unfortunate..."
+    an "I regret it..."
+    scene black
+    with fade
+    an "...?"
+    an "I still feel my body..."
+    an "I'm... alive?"
+    scene bg room
+    with fade
+    an "Was I carried back...?"
+    show rei normal
+    with dissolve
+    r "I see you've woken up."
+    r "Leo came running to me for help."
+    r "I found a different way to chase the ghost out of your body, but I don't know what the side effects will be, since it was so rushed..."
+    r "Let's hope they aren't bad."
+    an "Thanks Rei-chan. I feel so lightheaded, though..."
+    r "You should rest up for now. Your body's been through a lot."
+    r "Take care."
+    hide rei normal
+    with dissolve
+    an "I see... So I was saved."
+    an "If Leo and Rei hadn't been there, I would have been a goner."
+    an "Though... I never found out who my 'true love' is..."
+    an "..."
+    k " .:. BAD ENDING"
+    play music "credits.ogg"
+    jump credits
+label good:
+    scene white
+    with fade
+    an "So... I was unable to kiss my true love..."
+    an "...Am I dead...?"
+    an "It's unfortunate..."
+    an "I regret it..."
+    scene black
+    with fade
+    an "...?"
+    an "I still feel my body..."
+    an "I'm... alive?"
+    scene bg room
+    with fade
+    an "Was I carried back...?"
+    play music "happy.ogg"
+    show leo happy
+    with dissolve
+    l "Anyo! You're awake!"
+    show leo nervous
+    with dissolve
+    l "I was so scared; you fainted in the middle of the road, so I carried you back to your room."
+    $ anyo = 'normal'
+    a "Did that happen? Thanks for carrying me back."
+    show leo normal
+    with dissolve
+    $ anyo = 'thought'
+    a "(More importantly, why am I still alive?)"
+    a "But... eh?"
+    a "For some reason, I feel like I felt something touch my lips while I was asleep..."
+    show leo nervous
+    with dissolve
+    l "That's nonsense..."
+    $ anyo = 'blue'
+    a "And... since you were the only one near me..."
+    l "...What are you talking about?"
+    $ anyo = 'surprised'
+    a "You perv!"
+    $ anyo = 'blue'
+    a "Take this!"
+    show leo shock
+    play sound "thud.wav"
+    l "Woah! Don't throw pillows at me!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    a "This is what you get for stealing a kiss from me when I was sleeping!"
+    show leo nervous
+    with dissolve
+    l "I didn't!"
+    a "Lying won't help you!"
+    play sound "thud.wav"
+    show leo shock
+    l "O-okay! Sorry!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    play sound "thud.wav"
+    l "Truce! Truce!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    scene black
+    with fade
+    $ anyo = 'normal'
+    a "So I passed this dilemma without finding out who my true love is." 
+    a "But in the end, I'm okay with things the way they are."
+    k " .:. ANYO'S ENDING"
+    jump credits
+label best:
+    scene white
+    with fade
+    an "Just... when I found my true love..."
+    an "I thought the kiss was supposed to save me?"
+    an "...Am I dead...?"
+    an "Haha... Maybe it was supposed to be a kiss on the lips..."
+    an "How silly..."
+    an "I regret not being able to spend more time with Leo..."
+    scene black
+    with fade
+    an "...?"
+    an "I still feel my body..."
+    an "I'm... alive?"
+    scene bg room
+    with fade
+    an "Was I carried back...?"
+    play music "happy.ogg"
+    show leo happy
+    with dissolve
+    l "Anyo! Thank goodness! You're awake!"
+    l "I was so scared; you fainted in the middle of the road, so I carried you back to your room."
+    $ anyo = 'normal'
+    a "Did that happen? Thanks for carrying me back."
+    $ anyo = 'thought'
+    a "But... eh?"
+    a "For some reason, I feel like I felt something touch my lips while I was asleep..."
+    show leo dokidoki
+    with dissolve
+    l "Ah... about that."
+    l "Sorry, I kissed you while you were asleep."
+    l "You looked so pretty that I couldn't help myself..."
+    $ anyo = 'blush'
+    a "Are you an idiot, or what?"
+    a "You do things like that when I'm awake!"
+    l "Eh?"
+    hide leo
+    with dissolve
+    play sound "kiss.wav"
+    k ""
+    l "...!"
+    an "So I found out who my true love is, for better or for worse."
+    an "I guess... this will be our happily ever after."
+    k " .:. LEO'S ENDING"
+    jump credits
+label crack:
+    scene white
+    with fade
+    an "So... I was unable to kiss my true love..."
+    an "...Am I dead...?"
+    an "It's unfortunate..."
+    an "I regret it..."
+    scene black
+    with fade
+    an "...?"
+    an "I still feel my body..."
+    an "I'm... alive?"
+    scene bg room
+    with fade
+    an "Was I carried back...?"
+    $ anyo = 'surprised'
+    a "Y-you're!"
+    play music "funny.ogg"
+    show leo deformed
+    with dissolve
+    a "L-leonel!"
+    a "How are you here?"
+    nel "I was trapped in that doll that you gave Leo. Now, I've been freed."
+    a "And how am I still alive?"
+    nel "I've given you a kiss during your slumber!"
+    nel "Through our kiss of true love, I have chased away the evil ghost cursing you."
+    $ anyo = 'blush'
+    a "Oh, Leonel, my prince! My knight in shining armor!"
+    nel "Now let's go, Anyo!"
+    nel "We'll fly to the moon and beyond with our eternal love!"
+    a "Yes! Take me away, wherever you'd like, my love!"
+    k " .:. CRACK ENDING"
+    k "(I... apologize for this ending ;;)"
+    jump credits
+label credits:   
+    scene black
+    with fade
+    
+    show text "{color=#DEDEDE}Made with Ren'Py visual novel engine{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}Characters and Art by Donguri, Nozo{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}Interface by Lato{/color}"
+    with fade
+    $renpy.pause(1.5)    
+    
+    show text "{color=#DEDEDE}Backgrounds from sxc.hu{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}Music from Celestial Aeon Project and Mario{/color}"
+    with fade
+    $renpy.pause(1.5)    
+    
+    show text "{color=#DEDEDE}SFX from SoundBible and SoundJay{/color}"
+    with fade
+    $renpy.pause(1.5)
+
+    show text "{color=#DEDEDE}Image/Audio Edit by Lato{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}Programming by Lato{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}Story by Lato{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}And Antique Ivy owned by... Antique Ivy{/color}"
+    with fade
+    $renpy.pause(1.5)
+    
+    show text "{color=#DEDEDE}Thank you for playing!{/color}"
+    with fade
+    $renpy.pause(3.0)
+
+    
+    with fade
+    
+    return
+</poem>
