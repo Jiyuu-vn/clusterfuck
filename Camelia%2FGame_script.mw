@@ -25,11 +25,11 @@ image rei normal = "rei_normal.png"
 init:
     $ k = Character(None, what_ypos = 30, window_background="saybox_noname.png")
     $ n = Character('???')
-    $ l = Character('LEO', color="#ffffff")
-    $ nel = Character('LEONEL', color="#ffffff")
-    $ r = Character('REI', color="#ffffff")
-    $ an = Character('ANYO', color="#ffffff")
-    $ a = Character('ANYO',
+    $ l = Character(u'ЛЕО', color="#ffffff")
+    $ nel = Character(u'ЛЕОНЕЛ', color="#ffffff")
+    $ r = Character(u'РЭЙ', color="#ffffff")
+    $ an = Character(u'АНЬЁ', color="#ffffff")
+    $ a = Character(u'АНЬЁ',
                 color="#ffffff",
                 what_xpos = 50,
                 show_side_image=ConditionSwitch(
