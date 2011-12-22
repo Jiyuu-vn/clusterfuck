@@ -1,50 +1,4 @@
 <poem>
-# You can place the script of your game in this file.
-
-# Declare images below this line, using the image statement.
-# eg. image eileen happy = "eileen_happy.png"
-image bg fountain = "fountain.jpg"
-image bg town = "town.jpg"
-image bg room = "room.jpg"
-image bg hall = "hall.png"
-image bg shop = "shop.jpg"
-image white = Solid((255, 255, 255, 255))
-
-image anyo normal = "anyo_normal.png"
-image leo normal = "leo_normal.png"
-image leo sad = "leo_sad.png"
-image leo angry = "leo_angry.png"
-image leo nervous = "leo_nervous.png"
-image leo shock = "leo_shock.png"
-image leo dokidoki = "leo_dokidoki.png"
-image leo deformed = "leo_deformed.png"
-image leo happy = "leo_happy.png"
-image rei normal = "rei_normal.png"
-
-# Declare characters used by this game.
-init:
-    $ k = Character(None, what_ypos = 30, window_background="saybox_noname.png")
-    $ n = Character('???')
-    $ l = Character(u'ЛЕО', color="#ffffff")
-    $ nel = Character(u'ЛЕОНЕЛ', color="#ffffff")
-    $ r = Character(u'РЭЙ', color="#ffffff")
-    $ an = Character(u'АНЬЁ', color="#ffffff")
-    $ a = Character(u'АНЬЁ',
-                color="#ffffff",
-                what_xpos = 50,
-                show_side_image=ConditionSwitch(
-                    "anyo == 'happy'", "anyo_happy.png",
-                    "anyo == 'normal'", "anyo_normal.png",
-                    "anyo == 'blush'", "anyo_blush.png",
-                    "anyo == 'omg'", "anyo_omg.png",  
-                    "anyo == 'speechless'", "anyo_speechless.png",  
-                    "anyo == 'thought'", "anyo_thought.png",
-                    "anyo == 'surprised'", "anyo_surprised.png",  
-                    "anyo == 'sigh'", "anyo_sigh.png", 
-                    "anyo == 'blue'", "anyo_blue.png", 
-                    None, Null(),
-                    xalign=0.0, yalign=0.9))
-    
 # The game starts here.
 label start:
     $ points = 0
@@ -57,20 +11,20 @@ label start:
     with fade
     
     n "..."
-    n "I'm sorry Keane-sensei..."
-    n "This lecture... it's so boring..."
-    n "I... can't stay awake..."
-    n "...zzzzz..."
+    n "Извините Каэне-сенсей..."
+    n "Этот урок... такой скучный..."
+    n "Не могу больше.."
+    n "Ссс..."
     n "..."
     
-    k "-yo."
-    n "...nn?"
-    k "Anyo!"
+    k "-ё."
+    n "Н-н-н?.."
+    k "Аньё!"
     n "..."
-    k "Anyo Balfourme!!"
+    k "Аньё Бальфюрм!!!"
     $ anyo = 'surprised'
     play sound "thud.wav"
-    a "Woah!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    a "Ой!" with Shake((0, 0, 0, 0), 0.5, dist=15)
     
     scene white
     with fade
@@ -81,95 +35,95 @@ label start:
     with fade
     
     $ anyo = 'sigh'
-    a "I got in trouble for falling asleep in class again."
-    a "This has been happening way too often."
-    a "Why do I feel so tired these days?"
+    a "У меня снова проблемы из-за того, что я уснула на уроке."
+    a "Это случается слишком часто."
+    a "Почему последнее время я чувствую себя такой уставшей?"
     
     $ anyo = 'normal'
-    a "Anyway, I should introduce myself. My name is Anyo."
-    a "I'm a senior here at this school, Antique Ivy."
-    a "It's supposedly a prestigious school known for rich and smart students."
-    a "But there is more than one exception for both of those cases..."
+    a "В любом случае надо представиться. Меня зовут Аньё."
+    a "Я ученица школы «Antique Ivy» , последний год обучения."
+    a "Это якобы престижная школа, для богатых и одарённых детей."
+    a "Но существует не мало исключений…"
     $ anyo = 'sigh'
-    a "I'm usually a good student."
-    a "But for some reason, it's hard for me to stay up during classes these days."
-    a "I've been making sure to sleep well at night, too..."
+    a "Обычно я хорошая ученица."
+    a "Но почему-то в последнее время на занятиях меня клонит в сон."
+    a "Ночью я хорошо высыпаюсь…"
     
     $ anyo = 'surprised'
     play sound "thud.wav"
-    a "Oh!" with Shake((0, 0, 0, 0), 0.3, dist=15)
+    a "Ай!" with Shake((0, 0, 0, 0), 0.3, dist=15)
     
     show rei normal
     with dissolve
     
     $ anyo = 'normal'
-    a "Sorry, Rei-chan. I didn't see you there."
-    a "I was just thinking to myself."
+    a "Извини, Рэй-чан. Я тебя не заметила."
+    a "Я просто задумалась."
     
     r "..."
     
     $ anyo = 'speechless'
-    a "(This is Rei-chan, Leo's little sister. She's a bit of an enigma.)"
-    a "(She's well-known for her psychic powers and her role in the Occult Club.)"
-    a "Is there something wrong?"
+    a "(Это Рэй-чан, младшая сестра Лео. Она немного загадочна.)"
+    a "(Она хорошо известна благодаря своим сверхъестественным способностям, также она член Оккультного клуба.)"
+    a "Что-то случилось?"
     
     stop music 
-    r "...You're cursed."
+    r "Ты проклята..."
     $ anyo = 'speechless'
-    a "What?"
+    a "Что?"
     
     play music "serious.ogg"
-    r "I said, you're cursed."
-    r "There's a ghost attached to you right now."
+    r "Я сказала, что ты проклята."
+    r "К тебе привязался призрак."
     
-    a "Huh..."
+    a "Что…"
     $ anyo = 'omg'
-    a "You're serious...?"
-    a "Is it dangerous?"
+    a "Ты серьёзно?.."
+    a "Это опасно?.."
 
-    r "It's... how should I put it..."
-    r "It seems to be a princess."
+    r "Это... Как бы сказать… "
+    r "Похоже это принцесса."
     
     $ anyo = 'speechless'
-    a "Eh?"
+    a "А?"
     
-    r "It's a lonely princess from the past."
-    r "She seems to have died without having found true love."
-    r "She's haunting you out of bitterness for lost love."
+    r "Это одинокая принцесса из прошлого."
+    r "Похоже он умерла так и не найдя истинную любовь."
+    r "От горечи она преследует тебя."
     
-    a "Why me?"
+    a "Почему меня?"
     
-    r "There doesn't seem to be any reason."
-    r "You're just unlucky to have been picked."
+    r "Нет никаких причин."
+    r "Тебе просто не повезло."
     
-    a "Seriously? Can you get her off of me?"
+    a "Правда? Ты можешь избавить меня от неё?"
     
-    r "The only way to chase out a ghost like that is to kiss your true love."
+    r "Единственный способ отогнать такого призрака – поцеловать свою истинную любовь."
     
-    a "What is this, a shoujo manga?"
+    a "Это что сёдзе манга?"
     
-    r "I'm just telling you the truth here."
-    r "Good luck."
+    r "Я просто говорю тебе правду."
+    r "Удачи."
     
     hide rei normal
     with dissolve
     
-    a "What was that all about?"
+    a "И что это было?"
     
     show rei normal
     with dissolve
     
-    r "Oh, and I forgot to tell you: you only have today."
-    r "She was a weak ghost, but she's been sucking out your life energy with every passing moment."
-    r "By the looks of it, she's gotten to you weeks ago, so her presence is getting stronger."
-    r "You're probably feeling the effects of it now."
-    r "As time goes by, you'll get even weaker and weaker."
-    r "You might even die by tomorrow."
-    r "I suggest you hurry up."
+    r "Ах, я забыла сказать, что это надо сделать сегодня."
+    r "Она была слабым призраком, но с каждой секундой она высасывает твою жизненную энергию."
+    r "Похоже она пристала к тебе неделю назад, поэтому её присутствие ощущается сильнее."
+    r "Возможно ты сама ощущаешь последствия этого."
+    r "Время идёт, а ты будешь слабеть и слабеть."
+    r "Ты даже можешь завтра умереть."
+    r "Я советую тебе поторопиться."
     
     play sound "thud.wav"
     $ anyo = 'omg'
-    a "What?!" with Shake((0, 0, 0, 0), 0.3, dist=15)
+    a "Что?!" with Shake((0, 0, 0, 0), 0.3, dist=15)
     
     hide rei normal
     with dissolve
@@ -177,17 +131,17 @@ label start:
     scene black
     with fade
     
-    a "I...I could die from this?"
-    a "To be honest, I'm not scared of death, but there are still so many things that I need to do!"
-    a "My youth..."
-    a "Whatever. All I have to do is find my true love and kiss them, right?"
-    a "It should be easy enough. I still have until the end of today!"
+    a "Я... я могу умереть от этого?"
+    a "Если честно, я не боюсь смерти, но ещё надо сделать  так много вещей!"
+    a "Моя молодость..."
+    a "В любом случае. Всё что мне надо сделать - найти свою истинную любовь и поцеловать её, правильно? "
+    a "Это должно быть достаточно легко. У меня ещё есть время до конца дня!"
     
     $ anyo = 'thought'
-    a "But... who could my 'true love' be?"
-    a "I can't think of anyone off the top of my head."
-    a "Hmm..."
-    a "Maybe I could try kissing Merilu?"
+    a "Но... кто может быть моей «истиной любовью»?"
+    a "Я не могу думать о том, кто первым придёт на ум."
+    a "Хм…"
+    a "Может попробовать поцеловать Мэрилу?"
     
     scene bg room
     with fade
@@ -195,29 +149,29 @@ label start:
     stop music
     
     $ anyo = 'sigh'
-    a "School's ended for the day, but I couldn't even concentrate on the rest of my classes."
-    a "I don't even know where to begin looking!"
-    a "Sure, there are a lot of guys in our school..."
-    a "But could say I say I love any of them...?"
+    a "Занятия окончились, но я даже не смогла сосредоточиться на них."
+    a "Не представляю откуда начать поиски!"
+    a "Конечно, в нашей школе много парней..."
+    a "Но могу ли я сказать, что люблю кого-нибудь из них?..."
     
     play sound "knock.wav"
     
     a "..."
-    a "I love them as friends, sure, but... 'true love'?"
-    a "I'm not even sure what true love is."
-    a "Sure, I've read about it and all, but..."
+    a "Я конечно люблю их как друзей, но… «истинная любовь»?"
+    a "Я даже не знаю точно, что это такое."
+    a "Конечно, я читала об этом, но..."
     
     play sound "knock.wav"
     
-    a "My life's on the line..."
-    a "Over such a ridiculous thing, too!"
+    a "Моя жизнь на грани..."
+    a "Из-за такой нелепости!"
     
     play sound "knock.wav"
-    k "ANYO! I KNOW YOU'RE IN THERE!" with Shake((0, 0, 0, 0), 0.3, dist=5)
-    k "Don't ignore me!" with Shake((0, 0, 0, 0), 0.3, dist=5)
+    k " Аньё! Я знаю, что ты там!" with Shake((0, 0, 0, 0), 0.3, dist=5)
+    k "Не игнорируй меня!" with Shake((0, 0, 0, 0), 0.3, dist=5)
     
     $ anyo = 'blue'
-    a "It's unlocked, idiot!"
+    a "Дурак, открыто!"
     
     play sound "door.wav"
     pause 1
@@ -226,74 +180,74 @@ label start:
     
     show leo normal
     with dissolve
-    l "Oh, it was! Sorry about that."
-    l "I hadn't seen you all day, so I thought you forgot about your promise."
+    l "Ох, действительно! Извини."
+    l "Я не видел тебя весь день, поэтому подумал, что ты забыла об обещании."
     
     show leo angry
     with dissolve
-    l "You... didn't forget about our date today, did you?"   
+    l "Ты… ведь не забыла о нашем свидании?"   
     
     menu:
 
-        "Date? What date?":
+        "Свидании? Каком свидании?":
             jump no
         
-        "Sorry, I was worried about something else...":
+        "Извини, я была озабочена кое-чем другим...":
             jump maybe
             
-        "Of course not!":
+        "Конечно нет!":
             jump yes
 
 label no:
     $ anyo = 'surprised'
-    a "What? Why would I go on a date with you?"
+    a "Что? Почему я должна идти с тобой на свидание?"
     show leo shock
-    l "Horrible...!"
+    l "Ужасно!"
     show leo nervous
     with dissolve
-    l "Remember that you promised last week to go out on a date with me?"
-    l "After you lost that card game..."
+    l "Помнишь на прошлой неделе, ты обещала сходить со мной на свидание?"
+    l "Потому что ты проиграла в  карточную игру..."
     $ anyo = 'thought'
-    a "Eh... Did I really?"
-    l "Yes, you did!"
+    a "Что... правда?"
+    l "Да."
     $ anyo = 'normal'
-    a "Just kidding. I remember now."
+    a "Шучу, теперь я вспомнила."
     jump date
 
 label maybe:
     $ points += 1
     $ anyo = 'normal'
-    a "Sorry, something came up, and I forgot about it for a bit."
-    a "I owe you after losing that card game last week, right?"
-    a "I have time now, so wanna go?"
+    a "Извини, кое что случилось, и я подзабыла об этом."
+    a "Я должна пойти, потому что проиграла в  карточную игру, да?"
+    a "У меня есть свободное время, хочешь пойдём?"
     show leo normal
     with dissolve
-    l "Yes!"
+    l "Да!"
     jump date
     
 label yes:
     $ points += 2
     $ anyo = 'normal'
-    a "Of course I remember, idiot."
-    a "Who do you take me for?"
+    a "Конечно я помню дурак."
+    a "За кого ты меня принимаешь?"
     show leo happy
     with dissolve
-    l "Really?"
-    l "You're the best, Anyo!"
+    l "Правда?"
+    l "Ты лучшая, Anyo!"
     jump date
 
 label date:
     show leo normal
     with dissolve
     $ anyo = 'normal'
-    a "But just so you know, I never said that it was a date."
-    a "I lost a bet to you, that's all."
-    l "A date is a date, even if it was over a bet."
+    a "Чтоб ты знал, я никогда не говорила, что это свидание."
+    a "Я просто проиграла пари, это всё."
+    l "Свидание есть свидание, даже если оно произошло из-за пари. "
     $ anyo = 'sigh'
-    a "Fine. Let's get this over with."
-    l "I'll make sure you have fun."
+    a "Хорошо. Давай покончим с этим."
+    l "Я прослежу, чтобы тебе было весело."
     $ anyo = 'normal'
-    a "(It'll at least keep my mind off of my ghost dilemma for a bit.)"
+    a "(По крайней мере, это отвлечёт меня ненадолго  от проблемы с призраком)"
     
     play music "normal.ogg"
     scene bg town
@@ -301,283 +255,283 @@ label date:
     
     show leo happy
     with dissolve    
-    l "Ahh, what a nice day out!"
-    l "It's been a while since we've wandered off campus, huh?"
-    l "The sky is blue, the air is fresh, and the sun is shining."
+    l "Ах, какой чудесный день!"
+    l "Прошло не мало времени с тех пор как мы прогуливались за пределами кампуса, верно? (Кампус - территория университета, колледжа или школы)"
+    l "Свежий воздух, голубое небо и яркое солнце."
     show leo normal
     with dissolve
-    l "Aren't you glad you came?"
+    l "Ты рада, что пошла?"
     
     menu:
-        "Yes":
+        "Да":
             $ points += 2
-            a "Yeah, I'm glad I came, actually."
-            a "It's good to get away from the school once in a while."
-            l "Right? Glad you think so, too."
-            l "Here, there aren't any teachers running after you."
-            a "You mean Dante-sensei?"
+            a "Да, я рада, что пошла."
+            a "Это хорошо,  иногда отдохнуть от школы."
+            l "Правда? Рад, что ты тоже так считаешь."
+            l "Здесь нет никаких учителей бегающих за тобой."
+            a "Ты имеешь в виду Данте-сенсея?"
             show leo nervous
             with dissolve
-            l "He's a brute... I get tired of running away..."
+            l "Он животное... я устал убегать от него..."
             $ anyo = 'happy'
-            a "Then why don't you just not run away?"
-            l "And do 500 laps? No thanks."
+            a "Тогда почему бы тебе просто не убегать?"
+            l "И потом делать пробежку в 500 кругов? Нет уж спасибо."
         
-        "No":
+        "Нет":
             $ anyo = 'sigh'
-            a "Eh, not really..."
+            a "Не совсем..."
             show leo shock
-            l "What? Then what else would you be doing?"
+            l "Что? Тогда чем ты будешь заниматься?"
             $ anyo = 'thought'
-            a "Hm..."
+            a "Хм..."
             
             menu:
-                "Studying":
+                "Учиться":
                     $ anyo = 'normal'
-                    a "Probably studying for the upcoming finals."
+                    a "Скорей всего готовиться к выпускным экзаменам."
                     $ anyo = 'sigh'
-                    a "Just like you should be doing."
+                    a "Также как и ты должен этим заниматься."
                     show leo nervous
                     with dissolve
-                    l "Ahaha..."
+                    l "Ха-ха-ха..."
                     $ anyo = 'normal'
-                    a "You know it's true."
-                    l "You're too blunt sometimes."
+                    a "Ты знаешь, что это правда."
+                    l "Иногда ты слишком жестока."
                     
-                "Reading doujinshi":
-                    a "Well, my latest doujinshi orders just arrived in the mail..."
+                "Читать додзинси ":
+                    a "Как раз пришёл мой последний заказ…"
                     show leo nervous
                     with dissolve
                     l "..."
-                    l "I'd rather not know..."
+                    l "Я бы не хотел знать..."
                     $ anyo = 'happy'
-                    a "I'll show them to you afterwards, if you want."
-                    l "No thanks..."
-                    a "You sure?"
-                    a "They're about..."
+                    a "Если захочешь,  я потом покажу их тебе."
+                    l "Нет спасибо..."
+                    a "Уверен?"
+                    a "Они о..."
                     menu: 
-                        "BL":
-                            l "Just as I thought..."
-                        "Deformed Leo":
+                        "Яое":
+                            l "Как я и думал..."
+                        "Деформированном Лео":
                             $ crack += 1
                             show leo shock
-                            l "Eh?! What?"
-                            l "There are comics about that?"
-                            a "You'd be surprised!"
-                        "Shoujo-genre love stories":
+                            l "А?! Что?"
+                            l "Даже такое есть?"
+                            a "Ты будешь удивлён!"
+                        "Сёдзе (любовные истории)":
                             $ points += 1
                             show leo dokidoki
                             with dissolve
-                            l "Really? Why are you reading those?"
+                            l "Правда? Почему ты читаешь такое?"
                             $ anyo = 'blush'
-                            a "N-no reason, idiot!"
+                            a "П-просто так, дурак!"
     show leo normal
     with dissolve
-    l "A-anyway. Let's talk about something else."
+    l "В-всё же. Давай поговорим о чём-нибудь другом."
     hide leo
     with dissolve
     
     scene black
     with fade
     $ anyo = 'normal'
-    a "We walked about for a while, talking and joking around."
-    a "It feels good, just hanging around like this."
-    a "I was really worrying too much over the curse thing..."
-    a "But I feel like my shoulders have lightened up a bit."
-    a "Maybe the ghost left already..."
+    a "Какое-то время мы гуляли, разговаривали,  шутили."
+    a "Как хорошо просто вот так  гулять."
+    a "Я очень переживала из-за этого проклятия..."
+    a "Но я почувствовала будто тяжесть немного спала с моих плеч."
+    a "Может призрак уже ушёл..."
     
     scene bg town
     with dissolve
     
     show leo normal
     with dissolve
-    l "Look, Anyo! Over here!"
+    l "Смотри, Аньё! Вон там!"
     $ anyo = 'blush'
-    a "I-idiot! Don't grab my hand all of a sudden!"
+    a "Д-Дурак! Не хватай так неожиданно мою руку!"
     show leo happy
     with dissolve
-    l "Haha, sorry about that. Check out this shop."
+    l "Ха-ха-ха, извини. Давай заглянем в этот магазин."
     show leo normal
     with dissolve
-    l "Apparently they're closing down and are clearing out the shop."
-    l "It says we could grab one item each, free of charge!"
-    l "Let's go inside and get something!"
+    l "Похоже они закрывают магазин и устроили распродажу."
+    l "Тут говорится, что каждый из нас может взять одну вещь, совершенно бесплатно!"
+    l "Пошли, возьмём себе что-нибудь!"
     $ anyo = 'normal'
-    a "Sure, why not?"
+    a "Конечно, почему бы и нет?"
     
     scene bg shop
     with fade
     show leo normal
     with dissolve
-    l "To make it fun, let's choose something for each other."
+    l "Чтобы было веселее, давай выберем что-нибудь друг другу."
     show leo nervous
     with dissolve
-    l "But... this shop's a bit weird. They have such a strange collection of things..."
+    l "Но...  это немного жуткий магазин. У них странные товары..."
     show leo normal
     with dissolve
-    l "I'm gonna look around a bit. You pick out something too, okay?"
+    l "Я немного осмотрюсь. Ты тоже выбери что-нибудь, хорошо?"
     hide leo
     with dissolve
     
     $ anyo = 'thought'
-    a "What should I get for Leo?"
+    a "Что мне взять для Лео?"
 
     menu:
-        "Strawberry Milk":
+        "Клубничное молоко":
             $ gift = "milk"
-        "Couple Keychain Set":
+        "Брелок для двоих, пара":
             $ gift = "keychain"
-        "Book":
+        "Книгу":
             $ gift = "book"
-        "Backscratcher":
+        "Палку для чесания спины":
             $ gift = "backscratcher"
-        "Deformed Leo Doll":
+        "Куклу деформированного Лео":
             $ gift = "deformed"
    
     if gift == "milk":
        $ anyo = 'normal'
-       a "This should be funny..."
+       a "Это должно быть весело..."
        show leo normal
        with dissolve
-       l "Alright, I've picked. What'd you choose?"
+       l "Отично, я выбрал, а ты?"
        $ anyo = 'happy'
-       a "Here."
+       a "Вот."
        show leo nervous
        with dissolve
-       l "Um... Anyo..."
-       l "You know that I have a thousand of these, right?"
-       a "Exactly! I thought it'd be funny."
-       l "Haha..."
+       l "Эм... Аньё..."
+       l "Ты ведь знаешь, что у меня и так его много, да?"
+       a "Именно! Я подумала, что будет прикольно."
+       l "Ха-ха-ха..."
        jump keychain
     if gift == "backscratcher":
        $ anyo = 'normal'
-       a "This should be useful for Leo... Everyone needs a backscratcher."
+       a "Это должно пригодиться Лео... Всем нужны чесалки."
        show leo normal
        with dissolve
-       l "Alright, I've picked. What'd you choose?"
-       a "Here."
+       l "Отлично, я выбрал, а ты?"
+       a "Вот."
        show leo nervous
        with dissolve
-       l "Er..."
-       l "Thanks...? (Why's she giving me this? Am I an old man...?)"
+       l "Р-р-р..."
+       l "Спасибо... (Почему она выбрала это? Я, что старик?..)"
        $ anyo = 'blue'
-       a "Hey, it's chosen by yours sincerely! You should be more grateful!"
-       l "No, I am! I just expected something less practical, and more..."
-       a "More?"
+       a "Эй , это подарок от всего сердца! Ты должен быть благодарен!"
+       l "Я благодарен! Просто ожидал, что-то менее практичное и более..."
+       a "Более?"
        jump keychain
     if gift == "book":
        $ anyo = 'normal'
-       a "This should be useful for Leo... He needs to study more, afterall."
+       a "Это должно пригодиться Лео... В конце концов, ему нужно больше заниматься."
        show leo normal
        with dissolve
-       l "Alright, I've picked. What'd you choose?"
-       a "Here."
+       l "Отлично, я выбрал, а ты?"
+       a "Вот."
        show leo nervous
        with dissolve
-       l "Er... thanks...?"
-       l "(I don't really want to study... Why's she giving me this...?)"
+       l "Р-р-р... спасибо..."
+       l "(Вообще-то я не хочу учиться... Почему она выбрала это?)"
        $ anyo = 'blue'
-       a "Hey, it's chosen by yours sincerely! You should be more grateful!"
-       l "No, I am! I just expected something less practical, and more..."
-       a "More?"
+       a "Эй , это подарок от всего сердца! Ты должен быть благодарен!"
+       l "Я благодарен! Просто ожидал, что-то менее практичное и более..."
+       a "Более?"
        jump keychain
     if gift == "deformed":
        $ anyo = 'surprised'
-       a "Woah! Why is this here?"
-       a "I know it's gotten pretty popular, but I never thought it'd end up somewhere like this."
+       a "О! Что она здесь делает?"
+       a "Я знаю, что она стала довольно популярной, но не ожидала увидеть её в таком месте."
        $ anyo = 'thought'
-       a "And it says on the tag: 'Beware, cursed doll'... I wonder why?"
+       a "На бирке написано «Осторожно, проклятая кукла»... интересно почему?"
        $ anyo = 'normal'
-       a "I can't imagine that it'd be cursed."
-       a "I'll just take off the tag here..."
+       a "Не могу себе представить, что она может быть проклятой."
+       a "Я просто сниму бирку..."
        show leo normal
        with dissolve
-       l "Alright, I've picked. What'd you choose?"
-       a "Here."
+       l "Отлично, я выбрал, а ты?"
+       a "Вот."
        show leo shock
-       l "...!!!"
-       l "Um... Anyo..."
-       a "What? Here!"
-       l "I don't want it!"
+       l "!..."
+       l "Эм... Аньё..."
+       a "Что? Вот!"
+       l "Я не хочу её!"
        $ anyo = 'blue'
-       a "Take it! It's my gift to you!"
+       a "Бери её! Это мой подарок тебе!"
        show leo nervous
        with dissolve
-       l "Anything but that...! Why is that here, anyway?"
-       l "Er... Instead..."
+       l "Что угодно, но это!.. Что она вообще здесь делает?"
+       l "Эрр... Взамен..."
        jump keychain       
     if gift == "keychain":
        $ points += 2
        $ anyo = 'normal'
-       a "This is a cute keychain..."
+       a "Какой милый брелок..."
        show leo normal
        with dissolve
-       l "Alright, I've picked. What'd you choose?"
-       a "Here."
+       l " Отлично, я выбрал, а ты?"
+       a "Вот."
        show leo dokidoki
        with dissolve
-       l "...!!! Anyo... You...!"
+       l "Аньё!.. Ты!.."
        $ anyo = 'blush'
-       a "W-what!"
-       l "I'm so touched!"
+       a "Ч-что!"
+       l "Я так тронут!"
        show leo normal
        with dissolve
-       l "I picked out the couple keychain set too. So I was going to ask you if we could both take one each..."
-       l "But we ended up picking the same thing!"
-       l "We must be on the same wavelength."
-       a "I just thought it was cute, okay?"
+       l "Я взял тоже брелок для двоих. Поэтому я собирался подарить его половинку..."
+       l "Но мы выбрали одинаковые подарки!"
+       l "Должно быть мы думаем одинаково."
+       a "Я просто подумала, что он милый, ладно?"
        show leo happy
        with dissolve
-       l "Okay."
-       l "You're the best!"
+       l "Хорошо."
+       l "Ты лучшая!"
        $ anyo = 'normal'
-       a "I know, I know."
+       a "Знаю, знаю."
        jump next
 
 label keychain:
     show leo normal
     with dissolve
-    l "Actually, I was wondering if we could get these..."
+    l "Вообще то, мне интересно могли бы мы..."
     $ anyo = 'speechless'
-    a "A couple keychain set?"
+    a "Брелок для двоих?"
     show leo dokidoki
     with dissolve
-    l "Well, since there are two, we could get it for each other."
-    l "What do you think...?"
+    l "Ну, он парный, поэтому каждому достанется половинка."
+    l "Как ты думаешь?.."
     menu:
-        "Sure, let's get them.":
+        "Конечно, давай.":
             $ anyo = 'normal'
             $ points += 1
             $ gift = "keychain"
-            a "Sure, they're cute. So why not? Though I do like the gift I chose..."
+            a "Конечно, ведь он такой милый. Хотя мне мой подарок тоже нравится..."
             show leo happy
             with dissolve
-            l "You're the best!"
+            l "Ты лучшая!"
             $ anyo = 'normal'
-            a "I know, I know."
+            a "Знаю, знаю."
             jump next
-        "Are you kidding me?":
+        "Ты что издеваешься?":
             $ anyo = 'omg'
-            a "A couple keychain set? No way!"
+            a " Брелок для двоих? Не за что!"
             show leo sad
             with dissolve
-            l "I should have expected that."
-            l "I don't really want anything, then."
-            l "You should get something for yourself, then let's leave."
+            l "Я должен был ожидать такой ответ."
+            l "Тогда я ничего другого не хочу."
+            l "Выбери себе, что нравится и пошли. "
             $ anyo = 'speechless'
-            a "Okay... (Is he sad?)"
+            a "Хорошо... (Он, что расстроился?)"
             jump next 
-        "No, I want you to keep the deformed Leo doll!" if gift == "deformed" and crack == 1:
+        "Нет, я хочу, чтобы ты взял куклу деформированного Лео!" if gift == "deformed" and crack == 1:
             $ crack += 1
             $ anyo = 'happy'
-            a "No, you have to keep the deformed Leo doll!"
+            a "Нет, ты должен взять куклу деформированного Лео!"
             show leo shock
-            l "What! W-why?"
-            a "I want you to! Don't refuse me!"
+            l "Что! З-зачем?"
+            a "Я так хочу! Не отказывайся!"
             show leo nervous
             with dissolve
-            l "Er... o-okay."
-            l "I'll just take it, then..."
+            l "Р-р-р...  х-хорошо."
+            l "Тогда,  я просто возьму её…"
 label next:
     scene bg town
     with fade
@@ -585,16 +539,16 @@ label next:
     if gift == "keychain":
         show leo happy
         with dissolve
-        l "This has made my day. Thanks so much, Anyo!"
-        a "(It's good to see him so happy.)"
-        a "(It makes me... feel at ease too. I wonder why?)"
+        l "Большое спасибо Аньё! Мне очень приятно."
+        a "(Рада видеть его счастливым.)"
+        a "(От этого мне становится легче... Интересно почему?)"
     show leo normal
     with dissolve
-    l "It's starting to get late, so we should go back."
-    a "Yeah, let's go."
+    l "Уже поздно, нам пора возвращаться."
+    a "Да, пошли."
     
 if points > 2 or crack == 2:
-    l "But I want to take you to one last place before the day is over."
+    l "Пока день не кончился, я хочу отвести тебя ещё в одно место."
     jump fountain
 else:
     jump end
@@ -607,210 +561,210 @@ label fountain:
     show leo normal
     with dissolve
     $ anyo = 'blush'
-    a "This is... the fountain of love..."
-    a "Why are you bringing me here?"
+    a "Это... фонтан любви..."
+    a "Почему ты меня сюда привёл?"
     show leo dokidoki
     with dissolve
-    l "Well... I just thought it would be a good way to end our date."
-    a "Ah..."
+    l "Ну... я просто подумал, что это будет хорошим местом для окончания свидания."
+    a "Ах..."
     l "..."
     a "..."
-    a "(There's way too much tension here...!)"
-    l "Hey Anyo..."
-    a "Y-yeah?"
-    l "I know you already know this, and I've told you many times before, but..."
-    l "I love you."
-    a "I-idiot!"
-    l "So this time, could you tell me properly: What do you think of me?"
+    a "(Какое-то странное напряжение!)"
+    l "Эй Аньё..."
+    a "Д-да?"
+    l "Я знаю, что тебе уже это известно, и я говорил  об этом уже не раз, но..."
+    l "Я люблю тебя."
+    a "Д-дурак!"
+    l "Поэтому, скажи в этот раз правду. Что ты думаешь обо мне?"
     menu:
-        "I love you too" if points == 6:
+        "Я тоже тебя люблю" if points == 6:
             play music "love.ogg"
             $ points += 2
             $ anyo = 'normal'
-            a "I think I realized this a while ago, but..."
+            a "Думаю, я поняла это давно, но..."
             $ anyo = 'happy'
-            a "I... love you too."
-            l "R-really?"
+            a "Я... тоже люблю тебя."
+            l "П-правда?"
             $ anyo = 'blush'
-            a "Idiot, don't make me say it twice...!"
+            a "Дурак, не заставляй меня произносить это дважды!.."
             show leo happy
             with dissolve
-            l "But... I'm so happy!"
-            a "I know, I know..."
-            an "I think I've understood."
-            an "My true love is... Leo."
-            an "How did I not see it before...?"
+            l "Но... я так рад!"
+            a "Знаю, знаю..."
+            an "Кажется я поняла."
+            an "Моя истинная любовь – Лео..."
+            an "Как я этого не замечала раньше?.."
             $ anyo = 'normal'
-            a "Leo... Could you give me a kiss?"
+            a "Лео...  Можешь поцеловать меня?"
             show leo dokidoki
             with dissolve
-            l "E-eh?"
+            l "Ч-что?"
             $ anyo = 'blush'
-            a "Well, any couple who kiss in front of this fountain are supposed to be blessed for the rest of their lives, right?"
-            a "I-I just thought we should try it out, you know."
-            a "Just... in case."
-            l "Yeah."
+            a "Ну, пара которая  поцелуется около этого фонтана должна жить счастливо до конца жизни, да?"
+            a "Я-я просто подумала ,что мы должны попробовать."
+            a "Просто... раз представился такой случай."
+            l "Да."
             hide leo
             with dissolve
-            an "(I close my eyes and brace myself.)"
+            an "(Я подготовила себя и закрыла глаза.)"
             play sound "heartbeat.wav"
-            an "(My heart is beating wildly. I can't hear anything else.)"
+            an "(Моё сердце бешено колотится. Я слышу только его удары.)"
             play sound "kiss.wav"
-            a "...!"
-            a "O-on the cheek?"
+            a "!.."
+            a "В-в щеку?"
             show leo dokidoki
             with dissolve
-            l "Were you expecting somewhere else?"
-            a "No, idiot!"
-            l "Haha, alright... (Darn, should have gone for the lips...)"
-        "I don't know":
+            l "А ты думала ещё куда-то?"
+            a "Нет, дурак!"
+            l "Ха-ха-ха, хорошо...  (Чёрт, надо было в губы...)"
+        "Не знаю":
             $ points += 1
-            a "I'm sorry, but I can't say."
-            a "I... really don't know how I feel about you."
+            a "Извини, но я не могу сказать."
+            a "Я... честно не знаю какие чувства у меня к тебе..."
             $ anyo = 'normal'
-            a "Just... give me some more time, okay?"
+            a "Просто...  дай мне ещё время, хорошо?"
             show leo sad
             with dissolve
-            l "Ah..."
-            l "I understand."
+            l "Эх..."
+            l "Понятно."
             show leo happy
             with dissolve
-            l "I've waited this long; I could wait some more!"
-            an "(Ah... I could tell he's trying to act strong...)"
-            an "(It's unfortunate, but I don't know what else to say.)"
-        "Don't be ridiculous, I don't love you":
+            l "Я долго ждал этого. Подожду ещё!"
+            an "(Ах... он пытается быть мужественным...)"
+            an "(К сожалению, я не знаю , что сказать ещё.)"
+        "Не смеши, я не люблю тебя":
             $ anyo = 'blue'
-            a "What are you saying? Don't be ridiculous!"
-            a "You know my answer already, so why bring this up?"
+            a "Что ты говоришь? Не смеши меня!"
+            a "Ты и так знаешь ответ, зачем снова спрашивать? "
             show leo sad
             with dissolve
-            l "Haha... You're right..."
+            l "Ха-ха-ха... Ты права..."
             show leo normal
             with dissolve
-            l "It's... fine. Forget about what I said."
-        "Sorry, but I love someone else":
-            a "Sorry, but I love someone else."
+            l "Всё... нормально. Забудь, что я сказал."
+        "Извини, но я люблю другого.":
+            a " Извини, но я люблю другого."
             show leo sad
             with dissolve
-            l "Ah..."
+            l "Ах..."
             show leo angry
             with dissolve
-            l "If it's alright, can you tell me who?"
+            l "Можешь сказать кого?"
             menu:
-                "Lance":
-                    a "I'm sorry, but I love Lance."
+                "Ланса":
+                    a "Извини, но я люблю Ланса."
                     $ anyo = 'normal'
-                    a "He's... cool and smart."
+                    a "Он... классный и умный."
                     show leo sad
                     with dissolve
-                    l "Really..."
-                    l "I guess I should have known..."
+                    l "Действительно..."
+                    l "Мог бы и сам догадаться..."
                     show leo normal
                     with dissolve
-                    l "But... I still won't give up!"
-                    l "One day, I'll make you fall in love with me!"
-                    a "We'll see about that!"
-                "Merilu":
-                    a "Sorry..."
+                    l "Но... я, всё равно не сдамся!"
+                    l "Однажды, я добьюсь твоей любви!"
+                    a "Ну увидим!"
+                " Мэрилу":
+                    a "Извини..."
                     $ anyo = 'normal'
-                    a "I love Merilu."
-                    a "She's gentle, kind, and the opposite of me."
-                    a "I need her and she needs me."
-                    a "Right now, she's the one I love the most."
+                    a "Я люблю Мэрилу."
+                    a "Она, нежна, добрая, благородная и полная противоположность меня."
+                    a "Она нужна мне, а я ей."
+                    a "Она единственная кого я сейчас люблю."
                     show leo sad
                     with dissolve
-                    l "Really..."
-                    l "I guess I should have known..."
+                    l "Действительно..."
+                    l "Мог бы и сам догадаться..."
                     show leo normal
                     with dissolve
-                    l "But... I still won't give up!"
-                    l "One day, I'll make you fall in love with me!"
-                    a "We'll see about that!"
-                "Farant":
-                    a "I'm sorry, but I love Farant."
+                    l "Но... я, всё равно не сдамся!"
+                    l "Однажды, я добьюсь твоей любви!"
+                    a "Ну увидим!"
+                " Фэррент":
+                    a "Извини, но я люблю Фэррента."
                     $ anyo = 'normal'
-                    a "He's a funny, but smart and charming character."
+                    a "У него прекрасный характер, он забавный и одновременно умный..."
                     show leo sad
                     with dissolve
-                    l "Really..."
+                    l " Действительно..."
                     show leo normal
                     with dissolve
-                    l "But... I still won't give up!"
-                    l "One day, I'll make you fall in love with me!"
-                    a "We'll see about that!"
-                "Lucien":
-                    a "Sorry, but I love Lucien."
+                    l "Но... я, всё равно не сдамся!"
+                    l "Однажды, я добьюсь твоей любви!"
+                    a "Ну увидим!"
+                " Люсьен":
+                    a "Извини, но я люблю Люсьена."
                     $ anyo = 'normal'
                     show leo shock
-                    l "A perv like him?"
-                    a "Well... He's interesting, and has a somewhat of a similar personality with me."
+                    l "Такого извращенца?"
+                    a "Ну... он интересный, в чём-то мы схожи."
                     show leo sad
                     with dissolve
-                    l "Really..."
+                    l "Действительно..."
                     show leo normal
                     with dissolve
-                    l "But... I still won't give up!"
-                    l "One day, I'll make you fall in love with me!"
-                    a "We'll see about that!"
-                "Zelos":
-                    a "Sorry, but I love Zelos."
+                    l "Но... я, всё равно не сдамся!"
+                    l "Однажды, я добьюсь твоей любви!"
+                    a "Ну увидим!"
+                "Зелоса":
+                    a "Извини, но я люблю Зелоса."
                     $ anyo = 'normal'
-                    a "He's cool and mysterious, but doesn't forget to be kind."
+                    a "Он классный и загадочный, также не забывает о доброте."
                     show leo sad
                     with dissolve
-                    l "Really..."
+                    l "Действительно..."
                     show leo normal
                     with dissolve
-                    l "But... I still won't give up!"
-                    l "One day, I'll make you fall in love with me!"
-                    a "We'll see about that!"
-                "Keane":
-                    a "Sorry, but I love Keane."
+                    l "Но... я, всё равно не сдамся!"
+                    l "Однажды, я добьюсь твоей любви!"
+                    a "Ну увидим!"
+                "Каэне":
+                    a "Извини, но я люблю Каэне."
                     show leo shock
-                    l "Why? He's a scruffy drunk!"
-                    a "J-just... He's really manly..."
+                    l "Почему? Он ведь поганый алкаш!"
+                    a "П-просто... Он очень мужественный..."
                     $ anyo = 'normal'
-                    a "I guess you could say he's just my ideal type."
+                    a "Можно сказать, что он воплощение идеального мужчины."
                     show leo sad
                     with dissolve
-                    l "Really..."
+                    l "Действительно..."
                     show leo normal
                     with dissolve
-                    l "But... I still won't give up!"
-                    l "One day, I'll make you fall in love with me!"
-                    a "We'll see about that!"
-                "Deformed Leo" if crack == 2:
+                    l "Но... я, всё равно не сдамся!"
+                    l "Однажды, я добьюсь твоей любви!"
+                    a "Ну увидим!"
+                "Деформированного Лео" if crack == 2:
                     $ crack += 1
-                    a "I'm... sorry, Leo."
-                    a "I only love the ultimate culmination of beauty."
-                    a "Though you come close, you don't quite meet the mark..."
+                    a "Извини... Лео."
+                    a "Я люблю только завершенные, прекрасные создания."
+                    a "Хотя ты близок к этому, но всё ещё не дотягиваешь..."
                     $ anyo = 'normal'
-                    a "I love Leonel, the deformed version of you."
+                    a "Я люблю Леонеля, искаженную версию тебя."
                     show leo nervous
                     with dissolve
-                    l "A-anyo, are you serious?"
-                    a "As serious as could be."
-                    l "I... guess I can't argue with you, then."
-                    l "I worry for you..."
-        "You're just a friend":
-            a "Sorry, but I consider you only as a friend..."
-            a "You're one of my best friends, and I don't want to risk losing that."
-            a "I hope you understand."
+                    l "А-аньё, ты серьёзно?"
+                    a "Серьёзней быть не может."
+                    l "Я... не могу сейчас спорить с тобой."
+                    l "Я переживаю за тебя..."
+        "Ты просто друг":
+            a "Извини, но я рассматриваю тебя только как друга..."
+            a "Ты один из моих лучших  друзей, и я не хочу рисковать нашей дружбой."
+            a "Надеюсь ты понимаешь."
             show leo sad
             with dissolve
-            l "Ah..."
+            l "Ах..."
             show leo happy
             with dissolve
-            l "I understand. Lance, you, and me, right?"
+            l "Понимаю. Ланс, ты, и я , верно?"
             show leo normal
             with dissolve
-            l "But... I still won't give up!"
-            l "One day, I'll make you fall in love with me!"
+            l "Но... я, всё равно не сдамся!"
+            l "Однажды, я добьюсь твоей любви!"
             $ anyo = 'normal'
-            a "Go ahead and try!"
+            a "Попробуй!"
     hide leo
     with dissolve
-    an "We sat near the fountain a bit longer, before heading back."      
+    an "Прежде чем возвращаться, мы ещё немного посидели около фонтана."      
     jump end
     
 label end:
@@ -818,17 +772,17 @@ label end:
     with fade
     stop music
     $ anyo = 'normal'
-    a "We're on the way back to school now."
-    a "...It was an interesting day."
-    a "I even forgot all about the curse."
+    a "Сейчас мы возвращаемся в школу."
+    a "Это был интересный день..."
+    a "Я даже совсем забыла о проклятии."
     $ anyo = 'omg'
-    a "But... why do I feel so tired now?"
-    a "Oh no... I think the ghost might be sapping out my energy..."
-    a "I feel weaker with every step I take..."
-    a "I don't think I can..."
+    a "Но... почему я чувствую себя такой уставшей?"
+    a "Ой, нет... Думаю, призрак может вобрать всю мою жизненную энергию..."
+    a "С каждым шагом слабость ощущается всё сильнее..."
+    a "Не думаю, что смогу..."
     play sound "thud.wav"
     k "" with Shake((0, 0, 0, 0), 0.5, dist=15)
-    l "Anyo?! Anyo!"
+    l "Аньё?! Аньё!"
     if crack == 3:
         jump crack
     elif points < 3:
@@ -840,32 +794,32 @@ label end:
 label bad:
     scene white
     with fade
-    an "So... I was unable to kiss my true love..."
-    an "...Am I dead...?"
-    an "It's unfortunate..."
-    an "I regret it..."
+    an "Так... я не смогла поцеловать свою истинную любовь..."
+    an "Я умираю?.."
+    an "Это прискорбно..."
+    an "Я так сожалею..."
     scene black
     with fade
-    an "...?"
-    an "I still feel my body..."
-    an "I'm... alive?"
+    an "?.."
+    an "Я всё ещё чувствую своё тело..."
+    an "Неужели... я ещё жива?"
     scene bg room
     with fade
-    an "Was I carried back...?"
+    an "Меня принесли сюда?.."
     show rei normal
     with dissolve
-    r "I see you've woken up."
-    r "Leo came running to me for help."
-    r "I found a different way to chase the ghost out of your body, but I don't know what the side effects will be, since it was so rushed..."
-    r "Let's hope they aren't bad."
-    an "Thanks Rei-chan. I feel so lightheaded, though..."
-    r "You should rest up for now. Your body's been through a lot."
-    r "Take care."
+    r "Я смотрю ты очнулась."
+    r "Лео прибегал ко мне за помощью."
+    r "Я нашла  другой способ как отогнать призрака от тебя, но он сильно сопротивлялся, поэтому не знаю какие могут быть побочные эффекты..."
+    r "Будем надеяться, что ничего страшного."
+    an "Спасибо Рэй-чан. У меня так кружится голова, хотя..."
+    r "Ты должна отдохнуть. Твоему телу хорошо досталось."
+    r "Береги себя."
     hide rei normal
     with dissolve
-    an "I see... So I was saved."
-    an "If Leo and Rei hadn't been there, I would have been a goner."
-    an "Though... I never found out who my 'true love' is..."
+    an "Ясно... Значит я спасена."
+    an "Если бы не Лео и Рэй, я бы умерла."
+    an "Однако...  Я никогда не узнаю, кто моя «истинная любовь»..."
     an "..."
     k " .:. BAD ENDING"
     play music "credits.ogg"
@@ -873,139 +827,139 @@ label bad:
 label good:
     scene white
     with fade
-    an "So... I was unable to kiss my true love..."
-    an "...Am I dead...?"
-    an "It's unfortunate..."
-    an "I regret it..."
+    an "Значит... я не смогла поцеловать свою истинную любовь..."
+    an "Я умираю?.."
+    an "Э то прискорбно..."
+    an "Я так сожалею..."
     scene black
     with fade
-    an "...?"
-    an "I still feel my body..."
-    an "I'm... alive?"
+    an "?.."
+    an "Я всё ещё чувствую своё тело..."
+    an "Я... живая?"
     scene bg room
     with fade
-    an "Was I carried back...?"
+    an "Меня принесли сюда?.."
     play music "happy.ogg"
     show leo happy
     with dissolve
-    l "Anyo! You're awake!"
+    l "Аньё! Ты очнулась!"
     show leo nervous
     with dissolve
-    l "I was so scared; you fainted in the middle of the road, so I carried you back to your room."
+    l "Я так испугался. Ты упала в обморок, поэтому я отнёс тебя в твою комнату."
     $ anyo = 'normal'
-    a "Did that happen? Thanks for carrying me back."
+    a "Это произошло? Спасибо, что принёс меня."
     show leo normal
     with dissolve
     $ anyo = 'thought'
-    a "(More importantly, why am I still alive?)"
-    a "But... eh?"
-    a "For some reason, I feel like I felt something touch my lips while I was asleep..."
+    a "(Куда важнее, почему я всё ещё жива?)"
+    a "Но... а?"
+    a "Когда я спала, я почувствовала, как кто-то прикоснулся к моим губам..."
     show leo nervous
     with dissolve
-    l "That's nonsense..."
+    l "Это абсурд..."
     $ anyo = 'blue'
-    a "And... since you were the only one near me..."
-    l "...What are you talking about?"
+    a "И... если учесть что рядом был только ты..."
+    l "О чём ты говоришь?.."
     $ anyo = 'surprised'
-    a "You perv!"
+    a "Ты извращенец!"
     $ anyo = 'blue'
-    a "Take this!"
+    a "Получай!"
     show leo shock
     play sound "thud.wav"
-    l "Woah! Don't throw pillows at me!" with Shake((0, 0, 0, 0), 0.5, dist=15)
-    a "This is what you get for stealing a kiss from me when I was sleeping!"
+    l "Ой! Не кидайся в меня подушками!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    a "Это расплата за украденный поцелуй!"
     show leo nervous
     with dissolve
-    l "I didn't!"
-    a "Lying won't help you!"
+    l "Я ничего не делал!"
+    a "Ложь тебе не поможет!"
     play sound "thud.wav"
     show leo shock
-    l "O-okay! Sorry!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    l "Х-хорошо! Извини!" with Shake((0, 0, 0, 0), 0.5, dist=15)
     play sound "thud.wav"
-    l "Truce! Truce!" with Shake((0, 0, 0, 0), 0.5, dist=15)
+    l "Перемирие! Перемирие!" with Shake((0, 0, 0, 0), 0.5, dist=15)
     scene black
     with fade
     $ anyo = 'normal'
-    a "So I passed this dilemma without finding out who my true love is." 
-    a "But in the end, I'm okay with things the way they are."
+    a "Значит я справилась с этой проблемой, так и не узнав кто моя истинная любовь." 
+    a "Но всё же. Я рада тому, как всё сложилось."
     k " .:. ANYO'S ENDING"
     jump credits
 label best:
     scene white
     with fade
-    an "Just... when I found my true love..."
-    an "I thought the kiss was supposed to save me?"
-    an "...Am I dead...?"
-    an "Haha... Maybe it was supposed to be a kiss on the lips..."
-    an "How silly..."
-    an "I regret not being able to spend more time with Leo..."
+    an "Только... когда я найду свою истинную любовь..."
+    an "Я думала поцелуй должен был спасти меня?"
+    an "Ах... я умираю?"
+    an "Ха-ха-ха... возможно это должен был быть поцелуй в губы..."
+    an "Как глупо..."
+    an "Жалко, что я не смогу больше быть с Лео..."
     scene black
     with fade
-    an "...?"
-    an "I still feel my body..."
-    an "I'm... alive?"
+    an "?.."
+    an "Я всё ещё чувствую своё тело..."
+    an "Я... жива?"
     scene bg room
     with fade
-    an "Was I carried back...?"
+    an "Меня принесли сюда?.."
     play music "happy.ogg"
     show leo happy
     with dissolve
-    l "Anyo! Thank goodness! You're awake!"
-    l "I was so scared; you fainted in the middle of the road, so I carried you back to your room."
+    l "Аньё! Слава богу! Ты очнулась!"
+    l "Я так испугался. Ты упала в обморок, поэтому я отнёс тебя в твою комнату."
     $ anyo = 'normal'
-    a "Did that happen? Thanks for carrying me back."
+    a "Это произошло? Спасибо, что принёс меня."
     $ anyo = 'thought'
-    a "But... eh?"
-    a "For some reason, I feel like I felt something touch my lips while I was asleep..."
+    a " Но... а?"
+    a " Когда я спала, я почувствовала, как кто-то прикоснулся к моим губам..."
     show leo dokidoki
     with dissolve
-    l "Ah... about that."
-    l "Sorry, I kissed you while you were asleep."
-    l "You looked so pretty that I couldn't help myself..."
+    l "Ах... ты об этом."
+    l "Извини, я поцеловал тебя, пока ты спала."
+    l "Ты выглядела такой милой, я просто не смог удержаться..."
     $ anyo = 'blush'
-    a "Are you an idiot, or what?"
-    a "You do things like that when I'm awake!"
-    l "Eh?"
+    a "Ты дурак или как?"
+    a "Ты должен это делать когда я не сплю!"
+    l "А?"
     hide leo
     with dissolve
     play sound "kiss.wav"
     k ""
-    l "...!"
-    an "So I found out who my true love is, for better or for worse."
-    an "I guess... this will be our happily ever after."
+    l "!.."
+    an "Хорошо это или плохо, но я выяснила кто моя истинная любовь."
+    an "Думаю... после этого у нас будет всё прекрасно."
     k " .:. LEO'S ENDING"
     jump credits
 label crack:
     scene white
     with fade
-    an "So... I was unable to kiss my true love..."
-    an "...Am I dead...?"
-    an "It's unfortunate..."
-    an "I regret it..."
+    an "Так... я не смогла поцеловать свою истинную любовь..."
+    an "Я умираю?.."
+    an "Это прискорбно..."
+    an "Я так сожалею..."
     scene black
     with fade
-    an "...?"
-    an "I still feel my body..."
-    an "I'm... alive?"
+    an "?.."
+    an "Я всё ещё чувствую своё тело..."
+    an "Я... жива?"
     scene bg room
     with fade
-    an "Was I carried back...?"
+    an "Меня принесли сюда?.."
     $ anyo = 'surprised'
-    a "Y-you're!"
+    a "Т-ты!"
     play music "funny.ogg"
     show leo deformed
     with dissolve
-    a "L-leonel!"
-    a "How are you here?"
-    nel "I was trapped in that doll that you gave Leo. Now, I've been freed."
-    a "And how am I still alive?"
-    nel "I've given you a kiss during your slumber!"
-    nel "Through our kiss of true love, I have chased away the evil ghost cursing you."
+    a "Л-Леонель!"
+    a "Как ты?.."
+    nel "Я был заключен в кукле, которую ты отдала Лео. Теперь я освобождён."
+    a "По чему я всё ещё жива?"
+    nel "Пока ты спала, я поцеловал тебя!"
+    nel "Благодаря нашему поцелую истинной любви, я смог прогнать злого призрака."
     $ anyo = 'blush'
-    a "Oh, Leonel, my prince! My knight in shining armor!"
-    nel "Now let's go, Anyo!"
-    nel "We'll fly to the moon and beyond with our eternal love!"
-    a "Yes! Take me away, wherever you'd like, my love!"
+    a "Ох, Леонель, мой принц! Рыцарь в сияющих доспехах!"
+    nel "А теперь пошли Аньё!"
+    nel "Мы полетим на луну, и будем наслаждаться нашей вечной любовью! "
+    a "Да! Забери меня куда угодно любовь моя!"
     k " .:. CRACK ENDING"
     k "(I... apologize for this ending ;;)"
     jump credits
@@ -1013,6 +967,10 @@ label credits:
     scene black
     with fade
     
+    show text "{color=#DEDEDE}Jiyuu-vn.ru Перевод: Редактура:{/color}"
+    with fade
+    $renpy.pause(3.5)
+
     show text "{color=#DEDEDE}Made with Ren'Py visual novel engine{/color}"
     with fade
     $renpy.pause(1.5)
@@ -1061,4 +1019,5 @@ label credits:
     with fade
     
     return
+
 </poem>
