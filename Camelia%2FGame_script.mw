@@ -1,4 +1,50 @@
 <poem>
+# You can place the script of your game in this file.
+
+# Declare images below this line, using the image statement.
+# eg. image eileen happy = "eileen_happy.png"
+image bg fountain = "fountain.jpg"
+image bg town = "town.jpg"
+image bg room = "room.jpg"
+image bg hall = "hall.png"
+image bg shop = "shop.jpg"
+image white = Solid((255, 255, 255, 255))
+
+image anyo normal = "anyo_normal.png"
+image leo normal = "leo_normal.png"
+image leo sad = "leo_sad.png"
+image leo angry = "leo_angry.png"
+image leo nervous = "leo_nervous.png"
+image leo shock = "leo_shock.png"
+image leo dokidoki = "leo_dokidoki.png"
+image leo deformed = "leo_deformed.png"
+image leo happy = "leo_happy.png"
+image rei normal = "rei_normal.png"
+
+# Declare characters used by this game.
+init:
+    $ k = Character(None, what_ypos = 30, window_background="saybox_noname.png")
+    $ n = Character('???')
+    $ l = Character(u'ЛЕО', color="#ffffff")
+    $ nel = Character(u'ЛЕОНЕЛ', color="#ffffff")
+    $ r = Character(u'РЭЙ', color="#ffffff")
+    $ an = Character(u'АНЬЁ', color="#ffffff")
+    $ a = Character(u'АНЬЁ',
+                color="#ffffff",
+                what_xpos = 50,
+                show_side_image=ConditionSwitch(
+                    "anyo == 'happy'", "anyo_happy.png",
+                    "anyo == 'normal'", "anyo_normal.png",
+                    "anyo == 'blush'", "anyo_blush.png",
+                    "anyo == 'omg'", "anyo_omg.png",  
+                    "anyo == 'speechless'", "anyo_speechless.png",  
+                    "anyo == 'thought'", "anyo_thought.png",
+                    "anyo == 'surprised'", "anyo_surprised.png",  
+                    "anyo == 'sigh'", "anyo_sigh.png", 
+                    "anyo == 'blue'", "anyo_blue.png", 
+                    None, Null(),
+                    xalign=0.0, yalign=0.9))
+    
 # The game starts here.
 label start:
     $ points = 0
