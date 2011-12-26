@@ -70,10 +70,10 @@ init:
     image Fin2 = "fin2.png" 
     
     # Declare characters used by this game
-    $ Bu = Character('Bunielle', color="#FAAFBA")
-    $ Fi = Character('Finn', color="#C38EC7")
-    $ Me = Character('Miss Vianen', color="#C38EC7")
-    $ As = Character('Asher', color="#C38EC7")
+    $ Bu = Character(u'Буниэль', color="#FAAFBA")
+    $ Fi = Character(u'Финн', color="#C38EC7")
+    $ Me = Character(u'мисс Вианен', color="#C38EC7")
+    $ As = Character(u'Ашер', color="#C38EC7")
 
 label start:
 pause (3.0)
