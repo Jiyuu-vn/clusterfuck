@@ -142,8 +142,8 @@ init:
     
     # Declare characters used by this game.
     $ m = Character(what_color="#dabd34")
-    $ l = Character('Leigh', color="#ffffff")
-    $ nurse = Character('Nurse', color="#ffffff")
+    $ l = Character(u'Ли', color="#ffffff")
+    $ nurse = Character(u'Медсестра', color="#ffffff")
 
     $_game_menu_screen = "_quit_prompt"
 
