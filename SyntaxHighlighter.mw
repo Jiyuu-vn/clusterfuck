@@ -1,0 +1,65 @@
+<big>
+Код на Delphi:
+<pre class="brush:delphi">
+ 
+interface
+ 
+uses
+  Windows,
+  GpSharedMemory,
+  OmniXMLProperties; 
+</pre>
+Код на Asm:
+<pre class="brush:asm">
+push edi ; comment
+push esi
+push ebx
+push ecx
+push edx
+mov edi, key
+push ebx
+mov esi, 'single quoted string'
+mov esi, dataBuffer
+mov eax, dword ptr ds:[esi+$00000BEC]
+push ebx
+mov ebx, eax
+and ebx, $AAAAAAAA
+and eax, $55555555
+shr ebx, 1
+shl eax, 1
+or eax, ebx
+pop ebx
+push ebx
+mov ebx, eax
+and ebx, $AAAAAAAA
+and eax, $55555555
+shr ebx, 1
+shl eax, 1
+or eax, ebx
+pop ebx
+mov ebx, eax
+push ebx
+mov esi, dataBuffer
+mov eax, dword ptr ds:[esi+$00000E20]
+mov ebx, eax
+mov eax, edi
+imul eax, ebx
+pop ebx
+push ebx
+mov ebx, eax
+and ebx, $AAAAAAAA
+and eax, $55555555
+shr ebx, 1
+shl eax, 1
+or eax, ebx
+pop ebx
+sub eax, ebx
+pop ebx
+pop edx
+pop ecx
+pop ebx
+pop esi
+pop edi
+</pre>
+
+</big>
