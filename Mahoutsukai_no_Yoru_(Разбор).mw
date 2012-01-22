@@ -465,12 +465,12 @@ ebx := key shr 7h;
 
 После чего по адресу в стэке, где был указатель на callerLocals помещается указатель на pCriticalSection:
 <pre class="brush:asm">
-1E001106  |.  894424 28     MOV DWORD PTR SS:[ESP+28],EAX            ; |
+1E001106  |.  894424 28     MOV DWORD PTR SS:[ESP+28],EAX            
 </pre>
 
 Далее в EAX помещается значение из someAddr + по смещению, рассчитанному от EDI:
 <pre class="brush:asm">
-1E001113  |.  8B44BE 04     MOV EAX,DWORD PTR DS:[ESI+EDI*4+4]       ;  eax = (ptr + (adler and 7F) * 4 + 4)^
+1E001113  |.  8B44BE 04     MOV EAX,DWORD PTR DS:[ESI+EDI*4+4]       
 </pre>
 
 Теперь можно считать что someAddr — это массив из 4 байтных целых, т.е.:
@@ -481,7 +481,7 @@ eax := someAddr[edi + 1]; // где edi := key and 7Fh
 Далее это значение сравнивается с нулём:
 <pre class="brush:asm">
 1E001117  |.  33C9          XOR ECX,ECX
-1E001119  |.  3BC1          CMP EAX,ECX                              ;  compare eax with 0 (value from someTable with 0)
+1E001119  |.  3BC1          CMP EAX,ECX                             
 </pre>
 
 А теперь самое интересное. Если оно не равно нулю, то делается преход с следующему коду:
@@ -491,5 +491,5 @@ eax := someAddr[edi + 1]; // где edi := key and 7Fh
 1E0011BA  |.  52            PUSH EDX                                 ; /pCriticalSection
 1E0011BB  |.  FF15 1020021E CALL DWORD PTR DS:[<&KERNEL32.LeaveCriti>; \LeaveCriticalSection
 1E0011C1  |.  53            PUSH EBX
-1E0011C2  |.  FF54BE 04     CALL DWORD PTR DS:[ESI+EDI*4+4]          ;  eax := decryptKey
+1E0011C2  |.  FF54BE 04     CALL DWORD PTR DS:[ESI+EDI*4+4]         
 </pre>
