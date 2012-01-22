@@ -409,7 +409,7 @@ http://img339.imageshack.us/img339/2056/screenshot2201201211152.png
 
 Видимо, всё что происходит в этой функции завернуто в try except end (try catch в С).
 
-Далее мы видим, что в регистры EBX и EBP помещаются значения из параметров функции, а в ESI то, что перед вызовом сохранила там cxdec.1E002010 (не зря запоминали):
+Далее мы видим, что в регистры EBX и EBP помещаются значения из параметров функции, а в ESI из ECX то, что перед вызовом сохранила там cxdec.1E002010 (не зря запоминали):
 
 <pre class="brush:asm">
 1E0010E5  |.  53            PUSH EBX
@@ -418,4 +418,78 @@ http://img339.imageshack.us/img339/2056/screenshot2201201211152.png
 1E0010EB  |.  8B6C24 1C     MOV EBP,DWORD PTR SS:[ESP+1C]            
 1E0010EF  |.  56            PUSH ESI
 1E0010F0  |.  8BF1          MOV ESI,ECX  
+</pre>
+
+Тогда вызов функции cxdec.1E0010D0 можно описать следующим образом:
+<pre class="brush:delphi">
+cxdec.1E0010D0(key, callerLocals, someAddr);
+</pre>
+
+Потом в EDI оказывается key:
+
+<pre class="brush:asm">
+1E0010F2  |.  57            PUSH EDI
+1E0010F3  |.  8BFB          MOV EDI,EBX                       
+</pre>
+
+Потом в callerLocals[3] (пусть это пока будет массив из 4х целых чисел) помещается -1:
+
+<pre class="brush:asm">
+1E0010F5  |.  C745 0C FFFFF MOV [ARG.2],-1
+</pre>
+
+А в EAX кладется нечто из someAddr + 384h:
+
+<pre class="brush:asm">
+1E0010FC  |.  8D86 98030000 LEA EAX,DWORD PTR DS:[ESI+398]          
+</pre>
+
+Далее код вызова EnterCriticalSection перемежается с некоторыми вычислениями над key:
+
+<pre class="brush:asm">
+1E001102  |.  83E7 7F       AND EDI,7F                           
+...
+1E00110A  |.  C1EB 07       SHR EBX,7                         
+</pre>
+
+Таким образом получаем:
+<pre class="brush:delphi">
+edi := key and 7Fh;
+ebx := key shr 7h;
+</pre>
+
+В качестве указателя на структуру pCriticalSection в EnterCriticalSection передается значение EAX (см. выше).
+<pre class="brush:asm">
+1E001105  |.  50            PUSH EAX                                 ; /pCriticalSection
+</pre>
+
+После чего по адресу в стэке, где был указатель на callerLocals помещается указатель на pCriticalSection:
+<pre class="brush:asm">
+1E001106  |.  894424 28     MOV DWORD PTR SS:[ESP+28],EAX            ; |
+</pre>
+
+Далее в EAX помещается значение из someAddr + по смещению, рассчитанному от EDI:
+<pre class="brush:asm">
+1E001113  |.  8B44BE 04     MOV EAX,DWORD PTR DS:[ESI+EDI*4+4]       ;  eax = (ptr + (adler and 7F) * 4 + 4)^
+</pre>
+
+Теперь можно считать что someAddr — это массив из 4 байтных целых, т.е.:
+<pre class="brush:delphi">
+eax := someAddr[edi + 1]; // где edi := key and 7Fh
+</pre>
+
+Далее это значение сравнивается с нулём:
+<pre class="brush:asm">
+1E001117  |.  33C9          XOR ECX,ECX
+1E001119  |.  3BC1          CMP EAX,ECX                              ;  compare eax with 0 (value from someTable with 0)
+</pre>
+
+А теперь самое интересное. Если оно не равно нулю, то делается преход с следующему коду:
+<pre class="brush:asm">
+1E0011AE  |> \8B5424 24     MOV EDX,DWORD PTR SS:[ESP+24]
+1E0011B2  |.  C74424 18 FFF>MOV DWORD PTR SS:[ESP+18],-1
+1E0011BA  |.  52            PUSH EDX                                 ; /pCriticalSection
+1E0011BB  |.  FF15 1020021E CALL DWORD PTR DS:[<&KERNEL32.LeaveCriti>; \LeaveCriticalSection
+1E0011C1  |.  53            PUSH EBX
+1E0011C2  |.  FF54BE 04     CALL DWORD PTR DS:[ESI+EDI*4+4]          ;  eax := decryptKey
 </pre>
