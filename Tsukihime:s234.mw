@@ -12,11 +12,11 @@ bg "image\bg\bg_25b.jpg",%type_nowaitdisp
 
 
 
-` ----Я не могу сделать что-то, столь опасное.@
+` ----I can't do something that dangerous.@
 br
-` Если я зайду в переулок вроде этого, никто не сможет прийти мне на помощь.@
-` Что-то не так с моим желанием пойти туда, только потому что я услышал шум.@
-` Уже поздно и я должен возвращаться.\
+` If I went into an alley like that, no one can come to help me.@
+` There's something wrong with me wanting to go in there just because I heard a noise.@
+` It is getting late and I should head back.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -27,10 +27,10 @@ play "*1"
 bg "image\bg\bg_48d.jpg",%type_lcartain_mid
 
 
-` Я возвращаюсь в особняк, не повстречав никого.@
+` I return to the mansion without meeting anyone.@
 ` The lights around the mansion are all off.@
 ` Somehow, I hadn't realized I would be coming back so late.@
-` Акиха--Акиха наверняка будет сердита на меня, I think as I put my hand on the heavy doors.\
+` Akiha--Akiha will surely be angry with me, I think as I put my hand on the heavy doors.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -93,51 +93,51 @@ br
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"Да.@ Доброе утро, Шики-сама."@
+`"Yes.@ Good morning Shiki-sama."@
 
-` Хисуи кланяется.@
-`"А, правильно----да, утра, Хисуи."@
+` Hisui bows.@
+`"Ah, right----yeah, morning Hisui."@
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 ` I get up as I answer.@
-` This is my room, и прямо как вчера, Хисуи пришла разбудить меня.@
-`"Спасибо.@ Я переоденусь and head to the sitting room, so you can go back to what you were doing."@
+` This is my room, and just like yesterday, Hisui came to wake me up.@
+`"Thanks.@ I'll change and head to the sitting room, so you can go back to what you were doing."@
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
-`"Хорошо.@ Тогда я буду ждать вас в гостинной."@
+`"Yes.@ Then I will be waiting in the sitting room."@
 cl c,%type_crossfade_fst
 
-` Хисуи склоняет ее голову и идет к двери.\
+` Hisui bows her head and walks to the door.\
 
-` Топ, топ, топ.@
-` Её шаги громче, чем обычно.@
+` Tap, tap, tap.@
+` Her footsteps are louder than normal.@
 ` She reaches the door and then turns around.\
 
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`"Шики-сама, простите за то что спрашиваю вас.@ Во сколько вы вернулись прошлой ночью?"@
+`"Shiki-sama, forgive me for asking such a question.@ What time did you return last night?"@
 br
-` ----Вчера.@
+` ----Yesterday.@
 ` If I recall correctly, I went out looking for Yumizuka-san and returned after not finding her----
 br
-`"...... Прости.@ Что-то привлекло мое внимание и я вернулся поздно...... Um, I will be prompt from now on so it would be great if you could overlook it this time......"\
+`"...... Sorry.@ Something caught my attention and I came back late...... Um, I will be prompt from now on so it would be great if you could overlook it this time......"\
 
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 `"...... No, it is not necessary for you to say such a thing, Shiki-sama.@ It is the duty of us servants to work in accordance with the schedule of our masters.@
 ld c,":a;image\tachi\his_t09.jpg",%type_crossfade_fst
 
-` However, I humbly request that you at least contact us.@ Что бы ни случилось, you should still be able to let us know."@
-`"----Ты права.@ Прости.@ Я сдержу свое обещание отныне."@
-`"Я понимаю.@ Тогда прошу простить меня."\
+` However, I humbly request that you at least contact us.@ Whatever the circumstances, you should still be able to let us know."@
+`"----You're right.@ Sorry.@ I'll keep my promise from now on."@
+`"I understand.@ Then please excuse me."\
 cl c,%type_lshutter_mid
 
 
 `"...... That was rare.@ Hisui seemed pretty angry."@
 ` She's always so expressionless, it seemed she really gets angry when she does get angry.@
-` ...... Как если бы я сделал что-то ужасное.@
-`"----Что ж, тогда время вставать."@
-` Переодевшись в школьную форму, Я направляюсь в гостинную.\
+` ...... As if I did something really terrible.@
+`"----Well then, time to get up."@
+` After changing out of my pajamas and into my school uniform, I head to the sitting room.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -146,7 +146,7 @@ bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
 ` I find Akiha and Hisui there.@
-` Кохаку-сан скорее всего на кухне, готовит мой завтрак.\
+` Kohaku-san is probably in the kitchen cooking my breakfast.\
 ; ?? : 01~10 : 01_?01(????)<??????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_lshutter_mid
 
