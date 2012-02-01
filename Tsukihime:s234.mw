@@ -39,9 +39,9 @@ bg "image\bg\bg_33d.jpg",%type_lshutter_fst
 
 ` ...... В прихожей никого нет.@
 ` Поздно все-таки.@
-` Акиха, Hisui и Kohaku-Сан - скорее всего, крепко спали в своих комнатах.@
+` Акиха, Хисуи и Кохаку-Сан - скорее всего, крепко спали в своих комнатах.@
 br
-`"...... Я не смог вас найти несмотря на все усилия, Yumizuka-san."@
+`"...... Я не смог вас найти несмотря на все усилия, Юмизука-сан."@
 ` Но я знаю,она должна быть где-то рядом.@
 ` Тогда---- я уверен, завтра она придет в школу.\
 
@@ -50,7 +50,7 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 ; ?? : ?? : ?????(??)<??????(?)>
 bg "image\bg\bg_40d.jpg",%type_bshutter_mid
 
-` Я тихо возвращаюсь в свою комнату, чтобы не разбудить Akiha и других.@
+` Я тихо возвращаюсь в свою комнату, чтобы не разбудить Акиха и других.@
 ` Темно уже.@
 ` Чтобы подготовиться к завтрашнему дню, я должен торопиться и идти спать.\
 
@@ -83,24 +83,24 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 ;CD-DA?????
 play "*2"
 
-` ...... I feel as if someone is calling my name as I wake up.@
+` ...... Я чувствую, как будто кто-то зовет моим именем, как я просыпаюсь.@
 br
-`"Mn............"@
-` A little warmth returns to my body.@
-` I look around suspiciously and see an unfamiliar figure by my bed.\
+`"Мм............"@
+` Немного тепла возварашаеться к моим членам.@
+` Я подозрительно осматриваюсь вокруг и вижу незнакомую фигуру у моей кровати.\
 
-`"Oh----Hisui."@
+`"Ах ---- Hisui."@
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"Yes.@ Good morning Shiki-sama."@
+`"Да.@ Доброе утро Шики-сама."@
 
-` Hisui bows.@
-`"Ah, right----yeah, morning Hisui."@
+` Hisui поклонился.@
+`"Ах да,верно с добрым утром Hisui."@
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` I get up as I answer.@
-` This is my room, and just like yesterday, Hisui came to wake me up.@
+` Встаю с постели на ходу отвечая.@
+` Это - моя комната и точно так же как вчера, Hisui пришел, чтобы разбудить меня.@
 `"Thanks.@ I'll change and head to the sitting room, so you can go back to what you were doing."@
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
