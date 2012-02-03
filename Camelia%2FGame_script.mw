@@ -18,7 +18,7 @@ label act1_en:
     play countermusic sound_typing
     net "<Дорогая Силлия...>"
     net "<Наконец-то я приехала в школу Камелии...>"
-    net "<С сегодняшнего дня, я буду жить в общежитии, как и хотели мои родители...>"
+    net "<С сегодняшнего дня я буду жить в общежитии, как и хотели мои родители...>"
     nvl hide dissolve
     stop countermusic
     scene bg academy
@@ -36,7 +36,7 @@ label act1_en:
     nar "это какая-то девочка..."
     play music music_miharu1
     menu:
-        "Я в порядке. Но, может она поранилась?":
+        "Я в порядке. Но, может, она поранилась?":
             jump okay_en
         "Тупая растяпа, смотри куда идёшь!":
             jump eyes_en
@@ -45,7 +45,7 @@ label act1_en:
 label okay_en:
     k_worried "Ай... Ох! С тобой всё нормально?"
     show miharu whimper at Rise(0.5, 1.0)
-    u "Извини. Да со мной всё нормально, а с тобой?"
+    u "Извини. Да, со мной всё нормально. А с тобой?"
     k_relieved "Ага, со мной тоже."
     show miharu relieved
     u "Рада слышать."
@@ -211,7 +211,7 @@ label sama_en:
     nar "но она уже перестала обращать на меня внимание"
     jump intro_en
 label legend_en:
-    k_squeal "Я легенда!"
+    k_squeal "Я - легенда!"
     stop music
     play sound sound_embarrass
     c "*гул*"
@@ -221,7 +221,7 @@ label legend_en:
     show aizawa snicker
     k_panic "Это... не совсем так!.."
     show aizawa chortlecenter
-    t "Авава, не надо смущаться из-за этого... Он всем девочкам правится."
+    t "Авава, не надо смущаться из-за этого... Он всем девочкам нравится."
     show aizawa schemecenter
     show crowd angry behind aizawa at Rise(0.5, 0.25)
     c "ПЕРЕСТАНЬТЕ НЕСТИ ВСЯКУЮ ЧУШЬ!!!"
@@ -293,7 +293,7 @@ label intro_en:
     c "ВЫ {b}НАШ{/b} КЛАССНЫЙ РУКОВОДИТЕЛЬ!!!"
     show crowd calm
     show aizawa confuzzled
-    ta "Правда? Я думала мой класс 2-В?.."
+    ta "Правда? Я думала мой класс 2-В..."
     show aizawa confused
     show crowd angry
     show freya bored
@@ -321,7 +321,7 @@ label intro_en:
     show aizawa smug
     show freya calm at Bounce(1)
     show freya annoyed
-    f "Но вы, учитель английского."
+    f "Но вы учитель английского."
     show aizawa dumbfounded at Laugh(2)
     ta "А? Ой-ой! Я и забыла, ХАХА!"
     show aizawa nervous
@@ -411,7 +411,7 @@ label classified_en:
     show freya love
     f "Нет. Мне просто интересно."
     show freya cute
-    f "Все кого я спрашивала, рассказывали разные интересные истории."
+    f "Все, кого я спрашивала, рассказывали разные интересные истории."
     show freya calm
     play music music_flashback1 fadein 2.0
     k_dream "Понятно... Ну..."
@@ -434,7 +434,7 @@ label classified_en:
     with flashbackfade
     show freya sweetdream at EnterLeft(0.0, 0.5)
     f "*кивает*"
-    k_relieved "А как насчёт тебя Фрея?"
+    k_relieved "А как насчёт тебя, Фрейя?"
     show freya pleasantdream
     f "Типа как у тебя..."
     show freya sweetdream
@@ -493,7 +493,7 @@ label classified_en:
     k_stare "Эээ... Дружеское?"
     show miharu cute
     show aizawa awesome
-    ta "Что ж... Наконец то ты пришла, Михару, правда занятия уже закончились."
+    ta "Что ж... Наконец-то ты пришла, Михару, правда занятия уже закончились."
     show miharu sad at Bow(1)
     show aizawa snide
     m "Ох... Извините..."
@@ -506,7 +506,7 @@ label classified_en:
     show crowd angry at Sit(0.25)
     show miharu cute
     show aizawa happy
-    ta "Можешь подойти в учительскую и взять материал, за сегодняшний день."
+    ta "Можешь подойти в учительскую и взять материал за сегодняшний день."
     show miharu genki at Bow(1)
     show aizawa smile
     m "Большое спасибо! Вы лучшая, Айзава-сенсей!"
@@ -534,7 +534,7 @@ label classified_en:
     nar "хотя, не так шумно, как... "
     stop countermusic fadeout 2.0
     $ renpy.music.set_volume(1, 1, channel="music")
-    m "Ах Фрея!"
+    m "Ах, Фрейя!"
     play countermusic music_miharu3 fadein 3.0
     stop music fadeout 3.0
     show crowd calm at Sit(0.25)
@@ -622,17 +622,17 @@ label conclusion_en:
     f "Это наше общежитие. Все ученицы Камелии живут здесь."
     f "В здании три этажа, плюс подвал, но нам туда спускаться нельзя..."
     show freya cute at MoveTo(1.0, 0.5)
-    f "На первом этаже у нас, регистратура, телефон, кафетерий и кладовые."
+    f "На первом этаже у нас регистратура, телефон, кафетерий и кладовые."
     show freya curious at MoveTo(0.0, 0.75)
-    f "А на втором этаже, находятся наши комнаты, уборные и душевые."
+    f "А на втором этаже находятся наши комнаты, уборные и душевые."
     show freya love at MoveTo(0.5, 0.5)
     f "В каждой комнате четыре кровати..."
-    f "...поэтому, кроме тебя, там будет ещё три девушки."
+    f "...поэтому, кроме тебя, там будут ещё три девушки."
     show freya glad at MoveTo(0.0, 0.5)
-    f "Твоя комната, #127, это на втором этаже, второй поворот на право после лестничной площадки."
+    f "Твоя комната, #127, это на втором этаже, второй поворот направо после лестничной площадки."
     show freya smile at MoveTo(0.5, 0.25)
     show miharu smug at EnterLeft(0.0, 0.25)
-    f "И, кстати, вы с Михару, живёте в одной комнате."
+    f "И, кстати, вы с Михару живёте в одной комнате."
     show freya smile at MoveTo(0.0, 0.25)
     show miharu smile at ExitLeft(0.25)
     $ renpy.pause(0.75)
@@ -699,7 +699,7 @@ label fine_en:
     scene bg dormhall2
     with dissolve
     show miharu chibi1 at Bobble(-0.15, 0.0, 1.15, 0.2, 0.25, 3.0)
-    nar "к моему удивление, Михару, кажется, заблудилась"
+    nar "к моему удивлению, Михару, кажется, заблудилась"
     scene bg dormhall3
     with dissolve
     show miharu chibi1 at Fling(1.15, 0.7, -0.15, 0.3, 2.00, 365.0)
@@ -712,7 +712,7 @@ label fine_en:
     with dissolve
     play music music_quirky
     show miharu genki at EnterLeft(0.0, 0.25)
-    m "А вот и мы!..  Комната милая комната!"
+    m "А вот и мы!..  Комната, милая комната!"
     k_swirl "АГХ!!!  Никогда... никогда не устраивайся работать гидом!"
     show miharu smile at ExitLeft(0.25)
     nar "мне хотелось упасть на кровать и отдохнуть, но какая из них моя?.."
@@ -731,7 +731,7 @@ label fine_en:
     $ renpy.pause(0.25)
     show prop haku at ExitRight(0.50)
     nar "мы прошли в комнату"
-    nar "пока Михару, просматривала конспекты, я распаковала свою сумку"
+    nar "пока Михару просматривала конспекты, я распаковала свою сумку"
     nar "вытащив одежду, фотографии и пару  украшений..."
     nar "я достала свой нетбук и села за стол"
     show miharu genki at EnterRight(1.0, 0.25)
@@ -775,9 +775,9 @@ label fine_en:
     m "Кстати о низких ценах, я очень бедная и голодная..."
     k_oops "?!"
     show miharu excited at Bounce(4)
-    m "...так что, давай сходим в «Бомбоубежище» и поедим!"
+    m "...так что давай сходим в «Бомбоубежище» и поедим!"
     show miharu cute
-    k_nervous "Э...«Бомбоубежище»?"
+    k_nervous "Э... «Бомбоубежище»?"
     show miharu happy
     m "Мы так наше кафе в общежитии называем."
     show miharu cute
@@ -795,7 +795,7 @@ label fine_en:
     play music music_bombshelter1 fadein 2.0 
     nar "теперь понятно, почему его называют «Бомбоубежищем»"
     nar "нет окон, бетонные стены, тусклое освещение, неудобные стулья, бедненькое убранство..."
-    nar "помещение больше подходит для защиты от авиа-ударов, чем на роль кафетерия"
+    nar "помещение больше подходит для защиты от авиаударов, чем на роль кафетерия"
     nar "не удивительно, что еда здесь такая дешевая..."
     show miharu genki at Rise(0.5, 0.25)
     m "Ура, ура!  С самого утра ничего не ела!"
@@ -803,7 +803,7 @@ label fine_en:
     nar "поговорка «Голод – лучшая приправа» в действии"
     play sound sound_thunderstep
     with vpunch
-    nar "потому, что хуже еды я в жизни не видела"
+    nar "потому что хуже еды я в жизни не видела"
     show reina silhoutte behind miharu at EnterRight(0.7, 2.5)
     play sound sound_thunderstep
     with vpunch
@@ -813,14 +813,14 @@ label fine_en:
     with vpunch
     nar "и только я собралась пошутить..."
     show miharu wonder
-    nar "...как вдруг, позади Михару появилась высокая фигура и схватила её"
+    nar "...как вдруг позади Михару появилась высокая фигура и схватила её"
     show reina relievedblush
     show ambient darkenhole
     with dissolve
     u "Михару, дорогая!~ Давно не виделись!"
     show miharu happy
     show reina tenderblush
-    m "Э «давно»?"
+    m "Э... «давно»?"
     show reina relievedblush
     u "Да, с самого утра."
     show reina desire
@@ -858,7 +858,7 @@ label fine_en:
     show ambient icy
     with dissolve
     show reina fufufu
-    nar "я почти физически ощущаю на себе, холодный взгляд ревности"
+    nar "я почти физически ощущаю на себе холодный взгляд ревности"
     show reina sinister
     k_nervous "Кана..."
     hide ambient icy
@@ -1020,7 +1020,7 @@ label reaction_en:
     show reina calm at Bounce(1)
     show ambient zen behind reina at Fling(0.0, 0.0, 0.0, 2.5, 0.75, 365)
     show reina nag
-    r "Не надо тут философии!  Вы окончили школу, пять лет назад!"
+    r "Не надо тут философии!  Вы окончили школу пять лет назад!"
     show reina complain
     r "Если хотите ужин – будьте добры, ОПЛАТИТЕ ЕГО!"
     hide ambient zen
@@ -1082,7 +1082,7 @@ label reaction_en:
     show aizawa scream at HChatter(0.75, 0.72)
     ta "Они буквально сражаются словами!!!"
     $ renpy.pause(2.0)
-    nar "весело конечно наблюдать за их руганью..."
+    nar "весело, конечно, наблюдать за их руганью..."
     nar "...но надо бы их как-то остановить, пока эта злая аура не поглотила весь кофетерий"
     stop music
     stop countermusic
@@ -1165,15 +1165,15 @@ label reaction_en:
     show miharu glad
     show aizawa schemeright
     show reina speechless
-    m "После этого, Айзава-сенсей стала известна как «Пекарь-убийца»."
+    m "После этого Айзава-сенсей стала известна как «Пекарь-убийца»."
     hide overlay hospital
     with dissolve
     show aizawa chortleright at Laugh(2)
     show miharu smile
     show reina impatient
-    ta "Ну ну, тебе надо говорить это более драмматично."
+    ta "Ну-ну, тебе надо говорить это более драматично."
     show aizawa orly
-    ta "... я хотела, чтобы вы вырасти сильными и здоровыми, ХА! ХА!!"
+    ta "... я хотела, чтобы вы выросли сильными и здоровыми, ХА! ХА!!"
     show aizawa nervous
     stop music
     $ renpy.pause(2.50)
@@ -1208,7 +1208,7 @@ label reaction_en:
     nar "а они всё продолжают ругаться... похоже, их ничто не остановит..."
     hide miharu
     show angrytwitch at Appear(0.15, 0.35, 0.5, 0.5)
-    u "{b}Вы, что не слышали, что сказала Михару?!{/b}"
+    u "{b}Вы что, не слышали, что сказала Михару?!{/b}"
     u "{b}ПРЕКРАТИТЕ ЭТИ ГЛУПОСТИ!!!{/b}"
     hide angrytwitch
     hide prop chair
@@ -1242,12 +1242,12 @@ label reaction_en:
     show queen frown behind crowd at Bobble(0.1, 0.5, 0.4, 0.5, 0.4, 1.0)
     $ renpy.pause(1.0)
     show queen frown behind crow at SendTo(0.4, 0.5, 0.0)
-    nar "после того как волнения улеглись, из толпы вышла изысканная девушка и направилась в нашу сторону"
+    nar "после того, как волнения улеглись, из толпы вышла изысканная девушка и направилась в нашу сторону"
     show angrytwitch at Appear(0.35, 0.35, 0.5, 0.5)
     u "Ну-ну... Так это вы испортили моё настроение..."
     hide angrytwitch
     u "Я всего лишь хотела насладиться обедом в тишине и спокойствии ..."
-    u "*вздох* Но вы... а в особенности, Айзава-сенсей..."
+    u "*вздох* Но вы... а, в особенности, Айзава-сенсей..."
     show aizawa complain behind crowd at SendTo(0.8, 0.5, 0.15)
     ta "ОПЯТЬ Я?!"
     show aizawa complain behind crowd at SendTo(0.8, 0.8, 0.25)
@@ -1283,9 +1283,9 @@ label reaction_en:
     show freya berate at EnterLeft(0.0, 0.25)
     f "Прошу тебя, «КОРОЛЕВА», не начинай очередной скандал!"
     show freya glare
-    k_incredulous "Фрейя! И иы тоже здесь!"
+    k_incredulous "Фрейя! И ты тоже здесь!"
     show freya irked
-    f "Конечно, все кто живёт в общежитии приходят сюда поесть."
+    f "Конечно. Все, кто живёт в общежитии, приходят сюда поесть."
     show freya troubled
     show queen bored
     nar "Все? Скряги..."
@@ -1323,7 +1323,7 @@ label reaction_en:
     f "Разве вам не платили зарплату в этом месяце?"
     show aizawa whimper
     show freya irritated
-    ta "Конечно платили, они никогда не её задерживают!"
+    ta "Конечно платили, они никогда её не задерживают!"
     show aizawa aho
     show freya leer
     ta "Но... понимаете... Я, как бы, за покупками ходила..."
@@ -1369,7 +1369,7 @@ label reaction_en:
     show aizawa pleasantdream at Laugh(2)
     show reina chastise
     show queen stareright
-    ta "...и просто отдала мне один из своих особняков... Или хотя бы квартиру..."
+    ta "...и просто отдала бы мне один из своих особняков... Или хотя бы квартиру..."
     show reina speechless
     show aizawa sweetdream
     hide angrytwitch
@@ -1391,7 +1391,7 @@ label reaction_en:
     show miharu grief at Bounce(2)
     show aizawa weep
     show reina gulp
-    m "Я так и не получило свой обед!"
+    m "Я так и не получила свой обед!"
     show freya complain at MoveTo(0.35, 0.25)
     show miharu dread
     show reina embarrassed
@@ -1462,11 +1462,11 @@ label reaction_en:
     $ renpy.pause(0.25)
     show prop nasgor at Appear(0.5, 0.5, 0.5, 0.5)
     with dissolve
-    nar "Рэйна не забыла о моём заказе, и похоже, он не нанёс мне никакого вреда..."
+    nar "Рэйна не забыла о моём заказе, и, похоже, он не нанёс мне никакого вреда..."
     show prop nasgormini
     with dissolve
     nar "...но порция была такой маленькой, что уместилась всего в трёх ложках"
-    nar "хорошо, хоть до этого я перекусила"
+    nar "хорошо хоть до этого я перекусила"
     hide prop nasgormini
     with dissolve
     show bihun1 at Appear(0.2, 0.5, 0.5, 0.5)
@@ -1504,7 +1504,7 @@ label reaction_en:
     show queen calm
     k_nervous "Ух... Кана..."
     show queen talk
-    q "Я сожалею, что запоздала с приветствием, но всё же, мне очень приятно с тобой познакомиться."
+    q "Я сожалею, что запоздала с приветствием, но, всё же, мне очень приятно с тобой познакомиться."
     show queen calm
     stop music fadeout 2.0
     menu:   
@@ -1525,7 +1525,7 @@ label hermajesty_en:
     show queen mumble at Laugh(3)
     q "Ох-хо-хо! Как забавно!"
     show queen rebuke
-    q "Даже будь я настощей королевой, всё равно презирала бы тех, кто называет меня иначе."
+    q "Даже будь я настоящей королевой, всё равно презирала бы тех, кто называет меня иначе."
     show queen annoyed
     k_nervous "Ах... извини..."
     show queen mumble at Laugh(2)
@@ -1557,7 +1557,7 @@ label question_en:
     show miharu doubt at MoveTo(-0.3, 1.0)
     nar "пока «КОРОЛЕВА» отвлеклась, Михару отводит меня в угол и шепчет..."
     show miharu concern
-    m "{=whispered}Лучше не спрашивай, а то, будешь проклята куклой...{/=whispered}"
+    m "{=whispered}Лучше не спрашивай, а то будешь проклята куклой...{/=whispered}"
     show miharu doubt
     k_ehhh "{=whispered}Что?{/=whispered}"
     show miharu concern
@@ -1604,7 +1604,7 @@ label proof_en:
     q "Ну-ну... О чём это вы, девочки, шепчитесь за моей спиной?"
     show miharu uncomfortable at MoveTo(0.0, 0.25)
     show queen hakuboredleft
-    m "Ах нет, просто~!"
+    m "Ах, нет, просто~!"
     show miharu whimper
     k_nervous "Ха-ха! Ух... да так, ни о чём..."
     show queen hakuannoyed at Bounce(1)
@@ -1641,7 +1641,7 @@ label proof_en:
     q "Это не моё дело..."
     q "Но да... Что-то вроде того."
     show queen hakuboredleft at MoveTo(0.7, 1.0)
-    nar "я хотела спросить ещё кон-что, но она переключила своё внимание на «парочку»"
+    nar "я хотела спросить ещё кое-что, но она переключила своё внимание на «парочку»"
     show queen hakuchideleft at Bounce(2)
     q "Не хочу вам мешать, но... где ты пропадала так долго, Рэй?!"
     hide lotsoflove
@@ -1678,9 +1678,9 @@ label proof_en:
     scene bg dormroom2
     with dissolve
     q "Всем приятных снов."
-    m "Спасибо «КОРОЛЕВА»! Спокойной всем ночи!"
+    m "Спасибо, «КОРОЛЕВА»! Спокойной всем ночи!"
     r "Спокойной ночи, дорогая Михару!"
-    q "А мне не пожелаешь спокойно ночи?"
+    q "А мне не пожелаешь спокойной ночи?"
     r "Нет, но могу пожелать плохой, хе-хе."
     q "Дура."
     k_genki "Всем спокойной ночи! Было очень приятно познакомиться с вами!"
@@ -1688,18 +1688,18 @@ label proof_en:
     r "Рано-рано утром! Или мы выкинем тебя из кровати!"
     q "Возможно."
     k_nervous "хе-хе... ух, хорошо..."
-    nar "Рэйна и «КОРОЛЕВА» отвернулись, и быстро уснули"
+    nar "Рэйна и «КОРОЛЕВА» отвернулись и быстро уснули"
     nar "Михару потянулась, чтобы выключить свет"
     play sound sound_lightswitch
     scene bg dormroom3
     nar "и только в темноте..."
-    nar "...она земетила мерцание экрана нетбука, с которым я сидела в кровати"
+    nar "...она заметила мерцание экрана нетбука, с которым я сидела в кровати"
     play music music_calm1 fadein 5.0
     m "Ох, ты не собираешься ложиться?"
     k_smile "А? Нет, я тоже скоро лягу. Просто надо ещё кое-что сделать."
     m "Хорошо... не засиживайся. Доброй ночи..."
     k_relieved "Доброй..."
-    nar "через несколько секунд я услышала, как Михару тихонькао засопела во сне."
+    nar "через несколько секунд я услышала, как Михару тихонько засопела во сне."
     show prop unr1 at DissolveAppear(0.09, 0.3, 0.0, 0.0, 0.5)
     show overlay netbook at DissolveAppear(0.03, 0.2, 0.0, 0.0, 0.5)
     nar "хорошо, что клавиатура и тачпад нетбука почти не издают звуков"
@@ -1708,7 +1708,7 @@ label proof_en:
     nar "я могу набирать текст и сидеть в интернете, не боясь кого-нибудь разбудить"
     show prop unr3
     with quickdissolve
-    nar "я проверяею новости за день... проекты, в которых участвую..."
+    nar "я проверяю новости за день... проекты, в которых участвую..."
     show prop unr5
     with quickdissolve
     nar "новые рисунки, игры, музыку..."
@@ -1718,22 +1718,22 @@ label proof_en:
     show prop unr6
     with quickdissolve
     stop music fadeout 3.0
-    nar "наконец, я открала свою почту и отвечаетила на пару сообщений"
+    nar "наконец, я открыла свою почту и ответила на пару сообщений"
     play music music_netbook1 fadein 5.0
     scene bg email1
     with dissolve
-    nar "теперь, осталось написать последнее, но очень важное, письмо..."
+    nar "теперь осталось написать последнее, но очень важное письмо..."
     nvl clear
     nvl show dissolve
     play countermusic sound_typing
     net "<Дорогая Силлия...>"
     net "<Сегодня у меня были первые занятия, и... О БОЖЕ!.. клянусь, меня забросило в другое измерение, :D!>"
     net "<Моя учительница, похоже, сбежала из психушки... =__= >"
-    net "<Я встретилась с уникальными, и даже можно сказать, странными людьми...>"
+    net "<Я встретилась с уникальными, и, даже можно сказать, странными людьми...>"
     net "<Чёрт, да я делю комнату с ТРЕМЯ такими :D :D !!!>"
     net "<Но всё же... Я не теряю надежды.>"
     net "<Уверена, когда я узнаю их получше, они окажутся хорошими людьми.>"
-    net "<Или я тоже, в конце концов, сойду ума, ха-ха-ха!.. ^_____^ >"
+    net "<Или я тоже, в конце концов, сойду с ума, ха-ха-ха!.. ^_____^ >"
     stop music fadeout 3.0
     net "<Ну, думаю, на сегодня хватит. Потом я тебе о них ещё что-нибудь расскажу.>"
     net "<Завтра у меня большой день, так что пожелай мне удачи!>"
