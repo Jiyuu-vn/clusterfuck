@@ -12,11 +12,11 @@ bg "image\bg\bg_25b.jpg",%type_nowaitdisp
 
 
 
-` ----Я не могу сделать это, слишком опасно.@
+` ----I can't do something that dangerous.@
 br
-` Если я войду в этот переулок, никто не придет мне на помощь.@
-` Что- то у меня нет желания идти туда, там где раздаються такие шумные звуки.@
-` Уже поздно, надо возвращаться.\
+` If I went into an alley like that, no one can come to help me.@
+` There's something wrong with me wanting to go in there just because I heard a noise.@
+` It is getting late and I should head back.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -27,32 +27,32 @@ play "*1"
 bg "image\bg\bg_48d.jpg",%type_lcartain_mid
 
 
-` Я возвращаюсь в особняк, не встретил ни одной живой души.@
-` Свет вокруг особняка выключен.@
-` Так или иначе я не понял, что буду возвращаться столь поздно.@
-` Акиха-думаю Акиха точно будет сердиться на меня, ложа руку на массивную дверь.\
+` I return to the mansion without meeting anyone.@
+` The lights around the mansion are all off.@
+` Somehow, I hadn't realized I would be coming back so late.@
+` Akiha--Akiha will surely be angry with me, I think as I put my hand on the heavy doors.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ?? : ?? : ?????(??)<??????(?)>
 bg "image\bg\bg_33d.jpg",%type_lshutter_fst
 
-` ...... В прихожей никого нет.@
-` Поздно все-таки.@
-` Акиха, Хисуи и Кохаку-Сан - скорее всего, крепко спали в своих комнатах.@
+` ...... There's no one in the lobby.@
+` It is late after all.@
+` Akiha, Hisui and Kohaku-san are most likely fast asleep in their rooms.@
 br
-`"...... Я не смог вас найти несмотря на все усилия, Юмизука-сан."@
-` Но я знаю,она должна быть где-то рядом.@
-` Тогда---- я уверен, завтра она придет в школу.\
+`"...... I couldn't find you after all, Yumizuka-san."@
+` But I know she has to be somewhere.@
+` Then----for sure, she will come to school tomorrow.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_mid
 ; ?? : ?? : ?????(??)<??????(?)>
 bg "image\bg\bg_40d.jpg",%type_bshutter_mid
 
-` Я тихо возвращаюсь в свою комнату, чтобы не разбудить Акиха и других.@
-` Темно уже.@
-` Чтобы подготовиться к завтрашнему дню, я должен торопиться и идти спать.\
+` I return to my room silently so as not to wake Akiha and the others.@
+` It's getting late.@
+` To get ready for tomorrow, I have to hurry up and go to sleep.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -83,24 +83,24 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 ;CD-DA?????
 play "*2"
 
-` ...... Я чувствую, как будто кто-то зовет моим именем, как я просыпаюсь.@
+` ...... I feel as if someone is calling my name as I wake up.@
 br
-`"Мм............"@
-` Немного тепла возварашаеться к моим членам.@
-` Я подозрительно осматриваюсь вокруг и вижу незнакомую фигуру у моей кровати.\
+`"Mn............"@
+` A little warmth returns to my body.@
+` I look around suspiciously and see an unfamiliar figure by my bed.\
 
-`"Ах ---- Hisui."@
+`"Oh----Hisui."@
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"Да.@ Доброе утро Шики-сама."@
+`"Yes.@ Good morning Shiki-sama."@
 
-` Hisui поклонился.@
-`"Ах да,верно с добрым утром Hisui."@
+` Hisui bows.@
+`"Ah, right----yeah, morning Hisui."@
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` Встаю с постели на ходу отвечая.@
-` Это - моя комната и точно так же как вчера, Hisui пришел, чтобы разбудить меня.@
+` I get up as I answer.@
+` This is my room, and just like yesterday, Hisui came to wake me up.@
 `"Thanks.@ I'll change and head to the sitting room, so you can go back to what you were doing."@
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
