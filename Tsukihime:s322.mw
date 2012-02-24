@@ -29,47 +29,47 @@ br
 ld c,":a;image\tachi\aki_t26.jpg",%type_crossfade_fst
 
 `"О?@Я ведь пью не залпом, так что, думаю, все нормально."@
-` ...... Um, that's not the point...
-` I'm saying she's pretty used to drinking for being a minor.\
+` ...... Хм, не в этом дело...
+` Я имел в виду, что для несовершеннолетней она слишком сильно привыкла к выпивке.\
 
 ; ?? : 21~30 : 21_??<???????(?)>
 ld c,":a;image\tachi\aki_t13b.jpg",%type_crossfade_fst
 
-`"Geez, making that face again.@ Please get at least a little drunk, Nii-san.@
-` Kohaku prepared all this to cheer you up, so isn't it meaningless if you don't?"@
-`"Ah, that's right.@ ...... Yeah, I have to thank Kohaku-san for her consideration.@ Thanks to that, I do feel a bit better."\
+`"Эх, снова ты делаешь такое лицо.@ Пожалуйста, захмелей хоть немного, Нии-сан.@
+` Кохаку приготовила все это чтобы тебя подбодрить, так что тебе ведь не все равно?"@
+` Ах, верно.@ ...... Да, я хочу отблагодарить Кохаку-сан за ее внимание.@ Благодаря ей мне намного лучше.”\
 
 ; ?? : 01~10 : 03_?03(?????)<???????(?)>
 ld c,":a;image\tachi\aki_t03b.jpg",%type_crossfade_fst
 
-`"What are you saying?@ You don't look happy at all.@ If alcohol doesn't make you feel better, isn't there nothing left?"@
-`"Wow, that's a little bold.@ Saying nothing is left if alcohol doesn't work... isn't that mistaken?"@
+`“Что ты сказал?@ Ты совсем не выглядишь счастливым.@ Если уж алкоголь не поднял тебе настроение, то что тогда вообще остается?”@
+`“Ого, довольно смело.@ Говорить, что больше ничего не остается, раз уж алкоголь не помогает… не ошибка ли это?”@
 
 ; ?? : 11~20 : 18_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 
-`"It cannot be helped if you do not wish to speak to me, Nii-san.@ If you would talk about last night, I wouldn't ask for the help of alcohol."@
+`“Я не смогу помочь, если ты не хочешь со мной говорить, Нии-сан.@ Если бы ты сам захотел поговорить о прошлой ночи, то мне не пришлось бы прибегать к помощи алкоголя.”@
 `"------"@
-` I see.@
-` Just like Kohaku-san, Akiha is concerned about me.\
+` Ясно.@
+` Так же как и Кохаку-сан, Акиха беспокоится за меня.\
 
 ; ?? : 11~20 : 16_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t16b.jpg",%type_crossfade_fst
 
-`"But, I can't ask, right?@ I already promised no longer to ask about it."@
-`"...... Sorry.@ I'm just a big burden to everyone."@
+`“Но я не могу просить, верно?@ Я ведь уже пообещала ничего не спрашивать.”@
+`“......Прости.@ Я просто обуза для всех.”@
 
 ; ?? : 21~30 : 26_????<???????(?)>
 ld c,":a;image\tachi\aki_t26.jpg",%type_crossfade_fst
 
-`"Well, as long as you understand it is alright.@
-` ----Um, as you say I seem to be a little drunk, so I will go outside."@
+`“Ну что ж, пока ты это понимаешь, все в порядке.@
+` ----Ух, как ты и сказал, я немного перебрала. Пойду-ка я на свежий воздух."@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_mid
 
 br
-` She says "drunk", but her steps are firm as she exits the dining room.\
+` Она сказала, что “перебрала”, но походка ее была твердой, когда она выходила из обеденной комнаты.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -82,12 +82,12 @@ bg "image\bg\bg_42b.jpg",%type_lcartain_mid
 ;CD-DA????????????
 play "*9"
 
-` Following Akiha, I go out to the courtyard to get some fresh air.@
-` It is still before six o'clock.@
-` The red sun paints the sky.@
-`"...... Still the afternoon?"@
-` There's no one else around.@
-` I thought Akiha was going to be here but I guess we missed each other.\
+` Вслед за Акихой я выхожу во двор подышать свежим воздухом.@
+` Еще нет и шести часов.@
+` Алое солнце окрашивало небо.@
+`"......Неужто уже вечер?"@
+` Вокруг не было ни души.@
+` Я полагал, что Акиха собиралась побыть здесь немного, однако, видимо  мы попросту разминулись.\
 
 `"...... Red sunset?"@
 ` Until now, the red sunset reminded me of fresh blood.@
