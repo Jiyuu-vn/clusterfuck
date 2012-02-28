@@ -4,131 +4,108 @@
 *s105
 
 
-; ??B(?)<???????(?)>
 bg "image\bg\bg_29b.jpg",%type_crossfade_mid
 
-`"I'm---exhausted..."@
-` I collapse onto the ground.@
-` I fall on my rear and try to keep my body up with my hands.\
+` — Я... устал...@ — сказал я, и повалился на землю.@ Приземлился на задницу и попытался поддержать себя руками.\
 
-`"---Cold."@
-` I'm cold.@
-` The pain is numbed; it feels almost comfortable.@
-` My body is ripped with canine bite marks and beak marks.@
+` — Холодно.@
+` Холод сковывает тело, но он же притупляет боль — сейчас это даже приятно.@ Повсюду следы собачьих укусов и птичьих клювов.@
 br
-` ----Well, there's no mistake that I'll probably die like this.\
+` Наверное, я всё-таки умру.\
 
-`"-----"@
-` I let out a deep breath.@
-` I raise my chin and look up at the sky.@
+` «...»@
+` Я глубоко выдохнул, потом запрокинул голову и посмотрел на небо.@
 br
-`"-----The moon."@
-` Only the pretty moon is in the night sky.@
-` ...... What is it?@
-` It seems awfully familiar... like I saw a dream like this before.\
+` — Луна.@
+` На ночном небе только красивая луна.@
+` ...Что это?@ Она кажется такой знакомой... Будто повторяется старый сон.\
 
 
-; ??<?>=??????:?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
 ;CD-DA????????
 play "*8"
 
-`"Shiki, are you okay?"@
-` Arcueid walks toward me as if nothing happened just now.@
-`"...... You... stupid idiot...... If I was okay... I wouldn't be human."@
-` I speak and breath haltingly.@
-` Even talking is painful, so maybe I shouldn't have responded.@
-`"Kk------ah."\
+` — Шики, ты как?@
+` Арквейд идёт ко мне как ни в чём не бывало.@
+` — Дура... ты... Я же человек... плохо мне,@ — запинаясь и ловя ртом воздух, произнёс я.
+` Наверное, не стоило отвечать, раз даже дыхание идёт через боль.@
+` — Кха...\
 
-; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-` My consciousness starts to fade.@
-` And then,
+` Начинаю терять сознание.@ И тут...
 
 quakey 2,100
 
 
-; ??B(?)<????>
 bg "image\bg\bg_29b.jpg",%type_nowaitdisp
 
-` Whack!@ Arcueid hits me on the head and forcefully returns me to consciousness.\
+` Бац!@ Арквейд пнула меня в голову и заставила очнуться.\
 
-`"...... What... was that for?"@
-; ??<?>=??????:??(????)<???????(?)>
+` — Ты... чего?@
 ld c,":a;image\tachi\ark_t11.jpg",%type_lshutter_fst
 
-`"That won't do.@ If you sleep with those wounds, you'll definitely end up dying.@ You can't sleep until we close them."@
+` — Так нельзя.@ Ты умрёшь во сне с такими ранами.@ Надо их сначала закрыть.@
 br
-` ---Her argument is perfectly just.@
-` It's so just, it makes me angry.@
+` Очень веское замечание.@ Настолько, что меня это разозлило.@
 br
-`"...... Arcueid.@ Can I say what I've always thought from before?"@
-; ??<?>=??????:??(????)<???????(?)>
+` — Арквейд.@ Можно я скажу то, о чём давно уже думаю?@
+
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Hm, what?"@
-`"----Don't say such unreasonable things, you idiot."@
-` I crash onto the ground.\
+` — Да, и что же?@
+` — Хватит нести чепуху, дура.@
+` После этих слов я повалился на землю.\
 
-; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
-; ?(??????)<???????(?)>
+
 bg "image\bg\ima_18.jpg",%type_crossfade_fst
 
-` ---My consciousness starts to fade.@
+` Мир стал исчезать.@
 br
-` Arcueid is raising a racket, but I don't have any strength to hold my eyes open any longer.@
-` It's terribly----cold.@
+` Где-то рядом зашумела Арквейд, но я уже бессильно закрыл глаза.@ Как же... холодно.@
 br
-`"Hey, Shiki.@ You really will die......!"@
+` — Эй, Шики.@ Ты же умрёшь!..@
 br
-` ...... I told you, I'm sleepy.@
-` I'll sleep before I die, so I'll wake up in the morning.\
+` Говорю ещё раз, дай мне поспать.@ Я усну раньше, чем умру и поэтому проснуть утром.\
 
-`"Shiki, you mustn't sleep----!@ We have to at least close your wounds and stop the bleeding, otherwise you won't wake up......!"@
+` — Шики, не спи!@ Надо хотя бы закрыть раны и остановить кровотечение, иначе ты не проснёшься!@
 br
-` ---Man, she's loud.@
-` I'm going to sleep, so just do whatever you want.@
+` Блин, как же она шумит.@ Я буду спать, а ты делай, что хочешь.@
 br
-`"Eh, it's okay if I heal you?@ Why didn't you say that earlier?"@
+` — А хочешь я тебя вылечу?@ Почему ты сразу не попросил?@ — бодро спросила она.
 br
-` After she says this cheerfully,
-` I feel cold fingers, colder than even my body, touch my skin as if in sympathy.\
+` А потом я почувствавал как моего холодного тела заботливо касаются ещё более холодные пальцы.\
 
-`"Well, I'm not too happy about using someone else's familiars, but in these circumstances, it can't be helped."@
+` — Плохо, конечно, что приходится использовать чужих фамильяров, но что поделать.@
 
-` ...... I feel like something is being plastered to me.@
-` I don't know why,
-` but it feels awfully pleasant--
+` Ко мне что-то прилипло.@ Не знаю почему, но это так приятно...
 br
-`"As to be expected from the vampire called the primordial sea.@ Even after the destruction of the source, Nrvnqsr, the familiars still have their regenerative ability...... hm, in this case, all I have to do is give it a little hand.@
-` First, let it live on me----once it's back to normal I'll put it back on you, Shiki----"@
+` — Можно было ожидать от вампира, которого называли первичным бульоном.@ Даже после смерти Нерона, его фамильяры сохраняют способность к восстановлению... М-м, тогда мне нужно лишь немного им помочь.@
+` Пусть сначала приживуться на мне... а когда оклемаются, поместим их в тебя, Шики...@
 br
-` The fingers pull away.\
+` Пальцы ушли.\
 
-`"I guess this'll do.@ How is it?@ It's a non-polar life, so it can adapt itself easily to your body, right?@
-` Hey, are you sleeping Shiki----?"@
+` — Должно получиться.@ Как себя чувствуешь?@ Такая податливая жизнь должна легко приспособиться к твоему телу, правильно?@ Эй, ты спишь что ли, Шики?..@
 br
-` ---Yeah, I'm asleep.@
+` Ага, сплю.@
 br
-`"Oh well.@ Your house is the mansion on top of the hill, right, Shiki?@ I'll make sure you get home."@
+` — Ну ладно.@ Ты ведь живешь в поместье на вершине холма, правильно?@ Не волнуйся, скоро ты будешь дома.@
 br
-` ---I look up only at the white moon as I sleep.\
+` Засыпая, я смотрел лишь на белую луну.\
 
-`"...... You really did well, Shiki.@ And thanks.@ You really saved me tonight."@
+` — Отлично справился, Шики.@ Спасибо.@ Этой ночью ты меня спас.@
 br
-` ...... She thanks me without the slightest hint of heaviness in her words.\
-br
-br
+` Как она может так легко об этом говорить?\
 br
 br
 br
 br
-` ...... I can't hear her voice anymore.@
-` I fall into a deep sleep without anyone interrupting me this time.\
+br
+br
+` ...Больше я её не слышу.@ В этом глубоком сне меня никто не побеспокоит.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
