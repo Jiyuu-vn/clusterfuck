@@ -94,7 +94,7 @@ ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_mid
 `«Я...... верно, похоже меня снова свалила анемия».@
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`«Да.@ Ты проспал где-то семь часов.».@
+`«Да.@ Ты проспал где-то семь часов».@
 `«———Да уж.@ Наверное, потому что я в последнее время не высыпался.@ ...... Прости.@ Я снова тебя побеспокоил».\
 
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
@@ -353,7 +353,7 @@ ld c,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 `«Завтрак уже готов.@ Уже почти семь-тридцать, так что поспеши, иначе опоздаешь».@
 cl c,%type_lshutter_mid
 
-` Акиха элегантно выходит из гостиной.\
+` Акиха удаляется из гостиной.\
 
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
