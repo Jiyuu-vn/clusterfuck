@@ -4,62 +4,62 @@
 *s323
 
 
-;CD-DAﾐブﾐ駅ﾐ兄ﾐウ窶吮ｹﾐプ
+;CD-DA「学校・昼」
 play "*3"
 
 
 
-; 窶ｰﾂｮ窶｢~ : 窶ｰﾂｮ窶慴ｰ : 窶ｰﾂｮ窶｢~窶ｹﾐ紹禍､ﾐナ窶納ﾐニ<ﾐ紹ｳﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+; 屋敷 : 屋内 : 屋敷居間（夕）<上シャッター(速)>
 bg "image\bg\bg_34b.jpg",%type_tshutter_fst
 
 br
-` ----Видите?@ Я же говорил.\
+` ...Видите?@ Я же говорил.\
 
-; ﾐｳﾐ篇停ｰ : 11ﾐチ20 : 11_窶墟ｩ窶墟ｻﾑ漬岩墫�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 屋敷 : 屋内 : 屋敷居間（夕）<上シャッター(速)>
 ld c,":a;image\tachi\his_t11.jpg",%type_crossfade_mid
 
-` ...... Что плохого, говорите?@ Хисуи было плохо.@
+` ...Что плохого, говорите?@ Хисуи было плохо.@
 ` Похоже, Кохаку-сан и Акихе было уже не впервой, но, судя по увлечённости Хисуи, она впервые выпивала так много.@
 ` Она тихо пила за компанию со мной, с трудом пытаясь опустошить свою рюмку.@ И вот что случилось.\
 
 `"Мм, Хисуи...@ Незачем так заставлять себя пить."@
-`"........."@
+`"..."@
 ` Хисуи кивнула.@
 ` Затем будто неосознанно поднесла рюмку к губам.@
-` ...... Сколько я ни пытался остановить её, Хисуи продолжала потягивать из своей рюмки.@
-` ...... Я не совсем понимаю, но, похоже, Хисуи овладел зеленый змий.\
+` ...Сколько я ни пытался остановить её, она продолжала отпивать из своей рюмки.@
+` ...Я не совсем понимаю, но похоже, что Хисуи вошла во вкус.\
 
-` ---А затем...
+` ...А затем...
 br
-`"Ах........."@
+`"А-а..."@
 br
 cl c,%type_lshutter_mid
 ` Хисуи свернулась на диване, словно кошка.@
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウ05ﾐニ
+;（琥珀・05）
 ld c,":a;image\tachi\koha_t05b.jpg",%type_lshutter_fst
 
-`"Ой-ой-ой.@ Ты не можешь так всё оставить, Хисуи-тян.@ Ты простудишься, если будешь спать здесь.@ Ну же, Акиха-сама, пожалуйста, не сердись."@
+`"Ах-ха-ха.@ Ты не можешь так всё оставить, Хисуи-тян.@ Ты простудишься, если будешь спать здесь.@ Ну же, Акиха-сама, пожалуйста, не сердись."@
 ` Улыбаясь, Кохаку-сан разговаривает с дремлющими Акихой и Хисуи.@
-` ...... Похоже, она тоже пьяна.\
+` ...Похоже, она тоже пьяна.\
 
-`"...... Это правда твой первый раз, разве нет, Хисуи?"@
+`"...Это правда твой первый раз, не так ли, Хисуи?"@
 `"Да.@ Хисуи-тян всегда была очень чувствительной к алкоголю.@ Обычно после маленького глотка она становится красной, как помидор.@ Ах-ха-ха~!"@
 ` Кохаку-сан звонко засмеялась.@
-`"...... Похоже, у нас большие проблемы, не так ли?"\
+`"...Похоже, у нас большие проблемы, не так ли?"\
 
 `"Да.@ Хисуи-чан всегда отказывалась от спиртного, но когда Шики-сан предложил, она заставила себя.@ Обычно она не очень общительна, поэтому, думаю, пыталась хотя бы не выбиться из коллектива.@ Ну разве сестрёнка не прелесть?!"@
-` «Ба-бах» — хлопнула меня по спине Кохаку-сан.@
-` ...... Она совершенно пьяна...\
+` Ба-бах! Кохаку-сан хлопнула меня по спине .@
+` ...Она совершенно пьяна...\
 
-;(cohaﾐ紹鯛堋ｷ)
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;(coha消す)
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_mid
 
 `"Думаю, пора закругляться.@ Акиха набухалась, а Хисуи совсем съёжилась."@
 
-;ﾐナﾐ秋窶杯ﾑ漬岩墟鯛｢ﾒ絶墫樞墫樞墟ｺ窶墟問堋ｭﾐォﾐニ
-; ﾐ秋窶杯 : 21ﾐチ30 : 26_ﾑ漬岩墟鯛｢ﾒ絶墫�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（秋葉酔っ払いいれとく？）
+; 秋葉 : 21～30 : 26_酔っ払い<左シャッター(速)>
 ld c,":a;image\tachi\aki_t26.jpg",%type_lshutter_fst
 
 `"...... Набухалась... как это?@ Брат, не используй слова, которые я не понимаю......"@
@@ -67,80 +67,80 @@ ld c,":a;image\tachi\aki_t26.jpg",%type_lshutter_fst
 ` Видимо, Акихе не нравится, когда она что-то не понимает.@
 ` Это хорошо, но когда она пьяна, то не понимает ничего... следовательно, превращается в генератор недовольств...\
 
-;ﾐナﾐ秋窶杯ﾐ紹鯛堋ｷﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（秋葉消す）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_fst
 
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウ05ﾐニ
+;（琥珀・05）
 ld c,":a;image\tachi\koha_t05b.jpg",%type_lshutter_fst
 
 `"Ладно. Я отнесу Акиху-сама, поэтому не мог бы ты, Шики-сан, позаботиться о Хисуи?"@
-`"Э---погоди, Кохаку-сан.@ Я не могу трогать Хисуи.@ Ранее она ударила меня за то, что я задел её при столкновении."@
+`"Э... Погоди, Кохаку-сан.@ Я не могу трогать Хисуи.@ Ранее она ударила меня за то, что я задел её при столкновении."@
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯ窶唹窶啌ﾐニ
+;（琥珀０３）
 ld c,":a;image\tachi\koha_t03b.jpg",%type_crossfade_fst
 
-`"---Верно.@ Теперь, когда ты напомнил, Хисуи-чан и вправду немного одержима чистоплотностью.@ Даже если она подержится с мужчиной за руки, её стошнит.@ Если ты схватишь её, думаю, это будет проблемой."@
-`"...... Если подержится за руки, стошнит......?"@
+`"...Верно.@ Теперь, когда ты напомнил, Хисуи-чан и вправду немного одержима чистоплотностью.@ Даже если она подержится с мужчиной за руки, её стошнит.@ Если ты схватишь её, думаю, это будет проблемой."@
+`"...Если подержится за руки, стошнит...?"@
 ` Только потому, что одержима чистоплотностью.@
-` Я думал, она была странной восемь лет назад, но Хисуи----\
+` Я думал, она была странной восемь лет назад, но Хисуи...\
 
 `"Но если Хисуи-чан спит, всё будет в порядке.@ Ну, Акиха-сама, давай вернёмся в твою комнату."@
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウﾐ紹鯛堋ｦ窶墟ｹﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（琥珀・消える）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_mid
 
 `"Что?@ Погоди, Кохаку-сан!"@
-` ...... Не отвечает.@
-` Вместе с Акихой на плечах она исчезла из обеденной комнаты.\
+` ...Ответа не последовало.@
+` Вместе с Акихой на плечах она исчезает из обеденной комнаты.\
 
-` What she left behind...
-` A mountain of uneaten food, a mountain of empty bottles, and the contentedly sleeping Hisui, who is breathing softly on the sofa.@
+` Что она оставила...
+` Гору недоеденной еды, гору пустых бутылок и довольно спящую Хисуи, тихо посапывающую на диване.@
 br
-` It truly is autumn.@
-` Sleeping there like that, she will certainly catch a cold.\
+` Это и вправду осень.@
+` Если она будет спать здесь, точно подхватит простуду.\
 
-`"...... Is it okay to touch Hisui like this?"@
-` But, it can't be helped.@
-` ...... I don't have any bad intentions, and I do have to get her up to her room.@
-`"...... Sorry.@ You can be mad at me later."@
-` I lift up the sleeping Hisui.@
+`"...Правда ли можно трогать Хисуи при таких обстоятельствах?"@
+` Но сейчас это необходимо.@
+` ...Без задних мыслей, я верну её в свою комнату.@
+`"...Прости.@ Можешь потом злиться на меня."@
+` Я поднял спящую Хисуи.@
 br
-`"Ah......"@
-` With just that, my heart begins to pound.\
+`"А-а..."@
+` Даже это заставило моё сердце колотится.\
 
-`"...... Light."@
-` Just like I thought, Hisui is very light.@
-` Her delicate body fits in my arms.@
-` Softness and the warmth of her body.@
-`"...... This isn't good.@ I have to take her to her room quickly or I'll be the one in trouble."@
-` So as not to wake Hisui, I slowly carry her out of the dining room.\
+`"...Лёгкая."@
+` Хисуи мне показалась очень лёгкой.@
+` Её изящное тело умещается в моих руках.@
+` Мягкость и теплота её тела.@
+`"...Это нехорошо.@ Нужно поскорее отнести её в свою комнату, или окажусь в затруднительном положении."@
+` Чтобы не разбудить Хисуи, я медленно понёс её к выходу из обеденной комнаты.\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
-;CD-DA窶厰ｲﾐ救
+;CD-DA停止
 playstop
 
-; 窶ｰﾂｮ窶｢~ : 窶ｰﾂｮﾐ碓窶墟倪墟� : 窶ｰﾂｮ窶｢~ﾂ廊窶ｰﾑ頒ナ窶寅ｹﾐニ<ﾐ個ｶﾑ笛ﾐゼﾑ兎ﾑ凪�(窶伉ｬ)>
+; 屋敷 : 屋外など : 屋敷廊下（夜）<左カーテン(速)>
 bg "image\bg\bg_46c.jpg",%type_lcartain_mid
-;CD-DAﾐブﾐ禍ｩﾐウ窶寅ｹﾐプ
+;CD-DA「館・夜」
 play "*1"
 
 
-` I turn the doorknob to Hisui's room, and I stop, stunned.@
-`"----No way."@
-` It's locked.@
-`"The key... must be in Hisui's pocket, right?"@
-` This is bad.@ No, it's just reaching my hand in her pocket, but it's bad.@
-` If I did that, who knows where my mind will go.@
-`"...... Oh well, that's how it is."@
-` Fortunately, both Hisui's room and my room are on the second floor.\
+` Я повернул ручку двери, ведущей в комнату Хисуи, и встал, как вкопанный.@
+`"...Не открывается."@
+` Заперто.@
+`"Ключ... должно быть, в кармане Хисуи, да?"@
+` Это плохо.@ Нет, нужно просто засунуть руку ей в карман, но это неприлично.@
+` Если я сделаю это, кто знает, куда понесёт моё воображение.@
+`"Ну, что есть, то есть."@
+` К счастью, моя комната тоже была на втором этаже.\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
-; 窶ｰﾂｮ窶｢~ : 窶｢窶昶ｰﾂｮ : ﾐ丘窶ｹM窶墟懌｢窶昶ｰﾂｮﾐナ窶寅ｹﾐニ<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+; 屋敷 : 部屋 : 志貴の部屋（夜）<左シャッター(速)>
 bg "image\bg\bg_40c.jpg",%type_lshutter_mid
 
 
@@ -150,46 +150,46 @@ br
 br
 br
 br
-` --So,
-`  I came back to my room with Hisui still in my arms.\
+` ...Итак,
+`  Я вхожу в свою комнату с Хисуи на руках.\
 
-`"There we go."@
-` I place Hisui on my bed.@
-` I guess she really pushed herself drinking alcohol, as she does not wake up.@
-`"...... Well.@ What should I do now---"\
+`"Вот и мы."@
+` Я положил Хисуи на свою кровать.@
+` Думаю, она действительно перебрала, раз не просыпается.@
+`"...Так.@ Что же дальше..."\
 
 quakey 1,250
-;S.E."窶�...窶墟ｺ窶墟ｹ窶ｰ邃�"
+;S.E."倒れる音"
 wave se4
 
 
-`"Huh?"@
-` Am I that tired from carrying Hisui?@ I fall to the carpet.@
-`"Umph---"@
-` It seems like the alcohol is having an effect on me too.@
+`"Что?"@
+` Так устал, неся Хисуи?@ Я падаю на ковёр.@
+`"Ух..."@
+` Похоже, на меня тоже подействовало спиртное.@
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶伉ｬ)>
+; 黒画面<クロスフェード(速)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
-; 窶ｰﾂｮ窶｢~ : 窶｢窶昶ｰﾂｮ : ﾐ丘窶ｹM窶墟懌｢窶昶ｰﾂｮﾐナ窶寅ｹﾐニ<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+; 屋敷 : 部屋 : 志貴の部屋（夜）<左シャッター(速)>
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-` Suddenly, I start to feel very dizzy.@
-`"...... Well... whatever."@
-` I hadn't really planned on doing anything anyway.@
-` Even if I go to sleep on the floor like this, I don't think anyone will complain---\
+` Внезапно у меня сильно закружилась голова.@
+`"...Ладно... не важно."@
+` В любом случае, я ничего не собирался делать.@
+` Даже если я сейчас засну вот так, на полу, вряд ли кто-то будет жаловаться...\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
-;CD-DA窶厰ｲﾐ救
+;CD-DA停止
 playstop
 
 !w2000
-; 窶昶吮ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
-bg "image\bg\ima_11.jpg",%type_crossfade_slw
+; 白画面<クロスフェード(中)>
+; 屋敷 : 屋外など : 和室（夜）<瞬時表示>
 ; 窶ｰﾂｮ窶｢~ : 窶ｰﾂｮﾐ碓窶墟倪墟� : ﾂ和ﾐ錦頒ナ窶寅ｹﾐニ<ﾐ瞬ﾐ錦帚｢\ﾐ仰ｦ>
 bg "image\bg\bg_45c.jpg",%type_crossfade_mid
-;CD-DAﾐブ窶墟≫墟ｰ窶墟窶墟片プ
+;CD-DA「おもひで」
 play "*7"
 
 
@@ -199,10 +199,10 @@ br
 br
 br
 br
-` ---Something seems... very familiar.\
+` ...Что-то кажется... очень знакомым.\
 
-` An old Japanese-style room.@
-` A dark room.\
+` Старая комната в японском стиле.@
+` Тёмная комната.\
 
 br
 br
@@ -210,89 +210,89 @@ br
 br
 br
 br
-` ---That is,
-` that's an extremely old memory.\
+` ...То есть,
+` это воспоминание о далёком прошлом.\
 
-` When I was very young, I wasn't used to the new people that took me in, so I locked myself up in my room.@
+` Когда я был маленьким, мне было непривычно с новыми людьми, которые взяли меня к себе, поэтому я не выходил из своей комнаты.@
 br
-` I didn't care for anything; I didn't want to talk to anyone.@
-` Always, always alone, and I wanted to be swaddled in the cradle of my happy memories.\
-` Even if I knew there would be nothing like that for me ever again, I still wanted to do so.\
+` Мне ничего было не нужно; я не хотел ни с кем разговаривать.@
+` Всегда, всегда одному, мне хотелось лишь нежиться в своих счастливых воспоминаниях.\
+` Даже зная, что прошлое не вернуть, я продолжал желать только этого.\
 
-` Knock knock, came a sound.@
-`"...... Who is it?"@
-`"It's me."@
-` Ah, she came again.@
-` That girl around my age was knocking on the door again.@
-`"Shiki-chan, let's play.@ You'll get moldy if you stay in a place like that."@
-`"I don't wanna.@ I don't like going outside."@
-` Hugging my knees, I huddled in a corner of the dark room.\
+` Раздался стук в дверь.@
+` «...Кто это?»@
+` «Это я».@
+` Ох, снова она.@
+` Девочка моего возраста снова стучалась в дверь.@
+` «ШИКИ-чан, давай играть.@ Ты обрастёшь плесенью, если останешься в таком месте».@
+` «Не хочу.@ Не люблю выходить наружу».@
+` Обняв колени, я съёжился в углу тёмной комнаты.\
 
-; 窶ｹﾑσナ窶慴ｬ窶墟ｸﾐニ<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶伉ｬ)>
+; 空（曇り）<クロスフェード(速)>
 bg "image\bg\ima_06.jpg",%type_crossfade_fst
 
 
-` ...... That girl came every day.@
-` She would always knock, never getting tired of it.@
-` She would never force me out, so she would not open the door, but just continued to call my name.\
+` ...Эта девчонка приходила каждый день.@
+` Она всегда стучалась без устали.@
+` Она никогда не заставляла меня выходить, поэтому не открывала дверь, а только продолжала звать меня.\
 
-`"Why won't you come outside?"@
+` «Почему не хочешь выйти?»@
 br
-` Because there's no one that I know outside.@ Everyone hates me outside.@
+` Потому что я не знаю никого снаружи.@ Никто меня там не любит.@
 br
-`"That's not true.@ Everyone wants to like you, Shiki-kun."@
+` «Неправда.@ Все хотят любить тебя, ШИКИ-кун».@
 br
-` Yes.@ I knew that, but I couldn't believe it.@ Because my father went outside, and---\
+` Да.@ Я знал это, но не мог в это поверить.@ Ведь мой отец вышел, и...\
 
 br
 br
 br
 br
 br
-` And.@
-` He was torn to pieces.\
+` И...@
+` Был порезан на куски.\
 
-`"...... I see.@ No wonder you can't trust anyone."@
+` «...Ясно.@ Немудрено, что ты не можешь никому поверить».@
 br
-` Yeah, that's why I will always stay here.@ I don't want any more scary things happening.@
+` Да, поэтому я всегда остаюсь здесь.@ Я не хочу, чтобы случилось ещё что-то ужасное.@
 br
-`"But, you will just be by yourself all the time.@ Being by yourself is no fun."@
+` «Но тогда ты всё время будешь один.@ Одному неинтересно».@
 br
-` Even if it's no fun, it is better than being scared.\
+` Даже если это неинтересно, это лучше, чем быть напуганным.\
 
-`"That's, that's not fun at all.@ Then, Shiki-chan, you can believe in me."@
+` «То есть, это совсем неинтересно.@ Поэтому, ШИКИ-чан, можешь поверить в меня».@
 br
-` ...... You say I can believe in you.@ That's a little backwards.@ Don't people normally say, "I believe you?"@
+` ...Ты говоришь, что я могу поверить в тебя.@ Немного перепутала.@ «Я верю тебе» — разве не так говорят?@
 br
-`"It's okay!@ Shiki-chan, you can trust me and come out!"@
+` «Ладно!@ ШИКИ-чан, можешь довериться мне и выйти!»@
 br
-` ...... Fine.@ But, believe... what should I believe in?\
+` ...Хорошо. Но во что я должен поверить?\
 
-`"Simple.@ Even if everyone hates you, I will still like you, Shiki-chan.@ Because I like you, I always come and ask you to play."@
+` «Это просто.@ Даже если другие ненавидят тебя, я буду любить тебя, ШИКИ-кун.@ Я всегда приду и позову тебя играть, потому что я люблю тебя».@
 br
-` ......... Is outside, fun?@
+` ...Снаружи интересно?@
 br
-`"Yeah!@ It's much, much more fun than being by yourself-----!"@
+` «Да!@ Это намного, намного интереснее, чем быть одному!..»@
 
-; 窶昶吮ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 白画面<クロスフェード(中)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
 
 br
 br
-` ----And then, I went outside.\
+` ...И затем я вышел.\
 br
 br
 br
 br
 br
 br
-` Come to think of it,
-` that was my first memory as Tohno Shiki----\
+` Если подумать,
+` это было моё первое воспоминание, когда я был Тоно Шики...\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
-;CD-DA窶厰ｲﾐ救
+;CD-DA停止
 playstop
 
 !w3000
@@ -312,18 +312,18 @@ gosub *left_phase
 
 
 
-; 窶昶吮ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶伉ｬ)>
+; 白画面<クロスフェード(速)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 br
-` ---A bright light floods my consciousness.@
-` As I open my eyes, the morning light shines through the window.@
+` ...Яркий свет заполняет моё сознание.@
+` Когда я открыл глаза, лучи восходящего солнца светили в окно.@
 br
-`"......... Nnn."@
-` I wake from my dream.@
-` ...... I don't quite remember it, but I remember vaguely watching a dream.@
-` It was very nostalgic.@
-` The smell of tatami---is that what it was?\
+`— ...Ммм.@
+` Я пробудился ото сна.@
+` ...Не очень хорошо помню, но припоминаю, что видел сон.@
+` Он навевал воспоминания.@
+` Запах татами... Это то, что было?\
 
 `"Huh?"@
 ` That's strange, even though I'm awake, I still smell a nice scent.@
@@ -334,9 +334,9 @@ br
 `"...... Eh?"@
 ` Sensing something beside me, my dozing eyes fly open.\
 
-; ﾐｳﾐ篇停ｰ : 窶厰墟紹ｽ : ﾐ丘窶ｹM窶墟懌頒ｧ窶墟篇嘆窶墟披墫樞墟ｹﾐｳﾐ篇停ｰ<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 翡翠 : 通常 : 志貴の隣で寝ている翡翠<クロスフェード(中)>
 bg "image\event\his_e03.jpg",%type_lshutter_mid
-;CD-DAﾐブﾐ禍ｩﾐウ窶卍ｩﾐプ
+;CD-DA「館・朝」
 play "*2"
 
 `"......... sssssst!"@
@@ -376,7 +376,7 @@ play "*2"
 ` Hisui's fingers start to twitch.@
 ` Hisui's eyelids slowly open, like melting ice.\
 
-; 窶ｰﾂｮ窶｢~ : 窶｢窶昶ｰﾂｮ : ﾐ丘窶ｹM窶墟懌｢窶昶ｰﾂｮﾐナ窶卍ｩﾐニ<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶吮)>
+; 屋敷 : 部屋 : 志貴の部屋（朝）<左シャッター(中)>
 bg "image\bg\bg_40a.jpg",%type_lshutter_mid
 
 
@@ -388,15 +388,15 @@ bg "image\bg\bg_40a.jpg",%type_lshutter_mid
 `"Kyaaa!"@
 ` Hisui jumps up from the bed.@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ窶墟ｰ窶堋ｶﾐニ
+;（翡翠・もじ）
 ld c,":a;image\tachi\his_t28.jpg",%type_crossfade_fst
 
 `"Shi, Shiki-sama, why am I----"@
 `"I... I can't explain it very well, but do you remember about last night?"@
 `"Eh---about last night?"@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ紹鯛堋ｦ窶墟ｹﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（翡翠・消える）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_mid
 
 ` Hisui starts to think.@
@@ -404,7 +404,7 @@ cl c,%type_lshutter_mid
 
 `"You remembered?"@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾑ漬､窶寅墟ニ
+;（翡翠・赤面）
 ld c,":a;image\tachi\his_t02.jpg",%type_lshutter_fst
 
 `"Yes...... I caused you a lot of trouble, Shiki-sama."@
@@ -424,21 +424,21 @@ ld c,":a;image\tachi\his_t02.jpg",%type_lshutter_fst
 `"..............."@
 ` Hisui doesn't answer; she just looks over her clothes and nods.\
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ01ﾐニ
+;（翡翠・01）
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
 `"It appears that way.@ My clothing does not appear to be tampered with.@ You are innocent, Shiki-sama."@
 `"Good----"@
 ` I breathe a sigh of relief.@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ銀ｹﾑ柘娯墟昶墫鯛堋ｵﾐニ
+;（翡翠・視線はずし）
 ld c,":a;image\tachi\his_t26.jpg",%type_crossfade_fst
 
 `"And I think the one who placed you on the bed... was me.@ I woke up once during the night and saw you sleeping on the floor.@ I did not want you to catch a cold, so I remember getting you to sleep on the bed."@
 `"Eh...... for real?"@
 ` If that's true, then that would explain why I was in bed, but why was Hisui sleeping on the bed too?\
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾑ漬､窶寅壺堋､窶墟停墟ｮ窶堋ｫﾐニ
+;（翡翠・赤面うつむき）
 ld c,":a;image\tachi\his_t22.jpg",%type_crossfade_fst
 
 `"...... Please forgive me.@ I, I was still a little drunk, and I thought that since there was a bed in front of me, I wouldn't need to go back to my room..."@
@@ -451,7 +451,7 @@ ld c,":a;image\tachi\his_t22.jpg",%type_crossfade_fst
 
 `"A, anyway, let's just keep this a secret between us.@ If Akiha knew about it, she'd get angry, and if Kohaku-san knew about it, she'd just tease us about it relentlessly."@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ04ﾐニ
+;（翡翠・04）
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
 `"---Yes.@ If Shiki-sama will allow it, then it will help me as well."@
@@ -460,20 +460,20 @@ ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 ` Nothing did happen, but it's still a fact that I carried a girl to my room and slept next to her.@
 ` No matter what Hisui says, I think I'm responsible.\
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾑ箪窶堋ｵ窶墟ｽ窶墟・墟倪墫問堋ｻ窶堋､ﾐニ
+;（翡翠・申しわけなさそう）
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
 `"Not at all, it is my fault.@ If I was more responsible, then you would never have had to worry about any of this, Shiki-sama."@
 `"No, it's okay.@ Anyway, I just want to apologize.@ ...... I'd actually feel better if you say something like 'Shiki-sama is a jerk.' You have every right to, although I don't think you'd say something like that."@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ窶墟披墟ｺﾐニ
+;（翡翠・てれ）
 ld c,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
 
 `"Ah... Yes.@ That kind of order, would be very troubling."@
 `"Wouldn't it?@ So let me apologize.@ If you don't let me, then I will never trust you with anything again."\
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ紹鯛堋ｦ窶墟ｹﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（翡翠・消える）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_mid
 
 `"............"@
@@ -481,15 +481,15 @@ cl c,%type_lshutter_mid
 `"...... Shiki-sama is... really clumsy, are you not?"@
 ` Hisui says this in an awfully kind voice, different from before.\
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ紹榧禍ｷﾐニ
+;（翡翠・笑顔）
 ld c,":a;image\tachi\his_t03.jpg",%type_lshutter_fst
 
 `"Well then, I'll say Shiki-sama is at fault this time.@ I will have to let you make up for this sometime, so please do not forget."@
 `"Eh-----Hisu,i?"@
 `"If you will please excuse me.@ Shiki-sama, please hurry to the sitting room or you will be late."@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ紹鯛堋ｦ窶墟ｹﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（翡翠・消える）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_fst
 
 ` Hisui gives a perfect bow and exits the room.\
@@ -502,29 +502,29 @@ cl c,%type_lshutter_fst
 ` This isn't good.@ This is really not good.@
 ` All she did was smile, but why am I so stunned---?\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
-; 窶ｰﾂｮ窶｢~ : 窶ｰﾂｮ窶慴ｰ : 窶ｰﾂｮ窶｢~窶ｹﾐ紹禍､ﾐナ窶卍ｩﾐニ<ﾐ個ｶﾑ笛ﾐゼﾑ兎ﾑ凪�(窶伉ｬ)>
+; 屋敷 : 屋内 : 屋敷居間（朝）<左カーテン(速)>
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
 ` I go to the sitting room and see Hisui standing there.@
 ` Akiha has already eaten breakfast and is drinking tea, and it seems that Kohaku-san is in the kitchen.@
 
-;ﾐナﾐ秋窶杯ﾐウ04ﾐニ
+;（秋葉・04）
 ld c,":a;image\tachi\aki_t04a.jpg",%type_lshutter_fst
 
 `"Good morning, Nii-san.@ You're up very early this morning, aren't you?"@
 `"Hm?@ Ah, this morning there was a little trouble..." I stop short and steal a glance at Hisui's face.@
 
-;(akiﾐ紹鯛堋ｦ窶墟ｹ)
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;(aki消える)
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_fst
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ窶墟披墟ｺﾐォﾐァ窶墫窶｢\ﾐ仰ｦ窶堋ｵ窶墟頒アﾐ紹鯛堋ｷﾐニ
+;（翡翠・てれ？　を表示して、消す）
 ld c,":a;image\tachi\his_t20.jpg",%type_lshutter_mid
 !w750
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_mid
 
 `"Well, I just happened to wake up early today.@ But you're pretty impressive too, Akiha.@ To still wake up this early as drunk as you were yesterday."\
@@ -534,7 +534,7 @@ ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 `"Of course.@ You should always drink considering the next day, so there is no reason to oversleep because of it."@
 `"Really.@ But you were pretty hammered last night.@ Maybe you have more breakdown enzymes than a normal person, Akiha.@ If that's so, I'm a little jealous."@
 
-;ﾐナﾐ秋窶杯ﾐウ13ﾐニ
+;（秋葉・13）
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
 `"Nii-san, what are these, 'breakdown enzymes'?"\
@@ -544,26 +544,26 @@ ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 ` The amount of enzymes in each person is different, and Japanese people tend to have less than others.@ You can say those that have less enzymes have to moderate a little."@
 ` Akiha looks impressed.\
 
-;ﾐナﾐ秋窶杯ﾐウ04ﾐニ
+;（秋葉・04）
 ld c,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
 `"...... I am a little surprised.@ You seem to know quite a bit, Nii-san."@
 `"No, not really.@ I just have a bad friend that drinks a lot, that's all."@
 
-;ﾐナﾐ秋窶杯ﾐウ18ﾐニ
+;（秋葉・18）
 ld c,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
 
 `"Is that so.@ It seems like you were not drinking that much last night though..."@
 `"That's because I'm one of those people that have to moderate.@ Since my bad friend simply downs his drinks, I have to always stay sober to take care of him."@
 ` By the way, this bad friend I'm talking about is no other than Inui Arihiko.\
 
-;ﾐナﾐ秋窶杯ﾐウ16ﾐニ
+;（秋葉・16）
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
 `"...... Hmm.@ I don't really understand it, but it seems like your private life is very fun indeed."@
 `"Why that all of a sudden?@ Why do you bring that up?"@
 
-;ﾐナﾐ秋窶杯ﾐウ21ﾐニ
+;（秋葉・21）
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
 `"Nii-san, your face seemed so happy just now.@ You didn't show that face last night."@
@@ -574,15 +574,15 @@ ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 ` With excellent timing, Kohaku-san's voice cuts in.@
 `"Ah, I'll be right there!@ ...... Well, I gotta go, Akiha."@
 
-;ﾐナﾐ秋窶杯ﾐウ02ﾐニ
+;（秋葉・02）
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
 `"........."\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w1000
-; 窶ｰﾂｮ窶｢~ : 窶ｰﾂｮ窶慴ｰ : 窶ｰﾂｮ窶｢~窶ｹﾐ紹禍､ﾐナ窶卍ｩﾐニ<ﾐ個ｶﾑ笛ﾐゼﾑ兎ﾑ凪�(窶伉ｬ)>
+; 屋敷 : 屋内 : 屋敷居間（朝）<左カーテン(速)>
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
@@ -590,87 +590,87 @@ bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 `"Huh...?@ Hisui, where is Akiha?"@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ01ﾐニ
+;（翡翠・01）
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 `"Akiha-sama left for school right after you went to the dining room, Shiki-sama."@
 `"Oh yeah, Akiha's school is far, isn't it?@ ...... Well, I shouldn't be standing around either."@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウ04ﾐニ
+;（翡翠・04）
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
 `"Yes, I will bring you your bag right away."@
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ紹鯛堋ｦ窶墟ｹﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（翡翠・消える）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_fst
 
 ` Hisui disappears towards the lobby.@
 `"............"@
 ` I stare listlessly behind her.\
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウﾐ謁窶唹窶啣ﾐィﾑ塗ﾑ鄭窶墟補徙ﾐ紹ｺﾐニ
+;（琥珀・楽０２。ドアで登場）
 ld c,":a;image\tachi\koha_t02.jpg",%type_lshutter_fst
 
 `"Hee hee.@ Shiki-san, what happened last night?"@
 `"Wha... what do you mean, Kohaku-san!?"@
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウ窶壺ｹ窶壺ｰﾐニ
+;（琥珀・ｋｉ）
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
 `"Oh my, I see you're blushing.@ Something must have happened, didn't it?"@
 `"Eh---no, nothing happened at all.@ Go ahead, ask Hisui."@
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウﾐ謁窶唹窶啀ﾐニ
+;（琥珀・楽０１）
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
 `"Is that so?@ It seems like you have become pretty good friends with Hisui-chan."@
 
-;(ﾐｰﾐｶﾐｰﾐｯﾐ紹鯛堋ｷ)
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;(琥珀消す)
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_fst
 
 ` Kohaku-san tilts her head to the side.@
 ` ...... I became good friends with Hisui?@ That's something I'd like to hear about myself.\
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ個ｶ01ﾐニ
-; ﾐｳﾐ篇停ｰ : 01ﾐチ10 : 01_ﾐ謁01ﾐナ窶酉問｢\ﾐ紹ｾ窶墟侑謁ﾐニ<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（翡翠・左01）
+; 翡翠 : 01～10 : 01_楽01（無表情な楽）<左シャッター(速)>
 ld l,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 `"Shiki-sama, I have your bag ready.@ Please get ready to leave the mansion as you do not have much time left."@
 `"Yeah, I'm coming.@ Later, Kohaku-san, see you this evening."@
 
-;ﾐナﾐｰﾐｶﾐｰﾐｯﾐウ窶ｰEﾐ謁窶唹窶啌ﾐニ
-; ﾐｰﾐｶﾐｰﾐｯ : 01ﾐチ10 : 03_ﾐ謁03ﾐナﾑ柘問寅墟ニ<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（琥珀・右楽０３）
+; 琥珀 : 01～10 : 03_楽03（正面）<左シャッター(速)>
 ld r,":a;image\tachi\koha_t03.jpg",%type_lshutter_fst
 
 `"Yes, I look forward to it."\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+; 黒画面<左シャッター(速)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
-; 窶ｰﾂｮ窶｢~ : 窶ｰﾂｮﾐ碓窶墟倪墟� : 窶ｰﾂｮ窶｢~ﾐ碓ﾐ禍渙ナ窶卍ｩﾐニ<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+; 屋敷 : 屋外など : 屋敷外観（朝）<左シャッター(速)>
 bg "image\bg\bg_32a.jpg",%type_lshutter_fst
 
 
 `"I'll come right back today, so I'll be back around four o'clock.@ Oh, and you don't have to wait here."@
 
-;ﾐナﾐｳﾐ篇停ｰﾐ謁ﾐニ
+;（翡翠楽）
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
 `"I understand.@ Please be careful on your way, Shiki-sama."@
 `"Thanks.@ I'll be going now, Hisui."@
-;ﾐｳﾐ篇停ｰ窶墟・仰ｫ窶ｹV
+;翡翠お辞儀
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
-;ﾐナﾐｳﾐ篇停ｰﾐウﾐ紹鯛堋ｦ窶墟ｹﾐニ
-; 窶吮窶ｰ窶ｺ窶墫ﾐ紹鯛ｹﾐ�<ﾐ個ｶﾑ天ﾑ酉酉澱ﾑ顛ﾐゼ(窶伉ｬ)>
+;（翡翠・消える）
+; 中央を消去<左シャッター(速)>
 cl c,%type_lshutter_mid
 
 ` Waving a hand to the bowing Hisui, I dash down the street.\
 
-; ﾐ娯｢窶ｰﾐｶ窶寅�<ﾑ哲ﾑ寅袴店ﾑ鍍ﾑ擢ﾐゼﾑ塗(窶吮)>
+; 黒画面<クロスフェード(中)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
-;CD-DA窶厰ｲﾐ救
+;CD-DA停止
 playstop
 
 
