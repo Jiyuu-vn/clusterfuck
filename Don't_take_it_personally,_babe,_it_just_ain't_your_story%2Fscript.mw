@@ -1,833 +1,598 @@
+# remember to credit iconsweets
+# give Katelyn a last name
+init -2 python:
+    def magic_show(name, at_list=[], layer='master', what=None, zorder=0, tag=None, behind=[ ], atl=None, transient=False, munge_name=True):
+        if isinstance(name, tuple):
+            blur_name = tuple(list(name) + [ "blur" ])
+        else:
+            blur_name = name + " blur"
+        renpy.show(name, at_list, layer, what, zorder, tag, behind, atl, transient, munge_name)
+        #if globals().has_key("show_ui"):
+        renpy.show(blur_name, at_list, 'blur', what, zorder, tag, behind, atl, transient, munge_name)
+
+    def magic_hide(name, layer='master'):
+        renpy.hide(name, layer)
+        renpy.hide(name, 'blur')
+        
+    def magic_scene(layer='master'):
+        renpy.scene(layer)
+        renpy.scene('blur')
+        hide_blur()
+
 init:
     python:
-        import time, locale
+        katelyn_surname = MultiPersistent("scoutshonour.com").last_name or "Robinson"
+        katelyn_surname = katelyn_surname.capitalize()
         
-        def show_blur():
-            if persistent.use_blur:
-                renpy.layer_at_list([ just_crop ], layer='blur')
-                renpy.restart_interaction()
-            
-        def hide_blur():
-            renpy.layer_at_list([ dont_show ], layer='blur')
-            
-        def toggle_blur():
-            persistent.use_blur = not persistent.use_blur
-            if not persistent.use_blur:
-                hide_blur()
-                renpy.restart_interaction()
-            else:
-                show_blur()
+        character_list = [ ]
+        if persistent.use_blur == None:
+            persistent.use_blur = True
+        
+        #_window_during_transitions = True
+        
+        class User:
+            def __init__(self, name, about="", birthday="", hometown="", gender="", interested_in="", religious_views="", political_views="", relationship_status="", phone="", profile=None):
+                self.name = name
+                self.about = about
+                self.birthday = birthday
+                self.hometown = hometown
+                self.gender = gender
+                self.interested_in = interested_in
+                self.religious_views = religious_views
+                self.political_views = political_views
+                self.relationship_status = relationship_status
+                self.phone = phone
+                self.profile = profile
                 
-        def right_now():
-            return "2027" # effectively disables it, because it turns out to be a kind of bad idea
-            m = h = "0"
-            n = "PM"
-            
-            if store.game_time[1] < 10:
-                m += str(store.game_time[1])
-            else:
-                m = str(store.game_time[1])
+                self.wall = [ ]
+                self.messages = [ ]
                 
-            if store.game_time[0] > 12:
-                h = str(store.game_time[0]-12)
-            else:
-                h = str(store.game_time[0])
-                if store.game_time[0] < 12:
-                    n = "AM"
+            def unread_messages(self):
+                unread_count = 0
+                
+                for i in self.messages:
+                    unread_count += i.unread()
                     
-            return h + ":" + m + " " + n
-            
-        def nop():
-            pass
-            
-        persistent._file_page = "1"
-    
-    screen computer:
-        on "show" action show_blur
-        on "hide" action hide_blur
-        
-        default hide_action = Return()
-        
-        button action hide_action background None xpadding 0 xmargin 0 xalign 0:
-            null width (1024-670) height 640
-    
-    screen say_overlay:
-        on "show" action hide_blur
-        
-        python:
-            unread_count = len(unread_total()) + unread_posts()
-            if not unread_count:
-                unread_count = ""
-            messages_alpha = 0.5 + 0.4*int(bool(unread_count))
-            mail_alpha = 0.5 + 0.4*int(bool(store.john.unread_messages()))
-        
-        if store.show_ui:
-            hbox xanchor 1.0 xpos 1000 ypos 15 spacing 10:
-                button action ShowMenu("all_inbox") background im.Alpha("messages.png", messages_alpha) hover_background im.Alpha("messages-hover.png", messages_alpha) xminimum 70 yminimum 70:
-                    text str(unread_count) text_align 0.5 minwidth 30 drop_shadow None color "#fff" size 30 yalign 0.4
-                null width 5
-                button action ShowMenu("computer_inbox") background im.Alpha("mails.png", mail_alpha) hover_background im.Alpha("mails-hover.png", mail_alpha) xminimum 70 yminimum 70:
-                    null
-                button action ShowMenu("computer_overlay") background im.Alpha("config.png", 0.9) hover_background im.Alpha("config-hover.png", 0.9) xminimum 70 yminimum 70:
-                    null
-    
-    screen say:
-        tag main_screen
-        default side_image = None
-        
-        on "show" action Show("say_overlay")
-         
-        
-        window id "window":
-            has vbox
-    
-            if who:
-                text who id "who"
-    
-            text what id "what"
-            
-        if side_image:
-            add side_image at portrait_pos
-         
-    python:
-        def twelve_channel():
-            if store.posts_chan:
-                renpy.music.play(RARIBOU)
-            return ShowTransient("twelvechannel")()
-         
-    screen computer_overlay:
-        tag main_screen
-        tag computer
-        
-        use computer
-        $ use_time = time.strftime("%I:%M %p")
-        
-        window style style.window["computer"]:
-            has vbox
-            null height 30
-            #text (use_time.split(" ")[0] + " {size=72}" + use_time.split(" ")[1] + "{/size}") text_align 0.5 size 92 bold True minwidth 640
-            text "Amie XTablet зарегестрирован на: {b}Джон Рук{/b}" text_align 0.5 size 32 minwidth 640
-            text date text_align 0.5 minwidth 640 size 46 bold True 
-            null height 20
-            null height 15
-            hbox spacing 10:
-                grid 2 3:
-                    button action ShowTransient("computer_inbox") bottom_padding 15 style style.button["app"]:
-                        has vbox yalign 1.0 xalign 0.5 
-                        add im.Alpha("mails-app.png", 0.7) xalign 0.5
-                        text "Почта" style style.button_text["app"]
-                    button action ShowTransient("all_inbox") style style.button["app"]:
-                        has vbox yalign 1.0 xalign 0.5 
-                        add im.Alpha("networking-app.png", 0.7) xalign 0.5
-                        text "ЭмиКоннект" style style.button_text["app"]
-                    button action twelve_channel style style.button["app"]:
-                        has vbox yalign 1.0 xalign 0.5 
-                        add im.Alpha("12chan-app.png", 0.7) xalign 0.5
-                        text "12чаннел" style style.button_text["app"]
-                    button action ShowMenu("preferences") style style.button["app"]:
-                        has vbox yalign 1.0 xalign 0.5 
-                        add im.Alpha("prefs-app.png", 0.7) xalign 0.5
-                        text "Настройки" style style.button_text["app"]
-                    button action ShowMenu("saveload") style style.button["app"]:
-                        has vbox yalign 1.0 xalign 0.5 
-                        add im.Alpha("save-app.png", 0.7) xalign 0.5
-                        text "Сохр/Загр" style style.button_text["app"]
-                    button action ShowTransient("quit") style style.button["app"]:
-                        has vbox yalign 1.0 xalign 0.5 
-                        add im.Alpha("power-app.png", 0.7) xalign 0.5
-                        text "Выход" style style.button_text["app"]
+                return unread_count
                 
-                vbox spacing 3 yalign 0.5:
-                    for i in character_list:
-                        button background None action ShowTransient("profile", user=i):
-                            has hbox spacing 5
-                            window background "tiny-profile.png" hover_background "tiny-profile-hover.png" xminimum 35 xmaximum 35 yminimum 35 ymaximum 35 xpadding 0 ypadding 0 yalign 0.5:
-                                null
-                            vbox spacing -5:
-                                text i.name size 26 hover_color "#7c0055" hover_drop_shadow_color ((0,0,0,0))
-                                text ("Новые: " + str(i.unread_messages()) + " письма, " + str(i.unread_replies()) + " посты" )  xpos 10 hover_color "#7c0055" hover_drop_shadow_color ((0,0,0,0))
+            def unread_replies(self):
+                unread_count = 0
                 
-            
-            
-        text "Главное меню" style style.text["computer-title"]
-        button action Return() style style.button["back"]:
-            null width 86 height 38
-        
-    screen message_button:
-        default profile_menu = True
-        if not profile_menu:
-            $ use_user = conversation.messages[-1].sender
-        else:
-            for party in conversation.parties:
-                if party is not user:
-                    $ use_user = party
-                
-        $ profile_image = profile_hover = use_user.profile
-        if profile_image:
-            $ profile_image = im.Scale(use_user.profile, 100, 100, xpos=20, ypos=20)
-            $ profile_hover = im.MatrixColor(profile_image, im.matrix.opacity(0.7), xpos=20, ypos=20)
-        
-        button action ShowTransient("message", user=user, conversation=conversation, profile_menu=profile_menu) style style.button["unread-" + str(bool(conversation.unread()))] foreground profile_image hover_foreground profile_hover:
-            has vbox
-            hbox:
-                text use_user.name size 30 bold True minwidth 220 drop_shadow None hover_color "#666"
-                text conversation.messages[-1].post_time size 22 color "#545454" ypos 6 text_align 1.0 minwidth 220 drop_shadow None hover_color "#888"
-            if conversation.unread():
-                text ("{b}Непрочитано{/b} " + (conversation.messages[-1].message + "\n").split("\n")[0])  hover_color "#666" xmaximum 440 xminimum 440
-            else:
-                text ((conversation.messages[-1].message + "\n").split("\n")[0])  hover_color "#666" xmaximum 440 xminimum 440
+                for i in self.wall:
+                    unread_count += i.unread()
                     
-    screen post_button:
-        default profile_menu = True
-        if post.replies:
-            $ use_post = post.replies[-1]
-        else:
-            $ use_post = post
-            
-        $ profile_image = profile_hover = use_post.poster.profile
-        if profile_image:
-            $ profile_image = im.Scale(use_post.poster.profile, 100, 100, xpos=20, ypos=20)
-            $ profile_hover = im.MatrixColor(profile_image, im.matrix.opacity(0.7), xpos=20, ypos=20)
+                return unread_count
+                
+        class Conversation:
+            def __init__(self, sender, recepient):
+                sender.messages.append(self)
+                recepient.messages.append(self)
+                
+                self.parties = [ sender, recepient ]
+                self.messages = [ ]
+                
+            def send(self, sender, message, link=None):
+                if store.show_ui:
+                    renpy.music.play(NEW_MESSAGE, channel="sound")
+                self.messages.append(Message(sender, message, link))
+                return self
+                
+            def unread(self):
+                unread_count = 0
+                
+                for i in self.messages:
+                    if i.unread:
+                        unread_count += 1
+                
+                return unread_count
+                
+        class Message:
+            def __init__(self, sender, message, link=None):
+                self.message = message
+                self.sender = self.poster = sender
+                self.unread = True
+                self.post_time = date.split(", ")[1] + ", " + right_now()
+                self.link = link
         
-        button action ShowTransient("wall_post", user=post.recepient, post=post, profile_menu=profile_menu) style style.button["unread-" + str(bool(post.unread()))] foreground profile_image hover_foreground profile_hover:
-            has vbox
-            hbox:
-                text use_post.poster.name size 30 bold True minwidth 220 drop_shadow None hover_color "#666"
-                text use_post.post_time size 22 color "#545454" ypos 6 text_align 1.0 minwidth 220 drop_shadow None hover_color "#888"
-            if post.unread():
-                text ("{b}Непрочитано{/b} " + (use_post.message + "\n").split("\n")[0])  hover_color "#666" xmaximum 440 xminimum 440
-            else:
-                text ((use_post.message + "\n").split("\n")[0])  hover_color "#666" xmaximum 440 xminimum 440
+        class Post:
+            def __init__(self, poster, message, recepient=None, picture=True):
+                global date
+                if not recepient:
+                    recepient = poster
+                recepient.wall.insert(0,self)
+                
+                if store.show_ui:
+                    renpy.music.play(NEW_MESSAGE, channel="sound")
+                
+                self.picture = picture
+                self.recepient = recepient
+                self.poster = poster
+                self.message = message
+                self._unread = True
+                self.replies = [ ]
+                self.post_time = date.split(", ")[1] + ", " + right_now()
+                
+                if poster is not recepient:
+                    has_posted = Post(poster, "написал(а) на стене " + recepient.name.split(" ")[0] + ".", picture=False)
+                    has_posted._unread = False
+                
+            def reply(self, sender, message):
+                if store.show_ui:
+                    renpy.music.play(NEW_MESSAGE, channel="sound")
+                self.replies.append(Message(sender, message))
+                if sender is not self.recepient:
+                    has_posted = Post(sender, "написал(а) на стене " + self.recepient.name.split(" ")[0] + ".", picture=False)
+                    has_posted._unread = False
+                return self
+                
+            def unread(self):
+                unread_count = int(self._unread)
+                
+                for i in self.replies:
+                    if i.unread:
+                        unread_count += 1
+                        
+                return unread_count
+            
+                
+        def register_character_images(name, hair, outfits, expressions, width, glasses=None, null=False, xoffset=0, reverse=False, mirror=False, hair_under=False, silhouette=False, yoffset=0):
+            def fn(tag):
+                return "sprites/" + name.capitalize() + "/" + name.capitalize() + "_" + tag + ".png"
+                
+            def blur_fn(tag):
+                return "blur/" + name.capitalize() + "_" + tag + ".png"
+                
+            def try_mirror(image, should_mirror, *args, **kwargs):
+                if should_mirror:
+                    return im.Flip(image, horizontal=True)
+                return image
+                
+            def register(expression, outfit, hair, image_name, extra=None, reverse=False, hair_under=False, silhouette=False):
+                if hair_under:
+                    sprite = im.Composite((width, 640), (xoffset,yoffset), fn(expression), (xoffset,yoffset), fn(hair), (xoffset,yoffset), fn(outfit) )
+                    blur_sprite = im.Composite((width, 640), (xoffset,yoffset), blur_fn(expression), (xoffset,yoffset), blur_fn(hair), (xoffset,yoffset), blur_fn(outfit))
+                elif not reverse:
+                    sprite = im.Composite((width, 640), (xoffset,yoffset), fn(expression), (xoffset,yoffset), fn(outfit), (xoffset,yoffset), fn(hair))
+                    blur_sprite = im.Composite((width, 640), (xoffset,yoffset), blur_fn(expression), (xoffset,yoffset), blur_fn(outfit), (xoffset,yoffset), blur_fn(hair))
+                    if extra:
+                        sprite = im.Composite((width, 640), (xoffset,yoffset), fn(expression), (xoffset,yoffset), fn(outfit), (xoffset,yoffset), fn(extra), (xoffset,yoffset), fn(hair))
+                        blur_sprite = im.Composite((width, 640), (xoffset,yoffset), blur_fn(expression), (xoffset,yoffset), blur_fn(outfit), (xoffset,yoffset), blur_fn(extra), (xoffset,yoffset), blur_fn(hair))
+                else:
+                    sprite = im.Composite((width, 640), (xoffset,yoffset), fn(outfit), (xoffset,yoffset), fn(expression), (xoffset,yoffset), fn(hair))
+                    blur_sprite = im.Composite((width, 640), (xoffset,yoffset), blur_fn(outfit), (xoffset,yoffset), blur_fn(expression), (xoffset,yoffset), blur_fn(hair))
+                    if extra:
+                        sprite = im.Composite((width, 640), (xoffset,yoffset), fn(outfit), (xoffset,yoffset), fn(expression), (xoffset,yoffset), fn(extra), (xoffset,yoffset), fn(hair))
+                        blur_sprite = im.Composite((width, 640), (xoffset,yoffset), blur_fn(outfit), (xoffset,yoffset), blur_fn(expression), (xoffset,yoffset), blur_fn(extra), (xoffset,yoffset), blur_fn(hair))
+                    
+                sprite = try_mirror(sprite, mirror)
+                blur_sprite = try_mirror(blur_sprite, mirror)
+                    
+                if not null:
+                    if silhouette:
+                        renpy.image(image_name + " silhouette", im.MatrixColor(sprite, im.matrix.brightness(-0.92)))
+                        renpy.image(image_name + " silhouette blur", im.MatrixColor(blur_sprite, im.matrix.brightness(-0.92)))
+                    else:
+                        renpy.image(image_name, sprite)
+                        renpy.image(image_name + " blur", blur_sprite)
+                        
+                        renpy.image(image_name + " null", Null())
+                else:
+                    renpy.image(image_name, Null())
+                    renpy.image(image_name + " blur", Null())
+                
+                renpy.image(image_name + " null blur", Null())
+                
+                #side_portraits.append(image_name)
+                #side_portraits.append(im.Crop(sprite, 0, 0, width, 372, yalign=1.0, xpos=220+xoffset, xanchor=1.0))
+                
+                #    side_portraits[image_name] = sprite#im.Crop(im.MatrixColor(sprite, im.matrix.brightness(-0.92)), 0, 0, width, 372, yalign=1.0, xpos=220+xoffset, xanchor=1.0)
+                #else:
+                side_portraits[image_name] = sprite#im.Crop(sprite, 0, 0, width, 372, yalign=1.0, xpos=220+xoffset, xanchor=1.0)
+                if silhouette:
+                    side_portraits[image_name] = im.MatrixColor(sprite, im.matrix.brightness(-0.92))
+                    
+                #renpy.cache_pin(side_portraits[image_name])
+            
+            #side_portraits = [ ]
+            side_portraits = { }
+            for outfit in outfits:
+                outfit_name = outfit.split("_")[1].replace("-", " ")
+                for expression in expressions:
+                    expression_name = expression.split("_")[1].replace("-", " ")
+                    
+                    if not glasses:
+                        register(expression, outfit, hair, name + " " + outfit_name + " " + expression_name, reverse=reverse, hair_under=hair_under, silhouette=silhouette)
+                    else:
+                        register(expression, outfit, hair, name + " " + outfit_name + " " + expression_name, glasses, reverse=reverse, hair_under=hair_under, silhouette=silhouette)
+                        register(expression, outfit, hair, name + " " + outfit_name + " " + expression_name + " bare", reverse=reverse, hair_under=hair_under, silhouette=silhouette)
+            
+            def displayable_func(st, at):
+                for key in side_portraits:
+                    if renpy.showing(key):
+                        return side_portraits[key], None
+            
+            return DynamicDisplayable(displayable_func)        
+            #return ShowingSwitch(*side_portraits)
+            
+            
+        def unread_total(use_conversation=False):
+            all_unread = [ ]
+            for character in character_list:
+                for conversation in character.messages:
+                    if use_conversation:
+                        if conversation.unread() and conversation not in all_unread:
+                            all_unread.append(conversation)
+                    else:
+                        for message in conversation.messages:
+                            if message.unread and message not in all_unread:
+                                all_unread.append(message)
+                            
+            return all_unread
+            
+        def unread_posts():
+            unread_count = 0
+            
+            for character in character_list:
+                unread_count += character.unread_replies()
+                
+            return unread_count
 
-    screen computer_inbox:
-        tag computer
-        default user = store.john
-        
-        use computer
-        
-        window style style.window["computer"]:
-            has vbox
-            if user:
-                if user is not store.john:
-                        button action ShowTransient("profile", user=user) bottom_padding 14 top_padding 10:
-                            has hbox spacing 10
-                            add "profile.png"
-                            text "Профиль" size 24 yalign 0.5 bold True hover_color "#666"
-                text ("Личная переписка с {b}"+ user.name + "{/b}") size 24 drop_shadow None text_align 0.5 minwidth 650
-                null height 10
-            hbox:
-                viewport child_size (620, 500) draggable True mousewheel True id "vp" xmaximum 640:
-                    has vbox spacing 5
-                    
-                    if user:
-                        for i in reversed(user.messages):
-                            if user is store.john:
-                                use message_button(user=user, conversation=i, profile_menu=False)
-                            else:
-                                use message_button(user=user, conversation=i)
-                    else:
-                        $ unread = unread_total(use_conversation=True)
-                        if unread or unread_posts():
-                            text ("Непрочитанные личные сообщения и записи на стенах") size 24 drop_shadow None text_align 0.5 minwidth 620
-                            null height 10
-                            
-                            for conversation in reversed(unread):
-                                use message_button(user=conversation.messages[-1].sender, conversation=conversation, profile_menu=False)
-                            for i in character_list:
-                                for post in i.wall:
-                                    if post.unread():
-                                        use post_button(user=post.poster, post=post, profile_menu=False)
-                        else:
-                            null height 280
-                            text ("Нет непрочитанный сообщений.") size 24 text_align 0.5 minwidth 650
-        
-        if not user:
-            text "ЭмиКоннект" style style.text["computer-title"]
-        else:
-            text "Почта" style style.text["computer-title"]
-        button action ShowTransient("computer_overlay") style style.button["home"]:
-            null width 86 height 38
-    
-    screen all_inbox:
-        tag computer
-        use computer_inbox(user=None)
-            
-    python:
-        def refresh_unread(new_screen, _conversation, **kwargs):
-            for i in _conversation.messages:
-                i.unread = False
-                
-            if new_screen == "return":
-                return Return()()
-            return ShowTransient(new_screen, **kwargs)()
-            
-    screen message:
-        tag computer
-        default profile_menu = True
-        
-        use computer(hide_action=renpy.curry(refresh_unread)("return", conversation))
-            
-        window style style.window["computer"]:
-            has vbox
-            hbox spacing 10:
-                if profile_menu or user is store.john:
-                    button action renpy.curry(refresh_unread)("computer_inbox", conversation, user=user) ypadding 15:
-                        has hbox spacing 10
-                        add "inbox.png"
-                        text "Входящие" size 24 yalign 0.5 bold True hover_color "#666"
-                        
-                    if profile_menu:
-                        button action renpy.curry(refresh_unread)("profile", conversation, user=user) bottom_padding 14 top_padding 10:
-                            has hbox spacing 10
-                            add "profile.png"
-                            text "Профиль" size 24 yalign 0.5 bold True hover_color "#666"
-                else:
-                    button action renpy.curry(refresh_unread)("all_inbox", conversation) ypadding 15:
-                        has hbox spacing 10
-                        add "inbox.png"
-                        text "Непрочитанные письма" size 24 yalign 0.5 bold True hover_color "#666"
-                
-            for party in conversation.parties:
-                if party is not user:
-                    text ("Личная переписка между {b}" + user.name.split(" ")[0] + "{/b} и {b}" + party.name.split(" ")[0] + "{/b}") size 24 drop_shadow None text_align 0.5 minwidth 650
-                    
-            null height 10
-            hbox:
-                viewport child_size (620, 0) draggable True mousewheel True xmaximum 640:
-                    has vbox spacing 5
-                    
-                    for i in conversation.messages:
-                        hbox:
-                            if i.sender.profile:
-                                add im.Scale(i.sender.profile, 100, 100)
-                                null width 20
-                            else:
-                                null width 120 height 120
-                            vbox:
-                                hbox:
-                                    text i.sender.name size 30 bold True minwidth 220 drop_shadow None
-                                    text i.post_time minwidth 220 style style.text["time"] size 22 ypos 6
-                                if i.unread:
-                                    text ("{b}Непрочитано{/b} " + i.message) 
-                                else:
-                                    text i.message 
-                                if i.link:
-                                    hbox:
-                                        text "Прикреплено: "
-                                        button action renpy.curry(refresh_unread)("picture", conversation, conversation=conversation, user=user, profile_menu=profile_menu, link=i.link) background None ymargin 0 xmargin 0 ypadding 0 xpadding 0 ypos -1:
-                                            text i.link["url"] bold True hover_color "#7c0055" hover_drop_shadow_color ((0,0,0,0))
-                            
-        text "Сообщения" style style.text["computer-title"]
-        button action renpy.curry(refresh_unread)("computer_overlay", conversation) style style.button["home"]:
-            null width 86 height 38
-            
-    python:
-        def func(a):
-            store.password = a
-            
-        def submit(user, conversation, profile_menu, link):
-            if store.password == "Morgan":
-                return ShowTransient("picture", user=user, conversation=conversation, profile_menu=profile_menu, link=link, showing=True)()
-    
-    python:
-        def refresh_unread_replies(new_screen, posts, all, **kwargs):
-            for post in posts:
-                post._unread = False
-                
-                if all:
-                    for i in post.replies:
-                        i.unread = False
-                elif post.replies:
-                    post.replies[-1].unread = False
-                
-            if new_screen == "return":
-                return Return()()
-            return ShowTransient(new_screen, **kwargs)()
-            
-    screen picture:
-        default showing = None
-        tag computer
-        
-        use computer
-        
-        if not showing:
-            window style style.window["computer"]:
-                has vbox spacing 20
-                null height 180
-                text ("Добро пожаловать на NOUsendit, самый защищенный сервис размещения файлов! Для загрузки " + link["filename"] + " (" + link["size"] + "), просто введите пароль и нажмите Submit.") size 22 xmaximum 550 xpos 50
-                hbox xalign 0.5 xoffset 35:
-                    window background Frame("button-hover.png", 15, 15) right_margin 30 xpadding 14 ymargin 0 ypadding 14 xmaximum 250 yminimum 20:
-                        input color "#000" size 22 changed func default store.password
-                    button action renpy.curry(submit)(user, conversation, profile_menu, link) ypadding 15 xpadding 30:
-                        text "Submit" yalign 0.5 bold True hover_color "#666"
-        else:
-            window style style.window["computer"]:
-                has vbox
-                hbox spacing 15:
-                    add link["image"] yoffset 20
-                    window style style.button["app"] top_padding 15 bottom_padding 20 yminimum 0 yoffset 10:
-                        has vbox
-                        hbox:
-                            text "Имя файла:" minwidth 100 bold True
-                            text link["filename"]
-                        hbox:
-                            text "Размер:" minwidth 100 bold True
-                            text link["size"]
-                        hbox:
-                            text "Разрешение:" minwidth 100 bold True
-                            text "3330 x 5000"
-                        hbox:
-                            text "Личное:" minwidth 100 bold True
-                            text "Да"
-                text "© 2020-2027 NOUsendit. Мы не отвечаем за размещенное пользователями содержимое. Все права защищены." text_align 0.5 minwidth 630 yoffset 30 bold True
-            
-        text "NOUsendit" style style.text["computer-title"]
-        button action ShowTransient("message", user=user, conversation=conversation, profile_menu=profile_menu) style style.button["home"]:
-            null width 86 height 38
-            
-            
-    screen profile:
-        tag computer
-        
-        use computer(hide_action=renpy.curry(refresh_unread_replies)("return", user.wall, False))
-            
-        window style style.window["computer"]:
-            has vbox
-            hbox spacing 10:
-                vbox:
-                    button action renpy.curry(refresh_unread_replies)("computer_inbox", user.wall, False, user=user) ypadding 15:
-                        has hbox spacing 10
-                        add "inbox.png"
-                        text "Входящие" size 24 yalign 0.5 bold True hover_color "#666"
-                    if user.profile:
-                        add im.Scale(user.profile, 180, 180) yalign 1.0
-                    else:
-                        window background Solid((255,255,255,255)) xmaximum 180 ymaximum 180 xpadding 0 ypadding 0 yalign 1.0:
-                            null height 180 width 180
-                vbox:
-                    text user.name size 30 bold True
-                    text user.about 
-                    text ("{b}Дата рождения:{/b} " + user.birthday)  minwidth 280
-                    text ("{b}Город:{/b} " + user.hometown) 
-                    text ("{b}Пол:{/b} " + user.gender) 
-                    text ("{b}Нравятся:{/b} " + user.interested_in) 
-                    text ("{b}Религиозные взгляды:{/b} " + user.religious_views) 
-                    text ("{b}Политические взгляды:{/b} " + user.political_views) 
-                    text ("{b}Отношения:{/b} " + user.relationship_status) 
-                    text "{b}Школа:{/b} Lake City Academy, Grade 11" 
-                    text ("{b}Телефон:{/b} " + user.phone) 
-            text "{u}Последние записи                                             {/u}" size 30
-            
-            viewport child_size (620, 0) draggable True mousewheel True xmaximum 640 ymaximum 270:
-                has vbox spacing 5
-                for post in user.wall:
-                    hbox:
-                        if post.picture:
-                            if post.poster.profile:
-                                add im.Scale(post.poster.profile, 100, 100)
-                                null width 20
-                            else:
-                                null width 120 height 120
-                        vbox:
-                            text ("{size=28}{b}" + post.poster.name + " {/b}{/size}" + post.message) 
-                            text post.post_time style style.text["time"]
-                            
-                            if post.replies:
-                                if len(post.replies) > 1:
-                                    button background None action renpy.curry(refresh_unread_replies)("wall_post", user.wall, False, post=post, user=user) xpadding 0 xmargin 0:
-                                        text ("Показать " + str(len(post.replies)-1) + " скрытых ответов")  bold True hover_color "#7c0055" hover_drop_shadow_color ((0,0,0,0))
-                                hbox:
-                                    if post.replies[-1].sender.profile:
-                                        add im.Scale(post.replies[-1].sender.profile, 50, 50) ypos 8
-                                        null width 10
-                                    else:
-                                        null width 60 height 60
-                                    vbox:
-                                        text ("{size=24}{b}" + post.replies[-1].sender.name + " {/b}{/size}" + post.replies[-1].message) 
-                                        text post.replies[-1].post_time style style.text["time"]
-            
-        text "ЭмиКоннект" style style.text["computer-title"]
-        button action renpy.curry(refresh_unread_replies)("computer_overlay", user.wall, False) style style.button["home"]:
-            null width 86 height 38
-            
-    screen wall_post:
-        tag computer
-        default profile_menu = True
-        
-        use computer(hide_action=renpy.curry(refresh_unread_replies)("return", [ post ], True))
-                    
-        window style style.window["computer"]:
-            has vbox
-            hbox spacing 10:
-                if profile_menu:
-                    button action renpy.curry(refresh_unread_replies)("computer_inbox", [ post ], True, user=user) ypadding 15:
-                        has hbox spacing 10
-                        add "inbox.png"
-                        text "Входящие" size 24 yalign 0.5 bold True hover_color "#666"
-                else:
-                    button action renpy.curry(refresh_unread_replies)("all_inbox", [ post ], True) ypadding 15:
-                        has hbox spacing 10
-                        add "inbox.png"
-                        text "Непрочитанные" size 24 yalign 0.5 bold True hover_color "#666"
-                        
-                button action renpy.curry(refresh_unread_replies)("profile", [ post ], True, user=user) bottom_padding 14 top_padding 10:
-                    has hbox spacing 10
-                    add "profile.png"
-                    text "Профиль" size 24 yalign 0.5 bold True hover_color "#666"
-                    
-            text ("Запись на стене {b}" + user.name.split(" ")[0] + "{/b}") size 24 drop_shadow None text_align 0.5 minwidth 650
-                    
-            null height 10
-            viewport child_size (620, 500) draggable True mousewheel True xmaximum 640:    
-                has hbox
-                if post.picture:
-                    if post.poster.profile:
-                        add im.Scale(post.poster.profile, 100, 100) ypos 8
-                        null width 20
-                    else:
-                        null width 120 height 120
-                vbox:
-                    text ("{size=28}{b}" + post.poster.name + " {/b}{/size}" + post.message) 
-                    hbox spacing 10:
-                        text post.post_time style style.text["time"]
-                        if post._unread:
-                            text "Непрочитано" bold True 
-                    
-                    for reply in post.replies:
-                        hbox:
-                            if reply.poster.profile:
-                                add im.Scale(reply.poster.profile, 50, 50) ypos 8
-                                null width 10
-                            else:
-                                null width 60 height 60
-                            vbox:
-                                text ("{size=24}{b}" + reply.sender.name + " {/b}{/size}" + reply.message) 
-                                hbox spacing 10:
-                                    text reply.post_time style style.text["time"]
-                                    if reply.unread:
-                                        text "Непрочитано" bold True 
-                                        
-            null height 20
-        
-        text "ЭмиКоннект" style style.text["computer-title"]
-        button action renpy.curry(refresh_unread_replies)("computer_overlay", [ post ], True) style style.button["home"]:
-            null width 86 height 38
-            
-    screen image_post:
-        default op = False
-        default _image = ""
-        default number = "24718298"
-        if op:
-            $ background = None
-        else:
-            $ background = Frame(im.MatrixColor("button-hover.png", im.matrix.tint(0.7, 1.0, 0.7)), 15, 15)
-        
-        hbox:
-            if op and _image:
-                vbox:
-                    add _image
-            window background background left_padding 20 right_padding 40 bottom_padding 20 yminimum 0:
-                has vbox
-                text ("{font=fonts/MetaBoldLFC.otf}Анонимус{/font} " + date.split(",")[1] + "/2027   No. " + number) size 22
-                if _image:
-                    text image_name
-                null height 10
-                hbox spacing 10:
-                    if _image and not op:
-                        add _image
-                    elif not op:
-                        null
-                    text text 
-            
-    screen twelvechannel:
-        default page = 0
-        
-        tag computer
-        
-        use computer
-            
-        window style style.window["computer"]:
-            has vbox
-            if store.posts_chan:
-                viewport child_size (0, 531) xmaximum 640 ymaximum 531 yalign 0.5:
-                    has vbox
-                    for i in store.posts_chan[page:page+4]:
-                        use image_post(**i)
+        def wait(waiting_on):
+            if len(unread_total()) + unread_posts() > 0:
+                messages = [ "Но прежде чем я продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает " + str(len(unread_total()) + unread_posts()) + ".", "Правда, надо бы их просмотреть.", "Надо завести привычку просматривать их постоянно, мало ли чего." ]
             else:
-                null height 280
-                text ("Больше проходящих сквозь дебильный фильтр тредов нет. Попробуйте позже.") size 24 text_align 0.5 minwidth 650 layout "subtitle"
-        
-        if store.posts_chan:
-            if page > 0:
-                button action ShowTransient("twelvechannel", page=page-1) top_padding 10 bottom_padding 13 ypos 0.92 xpos (1024-550):
-                    text "Предыдущий пост" size 20 minwidth 200 text_align 0.5 drop_shadow (1,1) style style.button_text
-            if page+4 < len(store.posts_chan):
-                button action ShowTransient("twelvechannel", page=page+1) top_padding 10 bottom_padding 13 ypos 0.92 xpos (1024-300):
-                    text "Следующий пост" size 20 minwidth 200 text_align 0.5 drop_shadow (1,1) style style.button_text
+                messages = [ "Но прежде чем я продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает что есть письма для меня.", "Правда, надо бы их просмотреть.", "Надо завести привычку читать свои письма тоже." ]
+            messages.reverse()
+            
+            if waiting_on.unread():
+                while waiting_on.unread():
+                    renpy.choice_for_skipping()
+                    narrator(messages[-1])
+                    messages.insert(0, messages.pop(-1))
+                narrator("There we go. I should be caught up enough now.")
+                
+        def wait_chan():
+            messages = [ "But before I go, I should take a break to see if there are any new 12channel posts.", "Really, I should at least take a quick glance.", "I'm not going immediately to my office, I should take a couple minutes to check." ]
+            messages.reverse()
+            
+            while not store.seen_posts_chan:
+                renpy.choice_for_skipping()
+                narrator(messages[-1])
+                messages.insert(0, messages.pop(-1))
+                
+        def transition(new_scene, title, black=False, end=False):
+            store.posts_chan = [ ]
+            renpy.music.stop()
+            renpy.music.stop(channel="sound")
+            renpy.music.play(TRANSITION, loop=False, channel="sound")
+            store.show_ui = False
+            store._window = False
+            renpy.shown_window()
+            config.scene()
+            if black or end:
+                renpy.show("bg black")
             else:
-                $ store.seen_posts_chan = True
-            
-        text "12чаннел" style style.text["computer-title"]
-        button action ShowTransient("computer_overlay") style style.button["home"]:
-            null width 86 height 38
-            
-    screen quit:
-        if not globals().has_key("show_ui"):
-            $ Quit(False)()
-            
-        $ return_to = ShowTransient("computer_overlay")
-        if not store.show_ui:
-            $ return_to = Return()
-        
-        tag computer
-        
-        use computer
-        
-        window style style.window["computer"]:
-            has vbox
-            null height 150
-            text "Уверены, что хотите выйти?" size 36 text_align 0.5 minwidth 650
-            null height 10
-            hbox xalign 0.5 xoffset -10:
-                button action return_to bottom_padding 15 style style.button["app"]:
-                    has vbox yalign 1.0 xalign 0.5 
-                    add im.Alpha("back-app.png", 0.7) xalign 0.5
-                    text "Отмена" style style.button_text["app"]
-                button action MainMenu(False) style style.button["app"]:
-                    has vbox yalign 1.0 xalign 0.5 
-                    add im.Alpha("mainmenu-app.png", 0.7) xalign 0.5
-                    text "Главное меню" style style.button_text["app"]
-                button action Quit(False) style style.button["app"]:
-                    has vbox yalign 1.0 xalign 0.5 
-                    add im.Alpha("power-app.png", 0.7) xalign 0.5
-                    text "Выход" style style.button_text["app"]
-                
-            
-        text "Система" style style.text["computer-title"]
-        if store.show_ui:
-            button action return_to style style.button["home"]:
-                null width 86 height 38
-    
-    screen save_button:
-        default can_save = True
-        
-        if can_save:
-            $ save_action = ShowTransient("yesno_prompt", yes_action=FileSave(file, confirm=False), message="Вы уверены, что хотите перезаписать соханение?")
-        else:
-            $ save_action = None
-        
-        button action save_action top_padding 12 bottom_padding 18 left_margin 20 left_padding 18 yminimum 135 xminimum 500 style style.button["save-" + str(can_save)]:
-            has hbox spacing 15
-            
-            if str(file).startswith("auto-"):
-                $ auto_number = file.split("auto-")[1]
-                add FileScreenshot(auto_number, page="auto") yalign 0.5
-                vbox:
-                    text "Автосохранение" size 30 bold True minwidth 220 drop_shadow None hover_color "#666"
-                    text FileTime(auto_number, page="auto") style style.text["time"]
-                    text FileSaveName(auto_number, page="auto")  hover_color "#666" xmaximum 440 xminimum 440
+                renpy.show("bg white")
+            renpy.with_statement(ComposeTransition(pixellate, dissolve))
+            renpy.shown_window()
+            if end:
+                bottom_right(title)
+            elif not black:
+                centered("{font=fonts/MetaBoldLFC.otf}{size=72}" + title + "{/size}{/font}{fast}") 
             else:
-                add FileScreenshot(file) yalign 0.5
-                vbox:
-                    text ("Сохранение #" + str(file)) size 30 bold True minwidth 220 drop_shadow None hover_color "#666"
-                    text FileTime(file) style style.text["time"]
-                    text FileSaveName(file)  hover_color "#666" xmaximum 440 xminimum 440
+                centered("{font=fonts/MetaBoldLFC.otf}{size=72}{color=#fff}" + title + "{/color}{/size}{/font}{fast}")
+            renpy.with_statement(dissolve)
+            config.scene()
+            config.show(new_scene)
+            store._window = True
+            renpy.with_statement(dissolve)
+            if not black and not end:
+                store.show_ui = True
+            
+        def title(chapter, title, date, new_scene, character, title2=""):
+            renpy.music.stop("sound")
+            store._window = False
+            config.scene()
+            config.show("bg black")
+            renpy.with_statement(dissolve)
+            renpy.show_screen("chapter", chapter=str(chapter), title=title, title2=title2, date=date, character=character)
+            #renpy.choice_for_skipping()
+            renpy.pause(1.5)
+            if _preferences.get_volume("sfx") > 0:
+                renpy.music.play("music/jingle_014.mp3", loop=False, channel="sound")
+                #renpy.choice_for_skipping()
+                renpy.pause(4.0)
+            config.show(new_scene)
+            store._window = True
+            store.show_ui = True
+            renpy.with_statement(dissolve)
+            renpy.hide_screen("chapter")
+            
+        def advance(amount):
+            store.game_time = store.game_time[0],store.game_time[1]+amount
+            while store.game_time[1] >= 60:
+                store.game_time = store.game_time[0]+1,store.game_time[1]-60
     
+        COOL_MORNING = "music/hiphop_001.mp3"
+        SERIOUS_MORNING = "music/hiphop_007.mp3"
+        EASY_GOING = "music/hiphop_004.mp3"
+        DAY_TO_DAY = "music/hiphop_015.mp3"
+        KEEPING_IT_REAL = "music/hiphop_019.mp3"
+        RARIBOU = "music/raribou.mp3"
+        NEW_MESSAGE = "music/62.mp3"
+        TRANSITION = "music/se_006.mp3"
+        MIDNIGHT = "music/ambient_001.mp3"
+        RAINY_DAY = "music/kokoroyami.mp3"
+        REFLECTION = "music/eok.mp3"
+        CONTEMPLATION = "music/june6_018.mp3"
+        QUIET_DAY = "music/june6_006.mp3"
+        UNSETTLING = "music/june6_016.mp3"
+        BELL = "music/school_bell.wav"
+        SACCHARINE = "music/makkakka.mp3"
+        COOL_AND_HEAVY = "music/sora_009.mp3"
+        LIGHTNING_KICK = "music/haruurara.mp3"
+        ICHIGO_STRIKES_BACK = "music/koibana.mp3"
+        FEELINGS = "music/feelings.mp3"
+                        
+    image bg office day = "bg/office-day.jpg"
+    image bg office evening = "bg/office-evening.jpg"
+    image bg office rain = "bg/office-rain.jpg"
+    image bg classroom day = "bg/classroom-day.jpg"
+    image bg classroom evening = "bg/classroom-evening.jpg"
+    image bg classroom rain = "bg/classroom-rain.jpg"
+    image bg classroom dark = "bg/classroom-dark.jpg"
+    image bg classroom2 day = "bg/classroom2-day.jpg"
+    image bg hallway day = "bg/hallway-day.jpg"
+    image bg hallway evening = "bg/hallway-evening.jpg"
+    image bg hallway rain = "bg/hallway-rain.jpg"
+    image bg street day = "bg/street-day.jpg"
+    image bg street rain = "bg/street-rain.jpg"
+    image bg street evening = "bg/street-evening.jpg"
+    image bg littlejapan day = "bg/littlejapan-day.jpg"
+    image bg littlejapan evening = "bg/littlejapan-evening.jpg"
+    image bg bedroom day = "bg/bedroom-day.jpg"
+    image bg bedroom evening = "bg/bedroom-evening.jpg"
+    image bg outside day = "bg/outside-day.jpg"
+    image bg rooftop day = "bg/rooftop-day.jpg"
+    
+    image bg kiss = "bg/kiss.jpg"
+    image bg akiranolan = "bg/akira-nolan.jpg"
+    image bg sake = "bg/sake.jpg"
+    image bg ariannabed = "bg/ariannabed.jpg"
+    image bg montage = "montage.jpg"
+    
+    image bg office day blur = "blur/office-day.jpg"
+    image bg office evening blur = "blur/office-evening.jpg"
+    image bg office rain blur = "blur/office-rain.jpg"
+    image bg classroom day blur = "blur/classroom-day.jpg"
+    image bg classroom evening blur = "blur/classroom-evening.jpg"
+    image bg classroom rain blur = "blur/classroom-rain.jpg"
+    image bg classroom dark blur = "blur/classroom-dark.jpg"
+    image bg classroom2 day blur = "blur/classroom2-day.jpg"
+    image bg hallway day blur = "blur/hallway-day.jpg"
+    image bg hallway evening blur = "blur/hallway-evening.jpg"
+    image bg hallway rain blur = "blur/hallway-rain.jpg"
+    image bg street day blur = "blur/street-day.jpg"
+    image bg street rain blur = "blur/street-rain.jpg"
+    image bg street evening blur = "blur/street-evening.jpg"
+    image bg littlejapan day blur = "blur/littlejapan-day.jpg"
+    image bg littlejapan evening blur = "blur/littlejapan-evening.jpg"
+    image bg bedroom day blur = "blur/bedroom-day.jpg"
+    image bg bedroom evening blur = "blur/bedroom-evening.jpg"
+    image bg outside day blur = "blur/outside-day.jpg"
+    image bg rooftop day blur = "blur/rooftop-day.jpg"
+    
+    image bg kiss blur = "blur/kiss.jpg"
+    image bg akiranolan blur = "blur/akira-nolan.jpg"
+    image bg sake blur = "blur/sake.jpg"
+    image bg ariannabed blur = "blur/ariannabed.jpg"
+    image bg montage blur = "blur/montage.jpg"
+    
+    image bg black = Solid((0,0,0,255))
+    image bg white = Solid((255,255,255,255))
+    image bg black blur = Solid((0,0,0,255))
+    image bg white blur = Solid((255,255,255,255))
+    
+    image montage = im.Alpha("montage.jpg", 0.3)
+    image john special = im.Composite(None, (0,0), "sprites/John/John_0020_suit.png", (0,0), "sprites/John/John_0007_uncomfortable.png", (0,0), "sprites/John/John_0001_glasses.png", (0,0), "sprites/John/John_0000_hair.png")
+    
+    $ k = Character("Кендалл", show_side_image=register_character_images("kendall", "0000_hair", [ "0001_uniform", "0002_casual1", "0003_casual2" ], [ "0004_smug", "0005_bored", "0006_awkward-smile", "0007_embarassed", "0008_forceful", "0009_wince", "0010_closed", "0011_sad", "0012_blush", "0013_surprised", "0014_uncomfortable", "0015_very-happy", "0016_worried", "0017_cross", "0018_happy", "0019_normal" ], 240))
+    $ c = Character("Шарлотта", show_side_image=register_character_images("charlotte", "0000_hair", [ "0002_uniform", "0003_uniform2", "0004_casual" ], [ "0005_awkward-smile", "0006_smug", "0007_disappointed", "0008_upset", "0009_forceful", "0010_wince", "0011_closed", "0012_sad", "0013_embarassed", "0014_surprised", "0015_uncomfortable", "0016_very-happy", "0017_worried", "0018_cross", "0019_happy", "0020_normal" ], 267, "0001_glasses"))
+    $ j = Character("Джон", show_side_image=register_character_images("john", "0000_hair", [ "0019_casual", "0020_suit" ], [ "0002_surprised", "0003_annoyed", "0004_smug", "0005_blushing", "0006_embarassed", "0007_uncomfortable", "0008_closed-amused", "0009_closed-cross", "0010_closed", "0011_sympathetic", "0012_awkward-smile", "0013_sulky", "0014_upset", "0015_cross", "0016_very-happy", "0017_happy", "0018_normal" ], 321, "0001_glasses", True, 30, True))
+    $ ar = Character("Арианна", show_side_image=register_character_images("arianna", "0000_hair", [ "0001_uniform", "0002_casual1", "0003_casual2" ], [ "0004_smug", "0005_disappointed", "0006_awkward-smile", "0007_upset", "0008_forceful", "0009_wince", "0010_closed", "0011_sad", "0012_embarassed", "0013_surprised", "0014_uncomfortable", "0015_very-happy", "0016_worried", "0017_cross", "0018_happy", "0019_normal" ], 240))
+    $ t = Character("Тэйлор", show_side_image=register_character_images("taylor", "0001_bun", [ "0002_uniform", "0003_casual" ], [ "0004_smug", "0005_disappointed", "0006_awkward-smile", "0007_upset", "0008_forceful", "0009_wince", "0010_closed", "0011_sad", "0012_embarassed", "0013_surprised", "0014_uncomfortable", "0015_very-happy", "0016_worried", "0017_cross", "0018_happy", "0019_normal" ], 200))
+    $ i = Character("Изабелла", show_side_image=register_character_images("isabella", "0000_hair", [ "0001_uniform", "0002_casual" ], [ "0003_smug", "0004_non-plussed", "0005_exacerbated", "0006_upset", "0007_forceful", "0008_wince", "0009_closed", "0010_sad", "0011_embarassed", "0012_surprised", "0013_uncomfortable", "0014_very-happy", "0015_worried", "0017_happy", "0018_normal" ], 254))
+    $ n = Character("Нолан", show_side_image=register_character_images("nolan", "0000_hair", [ "0021_casual1", "0022_casual2", "0023_uniform" ], [ "0002_smug", "0003_disappointed", "0004_upset", "0005_surprised", "0006_sulky", "0007_sad", "0008_closed", "0009_bored", "0010_angry", "0011_cross", "0012_bothered", "0013_speechless", "0014_awkward-smile", "0015_embarassed", "0016_super-happy", "0017_very-happy", "0018_amused", "0019_happy", "0020_normal" ], 329, reverse=True, mirror=True, xoffset=-40))
+    $ ak = Character("Акира", show_side_image=register_character_images("akira", "0001_hair", [ "0027_casual1", "0028_casual2", "0029_uniform", "0030_uniform2" ], [ "0002_smug", "0003_bored", "0004_upset", "0005_awkward-smile", "0006_very-upset", "0007_sad", "0008_uncomfortable", "0009_sulky", "0010_angry", "0011_cross", "0012_indignant", "0013_bothered", "0014_speechless", "0015_closed", "0016_closed-happy", "0017_very-happy", "0018_super-happy", "0019_affectionate", "0020_forceful", "0021_embarassed", "0022_blushing", "0023_normal", "0024_happy", "0025_amused" ], 260, reverse=True))
+    
+    $ anon_a = Character("Анонимус", show_side_image=register_character_images("akira", "0001_hair", [ "0030_uniform2" ], [ "0023_normal" ], 260, reverse=True, silhouette=True))
+    $ anon_k = Character("Анонимус", show_side_image=register_character_images("kendall", "0000_hair", [ "0001_uniform" ], [ "0019_normal" ], 240, silhouette=True))
+    
+    $ ich = Character("Мисс Ямадзаки", show_side_image=register_character_images("ichigo", "0002_hair", [ "0000_suit", "0001_casual" ], [ "0003_sad", "0004_blush", "0005_upset", "0006_embarassed", "0007_very-happy", "0008_worried", "0009_cross", "0010_happy", "0011_normal" ], 237, hair_under=True, yoffset=42))
+    $ y = Character("???", show_side_image=register_character_images("yukata", "0000_hair", [ "0001_yukata" ], [ "0002_sad", "0003_blushing", "0004_surprised", "0005_uncomfortable", "0006_happy", "0007_embarassed", "0008_cross", "0009_very-happy", "0010_normal" ], 287, yoffset=40))
+    
+    $ credit = Character("", what_size=44, what_suffix="{fast}{w=5}{nw}", window_yalign=1.0, window_xalign=0, window_left_padding=30, window_background=None, what_color="#000", what_drop_shadow_color=((0,0,0,64)))
+    
+    transform center:
+        xanchor 0.5 xpos 0.5 yalign 1.0
+        
+    transform two_left:
+        xanchor 1.0 xpos 0.5 yalign 1.0
+        
+    transform two_right:
+        xanchor 0 xpos 0.5 yalign 1.0
+        
+    transform three_left:
+        xanchor 1.0 xpos 0.35 yalign 1.0
+        
+    transform three_right:
+        xanchor 0 xpos 0.65 yalign 1.0
+        
+    transform four_left:
+        xanchor 0 xpos 0 yalign 1.0
+        
+    transform four_right:
+        xanchor 1.0 xpos 1.0 yalign 1.0
+        
+    transform five_right:
+        xanchor 0.5 xpos 0.7 yalign 1.0
+        
+    transform five_left:
+        xanchor 0 xpos -50 yalign 1.0
+        
+    transform title_pos:
+        xanchor 1.0 xpos 0.3 yalign 1.0
+        
+    transform shift_center:
+        linear 0.5 xalign 0.5 yalign 1.0
+        
+    transform shift_two_left:
+        linear 0.5 xanchor 1.0 xpos 0.5 yalign 1.0
+        
+    transform shift_two_right:
+        linear 0.5 xanchor 0.5 xpos 0.65 yalign 1.0
+        
+    transform shift_three_left:
+        linear 0.5 xanchor 1.0 xpos 0.35 yalign 1.0
+        
+    transform shift_three_right:
+        linear 0.5 xanchor 0 xpos 0.65 yalign 1.0
+        
+    transform shift_four_left:
+        linear 0.5 xanchor 0 xpos 0 yalign 1.0
+        
+    transform shift_four_right:
+        linear 0.5 xanchor 1.0 xpos 1.0 yalign 1.0
+        
+    transform shift_five_right:
+        linear 0.5 xanchor 0.5 xpos 0.7 yalign 1.0
+        
+    transform just_crop:
+        crop ((1024-657), 0, 657, 640) xalign 1.0
+        
+    transform dont_show:
+        alpha 0
+        
+    transform fadein:
+        alpha 0
+        linear 1.0 alpha 1.0
+        
+    transform portrait_pos:
+        xanchor 1.0 xpos 220
+        yanchor 372 ypos 1.0
+        
+    image kendall_credits:
+        "credits/kendall.jpg"
+        xanchor 0 xpos 1024 yanchor 0 ypos 222
+        easein 3.0 xpos 391
+        
+    image akira_credits:
+        "credits/akira.jpg"
+        xanchor 0 xpos 805 yanchor 0 ypos -200
+        easein 3.0 ypos 426
+        
+    image nolan_credits:
+        "credits/nolan.jpg"
+        xanchor 0 xpos 599 yanchor 0 ypos 640
+        easein 3.0 ypos 426
+        
+    image charlotte_credits:
+        "credits/charlotte.jpg"
+        xanchor 0 xpos 1024 yanchor 0 ypos 222
+        easein 3.0 xpos 599
+        
+    image taylor_credits:
+        "credits/taylor.jpg"
+        xanchor 0 xpos -200 yanchor 0 ypos 426
+        easein 3.0 xpos 391
+        
+    image isabella_credits:
+        "credits/isabella.jpg"
+        xanchor 0 xpos 805 yanchor 0 ypos -200
+        easein 3.0 ypos 222
+        
+    image arianna_credits:
+        "credits/arianna.jpg"
+        xanchor 0 xpos 1024 yanchor 0 ypos 18
+        easein 3.0 xpos 391
+
+label main_menu:
+    scene bg montage
+    call screen main_menu
+
+label waiting:
     python:
-        def sort_time(a, b):
-            a, b = str(a), str(b)
-            if not a.startswith("auto-"): a = "1-" + a
-            if not b.startswith("auto-"): b = "1-" + b
-            
-            return int(renpy.scan_saved_game(a)[2]-renpy.scan_saved_game(b)[2])
-                
-    screen saveload:
-        default can_save = True
-        tag computer
-        
-        if can_save:
-            use computer
+        if len(unread_total()) + unread_posts() > 0:
+            messages = [ "Но прежде чем я продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает " + str(len(unread_total()) + unread_posts()) + ".", "Правда, надо бы их просмотреть.", "Надо завести привычку просматривать их постоянно, мало ли чего." ]
         else:
-            use computer(hide_action=Hide("saveload"))
-            
-        python:
-            new_file = 0
-            avail_saves = renpy.list_saved_games(regexp=r'[0-9]\b')
-            auto_saves = renpy.list_saved_games(regexp=r'auto-[0-3]\b')
-            
-            all_saves = range(len(avail_saves), 0, -1)
-            for i in auto_saves:
-                all_saves.append(i[0])
-            all_saves.sort(sort_time, reverse=True)
+            messages = [ "Но прежде чем я продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает что есть письма для меня.", "Правда, надо бы их просмотреть.", "Надо завести привычку читать свои письма тоже." ]
+        messages.reverse()
+ 
+        if waiting_on.unread():
+            while waiting_on.unread():
+                renpy.choice_for_skipping()
+                narrator(messages[-1])
+                messages.insert(0, messages.pop(-1))
+        narrator("There we go. I should be caught up enough now.")
         
-        window style style.window["computer"]:
-            has vbox
-            #text "Please select a save file."  size 24 drop_shadow None text_align 0.5 minwidth 650
-            viewport child_size (620, 0) draggable True mousewheel True xmaximum 640:
-                has vbox
-                if can_save:
-                    button xminimum 620 left_margin 20 style style.button["save-True"] yminimum 105 action FileSave(len(avail_saves)+1):
-                        text "Новое сохранение" xalign 0.5 yalign 0.5 size 36
-                for i in all_saves:
-                    hbox:
-                        if str(i).startswith("auto-"):
-                            use save_button(file=i, can_save=None)
-                            $ load_name = str(i)
-                        else:
-                            use save_button(file=i, can_save=can_save)
-                            $ load_name = "1-" + str(i)
-                        button xminimum 120 yminimum 135 action renpy.curry(renpy.load)(load_name) style style.button["save-True"]:
-                            text "Загр" xalign 0.5 yalign 0.5 size 36
-                   
-        text "Сохранение/Загрузка" style style.text["computer-title"]
-        if globals().has_key("show_ui"): 
-            button action ShowTransient("computer_overlay") style style.button["home"]:
-                null width 86 height 38
-            
-    screen main_menu:
-        tag menu
-        
-        imagemap xalign 0 yalign 1.0:
-            ground "mainmenu.png" hover "mainmenu-hover.png"
-            
-            hotspot (0, 111, 393, 38) action Start()
-            hotspot (0, 150, 393, 38) action ShowTransient("saveload", can_save=None)
-            hotspot (0, 192, 393, 38) action ShowTransient("preferences", home_button=False)
-            hotspot (0, 233, 393, 38) action Quit(False)
-            
+    return
+
+# The game starts here.
+label start:
     python:
-        def confirm(action):
-            action()
-            ShowTransient("saveload")()
-            
-    screen yesno_prompt:
-        tag computer
+        admin = User("Администратор")
+        john = User("Джон Рук")
+        nanasi = User("нанаси")
         
-        use computer
+        arianna = User("Арианна Бель-Эссе", "Просто девушка.", "23 декабря 2010", "Лэйк Сити, Онтарио", "Женский", "Мужчины", "Атеист", "Либеральные", "Свободна", "1 186.698.3389", "profiles/arianna.jpg")
+        kendall = User("Кендал Флауерс", "Let's live our lives heroically, let's live them with style!", "26 июня 2010", "Лэйк Сити, Онтарио", "Женский", "Девушки", "Be excellent to each other", "Лолитика", "ОЧЕНЬ свободна", "1 186.226.5519", "profiles/kendall.jpg")
+        taylor = User("Тэйлор Гибсон", "Я веселая и милая. Узнайте меня вначале!", "30 апреля 2010", "Лэйк Сити, Онтарио", "Женский", "Парни", "Атеизм", "Кого волнует?", "Свободна", "1 186.229.7183", "profiles/taylor.jpg")
+        charlotte = User("Шарлотта Грюваль", "There's more to people than pithy profile quotes.", "June 20, 2010", "Лэйк Сити, Онтарио", "Женский", "Люди", "Буддизм", "Либеральные", "Свободна", "1 186.649.0183", "profiles/charlotte.jpg")
+        isabella = User("Изабелла Харт", "The trick is to keep breathing.", "December 30, 2010", "Аякс, Онтарио", "Женский", "...", "Агностик", "I dream of a just society.", "Нет.", "Don't phone me, I never use it.", "profiles/isabella.jpg")
+        nolan = User("Нолан Штруйкас", "Что здесь сказать?", "1 марта 2010", "Лэйк Сити, Онтарио", "Мужской", "Девушки", "Христианство", "Fuck politics, just be righteous", "Свободен", "1 186.129.3819", "profiles/nolan.jpg")
+        akira = User("Акира Ямазаки", "HOLD ME TIGHT~ tight enough to break me! So that even in a blizzard, I won't feel cold~", "18 сентября 2012", "Саппоро, Япония", "Мужской", "Девушки", "Church of Megami Melody-sama", "BURNING JUSTICE PREVAILS!", "Не интересуюсь.", "1 186.295.0283", "profiles/akira.jpg")
         
-        window style style.window["computer"]:
-            has vbox
-            null height 150
-            text _(message) size 36 text_align 0.5 minwidth 650
-            null height 10
-            hbox xalign 0.5 xoffset -10:
-                button action renpy.curry(confirm)(yes_action) bottom_padding 15 style style.button["app"]:
-                    text "Да" style style.button_text["app"] size 36 yalign 0.6 xalign 0.5
-                button action ShowTransient("saveload") style style.button["app"]:
-                    text "Нет" style style.button_text["app"] size 36 yalign 0.6 xalign 0.5
-                    
-        text "Система" style style.text["computer-title"]
+        ichigo = User("Ичиго Ямазаки", "", "", "", "", "", "", "", "", "", "profiles/ichigo.jpg")
+        taylor2 = User("Тэйлор Гибсон", "Я веселая и милая. Узнайте меня вначале!", "30 апреля 2010", "Лэйк Сити, Онтарио", "Женский", "Парни", "Атеизм", "Кого волнует?", "Свободна", "1 186.229.7183", "profiles/taylor.jpg")
         
-    screen chapter:
-        zorder 100
+        character_list = [ arianna, kendall, taylor, charlotte, isabella, nolan, akira ]
+        show_ui = False
+        game_time = 11,32
+        date = "Среда, 20 ноября 2027"
+        posts_chan = [ ]
+        seen_posts_chan = False
         
-        timer 4.0 action Hide("chapter", transition=dissolve)
+        password = ""
+        bottom_right = centered.copy(window_xalign=0.9, window_yalign=0.9, what_text_align=1.0, what_color="#fff", what_size=64)
         
-        button background None action nop:
-            null width 1024 height 640
-        
-        add Solid((255,255,255,255)) at fadein
-        add im.Alpha("montage.jpg", 0.3) at fadein
-        add ImageReference(character) at [ title_pos, fadein ]
-        
-        vbox xpos 400 yalign 0.5:
-            text ("Глава " + chapter) font "fonts/MetaNormalLFC.otf" size 32 drop_shadow None at fadein
-            text title font "fonts/MetaNormalLFC.otf" size 42 drop_shadow None at fadein
-            if title2:
-                text title2 font "fonts/MetaNormalLFC.otf" size 42 xalign 1.0 drop_shadow None at fadein
-            text date font "fonts/MetaNormalLFC.otf" size 28 drop_shadow None at fadein
-            
-    screen preferences:
-        default home_button = True
-        tag computer
-        
-        if home_button:
-            use computer
-        else:
-            use computer(hide_action=Hide("preferences"))
-        
-        window style style.window["computer"]:
-            has hbox spacing 20
-            
-            vbox:
-                window style style.window["pref_window"] size_group "prefs" xalign 0.5:
-                    has vbox
-                    text "Громкость музыки" size 28
-                    bar value Preference("music volume")
-                    
-                window style style.window["pref_window"] size_group "prefs" xalign 0.5:
-                    has vbox
-                    text "Громкость эффектов" size 28
-                    bar value Preference("sound volume")
-                        
-                button action Preference("skip", "toggle") bottom_padding 15 style style.button["app"] yminimum 100 size_group "prefs" xalign 0.5:
-                    has hbox xalign 1.0 yalign 0.5 
-                    add im.Alpha("skip.png", 0.7) yalign 0.5 xalign 0 yoffset 5
-                    if not _preferences.skip_unseen:
-                        text "Проп. виденного" style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                    else:
-                        text "Пропуск все" style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                        
-                button action Preference("after choices", "toggle") bottom_padding 15 style style.button["app"] yminimum 100 size_group "prefs" xalign 0.5:
-                    has hbox xalign 1.0 yalign 0.5 
-                    add im.Alpha("save-app.png", 0.7) yalign 0.5 xalign 0 yoffset 5
-                    if not _preferences.skip_after_choices:
-                        text "Проп. после выб." style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                    else:
-                        text "Останов. на выб." style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                        
-                window style style.window["pref_window"] size_group "prefs" xalign 0.5:
-                    has vbox
-                    text "Скорость текста" size 28
-                    bar value Preference("text speed")
-                    
-                window style style.window["pref_window"] size_group "prefs" xalign 0.5:
-                    has vbox
-                    text "Время автоперехода" size 28
-                    bar value Preference("auto-forward time")
-            
-            vbox:
-                button action Preference("display", "toggle") bottom_padding 15 style style.button["app"] yminimum 100 size_group "prefs" xalign 0.5:
-                    has hbox xalign 1.0 yalign 0.5 
-                    add im.Alpha("fullscreen.png", 0.7) yalign 0.5 xalign 0 yoffset 5
-                    if not _preferences.fullscreen:
-                        text "Оконный" style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                    else:
-                        text "Полноэкранный" style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                        
-                button action toggle_blur bottom_padding 15 style style.button["app"] yminimum 100 size_group "prefs" xalign 0.5:
-                    has hbox xalign 1.0 yalign 0.5 
-                    add im.Alpha("transition.png", 0.7) yalign 0.5 xalign 0 yoffset 5
-                    if persistent.use_blur:
-                        text "Сглаживание вкл" style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                    else:
-                        text "Сглаживание выкл" style style.button_text["app"] minwidth 200 size 28 yoffset 5
-                
-                null height 200
-                                
-                vbox:
-                    grid 2 5:
-                        text "Пропустить" size 24
-                        text " — ctrl" size 24
-                        text "Пропуск" size 24
-                        text " — tab" size 24
-                        text "Скрыть окно" size 24
-                        text " — right-click" size 24
-                        text "Быстр. выход" size 24
-                        text " — esc" size 24
-                        text "Прокрутка" size 24
-                        text " — mousewheel" size 24
-            
-                
-        text "Настройки" style style.text["computer-title"]
-        if home_button:
-            button action ShowTransient("computer_overlay") style style.button["home"]:
-                null width 86 height 38
-        else:
-            button action Hide("preferences") style style.button["back"]:
-                null width 86 height 38
-                
-    screen no_click:
-        modal True
-        
-        timer 5.0 action Hide("no_click")
+        renpy.layer_at_list([ dont_show ], layer='blur')
+    window show 
+    jump first_day
+    
+label credits:
+    window hide
+    play music FEELINGS
+    show bg white with None
+    show screen no_click
+    $ renpy.show("kendall_credits")
+    credit "Story and code\n{size=58}{b}Christine Love{/b}{/size}" with dissolve
+    show screen no_click
+    $ renpy.show("akira_credits")
+    credit "Event and profile art\n{size=58}{b}Auro-Cyanide{/b}{/size}" with dissolve
+    show screen no_click
+    $ renpy.show("nolan_credits")
+    credit "Character art\n{size=58}{b}Tokudaya{/b}{/size}\n\nBackground art\n{size=58}{b}Kimagure After{/b}{/size}\n\nIcons\n{size=58}{b}iconsweets2{/b}{/size}" with dissolve
+    show screen no_click
+    $ renpy.show("charlotte_credits")
+    credit "Music\n{size=58}{b}Rengoku Teien{/b}{/size}\n\n\n\nMusic\n{size=58}{b}propanmode{/b}{/size}" with dissolve
+    show screen no_click
+    $ renpy.show("taylor_credits")
+    credit "Playtesting\n{size=58}{b}Alex Androski{/b}{/size}\n\nPlaytesting\n{size=58}{b}@phoenix_red{/b}{/size}\n\nPlaytesting\n{size=58}{b}Raide{/b}{/size}\n\nPlaytesting\n{size=58}{b}Shadocchi{/b}{/size}" with dissolve
+    stop music fadeout 10.0
+    show screen no_click
+    $ renpy.show("arianna_credits")
+    credit "Special thanks to\n{size=58}{b}Tom Rothamel{/b}{/size}\nCreator of Ren'Py" with dissolve
+    show screen no_click
+    $ renpy.show("isabella_credits")
+    credit "And...\n                        {size=58}{b}YOU{/b}{/size}" with dissolve
+    return
