@@ -1,6 +1,4 @@
-# remember to credit iconsweets
-# give Katelyn a last name
-init -2 python:
+<pre>init -2 python:
     def magic_show(name, at_list=[], layer='master', what=None, zorder=0, tag=None, behind=[ ], atl=None, transient=False, munge_name=True):
         if isinstance(name, tuple):
             blur_name = tuple(list(name) + [ "blur" ])
@@ -596,3 +594,4 @@ label credits:
     $ renpy.show("isabella_credits")
     credit "And...\n                        {size=58}{b}YOU{/b}{/size}" with dissolve
     return
+</pre>
