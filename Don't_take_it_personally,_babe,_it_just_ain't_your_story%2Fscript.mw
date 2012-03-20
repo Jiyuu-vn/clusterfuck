@@ -1,4 +1,6 @@
-<pre>init -2 python:
+<pre># remember to credit iconsweets
+# give Katelyn a last name
+init -2 python:
     def magic_show(name, at_list=[], layer='master', what=None, zorder=0, tag=None, behind=[ ], atl=None, transient=False, munge_name=True):
         if isinstance(name, tuple):
             blur_name = tuple(list(name) + [ "blur" ])
@@ -237,9 +239,9 @@ init:
 
         def wait(waiting_on):
             if len(unread_total()) + unread_posts() > 0:
-                messages = [ "Но прежде чем я продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает " + str(len(unread_total()) + unread_posts()) + ".", "Правда, надо бы их просмотреть.", "Надо завести привычку просматривать их постоянно, мало ли чего." ]
+                messages = [ "Но прежде чем продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает " + str(len(unread_total()) + unread_posts()) + ".", "Правда, надо бы хоть мельком глянуть.", "Надо завести привычку просматривать их постоянно, мало ли чего." ]
             else:
-                messages = [ "Но прежде чем я продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает что есть письма для меня.", "Правда, надо бы их просмотреть.", "Надо завести привычку читать свои письма тоже." ]
+                messages = [ "Но прежде чем продолжу, надо всё таки прочитать эти сообщения. Индикатор показывает что есть письма для меня.", "Правда, надо бы хоть мельком глянуть.", "Надо завести привычку читать свои письма тоже." ]
             messages.reverse()
             
             if waiting_on.unread():
@@ -247,10 +249,10 @@ init:
                     renpy.choice_for_skipping()
                     narrator(messages[-1])
                     messages.insert(0, messages.pop(-1))
-                narrator("There we go. I should be caught up enough now.")
+                narrator("Вот и всё. Можно и продолжить.")
                 
         def wait_chan():
-            messages = [ "But before I go, I should take a break to see if there are any new 12channel posts.", "Really, I should at least take a quick glance.", "I'm not going immediately to my office, I should take a couple minutes to check." ]
+            messages = [ "Но прежде чем пойду, надо бы прерваться и посмотреть, что есть нового в 12чаннеле.", "Правда, надо бы хоть мельком глянуть.", "Прямо сейчас всё равно к себе в кабинет не пойду. Есть пара минуть чтобы проверить." ]
             messages.reverse()
             
             while not store.seen_posts_chan:
@@ -406,7 +408,7 @@ init:
     $ anon_a = Character("Анонимус", show_side_image=register_character_images("akira", "0001_hair", [ "0030_uniform2" ], [ "0023_normal" ], 260, reverse=True, silhouette=True))
     $ anon_k = Character("Анонимус", show_side_image=register_character_images("kendall", "0000_hair", [ "0001_uniform" ], [ "0019_normal" ], 240, silhouette=True))
     
-    $ ich = Character("Мисс Ямадзаки", show_side_image=register_character_images("ichigo", "0002_hair", [ "0000_suit", "0001_casual" ], [ "0003_sad", "0004_blush", "0005_upset", "0006_embarassed", "0007_very-happy", "0008_worried", "0009_cross", "0010_happy", "0011_normal" ], 237, hair_under=True, yoffset=42))
+    $ ich = Character("Мисс Ямазаки", show_side_image=register_character_images("ichigo", "0002_hair", [ "0000_suit", "0001_casual" ], [ "0003_sad", "0004_blush", "0005_upset", "0006_embarassed", "0007_very-happy", "0008_worried", "0009_cross", "0010_happy", "0011_normal" ], 237, hair_under=True, yoffset=42))
     $ y = Character("???", show_side_image=register_character_images("yukata", "0000_hair", [ "0001_yukata" ], [ "0002_sad", "0003_blushing", "0004_surprised", "0005_uncomfortable", "0006_happy", "0007_embarassed", "0008_cross", "0009_very-happy", "0010_normal" ], 287, yoffset=40))
     
     $ credit = Character("", what_size=44, what_suffix="{fast}{w=5}{nw}", window_yalign=1.0, window_xalign=0, window_left_padding=30, window_background=None, what_color="#000", what_drop_shadow_color=((0,0,0,64)))
@@ -531,7 +533,7 @@ label waiting:
                 renpy.choice_for_skipping()
                 narrator(messages[-1])
                 messages.insert(0, messages.pop(-1))
-        narrator("There we go. I should be caught up enough now.")
+        narrator("Вот и всё. Можно и продолжить.")
         
     return
 
@@ -543,12 +545,12 @@ label start:
         nanasi = User("нанаси")
         
         arianna = User("Арианна Бель-Эссе", "Просто девушка.", "23 декабря 2010", "Лэйк Сити, Онтарио", "Женский", "Мужчины", "Атеист", "Либеральные", "Свободна", "1 186.698.3389", "profiles/arianna.jpg")
-        kendall = User("Кендал Флауерс", "Let's live our lives heroically, let's live them with style!", "26 июня 2010", "Лэйк Сити, Онтарио", "Женский", "Девушки", "Be excellent to each other", "Лолитика", "ОЧЕНЬ свободна", "1 186.226.5519", "profiles/kendall.jpg")
+        kendall = User("Кендал Флауерс", "Давайте проживем героически, давайте проживем стильно!", "26 июня 2010", "Лэйк Сити, Онтарио", "Женский", "Девушки", "Быть отличной от других", "Лолитика", "ОЧЕНЬ свободна", "1 186.226.5519", "profiles/kendall.jpg")
         taylor = User("Тэйлор Гибсон", "Я веселая и милая. Узнайте меня вначале!", "30 апреля 2010", "Лэйк Сити, Онтарио", "Женский", "Парни", "Атеизм", "Кого волнует?", "Свободна", "1 186.229.7183", "profiles/taylor.jpg")
-        charlotte = User("Шарлотта Грюваль", "There's more to people than pithy profile quotes.", "June 20, 2010", "Лэйк Сити, Онтарио", "Женский", "Люди", "Буддизм", "Либеральные", "Свободна", "1 186.649.0183", "profiles/charlotte.jpg")
-        isabella = User("Изабелла Харт", "The trick is to keep breathing.", "December 30, 2010", "Аякс, Онтарио", "Женский", "...", "Агностик", "I dream of a just society.", "Нет.", "Don't phone me, I never use it.", "profiles/isabella.jpg")
-        nolan = User("Нолан Штруйкас", "Что здесь сказать?", "1 марта 2010", "Лэйк Сити, Онтарио", "Мужской", "Девушки", "Христианство", "Fuck politics, just be righteous", "Свободен", "1 186.129.3819", "profiles/nolan.jpg")
-        akira = User("Акира Ямазаки", "HOLD ME TIGHT~ tight enough to break me! So that even in a blizzard, I won't feel cold~", "18 сентября 2012", "Саппоро, Япония", "Мужской", "Девушки", "Church of Megami Melody-sama", "BURNING JUSTICE PREVAILS!", "Не интересуюсь.", "1 186.295.0283", "profiles/akira.jpg")
+        charlotte = User("Шарлотта Грюваль", "Люди — это нечто большее, чем жалкие строчки в анкетах.", "20 июня 2010", "Лэйк Сити, Онтарио", "Женский", "Люди", "Буддизм", "Либеральные", "Свободна", "1 186.649.0183", "profiles/charlotte.jpg")
+        isabella = User("Изабелла Харт", "Вся хитрость в том, чтобы дышать.", "30 декабря 2010", "Аякс, Онтарио", "Женский", "...", "Агностик", "Мечтаю о справедливом обществе.", "Нет.", "Не звоните, я им не пользуюсь.", "profiles/isabella.jpg")
+        nolan = User("Нолан Штруйкас", "Что здесь сказать?", "1 марта 2010", "Лэйк Сити, Онтарио", "Мужской", "Девушки", "Христианство", "Нахуй политику, просто будь честным", "Свободен", "1 186.129.3819", "profiles/nolan.jpg")
+        akira = User("Акира Ямазаки", "ДЕРЖИ МЕНЯ КРЕПКО~ так крепко, что можно сломать! И тогда даже в сильную метель мне не будет холодно~", "18 сентября 2012", "Саппоро, Япония", "Мужской", "Девушки", "Церковь Мегами Мелоди-самы", "ГОСПОДСТВО ПЛАМЕННОГО ПРАВОСУДИЯ!", "Не интересуюсь.", "1 186.295.0283", "profiles/akira.jpg")
         
         ichigo = User("Ичиго Ямазаки", "", "", "", "", "", "", "", "", "", "profiles/ichigo.jpg")
         taylor2 = User("Тэйлор Гибсон", "Я веселая и милая. Узнайте меня вначале!", "30 апреля 2010", "Лэйк Сити, Онтарио", "Женский", "Парни", "Атеизм", "Кого волнует?", "Свободна", "1 186.229.7183", "profiles/taylor.jpg")
