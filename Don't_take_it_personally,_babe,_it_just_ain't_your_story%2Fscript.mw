@@ -1,4 +1,3 @@
-<nowiki>
 init:
     python:
         import time, locale
@@ -832,4 +831,3 @@ init:
         modal True
         
         timer 5.0 action Hide("no_click")
-</nowiki>
