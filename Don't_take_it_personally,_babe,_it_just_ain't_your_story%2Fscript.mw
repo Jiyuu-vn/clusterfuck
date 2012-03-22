@@ -1,4 +1,5 @@
-<pre># remember to credit iconsweets
+<pre class="brush:python">
+# remember to credit iconsweets
 # give Katelyn a last name
 init -2 python:
     def magic_show(name, at_list=[], layer='master', what=None, zorder=0, tag=None, behind=[ ], atl=None, transient=False, munge_name=True):
