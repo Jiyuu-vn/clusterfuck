@@ -6,40 +6,40 @@
 ; ?? : ?? : ????(?)<????>
 bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 
-` ...... Yeah.@
-` I've decided not to have any regrets, and I don't want Kohaku-san to worry about me.@
-`"I'm in favor.@ I'm not about to turn down my own welcome party, am I?"\
+` …Да что уж там.@
+` Не хочу потом сожалеть, и чтобы Кохаку-сан за меня переживала тоже не хочу. @
+` - Как всё удачно сложилось. @ Не буду же я отказываться от вечеринки в собственную честь? \
 
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t03b.jpg",%type_crossfade_fst
 
-`"It's decided!@ Well, then, I'll prepare the food.@ Hisui-chan---can you take care of my work for today?"@
+` - Значит, решено! @ Так, готовить буду я. @ Хисуи-тян, сделаешь сегодня мою работу? @
 
 ; ?? : 01~10 : 04_??02(????????)<???????(?)>
 ld r,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
 
-`"That will be fine.@ Sweeping the lobby and the east building?"@
+` - Хорошо. @ Подмести в фойе и восточном крыле? @
 
 ; ?? : 01~10 : 04_?04(?????)<???????(?)>
 ld r,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"Well then, I shall... what should I do, Kohaku?"@
+` - В таком случае, я… Кохаку, что делать мне? @
 
 ; ?? : 01~10 : 05_?<???????(?)>
 ld l,":a;image\tachi\koha_t05b.jpg",%type_crossfade_fst
 
-`"Akiha-sama and Shiki-san should rest in their rooms.@ I'll prepare dinner early to make time for the party, so if you have anything you need to do, please try and be done by then, okay?"\
+` - Акиха-сама и Шики-сан пусть пока отдохнут у себя. @ Обед я приготовлю пораньше чтобы было время для вечеринки, так что если у вас есть какие-то дела, постарайтесь их к тому времени закончить, ладно?\
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_mid
 
 
-` Kohaku-san goes into the kitchen, Hisui out to the courtyard.@
+` Кохаку-сан идёт на кухню, Хисуи выходит во двор. @
 
 ; ?? : 01~10 : 08_?01(????????????)<???????(?)>
 ld c,":a;image\tachi\aki_t08b.jpg",%type_crossfade_fst
 
-`"Well then, I'll go to my room."@
+` «А я, значит, пойду к себе.» @
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_mid
@@ -47,7 +47,7 @@ cl a,%type_lshutter_mid
 playstop
 
 br
-` So.@ What should I do?@
+` Итак.@ Чем заняться?@
 
 return
 
