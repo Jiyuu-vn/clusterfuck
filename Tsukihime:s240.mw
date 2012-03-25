@@ -13,20 +13,20 @@ bg "image\bg\bg_33b.jpg",%type_lcartain_mid
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Welcome home, Shiki-sama."@
-`"I'm back... Hisui, where's Akiha?"@
-`"Akiha-sama has remained at school for certain formalities.@ Since she shall be late, we are to have supper first."@
-`"...?"@
-` Certain formalities, huh.@
-` Akiha's school probably has lots of formalities as it is a top tier school for young ladies.\
+` - С возвращением, Шики-сама.@
+` - Я дома… Хисуи, где Акиха?@
+` - Акиха-сама осталась в школе чтобы завершить некоторые формальности.@ Она будет поздно, потому передала чтобы мы ужинали без неё.
+` - ?..@
+` Некоторые формальности...@
+` Школа Акихи – первоклассное учебное заведение для молодых девушек, так что там наверное очень много формальностей. \
 
-`"I'll go wait in my room till suppertime and I'll head down when it's ready."@
-`"Yes.@ Please rest until I call you."@
+` - До ужина я буду у себя в комнате, спущусь когда всё будет готово. @
+` - Хорошо.@ Пожалуйста, отдыхайте пока я вас не позову. @
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` I turn my back to the bowing Hisui and walk toward my room.\
+` Я отворачиваюсь от склонившейся Хисуи и иду к себе в комнату. \
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_mid
@@ -35,13 +35,13 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 bg "image\bg\bg_40c.jpg",%type_rshutter_mid
 
 br
-` ---After supper, I sit down on my bed.@
+` Ужин кончился, я снова сижу на своей кровати. @
 br
-` The clock's hands show nine o'clock.@
-` Since leaving the mansion after eight is forbidden, I cannot go outside any longer.@
-`"............"@
-` But, that's merely a rule.@
-` If I feel like it, I can easily go outside.\
+` Стрелки часов показывают девять вечера. @
+` После восьми покидать поместье запрещено, так что я уже не могу выйти. @
+` «…»@
+` Но это всего лишь правило.@
+` И если мне захочется, я вполне в состоянии выйти на улицу.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -51,7 +51,7 @@ bg "image\event\stk_e03.jpg",%type_crossfade_fst
 
 
 br
-` ---Bye-bye.@ See you at school tomorrow, Tohno-kun.\
+` «Пока, Тоно-кун.@ Увидимся завтра в школе.»\
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -59,12 +59,11 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-` I---
+` Я…
 br
 
 
 return
-
 
 </pre>
 
