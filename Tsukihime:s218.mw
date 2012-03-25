@@ -11,73 +11,92 @@
 ; ???? : ??????? : ??????(?)<????>
 bg "image\bg\bg_25b.jpg",%type_nowaitdisp
 
-
-
-` ----I can't ignore my feelings.@
+` Я не могу игнорировать свои чувства.@
 br
-` With a killer skulking around town at night looking for victims, I shouldn't be investigating suspicious sounds in alleyways.@
-` But... I still remember Yumizuka's smiling face from yesterday.\
-` There's no reason for Yumizuka to be there.@ But if she is, she might need my help.@
-` ...... I'll never forgive myself if I just ignore this.\
+` Пока по городу бродит убийца, неразумно выяснять, что за подозрительные звуки доносятся из переулков. @
+` Но... Я всё ещё помню, как улыбалась вчера Юмизука.\
 
-`"----Alright."@
-` Taking a deep breath, I steel my spirit.@
-` Besides, if it comes to it, I have my "eyes" too.@
-` Sensei said not to use them recklessly, but she'll find it acceptable if I use it against a killer.@
-`"...... The sound... it came from here..."@
-` Preparing myself, I step into the alley.\
+` Юмизуке не с чего быть там.@ Но если вдруг она действительно оказалась там, ей может быть нужна моя помощь.@
+` Я никогда не прощу себя если просто проигнорирую это.\
+
+` «Ну что ж.»@
+` Я кладу руку в карман и ощущаю холод железа.@
+` Хоть я и не собираюсь его использовать, приятно знать, что я не безоружен.@
+` И если до этого дойдёт, у меня есть и мои "глаза".@
+` Сенсей говорила мне не использовать их безрассудно, но если я использую их против убийцы, она наверняка сочтёт такое приемлимым.@
+`«Звук донёсся отсюда...»@
+` Собравшись, я вхожу в переулок.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
-; ???? : ?????? : ???1(?)<????>
-bg "image\bg\bg_30b.jpg",%type_nowaitdisp
-
+; ???? : ?????? : ???1(?)<???????(?)>
+bg "image\bg\bg_30b.jpg",%type_crossfade_mid
 ;S.E."??"
 wave se0
 
+br
+` Тук.\
+
+` Моё сердце колотится.@
+` В переулке тихо.@
+` Шум доносился из дворика в конце переулка.\
 
 br
-` ---Thump.@
 br
-` My heart pounds.@
-` The back alley is quiet.@
-` ...... The noise came from the open area at the far end.\
-
-br
-;S.E."??"
-wave se0
-
-` ---Thump.@
-br
-` The back of my head, hurts.@
-` As if convulsing under the utmost strain, my wracked spine hurts as if it's about to rip itself out of my body.\
-
 br
 ;S.E."??"
 wave se0
 
-` ---Thump.@
-br
-` Why is it?@
-` I can't think, yet my instincts shout at me.\
+` Тук.\
 
+` Накатывает боль в затылке.@
+` Спина болит как после сильнейшей нагрузки, словно мой измученный хребет пытается вырваться наружу. \
+
+br
+br
+br
+br
 br
 ;S.E."??"
 wave se0
 
-` ---Thu-mp.@
-br
-` Don't go.@
-` Don't go any further.@
-` If you do, you won't be able to come back.\
+` Тук.\
 
+` Почему это происходит со мной?@
+` Я не могу думать, но мои инстинкты вопят.\
+
+br
+br
+br
+br
+br
+br
 br
 ;S.E."??"
 wave se0
-` ---Thu-mp.@
+
+` Ту-к.\
+
+` Не ходи.@
+` Не иди дальше.@
+` Если пойдёшь, назад уже не вернёшься.\
+
 br
-` But it's already too late.@
-` I step out of the back alley, and into the the open space.\
+br
+br
+br
+br
+br
+br
+br
+br
+;S.E."??"
+wave se0
+
+` Ту-к.\
+
+` Но уже слишком поздно.@
+` Я выхожу из переулка, и оказываюсь посреди дворика.\
 
 ; ???? : ?????? : ???2(?)<?????(?)>
 bg "image\bg\bg_31b.jpg",%type_crossfade_mid
@@ -87,355 +106,370 @@ monocro #ff0000
 play "*4"
 
 
-`"----Eh?"@
-` That weak voice is all that I can get out.@
+
+` - Э?@
+` Это всё, что я могу из себя выдавить.\
+
 ; ????????<????>
 bg "image\bg\ima_13.jpg",%type_crossfade_fst
 
 br
-` ---The back alley is a single sheet of crimson.@
+` Переулок полностью залит багрянцем.@
 br
-` In it, limbs are strewn amongst the garbage and rubble.@
-` Not the limbs of dogs, or cats, or the like.@
-` They are human limbs, blood dripping from fresh meat and bone.\
+` Среди разбросанного мусора и булыжников валяются чьи-то конечности.@
+` Не собачьи, кошачьи, или какие-нибудь ещё в этом роде.@
+` Это человеческие конечности, с кровью, стекающей с мяса и костей.\
 
-; ???? : ?????? : ???2(?)<??????(?)>
-bg "image\bg\bg_31b.jpg",%type_crossfade_fst
+` Земля и стены окрашены красной кровью.@
+` Тяжёлый запах наполняет мои ноздри.@
+` Густой.@
+` Удушающий запах крови, словно красный туман, пронизывает моё тело..\
 
-` The ground and the walls are painted with red blood.@
-` A heavy scent fills my nostrils.@
-` Thick.@
-` Like a red fog permeating my body, the choking smell of blood.\
+` Лицо.@ Лицо.@ Лицо.@
+` Лицо на оторваной голове, оно искривлено в агонии.@
+` Лицо, сморщенное, как у мумии, раздробленное пополам.@
+` Лицо с выдавленными глазами, искажённое до такой степени, что я не могу понять, было ли оно мужским или женским.\
 
-` A face.@ A face.@ A face.@
-` A face on a severed head, rolling around with an expression of agony.@
-` A face shriveled up like a mummy, split in halves.@
-` A face with both eyes gouged out, so distorted I can't even tell if it used to be a man or a woman.@
-`"-----"@
-` Unable to make a sound, I merely gaze speechless at the corpses.@
-` No, they can't even be called human bodies anymore.@ Even a badly made sculpture looks better than this.\
+`«...»@
+` Не в состоянии издать ни звука, я только молча смотрю на трупы..@
+` Нет, их и человескими телами назвать нельзя.@
+` Даже уродливая скульптура выглядела бы лучше.@\
 
-` There are four bodies.@
-` They roll around like scraps of leftover food.@
+` Всего трупов четыре.@
+` Они разбросаны, словно чьи-то объедки.\
 br
-`"Ah----ah."@
-br
-;S.E."??"
-wave se0
-
-` I gape in shock at the sea of bodies.@
-` The back of my head throbs,
-` my throat is parched, and my breath burns like fire.@
-` My fingertips quiver, and my mouth distorts.\
-
-` What---is this?@
-` What is this world before my eyes?@
-`"----Red."@
-` Yes.@
-` Before my eyes, everything is that terrible color---
+` - А...а.@
 br
 ;S.E."??"
 wave se0
 
-` But I merely stand.@
-` I think I may be going crazy.@
+` Раскрыв рот, я шокированно смотрю на море трупов.@
+` В затылке у меня пульсирует, в горле пересохло, дыхание обжигает как огонь.@
+` Мои пальцы дрожат, а рот искривлён.\
+ Что это такое?@
+` Что за мир открывается перед моими глазами?@
+`«...Красное.»@
+` Да.@
+` Всё, что я вижу, окрашено в этот ужасный цвет...
 br
 ;S.E."??"
 wave se0
 
-` Thump.@ Thump.@ Thump.@
+` Но я просто стою.@
+` Наверное, я схожу с ума.@
 br
-` While being faced with a totally bizarre, alien landscape like this,
-` my heart screams shrilly in anticipation.\
+;S.E."??"
+wave se0
+
+` Тук.@ Тук.@ Тук.@
+br
+` Видя столь ненормальное, невероятное зрелище, моё сердце словно бы вопит, предостерегая меня.\
 
 ; ???? : ?????? : ???2(?)<??????(?)>
 bg "image\bg\bg_31b.jpg",%type_tshutter_mid
 monocro off
 
-` A corpse against the wall moves.@
-` No, that's wrong.@
-` It's not a corpse.@
-` It's not like the scrapped hands and feet.@
-` It's a living human being, with limbs attached.\
+` Труп, лежащий у стены, шевелится.@
+` Нет, это не так.@
+` Это не труп.@
+` Это не куча оторваных рук и ног.@
+` Это живой человек, и его конечности на месте.\
 
-`"Ah..."@
-` I see something out of place.@
-` In this ghoulish spectacle, the response to seeing someone alive is more of astonishment than happiness.@
+` - Аа...@
+` Я вижу что-то, что не соответствует обстановке.@
+` Увидев кого-то живого среди этой бойни, я скорее удивляюсь чем радуюсь.@
 br
-` But, if he's alive.@
-` If he's alive, I have to help him.\
+` Но раз он жив.@
+` Раз он жив, я должен помочь ему.\
 
-`"Uh---hello?"@
-` In my rush of emotion, I step towards the living figure.@
+` - Э, здравствуйте?@
+` В порыве эмоций, я шагаю навстречу фигуре.@
 br
-`"---Gih."@
+` - ...Гхи.@
 br
-` Pulling itself up from the sea, it raises its face toward me.@
-` A face like a dried out skull.\
+` Поднявшись из моря крови, следом он поднимает своё лицо. @
+` Лицо, похожее на иссушеный череп.\
+
+; ???<??????(?)>
+bg "image\bg\ima_10.jpg",%type_nowaitdisp
+
+` - Хии!..@
+br
+` Я рефлекторно отскакиваю назад.@
+` Но череп движется быстрее меня.@
+` С криками «хйууу!@ хйууу!» он набрасывается на меня.\
+
+` Хйууу!@ Хйууу!@
+br
+` Раздаётся отвратительный голос.\
+` Ниже, в горле черепа, зияет большая дыра, которая и не давала ему говорить нормально.\
+
+` - Aкх!"@
+` Я вижу иссушеное лицо, тянущуюся ко мне иссушеную руку.@
+` В горле этого мешка с костями видны голосовые связки, вибрирующие в унисон с его    жутким голосом.@
+` - Уааааааааааа!@
+` Я отчаянно пытаюсь отбиться от него.@
+` Но он только кричит ещё громче и продолжает держать меня.\
+
+
+; ???<????>
+bg "image\bg\ima_11.jpg",%type_nowaitdisp
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
-
-
-`"Hii----!"@
-` I leap back reflexively.@
-` But the skull moves faster than I do.@
-` With a voice like "hyuuhyuu!", he jumps on me.@
 br
-` ----Hyuu!@ Hyuu!@
 br
-` A hideous voice, right next to me.@
-` Looking down---there is a large hole in the skull's throat, preventing him from speaking right.\
+br
+br
+br
+br
+` Звук раздираемой плоти.@
+` Это его пальцы вонзились мне в плечо.\
 
-`"----Ah!"@
-` The dried up face, the dried up arm reaching for me.@
-` In the throat of this bag of bones, vocal chords vibrate in accord with the ghastly voice.@
-`"Uwaaaahhhhh!"@
-` Desperately, I try to tear him off me.@ But he merely raises that ghastly voice, and will not get off.\
+` - Чххх!@
+` Моё тело выгибается от боли.@
+` Его пальцы подобны острым иглам.@
+` Они безжалостно разрывают мне кожу, пронзая нервы и плоть, погружаясь всё...
+br
+` - А, аааааа!..@
+br
+` Боль настолько сильная, что больше я ничего не могу произнести.@
+` Хоть я и пытаюсь отодрать его от себя, он слишком сильный.@ Что бы я ни делал, он не двигается.\
 
-` With a creak, the skull's jaw opens.@
-` The mouth opens wide enough to rip off my shoulder with a single bite, and he approaches my face as if saying, "I don't want to die, somebody save me".@
-`"St----"@
-` I can't even say "stop".@
-` The guy made only of skin and bones, tries to bite my head---and suddenly, he collapses.\
-
-
+` Челюсть черепа со скрипом распахивается.@
+` Его рот распахнут так широко, что он мог бы откусить мне плечо одним махом. Он приближается к моему лицу, словно говоря: «Я не хочу умирать, спасите меня кто-нибудь».@
+br
+` - Пе...@
+br
+` Я даже не могу выговорить «перестань».@
+` Человек, состоящий из одних костей и кожи, пытается укусить меня за голову — как вдруг он резко падает.\
 ;CD-DA??
 playstop
 
 ; ???? : ?????? : ???2(?)<??????(?)>
 bg "image\bg\bg_31b.jpg",%type_bshutter_mid
 
-`"Eh......?"@
-` The awesome power vanishes.@
-` The bag of bones in a person's form crumples to the ground and disappears.@
-` Softly,
-` like a bad dream, it turns to ash and blows away.\
 
-`"...... What the hell is this?"@
-` A pain runs through my shoulder.@
-`"Ach..."@
-` My shoulders begin to turn red and swell where he has grasped me.@
+` - Э?.."@
+` Невероятноя сила исчезает.@
+` Мешок костей, имеющий форму человека, рушится на землю и исчезает.@
 br
-` The pain is real.@ So this must be real.@
-br
-` A terrible nightmare.@
-` But---it can't be a nightmare, because it's not a dream.\
+` Неторопливо,
+` как в плохом сне, он рассыпается в пепел, который уносит ветер.\
+
+` - Чёрт, что это было?@
+` Боль пронзает моё плечо.@
+` - Акх...@
+` Моя кровь стекает по моей спине.@
+` Боль настоящая.@ Значит и это тоже случилось на самом деле.@
+` Ужасный кошмар.@
+` Но...это не может быть кошмаром, потому что это не сон.\
 
 ;CD-DA?????
 play "*1"
 
-`"Tohno-kun.@ It'll be dangerous if you stay there."@
-`"----!"@
-` I turn towards the voice behind me.@
-` At the mouth of the alley where I came from, I see Yumizuka Satsuki.@
+` - Тоно-кун.@ Здесь оставаться небезопасно.@
+` - !@
+` Я разворачиваюсь на голос.@
+` У входа в переулок, через который я пришёл, я вижу Юмизуку Сацуки.\
 
-;(?????????)
-; ??? : 01~10 : 03_?<??????(?)>
-ld c,":a;image\tachi\stk_t03.jpg",%type_lshutter_fst
+; ??? : 01~10 : 05_??????????<??????(?)>
+ld c,":a;image\tachi\stk_t03.jpg",%type_lshutter_mid
 
-`"Yumizuka... san---?"@
-`"Good evening.@ Fancy meeting you in a place like this, huh?"@
-` As if we had merely bumped into each other in the mall, Yumizuka greets me lightheartedly.\
+` - Юмизука...сан?..@
+` - Добрый вечер.@ Как неожиданно встретиться в таком месте."@
+` Юмизука беспечно здоровается со мной, словно мы наткнулись друг на друга в супермаркете.\
 
+` - Юмизука, ты... Что ты делаешь, почему ты на улице в такое время?@
+` - О, просто вышла погулять.@ Но вот что делает Тоно-кун?@ Убить стольких людей — так же нельзя делать, верно?@
+` Слегка улыбнувшись, говорит Юмизука.\
 
-`"Yumizuka-san, what about you... what are you doing, out at a time like this?"@
-`"Oh, just going for a walk.@ But what's Tohno-kun doing?@ Killing so many people like this is bad, right?"@
-` Yumizuka says, with a light smile.\
+` - Убить стольких людей... э?@
+`  Я оглядываюсь по сторонам.@
+` ... И вспоминаю о том трагичном зрелище, что окружает меня.@
+` Посреди моря крови.@
+` Как убийца, стоит поражённый ужасом Тоно Шики.\
 
-`"Killing so many people... eh?"@
-` I look around me.@
-` ...... And I remember the tragic scene I'm surrounded by.@
-` In a sea of blood.@
-` Tohno Shiki stands aghast like a murderer.\
+` - Н-нет!@ Это был не я!@
+` - О, конечно это был ты.@ Все мертвы, а Тоно-кун жив, так что это наверняка Тоно-кун их убил.@
+` - Неправда!@ Он сам напал на меня!..@
+` Я указываю на монстра, нападавшего на меня за несколько секунд до этого.@
+` Но там ничего нет..@
+` Даже пепел от костей унесло ветром.\
 
-`"N... no!@ This wasn't me!"@
-`"Oh, of course it was.@ Everyone's dead, and Tohno-kun's alive, so obviously Tohno-kun must have killed them."@
-`"No way!@ It just attacked me......!"@
-` I point at the monster that attacked me moments ago.@
-` But, nothing's there.@
-` Even the ashes of the bones have been blown away by the wind.\
+` - А...@
+` Я сглатываю.@
 
-`"Ah----"@
-` I swallow my breath.@
-` Yumizuka is chuckling.\
+` Юмизука захихикала.@
+` - Это не... это был... был не я...@
+` Мою голову парализовало, и я могу только бессвязно бормотать.\
 
-`"It's not... this wasn't... wasn't me..."@
-` My head is paralyzed, and can only manage broken language.@
-` ...... I understand.@
-` I can think clearly, but I can't put my thought into words.@
+` ...Мне всё стало понятно.@
+` Я могу думать чётко, но не могу выразить свои мысли словами.@
 br
-` For example, why is Yumizuka at a place like this?@
+` Например, что Юмизука делает в таком месте, после того как убежала из дома?@
 br
-` For example, why is Yumizuka laughing in the face of this tragic scene?\
+` Например, почему Юмизука смеётся при виде столь ужасной картины?\
 
-
-`"Yumizuka-san, I---"@
-`"Yeah, I know.@ You just interrupted someone's meal.@ I'm sorry for sounding mean.@ I always act against my feelings, so I'm always acting like this to you."@
-` Yumizuka is still laughing.@
-` ...... It's so inappropriate for this scene, I feel a chill.\
+` - Юмизука-сан, я...@
+` - Да, я знаю.@ Ты просто прервал чью-то трапезу.@ Прости, что наговорила неприятных вещей.@ Я постоянно действую наперекор своим чувствам, потому рядом с тобой я всегда такая.@
+` Юмизука продолжает смеятся.@
+` ...Это настолько несоответствует окружению, что по мне пробежал холодок.\
 
 ;CD-DA??
 playstop
 
-
-` Yumizuka doesn't move from the entrance of the alley.@
-` Her arms are positioned strangely, as if she's hiding something behind her back.@
+` Юмизука продолжает стоять у входа в переулок.@
+` Её руки странно расположены, будто она прячет что-то за спиной.@
 br
-` ---And, looking closer,
-` there are spots of something red on her sleeve.\
+`  ...И если присмотреться, то у неё на рукаве можно заметить красные пятна.\
 
-`"Yumizuka, you---"@
-`"What is it?@ Your face looks scary, Tohno-kun."@
-` She laughs again.@
-`"------"@
-` ...... No.@
-` Somehow, this girl cannot be Yumizuka Satsuki.@
-`"Yumizuka---why are you hiding your hands like that?"@
-`"Ah, have I been found out?@ I guess you're too observant to miss that, huh.@
-` I've always liked that about you, Shiki-kun."@
-` After emphasizing my name,
-` she brings her hands out.\
+` - Юмизука, ты...@
+` - В чём дело?@ Тоно-кун, у тебя такое страшное лицо.@
+` Она снова смеётся.@
+` - ...@
+` ... Нет.@
+` Эта девушка просто не может быть Юмизукой Сацуки.\
+
+` - Юмизука... почему ты прячешь руки?@
+` - Ай, меня раскрыли?@ Да, наверное ты слишком наблюдательный, чтобы такое не заметить.@ Мне всегда нравилось это в тебе, Шики-кун.@
+br
+` Моё имя она произносит с особым ударением, и затем достаёт руки из-за спины.\
+
 
 ld c,":a;image\tachi\stk_t06.jpg",%type_crossfade_fst
 ;CD-DA???????
 play "*6"
 
-` Both hands are dyed crimson.@
-` Not yet dry, the blood drips off them in red droplets.@
-` And, proudly,
-` Yumizuka Satsuki is smiling.\
+` Обе её руки покрыты багряным.@
+` Кровь капает с них, она даже не успела запечься.@
+` А Юмизука Сацуки гордо улыбается.\
 
-;S.E."??"
-wave se0
-
-
-`"Yumizuka, your hands---"@
+` - Юмизука, твои руки...@
+` - Да.@ Это я убила тех людей.@
 br
-`"Yeah.@ I killed those people."@
-br
-`"Wha---"@
-`"Oh, but, it's okay.@ I didn't kill them because I hated them.@ I just needed their blood to live, so I had to kill them."@
-` She says it as if it was normal.@
-` Of course I can't understand it.@
-` All I do understand is---my blood is pulsing wildly throughout my whole body.\
+` - Чт...@
+` - О, но, это ведь не страшно.@ Я убила их не из злобы.@ Мне была нужна их кровь чтобы выжить, и мне пришлось их убить.@
+` Она говорит об этом как о чём-то абсолютно нормальном.@
+` Конечно, я не могу этого понять..@
+` Я понимаю только одно — моя кровь всё быстрее и быстрее несётся по жилам.\
 
-` Thump.@ Thump.@ Thump.@
-` *pant*.@ *pant*.@ *pant*.@
-` Like I've fallen in love at first sight with that bloody Yumizuka, I am excited---\
+` Тук.@ Тук.@ Тук.@
+` *вдох*.@ *вдох*.@ *вдох*.@
+` Я возбуждён, словно влюбился с первого взгляда в эту покрытую кровью Юмизуку...\
 
-`"You... really killed them, Yumizuka?"@
+` - Ты... правда убила их, Юмизука?@
 
 ;?????
-ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fst
+ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fs
 
-`"You wouldn't believe me even if I told you it's a lie, right?@ Or do you think it's impossible for a girl like me to do such a thing?"@
-` Her voice laughs softly.@
+` - Ты ведь не поверил бы мне даже если бы я сказала, что это не так, верно?@ Или ты думаешь, что девушка вроде меня на такое неспособна?@
+` Она продолжает мягко смеятся.@
 br
-` ---I don't believe her.@
-` I don't believe her, but she is definitely not telling a lie.@
-` This tragic scene.@
-` It's all Yumizuka's doing.@
+` ...Я ей не верю.@
+br
+` Я ей не верю, но она определённо не врёт.@
+` Эта ужасная сцена.@
+` Всё это — дело рук Юмизуки.\
 
-`"Why... such a terrible thing...?"@
+` - Зачем... такую ужасную вещь?..@
 
 ;??????
 ld c,":a;image\tachi\stk_t10.jpg",%type_crossfade_fst
 
-`"It's not terrible.@ Like I said, I didn't kill them because I hated them.@ There's nothing wrong with killing others in order to live, is there, Shiki-kun?"@
-`"What...!@ That's absurd!@ Killing is wrong!"@
-`"No, it's not.@ But, I did do one bad thing.@ Since today was my first time drinking blood, I let a little of my blood get back into them.@ Because of that, you got attacked, Shiki-kun.\
+` - В этом нет ничего ужасного.@ Я же сказала, я убила их не из злобы.@ В том, чтобы убивать других чтобы выжить, нет ничего дурного, не так ли, Шики-кун?@
+` - Что!..@ Это абсурд!@ Убийство это неправильно!@
+` - Ничего неправильного в этом нет.@ Но кое-что плохое я всё-же сделала.@ Поскольку сегодня я пила кровь впервые, то немного моей крови случайно попало обратно в них.@ И из-за этого, Шики-кун, на тебя напали.\
 
-`"I'm sorry for getting you involved.@ But we're lucky; it died without being able to finish changing."@
-`"What---what are you talking about, Yumizuka?"@
-`"It's okay if you don't understand right now.@ I don't really understand myself yet, so I can't explain it very well.@
-`"But, I think after a few days I can become like Shiki-kun.@
-` Like Shiki-kun, become a great---"@
+` - Прости что впутала тебя.@ Но нам повезло; он умер, не успев превратиться до конца.@
 
+` - Что... о чём ты говоришь, Юмизука?@
+
+` - Это ничего если тебе сейчас непонятно.@ Я сама не очень понимаю, так что не могу хорошо объяснить.\
+
+` - Но, где-то через несколько дней я смогу стать как Шики-кун.@
+` Как и Шики-кун, стану великой...@
 ;(???????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` As she said so, her face distorts in pain.@
+` Её лицо вдруг искажается от боли.@
 
 ;(???????)
 ; ??? : 01~10 : 04_??????<??????(?)>
 ld c,":a;image\tachi\stk_t04.jpg",%type_tshutter_mid
 
-`"Ha---... aaau!!!"@
-` Rasps of agony echo from her throat.@
-` Yumizuka chokes up blood.\
+` - Ха... aaaу!!!@
+` Из её горла доносится болезненный хрип.@
+` Юмизука начинает кашлять кровью.\
 
-`"It---hurts.@ I guess, even if I'm hungry, I shouldn't just drink blood at random.@ If it's not good quality, beautiful blood, it won't agree with me..."@
-` She breaks out in a fit of coughing.@
-` She chokes out blood with every cough.\
+` - Боль...но.@ Похоже, мне нельзя пить чью попало кровь, даже если я голодна.@ Если это не хорошая, первосортная кровь, то она не усвоится...@
+` Она разражается приступом кашля.@
+` С каждым покашливанием, она выплёвывает кровь.@
+` - Нн... кх, ннхааааа!!!@
+` Тело Юмизуки содрогается.@
+` ... Я не понимаю всего происходящего.@
+` Всё что я знаю, это что Юмизуке ужасно больно.@ Это всё, что мне удаётся понять.@
 
-`"Nn---kuh, nnaaah...!!!"@
-` Yumizuka's body convulses.@
-` ...... I don't really understand.@
-` All I know is, Yumizuka's in terrible pain.@ That's all I can clearly understand.@
-`"Are you okay, Yumizuka...!?"@
-` Without thinking, I run towards her to take her hand.@
-
+` - Эй... Юмизука, ты в порядке?!.@
+` Не задумываясь, я бегу к ней, чтобы взять её за руку.@
 ;?????
 ld c,":a;image\tachi\stk_t12.jpg",%type_tshutter_fst
-`"----No!@ Don't come any closer, Shiki-kun!"@
-` But, Yumizuka's voice stops me.\
+` - Нет!@ Не приближайся, Шики-кун!@
+` Но голос Юмизуки останавливает меня.\
 
 ;??????
 ld c,":a;image\tachi\stk_t04.jpg",%type_crossfade_mid
 
-`"...... You mustn't.@ I'm not... entirely okay, Shiki-kun."@
-` She speaks painfully, still vomiting red blood.\
+` - Не подходи.@ Шики-кун, мне... не совсем хорошо.@
+` Натужно произносит она, её всё ещё рвёт кровью.\
 
-`"Yumi... zuka, you---"@
-` I don't understand.@
-` Why Yumizuka's in pain, or why she's like this.\
+` - Юми...зука, ты...@
+` Я не понимаю.@
+` Почему Юмизуке больно, ни почему она в таком состоянии.\
 
-`"What the hell is going on?@ You said you killed those people, but that's a lie, right, Yumizuka...?@ If you're in that much pain, shouldn't you be in a hospital?"@
-` ...... I know.@
-` Even though I understand Yumizuka brought about this tragic scene, I still lie to myself.@
+` - Какого чёрта тут происходит?@ Ты сказала, что убила этих людей, но это ведь ложь, так, Юмизука?..@ Если тебе так больно, может, стоит пойти в больницу?@
+` Я знаю.@
+` Хоть я и понимаю, что Юмизука виновна в том, что здесь случилось, я продолжаю врать себе.\
 
-`"Hey, Yumizuka---I'm coming over there, okay?"@
-` I speak gently.@
-` But Yumizuka shakes her head in violent refusal.\
+` - Юмизука, я иду к тебе, ладно?@
+` Мягко произножу я.@
+` Но Юмизука только изо всех сил трясёт головой.\
 
-`"Why!?---If you're in pain, we have to get you to a hospital right away...!"@
-`"Shiki-kun, you're not getting it.@ You really never understand anything..."@
-`"Idiot!@ I told you before, I don't understand...!"@
-`"Ah... yeah, you did, didn't you.@ But you're still here..."@
-` Yumizuka begins to pull away.\
+` - Почему?!. Если тебе больно, надо срочно доставить тебя в больницу!..@
+` - Шики-кун, ты не понимаешь.@ Вечно ты ничего не понимаешь...@
+` - Дура!@ Я же сказал, я не понимаю!..@
+` - А... нет, всё ты понял.@ Но ты всё ещё здесь...@
+` Юмизука начинает отступать.\
 
-`"...... It hurts, Shiki-kun."@
-` She breathes raggedly, coughing up red blood.@
-`"...... It hurts, it's cold, and I'm scared.@
-` I really want your help right now, Shiki-kun."@
+` - Шики-кун, мне больно.@
+` Её дыхание прерывисто, она всё ещё отхаркивает красную кровь.@
+` - Мне больно, холодно и страшно.@
+` Мне очень нужна твоя помощь, Шики-кун.@
 br
-` ---But it's too early.@
+` ...Но ещё рано.@
 br
-` Saying that,
-` Yumizuka straightens up again.\
+` С этими словами, Юмизука вновь распрямляется.\
 
 ;(???????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
+` - Жди меня, ладно?@ Я стану великой вампиршей, и тогда навещу тебя снова!@
 
-`"Wait for me, okay?@ I'll go become a great vampire, then I'll come back to see you again!"@
+` - Пого...Юмизука, погоди!\
 
-`"Wha---wait up, Yumizuka!"@
 br
 ; ???? : ?????? : ???1(?)<??????(?)>
 bg "image\bg\bg_30b.jpg",%type_lshutter_mid
 
 
-`"------"@
-` Yumizuka is gone.@
-` Even as I start to run, Yumizuka is long gone.@
-` ...... Her speed is is not that of a human's, but of a wild beast.\
-
-`"---Yumizuka, you---"@
-` What happened to you, really...?@
+` - ...@
+` Юмизука исчезла.@
+` Даже бегом я не могу догнать её.@
+` Она движется с нечеловеческой скоростью, словно дикий зверь.@
+` «Юмизука, ты...»@
+` Что же с тобой случилось?!.\
 
 ;S.E."??"
 wave se0
@@ -446,11 +480,12 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_30b.jpg",%type_nowaitdisp
 
 br
-`"Gah---!"@
-` My shoulders throb in pain where he grabbed earlier.@
-` When I look back, the open space where all the limbs were scattered only left red blood.@
-` The faces, the organs, the hands and feet.@
-` They all turned to ash, like the skull did before.\
+` - Гха!..@
+` Моё раненое плечо запульсировало.@
+` Оглянувшись, вместо разбраснных ошмётков я вижу только красную кровь.@
+` Лица, органы, руки, ноги.@
+` Всё это превратилось в пепел, как тот череп.\
+
 ;S.E."??"
 wave se0
 
@@ -461,27 +496,26 @@ bg "image\bg\bg_30b.jpg",%type_nowaitdisp
 
 
 
-`"------Ah."@
-` Thump.@
-` I feel sick as if I'm going to cough up blood.@
+` - Аа...@
+` Тук.@
+` Мне становится плохо, меня словно вот-вот вырвет кровью.@
 ;S.E."??"
 wave se0
 br
-`"This can't, be----"@
-` Thump.@
-` This excitement, is so intense, I almost ejaculate.@
+` - Это не...@
+` Тук.@
+` Возбуждение настолько сильно, что я почти кончаю.@
 ;S.E."??"
 wave se0
 br
-`"This---"@
-` For a while,
-` the crimson color of blood burns in my eyes.@
+` - Это...@
+` Кровавый багрянец ненадолго застилает мне глаза.@
 ;S.E."??"
 wave se0
 br
-`"This can't be real----!"@
-` My world swims before me.@
-` My eyes see nothing but a distorted world.\
+` - Это всё не на самом деле!..@
+` Мир расплывается передо мной.@
+` Мои глаза видят только искажённый мир.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -493,10 +527,10 @@ playstop
 bg "image\bg\bg_48d.jpg",%type_crossfade_mid
 
 
-` ---Before I realize it, I'm back at the mansion.@
+` ...Не успел я оглянуться, как снова оказываюсь в поместье.@
 br
-` Just like a pet somehow finding its way home, I guess.@
-` I'm on the verge of collapsing from dizziness; I didn't think I would make it back this far.\
+` Наверное, инстинктивно нашёл дорогу домой, как животное.@
+` Я валюсь с ног от головокружения; я даже не думал, что смогу преодолеть весь путь домой.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -507,43 +541,43 @@ bg "image\bg\bg_33d.jpg",%type_crossfade_mid
 ;S.E."??????????…?(???)"
 waveloop se10
 
-`"......... Ggh."@
-` Vomit.@ I'm going to vomit.@
-`"Ah---gha, ah---"@
-` My heart is exploding, I can hardly breathe.@
-`"...... I have to...... hurry and rest......"@
-` Since I've collapsed so many times before from my anemia, I know I'm about to faint.\
+` - Ггх...@
+` Тошнит.@ Меня сейчас стошнит.@
+` - Аа...гха, а...@
+` Моё сердце сейчас разорвётся на куски, я едва дышу.@
+` - Надо... пойти и отдохнуть...@
+` Поскольку я уже много раз терял сознание из-за анемии, я знаю что вот-вот упаду в обморок.\
 
-` ---If I rest.@
-` If I just rest my body in bed, this nausea, my exploding heart, will all go back to normal.@
+` Если я отдохну...@
+` Если я просто отлежусь, то эта тошнота, моё разрывающееся сердце, всё вернётся в норму.@
 br
-` I---I can forget all about that, as if nothing happened, and wake up to a normal day.\
+` Я...я смогу обо всём забыть, как будто ничего и не было, и снова жить нормальной жизнью. \
 
 ;(????01)
 ; ?? : 01~10 : 01_?01(???)<??????(?)>
 ld c,":a;image\tachi\koha_t03b.jpg",%type_lshutter_mid
 
-`"Shiki-san?@ You have returned?"@
-`"Ah...... Kohaku--san."@
-` Kohaku-san emerges from the west hallway.@
-` ...... That's right, Kohaku-san's room is in the west hallway on the first floor.\
+` - Шики-сан?@ Ты вернулся?@
+` - А...Кохаку-сан.@
+` Кохаку-сан выходит из западного коридора.@
+` Ну конечно, комната Кохаку-сан находится на первом этаже в западном коридоре...\
 
 ;(????03)
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\koha_t02b.jpg",%type_crossfade_fst
 
 
-`"Welcome back, Shiki-san.@ Did you get to meet your friend?"@
-`"Uh---ah, yes, I met her."@
-` I remember as soon as I answer.@
-` The scattered limbs.@
-` Face.@ Face.@ Face.@ Face.@
-` The blood-stained alley.@
-` Yumizuka's laughing face and her bloody hands----\
+` - С возвращением, Шики-сан.@ Удалось встретиться с подругой?@
+` - Ээ... а, да, удалось.@
+` Ответив, я тут же начинаю вспоминать.@
+` Разбросаные конечности.@
+` Лицо.@ Лицо.@ Лицо.@ Лицо.@
+` Залитый кровью переулок.@
+` Смеющееся лицо Юмизуки и её окровавленые руки...\
 
-`"...... Sorry.@ I'm going back to my room, so please go back as well, Kohaku-san."@
-` I don't feel like talking with anyone right now.@
-` I leave Kohaku-san behind and go up the stairs.\
+` - Прости...@ Я иду к себе в комнату, Кохаку-сан, ты тоже возвращайся.@
+` Сейчас мне не хочется ни с кем разговаривать.@
+` Я оставляю Кохаку-сан позади и поднимаюсь по лестнице.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -551,42 +585,42 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 
 
-` I collapse on my bed.@
-`"Ah----ah."@
-` My chest rises and falls as I take deep breaths.@
-`"-------"@
-` My mind feels faint.@
-` Dizziness overwhelms me.@
-` Even if it means passing out, I just want to go to sleep right now.\
+` Я валюсь на кровать.@
+` - А...ха...@
+` Моя грудь поднимается и опускается в такт моему дыханию.@
+` - ...@
+` Мой разум расплывается.@
+` Головокружение захлёстывает меня.@
+` Пусть я даже не переоделся, сейчас я только хочу заснуть.\
 !w5000
 
-` ---So why can't I sleep?@
+` Но почему мне тогда не спиться?..@
 br
-` I'm so dizzy right now, but why don't I pass out like always?@
-` If I close my eyes, the vision of that scene in the alley shows up under my eyelids.@
-` My heart throbs violently.@
-` It isn't terror, rather---it's closer to sexual excitement.@
+` У меня дико кружится голова, но почему я не отключаюсь как всегда?@
+` Как только я закрываю глаза, то перед моим мысленным взором тут же встаёт сцена из переулка.@
+` Моё сердце бешено стучит.@
+` Это не ужас, скорее...это больше похоже на сексуальное возбуждение.@
 br
-`"Why----"@
-` I don't understand it at all.@
+` «Почему...»@
+` Я никак не могу понять.@
 ;S.E.??
 wavestop
 
-` Is there this thin of a line between terror and lust?\
+` Куда делась разница между ужасом и похотью?\
 
 ;S.E."???"
 wave se3
 
 
-`"Eh............?"@
-` Who can it be at this hour?@
-`"Shiki-sama, are you awake......?"@
-` That whisper is Hisui.@
-` Thump.@
-` Just imagining her form, my heart calms down a bit.\
+` - Э?..@
+` Кто это может быть в такое время?@
+` - Шики-сама, вы ещё не спите?..@
+` Доносится шёпот Хисуи.@
+` Тук.@
+` Я представляю себе её силуэт, и моё сердце немного успокаивается.\
 
-`"...... Yeah, I'm awake.@ Please come in."@
-`"---Please excuse me."@
+` - Нет, я ещё не сплю.@ Входи.@
+` - С вашего позволения.@
 
 
 ;(?????)
@@ -594,48 +628,48 @@ ld c,":a;image\tachi\his_t23.jpg",%type_lshutter_mid
 ;CD-DA?????
 play "*1"
 
-` ...... What's this?@
-` Hisui enters carrying a tray and something that looks like medicine wrapped in paper.\
+` Это ещё что?..@
+` Хисуи входит с подносом в руках, на котором, завёрнутое в бумагу, лежит какое-то лекарство.\
 
-`"...... Hisui.@ What are you doing at this hour?"@
-`"Shiki-sama, you seemed to have trouble sleeping so I brought you some medicine."@
-`"Eh.........?@ Uh, that's right.@ ...... But how did you know, Hisui?"@
-`"I heard it from my sister.@ She told me that you were very tired, so I should give extra care."@
-` ...... I see, it was Kohaku-san.@
-` She must have seen how bad my face looked when we met in the lobby.\
+` - Хисуи...@ Что тебе нужно в такое время.@
+` - Шики-сама, мне казалось, вам не спалось, и я принесла вам лекарство.@
+` - Э?..@ А, ну да...@ Но, Хисуи, как ты узнала?@
+` - От сестры.@ Она сказала что вы очень устали, так что мне следовало о вас позаботиться.@
+` Ясно, значит это Кохаку-сан.@
+` Должно быть, она увидела как мне было плохо, когда мы встретились в фойе.\
 
-`"...... And, this medicine is?"@
+` - Да, а что это за лекарство?@
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"It is a sleep-inducing medicine.@ Your personal physician gave his approval that it could be used for you."@
-`"Approval...... at this hour!?"@
-`"No, my sister asked your personal physician as soon as she found out you were coming here to live in this mansion."@
-`"Wow--Kohaku-san is pretty amazing.@ She's pretty thoughtful."@
-` Anyway, I'm very thankful right now.@
-` Taking the water from Hisui, I drink the medicine.\
+` - Это снотворное.@ Ваш лечащий врач разрешил давать его вам.@
+` - Разрешил... Что, прямо сейчас что-ли разрешил?!@
+` - Нет, моя сестра расспросила вашего врача как только узнала, что вы собираетесь переезжать к нам.@
+` - Ого, Кохаку-сан такая предусмотрительная.@ Она молодец.@
+` Как бы то ни было, сейчас я благодарен.@
+` Взяв у Хисуи воду, я пью лекарство.\
 
 ;(??????????)
 ld c,":a;image\tachi\his_t19.jpg",%type_crossfade_mid
 
-`"Nn----ah."@
-` I start to feel very sleepy after a while.@
-`"...... Thanks, Hisui.@ Please give Kohaku-san my thanks as well."@
+` - Нн...ааа...@
+` Вскоре на меня накатывает сонливаость.@
+` - Спасибо, Хисуи...@ И поблагодари за меня Кохаку-сан."@
 ;???
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_mid
 
-`"As you wish.@ Well then, please rest well, Shiki-sama."@
+` - Как пожелаете.@ А теперь, Шики-сама, пожалуйста отдыхайте.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` ...... I can hear Hisui's footsteps.@
-` It feels like all the power is draining from my body.@
-`"Mm---feels, good---"@
-` I space out.@
-` As if I was passing out, I quickly fall asleep---\
+` Я слышу шаги Хисуи...@
+` Все силы словно покидают моё тело.@
+` «Мм...так... хорошо...»@
+` Я расслабляюсь.@
+` И словно теряя сознание, я быстро засыпаю...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -662,20 +696,20 @@ br
 br
 br
 br
-` ---Is this a dream?\
+` Это сон?..\
 
-` A red alley.@
-` The same back alley that I was in before.@
+` Красный переулок.@
+` Тот самый, в котором я был раньше.@
 br
-` Where Yumizuka Satsuki is killing.@
-` Luring appropriate passers-by into that back alley.@
+` Где убивала Юмизука Сацуки.@
+` Заманивала туда подходящих прохожих.@
 br
-` Mercilessly killing them from behind by twisting their necks like a damp cloth, then plunging her teeth into them.@
+` Безжалостно убивала их, сзади сворачивая им шею как котятам, затем вонзая в них зубы.@
 br
-` One person.@
-` Two people.@
-` Three people.@
-` Four people.\
+` Один человек.@
+` Два человека.@
+` Три человека.@
+` Четыре человека.\
 
 br
 br
@@ -685,12 +719,12 @@ br
 br
 br
 #0000ff
-`  How dare she--do those things without me!\
+`  Да как она смеет! Делать такое — и без меня!\
 #ffffff
-` As if in a dream, indulging herself in drinking the blood, Yumizuka tears apart the four dead bodies and continues licking the blood.@
+` Словно в о сне, упившись кровью, Юмизука рвёт трупы на куски, и продолжает слизывать кровь.@
 br
-` A crimson world.@
-` But, I don't feel it is sick, or detest it at all.\
+` Багряный мир.@
+` Но мне не кажется это неправильным или отвратительным.\
 
 br
 br
@@ -701,31 +735,12 @@ br
 br
 #0000ff
 
-`   Pathetic.@ Pathetic, pathetic.@
-#ffffff
-
-` A knife in my hand.@
-` *pant* *pant* My breathing is out of control.@
-` My heart is pounding like a piston, urging me to do something.\
-
-br
-br
-br
-br
-br
-br
-br
-#0000ff
-
-`    If it were me, I'd do a much better job.\
+`   Жалкое.@ Жалкое, просто жалкое зрелище.@
 #ffffff
 
-` *pant*, *pant*, *pant*.@
-` I breathe hard.@
-` Is it because I'm holding back my impulse of wanting to do the same things Yumizuka Satsuki is doing?@
-br
-` I'm going out of control.@
-` Because I don't---want to see such a thing.\
+` Моя рука сжимает нож.@
+` *вдох* *вдох* Я не могу контролировать своё дыхание.@
+` Моё сердце стучит как поршень, призывает меня к чему-то.\
 
 br
 br
@@ -736,10 +751,15 @@ br
 br
 #0000ff
 
-`       Why are you hesitating?\
+`    Я бы сделал всё это гораздо лучше.\
 #ffffff
 
-` There's no--hesitation.\
+` *вдох*, *вдох*, *вдох*.@
+` Я тяжело дышу.@
+` Почему — потому что я сдерживаю желание делать то же самое, что и Юмизука Сацуки?@
+br
+` Я теряю самоконтроль.@
+` Потому что я не... хочу видеть это.\
 
 br
 br
@@ -750,10 +770,10 @@ br
 br
 #0000ff
 
-`       Why are you holding back?\
+`       Почему ты колеблешься?\
 #ffffff
 
-` There's no--holding back.\
+` Я не... колеблюсь.\
 
 br
 br
@@ -764,10 +784,10 @@ br
 br
 #0000ff
 
-`      There's no point resisting it.\
+`       Почему ты сдерживаешься?\
 #ffffff
 
-` Someone's... irritating voice.\
+` Я не... сдерживаюсь.\
 
 br
 br
@@ -778,13 +798,10 @@ br
 br
 #0000ff
 
-`  I   I want to do   what I want to do.\
+`      Сопротивляться бессмысленно.\
 #ffffff
 
-` That voice.@ It is, my own.@
-br
-` ...... Yumizuka is crying.@
-` Is she crying because she's not good at killing?@ Or is it because she's in pain?@ I don't know.\
+` Чей-то... надоедливый голос.\
 
 br
 br
@@ -795,10 +812,13 @@ br
 br
 #0000ff
 
-`          Worthless.\
+`  Я-я хочу делать то что хочу.\
 #ffffff
 
-` Is it alright to think so?\
+` Этот голос.@ Он принадлежит мне.@
+br
+` Юмизука плачет...@
+` Она плачет потому, что из неё получается никудышний убийца?@ Или потому что ей больно?@ Я не знаю.\
 
 br
 br
@@ -809,10 +829,10 @@ br
 br
 #0000ff
 
-`       That woman is worthless.\
+`          Бесполезна.\
 #ffffff
 
-` ...... But, am I the one who is worthless?\
+` Правильно ли так думать?\
 
 br
 br
@@ -823,10 +843,10 @@ br
 br
 #0000ff
 
-`      WORTHLESS ones should just be killed.\
+`       Эта женщина бесполезна.\
 #ffffff
 
-` ...... Is it alright to kill the worthless?\
+` Но не бесполезен ли я?..\
 
 br
 br
@@ -837,7 +857,21 @@ br
 br
 #0000ff
 
-`           Kill.\
+`      БЕСПОЛЕЗНЫХ нужно убивать.\
+#ffffff
+
+` Правильно ли убивать бесполезных?\
+
+br
+br
+br
+br
+br
+br
+br
+#0000ff
+
+`           Убить.\
 #ffffff
 
 ` ..................\
@@ -853,7 +887,7 @@ br
 
 #0000ff
 
-`       Kill.\
+`       Убить.\
 #ffffff
 
 ` ...............\
@@ -867,7 +901,7 @@ br
 br
 br
 
-`   Kill.\
+`   Убить.\
 #ffffff
 
 ` ......\
@@ -881,15 +915,15 @@ br
 br
 br
 
-`  Kill.\
+`  Убить.\
 
-` KillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKKillKillKillKillKillKillKillKillKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILL.@
+` УбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУбитьУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬ.@
 ; ????????(???)<???????(?)>
 bg "image\bg\ima_13b.jpg",%type_crossfade_fst
 
-` KILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILL.@
+` УБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬ.@
 #ffffff
-` KILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILLKILL.\
+` УБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬУБИТЬ.\
 
 monocro off
 ; ???<???????(?)>
