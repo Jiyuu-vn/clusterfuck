@@ -1,9 +1,9 @@
-*s269
+<pre>*s269
 
 
 bg "image\bg\bg_27b.jpg",%type_nowaitdisp
 
-` — ...Подожди ка.@ Семпай, ты разве не сказал, что я могу делать что захочу?..@
+` — ...Подожди ка.@ Семпай, ты разве не сказала, что я могу делать что захочу?..@
 
 
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
@@ -24,3 +24,4 @@ cl c,%type_crossfade_fst
 
 
 return
+</pre>
