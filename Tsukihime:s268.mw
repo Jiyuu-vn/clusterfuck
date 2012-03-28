@@ -3,47 +3,44 @@
 <pre>
 *s268
 
-; ???? : ?????? : ?????(?)<????>
+
 bg "image\bg\bg_27b.jpg",%type_nowaitdisp
 
-` I should just tell her directly to go home.\
+` Я просто ей скажу, чтобы она шла домой.\
 
-`"Senpai, you don't have to worry about me so please go back.@ Things will get ugly if we go on like this."@
-; ??<?>=???:?01(????????)<???????(?)>
+` — Семпай, я понимаю, что ты обо мне волнуешься, но пожалуйста, иди домой.@ Ничего хорошего не выйдет, если всё будет так продолжаться.@
+
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-`"Huh?@ Ugly?@ What do you mean by that?"@
-` ...... She doesn't even seem to be listening to me.\
+` — Э?@ Ничего хорошего?@ Ты о чём?@
+` Она меня даже не слушает.\
 
-`"---Look, why don't you listen to me?@ Senpai, didn't you say I could do as I wanted?@ So why are you still getting in my way!?"@
-`"Like I said, please do as you wish.@ I'm also just doing as I wish myself."@
-; ?????<??????(?)>
+` — Слушай, почему ты меня игнорируешь?@ Разве ты не сказал, что я могу делать что мне хочется?@ Так почему ты всё ещё путаешься у меня под ногами?!@
+` — Как я и говорила, делай что хочешь.@ А я буду делать то, что хочется мне.@
+
 cl c,%type_lshutter_mid
 
-` Still smiling, Senpai walks ahead of me.\
+` С улыбкой на лице она обходит меня.\
 
-`"Hey---Senpai!"@
-; ??<?>=???:?01(????????)<???????(?)>
+` — Эй... Семпай!@
+
 ld c,":a;image\tachi\cel_t07b.jpg",%type_lshutter_fst
-`"Huh?@ What is it, Tohno-kun?"@
-`"What is it!?@ Do you enjoy troubling me like this!?"@
-; ??<?>=???:?01(????????)<???????(?)>
+` — Э?@ Что такое, Тоно-кун?@
+` — Что такое?!@ Тебе что, нравится меня изводить?!@
+
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-` She smiles.@
-` ...... It seems she really does enjoy it.\
+` Она улыбается.@
+` Похоже ей и вправду это нравится.\
 
-`"...... I get it.@ I understand that you're quite a mean person, but let me off the hook for today.@ If you keep following me, things will not only be dangerous for me, but for you as well."@
-`"Oh really?@ I'm not really following you or anything."\
+` — Я понял.@ Мне ясно, что ты жестока, но не надо ко мне приставать сегодня, пожалуйста.@ Если ты продолжишь следовать за мной, то результат будет опасным не только для меня, но и для тебя тоже.@
+` — Ох правда?@ Но я за тобой и не следую.\
 
-`"Eh---?"@
-`"I simply have something to do in the park.@ I don't know where you are going, Tohno-kun, but if you're not going to the park, then this is where we say goodbye."\
+` — Э?..@
+` — Мне просто надо кое-что сдлать в парке.@ Я не знаю куда ты идёшь, Тоно-кун, но если не в парк, то там мы и распрощаемся.\
 cl c,%type_crossfade_fst
 
 
 
-return
-
-
-</pre>
+return</pre>
 
 [[Tsukihime|[Назад]]]
 
