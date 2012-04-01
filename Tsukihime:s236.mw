@@ -21,31 +21,31 @@ gosub *right_phase
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
 
-`"Shiki-sama......!"@
+` - Шики-сама!..@
 br
-` ----There's a voice calling me.@
+` Чей-то голос зовёт меня...@
 br
-`"Please remain strong.@ I shall bring you something to drink."@
+` - Пожалуйста, крепитесь.@ Я принесу вам чего-нибудь попить.@
 br
-` ----I sense the presence receding.@
+` Чужое присуствие отдаляется...@
 br
-` Footsteps.@
-` It makes me realize that it is morning now.\
+` До меня доносится звук шагов.@
+` И я осознаю, что сейчас утро.\
 
 ; ?? : ?? : ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_slw
 ;S.E."??????????…?(???)"
 waveloop se10
 
-`"-----"@
-` I open my eyes.@
-` There isn't anyone else in my room.@
-` I hear something ragged.@
-`"...... What is...... that noise?"@
-` Speaking, I realize that it was my own breathing.@
-`"Hu...... h?"@
-` My body is drenched in sweat.@
-` A tiredness suffocates me, as if I had just ran a long marathon.\
+` «...»@
+` Я открываю глаза.@
+` В комнате кроме меня никого нет.@
+` Я слышу какой-то неприятный звук.@
+` - Что это...шумит?..@
+` Заговорив, я понимаю, что это был звук моего дыхания.@
+` - А...а?..@
+` Всё моё тело покрыто потом.@
+` Я чувствую дикую усталость, как будто только что марафон пробежал.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -54,16 +54,16 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 
 
-`"Kgggh......"@
-` My head hurts.@
-` ...... Because I saw that hideous dream.@
-` Yumizuka painted with blood, and I, staring at her in envy.@ A complete nightmare.\
+` - Кгххх...@
+` Голова болит...@
+` Это из-за того жуткого сна.@
+` Покрытая кровью Юмизука, и я, с завистью смотрящий на неё.@ Настоящий кошмар.\
 
-`"...... There's something wrong......"@
-` I manage to say this much, still breathing hard.@
-` Last night's dream still lingers in my head.@
-` It really was a horrific nightmare.@
-` I was just blanked out in my dream, as if I couldn't rouse myself from the nightmare if I tried.\
+` - Что-то явно не так...@
+` Всё ещё тяжело дыша, с трудом произношу я.@
+` Приснившийся мне кошмар всё ещё остаётся у меня в голове.@
+` Это было очень жутко.@
+` Во сне я чувствовал себя совершенно бессильным, как будто я не смог проснуться даже если бы попытался.\
 
 ;(????04?????????????????????)
 ; ?? : 01~10 : 04_??02(????????)<??????(?)>
@@ -73,69 +73,69 @@ wavestop
 ;CD-DA?????
 play "*2"
 
-`"Shiki-sama......!"@
-` And then,
-` Hisui rushes into my room.@
-`"Hisui......?@ Did something happen?@ You didn't even knock."@
-`"Um...... Are you awake, Shiki-sama......?"@
-`"Yeah, I just got up.@ Good morning, Hisui.@ Thanks for coming to wake me."@
+` - Шики-сама!..@
+` И в этот момент 
+` Хисуи вбегает в мою комнату.@
+` - Хисуи?..@ Что-то случилось?@ Ты даже не постучала.@
+` - Эм... Шики-сама, вы проснулись?@
+` - Да, только что.@ Доброе утро, Хисуи.@ Спасибо, что пришла меня разбудить.@
 
 ;(?????01)
 ; ?? : 01~10 : 07_??<???????(?)>
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"Um--yes.@ Good morning."@
-` Returning my greeting apologetically, Hisui approaches the bed.\
+` - А — да.@ С добрым утром.@
+` Хисуи отвечает мне извиняющимся тоном, после чего подходит к кровати.\
 
 ;(????01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"I have brought you something to drink.@ You do not appear well, so please drink it."@
-` Looking at it, it seems like she brought a drink on a silver tray like she did yesterday.@
-`"......?@ I don't really feel bad or anything.@ I slept soundly and I feel refreshed."@
-`"But---"@
-` Hisui stares at me.@
-`"You seemed to be in a very poor state earlier.@ Shiki-sama, does the scar on your chest not hurt?"\
+` - Я принесла вам попить.@ Вы нехорошо выглядите, так что, пожалуйста, пейте.@
+` Похоже, она принесла мне попить на серебряном подносе, как и вчера.@
+` - ?..@ Но я чувствую себя вполне нормально.@ Спал я крепко, и сейчас отдохнул.@
+` - Но...@
+` Хисуи удивлённо смотрит на меня.@
+` - Немного раньше вы выглядели очень неважно.@ Шики-сама, ваш шрам на груди не болит.\
 
-`"No, not really...... Well, it may be because of that terrible dream.@ I was really having quite a nightmare."@
+` - Да нет... Это наверное из-за того сна.@ Мне такой кошмар приснился...@
 br
-` ...... I feel dizzy just remembering it.@
-` Hisui looks intently at my face.@
+` От одного воспоминания у меня голова идёт кругом.@
+` Хисуи пристально смотрит мне в лицо.@
 br
-`"...... I see.@ Hisui, you woke me up."@
+` - Я понял.@ Хисуи, ты меня разбудила.@
 
 ;(?????01)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"...... Yes, I am deeply sorry."@
-`"What are you saying?@ Thanks, Hisui.@ You really helped me a lot."@
+` - Да. Мне очень жаль.@
+` - Ты чего?@ Спасибо, Хисуи.@ Ты меня очень выручила.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t03.jpg",%type_crossfade_fst
 
-` I really do mean that from my heart.@
-` If she hadn't woken me, I might still be trapped inside that awful nightmare.\
+` Я говорю совершенно искренне.@
+` Если бы она меня не разбуила, я бы всё ещё был бы заперт в том кошмаре.\
 
-`"I'll change and go to the dining room.@ Thanks for everything--and for giving me this drink.@ Sorry about that."@
+` - Я переоденусь и пойду в столовую.@ Спасибо за всё — и за то, что принесла попить тоже.@ Извини.@
 
 
-`"No, you do not need to apologize.@ I will wait for you in the sitting room."@
+` - Вам не нужно извиняться.@ Я буду ждать вас в гостиной.@
 
 ;(?????????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Hisui silently leaves the room.\
+` Хисуи молча покидает комнату.\
 
-` To be honest, I really am quite moved.@
-` I thought she was truly without emotions, but she may just be poor at expressing them.\
-` She was so distressed over me having a nightmare, it makes me smile imagining her in such a hurry.@
-` Maybe it isn't that hard to see Hisui's smile.\
+` Честно говоря, я весьма тронут.@
+` Я решил, что она совершенно бесчувственна, но, похоже, она просто не умеет свои чувства выражать.\
+` Она так переволновалась из-за моего кошмара, я неволно улыбаюсь, представив, как она суетится.@
+` Может, не так уж и трудно заставить её улыбнуться.\
 
-`"----Well, time to get up!"@
-` I throw off the sheets and get up.@
+` - Ну что ж, пора вставать!@
+` Я сбрасываю с себя простыни и встаю.@
 br
-` ---In that instant.@
+` В этот момент...@
 br
 
 ;S.E."??"
@@ -148,29 +148,29 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-` Pain explodes through my body.@
-`"Gaaah.........!"@
-` It's from a much deeper place, aching with my heartbeat.@
-`"Ah---ggghh---"@
-` Clenching the sheets, I somehow weather the pain.\
+` Боль пронзает моё тело.@
+` - Гхааа!..@
+` Боль идёт изнутри, пульсируя в унисон с моим сердцем.@
+`  - Агггхх...@
+` Сжав простыни, я стараюсь перетерпеть её.\
 
 ;S.E.??
 wavestop
 
 
-`"Ahhh--"@
-` It fades away.@
-` There's nothing lingering.@ Perhaps just a sudden fit?@
-`"...... Chest... wound."@
-` I bring my hand over my chest.@
-` There is a great scar there, and even though that it has healed, at times it still hurts like it did just now.@
-` The doctor said the physical wound is healed, but that the mind must be replaying the pain over and over again.\
+` - Хаа...@
+` Боль отступает.@
+` Я уже ничего не чувствую.@ Может, просто случайный приступ?@
+` «Рана... на груди...»@
+` Я касаюсь своей груди.@
+` Там у меня большой шрам, и хоть он давно зажил, иногда он может снова заболеть, как сейчас.@
+` Врач сказал что рана зажила, но периодически могут случаться фантомные боли.\
 
-` Usually, the scar begins throbbing after I see a traffic accident or a dead body.@
-` The image of blood or death must make me recall the accident eight years ago.@
-`"...... Because of last night, I guess."@
-` The red back alley.@
-` And the normal, smiling face of Yumizuka.\
+` Как правило, шрам начинает пульсировать когда я гляжу на место аварии или труп.@
+` Вид крови или смерти заставляет меня вспоминать то, что случилось восемь лет назад.@
+` «Наверно, это из-за вчерашнего...»@
+` Красный переулок.@
+` И нормальное, улыбающееся лицо Юмизуки.\
 
 ;S.E."??"
 wave se0
@@ -181,14 +181,14 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 
-`"Guh--!"@
-` My chest--hurts.@
-` The image of Yumizuka doesn't leave my mind.@
-` But I don't know what I should do, what I can do.@
-` I can only live my everyday life.@
-`"...... Shi... t..."@
-` Swearing at myself, I roll out of bed.@
-` After changing out of my pajamas and into my school uniform, I head to the sitting room.\
+` - Гха!..@
+` В груди... болит.@
+` Юмизука никак не выходит у меня из головы.@
+` Но я не знаю что мне делать, что я могу сделать.@
+` Я могу только вести свою обычную жизнь.@
+` «Твою мать...»@
+` Выругавшись про себя, я вылезаю из постели.@
+` Переодевшись из пижамы в школьную форму, я направляюсь в гостиную.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -196,112 +196,112 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
-` Akiha and Hisui are in the sitting room.@
-` Kohaku-san is probably in the kitchen cooking my breakfast.\
+` В гостиной расположились Акиха и Хисуи.@
+` Кохаку-сан сейчас, наверное, на кухне, завтрак мне готовит.\
 
 ;(???01)
 ; ?? : 01~10 : 01_?01(????)<??????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_lshutter_fst
 
-`"Good morning, Nii-san."@
-` Sitting on the sofa, Akiha greets me and looks at my expression.@
-`"...... Ah, good morning Akiha."@
-` Returning her greeting, I head to the dining room.@
-` There really isn't that much time for me to stay and chat with Akiha---and I don't really feel like talking to anyone at all.\
+` - Доброе утро, Нии-сан.@
+` Сидя на диване, Акиха здоровается со мной и вглядывается мне в лицо.@
+` - А, доброе утро, Акиха.@
+` Поздоровавшись, я направляюсь в столовую.@
+` У меня особо нет времени чтобы остаться и поговорить с Акихой — да мне и не хочется сейчас ни с кем разговаривать.\
 
 
-`"Nii-san, I would like to speak with you a little---is that alright?"@
-`"That's fine, but please make it short since I don't have much time."@
-` I sit on the sofa across from her.@
+` - Нии-сан, я бы хотела немного поговорить с тобой, если ты не против.@
+` - Не против, но только не долго, у меня остаётся не так много времени.@
+` Я усаживаюсь на диване напротви неё.@
 
 ;(???02)
 ; ?? : 01~10 : 02_?02(????????????)<???????(?)>
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`"Then I will get straight to the point.@ Nii-san, where did you go last night?"@
-` Akiha looks directly at me as she asks.@
-` ...... Kohaku-san probably did keep it a secret, but I guess it wasn't possible to hide being gone for two hours.\
+` - Тогда перейдём сразу к делу.@ Нии-сан, где ты был прошлым вечером?@
+` Глядя прямо на меня, спрашивает Акиха.@
+` Кохаку-сан наверняка ничего не рассказала, но скрыть чьё-то двухчасовое отсутствие, очевидно, невозможно в принципе...\
 
-`"Nothing.@ Just went for a walk in town.@ I'm sorry for getting back late, but it's no big deal."@
-` Since I don't want to lie to Akiha, I answer as evasively as possible.\
+` - Нигде.@ Просто по городу гулял.@ Прости что вернулся так поздно, но ничего особенного не случилось.@
+` Я не хочу врать Акихе, потому отвечаю как можно более уклончиво.\
 
 ;(??03)
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"Just walking the streets IS something.@ You are still a minor, so please do not wander out late at night.@ Even if you weren't, there have been a lot of disturbances going on."@
+` - Просто гулять по улице это УЖЕ что-то.@ Ты ещё несовершеннолетний, так что не загуливайся допоздна.@ Да и будь ты взрослым, всё равно, в городе сейчас неспокойно.@
 ;S.E."??"
 wave se0
 
-`"------Ah."\
+`  - А...\
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` Disturbances--the killer skulking around town at night.@
-` Why?@
-` Why didn't I realize it?@
-` The killer that murders people and drinks their blood.@
-` That phrase perfectly matches Yumizuka's behavior yesterday----\
+` Неспокойно — в городе по ночам бродит убийца.@
+` Почему?@
+` Почему я раньше этого не понял?@
+` Убийца, пьющий кровь своих жертв.@
+` Это в точности описывает вчерашнее поведение Юмизуки...\
 
 ;(???12)
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
 
-`"...... I shouldn't have to say this, but you shouldn't strain your body.@
-` If you come back with an exhausted face like last night's again, I'll get worried.@
-` If you're in trouble, please tell me.@ I may not be able to do much, but if you could..."@
+` - Мне не следует этого говорить, но тебе нельзя перенапрягаться.@
+` Если ты каждый вечер будешь возвращаться с таким измученым видом, я буду переживать.@
+` Если у тебя каки-ето неприятности, пожалуйста, скажи мне.@ Не знаю, смогу ли я помочь, но если бы ты только...@
 br
-` ---I don't want to think about it, but...
+` ...Я не хочу об этом думать, но...
 br
-` Yumizuka.@ Yumizuka could be the killer terrorizing the town.\
+` Юмизука.@ Юмизука может быть тем убийцей, что терроризирует город.\
 
 ;(???03)
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"...... Nii-san?@ Are you listening to me?"@
-`"Eh----uh, yeah.@ I'm listening."@
-` I hear Akiha's voice.@
-` But, the only thing in my mind is the image of Yumizuka from yesterday.\
+` - ...Нии-сан?@ Ты слушаешь?@
+` - Э? А, да.@ Я слушаю.@
+` Я слышу голос Акихи.@
+` Но на уме у меня сейчас только вчерашняя сцена с Юмизукой.\
 
 ;(???02)
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-` Akiha glares at me.\
-`"So.@ You can't talk about your situation, Nii-san?"@
-`"Yeah.@ It has nothing to do with you, Akiha."@
-` Right now, I can think only of Yumizuka.@
-` I want to be alone--and so I said that.\
+` Акиха пристально смотрит на меня.\
+` - Итак.@ Нии-сан, ты не можешь рассказать о своей ситуации?@
+` - Да.@ Акиха, тебя это не касается.@
+` Сейчас я могу думать только о Юмизуке.@
+` Я хочу чтобы меня оставили в покое, потому и говорю это.\
 
 ;(???01)
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"You're going to keep going your own way, is that what you're saying, Nii-san?"@
-`"..............."@
-`"I understand.@ Well, please, feel free.@ If that's what you want, Nii-san, I'll do the same."@
+` - Нии-сан, ты и дальше собираешься поступать по своему, ты это хочешь сказать?@
+` - ...@
+` - Я поняла.@ Ну что ж, как тебе будет угодно.@ Раз ты этого хочешь, Нии-сан, то и я поступлю так же.@
 cl c,%type_lshutter_mid
 
-` Akiha stands, and walks out to the lobby.\
+` Акиха встаёт и выходит в фойе.
 
 ;(???01)
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Shiki-sama?@ Is this acceptable?"@
-`"...... Acceptable?@ Is what acceptable?"@
-`"I believe Akiha-sama is deeply concerned about you, Shiki-sama.@ But I think it is difficult for her since she does not often talk about her feelings----"@
-`"I know.@ But right now, my head's full, and I can't... I do feel sorry."@
-`"............"\
+` - Шики-сама?@ Разве это приемлимо?@
+` - Приемлимо?@ Что приемлимо?@
+` - Шики-сама, мне кажется, Акиха-сама очень сильно переживает за вас.@ Но по-моему, для неё это сложно, поскольку она редко говорит о своих чувствах...@
+` - Я знаю.@ Но сейчас у меня голова забита другим, ия не могу... Но мне действительно жаль.@
+` - ...\
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` Hisui falls silent.@
+` Хисуи замолкает.@
 br
-`"Shiki-saaaan, breakfast!"@
-` Kohaku-san's voice can be heard from the dining room.@
-` I stand up and head towards it.\
+` - Шики-саааан, завтракать!@
+` Голос Кохаку-сан доносится из столовой.@
+` Я встаю и иду в столовую.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -313,21 +313,21 @@ bg "image\bg\bg_32a.jpg",%type_lcartain_fst
 ;(??01)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
-`"Shiki-sama, around what time will you be returning today?"@
-`"Ahh... since today's Saturday... --No.@ It'll probably be in the evening.@ There's something I want to look for."@
+` - Шики-сама, в котором часу вы сегодня вернётесь?@
+` - Так, сегодня суббота... Нет.@ Скорее всего я буду вечером.@ Мне нужно кое-что поискать.@
 
 ;(?????)
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"I understand.@ Please, take care until then."@
-` She bows deeply.@
+`  - Я поняла.@ Пожалуйста, берегите себя.@
+` Она низко кланяется.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_crossfade_fst
 
-` After Hisui sees me off, I leave the mansion.\
+` Хисуи провожает меня, и я покидаю поместье.\
 
 
 ; ???<???????(?)>
@@ -343,14 +343,14 @@ bg "image\bg\bg_06a.jpg",%type_rshutter_mid
 
 
 
-` ---There was no point coming to school.@
+` Приходить в школу оказалось абсолютно безсмысленно.@
 br
-` Yumizuka Satsuki was treated as an absentee, and no one seemed to be the slightest bit concerned about her.@
-` Time passed without my realizing it.@ Perhaps Arihiko or Ciel-senpai came by sometime, but I don't really remember.\
+` Юмизуку Сацуки отметили как отсутствующую, и похоже никто за неё нисколько не волновался.@
+` Время прошло незаметно для меня.@ Может, приходил Арихико или Сиэль-сэмпай, но я не помню.\
 
-` Noon comes, and school ends.@
-` I have no idea.@
-` I have no idea, but I still have to look for Yumizuka.@
+` Наступает полдень, и занятия заканчиваются.@
+` У меня нет никаких идей.@
+` У меня нет никаких идей, но мне всё равно надо искать Юмизуку.@
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -375,31 +375,31 @@ bg "image\bg\bg_23b.jpg",%type_lcartain_slw
 
 
 
-` The sun sets.@
-` Even after running everywhere in town, there's no sign of Yumizuka Satsuki anywhere.@
+` Солнце садится.@
+` Даже оббегав весь город, я не нашёл ни следа Юмизуки Сацуки.@
 br
-`"............ Gah."@
-` I bite my lip angrily.@
-` ...... But it's not anger over not finding her.\
+` - Хаа...@
+` От злости я закусываю губу.@
+` Но эта злость не из-за того, что я не могу её найти.\
 
-` Two days ago.@
-` I'm mad at myself for promising such a thing in the first place.@
+` Два дня назад.@
+` Я злюсь на себя за то, что вообще пообещал такое.@
 br
-` ---Help me when I'm in a pinch, okay?@
+` «Помоги мне если я окажусь в беде, ладно?»@
 br
-` Yumizuka said that, and I answered lightheartedly.@
-` I would help, as much as I could.@
-` ...... Such an irresponsible answer.@
-` There's really nothing I can do.@
-` She said it hurt.@
-` I can't even find Yumizuka, painfully suffering in the cold darkness.\
+` Это были слова Юмизуки, и я необдуманно ответил.@
+` Помогу чем смогу...@
+` Такой безответственный ответ.@
+` Я ведь ничего не могу сделать.@
+` Она сказала, что ей больно.@
+` А я даже не могу найти Юмизуку, страдающую где-то в холодной тьме.\
 
-`"---"@
-` The sun is setting.@
-` ...... I don't want to admit it, but maybe I can only find Yumizuka after nightfall.@
-`"...... I told Hisui I'd be back in the evening."@
-` Perhaps it's too early.@
-` I'll go back to the mansion and calmly think this through.\
+` - ...@
+` Солнце садится.@
+` Мне не хочется этого признавать, но по видимому, мне удастся найти Юмизуку только после захода солнца...@
+` - Я обещал Хисуи вернуться вечером...@
+` Наверное, ещё рано.@
+` Я вернусь в поместье и спокойно всё обдумаю.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -418,19 +418,19 @@ bg "image\bg\bg_33b.jpg",%type_lcartain_mid
 ;(???01)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
-`"Welcome home, Shiki-sama."@
-` Hisui was waiting in the lobby.@
-`"I'm back...... Hisui, where's Akiha?"@
-`"Akiha-sama has not returned yet.@ Since she shall be late, we are to have supper first."@
-`"I see...... I'll be resting in my room until dinner, so I'll head to the dining room when it's time."@
-`"Yes.@ Please rest until I call you."@
+` - С возвращением, Шики-сама.@
+` Хисуи дожидалась меня в фойе.@
+` - Я дома. Хисуи, где Акиха?@
+` - Акиха-сама ещё не вернулась.@ Поскольку она будет поздно, мы поужинаем без неё.@
+` - Понятно... До ужина я буду у себя в комнате, и когда настанет время спущусь в столовую.@
+` - Хорошо.@ Пожалуйста, отдыхайте пока я вас не позову.@
 
 ;?????
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` I turn my back to the bowing Hisui and walk towards my room.\
+` Я отворачиваюсь от склонившейся Хисуи и иду к себе в комнату.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -440,13 +440,13 @@ bg "image\bg\bg_40c.jpg",%type_crossfade_mid
 
 
 br
-` ---After supper, I sit down on my bed.@
+` После ужина, я усаживаюсь к себе на кровать.@
 br
-` The clock's hands show nine o'clock.@
-` Since leaving the mansion after eight is forbidden, I cannot go outside any longer.@
-`"............"@
-` But, that's merely a rule.@
-` If I feel like it, I can easily go outside.\
+` Стрелки часов показывают девять вечера.@
+` Покидать поместье после восьми запрещено, так что я уже не могу выходить. @
+` - ...@
+` Но это всего лишь правило.@
+` Я могу без проблем уйти, если захочу.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -465,7 +465,7 @@ br
 br
 br
 br
-` ---Bye-bye.@ See you at school tomorrow, Tohno-kun.\
+` «Пока, Тоно-кун.@ Увидимся завтра в школе.»\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -477,12 +477,12 @@ monocro off
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-` ...... What...... am I thinking?@ It's just foolish.@
-` I just can't comprehend what's happening to Yumizuka.@
-` I do realize she is the vampire serial killer causing all these incidents in town.@
+` О чём я только думаю?..@ Это же глупо.@
+` Я не могу понять что на самом деле происходит с Юмизукой.@
+` Я знаю, что она и есть вампир-убийца, виновный во всех тех происшествиях в городе.@
 br
-` But still.@
-` I can not forget her last words she said in the sunset on our way home----\
+` Но всё равно.@
+` Я не могу забыть её прощальных слов тогда, на закате по пути домой...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -493,65 +493,65 @@ playstop
 bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 
 
-` ...... Before I realize it, it's almost midnight.@
-` Lost in thinking about what I should do, I've passed some of the night wide awake.@
+` Не успел я оглянуться, как наступила полночь.@
+` Задумавшись о том, что делать дальше, я засиделся до ночи.@
 br
 
 ;S.E."???"
 wave se3
 
 
-`"...... Shiki-sama, are you awake......?"@
-` ...... Hisui's voice.@
-` Why is she up this late at night?\
+` - Шики-сама, вы ещё не спите?@
+` Голос Хисуи...@
+` Почему она ещё не спит в такое время?\
 
 ; ?? : ???? : ????(?)<??????(?)>
 bg "image\bg\bg_46c.jpg",%type_lshutter_fst
 
 
-`"I'm up, but why, Hisui?"@
+` - Нет, Хисуи, а что такое?@
 
 ;(????)
 ld c,":a;image\tachi\his_t23.jpg",%type_lshutter_mid
 
-`"---Yes, I was unsure, but if you were awake, I thought that I should tell you."@
-`"Tell me what?"@
-`"Just a while ago, a call came for you, Shiki-sama.@ The message was that 'I'll be waiting in the park.'"@
-`"Phone call...... This late at night?"@
-`"Yes, the call ended before I could ask for a name, so I was unsure if I should tell you, Shiki-sama--"\
+` - Я не знала, спите вы или нет, но раз ещё нет, мне надо вам сказать кое-что.@
+` - Что именно?@
+` - Шики-сама, вам только что позвонили.@ Просили передать, что будут ждать в парке.@
+` - Звонок... В такое время?@
+` - Да. Звонок оборвался прежде чем я успела спросить имя, так что я не была уверена, сообщать ли вам или нет...\
 
-`"No--that is......"@
+` - Да нет — это...@
 br
-` ...... This doesn't require any thought.@
-` That phone call had to have been from Yumizuka.@
+` Тут и думать нечего.@
+` Звонила наверняка Юмизука.@
 br
-`"...... Thanks.@ But, it's a little late, so I'll wait until tomorrow.@ She's one of my classmates, so I'll see her tomorrow."@
+` - Спасибо.@ Но уже поздно, так что это подождёт до завтра.@ Это была одна моя одноклассница, так что я с ней завтра увижусь.@
 
 ;(???04)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"That is not true.@ There is something wrong with smiling like that with such a strained face."\
+` - Неправда.@ Я же вижу, что что-то не так, раз вы улыбаетесь с таким напряжённым лицом.\
 
 
-`"Stupid, I'm not lying at all.@ I'm fine, I won't go out this late at night.@ Akiha would get mad, and you would get in trouble, so there's no reason for me to do that."@
-`"....................."@
-` Hisui descends into silence.@
-` The conversation between us dies.\
+` - Глупая, ничего я не вру.@ Всё в порядке, и я так поздно выходить не буду.@ Акиха будет злиться, и у тебя будут неприятности, так что у меня нет причин это делать.@
+` - ...@
+` Хисуи замолкает.@
+` Дальше разговор не клеится.\
 
 ;(?????02)
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
 
-`"...... Shiki-sama.@ Please do not push yourself too hard."@
-`"...... Nah, I'm not pushing anything.@ I'll go to sleep, so please go back to your room."@
-`"....................."@
+` - Шики-сама.@ Пожалуйста, не берите на себя так много.@
+` - Ничего я на себя не беру.@ Сейчас я лягу, так что возвращайся к себе в комнату.@
+` - ...@
 
 ;????
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-` Hisui just looks at me.@
-`"---Well, good night."@
-` Not being able to endure her stare, I slam the door.\
+` Хисуи просто смотрит на меня.@
+` - ...Ну, доброй ночи.@
+` Не в состоянии выдержать её взгляд, я захлопываю дверь.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -560,19 +560,19 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_40d.jpg",%type_lshutter_fst
 
 
-`"...... Sheesh.@ I can't hide anything from Hisui."@
-` I take my knife out of the drawer.@
-` ...... I don't intend to necessarily use it, but I just feel better with it by my side.@
+` - Ё-моё.@ От Хисуи ничего не скроешь.@
+` Я достаю нож из ящика стола.@
+` Я не собираюсь его использовать, но с ним мне будет спокойней.@
 br
-`"---The park?@ Why would she call me out at this hour---"@
+` «Парк?@ Зачем ей звонить в такое время?..»@
 br
-` Muttering, I think back to those foolish tales.@
-` Vampires can only move about during night time.@
-` So supposing that's true, then Yumizuka didn't call me out at this hour.@
-` It's more like if it wasn't this hour, then she couldn't call me at all.\
+` Бормоча себе под нос, я прокручиваю в голове известные мне истории про вамприров. @
+` Вампиры могут передвигаться только ночью.@
+` Предположим, что это правда, то Юмизука не планировала встретиться со мной именно сейчас.@
+` Скорее, в другое время она просто не могла позвонить мне.\
 
-`"...... Sorry, Hisui.@ Even I think I'm stupid.@ You told me not to strain myself, but I can't just sleep like this."@
-` Apologizing to the empty room, I quietly leave the mansion.\
+` - Прости, Хисуи...@ Даже я считаю себя дураком.@ Ты говорила мне не брать на себя так много, но я не могу просто спать.@
+` Извинившись перед пустой комнатой, я тих покидаю поместье.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -585,30 +585,30 @@ play "*1"
 bg "image\bg\bg_27b.jpg",%type_lcartain_fst
 
 
-` *pant*--*pant*--*pant*
-` I rest my body, burning from all the running.@
-` It's almost midnight.\
+` *вдох*-*вдох*-*вдох*
+` Я устраиваюсь передохнуть, моё тело горит от долгого бега.@
+` Уже почти полночь.\
 
-` The park located off of the main road.@
-` Because of the serial killings these past several days, there's not a soul to be seen around here.@
-`"........."@
-` Thump.@ My heart beats loudly.@
-` My throat dries up from the tension.@
-` If the phone call that Hisui received was from Yumizuka,
-` then she has to be waiting there for me.\
+` Парк был расположен по правой стороне главной улицы.@
+` Из-за недавних серийных убийств, в округе нет ни души.@
+` - ...@
+` Тук.@ Моё сердце громко стучит.@
+` В горле пересохло от напряжения.@
+` Если с Хисуи действительно разговаривала Юмизука,
+` то она должна ждать здесь.\
 
 ; ???? : ?????? : ??A(?)<?????(?)>
 bg "image\bg\bg_28b.jpg",%type_lcartain_mid
 
 
-` The park is empty at night.@
-` There isn't a sound under the the moonlight.@
-` I don't know why, but a chill runs through me.@
+` Ночной парк пуст.@
+` Ни звука не раздаётся под луной.@
+` Не знаю почему, но по мне пробежал холодок.@
 br
-`"----------Sst."@
+` - Сст...@
 br
-` The back of my head numbs.@
-` A horrible chill, as if my body freezes to my fingertips.\
+` В затылке у меня занемело.@
+` Меня охватывает ужас, моё тело словно промерзло до самых кончиков пальцев.\
 ;S.E."??"
 wave se0
 
@@ -618,17 +618,17 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_28b.jpg",%type_crossfade_fst
 
 
-` I try to catch my breath.@
-` In contrast to my cold body, my throat is scorching.@
-` It's dry with thirst.@
-` I put my hand in my pocket.@
-` I just---wanted a blade in my hand.\
+` Я пытаюсь отдышаться.@
+` В отличие от моего холодного тела, горло у меня пылает.@
+` Оно пересохло от жажды.@
+` Я кладу руку в карман.@
+` Сейчас я только хочу... почувствовать нож в руке.\
 
-`"Why...?"@
-` Just...@
-` A faint headache.@
-` A low temperature.@
-` My mind is cool like ice.\
+` «Почему?..@
+` Всего лишь...@
+` Лёгкая головная боль.@
+` Пониженная температура.@
+` Мой разум холоден как лёд.\
 
 ;S.E."??"
 wave se0
@@ -636,10 +636,10 @@ wave se0
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_28b.jpg",%type_crossfade_fst
 
-` Something is strange.@
-` This park, it feels like something bad is around here.@
-`"...... Just what am I afraid of?"@
-` I shake the headache off, and walk deeper in.\
+` Что-то не так.@
+` Словно что-то плохое скрывается в этом парке.@
+` «Да чего я боюсь?..»@
+` Я забываю про головную боль, и иду дальше.\
 ;S.E."??"
 wave se0
 
@@ -650,34 +650,34 @@ bg "image\bg\bg_29b.jpg",%type_lcartain_mid
 
 
 
-` There's no one around.@
-` A terribly dark and lonely place to meet someone.@
+` Никого нет.@
+` Ужасно мрачное и одинокое место для встречи.@
 br
-` There--someone is crouched.@
+` Там... кто-то сидит, скрючившись.@
 br
-` Breathing raggedly.@
-` Her face, pale white, as she scratches her throat in pain.@
-` Without a doubt, it is Yumizuka Satsuki.\
+` Она неровно дышит.@
+` Её лицо белое как мел, от боли она царапает себе горло.@
+` Несомненно, это Юмизука Сацуки.\
 
 
 ;CD-DA????????????
 play "*9"
 
 
-`"Yumi... zuka?"@
-` Her figure is tormented.@ Without a thought for what happened last night, I run towards her.@
+` - Юми...зука?@
+` Она вся измучена.@ Не думая о том, что было вчера, я бегу к ней.@
 
 ; ??? : 01~10 : 04_??????<??????(?)>
 ld c,":a;image\tachi\stk_t04.jpg",%type_lshutter_mid
 
-`"Wait... !"@
-` Yumizuka stops me with just a word.\
+` - Стой!..@
+` Юмизука останавливает меня лишь одним словом.\
 
-`"...... Wait, Shiki-kun.@ I'm glad you came, but I don't want you any nearer right now.@ Please, don't come any closer."@
-` Her breathing looks painful.@
-` Her body convulses as she speaks, as if she's about to collapse any second now.\
+` - Шики-кун, погоди...@ Я рада что ты пришёл, но я не хочу, чтобы ты приближался.@ Пожалуйста, ближе не подходи.@
+` Её дыхание затруднено.@
+` Тело её содрогается, словно она в любую секунду готова потерять сознание.\
 
-`"Don't be stupid!@ I'm not going to leave someone looking as painful as you alone...!"@
+` - Не глупи!@ Я не собираюсь бросать человека, который испытывает такую боль!..@
 
 cl c,%type_crossfade_fst
 
@@ -685,71 +685,71 @@ cl c,%type_crossfade_fst
 ; ??? : 01~10 : 03_?<???????(?)>
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_mid
 
-`"No, I'm okay... You came, so I'm fine now."@
-` Forcing herself up, Yumizuka smiles at me.\
+` - Нет, я в порядке... Ты пришёл, так что теперь я в порядке.@
+` С трудом поднявшись, Юмизука улыбается мне.\
 
-`"...... What's going on, Yumizuka?@ Why haven't you been home?@ What was that about, yesterday?@ Why, that----"@
-`"Hm?@ That what?"@
-`"That---you know what I'm talking about!"@
+` - Юмизука, что происходит?@ Почему ты ушла из дома?@ Вчера, что это было?@ Ну, это...@
+` - Мм?@ Что, это?@
+` - Это... ты знаешь, о чём я!@
 
 ;(?????)
 ld c,":a;image\tachi\stk_t01.jpg",%type_crossfade_fst
 
-`"If you mean yesterday---well, you saw what happened.@ I told you, 'I killed those people,' didn't I?"@
-` She answers frankly.@
-` ...... It's almost as if she's laughing at my feelings of denial.\
+` - Если ты о вчерашнем — ну, ты видел, что произошло.@ Я же сказала, что убила тех людей, не так ли?@
+` Прямо отвечает она.@
+` Она словно смеётся над моим отрицанием....\
 
-`"Then... the recent killings in town were all your doing, Yumizuka...!"@
-`"I don't like to say it, but... that's the way it is, yeah."@
-`"What the hell do you mean, 'That's the way it is' ...!?"@
-`"It's just the way it is.@ I killed those people, and I'll keep on doing the same thing.@ I can't just lie about it, can I?"@
-`"Yumi... zuka, you--"@
-`"Please.@ Stop calling me that.@ I'm calling you Shiki-kun, so it's only fair for you to call me by my first name too."\
+` - Значит... недавние убийства в городе, это твоих рук дело, Юмизука!..@
+` - Мне не хочется это говорить, но... да, так оно и есть.@
+` - Какого хрена это значит, «так оно и есть»?!.@
+` - Но ведь это именно так.@ Я убила тех людей, и я буду делать это снова.@ Я же не могу просто соврать, правда?@
+` - Юмизука... ты...@
+` - Прошу тебя.@ Не называй меня так.@ Я же зову тебя Шики-кун, так что будет честно если и ты будешь звать меня по имени.\
 
-`"Wha..."@
-` I take a deep breath.@
-` Yumizuka is still like before.@
-` Even though she acts like she used to----she says some pretty scary things.\
+` - Чего...@
+` Я делаю глубокий вдох.@
+` Юмизука ведёт себя как раньше.@
+` Но хоть она и ведёт себя как обычно — она говорит довольно страшные вещи.\
 
 ;(??????)
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fst
 
-`"When I think about it, I look foolish.@ I could never talk to you like this, for all the years I watched you from afar."@
-`"Eh--Yumi... zuka......?"@
-`"I was always watching you, Shiki-kun.@ Even before I was saved in that warehouse, I was always watching you.@
-` I'm... really a coward.@ I always just agreed with the people around me, and smiled when it seemed right.@ Before I knew it, everyone was treating me like an idol."\
+` - Если подумать, то я выгляжу глупо.@ За все те годы что я наблюдала за тобой издалека, я так и не смогла с тобой заговорить.@
+` - Э? Юми...зука?..@
+` - Я всегда наблюдала за тобой, Шики-кун.@ Ещё до того как ты спас нас в том складе, я всегда наблюдала за тобой.@
+`  - Я ведь... такая трусиха.@ Всё время я просто соглашалась с окружающими меня людьми, и улыбалась когда это казалось подходящим.@ Не успела я оглянуться, как все стали обращаться со мной как со знаменитостью.\
 
-`"So school wasn't fun for me.@ But that changed, after you talked to me in the second year of junior high, Shiki-kun."@
-`"Eh--?"@
-`"Nah.@ It's not something you'd remember.@ How can I put it... You were always natural, never showing off.@ Probably you didn't even think about what you said back then."\
+` - Так что в школе мне не было весело.@ Но, Шики-кун, всё изменилось, когда ты заговорил со мной на втором году в средней школе.@
+` - Э?..@
+` - Ничего.@ Ты бы это и не запомнил.@ Как бы сказать... Ты был всегда естественный, никогда не выделывался.@ Ты, наверно, и не думал, о чём говорил тогда.\
 
-`"------"@
-` What can I say.@
-` Just as Yumizuka says, I remember nothing.@
-` I don't know what I said to her, or even if I had talked to her back then.\
+` - ...@
+` Что тут сказать.@
+` Юмизука права, я ничего не помню.@
+` Я не знаю, что я сказал ей, даже разговаривал ли я с ней тогда.\
 
 ;????
 ld c,":a;image\tachi\stk_t01.jpg",%type_crossfade_fst
 
-`"It's okay.@ Don't make a face like that.@ You were only hanging out with Inui-kun, so it was normal for you to ignore other classmates."@
-`"But that was okay.@ I was happy just being in the same class as you, Shiki-kun.@
-` It was my goal to talk to you and let you call me Yumizuka-san.@ Now that I think about it, it was too small of a wish."@
+` - Всё нормально.@ Не делай такое лицо.@ Ты общался только с Инуи-куном, и для тебя было нормально не замечать остальных одноклассников.@
+` - Но это ничего.@ Я была рада просто быть в одном классе с тобой, Шики-кун.@
+` - Моей целью было поговорить с тобой, позволить называть себя Юмизука-сан.@ Но теперь это кажется слишком скромным желанием.@
 br
-` She recalls nostalgically.@
-` Those ancient days.@
-` ...... Like she is remembering something that happened a long time ago.\
+` С тоской вспоминает она.@
+` Те далёкие дни.@
+` Словно она вспоминает что-то, что случилос очень давно...\
 
-`"I... was always watching you.@
-` I knew you'd never notice me, but I watched you anyway."@
-`"------"@
+` - Я... всегда наблюдала за тобой.@
+` - Я знала, что ты никогда не обратишь на меня внимание, но я всё равно наблюдала.@
+` -...@
 br
-` Well--to be honest, I'm happy, but...
+` Ну... Мне, конечно, приятно, но...
 br
 ;??????
 ld c,":a;image\tachi\stk_t07.jpg",%type_crossfade_fst
 
-`"Do you like me, Shiki-kun?"@
-` How can I answer her right now---?@
+` - Шики-кун, я тебе нравлюсь?@
+` Что мне ей ответить?..@
 br
 ;CD-DA??
 playstop
