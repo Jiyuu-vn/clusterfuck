@@ -7,9 +7,9 @@
 bg "image\bg\bg_06a.jpg",%type_nowaitdisp
 
 br
-` ---I'll search at school.@
+` Я поищу её в школе.@
 br
-` I know she's absent, but... right now, this school is the only connection I have to her.\
+` Я знаю, что она отсутствует, но... никаких других ниточек к ней у меня сейчас нет.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -32,38 +32,37 @@ bg "image\bg\ima_10.jpg",%type_tshutter_slw
 bg "image\bg\bg_01b.jpg",%type_bshutter_slw
 
 
-` The sun sets.@
-` Even after looking everywhere at school, there's no sign of Yumizuka Satsuki anywhere.@
+` Солнце садится.@
+` Даже оббегав весь город, я не нашёл ни следа Юмизуки Сацуки.@
 br
-`"............ Gah."@
-` I bite my lip angrily.@
-` ...... But it's not anger over not finding her.\
-` Two days ago, I'm mad at myself for promising such a thing in the first place.\
+` - Хаа...@
+` От злости я закусываю губу.@
+` Но эта злость не из-за того, что я не могу её найти.\
 
+` Два дня назад.@
+` Я злюсь на себя за то, что вообще пообещал такое.@
 br
-` ---Help me when I'm in a pinch, okay?@
+` «Помоги мне если я окажусь в беде, ладно?»@
 br
-` Yumizuka said that, and I answered lightheartedly.@
-` I would help, as much as I could.@
-` ...... Such an irresponsible answer.@
-` There's really nothing I can do.@
-br
-` She said it hurt.@
-` I can't even find Yumizuka, painfully suffering in the cold darkness.\
+` Это были слова Юмизуки, и я необдуманно ответил.@
+` Помогу чем смогу...@
+` Такой безответственный ответ.@
+` Я ведь ничего не могу сделать.@
+` Она сказала, что ей больно.@
+` А я даже не могу найти Юмизуку, страдающую где-то в холодной тьме.\
 
-`"---"@
-` The sun is setting.@
-` ...... I don't want to admit it, but maybe I can only find Yumizuka after nightfall.@
-`"...... I told Hisui I'd be back in the evening."@
-` Perhaps it's too early.@
-` I'll go back to the mansion and calmly think this through.\
+` - ...@
+` Солнце садится.@
+` Мне не хочется этого признавать, но по видимому, мне удастся найти Юмизуку только после захода солнца...@
+` - Я обещал Хисуи вернуться вечером...@
+` Наверное, ещё рано.@
+` Я вернусь в поместье и спокойно всё обдумаю.\
+
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
-!w1000
-
+!w500
 return
-
 
 </pre>
 
