@@ -12,9 +12,9 @@ bg "image\bg\bg_29b.jpg",%type_nowaitdisp
 
 ld c,":a;image\tachi\stk_t04.jpg",%type_crossfade_fst
 
-`"Ah---"@
-` Yumizuka's body trembles.@
-` Breathing painfully, she falls to her knees.\
+` - А...@
+` Тело Юмизуки содрогается.@
+` Болезненно дыша, она падает на колени.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -22,52 +22,52 @@ cl a,%type_crossfade_fst
 ;CD-DA???????
 play "*6"
 
-` A choking sound.@
-` Squatting on the ground, Yumizuka coughs heavily, and she spits out a lump of blood.@
-`"---Yumizuka!?"@
-` This time, I do rush near her.@
-`"Yumizuka, are you okay?@ Yumizuka...!"@
-` I put my hand on her heaving shoulder.@
-`"Ah---"@
-` I feel a chill.@
-` Even through her clothes, I can feel the coldness of her body.\
+` Раздаётся кашель.@
+` Сидя на короточках, Юмизука сильно кашляет, выхаркивая сгустки крови.@
+` - Юмизука?!@
+` В этот раз я подбегаю к ней.@
+` - Юмизука,ты в порядке?@ Юмизука!..@
+` Я кладу руку на её вздымающееся плечо.@
+` - А...@
+` Я чувствую холод.@
+` Даже сковзь одежду я чувствую холод её тела.\
 
-`"Stupid, you're freezing!@ What are you doing out in the open on a night like this!"@
-`"---Shiki, kun..."@
-` Her voice is hollow as she says my name.@
-` Yumizuka collapses against me.@
+` - Дура, ты же замёрзла!@ Почему ты вообще ночью на улицу вышла!@
+` - Шики, кун...@
+` Она произносит моё имя пустым голосом.@
+` Юмизука заваливается на меня.@
 br
-` As she pants, her warm breath brushes my skin.\
+` Она тяжело дышит, её теплое дыхание задевает мою кожу.\
 
-`"Yumi... zuka?"@
-`"It's okay if you don't like me, Shiki-kun.@ Because, I really didn't understand you at all until now, either."@
-` Yumizuka speaks as she coughs.\
+` - Юми...зука?..@
+` - Шики-кун, это ничего если я тебе не нравлюсь.@ Потому что до этого момента я тебя тоже совсем не понимала.@
+` Кашляя, говорит Юмизука.\
 
-`"It's alright, don't talk...!@ I'll take you to a hospital...!"@
-`"But, I understand now.@ Who you are, and what you want to do.@ I really understand now.@
-` Because---"@
-`"Eh---?"@
-`"Because, I became like you, Shiki-kun---!"@
-` Saying that, Yumizuka sinks her teeth into my neck.\
+` - Всё в порядке, не разговаривай!..@ Я отведу тебя в больницу!..@
+` - Но теперь я понимаю.@ Кто ты, что ты хочешь делать.@ Теперь я действительно понимаю.@
+` Потому что...@
+` - Э?@
+` - Потому что я стала такой как ты, Шики-кун!..@
+` С этими словами, Юмизука вонзает зубы мне в шею.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_mid
 
 
-`"Ah----"@
-` Fading.@ My consciousness is fading.@
-` Yumizuka's fangs dig into my neck.@
+` - Аа...@
+` Угасает.@ Моё сознание угасает.@
+` Клыки Юмизуки глбуоко вонзаются мне в шею.@
 
-`"-------"@
-` I'm being drained.@
-` As if all the life in my body is liquified and sucked out.@
-` Without strength, there are no thoughts.@
-` So, my consciousness is not fading.@
-` It is simply being destroyed.\
+` - ...@
+` Меня опустошают.@
+` Словно вся жизнь в моём теле стала жидкостью, и эту жидкость высасывают.@
+` Без сил нет и мыслей.@
+` Так что моё сознание не угасает.@
+` Его уничтожают.\
 
-`"-------Ah."@
-` There are no thoughts.@
-` I know I'll die if I stay like this, but I can't even----.@
+` - А...@
+` Мыслей нет.@
+` Я знаю, что умру если ничего не сделаю, но я не могу даже...@
 br
 ;S.E."??"
 wave se0
@@ -77,10 +77,10 @@ bg "image\bg\ima_11.jpg",%type_nowaitdisp
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 
-` All the same.@
-` From somewhere beyond my mind, my blood begins to boil.@
-`"Yumizuka----!"@
-` Both my arms push her back out of pure reflex.\
+` Но всё же.@
+` Откуда-то из подсознания что-то заставляет мою кровь вскипеть.@
+` - Юмизука!..@
+` Чисто рефлекторно мои руки отталкивают её.\
 
 
 
@@ -88,240 +88,241 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 ; ??? : ???????????<??????(?)>
 bg "image\event\stk_e02.jpg",%type_lshutter_mid
 
-` She falls right on her behind.@
-`"What are----"@
-` I stand up.@
-` But, I can't.@
-` I'm so exhausted I can barely even lift an arm.@
-` Yumizuka sits, as if in a drunken stupor.\
+` Она падает на попу.@
+` - Что ты...@
+` Я поднимаюсь.@
+` Только, я не могу.@
+` Я так обессилен, что едва могу поднять руку.@
+` Юмизука просто сидит, как в пьяном ступоре.\
 
-`"Ah----"@
-` I can't see her face clearly.@
-` Everything dims as my consciousness fades.@
-` I can't control my body either.@
-` All that exists is the pain in my neck.@
+` - А...@
+` Я не могу как следует разглядет её лицо.@
+` Моё сознание угасает, и всё плывёт.@
+` Своё тело я тоже не могу контролировать.@
+` Существует только боль в шее.@
 
-` Blood gurgles forth.@
-` Yumizuka's teeth marks remain in my neck.@
-` And through those two deep holes, something black is being poured into my body---\
+` Хлещет кровь.@
+` Следы от зубов Юмизуки остаются на моей шее.@
+` И что-то чёрное вливается в моё тело через пару этих глубоких дырок...\
 
-` In my veins.@
-` Somewhere beyond my reach, the black thing violates my whole body.@
-` As a small piece of the black thing goes through my veins, my body burns inside.\
+` В моих жилах.@
+` Там, куда я не могу достать, нечто чёрное вторгается в моё тело.@
+` Маленькое чёрное нечто ползёт по моим жилам, и моё тело горит.\
 
 ;S.E."??"
 wave se0
 
-`"Ah---guhhhh!"@
-` A pain, a pain as if my spine is about to be ripped out.@
+` - Аагхаааааа!@
+` Больно, больно словно мне хребет выдирают.@
 ;S.E."??"
 wave se0
 
-`"Haa---arghhh!"@
-` In pain, I claw at the ground.@
-` But there is no relief.@
-` I cannot move since Yumizuka has drained everything out of me, and the pain pours into me like a black snake.@
-` I cannot move, so the black thing crawls and twists as it pleases inside me.\
+` - Хааарргххх!@
+` Я рою землю от боли.@
+` Но избавление не приходит.@
+` Я не могу пошевелиться потому что Юмизка высосала всё из меня, и боль чёрной змеёй разливается по мне.@
+` Я не могу пошевелиться, и чёрное нечто корчится и расползается по мне как пожелает.\
 
-`"Haa---ah, ah---"@
-` I clutch at the ground.@
-` With glazed eyes, Yumizuka... looks at... me.@
-`"Yumi... zuka... what have you...!"@
-`"It's okay, it only hurts at first.@ First it hurts, but when the blood mixes, it should die down."\
+` - Хааа, аа...@
+` Я цепляюсь за землю.@
+` Тусклые глаза Юмизуки... глядят на... меня.@
+` - Юми... зука... что ты!..@
+` - Всё хорошо, больно только вначале.@ Сначала оно болит, но когда кровь смешается, должно утихнуть.\
 
-`"Don't worry, I won't kill you.@ I poured my blood in properly, so you won't collapse and crumble away like those failures last night.@ You will only look at me from now on."@
-` Yumizuka whispers joyfully.@
-`"What are---you talking about... Yumizu... ka---"@
-`"I'm saying that I'm making both of us the same, Shiki-kun.@ Sucking people's blood instead of eating normal food, nocturnal, unable to walk under the sun.@ You're going to be a different creature."@
+` - Не переживай, я не убью тебя.@ Я влила кровь как надо, так что ты не рассыпешься как те неудавшиеся попытки прошлым вечером.@ Теперь ты будешь смотреть только на меня.@
+` Радостно шепчет Юмизука.@
+` - О чём... ты говоришь,.. Юмизу...ка...@
+` - Шики-кун, я говорю, что теперь мы будем одинаковыми.@ Пьющими человеческую кровь вместо того, чтобы есть привычную еду, ночными, неспособными ходить под солнцем, созданиями.@ Ты станешь другим существом.@
 br
-` ...... What is, that.@
-` Ridiculous, that's just like--\
+` Что она несёт.@
+` Чушь, это же как...\
 
-`"Yeah, like a vampire.@ I didn't really understand how I became this way either.@
-` Two nights ago, I went out to check the rumor that you were walking around in the shopping district every night, and then when I came to I was lying down in that back alley.@
-` Back then, I thought it was just cold, dark, and painful."\
+` - Да, как вампир.@ Я сама и не поняла, как я такой стала.@
+` Два дня назад я ходила проверить слух, правда ли ты бродишь по торговому району каждую ночь, и вдруг я пришла в себя лёжа в тёмном переулке.@
+` Тогда, я думала только о том, что мне холодно, темно и больно.\
 
-`"But it's strange, after a while, after my body has changed completely, I understood a lot of things.@
-` My body hurts because it's being destroyed very fast, and the sunlight acts like a catalyst for that.@ And if I want to stop the destruction, I need the genetic information of the same type of living organism as myself."\
+` - Но так странно, спустя какое-то время, когда моё тело полностью изменилось, я многое поняла.@
+` Моё тело болит потому что оно очень быстро разрушается, а солнечный свет является катализатором для этого.@ И если я хочу остановить это разрущение, мне нужен генетический материал от похожего на меня организма.\
 
-`"Yeah, I didn't understand the logic that well, but it was plain enough what I had to do.@
-` I was cold, and it was lonely by myself.@ I didn't want to disappear, so I just grabbed a random person and sucked his blood.@
-` And you know what?@ It was really delicious!@ The pain went away and I thought I could do anything."\
+` - Ну, я не понимала всего этого так хорошо, но мне было ясно, что надо делать.@
+` Мне было холодно и одиноко.@ Я не хотела исчезать, так что я поймала первого попавшегося человека и высосала его кровь.@
+` И знаешь что? @ Это было очень вкусно!@ Боль ушла, и мне казалось, что я могу всё.\
 
-`"But, it was so nice that before I realized it, it was all gone.@
-` The man was all shriveled up, like a mummy, and I felt really bad.@ I thought to myself that I was turning into a monster, both in mind and body.@
-` ---But, I had to do it in order to live.@
-` Like I said, I didn't kill them because I hated them.@ I suck blood the same way you people eat animals.@ So I decided not to think about it too deeply."\
+` - Но мне было так хорошо, что не успела я оглянуться как всё кончилось.@
+` Человек весь съёжился, как мумия, и я почувствовала себя очень плохо.@ Я подумала что превращаюсь в чудовище, телом и разумом...@
+` Но я должна была делать это чтобы выжить.@
+` Как я уже сказала, я не убивала их со зла.@ Я пью кровь так же, как другие люди едят животных.@ Так что я решила не задумываться об этом слишком сильно.\
 
-`"Wha---"@
-` What... is this?@
-` Is it okay to kill other people in order to live?@
-` That... I...\
+` - Что...@
+` Что... она несёт?@
+` Можно ли убивать людей чтобы выжить?@
+` Это...Я...\
 
-`"But, it seems I've become a proper vampire.@
-` Tonight's meal was quite fun.@ Until now, I've been sucking blood since I was cold and in pain, but now that I'm getting the hang of sucking blood, it's becoming more interesting.@
-` You understand, don't you Shiki-kun?@ You are a much better killer than I am."@
-`"Wha---"@
-` What...
-` What are you talking about, Yumizuka.\
+` - Но похоже, что я стала настоящим вампиром.@
+` Сегодняшний обед был вполне приятен.@ Раньше я пила кровь потому что мне было холодно и больно, но теперь, когда я освоилась с этим, пить кровь становится интересно.@
+` Ты же понимаешь, не так ли, Шики-кун?@ Ты ведь гораздо лучший убийца, чем я.@
+` - Что...@
+` Что...
+` О чём ты говоришь, Юмизука.\
 
-`"I was always watching you.@ So, I know your gentle side and your scary side.@
-` I never talked to you because I didn't understand your scary side."\
+` - Я всегда наблюдала за тобой.@ Так что я знаю твою нежную и твою страшную стороны.@
+` Я никогда не заговаривала с тобой потому что не понимала твоей страшной стороны.\
 
-`"But, I understand now.@ You're the same as me.@
-` It doesn't matter if you like or hate people.@ You could kill anyone, right?"@
-`"Don't--be ridiculous."@
-` I've never even once had that thought.@
-`"I'm not being ridiculous!@ I never understood the fragile air about you, but now my body has changed, and I can understand.@
-` Shiki-kun, just you being there is flirting with death.@
-` There are natural-born killers in this world, but even among them, you are the best."\
+` - Но теперь я понимаю.@ Ты ведь такой же как я.@
+` Не важно, нравится тебе кто-то, или неприятен.@ Ты мог бы убить кого угодно, да?@
+` - Не... неси чушь.@
+` У меня ни разу и в мыслях такого не было.@
+` - Я не несу чушь!@ Я никогда не понимала той неуловимой атмосферы, что от тебя исходит, но теперь, когда моё тело изменилось, я могу понять.@
+` Шики-кун, просто находиться рядом с тобой значит заигрывать со смертью.@
+` В мире немного действительно прирождённых убийц, но даже среди них тебе нет равных.\
 
-`"You know, I was really happy yesterday.@ It was the first time I was happy after becoming this way.@
-` Because I finally understood you, Shiki-kun.@ I never really knew you before.@
-` Shiki-kun, you're the same, right?@ You see someone, and for no reason, your heart throbs, and your throat goes dry."\
+` - Знаешь, вчера я была действительно счастилва.@ Я впервые была счастлива с тех пор, как стала такой.@
+` Потому что я наконец-то поняла тебя, Шики-кун.@ Раньше я совсем тебя не понимала.@
+` Шики-кун, ты ведь такой же, да?@ Ты видишь кого-то, и без ясной причины, твоё сердце стучит, а в горле пересыхает.\
 
-`"That's--a lie, that feeling----I've never."@
+` - Это... ложь, таких чувств... У меня никогда.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?????? : 21~30 : 21_??(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_fst
 
-`"-----"@
-` I can't say... I never had it.@
-`"See?@ A pure homicidal impulse, without the influence of emotion.@ Your fragile side, which I always wanted to understand."\
+` - ...@
+` Я не могу сказать... Что у меня никогда такого не было.@
+` - Вот видишь?@ Чистое желание убить, без примеси эмоций.@ Твоя неуловимая сторона, которую я всегда хотела понять.\
 
 ; ???? : ?????? : ??B(?)<??????(?)>
 bg "image\bg\bg_29b.jpg",%type_crossfade_fst
 
 ld c,":a;image\tachi\stk_t10.jpg",%type_crossfade_fst
 
-`"I forgot to say one more thing.@ A vampire is someone whose blood has been sucked by a vampire, right?@
-` That's true, you know.@
-` To be precise, the person whose blood has just been sucked dies.@ Vampires pour their own blood into their victim as they drink to turn them into their own.@
-` So what was in your blood back then was my blood."@
-` Standing up, Yumizuka says this with satisfaction.\
+` - Забыла сказать ещё одну вещь.@ Вампиром становится тот, у кого высосал кровь другой вампир, верно?@
+` Это действительно так.@
+` Но если быть точным, тот, у кого высослаи кровь, умирает.@ Когда они пьют кровь, вампиры вливают свою кровь жертве, чтобы превратить её в вампира.@
+` Так что тогда в твою кровь попала моя кровь.@
+` Поднявшись, удолветворённо произносит Юмизука.\
 
-`"...... So, this is... your... blood, huh?"@
-` The black thing that still defiles my body.@
-` It's not even a mouthful, but it still causes unbelievable pain, enough to drive me to madness.\
+` - Так значит,.. это была твоя кровь...@
+` Чёрное нечто, что продолжает осквернять моё тело.@
+` Её хватило бы только на небольшой глоток, но и это причиняет мне невыносимую боль, достаточную чтобы свести с ума.\
 
-`"Well, I guess that's long enough.@ Stand up, Shiki-kun."@
-` I hear Yumizuka's command.@
-` The pain fades.@
-` Feeling returns to my limbs, and I can finally stand up.\
+` - Ну что ж, уже наверное прошло достаточно времени.@ Встань, Шики-кун.@
+` Я слышу приказ Юмизуки.@
+` Боль уходит.@
+` Ощущения возвращаются в мои конечности, и я могу снова встать.\
 
 ld c,":a;image\tachi\stk_t07.jpg",%type_crossfade_fst
 
-`"---Good.@ From now on, we'll always be together, Shiki-kun."@
-`"......"@
-`"Now, come here.@ Come by my side, hold my hand, and make me feel better."@
-` She holds out her hand.@
+` - Вот так.@ Отныне, мы всегда будем вместе, Шики-кун.@
+` - ...@
+` - А теперь, иди сюда.@ Иди ко мне, возьми меня за руку, и подари мне радость.@
+` Она протягивает руку.@
 br
 ;S.E."??"
 wave se0
 
-` ----Thump.@
+` Тук.@
 br
-` My heart pounds, and my legs begin to move.@
-` But they don't move forward.@ They move backward.\
+` Моё сердце стучит, и мои ноги приходят в движение.@
+` Но они не движутся вперёд.@ Они движутся назад.\
 
 ld c,":a;image\tachi\stk_t08.jpg",%type_crossfade_fst
 
-`"Shiki...... kun?"@
-` Yumizuka's voice is perplexed.@
+` - Шики... кун?@
+` Голос Юмизуки звучит растерянно.@
 br
 ;S.E."??"
 wave se0
 
-` ----Thump.@
+` Тук.@
 br
-` My heart throbs.@
-` My throat becomes dry.@
-` Every nerve in my body recognizes the person in front of me as an enemy.\
+` Моё сердце стучит.@
+` В горле пересыхает.@
+` Каждый нерв в моём теле опознаёт ту, что стоит передо мной, как врага.\
 
-` I start to breathe harder.@
-` This feeling.@
-` Desperately, I endure the poison of Yumizuka's blood and the boiling impulse arising in my body.\
+` Я дышу всё тяжелее.@
+` Это чувство.@
+` В отчаянии, я терплю отраву крови Юмизуки и пылающий импульс, возникающий в моём теле.\
 
 ld c,":a;image\tachi\stk_t09.jpg",%type_crossfade_fst
 
-`"Why...?@ Hey, why aren't you doing what I tell you to do...?"@
+` - Почему?..@ Эй, почему ты не делаешь что я тебе говорю?..@
 br
 ;S.E."??"
 wave se0
 
-` Thump.@ My heart beats.@
-` Is this the impulse Yumizuka was talking about just a while ago?@
-` Thump, Thump.@ My heart beats loudly,
-` as if it was repeatedly ordering me to kill... to kill.@
+` Тук.@ Моё сердце стучит.@
+` Это и есть тот порыв, о котором только что говорила Юмизука?@
+` Тук, тук.@ Моё сердце громко стучит,
+` словно вновь и вновь приказывая мне убить... убить.@
 br
-`"Shiki-kun, you---"@
-`"Think straight, Yumizuka."@
-` Yumizuka looks at me as I breathe painfully.\
+` - Шики-кун, ты...@
+` - Включи мозги, Юмизука.@
+` Я болезненно дышу, а Юмизука продолжает смотреть на меня.\
 
 
 ld c,":a;image\tachi\stk_t11.jpg",%type_crossfade_fst
 
-`"Why---!?@ Why didn't my blood work...!?"@
-`"...... I don't know, but it does feel like there's some mud in my body."@
-` That should be Yumizuka's vampire blood.@
-` If a mouthful of it could make me feel this sick,
-` I can't even imagine what pain it must be for Yumizuka, whose body is filled with it.@
+` - Почему?!@ Почему моя кровь не сработала?!.@
+` - Не знаю, но в моём теле действительно ощущается какая-то грязь.@
+` Это должна быть вампирская кровь Юмизуки.@
+` Если от одного глотка мне так больно,
+` Я не могу даже представить, какую боль чувствует Юмизука, чьё тело наполнено ею.@
 br
-` ...... It hurts, she said.@
-` At last, I understand what she meant.\
+` Она сказала, что ей больно...@
+` Наконец-то я понимаю, что  она имела ввиду.\
 
-`"...... Let's stop, Yumizuka-san.@ It doesn't help you to do this.@ You're sick.@ We have to get you to a hospital, and return your body to the way it was."@
-` ...... I don't want the girl who cares for me to be suffering anymore.@
-` But she glares at me with eyes filled with hate.\
+` - Юмизука-сан, хватит.@ Это не идёт тебе на пользу.@ Ты больна.@ Нам надо доставить тебя в больницу, и вернуть твоё тело в прежнее состояние.@
+` Я не хочу, чтобы девушка, котороя я небезразличен, страдала и дальше.@
+` Но она продолжает смотреть на меня глазами, полными ненависти.\
 
 
-`"---My blood is definitely mixed with your blood!@ So you should already be part of my body...!@ Could it be, someone else has control over you already...!?"@
-`"Like I said, I don't understand, Yumizuka.@
-` All I understand is---you saying that it's dark, cold, and lonely.@
-` All I remember is your smiling face two days ago, telling me to help you whenever you're in a pinch."\
+` -...Моя кровь точно смешалась с твоей кровью!@ Так что ты уже должен быть частью меня!..@ Неужели кто-то ещё уже получил над тобой контроль?!.@
+` - Юмизука, я же сказал, я не знаю.@
+` Всё что я знаю, это что тебе темно, холодно и одиноко.@
+` Всё что я понмю, это твоё улыбающееся лицо два дня назад, просящее помочь тебе в трудную минуту.\
 cl c,%type_crossfade_fst
 
-` ...... To be honest, I don't know what kind of creature a vampire is.@
-` But you have to kill and suck blood to live, and if you're still in pain, then I have to try to get you back the way you were.\
+`  - ...Честно говоря, я ничего не знаю о вампирах.@
+` Но если тебе нужно убивать и пить кровь чтобы жить, и если тебе всё ещё больно, то я должен попытаться вернуть тебя в норму.\
 
-`"...... Yumizuka.@ You said it hurts."@
+` - Юмизука... Ты сказала, что тебе больно.@
 ld c,":a;image\tachi\stk_t09.jpg",%type_crossfade_fst
 
-`"Yeah.@ It still hurts even now.@ My blood vessels are still the same as they were when I was human, so just the flow of blood hurts.@ Delicate and weak, as they burst easily.@
-` But if I drink a lot more human blood, my blood vessels will be just fine."\
+` - Да.@ Мне и сейчас больно.@ Мои кровеносные сосуды всё ещё как у человека, так что мне больно просто от течения крови.@ Нежные и слабые, они легко лопаются.@
+` Но если я буду пить больше человеческой крови, мои сосуды будут в порядке.\
 
-`"You said, it's painful."@
+` - Ты сказала, что тебе тяжело.@
 
-`"Yes.@ My heart is in pain.@ I have to take people's blood in order to live.@ I don't feel like it's a crime but it hurts.@ I'm painfully afraid that the person I was is going to disappear.@ But, I wouldn't be so scared if I'm not alone."\
+` - Да.@ Моё сердце болит.@ Я должна пить кровь людей, чтобы жить.@ Мне не кажется это преступлением, но мне всё равно больно.@ Я ужасно боюсь, что человек, которым я была, исчезнет.@ Но мне не было бы так страшно если бы я не была одна.\
 
-`"You said, it's cold."@
-`"Yeah.@ I'm so cold, I feel like my fingers will freeze off.@ But I don't think it's bad.@ I just can't feel warmth anymore."\
+` - Ты сказала, что тебе холодно.@
+` - Да.@ Мне так холодно, мне кажется, что мои пальцы сейчас сейчас заледенеют.@ Но яне думаю, что это плохо.@ Прост я уже не могу чувствовать тепло.\
 
-`"You asked for help, desperately."@
+` - Ты отчаянно просила помощи.@
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_mid
 
-`"I want help, but it's already too late.@ I can't go back to who I used to be."@
-` Yumizuka says, smiling just as she did back then.@
+` - Мне нужна помощь, но уже слишком поздно.@ Я не могу снова стать такой, какой была.@
+` Улыбаясь как тогда, произносит Юмизука.@
 
-`"Why---why did you end up that way..."@
+` - Почему? Почему ты стала такой...@
 ld c,":a;image\tachi\stk_t10.jpg",%type_crossfade_fst
 
-`"Why?@ That's what I want to know.@ When I woke up, I had this body and just had this thirst for human blood I needed to fulfill.@ It would have been so much easier if I just died instead."\
+` - Почему?@ Я бы и сама хотела знать.@ Когда я очнулась, у меня было это тело и жажда человеческой крови, которую нужно было утолить.@ Было бы гораздо легче если бы я просто умерла.\
 
-`"But, I guess it can't be helped.@ Like people eat animals to live, I have to eat people too."@
-`"Wha---what is that...!@ What are you talking about...!@ Why are you saying such things, Yumizuka---"@
-` Unable to accept the facts, I just shout.@
-`"---"@
-` Yumizuka is silent, and only shakes her head.\
+` - Но, наверное, ничего не поделаешь.@ Как люди едят животных чтобы жить, мне нужно есть людей.@
+` - Что — да что это!..@ О чём ты говоришь!..@ Юмизука, почему ты говоришь такое...@
+` Не в силах принять факты, я просто кричу.@
+` - ...@
+` Юмизука молчит, и только качает головой.\
 
-`"Why...!@ Are you saying you can't laugh and walk and talk normally again like before?@ It... it was only two days ago...!"@
+` - Почему!..@ Ты хочешь сказать что ты уже не можешь ходить и говорить и смеяться как раньше?@ Это... это же было всего два дня назад!..@
 ld c,":a;image\tachi\stk_t13.jpg",%type_crossfade_fst
 
-`"...... That's right.@ Just two days ago, I was a creature on your side.@ It was like a dream.@ I understand now that I've lost it.@ ---Yes, it was really like a dream.@ I would give anything to go back."@
-`"Then---"@
-`"But it's impossible.@ I can't go back.@ I have to live on like this.@ Cold, painful, alone."@
+` - Верно...@ Всего два дня назад я была на твоей стороне.@ Это было как сон.@ Теперь я понимаю, что потеряла это...@ 
+` - Да, это и вправду было как сон.@ Я бы всё отдала, чтобы вернуть это.@
+` - Тогда— @
+` - Но это невозможно.@ Я не могу вернуться.@ Я должна продолжать жить так.@ Среди холода, боли и одиночества.@
 
 ;CD-DA??
 playstop
@@ -330,25 +331,25 @@ playstop
 cl a,%type_tshutter_mid
 
 
-` Yumizuka looks down.@
-` Her cold body trembles.\
+` Юмизука опускает глаза.@
+` Её замёрзшее тело дрожит.\
 
 ld c,":a;image\tachi\stk_t04.jpg",%type_crossfade_fst
 
 
-`"---Help me, Shiki-kun."@
-` A faint voice escapes her throat.\
+` - Помоги мне, Шики-кун...@
+` Тихий голос вырывается из её горла.\
 
-`"I'm scared.@ It's really cold, and I'm alone no matter where I go.@ So please, help me."@
-` ...... I understand.@
-` I remember the trifling promise I made on the way home from school two days ago.@
+` - Мне страшно.@ Мне очень холодно, и куда бы я ни пошла, мне одиноко.@ Так что пожалуйста, помоги мне.@
+` Я понимаю...@
+` Я вспоминаю обещание, небрежно данное два дня назад по дороге из школы.@
 br
-`"---Yeah.@ I'll do whatever I can."@
+` - Да.@ Я сделаю всё, что смогу.@
 br
-` ...... Really.@
-` To change you back into the old Yumizuka Satsuki, I'll do anything.@
-` But...
-` Her answer is very different than mine.\
+` Это правда.@
+` Чтобы вернуть тебя в старую Юмизуку Сацуки я сделаю всё что угодно.@
+` Но...
+` Её ответ совсем не похож на мой.\
 
 
 
@@ -361,129 +362,129 @@ br
 
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_mid
 
-`"...... Ahaha.@ Oh, Shiki-kun, you're still thinking about turning me back?@
-` ...... Honestly, you're so kind.@ It's a great contradiction for someone who loves to kill to be so gentle about everything else."@
-` Yumizuka chuckles happily.\
+` - Ха-ха-ха.@ О, Шики-кун, ты всё ещё собираешься вернуть меня назад?@
+` - Какой же ты всё-таки добрый...@ Это так противорчевио, когда кто-то, кто любит убивать, так добр во всём остальном.@
+` Юмизука счастливо хихикает.\
 
-`"I told you, it's impossible.@ You can't help me like that, Shiki-kun."@
-`"Wha---then, then what should I do...!@ There's nothing else I can do.@ I want to help you, there's nothing I can do...!"@
-`"That's not true.@ There is something you can do to help me, Shiki-kun."@
+` - Я же говорила, это невозможно.@ Шики-кун, так ты мне не поможешь.@
+` - Что... тогда, тогда что мне делать!..@ Больше я ничего не могу.@ Я хочу помочь тебе, но я ничего не могу сделать!..@
+` - Это не так.@ Кое-что ты можешь сделать чтобы помочь мне, Шики-кун.@
 cl c,%type_lshutter_mid
-` Saying so, Yumizuka steps forward.@
+` С этими словами Юмизука делает шаг вперёд.@
 br
 ;S.E."??"
 wave se0
 
-` ---Thump.@
-` A chill runs through my back, sensing the danger.\
+` Тук...@
+` От чувства опасности холодок пробегает у меня по спине.\
 
-`"--How can I help you, Yumizuka?"@
+` - Как я могу помочь, Юмизука?..@
 br
 ;S.E."????(???)"
 waveloop se1
 
-`"It's easy.@ You just have to become my friend...!!"@
+` - Всё просто.@ Тебе просто нужно стать моим другом!!!@
 ld c,":a;image\tachi\stk_t02.jpg",%type_tshutter_fst
 
-`"Ch---!"@
-` Red, piercing eyes stare at me, and I can't breathe.@
+` - Чч...@
+` Красные, пронзительные глаза смотрят на меня, и я не могу вздохнуть.@
 br
-` ---This is bad.@
-` I realize it, but my legs are not moving.\
+` Это плохо.@
+` Я осознаю это, но мои ноги не движутся.\
 
-`"Friend, wha---"@
-`"Then I won't be alone, and I won't be cold or scared.@
-` No, if you will be mine, I'll be much happier than I ever was as a human---!"\
+` - Друг, чт...@
+` - Тогда я не буду одна, и мне не будет холодно и страшно.@
+` Нет, если ты станешь моим, я буду гораздо счастливее чем когда я была человеком!\
 
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_lshutter_fst
 
 br
-` ---THUMP.@
+` ТУК.@
 br
-` My heart beats even faster.@
-` Yumizuka reaches out with her arm, straight for my neck.@
-` Her speed is like a bullet.@
-` But somehow, I see it perfectly---or I felt like I saw it perfectly and I drop to the ground.\
+` Моё сердце стучит ещё быстрее.@
+` Юмизука протягивает руку прямо к моей шее.@
+` Она движется со скоростью пули.@
+` Непонятно как, но я отчётливо это вижу — или это мне показалось, что я вижу, и я падаю на землю.\
 
 quakey 2,50
 
 
-`"---Guh...!"@
-` I twist my head desperately, and throw myself to the ground.@
-` With a whoosh,
-` Yumizuka's arms pass over my head.@
+` - Гха!..@
+` Я отчаянно поворачиваю головой и кидаюсь на землю.@
+` Со свистом
+` руки Юмизуки пролетают надмоей головой.@
 bg "image\bg\bg_29b.jpg",%type_rshutter_fst
 
 br
-`"Haa----ah."@
-`"---Can't be."@
-` The target and the attacker.@
-` We gaze at each other in amazement.\
+` - Хаа-аа.@
+` - Немохможно...@
+` Жертва и нападающий.@
+` Изумлённо мы смотрим друг на друга.\
 
 
-`"Yumizuka, you---"@
+` - Юмизука, ты...@
 ld c,":a;image\tachi\stk_t09.jpg",%type_crossfade_fst
 
-`"Shiki-----kun?"@
-` Yumizuka looks down at me, aghast.@
-` I---I know I have to run away, but my body is still frozen.@
+` - Шики...кун?@
+` Юмизука ошеломлённо смотрит на меня.@
+` Я — я знаю что мне надо бежать, но моё тело по прежнему в оцепенении.@
 br
-` Thump.@
+` Тук.@
 br
-` My heart rings like a bell.@
-` My hand grabs the thing in my pocket, in spite of my paralyzed mind.\
+` Моё сердце стучит как молот.@
+` Мой разум всё ещё оцепенел, и моя рука сама по себе хватает то, что лежит у меня в кармане.\
 
-` Yumizuka doesn't move.@
-` Only her eyes change, from surprise to delight.\
+` Юмизука не двигается.@
+` Только её глаза меняются, от удивлённых к полным предвкушения.\
 
 ld c,":a;image\tachi\stk_t08.jpg",%type_crossfade_fst
 
-`"...... I get it.@ I thought it would be simple to get you into my possession, but---"@
+` - Понятно.@ Я думала, завладеть тобой будет просто, но...@
 br
-` Thump.@
+`  Тук.@
 br
 ld c,":a;image\tachi\stk_t02.jpg",%type_crossfade_fst
 
-`"Tonight will be quite entertaining, won't it, Tohno-kun?"@
-` Her red, piercing eyes are hungry for blood.@
-` Her arms extend brutishly, mercilessly.\
+` - Весёлая сегодня будет ночка, не правда ли, Тоно-кун?@
+` Её красные, пронзительные глаза жаждут крови.@
+` Её руки тянутся с животной безжалостностью.\
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_fst
 
 
-` Every hair on my body stands on end.@
-` Before I'm torn apart,
-` my hand takes the knife out from my pocket.@
+` Все волосы на моём теле встают дыбом.@
+` Прежде чем меня успевает розорвать на куски,
+` моя рука извлекает нож из кармана.@
 br
-` Thump.@
+` Тук.@
 br
 ; ????<??????(?)>
 bg "image\bg\ima_14.jpg",%type_lshutter_fst
 ;S.E."??????"
 wave se5
 
-`"-----Eh?"@
-` The movement of my arm is faster than my voice.@
-` With a swish, the knife slices through Yumizuka's thigh.\
+` - Э?@
+` Моя рука движется быстрее моего голоса.@
+` Нож со свистом распарывает бедро Юмизуки.\
 
 ; ???? : ?????? : ??B(?)<??????(?)>
 bg "image\bg\bg_29b.jpg",%type_rshutter_fst
 
-`"Kyaaaa!"@
-` Yumizuka screams shrilly.@
+` - Кйаааа!@
+` Пронзительно кричит Юмизука.@
 br
-` ---I look in shock at my arm.@
+` В шоке я смотрю на свою руку.@
 br
-` There is the bloody knife that sliced open her leg.@
-`"............... Ah."@
-` My senses return.@
-` My body moves.@
+` В ней зажат окровавленный нож, вспоровший бедро Юмизуки.@
+`  - А...@
+` Я прихожу в чувство.@
+` Моё тело начинает двигаться.@
 br
-` ---Before I realize it,
-` I am fleeing from Yumizuka as I tremble.\
+` Не успел я оглянуться, 
+` Как моё дрожащее тело пустилось в бегство от Юмизуки.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -494,39 +495,39 @@ play "*4"
 bg "image\bg\bg_28b.jpg",%type_lshutter_fst
 
 
-` I breathe wildly.@
-` I just run.@
-`"Why---why did I---"@
-` I don't know.@
-` I don't understand why or how I stabbed her.@
-` Thump.@ My heart rings out.@
-` And before I knew it, I had sliced her leg with my knife.\
+` Я запызался.@
+` Я прсто бегу.@
+` «Почему... почему я...»@
+` Я не знаю.@
+` Я не понимаю почему или как я ударил её.@
+` Тук.@ Стук моего сердца отдаётся в ушах.@
+` И не успел я оглянуться, как распорол ей ногу ножом.\
 
-` *pant* *pant* *pant* *pant*---!@
-` Yumizuka's blood flows over the knife.@
-` The feeling of tearing flesh remains in my arm.@
-`"Why---"@
-` Really, why did I do such a thing?@
-` I only---I only wanted to help Yumizuka Satsuki.\
+` *вдох* *вдох* *вдох* *вдох*-!@
+` Кровь Юмизуки стекает по ножу.@
+` Ощущение разрываемой плоти остаётся в моей руке.@
+` - Почему...@
+` В самом деле, почему я сделал такое?@
+` Я только...я только хотел помочь Юмизуке Сацуки.\
 
 ;S.E."??"
 wave se0
 
-`"Guh---"@
-` Somehow, remembering her face makes my heart beat louder.@
-` Fear and excitement.@
-` Yumizuka is trying to kill me.@
-` My heart pounds in response to the danger.@
-` I, Tohno Shiki, cannot compete with that creature.@
-` It's like apples and humans.@ How can the ones getting eaten oppose that which eats them?\
+` - Гха...@
+` Моё сердце почему-то бьётся быстрее как только я вспоминаю её лицо.@
+` Страх и возбуждение.@
+` Юмизука пытается меня убить.@
+` Моё сердце колотится в от опасности.@
+` Я, Тоно Шики, не могу тягаться с этим существом.@
+` Это как с яблоками и людьми.@ Как еда может отбиваться от того, кто её ест?\
 
-` It's already like that.@
-` Just as Tohno Shiki eats a tomato with no opposition... for Yumizuka Satsuki, I am no different from a tomato.@
-` If she finds me...@
-` If she catches me, she'll kill me.@
+` Всё именно так.@
+` Как когда Тоно Шики ест помидор, не ощущая сопротивления...для Юмизуки Сацуки я не отличаюсь от помидора.@
+` Если она меня найдёт...@
+` Если она меня поймает, то убьёт.@
 br
-` So, I am running away.@
-` I run, and feel that I'm still alive.\
+` Так что я убегаю.@
+` Я бегу, и понимаю, что ещё жив.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -534,15 +535,15 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_27b.jpg",%type_lcartain_mid
 
 
-` I run through the night.@
-` For now, I just run.@
+` Я бегу сквозь ночь.@
+` Пока что я просто бегу..@
 br
-` ------For what?@
+` Ради чего?..@
 br
-` That's clear.@
-` Because if I don't I'll be caught.@
-` I feel the presence of Yumizuka Satsuki behind me.@
-` The presence, which felt like a needle before, gets larger and looms menacingly behind me.\
+` Ясное дело, ради чего.@
+` Потому что если я не буду бежать, меня догонят.@
+` Я чувствую присутствие Юмизуки Сацуки у меня за спиной,@
+` Присуствие, раньше казавшееся лишь иглой, становится всё сильнее и зловеще нависает надо мной.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -551,9 +552,9 @@ bg "image\bg\bg_25b.jpg",%type_lcartain_mid
 
 
 
-` *pant* *pant* *pant*----!@
-` I run to escape.@
-` But who am I running from?\
+` *вдох* *вдох* *вдох*@
+` Я спасаюсь бегством.@
+` Но от кого я бегу?\
 
 
 
@@ -564,13 +565,13 @@ bg "image\event\stk_e03.jpg",%type_crossfade_mid
 
 
 br
-` ...... It was a beautiful smile.@
-` The smiling face of Yumizuka Satsuki remembering her days at junior high school was truly gentle.@
+` Такая красивая улыбка...@
+` Улыбающееся лицо Юмизуки Сацуки, когда она вспоминала своё время в средней школе — оно было таким добрым.@
 br
-`"Sh... it...!"@
+` - Твою...мать...@
 br
-` Such a thing, how could such a thing happen...!?@
-` Yumizuka became a monster which kills people, and drinks their blood----\
+` Как, как такое могло случиться?!.@
+` Юмизука стало чудовищем, которое убивает людей и пьёт их кровь...\
 
 ;S.E."?????"
 wave se9
@@ -578,100 +579,100 @@ quakey 1,50
 
 
 bg "image\bg\bg_25b.jpg",%type_tcartain_fst
-`"----!?"@
-` Suddenly something hits my back, and I'm knocked to the ground.@
-`"U---gh----uh...!!"@
-` Since I fell over running, my body is covered with scrapes.@
-` But my back hurts far more right now.@
-` With the impact on my back like that from a weapon, breathing becomes impossible.\
+` «?!»@
+` Что-то вдруг бьёт меня в спину и сбивает на землю.@
+` - У-гх-ху!..@
+` От падения на полном ходу всё моё телоп окрыто царапинами.@
+` Но моя спина сейчас болит куда сильнее.@
+` От удара как от оружия моё дыхание перехватывает.\
 
-`"What---"@
-` I start to say it, but the words vanish.@
+` - Что...@
+` Я открываю рот, но слова исчезают.@
 br
-` Something falls onto the ground next to me.@
-` The thing that just smashed into me is rolling.@
+` Что-то падает на землю рядом со мной.@
+` Это катится то, что только что врезалось в меня.@
 br
-`"Per... son..."@
-` It was some guy, arms and legs twisted.\
+` - Чело...век...@
+` Это был какой-то тип, с выкручеными руками и ногами.\
 
-`"------Ah."@
-` Blood flows from the man's body.@
-` Red blood flows over the asphalt, staining my body red.@
-` It's...
-` a human body without a head.\
+` - Хаа...@
+` Кровь вытекает из его тела.@
+` Красная кровь стекает на асфальт, пачкая моё тело.@
+` Это...
+` человеческий труп без головы.\
 
-`"Ohh, I didn't mean to hit you.@ My reflexes have improved, but I guess it's a problem if my aim is too accurate."@
-` A delighted voice comes from behind me.@
-`"Ah---"@
-` Still on the ground, I look behind me.@
-` What I see there,
-` is Yumizuka Satsuki walking, with a human head in one hand.\
+` - Оо, я не хотела попадать в тебя.@ Мои рефлексы улучшились, но наверное это проблема если мой прицел слишком точный.@
+` За мой спиной раздаётся довольный голос.@
+` - Ааа...@
+` Не вставая, я оглядываюсь.@
+` И вижу
+` приближающуюся Юмизуку Сацуки, держащую в руке человеческую голову.\
 
 ; ??? : 01~10 : 02_?02(????)<??????(?)>
 ld c,":a;image\tachi\stk_t02.jpg",%type_lshutter_mid
 
-`"I'm sorry, Shiki-kun; it hurt, right?@ I just tried to surprise you by throwing it ahead of you."@
-` As she apologizes, Yumizuka tosses the severed head away.\
+` - Шики-кун, прости, было больно, да?@ Я только хотела удивить тебя, забросив его перед тобой.@
+` Извинившись, Юмизука выбрасывает оторваную голову..\
 
-`"Yumizuka, what was that---"@
-`"Hm?@ Oh, this?@ I ran into him while I was running after you.@
-` He was being a little noisy so I ripped off his mouth.@ I tasted a little of his blood, but drunk people's blood tastes so nasty.@ Shiki-kun, you should only choose young and healthy bodies too."\
+` - Юмизука, что это был за...@
+` - Хм?@ О, он?@ Я наткнулась на него пока бежала за тобой.@
+` Он немного шумел, так что я заставила его замолчать.@ Я попробовала его крови, но у пьяных кровь такая невкусная.@ Шики-кун, ты тоже выбирай себе только молодые и здоровые тела.\
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_slw
 
 
-` Speaking pleasantly, she approaches with a smile.@
-` It's nothing like the smile from back then.\
-` Bye-bye, she said.@
-` There are no similarities with the person who waved and departed back then.\
+` Она приближается, улыбаясь и радостно болтая.@
+` Это совсем непохоже на ту её улыбку.\
+` Она сказала «Пока!».@
+` У неё нет ничего общего с тем человеком, что махал мне тогда на прощание.\
 
 
-`"You---really don't think anything of killing people, Yumizuka?"@
+` - Ты, ты правда можешь вот так вот убить человека?!@
 ; ??? : 01~10 : 02_?02(????)<???????(?)>
 ld c,":a;image\tachi\stk_t02.jpg",%type_lshutter_mid
-`"I don't.@ Talking humans and edible humans are different.@ Even you make a difference between human friends and friends to be killed, right Tohno-kun?"\
+` - Не совсем.@ Говорливые люди и съедобные люди отличаются друг от друга.@ Даже ты различаешь человеческих друзей и друзей которых надо убить, так, Тоно-кун?\
 
-`"I didn't think so at first.@ Last night, I really hated myself too.@
-` But, I had to drink blood, to ease the pain.@ So I killed a lot of people.@ Each time I killed someone, my body stopped hurting and my heart hurt more."@
-` She stops for just a moment.@
-` For a moment, Yumizuka Satsuki looks down sadly.\
+` - Сначала я так не думала.@ Вчера вечером я сильно ненавидела себя.@
+` Но я дожна была пить кровь чтобы облегчить боль.@ И я убила множество людей.@ Каждый раз как я убивала кого-то, моё тело переставало болеть, а сердце начинало болеть сильнее.@
+` На какую-то секунду она останавливается.@
+` На секунду, Юмизука Сацуки грустно опускает глаза.\
 
-`"But, I came to understand.@ Right now it will still hurt a bit, but even that will fade.@ Because----beyond the guilt of killing people, the wonderful feeling of taking their lives away was many times stronger.@
+` - Но потом я поняла.@ Сейчас оно будет немного болеть, но потом перестанет.@ Потому что... после чувства вины за убийство людей, было во много раз более сильное, прекрасное ощущение  от власти над их жизнями.@
 ld c,":a;image\tachi\stk_t08.jpg",%type_crossfade_fst
 
-` I told you, didn't I?@ That I will be like you, Shiki-kun.@ Don't worry, I'll become a splendid vampire who enjoys killing, just like you."@
+` Я же говорила тебе, не так ли?@ Что я стану как ты, Шики-кун.@ Не волнуйся, я стану великолепной вампиршей, которой нравится убивать, как и тебе, Шики-кун.@
 ` Yumizuka approaches with a smile.\
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_mid
 
-`"-----That's a lie."@
-` I say so, only to realize that even that is a lie.@
-` It's such a poor lie that even I can't be deceived.@
+` - Это ложь...@
+` Я произношу это и понимаю, что и это тоже ложь.@
+` Такая плохая ложь, что она не обманывает даже меня.@
 br
-` ----It's hopeless.@
-`    She's hopeless.@
+`  Это безнадёжно.@
+`  Она безнадёжна.@
 br
-` Yumizuka Satsuki cannot be saved.@
-` Even my remaining reasoning lost to that sole conclusion.\
+` Юмизуку Сацуки невозможно спасти.@
+` Все мои сотавшиеся доводы теряются перед этим выводом.\
 
-`"--------"@
-` I stand up, grasping the knife tightly.@
-` She's going to suck my blood anyway.@ I don't plan on losing my life and becoming one of those vampires.@
-` So.@
-` There was only one thing to do from the beginning.\
+` - ...@
+` Я поднимаюсь, крепко сжимая нож.@
+` Она всё равно собирается высосать мою кровь.@ Я не собираюсь терять свою жизнь и становиться одним из тех вампиров.@
+` Так что.@
+` С самого начала мне оставалось сделать лишь одно.\
 
-`"---Yumizuka, I... can't save you."@
+` - Юмизука,.. я не смогу спасти тебя.@
 ld c,":a;image\tachi\stk_t02.jpg",%type_crossfade_fst
 
-`"That's not true.@ If you just cooperate, we'll be happy together."@
+` - Это не так.@ Если ты будешь сотрудничать, мы сможем быть счастливы вместе.@
 br
-`"---"@
-` No.@ That's a twisted happiness, Yumizuka.@
+` - ...@
+` Нет.@ Юмизука, это извращённое счастье.@
 br
-`"But.@ I made a promise.@ ---so I have to help you in some other way."@
-` Saying so, I take off my glasses.\
+` - Но.@ Я дал обещание@ — так что я должен помочь тебе другим способом.@
+` С этими словами я снимаю очки.\
 ;CD-DA??
 playstop
 
@@ -682,16 +683,16 @@ bg "image\bg\bg_25b.jpg",%type_crossfade_fst
 waveloop se1
 
 
-` An ache floods my head.@
+` Боль заполняе мою голову.@
 !w300
 !w300
 !w300
 !w300
 !w300
-` For the first time,
-` I accept this vision in order to kill someone.\
+` В первый раз,
+` Я использую это видение чтобы убить кого-то.\
 
-`"---I see.@ Well, I'm glad you're motivated, Shiki-kun.@ But it's too late.@ This race is already over."@
+` - Понятно.@ Что ж, Шики-кун, я рада что ты теперь серьёзен.@ Но уже поздно.@ Наше состязание уже окончено.@
 
 
 quakex 2,50
@@ -700,46 +701,46 @@ monocro off
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-`"-----!?"\
+` «?!»\
 ;S.E."????"
 wave se14
 
 
-`"Gah---!"@
+` - Гха!..@
 
-` ---What, what just happened...?@
-` In an instant, Yumizuka disappears, I see her face beside me---and at that moment, something slams into my side.\
+` Что, что только что случилось?..@
+` За один миг, Юмизука исчезает, я вижу её лицо рядом со мной — и тут что-то врезается мне в бок.\
 
-`"Ha---a, guh...!"@
-` ...... My back hurts.@
-` Such a simple attack and I am slammed into the wall of a building?@
-`"Kuh---!"@
-` Grasping my knife tightly, I somehow manage to stand.@
+` - Хаааа, гха!..@
+` Спина болит...@
+` Такой простой удар, и меня отшвыривает в стену?@
+` - Кха!..@
+` Крепко сжав нож, я умудряюсь подняться.@
 
 
-`"Oh, you can still move?@ You're relatively strong, aren't you, Shiki-kun?@ Since you were always troubled by anemia, I thought you were weak."@
-` Yumizuka's voice draws nearer.\
+` - О, ты ещё можешь двигаться?@ Шики-кун, ты относительно крепкий, не так ли?@ Я думала ты слабый, ведь тебя постоянно мучала анемия.@
+` Голос Юмизуки приближается.\
 
-` *pant*---*pant*, *pant*
-` Breathing---my breathing is rough.@
-` What is this?@
-` I have made a serious mistake.\
+` *вдох* — *вдох*, *вдох*
+` Дыхание — моё дыхание прерывисто.@
+` Что произошло?@
+` Я совершил серьёзную ошибку.\
 
-`"It's useless to expect anything from that knife.@ To me, you look as if you're stopped.@ Even if you had a gun, it would be useless."@
+` - Бесполезно полагаться на этот нож.@ Для меня ты словно не движешься.@ Даже если бы у тебя был пистолет, это было бы бесполезно.@
 br
-` Her laughing voice is full of amusement.@
+` С изумлённым смехом произносит она.@
 br
-`"---Ghaa---ah."@
-` That's, the mistake.@
-` I can see the lines along which things break, but I'm just a human who can see that.@
-` If my opponent is many times faster than me, like Yumizuka, I can't even touch those lines.\
+` - Гхаа, хаа...@
+` В этом и состоит ошибка.@
+` Я вижу линии, по которым ломаются вещи, но я ведь всего лишь человек.@
+` Если мой враг во много раз быстрее меня, как Юмизука, я не могу и коснуться этих линий.\
 
-`"Kuh---"@
-` In other words,
-` against her, it's useless even if I can see these lines.@
+` - Кха...@
+` Иными словами,
+` с ней, даже если я вижу линии, это бесполезно.@
 ld c,":a;image\tachi\stk_t02.jpg",%type_crossfade_fst
 
-`"---Ohh.@ Well, it can't be helped.@ I'm going to be a little rough.@ Don't worry, if your head and heart are intact, I can do something."\
+` - Оооо.@ Ну, ничего не поделаешь.@ Придётся мне быть немножко грубой.@ Не переживай, если твои голова и сердце уцелеют, я смогу что-нибудь придумать.\
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_fst
@@ -754,36 +755,36 @@ waveloop se1
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
 
-`"Kuh----"@
-` With a crash, everything becomes black.@
-` Yumizuka's hand grabbed my arm.@
-` And threw me like that...@
-` Like a soccer ball, I was thrown and I fall to the ground on my back.\
+` - Кха!..@
+` Раздаётся треск, и всё темнеет.@
+` Рука Юмизуки хватает мою руку.@
+` И с такой лёгкостью бросает...@
+` Меня швырнули как футбольный мяч, и я шлёпаюсь на спину.\
 
-`"Ah----ghh----!"@
+` - А — гххх!..@
 br
-` ----I can't see.@
-` My body is in such pain, I can't see anything.@
+` Я ничего не вижу...@
+` Мне так больно, что я ничего не вижу.@
 br
-`"Hey now, you shouldn't be sleeping there, Shiki-kun......!"@
-`"----!"@
-` I roll to the side quickly.@
+` - Эй, Шики-кун, не спать!..@
+` «!»@
+` Я быстро откатываюсь в сторону.@
 ;S.E."????"
 wave se4
 
-` Right where I was before, Yumizuka's arms pound the ground.@
+` Рука Юмизуки врезает в то места, где я только что был.@
 ;S.E."????(???)"
 waveloop se1
 
-` The sound of asphalt breaking apart reaches my ears.\
+` До моих ушей доносится звук треснувшего асфальта.\
 
-`"Ha----kk......!"@
-` I force my numb body to move.@
-` My vision is still pitch-black.@
-` All I can feel is Yumizuka's presence.@
-`"......... You......!"@
-` Standing up and facing her presence, I raise my knife.@
-`"I said it was useless.@ Why can't you just accept it calmly, Shiki-kun!?"\
+` - Ха-ккк!..@
+` Я заставляю своё занемевшее тело двигаться.@
+` Перед глазами у меня по преженему темно.@
+` Я только чувствую присутствие Юмизуки.@
+` - Ты!..@
+` Встав на ноги и повернувшись в её сторону, я поднимаю нож.@
+` - Я же сказала, бесполезно.@ Шики-кун, почему ты не можешь просто принять это?!\
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
@@ -791,34 +792,34 @@ bg "image\bg\ima_11.jpg",%type_nowaitdisp
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
 
-` Her presence nears.@
-` Thump, the sound of my heartbeat.@
-` It might be because I can't see anything, this time I easily slip through her grasp.@
+` Она приближается.@
+` Тук, стучит моё сердце.@
+` Наверное, это потому что я ничего не вижу, но вэтот раз я легко уворачиваюсь от её хватки.@
 br
-`"------No way."@
+` - Невозможно.@
 br
-` Yumizuka's surprised voice.@
-` I know her back is facing me.@
-` But since I can't see her, I can't do anything.@
-` From there----a hostile, killing presence growing stronger.\
+` Удивлённый голос Юмизуки.@
+` Я знаю, что сейчас она стоит ко мне спиной.@
+` Но поскольку я не вижу её, я ничего не могу сделать.@
+` От туда — до меня доносится враждебное, убийственное желание.\
 
-`"Why you----I said, don't move!!!"@
-` Her voice.@ Impending death.@
-` I blindly swing my knife to meet them.@
+` - Ах ты — я сказала не двигайся!!!@
+` Её голос.@ Неизбежная смерть.@
+` Я наугад машу ножом в их сторону.@
 
 ;S.E."?????????"
 wave se11
 ; ????<??????(?)>
 bg "image\bg\ima_14.jpg",%type_rshutter_fst
 
-`"Kyaa----!"@
-` The sound of rending flesh.@
-` I just sliced her arm.\
+` - Кйа!!!@
+` Звук разрываемой плоти.@
+` Я только что порезал ей руку.\
 
 
-`"Cra----Yumizuka, are you okay......!?"@
-` Saying so, I hate how stupid I am.@
-` Why am I worrying over someone trying to kill me----?@
+` - Чёр-Юмизука, ты в порядке?!,@
+` Произнося это, я злюсь на собственную тупость.@
+` Почему я переживаю за того, кто пытается меня убить?..@
 br
 
 ;S.E."????"
@@ -833,127 +834,127 @@ quakey 1,500
 ;S.E."????(???)"
 waveloop se1
 
-`"------Ah."@
-` My body... floats.@
-` I am hit from the front and fly through the air.\
+` - Аа...@
+` Моё тело... парит.@
+` По мне попали спереди и я лечу сквозь воздух.\
 
 ; ???? : ?????? : ???2(?)<??????(?)>
 bg "image\bg\bg_31b.jpg",%type_bshutter_fst
 
 
-`"Ah------"@
-` My vision returns.@
-` Is it because her attack was so strong?@
-`"...... Back...... alley."@
-` It seems I flew all the way to the back alley wall.@
-` I feel the hard wall against my back.@
+`  - А...@
+` Моё зрение возвращается.@
+` Это из-за того, что её удар был такой сильный?@
+` «Пере...улок»@
+` Похоже, я отлетел прямо в стену переулка.@
+` Спиной я ощущаю жесткую стену.@
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_31b.jpg",%type_crossfade_mid
 
 
-`"----Ah."@
-` My consciousness starts to fade.@
-` Still, Yumizuka mercilessly presses forward.\
+` - Аа...@
+` Моё сознание начинает покидать меня.@
+` А Юмизука продолжает безжалостно наступать.\
 
-`"Liar----!"@
-` Her voice full of hate, she swings her arm towards me.@
-`".................."@
-` I can't move.@
-` Since I can't move, all I can do is be killed.\
+` - Лжец!..@
+` Её голос полон ненависти, она замахивается на меня.@
+` «...»@
+` Я не могу пошевелиться.@
+` Всё, что я могу сделать, это дать себя убить...\
 ;S.E."?????"
 wave se9
 
-`".................. Eh?"@
-` The wall shakes.@
-` Yumizuka's arm only pounded the wall next to me.\
+` - Э?@
+` Стена сотрясается.@
+` Рука Юмизуки врезалась в стену рядом со мной.\
 ;CD-DA????????
 play "*8"
 
 ; ??? : 11~20 : 12_????<??????(?)>
 ld c,":a;image\tachi\stk_t12.jpg",%type_lshutter_fst
 
-`"Liar----!@ You said you'd help me when I was in a pinch!"@
+` - Лжец!..@ Ты же сказал, что выручишь меня в беде!@
 ;S.E."?????"
 wave se9
 
-` Again, she starts to break areas away from me.\
+` Она продолжает молотить по стене вокруг меня..\
 
-`"Why?@ Am I not good enough because I became like this?@ But I couldn't help it......!@ I didn't become like this because I wanted to......!"@
-` Bam.@ Bam.@
-` Like a child throwing a tantrum, she keeps screaming.\
+` - Почему?@ Я того не стою, раз я такая?@ Но я ничего не могла сделать!..@ Я стала такой не потому что хотела этого!..@
+` Бам.@ Бам.@
+` Как закатывающий истерику ребёнок, она продолжает кричать.\
 
-`"...... It hurts so much, it is so painful, but why won't you help me, Shiki-kun!?@ You promised to help me, so why--"@
+` - Мне так больно, мне так тяжело, так почему ты мне не поможешь, Шики-кун?!@ Ты обещал помочь, так почему...@
 br
 ;S.E."?????"
 wave se9
 
-` Bam.@ Bam.@
-` Her forlorn, anguished voice.@
-` In this situation where she could kill me any time...
-` For some reason, my fear of impending death starts to fade away.\
+` Бам.@ Бам.@
+` Её обессиленый, измученый голос.@
+` В этой ситуации, когда она может убить меня в любой момент...
+` Почему-то мой страх перед неизбежной смертью начинает отступать.\
 
-`"Shiki-kun----if you could be by my side, I could even bear this pain.@ Why, why can't you accept me......!?"@
+` - Шики-кун... если бы ты был со мной, я бы смогла вынести даже эту боль.@ Почему, почему ты не примешь меня?!.@
 ;S.E."?????"
 wave se9
 cl c,%type_crossfade_fst
 br
-` ...... How, foolish.@
-` Her words weren't ones of hate directed at me.@
-` Yumizuka Satsuki was only crying this whole time because she can't help it----\
+` Как, глупо...@
+` Её слова не несли в себе ненависти.@
+` Юмизука Сацуки плакала всё это время потому что она не могла этого вынести...\
 
 !w2000
 br
-` ----Her voice dwindles away.@
+` Её голос слабеет.@
 br
-` Only able to move my fingers, I look at her.@
-` ...... How come?@
-` Yumizuka looks at my unmoving body as if she was surprised.@
-` ...... As if,
-` she was waking from a nightmare, and regretting what she's done.\
+` Я смотрю на неё, сил у меня хватает только на то, чтобы двигать пальцами.@
+` Как так получилось?..@
+` Юмизука смотрит на моё неподвижное тело словно она удимвлена.@
+` ... Как будто,
+` она только что пробудилась от кошмара, и сожалеет о содеянном.\
 
-`"----Shiki-kun, I...... never, meant to----"@
+` - Шики-кун...Я... я не хотела...@
 br
-` Her voice is trembling.@
-` ...... I guess she's calmed down, but her voice still sounds like she is about to cry.\
+` Её голос дрожит.@
+` Похоже, она успокоилась, но её голос всё ещё дрожит, как будто она готова расплакаться.\
 
-`"......... It's......... okay."@
+` - Всё... в порядке...@
 br
-` ----You don't need to blame yourself like that.@
-` Even if your mind and body turned into a vampire.@
-` In the end, you're still just a pitiful victim.@
-` In any case, I can't move.@
-` Yumizuka, if you say you are so alone, in so much pain, and so cold,
-` then there is only one thing that I can do.\
+` Не нужно так укорять себя...@
+` Хоть твои разум и тело превратились в вампира.@
+` Всё-таки, ты все ещё несчастная жертва.@
+` В любом случае, пошевелиться я не могу.@
+` Юмизука, если тебе так одиноко, так больно и холодно,
+` то мне остаётся сделать только одно.\
 
-`"...... It's okay, Yumizuka-san."@
-`"Shiki...... kun?"@
-`"You can suck my blood if you want.@
-` It's a promise...... I'll be with you, okay?"@
-` I think my voice was kinder then I ever was.@
+` - Всё в порядке, Юмизука-сан.@
+` - Шики...кун?@
+` - Можешь выпить мою кровь, если хочешь.@
+` Я обещаю... я буду с тобой, хорошо?@
+` Наверное, в моём голосе никогда не было столько доброты.@
 
-` After hesitating, she quietly kneels by me and holds me.\
+` Немного поколебавшись, она тих опыскается на колени рядом со мной и обнимает меня.\
 
-`"----Is it, really okay?"@
-` Her voice is mingled with hesitation and happiness.@
-`"...... What?@ You came after me because you wanted to do that, right?@ Why are you hesitating now, Yumizuka-san?"@
-`"But------I really want to, but----"@
+` - Всё правда в порядке?..@
+` В её голосе смешаны сомнения и счастье.@
+` - Что?..@ Ты же гналась за мной потому что хотела этого?@ Юмизука-сан, почему ты колеблешься сейчас?@
+` - Ну... Я правда хочу этого, но...@
 br
-` ----If I do that, I really will be hopeless----
+` ...если я сделаю это, я правда буду безнадёжна...
 br
-` That last line barely escapes her lips.\
+` Последняя фраза едва покидает её губ.\
 
-`"............"@
-` ...... How ironic.@
-` Certainly she has become a vampire.@ Yet in her most important part, a human heart remains.@
-` Because her heart remains, Yumizuka Satsuki still feels pain over being a vampire.@
-` Being human.@
-` As long as that part remains human, she will be in pain.\
+` - ...@
+` Как иронично...@
+` Конечно, она стала вампиром.@ Но самая важная её часть, сердце, остаётся человеческим.@
+` Потому что её сердце остаётся таким, Юмизука Сацуки всё ещё больно быть вампиром.@
+` Остаётся человеческим.@
+` Покуда эта часть её остаётся человеческой, ей будет больно.\
 
-`"----It hurts, doesn't it?@ So it's okay.@ I can't help you.@ So shouldn't we just do things your way?"@
-`"......... Shiki......... kun."@
-` She nods.@
-` Then, she brings her lips to my neck.\
+` - Ну тебе ведь больно?@ Значит, всё в порядке.@ Я не могу помочь тебе.@ Так что может сделаем всё по твоему?@
+` - Шики...кун...@
+` Она кивает.@
+` И подносит свои губы к моей шее.\
 
 
 ; ???<??????(?)>
@@ -965,18 +966,19 @@ playstop
 bg "image\event\stk_e01a.jpg",%type_rshutter_mid
 
 
-`"Ah------"@
-` Disappearing.@
-` The remaining heat in my body fades away quickly.@
+` «Аа...»@
+` Исчезает.@
+` Последнее тепло в моём теле исчезает.@
 br
-` Quiet.@
-` Such a quiet death.@
+` Тихая.@
+` Такая тихая смерть.@
 br
-` I don't have any power to break free.@
-` The "lines" in my vision should disappear soon too.\
+` У меня не нет сил освободиться.@
+` 'Линии' у меня перед глазами тоже скоро исчезнут.\
 
 
 return
+
 
 </pre>
 
