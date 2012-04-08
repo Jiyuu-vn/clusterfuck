@@ -14,18 +14,18 @@ bg "image\bg\bg_33d.jpg",%type_crossfade_mid
 ;S.E."??????????…?(???)"
 waveloop se10
 
-` The door opens with a creak.@
-` With a heavy body and dulled mind, I make it back to the mansion.@
-` My footsteps drag behind me.@
-` The moonlight illuminates my figure, making it look like an exhausted ghost.\
+` Дверь со скрипом открывается.@
+` Моё тело еле движется, а в голове пусто, но я кое-как дотянул до поместья.@
+` Мои ноги еле волочатся.@
+` Лунный свет освещает меня, отчего я похож на измождённого призрака.\
 
-`"-----------"@
-` ...... My left arm hurts where Yumizuka wounded me.@
-` The bleeding has stopped, and the gradual lessening of the pain tells me it couldn't have been too deep.\
-`"-----------"@
-` I reach the stairs.@
-` I don't even care about treating my wounds.@
-` Right now, I just want to stumble back to my room and sleep like a rock----\
+` - ...@
+` Моя левая рука болит там, где меня ранила Юмизука.@
+` Кровотечение остановилось, и благодаря тому, что боль постепенно ослабевает, я понимаю, что рана была не слишком глубокой.\
+` - ...@
+` Я подхожу к лестнице.@
+` Мне даже обработать раны не хочется.@
+` Сейчас я хочу только дотащиться за комнаты и завалиться спать...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -60,143 +60,143 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 ;CD-DA?????
 play "*2"
 
-` I wake from a long sleep.@
-` The sunshine from the window looks closer to mid-day than morning.@
-` It must be because of how late I got back last night.@
-` It seems I've overslept.\
+` Я просыпаюсь от долгого сна.@
+` Судя по свету солнца, сейчас уже не утро, а середина дня.@
+` Наверно это из-за того что вчера я вернулся поздно.@
+` Похоже, я проспал.\
 
-`"..............."@
-` Dragging myself up from bed, I look down at my hand.@
-` ----The sensation of how I stabbed Yumizuka remains.@
-` Two nights ago.@
-` When I met Yumizuka and saw that hideous dream.@
-`"...... If only yesterday...... was just a dream."@
-` But wishing it won't make it so.@
-` I've no clue why or how Yumizuka became a vampire, and I couldn't do anything to help her.\
+` - ...@
+` Кое-как поднявшись, я смотрю на свою руку.@
+` В ней всё ещё слышно то ощущение, как когда я наносил удар Юмизуке...@
+` Два дня назад.@
+` Когда я встретил Юмизуку и увидел тот отвратительный сон.@
+` «Вот если бы вчера... было всего лишь сном.»@
+` Но от моих желаний ничего не изменится.@
+` Я понятия не имею как Юмизука стала вампиром, и я ничего не смог для неё сделать...\
 
-` ---No.@
-` Once Yumizuka had become like that, there was probably no way for anyone to help her.@
-` She was already dead.@
-` All I did was return that corpse somehow moving about as if it were a living thing back to being a dead body.@ That's the only way I can think of it.@
+` Нет.@
+` Ей наверное уже нельзя было помочь как только она стала такой.@
+` Она уже была мертва.@
+` Я лишь упокоил этот каким-то образом оживший труп.@ Я не могу думать об как-то иначе.@
 br
-` But, still---
+` Но всё же...
 br
 ;S.E."???"
 wave se3
 
-`"Please excuse me, Shiki-sama."@
-` With that voice I have become accustomed to, Hisui enters the room.\
+` - Шики-сама, с вашего позволения.@
+` Доносится уже ставший привычным для меня голос, и в комнату заходит Хисуи.\
 
 ;(??01)
 ; ?? : 01~10 : 01_?01(?????)<?????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lcartain_mid
 
-`"Good morning, Shiki-sama.@ How are you feeling today?"@
-`"Hm...... ah, I slept well, so I don't feel bad at all."@
-`"Is that so?@ Hearing that makes me feel very relieved."@
-` ...... Even though she says that, I don't see her even relax her shoulders, or give any other indication of it.\
+` - С добрым утром, Шики-сама.@ Как вы себя чувствуете?@
+` - Хм... а, спал я хорошо, так что чувствую себя нормально.@
+` - Правда?@ Очень рада это слышать.@
+` Хоть она и говорит это, она не расслабляет плечи или как-то ещё это проялвяет.\
 
-`"..............."@
-` But, I feel relieved as well.@
-` Because of what happened last night, the long night is over.@ Because I don't have to enter that unnatural world any longer, my heart can relax.@
-`"...... Thanks, Hisui.@ You've always come to check up on me from early in the morning, right?@ Your concern means a lot to me."@
+` - ...@
+` Но вот я чувствую облегчение.@
+` Благодаря вчерашним событиям, долгая ночь кончилась.@ Моё сердце снова может расслабиться, ведь мне больше не нужно посещать этот чуждый мир.@
+` - Спасибо, Хисуи.@ Ты ведь всегда приходишь проведать меня по утрам?@ Твоя забота многое для меня значит.@
 
 ;(?????)
 ; ?? : 01~10 : 03_??01(????)<???????(?)>
 ld c,":a;image\tachi\his_t03.jpg",%type_crossfade_fst
 
-`"----Not at all.@ It is my duty to be concerned with your welfare."@
-` There is a hint of happiness in Hisui's expression.\
+` - Не обращайте внимания.@ Мой долг заботиться о вашем благополучии.@
+` В глазах Хисуи мелькнули счастливые искорки.\
 
-` ...... Moreover, I feel like I've been somewhat rescued.@
-` While I've been sleeping in bed like this, Hisui came as always to wake me up.@
-` With just that trivial thing, I honestly feel like I have returned to my normal life.\
+` ... Кроме того, я чувствую себя словно спасённым.@
+` Пока я спал, Хисуи как всегда пришла будить меня.@
+` Такая мелочь, но я чувствую что по настоящему вернулся к нормальной жизни.\
 
 
 ;(?????02)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"Um...... Shiki-sama, this is somewhat difficult for me to say, but... can I?"@
-`"......?@ Difficult to say?@ If it's about me sleeping in till noon, I really can't do anything but apologize."@
+` - Эм... Шики-сама, мне трудно это говорить, но... можно?@
+` - ..?@ Трудно говорить?@ Если это о том, что я проспал до полудня, то я могу только извиниться.@
 
 ;(??05)
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
-`"No, that is not what I meant, but it is perhaps related to when you went to sleep."@
-` Hisui fidgets with her fingers as she struggles to come up with the right words.\
+` - Нет, дело не в этом, хотя это скорее связано с тем, когда вы легли спать.@
+` Пытаясь подобрать слова, Хисуи нервно перебирает пальцами.\
 
 ;(?????02)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"...... Um, I did not say anything, but Akiha-sama found out about last night."@
-`"Eh...... about last night...... what?"@
-`"I mean when you left late last night, Shiki-sama."@
-`"Oh----"@
-` I unconsciously turn my eyes away from her.@
-` I thought I'd managed to slip away undetected, but I should have known Hisui would still find out.\
+` - Эмм, я ничего не говорила, но Акиха-сама узнала про вчерашний вечер.@
+` - Ээ... о вчерашнем вечере... что именно?@
+` - Шики-сама, я имею ввиду когда вы вчера ушли.@
+` - О.@
+` Я невоольно отвожу глаза.@
+` Я думал, что сумел ускользнуть незамеченым, но мне следовало догадаться что Хисуи всё равно узнает.\
 
 ;(??01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama, your return late at night has gained the attention of Akiha-sama, so I believe you will be asked to explain yourself sooner or later.@
-` She is in the sitting room and may be angry, so please be prepared."@
-`"......... I see.@ Oh well, I can't complain, since it was me that went out past curfew."\
+` - Шики-сама, Акиха-сама узнала о вашем вчерашнем позднем возвращении, так что я думаю рано или поздно вам придётся объясниться.@
+` Сейчас она ожидает в гостиной, и возможно злится, так что будьте готовы.@
+` - Понятно...@ Ну  что ж, я не вправе жаловаться, раз сам вышел после отбоя.\
 
-`"About that, will it be occurring again?@ I cannot stop you, but if you continue doing such things, I must tell Akiha-sama."@
-`"----No, nothing like last night will happen again.@ Everything...... has ended last night...... There won't be any phone calls anymore."\
+` - Насчёт этого, будет ли это происходить снова?@ Я не могу вас остановить, но если вы будете продолжать это делать, я должна буду сообщить Акихе-сама.@
+` - Нет, ничего подобного уже не повторится...@ Всё... кончилось этой ночью... Больше звонков не будет.\
 
-` ---Yes.@ It really has ended.@
-` With these words, it truly is over.@
-` Yumizuka Satsuki is no more.@
-` The vampire skulking the streets has vanished.@ I, with my own hands, sent away a classmate who said she liked me, for all eternity.\
+` И правда.@ Всё и правда кончилось.@
+` С этими словами всё действительно кончается.@
+` Юмизуки Сацуки больше нет.@
+` Вампир, скитавшийся по улицам, исчез.@ Я собственными руками отправил на тот свет одноклассницу, которой нравился.\
 
 ;(??????)
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"........................"@
-` Hisui looks at me with a painful expression on her face.@
-` ...... Geez, if Hisui is making that sort of face, then I must look terrible right now.@
-`"---Well, I should get up sooner or later.@ Hisui, is Akiha still here?@ She's an awfully busy person, so does she have a routine on her day off?"@
+` - ...@
+` Хисуи смотрит на меня со взволнованым видом.@
+` Чёрт, раз уж Хисуи делает такое лицо, значит я выгляжу действительно ужасно.@
+` - Ну что ж, рано или поздно мне придётся встать.@ Хисуи, Акиха ещё здесь?@ Она ведь ужасно занятой человек, так что у неё может есть распорядок и на выходные?@
 
 ;(??01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Yes, she does have plans during her day off, but today she is still in the mansion."@
-`".........?"@
-` She has plans, but she's still here......?\
+` - Да, у неё есть планы на выходных, но сегодня она ещё в поместье.@
+` - ...@
+` У неё планы, но она всё равно здесь?..\
 
-`"I don't quite get it, but...... well, I'll go and get changed, so please head to the sitting room before me."@
-`"Yes.@ Well then, please excuse me."@
+` - Я не совсем понимаю, но... ладно, я сейчас переоденусь, так что отправляйся пока в гостиную.@
+` - Хорошо.@ В таком случае, с вашего позволения.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` As usual, Hisui walks away without a sound.@
+` Как обычно, Хисуи бесшумно уходит.@
 br
-` ---But, I forgot something really important.@
+` Но я забыл кое-что важное.@
 br
-`"Hisui."\
+` - Хисуи.\
 
 ;(??01)
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
 
-`"Yes?@ What is it, Shiki-sama?"@
-`"Yeah, I forgot to say something.@ Thanks for coming to wake me up.@ It's a little late, but good morning, Hisui."@
+` - Да?@ Шики-сама, вы что-то хотели?@
+` - Да, забыл кое-что сказать.@ Спасибо, что пришла меня разбудить.@ Уже поздновато, но с добрым утром, Хисуи.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t03.jpg",%type_crossfade_fst
 
-`"---Yes.@ Please have a nice day, Shiki-sama."@
+` - Спасибо.@ Удачного дня, Шики-сама.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Well then.@
-` I should hurry up and change, and head to the sitting room.\
+` Ну что ж.@
+` Пора переодеваться и идти в гостиную.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -205,6 +205,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
 return
+
 
 
 </pre>
