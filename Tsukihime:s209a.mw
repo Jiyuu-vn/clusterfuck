@@ -354,25 +354,25 @@ bg "image\bg\bg_10c.jpg",%type_tshutter_mid
 play "*1"
 !w1000
 
-`"---Sorry for dragging you along with me, Arihiko."@
+` - ...Арихико, прости что заставил ждать.@
 
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_tshutter_mid
-`"Yeah, yeah, I'm used to you collapsing without warning like that.@ Honestly, sleeping in the infirmary up to the very last minute?@ Just who do you think you are?"@
-`"You should've woken me up.@ There's nothing conscientious about letting me sleep until they lock us in the building."@
-`"Shaddup.@ You think I'm going to wake up a sick person?@ You'd just collapse again.@ C'mon, we need to get back.@ It's already seven, y'know."@
+` - Да, да, я уже привык что ты постоянно теряешь сознание.@ Но проспать в медпункте до самой последней минуты?@ Ты кем себя возомнил?@
+` - Надо было меня разбудить.@ Было безответственно позволить мне спать до тех пор пока они не собрались закрывать здание.@
+` - Пасть закрой.@ По твоему я стану будить больного человека?@ Ты же опять в обморок упадёшь.@ Давай, пора возвращаться.@ Уже вообще-то семь.@
 
 ; ?????<???????(?)>
 cl a,%type_tshutter_mid
 
-` Arihiko walks down the corridor.\
-` ...... After that.@
-` I collapsed from anemia and was left to sleep in the infirmary.@
-` Time passed until school lock-up time at six-thirty, when I was awoken by Arihiko's punch.@ And so, we came to be walking along this deserted corridor.@
+` Арихико идёт дальше по коридору.\
+` ... В тот момент.@
+` Я потерял сознания от анемии и меня уложили спать в медпункте.@
+` Там я пролежал до половины седьмого, когда кшола должна была закрываться и меня разбудил кулак Арихико.@ Так мы и оказались в этом пустом коридоре.@
 
-`"Hey.@ C'mon Tohno.@ What are you doing?"@
-`"--Sorry.@ I'm coming."@
-` I shake my still-woozy head, and follow Arihiko.\
+` - Эй.@ Тоно, пошли.@ Ты чем занят?@
+` - Прости...@ Иду.@
+` Ещё толком не проснувшись, я качаю головой и иду за Арихико.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -383,17 +383,17 @@ bg "image\bg\bg_01c.jpg",%type_lshutter_mid
 ; ?? : 04_??<???????(?)>
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
-`"Alright.@ You can go home by yourself from here.@ See you at school tomorrow."@
-`"...... Thanks.@ Sorry as always, Arihiko."@
+` - Ну ладно.@ Отсюда до дома сам дойдёшь.@ Завтра в школе увидимся.@
+` - Спасибо...@ Арихико, извини, как всегда.@
 ld c,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 
-`"Don't worry, pay me back in double in the future."@
+` - Не парься, потом удвойне отплатишь.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_mid
 
-` ...... Arihiko's answer isn't exactly in proper Japanese...
-` Smiling wryly to myself, I decide to head back to my own house.\
+` Арихико, ну это же безграмотно...
+` Криво ухмыльнувшись себе под нос, я направляюсь домой.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -401,22 +401,22 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_24c.jpg",%type_lcartain_mid
 
 
-` I reach the intersection.@
-` It's still seven in the evening, but there's no one around.@
-` I guess because of the killer, fewer people go out at night.@
-` The only figure I can see now is the back of a woman, far away.\
+` Я подхожу к перекрёстку.@
+` Сейчас только семь вечера, но никого уже нет.@
+` Наверное из-за убийцы меньше людей решают гулять допоздна.@
+` Так что сейчас я вижу только спину какой-то женщины вдалеке.\
 
-`"...... Ah, a blond?"@
-` The distant woman seems to be a foreigner.@
-` Even from far away, I can see her golden hair rippling as she walks.@
+` - А, блондинка?@
+` Женщина вдалеке, похоже, иностранка.@
+` Даже отсюда я вижу, как развеваются её золотистые волосы.@
 ;CD-DA??
 playstop
 
 ; ?????? : 21~30 : 22_??(???)<???????(?)>
 ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_mid
 br
-` ...... It draws my eyes after her.@
-` Even though I only see her from behind, I can tell she's beautiful.\
+` Они приковывают мой взгляд к ней...@
+` Хоть я и вижу её со спины, я понимаю, что она очень красива.\
 
 br
 br
@@ -428,18 +428,18 @@ br
 ;S.E."??"
 wave se0
 
-` --------Thump.\
+` Тук.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_24c.jpg",%type_crossfade_fst
 
 
-`"Eh..."@
+` - Э...@
 br
-` Suddenly my heart pounds loudly.@
-` My throat becomes inexplicably dry and parched.\
-` I break out in a cold sweat.\
+` Моё сердце вдруг начинает громко стучать.@
+` В горле ни с того ни сего пересыхает.\
+` Меня прошибает холодный пот.\
 
 ;S.E."??"
 wave se0
@@ -448,43 +448,43 @@ wave se0
 bg "image\bg\ima_13.jpg",%type_crossfade_fst
 bg "image\bg\bg_24c.jpg",%type_crossfade_fst
 
-`"U--gh."@
-` My head aches.@
-` It's not like the anemia earlier.@ Rather than fading, my consciousness becomes sharper.\
+` - У..хх@
+` Голова начинает болеть.@
+` Это не похоже на сегодняшний приступ анемии.@ Вместо того, чтобы затуманиться, мой разум фокусируется.\
 
 ;S.E."??"
 wave se0
 
-`"Ha-----gha."@
-` I gasp.@
+` - Хаа...кха.@
+` У меня перехватило дыхание.@
 ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_mid
 
-` That---back.@
-` Watching the woman's golden hair--My head hurts terribly.\
+` Эта – спина.@
+` Я смотрю на женщину с золотыми волосами – моя голова ужасно болит.\
 
 ;S.E."??"
 wave se0
 
-` *pant*---*pant*, *pant*----"@
-` ...... My thoughts feel like they're melting into a haze.@
-` I will... follow behind her, and then---
+` *вдох* - *вдох*, *вдох*----"@
+` Мои мысли становятся всё спутанней.@
+` Я... пойду за ней, и...
 br
-`"And...... then?"@
-` What am I going to do after that?@
+` «И... что?»@
+` Что я собираюсь делать потом?@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` The woman disappears into a group of apartments in the shopping district.\
+` Женщина заходит в жилой дом в торговом районе.\
 
 ;S.E."??"
 wave se0
 
-`"...... I have... to... fo... llow..."@
-` I don't know why, but I think that.@
-` My legs move on towards the apartments.@
+` «Я...дол...жен...ид...ти...»@
+` Думаю я, не знаю почему.@
+` Мои ноги начинают двигаться в сторону жилого дома.@
 br
-` But, before that.@
+` Но тут.@
 br
 
 ; ??? : 01~10 : 10_???????<????>
@@ -492,18 +492,18 @@ ld c,":a;image\tachi\stk_t10.jpg",%type_lshutter_fst
 cl a,%type_lshutter_fst
 
 
-`"--!"@
-` Only for an instant.@
-` Out of the corner of my eye, I see the figure of Yumizuka Satsuki.\
+` «!»@
+` Лишь на мгновение.@
+` Краем глаза я замечаю силуэт Юмизуки Сацуки.\
 
-`"Yumizuka, san-----?"@
-` My head becomes clear.@
+` - Юмизука, сан?..@
+` В голове проясняется.@
 
-` Yumizuka... it was only for an instant, but without a doubt, that was Yumizuka.@
-` Was she going towards town?@
-`"What's she doing out, at a time like this...!?"@
-` I was so mad, I didn't care if she disappeared or if she ran away from home.@
-` It's too dangerous for a girl to walk around town at night alone.\
+` Юмизука... прошло лишь мгновение, но без всяких сомнений, это была Юмизука.@
+` Она направлялась в город?@
+` - Почему она на улице, в такое время?!.@
+` Я так разозлился, мне было всё равно, пропала она или сбежала из дома.@
+` Одинокой девшуке опасно гулять ночью по городу.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -511,38 +511,38 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_25b.jpg",%type_lcartain_mid
 
 
-` Yumizuka walks through the crowded town.@
-` ...... She's so far away, I'm not certain.@
-` But even if I've mistaken her, I decided to run after her and tell her to stop.@
-`"Wait, Yumizuka-san--!"@
-` I shout, chasing after her.@
+` Юмизука идёт по переполненой улице.@
+` Она так далеко, я не уверен...@
+` Но даже если я обознался, я решаю догнать и остановить её.@
+` - Стой, Юмизука-саан!@
+` Кричу я, гонясь за ней следом.@
 ; ??? : 01~10 : 01_?01<??????(?)>
 ld c,":a;image\tachi\stk_t10.jpg",%type_lshutter_mid
 
-`"---"@
-` Yumizuka glances back, as if she heard my voice.\
+` - ...@
+` Юмизука оборачивается, словно услышав мой голос.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_25b.jpg",%type_crossfade_fst
 
 
-` That face... there's no confusing it.@
-` The girl walking ahead of me is unmistakably Yumizuka Satsuki, and the expression on her face wasn't frightening.@
-`"--Ah."@
-` But I felt a chill run through my spine.@
+` Это лицо... ошибки быть не может.@
+` Передо мной определённо Юмизука Сацуки, и в ней не было ничего пугающего. @
+` - А...@
+` Но по моей спине пробежал холодок.@
 br
-` ---Thump.@
+` Тук.@
 br
-` My heart beats quickly.@
-` The back of my head becomes heavy, and my throat burns.@
-` An ache assaults my head, just as it did with the blond woman earlier.\
+` Сердце бьётся быстрее.@
+` Мой затылок наливается тяжестью, а в горле пересыхает.@
+` Мою голову пронзает боль, как недавно с той блондинкой.\
 
-`"What is this... It's weird..."@
-` The inside of my body is burning.@
-` I feel dizzy as if I'm in the grip of a terrible fever.@
+` «Что это... так странно...»@
+` Мои внутренности горят.@
+` Моя голова кружится, словно меня разбила лихорадка.@
 br
-` In that moment, Yumizuka begins to walk again.\
+` В то же мгновение Юмизука снова начинает идти.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -550,57 +550,58 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_26a.jpg",%type_lshutter_mid
 
 
-`"Wa... Wait, Yumizuka-san...!"@
-` I call out, running.@
-` Yumizuka walks on, not turning.@
-`"Ca... can't you hear me, Yumizuka...!"@
-` I urge my hot body onwards.@
-` But, no matter how much I try, I can't catch her.@
+` - Сто... Стой, Юмизука-сан!..@
+` Я выкрикиваю на бегу.@
+` Юмизука продолжает идти, не оборачиваясь.@
+` - Юми, Юмизука, ты что, меня не слышишь!...@
+` Я подстёгиваю свою распалённое тело.@
+` Но как бы я ни старался, я не могу её догнать...@
 br
-` ...... No matter how fast I run, I can't catch up to her even as she walks.\
+` Как бы быстро я не бежал, я не могу догнать её, идущую шагом.\
 
-`"------"@
-` Something is... strange.@
-` I know that, but I can't tell what it is.@
-` Right now, all I can do is to follow Yumizuka Satsuki.@
+` - ...@
+` Просиходит что-то... странное.@
+` Я понимаю это, но не могу сказать, что именно.@
+` Сейчас я могу только следовать за Юмизукой Сацуки.@
 br
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
 
-` ----And then.@
+` Как вдруг...@
 br
-` I lose sight of her.@
-` Yumizuka Satsuki, whom I had been chasing without success, is nowhere to be seen.\
+` Я теряю её из виду.@
+` Юмизука Сацуки, за которой я безуспешно гнался, исчезает из моего поля зрения.\
 
 ; ???? : ??????? : ?????(?)<??????(?)>
 bg "image\bg\bg_26a.jpg",%type_bshutter_mid
 
-`"...... Shit... What the hell is going on...!"@
-` I stop, catching my breath,
-` My chest heaves deeply.@
-` ...... Though I hadn't realized until now, I must have been running for a long time.@
+` «Чёёрт... Какого хрена тут происходит?!.»@
+` Я сотанавливаюсь передохнуть,
+` Моя грудь тяжело вздымается.@
+` Только сейчас я понимаю, что бежал уже довольно долгое время...@
 br
-`"What... time is it...?"@
-` Resting my hands on my knee, I glance up at a nearby store window.@
-` It's--already midnight.\
+` - Который... час?..@
+` Уперев руки в колени, я смотрю в сторону ближайшей витрины.@
+` Сейчас – уже полнось.\
 
-`"----Can't be.@ I couldn't have been running for that long."@
-` ...... It's hard to believe, but the clock is correct.@
-` Looking around, most of the shopping district is closed.\
+` «Быть не может.@ Я не мог так долго бежать.»@
+` Тружно поверить, но часы не врут.@
+` Я оглядываюсь, и вижу, что почти все магазины вокруг закрыты.\
 
-`"---I should... go back."@
-` Even though I'm worried about Yumizuka, I feel like I won't be able to find her anymore.@
-` ...... I chased her for almost four hours, calling her name all this time, but she did not even respond.@ What was she thinking?@
+` - Надо... возвращаться.@
+` Хоть я и волнуюсь за Юмизуку, не думаю, что мне удастся снова её отыскать.@
+` Я гонялся за ней почти четыре часа, звал её по имени, но она даже не ответила... О чём она думала?@
 br
-` With a big sigh, I decide to head back to the mansion.\
+` Тяжело вздохнув, я рещаю возвращаться в поместье.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
 return
+
 
 
 </pre>
