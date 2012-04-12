@@ -16,104 +16,104 @@ bg "image\bg\bg_33d.jpg",%type_crossfade_mid
 ;S.E."??????????…?(???)"
 waveloop se10
 
-` The door opens with a creak.@
-` With a heavy body and dulled mind, I make it back to the mansion.@
-` My footsteps drag behind me.@
-` The moonlight illuminates my figure, making it look like an exhausted ghost.\
+` Дверь со скрипом открывается.@
+` Моё тело еле движется, а в голове пусто, но я кое-как дотянул до поместья.@
+` Мои ноги еле волочатся.@
+` В лунном свете я похож на измождённого призрака.\
 
-`"-----------"@
-` ...... My left arm hurts where Yumizuka wounded me.@
-` The bleeding has stopped, and the gradual lessening of the pain tells me it couldn't have been too deep.\
-`"-----------"@
-` I reach the stairs.@
-` I don't even care about treating my wounds.@
-` Right now, I just want to stumble back to my room and sleep like a rock----\
+` - ...@
+` Моя левая рука болит там, где меня ранила Юмизука.@
+` Кровотечение остановилось, и благодаря тому, что боль постепенно ослабевает, я понимаю, что рана была не слишком глубокой.\
+` - ...@
+` Я подхожу к лестнице.@
+` Мне даже обработать раны не хочется.@
+` Сейчас я хочу только дотащиться за комнаты и завалиться спать...\
 br
-`"Eh.........?@ Nii--san............?"@
+` - Э?..@ Нии...сан?..@
 br
-` --And then.@
-` From the middle of the stairs, I hear Akiha's voice.\
+` И в этот момент...@
+` Со стороны лестницы до меня доносится голос Акихи.\
 
-`".................. Akiha?"@
-` I raise my head.@
-` In front of me---I see Akiha who has just now made it to the bottom of the stairway.@
+` - Акиха?..@
+` Я поднимаю глаза.@
+` Передо мной... перед собой я вижу спускающуюся по лестнице Акиху.@
 
 ;(??23b)
 ld c,":a;image\tachi\aki_t23b.jpg",%type_lshutter_fst
 
-`"Ah............"@
-` ...... Akiha is silent.@
-` Something about her appearance is a little strange, but I don't even care right now and continue stumbling up the steps.@
-` Right now I should just go to my room.@
-` So I have to keep going up the stairs.@
-` I dazedly make my way past Akiha's still figure.@ I have to get up the stairs---\
+` - А...@
+` Акиха молчит.@
+` Она выглядит немного странно, но в данный момент мне это безразлично, и я продолжаю подниматься по супеням.@
+` Сейчас мне надо добраться до своей комнаты.@
+` Так что я продолжаю подниматься по ступеням.@
+` Словно в бреду, я прохожу мимо стоящей неподвижно Акихи.@ Мне надо подняться по лестнице...\
 
 ;(???17)
 ld c,":a;image\tachi\aki_t17b.jpg",%type_crossfade_fst
 
-`"H...... Hey, please wait, Nii-san!@ Just where did you go this late in the evening?"@
-`"-------"@
-` Who knows?@ Besides, what is Akiha doing standing here at this hour anyway?@
-` Trying to glide down the stairs as quietly as possible, it seems like she was going to go outside just now.\
+` - Э...Эй, Нии-сан, постой!@ Где ты был так поздно?@
+` - ...@
+` Кто знает?@ И потом, Акиха-то что тут забыла в такое время?@
+` Неслышно спускаясь по ступеням, она словно собиралась на улицу.\
 
-`"...... It doesn't have anything to do with you, Akiha.@ I'm going to my room, so don't bother me."@
-`"Bother, I---"@
-` Akiha gasps and cuts off mid-sentence.@
+` - Акиха, тебя это не касается.@ Я иду к себе, так что не доставай меня.@
+` - Не доставай, ну знаешь...@
+` Акиха обрывается на полуслове.@
 
 ;(???11)
 ld c,":a;image\tachi\aki_t11b.jpg",%type_crossfade_fst
 
-`"Nii-san, you look---"@
-` Her previously shocked eyes become calm.\
+` - Нии-сан, ты выглядишь...@
+` Её глаза, только что полные удивления, снова становятся спокойными.\
 
-`"Your left arm is injured, right?@ Your clothes are pretty dirty too."@
-`"...... Don't worry about it.@ It doesn't even hurt anymore."@
+` - Ты ведь поранил левую руку, так?@ И одежда вся испачкана.@
+` - Не переживай...@ Оно уже не болит.@
 
 ;(03)
 ld c,":a;image\tachi\aki_t03b.jpg",%type_crossfade_fst
 
-`"It doesn't hurt?@ That can't be true.@ You look like you could collapse at any moment, and there's blood clotted all over your left arm.@ Goodness, just what in the world were you doing, Nii-san?"@
-`"..............."@
-` I can't answer, and only avert my gaze.@
+` - Не болит?@ Не верю.@ У тебя вся левая рука в крови и вид такой, будто ты готов в обморок упасть.@ Боже мой, Нии-сан, чем ты занимался?@
+` - ...@
+` Я не могу ответить, и только отвожу глаза.@
 
 ;(?????)
 cl c,%type_lshutter_fst
 
-` I couldn't possibly explain everything that happened tonight, and more than that---I don't ever want to talk about Yumizuka to anyone.\
+` Я не могу рассказть ей о том, что сегодня случилось, кроме того... я никому не хочу рассказывать о Юмизуке.\
 
-`"...... Nothing much.@ I was just walking around and got sucked into a little drunken brawling."@
-` Answering simply, I climb past her.@
-` But with a pull,
-` Akiha places her hands on my shoulders.@
+` - Ничем особенным...@ Просто гулял и напоролся на пьяную драку.@
+` Кое-как ответив, я пытаюсь пройти дальше.@
+` Но Акиха,
+` с силой кладёт руки мне на плечи.@
 
 ;(??12)
 ld c,":a;image\tachi\aki_t12b.jpg",%type_lshutter_fst
 
-`"Nii-san, I'll get mad."@
-` With a weak voice, Akiha looks directly at me.@
-`"..............."@
-` With her face like that, I become even more unable to tell her what really happened.\
+` - Нии-сан, я рассержусь.@
+` Глядя на меня, слабым голосом произносит Акиха.@
+` - ...@
+` Теперь, когда она смотрит на меня такими глазами, у меня точно не хватит духу рассказать ей о случившемся.\
 
-`"-----"@
-`"..............."@
-` Just like that, time passes without either of us speaking.@
-` ...... After some minutes pass, Akiha lets out a breath and drops her shoulders in resignation.@
+` - ...@
+` - ...@
+` Мы продолжаем смотреть друг на друга, ничего не говоря.@
+` Спустя несколько минут, Акиха опускает плечи и вздызает, признавая поражение.@
 
 ;(???03)
 ld c,":a;image\tachi\aki_t03b.jpg",%type_crossfade_fst
 
-`"Fine.@ I will let it go."@
-` Akiha grabs my uninjured right arm and heads towards the sitting room.\
+` - Ладно.@ Больше спрашивать не буду.@
+` Акиха берёт меня за здоровую руку и направляется в гостиную.\
 
-`"...... Hey, Akiha.@ I wanna go back to my room and sleep."@
-`"No.@ I won't ask you any more about it, so you have to let me treat your injuries, okay?@ So come this way.@ I can't help but be worried if you go to sleep looking like that."@
+` - Эй, Акиха.@ Я хочу к себе и спать.@
+` - Нет.@ Расспрашивать я тебя не буду, но хотя бы дай мне обработать твои раны, ладно?@ Так что иди за мной.@ Я не могу спокойно смотреть как ты идёшь спать в таком виде.@
 ;(??????)
 cl c,%type_lshutter_fst
 
-` Still holding on to my arm, she drags me with her to the lobby.@
-`"....................."@
-` Oh well.@ This is just how it is.@
-` I resign myself to doing as Akiha says.\
+` Не отпуская руку, она тащит меня из фойе.@
+` - ...@
+` Ну ладно.@ Пусть будет так.@
+` Я отдаю себя в руки Акихи.\
 ;S.E.??
 wavestop
 
@@ -128,140 +128,140 @@ bg "image\bg\bg_34b.jpg",%type_lcartain_mid
 ;CD-DA?????
 play "*1"
 
-` ---The treatment was quite simple.@
+` Лечение закончилось довольно быстро.@
 br
-` I guess it was really not that bad to begin with.@ After applying some disinfectant and wrapping the wound in gauze, my treatment is over.@
-` After finishing that simple care by herself, Akiha takes a towel soaked in warm water and wipes my face.\
+` Похоже, мои ранения были не такими уж и серьёзными.@ Продезинфецировав и перевязав рану, лечение на этом заканчивается.@
+` Проделав эти простые действия, Акиха вытирает моё лицо вымоченым в тёплой воде полотенцем..\
 
 ;(???04b)
 ld c,":a;image\tachi\aki_t04b.jpg",%type_lshutter_fst
 
-`"All finished.@ This uniform is done for, so we will have to get a new one prepared tomorrow."@
-`".................."@
-` ...... My mind is still numb.@
-` Akiha really hasn't asked me any questions about what happened and simply took care of my injury.@
-` I'm a little surprised.@ I thought she would let Kohaku-san or Hisui take care of it, but Akiha did it all with a smile.@
-` ...... Her gentleness is completely different from the way she was these past three days and I think back about Akiha from long ago.\
+` - Всё готово.@ Форму придётся выкинуть, так что завтра надо будеть приготовить новую.@
+` - ...@
+` В голове у меня всё ещё пусто.@
+` Акиха не задала мне ни единого вопроса о случившемся и просто заботилась о моих ранах.@
+` Я немного удивлён.@ Я думал она поручит это Кохаку-сан или Хисуи, но Акиха всё сделала сама без единого упрёка.@
+` Это её нежность совсем не похожа на её поведение за последние три дня, и мне вспоминается, какой она была давным давно.\
 
 ;(???21)
 ld c,":a;image\tachi\aki_t21b.jpg",%type_crossfade_fst
 
-`"Nii-san?@ Hey, it's all finished, so please go back to your room.@ Didn't you say you would rather go to sleep than keep me company?"@
-` She may still be resenting my words from earlier because she sounds very dissatisfied.@
-`"..............."@
-` There's still something wrong with my brain, but I do understand how much Akiha worried over me.@
-`"...... Yeah.@ Thanks, Akiha."@
-` Is it because I'm still woozy?@ I let my true feelings show.\
+` - Нии-сан?@ Всё готово, так что возвращайся к себе в комнату.@ Ты же говорил что лучше пойдёшь отсыпаться, чем составшь мне компанию?@
+` У неё очень раздражённый тон, похоже, она всё ещё обижается на мои недавние слова.@
+` - ...@
+` Моя голова всё ещё не в порядке, но я всё же понимаю как сильно переживает за меня Акиха.@
+` - Да...@ Спасибо, Акиха.@
+` Наверное, это потому что я всё ещё в растерянности, но@  я показываю свои искренние чувства.\
 
 ;(???24)
 ld c,":a;image\tachi\aki_t24.jpg",%type_crossfade_fst
 
-`"Eh--"@
-` Akiha's face turns red and she shrinks away from me.@
+` - Э?..@
+` Акиха краснеет и отстраняется от меня.@
 
 ;(???16b)
 ld c,":a;image\tachi\aki_t16b.jpg",%type_crossfade_fst
 
-`"----Oh?@ I, I don't think it was anything to thank me for.@ You would help me if I was hurt, right Nii-san?"@
-`"That may be true, but it makes me happy."@
-` Stuttering, I finally realize it.@
-` I am quite emotionally detached right now, but I honestly am happy that---rather than Kohaku-san or Hisui, Akiha was the one that treated my wounds.\
+` - О?@ Я, я не думаю что тут есть за что меня благодарить.@ Нии-сан, ты ведь помог бы мне если бы я была ранена?@
+` - Может и так, но мне всё равно приятно.@
+` Заикаясь, произно шу я, и наконец понимаю.@
+` Сейчас я немного в ступоре, но мне искренне приятно, что это Акиха, а не Кохаку-сан или Хисуи позаботилась обо мне.\
 
 ;(??24)
 ld c,":a;image\tachi\aki_t24.jpg",%type_crossfade_fst
 
-`"D---don't say such stupid things, please hurry back to your room.@ Or are you hurt somewhere else?"@
-` Akiha says so and shifts her gaze.@
+` - Х-хватит глупости говорить, возвращайся к себе.@ Или ты где-то ещё поранился?@
+` Говорит Акиха, отведя взгляд.@
 
 cl c,%type_lshutter_mid
 
-`"----?@ Nii-san, your shoulder... there's blood."\
+` - ..?@ Нии-сан, на плече... у тебя кровь.\
 
 
-` Akiha places her hand on my shoulder.@
-` She peels back my shirt.@
-` My exposed shoulder, and neck.@
-` Yumizuka's bite marks and dried blood are still there.\
+` Акиха кладёт руку мне на плечо.@
+` Она отворачивает ворот рубашки.@
+` Там, на моём плече и шее.@
+` Она замечает запекшуюся кровь и след от укуса Юмизуки.\
 
-`"Nii-san, this--------"@
-` In that instant,
-` the air freezes.\
+` - Нии-сан, это...@
+` В этот момент,
+` всё застывает.\
 
-`".................."@
-` The fang shaped wounds on my neck.@
-` I don't know how to even begin to explain that and descend into silence.@
-`"-------"@
-` Akiha slowly leans her body towards mine.@
-`"...... Nii-san...... there is still...... blood flowing, here."@
-` Her voice is terribly taut with strain.@
-` The grip of her hand on my shoulder becomes stronger.@
-` Her body stops in a position somewhere between touching mine and not.\
+` - ...@
+` Следы от клыков на шее.@
+` Я не могу себе представить, как это можно объяснить, и потому молчу.@
+` - ...@
+` Акиха медленно приближается ко мне.@
+` - Нии-сан...тут кровь...течёт...@
+` Её голос ужасно напряжён.@
+` Рука на моём плече сжимается всё сильнее.@
+` Она сотанавливается когда му ыже почти соприкоснулись.\
 
-`"...... What should I do...... We should, stop the bleeding, right----"@
-` Her voice sounds delirious.@
-`"----Akiha?"@
-` I call her name while assailed by an unspeakable disquiet.@
-`"Nnn------"@
-` There's no reply.@
-` But instead,
-` I feel a warm sensation along my neck.\
+` - Что делать... Надо, остановить кровеотечение...@
+` Как в бреду,, произносит она.@
+` - Акиха?@
+` Меня охватывает невыразимое беспокойство, и я зову её по имени.@
+` - Ннн...@
+` Ответа нет.@
+` Вместо этого,
+` Я чувствую что-то тёплое у себя на шее.\
 
-`"Wha....................."@
-` My voice fades away.@
-` Akiha's face is right next to mine.@
+` - Что...@
+` Мой голос затухает.@
+` Лицо Акихи совсем рядом с моим.@
 br
-` ...... The sensation of rubbing.@
-` ...... A contact.@ Wetness.@
+` Трение...@
+` Касание...@ Влага.@
 br
-`"Aki............ ha...... ?"@
-` ...... My numbed sense of reason can't grasp what's going on.@
+` - Аки...ха?..@
+` Мой рассудок не в состоянии понять, что происходит...@
 
-` A hesitatingly touching tongue.@
-` The red tongue that fearfully touches my neck.@
-` Shaking.@ The shaking fingers that embrace me, the warmth of Akiha's body.\
+` Осторожное прикосновение языка.@
+` Красный язык, несмело касающийся моей шеи.@
+` Дрожь.@ Дрожащие пальцы, что держат меня, тепло тела Акихи.\
 
-`"Aaaa--------,"@
-` ...... Akiha is licking the blood dribbling down my neck.@
-` But, it really isn't anything to be alarmed over.@
-` It's just like what you would do as a kid to stop the bleeding.@
-` But it feels so sweet, I can't say anything.@
-` Akiha must think the same way, as she just---for no reason, brushes her teeth against my wound.\
+` - Аааа...@
+` Акиха слизывает кровь, стекующую у меня по шее.@
+` Но тут ведь не из-за чего волноваться.@
+` Это как когда дети зализывают рану, пытаясь остановить кровотечение.@
+` Но мне так приятно, что я не могу сказать ни слова.@
+` Акиха, должно быть, думает  о том же, потому что — почему-то, она зацепляет зубами мою рану.\
 
 !w3000
 
-` ----All of a sudden.@
+` Как вдруг...@
 br
 br
 br
 br
 br
-` A sound comes from the lobby.\
+` Какой-то шум доносится из фойе.\
 
 ;(???24)
 ld c,":a;image\tachi\aki_t24.jpg",%type_lshutter_fst
 
-`"------!"@
-` Akiha pulls back.@
-`"I----I'm so sorry, Nii-san----!"@
+` - ...!@
+` Акиха отстраняется@
+` - Про... Нии-сан, прости!..@
 
 ;(???????????)
 cl c,%type_lshutter_fst
 
-` Her face a pure red, Akiha runs away.\
+` Красная как рак, Акиха убегает.\
 
-`"Wha------"@
-` Left by myself in the sitting room, I reach my hand up to my neck.@
-` Her warmth is still lingering there faintly.@
-`"...... She didn't have to run away."@
-` I murmur to myself and shake my head.@
-` Licking the wound like that, I did a lot of that as a child.@ I did that to Akiha and Hisui when they got hurt.@
-` ...... But, that's just an act from child-like purity, only done as a child.@
-` Both of us grown up like this now and being the opposite gender.@ We can't really use that method anymore.\
+` - Че...@
+` Оставшись в гостиной в одиночестве, я прикасаюсь к своей шее.@
+` Там ещё чувствуется её тепло.@
+` - Убегать-то зачем было?..@
+` Бормочу я себе под нос и качаю головой.@
+` Я ведь в детстве тоже так царапины зализывал.@ Я даже делал так для Акихи и Хисуи если они поранились...@
+` Но так могут поступать только маленькие дети.@
+` Мы уже выросли, и мы с ней разного пола.@ Так что больше мы так делать не можем.\
 
-`"...... What was she doing?@ ...... She was acting pretty strange."@
-` ...... Well, I guess I'm also strange right now.@
-` As if in a dream, I can't recall what exactly happened.@
-` Even what Akiha and I just did, I feel like it'll all be a dream tomorrow morning.\
+` - Что на неё нашло?..@ Она так странно себя вела...@
+` Впрочем, я себя сейчас  тоже странновато веду.@
+` Я не могу в точности вспомнить, что произошло, словно это был сон.@
+` Но что бы только что ни случилось, думаю, к завтрашнему утру это будет просто сном.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -270,17 +270,17 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40d.jpg",%type_lcartain_mid
 
 
-` ...... And I reach my room.@
-` I lurch to my bed and collapse.@
-`"------Nnn."@
-` Tiredness closes in around my brain.@
-` My exhaustion is more in my body than my mind.@
-` My body must be trying to halt everything in order to quickly heal its exertions.@
-` Before that, I take a deep breath and trace my fingers along my neck once more.\
+` Наконец, я прихожу к себе в комнату.@
+` Кое-как я добираюсь до кровати и валюсь на неё.@
+` - Ннн...@
+` Усталость заволакивает мой мозг.@
+` Эта усталость больше физическая, чем умственная.@
+` Моё тело, наверное, старается отключить всё ненужное чтобы поскорее залечить повреждённые места.@
+` Но прежде чем заснуть, я делаю глубокий вдох и ещё раз прикасаюсь пальцами к шее.\
 
-`"............... Ah."@
-` I'm a little surprised.@
-` The two fang marks.@ The blood really was stopped by Akiha's lips----\
+` - Хаа...@
+` Я немного удивлён.@
+` Две отметины от клыков.@ Губы Акихи и правда остановили кровотечение...\
 
 
 ; ???<???????(?)>
@@ -311,156 +311,152 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 ;CD-DA?????
 play "*2"
 
-` I wake from a long sleep.@
-` The sunshine from the window looks closer to mid-day than morning.@
-` It must be because of how late I got back last night.@
-` It seems I've overslept.\
+` Я просыпаюсь от долгого сна.@
+` Судя по свету солнца, сейчас уже не утро, а середина дня.@
+` Наверно это из-за того что вчера я вернулся поздно.@
+` Похоже, я проспал.\
 
-`"..............."@
-` Dragging myself up from bed, I look down at my hand.@
-` ----The sensation of how I stabbed Yumizuka remains.@
-` Two nights ago.@
-` When I met Yumizuka and saw that hideous dream.@
-`"...... If only yesterday...... was just a dream."@
-` But wishing it won't make it so.@
-` I've no clue why or how Yumizuka became a vampire, and I couldn't do anything to help her.\
+` - ...@
+` Кое-как поднявшись, я смотрю на свою руку.@
+` В ней всё ещё слышно то ощущение, как когда я наносил удар Юмизуке...@
+` Два дня назад.@
+` Когда я встретил Юмизуку и увидел тот отвратительный сон.@
+` «Вот если бы вчера... было всего лишь сном.»@
+` Но от моих желаний ничего не изменится.@
+` Я понятия не имею как Юмизука стала вампиром, и я ничего не смог для неё сделать...\
 
-` ---No.@
-` Once Yumizuka had become like that, there was probably no way for anyone to help her.@
-` She was already dead.@
-` All I did was return that corpse somehow moving about as if it were a living thing back to being a dead body.@ That's the only way I can think of it.@
+` Нет.@
+` Ей наверное уже нельзя было помочь как только она стала такой.@
+` Она уже была мертва.@
+` Я лишь упокоил этот каким-то образом оживший труп.@ Я не могу думать об как-то иначе.@
 br
-` But, still---
+` Но всё же...
 br
 ;S.E."???"
 wave se3
 
-`"Please excuse me, Shiki-sama."@
-` With that voice I have become accustomed to, Hisui enters the room.\
+` - Шики-сама, повзольте войти.@
+` Доносится уже ставший привычным для меня голос, и в комнату заходит Хисуи.\
 
 ;(??01)
 ; ?? : 01~10 : 01_?01(?????)<?????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lcartain_mid
 
-`"Good morning, Shiki-sama.@ How are you feeling today?"@
-`"Hm...... ah, I slept well, so I don't feel bad at all."@
-`"Is that so?@ Hearing that makes me feel very relieved."@
-` ...... Even though she says that, I don't see her even relax her shoulders, or give any other indication of it.\
+` - С добрым утром, Шики-сама.@ Как вы себя чувствуете?@
+` - Хм... а, спал я хорошо, так что чувствую себя нормально.@
+` - Правда?@ Очень рада это слышать.@
+` Хоть она и говорит это, она не расслабляет плечи или как-то ещё это проявляет.\
 
-`"..............."@
-` But, I feel relieved as well.@
-` Because of what happened last night, the long night is over.@ Because I don't have to enter that unnatural world any longer, my heart can relax.@
-`"...... Thanks, Hisui.@ You've always come to check up on me from early in the morning, right?@ Your concern means a lot to me."@
+`` - ...@
+` Но вот я чувствую облегчение.@
+` Благодаря вчерашним событиям, долгая ночь кончилась.@ Моё сердце снова может расслабиться, ведь мне больше не нужно посещать этот чуждый мир.@
+` - Спасибо, Хисуи.@ Ты ведь всегда приходишь проведать меня по утрам?@ Твоя забота многое для меня значит.@
 
 ;(?????)
 ; ?? : 01~10 : 03_??01(????)<???????(?)>
 ld c,":a;image\tachi\his_t03.jpg",%type_crossfade_fst
 
-`"----Not at all.@ It is my duty to be concerned with your welfare."@
-` There is a hint of happiness in Hisui's expression.\
+` - Не обращайте внимания.@ Мой долг заботиться о вашем благополучии.@
+` В глазах Хисуи мелькнули счастливые искорки.\
 
-` ...... Moreover, I feel like I've been somewhat rescued.@
-` While I've been sleeping in bed like this, Hisui came as always to wake me up.@
-` With just that trivial thing, I honestly feel like I have returned to my normal life.\
+` ... Кроме того, я чувствую себя словно спасённым.@
+` Пока я спал, Хисуи как всегда пришла будить меня.@
+` Такая мелочь, но я чувствую что по-настоящему вернулся к нормальной жизни.\
 
 
 ;(?????02)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"Um...... Shiki-sama, this is somewhat difficult for me to say, but... can I?"@
-`"......?@ Difficult to say?@ If it's about me sleeping in till noon, I really can't do anything but apologize."@
+` - Эм... Шики-сама, мне трудно это говорить, но... можно?@
+` - ..?@ Трудно говорить?@ Если это о том, что я проспал до полудня, то я могу только извиниться.@
 
 ;(??05)
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
-`"No, that is not what I meant, but it is perhaps related to when you went to sleep."@
-` Hisui fidgets with her fingers as she struggles to come up with the right words.\
+`` - Нет, дело не в этом, хотя это скорее связано с тем, когда вы легли спать.@
+` Хисуи нервно перебирает пальцами, пытаясь подобрать слова.\
 
 ;(?????02)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"...... Um, I did not say anything, but Akiha-sama found out about last night."@
-`"Eh...... about last night...... what?"@
-`"I mean when you left late last night, Shiki-sama."@
-`"----"@
-` I unconsciously turn my eyes away from her.@
-` I thought I'd managed to slip away undetected, but I should have known Hisui would still find out.\
+` - Эмм, я ничего не говорила, но Акиха-сама узнала про вчерашний вечер.@
+` - Ээ... о вчерашнем вечере... что именно?@
+` - Шики-сама, я имею ввиду когда вы вчера ушли.@
+` - ...@
+` Я невоольно отвожу глаза.@
+` Я думал, что сумел ускользнуть незамеченым, но мне следовало догадаться что Хисуи всё равно узнает.\
 
 ;(??01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama, your return late at night has gained the attention of Akiha-sama, so I believe you will be asked to explain yourself sooner or later.@
-` She is in the sitting room and may be angry, so please be prepared."@
-`"......... I see.@ I got it; I'll be prepared."@
-` ...... But, if it's about last night, then Akiha definitely knows about it already.@
-` ...... And after that, it was Akiha who took care of me when I was in a complete stupor.\
+` - Шики-сама, Акиха-сама узнала о вашем вчерашнем позднем возвращении, так что я думаю рано или поздно вам придётся объясниться.
+` Сейчас она ожидает в гостиной, и возможно злится, так что будьте готовы.@
+` - Ясно... @ Я понял; буду готов.@
+` Но если это и правда из-за вчерашнего, то Акиха и так об этом знает...@
+` Всё-таки именно Акиха позаботилась обо мне, когда я был сам не свой...\
 
-`"About that, will it be occurring again?@ I cannot stop you, but if you continue doing such things, I must tell Akiha-sama."@
-`"----No, nothing like last night will happen again.@ Everything...... has ended last night...... There won't be any phone calls anymore."\
+` - Насчёт этого, будет ли это происходить снова?@ Я не могу вас останавливать, но если вы будете продолжать это делать, я должна буду сообщить Акихе-сама.@
+` - Нет, ничего подобного уже не повторится...@ Всё... кончилось этой ночью... Больше звонков не будет.\
 
-` ---Yes.@ It really has ended.@
-` With these words, it truly is over.@
-` Yumizuka Satsuki is no more.@
-` The vampire skulking the streets has vanished.@ I, with my own hands, sent away a classmate who said she liked me, for all eternity.\
+
+
+` И правда.@ Всё и правда кончилось.@
+` С этими словами всё действительно кончается.@
+` Юмизуки Сацуки больше нет.@
+` Вампир, скитавшийся по улицам, исчез.@ Я собственными руками отправил на тот свет мою одноклассницу, которая призналась мне в любви.\
 
 ;(??????)
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"........................"@
-` Hisui looks at me with a painful expression on her face.@
-` ...... Geez, if Hisui is making that sort of face, then I must look terrible right now.@
-`"---Well, I should get up sooner or later.@ Hisui, is Akiha still here?@ She's an awfully busy person, so does she have a routine on her day off?"@
+` - ...@
+` Хисуи смотрит на меня со взволнованым видом.@
+` Чёрт, раз уж Хисуи делает такое лицо, значит я выгляжу действительно ужасно.@
+` - Ну что ж, рано или поздно мне придётся встать.@ Хисуи, Акиха ещё здесь?@ Она ведь ужасно занятой человек, так что у неё может есть распорядок и на выходные?@
 
 ;(??01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Yes, she does have plans during her day off, but today she is still in the mansion."@
-`".........?"@
-` She has plans, but she's still here......?\
+` - Да, у неё есть планы на выходных, но сегодня она ещё в поместье.@
+` - ...@
+` У неё планы, но она всё равно здесь?..\
 
-`"I don't quite get it, but...... well, I'll go and get changed, so please head to the sitting room before me."@
-`"Yes.@ Well then, please excuse me."@
+` - Я не совсем понимаю, но... ладно, я сейчас переоденусь, так что отправляйся пока в гостиную.@
+` - Хорошо.@ В таком случае, с вашего позволения.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` As usual, Hisui walks away without a sound.@
+` Как обычно, Хисуи бесшумно уходит.@
 br
-` ---But, I forgot something really important.@
+` Но я забыл кое-что важное.@
 br
-`"Hisui."\
+` - Хисуи.\
 
 ;(??01)
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
 
-`"Yes?@ What is it, Shiki-sama?"@
-`"Yeah, I forgot to say something.@ Thanks for coming to wake me up.@ It's a little late, but good morning, Hisui."@
+ - Да?@ Шики-сама, вы что-то хотели?@
+` - Да, забыл кое-что сказать.@ Спасибо, что пришла меня разбудить.@ Уже поздновато, но с добрым утром, Хисуи.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t03.jpg",%type_crossfade_fst
 
-`"---Yes.@ Please have a nice day, Shiki-sama."@
+` - Спасибо.@ Удачного дня, Шики-сама.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Well then.@
-` I should hurry up and change, and head to the sitting room.\
+` Ну что ж.@
+` Пора переодеваться и идти в гостиную.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w1000
 
-
-
-
-
-
-return
 
 
 </pre>
