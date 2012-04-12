@@ -8,8 +8,8 @@
 bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 
 
-` To be honest, Kohaku-san has the hardest job because she has to prepare the feast for the four of us.@
-` I don't think I can be that much help in cooking, but I'll go see Kohaku-san.@
+` Вообще, у Кохаку-сан самая сложная работа, ей ведь надо приготовить целый банкет для нас всех.@
+` В готовке от меня, правда, толку мало, но я всё равно схожу к  Кохаку-сан.@
 br
 
 ; ???<??????(?)>
@@ -18,28 +18,28 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_35.jpg",%type_lshutter_fst
 
 
-` The kitchen has already become a battlefield.@
-` On each counter there is a mountain of ingredients, and I get the urge to turn around and go back as soon as I enter.\
+` На кухне уже вовсю кипит бой.@
+` На столах разложены горы ингридиентов, и не успел я войти, как мне уже хочется уйти.\
 
 ; ?? : 01~10 : 02_?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_lshutter_fst
 
-`"Shiki-san, is there anything I can do for you?"@
-` Kohaku-san peeks her head through.@
-`"...... No, I was thinking maybe I could help or something----"@
-` But, it seems like I've entered a world where I shouldn't be.@
+` - Шики-сан, ты что-то хотел?@
+` Вытягивает шею Кохаку-сан.@
+` - Нет, я думал, что могу как-то помочь...@
+` Но, похоже, здесь я бессилен.@
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Ah, that really helps.@ To tell the truth, I was thinking of going to ask you for some help."@
-`"R, really......?@ But, I don't really have any cooking skills, so I'm unsure if I can even help, Kohaku-san."\
+` - Ой, как удачно.@ Сказать по правде, я как раз хотела попросить тебя о помощи.@
+` - П-правда?..@ Но, Кохаку-сан, я ведь готовить вообще не умею, так что вряд ли от меня будет хоть какой-то толк.\
 
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"Not at all, it is something anyone can do.@ Come on, please lend me a hand."@
+` - Не переживай, с этим справится кто угодно.@ Давай, иди сюда.@
 cl c,%type_lshutter_mid
-` Kohaku-san takes my hand and pulls me with her.@
-`"............"@
-` Not really understanding what's going on, I end up helping Kohaku-san.\
+` Кохаку-сан хватает меня за руку и ведёт за собой.@
+` - ...@
+` Не успеваю я как следует оглянуться, как оказываюсь в помощниках у Кохаку-сан.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_rshutter_fst
@@ -47,44 +47,44 @@ bg "image\bg\ima_10.jpg",%type_rshutter_fst
 bg "image\bg\bg_35.jpg",%type_rshutter_fst
 
 
-` ...... After calming down a bit, I realize that the kitchen is actually pretty small for a mansion so large.@
-` They probably had a much bigger galley when there were many people living in the mansion, but with just Akiha, Hisui, Kohaku-san and I, they had this smaller kitchen prepared.@
+` Немного успокоившись, я замечаю, что для такого большого поместья кухня довольно маленькая.@
+` Наверное у них была кухня побольше когда тут жило много людей, но когда тут остались только Акиха, Хисуи, Кохаку-сан и я, они оборудовали кухню поменьше.@
 br
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"Here, please wash your hands and use this apron."@
-` I don't know whose tastes this is a reflection of, but she hands me an apron that says "Quiet Unsociable Person" on it.\
+` - Так, помой пожалуйста руки и бери фартук.@
+` Не знаю, чьи вкусы это отражает, но мне она протягивает фартук с надписью «Тихий Необщительный Человек».\
 
-`"I'll start you off with a simple task, Shiki-san.@ When it's all done, I have another task just for you."@
+` - Для начала, Шики-сан, я поручу тебе что-нибудь попроще.@ А как закончишь, у меня будет для тебя ещё кое-что.@
 cl c,%type_lshutter_fst
-` Kohaku-san is in a good mood.@
-` ----First, I have to take the shells off all these shrimp.\
+` Кохаку-сан явно в хорошем настроении.@
+` Мои первым заданием оказывается снимать панцири с креветок.\
 
-` Whick, whick, whick.@
-` The sound of a knife lightly hitting the cutting board.@
-` Nnnnn~.@
-` Kohaku-san's humming fills the kitchen.\
+` Стук, стук, стук.@
+` Нож легонько стучит об разделочную доску.@
+` Ммммм~.@
+` Кохаку-сан что-то напевает себе под нос.\
 
-` ......@
-` ............@
-` ..................@
-` She must be immersed in cooking because she doesn't say much.@
-` As for me, I actually enjoy peeling the shrimp, and keep on peeling the skin.@
+` ...@
+` ...@
+` ...@
+` Она, должно быть, полностью поглощена готовкой потому что ничего не говорит.@
+` Что до меня, то мне начинает нравиться чистить креветок, так что я продолжаю снимать панцири.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?? : ?? : ????(???)<???????(?)>
 bg "image\event\his_e01.jpg",%type_crossfade_fst
 
-`"------"@
-` ...... You know, this really brings back memories.@
-` Before the incident and before I left the mansion, I played like this several times with Kohaku-san and Akiha.\
+` - ...@
+` А ведь это навевает воспоминания.@
+` До аварии и до того как я покинул поместье, мы несколько раз играли так вот с Акихой и Кохаку-сан.\
 
-` We were young then, and we didn't even think about how we were of the opposite gender.\
-` We were just in this spacious mansion, and all we knew was the continuous fun of every day.@
-` We played around so much, we forgot about all the things that bothered us before.@
-` ...... Or maybe.@
-` Maybe, in order to forget the bothersome past, we tried to pass our days with as much fun as possible.\
+` Мы были маленькими, и не обращали внимания на то, что мы были разных полов.\
+` Было только это большое поместье, и мы целыми днями играли в нём.@
+` Мы так веселились, что забывали обо всём, что нас тревожило.@
+` Или может...@
+` Может, чтобы забыть  о том, что нас тревожило, мы и веслелились днями напролёт.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
@@ -93,93 +93,93 @@ bg "image\bg\bg_35.jpg",%type_crossfade_fst
 
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Shiki-san, you really have taken a liking to peeling those shrimp, haven't you?"@
-`"Eh?@ No, not really, why do you ask?"@
+` - Шики-сан, я гляжу, тебе нравится креветок чистить.@
+` - Э?@ Да не то чтобы очень, а почему ты спрашиваешь?@
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"Because you look like you're having so much fun.@ You know Hisui-chan, her eyebrows would always be so scrunched up by the time she gets done."@
-`"Really?@ I'm surprised.@ She looks like the type that would do it without complaint."@
+` - Потому что у тебя такой вид, словно тебе очень весело.@ Вот у Хисуи-тян, к тому времени когда она заканчивает, весь лоб от напряжения сморщеный.@
+` - Правда?@ Удивительно.@ Мне казалось, что у неё с этим проблем не будет.@
 ld c,":a;image\tachi\koha_t18.jpg",%type_crossfade_fst
 
-`"Yeah, for some reason, Hisui-chan is poor at cooking.@ But she is really great at cleaning and arranging things."@
-`"Is that so?@ I always felt that both you and Hisui could do anything."\
+` - Увы, так сложилось, что готовить Хисуи-тян не умеет.@ Зато у неё замечательно получается делать уборку и наводить порядок.@
+` - Вот как?@ Я всегда думал что вы с Хисуи можете всё.\
 
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"If that was true I would be very happy.@ But both Hisui-chan and I are merely normal, so we have our faults too.@
-` Hisui-chan's sense of taste is a little strange, so even when she makes things that she thinks are delicious, for Akiha-sama or I, it tastes really strange."@
-` I see, so that's why Hisui doesn't cook.@
-` Hisui's sense of taste is a little odd; Kohaku-san...... what's her fault, I wonder?\
+` - Хотелось бы.@ Но мы с Хисуи-тян всего лишь обычные люди, так что у нас есть свои изъяны.@
+` У Хисуи-тян немного странное чувство вкуса, так что даже если она делает что-то, что ей кажется вкусным, для меня или Акихи-сама вкус кажется странным.@
+` Понятно, так вот почему Хисуи не готовит.@
+` У Хисуи странное чувство вкуса; Кохаку-сан... интересно, какой у неё изъян?\
 
-`"...... Well, come to think of it, you and Hisui are different in your own ways.@
-` Kohaku-san, you were always cheerful, while Hisui stayed in the mansion back then."@
-`"Oh, did I look that cheerful?@ I thought I was always watching you all though."@
-`"Yeah, I remember.@ You would always run around with us, but you would tell us to stop doing dangerous things and look out for us."\
+` - Да, если подумать, вы с Хисуи во многом отличаетесь.@
+` Кохаку-сан, тогда ты всегда была такой весёлой, а Хисуи всё время оставалась внутри поместья.@
+` - О, я правда была такой уж весёлой?@ Но, кажется, я всё время приглядывала за вами.@
+` - Да, я помню.@ Ты всегда была с нами, но постоянно говорила не делать опасных вещей, и приглядывала за нами.\
 
 ;CD-DA????????????
 play "*9"
 
-` ...... Ah, I really do remember.@
-` Playing tag in the courtyard of the mansion.\
-` Trying as hard as we could to catch my old man's carp in the pond.\
+` А, я и правда начинаю вспоминать.@
+` Как мы играли в догонялки во дворе поместья.\
+` Как мы тщетно пытались поймать карпа в отцовском пруду.\
 
-`"Hey, remember that time, the time where we left the mansion from the gate, right?@
-` We didn't know the way to get back, and you ended up calling the mansion and one of the mansion's servants had to come pick us up."@
+` - А помнишь ведь как мы тогда сбежали через ворота поместья?@
+` Мы не могли найти дорогу домой, и ты повзонила в поместье и кому-то из слуг пришлось нас забирать.@
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Yes, and after that Makihisa-sama really did yell at you.@ Everyone was playing with you, but somehow you ended up being the only one.@ We did so many things, but in the end, you always saved Akiha-sama and me from getting in trouble."@
+` - Да, а после этого Макихиса-сама так на тебя наорал.@ Играли мы вместе, но отругали только тебя.@ Мы много всего делали, но ты всегда в конце прикрывал меня и Акиху-сама.@
 br
-` She giggles as she speaks aloud nostalgically.\
+` Она хихикает, вспоминая прошлое.\
 
-`"...... What's this?@ Talking about old times, I really feel like I have returned now."@
-` That's right.@
-` I really don't have too many memories of this mansion, but talking about old times honestly makes me feel nostalgic.@
-` But, my memories aren't just happy ones.\
+` - Как так получилось?@ Мы разговорились о былых временах, и я чувствую, что по настоящему вернулся.@
+` В самом деле.@
+` Я мало что помню о жизни в поместье, но разговоры о былом навевают воспоминания.@
+` Однако, в моих воспоминаниях есть не только радость.\
 
-`"...... But, I did treat Hisui poorly."@
-` ...... That girl who was always in the corner of my heart.@
-` In the end, I was never able to have a true conversation with that girl by the window.@
-`"...... That girl, she was always watching us from the window.@ Always, it struck me.@ That lonely face looking down, I always thought it would be great if she could come and play."@
-` But still, before I left the mansion, she gave me that one parting gift.\
+` - Но вот с Хисуи я повёл себя плохо...@
+` Та девочка, не покидавшая моих мыслей...@
+` Я так и не сумел как следует поговорить с той девочкой за окном.@
+` - Она всегда наблюдала за нами через окно...@ Всё время, меня это так задевало.@ Это одинокое лицо вдалеке, я всегда думал, что было бы здорово если бы она вышла поиграть.@
+` Но всё равно, прежде чем я уехал, она успела дать мне прощальный подарок.\
 
-`"That's right.@ She was always shy even then, so I never knew what she was thinking.@ I always thought if Hisui-chan was happy, it wouldn't matter what happened to me."@
-`"Oh?@ Kohaku-san, you really are a good older sister."@
-` I'm feeling happy, so I give an answer like that.@
+` - Это точно.@ Она всё время стеснялась, и я не знала, что у неё на уме.@ Я всегда думала, что если Хисуи-тян счастлива, то неважно, что будет со мной.@
+` - О?@ Кохаку-сан, какая ты заботливая старшая сестра.@
+` У меня хорошее настроение, и я говорю ей это.@
 br
-`"Ah."@
+` - А...@
 br
-` All of a sudden,
-` with a short sound, Kohaku-san lifts her hand.@
-` I can see she cut her finger with the kitchen knife.\
+` Неожиданно,
+` раздаётся резкий звук, и Кохаку-сан поднимает руку.@
+` Я вижу, что она порезала палец кухонным ножом.\
 
 ;CD-DA??
 playstop
 
-`"Ko, Kohaku-san, your finger......!"@
-`"Eh?"@
-` After I say that, she seems to have realized she cut her finger.@
+` - Ко-Кохаку-сан, твой палец!..@
+` - Э?@
+` Только после моих слов, она замечает что порезалась.@
 ld c,":a;image\tachi\koha_t07.jpg",%type_crossfade_fst
 
-`"Ah, that's true."@
-`"'That's true'?@ Hey, Kohaku-san!?"@
-` I don't believe this.@
-` Even I could see that the cut is really deep, but Kohaku-san is still slow-paced.\
+` - А, и правда.@
+` - «И правда»?@ Эй, Кохаку-сан?!@
+` Невероятно.@
+` Даже я вижу, что порез очень глубокий, но Кохаку-сан всё равно не реагирует.\
 
-`"How embarrassing.@ I am supposed to be such a good chef.@ Ahaha!"@
-` Kohaku-san gives her normal laugh.@
-`"This is no laughing matter.@ We have to take care of it right away......!"@
-`"It's fine.@ It isn't life threatening or anything."@
-`"But doesn't it hurt?@ It's cut pretty bad!"\
+` - Стыдно-то как.@ Я ведь вроде как хорошая повариха.@ Ха-ха-ха!@
+` Кохаку-сан смеётся как обычно.@
+` - Ничего смешного.@ Мы должны немедленно это обработать!..@
+` - Всё в порядке.@ Опасности для жизни ведь нет.@
+` - Но разве тебе не больно?@ Порез ведь не маленький!\
 
-`"No, not at all.@ If I think it doesn't hurt, then it won't hurt.@ If I think this isn't my finger, and that it's just a finger of some doll, then I won't feel pain, right?"@
-`"Wha----"@
-` With a smile, Kohaku-san says something pretty outlandish.@
-` Well I'm sure if you think that way, it won't hurt as much, but you can't get rid of it all.\
+` - Совсем не больно.@ Если я думаю, что боли нет, то её и не будет.@ Если я буду думать, что это не мой палец, а куклы, то мне не будет больно, верно?@
+` - Что...@
+` Продолжая улыбаться, Кохаку-сан говорит совершенно ненормальные вещи.@
+` Нет, если так думать, то наверное будет немного легче, но полностью от боли так не избавиться.\
 
-`"Look, let's just get it taken care of!@ I'm a little weak when it comes to blood, so if I have an anemic fit right here, it'll be your fault, Kohaku-san......!"@
-`"I see, then I should take care of it right away.@ Well then, Shiki-san, excuse me for a moment."@
+` - Давай просто обработаем его!@ Я не очень хорошо переношу кровь, так что если у меня сейчас будет приступ анемии, виновата будешь ты!..@
+` - Понятно, значит надо немедленно этим заняться.@ Ну что ж, Шики-сан, я на минутку.@
 cl c,%type_lshutter_mid
-` The whole time her smile never cracks, and giving me a bow with her head, she leaves the kitchen.\
+` Поклонившись, она уходит из кухни. Ни на секунду улыбка не покидала её лица.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_tcartain_mid
@@ -188,6 +188,7 @@ bg "image\bg\ima_10.jpg",%type_tcartain_mid
 
 
 return
+
 
 
 </pre>
