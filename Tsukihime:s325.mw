@@ -57,12 +57,12 @@ bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 ;CD-DA?????
 play "*2"
 
-`"Nnn------"@
-` I wake with a sudden ache.\
+` - Ннн...@
+` Я просыпаюсь от резкой боли.\
 
-`"...... Morning?"@
-` The clock says it's just past six-forty.@
-` The weather outside the window is perfectly cloudless.@
+` - Уже утро?..@
+` Часы показывают шесть сорок.@
+` За окном стоит абсолютно безоблачная погода.@
 
 ;S.E."??"
 wave se0
@@ -73,15 +73,15 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 
 
-`"Ow----"@
-` Pain runs through me once again.@
-` Not my head or chest, but apparently on the side of my neck.@
-`"...... That's odd...... I've never had pain there before."@
-` I put my hand on my neck but there's no blood.@
-` The wound from Yumizuka's bite is already closed.\
+` - Айй...@
+` Боль снова пронзает меня.@
+` Болит не в голове и не в груди, но сбоку на шее.@
+` «Странно... Там у меня раньше никогда не болело...»@
+` Я пробую рукой шею, но крови нет.@
+` Рана от укуса Юмизуки уже затянулась.\
 
-`"...... Maybe I have a fever."@
-` Is it because of the alcohol last night?@ My body is heavy and I feel like I have a fever.@
+` «Может у меня жар...»@
+` Это из-за выпитого вчера?@ Я чувствую какую-то слабость в теле, и похоже у меня жар.@
 
 ;S.E."???"
 wave se3
@@ -90,33 +90,33 @@ wave se3
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Good morning, Shiki-sama."@
-`"Ah, morning Hisui.@ Did you sleep well last night?"@
+` - С добрым утром, Шики-сама.@
+` - А, Хисуи, с добрым.@ Хорошо спала сегодня?@
 
 ; ?? : 01~10 : 05_??<???????(?)>
 ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
-`"----Y, yes.@ Please forgive me for my unsightly behavior last night."@
-`"That's right, you went to sleep.@ It's okay.@ I fainted afterwards anyway which was probably worse."\
+` - Д-да...@ Прошу простить моё недостойное поведение прошлым вечером.@
+` - Точно, ты же заснула.@ Не страшно.@ Я отключился после того, что наверное, ещё хуже.\
 
 ; ?? : 01~10 : 04_??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"Thank you for your kind words.@ After you change, please head towards the dining room."@
+` - Спасибо за столь добрые слова.@ Пожалуйста, направляйтесь в гостиную как только переоденетесь.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` She must still be very embarrassed about last night and leaves somewhat flustered.@
-`"Hisui... maybe..."@
-` Maybe it's possible for her to be easily embarrassed.@
-` I thought she was basically expressionless at first but when you look at her closely, she gets embarrassed and mad a lot.\
+` Наверное она всё равно стесняется из-за прошлого вечера, так что она с некоторой поспешностью уходит.@
+` - Хисуи... неужели...@
+` Может, её очень легко засмущать.@
+` Поначалу я думал что она совершенно безэмоционально, но если приглядеться, то она  частенько злится или стесняется.\
 
-`"...... Next time I should try to make her laugh really hard."@
-` I don't know how I would do that but there's no doubt Hisui's smile would be very cute.@
-`"----Hey, Hisui's smile would look just like Kohaku-san."@
-` ...... A boring conclusion.@
-` I quickly change and head to the sitting room.\
+` - В следующий раз надо постараться её рассмешить.@
+` Я не представляю как мне это сделать, но у Хисуи наверняка очень миленькая улыбка.@
+` «Ха, у Хисиу улыбка наверняка точь-в-точь как у Кохаку-сан»@
+` Какой скучный вывод...@
+` Я быстро переодеваюсь и иду в гостиную.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -127,81 +127,81 @@ bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`""Ah.""@
-` I run into Akiha in the lobby.@
-` I guess she's going to school as she's holding her bag.@
-` ...... For some reason my entire body starts to heat up as soon as I see her face.\
+` «А.»@
+` В фойе я натыкаюсь на Акиху.@
+` У неё в руках её рюкзак, похоже, она собралась в школу.@
+` Почему-то всё моё тело бросает в жар когда я вижу её лицо...\
 
 ; ?? : 01~10 : 09_?02(????)<???????(?)>
 ld c,":a;image\tachi\aki_t09.jpg",%type_crossfade_fst
 
-`"Good morning Nii-san."@
-`"----Y, yeah.@ Good morning Akiha."@
-` Thump.@ My chest starts to hurt.@
+` - С добрым утром, Нии-сан.@
+` - Ааа, да.@ С добрым утром, Акиха.@
+` Тук.@ В груди заболело.@
 
 ; ?? : 01~10 : 08_?01(????????????)<???????(?)>
 ld c,":a;image\tachi\aki_t08a.jpg",%type_crossfade_fst
 
-`"Wow.@ Is something special going on today?@ You're up a full twenty minutes earlier than usual, Nii-san."@
-`"No... I just had a bit of a bad dream, that's all.@ Just a whim, don't worry about it."@
+` - Ого.@ Сегодня какой-нибудь особенный день?@ Нии-сан, ты встал на целых двадцать минут раньше обычного.@
+` - Нет... просто плохой сон приснился.@ Не волнуйся, это чистая случайность.@
 br
-` ...... I don't understand what I'm saying.@
-` Is it because of my dream?@ Suddenly remembering her young face, I can't look at Akiha directly.\
+` Я не понимаю что я несу...@
+` Это из-за моего сна?@ Вдруг вспомнив её детское лицо, я не могу посмотреть в её сторону.\
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"Nii-san?@ Your face is red... do you have a fever?"@
-`"No, it's not that----"@
-`"......?"@
+` - Нии-сан?@ У тебя лицо красное... у тебя жар?@
+` - Нет, дело не в этом...@
+` - ...?@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` For some reason I just can't return her gaze.@
-` She lifts an eyebrow suspiciously and comes near me.\
+` По какой-то причине я не могу посмотреть ей в глаза.@
+` Она с подозрением поднимает бровь и подходит ко мне.\
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Excuse me."@
-` She brings her hand to my forehead.@
-`"Ah----"@
-` Thump.@ My heart beats.@
+` - Дай-ка пощупаю.@
+` Она прикладывает руку к моему лбу.@
+` - А...@
+` Тук.@ Сердце колотится.@
 br
-` ----Akiha's palm is not any different from back then.@
+` Ладонь Акихи точно такая же, как и тогда.@
 br
-` Cold, soft fingertips.@
-` Thump.@ Thump.@
-` Her fingers touch me for only a matter of seconds, but my heart strangely begins to pound harder.\
+` Холодные, мягкие пальцы.@
+` Тук.@ Тук.@
+` Её пальцы касались меня всего несколько секунд, но моё сердце почему-то заколотилось сильнее.\
 
-` If I were to glance down, her face would be right there.@
-` ...... Her thin, strong eyebrows which show her strong will.@
-` ...... Her clear black pupils with her matching long black hair.@
-` It really is a beauty unrelated to the name Tohno Akiha.@
+` Если я опущу взгляд, то увижу её лицо прямо перед собой.@
+` Её тонкие, решительные брови, говорящие о её сильной воле...@
+` Её ясные чёрные зрачки, в тон с её длинными чёрными волосами...@
+` Это красота, существующая отдельно от имени Тоно Акихи.@
 br
-` ---Thump.@ My heartbeat.@
+` Тук...@ Отдаётся моё сердцебиение.@
 br
-` I can just imagine how red my face has become.\
+` Я даже не представляю какое красное у меня сейчас лицо.\
 
-`"Hey----Akiha."@
-` If she doesn't pull back, it'll be troubling.@
+` - Эй... Акиха.@
+` Если она сейчас не отступит, то будут проблемы.@
 
 ; ?? : 01~10 : 04_?04(??)<???????(?)>
 ld c,":a;image\tachi\aki_t09.jpg",%type_crossfade_fst
 
-`"...... It seems you don't have a fever."@
-` She pulls her fingers away and backs off slightly.@
+` - Похоже, жара у тебя нет.@
+` Она убирает руку и немного отходит.@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"Just in case, I'll have Kohaku prepare some cold medicine.@ Please wait in the sitting room, Nii-san."@
+` - На всякий случай я скажу Кохаку приготовить лекарство от простуды.@ Нии-сан, подожди пока в гостиной.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` With that, Akiha goes up to the second floor.\
+` С этими словами Акиха поднимается на второй этаж.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -209,58 +209,59 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_34a.jpg",%type_lshutter_fst
 
 
-` The hands of the clock reach seven.@
+` Стрелки часов показывают семь.@
 
 ; ?? : 01~10 : 03_?03(??)<??????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_fst
 
-`"Sorry to keep you waiting.@ I have cold medicine and water, so please drink it after breakfast, okay?"@
-`"Ah......... Kohaku... san."@
-` My shoulders slump.@
-` I'm really glad Kohaku-san brought it, but I was expecting Akiha to bring it so I'm a little disappointed.\
+` - Прости за задержку.@ Вот тебе лекарство и вода, выпьешь после завтрака, ладно?@
+` - А... Кохаку...сан.@
+` Мои плечи опускаются.@
+` Я рад что Кахаку-сан принесла его, но я ожидал что это сделает Акиха, так что я немного разочарован.\
 
-`"Thanks Kohaku-san.@ Where's Akiha?@ I think it's a bit early for her to go to school..."@
+` - Спасибо, Кохаку-сан.@ Где Акиха?@ По-моему её ещё рановато отправляться в школу...@
 
 ; ?? : 01~10 : 01_?01(???)<???????(?)>
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"No, since there were some formalities to take care of, Akiha-sama left for school earlier.@ And, you know what, Shiki-san?"@
-` Kohaku-san looks into my face with a smile.@
-`"Wh... what?@ Did I do something again?"\
+` - Нет, но поскольку ей нужно было разобраться с кое-какими формальностями, Акиха-сама ушла раньше.@ Да, и Шики-сан, знаешь что ещё?@
+` Кохаку-сан, улыбаясь, смотрит мне в глаза.@
+` - Ч-что?@ Я что, опять что-то сделал?\
 
 ; ?? : 01~10 : 02_?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"Yes.@ I was wondering what you did to Akiha-sama just now.@ It's been such a long time since I have seen Akiha-sama this happy.@ I'm curious, really curious."@
-`"...... Um, I didn't really do anything to make her happy.@ ...... In fact, it's more like I'm the happy one----"@
-` ...... But, Akiha did seem to be in a good mood, didn't she?@
-` She was smiling when we ran into each other, and for Akiha to take my temperature just isn't like her at all.@
-` It would've been fine just to leave that to Kohaku-san, so that was odd enough.\
+` - Да.@ Мне стало интересно, что ты только что сделал с Акихой-сама.@ Я уже давно не видела Акиху-сама такой счастливой.@ Мне интересно, мне очень интересно.@
+` - Эм, я не делал ничего, что бы покалось ей приятным.@ Скорее, мне сейчас приятно...@
+`br
+` Но Акиха ведь была в хорошем настроении?@
+` Она улыбалась когда мы встретились, и мерять мне температуру совершенно не в характере Акихи.@
+` Это модно было поручить Кохаку-сан, так что это уже странно.\
 
-`"Shiki-san?@ Does anything ring a bell?"@
-`"No, sorry.@ She definitely did seem in a good mood, but I don't think it was because of me.@
-` In the first place, I don't understand Akiha right now at all.@ She is different than she was eight years ago."@
+` - Шики-сан?@ Не появилось никаких идей?@
+` - Нет, прости.@ У неё точно было хорошее настроение, но я не думаю что это из-за меня.@
+` Начёнм с того, что сейчас я Акиху совсем не понимаю.@ Она изменилась за восемь лет.@
 
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Oh really?@ Well, I personally think you are a bit dense at times but let us leave that there."\
+` - Вот как?@ Ну, лично я думаю что кое-что до тебя доходит с трудом, но не будем заходить так далеко.\
 
-`"Well then, please eat breakfast Shiki-san.@ It is waiting for you in the dining room."@
-`"Uh, yeah.@ Thanks as always."@
-` I give her a quick bow of the head and go to the dining room.\
+` - Ну что ж, Шики-сан, иди завтракать.@ Завтрак ждёт тебя в столовой.@
+` - А, ага.@ Спасибо как всегда.@
+` Я быстро кланяюсь ей и направляюсь в столовую.\
 
 ; ?? : 01~10 : 02_?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"Ah, Shiki-san.@ What you said earlier was mistaken."@
-`"...... Eh?@ Mistaken?@ What was?"@
-`"Akiha-sama has not changed one bit from the past.@ I think the one who is making Akiha hard to understand is you, Shiki-san."@
+` - А, Шики-сан.@ Ты кое в чём ошибся.@
+` - Э?@ Ошибся?@ В чём?@
+` - Акиха-сама с тех пор ни капли не изменилась.@ Так что по-моему, Шики-сан, это ты делаешь её такой непонятной.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Leaving me with a phrase loaded with meaning, Kohaku-san disappears towards the lobby.\
+` Оставив меня с этой многзначительной фразой, Кохаку-сан исчезает в фойе.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -272,18 +273,18 @@ bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama, what time will you be returning today?"@
-`"Hm, in the evening.@ ...... I don't have anything special to do, so I'll be back by four."@
-`"I understand.@ ...... I will no longer be able to wait for you here, but please call for me if you need anything when you return."@
-`".........?"@
-` Unable to wait by the gate... what does she mean?\
+` - Шики-сама, во сколько вы вернётесь сегодня?@
+` - Хм, вечером...@ Никаких особых планов у меня нет, так что вернусь к четырём.@
+` - Хорошо.@ Я больше не смогу дожидаться вас здесь, но если вам что-то понадобится когда вы вернётесь, то зовите меня.@
+` «...?»@
+` Не сможет дожидаться у ворот... что она имеет ввиду?\
 
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"Please have a safe journey, Shiki-sama."@
-`"Yeah, I'm off."@
-` Raising a hand to the bowing Hisui, I exit the front gate of the mansion.\
+` - Удачной дороги, Шики-сама.@
+` - Ага, я пошёл.@
+` Помахав склонившейся Хисуи, я выхожу из ворот поместья.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -295,8 +296,8 @@ bg "image\bg\bg_23a.jpg",%type_lcartain_mid
 
 
 
-` Since I woke up early, I can take my time going to school.@
-` I walk leisurely down the road to school which I normally jog down.\
+` Поскольку я встал раньше, я могу идти в школу не торопясь.@
+` Я не торопясь иду по дороге, хотя обычно мне приходится бежать бегом.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -304,71 +305,71 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_01a.jpg",%type_lcartain_mid
 
 
-` I walk slowly and arrive at the gate ten minutes before it closes.@
-` It's the time when all the students who don't participate in clubs arrive.@
-` In a high school prepping for general entry like mine, the only clubs practicing in the morning are the athletic clubs.@
-` It's only natural for the school gate to be this crowded.@
+` Я шёл неспеша, и прихожу к воротам за десять минут до закрытия.@
+` В это время в школу прибывают ученики, у которых нет клубов.@
+` Поскольку это обыкновенная общеобразовательная школа, по утрам занимаются только спортивные секции.@
+` Так что не удивительно, что сейчас перед входом толпа народу.@
 br
-`"Ah, Senpai."@
-` I see Ciel-senpai walking a little bit ahead of me.\
+` - А, Сенпай.@
+` Впереди я замечаю Сиэль-сенпай.\
 
 ; ?? : ?? : ????(?)<??????(?)>
 bg "image\bg\bg_03a.jpg",%type_lshutter_fst
 
 
-`"Senpai!"@
-` I call out to stop her.@
+` - Сенпай!@
+` Я зову её.@
 
 ; ??? : 01~10 : 03_?03(??????????)<???????(?)>
 ld c,":a;image\tachi\cel_t03.jpg",%type_lshutter_mid
-`"Ah, good morning Tohno-kun.@ It's rare to meet you by the entrance here."@
-`"Yeah.@ I saw you from behind so I ran up to meet you.@ Do you always come at this time?"@
+` - А, доброе утро, Тоно-кун.@ Как необычно встретить тебя на входе.@
+` - Ага.@ Я заметил тебя со спины и подошёл поздороваться.@ ТЫ всегда приходишь в это время?@
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
-`"Yes, I am bad at getting up early so I always just barely make it.@ Did you oversleep today?"\
+` -Да, я встаю с трудом, так что еле успеваю вовремя.@ А ты сегодня проспал?\
 
-`"No, I actually woke up earlier.@ You know, I normally make it right as the gate is about to close."@
-`"Wow, you mean you're a late riser, Tohno-kun...... huh?"@
+` - Нет, я как раз встал раньше.@ Обычно я прихожу как раз к закрытию.@
+` - Ого, Тоно-кун, так ты у нас сова... э?@
 
 ; ??? : 01~10 : 07_??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
-` I might have something on my face as Senpai stares right at me.\
+` Наверное у меня что-то на лице, потому что сенпай пристально смотрит прямо на меня.\
 
-`"Um----Senpai?"@
-`"Tohno-kun, did something happen over the weekend?"@
-`"No, not really.@ Why do you ask, Senpai?"@
+` - Эмм, Сенпай?@
+` - Тоно-кун, у тебя что-то случилось на выходных?@
+` - Да нет, ничего.@ А почему ты спрашиваешь?@
 
 ; ??? : 11~20 : 12_????<???????(?)>
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
-`"Oh, it's nothing.@ I was just playing around.@ Please forget about it."@
-`"?"@
-` I'm a little bewildered.@
+` - О, да просто так.@ Я просто шучу.@ Забудь об этом.@
+` - ?@
+` Я немного растерян.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
 br
-` ----And then,
+` И тут...
 br
-` at that moment, I see a familiar face running vigorously from the entrance.\
+` я замечаю знакомое лицо, несущееся со стороны входа.\
 
 
-`"That's Inui-kun."@
-` Senpai says this calmly.@
-`"Yeah, it's Inui."@
-` I try answering her calmly.@
-` Senpai and I don't even think the actions of the rampaging Arihiko as he dashes towards us are odd at all.@
+ - О, Инуи-кун.@
+` Спокойно произносит Сенпай.@
+` - Да, это Инуи.@
+` Стараюсь спокойно ответить я.@
+` Для меня и Сенпай учиняемый Арихико погром даже не кажется чем-то необычным.@
 br
-` In other words, we're used to it.\
+` Иными словами, мы привыкли.\
 
-`"Tohno~~~~~~!"@
-` A cloud of dust kicks up behind him.@
-`  He does not stop.@
-` Even though we are right in front of him, Arihiko launches a drop kick in my direction without even pausing.\
+` - Тонооооооооооо!@
+` За его спиной поднимается облако пыли.@
+`  Он не останавливается.@
+` Хоть мы и стоим прямо перед ним, он не замедляясь подскакивает и бьёт меня ногами в прыжке.\
 ;S.E."????"
 wave se4
 ; ???<????>
@@ -379,29 +380,29 @@ bg "image\bg\bg_03a.jpg",%type_nowaitdisp
 quakex 3,100
 
 
-` Crash, roll, roll, roll, thud.@
+` Хрясь, бам, бам, бам, бымц.@
 br
-`"..............."@
-` I can't... believe it.@
-` This guy, this person throws a kick full-force into me and we suddenly crash into the ground and roll three times.@
-`"..............."@
-` I get up and shake off all the dust from my clothes.@
+` - ...@
+` Я... не могу поверить.@
+` Это чудо, этот тип изо всех сил бьёт меня ногами, мы валимся на землю, три раза перевернувшись.@
+` - ...@
+` Я встаю и отряхиваю пыль с одежды.@
 
 ; ?? : 04_??<???????(?)>
 ld c,":a;image\tachi\ari_t04.jpg",%type_bshutter_fst
-` Arihiko also stands up and pats his uniform.\
+` Арихико тоже встаёт и отряхивается.\
 
-`"Arihiko."@
-`"Tohno."@
-` After a three second interval, we face off directly.@
+` - Арихико.@
+` - Тоно.@
+` Спустя три секунды, мы разворачиваемся друг к другу.@
 br
-` Ready.@
+` Внимание.@
 !w1000
 br
-`"What the hell are you doing!?"@
-`"You have a sister!?"@
+` - Какого хрена ты делаешь?!@
+` - У тебя есть сестра?!@
 br
-` Both of us shout simultaneously.\
+` Одновременно выкрикиваем мы.\
 
 br
 br
@@ -410,39 +411,39 @@ br
 br
 br
 br
-` --------W, what?\
+` Че, чего?\
 
-`"...... Wait a second.@ How do you know I have a sister?"@
+` - Погоди секунду.@ Откуда ты знаешь что у меня есть сестра?@
 
 ; ?? : 05_??????<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"Uwaaa, you do have one after all!"@
-`  Arihiko holds his head in his hands, and twists his body.@
-` ...... It's so ridiculous looking, I would deny knowing him even if he owed me a million yen.\
+` - Аааааа, она у тебя всё-таки есть!@
+`  Арихико обхватывает голову руками и дико выгибается.@
+` Это выглядит до того нелепо, что я бы порвал с ним любую связь даже если бы он мне миллион задолжал.\
 
-`"Hey, cut it out Arihiko, please.@ We'll end up being the laughingstock of the school."@
+` - Эй, Арихико, прекрати уже.@ Над нами вся школа смеяться будет.@
 
 ; ?? : 04_??<???????(?)>
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
-`"Screw that, I don't care!"@
-` Arihiko looks up with a glare.@
+` - Пофиг, мне плевать!@
+` Яростно смотрит на меня Арихико.@
 
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_crossfade_fst
 
-`"You traitor!@ I'll call you Onii-san someday!"@
+` - Предатель!@ Я тебя Онии-сан называть буду!@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Leaving such an incomprehensible parting shot, Arihiko runs off.@
-` Not towards the school building, but to the front gate.\
+` Произнеся эту бессмысленную фразу, Арихико убегает прочь.@
+` Не к школьном зданию, а к воротам.\
 
-`"...... What's he doing?"@
-` There isn't even five minutes until homeroom starts.@
-` Nothing about him is understandable.@ Anyways, it seems like I won't run across him for the rest of the day.@
+` - Что он творит?@
+` До начала классного часа осталось меньше пяти минут.@
+` Его никогда не поймёшь.@ Ну и ладно, зато весь день будет от него свободным.@
 br
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -451,68 +452,68 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_06a.jpg",%type_tshutter_mid
 
 
-` During the break after second period, Arihiko suddenly returns.@
-`"Hum.@ After thinking about it for a while, I had no reason to go home."@
-` Saying so, he calmly takes his seat.@
-` Leaving him alone, I stare blankly in my seat and wait for third period to start.\
+` На перемене после второго урока Арихико почему-то возвращается.@
+` - Кхэм.@ Я подумал и решил, что домой мне было возвращаться незачем.@
+` С этими словами он спокойно усаживается.@
+` Не обращая на него внимания, я продолжаю сидеть за своей партой и жду начала третьего урока.\
 
-` But----the classroom seems odd today.@
+` Но, класс сегодня какой-то странный.@
 br
-` Every break, all the guys leave the room, and come back with happy looks on their faces.@
-`"?"@
-` ...... I'm a bit curious.\
+` На каждой перемене все парни выходят из комнаты и возвращаются со счастливым выражением лица.@
+` «?»@
+` Мне становится немного любопытно...\
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_lshutter_mid
-`"Hello Tohno-kun.@ Do you mind?"@
-`"Huh?@ It's break time, Senpai, is it okay to come to my classroom like this?"@
+` - Привет, Тоно-кун.@ К тебе можно?@
+` - А?@ Сенпай, сейчас перемена, но тебе что, просто захотелось зайти ко мне в класс?@
 
 ; ??? : 01~10 : 04_?01(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
-`"Yes, being here is much more fun than being in my classroom."@
-` She smiles happily as she says this.@
-` Arihiko sits at his desk unaware of Senpai's arrival.@
-` It is quite the ideal situation.\
+` - Да, здесь веселее чем у меня.@
+` С довольной убыкой отвечает она.@
+` Арихико продолжает сидеть за партой, не заметив прихода Сенапай.@
+` Идеальная ситуация.\
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
-`"But the second year classrooms are pretty noisy too.@ The third year boys have also been making a fuss and I imagine the fourth floor is overcrowded by now."@
-`"...... Huh?@ The third year boys making a fuss?@ About what?"@
+` - Но второгодки тоже расшумелись.@ Парни-третьегодки тоже подняли шумиху, так что четвёртый этаж сейчас наверно забит доверху.@
+` - Э?@ Парни-третьегодки подняли шум?@ Из-за чего?@
 
 ; ??? : 01~10 : 05_?02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t05.jpg",%type_crossfade_fst
 
-`"Oh, you're not making a big deal out of it.@ Well, there is no reason for you to go look, Tohno-kun."@
-`"......?"@
+` - О, ты особо не волнуешься.@ Впрочем, тебе, Тоно-кун, ведь и нет особого резона ходить смотреть.@
+` - ...?@
 br
-` ...... I don't quite understand, but it seems there is no reason for me to go look.\
+` Я не совсем понимаю, но похоже, мне нет особого резона ходить смотреть.\
 
-`"What do you mean?@ Go see what?"@
+` - Что ыт имеешь ввиду?@ Смотреть что?@
 
 ; ??? : 01~10 : 03_?03(??????????)<???????(?)>
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
 
-`"The new first year transfer student.@ All the boys in every class are taking turns to go see her.@
-` Apparently the hallway outside her classroom is very crowded.@ She's awfully popular."@
-` Transfer student......?@
-` Hmm... in other words, that's where all the guys in my classroom went too.\
+` - Смотреть на новую первогодку, она сегодня к нам перевелась.@ Парни со всех классов на ходят на неё смотреть.@
+` Похоже, перед её классом стоит толпа народа.@ Она до ужаса популярна.@
+` Новая ученица?..@
+` Хмм... значит, это туда ходили парни из моего класса.\
 
-`"----Oh?@ So that means she's really cute, this new transfer student?"@
+` - О?@ Так значит эта новенькая очень симпатичная?@
 
 ; ??? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\cel_t01a.jpg",%type_crossfade_fst
 
-`"I don't know, but that's what I've heard.@ They say a girl in the first year transferred from a famous ladies academy."@
-`"...... I see.@ For someone to transfer at this time of the year, there must be some strange circumstances."@
-`"You thought so too, huh?@ But it seems like a waste.@ Why is she transferring from the distinguished Asagami Women's Academy to go here?"@
-`"Hm?@ What a coincidence.@ My sister is also a first year student at----"\
+` - Не знаю, но говорят что да.@ Говорят, что к нам перевелась девушка из известной женской академии.@
+` - Понятно...@ Наверное, у неё были какие-то особые обстоятельства раз она перевелась в это время года.@
+` - Ты тоже так подумал?@ Но по моему зря это она.@ Зачем меня престижную Академию Асагами на нашу школу?@
+` - М?@ Какое совпадение.@ Моя сестра тоже учится на первом году в...\
 
-` -----Wait a minute.@
+`         Погодите-ка минуту.@
 br
-` There's something not quite right about this whole conversation.@
-` Senpai sounds like I know this transfer student already.\
+` Что-то в этом разговоре не так.@
+` Сенпай говорит так, словно я уже знаю эту новую ученицу.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_40c.jpg",%type_lshutter_fst
@@ -526,8 +527,8 @@ br
 br
 br
 br
-` Please don't mind.@
-` Starting tomorrow your daily life will become more like this.\
+` Прошу, не бери в голову.@
+` С завтрашнего дня твоя жизнь станет ещ насыщенней.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_33a.jpg",%type_lshutter_fst
@@ -540,77 +541,77 @@ br
 br
 br
 br
-` Since there were some formalities to take care of, Akiha-sama left for school earlier.\
+` Поскольку ей нужно было разобраться с кое-какими формальностями, Акиха-сама ушла раньше.\
 
 ; ?? : ?? : ??(?)<???????(?)>
 bg "image\bg\bg_06a.jpg",%type_rshutter_fst
 
 
-`"------No way."@
-` I'm shocked.@
-` I'm shocked, but that's the only conclusion I can draw.@
+` - Не может быть.@
+` Я в шоке.@
+` Я в шоке, но это единственный возможный вывод.@
 
 ; ??? : 01~10 : 07_??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
-`"Tohno-kun?"@
-` I can't hear Senpai's voice anymore.@
-` I look over at Arihiko's desk and he has an especially evil grin on his face.\
+` - Тоно-кун?@
+` Я уже не слышу голос Сенпай.@
+` Я оглядываюсь в сторону Арихико, и вижу его с особенно злобной ухмылкой на лице.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` I walk purposefully over to his desk.@
-`"Arihiko."@
+` Я решительно подхожу к его парте.@
+` - Арихико.@
 
 ; ?? : 05_??????<???????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_lshutter_fst
-`"Oh?@ What could it possibly be, Onii-sama?"@
-`"...... I'll punch you for saying that."@
+` - О?@ Что ты хотел, Онии-сама?@
+` - Я тебя сейчас ударю.@
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"H, hey, can't you take a joke?@ What is it, is there a reason you would talk to a commoner like me?@ Hyahahaha!"@
-` Arihiko laughs.@
-`"Reason?@ Well, I do have a reason this time."\
+` - Э, эй, ты что, шуток не понимаешь?@ Что такое, что могло сподвигнуть тебя заговорить с простолюдином вроде меня?@ Хаа-ха-ха-ха-ха!@
+` Смеётся Арихико.@
+` - Что могло?@ Ну что ж, в этот раз у меня есть причина.\
 
-`"Arihiko, can you tell me the name of this new transfer student?"@
+` - Арихико, как зовут новую ученицу?@
 
 ; ?? : 02_??<???????(?)>
 ld c,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 
-`"Man, you should know without me saying anything, right?@
-` Yes, her name is Tohno Akiha.@ Your younger sister.@
+` - Слышь, ты ведь и так должен знать, верно?@
+` Да, её зовут Тоно Акиха.@ Твоя младшая сестра.@
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-` Geez, you even kept it a secret from me.@ I would've found out quickly since she's that hot.@ I really doubted our friendship this time."@
-`"...... No, there's never been that sort of illusion between us, but I see."@
-` Totally drained, I answer and return to my seat.\
+` - Но в самом деле, ты даже от меня это скрыл.@ Я бы быстро узнал, раз уж она такая красотка.@ В этот раз я действительно засомневался, что мы друзья.@
+` - Нет, между нами никогда не было и тени дружбы, но я понял.@
+` Полностью обессилев, отвечаю я, и возвращаюсь на своё место.\
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_mid
 
 ; ??? : 01~10 : 07_??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07a.jpg",%type_lshutter_mid
-`"Tohno-kun?"@
-` Senpai is speaking but I just don't feel like responding.@
+` - Тоно-кун?@
+` Сенпай обращается ко мне, но мне не хочется отвечать.@
 
 ; ??? : 01~10 : 08_?<???????(?)>
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
-`"...... Hmm.@ You seem to be having trouble, so I will go back."@
+` - Хммм.@ Похоже, у тебя проблемы, так что я пойду.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Senpai walks out of the room lightly.\
+` Сенпай тихо выходит из класса.\
 
-` Akiha has transferred to my school.@
-`"----What is she thinking?"@
-` Muttering aloud in astonishment, I fall into my chair.\
+` Акиха перевелась ко мне в школу.@
+` - О чём она думает?@
+` Изумлённо бормоча вслух, яусаживаюсь на своё место.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_bshutter_mid
@@ -622,14 +623,14 @@ playstop
 bg "image\bg\bg_06a.jpg",%type_tshutter_mid
 
 
-` Third period starts and English class begins.@
-` The sound of fluent English goes in one ear and out the other.@
-` My head is only full of thoughts about Akiha right now.@ This English is just noise to me.\
+` Начинается третий урок, английский.@
+` Английская речь влетает мне в одно ухо и вылетает из другого.@
+` Сейчас я могу думать только об Акихе.@ Так что английский кажется просто шумом.\
 
-`"------"@
-` As always, Akiha is Akiha.@
-` If she's going to transfer to my school, couldn't she at least tell me?@
-` No, more importantly, she transferred to my school when there's no advantage for her to do so---
+` «...»@
+` Акиха в своём репертуаре.@
+` Раз уж она собралась переводиться в мою школу, почему она мне не сказала?@
+` Да нет, дело даже не в этом, от перевода в мою школу ей же нет никакой пользы...
 br
 ;S.E."??"
 wave se0
@@ -642,19 +643,19 @@ bg "image\bg\bg_06a.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-`"Ah----"@
-` Pain again.@
-` Sharp pain in my neck.\
+` - А...@
+` Снова боль.@
+` Острая боль в шее.\
 
 monocro #ff0000
 ; ?? : ?? : ??(?)<??????(?)>
 bg "image\bg\bg_06a.jpg",%type_rshutter_mid
 
 
-` I fall onto my desk.@
-` This is bad.@ I can hardly move.@
-` Is it anemia again?@
-` Then it's just as always.@ It's normal.@ It'll pass.@ I'm in class.@ I have to recover.@ Look, the English teacher is reading aloud.@ The blackboard.@ Chalk.@ Chalk dust.@ English.@ The sound of chalk scraping.@ Teacher.@ Teacher.@ Adult.@ Podium.@ The creaking podium.@ Desk.@ Thirty-six desks.@ Student.@ Students.@ Thirty-six students.@ Three days ago there were thirty-seven.@ Window.@ Sky.@ Schoolyard.@ Sun.@ Unpopular.@ Lonely.@ Cold.@ Frightened.@ Uneasy.@ Something.@ Desire.@ Desire.@ Desire----\
+` Я валюсь на парту.@
+` Дело плохо.@ Я едва могу пошевелиться.@
+` Опять анемия?@
+` Значит, всё как всегда.@ Это нормально.@ Это пройдёт.@. Я в классе.@ Я должен оправиться.@ Вон, учитель английского читает вслух.@ Доска.@ Мел.@ Крошки мела.@ Английский.@ Скрип мела.@ Учитель.@ Учитель.@ Взрослый.@ Подиум.@ Скрипящий подиум.@ Парта.@ Тридцать шесть парт.@ Ученик.@ Ученики.@ Тридцать шесть учеников.@ Три дня назад было тридцать семь.@ Окно.@ Небо.@ Двор.@ Солнце.@ Непопулярный.@ Одиноко.@ Холодно.@ Страшно.@ Беспокойство.@ Что-то.@ Жеание.@ Желание.@ Желание...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
@@ -665,16 +666,16 @@ bg "image\bg\bg_06a.jpg",%type_rshutter_mid
 wavestop
 
 
-`"Tohno-kun!@ Hey, are you alright Tohno-kun!?"@
-` My eyes open wide at the sound of the teacher's voice.@
-` ...... Sweat rolls down my forehead.@
-` My body is cold.@ My breathing is ragged.\
+` - Тоно-кун!@ Тоно-кун, то в порядке?!@
+` Мои глаза распахиваются от голоса учителя.@
+` Пот стекает по лбу...@
+` Моё тело знобит.@ Дыхание прерывисто.\
 
-`"What is it Tohno-kun?@ If you are not feeling well, you can rest."@
-`"Ah, no, I'm fine.@ It has passed."@
-`"...... I see.@ Well, don't push yourself.@ Your grades are good so it is acceptable to take an occasional rest.@ Your progress will be satisfactory even with some handicaps."@
-` ...... The English teacher's words lack a little consideration for the other students.@
-` I once again declare I am fine and resume class.\
+` - В чём дело, Тоно-кун?@ Если тебе нехорошо, можешь отдохнуть.@
+` - А, нет, я в порядке.@ Всё уже прошло.@
+` - Понятно....@ Ну ладно, не перенапрягайся.@ Оценки у тебя в норме, так что тебе можно иногда отдыхать.@ Твой прогресс должен быть в норме даже с некоторыми помехами.@
+` Слова учителя несколько бесувственны по отношению к остальным ученикам...@
+` Я ещё раз говорю что в порядке и продолжаю учиться.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_tcartain_mid
@@ -688,27 +689,27 @@ bg "image\bg\bg_06a.jpg",%type_bcartain_mid
 play "*3"
 
 
-` At lunch, the classroom gets frantic.@
-` []*sigh*@
-` I take a deep breath.@
-` I've been hot since this morning.@ Maybe I have caught a cold.@ My whole body feels languid.\
+` На обеденном перерыве класс наполняется суетой.@
+` []*вдох*@
+` Я делаю глуокий вдох.@
+` Я с самого утро чувствую жар.@ Может я и вправду простудился.@ Всё моё тело какое-то безжизненное.\
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"What, Tohno?@ Are you still sticking around here?"@
-`"...... Yeah.@ I don't feel too well today.@ I can't go to the cafeteria, so can you please get me something?@ I'll have the usual."@
-`"No, I don't mind, but is that alright?@ Your dear sister seems to be having trouble in the cafeteria."\
+` - Что, Тоно?@ Ты ещё здесь?@
+` - Ага...@ Сегодня я себя неважно чувствую.@ Я не могу пойти в столовую, так что ты не мог бы взять что-нибудь для меня?@ Мне как обычно.@
+` - Да я-то не против, но ты уверен?@ У твоей сестрёнки, похоже, проблемы в столовой.\
 
-`"----Ah."@
-` That's right.@ She's always been at a ladies academy so she wouldn't know anything about how a normal "school cafeteria" system works.@
-` I can distinctly imagine Akiha standing in the cafeteria not knowing what to do.@
+` - Аа@
+` Точно.@ Она же из женской академии, так что она не знает как вести себя в нормальной  школьной столовой.@
+` Я отчётливо представляю себе, как Акиха растерянно стоит посреди столовой.@
 br
-` ----Damn, I can't leave her like that.@
+` Чёрт, я не могу её так бросить...@
 br
-`"Ah, Tohno!@ Wait up!@ I'm coming too!"@
-` I dash out of the classroom.@
-` ...... Close behind me, Arihiko follows a bit more energetic than usual.\
+` - А, Тоно!@ Погоди!@ Я тоже иду!@
+` Я выбегаю из класса.@
+` Прямо за мной следует Арихико, несколько более энергичный чем обычно.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -716,27 +717,27 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_50.jpg",%type_lshutter_mid
 
 
-` Akiha stands aghast in the center of the crowded cafeteria.@
-` She looks as if she does not know what to do.@
-`"----Geez.@ What is she doing?"@
-` I hurry over to Akiha.\
+` Акиха стоит прямо посреди забитой народом столовой.@
+` Вид у нё совершенно растеряный.@
+` - Ёлы-палы.@ Да что она делает?@
+` Я подбегаю к Акихе.\
 
 
-`"Akiha."@
+` - Акиха.@
 
 ; ?? : 11~20 : 19_??(??????)<???????(?)>
 ld c,":a;image\tachi\aki_t19.jpg",%type_crossfade_fst
 
-`"Nii... san."@
-` In that instant,
-` I see her face on the verge of tears and my chest starts to hurt.@
-`"----C'mon, over here.@ You don't like the crowds, right?"@
-`"Ah----yes."@
+` - Нии...сан.@
+` В этот момент,
+` я замечаю что она готова расплакаться, и чувствую боль в груди.@
+` - Давай, иди сюда...@ Ты не любишь толпы, верно?@
+` - А... да.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Not wanting to see her almost crying face a second longer, I strongly pull Akiha out of the cafeteria.\
+` Не желая ни секундой больше видеть её готовое расплакаться лицо, я за руку вытаскиваю Акиху из столовой.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -744,13 +745,13 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_04.jpg",%type_rcartain_mid
 
 
-`"Here, you should be able to relax here.@ I'll go buy us some lunch so just sit at this bench."@
+` - Так, здесь тебе будет поспокойней.@ Я пойду куплю нам поесть так что посиди пока на лавочке.@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"...... Yes.@ I apologize for the trouble, Nii-san."@
-`"----It's alright.@ I'll hear about it later.@ Arihiko, I'm going to get lunch so take care of Akiha, okay?"@
+` - Хорошо.@ Прости за неудобства, Нии-сан.@
+` - Всё нормально...@ Потом ты мне всё расскажешь.@ Арихико, я пойду возьму поесть, так что позаботься пока об Акихе, ладно?@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -758,52 +759,52 @@ cl a,%type_crossfade_fst
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"W, why are you asking me all of a sudden!?@ Look, I'll go buy lunch and you keep your sister company, Tohno."\
+` - По-почему это ты вдруг меня просишь?!@ Слушай, Тоно, давай я пойду куплю поесть а ты посидишь с сестрой.\
 
-`"......?@ What's the matter, Arihiko?@ Aren't you going to call me Onii-san?@ I'll tell you right now, but I won't give you a chance like this in the future."@
-` I whisper to Arihiko.@
-` He whispers back, maintaining our secrecy.@
-`"R, right, but I can't be with her alone all of a sudden.@ If it was any other woman I'd agree, but your sister is just too high class."\
+` - ?..@ Арихико, ты чего?@ И разве ты меня теперь не Онии-сан называешь?@ Слушай, другой возможности я тебе давать не буду.@
+` Шёпотом сообщаю я Арихико.@
+` Он, соблюдая секретность, шепчет в ответ.@
+` - В-верно, но я не могу вот так вот оказаться с ней наедине.@ С любой другой женщиной я бы так и сделал, но твоя сестра слишком уж изящна.\
 
-`"...... Hm?@ This isn't like you at all.@ Are you scared of Akiha?"@
+` - Хм?@ Это на тебя совсем не похоже?@ Ты что, боишься Акихи?@
 
 ; ?? : 05_??????<???????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_crossfade_fst
 
-`"Yeah.@ To be honest, I am.@ Since she is the type I've never went against, I'd like to concentrate on getting information in the first round."@
+` - Да.@ Честно говоря, боюсь.@ Поскольку я никогда не имел дела с такими как она, для начала я бы хотел сосредоточиться на сборе информации.@
 br
-` ...... Why is he always this funny at strange times.\
+` Ну почему он всегда прикалывается в самые неподходящие моменты...\
 
-`"Alright.@ Then can you go get lunch for the three of us?"@
+` - Ладно.@ Тогда возьмёшь еды на нас троих?@
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Leave it to me.@ ...... Um, what does your sister want?@ I'm too scared to buy her ordinary cafeteria bread."@
-`"...... As if I would know.@ She transferred here, so curry bread and coffee milk will be good enough."@
-`"----Roger.@ I'll be back in five minutes."@
+` - Положись на меня.@ Эмм, а что твоя сестра хочет?@ Я боюсь ей обычный хлеб покупать.@
+` - Как будто я знаю...@ Она только перевелась, так что возьми ей хлеб с карри и кофе с молоком.@
+` - Понял.@ Вернусь через пять минут.@
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_fst
 
-` Arihiko returns to the building in a dash.\
+` Арихико бегом возвращается в здание.\
 
 ; ?? : 21~30 : 21_??<???????(?)>
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"You seem to be very good friends with him, Nii-san."@
-` ...... Huh?@
-` Where did all her vulnerability go?@ She's suddenly back to normal.\
+` - Похоже, Нии-сан, ты с ним очень дружен.@
+` Э?@
+` Куда делась вся её уязвимость?@ Она неожиданно вернулась в норму.\
 
-`"Yeah, we get along specially well.@ ...... M, more importantly, Akiha!"@
-`"Please don't yell like that.@ People around us are surprised."@
-`"Wha----"@
+` - Да, мы с ним уживаемся лучше других...@ Н-но главное, Акиха!@
+` - Пожалуйста, не кричи так.@ Люди вокруг удивляются.@
+` - Чт...@
 
 ; ?? : 21~30 : 21_??<???????(?)>
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"More importantly, can you answer me?@ That person, what is he to you, Nii-san?"@
-` ...... What is he?@ He's just an unwanted but inseparable guy who's been with me since middle school----no, that's not what we're talking about.@
+` - Но главное, ты не мог бы ответить мне?@ Нии-сан, кто для тебя этот человек?@
+`  Кто он мне?..@ Он всего лишь надоедливый, но неразделимый со мной тип, не отстающий от меня ещё со средней школы — нет, речь сейчас не об этом.@
 br
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -812,7 +813,6 @@ cl a,%type_crossfade_fst
 
 
 return
-
 
 </pre>
 
