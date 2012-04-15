@@ -27,11 +27,11 @@ bg "image\bg\bg_25b.jpg",%type_nowaitdisp
 
 
 
-` Я не могу так рискованно поступать.@
+` ----I can't do something that dangerous.@
 br
-` Вряд ли кто-то придёт ко мне на помощь, если я заверну в этот переулок.@
-` Со мной явно что-то не так, если я хочу зайти туда просто потому, что услышал шум.@
-` Уже вечереет. Пожалуй, пора возвращаться.\
+` If I went into an alley like that, no one can come to help me.@
+` There's something wrong with me wanting to go in there just because I heard a noise.@
+` It is getting late and I should head back.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -42,32 +42,32 @@ play "*1"
 bg "image\bg\bg_48d.jpg",%type_lcartain_mid
 
 
-` Никем не замеченный, я вернулся в особняк.@
-` Все фонари вокруг него погашены. @
-` Я и не предполагал, что вернусь так поздно.@
-` «Акиха... Акиха наверняка на меня рассердится» — думал я, толкая тяжёлые двери.\
+` I return to the mansion without meeting anyone.@
+` The lights around the mansion are all off.@
+` Somehow, I hadn't realized I would be coming back so late.@
+` Akiha--Akiha will surely be angry with me, I think as I put my hand on the heavy doors.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ?? : ?? : ?????(??)<??????(?)>
 bg "image\bg\bg_33d.jpg",%type_lshutter_fst
 
-` В коридоре никого.@
-` В конце концов, уже поздно.@
-` Акиха, Хисуи и Кохаку-сан, должно быть, уже спят мёртвым сном в своих комнатах.@
+` ...... There's no one in the lobby.@
+` It is late after all.@
+` Akiha, Hisui and Kohaku-san are most likely fast asleep in their rooms.@
 br
-`  — Всё-таки я не смог найти тебя, Юмизука-сан."@
-` Но я уверен, что где-то она должна быть.@
-` В таком случае... Она обязательно придёт завтра в школу.\
+`"...... I couldn't find you after all, Yumizuka-san."@
+` But I know she has to be somewhere.@
+` Then----for sure, she will come to school tomorrow.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_mid
 ; ?? : ?? : ?????(??)<??????(?)>
 bg "image\bg\bg_40d.jpg",%type_bshutter_mid
 
-` Я тихо вернулся в свою комнату, стараясь не разбудить Акиху и остальных.@
-` Смеркается.@
-` Мне нужно поскорее заснуть, чтобы быть готовым к завтрашнему дню.\
+` I return to my room silently so as not to wake Akiha and the others.@
+` It's getting late.@
+` To get ready for tomorrow, I have to hurry up and go to sleep.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -98,61 +98,61 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 ;CD-DA?????
 play "*2"
 
-` Сквозь полудрёму я слышу, как кто-то зовёт меня по имени.@
+` ...... I feel as if someone is calling my name as I wake up.@
 br
-`— Ммм...@
-` По телу потихоньку начинает разливаться тепло.@
-` Я подозрительно оглядываюсь, и замечаю непонятную фигуру у кровати.\
+`"Mn............"@
+` A little warmth returns to my body.@
+` I look around suspiciously and see an unfamiliar figure by my bed.\
 
-`— Ох... Хисуи.@
+`"Oh----Hisui."@
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`— Верно.@ Доброе утро, Шики-сама.@
+`"Yes.@ Good morning Shiki-sama."@
 
-` Хисуи кланяется.@
-`— А... Ага, утро, Хисуи.@
+` Hisui bows.@
+`"Ah, right----yeah, morning Hisui."@
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-` Я проснулся.@
-` Это моя комната, и, как и вчера, Хисуи пришла, чтобы меня разбудить.@
-`— Спасибо.@ Я переоденусь и тут же пойду в гостиную, так что можешь возвращаться к своим делам.@
+` I get up as I answer.@
+` This is my room, and just like yesterday, Hisui came to wake me up.@
+`"Thanks.@ I'll change and head to the sitting room, so you can go back to what you were doing."@
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
-`— Хорошо.@ Я буду ожидать там.@
+`"Yes.@ Then I will be waiting in the sitting room."@
 cl c,%type_crossfade_fst
 
-` Хисуи склонила голову и направилась к двери.\
+` Hisui bows her head and walks to the door.\
 
-` Тук, тук, тук.@
-` Её шаги громче, чем обычно.@
-` Она дошла до двери и обернулась.\
+` Tap, tap, tap.@
+` Her footsteps are louder than normal.@
+` She reaches the door and then turns around.\
 
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`— Шики-сама, прошу простить меня за мой вопрос.@ Во сколько вы вернулись вчера ночью?@
+`"Shiki-sama, forgive me for asking such a question.@ What time did you return last night?"@
 br
-` Вчера.@
-` Если я правильно помню, я ушел искать Юмизуку-сан, но вернулся, так и не найдя её...
+` ----Yesterday.@
+` If I recall correctly, I went out looking for Yumizuka-san and returned after not finding her----
 br
-`— Извини.@ У меня вчера были кое-какие дела, поэтому я вернулся поздно... Эм, впредь я буду пунктуальнее, так что было бы здорово, если бы ты не предавала этому случаю особого значения...\
+`"...... Sorry.@ Something caught my attention and I came back late...... Um, I will be prompt from now on so it would be great if you could overlook it this time......"\
 
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`— Нет, Шики-сама, вам совсем необязательно это говорить.@ Мы — прислуги — обязаны служить в соответствии с распорядком дня наших господ.@
+`"...... No, it is not necessary for you to say such a thing, Shiki-sama.@ It is the duty of us servants to work in accordance with the schedule of our masters.@
 ld c,":a;image\tachi\his_t09.jpg",%type_crossfade_fst
 
-` Но, как бы то ни было, я скромнейше вас прошу в будущем по крайней мере предупреждать нас.@ Какими бы ни были обстоятельства, вам все же следует нас оповещать.@
-`— Ты права.@ Извини.@ С этого момента обещаю держать свое слово.@
-`— Я поняла.@ Тогда, прошу извинить.\
+` However, I humbly request that you at least contact us.@ Whatever the circumstances, you should still be able to let us know."@
+`"----You're right.@ Sorry.@ I'll keep my promise from now on."@
+`"I understand.@ Then please excuse me."\
 cl c,%type_lshutter_mid
 
 
-`— Нечасто такое увидишь.@ Хисуи выглядела довольно сердитой.@
-` Она всегда очень сдержанная, но, как оказалось, и раздражённой быть умеет.@
-` Будто я сделал что-то плохое.@
-`— Ладно, пора вставать.@
-` Переодевшись из пижамы в школьную форму, я устремился в гостиную.\
+`"...... That was rare.@ Hisui seemed pretty angry."@
+` She's always so expressionless, it seemed she really gets angry when she does get angry.@
+` ...... As if I did something really terrible.@
+`"----Well then, time to get up."@
+` After changing out of my pajamas and into my school uniform, I head to the sitting room.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -160,25 +160,25 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
-` Там я встретил Акиху и Хисуи.@
-` Кохаку-сан скорее всего на кухне, готовит мне завтрак.\
+` I find Akiha and Hisui there.@
+` Kohaku-san is probably in the kitchen cooking my breakfast.\
 ; ?? : 01~10 : 01_?01(????)<??????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_lshutter_mid
 
-`— Доброе утро, Нии-сан.@
-` Сидя на софе, Акиха приветствует меня и смотрит на выражение моего лица.@
-`— Ага, доброе.@ Извини за прошлую ночь."@
-` Поприветствовав её в ответ, я направился на кухню. @
-` У меня не так много времени, чтобы точить лясы с Акихой... Да и разговаривать с кем-либо вообще мне не особо хочется.\
+`"Good morning, Nii-san."@
+` Sitting on the sofa, Akiha greets me and looks at my expression.@
+`"...... Ah, morning.@ Sorry about last night."@
+` Returning her greeting, I head to the dining room.@
+` There really isn't that much time for me to stay and chat with Akiha--and I myself don't really feel like talking to anyone at all.\
 
-`— Нии-сан, я бы хотела с тобой поговорить... Не возражаешь?@
-`— Поговорить? Давай, я не против.@
-` Я сел на софу напротив Акихи.@
+`"Nii-san, I would like to speak with you a little--is that alright?"@
+`"Speak with me?@ I don't really mind."@
+` I sit on the sofa across from Akiha.@
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`— Это звучит довольно прямолинейно, но что ты делал прошлой ночью?@ Хисуи сказала, что ты вернулся поздно.@
-` Нии-сан, ты же знаешь, что после восьми вечера на улицу выходить нельзя, верно?@
-` Акиха спросила, пристально глядя на меня.\
+`"This is cutting straight to the heart of the matter, but what were you doing last night?@ Hisui says you returned late at night.@
+` Nii-san, you know about our eight o'clock curfew, correct?"@
+` Akiha asks me with a direct stare.\
 
 `"Sorry for breaking the curfew.@ A classmate of mine seemed to be having a lot of trouble so I went looking for her...... Well, all I ended up doing was walk around.@ I apologize for being late, but it isn't a big deal."@
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
