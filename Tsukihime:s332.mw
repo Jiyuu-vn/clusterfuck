@@ -11,77 +11,76 @@ bg "image\bg\bg_23b.jpg",%type_lcartain_mid
 ;CD-DA????????????
 play "*8"
 
-` I walk with Akiha towards the mansion.@
-`"......"@
-` Frankly, it's difficult.@
-` If I look beside me, I can see Akiha walking with her long hair fluttering.@
-` Akiha is silent and graceful, the perfect daughter of a respected family.\
+` Мы с Акихой возвращаемся в поместье.@
+` - ...@
+` Честно говоря, это сложно.@
+` Если я поверну голову, то смогу увидеть Акиху, увидеть, как её длинные волосы развеваются на ветру.@
+` Акиха молчалива и изящна, идеальная дочь уважаемой семьи.\
 
-`"........."@
-` Why can't I think of anything to say?@
-` Even though I see Akiha at home every day, I somehow feel some tension walking home toward the mansion.\
+` - ...@
+` Почему я не могу придумать, что сказать?@
+` Хоть я и живу с Акихой под одной крышей, я чувствую себя как-то неуютно, возвращаясь вместе с ней в поместье.\
 
 
 br
-` --But I still haven't had an explanation.@
+` Но я так и не услышал её объяснения.@
 br
-`"Akiha."@
+` - Акиха.@
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Yes?@ What is it, Nii-san?"@
-`"What is it!?@ Why have you transferred to this school?@ What possible reason could you have for transferring to a second-rate elevator school!?"\
+` - Да? @ Что ты хотел, Нии-сан?@
+` - Что я хотел?!@ Почему ты перевелась в эту школу?@ Какая причина могла подвигнуть тебя перевестись во второсортную общеобразовательную школу?!\
 
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"So you say, Nii-san.@ But I can go to school wherever I choose; I do not need to explain myself to you."@
-`"...... Don't be stupid.@ I'm your brother!@ I can't just overlook things that are against your best interests.@
-` Frankly, I can't see any benefit in you transferring to this school.@ Since our old man isn't around anymore, it's my responsibility to look out for you...!"\
+` - Это ты так считаешь, Нии-сан. @ Но я могу посещать ту школу, которую выберу сама; мне не нужно оправдываться перед тобой. @
+` - Не глупи. @ Я твой брат!@ Я не могу просто игнорировать вещи, противоречащие твоим интересам.@
+` Откровенно говоря, я не вижу никакой выгоды от того, что ты переведёшься в эту школу.@ И раз уж нашего отца больше нет, мне нужно присматривать за тобой...!\
 
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"...... What?@ It's not fair to say things like that at times like these."@
-`"'Not fair' is my line.@ What were you thinking, transferring without even telling me?@
-` I won't accept this transfer until I hear a good reason!"@
+` - Что?@ Это нечестно, говорить сейчас такие вещи."@
+` - Это мне в пору говорить «Не честно».@ Чем ты думала, перевелась и даже мне не сказала?@
+` Я не приму этот перевод, пока не услышу достойную причину!@
 ld c,":a;image\tachi\aki_t19.jpg",%type_crossfade_fst
 
-`"Ah----"@
-`"If I'm not satisfied with the reason, I'll send you right back to your own school.@ So, tell me, Akiha.@ Why did you change schools?"@
+` - А...@
+` - Если причина меня не устроит, я отправлю тебя обратно в твою школу.@ Итак, скажи мне, Акиха.@ Почему ты сменила школу?@
 cl c,%type_crossfade_fst
 
-` Akiha falls silent and looks down.@
-` A very brief moment later, she raises a brave face.\
+` Акиха замолкает, и опускает глаза.@
+` И после небольшой паузы, она устремляет на меня храбрый взгляд.\
 
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"...... I was worried about you, Nii-san.@ Is that not a sufficient reason?"@
+` - Я волновалась за тебя, Нии-сан.@ Разве этой причины не достаточно?"@
 br
-` -------Eh?@
+` Э?@
 br
-`"...... Ha, hang on.@ What do you mean, worried about me...?"@
-` What sort of reason is that for transferring?\
+` - По-погоди.@ Что значит, ты волновалась за меня...?@
+` Что это за причина для перевода?\
 
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"Well, looking at your unruly behavior recently, I decided that in order to prevent you from disgracing the Tohno name, I would have to keep a close eye on you."@
-` Akiha explains clearly.@
-`"Erk----"@
-` When she says "unruly behavior", I can't help but nod.@
-` It's true, my everyday life since coming here has surely been an annoyance to Akiha and the others.\
+` - Видишь ли, учитывая твоё необузданное поведение в последнее время, я решила, что для того, чтобы не дать тебе опозорить имя Тоно, мне придётся постоянно присматривать за тобой.@
+` Недвусмысленно объясняет Акиха.@
+` - Экгхм...@
+` Я могу только кивнуть, когда она говорит «необузданное поведение».@
+` Это правда; моя повседневная жизнь после переезда принесла Акихе и остальным только хлопоты.\
 
-`"Bu, but, transferring is still a bit much, isn't it?@ What about your friends?"@
+` - Но, но, переводиться это ведь всё-таки чересчур, правда? @ А как же твои подруги?@
 ld c,":a;image\tachi\aki_t05a.jpg",%type_crossfade_fst
 
-`"That's none of your concern, Nii-san.@ If you feel even a little bad for me, then all you have to do is change your way of thinking from now on."@
-` Akiha turns sharply away.@
-br
-` ...... Well, this is just the way she is.\
+` - Это не твоя забота, Нии-сан.@ Если тебе хоть немного меня жаль, то тебе всего лишь нужно переосмыслить своё будущее поведение.@
+` Акиха резко отворачивается.@
+` Ну что ж, такая уж она есть...\
 
-`"...... Alright, do as you please.@ But one day, you'll regret it."@
+` - Ладно, поступай как хочешь.@ Но однажды тебе придётся об этом пожалеть.@
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"That's fine.@ I wasn't thinking of having you worry over me, Nii-san."@
-` With a sound of exasperation, Akiha starts to sulk.@
-` We fall silent, and continue up towards the mansion.\
+` - Меня это устраивает.@ Я не планировала заставлять тебя волноваться, Нии-сан.@
+` Устало вздохнув, Акиха начинает дуться.
+` Разговор дажльше не клеится, и мы молча идём к поместью.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -92,47 +91,47 @@ bg "image\bg\bg_32b.jpg",%type_lcartain_fst
 ;CD-DA?????
 play "*1"
 
-` We arrive at the mansion.@
-` Akiha steps forward to open the gate, but as if remembering something, turns to me.@
+` Мы прибываем к поместью.@
+` Акиха открывает ворота, но словно вспомнив что-то, разворачивается ко мне.@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"...... I have one question.@ How close are you to that person called Ciel, Nii-san?"@
-` Abruptly, she asks an extremely forward question.@
-`"Not especially close.@ We're just friends from school.@ She... feels like someone I can talk to."@
+` - У меня есть вопрос.@ Нии-сан, насколько ты близок с этой Сиэль?@
+` Ни с того ни с сего она задаёт очень прямой вопрос.@
+` - Да не особо близок.@ Мы просто друзья.@ С ней... можно поговорить.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-`"Really?" Akiha says, turning away and going through the gates.\
+` - Вот как? - Говорит Акиха, разворачивается и проходит в ворота.\
 
 ; ?? : ?? : ????(?)<??????(?)>
 bg "image\bg\bg_48b.jpg",%type_lshutter_mid
 
 
-` We cross the courtyard and arrive at the door.@
-` As Hisui is not waiting at the gates and Kohaku is not sweeping the garden, there is no sign of either of them today.\
+` Мы идём через двор и подходит к двери.@
+` Хисуи не дожидалась нас у ворот, и Кохаку не метёт двор, так что сегодня их не видно.\
 
-`"Ah."@
+` - А.@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Yes?@ Did you say something, Nii-san?"@
-`"Well, nothing much but... I'd like to go and take a look at the Japanese-style building you were talking about, if that's okay."@
-`"----The detached building?"@
-` Murmuring, Akiha's brow creases with concern.\
+` - Да?@ Нии-сан, ты что-то сказал?@
+` - Ну, это ничего особенного... но я бы хотел сходить посмотреть на то японское здание о котором ты говорила, если это ничего.@
+` - То здание...@
+` Бормочет Акиха, озабоченно скривив брови.\
 
 ; ?? : 11~20 : 11_??02(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
 
-`"Please, do not.@ It was sealed up many years ago.@ Nii-san, even you are not permitted to go there."@
+` - Нет, будь добр, не ходи туда.@ То здание было закрыто много лет.@ Нии-сан, даже тебе нельзя туда заходить.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Having stated this, Akiha goes into the mansion.\
+` Заявляет Акиха, и заходит в поместье.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -147,6 +146,7 @@ playstop
 
 
 return
+
 
 
 </pre>
