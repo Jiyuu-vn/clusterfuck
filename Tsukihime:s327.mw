@@ -7,53 +7,51 @@
 ; ?? : ?? : ????(?)<????>
 bg "image\bg\bg_04.jpg",%type_nowaitdisp
 
-`"What is he to me?----Arihiko is just a classmate.@ What else does he look like?"@
+` - Кто он мне — Арихико просто одноклассник.@ Кем ещё он может быть?@
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"Oh, so you refer to 'just' your friend by his first name, Nii-san?"@
-` Akiha looks at me unhappily.@
-`"Look, does it matter if I refer to him by his last name or his first name?@ Why are you hung up on that all of a sudden?"\
+` - О, то есть, Нии-сан, ты обращаешься по имени к «просто» другу?@
+` Акиха недовольно смотрит на меня.@
+` - Слушай, какая разница, обращаюсь я к нему по имени или по фамилии?@ Чего ты так к этому привязалась?\
 
 ld c,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
 
-`"My, you have no awareness, Nii-san.@ Maybe for women, but it is not normal for two boys to refer to each other like that.@ Unless they were brothers or relatives..."@
-`"Eh----well, maybe you're right."@
-` ...... Even I tilt my head to the side as I think about it.@
-` But since the very beginning, I've always called him "Arihiko".@ Besides, we've known each other so long it isn't that odd.\
+` - Боже, Нии-сан, ты совсем ничего не понимаешь.@ Может для женщин это нормально, но двое мужчин не могут просто так друг к другу обращаться.@ Если они не братья и не родственники...@
+` - Э? А, ну может ты и права.@
+` Задумавшись об этом, я даже удивлённо наклоняю голову.@
+` Но я с самого начала называл его «Арихико».@ Кроме того, мы знакомы так долго что это не так уж и удивительно.\
 
-`"Well, there is another case.@ Don't tell me you have that sort of relationship with him, Nii-san?"@
-`"......?@ That sort of relationship?@ What do you mean?"@
+` - Впрочем, есть и другой случай.@ Нии-сан, только не говори мне что у тебя с ним такие отношения.@
+` - ...?@ Такие отношения?@ Это ты о чём?@
 cl c,%type_crossfade_fst
 
-` I respond seriously, not understanding, but Akiha shifts her gaze.@
+` Я говорю серьёзно, не понимая, о чём она, но Акиха отводит взгляд.@
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"...... It's nothing.@ I was being sarcastic but you don't seem to get it, Nii-san."@
-` Akiha slumps her shoulders.@
-` ...... I start to get more and more confused.\
+` - Ни о чём...@ Это был сарказм, но до тебя, похоже, не дошло.@
+` Плечи Акихи опускаются.@
+` Я всё больше и больше запутываюсь...\
 
 
-`"----Akiha.@ I've known him since middle school and he has always helped me out.@ ...... He might not look like it, but he is a good person.@ I don't know what you don't like about him, but don't think bad of him."@
+` - Акиха.@ Я его знаю со средней школы, и он всегда меня выручал.@ По нему, может, и не скажешь, но он хороший человек.@ Уж не знаю что тебе в нём не нравится, но не надо думать о нём плохо.@
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
 
-`"............"@
-` Is she not satisfied about something?@ Akiha starts to sulk.\
+` - ...@
+` Она чем-то недовольна?@ Акиха начинает дуться.\
 
-`"Akiha, are you listening?"@
-`"Yes, I hear you!@ This is the first time I have ever heard you defend someone so eagerly.@ He really must be special to you, this school friend of yours!"@
+` - Акиха, ты слушаешь?@
+` - Да, я тебя слышу!@ Я впервые вижу чтобы ты так яростно кого-то защищал.@ Он тебе наверное очень дорог, этот твой школьный друг!@
 cl c,%type_crossfade_fst
 
-` She puffs out her chest and turns her head away.@
-` ...... Geez.@ I don't know why she decided to transfer here all of a sudden.@ Now I don't even know what's with her.\
+` Обиженно надувшись, она отворачивается.@
+` Блин...@ Я не знаю с чего вдруг она решила перевестись сюда.@ А теперь я ещё и не знаю что с ней такое.\
 
 
 
 return
 
-
-</pre>
 
 [[Tsukihime|[Назад]]]
 
