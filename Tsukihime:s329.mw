@@ -11,71 +11,71 @@ bg "image\bg\bg_04.jpg",%type_nowaitdisp
 ; ?? : 05_??????<??????(?)>
 ld l,":a;image\tachi\ari_t05.jpg",%type_lshutter_fst
 
-`"Here ya go, lunch for three people... huh?@ What, am I interrupting something?"@
+` - Дееержите, обед на троих... э?@ Я что, не вовремя?@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld r,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"No, nothing of the sort, Senpai.@
+` - Нет, Сенпай, ничего такого.@
 
 ; ?? : 01~10 : 04_?04(??)<???????(?)>
 ld r,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-` You are a friend of Nii-san?@ I am Tohno Shiki's younger sister, Akiha.@ It is a pleasure to meet you."@
-` Akiha bows softly.\
+` Вы — друг Нии-сана?@ Меня зовут Акиха, я младшая сестра Тоно Шики.@ Приятно познакомиться.@
+` Акиха склоняет голову.\
 
 ; ?? : 01_??<???????(?)>
 ld l,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Not at all, the pleasure's mine.@ I'm Inui Arihiko, I've known Tohno since junior high, but today was the first time I've found out about you, Akiha-chan."@
-` ...... Maybe he's still holding a grudge against me for not telling him about her, as he says things he doesn't have to.\
+` - Взаимно, очень приятно.@ Я Инуи Арихико, знаком с Тоно со средней школы, но про тебя узнал только сегодня, Акиха-тян.@
+` Может он до сих пор обижается за то что я ему о ней не рассказывал, потому что говорит эти неуместные вещи.\
 
-`"Alright, Arihiko, let's eat.@ Lunch break is short, so there's no time for chit-chat with Akiha."@
+` - Ладно, Арихико, давай есть.@ Обеденный перерыв у нас короткий, так что времени болтать с Акихой нет.@
 
 ; ?? : 01~10 : 02_?02(????????????)<???????(?)>
 ld r,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-` I ignore Akiha glaring at me, and I accept the lunch from Arihiko.@
-`"Here, Akiha.@ Here's curry bread and milk, and you can eat them here.@ There isn't much time, so you can't take too long over them."\
+` Я игнорирую взгляд Акихи и принимаю еду от Арихико.@
+` - Держи, Акиха.@ Вот тебе молоко и хлеб с карри, их можно съесть здесь.@ Времени немного, так что особо не растягивай их.\
 
 ; ?? : 21~30 : 21_??<???????(?)>
 ld r,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"I know that.@ I'm not a child, so you don't have to explain every little thing to me."@
+` - Я знаю.@ Не надо объяснять мне всё подряд, я не ребенок.@
 
 ; ?? : 03_??<???????(?)>
 ld l,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"That's right, Tohno.@ Aren't you a bit mean to Akiha-chan?"@
-` Arihiko boos at me.@
-`"............"@
-` Ignoring them, I open my own bread, and stick the straw into my milk.\
+` - Действительно, Тоно.@ Ты чего такой злой с Акихой-тян?@
+` Шикает на меня Арихико.@
+` - ...@
+` Не обращая на них внимания, я распаковываю свой хлеб и вонзаю соломинку в молоко.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Munch.@
-` Munch munch.@
-` Munch munch munch.@
+` Ням.@
+` Ням ням.@
+` Ням ням ням.@
 br
-`"-----"@
-` Right.@ Lunch is over, so it's time to go back to class.\
+` - ...@
+` Так.@ Обед окончен, так что пора возвращаться в класс.\
 
 ; ?? : 11~20 : 13_??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"...... Ah, Nii-san."@
-` Akiha speaks up timidly.@
-` Looking over, I see that she hasn't even opened her curry bread yet.@
-`"What is it, Akiha?@ You're not hungry?"@
-`"It's... well, it's not that, it's just..."@
-` She glances upward, like she's embarrassed or something.@
+` - А, Нии-сан...@
+` Робко обращается ко мне Акиха.@
+` Я оборачиваюсь к ней и вижу, что она даже ещё свой хлеб не распаковала.@
+` - Что такое Акиха?@ Ты не голодная?@
+` - Это... ну, не совсем, просто...@
+` Она поднимает глаза вверх, словно стесняясь.@
 br
-`"...... Could you... teach me how to eat these...?"@
+` - Ты не мог бы... показать, как это едят?..@
 br
-`"......"@
-` She glances hesitantly towards me.@
-` And... what am I supposed to say?\
+` - ...@
+` Она неуверенно смотрит на меня.@
+` И... что мне на это ответить?\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -83,46 +83,46 @@ cl a,%type_crossfade_fst
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Waddya mean, how to eat them?@ You just break open the wrapper and eat it.@ It's not hard, is it Tohno?"@
-`"Arihiko, sorry, but could you go get a napkin from the cafeteria?"@
-`"...... Eh, me?"@
-` I nod silently.@
+` - Что значит как это едят?@ Распаковываешь и ешь.@ Это же не сложно, правильно, Тоно?@
+` - Арихико, прости, но ты не мог бы принести салфетку из столовой?@
+` - Э, я?..@
+` Я молча киваю.@
 
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"Fine, but you'll owe me one."@
+` - Ладно, но будешь должен.@
 
 ; ?????<???????(?)>
 cl a,%type_lshutter_fst
 
-` Arihiko runs off towards the school building again.\
+` Арихико снова убегает к школьному зданию.\
 
-`"Alright, give it to me.@ You open the bag here, like this.@ And you just bite into it... it's okay, but don't expect too much for the taste.@ Kohaku-san's cooking and this are like heaven and earth."@
+` - Ладно, давай его сюда.@ Вот так вскрываешь упаковку.@ И ешь... вкус нормальный, но ничего особенного не жди.@ До стряпни Кохаку-сан этой штуке как до неба.@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"Ahh... really, Nii-san?"@
-`"I'm not kidding.@ Or what are you going to say?@ Don't tell me that even though you've transferred to our school, you can't eat our food.@
-` I don't want to think less of you."\
+` - Ааа... Нии-сан, правда?@
+` - Я серьёзно.@ Или ты что-то ещё хотела сказать?@ Только не говори что хоть ты и перевелась к нам в школу, ты не можешь есть нашу еду.@
+` Не хочу думать о тебе плохо.\
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"No, it's not that, it's just... this bread, it's so big, I don't think I could get it into my mouth..."@
-`"...... No one said you have to eat it all in one bite.@ It's bread, so you bite off a bit at a time.@ You'll get crumbs round your mouth, but Arihiko's bringing you a napkin to wipe it, okay?"@
+` - Нет, дело не в этом, просто... этот хлеб, он такой большой, по-моему он мне в рот не поместится...@
+` - Никто не говорил что его надо есть одним махом...@ Откусывай по кусочку.@ Рот у тебя будет в крошках, но Арихико сейчас принесёт тебе салфетку, ладно?@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"...... Yes.@ Thank you, Nii-san."@
+` - Да.@ Спасибо, Нии-сан.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Saying so, Akiha starts to bite into the curry bread.@
-` ...... I don't think there ever was a girl getting this nervous to start eating curry bread.\
+` С этими словами Акиха приступает к еде.@
+` Вот уж не думал, что девушка может так нервничать от того, что её впервые приходится есть хлеб с карри...\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_mid
@@ -130,77 +130,77 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 bg "image\bg\bg_04.jpg",%type_bshutter_mid
 
 
-` It's a few minutes after Akiha finished her lunch.@
-` Arihiko's appearance doesn't seem to bother her, as they are engaged in pleasant conversation.\
+` Акиха закончила есть несколько минут назад.@
+` Вид Арихико её, похоже, не смущает, поскольку они приятно общаются.\
 
 ; ?? : 01~10 : 04_?04(??)<???????(?)>
 ld l,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"So Inui-san, you have been a friend of Nii-san's since junior high school?"@
+` - Итак, Инуи-сан, ты дружишь с Нии-саном со средней школы?@
 
 ; ?? : 01_??<???????(?)>
 ld r,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Yeah, I've known him for about five years now.@ He's been a bothersome guy since the moment we met.@ I helped him out with all kinds of stuff, and before I knew it, he kind of grew on me."@
-`"...... Arihiko, that's the wrong word.@ You should call it extortion."@
+` - Ага, мы  знакомы уже пять лет.@ И с первой нашей встречи от него идут один только проблемы.@ Я помогал ему со всякими вещами, и не успел я оглянуться, как привык к нему.@
+` - Арихико, ты неправильно выражаешься.@ Это было чистым вымогательством.@
 
 ; ?? : 02_??<???????(?)>
 ld r,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 
-`"Ahh, whatever you wanna call it, we're stuck with each other!"@
-` Arihiko laughs.\
+` - Ааа, да как это ни называй, всё равно, мы друг к другу пристали!@
+` Смеётся Арихико.\
 
-`"Yeah.@ Kind of like how stuff sticks to the bottom of your shoe.@ I guess we both give each other a lot of trouble."@
-` I return Arihiko's laugh cynically.@
+` - Ага.@ Как жвачка к подошве.@ Пожалуй, мы оба доставляем друг другу немало хлопот.@
+` Цинично смеюсь я в ответ.@
 
 ; ?? : 11~20 : 13_??02(?~????)<???????(?)>
 ld l,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`".................."@
-` ...... Somehow, Akiha seems to be having trouble stomaching Arihiko and myself.\
+` - ...@
+` Похоже, Акиху наша перебранка не забавляет.\
 
 ; ?? : 01_??<???????(?)>
 ld r,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Oh, by the way Akiha-chan, can I ask you something?"@
+` - Кстати, Акиха-тян, можно спросить?@
 
 ; ?? : 01~10 : 04_?04(??)<???????(?)>
 ld l,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"Certainly, if it is something I can answer."@
-`"Well, I've been wondering for a while... Tohno has chronic anemia, right?@ Was he always like this?"@
-` ...... The amazing thing about Arihiko is how he is so straightforward when asking awkward questions like this.\
+` - Конечно, я отвечу если смогу.@
+` - Да, я вот тут думаю... у Тоно ведь хроническая анемия, верно?@ Он всегда такой был?@
+` Просто удивительно, как Арихико может быть прямолинеен с неудобными вопросами...\
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld l,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Yes, Nii-san has been anemic since birth.@ But all the people of the Tohno family have similar problems; his is not a special case."@
-`"Eh...?@ Really, Akiha?"@
-`"Yes.@ Father suffered from manic depression.@ Divergent Identity Disorder, to give it its full title."\
+` - Да, Нии-сан страдает анемией с рождения.@ Но в семье Тоно все имеют схожие проблемы; он не является особым случаем.@
+` - Э?@ Акиха, в самом деле?@
+` - Да.@ Отец страдал от маниакальной депрессии.@ Если быть точным, у него было биполярное расстройство. \
 
 ; ?? : 03_??<???????(?)>
 ld r,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"Wha?@ Divergent Identity...?"@
+` - Чего?@ Би-какое расстройство? @
 
 ; ?? : 01~10 : 04_?04(??)<???????(?)>
 ld l,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"More commonly called split personalities.@ Though, Father's wasn't severe enough to cause muddiness of memory."@
+` - Иначе говоря, раздвоение личности.@ Однако расстройство отца было не слишком сильным, не вызывая провалов в памяти.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
 br
-` ----I didn't know.@
+` Я не знал.@
 br
-` But looking back on it, Tohno Makihisa's character did seem to switch often from tenderness to brutality.\
+` Но если подумать, у Тоно Макихисы часто бывали резкие переходы от нежности к жестокости.\
 
-`"Hmm... so, it was a medical condition, that old man..."@
-` Looking at it like that, everything becomes clear.@
-` Before the accident, I always felt father was a tender man, who kept his distance.@
-` But after the accident, Makihisa clearly hated me.@
-` Looking back, it may have been because of his condition.\
+` «Хмм... так значит, у него было расстройство...»@
+` Если подумать, то с этим всё проясняется.@
+` До аварии отец всегда казался мне добрым, но отчуждённым человеком.@
+` Но после аварии Макихиса явно возненавидел меня.@
+` Если подумать, возможно, именно это было причиной его расстройства.\
 
 
 ;S.E."??"
@@ -210,18 +210,18 @@ wave se2
 ; ?? : 03_??<???????(?)>
 ld l,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"Argh!@ Lunch break's over, Tohno!"@
-`"Don't complain to me about it.@ C'mon Akiha, you should hurry back to your classroom.@ It'll be embarrassing to be late on your first day at school."@
+` - Аргх!@ Тоно, перерыв закончился!@
+` - Нечего мне об этом жаловаться.@ Давай Акиха, возвращайся к себе в класс.@ Неловко опаздывать в первый же день в новой школе.@
 
 ; ?? : 01~10 : 04_?04(??)<???????(?)>
 ld r,":a;image\tachi\aki_t09.jpg",%type_crossfade_fst
 
-`"I understand.@ Take care, Nii-san."@
+` - Я понимаю.@ Удачи, Нии-сан.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` As the bell resounds, we return to our classrooms.\
+` Звенит звонок, и мы расходимсся по классам.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -234,11 +234,12 @@ bg "image\bg\bg_06b.jpg",%type_rcartain_mid
 
 
 
-` A day full of ups and downs finishes.@
-` What should I do now---
+` Полный суматохи жень подошёл к концу.@
+` Что ж, теперь...
 br
 
 return
+
 
 
 </pre>
