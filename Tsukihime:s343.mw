@@ -22,36 +22,36 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 ;S.E."????(???)"
 waveloop se1
 
-`"...!"@
-` Unable to take it, I leap out of bed.@
-` I start to breathe heavily.@
-` I press my hand over my mouth and resist the urge to throw up.@
-`"Wh-----"@
-` What, was that?@
-` A dream.@ It was a dream.@ But, what was that?@
-` Why did I have such a terrible dream, of killing people and drinking their blood?\
+` «...!»@
+` Не в состоянии больше терпеть это, я вскакиваю на кровати.@
+` Моё дыхание тут же учащается.@
+` Я зажимаю рот рукой, сдерживая рвоту.@
+` - Чт...@
+` Что, это было?@
+` Сон.@ Это был сон.@ Но, почему?@
+` Почему мне приснился такой ужасный сон, где я нападал на людей и пил их кровь?\
 
-` I try and catch my breath.@
-` The thirst in my throat.@
-` The feeling of biting flesh.@
-` The pleasure burning through my brain as I killed.@
-` ...... These things, why do they seem so real?@
-` I can even remember perfectly the feel and sound of the heart as it was ripped out.\
+` Я пытаюсь отдышаться.@
+` Жажда.@
+` Вкус разрываемой плоти.@
+` Наслаждение, взрывавшее мой мозг в момент, когда я убивал...@
+` Почему эти вещи кажутся такими реальными?@
+` Я отчётливо помню те звуки и то ощущение, когда вырывал сердце из груди.\
 
-` I continue to gasp hungrily for air.@
-` I don't know if it was really "pleasure".@
-` It was just excitement condensed like a bullet, fired straight into my head.@
-`"Guh..."@
-` My breath stops as I remember.@
-` Then---perhaps that impact could be something called "pleasure".\
+` Я продолжаю жадно хватать ртом воздух.@
+` Я не знаю, было ли это на самом деле «удовольствием».@
+` Это концентрированое возбуждение, сжатое в пулю, которую всадили мне в голову.@
+` - Гха...@
+` Я вспоминаю и моё дыхание перехватывает.@
+` Тогда... может, это как раз можно назвать «наслаждением».\
 
-`"Why did I... that kind of dream..."@
-` I look down at my hands.@
-` Of course, they are pure white, without a trace of red blood on them.@
-` I am sleeping on the bed, and fresh morning sunlight shines in through the window.@
+` - Почему... мне приснился такой сон...@
+` Я смотрю на свои руки.@
+` Конечно, они белые, на них ни пятнышка крови.@
+` Я спал у себя, и утренний свет проникает через окно.@
 br
-` ...... That time.@ That first meeting with the vampire Yumizuka in a back alley... is it still in my mind?@
-` Maybe that's why I had such a ghastly dream.\
+` Тот раз...@ Первая встреча с Юмизукой-вампиром в переулке... я всё ещё не успокоился из-за того?@
+` Может, именно поэтому мне приснился такой жуткий сон.\
 
 ;S.E."??"
 wave se0
@@ -62,60 +62,61 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 
-`"Ow----"@
-` My neck hurts where Yumizuka bit it.@
+` - Айй...@
+` Моя шея болит там, где меня укуила Юмизука.@
 br
-` ---Those who are bitten by a vampire become vampires as well.@
-` Unexpectedly, that common phrase pops into my head.@
-`"...... Can't be.@ I'm overthinking this."\
+` Тот, кого кусает вампир, сам становится вампиром.@
+` Эта всем известная фраза неожиданно всплывает у меня в голове.@
+` - Невозможно.@ Я слишком зацикливаюсь на этом.\
 
 ;S.E."???"
 wave se3
 
 
-` Excusing herself, Hisui enters the room.@
-` The same figure, the same voice as always.@
+` Поздоровавшись, в комнату входит Хисуи.@
+` Тот же силуэт, тот же голос что и всегда.@
 ;CD-DA?????
 play "*2"
 
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
-`"Good morning, Shiki-sama."@
-` Hisui speaks politely.@
-` Since I arrived here, Hisui has brought a calm tranquility with her every morning.@
-` As I think this, the tumult of bad dreams simply fades from my head.\
+` - С добрым утром, Шики-сама.@
+` Вежливо произносит Хисуи.@
+` Начиная с моего первого дня здесь, Хисуи каждое утро будила меня, и приносила с собой чистое спокойствие.@
+` Я думаю это, и всё волнение из-з плохих снов просто уходит из моей головы.\
 
 ; ?? : 01~10 : 07_??<???????(?)>
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"...... Shiki-sama?@ Is there something wrong?"@
-`"---Ah, no.@ I was just enraptured for a moment.@ ...... Morning, Hisui.@ This morning's just like always, huh."@
+` - Шики-сама?..@ Что-то не так?@
+` - Аа, нет.@ Просто на секунду увлёкся...@ С добрым утром, Хисуи.@ Похоже, сегодня обычное утро, как всегда.@
 
 ld c,":a;image\tachi\his_t05.jpg",%type_crossfade_fst
 
-`"Ah---yes.@ I am sorry it is no better than usual."@
-`"I don't mean it like that.@ I just feel, since you are the same as always, today is as peaceful a morning as always."@
-` Alright!@ With vigor, I throw myself out of bed.\
+` - А... да.@ Простите, что оно не лучше обычного.@
+` - Я не это имел ввиду.@ Я просто подумал, что раз ты такая же как и всегда, сегодняшнее утро тоже спокойное, как и всегда.@
+` Отлично!@ Я бодро выскакиваю из кровати.\
 
-`"I'll change and go to the sitting room.@ You can go now."@
+` - Я переоденусь и отправлюсь в гостиную.@ Можешь идти.@
 
 ; ?? : 11~20 : 16_???<???????(?)>
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-`"Very well.@ Please excuse me."@
+` - Хорошо.@ С вашего позволения.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_mid
 
-` Hisui leaves and shuts the door calmly.@
-`"Right---stupid thoughts aside, I should go to school..."@
-` Taking charge of my thoughts, I breathe deeply.@
-` It's ten before seven.@
-` Like yesterday, there's no hurry today, so I'll---
+` Хисуи выходит и аккуратно закрывает дверь.@
+` - Так... глупсоти в сотрону, пора в школу собираться.@
+` Приведя мысли в порядок, я делаю глуюокий вдох.@
+` Без десяти семь.@
+` Как и вчера,с пешить некуда, так что я...
 br
 
 return
+
 
 
 </pre>
