@@ -9,8 +9,8 @@
 bg "image\bg\bg_40d.jpg",%type_nowaitdisp
 
 
-`"...... Shall I take a look?"@
-` Getting out of bed, I leave my room silently.\
+` «Может, сходить посмотреть?»@
+` Я встаю и неслышно выхожу из комнаты.\
 ;CD-DA??
 playstop
 ;S.E."??????????…?(???)"
@@ -31,13 +31,13 @@ bg "image\bg\bg_54c.jpg",%type_lcartain_mid
 
 
 
-` ----Even the moonlight does not penetrate the woods of the garden.@
+` Даже лунный свет не пробивается сквозь кроны деревьев.@
 br
-` I walk through the woods which seem more like a forest.@
-` ...... I didn't remember quite where it was, but as I enter the forest, my feet automatically head toward the detached building.@
+` Я иду между деревьев, которые теперь кажутся мне густым лесом...@
+` Я не смог вспомнить точного места, но как только я вошёл в лес, мои ноги сами понесли меня в нужном направлении.@
 br
-` Even if I forgot where it was, I guess my body remembers how to get there.@
-` At any rate, I am able to get to the detached building without getting lost.\
+` Хоть моя голова и забыла, моё тело помнит как туда добраться.@
+` Как бы то ни было, я добираюсь до отдельной постройки не потерявшись.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_tcartain_mid
@@ -45,34 +45,34 @@ bg "image\bg\ima_10.jpg",%type_tcartain_mid
 bg "image\bg\bg_44b.jpg",%type_bcartain_mid
 
 
-`"-------"@
-` It must have been many years since this building was put out of use, as many parts are deteriorated.@
-` As I put my hand on the door, I notice that it is unlocked.@
+` - ...@
+` Должно быть, его не используют уже много лет, потому что выглядит оно обветшало.@
+` Я толкаю рукой дверь, которая оказывается незапертой.@
 br
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
-` It is dark inside, as expected.@
-` I smell the tatami mats and the shoji, and somehow feel comfortable even though I can't see anything.\
+` Внутри, конечно же, темно.@
+` Я чувствую запах татами и сёдзи, и хоть я ничего не вижу, я чувствую себя немного уверенней.\
 
 ; ?? : ???? : ??(?)<??????(?)>
 bg "image\bg\bg_45c.jpg",%type_lshutter_mid
 
 
-`"-----Ah."@
-` As I enter the Japanese-style room, a chill runs through my spine.\
+` - А...@
+` Я вхожу в комнату в японском стиле, и холодок пробегает у меня по спине.\
 
-`"----------I know this place."@
-` I guess I came here as a kid since this Japanese-style room was interesting.@
-`"------------"@
-` But it's weird.@
-` I feel the same sense of incompatibility I had when I was first shown my room after I came back to this mansion.\
+` - Я знаю это место...@
+` Наверное, я приходил сюда в детстве, должно быть, эта японская комната показалась мне интересной.@
+` - ...@
+` Но вот что странно.@
+` Я испытываю то же чувство несоответствия, как когда я только вернулся в поместье и увидел свою комнату.\
 
-`"...... Maybe because the Arimas' house was Japanese-style."@
-` I feel like I've lived here all my life.@
-` Or maybe-----\
+` - Может это потому что дом Арим был оформлен в японском стиле.@
+` Мне кажется будто я жил тут всю жизнь.@
+` Или может...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -83,7 +83,7 @@ br
 br
 br
 br
-` If I recall, in the past...\
+` Если я правильно помню, то в прошлом...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -96,7 +96,7 @@ br
 br
 br
 br
-` When we were playing in the yard,\
+` Когда мы играли во дворе...\
 
 ; ??????1(?????)<????>
 bg "image\bg\cmo_05.jpg",%type_nowaitdisp
@@ -111,18 +111,18 @@ br
 br
 br
 br
-` maybe it wasn't just me and Akiha...\
+` Может, с нами был кто-то ещё кроме меня и Акихи.\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_45c.jpg",%type_nowaitdisp
 
 
-`"Ouch------"@
-` I feel a pain in my neck.@
-` It might be my anemia, but my body feels like lead.@
-`"...... This is bad...... I have to go back to my room."@
-` I shake my head lightly, and I decide to go back to my room before I really faint.@
+` - Аййй...@
+` Я чувствую боль в шее.@
+` Наверно, это моя анемия, потому что моё тело как будто наливается свинцом.@
+` - Это плохо... Мне надо вернуться в свою комнату.@
+` Я качаю головой, и решаю возвращаться к себе пока я окончательно не отрубился.@
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -131,12 +131,12 @@ bg "image\bg\ima_10.jpg",%type_lcartain_slw
 bg "image\bg\bg_40d.jpg",%type_rcartain_mid
 
 
-` I take a deep breath.@
-` Somehow, I made it back to my room.@
-` No matter what, if I collapsed in the off-limits building, Akiha's wrath would pour down on me.@
-`"------Mn."@
-` I feel a little dizzy.@
-` I fall onto my bed without even changing.\
+` Я делаю глубокий вдох.@
+` Кое-как я всё-таки добираюсь до своей комнаты.@
+` Что бы там ни было, если я отключусь в запретном здании, на меня обрушится гнев Акихи.@
+` - Мнн...@
+` Голова немного крудится.@
+` Даже не переодевшись, я валюсь на кровать.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -151,7 +151,7 @@ wavestop
 wave se0
 
 !w600
-` ----Hot.\
+` Жар...\
 
 ;S.E."??"
 wave se0
@@ -159,17 +159,7 @@ wave se0
 br
 br
 br
-` ----Hot.\
-
-;S.E."??"
-wave se0
-!w600
-br
-br
-br
-br
-br
-` ----Hot.\
+` Жар...\
 
 ;S.E."??"
 wave se0
@@ -179,9 +169,19 @@ br
 br
 br
 br
+` Жар...\
+
+;S.E."??"
+wave se0
+!w600
 br
 br
-` ----My throat, dry with thirst, hot.\
+br
+br
+br
+br
+br
+` Моё горло пылает, пересохшее от жажды...\
 
 !w600
 br
@@ -192,8 +192,8 @@ br
 br
 br
 br
-` ------I can't sleep like this.@
-`      I'll go and get a drink of water.\
+`  Я так не засну.@
+`      Пойду попью воды.\
 
 ; ?? : ???? : ????<????>
 bg "image\bg\bg_47.jpg",%type_nowaitdisp
@@ -208,8 +208,8 @@ bg "image\bg\bg_25b.jpg",%type_crossfade_mid
 ;CD-DA???????
 play "*4"
 
-` It seems I went into town at night.@
-` It seems like I'm waiting with bloodshot eyes for someone to pass by.\
+` Похоже, я вышел в ночной город.@
+` Похоже, я с налитыми кровью глазами жду, пока кто-нибудь не пройдёт мимо.\
 
 ;S.E."??"
 wave se0
@@ -221,26 +221,10 @@ br
 br
 br
 br
-` ------It is hot.\
+` Так печёт...\
 
-` Suddenly, I see a face reflected in the window.@
-` The eyes are bloodshot, and the face looks quite insane.\
-
-;S.E."??"
-wave se0
-
-br
-br
-br
-br
-br
-br
-br
-` ------It is just so hot.\
-
-` It seems I found my prey.@
-` Strangling her from behind, it's all over.@
-` It seems that the unknown woman has died just from that.\
+` Вдруг я замечаю лицо, отражающееся в окне.@
+` Оно выглядит безумно, и его глаза налиты кровью.\
 
 ;S.E."??"
 wave se0
@@ -252,7 +236,23 @@ br
 br
 br
 br
-` ---I am just, so hot.\
+` Так печёт...\
+
+` Похоже, я нашёл свою жертву.@
+` Я душу её сзади, и всё кончается.@
+` Похоже, женщина умерла от этого.\
+
+;S.E."??"
+wave se0
+
+br
+br
+br
+br
+br
+br
+br
+` Я, весь пылаю...\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -269,9 +269,9 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 bg "image\bg\bg_31b.jpg",%type_nowaitdisp
 
 
-` Taking the dead body, perhaps I bit into its throat.@
-` There's a gurgling sound.@
-` Drinking the blood flowing out of the rended neck, my thirst is quenched.\
+` Утащив тело, возможно я вгрызаюсь в её горло.@
+` Раздаётся булькающий звук.@
+` Напишись крови из разорваной шеи, я утоляю свою жажду.\
 
 ;S.E."??"
 wave se0
@@ -283,31 +283,14 @@ br
 br
 br
 br
-` ---I don't understand.\
+` Я не понимаю...\
 
-` The sound of heavy breathing.@
-` Does this act...
-` Does this act really excite me so much?@
-` I stick my finger in the chest of the dead body.@
-` The sound of crushing meat, the sound of breaking bones.@
-` The sound of a heart being ripped out with my bare hand.\
-
-;S.E."??"
-wave se0
-
-br
-br
-br
-br
-br
-br
-br
-` ---As I watch, my head fills with pure white.\
-
-` This, the ultimate pillage.@
-` The height of immorality.@
-` Just gazing at it, I feel hot.@
-` You might say it's negative pleasure, but for making one hot, it's still the same.\
+` Звук тяжелого дыхания.@
+` Это...
+` Это правда настолько меня возбуждает?@
+` Я вонзаю палец в грудь мертвого тела.@
+` Звук разрываемой плоти, звук ломающихся костей.@
+` Звук вырываемого из груди сердца.\
 
 ;S.E."??"
 wave se0
@@ -319,15 +302,32 @@ br
 br
 br
 br
-` ---I don't understand.\
+` Я смотрю, и в голове у меня всё белеет...\
+
+` Это абсолютная власть.@
+` Вершина бессмертия.@
+` От одного только вида я возбуждаюсь.@
+` Может это и порочное удовольствие, но оно всё равно возбуждает, так что какая разница.\
+
+;S.E."??"
+wave se0
+
+br
+br
+br
+br
+br
+br
+br
+` Я не понимаю...\
 
 ; ??<???????(?)>
 bg "image\bg\ima_18.jpg",%type_crossfade_fst
 
-` Hot blood dripping from my mouth, I gaze up at the night sky entranced.@
-` My long hair waves around.@
-` Above is the spiraling sky.@
-` Such a beautiful, silver moon.\
+` Горячая кровь капает у меня изо рта, и я поднимаю зачаорванный взгляд в небо.@
+` Мои длинные волосы развеваются.@
+` Надо мной кружащее голову небо.@
+` Такая прекрасная, серебряная луна.\
 
 ;S.E."??"
 wave se0
@@ -339,8 +339,8 @@ br
 br
 br
 br
-` ---And so, I don't understand.@
-`   I am just, only, hot----\
+` И я не понимаю...@
+`   Я только чувствую жар...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -355,6 +355,7 @@ playstop
 
 
 return
+
 
 
 </pre>
