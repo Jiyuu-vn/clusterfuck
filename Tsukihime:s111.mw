@@ -3,100 +3,79 @@
 <pre>
 *s111
 
-; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_33a.jpg",%type_nowaitdisp
 
-` ---I'll try telling the truth.@
+` Попробовать сказать правду.@
 br
-` I don't want to lie to Akiha, and if I explain everything sincerely, Akiha may understand.@
-` ...... Well, the possibility of that is like winning a lottery.@
+` Не хочу врать Акихе. Буду честным и, быть может, она меня поймёт@... если очень повезёт.@
 br
-`"--Alright, let's go."@
-` Taking a deep breath, I open the sitting room door.\
+` «Ну, ладно»@, — я глубоко вздохнул и открыл дверь в гостиную.\
 
-; ????(?)<?????(?)>
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
-` In the sitting room, Akiha is on the sofa and Hisui is standing by the wall.@
+` Акиха сидит на софе, а Хисуи стоит у стены.@
 
-; ??<?>=??:?02(????????????)<??????(?)>
 ld c,":a;image\tachi\aki_t02.jpg",%type_lshutter_mid
-`"---Good morning, Nii-san."@
-` Her gaze is telling me, "I am angry."@
-`"Yo, morning, Akiha."@
-` A defiant person is strong.@
-` I give a cheerful greeting to Akiha's bullying gaze.\
+` — Доброе утро, Нии-сан,@ — говорит она, а глаза говорят: «Я злюсь.»@
+` — И тебе того же, Акиха.@ 
+` Капля дерзости и побольше уверенности в себе.@ Я как можно непринуждённей ответил на её буравящий взгляд.\
 
-; ??<?>=??:?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
-`"----"@
-` She might be confused with my cheerfulness, as she just stares at me.@
-; ??<?>=??:?01(????)<???????(?)>
+` «...»@
+` Молчит. Кажется, я сбил её с толку.@
+
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
-`"Nii-san, let's dispense with the greetings.@ Please sit here; I wish to speak with you."@
-`"Sure.@ Let's keep it short though."@
-` I solemnly and calmly sit down on the sofa across from Akiha.\
+` — Давай пропустим любезности.@ Присядь.@ Я хочу с тобой поговорить, Нии-сан.@
+` — Конечно.@ Не будем тянуть резину.@
+` Молча я сел на против, готовый её выслушать.\
 
-; ??<?>=??:?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Well then, Nii-san.@ This is very abrupt, but may I ask about these past two days?"@
-`"-----Hm."@
-` ...... I knew it.@
-` Since I left the house for two days, there's no excuse.@
-` Time to honestly tell her all about Arcueid and these past two days.\
+` — Нии-сан.@ Прости мою резкость, но не будешь ли ты так любезен рассказать, где ты был последние два дня?@
+` — М-м...@
+` Знаю, мне нет прощения за то, что два дня меня не было дома.@ Пора честно всё рассказать об Арквейд и о том, что было.\
 
-`"About that, Akiha."@
-`"Yes, what is it, Nii-san?"@
-`"These past two days, I was hunting a vampire.@ You know about the recent killings, right?@ They were the work of a vampire, so I helped the 'good vampire' I met recently, and I fought with the 'bad vampire'."@
-br
-` ----Like that, I explain concisely.\
+` — Акиха.@
+` — Да, я слушаю.@
+` — Последние два дня я выслеживал вампира.@ Ты ведь слышала про недавние убийства?@ Так вот, их совершил вампир, и я помогал «хорошему вампиру», которого встретил недавно, убить «плохого вампира»,@ — кратко изложил я.\
 
-; ??<?>=??:?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t15a.jpg",%type_crossfade_fst
 
-`"Wha------"@
-` Akiha is taken completely by surprise.@
-` ...... Well, I guess it is a natural reaction.@
-` In her head, she's probably thinking I'm making a fool of her, and anytime in the next instant,
+` — Что?!@ — изумлению Акихи не было предела.@
+` Думаю, тут нечему удивляться.@ Она, пожалуй, думает, что я её дурю.@
+` Не успел я об этом подумать, как:
 
-; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
-; ??<?>=??:?01(????)<???????(?)>
+
 ld c,":a;image\tachi\aki_t07.jpg",%type_crossfade_fst
-`"Are you making a fool out of me, Nii-san!!!!???"@
-` She'll shout something like that to me--
-; ????(?)<????>
+` — Ты меня совсем за дуру держишь, Нии-сан?!@ — закричала она. Такого я не ждал...
+
 bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 \
 
-; ??<?>=??:?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t10.jpg",%type_crossfade_fst
-`"....................."@
-` ......... Huh?@
-` She seems upset, but she doesn't say anything.\
+` «...»@
+` А-а?@ Расстроена, но больше ничего не говорит.\
 
-`"Um...... Akiha?"@
-; ??<?>=??:?01(????)<???????(?)>
+` — М-м... Акиха?@
+
 ld c,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
-`"...... Nii-san, is this some sort of a bad joke?"@
-`"------Uh..."@
-` Akiha looks at me quietly, like she was seeing directly into my heart.\
+` — Нии-сан, это была неудачная шутка?@
+` — А...@
+` Она молчит, и мне кажется, будто она видит меня насквозь.\
 
-`"No...... well, how should I put this..."@
-; ??<?>=??:?01(????)<???????(?)>
+` — Нет... но что мне сказать...@
+
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
-`"A joke, right?"@
-`"...... Well, I know it sounds like one, but..."@
-; ??<?>=??:?01(????)<???????(?)>
-ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
-`"---No, it has to be a joke.@ So please do not say such things in the future, even if it is a joke."@
-; ?????<???????(?)>
-cl c,%type_crossfade_fst
-` She stares at me, more uneasy than angry.\
+` — Что пошутил?@
+` — Знаю, мои слова похожи на шутку, но...@
 
-` Since her stare looks so serious,
-`".................. Yeah."@
-` I can only nod to her.\
+ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
+` — Они шутка и есть, не иначе.@ Поэтому, больше так не говори, пожалуйста, даже в шутку.@
+
+cl c,%type_crossfade_fst
+` В её взгляде больше тревоги, чем злости.\
+
+` Под таким серьёзным взглядом я только и смог выдавить «Ладно» и кивнуть ей.\
 cl c,%type_crossfade_fst
 
 
