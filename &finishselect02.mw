@@ -1,27 +1,25 @@
 <poem>
-&finishselect02
- 
 ///================================================================================
- 
+
 //TEXT
 <jaT0001>Hmm. Shall I return to the secondary control room? This means I've done what I need to do, and I'll stop roaming around the Aries, but...
-<enT0001>Хмм. Не вернуться ли мне во вторую диспетчерскую? Это означает, что я сделал всё, что требовалось, и за сим я перестану бродить по Овну, однако...
- 
+<enT0001>lolo Hmm. Shall I return to the secondary control room? This means I've done what I need to do, and I'll stop roaming around the Aries, but...
+
 //TEXT
 <jaT0002>Now then, let's choose a different place to go next.
-<enT0002>Итак, давай выберем, куда пойти еще.
- 
+<enT0002>Now then, let's choose a different place to go next.
+
 ///================================================================================
- 
+
 //OTHER
 <jaZ0001>&FinishSelect02.bss
 <enZ0001>&FinishSelect02.bss
- 
+
 //OTHER
 <jaZ0002>Perfect. Let's go back to the control room.
-<enZ0002>Великолепно. Давай вернёмся в диспетчерскую.
- 
+<enZ0002>Perfect. Let's go back to the control room.
+
 //OTHER
 <jaZ0003>I'm mistaken. Let's not go to the control room.
-<enZ0003>Я ошибся. Давай не будем идти в диспетчерскую.
+<enZ0003>I'm mistaken. Let's not go to the control room.
 </poem>
