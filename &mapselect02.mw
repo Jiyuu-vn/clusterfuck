@@ -1,4 +1,6 @@
 <poem>
+&mapselect02
+
 //NAME
 <jaN0001>Shuhei
 <enN0001>Шухей
@@ -11,15 +13,15 @@
 
 //TEXT
 <jaT0002>Hmm, when I look at the map like this, I really can't decide where to go.
-<enT0002>Хмм, когда я смотрю на такую карту, я не могу определиться, куда идти.
+<enT0002>Хмм, когда я так смотрю на карту, не могу определиться, куда идти.
 
 //TEXT
 <jaT0003>Effective methods against Jararacas... It'd be easy if there was an armory somewhere on the Sheratan, but something that dangerous would never be on a station that wasn't run by the government.
-<enT0003>Эффективные методы против Джараракаса... Это было бы легко, если бы была оружейная где-нибудь в Шератане, но ничего опасного никогда не будет на станции, которая не управляется правительством.
+<enT0003>Эффективные методы против Джараракаса... Это было бы легко, если бы была оружейная где-нибудь в Шератане, но ничего столь опасного никогда не оказалось бы на станции, которая не  под управлением правительства.
 
 //TEXT
 <jaT0004>This means we need a way to prevent them from invading. Well, no use worrying about it. Let's go somewhere else for now.
-<enT0004>Это значит, что мы должны найти способ помешать им вторгнуться. Хорошо, не беспокойтесь на счёт этого.  Давай сейчас сходим ещё куда-нибудь.
+<enT0004>Это значит, что мы должны найти способ помешать им вторгнуться. Ладно, нет смысла об этом переживать.. Давай сейчас сходим куда-нибудь ещё .
 
 //TEXT гЂђShuheiгЂ‘
 <jaT0005>"......"
@@ -31,23 +33,23 @@
 
 //TEXT
 <jaT0007>Well, there's still time, so let's not worry about it too much and keep moving. It's possible something will spring to mind.
-<enT0007>Ну, еще есть время, так что давайте не будем беспокоиться об этом так сильно и продолжим двигаться дальше. Возможно, что-то и придёт на ум
+<enT0007>Ну, еще есть время, так что давай не будем беспокоиться об этом слишком сильно и продолжим двигаться дальше. Возможно, что-то и придёт на ум
 
 //TEXT
 <jaT0008>I need to report in. Jararacas will begin their full-fledged attack soon. I should head back to the secondary control room soon, whether I have a good idea or not.
-<enT0008>Мне нужно доложить об этом. Джаракас скоро начнёт полноценную атаку. Мне нужно вернуться во вторичную диспетчерскую, есть у меня хорошая идея или нет.
+<enT0008>Мне нужно доложить об этом. Джаракас скоро начнёт полноценную атаку. Есть ли у меня хорошая идея или нет, мне нужно вернуться во вторую диспетчерскую.
 
 //TEXT
 <jaT0009>Well, I guess it's no use wandering around here. I have to put an end to this, after all.
-<enT0009>Ну, я думаю, что нет смысла бролить здесь. В конце концов, я ведь должен положить конец всему этому.
+<enT0009>Ну, я думаю, что нет смысла бродить здесь. В конце концов, я должен положить конец всему этому.
 
 //TEXT
 <jaT0010>Essentially, after moving five more times, I'll automatically return to the secondary control room. Of course, if I'm confident in my idea before then, there's no problem with returning early.
-<enT0010>По сути, после того, как я перемещаюсь более пяти раз, я автоматически возвращаюсь ко вторичной диспетчерской. Конечно, если я буду уверен в своей догадке к тому времени, не будет никаких проблем с преждевременным возвращением.
+<enT0010>По сути, после того, как я перемещусь еще пять раз, я автоматически вернусь ко второй диспетчерской. Конечно, если  до того времени я буду уверен в своей догадке, нет особых проблем с тем, чтобы вернуться раньше.
 
 //TEXT
 <jaT0011>We're running out of time, so let's act accordingly.
-<enT0011>У нас мало времени, так что давайте действовать соответственно.
+<enT0011>У нас мало времени, так что давай действовать соответственно.
 
 //TEXT гЂђShuheiгЂ‘
 <jaT0012>"Three left, huh..."
@@ -63,15 +65,15 @@
 
 //TEXT
 <jaT0015>It's about time I lit fire up my ass.
-<enT0015>
+<enT0015>Самое время пошевелить задницей.
 
 //TEXT
 <jaT0016>It's coming down to my last action. I have to think and act carefully.
-<enT0016>Всё возвращается к моему последнему действию. Я должен думать и действовать осторожно.
+<enT0016>Всё идет к моему последнему действию. Я должен думать и действовать осторожно.
 
 //TEXT
 <jaT0017>Of course, if I'm confident in the idea I have now, I can head to the secondary control room.
-<enT0017>Конечно, если я уверен в своей идее, я могу отправиться во вторичную диспетчерскую.
+<enT0017>Конечно, если я уверен в своей идее, я могу отправиться во вторую диспетчерскую.
 
 ///================================================================================
 
@@ -189,7 +191,7 @@
 
 //OTHER
 <jaZ0029>Passage with a Window
-<enZ0029>Разговор с окном
+<enZ0029>Коридор с окном
 
 //OTHER
 <jaZ0030>MS_bt_Area02
@@ -201,7 +203,7 @@
 
 //OTHER
 <jaZ0032>Work Machine Hangar
-<enZ0032>Ангар работающих машин
+<enZ0032>Ангар с Рабочей Машиной
 
 //OTHER
 <jaZ0033>MS_bt_Area03
@@ -213,7 +215,7 @@
 
 //OTHER
 <jaZ0035>First-Aid Station
-<enZ0035>Медпункт
+<enZ0035>Станция первой помощи
 
 //OTHER
 <jaZ0036>MS_bt_Area04
@@ -237,7 +239,7 @@
 
 //OTHER
 <jaZ0041>Lounge
-<enZ0041>Гостевая
+<enZ0041>Комната отдыха
 
 //OTHER
 <jaZ0042>MS_bt_Area06
@@ -249,7 +251,7 @@
 
 //OTHER
 <jaZ0044>In front of the Shutter
-<enZ0044>Напротив затвора
+<enZ0044>Перед шлюзом
 
 //OTHER
 <jaZ0045>MS_bt_Area07
@@ -261,7 +263,7 @@
 
 //OTHER
 <jaZ0047>Secondary Control Room
-<enZ0047>Вторичная диспетчерская
+<enZ0047>Вторая диспетчерская
 
 //OTHER
 <jaZ0048>MS_bt_Area08
@@ -273,7 +275,7 @@
 
 //OTHER
 <jaZ0050>Another Place
-<enZ0050>Другое место
+<enZ0050>Другое Место
 
 //OTHER
 <jaZ0051>bt_SandL
