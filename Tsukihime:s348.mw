@@ -10,26 +10,26 @@
 bg "image\bg\bg_04.jpg",%type_nowaitdisp
 
 
-`"...... I wonder.@ I think Akiha looks good the way she is now.@ Since she has such beautiful hair, I don't think bright colors would suit her."@
+` - Хммм...@ По-моему, Акихе лучше идёт её нынешняя форма.@ У неё очень красивые волосы, так что яркие цвета ей не пойдут.@
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Hmm, that's rare, Tohno praising a woman's appearance like this.@ First time, isn't it?"@
-`"Shut up.@ That's just what I think.@ I'm saying the sailor suit suits her so I don't want her in a blazer."@
+` - Хмм, Тоно говорит женщине комплимент, это редкость.@ Точнее, это впервые, верно?@
+` - Рот закрой.@ Это просто моё мнение.@ Я просто считаю что матроска ей идёт, так что блейзер ей ни к чему.@
 
 ; ?? : 05_??????<???????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_crossfade_fst
 
-`"Hmm." Arihiko grins at me.\
+` - Хммм. - Ухмыляется Арихико.\
 
-`"----Ah."@
-` ...... Damn it, Arihiko got me.@
+` - А...@
+` Чёрт, Арихико меня подловил.@
 
 ; ?? : 11~20 : 16_??<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-` Glancing over, Akiha seems to be silently looking the other way.\
+` Я бросаю быстрый взгляд в сторону Акихи — она молча смотрит в другую сторону.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -37,7 +37,7 @@ cl a,%type_crossfade_fst
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"I see... No wonder Tohno has no eye for women.@ Because, after looking at Akiha-chan every day, the girls at our school must hardly compaaaaahhhhhh!!?"@
+` - Понятно... Неудивительно что Тоно нифига не разбирается в женщинах.@ Ведь раз он каждый день видит Акиху-тян, наши девчонки его совсем не впечатляаааааааай?!!@
 
 quakex 2,150
 cl a,%type_lshutter_fst
@@ -45,11 +45,11 @@ cl a,%type_lshutter_fst
 ; ??? : 01~10 : 04_?01(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t04.jpg",%type_lshutter_fst
 
-`"Ah, I'm sorry, Inui-kun.@ My hand slipped."@
-` Ciel-senpai laughs gently as she drives her elbow into Arihiko's side at a sharp angle.@
+` - А, прости, Инуи-кун.@ У меня рука дёрнулась.@
+` Сиэль-сенпай мягко смеётся, вогнав локоть прямо Арихико под бок.@
 br
-` ...... Man.@
-` I have to live through this stressful situation for almost ten more minutes............\
+` Блин...@
+` Мне надо как-то пережить ещё десять с лишним таких минут...\
 ;CD-DA??
 playstop
 
@@ -59,6 +59,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
 return
+
 
 
 </pre>
