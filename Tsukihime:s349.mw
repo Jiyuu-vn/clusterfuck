@@ -8,34 +8,34 @@
 bg "image\bg\bg_04.jpg",%type_nowaitdisp
 
 
-`"I think our school's uniform would match her well.@ See, Akiha already looks mature enough, so you don't have to force her to wear such a prim and proper----"@
+` - По-моему наша форма ей пойдёт.@ Акиха ведь и так выглядит достаточно взросло, так что ей не надо носить такую строгую...@
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 br
-`"----Uh, well, maybe sweeping away the old image and a fresh change might be nice."@
+` - ...Ээмм, в общем, смена имиджа может пойти ей на пользу.@
 cl c,%type_crossfade_fst
 
-` ...... Danger!@ Danger!@
-` It would be better if I just don't force myself to say things too much.\
+` Опасность!@ Опасность!@
+` Лучше мне перестать болтать лишнее и просто помалкивать.\
 
 ; ?? : 01_??<???????(?)>
 ld r,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Hm?@ Is that how it is?@ Well, Akiha-chan is a beauty, so I think even in a blazer she would look good."@
+` - Хм?@ Вот как?@ Ну, Акиха-тян настоящая красавица, так что я думаю она будет хорошо выглядеть даже в блейзере.@
 ld l,":a;image\tachi\aki_t04a.jpg",%type_crossfade_fst
 
-`"That's surprising.@ Do you not like our school uniform, Inui-kun?"@
-`"Hm, it's not that I don't like it, it just isn't sexy enough, or at least it's kind of bland.@ When you get girls at the level they are in our school all in the same uniform, everyone will start to look the same and iiiooooooowww!?"\
+` - Это неожиданно.@ Инуи-кун, тебе не нравится наша школьная форма?@
+` - Ну не то чтобы она мне не нравилась, но она слишком уж простая, недостаточно сексуальная.@ А когда такие девчонки как у нас начинают ещё и одинаковую форму носить, все начинают казаться на одно лицо и яааааааай?!\
 quakex 3,100
 
 ; ??? : 01~10 : 04_?01(?????)<???????(?)>
 ld l,":a;image\tachi\cel_t04.jpg",%type_crossfade_fst
 
-`"Oh, I'm sorry Inui-kun.@ My hand slipped."@
-` Ciel-senpai laughs gently as she drives her elbow into Arihiko's side at a sharp angle.@
+` - А, прости, Инуи-кун.@ У меня рука дёрнулась.@
+` Сиэль-сенпай мягко смеётся, вогнав локоть прямо под бок Арихико.@
 br
-` ............ This is depressing.@
-` I have to live through this stressful situation for almost ten more minutes............\
+` Ужас...@
+` И мне надо как-то пережить это ещё где-то десять минут...\
 ;CD-DA??
 playstop
 
@@ -45,6 +45,7 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 
 
 return
+
 
 
 </pre>
