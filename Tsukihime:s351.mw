@@ -11,8 +11,8 @@ bg "image\bg\bg_40b.jpg",%type_nowaitdisp
 
 
 
-` ----That's right.@
-` Since I'm always in her debt, I'll go and help Hisui out.\
+` Ну что ж...@
+` Я многим обязан Хисуи, так что я пойду помогу ей.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -23,46 +23,46 @@ play "*3"
 bg "image\bg\bg_33b.jpg",%type_lcartain_fst
 
 
-`"I'm home, Hisui, You look busy; what are you doing?"@
+` - Хисуи, я вернулся. Ты, похоже, занята; что делаешь?@
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Ah---welcome home, Shiki-sama.@ I am going to take these to Makihisa-sama's room."@
-` Hisui is surrounded by dozens of books.@
-` Though each of them is light, a dozen of them is pretty heavy.@
-` There must be at least fifty books around her.@
-` It's not too much, but I don't think Hisui's slender arms are up to the task.\
+` - А... с возвращением, Шики-сама.@ Мне нужно отнести эти книги в комнату Макихисы-сама.@
+` Хисуи окружена множеством книг.@
+` Хотя по отдельности они весят мало, куча таких книг будет довольно тяжёлой.@
+` Тут, наверное, больше пятидесяти книг.@
+` Не то, чтобы очень много, но для хрупокй Хисуи это будет многовато.\
 
-`"The old man's room, huh... that's on the west wing of the first floor, isn't it?"@
-` Saying so, I pick up a pile of books.@
+` - Комната старика... второй этаж, западное крыло, верно?@
+` Говорю я и поднимаю стопку книг.@
 
 ; ?? : 01~10 : 07_??<???????(?)>
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"You must not, Shiki-sama.@ I will take care of this, so you should go and rest in your room."@
-`"It's fine, it's fine.@ If I just lay around in my room my body'll go dull, so I thought I'd repay you by helping out a bit."@
-`"However----"\
-`"...... But these are heavy, aren't they?@ What's Akiha thinking, making you do this kind of heavy labor?"@
+` - Шики-сама, не нужно.@ Я справлюсь с этим сама, так что идите  к себе и отдыхайте.@
+` - Да всё нормально.@ Если я только и буду делать что валяться у себя в комнате, то ослабею, вот я и решил немного тебе помочь.@
+` - Но...\
+` - А ведь это тяжело...@ Заставлять тебя таскать такую тяжесть, о чём только Акиха думает?@
 
 ; ?? : 01~10 : 05_??<???????(?)>
 ld c,":a;image\tachi\his_t05.jpg",%type_crossfade_fst
 
-`"Ah----"\
+`" - А...\
 
-`"You go on to the old man's room; I'll bring the books, you can sort them out once they're there.@ Everyone should work where they'll be the most use, right?"@
+` - Ты иди к старику; я принесу книги, а ты будешь их рассортировывать.@ Важно правильно распределять обязанности, не так ли?@
 
 ; ?? : 01~10 : 04_??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"...... Yes.@ Well then, please do, Shiki-sama."@
+` - Конечно...@ Ну, в таком случае, приступайте, Шики-сама.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Apologizing, Hisui goes up the stairs.@
-` ---Alright.@
-` Now I've just got to get this mountain of books up to the second floor.\
+` Хисуи, извиняясь, полнимается наверх.@
+` Ну что ж...@
+` Теперь мне предстоить перетащить наверх гору книг.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -70,64 +70,64 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_41.jpg",%type_rshutter_mid
 
 
-`"Ohh... this is the old man's room, huh?@ Hisui, is it okay if I take a look at some of the books?"@
+` - Ооо... так это и сеть комната отца?@ Хисуи, я могу поизучать книги?@
 
 ; ?? : 01~10 : 04_??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"Yes.@ I think it is alright if they are not locked up."@
+` - Да.@ Я думаю, если они не заперты то их можжно читать.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Hisui is placing the books onto a bookshelf.@
-` She's busily going back and forth, arranging the books by genre.\
+` Хисуи приступает к сортировке книг.@
+` Она ходит от одной полке к другой, расставляя книги по жанрам.\
 
-`"...... What does she mean by locked up?@ Maybe there's a lock on the desk drawer or something."@
-` I take the handle of the drawer on the old man's desk.@
-` As I pull, I feel a click.@
-`"She's right, it is locked."@
-` The old man's already dead, so what is it protecting?\
+` - Что значит «заперты»?..@ Может некоторые ящики стола закрываются на  замок...@
+` Я берусь за ручку выдвижного ящика.@
+` Я тяну, и чувствую щелчок.@
+` - Действительно, заперт.@
+` Папаша уже умер, тогда что этот замок защищает?\
 
-`"-----"@
-` Hisui isn't looking.@
-` There's a letter opener on his desk.@
-` It's the perfect opportunity.@
-`"............"@
-` I lower my glasses a little, and look at the desk.@
-`"-----There."@
-` Silently, I cut the lock.\
+` «...»@
+` Хисуи смотрит в другую сторону.@
+` На столе лежит канцелярский нож.@
+` Идеальная возможность.@
+` - ...@
+` Я приопускаю очки и смотрю на стол.@
+` - Вот здесь...@
+` Я бесшумно разрезаю замок.\
 
-`"---What, only papers?"@
-` There's only a bundle of old papers in the drawer.@
-` I take out a sheet and look at it.@
+` - Что, только бумаги?..@
+` В ящике оказалась только куча старых бумаг.@
+` Я достаю один лист и просматриваю его.@
 br
-`"Huh?@ This is... our family tree."@
+` - Хм?@ Это... наше генеалогическое древо.@
 br
-` There's no mistake.@
-` After Tohno MAKIHISA, the names Tohno SHIKI and Tohno AKIHA are written.@
-` But there's---\
+` Ошибки быть не может.@
+` Имена Тоно ШИКИ и Тоно АКИХА написаны после имени Тоно МАКИХИСА.@
+` Но кроме того...\
 
-`"...... No way.@ That old man adopted a son ten years ago... ah, but he passed away shortly thereafter."@
-` Ten years ago, that would mean I was just in elementary school.@
-` That long ago, it's only natural that I wouldn't remember.@
-`"But, the heads of the household have had pretty short lifespans.@ My old man died before he was fifty, and before that, before thirty in an accident... Wow, before that, eighteen years of age, suicide...!?"@
+` - Не может быть...@ Старик усыновил ребёнка десять лет назад... а, но он вскоре умер.@
+` Десять лет назад, значит, я был ещё в младшей школе.@
+` Раз это было так давно, то неудивительно что я ничего не помню об этом.@
+` - Однако, как рано умерло большинство глав семьи.@ Папаша умер не дожив до пятидесяти, перед ним, авария, младше тридцати... Ого, ещё раньше, самоубийство, в восемнадцать?!@
 ;CD-DA??
 playstop
 ;CD-DA???????
 play "*6"
 
 br
-` ----No, wait a second.@
-` No matter how you look at it, this is strange.\
+` Нет, постойте...@
+` Это уже слишком странно.\
 
 ;S.E."??"
 wave se0
 
 
-` Looking through the family tree, all members of the Tohno household have died strangely.@
-` Madness.@ Accidents.@ Murder.@ Disappearances.@ Still birth.@
-` ...... Not one of them lived a long life or died peacefully.\
+` Судя по этому древу, все члены семьи Тоно умирали не своей смертью.@
+` Безумие.@ Несчастные случаи.@ Убийства.@ Исчезновения.@ Смерть при родах...@
+` Никто в семье не прожил долгой жизни и не умер своей смертью...\
 
 ;S.E."??"
 wave se0
@@ -137,9 +137,9 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 
-`"Wha............"@
-` This entire document is filled with horrible fates.@
-` Even worse, most of the deaths are death by madness.@ Taking one's own life.\
+` - Чт...@
+` Этот документ полон ужасных историй.@
+` И что ещё хуже, большинство смертей наступили в результате безумия.@ Безумия, итогом которого становилось самоубийство.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -149,38 +149,38 @@ bg "image\bg\bg_41.jpg",%type_crossfade_mid
 waveloop se1
 
 
-`"Ah----"@
-` The light seems to fade.@
-` I feel as if blood is collecting in the back of my head.@
-` My limbs feel weak, and breathing becomes impossible.@
+` - Ха...@
+` В глазах темнеет.@
+` Я чувствую, как кровь скапливается у меня в затылке.@
+` Мои конечности слабеют, дышать становится невозможно.@
 
 ; ?? : 11~20 : 18_???????????<??????(?)>
 ld c,":a;image\tachi\his_t08.jpg",%type_lshutter_fst
 
-`"Shiki-sama...!"@
-` Hisui... Hisui runs toward me.@
-` ---Somehow I hold myself up, grabbing onto a bookshelf.\
+` - Шики-сама!..@
+` Хисуи... Хисуи подбегает ко мне.@
+` Каким-то образом я умудряюсь устоять на ногах, схватившись за книжную полку.\
 
 ; ?? : 01~10 : 07_??<???????(?)>
 ld c,":a;image\tachi\his_t25.jpg",%type_crossfade_fst
 ;CD-DA??
 playstop
 
-`"Shiki-sama!@ Hold on, Shiki-sama...!"@
-` Hisui's worrying voice.@
-` But her hands never touch my body.@
-`"It's alright... I just, felt a little sick for a moment, so..."@
+` - Шики-сама!@ Держитесь, Шики-сама!..@
+` Голос Хисуи звучит очень взволнованно.@
+` Однако она даже не притрагивается ко мне.@
+` - Всё нормально... Мне... только на секунду поплохело...@
 
 ; ?? : 01~10 : 08_???<???????(?)>
 ld c,":a;image\tachi\his_t12.jpg",%type_crossfade_fst
 
-`"Shiki-sama, please do not push yourself...!@ Please, sit down.@ As pale as your face is, you should not be trying to stand...!"@
-` ...... That's, new.@
-` Hisui is becoming frantic, calling out to me.\
+` - Шики-сама, пожалуйста, не перенапрягйтесь!..@ Присядьте, прошу вас.@ У вас такое бледное лицо, не нужно пытаться устоять через силу!..@
+` А вот это... что-то новенькое...@
+` Хисуи становится всё более растерянной, снова и снова лихорадочно зовя меня.\
 
-`"Yeah... I'm okay... so..."@
-` I try to regain my senses.@
-` But the dizziness doesn't fade.@
+` - Нет... Всё в норме... так что...@
+` Я пытаюсь прийти в себя.@
+` Но помутнение не проходит.@
 br
 
 ; ???<???????(?)>
@@ -188,23 +188,23 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?? : ?? : ????(??)<???????(?)>
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
-` My vision flickers red and black.@
-` White.@
-` I gaze at the nape of Hisui's neck, a terribly warm white.\
+` Красное и чёрное мелькает перед глазами.@
+` Белизна.@
+` Я смотрю на тыльную часть шеи Хисуи, и вижу ужасно тёплую белизну.\
 
-`"-----Ah."@
-` It's captivating.@
-` If my body could move properly, I would seize Hisui's body and----\
+` - Аа...@
+` Это завораживает.@
+` Если бы моё тело могло нормально двигаться, то я мог бы взять Хисуи и...\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 
-` The black vision from my anemia all of sudden turns deep red.@
-` Hisui's, white neck.@
-` Last night's crimson dream.@
+` Моя анемичная чернота перед глазами резко сменяется красным.@
+` Белая, шея Хисуи.@
+` Вчерашний сон, полный багрянца.@
 br
-` ---From the night of killing.@
-` Painful pleasure, as if my heart would rip itself out.\
+` Убийство в ночи...@
+` Мучительное удовльствие, словно моё сердце готово вырваться наружу.\
 
 ; ?? : ?? : ????(??)<????>
 bg "image\bg\bg_41.jpg",%type_nowaitdisp
@@ -212,32 +212,32 @@ bg "image\bg\bg_41.jpg",%type_nowaitdisp
 ;S.E.??
 wavestop
 
-`"Kuhh...!"@
-` Unable to bear it, I pull back from Hisui.@
+` - Кххх!..@
+` Не в силах больше это терпеть, я отступаюсь от Хисуи.@
 
 ; ?? : 01~10 : 07_??<???????(?)>
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"Shiki-sama...?"@
-`"No... it's alright... I'm alright, so, just leave me alone."@
+` - Шики-сама?..@
+` - Нет... всё в порядке... Я в порядке, так что... просто оставь меня в покое.@
 
 ; ?? : 01~10 : 08_???<???????(?)>
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"I refuse.@ You do not seem to realize the state of your body, Shiki-sama.@ With... with your body like this, I cannot leave you alone."@
-` And Hisui approaches.\
+` - Я отказываюсь.@ Шики-сама, вы не осознаёте, в каком состоянии находитесь.@ Когда... когда вы в таком состоянии, я не могу оставить вас.@
+` И Хисуи подходит ближе.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` ---Bad.@
-`  This is, bad.@
-` If she comes within reach of my hands, I'm afraid I don't know what I'll do.\
+` Плохо.@
+`  Это плохо...@
+` Если она подойдёт слишком близко, я не знаю что я с ней сделаю.\
 
-`"I'm fine, so go, Hisui...!"@
+` - Хисуи, я в порядке, уходи!..@
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"I cannot listen to you.@ Shiki-sama, please, calm down."@
+` - Я не могу послушаться этого приказа.@ Шики-сама, пожалуйста, успокойтесь.@
 br
 
 ;S.E."????(???)"
@@ -248,59 +248,59 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?? : ?? : ????(??)<???????(?)>
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
-` ...... So, stop.@
-` It's dangerous if you come near me.@
-` I told you not to come near me.@
-` Why.@
-` Why won't this woman listen to me?@
+` Да остановись же.@
+` Тебе опасно быть рядом со мной.@
+` Я же говорил, не приближайся.@
+` Почему.@
+` Почему эта женщина меня не слушается?@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-` ---Why does she get in my way.@
-`  Why does it never go the way I want...!\
+` Почему она мешается под ногами...@
+`  Почему всё вечно выходит не по моему!..\
 
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 
-`"Shut up...!@ Don't you understand I'm telling you to get away, Hisui!"@
+` - Заткнись!..@ Хисуи, я сказал тебе не приближаться, ты что, не понимаешь!@
 
 ;S.E."????"
 wave se4
 quakex 2,100
 
-`"Ah---"@
+` - А...@
 br
-` A dull, thumping sound.@
-` Hisui is thrown against the bookshelves, her face distorted in pain.@
+` Раздаётся глухой звук удара.@
+` Хисуи ударяется о полку, её лицо искажено от боли.@
 br
-`"Ah---"@
-` ...... Her expression causes my sanity to return.@
-` The dizziness fades quickly.@
-` After just a moment, all dizziness disappears, leaving only a feeling of guilt.\
+` - А...@
+` Увидев её лицо, ко мне возвращается рассудок.@
+` Помутнение быстро проходит.@
+` И вскоре головокружение бесследно исчезает, оставив только чувство вины.\
 
-`"--I'm sorry.@ What was... I..."@
+` - Прости.@ Я... чем я...@
 
 ld c,":a;image\tachi\his_t21.jpg",%type_crossfade_fst
 
-`"-------------"@
-` Hisui looks down, not meeting my gaze.@
-`"---Hisui, I'm---I'm sorry, I don't know why I did such a thing..."@
+` - ...@
+` Хисуи опускает глаза, избегая моего взгляда.@
+` - Хисуи... Я... прости, я не знаю почему я это сделал...@
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t26.jpg",%type_crossfade_fst
 
-`"I apologize.@ I disobeyed your orders, and caused you discomfort."@
-`"...... No, I'm the one who should apologize.@ I did something horrible to you..."\
+` - Я приношу свои извинения.@ Я ослушалась ваших указаний, причинила вам неудобства.@
+` - Нет, это я должен извиняться.@ Я сделал с тобой нечто ужасное...\
 
 ld c,":a;image\tachi\his_t21.jpg",%type_crossfade_fst
 
-`"Shiki-sama, please return to your room.@ You are tired; if you rest, I believe you will recover immediately."@
-`"-----"@
-` Hisui will not show me her face.@
-`"...... I understand; I'll go back to my room.@ I'm sorry, Hisui."@
-` There's no answer.@
-` I leave the room behind, being crushed by self-loathing.\
+` - Шики-сама, пожалуйста, возвращайтесь к себе в комнату.@ Вы устали; если вы немного отдохнёте, то немеделнно придёте в норму.@
+` - ...@
+` Хисуи отказывается смотреть в мою сторону.@
+` - Хорошо, я понимаю. Я пойду к себе.@ Прости, Хисуи.@
+` Ответа нет.@
+` Снедаемый презрением к самому себе, я выхожу из комнаты.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -312,32 +312,32 @@ bg "image\bg\bg_40c.jpg",%type_lcartain_mid
 ;CD-DA?????
 play "*1"
 
-` ---After dinner, I return to my room.@
+` После ужина я вернулся к себе в комнату...@
 br
-` I fall on the bed, and remember Hisui's face.@
-`"----"@
-` I don't understand.@
-` Why I felt that way, and why I did that.\
+` Я падаю на кровать и вспоминаю лицо Хисуи.@
+` - ...@
+` Я не понимаю.@
+` Почему у меня появились такие мысли, почему я поступил так, как поступил.\
 
-` Back then...
-` Looking at Hisui's neck, I was lusting.@
-` Just like in last night's dream, I wanted to bite into her neck.@
-` But, I can't even think about that right now.@
+` В тот момент...
+` Когда я смотрел на шею Хисуи, я изнемогнал от желания.@
+` Я хотел вонзить в неё зубы, точь в точь как во вчерашнем сне.@
+` Но сейчас от этого желания не осталось и следа.@
 br
-` Last night's dream, and myself a while ago.@
-` I feel like there's someone inside me that isn't me.\
+` Моё вчерашний сон, и моё недавнее поведение.@
+` Такое ощущение, что это был совсем другой человек, а не я.\
 
-`"----"@
-` I touch my neck.@
-` Those who are bitten by a vampire become vampires in turn, they say.@
-`"...... That's stupid.@ I'm walking around in the daytime, after all."@
-` ...... Yes, it's impossible.@
-` It was just dizziness and my fading consciousness contributing to the imagination.@
-` What happened with Yumizuka is burnt into my mind, so I think I just remember it when I suffer from anemia.\
+` - ...@
+` Я трогаю себя за шею.@
+` Говорят, что тот, кого кусает вампир, сам становится вампиром.@
+` - Глупости...@ Я же на солнце пока ещё не горю.@
+` Да, это явно не тот случай.@
+` Это из-за головокружения и моего полубоморочного состояния у меня разыгралось воображение.@
+` Случившееся с Юмизукой произвело на меня неизгладимое впечатление, так что наверное я вспоминаю об этом во время приступов анемии.\
 
-`"Like Hisui said, maybe I'm just tired."@
-` ...... Perhaps.@
-` I should hurry up and get to sleep, and rest my tired body.\
+` «Может, Хисуи права и я просто устал.»@
+` Может быть...@
+` Надо поскорее поспать и отдохнуть.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -352,7 +352,7 @@ wave se0
 
 !w750
 br
-` ----Hot.\
+` Жар...\
 
 ;S.E."??"
 wave se0
@@ -361,17 +361,7 @@ wave se0
 br
 br
 br
-` ----Hot.\
-;S.E."??"
-wave se0
-!w750
-
-br
-br
-br
-br
-br
-` ----Hot.\
+` Жар...\
 ;S.E."??"
 wave se0
 !w750
@@ -381,10 +371,7 @@ br
 br
 br
 br
-br
-br
-` ----My body, once aroused,
-`     can't be calmed with something like sleep.\
+` Жар...\
 ;S.E."??"
 wave se0
 !w750
@@ -396,8 +383,21 @@ br
 br
 br
 br
-` ----So.@
-`    Tonight too, I shall relieve my thirst.\
+` Если уж я возбудился,
+`     то простым сном меня не успокоить.\
+;S.E."??"
+wave se0
+!w750
+
+br
+br
+br
+br
+br
+br
+br
+` Так что.@
+`    Сегодня я снова пойду утолять свою жажду.\
 
 monocro #ff0000
 ; ?? : ???? : ????<????>
@@ -410,8 +410,8 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ; ???? : ??????? : ?????(?)<???????(?)>
 bg "image\bg\bg_26a.jpg",%type_crossfade_mid
 
-` It seems I went into town at night.@
-` It seems like I'm waiting with bloodshot eyes for someone to pass by.\
+` Похоже, я выбрался в ночной город.@
+` Похоже, я с налитыми кровью глазами поджидаю случайных прохожих.\
 ;S.E."??"
 wave se0
 
@@ -422,7 +422,7 @@ br
 br
 br
 br
-` ----Again.\
+` Снова.\
 ;S.E."??"
 wave se0
 
@@ -433,8 +433,8 @@ br
 br
 br
 br
-` Suddenly, I see a face reflected in the window.@
-` The eyes are bloodshot, and the face looks quite insane.\
+` Вдруг я замечаю отражение лица в оконном стекле.@
+` Его глаза налиты кровью, оно выглядит совершенно безумно.\
 ;S.E."??"
 wave se0
 
@@ -445,7 +445,7 @@ br
 br
 br
 br
-` ----This dream, again.\
+` Опять этот сон...\
 ;S.E."??"
 wave se0
 
@@ -456,8 +456,8 @@ br
 br
 br
 br
-` It seems I found my prey.@
-` I bring it down without a chance to scream, without it even realizing it has died.\
+` Похоже, я нашёл свою жертву.@
+` Я обрушиваюсь на неё, не дав ей даже вскрикнуть, не дав ей даже понять что она уже мертва.\
 ;S.E."??"
 wave se0
 
@@ -468,7 +468,7 @@ br
 br
 br
 br
-` ----I'm seeing this nightmare again.\
+`Я снова вижу этот кошмар.\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -479,9 +479,9 @@ bg "image\bg\ima_12b.jpg",%type_nowaitdisp
 bg "image\bg\bg_31b.jpg",%type_nowaitdisp
 
 
-` Taking the dead body, and the sound of biting into the throat.@
-` A gurgling sound.@
-` Drinking the blood flowing out of the rended neck, my thirst is quenched.\
+` Утащив труп, я с шумом вгрызаюсь в его горло.@
+` Раздаётся булькающий звук.@
+` Напившись крови из разорваной шеи, я утоляю свою жажду.\
 
 br
 br
@@ -490,20 +490,9 @@ br
 br
 br
 br
-` ----The same scene as last night.\
+` Та же сцена, что и вчера...\
 
-` Getting bored with just blood, I take the hand of the dead body and bite off the fingers one by one.\
-
-br
-br
-br
-br
-br
-br
-br
-` ----The same scene as last night.\
-
-` Getting bored with just the fingers, I take the limbs of the dead body, and bite them off one by one.\
+` Устав от одной лишь крови, я беру руку трупа и начинаю откусывать пальцы один за другим.\
 
 br
 br
@@ -512,12 +501,9 @@ br
 br
 br
 br
-` ----The same scene as last night.\
+` Та же сцена, что и вчера...\
 
-` Then,
-` an obstruction appears.@
-` I throw the dead body aside and jump.@
-` Someone.@ Someone is watching me.\
+` Устав от одних лишь пальцев, я начинаю отгрызать конечности трупа, одну за другим.\
 
 br
 br
@@ -526,14 +512,28 @@ br
 br
 br
 br
-` ----Is it different from last night...?\
+` Та же сцена, что и вчера...\
+
+` Но тут,
+` появляется препятствие.@
+` Я отбрасываю труп в сторону и отпрыгиваю.@
+` Кто-то.@ Кто-то наблюдает за мной.\
+
+br
+br
+br
+br
+br
+br
+br
+` Это не та сцена, что и вчера?..\
 
 ; ?(??)<??????(?)>
 bg "image\bg\ima_02.jpg",%type_tshutter_fst
 
-` Something like a vast nail is flying through the air.@
-` To dodge it, I leap aside.@
-` I run up the side of a building, and jump from rooftop to rooftop.\
+` Что-то, похожее на большой гвоздь, летит в мою сторону.@
+` Уворачиваясь, я отпрыгиваю в сторону.@
+` Я бегу вверх по стене здания, и прыгаю по крышам.\
 
 br
 br
@@ -542,11 +542,11 @@ br
 br
 br
 br
-` ----The figure in black chases the vampire.\
+` Силуэт в чёрном гонится за вампиром.\
 
-` From rooftop to rooftop.@
-` From shadow to shadow.@
-` The figure follows.\
+` От крыши к крыше.@
+` От тени к тени.@
+` Силуэт не отстаёт.\
 
 br
 br
@@ -555,10 +555,10 @@ br
 br
 br
 br
-` ----It can't be helped.\
+` Ничего не поделаешь...\
 
-` It can't be helped, it murmurs.@
-` And tonight's meal ended.\
+` Ничего не поделаешь, бормочет он.@
+` И сегодняшняя трапеза кончается.\
 
 
 ; ???<???????(?)>
@@ -583,44 +583,45 @@ waveloop se1
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
 !w750
 
-`"Shiki-sama----?"@
+` - Шики-сама?..@
 br
-` ----A voice.@
+` Голос...@
 br
-`"Please get a hold of yourself, I will bring you a drink right away...!"@
+` - Пожалуйста, крепитесь, я сейчас принесу вам попить!..@
 br
-` ----The sound of running footsteps.\
+` Звук быстро удаляющихся шагов...\
 
 ; ?? : ?? : ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 
 
-`"Ah----"@
-` I awaken from the nightmare.@
-`"...... My own room."@
-` I am definitely in my own room.@
-` Just lying in bed, and morning has come.@
-` ...... I saw that dream again.@
-` The dream of sucking someone's blood.@
-` Though I know it's just a dream, it still feels terribly real.@
-` My hands retain the feel of ripping meat; my nose, the smell of fresh blood...\
+` - А...@
+` Я прихожу в сознание.@
+` - Моя комната...@
+` Несомненно, я у себя в комнате.@
+` Наступило утро, я лежу у себя на кровати.@
+` Я снова увидел этот сон...@
+` В котором я пил чью-то кровь.@
+` Хоть я и знаю, что это был только сон, он всё равно кажется ужасно релистичным.@
+` Мои руки помнят плотность разрываемого мяса; мой нос помнит запах свежей крови...\
 
-`"---What's happening to me?"@
-` I touch my neck gently.@
-` ...... Yumizuka's bite marks are long gone.@
-` I'm still a normal human being.@
-` I don't want to drink people's blood, and I don't have a problem with the sun.@
-`"----Ah."@
-` No.@ Yesterday, I...@
-` What did I think when I saw Hisui's neck?@
-` ---Her white neck.@
-` From the bottom of my heart, I wanted to drink the blood flowing in there----\
+` - Что со мной происходит...@
+` Я аккуратно прикасаюсь к шее.@
+` Следы от зубов Юмизуки давно прошли...@
+` Я всё ещё нормальный человек.@
+` Я не хочу пить человеческую кровь, и у меня нет проблем с солнцем.@
+` - А...@
+` Нет.@ Вчера, я...@
+` Что я подумал, когда увидел шею Хисуи?@
+` Её белая шея...@
+` Всем своим существом я жаждал выпить крови, текущей через эту шею...\
 
 
 
 
 
 return
+
 
 
 </pre>
