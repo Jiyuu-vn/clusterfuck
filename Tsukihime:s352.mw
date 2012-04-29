@@ -8,8 +8,8 @@
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_40b.jpg",%type_nowaitdisp
 
-` ----Alright.@
-` I'm always in her debt, so I'll go help Kohaku-san.@
+` Ну что ж...@
+` Я многим обязан Кохку-сан, так что я пойду помогу ей.\
 br
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -17,12 +17,12 @@ bg "image\bg\ima_10.jpg",%type_lcartain_fst
 bg "image\bg\bg_42b.jpg",%type_lcartain_fst
 
 
-`"Huh......?"@
-` I don't see her anywhere in the courtyard.@
-` I glance around.@
-` For just an instant, I see the color of her kimono in the forest.@
-`"Is that where the detached building is?"@
-` ...... After a little internal debate, I follow after Kohaku-san.\
+` «Хм?»@
+` Во дворе её не видать.@
+` Я оглядываюсь по сторонам.@
+` На секунду мне показалось, будто в лесу мелькнуло её кимоно.@
+` - Она пошла к отдельной постройке?@
+` Немного поколебавшись, я иду следом за Кохаку-сан.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -30,8 +30,8 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_44a.jpg",%type_lcartain_mid
 
 
-` Kohaku-san continues and enters inside.@
-` I would be pretty stupid if I came all the way here only to go back, so I force myself to go inside.\
+` Кохаку-сан идёт к зданию и заходит внутрь.@
+` Было бы глупо вернуться к особняку ни с чем, так что я решаю войти.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -44,30 +44,30 @@ play "*1"
 ; ?? : 01~10 : 01_?01(???)<??????(?)>
 ld c,":a;image\tachi\koha_t09.jpg",%type_lshutter_mid
 
-`"Shiki-san?@ Why did you come here?"@
-`"Um, well----I was thinking maybe I should give you a hand.@ Am I in the way?"@
+` - Шики-сан?@ Зачем ты пришёл?@
+` - Ну, ээ... я думал тебе нужно помочь с чем-нибудь.@ Я не вовремя?@
 ld c,":a;image\tachi\koha_t18.jpg",%type_crossfade_fst
 
-`"Shiki-san, I am happy you feel that way, but I didn't come here to work.@ I only came here to check the electricity according to Akiha-sama's orders."@
-`"Eh?@ Electricity?@ This place is still used?"\
+` - Шики-сан, я благодарна за заботу, но здесь у меня работы нет.@ Акиха-сама сказала мне только проверить электричество.@
+` - Э?@ Электричество?@ Это здание всё ещё используется?\
 
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Yes, this is the only room with electricity.@ This building is still maintained at a level for people to live in.@ The bath is still able to be used and there are futons ready."@
-`"Really?@ But this place hasn't been used for a while, right?@ Why is it maintained like that?"@
+` - Да, хотя электричество есть только в этой комнате.@ Всё это здание поддерживается в в эиом состоянии.@ Ванная работает, и заготовлены матрасы.@
+` - Вот как?@ Но ведь им уже давно никто не польузется?@ Почему за ним так следят?@
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Let's see, maybe Akiha-sama is just fond of this place.@ A long time ago, this was where Makihisa-sama's adopted child used to live."@
+` - Хмм, может Акихе-сама просто дорого это здание.@ Тут когда-то жил ребёнок, которого усыновил Макихиса-сама.@
 br
-` ----Huh?@
-` Makihisa...... my old man, adopted a child... a long time ago?\
+` Аа?@
+` Макихиса... мой отец, когда-то... усыновил ребёнка?\
 
-`"...... Wait a sec, Kohaku-san.@ My old man adopted a child?"\
+` - Погоди секунду...@ Старик кого-то усыновлял?\
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"Oh, you don't remember?@ About ten years ago, he brought a child here.@ His parents both died in an accident, so he adopted the child."@
-`"That---happened?"@
-`"Yes.@ But two years later, the child passed away.@ It was a trivial accident, but a lot of the servants began to say that the Tohno family was cursed."\
+` - О, ты не помнишь?@ Примерно десять лет назад он привёл в дом ребёнка.@ Его родители погибли в аварии, и он его усыновил.@
+` - Такое... и правда случилось?@
+` - Ну да.@ Но два года спустя ребёнок скончался.@ Это был какой-то дурацкий несчастный случай, но слуги начали поговаривать что род Тоно проклят.\
 ;CD-DA??
 playstop
 
@@ -80,15 +80,15 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 
-` -----Wait a minute.@
+` Постойте-ка...@
 br
-` Something about her words seems scary.@
-` Just hearing them, my vision starts to warp.@
-` It's like the whole room is made entirely of dissolving sugar.\
+` Что-то в том, что она говорит, пугает меня.@
+` У меня перед глазами всё начинает плыть.@
+` Вся комната словно сделана из таящего сахара.\
 
-`"Ko, Kohaku, san."@
-` A child adopted ten years ago.@ Two years later, the child died.@
-` In other words, eight years ago... That's when I had my accident and was sent to the hospital.\
+` - Ко, Кохаку...сан...@
+` Десять лет назад отец усыновил ребёнка.@ Два года спустя ребёнок умер.@
+` Иными словами, восемь лет назад... Тогда же, когда я попал в аварию и лёг в больницу.\
 
 ;CD-DA???????
 play "*6"
@@ -99,33 +99,33 @@ bg "image\bg\cmo_05.jpg",%type_nowaitdisp
 br
 br
 br
-` ---Accident.@
+`Несчастный случай...@
 br
-` What kind of accident was it?@
-` An accident that seriously wounded me.@
-` An accident, that the adopted child was killed in?\
+` Что это был за случай?@
+` Несчастный случай, в котором я был серьёзно ранен.@
+` Несчастный случай, в котором погиб приёмный ребёнок?\
 
 br
-` A hot summer day.@
+` Жаркий летний день.@
 br
-` ---I can't remember.@
+` Я не могу вспомнить...@
 br
-` All I know is at that time, my arms seemed to be soaked in blood----\
+` Я знаю только что в тот момент мои руки были обагрены кровью...\
 
 bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 
-`"Kohaku, san.@ You said 'cursed'?"@
+` - Кохаку, сан.@ Ты сказала «проклят»?@
 ld c,":a;image\tachi\koha_t18.jpg",%type_crossfade_fst
 
-`"No, it isn't anything important.@ It is just that a lot of the members of the Tohno family have died young.@
-` Such as in accidents, or suicide, or illness; a curse that does not allow them a natural death.@ Well, that was the rumor, anyway."\
+` - Да мелочи это.@ Якобы многие члены семьи Тоно умирали молодыми.@
+` От несчастных случаев, самоубийств или болезней; проклятье не давало им умереть своей смертью.@ Во всяком случае, слухи были именно об этом.\
 
-`"----Suicide...... what?"@
+` - Самоуби... чего?@
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Yes.@ Whatever the case, the members of the Tohno family...... mostly male, carried some mental illness and committed suicide when they became adults.@
-` These are just stubborn rumors, but it is said some of them were murderers before the war."\
+` - Да, самоубийства.@ Как бы то ни было, члены семьи Тоно... в основном мужчины, страдали от психических заболеваний и, взрослея, совершали самоубийство.@
+` Это только старые слухи, но говорят, что до войны некоторые из них совершали убийства.\
 
 
 ; ???<???????(?)>
@@ -135,49 +135,49 @@ bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 
 
-` ...... Mental illness?@
-` ...... Murderers?@
-` ...... Such as, seeing dreams of killing people every night?@
-` ...... Such as, feeling a sense of longing as I see dreams of killing people every night?\
+` Психические заболевания?..@
+` Убийства?..@
+` Например, сны про убийства, снящиеся каждую ночь?@
+` Например, страстное желание, с которым я смотрю эти сны, в которых я убиваю людей?\
 
-`"Kohaku-san, that---"@
+` - Кохаку-сан, это...@
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Oh, I'm very sorry.@ Those are just dark rumors about the Tohno family."@
-`"No, that's fine.@ It's okay...... could you tell me in more detail, Kohaku-san?"@
-`"...... I do not mind, but I do not necessarily know all the details.@ Just that, well...... Makihisa-sama did have that kind of air about him."@
-`"My old man----my old man did?"@
+` - О, извини.@ Это только страшилки о семье Тоно.@
+` - Нет, всё нормально.@ Всё нормально... Кохаку-сан, ты не могла бы рассказать подробнее?@
+` - Да я не против, но я ведь и не знаю никаких подробностей.@ Разве что, ну... Макихиса-сама производил подобное впечатление.@
+` - Отец... мой папаша производил такое впечатление?@
 ;S.E."??"
 wave se0
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-` Blurring.@
-` My vision whirls around.\
+` Плывет.@
+` Перед глазами всё расплывается.\
 
 bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Yes.@ I took care of Makihisa-sama's condition two years before he passed away.@
-` ...... While you were living with the Arima family, Makihisa-sama would become very depressed and I would have to prepare his medicine to calm him."\
-`"Medicine to calm him----was my old man that bad, Kohaku-san?"@
-`"...... Yes.@ It would not be uncommon for him to walk into the garden at night and kill the pet dogs and cats, or to hurt his own body."\
+` - Да.@ Я ухаживлаа за Макихисой-сама два года прежде чем он скончался.@
+` Ты тогда жил с Аримами; Макихиса-сама часто впадал в тяжёлую депрессию, мне приходилось готовить ему лекарства.\
+` - Лекарства... Кохаку-сан, старик был настолько плох?@
+` - Да...@ Бывало, он нередко бродил ночами по саду, убивал котов или собак или калечил себя...\
 
 ;S.E."??"
 wave se0
 
-` ----Wha-
-` What is this?@
-` That's pretty much crazy.@
-` As crazy as I am in my dreams.@
+` Че...
+` Чего?@
+` Да это же настоящее сумасшествие.@
+` Такое же, как и у меня в моих снах.@
 ;S.E."??"
 wave se0
 
 br
-` ...... No, that is backwards.@
-` Am I crazy just like my old man?\
+` Нет, наоборот...@
+` Неужели я так же безумен, как и мой старик?\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -195,16 +195,16 @@ wave se4
 waveloop se1
 
 ld c,":a;image\tachi\koha_t09.jpg",%type_lshutter_fst
-`"Shiki-san......!?@
-` ...... I hear Kohaku-san's voice.@
-` I---don't know when it happened, but I'm on my knees on the tatami floor.@
-`"Shiki-san, you look terrible.@ If you are feeling poorly, you should rest in your room......!"@
-` Kohaku-san says this as she grabs my shoulder.@
-` With her help, I can stand.\
+` - Шики-сан?!@
+` Я слышу голос Кохаку-сан...@
+` Я... не знаю, как это случилось, но я опустился на колени.@
+` - Шики-сан, ты ужасно выглядишь.@ Если тебе плохо, то тебе надо пойти к себе и отдыхать!..@
+` Взяв меня за плечо, говорит Кохаку-сан.@
+` Она помогает мне подняться.\
 
-`"...... Yeah...... I'm fine, so---"@
-` I am somehow able to focus again.@
-` But I am still dizzy.\
+` - Ага... Я в порядке, так что...@
+` Кое-как я умудряюсь более-менее сосредоточиться.@
+` Но голова всё ещё кружится.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -212,25 +212,25 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 br
-` In the red and white swirl of my vision,
-` white.@
-` Kohaku... san's... terribly warm... looking neck.@
+` Среди красных и белых пятен у меня перед глазами,
+` белая.@
+` Кохаку...сан... и её ужасно... тёплая шея.@
 br
 
-`"------Ah."@
-` How captivating.@
-` If my body could move properly, I would seize Kohaku's body and----\
+` - Аа...@
+` Это завораживает.@
+` Если бы моё тело могло нормально двигаться, то я мог бы взять Кохаку и...\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 
 
-` The black vision from my anemia all of sudden turns deep red...@
-` Kohaku's white neck.@
-` Last night's crimson dream.@
+` Моя анемичная чернота перед глазами резко сменяется красным.@
+` Белая, шея Хисуи.@
+` Вчерашний сон, полный багрянца.@
 br
-` ------The nighttime killings.@
-` Painful pleasure, as if my heart would rip itself out.\
+` Ночные убийства...@
+` Болезненное удовольствие, словно мё сердце было готово вырваться наружу.\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -243,33 +243,33 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 
-`"Gg------!"@
-` Unable to bear it, I pull away from Kohaku-san.\
+` - Гг!..@
+` Не в силах больше терпеть это, я отстраняюсь от Кохаку-сан.\
 
 ;S.E.??
 wavestop
 
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Shiki-san......?"@
-`"No----I'm fine----I'm fine, so leave me alone."@
+` - Шики-сан?..@
+` - Нет... Я в порядке... Я в порядке, так что оставь меня в покое.@
 ld c,":a;image\tachi\koha_t04.jpg",%type_crossfade_fst
 
-`"That won't do.@ If you collapse here, Akiha-sama will get very angry.@ In the first place, you look like you are in a lot of pain."@
+` - Не могу!@ Если ты упадёшь здесь в обморок, Акиха-сама, очяень рассердится.@ Да и вообще, судя по твоему виду тебе очень плохо.@
 cl c,%type_crossfade_fst
 
-` Kohaku-san says this and draws closer.\
+` Говорит Кохаку-сан, подходя ближе.\
 
 br
-` ------This isn't good.@
+` Плохо...@
 br
-` It's scary.@
-` If she comes within reach of my hands, I'm afraid I don't know what I'll do.\
+` Даже страшновато.@
+` Если она подойдёт слишокм близко, то боюсь я не знаю что тогда сделаю.\
 
-`"----I'm fine, just leave me alone, Kohaku... san..."@
+` - Кохаку...сан... я в норме, так что просто оставь меня в покое!..@
 ld c,":a;image\tachi\koha_t04.jpg",%type_crossfade_fst
 
-`"I can't.@ Shiki-san, please calm down."@
+` - Я не могу этого сделать.@ Шики-сан, прошу тебя, успокойся.@
 
 ;S.E."??"
 wave se0
@@ -281,11 +281,11 @@ bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-` ...... Please, stop.@
-` It's dangerous if you come near me.@
-` I told you not to come near me.@
-` Why?@
-` Why won't this woman listen to me?\
+` Прошу тебя, остановись...@
+` Тебе опасно быть рядом со мной.@
+` Я же говорил, не приближайся.@
+` Почему.@
+` Почему эта женщина меня не слушается?@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -299,55 +299,55 @@ br
 br
 br
 br
-` ----Why?@
+`  Почему...@
 br
-`   Why are you getting in my way?@
+`   Почему ты лезешь ко мне?@
 ;S.E."??"
 wave se0
 
 
-`   Why are you like this,
-`   Not doing what I want you to......!?\
+`   Почему ты такая,
+`   почему ты не делаешь то, что я говорю?!\
 ;S.E."??"
 wave se0
 
 bg "image\bg\bg_45b.jpg",%type_nowaitdisp
 
 
-`"Shut up......!@ Don't you understand I'm telling you to get away, Kohaku!"@
+` - Заткнись!..@ Кохаку, я же сказал тебе не подходить, ты что, не понимаешь!@
 ;S.E."?????"
 wave se9
 quakex 2,100
 
-`"Kyaa----!"@
-` Thud, a thick sound.@
-` Kohaku-san slams into the wall, her face distorting in pain.@
+` - Аааа!..@
+` Тук, раздаётся глухой звук.@
+` Кохаку-сан врезается в стену, её лицо искажено болью.@
 br
-`"Ah-------"@
+` - А...@
 br
-` ...... Her expression causes my sanity to return.@
-` The dizziness fades quickly.@
-` After just a moment, all dizziness disappears, leaving only a feeling of guilt.\
+` Увидев её лицо, ко мне возвращается рассудок.@
+` Головокружение быстро исчезает.@
+` Спустя всего секунду онополностью проходит, оставив только чувство вины.\
 
-`"--Sorry.@ What was... I..."@
+` - Прости...@ Я... о чём я...@
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_mid
 
-`"It is okay, please do not worry about it.@ I only provoked you when you were in a bad mood."@
+` - Всё в порядке, пожалуйста не волнуйся.@ Я сама спровоцировала тебя когда ты был в дурном настроении.@
 br
-` She gives her usual smile.@
+` Она улыбается своей обычной улыбкой.@
 br
-`"You are no longer pale and seem to have recovered.@ Shall we continue our conversation?"@ "No--that's enough for today.@ Sorry Kohaku-san.@ There's, something wrong with me."\
+` - Ты уже не бледный, похоже, ты пришёл в себя.@ Продолжим разговор?@  - Нет... хватит на сегодня.@ Кохаку-сан, извини.@ Со мной, наверно со мной что-то не так.\
 
-`"Oh?@ You are a man, so I don't think it is unnatural to be a little rough.@ In fact, I think you are usually too calm, Shiki-san."@
-` She says that, smiling.@
-`".................."@
-` Seeing that smile makes my chest hurt.@
-` ...... Kohaku-san trusts me.@
-` But what was I about to do to her just earlier----?\
+` - О?@ Ну ты же мужчина, а для мужчины допустимо быть немного грубым.@ Вообще, Шики-сан, на мой взгляд ты слишком уж сдержанный.@
+` Улыбаясь, говорит она.@
+` - ...@
+` У меня начинает болеть в груди от этой улыбки.@
+` Кохаку-сан доверяет мне...@
+` Но что я только что собирался с ней сделать?..\
 
-`"...... Like you say, Kohaku-san, I will go back to my room.@ I really am sorry about earlier."@
-` I say this and run away.@
-` I leave the detached building behind, being crushed by self-loathing.\
+` - Кохаку-сан, я учше пойду к себе, как ты и советовала...@ Прости за то, что было.@
+` Произношу я и убегаю прочь.@
+` Снедаемый презрением к самому себе, я сотавляю дом позади.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -358,32 +358,33 @@ play "*1"
 ; ?? : ?? : ?????(?)<?????(?)>
 bg "image\bg\bg_40c.jpg",%type_lcartain_mid
 
-` ---After dinner, I return to my room.@
-` I collapse on my bed and remember Kohaku-san's face.@
+` После ужина я вернулся к себе в комнату...@
+` Я падаю на кровать и вспоминаю лицо Кохаку-сан.@
 br
-`"----"@
-` I don't understand.@
-` Why I felt that way, and why I did that.\
+` - ...@
+` Я не понимаю.@
+` Почему у меня появились такие мысли, почему я поступил так, как поступил.\
 
-` Back then...
-` Looking at Kohaku-san's neck, I was lusting.@
-` Just like in last night's dream, I wanted to bite into her neck.@
-` But, I can't even think about that right now.@
+` В тот момент...
+` Когда я смотрел на шею Хисуи, я изнемогнал от желания.@
+` Я хотел вонзить в неё зубы, точь в точь как во вчерашнем сне.@
+` Но сейчас от этого желания не осталось и следа.@
 br
-` Last night's dream, and myself a while ago.@
-` I feel like there's someone inside me that isn't me.\
+` Моё вчерашний сон, и моё недавнее поведение.@
+` Такое ощущение, что это был совсем другой человек, а не я.\
 
-`"----"@
-` I touch my neck.@
-` Those who are bitten by a vampire become vampires in turn, they say.@
-`"...... That's stupid.@ I'm walking around in the daytime, after all."@
-` ...... Yes, it's impossible.@
-` It was just dizziness and my fading consciousness contributing to the imagination.@
-` What happened with Yumizuka is burnt into my mind, so I think I just remember it when I suffer from anemia.\
+` - ...@
+` Я трогаю себя за шею.@
+` Говорят, что тот, кого кусает вампир, сам становится вампиром.@
+` - Глупости...@ Я же на солнце пока ещё не горю.@
+` Да, это явно не тот случай.@
+` Это из-за головокружения и моего полубоморочного состояния у меня разыгралось воображение.@
+` Случившееся с Юмизукой произвело на меня неизгладимое впечатление, так что наверное я вспоминаю об этом во время приступов анемии.\
 
-`"Like Kohaku-san said, maybe I'm just tired."@
-` ...... Perhaps.@
-` I should hurry up and get to sleep, and rest my tired body.\
+
+` «Может, Кохаку-сан права и я просто устал.»@
+` Может быть...@
+` Надо поскорее поспать и отдохнуть.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -398,7 +399,7 @@ wave se0
 
 !w750
 br
-` ----Hot.\
+` Жар...\
 
 ;S.E."??"
 wave se0
@@ -407,17 +408,7 @@ wave se0
 br
 br
 br
-` ----Hot.\
-;S.E."??"
-wave se0
-!w750
-
-br
-br
-br
-br
-br
-` ----Hot.\
+` Жар...\
 ;S.E."??"
 wave se0
 !w750
@@ -427,10 +418,7 @@ br
 br
 br
 br
-br
-br
-` ----My body, once aroused,
-`     can't be calmed with something like sleep.\
+` Жар...\
 ;S.E."??"
 wave se0
 !w750
@@ -442,8 +430,21 @@ br
 br
 br
 br
-` ----So.@
-`    Tonight too, I shall relieve my thirst.\
+`  Если уж я возбудился,
+`     то простым сном меня не успокоить.\
+;S.E."??"
+wave se0
+!w750
+
+br
+br
+br
+br
+br
+br
+br
+` Так что.@
+`    Сегодня я снова пойду утолять свою жажду.\
 
 monocro #ff0000
 ; ?? : ???? : ????<????>
@@ -456,8 +457,8 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ; ???? : ??????? : ?????(?)<???????(?)>
 bg "image\bg\bg_26a.jpg",%type_crossfade_mid
 
-` It seems I went into town at night.@
-` It seems like I'm waiting with bloodshot eyes for someone to pass by.\
+` Похоже, я выбрался в ночной город.@
+` Похоже, я с налитыми кровью глазами поджидаю случайных прохожих.\
 ;S.E."??"
 wave se0
 
@@ -468,7 +469,7 @@ br
 br
 br
 br
-` ----Again.\
+` Снова.\
 ;S.E."??"
 wave se0
 
@@ -479,8 +480,8 @@ br
 br
 br
 br
-` Suddenly, I see a face reflected in the window.@
-` The eyes are bloodshot, and the face looks quite insane.\
+` Вдруг я замечаю лицо, отражающееся в оконном стекле.@
+` Его глаза налиты кровью, оно выглядит совершенно безумно.\
 ;S.E."??"
 wave se0
 
@@ -491,7 +492,7 @@ br
 br
 br
 br
-` ----This dream, again.\
+` Опять этот сон...\
 ;S.E."??"
 wave se0
 
@@ -502,8 +503,8 @@ br
 br
 br
 br
-` It seems I found my prey.@
-` I bring it down without a chance to scream, without it even realizing it has died.\
+` I Похоже, я нашёл свою жертву.@
+` Я обрушиваюсь на неё, не дав ей даже вскрикнуть, не дав ей даже понять что она уже мертва.\
 ;S.E."??"
 wave se0
 
@@ -514,7 +515,7 @@ br
 br
 br
 br
-` ----I'm seeing this nightmare again.\
+`Я снова вижу этот кошмар.\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -525,9 +526,9 @@ bg "image\bg\ima_12b.jpg",%type_nowaitdisp
 bg "image\bg\bg_31b.jpg",%type_nowaitdisp
 
 
-` Taking the dead body, and the sound of biting into the throat.@
-` A gurgling sound.@
-` Drinking the blood flowing out of the rended neck, my thirst is quenched.\
+` Утащив труп, я с шумом вгрызаюсь в его горло.@
+` Раздаётся булькающий звук.@
+` Напившись крови из разорваной шеи, я утоляю свою жажду.\
 
 br
 br
@@ -536,20 +537,9 @@ br
 br
 br
 br
-` ----The same scene as last night.\
+` Та же сцена, что и вчера...\
 
-` Getting bored with just blood, I take the hand of the dead body and bite off the fingers one by one.\
-
-br
-br
-br
-br
-br
-br
-br
-` ----The same scene as last night.\
-
-` Getting bored with just the fingers, I take the limbs of the dead body, and bite them off one by one.\
+` Устав от одной лишь крови, я беру руку трупа и начинаю откусывать пальцы один за другим.\
 
 br
 br
@@ -558,12 +548,9 @@ br
 br
 br
 br
-` ----The same scene as last night.\
+` Та же сцена, что и вчера...\
 
-` Then,
-` an obstruction appears.@
-` I throw the dead body aside and jump.@
-` Someone.@ Someone is watching me.\
+` Устав от одних лишь пальцев, я начинаю отгрызать конечности трупа, одну за другим.\
 
 br
 br
@@ -572,14 +559,28 @@ br
 br
 br
 br
-` ----Is it different from last night...?\
+` Та же сцена, что и вчера...\
+
+` Но тут,
+` появляется препятствие.@
+` Я отбрасываю труп в сторону и отпрыгиваю.@
+` Кто-то.@ Кто-то наблюдает за мной.\
+
+br
+br
+br
+br
+br
+br
+br
+` Это не та сцена, что и вчера?..\
 
 ; ?(??)<??????(?)>
 bg "image\bg\ima_02.jpg",%type_tshutter_fst
 
-` Something like a vast nail is flying through the air.@
-` To dodge it, I leap aside.@
-` I run up the side of a building, and jump from rooftop to rooftop.\
+` Что-то, похожее на большой гвоздь, летит в мою сторону.@
+` Уворачиваясь, я отпрыгиваю в сторону.@
+` Я бегу вверх по стене здания, и прыгаю по крышам.\
 
 br
 br
@@ -588,11 +589,11 @@ br
 br
 br
 br
-` ----The figure in black chases the vampire.\
+` Силуэт в чёрном гонится за вампиром.\
 
-` From rooftop to rooftop.@
-` From shadow to shadow.@
-` The figure follows.\
+` От крыши к крыше.@
+` От тени к тени.@
+` Силуэт не отстаёт.\
 
 br
 br
@@ -601,10 +602,10 @@ br
 br
 br
 br
-` ----It can't be helped.\
+` Ничего не поделаешь...\
 
-` It can't be helped, it murmurs.@
-` And tonight's meal ended.\
+` Ничего не поделаешь, бормочет он.@
+` И сегодняшняя трапеза кончается.\
 
 
 ; ???<???????(?)>
@@ -630,39 +631,39 @@ waveloop se1
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
 
-`"Shiki-sama----?"@
+` - Шики-сама?..@
 br
-` ----A voice.@
+` Голос...@
 br
-`"Please get a hold of yourself, I will bring you a drink right away...!"@
+` - Пожалуйста, крепитесь, я сейчас принесу вам попить!..@
 br
-` ----The sound of running footsteps.\
+` Звук быстро удаляющихся шагов...\
 ; ?? : ?? : ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 
 br
-`"Ah----"@
-` I awaken from the nightmare.\
+` - А...@
+` Я прихожу в сознание.\
 
-`"...... My own room."@
-` I am definitely in my own room.@
-` Just lying in bed, and morning has come.@
-` ...... I saw that dream again.@
-` The dream of sucking someone's blood.@
-` Though I know it's just a dream, it still feels terribly real.@
-` My hands retain the feel of ripping meat; my nose, the smell of fresh blood...\
+` - Моя комната...@
+` Несомненно, я у себя в комнате.@
+` Наступило утро, я лежу у себя на кровати.@
+` Я снова увидел этот сон...@
+` В котором я пил чью-то кровь.@
+` Хоть я и знаю, что это был только сон, он всё равно кажется ужасно релистичным.@
+` Мои руки помнят плотность разрываемого мяса; мой нос помнит запах свежей крови...\
 
-`"---What's happening to me?"@
-` I touch my neck gently.@
-` ...... Yumizuka's bite marks are long gone.@
-` I'm still a normal human being.@
-` I don't want to drink people's blood, and I don't have a problem with the sun.@
-`"----Ah."@
-` No.@ Yesterday, I@
-` What did I think when I saw Kohaku-san's neck?@
-br
-` ---Her white neck.@
-` From the bottom of my heart, I wanted to drink the blood flowing in there----\
+
+` - Что со мной происходит...@
+` Я аккуратно прикасаюсь к шее.@
+` Следы от зубов Юмизуки давно прошли...@
+` Я всё ещё нормальный человек.@
+` Я не хочу пить человеческую кровь, и у меня нет проблем с солнцем.@
+` - А...@
+` Нет.@ Вчера, я...@
+` Что я подумал, когда увидел шею Кохаку-сан?@
+` Её белая шея...@
+` Всем своим существом я жаждал выпить крови, текущей через эту шею...\
 
 
 
@@ -671,6 +672,7 @@ br
 
 
 return
+
 
 
 </pre>
