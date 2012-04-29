@@ -70,7 +70,7 @@ wavestop
 ^Мне становится нехорошо.@ Мне страшно. Тревожно. Холодно. Меня наполняет ужас. @
 ^За этой дверью ЧТО-ТО есть. Я в этом уверен. @
 ^Дрожащими руками я крепко хватаюсь за замок. @
-^Я должен открыть дверь. Это моя работа. @
+^Я должен открыть дверь... Это моя работа. @
 br
 wave"m\kagi.wav"
 ^~c1 +4~КРРРРР~d =0~@
@@ -122,7 +122,7 @@ wave"m\kazeoto.wav"
 ^Трепещущие прозрачные белые крылья раскрыты. @
 ^Даже жестоко порванные, её усики и ножки продолжают дрожать. @
 ^Белая бабочка покрыта красной кровью, она напоминает часть "её" тела..@
-^Из тела бабочки продолжает литься кровь.. @
+^Из тела бабочки продолжает литься кровь. @
 ^...Нет.@
 ^Тёмно-коричневая кровь течёт из глубокой раны на "её" ладони. @
 #8B0000
@@ -263,7 +263,7 @@ bgmfadeout 1000
 bgmstop
 h_usewindow "center6"
 textspeed 20
-h_centreline ^ - Добро пожаловать.
+h_centreline ^ -- Добро пожаловать.
 ^"Welcome."\
 h_usewindow "main6"
 textspeed 20
@@ -324,8 +324,8 @@ bgmfadeout 2000
 bgmstop
 h_usewindow "center6"
 textspeed 20
-h_centreline ^ - Туда, где вы работаете.
-^ - Туда, где вы работаете.\
+h_centreline ^ -- Туда, где вы работаете.
+^ -- Туда, где вы работаете.\
 #ffffff
 
 bg"e\monooki.jpg",12
@@ -447,7 +447,7 @@ bgm"m\hitotuno.mp3"
 br
 ^...Альбинос.@
 br
-^Возможно, своим существованием она обязана тирозиназе.@
+^Возможно, своим существованием она обязана тирозиназе. (* одна из мутаций тирозиназы человека приводит к альбинизму)@
 ^Она до того прозрачная, что кровь просвечивает, на ней нет ни одной тени.@
 ^На ней одежда приглушённого белого цвета, как будто отлитая из металла. @
 br
@@ -465,7 +465,7 @@ br
 ^ -- ...@
 br
 ^Она молча смотрит на меня багровыми глазами.@
-^Я понимаю, что она совершенно очарована. @
+^Я понимаю, что она совершенно ошеломлена. @
 br
 ^ -- ...@
 br
@@ -550,57 +550,57 @@ br
 br
 ^ -- О нет.@
 br
-^То, что было мне сказано, - "Развлеките её чем-нибудь", — должно означать, что мне нужно поиграть с ней.@
-^А эта комната, должно быть, - моё рабочее место. \
+^То, что было мне сказано, -- "Развлеките её чем-нибудь", -- должно означать, что мне нужно поиграть с ней.@
+^А эта комната, должно быть, -- моё рабочее место. \
 br
 ^Но с того момента, как я вошёл, этой мрачной комнатой владеет только тьма.@
-^Все четыре стены и пол - из бетона, укреплённого железом.@
+^Все четыре стены и пол -- из бетона, укреплённого железом.@
 ^Слишком безотрадно для детской. @
 br
-^ - Где же тут выключатель?@  - шепчу я про себя.@
+^ -- Где же тут выключатель?@  - шепчу я про себя.@
 br
 ^Неожиданно девочка встаёт. @
 erasetextwindow 0
 ^Такое лёгкое движение, как будто на неё не действует гравитация.@
 ^Она берёт меня за руку и тянет в темноту внутри комнаты. @
 br
-^ - ?..@
+^ -- ?..@
 br
-^I am perplexed by her unknown intentions. @
+^Я сбит с толку её непонятными намерениями. @
 br
-^"Are you sure I can follow you?"\
+^ -- Ты уверена, что я смогу пойти за тобой?\
 br
-^She nods in response.@
-^In a sure manner, she leads me into the dark.@
-^———At the far wall, there is a door.@
-^In a familiar manner, she grips the handle and pulls it open quietly. @
+^В ответ она кивает.@
+^Она уверенно ведёт меня в темноту.@
+^...В дальней стене дверь.@
+^Привычным движением она берётся за ручку и тихонько открывает дверь. @
 bg #000000,12
 wave"m\tobira-1.wav"
 bg #8B0000,12
 br
-^"———!"@
+^ -- !@
 br
-^From the open gap, a bar of light illuminates her. @
+^Полоска света из открывшейся двери освещает её. @
 br
-^———A crimson butterfly.@
+^...Алая бабочка.@
 br
-^There is a birthmark on her back.@
-^Right on the shoulder blade is a discoloration in the shape of a butterfly.@
-^Wings stretched as if about to take flight, it is a beautiful butterfly. \
+^У неё на спине родимое пятно.@
+^На правой лопатке выцветшее пятно в форме бабочки.@
+^Её крылья расправлены, как будто она готовится взлететь. Красивая бабочка. \
 br
-^"..."@
+^ -- ...@
 br
-^I am on the verge of asking a question, but my voice sticks in the back of my throat. @
+^Я готов задать вопрос, но слова застревают у меня в горле. @
 wave"m\tobira-2.wav"
-^The door squeaks to a close. @
+^Дверь скрипит, закрываясь. @
 bg #000000,12
-^The quiet sound echoes, and before long disappears in the darkness.@
-^In the remaining silence, there is a sense of unrest. @
+^Тихий звук вскоре исчезает в темноте.@
+^В наступившей тишине возникает чувство беспокойства. @
 br
 br
 br
 erasetextwindow 0
-^It almost sounds like the flutter of a butterfly's wings. \
+^Звук, почти как хлопанье крыльев бабочки. \
 bgmfadeout 4000
 bgmstop
 
@@ -612,44 +612,44 @@ bgm"m\mati.mp3"
 bg"e\akari1.jpg",12
 #ffffff
 br
-^Like a study. @
-^On the bookshelves that line the walls, extensive old books stand. @
-^From chemistry to history, there are books for unlimited subjects. @
-^Many of them are science-related books written in foreign languages. @
-^But among them are peculiar titles. @
-^'A Primer to Ventriloquism,' 'Donut-Making for Beginners,' and 'Everything About Parasites.'@
-^It seems as if there is no interest in anything other than in print. @
+^Похоже на рабочий кабинет. @
+^На книжных полках на стенах стоит множество старых книг. @
+^Темы книг бесконечны, от химии до истории. @
+^Многие из книг - научные, на иностранных языках. @
+^Но среди них есть и необычные названия. @
+^"Введение в чревовещание", "Приготовление пончиков для начинающих" и "Всё о паразитах".'@
+^Похоже, хозяина комнаты интересуют только сами книги, а не их содержимое. @
 br
-^"Hey, Two. You're in my way. Three, get off my head."@
+^ -- Эй, Вторая, ты мне мешаешь. Третья, слезь с моей головы.@
 br
-^On the couch, there is a child stretched out, reading. @
-^The black butterfly called Two is spreading its wings on the texts. @
-^Its master seems disgruntled at its disregard. \
+^На кушетке растянулся ребёнок, читающий книгу. @
+^Чёрная бабочка по имени Вторая закрывает крыльями текст. @
+^Её хозяина, кажется, раздражает её непослушание. \
 br
-^It's childish, but it's being a pest at the risk of its life. @
-^The black butterfly called Three sits at rest on the child's head. @
-^Whether knowingly or not, it is definitely harassing. @
-^The black butterfly called One looks at its troubled companions. @
-^The child in black glowers at the nuisances. @
+^Это глупо, но бабочка мешает ему, рискуя жизнью. @
+^Чёрная бабочка по имени Третья неподвижно сидит на голове ребёнка. @
+^Неизвестно, знает ли об этом бабочка, но это определённо раздражает его. @
+^Чёрная бабочка по имени Первая смотрит на своих обеспокоенных сородичей. @
+^Ребёнок в чёрном сердито смотрит на мешающих ему бабочек. @
 br
-^"It's about time to get back in your box."@
+^ -- Пора вам возвращаться в коробку.@
 br
-^The child commands in a sigh, confirming the time with the table clock.@
-^Is it (the feeding) already done.@
-^But it's still too early (to dispose of it). @
-^Huffing, the child goes back to kill time with reading. @
-^Strangely, it (the feed) left an impression tonight. @
-^As he remembers the reason, he smiles bitterly. \
+^Сказав это, ребёнок вздыхает, сверившись с часами на столе.@
+^Она (кормёжка) уже закончилась?@
+^Но ещё слишком рано (её прекращать). @
+^Вздохнув, ребёнок возвращается к чтению, чтобы убить время. @
+^Как ни странно, сегодня ночью она (кормёжка) была впечатляющей. @
+^Вспомнив причину этого, он горько улыбается. \
 h_usewindow "center62"
 textspeed 20
-h_centreline ^This person is more beautiful———
-^This person is more beautiful———
-h_centreline ^———than all the others who have died before.
-^———than all the others who have died before.\
+h_centreline ^Этот человек ещё красивее...
+^Этот человек ещё красивее...
+h_centreline ^...чем все, кто умерли до него.
+^...чем все, кто умерли до него.\
 h_usewindow "center6"
 textspeed 20
-h_centreline ^But that's all there is to be said.
-^But that's all there is to be said.\
+h_centreline ^Но это всё, что можно сказать.
+^Но это всё, что можно сказать.\
 
 h_usewindow "mainfs"
 textspeed 20
@@ -665,147 +665,147 @@ bgm"m\sora.mp3"
 bg"e\tatie2.jpg",12
 #ffffff
 br
-^"Is this your room?"@
+^ -- Это твоя комната?@
 br
-^The complete opposite of the previous one, this room is very comfortable.@
-^Placed in the middle is a round desk. Facing it is a chair. @
-^The couch at the innermost part is arranged without a crease. @
-^It seems as if this is her living room. @
-^Then what was that room before? @
-^As I wonder this, I become aware of the girl on my arm. @
+^Эта комната очень уютная, полная противоположность предыдущей.@
+^В середине стоит круглый стол. Рядом стул.@
+^На обивке дивана в глубине комнаты -- ни одной складки.@
+^Похоже, это гостиная.@
+^Тогда что за комната была перед этим?@
+^Размышляя над этим, я осознаю, что девочка держит меня за руку.@
 br
-^"My name is Sera Kaoru. Yoru-san told me that I was to be your playmate.@ But to tell you the truth, I don't really know what to do."@
-^"..."@
-^"Is there something you would like me to do?"@
-^"..."\
+^ -- Меня зовут Сэра Каору. Ёру-сан сказал мне, что я должен с тобой поиграть.@ Но, по правде говоря, я точно не знаю, что мне делать.@
+^ -- ...@
+^ -- Ты хочешь, чтобы я что-нибудь сделал?@
+^ -- ...\
 br
-^At my question, she nods. @
-^Letting go of my arm, she moves to lie down on the couch. @
+^В ответ на мой вопрос она кивает. @
+^Отпустив мою руку, она идёт к кушетке, чтобы лечь. @
 br
-^"...?"@
+^ -- ?..@
 br
-^I can't grasp her intentions. @
-^But it could also mean she is tired and doesn't want to be bothered.@
-^It really does appear that it is not playtime. @
-^Still, it doesn't seem like she wants to sleep. @
-^From her soft clothes extend slender limbs. @
-^Her face is gender-neutral, but her physique is that of a young boy's. @
-^On her back is a deep crimson butterfly. @
+^Я не могу понять её намерений. @
+^Но это также может означать, что она устала и не хочет, чтобы её беспокоили.@
+^Скорее всего, сейчас не время для игр. @
+^Но тем не менее, не похоже, что она хочет спать. @
+^Из мягкой одежды выглядывают её худые руки и ноги. @
+^Её лицо бесполо, но телосложение, как у юноши. @
+^На спине у неё ярко-багровая бабочка. @
 br
-^"...Umm."@
+^ -- Эмм.@
 br
-^For some reason, my pulse quickens, and I have to look away. \
+^Почему-то мой пульс ускоряется, и мне приходится отвести взгляд. \
 br
-^At that moment, I turn my attention to the books lying on the table. @
-^They are all children's books, in foreign languages. @
-^Among them, I recognize a title. @
-^Hans Christian Andersen. Picturebook Without Pictures. @
+^Теперь я обращаю внимание на книги, лежащие на столе. @
+^Всё это книги для детей на иностранных языках. @
+^Среди них я узнаю заглавие. @
+^Ганс Христиан Андерсен. "Картинки-невидимки". @
 br
-^"How about reading aloud? I'll read to you. Would you like that?"@
+^ -- Как насчёт чтения вслух? Я тебе почитаю. Хочешь?@
 br
-^Upon hearing my question, she becomes alert. She nods. @
+^Она внимательно выслушивает мой вопрос и кивает. @
 br
-^"Great. How about 'Picturebook Without Pictures'?"@
+^ -- Отлично. Как насчёт "Картинок-невидимок"?@
 br
-^She nods her head again. @
+^Она снова кивает. @
 br
-^"Then I'll start right away."@
+^ -- Тогда я сразу начну.@
 br
-^Settling at the round table, I pick up the leatherbound book.\
+^Устроившись за круглым столом, я беру книгу в кожаном переплёте.\
 br
 bg"e\cg2.jpg",11
-^I sit down on the adjacent chair.@
-^Naturally, I thought, she would sit across from me.@
-^But, hugging her knees, she sits down next to me on the floor.@
-^She rests her head on her knees and quietly tilts her head.@
-^Confused, I start to point to the other chair, but stop.@
+^Я сажусь на стоящий рядом стул.@
+^Вообще-то я ожидал, что она сядет напротив меня.@
+^Но она сидит рядом со мной на полу, обхватив руками колени.@
+^Она кладёт голову на колени и тихо наклоняет её.@
+^Сбитый с толку, я пытаюсь показать ей на другой стул, но останавливаюсь.@
 br
-^———I realize.@
+^...И тут я понимаю.@
 br
-^Why would there be so many books in a room for a girl with such weak eyesight?@
-^Someone probably usually reads aloud to her.@
-^She's probably used to listening like this.@
-^———Yoru is most likely the one who reads to her.@
-^For some reason, the two seem so alike.@
-^They're about the same height as well.@
-^They could even be siblings.\
+^Зачем в комнате для девочки с таким слабым зрением столько книг?@
+^Возможно, обычно кто-то читает ей вслух.@
+^Возможно, она привыкла так слушать.@
+^...Скорее всего, Ёру читает ей.@
+^Почему-то эти двое кажутся такими похожими.@
+^К тому же они почти одного роста.@
+^Может быть, они даже брат и сестра.\
 br
-^For now, I put that thought in the back of my mind.@
-^In a loud voice, I begin to read the First Evening.@
-br
-#cccccc
-^"Paint the scenes I describe to you," he said at his first visit,@ "and you'll have a very pretty picture book."@
-br
-#ffffff
-^Picturebook Without Pictures, Billedbog uden Billeder.@
-^A highly romantic piece by Andersen.@
-^Every night, the moon would speak to a lonely painter, the tale of a Thousand and One Nights.@
-^It was of places which the painter, who lived in the smallest of streets, did not know of.@
-^For the moon, the world is just a topic of conversation.@
+^Пока что я загоняю эту мысль подальше.@
+^Я начинаю громко читать "Вечер I".@
 br
 #cccccc
-^"Paint the scenes I describe to you."@
+^ "Набрасывай эти картинки в тетрадь, и выйдет целая книжка с картинками!"@ -- сказал он мне в первое же своё посещение.@
 br
 #ffffff
-^Turning the words of the moon around, the painter left behind not "pictures."\
-#cccccc
-br
-^"Please listen to what the moon says."@
-br
-#ffffff
-^Instead, the artist turns what the moon says into stories.@
-^Unimaginable as drawn, A Picturebook Without Pictures.@
+^"Картинки-невидимки", Billedbog uden Billeder.@
+^Очень романтическое произведение Андерсена.@
+^Каждую ночь месяц рассказывал одинокому художнику сказки Тысячи и одной ночи.@
+^Сказки о местах, о которых художник, живший на самой узкой улочке, не знал.@
+^Для месяца мир - всего лишь тема для разговора.@
 br
 #cccccc
-^Tragedy occurs in ordinary life as well. Tonight, I saw the final act.@
+^"Нарисуй то, что я тебе описываю".@
 br
 #ffffff
-^Every part of me is enveloped in the moon's words.@
-^At ease, the girl listens attentively as my voice follows the words.@
-^I can feel the warmth of the body next to mine.@
-^Whenever I stop, thinking that I should end, she looks at me as if urging me to go on.@
-^Before I know it, a sense of unity is formed.@
-^She is listening to my voice.@
-^Just that, and she's already this happy. \
+^Подойдя к словам месяца по-другому, художник создал не "картинки".\
+#cccccc
+br
+^"Слушай то, что говорит месяц".@
+br
+#ffffff
+^Вместо картин художник превращает то, что говорит месяц, в истории.@
+^"Картинки-невидимки", которые невозможно представить нарисованными.@
 br
 #cccccc
-^And like that, I? yes, I, the moon, watch the entire comedy with them.@
+^"И среди будничной жизни разыгрываются своего рода трагедии; вчера вечером я видел в узком переулке последнее действие одной из таких трагедий".@
 br
 #ffffff
-^At the sound of applause, my hand stops at turning the page.@
-^Unbeknownst to me, the door has been opened.@
+^Каждая часть меня окутана словами луны.@
+^Удобно устроившись, девочка внимательно слушает мой голос, произносящий слова.@
+^Я чувствую тепло её тела рядом с моим.@
+^Всякий раз, как я останавливаюсь, подумав, что пора заканчивать, она смотрит на меня, как бы требуя продолжать.@
+^Я сам не замечаю, как формируется чувство единства.@
+^Она слушает мой голос.@
+^Только от этого она уже так счастлива. \
+br
+#cccccc
+^"...а мне... мне, месяцу, удалось посмотреть комедию!"@
+br
+#ffffff
+^От звука аплодисментов моя рука замирает, переворачивая страницу.@
+^Незаметно для меня открылась дверь.@
 erasetextwindow 0
 bg"e\tatie4.jpg",12
-^There, at the opening, stands the boy in black.@
+^Там, в дверном проёме, стоит мальчик в чёрном.@
 br
-^"That is quite a touching recitation."@
+^ -- Довольно трогательное чтение.@
 br
-^Expression unchanging, he tells me uninterestedly.@
+^Равнодушно говорит он мне. Его выражение лица не меняется.@
 erasetextwindow 0
-^Standing, the girl rushes up to him.@
-^Standing at the same height, he gently strokes her hair.@
-^There is a strange cold feeling in the spot where the girl used to be.@
-^I feel somewhat betrayed.@
-^Simultaneously, while facing the youth, there is an indistinct animosity.\
+^Встав, девочка подбегает к нему.@
+^Они одного роста. Он нежно гладит её волосы.@
+^На месте, где сидела девочка, странное ощущение холода.@
+^Я чувствую себя так, будто меня предали.@
+^Одновременно, глядя на юношу, я чувствую смутную враждебность.\
 br
-^It fades like an illusion, but I can still feel it at the core of my heart.@
-^Face turned, the girl compares us both.@
-^As if confirming the difference, she has a mysterious look in her eyes.@
+^Она растворяется, как иллюзия, но в глубине души я всё же чувствую её.@
+^Повернувшись, девочка сравнивает нас.@
+^У неё загадочный взгляд, как бы подтверждающий различия между нами.@
 br
-^"Your job is done, Sera-san. I will show you to the guest room."@
+^ -- Ваша работа окончена, Сэра-сан. Я отведу вас в гостиную.@
 br
-^I nod and close the book. I do as he says and move to head out the door.@
+^Я киваю и закрываю книгу. Я делаю, как он говорит, и направляюсь к выходу.@
 bg"e\tatie2.jpg",12
-^At that moment, my arm is seized in an effort to stop me.@
-^She looks up at me with glassy eyes.@
-^The move unexpected, my chest feels hot.\
+^В этот момент мою руку что-то с силой сжимает, пытаясь остановить меня.@
+^Она смотрит на меня снизу вверх безжизненными глазами.@
+^От этого неожиданного движения у меня становится жарко в груди.\
 br
-^I tell her I'll come again, stroking her hair.@
-^With painful reluctance, she pulls back.@
+^Я говорю, что приду снова, гладя её волосы.@
+^С болезненным сопротивлением она тянет меня назад.@
 br
-^————Soft and warm, the sensation of her hair.@
+^...Мягкое и тёплое ощущение её волос.@
 br
-^For the longest time, my fingertips can't pull away.\
+^Очень долго кончики моих пальцев не могут оторваться от неё.\
 erasetextwindow 0
 h_usewindow "mainfs"
 textspeed 20
@@ -821,69 +821,69 @@ bgm"m\ningyo.mp3"
 bg"e\genkan.jpg",12
 #ffffff
 br
-^The room I am led to is dreadfully quiet.@
-^It's almost mysterious, that I can't feel anyone around.@
-^Wide and silent, there is a smell of age.@
-^Only the ticking of the wall clock cuts through.@
-^A portion of the stairs is collapsing.@
-^The ebony banister has been polished until it shines like stone.@
-^There is stained glass fixed into the landing.@
-^As I follow the black-clad back, we begin up the stairs.@
+^В комнате, в которую меня приводят, ужасно тихо.@
+^То, что я не чувствую ничьего присутствия, почти таинственно.@
+^В широкой и тихой комнате пахнет временем.@
+^Тишину прорезает только тиканье настенных часов.@
+^Часть ступенек осыпается.@
+^Перила чёрного дерева были отполированы до блеска драгоценного камня.@
+^В лестничную площадку вставлено цветное стекло.@
+^Мы начинаем подниматься по лестнице. Я следую за спиной, обтянутой чёрной одеждой.@
 br
-^"————The name of that girl."@
+^ -- ...Имя той девочки.@
 br
-^I notice that I'm asking, almost to myself.@
+^Я замечаю, что спрашиваю это почти у самого себя.@
 br
-^"It is Chou."@
+^ -- Тё.@
 br
-^As expected, he answers with his back to me.\
+^Как я и ожидал, он отвечает, не поворачиваясь ко мне.\
 br
-^"————Chou."@
-^"Any other questions?"@
+^ -- ...Тё.@
+^ -- Ещё вопросы будут?@
 br
-^Fingers touching the banister, Yoru looks over his shoulder.@
-^He stares at me with blank emotions.@
+^Дотрагиваясь пальцами до перил, Ёру оборачивается через плечо.@
+^Он смотрит на меня без всяких эмоций.@
 br
-^"About her————"@
+^ -- Насчёт неё...@
 br
-^Just as I'm about to ask, we stop.@
-^Right above us is a butterfly with jet black wings, fluttering like a floating shadow.@
-^It looks like the butterfly from before.@
-^It descends with a gentle arc in the air.@
-^Suspended in the space above Yoru's ear, it flaps its wings.@
-^After a moment, Yoru nods dimly.@
-^————It was like they'd had a conversation. \
+^Когда я уже готов задать вопрос, мы останавливаемся.@
+^Прямо над нами -- бабочка с насыщенно-чёрными крыльями, порхающая, как блуждающая тень.@
+^Она похожа на ту бабочку.@
+^Она снижается, описывая в воздухе плавную дугу.@
+^Зависнув в пространстве над ухом Ёру, она хлопает крыльями.@
+^Спустя мгновение Ёру мрачно кивает.@
+^...Как будто они поговорили. \
 br
-^"I apologize. Let me introduce you."@
+^ -- Извините. Позвольте мне представить вас.@
 br
-^Suddenly, he turns around.@
-^He gazes at me sharply.@
-^Pale, green, obsidian eyes. Mixed eyes.@
-^In a quiet but firm voice, he informs me.@
+^Неожиданно он разворачивается.@
+^Он пристально смотрит на меня.@
+^Бледно-зелёные обсидиановые глаза. Всё смешано в его глазах.@
+^Тихим, но твёрдым голосом он сообщает мне.@
 br
 br
-^"They are called (YaCho)."@
+^ -- Их называют (Ятё). @
 br
 br
 wave"m\kane.wav"
-^In the dim light, the sound of a bell reverberates.@
+^В тусклом свете раздаётся звук колокола.@
 wave"m\kane.wav"
-^The wall clock plays out a heavy sound.@
-^In the next instant, a dark shadow appears from the ceiling and walls.@
-^The sound of tens, hundreds, countless black butterflies flapping their wings echoes. \
+^Настенные часы издают тяжёлый звук.@
+^В следующий миг из потолка и стен появляется тёмное облако.@
+^В воздухе разносится звук хлопанья крыльев десятков, сотен, бесчисленных чёрных бабочек. \
 br
-^————Above.@
-^————Behind.@
-^————Below.@
+^...Вверху.@
+^...Сзади.@
+^...Внизу.@
 br
-^An infinite number of black butterflies come scattering like flower petals, flying.@
+^Вокруг в беспорядке, как цветочные лепестки, летает несметное количество чёрных бабочек.@
 br
-^They even come through the stained glass.@
-^The jet black wings slip through the surface of the glass.@
-^The fantastic shadow curls beautifully, thickly.@
+^Они пролетают даже сквозь цветное стекло.@
+^Насыщенно-чёрные крылья проскальзывают сквозь поверхность стекла.@
+^Фантастическая тень красиво, густо клубится.@
 br
 br
-^It is like a terrifying, beautiful nightmare.\
+^Это похоже на ужасающий, прекрасный кошмар.\
 h_usewindow "mainfs"
 textspeed 20
 bg"e\tyou4.jpg",12
@@ -905,39 +905,39 @@ textspeed 20
 #ffffff
 br
 wave"m\kane.wav"
-^The last toll of the bell diffuses through the atmosphere.@
-^The countless black butterflies suddenly disappear.@
+^Атмосферу пронизывает последний удар колокола.@
+^Бесчисленные чёрные бабочки неожиданно исчезают.@
 bgm"m\entoro.mp3"
-^I raise my eyes, dumbfounded.@ Instead of the darkness from before, a gloomy shadow is there.@
+^Потрясённый, я поднимаю взгляд.@ Вместо прежней темноты там теперь мрачная тень.@
 br
-^"For the moment, please come with me. I will explain later; please ask questions then."@
+^ -- Сейчас я прошу вас идти за мной. Позже я всё объясню, тогда и задавайте вопросы.@
 br
-^It is said in a strict and quiet voice.@
-^I can't tell if the spectacle from just a moment ago had been a dream or reality.@
-^Not concerned with my bewildered self, Yoru turns to go once again.\
+^Это было сказано тихим и строгим голосом.@
+^Я не могу понять, сном или реальностью было зрелище, которое я видел только что.@
+^Не обращая внимания на моё замешательство, Ёру снова отворачивается.\
 br
 erasetextwindow 0
 bg"e\nikai.jpg",11
-^I follow his unwavering back up the stairs.@
-^A long corridor stretches on with windows all lined up.@
-^All of them are covered with thick hanging curtains.@
-^Chasing after the black shadow, our footsteps resound as we advance on.@
+^Я следую за его недрогнувшей спиной вверх по лестницей.@
+^По всей длине коридора тянутся окна.@
+^Все они закрыты толстыми занавесками.@
+^Пока мы идём за чёрной тенью всё дальше, наши шаги отдаются в воздухе.@
 wave"m\knock.wav"
-^He knocks on the aged door at the end.@
-^There is no answer, but, not caring, he pushes the door open. \
+^Он стучит в старую дверь в конце коридора.@
+^Ответа нет, но он, не обращая на это внимания, распахивает дверь. \
 erasetextwindow 1
 bg"e\akari1.jpg",12
 wave"m\tobira-2.wav"
 !w2000
 br
-^"Good evening. It's a pleasant night, isn't it?"@
+^ -- Добрый вечер. Приятная ночь, не правда ли?@
 br
-^The very last window is thrown open.@
-^A cloaked man stands in the center of the circular floor.@
+^Самое последнее окно распахнуто.@
+^В центре круглого помещения стоит человек в плаще.@
 erasetextwindow 0
 bg"e\jyu.jpg",12
-^In his hand is a revolver.@
-^———The gun is aimed at Yoru's brow.@
+^В его руке револьвер.@
+^...Оружие направлено на бровь Ёру.@
 br
 ^"If you're a burglar, please tell me what you are after."@
 br
@@ -2148,6 +2148,6 @@ br
 br
 br
 locate 12,8
-select "^   Ask",*end2,"^Don't ask",*end1
+select "^   Спросить",*end2,"^Не спрашивать",*end1
 
 </poem>
