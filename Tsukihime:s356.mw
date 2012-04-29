@@ -12,52 +12,52 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 ; ?? : ?? : ????2(?)<??????(?)>
 bg "image\bg\bg_11a.jpg",%type_bshutter_mid
 
-` I go up to the fourth floor.@
-` Akiha's class is first year, class one.@ I speak to a student leaving the classroom, and ask her to call Akiha.@
-`"Tohno-saaan, your brother's here!"@
-` ...... The girl I stopped calls out to Akiha quite directly.\
+` Я поднимаюсь на четвеёртый этаж.@
+` Класс Акихи - первый.@ Я подхожу к ученице, выходящей из класса, и прошу её позвать Акиху.@
+` - Тоно-сааан, твой брат пришёл!@
+` ...не задерживаясь, кричит ей ученица.\
 
 ; ?? : 21~30 : 21_??<??????(?)>
 ld c,":a;image\tachi\aki_t21.jpg",%type_lshutter_fst
 
-`"Do you need something, Nii-san?"@
-` Akiha comes out with a sullen expression.@
-`"-------"@
-` Well, this is troubling.@
-` Kohaku-san told me to apologize, but after hearing her story, it's a little troubling.\
+` - Нии-сан, тебе что-то нужно?@
+` С угрюмым выражением лица подходит ко мне Акиха.@
+` - ...@
+` Мда, это проблема.@
+` Кохаку-сан велела мне извиниться, но после её рассказа это становится сложновато.\
 
-`"If you don't need anything, I'll go back to my classroom."@
-`"---No, there's something.@ It's... well, I mean..."@
+` - Если тебе ничего не нужно, то я возвращаюсь в класс.@
+` - Нет, кое-что есть...@ Это... нуу, я...@
 
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"What is it, already?@ The break time is short, so if you want to say something then please hurry and say it."@
-`"...... Well, it's just..."@
+` - Ну что уже такое?@ Перемена быстро кончается, так что если тебе сть что сказать, то будь добр, не мешкай.@
+` - Нуу... просто...@
 br
-` ---Alright already!@ I've come this far, so I can't be shy about it!\
+` Ну хватит уже!@ Я зашёл так далеко, так чего тут жаться!\
 
-`"I'm... I'm sorry about this morning...!"@
+` - Я... я прошу прощения за сегодняшнее утро!..@
 
 ; ?? : 11~20 : 13_??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"Eh?@ ---Ni, nii-san...?"@
-`"I came to say that this morning was my fault, and that from tomorrow on I'll be good, so please forgive me, Akiha...!"@
+` - Э?@ Ни-нии-сан?..@
+` - Я пришёл сказать, что виноват в случившемся сегодня утром, и с завтрашнего дня я так больше не буду, так что Акиха, пожалуйста, прости меня!..@
 
 ; ?? : 11~20 : 16_??<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"It's... there's not much to forgive, it didn't really bother me..."@
-`"That's fine, I just wanted to apologize.@ I'll see you later, sorry for taking your time!"\
+` - Это... тут не из-за чего извиняться, меня это особо не побеспокило...I@
+` - Ну и хорошо, я просто хотел извиниться.@ Увидимся позже, извини что отвлёк!\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-`"---Ah, wait, Nii-san!"@
+` - А... Нии-сан, постой!@
 br
-` Akiha calls after me.@
-` But right now I'm too embarrassed to even look back, so I run straight back to my own classroom.\
+` Акиха зовёт меня.@
+` Но сейчас я слишком стесняюсь чтобы даже обернусться, так что я бегу прямиком в свой класс.\
 
 !w1000
 
@@ -68,16 +68,16 @@ play "*3"
 bg "image\bg\bg_06a.jpg",%type_tcartain_mid
 
 
-` ...... It's lunchtime.@
-` Since I just went and apologized to Akiha, it feels kind of awkward to have lunch with her.@
-` However.@
+` Наступил обеденный перерыв...@
+` Теперь, когда я извинился перед Акихой, мне немного неловко обедать вместе с ней.@
+` Однако...@
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
-`"Yo, Tohno.@ Let's hurry up and go to the courtyard.@ Akiha-chan is waiting."@
-` ...... Says one guy.@ Besides, I can't leave her by herself.@
-` ............... []*sigh*@
-` I let out a big sigh and leave the classroom with Arihiko.\
+` - Эй, Тоно.@ Пошли скорей во двор.@ Акиха-тян ждёт.@
+` ... Говорит мне один тип.@ Да и потом, мне не хочется оставлять её одну.@
+` ...[]*эх*@
+` Я тяжело вздыхаю, и выхожу из класса вместе с Арихико.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -85,8 +85,8 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_04.jpg",%type_lcartain_mid
 
 
-` Akiha isn't here yet.@
-` Since Ciel-senpai will be coming too, I guess we'll eat on the grass instead of on the bench.\
+` Акихи ещё нет.@
+` Поскольку мы ожидаем ещё и Сиэль-сенпай, завтракать мы будем на траве а не на лавочке.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_fst
@@ -96,45 +96,45 @@ bg "image\bg\bg_04.jpg",%type_bshutter_fst
 
 ; ??? : 01~10 : 03_?03(??????????)<???????(?)>
 ld l,":a;image\tachi\cel_t03.jpg",%type_lshutter_mid
-`"I'm here.@ Hey, Akiha-san isn't here yet?"@
+` - Приветик всем.@ О, Акихи-сан ещё нет?@
 
 ; ?? : 01_??<???????(?)>
 ld r,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Yeah, she should be here any minute now----hey, Tohno, did something happen between you and Akiha-chan?"@
+` - Должна быть с минуты на минуту... эй, Тоно, у вас с Акихой-тян что-то произошло?@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Arihiko asks, elbowing me in the side.@
-` ...... Why is he so perceptive all of a sudden?@
-`"Ah, there she is.@ Akiha-chan, over here!"@
-` Arihiko waves his hands around.@
-` Akiha comes onto the grass looking a bit puzzled.\
+` Ткнув меня локтем в бок, спрашивает Арихико.@
+` И чего это вдруг стал таким наблюдательным?..@
+` - А, вот она.@ Акиха-тян, сюда!@
+` Машет рукой Арихико@
+` Акиха с немного озадаченным видом идёт к нам на траву.\
 
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld l,":a;image\tachi\aki_t12a.jpg",%type_lshutter_mid
-`"I'm sorry I'm late.@ I received an invitation to have lunch with my classmates, and it took some time to decline their invitations."@
+` - Простите что опоздала. @ Одноклассники приглашали меня пообедать вместе с ними, и мне потребовалось немного времени чтобы отказать им.@
 
 ; ?? : 01_??<???????(?)>
 ld r,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Don't worry, we just got here too.@ Here, sit here."@
+` - Не переживай, мы сами только подошли.@ Вот, присаживайся.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Arihiko pats the grass.@
-` After hesitating for a moment, Akiha sits down next to me.\
+` Арихико похлопывает по траве.@
+` Немного поколебавшись, Акиха садится рядом со мной.\
 
 ; ?? : 11~20 : 16_??<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"..............."@
-` Akiha says nothing.@
-`"-------"@
-` Not knowing what to say, I remain silent.@
+` - ...@
+` Акиха ничего не говорит.@
+` «...»@
+` Не зная что сказать, я молчу.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -142,14 +142,15 @@ cl a,%type_crossfade_fst
 ; ??? : 01~10 : 03_?03(??????????)<???????(?)>
 ld c,":a;image\tachi\cel_t03.jpg",%type_crossfade_fst
 
-`"What is it, you two?@ It's weird to eat lunch like this in silence."@
-`"Uh-----"@
-` I know that, I just don't know what to say.\
+` - Ну что с вами такое?@ Обедать в полной тишине — это, знаете, ли странновато.@
+` - Ээ...@
+` Я знаю, что с странно, я просто не знаю что сказать.\
 cl a,%type_crossfade_fst
 
 
 
 return
+
 
 </pre>
 
