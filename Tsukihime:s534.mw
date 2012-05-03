@@ -18,29 +18,29 @@ cl c,%type_lcartain_mid
 
 ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
-` Merci!@
-` Now, the hint corner for Tohno-kun, who has regrettably ended up in this Dead End,
-` It is time for "Teach me, Ciel-sensei!"@
+` Мерси!@
+` А сейчас у нас уголок подсказок для Тоно-куна, который, к несчастью, забрёл в Тупик.
+` Настало время для «Научи меня, Сиэль-сенсей!»@
 br
-` In this third period of the third day, I will teach you about the importance of cooperation.@
-` See, that's no good, Tohno-kun.@
-` This situation you are involved in right now is not something you can solve by yourself.@
+` Сейчас третий урок третьего дня, и я научу тебя важности сотрудничества.@
+` Видишь ли, Тоно-кун, так делать нельзя.@
+` Ты не сможешь сам разобраться с этой ситуацией.@
 br
-` Let's see, the mistake you made this time-----\
+` Так, в этот раз ты ошибся вот в чём...\
 
-` ...... Ah, no good.@
-` This situation you are involved in right now is not something you can solve by yourself.@
-` You have to search weird places around your house,
-` and don't be so persistent; you should trust the people around you and ask for their help.@
-` I don't want to see Tohno-kun become a killer.\
+` ...А, так нельзя.@
+` Ты не сможешь разобраться с этой ситуацией в одиночку.@
+` Тебе нужно осмотреть интересные места у себя дома,
+` и не надо так упрямиться; доверься своим близким людям и попроси у них помощи.@
+` Я не хочу чтобы Тоно-кун становился убийцей.\
 
 ; ?????? : 01~10 : 01_?01(????)<??????(?)>
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 
-`"But, in a few years, Shiki will be called Shikiller, and will team up with the Knight of Vengeance to go hunt down the Dead Apostles."@
+` - А, но через несколько лет Шики возьмёт себе имя Сацуджинки, объединится с Рыцарем Возмездия и начнёт истреблять Мёртвых Апостолов.@
 br
-` Arc-san, that is just what you hope for, not a fact.@
-` Alright, Tohno-kun.@ Ignore the person who doesn't even get one appearance in this route and enjoy the rest of the main story.\
+` Арк-сан, не надо принимать желаемое за действительное.@
+` Ну что ж, Тоно-кун.@ Не слушай персонажа, который даже не появляется в этой ветке, и проходи историю дальше.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -49,7 +49,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ?????? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t30.jpg",%type_crossfade_mid
 
-`"Awwww.@ I haven't done anything wrong, so why don't I get to appear-nyaa?@ I'm supposed to be the main heroine."\
+` - Нууууууу.@ Я же ничего плохого не сдела-няя?@ Да и в самом-то деле, я же вроде как главная героиня.\
 
 cl c,%type_crossfade_mid
 
@@ -61,6 +61,7 @@ playstop
 
 
 return
+
 
 
 
