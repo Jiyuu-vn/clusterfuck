@@ -12,16 +12,16 @@ bg "image\bg\bg_04.jpg",%type_nowaitdisp
 
 
 
-` ...... No, there's no reason to.@
-` What can Ciel-senpai do if I talk to her about my dreams?@
-` That dream.@
-` If I'm the person who dreams about killing people, then I'm the only one who should be able to solve that problem.@
+` Нет, в этом нет никакого смысла.@
+` Даже если я расскажу Сиэль-сенпай о моих снах, что она может сделать?@
+` Этот сон.@
+` Раз это мне снятся сны, в которых я убиваю людей, значит я и должен решить эту проблему.@
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"Yo, Tohno, we don't have much time."@
-`"------I know, we won't make it unless we run, right?"@
-` Saying so, I start running toward our classroom.\
+` - Эй, Тоно, у нас мало времени.@
+` - Я знаю, мы успеем только если побежим, верно?@
+` С этими словами, я пускаюсь в бег чтобы успеть вернуться в класс.\
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w2000
@@ -32,11 +32,12 @@ play "*1"
 bg "image\bg\bg_06b.jpg",%type_tshutter_mid
 
 
-` ----------School is over now.@
+`  Занятия закончились.@
 br
-` I was confused about myself and Akiha, but today is about to end.@
-`"------Should I go back?"@
-` I should go get Akiha and go back to our mansion.\
+` Я не знал что делать с Акихой, но день уже подходит к концу.@
+
+` - Пора возвращаться?..@
+` Надо зайти за Акихой и возвращаться в поместье.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -44,111 +45,111 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_24b.jpg",%type_lcartain_mid
 
 
-` I walk home together with Akiha.@
-` ...... Just like lunchtime, we grow quiet as soon as there are only the two of us.@
+` Мы с Акихой идём домой.@
+` Как и на обеденном перерыве, никто из нас не говорит ни слова.@
 br
-` ---While I want to talk to Akiha, I also feel embarrassed looking at Akiha.@
+` И хотя мне хочется заговорить с Акихой, я начинаю стесняться как только гляжу в её сторону.@
 br
-`"...... Man, it's not like I'm some middle schooler."@
+` - Блин, мне же не двенадцать лет...@
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"...?@ Did you say something, Nii-san?"@
-`"Oh---no, it's nothing, just talking to myself."@
+` - ?@ Нии-сан, ты что-то сказал?@
+` - Эээ... нет, ничего, говорю сам с собой.@
 cl c,%type_crossfade_fst
 
-` ...... []*sigh*@
-` Really, what the hell am I doing?\
+` ...... []*эх*@
+` И правда, что я делаю?\
 
 ; ???? : ??????? : ?(?)<?????(?)>
 bg "image\bg\bg_22b.jpg",%type_lcartain_mid
 
 
-` We reach the long hill.@
-` Once we go up it, our mansion will be right there.@
+` Начался подъём.@
+` До поместья осталось совсем немного.@
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Nii-san.@ I would like to ask you one thing before we get home."@
-` Akiha's feet stop and she looks straight at me.@
-`"-----"@
-` The kind of silence that was there before is gone.@
-` Akiha looks at me seriously.\
+` - Нии-сан.@ Я бы хотела кое-что спросить пержде чем мы вернёмся.@
+` Акиха останавливается и устремляет в меня пристальный взгляд.@
+` - ...@
+` Воцарившееся молчание совсем непохоже на то, что было между нами раньше.@
+` Акиха продолжает серьёзно смотреть на меня.\
 
-`"Go ahead, what do you wanna ask about?"@
+` - Ну, спрашивай уже, что ты хотела?@
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"If you don't want to answer, that's fine but-----do you have something you are hiding from me, Nii-san?"@
-`"Huh-------?"@
-` The question is so abrupt, I stop in my tracks.\
+` - Можешь не отвечать если не хочешь, но... Нии-сан, ты ничего от меня не скрываешь?@
+` - А?@
+` Вопрос настолько неожиданный что я останавливаюсь как вкопаный.\
 
-`"Um...... What are you talking about?"@
-` I decide to act like I don't know what she's talking about.@
+` - Эм... Ты о чём?@
+` Я решаю сделать вид что не понимаю, о чём она.@
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`"What?@ That's what I am asking.@ You have been acting very strange these past few days.@ I can easily tell since we live together."@
-` Akiha looks at me as if she can read my mind.@
-`"--------Uhh."@
-` ...... No, there's no way I can lie to her without her finding out.\
+` - О чём?@ Да мне и самой интересно знать, в чём именно тут дело.@ В последние несколько дней ты ведёшь себя очень странно.@ Мы живём под одной крышей, так что мне видно.@
+` Акиха смотрит на меня так, будто видит меня насквозь.@
+` - Ээээ...@
+` Нет, тут мне отбрехаться не получится.\
 
-`"...... So you are hiding something.@
-` Is that the reason you have not been feeling well recently, like this morning?@ I do not know what is troubling you but is it so bad you have to hide it?"@
-`"--------"@
-` ...... I'm surprised.@
-` Akiha knew that I was worrying about the problem by myself.@
-`"Akiha...... you noticed?"@
+` - Значит, ты действительно что-то скрываешь...@
+` Это поэтому ты в последнее время плохо себя чувствуешь, как сегодня утром?@ Я не знаю что тебя тревожит, но это что-то настолько плохое что ты это скрываешь?@
+` - ...@
+` Я удивлён.@
+` Акиха знала, что у меня проблемы, о которых я не говорю.@
+` - Акиха... ты заметила?@
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"Of course.@ We are brother and sister.@ I can tell when you are depressed, Nii-san.@ Yet you keep the problem to yourself and don't even ask us for help."\
+` - Ну конечно.@ Мы же брат и сестра.@  Так что Нии-сан, я вижу когда тебе плохо.@ Но ты всё равно держишь это в себе и не просишь у нас помощи.\
 
-`"!!@-------I can't ask you for help-----"@
-` I can never do that.@
+` «!!!@Я не могу просить тебя о помощи!!!»@
+` Я никогда не смогу сделать этого.@
 br
-` How I dream about murder every night.@
-` And that I can't tell if it's real or just a dream, and the victims in real life are just like the ones in my dream.@
-` I can't tell her that I, Tohno Shiki, might be a killer, so be careful at night.\
+` Как мне снятся убийства каждую ночь.@
+` И что я не могу понять, сон это или реальность, и что жертвы в реальности выглядят точно так же, как и мои жертвы во сне.@
+` Я не могу сказать ей что, мол, я, Тоно Шики, наверное убийца, так что будь осторожна по ночам.\
 
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"Nii-san.@ We're brother and sister, right?@ Then please rely on me a bit.@ Not just me, but both Kohaku and Hisui are also worried about you.@
-` If it's a problem you can't solve by yourself, we will gladly help you, so please tell us about it."@
-`"Akiha----------"@
+` - Нии-сан.@ Мы же брат и сестра, верно?@ Тогда положись на меня хоть немного.@ Не только я, но и Хисуи и Кохаку тоже переживают за тебя.@
+` Если ты не можешь справиться с этой проблемой самой, то мы с радостью тебе поможем, только расскажи нам.@
+` - Акиха...@
 cl c,%type_crossfade_fst
 
-` Akiha just stares at me.@
-` ...... Her eyes are filled only with worry.@
-` Akiha is not complaining to me for hiding something from her, but she is trying to help me solve my problem.\
+` Акиха молча смотрит на меня.@
+` В её глазах видна одна лишь тревога.@
+` Акиха не сердится на меня за то, что я что-то скрыл от неё, а пытается помочь мне с моими неурядицами...\
 
-`"............ D-"@
+` - Н-...@
 br
-` That's why I can't tell her.@
-` I---Tohno Akiha's brother might be a killer---those words would never come out of my mouth.@
+` Поэтому я не могу сказать ей.@
+` Я — брат Тоно Акихи может быть убийцей — эти слова не покидают моего языка.@
 br
-`"Don't say stupid things.@ I'm not hiding anything and I don't have any problems.@
-` I wasn't feeling well recently because I wasn't used to the life in the mansion-----"@
+` - ...Не говори глупости.@ Ничего я не скрываю и нет у меня никаких проблем.@
+` Я себя нехорошо чувствовал потому что не осовоился с жизнью в поместье...@
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"..............."@
-` Akiha looks at me angrily.\
+` - ...@
+` Акиха разозлённо смотрит на меня.\
 
-`"A----Akiha?"@
-`"I understand.@ You won't listen to me even after all that I've said.@ If you can't trust me or Kohaku or Hisui, then there's nothing more I want to say."@
+` - А... Акиха?@
+` - Понятно.@ Даже после всего того, что я сказала, ты не хочешь меня слушать.@ Раз ты не доверяешь ни мне, ни Кохаку или Хисуи, то говорить больше не о чем.@
 ld c,":a;image\tachi\aki_t05a.jpg",%type_crossfade_fst
 
-` Akiha breathes out and looks away.\
+` Раздражённо отрезает Акиха и отворачивается.\
 
-`"No, that's wrong, Akiha.@ It's not that I don't trust you guys, but-----"@
+` - Нет,Акиха, дело не в этом.@ Не то что я вам не доверяю, просто...@
 ld c,":a;image\tachi\aki_t07.jpg",%type_crossfade_fst
 
-`"I don't want to hear your excuses!@ If you like secrets so much, then do what you want!!"@
+` - Не желаю больше слышать твоих оправданий!@ Если тебе так нравятся твои секреты, то делай что хочешь!!!@
 cl c,%type_lshutter_fst
 
-` Akiha screams at me and runs up the hill.\
+` Кричит мне Акиха, и убегает вверх по склону.\
 
-` ------I could not chase after her.@
+` Я мог погнаться за ней.@
 br
-` Even if I chased her, I would not be able to tell her anything.@
-` ...... Then that means,
-` it doesn't matter what goes on; I do not trust them well enough.\
+` Даже если бы я и догнал её, то всё равно ничего не смог бы ей сказать.@
+` А значит...
+` Не важно, что происходит; я не доверяю им в достаточной мере.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -157,16 +158,16 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40c.jpg",%type_tshutter_mid
 
 
-` Dinner has ended and it's time to go to bed.@
-` Akiha ignored me during dinner and during the tea afterwards.@ She must be still mad about that conversation we had at the hill.@
-` ...... This time, it doesn't seem like her anger will fade in a matter of days.@
+` Ужин кончился, и пора ложиться спать.@
+` Во время ужина и за чаем Акиха игнорировала меня.@ Должно быть, она всё ещё злится из-за нашего разговора.@
+` Но в этот раз, не похоже что её гнев утихнет после пары дней.@
 br
-`"No, that's better for me."@
-` ------Yes, I can't be afraid of my own dreams anymore.@
-` I didn't ask Ciel-senpai for help and I rejected Akiha's offer for help, because I've decided I will solve this on my own.\
+` «Нет, так даже лучше.»@
+` Да, я больше не могу бояться собственных снов.@
+` Я не просил помощи у Сиэль-сенпай и отверг помощь Акихи потому что я решил разобраться с этим сам.\
 
-`"To prove that I, Tohno Shiki, am not the killer-----"@
-` I can only think of one way to do that.\
+` «Чтобы доказать, что я, Тоно Шики, не убийца...»@
+` Мне приходит в голову ишь один способ.\
 ;CD-DA??
 playstop
 
@@ -177,17 +178,17 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 
 
-` I turn off the lights in my room and put the knife in my pocket.@
-`"......... Let's go."@
-` I leave the room, trying not to make any noise.@
+` Я выключаю свет в комнате и кладу нож в карман.@
+` «Пора...»@
+` Стараясь не шуметь, я выхожу из комнаты.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
-` To prove if I am a killer or not.@
-` ...... I don't even have to think about it.@
-` I just have to look around the town at night and find the killer which isn't me------\
+` Чтобы узнать, убийца я или нет...@
+` Даже и думать нечего.@
+` Мне нужно выйти в город ночью, найти настоящего убийцу и тем самым убедиться, что это не я...\
 
 !w2000
 ;S.E."??"
@@ -196,11 +197,11 @@ wave se0
 bg "image\bg\bg_25b.jpg",%type_crossfade_mid
 
 
-` I let out a long breath.@
+` Я испускаю протяжный вздох.@
 br
-` ----------I walk around the night-shrouded town.\
+` Я иду по окутаному темнотой городу...\
 br
-` I put my hands in my pocket, feeling the knife in there on my fingertips as I walk around town.\
+` Сунув руки в карманы, прикасаясь к лежащему там ножу, я иду по ночному городу.\
 
 ;S.E."??"
 wave se0
@@ -212,11 +213,11 @@ bg "image\bg\bg_26a.jpg",%type_crossfade_mid
 ;CD-DA???????
 play "*6"
 
-` *pant*-----*pant*
+` *вдох*-----*вдох*
 br
-` -------I breathe quietly as I walk around.@
-` Trying not to draw attention.@
-` I look at the people passing by as I conceal my presence.\
+` Тихо дыша, я иду по улицам...@
+` Стараясь не привлекать внимания.@
+` Стараясь оставаться незаметным, я осматриваю прохожих.\
 
 ;S.E."??"
 wave se0
@@ -225,14 +226,14 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_27b.jpg",%type_crossfade_mid
 
 br
-` *pant*------*pant*, *pant*.@
+` *вдох*------*вдох*, *вдох*.@
 br
-` --------I am searching for the killer.@
-` Someone will get attacked tonight.@ He is looking for a new victim.@
-` Say, a girl with long, black hair.@
-` A girl around my age would be best.@
-` No need to mention the beauty of her hands and feet, but the beauty of her neck should be considered.@
-` In the end, everything counts on that one spot.\
+` Я продолжаю поиски убийцы...@
+` Сегодня на кого-то нападут.@ Он ищет новую жертву.@
+` Скажем, девушку с длинными чёрными волосами.@
+` В идеале, примерно моего возраста.@
+` Естественно, её руки и ноги должны быть красивыми, но что действительно важно, так это её шея.@
+` В конечном итоге, всё определяет именно шея.\
 
 ;S.E."??"
 wave se0
@@ -241,28 +242,28 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_30b.jpg",%type_crossfade_mid
 
 
-` *p-pant*, *pant*, *pant*.@
+` *в-вдох*, *вдох*, *вдох*.@
 br
-` --------I look for the killer.@
+` Я продолжаю искать убийцу...@
 br
-` ...... I know I won't find him easily.@
-` I knew from my dreams that the perfect prey is hard to find.\
+` Я знаю, что найти его будет нелекго.@
+` По своим снам я знаю, что подходящую жертву трудно найти.\
 
 ;S.E."??"
 wave se0
 
-` *pant*...... *pant*...... *pant*
+` *вдох*...... *вдох*...... *вдох*
 br
-` B... u... t
-` Tonight, this town bores me.@
-` I cannot find my PREY.@
-` I'm getting angry.@ My objective was to find someone, or to kill someone, or something like that.\
+` Н... о
+` Сегодня этот город меня утомляет.@
+` Я не могу найти свою ЖЕРТВУ.@
+` Я начинаю злиться.@ Моей целью было найти кого-то, или убить кого-то, или что-то такое.\
 
-`"------------Ha..."@
+` «Ха...»@
 br
-` I'll hold my breath.@
-` I'll hold on to my knife.@
-` I should concentrate, so I will be able to return death at any time.\
+` Я задержу дыхание.@
+` Я сожму нож.@
+` Мне надо сосредоточиться, чтобы в любой момент я смог ответить смертью на смерть.\
 
 ;S.E."??"
 wave se0
@@ -271,20 +272,20 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_31b.jpg",%type_crossfade_mid
 
 
-` I pant more and more.@
+` Я дышу всё тяжелее и тяжелее.@
 br
-` ---I look for the KILLER.@
+` Я веду поиск УБИЙЦЫ...@
 br
 ;S.E."??"
 wave se0
 
-` But I can't find him.@
-` Only time passes.@
-` *pant*, *pant*.@
+` Но я не могу найти его.@
+` Я только теряю время.@
+` *вдох*, *вдох*.@
 ;S.E."??"
 wave se0
 
-` It overflows, sharpens, is used, is used up, and over time stands up, and changes form and-------\
+` Он переполняется, заостряется, применяется, расходуется, и затем пробуждается, меняет форму, и...\
 ;S.E."??"
 wave se0
 ; ???<???????(?)>
@@ -295,25 +296,25 @@ bg "image\bg\bg_31b.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-` In front of me lies tonight's prey.@
+` Передо мной лежит сегодняшняя жертва.@
 br
-` My panting fills the air.@
+` Моё дыхание гулко отдаётся в воздухе.@
 br
-` It is a dead woman's corpse.@
-` In my hand is a knife.@ The red blood on my knife drips to the ground.@
+` Это труп женщины.@
+` У меня в руке нож.@ Красная кровь капает с лезвия.@
 br
-` --------Why?@
-` I was looking for the killer, but all of a sudden, there's the dead body of a woman right in front of me.\
+` Почему?..@
+` Я искал убийцу, и вдруг ни с того ни с сего передо мной лежит труп женщины.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_31b.jpg",%type_crossfade_fst
 
 
-` *pant*, *pant*, *pant*, *pant*.@
-` My breathing gets out of control.@
-` A dead body in front of me.@
-` A bloody knife in my hand.\
+` *вдох*, *вдох*, *вдох*, *вдох*.@
+` Моё дыхание выходит из-под контроля.@
+` Передо мной лежит труп.@
+` В моей руке зажат окровавленый нож.\
 
 br
 br
@@ -322,50 +323,50 @@ br
 br
 br
 br
-` --------------I don't understand.\
+` Я не понимаю...\
 
-` When, at what time, what I did.@
-` Did something happen to my mind?@
-` Yes, like...
-` it overflows, sharpens, is used, is used up, and over time stands up, and changes form, changes its meaning, becomes free, explodes, and lightens up.@
-` On that path.@
-` The theory of evolving consciousness and meaning.@
-` But an important path is missing.\
+` Когда, в какой момент я сделал это.@
+` Что-то случилось с моим рассудком?@
+` Да, что-то типа...
+` он переполняется, заостряется, применяется, расходуется, и затем пробуждается, меняет форму, меняет смысл, освобождается, взрывается и проясняется.@
+` В такой последовательсноти.@
+` Теория развивающегнося сознания и значения.@
+` Но не хватает важной цепочки.\
 
 br
 br
-` Since when.@
+` Когда.@
 br
 br
-` Did I.@
+` Я успел.@
 br
 br
-` Turn into.@
+` Превратиться.@
 br
 br
-` The other "me"?\
+` В другого «меня»?\
 
 
 
-` ---------I see.@
-` There was no need for me to give you a push, Shiki.\
+` Вот как...@
+` Шики, на тебя не нужно было воздействовать.\
 
-` From behind me,
-` comes a voice.@
+` Из-за моей спины,
+` раздаётся голос.@
 br
-` Heavy breathing.@
+` Тяжёлое дыхание.@
 br
-` I turn around.@
-` There.@
+` Я разворачиваюсь.@
+` Там.@
 
 ; ?? : 01_??<????>
 ld c,":a;image\tachi\hal_t01.jpg",%type_crossfade_fst
 cl c,%type_crossfade_fst
 br
-` Someone I have never seen before, yet someone who looks like me, stands there.\
+` Стоит кто-то, кого я раньше никогда не видел, но он очень похож на меня.\
 
-` ------It can't be helped if you're already broken.@
-`  Bye, Shiki.@ I wanted to play around with you for a bit longer.\
+` Ничего не поделаешь раз ты уже сломан...@
+`  Пока, Шики.@ Я хотел поиграть с тобой ещё немного.\
 
 ;S.E."??????"
 wave se5
@@ -374,22 +375,20 @@ wave se5
 bg "image\bg\ima_12b.jpg",%type_crossfade_fst
 
 
-` Slash.@ I'm cut with a knife.@
+` Шшмяк.@ В меня вонзается нож.@
 br
-` It hurts.@
-` It's funny.@
-` It's deep.@
-` It's great!\
+` Больно.@
+` Забавно.@
+` Глубоко.@
+` Отлично!\
 
-`"Ha------haha, ha."@
-` I start to pass out.@
-` Like that, in that ambiguous state, I was killed.@
-` ...... I'm happy, in a way.@
-;И да, я счастлив.
-` Tohno Shiki was killed by the killer.@
-;Ведь Тоно Шики убит убицей.
-` That's proof that I wasn't the killer.\
-;А значит я - не он.
+` - Ха... хаха, ха.@
+` Я начинаю терять сознание.@
+` Вот так, пока я колебался, меня и убили...@
+` Но в каком-то смысле я счастлив.@
+` Ведь Тоно Шики убит убицей.@
+` А значит я - не он.\
+
 ;CD-DA??
 playstop
 
@@ -411,6 +410,7 @@ waittimer 3000
 
 
 return
+
 
 
 </pre>
