@@ -13,40 +13,40 @@ bg "image\bg\cmo_20.jpg",%type_crossfade_slw
 ;CD-DA??????
 play "*7"
 
-` ...... It was years and years ago.@
-` I came here, after having shut myself up in my room for so long.@
-` Probably after I had become friends with one of the servant girls, and was coming out to play at last.@
+` Это было много лет назад...@
+` Уже не запираясь у себя в комнате как раньше, я решил выйти.@
+` Наверное я подружился с девчонкой из прислуги и вышел поиграть.@
 br
-` ---I'm sorry, Nii-san.@
+` «Нии-сан, прости меня.»@
 br
-` In the empty courtyard, Akiha suddenly started to cry.@
-` Even when I asked what she was apologizing for, she just kept apologizing.\
+` Акиха разревелась, стоя посреди пустого двора.@
+` Она всё извинялась, даже когда я спросил, за что она извиняется.\
 
-` ----Because we stole everything from you, Nii-san.@
+` «Потому что мы отняли у тебя всё.»@
 br
-` The reason why Akiha is crying is something that has already ended for me in the past.\
-` ...... It would be a lie to say I didn't hold a grudge.@
-` But, a six year old girl can't feel responsible for that, and it can't be something she would apologize so desperately for.@ In the first place, she didn't do anything wrong.\
+` Акиха извиняется за то, что я уже оставил для себя позади.\
+` Было бы неправдой говорить, что я не злюсь из-за того...@
+` Но шестилетняя девочка не может быть ответственной за это, и её ни к чему извиняться за это.@ Начнём с того, что она ничего плохого не сделала.\
 
-` ---I'm sorry.@ I'm sorry, Nii-san.@
+` «Прости.@ Нии-сан, прости.»@
 br
-` ...... Why didn't I notice?@
-` From the very first time I met Akiha, she was always apologizing to me.@
-` In this big mansion, the only one who cried for me.@
+` И как я раньше не заметил?..@
+` Акиха извинялась передо мной с нашей первой встречи.@
+` Во всём этом большом поместье только она плакала за меня.@
 br
-` ---Thank you.@ But, that's enough.@
+` «Спасибо.@ Но хватит уже.»@
 br
-` Smiling, I stroked Akiha's head.@
-` Akiha looked up at me, bewildered.@
-` Then, for the first time, I felt strongly...\
+` Улыбаясь, я глажу Акиху по голове.@
+` Акиха удивлённо смотрит на меня.@
+` И тогда-то я впервые по настоящему почувствовал...\
 
-` ---You don't have to cry, Akiha.@
-` From now on, we're brother and sister.@
+` «Не плачь, Акиха.@
+` Теперь мы — брат и сестра.»@
 br
-` ...... I remember Akiha's face laughing happily.@
-` I made a promise then.@
-` We would be a real family.@
-` Since I was the elder brother, I would protect Akiha, whatever happened.\
+` Я помню счастливый смех Акихи.@
+` Тогда я дал обещание.@
+` Что мы станем настоящей семьёй.@
+` И как старший брат, я буду защищать Акиху от всех невзгод.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -60,8 +60,8 @@ br
 br
 br
 br
-` Such thoughts.@
-` I had a time where I held on to those thoughts as if I was dreaming.\
+` Эти мысли.@
+` Когда-то я цеплялся за них, как безумный.\
 
 !w2000
 ; ?? : ?? : ?????(?)<???????(?)>
@@ -70,12 +70,12 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 play "*2"
 
 
-`"Nn..."@
-` I awake to the morning light.@
-` Knowing for sure that I am not the killer, I had no dreams of murder last night.@
-`"...... But, there was something..."@
-` I feel like I had a nostalgic dream.@
-` When Akiha and I were still young, a dream from before we knew what we were to each other...\
+` - Нн...@
+` Утренний свет льётся мне в глаза.@
+` Я знал, что я не убийца, и сегодня мне убийства не снились.@
+` - Но, было что-то...@
+` Как-будто мне снился сон о прошлом.@
+` О тех временах, когда мы с Акихой были маленькими и ещё не знали, кем приходимся друг другу...\
 ;S.E."???"
 wave se3
 
@@ -83,53 +83,53 @@ wave se3
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
-`"Excuse me.@ It is time to get up, Shiki-sama."@
-`"Yeah, morning, Hisui.@ You're early again this morning."@
+` - С добрым утром, Шики-сама.@ Разрешите войти.@
+` - Доброе утро, Хисуи.@ Ты как всегда рано.@
 
 ; ?? : 01~10 : 03_??01(????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-` Hisui bows and enters.@
-` As always, she places down a fresh school uniform and bids me good morning.\
+` Пклонившись, Хисуи заходит в комнату.@
+` Как всегда, она приносит мне свежую форму и желает доброго утра.\
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"Shiki-sama, what time did you return last night?@ Akiha-sama was waiting in the sitting room."@
-`"...... Yeah, I was tired yesterday.@ I knew Akiha was waiting in the sitting room, but I went straight to my room."@
+` - Шики-сама, во сколько вы вчера вернулись?@ Акиха-сама дожидалась вас в гостиной.@
+` - Верно... но вчера я сильно устал.@ Я знал, что Акиха ждёт меня, но я пошёл сразу к себе.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Answering, I feel depressed from self-loathing.@
-` ...... Last night.@
-` After parting from Ciel-senpai, I returned to the mansion and went straight to my room to escape Akiha.\
+` Говорю я, чувствуя угрызения совести.@
+` Вчера...@
+` Попрощавшись с Сиэль-сенпай, я вернулся в поместье и направился прямиком к себе, стараясь избежать встречи с Акихой.\
 
-` Although I denied it to Senpai, I was afraid to ask Akiha.@
-` I can't just ask Akiha, "Are you a vampire?" If the answer was the worst possible, I wouldn't know what to do.@
-` Thinking about that sort of thing, I can't face her, and I can't talk to her.\
+` Хоть я и был твёрд с Сенпай, я боялся расспрашивать Акиху.@
+` Я не мог прсто подойти к ней и спросить: «Ты вампир?». Я бы не знал, что делать, если бы бы она подтвердила то, чего я бось больше всего.@
+` Пока меня беспокоит всё это, я не могу нормально общаться с ней.\
 
-`"Hisui.@ Is Akiha already in the sitting room?"@
+` - Хисуи.@ Акиха уже в гостиной?@
 
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Yes.@ She has been waiting for you for some time."@
-`"...... I see.@ That's bad..."@
-` Right now, I have no confidence that I can talk with her as I usually do.@ I'm not sure I can manage even a casual greeting.@
-`"Hisui.@ Sorry, but could you stay with me today?@ Until I leave, I'd like you by my side."@
+` - Да.@ Она дожидается вас уже какое-то время.@
+` - Ясно...@ Это плохо.@
+` Я не уверен, что смогу сделать вид, будто меня ничего не беспокоит.@ Скорее всего я выдам себя первой же фразой.@
+` - Прости, Хисуи, но не могла бы ты сопровождать меня сегодня?@ Быдь рядом со мной пока я не уйду.@
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"--------"@
-` Although her expression does not change, Hisui looks at me in shock.\
+` - ...@
+` Выражение её лица не изменилось, но в глазах Хисуи явно читается удивление.\
 
 ; ?? : 01~10 : 04_??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t16b.jpg",%type_crossfade_fst
 
-`"---I understand.@ Then, I shall accompany you until you leave, Shiki-sama."@
-` Bowing very deeply, Hisui grants my request.\
+` - Хорошо.@ Я буду сопровождать вас вплоть до вашего ухода.@
+` Очень низко поклонившись, Хисуи соглашается на мою просьбу.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -137,15 +137,15 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 
-` In the sitting room, Kohaku-san is drinking tea with Akiha.@
-`"Ah, morning, both of you."@
-` Somehow, I greet them naturally.@
+` В гостиной Акиха и Кохаку-сан пьют чай.@
+` - А, всем доброго утра.@
+` Каким-то образом мне удаётся произнести эту фразу нормальным тоном.@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`".................."@
-` Maybe she's mad at me for going straight to my room; Akiha glances only briefly at me, saying nothing.\
+` - ...@
+` Наверное, она злится на меня за то, что я сразу пошёл к себе; Акиха бросает на меня быстрый взгляд, не произнеся ни слова.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -153,13 +153,13 @@ cl a,%type_crossfade_fst
 ; ?? : 01~10 : 01_?01(???)<???????(?)>
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Good morning, Shiki-san.@ It's unusual to see you together with Hisui-chan."@
-`"...... Yeah, I don't feel great today, so I asked her to escort me.@ It would be dangerous if I felt giddy on the stairs."@
+` - Доброе утро, Шики-сан.@ О, обычно ты не приходишь сюда вместе с Хисуи-тян.@
+` - Да, я себя неважно чувствую, и я попросил её сопровождать меня.@ Было бы нехорошо если бы у меня голова закружилась на ступенях.@
 
 ; ?? : 01~10 : 05_?<???????(?)>
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"Ehe~, I see.@ Hisui-chan, you really are relied on."@
+` - Эхее, понятно.@ Видишь, Хисуи-тян, тебя считают надёжной.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -167,8 +167,8 @@ cl a,%type_crossfade_fst
 ; ?? : 01~10 : 03_??01(????)<???????(?)>
 ld c,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
 
-`"............"@
-` Of course, Hisui stands beside me silently.\
+` - ...@
+` Конечно же, Хисуи продолжает хранить молчание.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -176,82 +176,82 @@ cl a,%type_crossfade_fst
 ; ?? : 01~10 : 01_?01(???)<???????(?)>
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Well, I'll go and prepare breakfast.@ Please wait with Akiha-sama."@
+` - Ну что ж, я пойду готовить завтрак.@ А пока составь компанию Акихе-сама.@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Kohaku-san goes into the kitchen.@
-`"............"@
-` Akiha says nothing.@
-` Feeling an unpleasant atmosphere, I sit down on the sofa.\
+` Кохаку-сан уходит на кухню.@
+` - ...@
+` Акиха молчит.@
+` Оказавшись в неприветливой обстановке, я молча усаживюсь на диван.\
 
 ` ......@
 ` ............@
 ` ..................@
-` An uneasy silence rules the sitting room.\
+` Ничто не нарушает царящую в комнате тишину.\
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"Nii-san."@
-`"Nn---what is it, Akiha?"@
+` - Нии-сан.@
+` - Дд...да, Акиха?@
 
 ; ?? : 11~20 : 12_??01(???????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"You said you're not feeling well; are you feeling alright...?"@
-`"No, it's nothing major.@ You don't need to worry about it."@
+` - Ты сказал, что неважно себя чувствуешь; что случилось?..@
+` - Да ничего серьёзного.@ Не переживай.@
 
 ; ?? : 11~20 : 16_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"...... Really.@ Well, then, that's good, but..."@
-` Akiha looks away uneasily.\
+` - Вот как...@ Это хорошо, но...@
+` Акиха с беспокойным видом отворачивается.\
 
-`"...?"@
-` There's something strange about Akiha's attitude.@
-` It's obvious she cares about last night, but she's different from usual.@
-` Usually, she would at least say "Why didn't you tell me when you came home?" Instead, she looks incredibly nervous.\
+` «...?»@
+` Что-то в её поведении не то.@
+` Она явно беспокоится из-за вчерашнего, но она ведёт себя странно.@
+` Обычно, она бы хотя бы спросила, почему я не сообщил ей, что вернулся. Но вместо того она молчит и явно нервничает.\
 
-`"Uh, Akiha?"@
+` - Э, Акиха?@
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"Ah, Nii-san?"@
+` - А, Нии-сан?@
 br
-` ----The two of us speak simultaneously.@
+` Говорим мы в унисон.@
 br
 
 ; ?? : 11~20 : 13_??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t19.jpg",%type_crossfade_fst
 
-`"Ah, yes.@ What is it, Nii-san?"@
-`"No, what were you going to say?"@
+` - А, хорошо.@ Что ты хотел?@
+` - Нет, что ты хотела?@
 
 ; ?? : 11~20 : 16_??(??)<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"...... Nothing, I was just calling your name----"@
-`".........?"@
-` I get even more confused.\
+` - Ничего, просто обратилась к тебе...@
+` - ?..@
+` Я уже вообще ничего не понимаю.\
 
-`"Akiha-sama, Shiki-san!@ Breakfast is ready...!"@
-` Kohaku-san's voice comes from the dining room.@
-`"Well, shall we go, Akiha?"@
+` - Акиха-сама, Шики-сан!@ Завтрак готов!..@
+` Из столовой доносится голос Кохаку-сан.@
+` - Ну что, пошли?@
 
 ; ?? : 11~20 : 12_??01(???????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"---Yes, let's go, Nii-san."\
+` - Да, Нии-сан, пойдём.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Somehow, Akiha seems awfully meek this morning.@
-` ...... And now, I hate myself even more.@
-` Before, I was thinking how difficult it would be to see Akiha, yet I'm thinking if she is this subdued, I want to talk with her more.\
+` Акиха ведёт себя невероятно кротко.@
+` И я начинаю ненавидеть себя ещё сильнее...@
+` Раньше я думал только о том, как тяжело мне будет общаться с Акихой, а теперь, когда она ведёт себя так мгяко, мне только ещё сильнее хочется поговорить с ней.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -262,24 +262,24 @@ bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Well then, Shiki-sama, Akiha-sama, have a good day."@
-` Following my instructions precisely, Hisui follows us to the main gates.\
+` - Шики-сама, Акиха-сама, удачного вам дня.@
+` В точности исполняя мои указания, Хисуи сопровождает нас до ворот.\
 
-`"Since today's Saturday, I'll be back a little early... Ah, but you don't need to wait out here.@ Since I may go to play for a bit, please wait in the mansion."@
+` - Сегодня суббота, так что я вернусь раньше... А, но ждать меня не надо.@ Я могу пойти погулять, так что жди меня в особняке.@
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-` Affirming her consent, Hisui bows and we leave the gates of the mansion behind.\
+` Утвердительно кивнув, Хисуи кланяется нам на прощание, и мы выходим за ворота.\
 ; ???? : ??????? : ?(?)<?????(?)>
 bg "image\bg\bg_22a.jpg",%type_lcartain_mid
 
 
-`"............"@
-` Now.@ The problem is the way from here to school.@
+` - ...@
+` Так.@ А теперь надо как-то добраться до школы.@
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"............"@
-` Akiha follows silently next to me.@
-` ......Although part of me is glad of the silence, it still feels uncomfortable.\
+` - ...@
+` Акиха молча идёт рядом.@
+` И хотя я отчасти благодарен за молчание, я всё равно чувствую себя немного неуютно.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -293,162 +293,162 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_01a.jpg",%type_lcartain_mid
 
 
-` We arrive at school.@
-` It is just past seven-thirty.@
-` Only a small number of students arrive at this time.@
+` Мы подходим к школе.@
+` Сейчас немногим больше половины восьмого.@
+` Мало кто из учеников приходит в это время.@
 
 
-`"............"@
-` Akiha is still silent.@
-` ...... It would be really awkward if we didn't exchange a word all morning.\
+` - ...@
+` Акиха по прежнему молчит.@
+` Было бы нехорошо за всё утро не обменяться ни словом.\
 
-`"...... Hey, Akiha."@
+`" - Эй, Акиха.@
 
 ; ?? : 11~20 : 19_??(??????)<???????(?)>
 ld c,":a;image\tachi\aki_t19.jpg",%type_crossfade_fst
 
-`"Ah... ah.@ Yes, what is it, Nii-san?"@
-`"What is it...?@ You... you seem really odd this morning.@ You're not even angry about last night and you seem really distant."@
+` - А...a.@ Да, Нии-сан, что ты хотел?@
+` - Что я хотел?..@ Ты... ты сегодня какая-то странная.@ Ты не злишься за вчерашнее, и выглядишь какой-то отстранённой.@
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"Eh---does it seem that way?"@
-`"...... Yeah, it does.@ Are you still feeling bad?@ If so, you should be resting---"\
+` - Э... в самом деле?@
+` - Да, в самом деле.@ Тебе всё ещё нехорошо?@ Если да, то тебе надо отдыхать...\
 
-` ---Ah.@
+`    А...@
 br
-` Suddenly, I notice.@
-` Akiha took the day off school yesterday.@
-` Yesterday Ciel-senpai had bandages on her arm, and said she had a painful experience.\
+` Вдруг я осознаю.@
+` Вчера Акихи в школе не было.@
+` У Сиэль-сенпай же вчера были перевязаны руки, и она говорила о болезненной встрече.\
 
-`".................."@
+` - ...@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"...... Um, Nii-san, you don't really look well either."@
-`"Ah----no, that's..."@
-` I shake my head, to throw off the unpleasant image.@
-` ...... There's something wrong.@
-` Since Akiha suffers from the same frailties as I do, there's nothing strange about her taking a day off school.@
-` I have to trust Akiha, so I can't let my imagination run away with me like that.\
+` - Эм, Нии-сан, ты вообще-то тоже неважно выглядишь.@
+` - А... нет, это...@
+` Я качаю головой, стараясь забыть неприятную картину.@
+` Это неправильно...@
+` У Акихи такие же проблемы со здоровьем, как и у меня, так что ничего удивительного если ей надо пропустить занятия.@
+` Я должен доверять Акихе, и мне не следует так давать волю воображению.\
 
-`"I'm fine.@ More importantly, what's wrong?@ Somehow, you seem really feminine this morning, not like yourself at all."@
+` - Я в порядке.@ А вот с тобой что такое?@ Ты сегодня такая женственная, непохожая на обычную себя.@
 
 ; ?? : 11~20 : 13_??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
 
-`"...... You just said something really terrible, Nii-san."@
-`"Ah, yes, that's a little more like it.@ I'll feel uneasy if you're not like this, Akiha... Well, being calm isn't that bad every once in a while."\
+` - Нии-сан, это было совсем невежливо.@
+` - А, вот так то лучше.@ Мне становится неуютно, когда ты не такая как обычно... Хотя, изредка побыть спокойной тоже хорошо.\
 
 ; ?? : 11~20 : 16_??<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"...... Oh.@ Am I always so rough?"@
-`"Ah... no, you are gentle.@ You're polite, and very proper... That's strange, in that case, why......"@
-` Why don't I think of her as being calm all the time?\
+` - О.@ Я всегда такая грубая?@
+` - А... нет, ты не грубая.@ Ты вежливая, очень воспитанная... Странно, почему тогда...@
+` Почему я обычно не считаю её спокойной?\
 
-`"...... Well, it's okay.@ If you say there's nothing wrong with you, I won't ask anymore.@ Come on, let's go inside."@
+` - Ну, ладно.@ Раз ты говоришь, что всё в порядке, то я допытываться не буду.@ Давай, пошли внутрь.@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`".................."@
-` Looking like she wants to say something more, Akiha follows me into the school building.\
+` - ...@
+` Словно бы собираясь сказать что-то ещё, Акиха идёт следом за мной в здание.\
 
 ; ?? : ?? : ????(?)<??????(?)>
 bg "image\bg\bg_03a.jpg",%type_lshutter_mid
 
 
-`"See you later; since school finishes early today, we can have lunch at the mansion."@
+` -  Увидимся. Сегодня занятия заканчиваются раньше, так что мы можем пообедать в поместье.@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"Ah---Nii-san."@
-`"Hm?@ What is it, do you feel bad after all?@ If so, I'll take you to the nurse..."@
+` - А... Нии-сан.@
+` - Хм?@ Что такое, тебе всё-таки нехорошо?@ Давай я тогда отведу тебя в медпункт...@
 
 ; ?? : 11~20 : 16_??<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 
-`"No, I feel fine.@ I don't feel bad at all.@ But there is a reason I just... feel completely lost this morning."\
+` - Нет, всё в порядке.@ Я нормально себя чувствую.@ Но... есть причина, почему я сегодня сама не своя.\
 
-`"...?@ Lost?@ What do you mean?"@
+` - ?@ Сама не своя?@ Ты о чём?@
 
 ; ?? : 11~20 : 19_??(??????)<???????(?)>
 ld c,":a;image\tachi\aki_t19.jpg",%type_crossfade_fst
 
-`"Um... Nii-san, do you remember that childhood promise?"@
-` Suddenly,
-` Akiha glances up at me with flushed cheeks.\
+` - Эм... Нии-сан, ты помнишь то обещание из детства?@
+` Неожиданно,
+` Акиха заливаеттся краской и смотрит мне прямо в глаза.\
 
-`"---Childhood promise?@ What's that?"@
+` - Десткое обещание?@ О чём?@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"...... Geez.@ Of course you don't remember it.@
+` - Ухх.@ Ну конечно ты не помнишь.@
 
 ; ?? : 01~10 : 06_?02(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t06.jpg",%type_crossfade_mid
 
-` That's fine, it's nothing at all.@ I didn't expect you to anyway.@ It seems it didn't mean anything to you!"@
-` With a hmph, Akiha turns away.\
+` Не важно, пустяки.@ Я ничего от тебя и не ожидала.@ Всё равно для тебя это наверно ничего не значило!@
+` Хмыкнув, Акиха отворачивается.\
 
-`"What's this all of a sudden?@ When we were children, that was eight years ago.@ You say promise, but there's so many promises I made to you.@
-` Even if you ask me like that, I won't be able to remember."@
+` - Ты чего это вдруг.@ Когда мы были детьми, это было восемь лет назад.@ Ты говоришь об обещании, но я тебе много чего обещал.@
+` Так что я не могу так сразу вспомнить именно то, о чём говоришь ты.@
 
 ; ?? : 11~20 : 14_??03(??????)<???????(?)>
 ld c,":a;image\tachi\aki_t14.jpg",%type_crossfade_fst
 
-`"That's... true, but... aren't there some things you want others to remember?@ Last night, I had a dream about when we were small, so I wondered if you would remember."\
+`- Ну... это верно, но... ведь бывает же так, когда хочется, чтобы и кто-то другой запомнил что-то важное для тебя?@ Вчера мне приснился сон о том, когда мы были маленькими, и мне стало интересно, помнишь ли ты.\
 
-`"Akiha.@ You think I can remember everything just because you saw a dream from your childhood?"@
+` - Акиха.@ Ты думаешь я всё помню только потому, что тебе это приснилось?@
 ; ?? : 11~20 : 16_??<???????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
 ;CD-DA??
 playstop
 
-`"...... But, it was nostalgic.@ Don't you remember, the first time you called my name, and stroked my head under that tree?@
-` Back then, I would cry easily, right?@ Everyone would try to calm me down when I cried, but you would be sad with me.@ So it caused me to cry more, but afterwards, I really felt like there was nothing sad anymore.@
+` - Но это было такое важное воспоминание.@ Ты не помнишь, под деревом, когда ты впервые меня назвал по имени и погладил по голове?@
+` Я ведь тогда часто плакала.@ Все старались меня успокоить, но ты грустил вместе со мной.@ И оттого мне хотелось плакать ещё сильнее, но потом от того, что огрчало меня, не оставалось ни следа.@
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-` From that time, I----Nii-san?@ What's wrong?@ Do you feel ill...?"\
+` С тех пор я... Нии-сан?@ В чём дело?@ Тебе плохо?..\
 
-`"---Akiha.@ That dream, last night.@ Is it the time you were crying in the empty garden...?"@
+` - Акиха...@ Тот вчерашний сон.@ Это когда ты плакала посреди пустого сада?..@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"Ah... yes.@ I don't remember it very well, but it felt like that kind of dream---"@
+` - А...да.@ Я не очень хорошо помню, но вроде бы что-то такое было...@
 ;S.E."??"
 wave se0
 
-`"------"@
-` Something cold runs down my back.@
-` That dream.@
-` I had that dream too.@
-` ...... Senpai said.@
-` I get pulled into the vampire's mind.\
+` - ...@
+` Мороз пробежал у меня по спине.@
+` Этот сон.@
+` Это тот же сон, что видел я.@
+` Сенпай говорила...@
+` Что меня увлекает в азум вампира.\
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"Nii-san?@ Are you sure you're alright...?"@
-`"----It's nothing.@ Well, I'm going this way, so bye!"\
+` - Нии-сан?@ Ты точно в порядке?..@
+` - Всё в порядке.@ Ну ладно, я пошёл, пока!\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` I part from Akiha, feeling sick.@
-` ...... Why?@
-` Why is the result always the worst possible?@
-` Being drawn into the vampire's mind as I sleep.@
-` Last night.@
-` I didn't want to know I was dreaming the same dream as Akiha instead of the killer's dream.\
+` Я быстро ухожу, чувствуя себя просто отвратительно.@
+` Ну почему?..@
+` Почему всё всегда складывается наихудшим образом?@
+` Во сне мо разу млсивается с разумом вампира.@
+` Вчерашний сон.@
+` Я не хотел знать, что вижу те же сны, что и Акиха.\
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ?? : ?? : ??(?)<?????(?)>
@@ -457,54 +457,54 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 ;CD-DA?????
 play "*1"
 
-` ...... There are only a few people in the classroom.@
-` I move to my seat by the window, and put down my bag.@
-`"............"@
-` Sitting in my chair, I wait for homeroom to start.\
+` В классе сидят только несколько человек.@
+` Я сажусь на свой место у окна и опускаю сумку.@
+` - ...@
+` Я сижу и жду начала классного часа.\
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Oh, you're early, Tohno.@ You look pretty pale this morning; you alright?"@
-`"Arihiko?@ ...... Honestly, you, Akiha, you all keep saying the same thing.@ Do I really look that bad?"@
-`"Uh?@ Nah, actually, you look much like you always do.@ I guess you just look really down, huh."@
-`"......... Down, huh."@
+` - О, Тоно, ты сегодня рано.@ Какой-то ты бледный, ты в норме?@
+` - Арихико...@ Вы что, с Акихой сговорились?@ Я и правда настолько плохо выгляжу?@
+` - Э?@ Хотя, нет, ты выглядишь где-то как всегда.@ Разве что подавлен.@
+` - Подавлен...@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Certainly, I feel down.@
-` If Senpai came and said,
-`"Wasn't it like I said?"@
-` I wouldn't be able to say anything back.\
+` Да, я чувствую себя подавлено.@
+` Если бы Сенпай сейчас пришла и сказала:
+` «Ну я же говорила?».@
+` Я бы не смог ничего ответить.\
 
-`"---Arihiko?@ Have you seen Senpai today?"@
+` - Арихико.@ Ты Сенпай сегодня не видел?@
 
 ; ?? : 04_??<???????(?)>
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
-`"Eh?@ Which Senpai?"@
-`"Which...?@ The only Senpai we both know is Ciel-senpai, right?"@
-`"Who's that?@ 'Shieru'?@ Were there any foreign students at this school?"@
+` - Э?@ Что за Сенпай?@
+` - Что за?..@ Сиэль-сенпай, о ком ещё я могу говорить?@
+` - Это ещё кто?@ «Сиэру»?@ У нас разве были ученики из других стран?@
 br
-` ----My mouth falls open in astonishment.@
+`       У меня отпадает челюсть.@
 br
-`"...... Arihiko, you..."@
-` My broken voice gets that far.@ But I can't get any further.\
+` - Арихико, ты...@
+` Я сам почти не слышу своего голоса.@ Но на большее у меня не хватает сил.\
 
 ; ?? : 03_??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
 
-`"What is it, Tohno?@ If you got something to say, then say it.@ I'll listen to anything except money problems."@
-` Arihiko acts like usual.@
-` Acting like usual, he doesn't remember Senpai at all.\
+` - Что такое, Тоно?@ Если тебе есть что, сказать, то говори.@ Я послушаю, если это только не из-за денег.@
+` Арихико ведёт себя как всегда.@
+` Получается, он не помнит Сенпай.\
 
-`"You really don't remember Senpai...?"@
-`"That's why I'm asking, who is this Senpai you keep talking about?"@
-`"------"@
-` I can't answer anymore.@
-` Gradually,
-` I begin to understand the meaning of the goodbye she gave last night.\
+` - Ты правда не помнишь Сенпай?..@
+` - Я снова спрашиваю, что это за Сенпай о котором ты говоришь?@
+` - ...@
+` Я не могу ничего произнести.@
+` Постепенно,
+` Я понимаю истинный смысл её вчерашнего прощания.\
 
 ;S.E."??"
 wave se2
@@ -513,30 +513,30 @@ wave se2
 ; ?? : 05_??????<???????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_crossfade_fst
 
-`"Oh, old Kunifuji'll be here any moment.@ See you later!"@
+` - О, Кунифуджи вот-вот припрётся.@ До скорого!@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Arihiko returns to his own desk.@
-` The teacher enters the classroom, homeroom begins, and after that, the first period starts with physics.@
+` Арихико усаживается к себе за парту.@
+` Учитель входит в класс, начинается классный час, а следом — первый урок физики.@
 br
-` ----I just observe vacantly.@
+`     Я безучастно смотрю в одну точку.@
 br
-` Senpai has really disappeared.\
-` She has not merely disappeared from before me, but she has vanished, without a trace.\
+` Сенпай исчезла.\
+` Она не просто попрощалась со мной до следующего раза, она исчезла полностью, без следа.\
 
-` ----The spell has easily faded.@
+` «Заклинание развеялось»@
 br
-` ...... Looking somewhat sad, she said that.@
-` Arihiko doesn't remember her.@ I'm sure no one else remembers either.@
-` She was never a student here.@
-` She was just sent here in order to observe me.@
-` So, once she revealed her true character to me, there was no need for her to remain here.\
+` Она сказала это с таким печальным видом...@
+` Арихико не помнит её.@ Наверняка больше никто её не помнит.@
+` Она никогда здесь не училась.@
+` Её прислали сюда только чтобы наблюдать за мной.@
+` И как только она раскрыла правду, оставаться здесь стало бессмысленно.\
 
-`"------"@
-` My chest hurts.@
-` In place of proving that I was not a killer, Ciel-senpai disappeared like a mirage---\
+` - ...@
+` В груди у меня заболело.@
+` Доказав, что я не убийца, Сиэль-сенпай исчезла как мираж...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -550,29 +550,29 @@ wave se2
 bg "image\bg\bg_06a.jpg",%type_tcartain_mid
 
 
-` Lunch comes, and all classes end.@
-` Seeking to enjoy Saturday to the fullest, my classmates rush out of the classroom.\
+` Приходит время обеда, и занятия заканчиваются.@
+` Собираясь сполна насладиться субботним днём, мои одноклассники бегом покидают класс.\
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Oh?@ What is it, Tohno?@ You're not going?"@
-`"Ah, just staying a bit longer.@ I thought I'd wait a bit for someone."@
-`"Hmmm?@ That'd be Akiha-chan, huh?"@
-`"No way.@ If it were Akiha, I'd go and pick her up.@ I'm waiting for someone who has no reason to come, so I don't know if I'll get to see her."@
-`"Right.@ Well, later."@
-`"Yeah, and don't go playing around too much at night."@
+` - О?@ Тоно, в чём дело?@ Ты не идёшь?@
+` - А, я посижу тут ещё немного.@ Подожду кое-кого.@
+` - Хмммм?@ Уж не Акиху-тян ли?@
+` - Вовсе нет.@ Акиху бы я сам забрал.@ Я жду ту, кому нет никакой причины приходить, так что я не знаю, увидимся мы или нет.@
+` - Ага.@ Ну ладно, пока.@
+` - Ага. И не гуляй допоздна.@
 
 ; ?? : 02_??<???????(?)>
 ld c,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 
-`"Ahah!@ I'm done for if you have to tell me that."\
+` - Аха!@ Ну всё, мне точно конец раз уж и ты мне это говоришь.\
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_fst
 
-` Arihiko goes, and the other students start to go as well.@
-` I am left alone in the classroom, still waiting for Ciel-senpai.\
+` Арихико уходит, остальные ученики тоже расходятся.@
+` Я остаюсь один, и продолжаю ждать Сиэль-сенпай.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -582,48 +582,48 @@ bg "image\bg\bg_06a.jpg",%type_lshutter_fst
 play "*8"
 
 
-` Click, the hand of the clock hits 1pm.@
-` As the sounds of practice begin to echo from the grounds, the classroom door slides open.@
+` Щёлк. Стрелка часов показывает час дня.@
+` Снаружи начинаются тренировки, и до меня доносится звук открываемой двери.@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_lshutter_mid
 
-`"------"@
+` - ...@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` It is Akiha.@
-` She comes over to my seat by the window.\
+` Это Акиха.@
+` Она подходит к моей парте.\
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_lshutter_mid
 
-`"Nii-san?@ You're not going home?"@
-`"...... No, I'll go.@ I just haven't seen Senpai today.@ I thought if I waited here, she might come by."@
+` - Нии-сан?@ Ты не собираешься домой?@
+` - Нет, собираюсь.@ Просто я ещё не виделся сегодня с Сенпай.@ Я и решил подождать её здесь, вдруг заглянет.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` ...... No, that's wrong.@
-` I just want her to come by.@
-` But, she's never going to appear before me again.\
+` Нет, этого не случится...@
+` Я только хочу, чтобы она зашла.@
+` Но мы больше никогда не увидимся.\
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"---Is that so?@ Well then, I'll wait with you."@
-` Akiha sits at the desk next to me.@
-`"...... I don't mind or anything.@ You really are nosy, aren't you?"@
+` - Вот как?@ Тогда давай и я подожду за компанию.@
+` Акиха усаживается за соседнюю парту.@
+` - Жди, я не против.@ Но вот любишь ты навязываться, мм?@
 
 ; ?? : 01~10 : 09_?02(????)<???????(?)>
 ld c,":a;image\tachi\aki_t09.jpg",%type_crossfade_fst
 
-`"Yes.@ I'm your sister, after all."@
-` ...... Seeming a little happy, Akiha sits on the chair with a smile.@
-` ...... Well, there's no reason to send her away.@
-` Although it's unpleasant when Akiha and Senpai see each other, Senpai isn't coming anyway.@
-` I'm just wasting a day.\
+` - А как же.@ Я же всё таки твоя сестра.@
+` Улыбнувшись, Акиха садится рядом.@
+` В общем, нет ниаких причин её прогонять.@
+` Акиха и Сенпай не уживаются вместе, но ведь Сенпай всё равно не придёт.@
+` Я просто трачу день впустую.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -631,222 +631,223 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_06b.jpg",%type_lshutter_mid
 
 
-` It's afternoon.@
-` Akiha doesn't complain, and merely sits next to me.@
-` ...... Come to think of it this is the first time I've been with Akiha for such a long time since I came back to the mansion.@
-` Without conversation, I'm more aware of Akiha than ever.\
+` Время всё идёт.@
+` Акиха продолжает молча сидеть рядом со мной, не подаваяя признаков недовольства...@
+` Если подумать, то после моего возвращения я впервые провёл с Акихой столько времени.@
+` В тишине я только чётче ощущаю её присутствие рядом с собой.\
 
-` When we were small, Akiha was always crying.@
-` And for eight years, Akiha waited for me.@
-` And even now, Akiha simply accompanies me calmly.@
+` Когда мы были маленькими, Акиха часто плакала.@
+` Она ждала меня восемь лет.@
+` И даже сейчас она безропотно сопровождает меня.@
 br
-` ...... When I was told that Akiha might be a vampire, all I did was to deny it.@
-` The reasons are obvious.@
-` Akiha is my important younger sister, so I didn't want to accept it.\
+` Когда я узнал, что она может быть вампиром, я наотрез отказался признавать это.@
+` Причины очевидны.@
+` Она — моя дорогая младшая сестра, и я не хочу думать, что она может быть вампиром.\
 
-` ...... The girl I promised to protect.@
-` The reason I returned to the Tohno mansion.@
-` My surprise when I met Akiha for the first time after eight years, now grown beautiful.\
+` Девочка, которую я пообещал защищать.@
+` Причина, по которой я вернулся в поместье Тоно.@
+` Моё удивление, когда я увидел как расцвела Акиха за последние восемь лет.\
 
-` Akiha is important to me.@
-` I think I love her.@
-` But what kind of love it is, I cannot put into words clearly.@
-` We've lived as siblings for only two years.@
-` During that time, the feeling of wanting to protect her was stronger than the feeling of family.\
+` Акиха очень важна для меня.@
+` По моему, я люблю её.@
+` Но вот что это за любовь, я не могу точно сказать.@
+` Мы прожили вместе как брат и сестра только два года.@
+` И в то время желание защитить её было крепче семейной близости.\
 
-`"............"@
-` I don't understand.@
-` At times, I gaze on Akiha so much that I don't understand myself.@
-` It's not that she's important to me because she's my younger sister.@
-` She's just important to me.@
-` So.@
-` Even if she's a vampire, I---\
+` «...»@
+` Я не понимаю.@
+` Порой я и сам не замечаю, как обращаю взгляд в её сторону.@
+` Она дорога мне не потому, что она моя младшая сестра.@
+` Она просто дорога мне.@
+` И потому.@
+` Даже если она вампир, я...\
 
-`"Akiha.@ Shall we go back?"@
+` - Акиха.@ Пошли домой.@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"I don't mind, but... is that alright, Nii-san?@ Senpai isn't here yet, is she?"@
-`"No.@ She was never going to come, so it's alright."@
-`"............"@
-` Akiha says nothing more.@
-` ...... Suddenly, I realize something.@
-` Arihiko and the others... even the teachers don't remember Senpai.@ But Akiha seems to.\
+` - Хорошо, но... в чём дело, Нии-сан?@ Ведь Сенпай ещё не пришла.@
+` - Нет.@ Но она бы и не пришла, так что всё нормально.@
+` - ...@
+` Акиха ничего не говорит...@
+` И тут я кое-что понимаю.@
+` Арихико и остальные... даже учителя не помнят Сенпай.@ Но Акиха помнит.\
 
-`"Akiha.@ What do you think of Senpai?"@
+` - Акиха.@ Что ты думаешь о Сенпай?@
 
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"...... I'm not sure who you mean by 'Senpai'.@ But I think you mean Ciel-san?@ In that case, my opinion hasn't changed.@ I do not want you to associate with that person."@
-`"Wha-----"@
-` My voice dies.@
-` Akiha remembers Senpai.@
-` Everyone else has forgotten her, so why---\
+` - Я не уверена, кого именно ты называешь «Сенпай».@ Но, наверное ты о Сиэль-сан?@ В таком случае моё мнение не изменилось.@ Я не хочу чтобы ты связывался с ней.@
+` - Чт...@
+` Слова застревают у меня в горле.@
+` Акиха помнит Сенпай.@
+` Все остальные её забыли, так почему...\
 
-`"Akiha, you----"@
-`"Nii-san?@ What is it?@ You have such a terrible expression right now."@
-`"...... Why?@ Why do you remember, Akiha?@ Everyone has forgotten Senpai, so why do you remember her...!?"@
+` - Акиха, ты...@
+` - Нии-сан?@ Что случилось?@ Ты меня пугаешь.@
+` - Почему?..@ Акиха, почему ты помнишь?@ Все остаьные забыли Сенпай, так почему ты её помнишь?!@
 
 ; ?? : 11~20 : 15_??<???????(?)>
 ld c,":a;image\tachi\aki_t15a.jpg",%type_crossfade_fst
 
-`"Eh----?"@
-` Akiha's expression freezes.@
+` - Э?@
+` Акиха цепенеет@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` And then, she looks away from me.\
+` А затем, отводит взгляд.\
 
-`"Akiha.@ Could it be... you knew from the beginning who Senpai was...?"@
-`"--------"@
-` She doesn't answer.@
-` ...... The silence means "yes".\
+` - Акиха.@ Неужели... ты с самого начала знала, кто Сенпай на самом деле?..@
+` - ...@
+` Она не отвечает.@
+` Это молчание может значить только «да».\
 
-`"Akiha...!@ Answer me, you knew Senpai was a vampire hunter from the beginning, is that why you didn't like her...!?"@
+` - Акиха!@ Ответь, ты с самого начала знала, что Сенпай — охотник на вампиров? Ты поэтому так её нелюбила?!@
 
 ; ?? : 11~20 : 15_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"Vampire... Nii-san----"@
-` Akiha looks at me, aghast.@
-` ...... Her face doesn't seem surprised at the word vampire, but it seems she's surprised to hear it coming from me.@
+` - Вампиров... Нии-сан...@
+` Акиха ошеломлённо смотрит на меня.@
+` Похоже, её удивило не слово «вампир», а то, что его произножу я.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-`"...... Akiha, answer me.@ If you don't, I---"@
-` I won't be able to believe you.\
+` - Акиха, ответь мне.@ Иначе, я...@
+br
+` Я не смогу тебе поверить.\
 
 !w2500
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-`"...... Yes, Nii-san.@ I knew from the beginning that person was different.@ Since I knew she was hypnotizing people she saw for the first time, I didn't trust her."@
-`"...?@ Senpai... was hypnotizing people...?"\
+` - Да, Нии-сан.@ Я с самого начала знала, что она другая.@ Я не поверила ей, потому что она гипнотизировала тех, с кем встречалась впервые.@
+` - ?..@ Сенпай... гипнотизировала людей?\
 
-`"Yes.@ That's why everyone didn't think it was odd for someone to have a name like Ciel.@ Since I was unaffected by her, I realized there was something different about her."@
-` Akiha explains herself.@
-` But, she left out an important part.@
-` If everyone was taken in by Ciel-senpai's hypnosis, why was Akiha unaffected?\
+` - Да.@ Поэтому никого не удивляло имя «Сиэль».@ Но поскольку на меня гипноз не подействовал, я поняла, что с ней что-то не то.@
+` Объясняет Акиха.@
+` Однако она не говорит о самом важном.@
+` Если на всех действовал гипноз Сиэль-сенпай, то почему он не подействовал на Акиху?\
 
-`"When the hypnosis is removed, those people affected by it will forget the person called Ciel.@ Since I was never affected in the first place, even though it has been removed, I remember her."@
-`"...... I get it.@ But Akiha, why weren't you affected?"@
+` - Когда внушение развеивается, попавшие под внушение забудут о человеке по имени Сиэль.@ Но поскольку я никогда не попадала под внушение, я смогла запонмить её и после снятия.@
+` - Это я понял.@ Но Акиха, почему ты не попала под него?@
 
 ; ?? : 11~20 : 12_??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"---Well, that's---"@
-`"...... I see.@ Those of the Tohno bloodline aren't normal.@ Because of that, Senpai's hypnosis was ineffective."\
+` - Ну, потому что...@
+` - Понятно.@ Члены семьи Тоно ведь не нормальные люди.@ И потом гипноз Сенпай не подействовал.\
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
 
-`"Nii-san, why do you..."@
-`"...... It's natural.@ After all, I'm not normal either."@
+` - Нии-сан, откуда ты...@
+` - Ясное дело, откуда.@ Я ведь всё-таки тоже ненормальный.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Saying that, I stand up.@
+` С этими словами я встаю из-за парты.@
 
 ; ?? : 01~10 : 01_?01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t01a.jpg",%type_crossfade_fst
 
-` After a moment of astonishment, Akiha also stands up with a determined expression.@
+` Оправившись от изумения, Акиха встаёт следом с решительным видом.@
 br
-` ---The empty classroom.@
-` We gaze at each other in a classroom dyed red.\
+` Пустой класс...@
+` Мы молча смотрим друг на друга в залитым багрянцем классе.\
 
 
-`"...... I heard from Senpai.@ That all those in the Tohno family have special powers.@ ...... And that among them, there are those who end up not being able to restrain themselves and kill others."@
+` - Сенпай сказала мне.@ Что члены семьи Тоно обладают особенной силой...@ И что среди них были такие, кто терял над собой контроль и начинал убивать других.@
 
-`"............"@
-`"But, I don't believe it.@ I don't want to believe it..."@
-`"............"@
-`"Please tell me, Akiha.@ You're---not a vampire, are you?"@
+` - ...@
+` - Но я не верю в это.@ Я не хочу в это верить.@
+` - ...@
+` - Пожалуйста, скажи мне, Акиха.@ Ты... ты ведь не вампир?@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` Akiha doesn't answer.@ She merely narrows her eyes painfully.\
+` Акиха не отвечает.@ Она только болезненно сужает глаза\
 
-` ----Why?@
-` Why won't Akiha, even if it's a lie, say 'of course not'---
+` Почему?@
+` Даже есди это ложь, почему Акиха не говорит «конечно нет»...
 
-`"--Say something!@ Why won't you answer, Akiha...!"@
-` I cry out, since the silence is painful.@
-` ...... A little more silence follows.@
-` As if nothing was wrong, Akiha walks gracefully to the window.@
-` Her long red hair is transparent in the sunset.@
-` Her red hair flutters as she turns around.\
+` - Скажи что-нибудь!@ Акиха, почему ты не отвечаешь!..@
+` Не в силах вынести молчания, кричу я...@
+` В ответ следует только тишина.@
+` Акиха, как ни в чём не бывало, степенно подходит к окну.@
+` Её длинные красные волосы просвечиваются в закатном солнце.@
+` Её красные волосы развеваются, когда она разворачивается ко мне.\
 
 ; ?? : ?? : ??????<??????(?)>
 bg "image\event\aki_e08.jpg",%type_lshutter_fst
 
 
-`"Well, then, I'll ask.@ If I was a vampire, what would you do, Nii-san?"@
-` Her look, like a blade, pierces my throat.\
+` - В таком случае, я задам вопрос тебе.@ Если бы я была вампиром, Нии-сан, что бы ты сделал?@
+` Её взгляд пронзает меня насквозь как лезвие ножа.\
 
-`"----That's..."@
-` Akiha's gaze drills into me.@
-` We're separated.@
-` Even though she's away from me, there is a feeling of tension like she's right in front of my face.\
+` - Это...@
+` Глаза Акихи сверлят меня насквозь.@
+` Мы стоим в отделении друг от друга.@
+` И хотя между нами достаточно пространства, напряжение стоит такое, будто она стоит вплотную ко мне.\
 
-`"Answer me, Nii-san.@ I asked, if I were a blood-sucking demon, what would you do?"@
-`"---Akiha, that's..."@
-`"If I were to confirm that, there would be no need for me hold back.@ Do you understand, Nii-san?@
-` I could stop being obstinate and become more honest with myself, right?"@
-` With terrible pressure and a glint of cruel enjoyment in her eyes, Akiha gazes up at me.@
-` I shudder as I look at her.@
-` Even though Akiha is looking up at me, her gaze is so cold that she seems to be looking down on me.\
+` - Скажи мне, Нии-сан.@ Я спрашиваю, будь я кровососущей тварью, что бы ты сделал?@
+` - Акиха, что за...@
+` - Если бы я сказала, что это правда, то мне уже не нужно будет сдерживаться.@ Ты понимаешь, Нии-сан?@
+` Я могла бы перестать упрямиться, и быть искренней с собой, верно?@
+` Во взгляде Акихи чувствуется огромный нажим, и толика садисткой радости.@
+` Меня пробивает дрожь.@
+` Акиха ниже меня, но её взгляд настолько холоден, что мне начинает казаться будто она смотрит на меня сверху вниз.\
 
-`"Wha----"@
-` I'm breathing in and I can't speak.@
-` Even though we're far apart,
-` ...... it feels like we're so close we could kiss at any moment.\
+` - Чт...@
+` Вдохнув, я проглатываю застрявшие в горле слова.@
+` Хотя мы так далеко друг от друга,
+` ... такое ощущение, что наши губы вот вот соприкоснутся.\
 
-` Akiha's eyes are cold as those of a stranger.@
-`"Akiha, you---"@
-` My voice stops there.@
-` Whatever happens---whatever happens, I cannot finish.\
+` Акиха смотрит на меня абсолютно безразличным взглядом.@
+` - Акиха, ты...@
+` Мй голос обрывается.@
+` Что бы ни случилось... чтобы ни случилось, я не могу договорить.\
 
-`"Just a joke, Nii-san.@ I don't drink people's blood."@
-` With a delightful smile at my hesitant state, Akiha releases her blade-like gaze.\
+` - Шутка.@ Нии-сан, я не пью человеческую кровь.@
+` Довольно ухмыльнувшись, Акиха ослабаляет свой кинжальный взгляд.\
 
-`"It is just as Ciel said.@ Certainly, members of the Tohno house have something 'different' in their blood.@
-` However, that's something that can be told at a glance if it's awake.@ Even you know that, don't you Nii-san?"@
-` Akiha teases with a laugh.\
+` - Сиэль сказала правду.@ Действительно, в кровие рода Тоно есть нечто «иное».@
+` Однако, если это нечто пробуждается, то это видно сразу.@ Ты ведь знаешь это, да, Нии-сан?@
+` Дразняще смеётся Акиха.\
 
-`"I... know...?"@
-`"Yes.@ So, your question is meaningless.@ Because I am not what you think I am, Nii-san.@
-` Well then, is that all?@ In that case, I am going home."@
-` Akiha is about to leave.@
-` But, no.@
-` ...... If I miss this chance, I feel there will be no more chances.@
-` Having come this far, I can't let her go without asking her everything.\
+` - Я...знаю?@
+` - Именно.@ Так что твой вопрос не имеет смысла.@ Нии-сан, я не та, за кого ты меня принимаешь.@
+` Ну как, это всё?@ В таком случае, я собираюсь домой.@
+` Акиха идёт к выходу.@
+` Но, нет.@
+` Если я упущу этот шанс, то другого может и не представиться.@
+` Раз уж я зашёл так далеко, то нельзя отпускать её, не расспросив обо всём.\
 
-`"...... No, there's still something I want to ask.@ About the other child, when we were children."@
-`"You're really persistent, Nii-san.@ Didn't I tell you there was no other child?"@
-`"That's not true.@ Our old man adopted a kid ten years ago."@
-`"--------"@
-` Akiha raises her eyebrows.@
-` It's not like her previous reaction, a hiding of guilt.@ It's more like anger.\
+` - Нет, есть ещё кое-что.@ Насчёт другого ребёнка.@
+` - Какой ты упёртый, Нии-сан.@ Разве я не говорила тебе, что не было никакого другого ребёнка?@
+` - Неправда.@ Наш папаша усыновил ребёнка десять лет назад.@
+` - ...@
+` Акиха поднимает брови.@
+` Это не похоже на её предыдущую реакцию, когда она скрывала вину.@ Скорее, это гнев.\
 
 
-`"...... I see, Hisui has been troublesome.@ I told her to take care not to let you discover that."@
-` Akiha sighs.\
+` - Понятно, Хисуи проворонила тебя.@ Я же приказывала её не дать тебе обнаружить это.@
+` Вздыхает Акиха.\
 
-`"...... Akiha.@ There was a third child.@ Even I remember vaguely.@ Can't you tell me?@ He... why did he die?"@
-`"No.@ That child did not die."@
-`"---Eh?"@
-`"But he was killed.@ ...... By your hands, Nii-san."@
-`"Wha---I, killed---?"@
-` Saying that.@
-` Dizziness assaults me.\
+` - Акиха...@ Третий ребёнок был.@ Я и сам это смутно помню.@ Ты можешь сказать мне?@ Он... почему он умер?@
+` - Нет.@ Он не умер.@
+` - Э?@
+` - Но он был убит...@ Твоими руками, Нии-сан.@
+` - Чт... Я, убил?..@
+` Говорю я.@
+` И на меня накатывает головокружение.\
 ;CD-DA??
 playstop
 
@@ -859,45 +860,45 @@ waveloop se1
 bg "image\bg\cmo_05.jpg",%type_crossfade_mid
 
 
-` ----Yes, I killed.@
+`     Да, я убил.@
 br
-` The accident eight years ago.@
-` My younger self.@
-` In that courtyard.@
-` A hot, nightmarish summer day.@
-` Akiha, and the boy covered in blood.@
-` The thick clouds, and the echoing sound of the cicadas.@
+` То происшествие восемь лет назад.@
+` Маленький я.@
+` В том дворе.@
+` Жаркий, кошмарный летний день.@
+` Акиха, и покрытый кровью мальчик.@
+` Большие облака, и громкий стрекот цикад.@
 br
-` ----There, I killed, him...\
+`    Там, я убил его...\
 
 ; ?? : ?? : ??(?)<???????(?)>
 bg "image\bg\bg_06b.jpg",%type_crossfade_fst
 
 
-` I feel dizzy.@
-`"Kuh..."@
-` Somehow, I have the strength to keep from fainting.@
-`"No----I..."@
-` My breath comes out in gasps.@
-` I... I couldn't...\
+` Передо мной всё плывёт.@
+` - Кха...@
+` Каким-то образом я умудряюсь не потерять сознание.@
+` - Нет... Я...@
+` Мне трудно дышать.@
+` Я... я не мог...\
 
 bg "image\event\aki_e08.jpg",%type_tshutter_mid
 
 
-`"See, Nii-san.@ Doesn't everyone have secrets they have to keep to themselves?"@
-`"Akiha---you..."@
-`"So, you should stop thinking about such things.@ It's enough if you just live at the mansion as Tohno Shiki."@
+` - Видишь, Нии-сан?@ Разве не у всех нас есть вещи, которые мы бы хотели держать в тайне?@
+` - Акиха... ты...@
+` - Так что не задумывайся о таких вещах.@ Достаточно того, что ты можешь жить в этом поместье жизнью Тоно Шики.@
 bg "image\bg\bg_06b.jpg",%type_tshutter_mid
 
 br
-` ---Akiha leaves.@
-` I have no words to stop her.\
+` Акиха уходит.@
+` Мне больше нечего ей сказать.\
 
 ;S.E.??
 wavestop
 
-` The classroom in the sunset.@
-` Only I am left, standing, unable to move.\
+` Озарённый закатом класс.@
+` Посреди которого стою я, ошеломлённый, не восостоянии пошевелиться.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -908,68 +909,68 @@ bg "image\bg\bg_29b.jpg",%type_lcartain_mid
 ;CD-DA????????
 play "*1"
 
-` --------Night falls.@
+` Наступает ночь.@
 br
-` Since I don't feel like returning to the mansion, I merely sit on the bench in the park, thinking.\
+` Мне не хочется возвращаться в поместье, и я сижу на лавочке в парке и думаю.\
 
-`".................."@
-` ...... Is it pointless?@
-` It's undeniable that Akiha is something "different", and it's clear that there was a third child who is now dead.@
+` - ...@
+` Какой в этом смысл?@
+` Ясно, что Акиха не совсем человек, и что когда-то был третий ребёнок, который сейчас мёртв.@
 br
-` Akiha says I killed the third child.@
-` And I remember looking down at a bloody body in the courtyard.\
+` Акиха говорит, что я убил его.@
+` И я сам помню, как смотрел на окровавленое тело.\
 
-`"...... Kuh."@
-` Akiha drinking Kohaku-san's blood.@
-` Akiha saying the Tohno family is inhuman.@
-` ...... Senpai, saying it would not be strange for the minds of siblings to merge while they sleep.@
-`"-----"@
-` So, there's no longer any doubt.@
-` Even if I don't want to accept it, it's true.@
-` At least.@
-` At least, if I didn't see Akiha drinking Kohaku-san's blood----\
+` - Кх...@
+` Акиха, пьющая кровь Кохаку-сан.@
+` Акиха, которая говорила что в крови Тоно есть что-то нечеловеческое...@
+` Сенпай, говорившая, что разумы родственников могут сливаться во сне.@
+` - ...@
+` Значит, не остаётся никаких сомнений.@
+` Нравится мне это или нет, но это правда.@
+` Если бы.@
+` Если бы я хоты бы не видел, как Акиха пьёт кровь Кохаку-сан...\
 
-`"----Huh?"@
-` ...... Hang on.@
-` When I saw Akiha and Kohaku-san, it was in my dream.@
-` I saw Akiha and Kohaku-san in a dream.@
-` That means, if I was merging with Akiha's mind, I wouldn't be able to see Akiha herself.\
+` - Э?..@
+` Погодите...@
+` Когда я увидел Акиху и Кохаку-сан, это было во сне.@
+` Я видел Акиху и Кохаку-сан во сне.@
+` А значит, если бы я действительно сливался с Акихой, я бы не смог увидеть её.\
 
-`"...... Then, the person seeing that dream..."@
-` It couldn't have been Akiha, who was being watched.@
-` If Akiha is a vampire, she would never see that.@
-`"--Yeah.@ There's no way Akiha could be the killer!"@
-` Saying that, I jump off the bench.@
-` Though I will be embarrassed later, I run around the park.\
+` - А значит, тот, кому снился этот сон...@
+` Это не могла быть Акиха, раз за ней наблюдали со стороны.@
+` Будь Акиха вампиром, она бы не смогла видеть себя так.@
+` - Точно.@ Акиха не может быть убийцей!@
+` Я вскакиваю с лавки.@
+` Потом мне будет стыдно, но сейчас я несусь в припрыжку по парку.\
 
-`"Ha, haha, hahahaha-----!"@
-` I don't care about how people think.@
-` I just run around happily, laughing.@
-` Because this means I can protect Akiha from now on.@
-` Just this once, I am happy that my mind merged with the vampire's.@
-` If he hadn't seen Akiha, I would still believe my terrible mistake---\
+` - Ха, хаха, хахахаха!..@
+` Мне всё равно, что подумают люди.@
+` Я просто радостно скачу и смеюсь.@
+` Потому что это значит, что я могу и дальше защищать Акиху.@
+` Впервые я рад, что мой разум слился с разумом вампира.@
+` Если бы он не видел Акиху, я бы всё ещё был уверен в своей правоте...\
 
-`"-----"@
-` No, hold on.@
+` - ...@
+` Нет, стоп.@
 br
 ;CD-DA??
 playstop
 
-`"Watching---Akiha...?"@
+` - Видел... Акиху?...@
 br
 ;S.E."??"
 wave se0
 
-` The killer, was watching Akiha.@
-` Inside the mansion.@
-` Like watching its prey, from a dark corner.@
-` As if he decided his next prey was Akiha.\
+` Убийца наблюдал за Акихой.@
+` На территории поместья.@
+` Из тени, словно подстерегая жертву.@
+` Словно бы выбрав Акиху следующей жертвой.\
 
-`"Wha---"@
-` My back freezes.@
-` But this is no time to stand around.@
-`"Akiha----!"@
-` Crying out, I run to the mansion with all my strength.\
+` - Че...@
+` Я цепенею.@
+` Но сейчас нет времени стоять столбом.@
+` - Акиха!@
+` Кричу я, и со всех ног бегу в поместье.\
 ;CD-DA???????
 play "*6"
 
@@ -979,28 +980,28 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ???? : ?????? : ?????(?)<?????(?)>
 bg "image\bg\bg_27b.jpg",%type_lcartain_fst
 
-` *pant*----
+` *вдох*
 br
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???? : ??????? : ??????(?)<?????(?)>
 bg "image\bg\bg_25b.jpg",%type_lcartain_mid
 
-` *pant*----
+` *вдох*
 !w750
 br
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???? : ??????? : ???(?)<?????(?)>
 bg "image\bg\bg_24c.jpg",%type_lcartain_mid
 
-` *pant*----
+` *вдох*
 !w750
 br
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???? : ??????? : ?(?)<?????(?)>
 bg "image\bg\bg_22c.jpg",%type_lcartain_mid
 
-` *pant*----
+` *вдох*
 !w750
 br
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -1008,12 +1009,12 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_32d.jpg",%type_lcartain_mid
 
 br
-`" *pant*, *pant*, *pant*.........!"@
-` ---Strange.@
-` Though it's still only seven, the lights of the mansion are out.\
+`" *вдох*, *вдох*, *вдох*.........!"@
+` Странно...@
+` Ещё только семь, но свет в особняке не горит.\
 
-` I gasp for air.@
-` I catch my breath from running, then run into the mansion.\
+` Я отчаянно глотаю ртом воздух.@
+` Отдышавшись, я бегу в особняк.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -1021,16 +1022,16 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_48d.jpg",%type_lshutter_fst
 
 
-` ...... The mansion is as silent as a grave.@
-` It's terribly hot.@
-` For an autumn night, it's terribly hot.@
-` I keep panting heavily.@
-` My breathing is irregular, but not just because I've been running.@
-` It's a terrible, tropical night.@ Sweat pours off me, dripping down my cheeks.\
+` В особняке стоит мёртвая тишина.@
+` Стоит ужасная жара.@
+` Для осеннего вечера сейчас очень жарко.@
+` Я всё ещё тяжло дышу.@
+` Моё дыхание прерывисто, и причиной тому не только долгий бег.@
+` Ужасный, тропический вечер.@ Пот льёт с меня ручьями, стекая по щекам.\
 
-`"...... Kuh."@
-` I wipe it away.@
-` In this boiling night, I grasp the door of the mansion.@
+` - Кхе...@
+` Я вытираю его.@
+` Среди вечернего зноя, я хватаюсь за ручку входной двери.@
 
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
@@ -1041,46 +1042,47 @@ bg "image\bg\bg_33d.jpg",%type_lshutter_fst
 wave se0
 
 br
-`"Kuh----!"@
-` I feel dizzy.@
-` A chill runs through my bones as if my brain was being wrung out.\
+` - Кха...@
+` Голова кружится.@
+` Меня всего холодит, мой мозг словно выворачивается наизнанку.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_33d.jpg",%type_crossfade_fst
 
-`"------"@
-` This isn't my normal dizziness.@
-` My consciousness isn't blurred.@ Instead, it's sharpened, like a honed blade.@
+` - ...@
+` Это не моё обычное головокружение.@
+` Мой разум не затуманивается.@ Он заостряется, подобно отточеному клинку.@
 
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_33d.jpg",%type_crossfade_fst
 
 br
-` ---I grit my teeth.@
+` Я стискиваю зубы.@
 br
-` Without reason, hatred boils up.@
-` The dizziness does not fade, and despite a violent headache, my body fills with strength.\
+` Ненависть вскипает во мне.@
+` Головокружение не проходит, и не смотря на жуткую головную боль, меня переполняет сила.\
 
 
-`"Akiha...!"@
-` There's no response to my cry.@
-` The mansion is completely without power.@
-` There is no sign of anyone.@
-`"Hisui, Kohaku-san...!@ Is there anyone here...!?"@
-` There is no reply.@
-` The only thing here is heat and silence piercing into my skin like needles.\
+` - Акиха!..@
+` Никто не отвечает.@
+` Света в особняке нет.@
+` Нигде нет ни малеёших признаков чьего-то присутствия.@
+` - Хисуи, Кохаку-сан!@ Есть тут кто-нибудь?!@
+` Ответа нет.@
+` Есть лишь жара и тишина, вонзабющаяся в меня мириадой иголок.\
 
-`"----Akiha."@
-` Just, an awful feeling.@
-` I can't think of anything else.@
-` Akiha.@ Akiha's room is----
+` - Акиха...@
+` Меня охватывает ужасное предчувствие.@
+` Я не могу думать ни о чём ещё.@
+` Акиха.@ Комната Акихи в...
 br
 
 
 
 
 return
+
 
 
 
