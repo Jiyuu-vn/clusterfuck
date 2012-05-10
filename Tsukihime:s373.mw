@@ -21,76 +21,76 @@ bg "image\bg\bg_33d.jpg",%type_lshutter_fst
 ;S.E."????(???)"
 waveloop se1
 
-` *pant*---*pant*---*pant*----
-` Sweat drips down to the ground.@
-` His knife swings at every part of my body, but I have fortunately not received any fatal wounds.@
-` I am breathing hard because I move my body past its limits.\
+` *хаа*---*хаа*---*хаа*----
+` Пот льёт с меня ручьями.@
+` Его нож летит в меня то с одного, то с другого угла, но к счастью я пока не получил серьёзных ран.@
+` Я тяжело дышу потому что моё тело на пределе своих возможностей.\
 
 ; ??(?????) : ???????<???????(?)>
 ld c,":a;image\tachi\hal_t02.jpg",%type_lshutter_mid
-`"I don't understand----"@
-` ...... The enemy in front of me breathes out in annoyance.@
+` - Не понимаю...@
+` Раздражённо цедит пой противник.@
 
 
-`"Why---why can't I kill just an ordinary human being?@ Why is your killing ability so high, Shiki!?"@
-` There is anger in his eyes.@
-` He's probably irritated from all this unexpected resistance by something that should be easy prey.\
+` - Почему? Почему я не могу убить обычного человека?@ Шики, как ты увудряешься сопротивляться мне?!@
+` В его глазах сверкает гнев.@
+` Он злится, столкнувшись с неожиданным сопротивлением от якобы лёгкой добычи.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` My heavy breathing fills the air.@
-` My chest hurts.@
-` Even though I have seen his killings already in my dreams, our abilities are naturally different.@
-` It's already hard enough to block his attacks, and it's almost impossible to attack his "lines".@
+` Запыхавшись, я тяжело дышу.@
+` В груди у меня болит.@
+` Во сне я видел, как он убивает, но мои и его навыки находятся на совершенно разных уровнях.@
+` Просто отражать его атаки само по себе сложно, а атаковать его «линии» и вовсе практически нереально.@
 br
-` ---But.@
-` If I didn't care to avoid mutual death, I could easily kill him.\
+` Но...@
+` Если бы я не старался избежать взаимного убийства, я бы легко убил его.\
 
-`"---Alright.@ Enough playing around.@ I tried to finish you off with the same weapon you had, but I shouldn't have used something I'm not used to using."@
-` The enemy throws down his knife.@
-` Slash.@
-` The sharp, animal-like nails shine in the night.\
+` - Ладно.@ Хватит играться.@ Я пытался прикончить тебя тем же оружием, что используешь ты, но всё же мне не следовало исполльзовать то, к чему я не привык.@
+` Враг выбрасывает нож.@
+` Вжжик.@
+` Острые, звериные когти блеснули в темноте.\
 
 ; ??(?????) : ??<???????(?)>
 ld c,":a;image\tachi\hal_t01.jpg",%type_crossfade_fst
 
-`"So it's this after all.@ It's really dull to use the same thing as eight years ago."@
-` The enemy smiles and frees his stance.@
+` - Придётся обойтись ими.@ Всё-таки это скучно, повторять всё как восемь лет назад.@
+` Ухмыльнувшись, враг принимает расслабленую позу.@
 br
-` ----Thump.@ My heart beats.@
+` Тук.@ Моё средце колотится.@
 br
-` My body knows I won't be able to keep up with him once he gets serious.@
-` I probably won't be even able to see him attacking me.@
-` The first thing I will realize, is that my body has a hole in it.\
+` Мой организм понимает, что я не смогу поспевать за ним если он решит драться всерьёз.@
+` Скорее всего, я даже не смогу заметить его атаки.@
+` Я пойму только то, что во мне проделали дыру.\
 
-` ----Thump.@
+` Тук.@
 br
-` The presence of death increases.@
-` The sense of impending death is upon me.@
-` But, I have no fear.@
-` The cracking inside my body grows proportionally with the sense of crisis.\
+` Угроза становится всё сильнее.@
+` Меня охватывает чувство неизбежной гибели.@
+` Но во мне нет страха.@
+` Напряжение внутри меня нарастает пропорционально чувству опасности.\
 
-` Panting.@
+` Тяжёлое дыхание.@
 br
-` Burning pain.@
-` Just like a bow pulled to the limit.@
-` A homicidal impulse that I cannot control.@
-` Most likely---it will be released in a moment and kill SHIKI for sure.\
+` Жгучая боль.@
+` Как лук, натянутый до предела.@
+` Желание убить, которое я не могу контролировать.@
+` Скорее всего — оно высвободится в следующую секунду и я уничтожу ШИКИ.\
 
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t03.jpg",%type_crossfade_fst
 
-`"So long, Shiki.@ Akiha is mine.@ This time, you go to hell---!"@
+` - Пока, Шики.@ Акиха моя.@ В этот раз, ты отправишься в ад!..@
 
 ; ?????<?????(?)>
 cl a,%type_lcartain_fst
 
-` The enemy's body disappears.@
-` The strained bow is released.@
+` Тело врага исчезает.@
+` Натянутый лук распрямляется.@
 br
-` ---But before that,
-` someone comes in between me and SHIKI.\
+` Но перед этим...
+` Что-то появляется между мной и ШИКИ.\
 ;S.E.??
 wavestop
 
@@ -99,36 +99,36 @@ ld c,":a;image\tachi\aki_t11c.jpg",%type_crossfade_fst
 ;CD-DA????????????
 play "*9"
 
-`"-------"@
-` ...... It was Akiha, with her flowing red hair.@
-` Akiha stands in front of SHIKI as if to protect me.\
+` - ...@
+` Это была Акиха, окружённая развевающимися красными волосами.@
+` Акиха становится перед ШИКИ, словно загораживая собой меня.\
 
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t02.jpg",%type_crossfade_fst
 
-`"...... Akiha, what are you doing?"@
-` Akiha does not answer.@
+` - Акиха, что ты делаешь?@
+` Акиха не отвечает.@
 ;S.E."??"
 wave se0
 br
-` ----Her back.@
-` With Akiha's red hair in front of me, I start feeling excited.\
+` Её спина...@
+` Видя её красные волосы, я понменогу взвинчиваюсь.\
 br
-`"...... Move, Akiha.@ I am your real brother.@ You don't have to worry about this impostor."@
-` Akiha does not answer.@
+` - Акиха, отойди.@ Я твой настоящий брат.@ Ты не должна переживать за этого самозванца.@
+` Акиха не отвечает.@
 ;S.E."??"
 wave se0
 br
-` ----Her back.@
-` With Akiha's red hair in front of me, I start feeling excited.\
+` Её спина...@
+` Видя её красные волосы, я понемногу взвинчиваюсь.\
 
-`"...... Akiha, don't make me sad.@ You are the only important person for me."@
+` - Акиха, не расстраивай меня.@ Ты — единственный дорогой для меня человек.@
 
 ; ?? : 21~30 : 29_????????<???????(?)>
 ld c,":a;image\tachi\aki_t11c.jpg",%type_crossfade_fst
 
-`"...... No.@ I won't move."@
-` Akiha shakes her head and clearly rejects SHIKI.@
+` - Нет.@ Я не отойду.@
+` Отрицательно покачав головой, Акиха наотрез отказывается слушать ШИКИ.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -136,7 +136,7 @@ cl a,%type_crossfade_fst
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t02.jpg",%type_crossfade_fst
 
-`"...... Akiha!"@
+` - Акиха!..@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -144,8 +144,8 @@ cl a,%type_crossfade_fst
 ; ?? : 21~30 : 29_????????<???????(?)>
 ld c,":a;image\tachi\aki_t11c.jpg",%type_crossfade_fst
 
-`"Move back.@ If you say you are going to kill Nii-san, I will kill you first.@
-` The role of the head of the Tohno family is to eliminate people like you."\
+` - Отойди.@ Если ты попробуешь убить Нии-сана, я убью тебя первой.@
+` Задача главы семьи Тоно — уничтожать таких как ты.\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -153,10 +153,10 @@ cl a,%type_crossfade_fst
 ; ??(?????) : ??<???????(?)>
 ld c,":a;image\tachi\hal_t05.jpg",%type_crossfade_fst
 
-`"What---what are you saying, Akiha!@
-` You were waiting for me for so long.@ I was always, always watching.@ I came back because you were waiting for your brother.@
-` I killed that old man and became free just for you.@
-` But why are you protecting that impostor!?"\
+` - Что — Акиха, что ты говоришь!@
+` Ты так долго меня ждала.@ Я всегда, всегда наблюдал за тобой.@ Я вернулся потому что ты так ждала своего брата.@
+` Я убил этого старикашку и освободился только ради тебя.@
+` Так почему ты защищаешь этого самозванца?!\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -164,7 +164,7 @@ cl a,%type_crossfade_fst
 ; ?? : 21~30 : 29_????????<???????(?)>
 ld c,":a;image\tachi\aki_t11c.jpg",%type_crossfade_fst
 
-`"...... Indeed, I was waiting for Nii-san.@ But that is not you.@ You lost against the Tohno blood and became just a killer.@ You should have died on that day eight years ago."@
+` - Правда, я ждала своего брата.@ Не тебя.@ Ты поддался крови Тоно и стал простым убийцей.@ Ты должен был сдохнуть тогда, восемь лет назад.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -172,7 +172,7 @@ cl a,%type_crossfade_fst
 ; ??(?????) : ??<???????(?)>
 ld c,":a;image\tachi\hal_t05.jpg",%type_crossfade_fst
 
-`"A---Akiha, you're telling your own brother to die?@ No, that's not right.@ I am your only brother.@ Listen to me, that guy is just a---"\
+` - А-Акиха, ты говоришь своему родному брату сдохнуть?@ Нет, это ошибка.@ Это я твой брат.@ Поослушай меня, он всего лишь...\
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -180,7 +180,7 @@ cl a,%type_crossfade_fst
 ; ?? : 21~30 : 29_????????<???????(?)>
 ld c,":a;image\tachi\aki_t11c.jpg",%type_crossfade_fst
 
-`"Silence......!@ I will not allow any more insults against Nii-san.@ I---I am not going to let you kill Nii-san again......!"@
+` - Молчать!..@ Я не позволю больше оскорблять Нии-сана.@ Я... я не дам тебе убить его снова.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -188,19 +188,19 @@ cl a,%type_crossfade_fst
 ; ??(?????) : ??<???????(?)>
 ld c,":a;image\tachi\hal_t05.jpg",%type_crossfade_fst
 
-`"Aki---ha."@
-` SHIKI staggers.\
+` - Аки...ха.@
+` Ноги ШИКИ подкашиваются.\
 
-`"Stop---He's just an impostor.@ Don't betray me for such a guy, Akiha."@
-`"------"@
-` Akiha doesn't answer.@
-` She just confronts SHIKI with fierce aggression.\
+` - Перестань... он всего лишь самозванец.@ Акиха, не предавай меня ради него.@
+` - ...@
+` Акиха не отвечает.@
+` Она молча сверлит ШИКИ яростным взглядом.\
 
-`"Akiha---are you going to betray me too, Akiha---"@
-` SHIKI takes a step.@
-` SHIKI looks at me---and Akiha with bloodshot eyes.\
+` - Акиха... Акиха, ты тоже предаёшь меня...@
+` ШИКИ делает шаг.@
+` ШИКИ смотрит на меня — и на Акиху налитыми кровью глазами.\
 
-`"...... This is the last warning.@ Move, Akiha.@ Can't you follow your brother's orders?"@
+` - Это последнее предупреждение.@ Отойди, Акиха.@ Слушайся своего брата.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -208,7 +208,7 @@ cl a,%type_crossfade_fst
 ; ?? : 21~30 : 29_????????<???????(?)>
 ld c,":a;image\tachi\aki_t29.jpg",%type_crossfade_fst
 
-`"---I will not move.@ You are not my Nii-san......!"@
+` - Я не сдвинусь с места.@ Ты не мой брат!..@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
@@ -216,18 +216,18 @@ cl a,%type_crossfade_fst
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
 br
-` AHHHHHHH
+` ААААААААААААА
 br
-` SHIKI screams as he jumps.@
-` Not toward Akiha, but toward me.\
+` Завопив, ШИКИ прыгает.@
+` Не к Акихе, а на меня.\
 
-`"-----"@
-` But, I was expecting that already.@
-` I raise my knife and face my enemy.@
-` But, SHIKI's nails are faster.@
+` - ...@
+` Но я был к этому готов.@
+` Я поднимаю нож и готовлюсь встретить врага.@
+` Но когти ШИКИ быстрее.@
 br
-` The result will still be mutual death.@
-` If that's the case, I can surely cut his "line" and slice him into pieces---\
+` Мы можем только поразить друг друга одновременно.@
+` В таком случае, я перережу его «линию» и порублю его на куски...\
 ;CD-DA??
 playstop
 
@@ -245,24 +245,24 @@ wave se4
 
 !w2000
 
-` ---SHIKI's nails never reach.@
+` Когти ШИКИ не достигают меня....@
 br
-`"A---"@
-` SHIKI's soulless voice gasps.@
-`"Aki, ha---"@
-` SHIKI's nails slashed across Akiha's back.@
+` - А...@
+` Доносится ошарашенный голос ШИКИ.@
+` - Аки,ха...@
+` Когти ШИКИ полоснули по спине Акихи.@
 br
-` It's not that SHIKI aimed for her.@
-` It's just that Akiha crashed into me.\
+` Не потому что ШИКИ целился в неё.@
+` Это Акиха врезалась в меня.\
 
-`"-----"@
-` But, I felt nothing.@
-` My mind has frozen.@
-` Without feeling anything, my homicidal impulse drives me.\
+` - ...@
+` Но я ничего не почувствовал.@
+` Мой разум остался абсолютно неподвижен.@
+` Мной двигало желание убить, отключившее все эмоции.\
 
-` Akiha's body falls to the ground.@
-` In that instant.@
-` The instant SHIKI stops moving, I slash through his "line".\
+` Тело Акихи падает на пол.@
+` И в тот же момент.@
+` Как только ШИКИ останавливается, я рублю его «линию».\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_mid
@@ -270,13 +270,13 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_mid
 bg "image\bg\bg_33d.jpg",%type_crossfade_fst
 
 
-` ...... Smell of blood.@
-` It angers me that scent is the only thing I do sense.@
-` The rest of my senses are paralyzed with exhaustion after all my extreme movement.@
+` Запах крови...@
+` Меня злит, что больше я ничего не ощущаю.@
+` Все остаьные мои чувства парализованы от огромной усталости.@
 br
-` Right now, I feel nothing.\
-` There is Akiha covered with blood in front of me, and SHIKI's dead body is there right beside her.@
-` I feel nothing, and simply stand here.\
+` Сейчас я ничего не чувствую.\
+` Передо мной лежит окровавленое тело Акихи, редом с ней валяется труп ШИКИ.@
+` Я ничего не чувствую, и продолжаю неподвижно стоять.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
@@ -284,105 +284,105 @@ bg "image\bg\ima_11.jpg",%type_crossfade_slw
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_33c.jpg",%type_bshutter_mid
 
-` The lights come on.@
-` It hurts my eyes as it returns me to my senses.@
-`"------"@
-` I look around.@
-` On the floor in front of me is a path of red blood.@
-` Akiha's body is not there, nor is SHIKI's.\
+` Включается свет.@
+` Он режет глаза, и я прихожу в себя.@
+` - ...@
+` Я осматриваюсь.@
+` На полу видна кровавая дорожка.@
+` Нет ни тела Акихи, ни ШИКИ.\
 
-`"What----"@
-` The knife is still in my hands.@
-` I'm sure that wasn't a dream.@
-` As proof, the floor is covered with blood.@
-`"Akiha---you protected me."@
-` I remember, and at the same same time, I feel sick.@
-` I didn't want her to do that.@
-` All I wanted to do was protect Akiha.@ Why did it turn out this way---\
+` - Чего...@
+` Я всё ещё держу в руке нож.@
+` Я уверен, что это был не сон.@
+` Залитый кровью пол тому доказательство.@
+` - Акиха... ты защитила меня.@
+` Я вспоминаю, и мне становится плохо.@
+` Я не хотел, чтобы она это делала.@
+` Я хотел только защитить Акиху.@ Так почему всё так получилось...\
 
-`"Shiki-sama."@
-` Someone calls from behind.@
+` - Шики-сама.@
+` Кто-то сзади зовёт меня.@
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 ;CD-DA?????
 play "*1"
 
-`"I have turned on the emergency power.@ Akiha-sama's wounds are pretty shallow, so please do not worry."@
-`"Hisui---where were you?"@
+` - Я включила аварийный генератор.@ Раны Акихи-сама неглубоки, так что не переживайте.@
+` - Хисуи... где ты была?@
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"I previously stated this.@ When Nee-san and I arrived to help, you and Akiha-sama were on the ground.@
-` ...... We tried to talk to you several times, but you were in no condition to talk."@
-` ...... So, I just stood here while Akiha was lying injured on the ground?\
+` - Я уже объясняла это.@ Когда мы с Нээ-сан пришли на помощь, Акиха-сама лежала на полу, а вы стояли рядом.@
+` Мы несколько раз обращались к вам, но вы были не в состоянии говорить.@
+` Так я что, просто стоял столбом пока Акиха лежала с ранами на полу?\
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Akiha-sama needed treatment immediately, so Nee-san and I treated Akiha-sama and then put the power back on---should we have waited for your orders?"@
-`"---No.@ You guys did the right thing.@ I was just standing there, right?"@
-`"Yes.@ It has been about an hour since we came, but you have only been standing there."@
-`"...... I... see."@
-` Not doing anything while Akiha was on the ground wounded is the worst thing I could have done.@
-` Not only did I not protect her, but you could say I was actually hurting her.\
+` - Акихе-сама срочно была необходима помощь, и мы с Нээ-сан обработали её раны а потом включили электричество — нам следовало дождатьс ваших указаний?@
+` - Нет.@ Вы всё сделали правильно.@ Я просто стоял без движения, так?@
+` - Да.@ Мы пришли к вам час назад, на всё это ремя вы просто стояли.@
+` - А...ясно...@
+` Просто взять и стоять столбом над раненой Акихой — ничего худшего я сделать в принчипе не мог.@
+` Я не только не защитил её, фактически я причинил ещё больше вреда.\
 
-`"Hisui, is Akiha alright?"@
-`"Yes, it is not that deep of a wound ...... But since it is not a wound that will heal any time soon, we have her resting in her room now."\
+` - Хисуи, как Акиха?@
+` - В порядке, раны были неглубокими... Но поскольку заживать они будут долго, мы положили её отдыхать в её комнате.\
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"---Shiki-sama, what happened?@ When we regained consciousness, all the lights in the mansion were turned off and I had apparently been unconscious in Nee-san's room.@
-` It seems Nee-san and I were drugged.@ When we came out to the lobby, you and Akiha-sama were there.@
-` Nee-san said that cut on Akiha-sama is from a big animal, but that is--"\
+` - Шики-сама, что произошло?@ Когда мы пришли в себя, света в особняке не было, а я была без сознания в комнате Нээ-сан.@
+` Похоже, нам с Нээ-сан что-то подмешали в еду.@ Когда мы вышли в фойе, то нашли там вас с Акихой-сама.@
+` Нээ-сан сказала, что порезы Акихи-сама нанесены каким-то большим животным, но как...\
 
-`"What--?"@
-` There's something wrong.@ This doesn't add up.@
-`"Hisui, SHIKI was not there!?"@
+` - Что?@
+` Что-то не так.@ Что-то не сходится.@
+` - Хисуи, ШИКИ здесь не было?!@
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama, you were standing in front of Akiha-sama."@
-`"No, not me, but---"@
-` I stop myself.@
-` Hisui doesn't know about SHIKI.@
-` She doesn't know why Akiha was hurt nor does she know I was almost killed.\
+` - Шики-сама, вы стояли над Акихой-сама.@
+` - Нет, не я, а...@
+` Я обрываюсь на полуслове.@
+` Хисуи не знает о ШИКИ.@
+` Она не знает, почему Акиха была ранена и она не знает, что меня чуть не убили.\
 
-`"...... Hisui, there was only me and Akiha in the lobby......?"@
-` She nods.@
-`"---That guy---!"@
-` He's still alive.@
-` I did cut him from his shoulders along his "line", but it didn't kill him?@
-` Or are vampires harder to kill than humans?@
-` Either way, he's alive right now and has run away.\
+` - Хисуи, кроме меня и Акихи в фойе никого не было?..@
+` Она кивает.@
+` - Этот тип!@
+` Он ещё жив.@
+` Я полоснул его по линии у плеч, но это его не убило?@
+` Или вампиров убить труднее, чем людей?@
+` Так или иначе, он выжил и сбежал.\
 
-`"...... No, I don't care about that right now.@ But Akiha---"@
+` - Нет, сейчас это неважно.@ Акиха...@
 
 ; ?? : 11~20 : 17_??<???????(?)>
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"Please wait, Shiki-sama.@ Are you going to Akiha-sama's bedroom?"@
-`"Of course.@ I have to apologize to Akiha and talk to her--"@
-`"...... Nee-san is currently treating her wounds.@ I do not think Akiha-sama would be pleased to see you right now."@
-`"T...... that might be true but..."\
+` - Шики-сама, постойте.@ Вы собираетесь в спальню к Акихе-сама?@
+` - Конечно.@ Мне надо извиниться перед Акихой и поговорить с ней-@
+` - В данный момент Нээ-сан обрабатывает её рану.@ Я не думаю, что Акиха-сама будет рада вашему визиту.@
+` - А...пожалуй, верно, но...\
 
 ; ?? : 01~10 : 09_?<???????(?)>
 ld c,":a;image\tachi\his_t09.jpg",%type_crossfade_fst
 
-`"Please go back to your room, Shiki-sama.@ When we finish treating her and Akiha-sama asks for you, I will come and get you."@
+` - Шики-сама, прошу вас, возвращайтесь к себе.@ Когда мы закончим лечение и Акиха-сама позовёт вас, я зайду за вами.@
 
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 
-` With that, Hisui starts to walk up the stairs.@
-` She probably went up to Akiha's bedroom to help Kohaku-san.\
+` Хисуи подниается наверх.@
+` Наверное, она идёт в комнату Акихи, помогать Кохаку-сан.\
 
-`"............"@
-` Being a guy, I can't help them.@
-` All I can do for now is wait for Hisui in my room.\
+` - ...@
+` Я парень, так что не могу им помочь.@
+` Сейчас я могу только дожидаться Хисуи у себя в комнате.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -391,31 +391,31 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40c.jpg",%type_lcartain_mid
 
 
-` ----I go back to my room and try to calm down.@
+` Я возвращаюсь к себе и стараюсь успокоится.@
 br
-` I have to calm down and think about many things.@
-` About Akiha.@
-` About myself.@
-` About that guy SHIKI.\
+` Мне нужно прийти в себя и много чего обдумать.@
+` Об Акихе.@
+` О себе.@
+` О том ШИКИ.\
 
-` ...... SHIKI told me that I was adopted and treated as Tohno Shiki in his place.@
-` I have no intention of denying it.@ Rather, it's very convincing.@
-` Why I didn't recognize this mansion that well, why my room didn't feel like a room I knew...@
-` ...... The fact that I was living in with the Arimas, and why no one came to see me while I was in the hospital eight years ago.\
+` ШИКИ сказал мне, что я был усыновлён, а потом стал Тоно Шики вместо него.@
+` Мне не кажется это чушью.@ Наоборот, это звучит весьма убедительно.@
+` Почему я не узнал этот особняк, почему моя комната показалась мне незнакомой...@
+` Почему я всё это время жил с семьёй Арима, и почему восемь лет назад никто не навещал меня в больнице.\
 
-` ...... When I was adopted ten years ago, and the two years until I got into that accident.@
-` Me, Akiha, and SHIKI were raised as brothers and sister.@
-` SHIKI sounded as if he knew I was adopted all along.@
-` But what about Akiha?@
+` Когда меня усыновили десять лет назад, и за те два года до того случая...@
+` Меня, Акиху и ШИКИ растили как родственников.@
+` ШИКИ, похоже, знал, что меня усыновили.@
+` Но что насчёт Акихи?@
 br
-`"You are not my Nii-san-----"@
+` «Ты не мой брат...»@
 br
-` Akiha said that to SHIKI and injured herself while protecting me.\
+` Акиха сказала ШИКИ эти слова, и подставилась раи меня под удар.\
 
-` ...... Akiha might not know that I was adopted.@
-` That's why she protected me.@
-` You can't do that unless it's your real brother.@
-` So-----Akiha must believe I am her true brother.\
+` Акиха может и не знать, что я приёмный.@
+` Поэтому она меня и защитила.@
+` Для неродного брата аткое не сделаешь.@
+` Значит — Акиха должно быть считает, что я её настоящий брат.\
 
 ;S.E."???"
 wave se3
@@ -424,43 +424,43 @@ wave se3
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_mid
 
-`"Shiki-san, can I come in?"@
-`"Kohaku-san.@ Is Akiha alright now?"@
+` - Шики-сан, можно войти?@
+` - Кохаку-сан.@ Акиха в порядке?@
 
 ; ?? : 01~10 : 01_?01(???)<???????(?)>
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"Yes, we are done treating her wounds.@ She won't be able to walk at all for a few weeks, but there's no danger to her life."@
-`"I see-------thank goodness."@
-` I let out a sigh of relief.@
-` If the wound she received from protecting me was worse, I don't know how I could ever talk to Akiha again.\
+` - Да, мы закончили обработку ран.@ Она не сможет вставать с постели несколько недель, но угрозы для жизни нет.@
+` - Ясно... слава богу.@
+` Я облегчённо вздыхаю.@
+` Если бы её рана, которую она получила из-за меня, оказалась серьёзней,  не знаю как бы я смог смотреть её в глаза.\
 
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Shiki-san, Hisui-chan told me you wanted to talk to Akiha-sama?"@
-`"...... Yeah, I'd prefer not to if Akiha's not feeling well, but I would really like to talk to her if I can."@
+` - Шики-сан, Хисуи-тян сказала мне что ты хотел поговорить с Акихой-сама?@
+` - Да, я могу подождать если Акихе нехорошо, но если можно, то я бы хотел с ней поговорить.@
 
 
 ; ?? : 01~10 : 01_?01(???)<???????(?)>
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"If that's the case, please go ahead.@ But please do not have a complicated conversation.@ Akiha-sama is pushing herself and I do not want her to be mentally tired."\
+` - В таком случае, иди к ней.@ Но постарайся не заводить сложных раговоров.@ Акиха-сама очень устала и я не хочу, чтобы она перенапрягалась.\
 
-`"...... I know.@ I just want to see Akiha and thank her."@
+` - Я знаю...@ Я хочу только увидеться с ней и поблагодарить её.@
 
 ; ?? : 01~10 : 03_?03(??)<???????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Alright.@ That should be fine.@ Then, I'll rest for a bit.@ Can you take care of Akiha-sama for a while?"@
+` - Хорошо.@ Тогда всё должно быть в норме.@ Я тогда немного отдохну.@ Приглядишь пока за Акихой-сама?@
 
 ; ?????<??????(?)>
 cl a,%type_lshutter_mid
 
-` Kohaku-san walks out of the room, wobbling.@ She must be tired from taking care of Akiha.\
+` Пошатываясь, Кохаку-сан выходит из комнаты.@ Наверное, она вымоталась, ухаживая за Акихой.\
 
-`".................."@
-` ...... Alright.@ I have to go check on Akiha.\
+` - ...@
+` Ну что ж.@ Пора заглянуть к Акихе.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -470,11 +470,11 @@ playstop
 ; ?? : ???? : ????(?)<?????(?)>
 bg "image\bg\bg_46c.jpg",%type_lcartain_fst
 
-` I knock on the door.@
-`"Akiha.@ It's me.@ Can I come in?"@
-` After a moment of silence.@
-`"...... Yes, please come in, Nii-san."@
-` I hear her weak whisper.\
+` Я стучу в дверь.@
+` - Акиха.@ Это я.@ Можно войти.@
+` После небольшой паузы.@
+` - Да, Нии-сан, входи...@
+` Я слышу её слабый шёпот.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_37.jpg",%type_lshutter_mid
@@ -482,92 +482,92 @@ bg "image\bg\bg_37.jpg",%type_lshutter_mid
 ;CD-DA????????????
 play "*9"
 
-` I go into Akiha's bedroom.@
-` As she was sleeping on the bed until now, she raises herself slowly.\
+` Я вхожу в спальню Акихи.@
+` Похоже, она только проснулась, и медленно приподнимается.\
 
-`"-------"@
-` ...... Crap.@
-` Seeing her like this causes my mind to empty.@
-` There's already tension enough coming into Akiha's bedroom, and she's acting so weak that I regret it.@
+` - ...@
+` Чёрт.@
+` От того, что я вижу её такой, все мысли вылетают у меня из головы.@
+` Мне и так неловко, а когда она ещё и так слаба, я и вовсе жалею что решил зайти.@
 br
-`"-------"@
-` We end up just staring at each other in silence.\
+` - ...@
+` Мы просто смотрим друг на друга, ни говоря ни слова.\
 
 ` ......@
 ` ............@
 ` .....................@
-` .................................... All of a sudden,@
+` И вдруг...@
 br
-`"Aren't you going to sit down, Nii-san?"@
-`"Oh------yeah.@ I should sit down, huh?"@
-` I take a seat in a chair.@
-` Now I'm at the same height as Akiha, and my head goes even more blank.\
+` - Нии-сан, ты не хочешь сесть?@
+` - А... точно.@ Надо же присесть.@
+` Я усаживаюсь на стул.@
+` Теперь, когда я нахожусь на одном уровне с Акихой, мне становится ещё труднее соображать.\
 
 ; ?? : ?? : ??????<??????(?)>
 bg "image\event\aki_e04b.jpg",%type_lshutter_mid
 
 
-`"...... You never ask about anything, do you, Nii-san?@ Even though I am like this, I was ready for anything."@
-` Akiha says in a soft voice.@
-`"...... You're right.@ There's a lot of things I want to ask about.@ But I'll ask all that after you get better.@ Right now, I'm here to see how you're doing."@
-`"I see.@ But there's something I want to ask you, Nii-san.@ I get mad easily when I don't understand something.@ So, I can't sleep peacefully unless I hear it from you."@
-`"...... Go ahead.@ You're hurt right now, I'll answer anything."\
+` - Нии-сан, ты никогда ни о чём не справшиваешь...@ Даже если я в таком состоянии, я была готова ко всему.@
+` Тихо произносит Акиха.@
+` - Да, ты права.@ Мне о многом хочется тебя расспросить.@ Но я подожду пока тебе не полегчает.@ Сейчас я пришёл просто тебя проведать.@
+` - Вот как.@ Но, Нии-сан, мне нужно кое-что спросить у тебя.@ Меня очень бесит когда я чего-то не понимаю.@ Так что я не смогу спокойно спать пока не услышу от тебя ответа.@
+` - Валяй.@ Ты ранена, так что я отвечу на любой вопрос.\
 
-`"I'm sorry.@ I'm hiding a lot of things from you, but I don't want you to hide anything from me.@
-` ...... I'm really selfish, aren't I?"@
-`"...... Don't worry.@ I like that part of you, too.@ I'll let it go.@ So, what do you want to ask about, Akiha?"@
+` - Прости.@ Я так много скрыла от тебя, но чтобы ты что-то скрыл от меня, не хочу.@
+` Я настоящая эгоситка, не правда ли?..@
+` - Не переживай.@ Эта часть тебя мне тоже нравится.@ Так что я не буду обижаться.@ Итак, что ты хотела?@
 br
-` Akiha is probably making me match her pace.@
-` Surprising even myself, I speak kindly to her.\
+` Похоже, Акиха невольно вынуждает меня подстраиваться под её тон.@
+` Я сам удивлён, как мягко я отвечаю ей.\
 
-`"...... Then I'll ask.@
-` Nii-san, you used the word 'vampire'.@ Is that something Ciel taught you, or is that something you concluded yourself?"@
-`"...... I think it's both.@ I don't know why, but I've been having this dream where I killed people and sucked their blood."@
-` So I thought I was the killer.@ However, Ciel-senpai proved me wrong."@
+` - Тогда я спрошу.@
+` Нии-сан, ты использовал слово «вампир».@ Тебе рассказала об этом Сиэль или ты пришёл к этому сам?@
+` - Скорее, и то и другое.@ Не знаю почему, но мне часто снилось как я убиваю людей и пью их кровь.@
+` И я решил, что я убийца.@ Но Сиэль-сенпай показала, что это не так.@
 
-`"...... I see.@ You were in tune with SHIKI's mind.@ That's why-----you asked me that at school."\
-`"What-----Akiha, you can tell that I am in tune with his mind......?"@
-`"No, I'm just saying the possibility existed.@ Nii-san, you might not remember, but that SHIKI is our......"@
-`"Yeah, you wanna say he's our brother, right?@ I forgot about it until just now.@ But I remember faintly.@ Whenever we played in the garden, you always followed us.@ "Us" means that there's more than one, right?"\
+` - Понятно...@ Ты синхронизировался с разумом ШИКИ.@ Поэтому... ты тогда в школе расспрашивал меня.\
+` - Что... Акиха, ты знала что я могу сливаться с его разумом?@
+` - Нет, я только знала, что это может произойти.@ Нии-сан, ты наверное не помнишь, но ШИКИ наш...@
+` - Ты хочешь сказать, что он наш брат, верно?@ Я совсем забыл об этом.@ Но кое-что с мутно помнил.@ Когда мы играли в саду, ты всегда следовала за нами.@ «За нами»,  а значит, был кто-то ещё, не так ли?\
 br
-` Yes, when I recall my childhood, there is that contradiction.@
-` I didn't recognize it, probably because the old man hypnotized me.\
+` Действительно, когда я начинаю вспоминать детство, всплывает это противоречие.@
+` Я не осознавал этого, новерное из-за гипноза папаши.\
 
-`".................."@
-` Akiha does not say anything.@
-` ...... It really seems like she doesn't know I'm adopted.@
-` In that case, I do not want to say it right now and mentally attack her.@
-` If I can lie to her right now, I should.\
+` - ...@
+` Акиха ничего не говорит...@
+` Похоже, она не знает, что я усыновлён.@
+` В таком случае, я не стану говорить этого сейчас и шкоировать её.@
+` Если мне придётся врать, значит придётся врать.\
 
-`"...... Nii-san, you were almost killed by SHIKI eight years ago.@ SHIKI did not have that much Tohno blood in him, but it suddenly awakened.@
-` The blood of Tohno is a blood from ancient times, and it makes you give priority to your instincts rather than your reason.@ SHIKI had that blood throughout him and attacked you, as you happened to be there."@
+` - Нии-сан, ШИКИ чуть не убил тебя восемь лет назад.@ Кровь Тоно была слаба в ШИКИ, но неожиданно она пробудилась.@
+` В жилах рода Тоно течёт древняя кровь, из-за которой человек теряет рассудок, сохраняя лишь инстинкты.@ ШИКИ поддался этой крови и напал на тебя, поскольку ты оказался рядом.@
 
-` ...... I heard that from SHIKI.@
-` That this scar on my chest is not from an accident, but from SHIKI.\
+` ШИКИ сказал мне...@
+` Что мой шрам остался не после аварии, а из-за нанесённой им раны.\
 
-`"Everyone in the Tohno family has different abilities.@ There's some people who eat other people like SHIKI and there's people whose abnormality is only in their brain like Father.@
-` ...... SHIKI attacked you and took away your blood and life.@ SHIKI was punished by Father but he survived by taking your life."\
+` - В семье Тоно все обладают разными способностями.@ Некоторые, как ШИКИ, нападали и пожирали людей, у кого-то, как у Отца, был только повреждён рассудок.@
+` ШИКИ напал на тебя и забрал твою кровь и жизнь.@ Отец наказал его, но он выжил благодаря твоей жизни.\
 
-`"...... I don't get it.@ What do you mean by him taking away my life......?"@
-`"I should say your soul in this case.@ I don't know how it works since I'm not SHIKI.@
-` But SHIKI lived by feeding off your life.@ I think you and SHIKI are like different people running off of one heart.@
-` That's why you tune into each other easily.@ ...... If that's the reasoning, I think you can tune into me too, but I think it's because you two were really good friends."\
+` - Не понимаю...@ Что ты имеешь ввиды «забрал мою жизнь»?@
+` - Может, мне следовало сказать «твою душу».@ Я не ШИКИ, и я не знаю как именно это проиходит.@
+` Но ШИКИ выжил благодаря твоей жизненной энергии.@ Можно сказать, что вы с ШИКИ живёте за счёт одного источника энергии.@
+` Поэтому вы можете так легко синхронизироваться.@ Наверное, в таком случае ты мог бы сливаться и со мной, но всё получилось именно так потому что вы так дружили...\
 
-`"Stop it, with that guy------with a guy that hurts you?@ Don't make me friends with him."@
-`".................."@
-` Akiha looks at me with a painful expression.@
-` ...... Her thin body.@
-` Her white skin.@
-` Her flowing black hair is tinged slightly red and looks very weak-------\
+` - Перестань, это с ним то — с тем кто тебя ранил?@ Не записывай меня в друзья с ним.@
+` - ...@
+` Акиха измученно смотрит на меня.@
+` Её худенькое тело.@
+` Её белая кожа.@
+` Её струящиеся чёрные волосы, они приобрели красноватый оттенок и выглядят безжизненно...\
 
-`"Oh yeah.@ Akiha, what happened to your hair?@ It was red back then, and now it's back to black.@ What's going on?"@
-`"...... I told you.@ This is due to the Tohno blood.@ My body does not change like SHIKI, but when my blood gets excited, my hair turns back into its original color.@
-` Now that I am calm, it returned to being black."@
+` - Кстати да.@ Акиха, что у тебя с волосами.@ Они тогда были красными, но сейчас снова почернели.@ Что проиходит?@
+` - Я же сказала.@ Это из-за крови Тоно.@ Моё тело не преображается как у тебя, но когда моя кровь активизируется, мои волосы принимают свой истинный цвет.@
+` Но сейчас, когжа я спокойна, они снова чёрные.@
 
-`"...... That's good.@ I think you look better with black hair.@ I think it'll be bad if your hair stayed red."@
-` ......... I don't want her to be stained with something like the Tohno blood.\
+` - И хорошо.@ По-моему чёрные волосы тебе идут больше.@ Было бы нехорошо если бы они и дальше оставались красными.@
+` Я не хочу, чтобы её пятнала эта кровью Тоно...\
 
-`"...... Yes, I also dislike the color red.@ I know it's just the color of my hair, but it means my body's state has changed, and I do not want to be like SHIKI-----"@
+` - Мне тоже не нравится красный цвет.@ Я знаю, что это всего лишь цвет волос, но он означает, что моё состояние изменилось, и я не хочу быть как ШИКИ...@
 br
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_37.jpg",%type_lshutter_fst
@@ -575,36 +575,36 @@ bg "image\bg\bg_37.jpg",%type_lshutter_fst
 wave se4
 
 
-` Akiha falls back in bed.@
-`"Akiha------!?"@
-` I support her body.\
+` Акиха снова падает на кровать.@
+` - Акиха?!@
+` Я подхватываю её.\
 
-`"Ugh-----ah... Ohh.........!!"@
-` She's shaking.@
-` Her breathing is difficult, as if her heart was gone.@
-` She clenches her teeth in pain.@
-` She sweats as if trying to expel the pain from her body.@
+` - У...а... Оооо...!!!@
+` Она трясётся.@
+` Её дыхание затруднено, словно у неё остановилось средце.@
+` Она сжимает зубы от боли.@
+` Поль льёт с неё ручьями, словно так она пытается вытолкнуть боль из тела.@
 
-`"Akiha......!@ What's wrong?@ Do your wounds hurt!?"@
-`"Ah------ah, Nii-sa-------"@
-` Akiha grips the bed sheets.@
-`"Sh......!@ Hold on, I'll go get Kohaku-san......!"\
-`"N,no------no one can help... me anyways......!"\
+` - Акиха!..@ В чём дело?@ Рана болит?!@
+` - А...а, Нии-са...@
+` Акиха сжимает простыни.@
+` - Чтоб его!@ Держись, я сбегаю за Кохаку-сан!..\
+`" - Н-нет... с этим... всё равно никто не поможет!..\
 
-` Akiha grabs onto my arm, still breathing hard.@
-` Her slender fingers.@
-` Her soft hands grip my hands strongly.@
+` Всё ещё тяжело дыша, Акиха хватает меня за руку.@
+` Её тонкие пальцы.@
+` Её мягкие руки, крепко сжимающие мои.@
 br
-`"Alright----I'll stay right here, Akiha."@
-`"-------"@
-` I can't hear her; her voice is too choppy.\
+` - Хорошо... я останусь здесь.@
+` - ...@
+` Я не слышу её; её речь слишком сбивчива.\
 
-` Akiha rages around on the bed,
-` and I realize her hair is red again.@
-`"Akiha, your hair------"@
-`"It's-----all, right-----This won't-------last-------long---"@
-` Akiha is in serious pain.@
-` Time passes by, and all I can do is hold onto her hands.\
+` Акиха бьётся в судорогах на кровати,
+` И я понимаю, что её волосы снова покраснели.@
+` - Акиха, твои волосы...@
+` - Всё... в порядке... это...скоро... пройдёт...@
+` Акиха мучается от боли.@
+` Время тянется дальше, и я могу только держать её за руки.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -612,102 +612,102 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_37.jpg",%type_lshutter_mid
 
 
-` ...... After an interminable amount of time, it finally ends.@
-` I'm sure it was only a few minutes, but it felt like a few hours.@
-`"----"@
-` She breathes normally now.@
-` Her hair is still red, but it looks fainter than before.\
+` Спустя бесконечно долгого промежутка времени всё наконец то заканчивается.@
+` Я уверен что в действительности прошло только несколько минут, но казалось, будто прошло несколько часов.@
+` - ...@
+` Она снова дышит нормально.@
+` Её волосы всё ещё красные, но тусклее чем раньше.\
 
 ; ?? : ?? : ??????<??????(?)>
 bg "image\event\aki_e04.jpg",%type_lshutter_mid
 
 
-`"---I'm sorry I made you watch such unpleasant things."@
-` Akiha sits up.@ ...... I can easily tell she is pushing herself.@
-`"...... You don't have to sit up.@ It still hurts, right?@ Don't try to push yourself."\
+` - Прости, я заставила тебя наблюдать таки неприятые вещи...@
+` Акиха приподнимается.@ Очевидно, что для неё это чересчур.@
+` - Не надо, не вставай.@ Тебе ведь всё ещё больно?@ Не перенапрягайся.\
 
-`"No, I'm alright.@ My back has nothing to do with this.@ This spasm is like an everyday thing."@
+` - Нет, я в порядке.@ Спина тут не при чём.@ Эти спазмы случаются каждый день.@
 br
-` ---Her back has nothing to do with this?@
+`  Её спина тут не при чём?@
 br
-`"...... What do you mean, everyday thing?@ This is normal for you?"@
-`".................."@
-` She doesn't answer.@
-` That means yes.@
-` ...... I can't believe it.@ She suffers through this kind of pain all the time----?\
+` - Что значит, каждый день?@ Это для тебя нормально?@
+` - ...@
+` Она не отвечает.@
+` Это значит да.@
+` Не могу поверить...@ Ей всё время приходится терпеть такую боль?\
 
-`"...... Why?@ That's not right.@ That, that's not----nor... mal..."@
-` Akiha still doesn't answer.@
-` She just nods silently.\
+` - Почему?@ Это не правильно.@ Это, это не, нор...мально...@
+` Акиха по прежнему неотвечает.@
+` Она только беззвучно кивает.\
 
-`"...... Like you say, I'm not normal.@ This spasm is not like your anemia.@ This is a pain all people of the Tohno blood go through.@ When you cannot stand this pain, you become like SHIKI."@
-`"------What?"@
-`"I told you, people of the Tohno line are abnormal.@ The Tohno blood in me is strong.@ As I grew up, it became worse and worse each day.@
-` ...... Now it's getting to a point where I can't help it.@ I am like this every night."@
-` Akiha just talks without holding any grudge against her blood.\
+` - Ты прав, я не нормальна.@ Эти спазмы не как твоя анемия.@ Через эту боль проходят все, в ком течёт кровь Тоно.@ Когда ты уже не можешь терпеть её, ты становишься как ШИКИ.@
+` - Что?@
+` - Я же говорила, члены смеьи Тоно  не нормальные люди.@ И во мне кровь Тоно сильна.@ С возрастом она становистя только сильнее...@
+` Я уже почти не могу с этим  бороться.@ Это происходит каждую ночь.@
+` В голосе Акихи нет ни следа обиды или злости.\
 
-` I------understood what Akiha is saying, but at the same time, I don't want to accept it.\
+` Я... понимаю, что она говорит, но в то же время я не хочу этого принимать.\
 
-`"...... What do you mean?@ I don't get what you're saying."@
-`"...... Geez.@ Nii-san, you really are stupid."@
-` Akiha laughs.@
-` She smiles, looking a bit troubled.\
+` - Что ты имеешь ввиду?@ Я не понимаю о чём ты.@
+` - Боже мой...@ Нии-сан, какой же ты глупый.@
+` Смеётся Акиха.@
+` Она улыбается немного озабоченой улыбкой.\
 
-`"My body uses more heat than the average person.@
-` So I cannot get enough energy using normal methods and I end up having to get heat directly from someone.@
-` ...... Like you say, I act like a vampire trying to contain myself.@ But the more I rely on it, the more abnormal I am.@ I'm acting more like a Tohno.@ But without it, I have no way to control myself."\
+` - Моему телу нужно больше тепла, чем обычному человеку.@
+` Я не могу получать энергию обычными методами, и мне приходится поглощать тепло из внешних источников.@
+` Ты был прав, чтобы сохранять контроль мне приходится вести себя как вампир.@ Но чем больше я использую это, тем более ненормальной я становлюсь.@ Я всё больше превращаюсь в Тоно.@ Но без этого я не могу контролировать себя.\
 
-`"Akiha------------"@
-`"Do you understand?@ I have to take away heat from something alive.@ I am an incomplete creature.@ That's Tohno Akiha for you, Nii-san."@
+` - Акиха...@
+` - Ты понимаешь?@ Мне нужно поглощать тепло, чтобы выжить.@ Я увечное суещство.@ Вот такая вот она, Тоно Акиха.@
 br
-` ------I cannot say anything.@
-` But, I still manage to find something to say.@
-` To not say anything right now only hurts Akiha even more.\
+` Я не знаю, что сказать.@
+` Но я всё равно умудрябсь что-то произнести.@
+` Молчание ранило бы Акиху её сильнее.\
 
-`"...... That's why you were sucking Kohaku-san's blood..."@
-`"You knew, Nii-san...?@ That I got blood from Kohaku?"@
-`"Yeah.@ Sorry for not telling you."@
-` Akiha blushes and looks down.\
+` - Так вот почему ты пила кровь Козаку-сан...@
+` - Нии-сан, ты знал?..@ Что я пью кровь Кохаку?@
+` - Да.@ Прости, что не сказал.@
+` Акиха краснеет и опускает глаза.\
 
 
-`"That's a last resort.@ It doesn't have to be blood I take in.@ It can be body heat, it can be mental heat... anything with heat gives me power.@ Blood just happens to be the most efficient method."@
-`"...... So you're different from SHIKI; you're not a real vampire like him."@
-`"...... Yes, I'm not like SHIKI as I can't make people like me.@ I can only take from other people."@
-` Akiha looks away from me.@
-` But, that's good for me.@
-` Because---it's just a matter of the difference in the kind of food you take in.\
+` - Это крайняя мера.@ Это не обязательно должна быть кровь.@ Это может быть тепло тела, жар мыслей...любое тепло придает мне сил.@ Просто кровь явялется самым эффективным методом.@
+` - То есть ты не такая как ШИКИ; ты не настоящие вампир как она.@
+` - Да, я не могу делать из других подобных мне существ как ШИКИ.@ Я могу только отнимать у других.@
+` Акиха отводит глаза.@
+` Но мне этого достаточно.@
+` Потому что — тогда это как питаться другой едой.\
 
-`"...... I feel relieved.@ You kept on telling me you're abnormal, but you're normal.@ Unlike SHIKI, you're a normal human being.@
-` That spasm you had, it won't happen if you get some blood, right?@ Then------"@
-`"...... It is true that it would not occur if I take in some blood.@
-` But, I can't stand getting blood just because I want to.@ If I get used to that, I will just be like SHIKI."\
+` - Хорошо...@ Ты говоришь, что ты ненормальная, но это не так.@ В отличие от ШИКИ, ты нормальный человек.@
+` Твои спазмы не будут происходить если ты будешь получать кровь, верно?@ Тогда...@
+` - Да, они не будут происходить если я буду пить кровь...@
+` Но я не хочу пить кровь просто потому что мне это нужно.@ Если я привыкну к этому, я стану как ШИКИ.\
 
-`"...... No matter how painful it is, if it is just physical pain, I can stand it.@
-` The Tohno blood awakens more at night, but it dies down in the morning.@
-` So this is normal for me.@ You don't have to look at me that way."@
-`"...... You're stupid.@ If you were in that much pain, I'll be glad to give you as much blood as you want."@
-` I'm being honest.@
-` If I knew Akiha was in this much pain every night, I would have given her blood every time.\
+` - Как бы мне не было больно, если это физическая боль, я её выдержу.@
+` Кровь Тоно активизируется ночью, но к утру она ослабевает.@
+` Так что это нормально для меня.@ Не нужо так ко мне относится.@
+` - Глупая...@ Если тебе так больно, я с радостью дам тебе столько крови, сколько ты захочешь.@
+` Я говорю искренне.@
+` Если бы я знал, что Акиха испытвает такую боль каждую ночь, я бы делился с ней кровью каждый раз.\
 
-`"No, I do not want to drink anyone's blood.@ I really do not want to drink Kohaku's blood either."\
-`"Why......?@ If your spasms go away, then it should be fine."@
-`"That...... is true but,"@
-` Akiha grows quiet and continues with an embarrassed tone.@
-`"But I do not want to be called a vampire by you.@ I want to stay as a human being, just like you."\
+` - Нет, я не хочу пить ничью кровь.@ Я и кровь Кохаку пить не хочу.\
+` - Почему?@ Если это унимает твои спазмы, то что тут плохого?@
+` - Может... может и так, но...@
+` Акиха замолкает, и продолжает смущённым тоном.@
+` - Но я не хочу, чтобы ты считал меня вампиром.@ Я хочу оставаться обычным человеком, как и ты.\
 
-`"------------Ah."@
-` I really hate how stupid I am.@
-` ...... I never thought about how Akiha felt.@
-` About how ominous she feels about the Tohno blood.@ About how much she thinks about me.\
+` - А...@
+` Я ненавижу себя за свою тупость.@
+` Я ведь не подумал о чувствах Акихи.@
+` О том, каким злом её кажется кровь Тоно.@ О том, как много она думает обо мне.\
 
-`"...... Is there anything I can do for you, Akiha?"@
-`"Let's see, please go rest in your room.@ You must be tired too."@
-`"............ Idiot."@
+` - Акиха, я могу для тебя что-нибудь сделать?@
+` - Так, ты можешь пойти  к себе и отдохнуть.@ Ты должно быть тоже устал.@
+` - Дурочка.@
 br
-` ...... That's all I can say in response.@
+` Это всё, что я могу сказать в ответ.@
 br
-`"Don't worry.@ Just lay down.@ I'll stay here until you go to sleep."@
-`"...... Alright.@ If you say so, I will, Nii-san."\
+` - Не волнуйся.@ Просто лежи.@ Я посижу тут пока ты не заснёшь.@
+` - Хорошо...@ Нии-сан, если ты так хочешь, то я так и сделаю.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_tcartain_mid
@@ -716,11 +716,11 @@ bg "image\bg\ima_10.jpg",%type_tcartain_mid
 bg "image\bg\bg_37.jpg",%type_tcartain_mid
 
 
-` ...... She says this as she lies back down.@
-` After time passes quietly by,
-` she falls into a gentle slumber.@
-` Akiha's face looks very peaceful.@
-` I stay and continue to watch her.\
+` Откинувшись на кровати, говорит она.@
+` Время идёт своим ходом,
+` и она забывается тихим сном.@
+` У неё такое мирное лицо.@
+` Я остаюсь и продолаю наблюдать за Акихой.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -733,17 +733,17 @@ bg "image\bg\bg_37.jpg",%type_crossfade_mid
 
 
 
-`"Shiki-san, are you awake?"@
-` ...... I can hear Kohaku-san's voice.@
-` I look at the clock to find out it's three o'clock already.\
+` - Шики-сан, ты не спишь?@
+` До меня доносится голос Кохаку.@
+` Я смотрю на часы, и вижу, что они показывают уже три часа ночи.\
 
-`"I'm awake.@ Are you here to look after Akiha, Kohaku-san?"@
-`"Yes, I wanted to take her temperature.@ I'm sorry Shiki-san, but......"@
-`"Oh, sorry, I'll leave right away."@
-` I get up from the chair.@
-` As I leave the room, I look at Akiha one more time.@
-`"...... Thank you... and sorry, Akiha."@
-` I whisper this softly as I leave her room.\
+` - Не сплю.@ Кохаку-сан, ты пришла присмотреть аз Акихой?@
+` - Да, я хотела смерять её температуру.@ Шики-сан, прости, но...@
+` - О, извини, я уже ухожу.@
+` Я поднимаюсь со стула.@
+` Направившись к выходу, я ещё раз оглядываюсь на Акиху.@
+` - Спасибо... и прости, Акиха.@
+` Тихо шепчу я, и выхожу из комнаты.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -751,13 +751,13 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 playstop
 
 
-` ...... I let Kohaku-san take care of Akiha and I walk down the hallway.@
-` Things should be fine for now, but I still feel uncomfortable.\
+` Я оставляю Акиху на Кохаку-сан, и иду дальше по коридору.@
+` Сейчас всё в порядке, но мне всё равно беспокойно.\
 
-` I don't care that SHIKI is still alive.@
-` There's only one thing that worries me.@
-` ...... I was watching Akiha's face while she was sleeping,
-` but her hair did not turn back to its original black no matter how long I waited.\
+` Меня не волнует, что ШИКИ ещё жив.@
+` Меня волнует лишь одно...@
+` Я наблюдал за Акихой, пока она спала,
+` но её волосы так до конца и не почернели.\
 
 !w3000
 
@@ -767,6 +767,7 @@ playstop
 
 
 return
+
 
 
 
