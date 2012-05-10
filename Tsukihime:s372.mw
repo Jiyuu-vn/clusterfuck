@@ -6,11 +6,11 @@
 
 
 
-` ----I should worry about Akiha's safety most of all.@
+` Прежде всего нужно думать об Акихе.@
 br
-` It's too dangerous to fight near Akiha.@ I need to move to somewhere bigger, like the lobby---
-`"Ku...............!"@
-` Still holding my knife, I jump back without looking.\
+` Драться рядом с ней небезопасно.@ Надо переместится в более открытое место, типа фойе...
+` - Кх!..@
+` Всё ещё сжимая нож, я отскакиваю назад.\
 
 
 ; ????<??????(?)>
@@ -19,33 +19,34 @@ bg "image\bg\ima_14.jpg",%type_lshutter_fst
 wave se11
 
 
-`".........!!"@
-` SHIKI's knife slashes in front of my face.@
-` Fortunately, I did not get cut.@
-` But, he hits my glasses off----
+` - …!!!@
+` Нож ШИКИ проносится прямо перед моим носом.@
+` К счастью, меня не задело.@
+` Но он сивает мои очки...
 br
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\ima_14.jpg",%type_nowaitdisp
 
 
-`"Y----ou bastard.........!!"@
-` My heart pounds loudly.@
-` "Death" covers my view.@
-` Hatred takes over my mind.\
+` - С-сволочь...!!!@
+` Моё сердце оглушително колотится.@
+` «Смерть» заполняёт всё вокруг.@
+` Ненависть наполняет мой разум.\
 
-` I gasp for air.@
-` My breathing goes wild.@
-` SHIKI attacks.@
-` In that case, there's nothing to be afraid of now.@
+` Я хватаю ртом воздух.@
+` Моё дыхание выходит из-под контроля.@
+` ШИКИ нападает.@
+` Раз так, бояться больше нечего.@
 br
-` ----Not a problem.@
-` Fortunately, this is my third time fighting in a life-or-death situation.@
-` By now, I know more than enough about how exactly I should be moving---.\
+` Не проблема...@
+` К счастью, это уже моя третья смертельная схватка.@
+` Так что я имею представление, как мне следует действовать...\
 
 
 
 return
+
 
 
 
