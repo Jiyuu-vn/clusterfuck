@@ -8,17 +8,17 @@ monocro off
 bg "image\bg\bg_46c.jpg",%type_lshutter_fst
 
 
-` ----I reach Akiha's room.@
+` Я подхожу к комнате Акихи.@
 br
 
 
 
-` The dizziness is getting unbearably stronger.@
-` I put my hand in my pocket.@
-` I'm lucky, as my knife is still there.@
+` Головокружение становится непереносимым.@
+` Я кладу руку в карман.@
+` К счастью, нож со мной.@
 
-`"------"@
-` I ignore my dizziness and with the knife in my other hand, I open the door.\
+` - ...@
+` Я игнорирую головокружение, и взяв нож в руку, открываю дверь.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -30,21 +30,21 @@ playstop
 ;S.E."??????????…?(???)"
 waveloop se10
 
-` -----Darkness.@
+` Тьма.@
 br
-` The moonlight coming in from the window barely sheds enough light to see.@
-` In the blue darkness, I see Akiha on the ground.@
-`"Akiha----!"@
-` I run to her and hold her up.@
-`"....................."@
-` Akiha does not move, so she might be unconscious.@ But I can tell she's alive as her small chest rises and falls with her breathing.\
+` Лунного света, заглядывающего через окно, едва хватает чтобы разогнать темноту.@
+` В голубой тьме я вижу лежащую на полу Акиху.@
+` - Акиха!@
+` Я подбегаю к ней и приподнимаю её.@
+` - ...@
+` Она не шевелится, скорее всего она без сознания.@ Но её маленькая грудь вздымается от дыхания, так что я понимаю, что она жива.\
 
-` But, there's something more strange.@
-` Akiha's black hair.@ It has turned into a bloody shade of red.@
-`"Akiha---you're really Akiha...... right?"@
-` ...... The hair looks red in the darkness.@
-` But, it's definitely Akiha.@
-`"Akiha, hey, come on......!@ What happen---"\
+` Однако, случилось кое-что более странное.@
+` Чёрные волосы Акихи.@ Они приобрели кроваво-красный оттенок.@
+` - Акиха... Акиха, это ведь ты?@
+` Волосы в темноте выглядят красными.@
+` Но это точно Акиха.@
+` - Акиха, эй, очнись!...@ Что случи—\
 
 ;S.E."??"
 wave se0
@@ -53,91 +53,91 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 bg "image\bg\bg_36d.jpg",%type_nowaitdisp
 
 
-` I hear a noise.@
+` Я слышу шум.@
 br
 ;S.E."??????????…?(???)"
 waveloop se10
 
-`"------!"@
-` I turn back.@
-` The direction the sound came from---there's, someone standing by the moonlit window.\
+` - !@
+` Я разворачиваюсь.@
+` Источник шума — у окна кто-то стоит в лунном свете.\
 
 
-` ...... It seems to be someone wrapped in bandages.@
-`"------Who are you?"@
-` The man does not answer.@
-` ...... A cold chill goes through my spine.@
-` I feel death in my nerves.\
+` Бинты покрывают его лицо...@
+` - Кто ты такой?@
+` Он не отвечает.@
+` Мороз пробегает у меня по спине.@
+` Я чувствую смертельную угрозу.\
 
 
-` ...... The person is just there, broken.@
-` Abnormal eyes that seem out of this world.@
-` But there is some intelligence.@ It seems the bandaged person has both intelligence and madness.\
+` Этот человек, он не нормален.@
+` Дикий взгляд его безумных глаз.@
+` Однако, в них читается и интеллект.@ Похоже, забинтованный человек обладает разумом, но охвачен безумием.\
 
 ;S.E."??"
 wave se0
 
-` My heart beats loudly.@
+` Мё сердце громко колотится.@
 ;S.E."??????????…?(???)"
 waveloop se10
 
-` It beats quicker.@
-` All the while, my mind freezes like I was dead.@
-` This feeling.@
-` I know this feeling of death.@
+` Оно стучит всё быстрее и быстрее.@
+` Способность соображать постепенно покидает меня.@
+` Это чувство.@
+` Мне знакомо это ощущение смерти.@
 br
-` ---I'm sure.@
-` What's in this room right now is the world of murder I saw in my dreams.\
+` Я уверен.@
+` Эта комната — игровая площадка убийцы, точь-в-точь как в моих снах.\
 
-`"---I asked you who you are."@
-` I hold my knife and stare at the person.@
-` The bandaged man appears to be smiling.@
+` - Я спрашиваю, кто ты такой.@
+` Я сжимаю крепче нож и смотрю прямо на него.@
+` Забинтованный, похоже, улыбается.@
 ;S.E.??
 wavestop
 
 ;CD-DA???????
 play "*4"
 
-`"I feel sad, Shiki.@ You don't even remember the person you've killed?"@
-` He steps toward me.@
-`"-----!"@
-` I back up, holding Akiha in one arm.\
+` - Шики, я уязвлён.@ Ты даже не помнишь того, кого убил?@
+` Он делает шаг навстречу.@
+` - !@
+` Я отступаю, поддерживая Акиху одной рукой.\
 
-`"Can't you tell, Shiki?@ I'm the guy you killed."@
-`"What are you saying-----"@
-` Just listening to his voice gets on my nerves.@
-` I hate him.@ ...... The hatred I was feeling since I entered the mansion is concentrated on him.@
-` This hatred.@ Is my instinctual drive to remove him a homicidal impulse?\
+` - Шики, ты меня не узнаёшь?@ Ты меня убил.@
+` - Что ты несёшь...@
+` Меня бесит один только звук его голоса.@
+` Я ненавижу его...@ Вся ненависть, жившая во мне после моего приезда в поместье, сосредоточена на нём.@
+` Эта ненависть.@ Моё инстинктивное желание убрать его прочь — это желание убить?\
 
-` My heart beats.@
-` From somewhere inside me, my body screams.@
-` It screams that this person must be killed.@
+` Моё сердце оглушительно колотится.@
+` Что-то глубоко внутри меня кричит мне.@
+` Оно кричит, приказывает мне убить его.@
 br
 !w1500
-`"----I see.@ You're the vampire."@
+` - Понятно.@ Это ты вампир.@
 br
-` Holding Akiha with one arm, I hold out my knife with the other.\
+` Поддерживая Акиху одной рукой, я направляю на него руку с ножом.\
 
-` Hahaha.@
-` The man laughs as it was really funny.@
-`"Don't even try.@ I am you.@ There's no one who can truly kill himself."@
-`"W---what......?"@
-`"I'm taking Akiha back.@ She was mine to start with."@
-` Another step.@
-` The man comes closer.\
+` Хахаха.@
+` Он смеётся, словно бы услышав что-то забавное.@
+` - Даже не пытайся.@ Я это ты.@ Никто по-настоящему не способен убить себя.@
+` - Ч...что?@
+` - Я забираю Акиху.@ Она с самого начала была моей.@
+` Ещё шаг.@
+` Он всё приближается.\
 
-`"Stop----!"@
-`"I won't stop.@ I came to get everything back from you.@ Name, position, power... everything was mine."@
-` The man opens his arms and talks proudly.\
+` - Стоять!..@
+` - Не стану.@ Я пришёл вернуть то, что принадлежит мне по праву.@ Имя, положение, власть... всё было моим.@
+` Продолжая горделиво говорить, он разводит руки в стороны.\
 
-`"...... What are you saying?@ You---what are you?"@
-`"...... You still don't remember?@ What a guy.@ We were such good friends eight years ago."@
-`"What----"@
+` - Что ты несёшь?@ Ты... кто ты такой?@
+` - Ты всё ещё не помнишь?..@ Ну ты даёшь.@ Мы ведь так дружили восемь лет назад.@
+` - Что...@
 br
-` Eight years ago?@
-` Such, good, friends----?\
+` Восемь лет назад?@
+` Так, дружили?..\
 
-`"...... Well, I guess you forgot it.@ It's that old man.@ I bet he put a strong spell on you to make you forget."@
+` - Мда, похоже ты забыл...@ Это всё тот старик.@ Похоже, он наложил на тебя сильное заклятье, чтобы ты забыл.@
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
@@ -146,35 +146,35 @@ bg "image\bg\cmo_05.jpg",%type_nowaitdisp
 bg "image\bg\bg_36d.jpg",%type_nowaitdisp
 
 
-`"And I bet you yourself---wanted to forget about the ugly past, Shiki?"@
+` - Да и наверняка ты сам, хотел забыть дурные собтия в прошлом, э, Шики?@
 br
-` He laughs.@
-` My vision shakes.@
-` Eight years ago, eight years ago, eight years ago-----\
+` Он смеётся.@
+` Перед глазами у меня всё трясётся.@
+` Восемь лет назад, восемь лет назад, восемь лет назад...\
 
-` That's the time I was sent to the hospital from that accident.@
-` That was the last time the three of us played together in this mansion.@
-` That was the time-----that child was there, and all the blood----\
+` Когда я попал в больницу после аварии.@
+` Когда мы в последний раз играли втроём в поместье.@
+` Когда... когда был ребёнок, и столько крови...\
 
-`"But that's all ending now.@ It was painful for you, right, Shiki?@ Hold on, I'll save you."@
-` The man slowly takes off the bandage around his head.@
-` His face-----
+` - Но теперь этому придёт конец.@ Тебе было тяжело, да, Шики?@ Подожди, я тебя спасу.@
+` Он медленно разматывает бинты с лица.@
+` Его лицо...
 br
-`"You..."@
+` - Ты...@
 
 ; ?? : 01_??<???????(?)>
 ld c,":a;image\tachi\hal_t01.jpg",%type_crossfade_mid
 
-`"It's been a while, Tohno Shiki.@ No, that's not your real name."@
-` The face that came out from the bandage,
-` it was----not the face of that bloody child but...\
+` - Давно не виделись, Тоно Шики.@ Хотя, это ведь не твоё настоящее имя.@
+` Лицо под бинтами,
+` это... не то лицо, что было у того окровавленного ребёнка, а...\
 
-`"Tohno----SHIKI."@
-` Yes, why did I forget?@
-` He was with Akiha back then.@ The third kid's name was certainly that.\
+` - Тоно... ШИКИ.@
+` Да, как же я мог забыть?@
+` Это он был тогда с Акихой.@ Третьего ребёнка звали именно так.\
 
-`"Yes, it's really been a long time, Nanaya Shiki.@ You finally remembered that you were an impostor."@
-` The man's---SHIKI's lips turn up into a smile and he laughs deeply.\
+` - Да, давно мы не виделись, Наная Шики.@ Наконец ты вспомнил, что ты самозванец.@
+` Его рот — рот ШИКИ изгибается в улыбке и он заливается смехом.\
 
 ;S.E."??"
 wave se0
@@ -184,12 +184,12 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_36d.jpg",%type_nowaitdisp
 
 
-`"Ah-----"@
-` Headache.@ I have a headache.@
-` The lid opens.@
-` Which was sealed shut.@ (By whom?)
-` I can't look at it.@ (At what?)
-` The box of forgotten memories.\
+` - А...@
+` Голова.@ У меня болит голова.@
+` Крышка открывается.@
+` То, что было наглухо закрыто.@ (Кем?)
+` Я не могу на это смотреть.@ (На что?)
+` Шкатулка с забытыми воспоминаниями.\
 ;S.E."??"
 wave se0
 
@@ -214,31 +214,22 @@ br
 br
 br
 br
-` ----He commanded me to forget everything.\
+` Он приказал мне забыть всё.\
 
-` Tohno Makihisa.@
-` Nanaya Shiki was adopted by the person who made him alone.@
-` Probably, because it was amusing to him that I had the same name as his son.\
+` Тоно Макихиса.@
+` Наная Шики был усыновлён тем, кто отнял у него всех.@
+` Наверное, ему показалось забавным, что у меня было такое же имя, как и у его сына.\
 
-` It's something that happened ten years ago.@
-` I was adopted.@
-` I was brought into an unknown mansion.@
-` My family were always people I didn't know.@
-` My life in the detached building.@
-` The boy and the girl I met.@
-` The big garden we played around in.@
-` A hot summer day.@
-` Akiha getting attacked by a shadow.@
-` I could only think about helping her, and the moment I used myself as a shield----\
-
-br
-br
-br
-br
-br
-br
-br
-` ----I was commanded to forget everything.\
+` Это случилось десять лет назад.@
+` Меня усыновили.@
+` Меня привезли в неизвестный особняк.@
+` Моей семьёй всегда были чужие люди.@
+` Моя жизнь в отдельном здании.@
+` Мальчик и девочка, с которыми я познакомился.@
+` Большой сад, в котором мы играли.@
+` Жаркий летний день.@
+` Тень, напавшая на Акиху.@
+` Я думал только о том, как помочь ей, и когда я закрыл её собой...\
 
 br
 br
@@ -247,11 +238,20 @@ br
 br
 br
 br
+`  Мне приказали всё забыть.\
+
 br
 br
-` By Tohno Makihisa.@
-` By my own father.@
-` He commanded me to live as Tohno Shiki and not Nanaya Shiki and---\
+br
+br
+br
+br
+br
+br
+br
+` Тоно Макихиса.@
+` Мой отец.@
+` Он приказал мне жить жизнью Тоно Шики а не Наная Шики и...\
 
 
 ; ???<???????(?)>
@@ -268,64 +268,64 @@ play "*4"
 bg "image\bg\bg_36d.jpg",%type_crossfade_mid
 
 
-`"------, ............!!"@
-` Dizziness, Sickness.@
-` Mixed memories run through my head.@
+` - ------, ............!!!@
+` Головокружение, тошнота.@
+` Ворох воспоминаний проносится у меня в голове.@
 br
-` Thump.@
-` I can't control my body.@
-` I throw Akiha on the ground, and embrace my knife as I pant for air.\
+` Тук.@
+` Я не могу контролировать своё тело.@
+` Я бросаю Акиху на землю.\
 
 ; ?? : 03_????<???????(?)>
 ld c,":a;image\tachi\hal_t03.jpg",%type_crossfade_fst
 
 
-`"----Is it shocking?@ I bet it is.@ It should have been a big shock to know that you were an impostor, since you thought you were Tohno Shiki this whole time......!"@
-` SHIKI laughs.@
+` - Шокирующе, не правда ли?@ Готов поспорить, что да.@ Наверняка это такой шок, узнать, что ты на самом деле самозванец, ведь ты всё это время считал себя Тоно Шики!..@
+` Шики смеётся.@
 
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t02.jpg",%type_crossfade_fst
 
-`"But, that's nothing compared to me.@
-` You know, Shiki, I was killed by the person I thought was my best friend and even had the name Tohno Shiki taken away from me.@ You even took Akiha---my Akiha......!@ Can you understand how I felt!?"@
+` - Но это ничто, по сравнению с тем, что испытал я.@
+` Представляешь, Шики, меня убил тот, кого я считал своим лучшим другом, и он даже отобрал у меня имя Тоно Шики.@ Ты отнял у меня даже Акиху — мою Акиху!..@ Ты хоть представляешь, что я чувствовал?!@
 
-`"Killed----?@ I, you----"\
+` - Убил?..@ Я, тебя...\
 
 ; ??(?????) : ??<???????(?)>
 ld c,":a;image\tachi\hal_t01.jpg",%type_crossfade_fst
 
-`"That's right.@ I killed you first, but the end result was, you killed me.@
-` Can't you recall yet?@ Eight years ago on that day, I lost to my blood and killed you.@ Look at that scar on your chest.@ I took this arm and pierced right through you."@
-`"Scar on my chest----"@
-` That was in an accident.@
-` I was told I got that from an accident-----\
+` - Именно.@ Я убил тебя первым, но в конечном итоге меня убил ты.@
+` Ещё не вспомнил?@ В тот день, восемь лет назад, я поддался зову крови и убил тебя.@ Посмотри на свой шрам на груди.@ Я пронзил тебя насквозь вот этой вот рукой.@
+` - Шрам на груди...@
+` Это было из-за аварии.@
+` Мне сказали, что это шрам после аварии...\
 
-`"Yes, the old man almost killed me afterwards, though.@
-` The Tohno blood finally awakened inside me, but I was imprisoned underground, and lived in the dark for eight years.@
-` ---That damn old man.@ He said he'd let me out if I returned to being a human...!@ He thought it would be inconvenient for Tohno Shiki to be gone, so he made you into Tohno Shiki."\
+` - Но потом старик чуть не убил меня.@
+` Кровь Тоно наконец пробудилась во мне, но меня бросили в темницу, и я просидел там восемь лет.@
+` Чёртов старикашка.@ Он сказал, что выпустит меня если я снова стану человеком!..@ Он решил, что будет нехорошо, если Тоно Шики исчезнет, и он сделал Тоно Шики из тебя.\
 
-`"--------"@
-` ...... So,
-` the adopted kid that was here ten years ago was me.\
+` - ...@
+` Получается,
+` ребёнком, усыновлённым десять лет назад, был я.\
 
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t02.jpg",%type_crossfade_fst
 
-`"Do you get it, Shiki?@ I was killed by you.@
-` I'm alive right now, but you're Tohno Shiki.@
-` I have no place to go back to.@
-` My name as Tohno Shiki, my position, my dear sister, and even my existence was taken away by you.@
-` I, as Tohno SHIKI, was killed by you, Tohno Shiki."@
+` - Теперь ты понял, Шики?@ Ты убил меня.@
+` Я жив, но Тоно Шики-то ты.@
+` Мне некуда возвращаться.@
+` Моё имя Тоно Шики, моё положение, мою дорогую сестру, ты отнял у меня всё моё существо.@
+` Я, как Тоно ШИКИ, был убит тобой, Тоно Шики.@
 br
-` A step.@
-` He starts to walk towards me with glaring eyes.\
+` Шаг.@
+` С горящими глазами он идёт ко мне.\
 
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t03.jpg",%type_crossfade_fst
 
-`"Here---that's the end of the story.@ Shiki, you should have died eight years ago.@ You've had enough, right?@ Let's go back to the way things were eight years ago."@
-`"-----The way things were-----?"@
-`"Yes.@ I return to being Tohno Shiki, and you return----to the dead person you were!"\
+` - А теперь, всё кончится.@ Шики, ты должен был умереть восемь лет назад.@ Хватит с тебя, верно?@ Давай вернём всё как было восемь лет назад.@
+` - Как всё было?..@
+` - Да.@ Я снова стану Тоно Шики, а ты — ты снова станешь мертвецом!\
 
 ; ?????<?????(?)>
 cl c,%type_lcartain_fst
@@ -343,16 +343,16 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_46c.jpg",%type_lshutter_fst
 
 
-` A big impact.@
-` I was blown out to the hallway with one strike from SHIKI.@
-`"A------"@
-` My back strikes the wall.@
-` I can't breathe.@
-` My head, I---still can't think straight.\
+` Сокрушительный удар.@
+` От одного удара ШИКИ я вылетаю в коридор.@
+` - А...@
+` Я влетаю спиной в стену.@
+` Я не могу дышать.@
+` Моя голова, я... я никак не приду в себя.\
 
-`"Ku-----"@
-` I can sense him coming.@
-` SHIKI jumps out from Akiha's room.@
+` - Кх...@
+` Я чувствую его приближение.@
+` ШИКИ выскакивает следом из комнаты Акихи.@
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
@@ -362,27 +362,28 @@ bg "image\bg\ima_14.jpg",%type_crossfade_fst
 wave se11
 
 
-`"Damn----!"@
-` I can hear SHIKI.@
-` His weapon also happens to be a knife, and my knife joins his in a deadly competition.\
+` - Твою мать!..@
+` Я слышу ШИКИ.@
+` Он тоже вооружен ножом, и мой нож готовится столкнутся с нимв смертельном поединке.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ;CD-DA??
 playstop
 
-` I gasp for air.@
-` I'm out of breath.@
-` I still feel sick.@
-` But, I don't have time to think.@
+` Я хватаю ртом воздух.@
+` Мне перехватило дыхание.@
+` Меня всё ещё тошнит.@
+` Но мне некогда думать.@
 br
-` I----
+` Я...
 br
 
 
 
 
 return
+
 
 
 
