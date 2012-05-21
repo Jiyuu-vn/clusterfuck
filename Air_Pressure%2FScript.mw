@@ -913,74 +913,75 @@ label chapter2_2q4:
     l "Э. Ладно."
     "Ну…"
     menu:
-        "I don't know how else to fix things.":
-            "I don't know what else I can do to fix things."
+        "Я не знаю, как по другому всё исправить.":
+            "Я не знаю, что ещё я могу сделать, чтобы всё исправить."
             show l happy
-            l "Hmm… you could trust me a little more."
-            "I suppose."
+            l "Ну… Ты мог бы доверять мне немного больше."
+            "Наверно."
             show l playful
-            l "And appreciate how much I help you."
-            m "{i}She's right, of course.{/i}"
-            m "{i}I always forget how much she's helped over the years.{/i}"
+            l "И быть благодарным за то, что я тебе помогаю."
+            m "{i}Конечно, она права.{/i}"
+            m "{i}Я все время забываю, как много она помогала мне за эти годы.{/i}"
             scene bg black with pixellate
-            m "{i}We walked back home together.{/i}"
-            m "{i}I thought about whether I should rely on her more.{/i}"
-            m "{i}Maybe that's all I can do to show her she's needed.{/i}"
-            jump chapter3_1
+            m "{i}Мы вместе пошли домой.{/i}"
+            m "{i}Я думал о том, стоит ли мне больше ей доверять.{/i}"
+            m "{i}Возможно это единственный способ показать ей что она нужна мне.{/i}"
+			jump chapter3_1
             
         
-        "Don't accept it then!":
-            "Don't accept my apology then!"
+        "Тогда не принимай!":
+            "Не принимай мои извинения!"
             show l surprised
             l "..!"
-            "Ah I don't know why I bothered."
-            "I should have known you'd prod at it."
+            "Ах, не знаю, почему я волнуюсь."
+            "Я должен был знать, что ты это скажешь." 
             show l upset
             l "…"
             scene bg black with pixellate
-            m "{i}I can't have any secrets from her, I guess.{/i}"
-            m "{i}She always dissects everything I say or do.{/i}"
-            m "{i}But why do I let her?{/i}"
-            m "{i}Do I need her to keep me in check?{/i}"
+            m "{i}Я, наверно, ничего не могу от нее утаить.{/i}"
+            m "{i}Она всегда всё узнает.{/i}"
+            m "{i}И почему только я ей позволяю?{/i}"
+            m "{i}Я хочу, чтобы она меня проверяла?{/i}" #
             jump chapter3_2
     
     
     
 label chapter2_2q5:
-    "Since when do you think I rely on you too much?"
+    "С каких это пор ты думашь, что я слишком полагаюсь на тебя?"
     show l upset
     l "…"
-    "Maybe I do… but it's not fair to blame me."
+    "Может так и есть… Но не обижайся на меня."
     show l annoyed
-    l "Hmm."
-    m "{i}Maybe I'm asking too much.{/i}"
+    l "Хмм."
+    m "{i}Возможно, я прошу слишком много.{/i}"
     menu:
-        "Apologise.":
-            "…Sorry."
+        "Извиниться.":
+            "…Прости."
             show l upset
-            l "It's fine."
-            "I know I'm being unfair."
-            "Please, don't stop helping me."
+            l "Да ничего."
+            "Я знаю, я был не прав."
+            "Пожалуйста, помогай мне и дальше." # 
             l "…"
             scene bg black with pixellate
-            m "{i}We walked home together.{/i}"
-            m "{i}I hoped I had appeased her a little.{/i}"
-            m "{i}I hoped she could stop me being an idiot in future.{/i}"
+            m "{i}Мы вместе пошли домой.{/i}"
+            m "{i}Надеюсь, я успокоил её немного.{/i}"
+            m "{i}Возможно, в будущем она поможет мне перестать быть идиотом.{/i}"
             jump chapter3_2
         
-        "It's not unreasonable.":
-            "I don't think it's unreasonable."
+
+        "Это не беспочвенно.":
+            "На то есть причина."
             show l surprised
             l "..!"
-            "The only reason you stay here is because of me anyway!"
-            "I don't need you if you're going to be like this."
+            "Ты всё равно тут только из-за меня!"
+            "Ты мне не нужна если ты будешь такой." # 
             show l upset
             l "…"
             scene bg black with pixellate
-            m "{i}I don't like her anymore.{/i}"
-            m "{i}I'm tired of putting up with her.{/i}"
-            m "{i}Yes, I'm being awful, but I don't care.{/i}"
-            m "{i}We walked home in silence.{/i}"
+            m "{i}Она мне больше не нравится.{/i}"
+            m "{i}Я устал с ней мириться.{/i}" #
+            m "{i}Да, я ужасен, но мне плевать.{/i}"
+            m "{i}Мы пошли домой молча.{/i}"
             jump chapter3_3
             
     
@@ -988,44 +989,44 @@ label chapter2_2q5:
     
 label chapter2_2q6:
     show l cynical
-    l "So you would be fine if I stopped helping you completely?"
-    "…You wouldn't."
-    l "Heh…"
+    l "Значит ты будешь впорядке если я совсем прекращу тебе помогать?"
+    "…Ты так не сделаешь."
+    l "Хех…"
     show l angry
-    l "You think you can get by without me to back you up?"
-    "Well…"
+    l "Ты думаешь, что сможешь жить без моей помощи?" # Вут?
+    "Ну…"
     menu:
-        "…No.":
-            "…No, you're right."
+        "…Нет.":
+            "…Нет, ты права."
             show l annoyed
             l "…"
-            "Sorry."
-            "Please don't be upset with me!"
+            "Прости."
+            "Пожалуйста, не злись на меня!"
             show l upset
             l "…"
             scene bg black with pixellate
-            m "{i}I didn't want to be alone.{/i}"
-            m "{i}Maybe I just use her to stop myself feeling lonely.{/i}"
-            m "{i}I am pathetic like that.{/i}"
+            m "{i}Я не хотел быть один.{/i}"
+            m "{i}Может я просто использовал её, чтобы не чувствовать себя одиноким?{/i}"
+            m "{i}Я жалок.{/i}"
             jump chapter3_2
         
-        "Yes!":
-            "Yes. Well, I would like to try."
+        "Да!":
+            "Да. Ну, я хотел бы попробовать."
             show l cynical
-            l "Heh, and come running to me when you fail!"
-            "Not if you're not going to help."
+            l "Хех, и прибежишь ко мне как только у тебя не получится?"
+            "Не прибегу если ты не будешь помогать."
             show l surprised
             l "…"
             show l upset
-            l "Don't be like that."
+            l "Не говори так."
             "…"
-            l "You know I'll always help you."
-            l "No matter how bad things seem."
+            l "Ты знаешь, я всё время тебе помогаю."
+            l "Ни смотря на как все может быть плохо."
             "…"
             scene bg black with pixellate
-            m "{i}We argued a little more on the way home.{/i}"
-            m "{i}I think I'm realising that I don't want her around.{/i}"
-            m "{i}She can threaten me with leaving, but I think she's more scared of it than I am.{/i}"
+            m "{i}Мы спорили по пути домой.{/i}"
+            m "{i}Наверное, я больше не хочу чтобы она была рядом.{/i}"
+            m "{i}Она может пригрозить мне, что уйдет, но я думаю, она боится этого болше меня.{/i}"
             jump chapter3_3
 
             
@@ -1039,196 +1040,196 @@ label chapter2_3:
 
     scene bg park with pixellate
     show l happy
-    m "{i}We sat together on the grass in the park.{/i}"
+    m "{i}Мы сели на траве в парке.{/i}"
     m "{i}She's so cheerful.{/i}"
     m "{i}It just shows me how oblivious she can be to my thoughts.{/i}"
     show l playful
-    l "It's nice out here, huh?"
-    m "{i}Totally oblivious.{/i}"
-    m "{i}I know I'm being unfair. What I should do is…{/i}"
+    l "Неплохо здесь, да?"
+    m "{i}Неприменно.{/i}" ##
+    m "{i}Я знаю, что был не прав. Мне следует…{/i}"
     menu:
-        "Buy ice cream.":
-            m "{i}Yeah, I should try be as happy as she is.{/i}"
-            "Mm. Hey, do you wanna get some ice cream?"
+        "Купить ей мороженное.":
+            m "{i}Да, мне следует быть счасливым как она.{/i}"
+            "Эй, не хочешь мороженного?"
             show l happy
-            l "Yeah, sure!"
+            l "Да, давай!"
             m "{i}…{/i}"
             jump chapter2_3q1
-        "Confess.":
-            m "{i}I should tell her what's up.{/i}"
-            "Uhm, listen…"
+        "Признаться.":
+            m "{i}Я должен сказать ей.{/i}"
+            "Ммм, слушай..."
             show l happy
-            l "Hmm?"
-            "Do you think… Do you think I rely on you too much?"
+            l "?"
+            "Тебе не кажется… Тебе не кажется, что я слишком полагаюсь на тебя?"
             show l surprised
-            l "How do you mean? We're friends aren't we?"
+            l "Что ты имеешь в виду? Мы же друзья."
             jump chapter2_3q2
 
 label chapter2_3q1:
-    m "{i}So, I bought ice cream.{/i}"
+    m "{i}Я купил мороженное.{/i}"
     m "{i}As we sat around eating, I started to think if I could bring up the subject in a gentle way.{/i}"
-    "Hey."
-    "Mmn?"
-    "Do you think…"
+    "Эй."
+    "Ммм?"
+    "Не думаешь, что…"
     menu:
-        "…we should go sit by the river?":
-            "There might be cute ducks on the river."
+        "…мы могли бы сесть у реки?":
+            "У реки могут быть смешные утки."
             show l playful
-            l "Oh yeah. Haha, I wonder if ducks like ice cream!"
-            m "{i}Ducks eat anything.{/i}"
+            l "А, да. Хаха. Думаешь, утки едят мороженное?"
+            m "{i}Они всё едят.{/i}"
             jump chapter2_3q3
-        "…I rely on you too much?":
-            "…I rely on you too much?"
+        "…я слишком на тебя полагаюсь?":
+            "…я слишком на тебя полагаюсь?"
             show l sad
-            l "Do you think you do?"
-            "I don't know."
-            l "Is it so bad to rely on me every so often?"
+            l "Ты так думаешь?"
+            "Не знаю."
+            l "Разве это так плохо полагаться на меня?"
             jump chapter2_3q4
             
 
 label chapter2_3q2:
-    m "{i}She's right, we are friends. But is this what I really want?{/i}"
+    m "{i}Она права, мы друзья. Но хочу ли я этого?{/i}"
     menu:
-        "Yes.":
-            "Y-yes."
+        "Да.":
+            "Д-да."
             show l sad
-            l "You sound unsure."
-            "W-well, I still think it would be a good idea if I made some other friends."
-            "Just so I don't have to depend on you for everything."
+            l "Ты не уверен."
+            "Ну, я попрежнему думаю, что неплохо было бы завести побольше друзей."
+            "Тогда мне не придется полагаться на тебя во всём"
             jump chapter2_3q5
-        "No.":
-            "W-well, I guess."
+        "Нет.":
+            "Н-ну, наверно."
             show l sad
             l "..?"
-            "I think I just need to be alone for a while."
+            "Я думаю, мне надо побыть одному."
             show l annoyed
-            l "Huh. I make effort to cheer you up and you don't need me?"
+            l "Что? Я пытаюсь тебя подбодрить, а ты говоришь, что я тебе не нужна?"
             jump chapter2_3q6
 
 label chapter2_3q3:
-    m "{i}I'm such a coward.{/i}"
-    m "{i}If I can't tell her, then I have to…{/i}"
+    m "{i}Я такой трус.{/i}"
+    m "{i}Если я не могу сказать ей, я должен...{/i}"
     menu:
-        "Forget it.":
-            m "{i}I'll have to just forget this stupid feeling.{/i}"
-            m "{i}Relying on her isn't so bad.{/i}"
-            m "{i}Maybe I should be happy that I have someone like her to depend on instead?{/i}"
+        "Забыть об этом.":
+            m "{i}Я просто должен забыть это дурацкое чувство.{/i}"
+            m "{i}Полагаться на неё не так уж и плохо.{/i}"
+            m "{i}Может мне следует радоваться, что у меня есть кто-то вроде нее?{/i}"
             scene bg black with pixellate
-            m "{i}We went back home.{/i}"
-            m "{i}Not everything has to be perfect, does it?{/i}"
-            m "{i}Perhaps relying on her is the best I can ever hope for.{/i}"
-            m "{i}I should be grateful and embrace the things that I do have.{/i}"
+            m "{i}Мы пошли домой.{/i}"
+            m "{i}Не может же быть всё хорошо?{/i}"
+            m "{i}Наверно неё поддержка это лучшее, на что я могу надеяться.{/i}"
+            m "{i}Я должен быть счаслив тому, что у меня есть.{/i}"
             jump chapter3_1
             
-        "Learn to live with it.":
-            m "{i}I'll just have to learn to get by as it is.{/i}"
-            m "{i}I'm sure I can summon the strength to do so.{/i}"
-            m "{i}I've been OK so far…{/i}"
+        "Научиться жить с этим.":
+            m "{i}Я просто долежен смириться с этим.{/i}"
+            m "{i}Уверен, у меня найдутся силы.{/i}"
+            m "{i}До этого ведь было всё нормально.{/i}"
             show l playful
-            l "Let's go home."
+            l "Пойдем домой."
             scene bg black with pixellate
-            m "{i}I don't need to change anything, I told myself.{/i}"
-            m "{i}We went home.{/i}"                 
-            m "{i}Same as always.{/i}"
+            m "{i}Я сказал себе, что не должен ничего менять.{/i}"
+            m "{i}Мы пошли домой.{/i}"                 
+            m "{i}Всё как обычно.{/i}"
             jump chapter3_2
 
 label chapter2_3q4:
-    m "{i}It's no good, I have to say…{/i}"
+    m "{i}Не знаю. Я должен сказать…{/i}"
     menu:
-        "No.":
-            "No, I guess it's OK."
+        "Нет.":
+            "Нет, я думаю это хорошо."
             show l playful
-            l "Haha, sound a little more sure."
-            "Heh, well, I don't like being a burden."
+            l "Хаха, уже уверенней."
+            "Ну, я просто не хочу быть обузой."
             show l happy
-            l "It's not a problem."
-            "I suppose."
+            l "Ничего страшного."
+            "Надеюсь."
             scene bg black with pixellate
-            m "{i}She reassured me everything's all OK.{/i}"
-            m "{i}Maybe I don't need to change, I just need to be fine with everything staying the same.{/i}"
-            m "{i}I wonder if it will stay the same forever. Whether she will change her mind.{/i}"
+            m "{i}Она убедила меня в том, что все нормально.{/i}"
+            m "{i}Может мне не стоит меняться? Я должен быть доволен, что ничего не меняется.{/i}"
+            m "{i}Будет ли так вечно? Возможно она передумает.{/i}"
             jump chapter3_1
-        "Yes.":
-            "I just think I should be more self-sufficient."
+        "Да.":
+            "Мне просто следует быть более самостоятельным."
             show l surprised
-            l "…Really?"
-            "Yes."
+            l "Правда?"
+            "Да."
             show l upset
-            l "Hah, sometimes I think you're trying to get rid of me."
+            l "Хех, иногда мне кажется, что ты пытаешься избавиться от меня."
             "…"
-            "…Not exactly."
+            "Не совсем так."
             "I just think we could tone it down a little."
             show l sad
             l "…"
             scene bg black with pixellate
-            m "{i}She went home without me.{/i}"
-            m "{i}I started to feel awful.{/i}"
-            m "{i}And then I felt worse when I realised how tied to her I was.{/i}"
-            m "{i}I should make some steps to resolve these feelings.{/i}"
+            m "{i}Она пошла домой без меня.{/i}"
+            m "{i}Я почуствовал себя ужасно.{/i}"
+            m "{i}И почуствовал себя ещё хуже когда понял, насколько к ней привязан.{/i}"
+            m "{i}Мне пора разобраться с моими чувствами.{/i}"
             jump chapter3_3
 
 label chapter2_3q5:
-    l "Hmm."
-    "What?"
+    l "Хмм."
+    "Что?"
     show l upset
-    l "Do you mean more friends, or friends instead of me?"
-    m "{i}Huh, I mean…{/i}"
+    l "Ты имеешь в виду больше друзей или друзей вместо меня?"
+    m "{i}Ну я имел в виду…{/i}"
     menu:
-        "More friends.":
-            "Just more friends, of course!"
-            "There's no way I'd leave you behind."
+        "Больше друзей.":
+            "Просто больше друзей, конечно же!"
+            "Я ведь не могу тебя бросить."
             show l happy
-            l "Really?"
-            "Really."
-            m "{i}But I wonder, if I met new people, would they get on with her as well as I do?{/i}"
+            l "Правда?"
+            "Правда."
+            m "{i}Но я не знаю, смогут ли люди, с которыми я встречусь, поладить с ней как я.{/i}"
             scene bg black with pixellate
-            m "{i}We stayed in the park for a while, and then headed home.{/i}"
-            m "{i}She was happy now I'd assured her I wasn't going to abandon her.{/i}"
-            m "{i}When it comes down to it, I need her more than anything or anyone else.{/i}"
+            m "{i}Мы некоторое время сидели в парке и потом отправились домой.{/i}"
+            m "{i}Она была счаслива, что я её не брошу.{/i}"
+            m "{i}When it comes down to it, Я нуждаюсь в ней больше чем в ком либо другом.{/i}" ##
             jump chapter3_2
-        "Instead of you.":
-            "I don't know. I think it would be good for both of us to have different friends."
+        "Вместо тебя.":
+            "Не знаю. Для нас будет лучше иметь разных друзей."
             show l annoyed
-            l "I don't need different friends."
-            "Well I do!"
-            "I'm sorry, I just need time alone. I can't spend all my time with you!"
+            l "Мне не нужны другие друзья."
+            "Мне нужны!"
+            "Прости, мне нужно побыть одному. Я не могу проводить всё своё время с тобой!"
             show l upset
-            l "…Fine."
+            l "Понятно."
             hide l
-            m "{i}She left.{/i}"
+            m "{i}Она ушла.{/i}"
             scene bg black with pixellate
-            m "{i}I know I am cruel.{/i}"
-            m "{i}If I'm not though, she'll be with me forever…{/i}"
-            m "{i}…And I'll never be able to move on.{/i}"
-            m "{i}I feel like I need to try to move on.{/i}"
+            m "{i}Знаю, я был жесток.{/i}"
+            m "{i}Но иначе она бы оставалась со мной все время...{/i}"
+            m "{i}...И я бы не смог двигаться дальше.{/i}"
+            m "{i}А мне кажется я должен попробовать.{/i}"
             jump chapter3_3
 
 label chapter2_3q6:
-    m "{i}Urgh, made her angry…{/i}"
+    m "{i}Ох, я разозлил её...{/i}"
     menu:
-        "Apologise.":
-            "…Sorry. It's not like that."
+        "Извиниться.":
+            "Прости. Это не так."
             show l upset
             l "…"
-            "Sorry, I'm just confused. Of course I need you."
+            "Я запутлася. Кончено, ты мне нужна."
             show l sad
             l "…"
-            l "Shall we head home?"
+            l "Пошли домой?"
             scene bg black with pixellate
-            m "{i}I don't want to rely on her, but it's so easy!{/i}"
-            m "{i}I can't decide if I am better off with her or without her.{/i}"
-            m "{i}We went home, and I didn't mention it for the rest of the day.{/i}"
+            m "{i}Я не хочу зависеть от неё, но ведь так проше!{/i}"
+            m "{i}Я не знаю, хорошо мне с ней или плохо.{/i}"
+            m "{i}Мы пошли домой и я больше не поднимал эту тему.{/i}"
             jump chapter3_2
-        "Let her leave.":
-            "Sorry, not right now."
+        "Позволить ей уйти.":
+            "Прости, но не сейчас."
             l "…"
-            "I just don't need cheering up like this. I need time to think."
+            "Не надо меня так подбадрисвать. Мне нужно время подумать."
             show l cynical
-            l "Fine. I'll see you later, I guess."
+            l "Ладно. Тогда до встречи."
             scene bg black with pixellate
-            m "{i}She headed back home without me.{/i}"
-            m "{i}I thought about my relationship with her.{/i}"
-            m "{i}I wonder, if I am ready or even able to meet new people.{/i}"
+            m "{i}Она пошла домой без меня.{/i}"
+            m "{i}Я думал о наших отношениях.{/i}"
+            m "{i}Могу ли я вообще с кем-то познакомиться?.{/i}"
             jump chapter3_3
             
 
