@@ -1558,38 +1558,38 @@ label chapter3_1q5:
         
 label chapter3_1q6:
     show l sad
-    l "See what?"
-    m "{i}Oh, it's gone now.{/i}"
-    "For a second there…"
+    l "Видела что?"
+    m "{i}Ох, оно пропало.{/i}"
+    "Но на мгновение там..."
     menu:
-        "There was something weird.":
-            "I saw something weird."
+        "Там было что-то странное.":
+            "Я видел что-то странное."
             show l happy
-            l "Heh, are you tired or something?"
-            "No, I don't feel tired."
-            l "Well, maybe just relax anyway."
+            l "Хех, возможно, ты устал?"
+            "Нет, я не чувствую себя уствшим."
+            l "Всё равно, может стоит отдохнуть?"
             "…"
-            "Fine, fine."
+            "Хорошо, хорошо."
             scene bg black with pixellate
-            m "{i}We spent the rest of the day talking about nothing important.{/i}"
-            m "{i}I can never talk about anything important, especially when it comes to her.{/i}"
-            m "{i}But I think that's something I just have to live with.{/i}"
+            m "{i}Остаток дня мы провели болтая ни о чём.{/i}"
+            m "{i}Я не могу говорить о чём-либо важном, особенно когда это косается её.{/i}"
+            m "{i}Наверно, я просто должен привыкнуть к этому.{/i}"
             jump finale2
         
-        "…Never mind.":
-            "Never mind, ignore me."
+        "Не обращай внимания.":
+            "Не обращай внимания. Просто забудь."
             show l happy
-            l "Heh, you're being odd."
-            "…Sorry."
-            l "Tsk, no need to apologise."
+            l "Хе, ты ведешь себя странно."
+            "Прости."
+            l "Да, ладно. Ты не должен извиняться."
             "…"
-            l "But you don't have to keep everything to yourself."
-            "…Thanks."
-            m "{i}I can't tell her how much I need her…{/i}"
+            l "Тебе не стоит держать всё в себе."
+            "Знаю, спасибо."
+            m "{i}Я не могу сказать её, как сильна она мне нужна.{/i}"
             scene bg black with pixellate
-            m "{i}Does she just pity me?{/i}"
-            m "{i}Maybe that's why I can't get closer to her.{/i}"
-            m "{i}…I wonder what it's like.{/i}"
+            m "{i}Does she just pity me?{/i}" #TODO
+            m "{i}Может по-этому я не могу сблизиться с ней.{/i}"
+            m "{i}Даже не знаю, каково это.{/i}"
             jump finale2
     
     
@@ -1600,214 +1600,214 @@ label chapter3_2:
 
     scene bg house with pixellate
     show l bored
-    m "{i}It was the day after our anniversary.{/i}"
+    m "{i}Был день послед годовщины нашей встречи.{/i}"
     show l boredanim
-    m "{i}I had a dull sense of pressure in my head.{/i}"
-    m "{i}It felt like I was surrounded.{/i}"
+    m "{i}Я чувствовал тупую сдавливающую боль в голове.{/i}"
+    m "{i}It felt like I was surrounded.{/i}" #TODO
     menu:
-        "Hey…":
-            "Uh, hey."
+        "Эй...":
+            "Эй."
             show l happy
-            l "Mm?"
-            "I was thinking…"
+            l "Мм?"
+            "Я тут подумал..."
             jump chapter3_2q1
         
         "…":
             "…"
-            m "{i}This isn't right.{/i}"
+            m "{i}Что-то не так.{/i}"
             jump chapter3_2q2
             
 label chapter3_2q1:
     show l playful
-    l "…For a change!"
-    "Haha…"
-    "Are you happy?"
+    l "…For a change!" #TODO
+    "Ха-ха"
+    "Ты счаслива?"
     show l happy
-    l "Sure, I'm OK."
+    l "Да, я в порядке."
     show l sadanim
-    l "Are you not happy?"
-    "No, I am. Just…"
+    l "А ты нет?"
+    "Нет, я просто..."
     menu:
-        "I want us to be closer.":
-            "I think we could be closer than we are."
+        "Хочу чтобы мы были ближе.":
+            "Я думаю, мы можем быть ближе."
             show l bored
-            l "Hmm. I guess so."
+            l "Хмм, наверно."
             show l happy
-            l "I always left it up to you."
-            l "If you're sure that's what you want…"
+            l "Это тебе решать."
+            l "Если ты так в этом уверен..."
             jump chapter3_2q3
         
         
-        "I was just checking.":
-            "I was just making sure."
+        "Просто проверял.":
+            "Я просто хотел проверить."
             show l happy
-            l "Heheh."
-            l "I know."
+            l "Хе-хе."
+            l "Знаю."
             jump chapter3_2q4
             
     
     
 label chapter3_2q2:
-    m "{i}I shouldn't feel this irritated.{/i}"
-    m "{i}I need to…{/i}"
+    m "{i}I shouldn't feel this irritated.{/i}" #TODO
+    m "{i}Мне следует...{/i}"
     menu:
-        "Stop thinking.":
-            m "{i}Stop thinking about it.{/i}"
-            m "{i}I need to do something.{/i}"
+        "Прекратить об этом думать.":
+            m "{i}Хватит об этом думать.{/i}"
+            m "{i}Мне надо чем-то заняться.{/i}"
             jump chapter3_2q5
         
-        "Keep thinking.":
-            m "{i}I have to focus. Have to tell her.{/i}"
-            "Hey…"
+        "Подумать получше.":
+            m "{i}Я должен собраться и сказать ей.{/i}"
+            "Слушай."
             show l happy
-            l "Mm?"
+            l "Мм?"
             jump chapter3_2q6
 
 
 
 label chapter3_2q3:
     show l happyanim
-    "I-I'm…"
+    "Я-я..."
     menu:
-        "I'm sure.":
-            "Yes, I'm sure of it."
+        "Я уверен.":
+            "Да, я в этом уверен."
             show l playfulanim
             l "…"
             l "Hold still."
             scene bg black with pixellate
-            m "{i}I couldn't stand it anymore.{/i}"
-            m "{i}I didn't want to stay the same forever.{/i}"
-            m "{i}I wanted to make a decision, even if it was a reckless one.{/i}"
+            m "{i}Я больше не мог так.{/i}"
+            m "{i}Я не хотел всё время оставаться прежним.{/i}"
+            m "{i}Я хотел принять решение. Хотя оно могло оказаться неверным.{/i}"
             jump finale1
         
-        "W-wait…":
+        "П-подожди.":
             "…"
             show l sadanim
             l "..?"
             show l upset
-            l "I knew it."
-            l "It's fine. Never mind."
+            l "Я так и думала."
+            l "Ладно, не обращай внимания."
             scene bg black with pixellate
-            m "{i}Something stopped me.{/i}"
-            m "{i}I think I'm still afraid.{/i}"
-            m "{i}I can't trust her, not completely.{/i}"
+            m "{i}Что-то останавливает меня.{/i}"
+            m "{i}Мне попрежнему страшно.{/i}"
+            m "{i}Я не могу доверять ей.{/i}"
             jump finale2
 
 
 label chapter3_2q4:
     show l playfulanim
-    l "I can't help you with this decision."
-    l "You have to make it."
+    l "Я не могу помочь тебе с этим решением."
+    l "Ты должен принять его сам."
     show l playful
-    "Uhm…"
+    "Эм..."
     menu:
-        "I'll just see what happens.":
-            "I'm fine just seeing what happens."
+        "Посмотрим, что будет.":
+            "Я просто посмотрю, что будет дальше."
             show l sad
-            l "Really?"
-            "Yes. I think so."
+            l "Правда?"
+            "Да, пожалуй."
             scene bg black with pixellate
-            m "{i}Of course I was too scared.{/i}"
-            m "{i}I knew what I'd be getting myself into.{/i}"
-            m "{i}I was too afraid to take any risks.{/i}"
+            m "{i}Мне просто было страшно.{/i}"
+            m "{i}Я знал во что ввязываюсь.{/i}"
+            m "{i}Просто не хотел рисковать.{/i}"
             jump finale2
         
-        "Take control.":
-            "Then…"
-            "I want to be closer to you."
+        "Взять всё в свои руки.":
+            "Тогда..."
+            "Я хочу чтобы мы были ближе."
             show l happyanim
             l "…"
-            l "Then…"
+            l "Ну…"
             scene bg black with pixellate
-            m "{i}I know it was a reckless decision.{/i}"
-            m "{i}I know she's not good for me.{/i}"
-            m "{i}I had to know what it felt like.{/i}"
+            m "{i}Я знал, что это глупое решение.{/i}"
+            m "{i}Она мне не подходит.{/i}"
+            m "{i}Я должен был знать, каково это.{/i}"
             jump finale1
 
 
 label chapter3_2q5:
-    "Hey."
+    "Эй."
     show l happy
-    l "Yes?"
-    "I…"
+    l "А?"
+    "Я..."
     menu:
-        "Am happy.":
-            "…Want you to promise."
-            l "What?"
-            "You'll always be here."
+        "Я счаслив.":
+            "Хочу чтобы ты пообщяла мне."
+            l "Что?"
+            "Что всегда будешь со мной."
             show l playful
-            l "You know I will."
+            l "Ты же знаешь, что я буду с тобой."
             "…"
-            "…Of course."
+            "Конечно."
             scene bg black with pixellate
-            m "{i}It's a relief that nothing changes.{/i}"
-            m "{i}I can cope if everything is the same.{/i}"
-            m "{i}I don't have to worry about losing her, or losing myself.{/i}"
+            m "{i}Приятно осознавать, что ничего не поменяется.{/i}"
+            m "{i}Я справлюсь если ничег не будет меняться.{/i}"
+            m "{i}Теперь можно не бояться, что я потеряю её... Или себя.{/i}"
             jump finale2
         
         "Need to be alone.":
-            "I need you to leave."
+            "Я хочу чтобы ты ушла."
             show l surprised
             l "!!!"
             show l sad
-            l "That's…"
+            l "Это..."
             show l upset
-            l "…Not surprising."
+            l "Это не удивительно."
             "…"
-            l "It's OK."
+            l "Но, ладно."
             show l sad
-            l "Maybe one day you'll need me again."
+            l "Возможно, когда-нибудь я снова буду тебе нужна."
             scene bg black with pixellate
-            m "{i}I hope she's wrong.{/i}"
-            m "{i}But I know I'll still think of her.{/i}"
-            m "{i}I can't help but be reminded by the marks she left.{/i}"
+            m "{i}Надеюсь это такого не случится.{/i}"
+            m "{i}Но я не могу перестать думать о ней.{/i}"
+            m "{i}I can't help but be reminded by the marks she left.{/i}" #TODO
             jump finale3
 
 
 
 label chapter3_2q6:
-    "I'm not happy with… this anymore."
+    "Меня это больше не устраивает."
     show l sad
-    l "Oh."
+    l "Мм."
     show l annoyed
-    l "What do you want me to do?"
-    "I don't know."
+    l "Чего ты хочешь чтобы я сделала?"
+    "Не знаю."
     "…"
-    "I think I'd prefer to be alone."
-    l "Hmm."
+    "Думаю, я предпочел бы быть один."
+    l "Хмм."
     show l cynical
-    l "Do you really think you can cope alone?"
+    l "Ты правда думаешь, что справишься один?"
     menu:
-        "Yes.":
-            "Yes."
-            "I want to try, anyway."
+        "Да.":
+            "Да."
+            "Я хочу попробовать."
             show l sad
             l "…"
-            l "You know, I can come back anytime."
-            "Yes."
+            l "Я могу вернуться в любое время."
+            "Да."
             show l cynical
-            l "I don't think you'll be OK, but…"
-            "I will."
+            l "Не думаю, что ты справишься..."
+            "Я справлюсь."
             show l sad
             l "…"
             scene bg black with pixellate
-            m "{i}She complained a lot.{/i}"
-            m "{i}I didn't give in to her.{/i}"
-            m "{i}For the first time in a long while, my head started to clear.{/i}"
+            m "{i}Она много возмущалась.{/i}"
+            m "{i}Но я не сдавался.{/i}"
+            m "{i}Всё наконец-то начало проясняться.{/i}"
             jump finale3
         
-        "No.":
-            "…No. You're right."
+        "Нет.":
+            "Нет. Ты права."
             show l happy
-            l "Heh."
+            l "Хе."
             show l playful
-            l "I'm sorry."
-            "No, I know you're right."
-            "I'm just sorry for doubting you."
+            l "Прости."
+            "Нет, я знаю, что ты права."
+            "Прости, что не верил в тебя."
             scene bg black with pixellate
-            m "{i}She'll always look out for me.{/i}"
-            m "{i}Familiar and frightening at the same time.{/i}"
-            m "{i}But never as frightening as being alone would be.{/i}"
+            m "{i}Она всегда присматривала за мной.{/i}"
+            m "{i}Она мне так близка. Но в тоже время это пугает.{/i}"
+            m "{i}Но не настолько, насколько меня пугает одиночество.{/i}"
             jump finale2
             
 
@@ -1817,71 +1817,71 @@ label chapter3_3:
     scene bg house with pixellate
     show l sad
     l "…"
-    "We need to talk."
+    "Нам надо поговорить."
     show l upset
-    l "T-that's never good."
-    l "Can't we just carry on as always?"
+    l "T-that's never good." #TODO
+    l "Не можем мы просто оставить всё как есть?"
     show l sad
-    l "It's alright, isn't it?"
+    l "Всё ведь хорошо, не так ли?"
     menu:
-        "No.":
-            "No."
-            "Sorry, I can't do this anymore."
+        "Нет.":
+            "Нет."
+            "Прости, я больше так не могу."
             show l cynical
-            l "Heh."
+            l "Хмф."
             jump chapter3_3q1
         
-        "…Maybe.":
-            "Maybe."
+        "Может быть.":
+            "Может быть."
             show l happy
-            l "Good."
+            l "Вот и хорошо."
             show l sad
-            l "What's upset you anyway?"
+            l "Почему ты вообще волнуешься?"
             jump chapter3_3q2
 
             
 label chapter3_3q1:
     show l annoyedanim
-    l "I don't believe you."
+    l "Я не верю тебе."
     "…"
-    l "I know you."
-    l "You're useless without me."
+    l "Я ведь знаю теюя."
+    l "Ты ничто без меня."
     show l angryanim
-    l "Just empty, boring, like everyone else."
+    l "Такой же пустой и скучный как все."
     "…"
     menu:
-        "I've made up my mind.":
-            "I've made up my mind."
+        "Я принял решение.":
+            "Я принял решение."
             show l cynical
-            l "Hahaha!"
+            l "Хахаха!"
             jump chapter3_3q3
         
-        "H-how dare you!":
-            "W-what!"
+        "Да, как она смеет!":
+            "Ч-что?!"
             show l cynical
-            l "Heh."
+            l "Хмф."
             jump chapter3_3q4
 
 
 label chapter3_3q2:
-    m "{i}Urgh, do I have to tell her?{/i}"
-    "Well…"
+    m "{i}Ох, я должен ей сказать?{/i}"
+    "Ну..."
     menu:
-        "I'm not happy.":
-            "Lately I've not been feeling so happy about things."
+        "Мне не нравится.": 
+            "Последнее время мне это совсем не нравится."
             show l surprised
-            l "Things?"
-            "Well, us, I mean."
+            l "Это?"
+            "Я говорю о нас."
             show l sad
             l "…"
             jump chapter3_3q5
         
-        "Forget it.":
-            "Forget it."
+        "Забудь.":
+            "Забудь."
             show l sad
             l "…"
             show l annoyed
-            l "No."
+            l "Нет."
             jump chapter3_3q6
 
 
