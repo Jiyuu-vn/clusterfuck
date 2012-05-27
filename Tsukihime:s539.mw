@@ -17,23 +17,23 @@ ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
 
-` You have reached Akiha's Normal Ending.@ Well done.@
+` Вы открыли нормальную концовку Акихи.@ Поздравляем.@
 br
-` Each heroine (with one exception) has two different kinds of endings.@
-` Usually, they are called "True Ending" and "Good Ending", but Akiha-san's are called "Normal Ending" and "True Ending".@
+` У каждой героини (с одним исключением) есть две концовки.@
+` Обычно они называются «Истинная Концовка» и «Хорошая Концовка», ну у Акихи-сан концовки называются «Нормальная Концовка» и «Истинная Концовка»@
 br
-` Akiha-san's route is different from everyone else's in that how much Akiha-san likes you does not determine which ending you receive.\
+` Маршрут Акихи-сан отличается от других тем, что то, как сильно вас любит Акиха-сан, не влияет на то, какую концовку вы получите.\
 
-` It also differs from all other routes in that it has an extra Normal Ending, which is what you are reading right now.@ While this ending is called Akiha's Normal Ending, it will not register as an ending in the game.@
+` Ещё он отличается тем, что в нём есть дополнительная нормальная нонцовка, которую вы сейчас и читаете.@ Хотя эта концовка и называется Нормальной Концовкой Акихи, она не отметится как концовка в игре.@
 ld l,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
-`"Nya?@ What is this?@ You're talking nonsense!@
+` - Ня?@ Что это такое?@ Ты же бред несёшь!@
 br
-` Take it up with the game designers if you must.@
-` Tohno-kun, please proceed to play through Akiha-san's route to reach her real Normal Ending.\
+` Все вопросы — к разработчикам.@
+` Тоно-кун, чтобы получить настоящую Нормальную Концовку Акихи-сан, проследуй дальше по её маршруту.\
 
-` Well then, thank you very much for playing up to this point.@
+` Ну что ж, спасибо вам за игру.@
 br
-` Let's meet again somewhere in Tsukihime.\
+` Увидимся снова где-нибудь в Цукихиме.\
 
 
 ; ???<???????(?)>
@@ -44,6 +44,7 @@ playstop
 
 
 return
+
 
 
 
