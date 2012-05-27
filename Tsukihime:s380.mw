@@ -8,59 +8,59 @@ bg "image\bg\bg_53b.jpg",%type_nowaitdisp
 
 
 
-`".................."@
-` I stop walking.@
-` I stare at the crouching SHIKI as I stand on the slimy ground.\
+` - ...@
+` Я останавливаюсь.@
+` Остановившись на чём-то мокром, я смотрю на сидящего на земле ШИКИ.\
 
-`"Ha-----haha, ahahahahahaha!!"@
-` SHIKI is laughing loudly.@
-` ...... I know.@ If I stop now, he will recover from his wounds.@
-` I know I have thrown away my last chance.@
-` But still----if there's a way to get Akiha back, I have to hear it.\
+` - Ха... хаха, ахахахахахахаха!!!@
+` ШИКИ заливается громким хохотом...@
+` Я знаю.@ Если я остановлюсь, он успеет оправиться.@
+` Я знаю, что должен отбросить своё последний шанс.@
+` Но всё равно — есди существует способ вернуть Акиху, я должен его услышать.\
 
-`"...... Really?"@
-`"What?@ I can't hear you."@
-`"...... Is it for real, SHIKI?"@
-`"Yeah, I talk a lot but it's against my policy to ever lie.@ So I'll tell you if you stay there a bit longer---and depending on your attitude, I could go ahead and save Akiha myself."\
+` - В самом деле?@
+` - Чего?@ Я тебя не слышу.@
+` - ШИКИ, ты говоришь серьёзно?@
+` - Да, я, может, и люблю поболтать, но врать не в моих правилах.@ Так что если ты так и будешь стоять ещё немного, я скажу тебе — и в зависимости от твоего поведения, я может быть даже сам её спасу.\
 
-`"............... Save, Akiha............?"@
-` Is it that I felt something bad in those words?@
-` My body shakes and I almost fall.@
-` The ground is slippery because it's slimy------
+` - Спасёшь, Акиху?..@
+` Это из-за того, что я почувствовал что-то зловещее в его словах?@
+` Моё тело резко трясётся, и я едва не падаю.@
+` Земля подо мной скользкая, потому что она покрыта чем-то мокрым...
 br
-`"Sli-------ppery?"@
-br
-;S.E."??"
-wave se0
-
-` ------Wait.@
-` I am now...\
-
-`"Well, you should know how to save her.@ She has no power to live as a human, so she has to live as a Tohno.@
-` And since she is using the power of the Tohno blood, she became one of the Tohno blood, rather than someone of human blood."@
+` - Скольз...кая?@
 br
 ;S.E."??"
 wave se0
 
-` His weapon made out of red blood...\
+`         Стоп.@
+` Сейчас я...\
 
-`"So if you reset things back to the state where she can live as a human, she doesn't have to rely on the Tohno blood.@
-` See?@ Isn't it easy?@ If you want to save Akiha, all you have to do is eliminate the cause for her current state."@
+` - Ну, ты и сам должен понимать, как её можно спасти.@ Она не может жить как человек, и её приходится жить как Тоно.@
+` И используя силу крови Тоно, из обычного человека она стала истинной Тоно.@
 br
 ;S.E."??"
 wave se0
 
-` I am standing in a puddle of blood-----\
+` Его оружие создано из его крови...\
 
-`"So all I want to say is, everything will be fine if you just die--------!!"@
+`- Значит, чтобы снова позволить её стать человеком, она не должна пользоваться силой Тоно.@
+` Видишь?@ Равзе не понятно?@ Если ты хочешь спасти Акиху, тебе нужно устранить причину её состояния.@
 br
 ;S.E."??"
 wave se0
 
-`"----------!!"@
+` Я стою посреди лужи крови...\
+
+` - Иными словами, всё будет хорошо как только ты сдохнешь!!!@
 br
-` At the same time.@
-` I jump to the side with all my power.\
+;S.E."??"
+wave se0
+
+` - !@
+br
+` В тот же момент.@
+` Я изо всех сил отпрыгиваю в сторону.\
 ;CD-DA??
 playstop
 
@@ -68,12 +68,12 @@ playstop
 bg "image\bg\ima_12b.jpg",%type_lshutter_fst
 
 
-`"----------"@
-` It really was a matter of a split second.@
-` The blood that was flowing from SHIKI's body...
-` All of it turns into a mountain of needles.@
-` How could I be so careless?@
-` If that red sword was made of his blood, then it would be easy for him to make his flowing blood into swords as well.\
+` - ...@
+` У меня была только доля секунды.@
+` Кровь, вылившаясь из тела ШИКИ...
+` ...превратилась в гору иголок.@
+` Как я мог допустить такую оплошность?@
+` Раз его красный меч был сделан из его крови, то и превратить свою пролитую кровь в мечи ему ничего не стоит.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -82,30 +82,30 @@ bg "image\bg\ima_13b.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-` Grunting with exertion, I jump from the puddle of blood and roll onto the ground.@
-` ...... But I couldn't get away unscathed.@
-` My left arm is useless now.@
-` My left arm wasn't stabbed, but cut from the inside out.@
-` ...... In other words...
-` The blood I wiped off with this arm cut through through me like an exploding firework.\
+` Ручы от напряжения, я выпрыгиваю из кровавой лужи и перекатываюсь по земле.@
+` Но мне не удалось уйти невредимым...@
+` Моя левая рука теперь бесполезна.@
+` Мечи не пробили её, она была изрублена изнутри.@
+` Иными словами...
+` Кровь, которую я вытер этой рукой, пронзила её, изрешетив её как петарда.\
 
-`"Agh------gh.........!!"@
-` I roll on the ground and fight the pain.@
-` I still got lucky.@ If I hadn't of wiped that blood off my chest, I would have grown swords out of my back and died instantly.\
+` - Агх...х!..@
+` Я перекатываюсь по земле, стараясь пересилить боль.@
+` Мне ещё повезло.@ Если бы я не стёр эту кровь с груди, мечи бы пробили мой корпус и я бы умер мгновенно.\
 
-`"Shit------!!"@
-` I hear a voice.@
-` The sound of SHIKI running toward me through the grass accompanies it.@
-`"You don't know when to stay down.@ You should have died with that-----!!"@
-` He's coming.@
-` I cannot fight back since I'm on the ground.\
+` - А чтоб его!!!@
+` Раздаётся голос.@
+` Я слышу, как ШИКИ бежит ко мне через траву.@
+` - Ты всё никак не угомонишься.@ Это должно было тебя убить!!!@
+` Он приближается.@
+` Лёжа на земле, я не могу отбиваться.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
 
-` He's coming.\
-` He sticks out his arm with sharp nails and approaches, trying to dig my heart out.\
+` Он приближается.\
+` Он идёт, вытянув вперёд свою когтистую руку, собираясь вырвать мне сердце.\
 
 ;S.E."??"
 wave se0
@@ -121,8 +121,8 @@ br
 br
 br
 br
-` It's like a circus.@
-` Dark forest.@ I get excited thinking about when the curtain will rise.\
+` Прямо как в цирке.@
+` Тёмный лес.@ Я с нетерепением жду, когда поднимется занавес.\
 
 ;S.E."??"
 wave se0
@@ -135,30 +135,22 @@ br
 br
 br
 br
-` The far away voices of cicadas.@
-` Blue sky, and high, high, summer clouds.\
+` Далёкий стрекот цикад.@
+` Синее небо, и летние облака высоко-высоко надо мной.\
 
 ; ????????<????>
 bg "image\bg\ima_13b.jpg",%type_nowaitdisp
 
 br
-` And then.@
-;А теперь...
-` I'll be killed again in the forest?@
-;...меня снова убьют в лесу?
-` That pisses me off.@
-;Зла не хватает.
-` Again.@
-;Снова.
-` Again and again, being killed in the same way?@
-;Снова и снова мне помирать как в тот раз?
+` И сейчас...@
+`  ...меня снова убьют в этом лесу?@
+` Как же это злит.@
+` Опять.@
+` Опять, опять, мне опять придётся умереть, как тогда?@
 br
-` -----Wake up, Tohno Shiki.@
-;Очнись, Тоно Шики.
-` Enough of that.@
-;Хватит уже.
-` Aren't you tired of seeing that over and over----?\
-;Ты ещё от этого не устал?
+`         Очнись, Тоно Шики.@
+` Хватит уже.@
+` Ты сам ещё от этого не устал?\
 
 ;S.E."??????"
 wave se5
@@ -170,72 +162,73 @@ bg "image\bg\ima_14.jpg",%type_lshutter_mid
 ; ?? : ???? : ???????<????>
 bg "image\bg\bg_53b.jpg",%type_nowaitdisp
 
-`"What--------?"@
-` The voice comes from SHIKI.@
-` SHIKI's arm is not in my chest, but on the ground.@
-` ...... It's nothing, really.@
-` My body has learned to react after having been killed so many times in the same way.@
+` - Чего?..@
+` Раздаётся голос ШИКИ.@
+` Рука ШИКИ не возилась мне в грудь, а вошла в землю.@
 br
-` Tohno Shiki simply avoided the enemy's arm and then cut across the line on the enemy's torso.\
+` Да в общем, ничего особенного...@
+` Моё тело отреагировало само, после стольких одинаковых попыток его убить.@
+br
+` Тоно Шики просто увернулся от руки противника и полоснул по линии на его туловище.\
 
-`"Are----you kidding me?"@
-` With a sound,
-` SHIKI's body slides to one side.@
-` SHIKI desperately supports it as he gets away.\
+` - Это... это что такое?@
+` Издавая неприятный звук,
+` Тело ШИКИ начинает съезжать в сторону.@
+` Отступая, ШИКИ отчаянно пытается удержать его.\
 
 ; ??(?????) : ???<???????(?)>
 ld c,":a;image\tachi\hal_t03.jpg",%type_crossfade_fst
 
-`"Why-----why, why, why?@ Hey Shiki, this is wrong.@ This cut, why----won't it stick back?"@
-` With a cramped smile on his face, SHIKI staggers back.@
+` - Почему... почему, почему, почему?@ Эй, Шики, так не должно быть.@ Этот порез, почему... почему он не срастается?@
+` Судорожно улыбаясь, ШИКИ отшатывается назад.@
 
 ; ?????<???????(?)>
 cl a,%type_tshutter_mid
 
-` His upper body and lower body slowly separate.@
-` SHIKI looks like a circus clown trying to desperately hold onto his body.\
+` Его верхняя и нижняя часть туловища медленно разъезжаются.@
+` Отчаянно пытаясь удержать его, ШИКИ напоминает циркового клоуна..\
 
-`"Ou----ch.@ It hurts.@ I don't like it.@ I'm going to pass out.@ I can't stop bleeding.@ My body is separating.@ It hurts.@ It hurts.@ It hurts.@ It hurts.@ It hurts.@ It hur----"@
-` Saying that,
-` SHIKI falls to the ground.@
-` His legs are still standing.@
-` Only his upper body falls to the ground like some kind of joke.\
+` - Айййаа...@ Мне больно.@ Мне это не нравится.@ Я сейчас отключусь.@ Я не могу остановить кровь.@ Моё тело разваливается.@ Мне больно.@ Больно.@ Больно.@ Больно.@ Больно.@ Боль—@
+` В этот момень,
+` ШИКИ падает.@
+` Его ноги продолжают стоять прямо.@
+` Только его верхняя половина падает на землю, словно в какой-нибудь комедии.\
 
-`"--------"@
-` He's still alive.@
-` He's still alive after becoming like a weird spider with only his upper body left.@
-`"Ghu..............."@
-` I push my body and manage to stand up.@
-` He's still alive.@
+` - ...@
+` Он ещё жив.@
+` Оставшись только с половиной туловища, он напоминает какого-то странного паука, но он всё ещё жив.@
+` - Гха...@
+` Напрягшись, я кое-как встаю.@
+` Он всё ещё жив.@
 ;S.E."??"
 wave se0
 ;CD-DA????????????
 play "*9"
 
-` Then----I have to kill him.\
+` А значит — я должен убить его.\
 
-`"Hi------!?"@
-` I kneel down in front of that thing that is dragging itself with its right hand.@
-` I raise my knife.@
-` Now, all I have to do is to drop it.@
-` If I drop my knife in the center of his body, in the "point" next to his heart, everything will end.\
-
-;S.E."??"
-wave se0
-
-`"Ah----Hiii, hiiii?"@
-` ...... Will end.@
-` Everything.@
-` A stupid story that has continued for eight years will end with just that.\
+` - Хи?!@
+` Я опускаюсь на корточки перед обрубком человека, подтягивающим сябя по земле правой рукой.@
+` Я поднимаю нож.@
+` Мне осталось только опустить его.@
+` Если я опущу нож в центр его тела, в «точку» рядом с сердцем, всё закончится.\
 
 ;S.E."??"
 wave se0
 
-`"Hya------Hyaiiiiiii!?"@
-` SHIKI's voice resists death.@
-` ...... It's not like I feel sorry for him.@
-` It's not that I got scared of killing him.@
-` It's not that my anger has gone away, but "...... Why?"\
+` - А... Хииии, иииии?@
+` Кончится.@
+` Всё.@
+` Дурацкая история, растянувшаяся на восемь лет, наконец подойдёт к концу.\
+
+;S.E."??"
+wave se0
+
+` - Айаа... Айааиииииии?!@
+` Голос ШИКИ отвергает смерть.@
+` Не то чтобы мне стало жаль его.@
+` Не то чтобы я испугался убивать его.@
+` Не то чтобы мой гнев оставил меня, но... «Почему?»\
 
 
 
@@ -247,63 +240,64 @@ br
 br
 br
 br
-` Why?@
-` Why can't I do something so easy as bringing down this knife......?\
+` Почему?@
+` Почему я не могу просто опустить нож?..\
 
 !w2500
-`"Hi----Hihi, hihihihihihihi......!!!"@
-` Laughing, that thing disappears into the bushes.@
-`"---------"@
-` I look with a blank stare at my bloody knife.@
-` ...... I did not kill him.@
-` Or was it that I could not kill him?\
+` - Хи... Хихи, хихихихихихихихихихии!!!@
+` Гогоча, обрубок убегает в кусты.@
+` - ...@
+` Я смотрю пустым взглядом но мой окровавленный нож.@
+` Я не убил его...@
+` Или я не смог убить его?\
 
-` Hihi, hihihi, hihihihihihihihi.@
+` Хихи, хихихи, хихихихихихи.@
 br
-` I hear the annoying laughter.@
-` It seems like he is going toward the detached building, where Akiha is left.\
+` Я слышу его противный хохот.@
+` Похоже, он направляется к отдельной постройке, где осталась Акиха.\
 
-`"----!!"@
-` I get up.@
-` How stupid of me!@ I should have known that he would have gone to Akiha.@
-`"Ku-----!"@
-` I start to move my weak legs and head for the detached building.\
+` - !@
+` Я вскакиваю.@
+` Дебил!@ Я должен был догадаться, что он пойдёт к Акихе.@
+` - Кх!..@
+` Заставив мои слабые ноги прийти в движение, я направляюсь к отдельной постройке.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
-` The trail of blood goes straight to the detached building.@
-` Around the red trail are remnants of organ-like pieces.@
-` ...... With an injury like that, SHIKI would have died anyway without me finishing him off back there, but he is using his last energy to get to Akiha.@
-`"Ku----"@
-` I support my weak body and run.@
-` I reach the detached building after following the red trail of blood.@
-` The blood goes directly into the building.\
+` Кровавый след ведёт прямо к зданию.@
+` Иногда в красной дорожке попадаются куски органов.@
+br
+`С такой раной ШИКИ умер бы даже если бы я его не добивал, но он из последних сил пытается добраться до Акихи.@
+` - Кхх...@
+` Взяв себя в руки, я бегу.@
+` Идя по кровавому следу, я подбегаю к отдельной постройке.@
+` След ведёт внутрь.\
 
 ; ?? : ???? : ??(?)<??????(?)>
 bg "image\bg\bg_45e.jpg",%type_tshutter_mid
 
 
-` ---I made it in time.@
+`     Я успел вовремя.@
 br
-` Nothing is different inside the room.@
-` Akiha sits by the wall with a blank stare.@
-` On the tatami floor is a trail of blood, and there,
-`"Ah----a, aa, a----"@
-` Crawling.@
-` A man with only his upper body, dragging himself desperately on the ground.\
+` Внутри ничего не изменилось.@
+` Акиха всё так же сидит у стены с пустымии глазами.@
+` По татами тянется кровавый след, и там,
+` - А..а ,аа, а...@
+` Ползёт.@
+` Человек, от которого осталась только верхняя половина туловища, из овсех сил ползёт  по земле.\
 
-`"A----A-Aki, ha---!"@
-` Dragging on.@
-` Leaving a trail like a slug, SHIKI crawls toward Akiha by the wall.\
+` - А... А-Аки, ха!..@
+` Дальше и дальше.@
+` Словно слизень, оставляя за собой мокрый след, ШИКИ ползёт к сидящей у стены Акихе.\
 
-`"He, lp, me-----Aki, ha----"@
-` SHIKI reaches out his hands asking for help.@
-` His bloody fingers reach out to Akiha.@
-`"--------"@
-` I won't let him.@
-` I have to go over there and finish him off----\
+` - По, мо, ги... Аки, ха...@
+` ШИКИ умоляюще протягивает руку.@
+` Его окровавленные пальцы тянутся к Акихе.@
+` - ...@
+` Я не позволю.@
+` Я должен подойти к нему и прикончить его...\
 ;CD-DA??
 playstop
 
@@ -315,66 +309,66 @@ wave se5
 bg "image\bg\ima_12b.jpg",%type_nowaitdisp
 
 
-`"What----?"@
-` The exclamation of surprise comes from both me and SHIKI.@
+`" - Что?..@
+` От удивления вскрикиваем я и ШИКИ.@
 br
-` Hu, huhu.@
+` Хо, хаха@
 br
-` Innocent laughter.@
+` Беззаботный смех.@
 br
-`"Gi----A, hya, a.@ Ahhhhhhhh!!"@
-` SHIKI screams as his heart is ripped out.\
+` - Ги, А, хайа, а.@ Ааааааааа!!!@
+` ШИКИ вопит, видя, как ему вырывают сердце.\
 
-` Ahahahaha.@
+` Ахахахахаха.@
 br
-` Childlike laughter.\
+` Десткий смех.\
 
-`"Hi, hyaaaaaaaaaaaaaaaaaaa!!"@
-` SHIKI's scream.@
-` Blood sputters all over.@
-` Waves of red blood color the tatami floor and the walls.@
+`"Хи, хиааааааааа!!!@
+` Вопль ШИКИ.@
+` Брызнувшая во все стороны кровь.@
+` Кровавые пятна заляпывают татами на полу и стены.@
 br
-` Aha, ahaha, ahahaha.@
+` Аха,  ахаха, ахахаха.@
 br
-` Laughter of unbearable happiness.@
+` Смех полный радости.@
 br
-`"S-stop, stop, Aki, AKIHAAAA!!"@
-` SHIKI's scream ends there.@
-` It's because his throat, the organ allowing him to talk, is crushed, and was torn away along with his head from his body.\
+` - П-перестань, стой, Аки, АКИХАААА!!!@
+` Крик ШИКИ обрывается.@
+` Потому что его глотка, его орган речи, только что была раздавлена, и вместе с головой оторвана от туловища.\
 
 ; ?? : ???? : ??(?)<???????(?)>
 bg "image\bg\bg_45e.jpg",%type_crossfade_fst
 
 
-`"Aki----ha."@
-` Akiha does not react to my voice.@
-` ...... She probably doesn't even know that's her name.@
-` Akiha waves her red hair around and laughs like a little girl.\
+` - Аки...ха.@
+` Акиха не реагирует на мой голос.@
+` Наверное, сейчас она даже не понимает, что это её имя...@
+` Акиха мотает головой из стороны в сторону и смеётся, как маленькая девочка.\
 
-`"Aki----ha."@
-` There's no answer.@
-` That is all I can say to her.@ She's lost her mind.\
+` - Аки...ха.@
+` Ответа нет.@
+` Больше у меня не получается ничего произнести.@ Она лишилась рассудка.\
 
-` Giggling.@
-` The sound of Akiha's laughter echoes in the room.@
-` She was fiddling with the body of SHIKI, but seems to have gotten bored of her toy which didn't move anymore.@
-` After looking around the room, she rips through the shouji and runs outside.@
+` Весёлый смех.@
+` Её смех эхом разносится по комнате.@
+` Она играется с телом ШИКИ, но похоже, переставшая шевелиться игрушка ей наскучила.@
+` Оглядевшись, она прорывается сквозь сёдзи и бежит на улицу.@
 br
-` Her hands are still drenched in blood.\
+` Её руки всё ещё покрыты кровью.\
 
-`"Wa-------"@
-` I can't tell her to wait.@
-` ...... I know.@
-` I know that everything is too late.\
+` - Сто...@
+` Я не могу остановить её.@
+` Я понимаю...@
+` Я понимаю, что уже слишком поздно.\
 
-` That childlike Akiha.@
-` She is now an innocent creature, not knowing good or evil.@ Just a living creature that can only kill.@
+` Акиха, ведущая себя как ребёнок.@
+` Она стала неразумным существом, не различающим добра и зла.@ Просто неразумным созданием, способным лишь убивать.@
 br
-` ---Please, kill me.@
+`   «Пожалуйста, убей меня.»@
 br
-` So.@
-` To go after Akiha right now means...
-` I am going to kill her.\
+` Значит.@
+` Если я последую за Акихой, то значит...
+` Мне придётся убить её.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -387,6 +381,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
 return
+
 
 
 
