@@ -16,22 +16,22 @@ cl c,%type_lcartain_mid
 ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
-` It is time for the last lesson.@
-` The seventh period is about the end of this one particular person.@
+` Пришло время для последнего урока.@
+` Темой седьмого урока будет конец одного человека.@
 
 br
-` ...... No one can truly understand the feelings of Tohno-kun, who kept his promise.@
-` There is nothing for me to advise.@
-` But if Tohno-kun wishes for a different outcome, please go back a bit and choose a different course of action.\
+` Никто не может по-настоящему понять чувства Тоно-куна, который решил сдержать своё обещание.@
+` Мне нечего тут советовать.@
+` Но если Тоно-кун желает увидеть другой конец, то пожалуйста, вернитесь чуть назад и выберите другой вариант.\
 
 ; ?????? : 01~10 : 01_?01(????)<??????(?)>
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 
-`"Uhh, but if Akiha doesn't like you enough, you don't even get a choice."@
+` - Ахаа, но если Акиха не любит тебя достаточно сильно, у тебя даже выбора не будет.@
 br
-` ----Ah.@
-` In, in that case, please go back a couple of days and deepen your bond with Akiha-san.@
-` If you do that, a different fate should await you.\
+` А.@
+` В, в таком случае, пожалуйста, вернитесь на несколько дней назад и укрепите свою связь с Акихой-сан.@
+` Тогда вас будет ожидать другая судьба.\
 
 
 
@@ -48,6 +48,7 @@ playstop
 
 
 return
+
 
 
 
