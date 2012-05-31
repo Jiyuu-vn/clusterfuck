@@ -9,16 +9,16 @@ bg "image\bg\bg_40b.jpg",%type_nowaitdisp
 
 
 
-` ---I'll go see Hisui.@
+` Я схожу к Хисуи.@
 br
-`"...... But Hisui doesn't let me help her, and I don't want to get in her way......"@
-` ...... What should I do?@
-` I don't want to be a burden.@
-` But for some reason, I want to see her.\
+` «Но Хисуи не даёт помогать ей, и мешаться под ногами мне не хочется...»@
+` Что же делать?@
+` Я не хочу быть обузой.@
+` Но по какой-то причине я хочу её увидеть.\
 
-`"...... Ah."@
-` That reminds me.@ I still need to give her back the ribbon.@
-` Hisui said she'd forgotten about it, but the ribbon is hers.@ There's really no point in me holding on to it, so I should give it back.\
+` - А...@
+` Точно.@ Я всё ещё должен вернуть ей ленточку.@
+` Хисуи говорила, что забыла об этом, но ведь ленточка принадлежит ей.@ Мне незачем продолжать оставлять её у себя, так что мне нужно её вернуть.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -28,54 +28,54 @@ bg "image\bg\bg_41.jpg",%type_lshutter_mid
 ;CD-DA?????
 play "*8"
 
-` In the old man's old room, Hisui is arranging books.@
-` Even though it is no longer being used, his room is still being cleaned like before.\
+` В старой комнате папаши Хисуи расставляет по местам книги.@
+` Даже несмотря на то, что эта комната больше не используется, её всё равно продолжают убирать.\
 
-`"Hisui, can I have a minute?"@
+` - Хисуи, можно тебя на минутку?@
 ;(???01)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Ah---Shiki-sama.@ Yes, what is it?"@
-`"I know we talked about this earlier, but I thought I should give this back."@
+` - А — Шики-сама.@ Да, что вы хотели?@
+` - Я знаю, что мы об этом уже говорили, но я подумал, что должен вернуть тебе это.@
 br
-` I pull out the ribbon Hisui gave me eight years ago.@
+` Я достаю из кармана ленточку, которую восемь лет назад мне дала Хисуи.@
 br
 ;(???????)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`".................."@
-`"Hisui?@ So, you honestly don't want it......?"@
+` - ...@
+` - Хисуи?@ Значит, она тебе правда не нужна?..@
 
 ;(?????)
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"......No, I will take it.@ It is important to me, after all."@
-` Taking the ribbon, Hisui becomes silent.\
+` - ...Нет, я возьму её.@ Она ведь всё-таки важна для меня.@
+` Забрав ленточку, Хисуи замолкает.\
 
-`"............"@
-` I can't talk to her.@
-` The Hisui in front of me right now looks very much like the Hisui from eight years ago, distant from the ones around her.@
+` - ...@
+` Я не могу с ней заговорить.@
+` Хисуи передо мной сейчас очень похожа на Хисуи восемь лет назад, так же сторонящаяся окружающих.@
 
 ;(???01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama, is this all you came to do?"@
-` I can't seem to speak, so I just nod.@
-`"In that case, please return to your room.@ I still have some work remaining."@
+` - Шики-сама, вы пришли только за этим?@
+` У меня не получается ответить в слух, потому я просто киваю.@
+` - В таком случае, пожалуйста, возвращайтесь к себе.@ У меня ещё есть работа.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` Hisui walks towards the center of the room.\
+` Хисуи идёт к центру комнаты.\
 
-`"...... Hisui."@
-` Did that ribbon have any special meaning?@
-` This eight year period.@ I think I may have finally fulfilled my promise, even if it was too late.@
+` - Хисуи...@
+` Эта ленточка имела какой-то особый смысл?@
+` Эти восемь лет.@ Я думаю, что наконец выполнил своё обещание, хотьи очень поздно.@
 br
-`"...... Then, I'll go to my room.@ See you later, Hisui."@
+` - Тогда, я пойду к себе.@ Увидимся позже, Хисуи.@
 br
-` With that, I leave the room.\
+` С этими словами я выхожу из комнаты.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -91,6 +91,7 @@ playstop
 
 
 return
+
 
 
 
