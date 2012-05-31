@@ -8,10 +8,10 @@ bg "image\bg\bg_40b.jpg",%type_nowaitdisp
 
 
 
-` ----I'll go to Akiha's room.@
+` Я пойду в комнату Акихи.@
 br
-` ...... I heard that Akiha hasn't returned yet.@
-` Which means that if I go to her room, no one will be there.\
+` Я слышал, что Акиха ещё не вернулась...@
+` А значит, если я решу заглянуть к ней в комнату, то там никого не будет.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -21,13 +21,13 @@ bg "image\bg\bg_46b.jpg",%type_lcartain_mid
 ;CD-DA??????
 play "*3"
 
-` ...... I arrive at her room.@
-` Akiha's room is in the middle of the east wing.@ My room is about forty meters away, so this a rare opportunity.@
-`"-----"@
-` I gulp anxiously.@
-` ...... If I think about it calmly, I'm doing something extremely dangerous.@
-`"--I can't go back now!"@
-` Making up my mind, I open the door to Akiha's room.\
+` Я пождхожу к двери, ведущей в её комнату.@
+` Комната Акихи расположена посередине восточного крыла.@ Моя комната находится в сорока метрах от неё, так что это редкая возможность.@
+` - ...@
+` Я взволновано сглатываю.@
+` Если подумать об этом спокойно, то сейчас я делаю кое-что невероятно опасное.@
+` «Отступать поздно!»@
+` Решившись, я распахиваю дверь в комнату Акихи.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -35,63 +35,63 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_36c.jpg",%type_lshutter_fst
 
 
-`"-----"@
-` ...... I expected this... but still, I'm at a loss for words.@
-` I am fascinated by the room that looks nothing like any high schooler's room.@
-`"...... There's no bed...... it must be in a separate room."@
-` I almost forget myself looking at all the luxury.@
-` I thought I'd explore Akiha's room while she isn't here, but this isn't a place where you can come in like that.\
+` - ...@
+` Этого я и ожидал но... всё равно, у меня нет слов.@
+` Я зачарованно смотрю на эту комнату, совершенно не похожую на комнату обычной старшеклассницы.@
+` - Кровати нет... наверное, она стоит в отдельной комнате.@
+` Засмотревшись на окружающую меня роскошь, я чуть не забываю обо всём.@
+` Я думал полазить в комнате Акихи пока её нет, но это не то место, куда можно просто заходить без спроса.\
 
-`"...... I better go before Akiha finds me."@
-` With a sigh, I turn to leave the room.@
+` - Лучше уйти прежде чем Акиха меня обнаружит.@
+` Вздохнув, я разворачиваюсь к выходу.@
 br
-` ----And.@
+` И...@
 br
 ; ?? : 01~10 : 03_?03(??)<????>
 ld c,":a;image\tachi\aki_t03a.jpg",%type_nowaitdisp
 
-`"Oh no, please, take your time, Nii-san."@
+` - О нет, Нии-сан, прошу тебя, не торопись.@
 br
-` ---Akiha is standing in front of the door with her arms crossed.\
+` ...Перед дверью, скрестив руки, стоит Акиха.\
 
-`"Ah, Akiha----You've come back already......!?"@
-`"Yes, I just got back.@ More importantly, Nii-san, is there something you want to talk to me about?@ There has to be, otherwise there would be no reason for you to be in my room alone, now, would there?"@
-`"Ah----um."@
-` I back up as Akiha glares at me intently.\
+` - А, Акиха... ты уже вернулась?!@
+` - Да, только что.@ Но что более важно, Нии-сан, ты хотел о чём-то со мной поговорить?@ Очевидно что да, в противном случае тебе незачем заходить в мою комнату в моё отсутствие, не правда ли?@
+` - Аа...эм.@
+` Я отступаю под пристальным взглядом Акихи.\
 
-`"No, I---it's not really important... I just thought I'd talk with you for a bit---"@
-`"Oh really?@ That's strange.@ If you wanted to talk to me, going into my room when I'm not there is rather pointless, isn't it?@ It makes perfect sense that if you saw I was not in my room, you would go back to your room, right?"@
-`"That's true, but...... I thought maybe I should just wait a while in your room or maybe I didn't......"@
+` - Нет, я... это ничего важного... Я просто хотел немного поболтать...@
+` - Неужели?@ Странно.@ Если ты хотел поговорить со мной, то заходить ко мне в комнату, когда меня нет, было бы довольно бессмысленно, не так ли?@ Увидев, что меня здесь нет, логичнее всего было бы вернуться к себе, правильно?@
+` - Правильно, но... я подумал, что может я подожду немного у тебя, или не подумал...@
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 
-`"-------"@
-` Akiha's stare becomes even harder.@
-` ...... Ugh, I think it's best if I just apologize right now.\
+` - ...@
+` Взгляд Акихи становится ещё тяжелее.@
+` Ухх... Думаю, будет лучше, если я просто извинюсь.\
 
-`"...... Sorry.@ I just was wondering what your room was like."@
-`"In other words, you sneaked into my room out of curiosity?"@
-`"Uh---no, I had no bad intentions---"@
+` - Прости...@ Мне просто стало интересно, какая у тебя комната.@
+` - Иными словами, ты прокрался ко мне в комнату из любопытства?@
+` - Э... нет, у меня не было дурных намерений...@
 ld c,":a;image\tachi\aki_t07.jpg",%type_crossfade_fst
 
-`"It doesn't matter!@ Sneaking into a girl's room like that, what kind of upbringing did you have at the Arima household!?"@
-`"---I'm sorry.@ I guess you can call this my stupidity, or my mischievous mind."@
+` - Это не важно!@ Прокрадываться тайком в комнату девушки, как Арима тебя воспитывали?!@
+` - Извини...@ Можешь списать это на мою глупость или баловство.@
 ld c,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
 
-`"-------"@
-` Akiha's gaze is painful.@
-` Since I'm the only one at fault, I only can apologize.\
+` - ...@
+` Взгляд Акихи по-настоящему мучителен.@
+` Поскольку виноват тут я, я могу только извиняться.\
 
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"...... Fine, I will overlook it this time.@ Please go back to your room before Kohaku comes."@
-`"S...... sorry, Akiha."@
-` It seems that Onii-chan is just a mischievous brat after all.@
-`"But don't think that this matter is over.@ I expect to be compensated for this, Nii-san."@
+` - Хорошо, в этот раз я закрою на это глаза.@ Будь добр, возвращайся к себе пока не пришла Кохаку.@
+` - П...прости, Акиха.@
+` «Похоже, твой братик так и остался непоседливым ребёнком.»@
+` - Но не думай что инцидент на этом исчерпан.@ Нии-сан, я ожидаю возмещения ущера.@
 cl c,%type_lshutter_mid
 
-` For some reason, there is a hint of both amusement and threat in Akiha's voice as she steps away from the door.@
-`"............"@
-` I leave Akiha's room thinking that she has grasped my terrible weakness.\
+` Акиха отуходит от двери. Почему-то её голос звучит весело и угрожающе одновременно.@
+` - ...@
+` Я покидаю комнату Акихи, думая, что она нашла у меня одно очень уязвимое место.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -104,6 +104,7 @@ playstop
 
 
 return
+
 
 
 
