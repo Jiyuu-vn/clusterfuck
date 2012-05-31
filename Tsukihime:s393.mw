@@ -11,27 +11,27 @@ bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 
 
 
-` ---No, I really shouldn't make Akiha and the others worry about any of this.@
-` This problem---that dream, I should take care of it myself.\
+` Нет, мне не следует беспокоить этим Акиху и остальных.@
+` Эта проблема — этот сон, я должен разобораться с этим сам.\
 
-`"---It's just that things at school are keeping me busy.@ In November, there's the school festival, and before that, the athletic festival."@
+` - А, просто в школе дел полно.@ В Ноябре будет школьный фествиаль, а перед ним будет ещё и спортивный.@
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
 
-`"...... Is that so?@ Since it's a school problem, then there isn't really anything I can do to help, I suppose."@
+` - Вот как?@ Раз это школьная проблема, то, полагаю, я ничем не могу помочь.@
 cl c,%type_crossfade_fst
 
-` Akiha lowers her gaze, a little disappointed.@
-` ...... Deceiving Akiha by telling her a lie is very painful.\
+` Немного разочарованная, Акиха опускает взгляд.@
+` Я чувсвтвую такой стыд, обманывая её...\
 
 ; ?? : 01~10 : 02_?02(????)<??????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_lshutter_mid
 
-`"Here you go, Shiki-san.@ Thanks for waiting."@
-` Kohaku-san comes carrying a glass on a tray.@
-`"Thanks."@
-` Using a straw, I drink the Lemon Squash that Kohaku-san got for me.@
-` ...... With that, the conversation ends.@
-` The only cheerful one in the sitting room is Kohaku-san, and I end up eating breakfast like always.\
+` - Держи, Шики-сан.@ Спасибо, что подождал.@
+` Неся стакан на подносе, входит Кохаку-сан.@
+` - Спасибо.@
+` Взяв соломинку, я начинаю пить принесёный Кохаку-сан лимонад...@
+` На этом разговор обрывается.@
+` Весёлой выглядит только Кохаку-сан, и вскоре я завтракаю как обычно.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -39,24 +39,24 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_48a.jpg",%type_lcartain_fst
 
 
-` Hisui walks with me to the gate to see me off.@
-` Just like before in the sitting room, Hisui continues her silence, which makes me uneasy.@
+` Хисуи продовожает меня до ворот.@
+` Как и в гостиной, Хисуи продолжает хранить молчание, отчего мне становится неуютно.@
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Please take care on your way, Shiki-sama."@
-`"Yeah, I'll be on my way...... Hisui?"@
-`"Yes, what is it, Shiki-sama?"@
-` Hisui looks at me directly.@
+` - Шики-сама, будьте остороны по дороге.@
+` - Да, я пойду... Хисуи?@
+` - Да, Шики-сама?@
+` Хисуи смотрит прямо на меня.@
 br
-` ---Why is it?@
+` Почему?@
 br
-` Being stared at by those pure eyes, I get this uncomfortable feeling, like I was very dirty.\
+` оказавшись перед этими чистыми глазами, я испытываю такое отвратительное чувсвто, словно я весь покрыт грязью.\
 
-`"...... It's nothing.@ Just be careful at home."@
+` - Нет, ничего...@ Просто будь осторожна.@
 cl c,%type_crossfade_fst
 
-` With a deep uneasiness in my chest, I leave the mansion.\
+` Так и не избавившись от своей тревоги, я покидаю поместье.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -70,68 +70,68 @@ wave se2
 ; ?? : ?? : ??(?)<?????(?)>
 bg "image\bg\bg_06a.jpg",%type_lcartain_fst
 
-` ---It's lunch time.@
-` As usual, Arihiko is skipping school.@
+` Время обеда...@
+` Арихико как всегда прогуливает.@
 br
-`"...... I'll go eat at the cafeteria."@
-` If I eat by myself, I'll just end up being depressed.@
-` If I go eat in the cafeteria full of people, it should help me get my mind off of things.\
+` - Пойду поем в столовой...@
+` Если я буду есть один, то моё настроение только испортится.@
+` Если я буду обедать в столовой, среди толпы людей, это поможет мне прочистить голову.\
 
 ; ?? : ?? : ????<?????(?)>
 bg "image\bg\bg_50.jpg",%type_lcartain_mid
 
-` As expected, the cafeteria is packed.@
-` After waiting in a long line, I buy the tried and true meal set A and walk to a table.@
-` The students' voices are pretty loud, so I am able to concentrate on just eating my meal.@
-` I use my fork and eat in silence.@
+` Конечно же, столовая забита битком.@
+` Отстояв в очереди, я покупаю старый и провереный временем обед А и иду за столик.@
+` Вокруг раздаются шумные голоса учеников, и у меня получается целиком сосредоточится на обеде.@
+` Я молча орудую вилкой.@
 br
-` ----And then.@
+` А затем...@
 br
-` For a moment, I see a terrible image.\
+` На долю секунды я замечаю нечто ужасное.\
 ;S.E."????(???)"
 waveloop se1
 
-`"...... The television screen......"@
-` I gape at the large television mounted on the wall at the end of the cafeteria.@
-` At my school, they record the morning news and replay it at lunch.@ My eyes fixate on what is playing.@
+` «Экран телевизора...»@
+` Я в шоке смотрю на экран телевизора, висящего на стене в конце столовой.@
+` В моей школе нам на обеде ставят запись утренних новостей.@ Мой взгляд прикован к происходящему на экране.@
 
 ;S.E."??"
 wave se0
 
 
-`"----No way..."@
-` I watch the news in amazed horror.@
-` Shown on the television is the alley that I saw last night in my dream.@
-` The newscaster is talking.@
-` On the screen, the words "Vampire Serial Killer's Ninth Victim" appear in bloody lettering.\
+` - Не может быть...@
+` Порадённый удивлением и ужасом, я смотрю новости.@
+` На экране показывают переулок, который я видел в сегодняшнем сне.@
+` Диктор что-то говорит.@
+` На экране появляется надпись «Девятая Жертва Маньяка-Вампира» кровавым шрифтом.\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_50.jpg",%type_nowaitdisp
 
 
-` After that, the face of the victim appears.@
-` The woman with the long hair, she... definitely was the one I killed in my dream.@
+` Следом появляется лицо жертвы.@
+` Женщина с длинными волосами, это... это определённо та женщина, которую я убил во сне.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_50.jpg",%type_crossfade_fst
 
-`"------"@
-` I start to feel faint.@
-`"How...... come?"@
-` That was a dream.@ It had to be a dream.@
-` But in reality, the same person as in my dream, in the same place as my dream, was killed in the same way as my dream.\
+` - ...@
+` На меня накатывает слабость.@
+` - Как... так получилось?@
+` Это был сон.@ Это должен был быть сон.@
+` Но там же, где и во сне, так же, как и во сне, тот же человек, что и во сне, был убит в реальности.\
 
-`"The vampire should be gone already."@
-` I killed Yumizuka with my own hands.@
-` Those killings, they shouldn't be happening anymore.@
+` «Вампира больше не должно быть.»@
+` Я убил Юмизуку собственными руками.@
+` Эти убийства, они должны были прекратиться.@
 br
-`"I----killed?"@
+` - Я... убил?@
 br
-` Yes, I killed.@
-` Just like the time I killed Yumizuka.@
-` While breathing hard, last night, that woman I've never met---\
+` Да, я убил.@
+` Так же, как и Юмизуку.@
+` Вера ночью, тяжело дыша, нещнакомую мне женщину...\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -142,20 +142,20 @@ br
 br
 br
 br
-` Didn't I tell you, Shiki-kun?@
-` It's useless to resist it.\
+` «Я же говорила, Шики-кун?@
+` Этому бесполезно противиться.»\
 bg "image\bg\bg_50.jpg",%type_nowaitdisp
 
 
-`"Uu---"@
-` Quashing the urge to throw up my lunch, I stagger out of my seat.@
+` - Уу...@
+` Заглотив полезший обратно обед, я неуверенно встаю со стула.@
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
 br
-` I can't go back to class.@
-` I somehow find myself running into town.\
+` Я не могу вернуться в класс.@
+` Я обнаруживаю себя бегущим в город.\
 ;S.E.??
 wavestop
 
@@ -164,16 +164,16 @@ wavestop
 bg "image\bg\bg_30a.jpg",%type_lcartain_fst
 
 
-` ---I come to the place I saw in my dream.@
+` Я прихожу к тому месту, которое видел во сне...@
 br
-` There are several policemen around the area, and tape reading "Police Line Do Not Cross" is stretched across the alley.@
-`"---Exactly the same."@
-` Without a doubt, this is the place I went to in my dream.@
-` ---No, that's not a dream.@
-` I can't delude myself into thinking it is a dream any longer.@
-`"............"@
-` Even if I stay here longer, the cops will only stare at me.@
-` ...... I can't go back to school now.@ I guess I'll go back to the mansion.\
+` Вокруг расставлено несколько полицейских, и вход в переулок перетянут полицейской лентой.@
+` - То самое.@
+` Несомненно, это то место, что я видел во сне...@
+` Нет, это был не сон.@
+` Я не могу и дальше обманывать себя, думая, что это сон.@
+` - ...@
+` Если я и дальше тут останусь, то привлеку внимание полицейских.@
+` Я не могу вернуться в школу...@ Похоже, придётся идти назад в поместье.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -184,9 +184,9 @@ bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 waveloop se10
 
 
-` Since it's not even two o'clock yet, Hisui isn't waiting in the lobby.@
-`"..............."@
-` I can say I got lucky.@ I don't feel like seeing anyone right now.@
+` Поскольку на часах нет ещё и двух, Хисуи в фойе нет.@
+` - ...@
+` Пожалуй, мне повезло.@ Сейчас я никого не хочу видеть.@
 br
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_mid
@@ -194,32 +194,32 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 bg "image\bg\bg_40a.jpg",%type_tshutter_mid
 
 
-` *sigh*@
-` Letting out a deep breath, I collapse onto my bed.\
+` *эээх*@
+` Тяжело выдохнув, я падаю на кровать...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-` ...... I just don't understand any of this at all.@
-` I have dreams where I kill people.@
-` In reality, the same killing has happened.@
-` I am living today like living a normal life.@
-` I was taking delight in killing people in my dreams.@
+` Я вообще ничего не понимаю.@
+` Мне снятся сны, в которых я убиваю людей.@
+` Такие же убийства происходят в реальности.@
+` Сегодня я жил своей обычной жизнью.@
+` Во сне я убивал и получал от этого удовольствие.@
 br
 br
-` ------Just which one...
-`      is the real Tohno Shiki?\
+`    Так какой Тоно Шики
+`      является настоящим?\
 
 
 #ff0000
 br
 br
-` Do you really have to ask?\
+` Надо ли спрашивать?\
 #ffffff
 br
 br
-` ...... That voice again.\
+` Опять этот голос...\
 
 #ff0000
 
@@ -227,14 +227,14 @@ br
 br
 br
 br
-` C'mon, let's continue, Shiki.\
+` Ну же, Шики, давай продолжим.\
 #ffffff
 
 br
 br
 br
 br
-` ...... That voice that echoes inside my head.@ My voice.\
+` Голос, эхом раздающийся в моей голове.@ Мой голос.\
 
 
 #ff0000
@@ -244,8 +244,8 @@ br
 br
 br
 br
-` Night comes every day.@
-` For sure, we'll find the one we want someday, right......?\
+` Ночь наступает каждый день.@
+` Уж когда-нибудь мы точно найдём ту, что надо...\
 #ffffff
 
 ; ?? : 01~10 : 09_?02(????)<????>
@@ -256,21 +256,22 @@ bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 wavestop
 
 
-`"Shut up------!"@
-` I leap out of bed.@
-` I start to pant heavily.@
-` My breathing is out of control.@
-` Just now...
-` I wanted Akiha.@
-`"Damn it----what in the world..."@
-` I don't understand what's happening to me.@
-` All I know for sure, is that if I see Akiha or Hisui right now, I don't know what I'll do to them.\
+` - Заткнись!@
+` Я вскакиваю с кровати.@
+` Я снова начинаю тяжело дышать.@
+` Моё дыхание выходит из-под контроля.@
+` Только что...
+` Я хотел Акиху.@
+` - Твою мать... какого чёрта...@
+` Я не понимаю что со мной происходит.@
+` Наверняка я знаю только одно — если я сейчас увижу Акиху или Хисуи, то не знаю, что с ними сделаю.\
 
 
 
 
 
 return
+
 
 
 
