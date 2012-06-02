@@ -1887,227 +1887,226 @@ label chapter3_3q2:
 
 label chapter3_3q3:
     show l cynicalanim
-    l "I doubt it."
-    l "You're too scared."
-    l "Without me around, you can't do anything."
+    l "Что-то не верится."
+    l "Ты слишком этого боишься."
+    l "Ты не можешь ничего без меня."
     show l annoyed
-    l "Who else is going to help you? No one."
+    l "Кто ещё будет тебе помогать? Никто."
     menu:
-        "Make her leave.":
-            "I don't care. You have to go."
+        "Заставить её уйти.":
+            "Плевать. Уходи."
             show l angry
             l "…"
             show l upset
             "…"
-            l "No one can help you… Not as much as I can."
+            l "Никто не поможет тебе… Так как могла бы я."
             "…"
-            "You have to go."
+            "Тебе пора."
             scene bg black with pixellate
-            m "{i}Part of me agreed with her, with all those things she said.{/i}"
-            m "{i}Of course…{/i}"
-            m "{i}I knew I couldn't let myself believe her anymore.{/i}"
+            m "{i}Какая-то часть меня с ней согласилась. Со всем, что она сказала.{/i}"
+            m "{i}Но, конечно...{/i}"
+            m "{i}Я больше не мог заставить себя ей верить.{/i}"
             jump finale3
         
-        "Wait for her to stop.":
+        "Подождать пока она успокоится.":
             "…"
             show l cynical
-            l "No one will help, because you're alone."
+            l "Никто не поможет. Потому что ты один."
             show l annoyed
-            l "No one else can understand you."
-            "…Because of you."
-            l "Yes."
+            l "Никто больше не может понять тебя."
+            "... Из-за тебя."
+            l "Да."
             show l cynical
-            l "You'd rather have me, though, than anyone else."
-            "No, actually, not anymore."
+            l "Тебе со мной лучше чем с другими."
+            "Нет, это больше не так."
             show l upset
             l "…"
-            "I used to think I would… but I'm not so sure anymore."
+            "Раньше я так думал… Но теперь я не уверен."
             scene bg black with pixellate
-            m "{i}Listening to her talk just gave me more resolve.{/i}"
-            m "{i}I'd heard it so many times, it sounded hollow now.{/i}"
-            m "{i}I'd finally gathered the strength to disagree with her.{/i}"
+            m "{i}Её слова лишь придали мне решимости.{/i}"
+            m "{i}Я слышал это так много раз, что теперь они лишь пустой звук.{/i}"
+            m "{i}У меня наконец-то появились силы не согласиться с ней.{/i}"
             jump finale3
-    
 
 
 label chapter3_3q4:
     show l cynicalanim
-    l "You don't want to be like everyone else, right?"
-    l "They can't possibly understand you."
+    l "Ты же не хочешь быть как все, да?"
+    l "Они не способны тебя понять."
     show l annoyed
-    l "And if they find out about me, they'll hate you for sure."
+    l "А если они узнают про меня, они точно будут тебя ненавидеть." # Даже так?
     "…"
     show l cynicalanim
-    l "You've heard what they say, haven't you?"
+    l "Ты ведь слышал, что они говорят?"
     menu:
-        "Yes…":
-            "Yes. I don't care."
-            "I'm more than that, and more than you."
+        "Да…":
+            "Да и мне плевать."
+            "I'm more than that, and more than you." #TODO
             show l annoyed
-            l "…You think?"
-            "…I hope so."
+            l "Думаешь?"
+            "Надеюсь."
             show l cynical
-            l "Heheh."
-            l "Give it a year, or two. You'll see that it's not so great without me."
+            l "Хе-хе."
+            l "Год или два, и ты поймешь, что не можешь без меня."
             "…"
             scene bg black with pixellate
-            m "{i}I hoped she was wrong.{/i}"
-            m "{i}Somewhere deep inside I agreed with her, so I hoped I was wrong too.{/i}"
-            m "{i}I decided to give life without her a try.{/i}"
+            m "{i}Надеюсь она неправа.{/i}"
+            m "{i}Где-то в глубине души я соглашался с ней. Поэтому надеялся и на обратное.{/i}"
+            m "{i}I decided to give life without her a try.{/i}" #TODO
             jump finale3
         
-        "Shut up!":
-            "S-shut up!"
+        "Заткнись!":
+            "З-заткнись!"
             show l angry
-            l "No!"
-            l "What will you do when you realise they hate you?"
-            l "If I'm not around, who's going to make all that not matter."
+            l "Не заткнусь!"
+            l "Что будешь делать, когда поймешь, что они тебя ненавидят?"
+            l "If I'm not around, who's going to make all that not matter." #TODO
             show l annoyed
-            l "You know I'm what makes you yourself."
+            l "Это я делаю тебя собой."
             "…"
-            "I know."
-            "I… hate that."
+            "Знаю."
+            "И... Ненавижу это."
             show l upset
-            l "It doesn't have to be bad."
+            l "Это же не так плохо."
             show l sad
-            l "Please?"
+            l "Разве нет?"
             "…"
             scene bg black with pixellate
-            m "{i}I gave in.{/i}"
-            m "{i}She's right. My entire personality is built around her.{/i}"
-            m "{i}If I lose her, I might find there's nothing of me left.{/i}"
+            m "{i}Я сдался.{/i}"
+            m "{i}She's right. My entire personality is built around her.{/i}" #TODO
+            m "{i}Если я потеряю её, от меня ничего наверняка не останется.{/i}"
             jump finale2
     
 
 
 label chapter3_3q5:
     show l upset
-    l "Why?"
-    "I… I just don't know that it's right anymore."
+    l "Почему?"
+    "Мне... Мне просто не кажется это правильным больше."
     show l sad
-    l "Oh."
+    l "А..."
     menu:
-        "Ask her to leave.":
-            "I'm sorry."
-            "I just need to see what it's like to be by myself."
-            l "Hmm."
-            "…I'm glad that I met you though."
+        "Попросить её уйти.":
+            "Прости."
+            "I just need to see what it's like to be by myself." #TODO
+            l "Хмм."
+            "Но я рад, что встретил тебя."
             show l upset
             l "…"
             scene bg black with pixellate
-            m "{i}I had no regrets, in the end, for anything I did.{/i}"
-            m "{i}I felt that things had come to their natural end.{/i}"
-            m "{i}I hope she realises that too.{/i}"
+            m "{i}В конце концов я ни о чём не жалел.{/i}"
+            m "{i}Мне казалось, что всё закончилось как и должно было.{/i}"
+            m "{i}Надеюсь она тоже это поняла.{/i}"
             jump finale3
             
         
-        "Apologise.":
-            "Sorry."
+        "Извиниться.":
+            "Прости."
             l "…"
             show l upset
-            l "Aren't things alright as they are?"
-            "Well…"
+            l "Aren't things alright as they are?" #TODO
+            "Ну…"
             show l sad
-            l "It's just a bad patch. You don't have to decide now."
+            l "It's just a bad patch. You don't have to decide now." #TODO
             show l happy
-            l "Give it a little while. I'm sure things will get better."
+            l "Подожди немного. Я уверена, всё станет лучше."
             "…"
             scene bg black with pixellate
-            m "{i}I let her persuade me.{/i}"
-            m "{i}And she was right. I changed my mind a while later.{/i}"
-            m "{i}She knows me too well…{/i}"
+            m "{i}Я позволил убедить себя.{/i}"
+            m "{i}Да и она была права. Я передумал спустя некоторое время.{/i}"
+            m "{i}Она просто лишьком хорошо меня знает...{/i}"
             jump finale2
 
 label chapter3_3q6:
     show l sad
-    l "You can't just tell me to ignore you."
+    l "Я не могу просто не обращать на тебя внимания."
     "…"
     menu:
-        "Fine.":
-            "Fine. I'm not happy with how things are."
-            "I want you to leave."
+        "Ладно.":
+            "Ладно. Мне просто это не нравится."
+            "Я хочу уйти."
             show l upset
             l "…"
             show l annoyed
-            l "I refuse."
-            l "You still need me around, clearly."
-            "What?"
-            l "It took me dragging it out of you for you to recognise that you're not happy."
+            l "Никуда ты не пойдешь."
+            l "Ты попрежнему нуждаешься во мне."
+            "Что?"
+            l "Мне пришлось вытаскивать из тебя то, что тебе не нравится."
             show l sad
-            l "And think about it, do you really want to be alone and unhappy?"
+            l "Подумай ещё разок. Неужели ты хочешь быть одиноким и несчастным?"
             "…"
             show l happy
-            l "I can help you not feel alone anymore."
+            l "Со мной ты не будешь одинок."
             show l playful
-            l "…If you let me."
+            l "Если ты позволишь."
             scene bg black with pixellate
-            m "{i}Of course, I let her do whatever she wanted.{/i}"
-            m "{i}I'm powerless to stop her.{/i}"
-            m "{i}Just too pathetic to live without her.{/i}"
+            m "{i}Конечно, я разрешил ей. Пусть делает, что хочет.{/i}"
+            m "{i}Я не в силах её остановить.{/i}"
+            m "{i}Я просто слишком жалок без неё.{/i}"
             jump finale2
         
         "…":
-            "…Seriously, it's nothing."
+            "…Seriously, it's nothing." #TODO
             show l sad
-            l "Hmm…"
+            l "Хмм."
             show l upset
-            l "I know it's not nothing, but if you don't want to talk about it…"
-            l "…There's pretty much nothing I can do."
+            l "Я знаю, что это важно, но если ты не хочешь говорить об этом..."
+            l "...Я ничего не могу с этим поделать."
             "…"
             show l sad
-            l "I wish you would let me help you."
+            l "Надеюсь ты позволишь помочь тебе."
             "…"
             scene bg black with pixellate
-            m "{i}I wished I could let her help.{/i}"
-            m "{i}I wished I didn't want her help too.{/i}"
-            m "{i}I wished I had never met her, because now I was stuck with her.{/i}"
+            m "{i}Хотел бы я ей позволить.{/i}"
+            m "{i}I wished I didn't want her help too.{/i}" #TODO
+            m "{i}Хотел бы чтобы мы вообще никогда не встречались. Потому что сейчас я застрял на ней.{/i}"
             jump finale2
 
 label finale1:
 #This is the bad ending
-    m "{i}I know I made the right decision.{/i}"
+    m "{i}Я знаю, что принял правильное решение.{/i}"
     scene bg hosp with pixellate
     show nurse at right
-    nurse "You're lucky this time."
+    nurse "В этот раз тебе повезло."
     "…"
-    nurse "You didn't hit any nerves or arteries."
-    m "{i}As if I would be that stupid!{/i}"
-    "Uh, when can I go home?"
-    nurse "You have to wait to see the doctor in the morning, and we'll see then."
-    "Right…"
-    nurse "Do you feel better now?"
-    "…Yes."
-    nurse "So why did you do it?"
+    nurse "Ни нервы ни артерии не задеты."
+    m "{i}Ну я же не настолько глуп!{/i}"
+    "Мм, когда я могу пойти домой?"
+    nurse "Утром придет доктор. Тогда и посмотрим."
+    "Ладно…"
+    nurse "Ты чувствуешь себя лучше?"
+    "Да."
+    nurse "Но почему ты это делаешь?"
     "…"
     scene bg black with pixellate
-    m "{i}Of course, it was no problem to talk my way out of the hospital.{/i}"
-    m "{i}It was easy, because I honestly never felt so good.{/i}"
-    m "{i}I felt complete. I should never have doubted that I needed her.{/i}"
-    m "{i}At the end of the day, my flaws are as defining as my good qualities.{/i}"
-    m "{i}I need her to carry on being myself. To sustain my personality.{/i}"
-    m "{i}I need her to be happy.{/i}"
+    m "{i}Конечно, выбраться из больницы не составляло труда.{/i}"
+    m "{i}Это было просто, так как я никогда себя не чувствовал так хорошо.{/i}"
+    m "{i}Я чувствовал завершенность. И почему я только сомневался в том, что она мне нужна?.{/i}"
+    m "{i}At the end of the day, my flaws are as defining as my good qualities.{/i}" #TODO
+    m "{i}I need her to carry on being myself. To sustain my personality.{/i}" #TODO
+    m "{i}Я хочу, чтобы она была счаслива.{/i}"
     jump end
 
 label finale2:
 #This is the average ending
-    m "{i}I think I made the right decision…{/i}"
+    m "{i}Я думаю, я принял верное решение...{/i}"
     scene bg house with pixellate
     show l boredanim
-    m "{i}I think we can stay like this forever.{/i}"
-    m "{i}Maybe we won't be happy, but I know we won't be sad.{/i}"
-    m "{i}When it comes down to it, I'm too scared to be with her, or without her.{/i}"
-    m "{i}I can be satisfied with a comfortable life. I don't need any answers or solutions.{/i}"
-    m "{i}I think we can stay like this forever…{/i}"
+    m "{i}Надеюсь, всё останется так навечно.{/i}"
+    m "{i}Может мы и не будем счасливы, но нам точно не будет грусно.{/i}"
+    m "{i}Мне просто слишком страшно быть с ней или без неё.{/i}"
+    m "{i}Мне нужно довольствоваться тем что есть. Мне не нужны никакие ответы или решения.{/i}"
+    m "{i}Думаю, мы сможем оставаться вместе вечно...{/i}"
     jump end
     
 label finale3:
 #This is the good ending
-    m "{i}I hope I made the right decision…{/i}"
+    m "{i}Надеюсь, я принял верное решение...{/i}"
     scene bg house with pixellate
-    m "{i}She was out of my life within a month. I no longer rely on her.{/i}"
-    m "{i}I've gained my independence. I'm happy now!{/i}"
-    m "{i}The future feels uncertain, but I'm excited to be free.{/i}"
-    m "{i}I hope the day will never come when I want to see her again.{/i}"
+    m "{i}Её нет уже месяц. Я больше не полагаюсь на неё.{/i}"
+    m "{i}Теперь я независим. Я счаслив!{/i}"
+    m "{i}Не знаю, что ждет меня в будущем, но это классно быть свободным.{/i}"
+    m "{i}Надеюсь я больше никогда не захочу её видеть снова.{/i}"
     jump end
 
 
