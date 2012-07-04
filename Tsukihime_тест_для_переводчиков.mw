@@ -254,7 +254,7 @@ play "*3"
 ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
 
 ` - Йо.@ Ты что то ищешь Тоно-кун?@
-` Сбоку от меня появляется знакомое мне лицо.@
+` Сбоку от меня появилось знакомое мне лицо.@
 ` - Да.@ Я действительно кое кого ищу, поэтому не мешай мне, Арихико."
 ` - Дааа?@ Если ты ищешь Саччин, то это бесполезно.@ Похоже в этот раз она снова прогуляет школу."@
 ` Арихико ухмыльнулся... Похоже, он видит меня насквозь.\
@@ -265,23 +265,23 @@ ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
 ` Всё таки, что то тут не так.@
 ` - Эй!@ Если ты не веришь мне, спроси Такада-куна.@ Они вроде бы рядом живут.@
 ` - ...@
-` Я осматриваю окружающих меня одноклассников.\
+` Я осмотрел окружающих меня одноклассников.\
 
-` Как обычно, Такада-куд поедает шоколад.@ Он создаёт впечатление Санта Клауса, когда он вот так жуёт на ходу.@
+` Как обычно, Такада-кун поедал шоколад.@ Он создаёт впечатление Санта Клауса, когда он вот так жуёт на ходу.@
 ` ... Довольно интересно, для второстепенного персонажа.\
 
-`"...... No, I'll pass.@ Takada-kun isn't one to spread rumors so it's most likely true."@
-`"Yeah.@ A lot of girls have gone by to visit her and Kunifuji went this morning to her house...... Well, it seems like Yumizuka will have a rough time for a while."@
+` - Я пас.@ Такада-кун не из тех, что распространяет слухи, так что наверное это правда.@
+` - Ага.@ Кунифуджи и девочки ходили навестить её утром...... Похоже, некоторое время, Юмизуке будет не просто.@
 cl c,%type_lshutter_mid
-` Arihiko returns to his chair with a difficult expression.@
+` Арихико, с печальным выражением лица, вернулся к своему месту.@
 br
 ;S.E."??"
 wave se2
 !w500
 
-` ----The homeroom bell rings.@
+` Прозвенел звонок.@
 br
-` Still feeling a bit vague about it all, I wait for Kunifuji-sensei's arrival.\
+` Всё ещё ощущая некоторую неясность, я ждал прибытие Кунифуджи-сенсея.\
 ;CD-DA??
 playstop
 
@@ -291,20 +291,20 @@ bg "image\bg\ima_10.jpg",%type_tshutter_mid
 bg "image\bg\bg_06a.jpg",%type_bshutter_mid
 
 
-` ...... Our teacher Kunifuji didn't come.@ Classes started without homeroom and the Saturday class ended quickly.@
-` My classmates exit the room hastily.@
-` Those with club activities go to the cafeteria while those without any hurry on home to spend the rest of their Saturday elsewhere.\
+` Наш учитель так и не пришёл.@ Поэтому в этот раз, уроки закончились рано.@
+` Классная комната опустела.@
+` Те кто посещают клубы отправились в столовую, а те, кто не посещают, заторопились потратить остаток субботы на отдых где нибудь ещё.\
 
-`"--------Well then."@
-` There's no need to laze around here.@
-` I should go back to the mansion and think about what to do from there.@ I stand out of my chair.@
+` - Ну а я...@
+` Не было никакой необходимости оставаться здесь.@
+` Я должен вернуться в особняк и подумать, что мне делать.@ Я встаю со стула.@
 br
-` ----And then,
+` ...и тогда,
 br
-`"Will Second Year, Third Class Tohno Shiki-kun please report to the Staff Room immediately."@
-` Says the intercom announcement.@
-`"...... What's this?@ I didn't do anything to be called up."@
-` Tilting my head out of question, I leave the classroom.\
+` - Тоно Шики-кун, второго года обучения, из третьего класса, немедленно подойдите в учительскую.@
+` Объявили по внутренней связи.@
+` - ... Что это?@ Я не делал ничего, что бы меня могли туда вызвать.@
+` Удивлённым, я выхожу из класса.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_tcartain_mid
@@ -312,22 +312,22 @@ bg "image\bg\ima_10.jpg",%type_tcartain_mid
 ;CD-DA?????
 play "*1"
 
-` ----Come to think of it, maybe it is natural.@
-` The school was bound to find out it I was walking around late at night in my school uniform.@
-` My school is second-rate but still oriented towards attending university so there are a lot of troublesome rules.@
-` ...... After being sternly warned by the student guidance counselor, I end up writing an essay of apology.\
+` ...Если подумать, это может быть вполне естественно.@
+` В школа должно быть уже знает, как я ходил по городу ночью в школьной форме.@
+` Моя школа малоизвестная, но всё же ориентированная на поступление у университет, после её окончания. Поэтому здесь много мелочных правил.@
+` Меня строго выругали, и мн пришлось писать объяснительную.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_08b.jpg",%type_tshutter_mid
 
 
-`".................. It's getting late, Kunifuji-sensei."@
-` I mutter to myself in the empty room.@
-` The teacher told me he would come back after an hour.@
-` ...... It's half-past six already.@
-` It seems Akiha will scold me once more.@
-`"-----Fine.@ I'll be heading back now."@
-` I announce this to the teacher who isn't here in an attempt to convince myself and stand up.\
+` «Становится поздно, Кунифуджи-сенсей.»@
+` ,- бормотал я в пустой комнате.@
+` Учитель сказал мне, что он вернётся через час.@
+` ...Уже пол седьмого.@
+` Похоже Акиха вновь будет ругать меня.@
+` - Ладно.@ Я иду домой.@
+` Я заявляю это отсутствующему учителю, и встаю.\
 
 
 ; ???<?????(?)>
@@ -336,38 +336,38 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_06c.jpg",%type_lcartain_mid
 
 
-` Of course, the classroom is empty.@
-` I walk over to my desk to take the bag in my hand and exit to the hallway.@
+` Разумеется, класс уже пуст.@
+` Я подошел к моему столу, чтобы взять сумку, и вышел в коридор.@
 ;CD-DA??
 playstop
 
 br
-`"Good evening, Tohno-kun."@
+` - Добрый вечер, Тоно-кун.@
 br
-` Suddenly, someone calls my name.\
+` Внезапно, кто то назвал меня по имени.\
 
-`"---------!?"@
-` I whirl around instantly.@
+` - ... !?@
+` Я тут же обернулся.@
 br
-` ----In the dark, unlit classroom.@
-` Yumizuka Satsuki sits with her back to the blue moonlight.@
-`"Eh----Yumizuka, san?"@
+` ...там, в тёмном классе...@
+` Юмизука Сацуки сидит спиной к синему лунному свету.@
+` - Э...Юмизука, сан?@
 ; ??? : 01~10 : 10_???????<??????(?)>
 ld c,":a;image\tachi\stk_t10.jpg",%type_lshutter_mid
 
-`"What a coincidence.@ You are still here Tohno-kun?@ Don't tell me you were in the guidance counselor's room?"@
-`"Ah----yeah.@ Just a little unpleasantness there----"@
-`"I see.@ You know, I was called there about last night too.@ I was in the very next room."\
+` - Какое совпадение.@ Ты всё ещё здесь Тоно-кун?@ Не говори, что ты был в учительской.@
+` - Ах...да.@ Просто маленькая неприятность...@
+` - Понятно.@ Меня тоже вызвали туда из за прошлой ночи.@ Я была в соседей комнате.\
 
-` She smiles as she says so.@
-` A gentle, carefree smile like before.@
-`"--------"@
-` So why is it?@
-` For no reason, a chill runs up through my spine.\
+` Она улыбалась, пока говорила.@
+` Нежная, беззаботная улыбка, как и раньше.@
+` - ...@
+` Интересно, к чему она?@
+` По непонятным причинам, холодок пробежал по спине.\
 
-`"I see... it was you next door.@ Huhu, the school rooms are narrow so you can somehow understand what is going on next door.@
-` Your live body warmth or your breathing... it would have been nice for me to enjoy it longer."@
-` Our eyes meet.@
+` - Ясно... значит, это был ты в другой комнате.@ Хаха, школьные классы настолько тесные, что можно понять, чо происходит в соседней комнате.@
+` Тепло твоего тела, твоё дыхание... Я бы хотела наслаждаться ими больше.@
+` Наш взгляд пересёкся.@
 ;S.E."??"
 wave se0
 
@@ -376,33 +376,33 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?? : ?? : ??(?)<???????(?)>
 bg "image\bg\bg_06c.jpg",%type_crossfade_fst
 
-` Swaying.@
-` Stretching.@
-` This instability as if the floor was bending.@
+` Всё покачнулось.@
+` Всё растянулось.@
+` Я чувствовал неустойчивость, как если бы пол был искривлён.@
 
 ld c,":a;image\tachi\stk_t10.jpg",%type_crossfade_fst
-`"But it's great timing.@ I... have a request for you Tohno-kun.@ Is it alright?"@
-`"Uh----sure, I'll do it if I can."@
-`"Really?@ Then I'll ask.@ Tohno-kun, can you go out with me?"@
-` ----?@
-` Well, if that's it... sure.\
+` - На этот раз всё замечательно.@ Я... у меня есть к тебе просьба.@ Ничего?@
+` - Ах... да, конечно, я выполню всё, что смогу.@
+` - Да?@ Тогда я спрошу.@ Тоно-кун, ты можешь пойти со мной?@
+` ?@
+` Ну, если так, то... разумеется.\
 
-`"Sure, do you have something you need to buy?@ I don't think there's too many good stores open right now though."@
+` - Конечно, тебе надо что то купить?@ Но я не думаю что сейчас открыто очень много хороших магазинов.@
 ld c,":a;image\tachi\stk_t09.jpg",%type_crossfade_fst
 
-`"........................"@
-` She looks at me blankly.@
-` ...... Huh?@ It seems like I was a little off.@
+` - ...@
+` Она посмотрела на меня пустым взглядом.@
+` ... Хах?@ Видимо, я немного ошибся.@
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fst
 
-`"Oh, that's not it Tohno-kun.@ I'm not asking you to take me out shopping.@ I'm asking you to go out with me like a lover."@
-` Yumizuka-san giggles happily.@
-`"Eh------"@
-` After... such a sudden confession... my brain... doesn't seem to work... properly.\
+` - Ох, это не то Тоно-кун.@ Я не прошу тебя пойти со мной по магазинам.@ Я прошу тебя пройтись вместе со мной как влюблённая пара.@
+` Юмизука-сан счастливо хихикула.@
+` - Ээ...@
+` После такого... внезапного признания... мой мозг... похоже не хотел правильно работать.\
 
-`"Wait a second.@ Yumizuka-san, I----"@
-` I'm happy, but...
-` To be told this all of a sudden, I----\
+` - Секунду.@ Юмизука-сан, я...@
+` Я счастлив, но...
+` Это настолько неожиданно, что я...\
 
 ;CD-DA??
 playstop
@@ -422,15 +422,15 @@ br
 br
 br
 br
-` Well----no-----problem----right?\
+` В таком случае...нет...проблем...верно?\
 
-`"Yeah...... there's, no problem... I think."@
+`"Да... нет проблем... наверное."@
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fst
 
-`"Really!?@ Yay!@ Then I'll call you Shiki-kun from now on!@ I'm so glad.@ I was worried that you might hate me for saying that.@
-` ...... Yeah.@ Maybe I didn't need to use the teacher to make sure you stayed late."@
-` She mumbles.@
-` I don't quite grasp what she said.\
+`"Да!?@ Ура!@ Тогда с этого дня, я буду называть тебя Шики-кун!@ Я так рада!@ Я так волновалась, что ты моешь меня возненавидеть за это.@
+` ... Да.@ Наверное мне не стоило использовать учителя для того, что бы оставить тебя здесь до вечера."@
+` Бормотала она.@
+` Я не совсем понимаю, что она имела ввиду.\
 
 ld c,":a;image\tachi\stk_t07.jpg",%type_crossfade_fst
 
