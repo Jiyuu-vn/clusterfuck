@@ -424,28 +424,28 @@ br
 br
 ` В таком случае...нет...проблем...верно?\
 
-`"Да... нет проблем... наверное."@
+` - Да... нет проблем... наверное.@
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fst
 
-`"Да!?@ Ура!@ Тогда с этого дня, я буду называть тебя Шики-кун!@ Я так рада!@ Я так волновалась, что ты моешь меня возненавидеть за это.@
-` ... Да.@ Наверное мне не стоило использовать учителя для того, что бы оставить тебя здесь до вечера."@
+` - Да!?@ Ура!@ Тогда с этого дня, я буду называть тебя Шики-кун!@ Я так рада!@ Я так волновалась, что ты моешь меня возненавидеть за это.@
+` ... Да.@ Наверное мне не стоило использовать учителя для того, что бы оставить тебя здесь до вечера.@
 ` Бормотала она.@
 ` Я не совсем понимал, что она имела ввиду.\
 
 ld c,":a;image\tachi\stk_t07.jpg",%type_crossfade_fst
 
-`"Hey Shiki-kun.@ I really used a lot of courage to tell you.@ Did you know how scared I was, Shiki-kun?"@
-` She looks at me directly.@
-` Her eyes.@
-` Why... do her eyes look red----and as if I was asphyxiated, my brain stops working.\
+` - Эй, Шики-кун.@ Мне действительно требовалось набраться храбрости, что бы сказать тебе обо всём.@ Знал бы ты как я боялась, Шики-кун?"@
+` Она пристально смотрит на меня.@
+` Её глаза.@
+` Почему... почему её глаза выглядят красными... мой мозг отказывался работать, как будто бы я задыхался.\
 
-`"----Yeah.@ You did well, Yumizuka-san."@
-`"...... Yeah.@ So, hey.@ Maybe I should get a reward from you, Shiki-kun?@
-` I've been waiting so long----I want you to do it, Shiki-kun."@
-`"Do what?"@
+` - Да.@ Ты сделала всё правильно, Юмизука-сан.@
+` - Ага.@ Поэтому...@ могу я получить от тебя вознаграждение, Шики-кун?@
+` Я так долго этого ждала... я хочу что бы ты сделал это, Шики-кун.@
+` - Что именно?@
 ld c,":a;image\tachi\stk_t03.jpg",%type_crossfade_fst
 
-`"Simple.@ I want you to kiss me, Shiki-kun."\
+` - Всё просто.@ Я хочу, что бы ты поцеловал меня.\
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 monocro #0000ff
@@ -454,80 +454,80 @@ monocro #0000ff
 bg "image\bg\bg_06c.jpg",%type_crossfade_fst
 
 
-` ----This isn't good.@
+` ... Это не хорошо.@
 br
-` Somewhere in my mind, something screams at me in warning.@
+` Где то что то в моих мыслях кричит и предупреждает меня.@
 br
-` ----So...?@
+` Поэтому...?@
 br
-` I don't care about that.@
-` If she----if Yumizuka-san wants it, what's wrong with it?@
-` We are lovers----so isn't it normal?\
+` Меня не должно заботить это.@
+` Если она... если Юмизука-сан хочкт этого, что в этом плохого?@
+` Теперь мы возлюбленные... разве в этом есть что то плохое?\
 
-`"...... Alright.@ Don't move, Yumizuka-san."@
+` - ...Хорошо.@ Тогда не двигайся.@
 ; ??? : 01~10 : 02_?02(????)<????>
 ld c,":a;image\tachi\stk_t02.jpg",%type_crossfade_fst
 cl c,%type_lshutter_mid
 
-` I walk towards Yumizuka-san.@
-` The dry sounds of my footsteps.@
-` I walk in between the desks to draw closer to the girl by the window.@
-` ...... As I do,
-` I see the bodies of many female students collapsed in between the desks as if they were hidden.@
-` Blood flows from each of their necks.@
-` But still----I couldn't care less about them.\
+` Я подошёл к Юмизуке-сан.@
+` Звуки моих шагов...@
+` Я шёл между столами, приближаясь к девушке у окна.@
+` ... И тут же замечаю
+` тела множества учениц, лежащих между партами, как будто бы они были там спрятаны.@
+` Из каждой шеи текла кровь.@
+` Но всё же... я не волновался за них.\
 
-` ----Yumizuka-san doesn't move.@
+` Юмизука-сан продолжает стоять и не двигаться.@
 br
-` Grabbing both her arms, I press my lips to hers emotionlessly.@
+` Схватив её обоими руками, я спокойно прижал свои губы к её.@
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?? : ?? : ??(?)<???????(?)>
 bg "image\bg\bg_06c.jpg",%type_crossfade_fst
 
 br
-`"...... Huhu.@ With this, you are mine Shiki-kun."@
+` - ... Хехе.@ Теперь, ты мой, Шики-кун."@
 br
-` Her whisper sounds incredibly evil.\
+` Невероятно зловещий шёпот...\
 
 quakey 3,100
 
-`"Ah-------rghh......!?"@
-` I collapse onto the floor.@
-` A splashing sound.@
+` - Ах... Грхх?!..@
+` Я упал на пол.@
+` Всплеск...@
 monocro #ff0000
 bg "image\bg\bg_06c.jpg",%type_crossfade_fst
 
-` I didn't notice it before, but the floor is splattered with blood.@ Under the desks lie the discarded corpses of my classmates strewn about.@
-`"Wha------"@
-` I try to stand up using my arms but I fall back down again.@
-` There's no strength in my body.@
-` Heat.@ The heat, suddenly turns cold.\
+` Я не замечал этого ранее, пол был весь забрызган кровью.@ Под парами лежат разбросанные трупы моих одноклассников.@
+` - Что...@
+` Я попытался привстать при помощи рук, но я вновь упал.@
+` В моём теле больше не осталось сил.@
+` Тепло.@ Тепло в мгновение обращается в лёд.\
 
-`"Relax Shiki-kun.@ I won't make you like them.@ All you have to do is listen to my voice just like this."@
+` - Расслабься Шики-кун.@ Я не собираюсь тебя убивать как их.@ Всё что тебе придётся делать, это слушать мой голос, что ты и делаешь сейчас.@
 br
-` ----Her cold voice.@
-` I don't understand at all what she's doing.@
-` Even though I don't understand anything, I know this is so wrong it makes me nauseous.\
+` ...Её холодный голос.@
+` Я совсем не понимал, что она делает???@
+` Не смотря на то, что я ничего не понимаю, я понимаю, что здесь какая то ошибка. От этого меня начинает тошнить.\
 
-`"Ghh--------!"@
-` I strain my arms and legs as I crawl on the floor.@
-` But even that was stopped with her voice.@
-`"No.@ You can't get away.@ I won't let you get away.@
-` ...... C'mon.@ First we have to expand my world.@ You'll help me won't you?@ You broke your promise to help me whenever I was in a pinch, so you have to listen to whatever I say from now on."@
-` She chuckles.\
+` - Гхх!@
+` Напрягая руки и ноги, я мог бы ползти по полу.@
+` Но её голос остановил меня.@
+` - Нет.@ Ты не можешь уйти.@ Я не дам тебе уйти.@
+` ...Идём со мной.@ Для начала, мы должны расширить мой мир.@ Ты ведь будешь помогать мне?@ Ты нарушил своё обещание помогать мне, если я попаду в беду, поэтому теперь ты будешь делать всё что я скажу@
+` Она хихикала.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_mid
 
-` ...... My distant heartbeat.@
-` The fragrance of the blood drenching the floor makes me dizzy.@
-` So, if I ever do wake up again, then...
-` I realized my body will never feel warm again.@
+` ...Моё отдалённое сердцебиение.@
+` Запах крови, которой был пропитан пол, заставляло мою голову кружиться.@
+` Если даже я и проснусь снова, тогда...
+` Я осознаю, что моё тело более никогда не почувствует тепла.@
 br
 !w2000
-` In the moonlit classroom,
-` Yumizuka Satsuki slowly bites into Tohno Shiki's neck.\
+` В классе, освещённом только лунным светом,
+` Юмизука Сацуки медленно вгрызается в шею Тоно Шики..\
 monocro off
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
