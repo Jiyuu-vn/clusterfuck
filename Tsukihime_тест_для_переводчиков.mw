@@ -193,25 +193,25 @@ ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
 ` Я не должна вам такое говорить, но всё же ты не должен напрягать своё тело.@ Вы можете спокойно идти и внезапно упасть в обморок. Ну и что тогда будешь делать?@
 ` - Ах... ты права, но всё же...@
 ` Похоже Акиха волнуется за меня.@
-` Сейчас я начинаю понимать, что мои действия прошлой ночью были слегка эгоистичны...\
+` Тут я начинал понимать, что мои действия прошлой ночью были слегка эгоистичны...\
 
 ld c,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
 
-`"Goodness.@ If you do that what would others think?@ For the eldest son of the Tohno family to collapse late at night in town, the rumors would make me so embarrassed I couldn't even go to school."@
-`"Uh------that may be true, but..."@
-` ...... Akiha seems to be worrying about herself.@
-` I start to think I was stupid for thinking last night was selfish.@
+` - Боже мой.@ А что могут подумать остальные?@ Старший сын семьи Тоно упал в обморок ночью в городе... такие слухи могут смутить меня настолько, что я перестану ходить в школу."@
+` - Ух... Наверное ты права, но...@
+` ... Похоже всё же Акиха волнуется за себя.@
+` Теперь мне кажется, что было глупо думать о своей эгоистичности прошлой ночью.@
 ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 
-`"Anyway, please keep the curfew tonight.@ If you break it again, I will have to hand down a punishment on you as head of the household."@
+` - В любом случае, не выходи сегодня после восьми.@ Если ты вновь нарушишь это правило, мне, как главе семьи, придётся тебя наказать.@
 cl c,%type_lshutter_mid
-` Akiha whirls around quickly and exits the room.\
+` Быстро развернувшись, Акиха быстро покинула комнату.\
 
-`"...... Punishment, Akiha?"@
-` I think it was a joke, but she certainly sounded serious.@
-`"Shiki-saaaan, breakfaaaast!"@
-` Kohaku-san's voice rings out from the dining room.@
-` I rise and head towards the dining room.\
+` - Наказать???@
+` Я думал, что она просто пошутила... но её лицо было определённо серьёзно.@
+` - Шики-сааан, Зааавтрак!@
+` Со соловой раздался голос Кохаку-сан.@
+` Я встал и направился в столовую.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_mid
@@ -223,16 +223,16 @@ bg "image\bg\bg_32a.jpg",%type_tshutter_mid
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Shiki-sama, around what time will you be returning today?"@
-`"Yeah, today is Saturday so I'll be back early.@ I don't know what Akiha will do if I get back late either."@
-` Yeah.@ To be honest, it's a little scary.@
-`"I understand.@ Well then, please be attentive and take care of yourself."@
+` - Шики-сама, во сколько мне сегодня вас ждать?"@
+` - Ах да, сегодня суббота, я вернусь вовремя.@ Не представляю, что сделает Акиха, если я опоздаю...@
+` Чесно говоря...@даже жутко стало.@
+` - Я поняла.@ Ну что ж, пожалуйста, будьте осторожны.@
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_fst
 
-` She gives her customary bow.@
+` Она как обычно поклонилась.@
 cl c,%type_crossfade_fst
 
-` After Hisui sees me off, I leave the mansion.\
+` После того как Хисуи проводила меня, я покинул поместье.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -246,29 +246,29 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 play "*3"
 
 
-` ----As I arrive at my classroom I look for Yumizuka-san.@
-` She isn't in the group of girls.@
-` She hasn't come yet?@ Or maybe----\
+` ...Прибыв в школу, я тут же принялся искать Юмизуку-сан.@
+` Её нет не среди группы девочек.@
+` Она ещё не пришла?@ Или может быть...\
 
 ; ?? : 01_??<??????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
 
-`"Yo.@ are you looking for something Tohno-kun?"@
-` ...... The familiar face of my friend appears from the side like a crab.@
-`"Yeah.@ I'm in the middle of looking, so don't get in my way, Arihiko."@
-`"Oh reeeeally?@ If you're looking for Sacchin, it's useless.@ It seems she'll skip school today too."@
-` Arihiko giggles meaningfully...... He seems to have seen right through me.\
+` - Йо.@ Ты что то ищешь Тоно-кун?@
+` Сбоку от меня появляется знакомое мне лицо.@
+` - Да.@ Я действительно кое кого ищу, поэтому не мешай мне, Арихико."
+` - Дааа?@ Если ты ищешь Саччин, то это бесполезно.@ Похоже в этот раз она снова прогуляет школу."@
+` Арихико ухмыльнулся... Похоже, он видит меня насквозь.\
 
-`"...... What's this Sacchin thing?"@
-`"Sacchin is Sacchin.@ Miss Yumizuka was taken in by the police last night and is now under house arrest.@ Takada-kun told me while he was eating chocolate."@
-`"Eh----Yumizuka-san returned home?"@
-` Something seems a little out of place.@
-`"Hey.@ If you don't believe me ask Takada-kun.@ He seems to be one of Yumizuka's neighbors."@
-`"---------"@
-` I look around to my classmate nearby.\
+` - ... Кто такая Саччин?@
+` - Саччин это Саччин.@ Мисс Юмизука была схвачена полицией прошлой ночью и сейчас она под домашним арестом.@ Такада-кун рассказам мне это, пока он ел шоколадку.@
+` - Ээ... Значит Юмизука-сан сейчас у себя дома?@
+` Всё таки, что то тут не так.@
+` - Эй!@ Если ты не веришь мне, спроси Такада-куна.@ Они вроде бы рядом живут.@
+` - ...@
+` Я осматриваю окружающих меня одноклассников.\
 
-` As usual, Takada-kun is eating chocolate.@ He looks like he's doing his best impression of Santa Claus as he munches while walking.@
-` ...... Quite the interesting person for a side character.\
+` Как обычно, Такада-куд поедает шоколад.@ Он создаёт впечатление Санта Клауса, когда он вот так жуёт на ходу.@
+` ... Довольно интересно, для второстепенного персонажа.\
 
 `"...... No, I'll pass.@ Takada-kun isn't one to spread rumors so it's most likely true."@
 `"Yeah.@ A lot of girls have gone by to visit her and Kunifuji went this morning to her house...... Well, it seems like Yumizuka will have a rough time for a while."@
