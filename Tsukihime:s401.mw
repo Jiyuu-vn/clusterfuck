@@ -7,10 +7,10 @@ bg "image\bg\bg_40b.jpg",%type_nowaitdisp
 
 
 
-` ...... Although I think she'll refuse, I wonder what will happen if I ask Hisui.@
-`"...... Hisui's in the sitting room."@
-` I'm a little excited.@
-` I should hurry over and go ask Hisui.\
+` Я думаю что она откажется, но мне всё равно интересно, что будет, если я попрошу Хисуи.@
+` - Хисуи была в гостиной...@
+` Я немного волнуюсь.@
+` Так что поскорее пойду к Хисуи и попрошу её.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -23,10 +23,10 @@ playstop
 ;(???08)
 ld c,":a;image\tachi\his_t08.jpg",%type_lshutter_fst
 
-`"I refuse."@
+` - Я отказываюсь.@
 br
-` Not even a second after I ask...
-` With an incredible counterpunch, she totally knocks out my plan.\
+` Только я успел договорить...
+` Как ударом невероятной силы она отправила мой план в нокаут.\
 ;CD-DA??????
 play "*3"
 
@@ -34,45 +34,46 @@ play "*3"
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-`"I...... I see.@ You are a little busy."@
-` Defeated, I slump like a captured soldier.@
-`"Sorry.@ Please continue what you were doing."@
-` I slowly start to shuffle my way to the lobby.\
+` - А... По-понятно.@ Ты немного занята.@
+` Потерпев поражение, я опускаю плечи как попавший в плен солдат.@
+` - Прости.@ Продолжай заниматься тем, что делала.@
+` Я медленно плетусь по направлению к фойе.\
 
-`"Ah...... Please wait, Shiki-sama.@
-` Um... it is not that I would not like to make you something, but......"@
-`"Eh.........?"@
-` I turn around without even thinking.@
-` Then---
+` - А... Шики-сама, подождите минутку.@
+` Эм... это не то чтобы мне не хотелось чего-нибудь вам приготовить, но...@
+` - Э?..@
+` Не успев даже ни о чём подумать, я оборачиваюсь.@
+` А там...
 
 ;(????????)
 ld c,":a;image\tachi\his_t26.jpg",%type_lshutter_fst
 
-` Hisui looks incredibly cute for some reason.\
+` Почему-то Хисуи кажется такой миленькой.\
 
-`"I, I just thought that since you are used to Nee-san's cooking, my cooking would not even come close..."@
-` Fidgeting, Hisui continues speaking uneasily.@
-`"So I want for you to eat my food when my skill has improved..."@
-`"-------"@
-` Wh...... what an amazing thing she says!@
-` That "I refuse" back then was a big shock, but compared to what she just said, it's merely a light jab.\
+` - Я, я просто подумала, что раз вы привыкли к тому, что готовит Нээ-сан, моя готовка вам совершенно не понравится...@
+` Нервно переминаясь, Хисуи неуверенно продолжает.@
+` - И потому я хотела, чтобы вы попробовали мою еду когда я научусь готовить получше...@
+` - ...@
+` Ка... какие удивительные вещи она говорит!@
+` «Я отказываюсь» было сильнейшим ударом, но по сравнению с этим это был лёгкий тычок.\
 
-`"What are you saying, Hisui?@ I'll eat anything you make, so please don't fret about that sort of thing."@
+` - Хисуи, что ты говоришь?@ Я съем всё, что ты приготовишь, так что не переживай о таких вещах.@
 
 ;(????????)
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
-`"............ No, I cannot do that.@ Shiki-sama, please ask Nee-san about food."@
-`"...... No, what I really want is something from you.@ If I wanted Kohaku-san's cooking, I'd have gone to her first.@
-` I came here to ask you---cause I wanted your cooking."\
+|||
+` - Нет, я не могу.@ Шики-сама, пожалуйста, готовить просите Нээ-сан.@
+` - Нет, я хочу попробовать то, что приготовишь ты.@ Если бы я хотел есть еду Кохаку-сан, я бы пошёл к ней.@
+` Я пришёл к тебе — потому что хотел съесть то, что приготовишь ты.\
 
 ;(???04)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-` Hisui just looks at me, not responding.@
-`"............ Hm."@
-` If that's how she's going to be, then I'll just stay right here in the sitting room until she says she'll make me something.@
-`"......"@
+` Хисуи продолжает молча смотреть на меня, ничего не говоря.@
+` - Хм.@
+` Ну раз так, то я тоже буду стоять молча и не сдвинусь с места, пока она не согласится что-нибудь мне приготовить.@
+` - ...@
 
 ;(???08)
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
@@ -87,24 +88,24 @@ ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 `".............................."@
 `"................................."\
 
-` We continue staring at each other without saying anything.@
-` ...... That's odd.@
-` How did we end up like this?\
+` Мы продолжаем молча смотреть друг на друга.@
+` Странно...@
+` Как мы оказались в такой ситуации?\
 
-`"...... I understand.@ If you do not mind, then I will make something."@
-`"---!@ Yes!@ For real, Hisui!?"@
+` - Хорошо.@ Если вы не против, то я пойду приготовлю что-нибудь.@
+` - !@ Да!@ Хисуи, ты серьёзно?!@
 
 ;(???09)
 ld c,":a;image\tachi\his_t09.jpg",%type_crossfade_fst
 
-`"Yes.@ But since you insisted, you are bringing this on yourself."@
+` - Да.@ Но поскольку вы настаивали, то вы сами виноваты в том, что будет.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-`"Eh.........?"@
-` Saying something incredibly ominous, Hisui heads towards the kitchen.\
+` - Э?..@
+` Сказав что-то очень зловещее, Хисуи идёт на кухню.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -112,91 +113,91 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_34c.jpg",%type_tshutter_mid
 
 
-`"------He.@ Hehe, hehehehehe."@
-` I start chuckling uncontrollably.@
-` In the kitchen behind that wall, Hisui is making food for my sake.@ Thinking about it, I can't help but smile.\
+` - Хе.@ Хехе, хехехехехехе.@
+` Я начинаю несдержанно хихикать.@
+` На кухне за вот этой вот стеной Хисуи готовит что-то для меня.@ От мысли об этом я невольно улыбаюсь.\
 
-` Even though Kohaku-san prepares food everyday, she does so too professionally; it feels like some other cook is making the food.@
+` Кохаку-сан готовит для меня каждый день, но она делает это слишком профессионально. Мне словно готовит какой-нибудь незнакомый повар.@
 br
-` On the other hand, I have never seen Hisui's cooking, so I'm pretty excited.\
+` Но вот стряпню Хисуи я никогда не видел, так что я доволльно взволнован.\
 
-`"...... Kohaku-san did say that Hisui was poor at cooking though......"@
-` Well, even so, I don't think anything inedible will be the result.@
-` If you have a normal sense of taste, it's impossible to make something that is completely inedible.\
+` - Однако Кохаку-сан вроде бы говорила, что Хисуи плохо готовит...@
+` Ну, ладно, я не думаю что она приготовит что-нибудь совсем уж несъедобное.@
+` Если с чувством вкуса у вас всё в порядке, то абсолюнто несъедобную еду приготовить невозможно.\
 
 ` ......@
 ` .........@
 ` ............@
 ` ...............@
 ` ..................@
-` ..................... But still.@
-` Doesn't she seem to be taking a little too long?\
+` ..................... Но всё же.@
+` Она там не слишком долго возится?\
 
 ;CD-DA??
 playstop
 
-`"Kya--!?"@
+` - Аааа!?@
 br
-` ---And then,
-` I hear a gigantic crash coming from the kitchen.@
+` А затем...
+` Из кухни доносится страшный грохот.@
 br
-`"Hisui!?"\
+` - Хисуи?!\
 
 ; ?? : ?? : ????(??)<??????(?)>
 bg "image\bg\bg_35.jpg",%type_lshutter_fst
 
 
-`"What happened, Hisui!?"@
-` I run into the kitchen.@
-`"----Ah."@
-` After entering, I'm a little taken aback.@
-` Hisui might have been planning on cooking a feast as ingredients are stacked all about the kitchen.@
+` - Что случилось, Хисуи?!@
+` Я забегаю на кухню.@
+` - А...@
+` И сразу же немного отшатываюсь.@
+` Судя по количеству разбросаных по кухне ингредиентов, Хисуи собралась наготовить на целый банкет.@
 br
-` A kitchen knife is thrust into the cutting board like a gravestone or like that holy sword from somewhere.\
-` And on the stove, black smoke billows from a frying pan.@
+` Из разделочной доски, словно надгробие или какой-нибудь святой меч, торчит кухонный нож.\
+` А на плите стоит чадящая сковородка.@
 
-`"Um...... Hisui?"@
+` - Эм... Хисуи?@
 
 ;(???05)
 ld c,":a;image\tachi\his_t05.jpg",%type_lshutter_mid
 
-`"........................"@
-` Hisui embarrassedly hangs her head.@
-`"Um, Hisui.@ I would have been happy with something light.@ Something simple, like a pancake."@
+` - ...@
+` Хисуи стоит, сконфуженно повесив голову.@
+` - Эм, Хисуи.@ Мне бы хватило чего-нибудь лёгкого.@ Чего-нибудь простого, вроде блинчиков.@
 
 ;(???08)
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`"...... Shiki-sama, you may say that, but a pancake is not very simple."@
-` Hisui says so from the bottom of her heart.@
-` ...... Geez.@ Hisui really IS pretty poor at cooking---\
+` - Шики-сама, вы так говорите, но блинчики это совсем не просто.@
+` Хисуи говорит соверешнно искренне.@
+` Боже мой...@ Хисуи и правда совершенно не умеет готовить...\
 
-`"Hisui, let me see your hand."@
+` - Хисуи, покажи руку.@
 
 ;(?????????)
 ld c,":a;image\tachi\his_t28.jpg",%type_crossfade_fst
 
-`"Eh...... My hand?"@
-` Hisui reluctantly shows me her hand.@
-`"Just as I thought.@ You cut yourself, didn't you?"@
-`"...... Yes.@ Forgive me, I was not even able to fix you anything properly, and now I have shown you this pathetic sight."@
-`"Don't be stupid, that's not what I'm trying to say.@ If you cut yourself, you shouldn't force---"@
+` - Э... Руку?@
+` Хисуи неохотно показывает мне свою руку.@
+` - Так я и думал.@ Ты ведь порезалась?@|
+` - Да...@ Простите меня, я ничего не смогла вам приготовить, и вам пришлось увидеть такое жалкое зрелище.@
+` - Не глупи, я не о том.@ Если ты порезалась, то не заставляй— @
 br
-` She shouldn't force herself, she should treat her wounds.\
+` Ей не надо было заставлять себя, а пойти обработать рану.\
 
-`"...... Shiki-sama?"@
-` Hisui's white finger is painted a deep red.@
-` Her fingertip, wet with the color red.@
+` - Шики-сама?@
+` Красная кровь на белом пальце Хисуи.@
+` Кончик её пальца, покрытый красной влагой.@
 
-`"---This is bad.@ That's pretty deep."@
-` Saying that, I take her arm.@
+` - Дело плохо.@ Порез довольно глубокий.@
+` С этими словами я беру её за руку.@
 
 ;?????
 ld c,":a;image\tachi\his_t15.jpg",%type_crossfade_fst
 
-`"----!"@
-` Hisui's body flinches noticeably.@
-` I don't even notice.@ The only thing I care about right now is treating her cut.\
+` - !@
+` Тело Хисуи заметно дёрнулось.@
+` Но я не этого не замечаю.@ Сейчас я думаю только о том, чтобы обработать её порез.\
 ;CD-DA????????
 play "*8"
 
@@ -204,34 +205,34 @@ play "*8"
 bg "image\event\his_e05.jpg",%type_crossfade_mid
 
 
-`"Ah----"@
-` Hisui's voice.@
+` - А...@
+` Голос Хисуи.@
 br
-` ---I don't even hear it.@
-` Just like back when I was a kid, I place the finger in my mouth and lick the blood.\
+` Но я его не слышу.@
+` Как маленький, я кладу её палец себе в рот и начинаю зализывать порез.\
 
-`"......... Shiki--sama."@
+` - Шики...сама.@
 br
-` ---Her slender finger.@
-` Red blood does not suit her white finger at all.@
-` So I only thought to make her finger clean again.\
+` Её тонкий палец...@
+` Красная кровь совсем не идёт к её белом пальцу.@
+` И я хочу только очистить его.\
 
-`"...... Please stop, Shiki... sama......"@
+` - Шики-сама, пожалуйста... перестаньте...@
 br
-` ---Why is it?@
-` Hisui's blood is extremely---\
+` Почему?@
+` Кровь Хисуи такая...\
 
-`"............ Ah."@
+` - А...@
 br
-` -----sweet.@
-` Her blood is sweet, and just from doing this, my body starts to feel hot and---\
+` ...сладкая.@
+` Её кровь такая сладкая, я слизываю её, и от этого по моему телу разливается жар и...\
 
-`"....................."@
+` - ...@
 br
-` ---I can't hear her voice.@
-` Looking up, I see Hisui's face.@
-` Blushing cheeks.@ Deep blue eyes.@
-` ...... Years ago, the red hair that was so close to me.\
+` Я не слышу её голос.@
+` Подняв взгляд, я вижу лицо Хисуи.@
+` Покрасневшие щёки.@ Синие глаза...@
+` В далёком прошлом, рыжые волосы, которые были так близко.\
 
 !w2000
 ; ???<???????(?)>
@@ -243,27 +244,28 @@ playstop
 bg "image\bg\bg_35.jpg",%type_nowaitdisp
 
 
-`"-----!"@
-` I pull back from Hisui.@
-` What... what was I doing just now---
+` - !@
+` Я отстраняюсь от Хисуи.@
+` Что... что я только что делал?..
 
 ;(?????????)
 ld c,":a;image\tachi\his_t21.jpg",%type_crossfade_fst
 
-` Hisui just hangs her head, not moving.@
-`"............ Ah."@
-` I---even though Hisui hates to be in contact with men, I licked her finger----and I sucked her blood for a long time.\
+` Хисуи стоит не шевелясь, повесив голову.@
+` - А...@
+` Я... несмотря на то что Хисуи не любит прикасаться к другим, я облизывал её палец — и я пил её кровь.\
 
-`"...... I'm sorry.@ I shouldn't have done that---"@
-` I really shouldn't have done that.@
-` It's not just in a dream anymore, is it?@
-` Enjoying sucking someone's blood, it's not just in my dreams---\
+` - Прости.@ Я не должен был этого делать...@
+br
+` Я действительно не должен был этого делать.@
+` Это ведь уже не сон.@
+` Наслаждаться вкусом чьей-то крови, и уже не во сне...\
 
 ;(?????02)
 ld c,":a;image\tachi\his_t26.jpg",%type_crossfade_fst
 
-`"...... All you were doing was taking care of my wound.@ There is no need to apologize."@
-`"---No, I---"@
+` - Вы только заботились о моём порезе.@ Не нужно извиняться.@
+` - Нет... я...@
 ;S.E."??"
 wave se0
 
@@ -273,17 +275,17 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_35.jpg",%type_crossfade_fst
 
 br
-` ---I can't do it.@ I can't look at her face.@
-` The taste of her blood still lingers in my mouth.@
-` I can't forget the feeling of her finger.@
+` Я не могу.@ Я не могу посмотреть на неё.@
+` Я всё ещё чувствую вкус её крови.@
+` Я не могу забыть ощущение её пальца.@
 br
-`"---I'm sorry.@ I know I asked for it myself, but I'll be just fine without any food.@ I'm going back to my room---let me be by myself."@
+` - Прости.@ Я знаю, я сам попросил, но я обойдусь без еды.@ Я пойду к себе... не беспокой меня.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
-` Hisui doesn't say anything.@
-` Escaping from her wordless stare, I flee to my room.\
+` Хисуи ничего не говорит.@
+` Спасаясь от её бессловесного взгляда, я бегу к себе в комнату.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -296,6 +298,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
 return
+
 
 
 
