@@ -94,7 +94,7 @@ image splash3 = "splash3.png"
 
 # Declare characters used by this game.
 
-define mi = Character('Milice', color="#c8ffc8")
+define mi = Character('Милисия', color="#c8ffc8")
 define vo = Character('??')
 define m = Character('\"Mae\"')
 define gi = Character('Girl')
@@ -102,8 +102,8 @@ define gh = Character('Daena')
 define si = Character('Sirius')
 
 define nvlx = Character(None, kind=nvl)
-define nvlvo  = Character('Voice', kind=nvl)
-define nvlmi  = Character('Milice', kind=nvl)
+define nvlvo  = Character('Голос', kind=nvl)
+define nvlmi  = Character('Милисия', kind=nvl)
 define nvlma = Character('Mae', kind=nvl)
 define nvlm = Character('\"Mae\"', kind=nvl)
 define nvlgi = Character('Girl', kind=nvl)
@@ -151,10 +151,10 @@ label start:
     vo "{i}Я здесь не для того, что бы мучить тебя, сестра. Я здесь, что бы помочь тебе.{/i}"
     vo "{i}Не обращайся со мной как с бременем. Ведь это не так, я уверена!{/i}"
     show mipi with dissolve
-    mi "Не мог бы ты оставить меня одного? Просто уйди от меня! Я ненавижу тебя!"
+    mi "Не мог бы ты оставить меня в покое? Просто уйди от меня! Я ненавижу тебя!"
     vo "{i}Почему?{/i}"
     vo "{i}Почему ты ненавидишь меня?{/i}"
-    vo "{i}А теперь... Я думаю, тебе не нравится испытывать чувства.{/i}"
+    vo "{i}И сейчас... Я думаю, тебе не нравится испытывать чувства.{/i}"
     vo "{i}Сейчас, сестра. Я не хочу мучить тебя. Я помогу тебе, я обещаю!{/i}"
     mi "И как? Ты ведь всего лишь иллюзия! А если ты реальна, тогда почем бы тебе не появиться передо мной?"
     vo "{i}Нет, сожалею, но я не могу появиться, даже если ты хочешь этого.{/i}"
@@ -164,8 +164,8 @@ label start:
     hide mipi
     mi "Уйди! Перестань издеваться надо мной!"
     mi "Почему ты называешь меня сестрой? Мы ведь даже не родственники! Замолчи! Убирайся!"
-    mi "И не возвращайся! Я никогда не захочу увидеть тебя снова!"
-    vo "{i}Я хотела бы сделать все, что ты хочешь, но не могу.{/i}"
+    mi "И не возвращайся! Я тебя никогда не захочу видеть!"
+    vo "{i}Я хотела бы делать все, что ты захочешь, но не могу.{/i}"
     vo "{i}Я знаю, тебе больно, поэтому я останусь.{/i}"
     vo "{i}Разве не та беловолосая девочка является причиной твоей боли? Как её зовут?{/i}"
     show miwo with dissolve
@@ -179,13 +179,13 @@ label start:
     vo "{i}И я знаю... Эта девочка, Сириус, будет помехой всему, что бы ты не запланировала. Ты хочешь этого?{/i}"
     mi "Конечно нет!"
     vo "{i}Тогда... Что ты будешь делать?{/i}"
-    mi "Я вернусь к ним и отомщу! Я уверена, они заплатят за всё!"
+    mi "Я вернусь к ним и отомщу! Они заплатят за всё! По другому и быть не может!"
     vo "{i}Ты ведь знаешь, этого не достаточно! Они должны не просто заплатить... они должны страдать!{/i}"
     vo "{i}Что ты предпочтёшь делать? Ты знаешь, убить будет лучше... Мучить их, пока они не сдохнут. Так будет намного лучше.{/i}"
-    vo "{i}А я смогу только наблюдать их страдания, их боль, их крики... Только воображаешь, а уже так забавно!{/i}"
+    vo "{i}А я смогу только наблюдать их страдания, их боль, их крики... Только воображаю, а уже приятно!{/i}"
     show mipi with dissolve
     hide mima
-    mi "Я вынуждена  сказать... ты очень жестока..."
+    mi "Должна сказать... ты очень жестока..."
     vo "{i}Я твоё сердце, твой внутренний голос. Я это ты. Так что, глубоко внутри, ты тоже воображаешь это, я права?{/i}"
     mi "Может быть..."
     vo "{i}Не говори таких глупых вещей, как \"Может быть\". Они свойственны слабым людям. Сомнения. Ты должна быть уверена во всём, что говоришь! Ты должна быть смелой!{/i}"
@@ -211,107 +211,107 @@ label start:
     scene black with dissolve
     play music "usu.mp3" fadein 1 
     "Почему в последнее время у меня постоянно болит голова..."
-    "Это не очень приятно. И вообще, мне кажется... все эти вещи я просто воображаю..."
+    "Зараза... И вообще, мне кажется... все эти вещи я просто воображаю..."
     "Ха... ха..."
-    "Я смотрю вниз и через некоторое время осознаю, что дышу тяжело."
+    "Я смотрю вниз и через некоторое время осознаю, что тяжело дышу."
     "В конце концов это последний раз, когда я буду спать здесь, на этой кровати..."
-    "Я просто не могу представить, что будет дальше. Где я остановлюсь? У двоюродной сестры, разве что." 
+    "Просто не могу представить, что будет дальше. Где я остановлюсь? У двоюродной сестры, разве что." 
     "В любом случае это единственное место, где я смогу остаться, не став посмешищем."
     "... по крайней мере, я смогу найти немного покоя."
-    vo "Hey."
+    vo "Эй."
     scene miwo2 with dissolve
     play music "dark.mp3" fadein 1 fadeout 2
-    "Eeeh? Who was that?"
-    vo "Don't pretend you're not hearing me."
-    vo "Come, why don't you walk outside and air yourself up a bit?"
-    "Agh, this voice again... Ugh..."    
-    "They're just delusions..."
+    "Ээ? Кто это?"
+    vo "Не притворяйся, что не слышишь меня."
+    vo "Ну давай же... Почему бы тебе не выйти на улицу, не подышать свежим воздухом?"
+    "Тьфу, опять этот голос... Зараза..."    
+    "Это(!дословно они!) просто бред..."
     scene black with dissolve
-    "Ever since who-knows-when, I have been hearing voices in my head."
-    "No, definitetly, I'm not crazy. I am not delusional and I will never be.{w} And it's not an imaginary friend, I'm not a kid anymore."
-    "But then... it feels like some {i}real{/i} voice is talking in my head. It feels so real I don't even know where it comes from."
-    "Yeah, like in that \"dream\" thing a while ago, she's fond of calling me sister."    
+    "Кто знает, когда я начала слышать голоса."
+    "Нет, определённо я не сумасшедшая. Я не безумна, и никогда её не стану.{w} Я больше не маленькая девочка, и у меня нет воображаемых друзей."
+    "В таком случае... Я ощущаю, как будто бы какие то {i}настоящие{/i} голоса разговаривают в моей голове. Они настолько реальны... даже не представляю откуда они."
+    "Прямо как в недавнем сне, она любила называть меня сестрой."    
     scene miwo2 with dissolve
-    "But still, it won't be bad to walk around much."
-    "It sounds like a nice idea. It seems like a sunny day outside."
-    "But still, I don't know where to stay... That wretched general told me not to brandish myself around the camp if I don't want to be talked about."
-    "But where to stay... where to stay..."
+    "Но всё же, погулять не такая уж и плохая мысль."
+    "На улице солнечно. Думаю, это очень хорошая идея."
+    "Но я всё ещё не знаю куда пойти... Этот несчастный генерал сказал мне не мешаться в лагере, если у меня нет к нему разговора. (!That wretched general told me not to brandish myself around the camp if I don't want to be talked about !)."
+    "Куда же пойти... куда..."
     $renpy.pause(1)
     stop music fadeout 2
     play music "calypso.mp3" fadein 1 
     scene pond11 with dissolve
-    "As I throw another rock at the pond, I see many people from afar glance my way, but I just shoot a dirty look back, even though they can't probably see it."
-    "Even though it's quite public here, the place is pretty hard to reach. So even if people can glance my way, no one can go near or even see my face."
-    "I just went down here because... well, I want to think."
+    "Я кидаю очередной камешек в пруд. Я видела, что многие издалека смотрят на меня... Я смотрела на них с отвращением, хотя они наверное так и не заметили этого."
+    "Несмотря на то, насколько здесь много людей... даже если кто то и заметит меня, ни один не сможет стать по настоящему близким человеком ко мне. Ни один не сможет даже просто увидеть моё истинное лицо."
+    "Я пришла сюда только потому... тут хорошо думается."
     scene pond12 with dissolve
-    "It is annoying, yes. {w}Annoying, {w=0.5}maddening, {w=0.5}infuriating, {w=0.5}well, I can almost find a thousand words describing it."
-    "All of my dreams... those are my dreams! {w=0.5}Dreams that woman kicked away!"
-    "I throw another rock in the water, and it plopped down, sinking to the bottom."
-    "I can't really think well."
+    "Это надоело, да. {w}Раздражает, {w=0.5}сводит с ума, {w=0.5}бесит, {w=0.5}я могу продолжить ещё тысячью слов."
+    "Все мои мечты... это мои мечты! {w=0.5}Мечты, которые я сама отшвырнула прочь!"
+    "Я кидаю ещё один камень в воду, и он ушёл вниз, ко дну.
+    "Всё таки здесь плохо думается"
     scene pond13 with dissolve
-    "I might have been very angry last... {w=0.5}last time. {w}Agggh, I was so mad I actually forgot what day is it today, or on what day it even happened."
-    "But... it's unexplainable. Why do I feel so calm? It's like I want to get angry, but my chest tries holding it back..."
-    "Suddenly...."
+    "Я должно быть была очень безумна раньше... {w=0.5}давно. {w}Чёрт, я была настолько безумна, что забыла в какой день это было. И даже какой сегодня день."
+    "Но... это не объяснимо. Почему я спокойная? Как будто я хочу разозлиться, но что то в груди пытается сдержать меня..."
+    "Внезапно...."
     scene pond2-1 with dissolve
     play music "dark.mp3" fadein 1 
     play sound "heartbeat.wav"
-    "Ehhh..."
-    "What the hell..."
-    "The world suddenly comes to a spin and my vision blurred."
-    "What is this?"
-    "Aghhh... My head hurts..."
+    "Ах..."
+    "Какого чёрта..."
+    "Мир вдруг стал вращаться, в глазах всё стало размытым."
+    "Что это?"
+    "Ox... моя голова..."
     play sound "heartbeat.wav"
-    "I try to grab onto anything nearby, but nothing comes in contact as I reach out."
-    "Suddenly...."
-    "I felt a cold shift in the air."
+    "Я старалась ухватиться за что нибудь, но ни до чего не получалось дотянуться..."
+    "Внезапно...."
+    "ощутила что воздух стал холоднее."
     play sound "heartbeat.wav"
-    "There was a cold touch in my skin..."
-    mi "Who's there? Anyone?"
-    "I can't see anything from my blurring, spinning vision. But there.. I can make out somebody."
+    "То было ледяное прикосновение к моему телу..."
+    mi "Кто здесь? Кто нибудь?"
+    "Я не могла ничего видеть из за размытого, вращающегося изображения. Но всё же... я могу различить чей то силуэт."
     scene pond2-2 with dissolve
-    vo "So, there you are."
-    vo "I have been waiting, you know?"
-    mi "Waiting? Waiting for me?"
-    mi "Who are you? What do you want?"
-    "I grab onto my waist to find my gun but I realized it was confiscated away from me..."
-    "Suddenly, she giggled silently."
+    vo "А вот и ты."
+    vo "Я тебя ждала, ты знала об этом?"
+    mi "Ждала? Ждала меня?"
+    mi "Кто ты? Чего ты хочешь?"
+    "Я хватаю свою талию, ожидая найти там мой пистолет, но осознала, что он был у меня конфискован..."
+    "Неожиданно, она тихо хихикнула."
     scene pond2-3 with dissolve
     play sound "giggle.wav"
-    "Her laughter was innocent, but at the situation at hand it sounds quite cruel to me."
-    vo "You know what I want."
-    vo "...and... for who am I?"
-    vo "You know me."
-    vo "You surely do."
+    "Ее смех был невинен, но в сложившейся ситуации он звучал довольно жестоко ко мне."
+    vo "Ты знаешь, чего я хочу."
+    vo "...и... кто я."
+    vo "Ты знаешь меня."
+    vo "Непременно."
     scene black with dissolve
     stop music fadeout 2    
     $renpy.pause(2)
     $ show_button_game_menu = False
     nvl show dissolve
     play music "darkambient.mp3" fadein 1 
-    nvlvo "Hey."
-    nvlvo "Hey, you! Wait for me!"
-    nvlvo "Hey!"
+    nvlvo "Эй."
+    nvlvo "Эй, ты! Подожди меня!"
+    nvlvo "Эй!"
     show mipi with dissolve
-    nvlx "I still continued my walking."
-    nvlx "I still can't see where am I. This is some delusion, right?"
-    nvlx "Another delusion..."
-    nvlx "As I walk, I try observing where I am, from what I can make out. There's.... nothing. Only black."
-    nvlx "There doesn't seem to be any boundaries, because I keep on walking into any random direction I please and I don't bump into anything..."
-    nvlx "Yes, this is a delusion. Impossible to be a dream. Dreams are myths."
-    nvlmi "What do you want with me?"
-    nvlx "I turn around to the source of the voice, but I can't see her face clearly."
-    nvlmi "Have I done something to you?"
-    nvlvo "Nope! Nothing!"
+    nvlx "Я опять продолжаю идти."
+    nvlx "Я опять не могу увидеть, где я. Не правда ли, это галлюцинация?"
+    nvlx "Ещё одна галлюцинация..."
+    nvlx "Продолжая идти, я пытаюсь выяснить где же я, но всё что я могу разобрать...это.... ничего. Сплошная тьма."
+    nvlx "Не видно ни каких границ. Я продолжала идти в произвольном направлении, и я была рада, что не наткнулась на что либо."
+    nvlx "Да... Это иллюзия. Даже для сна такое невозможно."
+    nvlmi "Чего ты хочешь от меняWhat do you want with me?"
+    nvlx "Я повернулась к источнику звука, но так и не смогла разглядеть лицо."
+    nvlmi "Разве я что то вам сделала?"
+    nvlvo "Нет! Ничего!"
     nvl clear
-    nvlvo "And what makes you think I have something I want from you?"
-    nvlvo "You know, my only purpose in life is to give what you want..."
-    nvlvo "...sister."
+    nvlvo "И что заставляет тебя думать, что я от тебя чего то хочу?"
+    nvlvo "Ты ведь знаешь, единственная цель моей жизни делать то, что ты хочешь..."
+    nvlvo "...сестра."
     nvlx "...."
     show mipi2 with dissolve
     hide mipi
-    nvlmi "... sister?"
-    nvlvo "Yes. We are sisters."
-    nvlvo "We are more like twins though."
+    nvlmi "... сестра?"
+    nvlvo "Да. Мы же сёстры."
+    nvlvo "Мы больше похоже на близнецов."
     nvlvo "You don't remember, huh... The time that Sirius girl attacked you."
     nvlvo "You can't say anything, so I went up and said it for you."
     nvlvo "I hear you saying in your head that you wanted to tell her the truth for the hell of it."
