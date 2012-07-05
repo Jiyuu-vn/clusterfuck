@@ -8,31 +8,31 @@
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 
-`"............"@
-` I don't know what to say.@
-` Even though I'm only a little better than yesterday, at least now I feel alive.@
-` But, after making Hisui do that---making her drink that completely, maybe it was just better if I stayed like that.\
+` - ...@
+` Я не знаю что сказать.@
+` Мне только немного лучше, чем вчера, но я хотя бы чувствую себя живым.@
+` Но, после того как я заставил Хисуи сделать это — заставил её всё проглотить, может, будет лучше если на этом мы закончим.\
 
 ; ?? : 01~10 : 01_?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t21.jpg",%type_crossfade_fst
 
-`"------"@
-` Hisui straightens out her clothes and moves away from the bed.@
-`"...... Hisui...... I"@
-`"Shiki-sama.@ Please do not tell anyone of this.@ ...... I do not want you to say it even to myself."@
-`"---"@
-` ...... Of course, Hisui must hate what she just did enough to not even want to be reminded of it.@
-`"Shiki-sama.@ This was something that I did on my own.@ Please think that nothing happened.@ Otherwise, I will be unable to serve you any longer."\
-`"-------"@
-` I don't know how to respond.@
-` I don't have words to apologize to her, and I don't have the words to thank her either.@
+` - ...@
+` Хисуи поправляет одежду и отходит от кровати.@
+` - Хисуи...Я— @
+` - Шики-сама.@ Прошу вас, никому об этом не рассказывайте.@ | Я не хочу, чтобы вы обсуждали это даже со мной.@
+` - ...@
+` Ну конечно, Хисуи наверное так противно то, что она сейчас сделала, что она даже вспоминать это не хочет.@
+` - Шики-сама.@ Я сделала это по своей воле.@ Пожалуйста, забудьте о случившемся.@ Иначе я не смогу больше вам прислуживать.\
+` - ...@
+` Я не знаю что ей ответить.@
+` У меня нет слов ни чтобы извиниться, ни чтобы отблагодарить её.@
 
-`"Well then, please excuse me."@
+` - Тогда, с вашего позволения.@
 cl c,%type_lshutter_mid
 
-`"A........."@
-` Hisui leaves.@
-` All I can do is watch as she does so.\
+` - А...@
+` Хисуи уходит.@
+` Я могу только смотреть ей вслед.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -41,12 +41,12 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 
 
-` ...... It's two o'clock.@
-` Even though it's time for my checkup, Hisui probably won't come.@
-` ............ *sigh*@
-` All I can do is sigh.@
-` Just how did all of this happen?@
-` Even though it was Hisui that started all this, what was I doing holding her head and coming in her mouth like that?\
+` Два часа дня.@
+` Пришло время для осмотра, но Хисуи наверное не придёт.@
+` ............ *эх*@
+` Я могу только вздыхать.@
+` Как вообще так получилось?@
+` Может Хисуи и сама начала это, но держать её за голову и кончать ей в рот — что на меня нашло?\
 
 
 
@@ -57,6 +57,7 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 
 
 return
+
 
 
 
