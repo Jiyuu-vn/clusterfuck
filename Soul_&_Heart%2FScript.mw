@@ -1,0 +1,1961 @@
+<poem>
+# You can place the script of your game in this file.
+
+init:
+    # Declare images below this line, using the image statement.
+    # eg. image eileen happy = "eileen_happy.png"
+    image bg old_cell = "old_cell.png"
+    image bg cell = "cell.png"
+    image bg hallway = "hallway.png"
+    image hhallway = "hospitalhallway.png"
+    image mr = "meetingroom.png"
+    
+    image bgbonus = "bgbonus.jpg"
+    
+    # DAENA
+    
+    image daena = "daena_norm.png"
+    
+    image daenaa = "daena_ahehe.png"
+    image daenac = "daena_calm.png"
+    image daenam = "daena_mad.png"
+    image daenao = "daena_oh.png"
+    image daenap = "daena_piss.png"
+    image daenas = "daena_sad.png"
+    image daenasm = "daena_smile.png"
+    image daenay = "daena_yay.png"
+    image daenay2 = "daena_yay2.png"
+    image daenaw = "daena_whew.png"
+    image daenasl = "daena_sly.png"
+    image daenash = "daena_shy.png"
+    image daenaco = "daena_confused.png"
+    
+    
+    # CETUS
+    
+    image cetus = "cetus_norm.png"
+    
+    image cetusy = "cetus_yay.png"
+    image cetuso = "cetus_oh.png"
+    image cetuss = "cetus_smile.png"
+    image cetusw = "cetus_what.png"
+    image cetusy2 = "cetus_yay2.png"
+    image cetuss = "cetus_si.png"
+    image cetussl = "cetus_sl.png"
+    image cetussa = "cetus_sad.png"
+    image cetusp = "cetus_pissed.png"
+    image cetusm = "cetus_mad.png"
+    image cetussh = "cetus_shock.png"
+    image cetussly = "cetus_sly.png"
+    image cetusr = "cetus_rage.png"
+    image cetusc = "cetus_confused.png"
+    image cetusse = "cetus_seeth.png"
+    image cetust = "cetus_tired.png"
+    
+    image cetuscoh = "cetuscoat_oh.png"
+    image cetuscser = "cetuscoat_ser.png"
+    
+    # CALYPSO
+    
+    image causu = "causu.png"
+    
+    image casmi = "casmi.png"
+    image capi = "capi.png"
+    image cag = "cag.png"
+    image cafufu = "cafufu.png"
+    image camehe = "camehe.png"
+    image cagl = "cagl.png"
+    image cawha = "cawha.png"
+    image cama = "cama.png"
+    
+    # GUARD XD
+    
+    image pms = "pms.png"
+    image pmsm = "pmsm.png"
+    
+    # CGs
+    
+    image blackfilm = "blackfilm.png"
+    
+    image cg siriusprologue = "siriusprologue.png"
+    image cg siriusprologue2 = "siriusprologue2.png"
+    image cg siriusprologue3 = "siriusprologue3.png"
+    image cg siriusprologue4 = "siriusprologue4.png"
+    
+    image cg guard1 = "prologueguard.png"
+    image cg guard2 = "prologueguard2.png"
+    
+    image cg sirius = "siriuscg.png"
+    image cg cetus = "cetuscg.png"
+    image cg daena = "daenacg.png"
+    image cg calypso = "calypsocg.jpg"
+    
+    image cg siriusnecklace1 = "siriusnecklace1.png"
+    image cg siriusnecklace2 = "siriusnecklace2.png"
+    image cg siriusnecklace3 = "siriusnecklace3.png"
+    
+    image cg cetusattack = "cetusattack.png"
+    image cg giveup = "siriusgiveup.png"
+    image cg calm = "calmcg.png"
+    
+    image sicalgrou = "sicalgrou.jpg"
+    image sicalgrou1 = "sicalgrou1.jpg"
+    image sicalgrou2 = "sicalgrou2.jpg"
+    image sicalgrou3 = "sicalgrou3.jpg"
+    
+    # DREAM CGS
+    
+    image cg musiccouple = "musiccouplecg.png"
+    image cg sad = "sadcg.jpg"
+    
+    image cg mirrorblur = "mirrorblurcg.png"
+    image cg mirror = "mirrorcg.png"
+    
+    # DREAM SPRITES
+    ##NURSE
+    image nuo = "nuo.png"
+    image nus = "nus.png"
+    image nuw = "nuw.png"
+    image nusm = "nusm.png"
+    image nuse = "nuse.png"
+    image nusmi = "nusmi.png"
+    
+    ##POLICEWOMAN
+    image pws = "pws.png"
+    image pwm = "pwm.png"      
+    
+    ##LITTLE SIRIUS
+    image lss = "lss.png"
+    image ls2 = "ls2.png"
+    image lse = "lse.png"
+    
+    image wlss = "wlss.png"
+    image wlsh = "wlsh.png"
+    
+    image splash = "splash.png"
+    
+    $ si = Character('Sirius', color="#a368c4")
+    $ s = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_norm.png", xalign=0.0, yalign=1.0))    
+    $ sx = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_exp.png", xalign=0.0, yalign=1.0))    
+    $ sp = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_piss.png", xalign=0.0, yalign=1.0))    
+    $ sm = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_mad.png", xalign=0.0, yalign=1.0))    
+    $ ss = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_sad.png", xalign=0.0, yalign=1.0))    
+    $ sc = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_con.png", xalign=0.0, yalign=1.0))    
+    $ sg = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_glad.png", xalign=0.0, yalign=1.0))    
+    $ sw = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_what.png", xalign=0.0, yalign=1.0))    
+    $ sy = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_yay.png", xalign=0.0, yalign=1.0))    
+    $ sh = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_hmm.png", xalign=0.0, yalign=1.0))
+    $ sa = Character('Sirius',
+                        color="#a368c4",
+                        window_left_padding=160,
+                        show_side_image=Image("sirius_ah.png", xalign=0.0, yalign=1.0))
+
+    $ c = Character('Cetus', color="#89a6b1")    
+    $ d = Character('Daena', color="#397999")
+    $ ca = Character('Sgt. Calypso', color="#8c684d")
+    $ vn = Character('Voice')
+    $ gu = Character('Guard')
+    $ g = Character('General')
+    $ n = Character('?')
+    
+    
+    $ nvls = Character('Sirius', color="#a368c4", kind=nvl)
+    $ nvlg = Character('Guard', kind=nvl)
+    $ nvln = Character('?', kind=nvl)
+    $ nvlgi = Character('Girl', kind=nvl)
+    $ nvlb = Character('Boy', kind=nvl)
+    $ nvlnu = Character('Nurse', kind=nvl)
+    $ nvlpw = Character('Police Woman', kind=nvl)
+    $ nvlm = Character('General Man', kind=nvl)
+    $ lu = Character(None, kind=nvl)    
+    
+    $ renpy.music.register_channel("my_channel", "music", True)
+    
+label splashscreen:
+    $ show_button_game_menu = False
+    $ renpy.pause(0)
+    scene black
+    show text "This is a work of fiction. The similarities to real people, whether living or dead, organizations and symbols are purely coincidental."
+    with dissolve
+    with Pause(3.0)
+    hide text
+    with dissolve
+    show text "Soul and Heart is not written to symbolize, to go against or support any existing political figure or military organization's opinion and beliefs."
+    with dissolve
+    with Pause(3.0)
+    hide text
+    with dissolve
+    show splash
+    with dissolve
+    with Pause(3.0)
+    hide splash
+    with dissolve
+    return
+
+# The game starts here.
+label start:    
+    $ hide_window()
+    $ persistent.my_bonus = False    
+    $ show_button_game_menu = False
+    scene black    
+    nvl clear
+    nvl show dissolve
+    play music "prologue.mp3"
+    lu "..."
+    lu "There's the room!"
+    lu "I scramble to my feet, trying to make it out in the dark."
+    lu "Aaaaah, it's so dusty and dark in here. I can't see anything."
+    lu "I take out my lamp, hoping to see something."
+    nvl clear
+    show cg siriusprologue with dissolve
+    $ renpy.pause(2)
+    lu "There. Much better."
+    lu "Now, where is the cabinet with the birth information?"
+    lu "..."
+    scene cg siriusprologue2 with dissolve
+    nvls "There it is!"
+    nvls "Now where are the files under \"S\"?"
+    lu "This is my only chance to find out who my parents are!"
+    scene cg siriusprologue3 with dissolve
+    lu "I can't risk being caught or else I'll end up in jail!"
+    nvls "Wow, so many people have a name starting with \"S\"...."
+    nvls "No file with the name of \"Sirius\"?"
+    play sound "door.wav"
+    lu "Suddenly, I hear the door open and I flinch as I turn around."
+    scene cg siriusprologue4 with dissolve
+    nvls "Ahh!"
+    nvls "Who's there? I'm armed!"
+    lu "I desperately point my gun and lamp into the sheer darkness."
+    lu "I only stole this gun. And the lamp, well... {w}I stole it too."
+    lu "I can't risk anybody stopping me!"
+    lu "I have to know who they are!"
+    scene black with dissolve
+    nvl clear
+    lu "I go back into the files where I can't find one with my record in it."
+    lu "Damn, it's taking me too long... I have to find that file now!"
+    nvls "Aha!"
+    lu "I found it! Finally!"
+    lu "Now where is that file--?"
+    play sound "guncock.wav"
+    lu "..."
+    nvln "Hey, miss stealer-girl."
+    lu "I turn around and see a gun pointed at me."
+    nvl clear 
+    scene cg guard1 with dissolve
+    nvlg "You thought you were invisible, huh... Well, I saw you scrambling over to the room after your work shift."
+    nvlg "I remember that after your shift, you should be at the agro technology center."
+    nvlg "And I started wondering why there was a gun and a lamp hanging off your waist belt."
+    scene black with dissolve
+    $renpy.play('gun.wav')
+    with hpunch
+    scene cg guard2 with dissolve
+    lu "I aim my gun at him and he shoots beside me, almost hitting."    
+    nvlg "No use, Sirius."
+    nvlg "Or should I say..."
+    nvlg "... convict."
+    nvl clear
+    nvls "No... way..."
+    nvls "There's no way you have a license to turn me over!"
+    nvls "Even though you caught me, so what? You don't have the rights to turn me over, {i}guard{/i}."
+    lu "Despite my warning, he just laughs at me."
+    lu "What is this guy getting into!?"
+    nvlg "Heh. That can't stop me."
+    nvlg "I can just ask a member of the police force to turn you over."
+    nvlg "Whether I have the right or not, you still committed a crime."
+    nvlg "And a fucking license won't stop me."
+    nvl clear
+    lu "I suddenly have the bravery to stop him, to shoot him before he turns me over."
+    $renpy.play('gun.wav')
+    with hpunch
+    scene black with dissolve
+    lu "I shoot and start to dash to the door."
+    lu "He starts to grab at my ankle, which sends me falling to the ground."
+    $ renpy.play('thud.wav')
+    with vpunch
+    nvls "Aaah!"
+    nvlg "Go and rot into jail, you bitch!"
+    nvls "No way! I won't let you send me there!"
+    lu "I am desperate to get out of his grasp, to get his oily, dirty hands off me, to get out of this room."
+    lu "Or at least to go back and recheck the file..."
+    $renpy.play('gun.wav')
+    with hpunch
+    lu "I shoot at his shoulder. He trembles in excitement as he tightens his grip."
+    nvl clear
+    nvls "Aaaah! Get your dirty hands off me, you corrupt beast!"
+    nvlg "Ahh... I'll send you to jail... soon..."
+    lu "I'm really scared."
+    lu "No way will he send me to jail!"
+    lu "I am also shaking as I grab my gun and shoot him in the shoulder one more time."
+    $renpy.play('gun.wav')
+    with hpunch
+    $renpy.pause(1)
+    nvl clear
+    lu "He writhes in pain as he lessens his grip on my ankle..."
+    lu "I am desperate to escape."
+    lu "I point my gun at him as I step back slowly..."
+    play sound "step.wav"
+    $renpy.pause(.5)
+    lu "Slowly..."
+    play sound "step.wav"
+    $renpy.pause(.5)
+    lu "He is gradually moving towards me..."
+    play sound "guncock.wav"
+    play sound "step.wav"
+    nvlg "Damn... you..."
+    play sound "step.wav"
+    $renpy.pause(.5)
+    lu "Out of nervousness and fear, I shoot blankly towards him, not sure of what I'm shooting at..."
+    $renpy.play('gun.wav')
+    with hpunch
+    $renpy.pause(1)
+    play sound "step.wav"
+    $renpy.pause(.1)
+    play sound "sigh.wav"
+    lu "I let out a nervous sigh as I run out of the room."
+    $ renpy.music.play ("run.wav", channel="my_channel", if_changed=True)
+    nvl clear
+    lu "I've lost it."
+    lu "I'm so stupid! Argh!"
+    lu "There goes my only hope of finding out who my parents are!"
+    lu "And I'm pretty sure that the guards I knocked out to get access to the room and keycard...{w} and that guard I shot at the records room... {w}will send out a call for back-up."
+    lu "And I'd be sent to jail soon..."
+    nvl hide dissolve
+    $ renpy.music.stop (channel="my_channel", fadeout=None)
+    centered "Yes, what a pitiful destiny, right?"
+    si "Huh?"
+    centered "I hope you can now see the consequence of your actions."
+    centered "But remember, sometimes little blessings hide under catastrophic tragedies."
+    centered "Keep that in mind..."
+    centered "... my child."   
+    $renpy.pause(2)
+    si "Wait!"
+    $renpy.pause(3)
+    nvl clear
+    nvl hide dissolve
+    stop music
+    $ renpy.pause(4)    
+    $ show_window()
+    $ show_button_game_menu = True
+    scene bg old_cell with dissolve
+    play music "usu.mp3" fadein 2
+    "A bright light enters my dark, dusty cell."    
+    show pms with dissolve
+    gu "Sirius, number 3547, please stand up and attach your cuffs."    
+    "I don't say anything and do exactly as I'm told."
+    scene cg sirius with dissolve
+    "Sirius. That's my name." 
+    "I was named after one of those things called a 'star'... I don't even know what a star is."
+    "I guess that is one thing I'll never know. What I was. {w}Better yet, who I was and where I came from."
+    "They'll remain questions that are never answered."
+    scene black with dissolve
+    "I feel I have lost hope in humanity after I did a \"crime\" two years ago."
+    "It wasn't a crime... {w}I had a solid belief that I have the right to know who my parents are."
+    "Yet when I shot a guard in the shoulder... I know it's a sin. {w}I regret that." 
+    "That guard still has that hatred towards me, though."
+    "When we once saw each other, he shot me a dirty glare and almost killed me with his working arm."
+    scene bg old_cell with dissolve
+    "I stand up, feeling the dirt and grime from the floor on the soles of my feet."
+    "It feels like I came from the dump site."
+    "I raise my feet to see how dusty my soles are. I attempt to sweep it away with my hand, and I almost forget I am cuffed."      
+    show pms with dissolve
+    gu "Don't move, convict."
+    sx "I know, \'sir\'. Don't worry; I won't try to do a foolish thing like escaping."
+    gu "You know what will happen if you do that."    
+    "They'll set off the electric necklace. I know."    
+    scene bg hallway with dissolve    
+    "I walk towards the white hall. When I look around, I see that the doors seem to have disappeared."
+    "But I know what is behind them. {w}Or rather, who."
+    "There are people behind them."
+    "Convicts like me."
+    "\"Imprisoned\" for doing something that isn't even their own fault."
+    scene black with dissolve
+    "The government, who is called the \"Pagi\", erases all of our memories." 
+    "When we are born, there is a chemical injected into us that will make us forget everything about our childhood when we turn 8." 
+    "Then, afterward, memories are erased yearly from an individual's mind."
+    "I have completely forgotten the identities of my parents." 
+    "But because there are still pieces of memories with them that I retained despite the chemical, I searched for a place to find out my past and was caught snooping around the \"highly guarded\" record room."
+    "I also shot a guard in the shoulder, as I mentioned."
+    "Only the Head General and his cronies are allowed to go in there, so I was arrested for trying to do so."
+    "Then I was punished by having my genetic structure disrupted, which made my body feel wretched." 
+    "I would contract fevers every week and my eyes would change color occasionally." 
+    "Sometimes, I had a heart attack or a seizure. My weakened immune system was affected by these unnatural changes to my body."
+    gu "Here we are, convict."      
+    scene bg cell with dissolve
+    show pms with dissolve
+    "The guard's voice snaps me back to reality."   
+    s "Yes, sir. Will I remove my cuff?"
+    gu "Do the usual."    
+    scene bg cell with dissolve    
+    "He throws me inside the cell and closes the 'door'. Now, my new cell doesn't seem like it has a door, or a window."
+    "There\'s only an average-sized hole on the left wall that is covered with some sort of screen."
+    "Strange... my old cell doesn't have that. Is it for air circulation?"
+    "Well... I was able to live in my old cell without it... I guess not."
+    "I am quiet as I survey my new living space. A thin gray mattress lies on the floor just beside the hole." 
+    "I decide to lie down and rest, since there was nothing else I could do anyway."
+    scene black with dissolve
+    "I hate my life."
+    "All this prison stuff, this transferring, \"discovering\" my past..."
+    "...ended up like this?"     
+    sm "I hate my life!"
+    "Unable to keep the strong feeling contained within me, I shouted out to the walls."
+    n "A new convict?"
+    scene bg cell with dissolve
+    stop music fadeout 0.5
+    "A voice comes from the hole and I look at the screen."    
+    scene cg cetus with dissolve
+    play music "cetus.mp3"
+    "Behind it is... a person. Well, I can't tell if the person is male or female, but the person does look more feminine." 
+    "She (calling the person a 'she' feels better than saying 'it') has brownish white hair that was short and messy." 
+    "Her face is almost masculine (yet I admit it still looks soft), mature, and... "  
+    "... she has blank eyes. "
+    "White. As if she is blind."   
+    sx "I just got transferred from another cell not far from here, uhh..."
+    n "Cetus."
+    sc "What?"
+    scene bg cell with dissolve
+    show cetus with dissolve
+    c "That's my name, what about you?"
+    sg "I'm Sirius."
+    show cetuss with dissolve
+    hide cetus
+    c "That's such a nice name."
+    s "Yeah."
+    show cetuso with dissolve
+    c "What's your case? I hope it's not murder or anything."
+    sx "Information theft and physical injury..."
+    c "That's a rare case. I've never heard of somebody having a case like that."
+    hide cetuso with dissolve
+    c "Heh... I got imprisoned for illegal marriage."    
+    "That means she and her spouse had become a couple without the Pagi's approval."    
+    s "Where is your husband now? On another prison group?"
+    c "Euthanasia, since he's a guy. I got my gender removed."
+    sc "What? How can they actually remove your gender?"
+    c "Operation. They removed anything that only a female has: reproductive organs, bosoms and soft facial structures. They even cut my long hair and flushed out my eye color."
+    "I really don't know about the soft facial structures, because in my view, she still has that."
+    sx "My situation's a lot worse. They disrupted my genetic structure."
+    show cetuso with dissolve
+    c "Meaning?"
+    sx "I get a random sickness every month, including having heart attacks and seizures. My eye color changes almost all the time." 
+    sp "And some other random shit."    
+    scene cg siriusnecklace1 with dissolve
+    "Saying the curse word, I hear a beep in my electric necklace and a voice speaks to reprimand me."
+    "Geez, I don't want a homily right now."
+    vn "Next time you curse, convict 3547, I'll send you to hell, you bitch."
+    scene cg siriusnecklace2 with dissolve
+    si "If you don't want me to curse, be a good example and shut up. That's sexual harassment."
+    vn "Like I care. You're harassing me too."
+    si "I know that sexual harassment is forbidden for humans. So my question is, are you human?"
+    "Cetus laughs hard."
+    "There's another beep. I expected it to blow up or something." 
+    "But I hear nothing, and the red light on the necklace turns off."
+    scene cg siriusnecklace3 with dissolve
+    "Whew. I was sure they'd be scraping bits of me off the floor."
+    scene bg cell with dissolve
+    show cetusy with dissolve
+    c "That was a good one, Sirius! I like your sense of humor!"
+    "She laughs more noisily, so loud that I'm pretty sure a guard will come quickly and tie her up."
+    ss "Hey! They might put you in a straitjacket if they hear you!"
+    show cetusy2 with dissolve
+    hide cetusy
+    c "I've done this like a million times and had not a single straitjacket. If they do come to bring me one though, I'll burn it and use the ashes to brush the Head General's teeth."
+    "It was my turn to laugh."
+    sy "Here, I'll tell you about something funny. There was this time, before I'd been transferred..."    
+    scene black with dissolve
+    "Our stories and talking last until twilight. I know the time because a voice usually indicates the time to the convicts."
+    scene bg cell with dissolve
+    "Suddenly, the door of my cell appears and opens. A girl wearing a lower general uniform enters the cell, along with a tray of food."
+    show cg daena with dissolve   
+    stop music fadeout 1.0
+    $renpy.pause (1)
+    play music "daena.mp3" fadein 0.5
+    n "Good afternoon, Sirius."
+    "Hey... No member of the military has called me by my real name before." 
+    "They always just call me convict. Does that mean that I'm going to be executed? My memories wiped again?"    
+    "My worry over this must be showing because the girl tries to reassure me." 
+    "Huh, strange."  
+    scene bg cell with dissolve
+    show daenaa with dissolve
+    hide daena
+    d "Hey, don't worry. {w}My name is Daena Blackstar, and I'll be guarding this cell for the next two quarters of the year, along with the cell next to yours."    
+    "Military personnel are the only ones with last names, which are used to indicate their position. Cetus and I don't have them." 
+    "So her last name confirms my suspicion that she is a lower general."      
+    show cetuso at right
+    with dissolve    
+    c  "Sirius? Who's there?"
+    d "Oh... That must be Cetus."
+    c "Uhh... yeah."
+    show daenasm with dissolve
+    hide daenaa
+    d "Nice to hear you're still alive in there."   
+    "I'm bewildered by the way she's acting." 
+    "She is happy Cetus is still \"alive\"? {w}Why, was she expecting Cetus to be {i}dead{/i} now?"
+    "The fact that only generals are allowed to smile, cry or do anything related to emotions and seeing her do just that... {w}catches me off guard."   
+    show cetus at right with dissolve
+    hide cetuso
+    "She lowers the tray of food so that it sits at my feet." 
+    "Surprisingly, it isn't the usual soup, juice and a random fruit. It's some stew and rice cakes, a bottle of some carbonated drink, and some water."
+    show daenao with dissolve
+    d "I just thought you might want something different for a change."    
+    sy "Ma'am, my thanks."
+    hide daenao with dissolve
+    d "Don't mention it."    
+    hide daenasm with dissolve    
+    "She exits and I hear Cetus' cell open. It seems that they are talking for a while too."
+    "After Daena leaves, I go over to the hole."    
+    show cetus at center with moveinright
+    s "Cetus, I think she's the replacement for the older lower general."
+    show cetuso with dissolve
+    c "The one that convict 0589 stabbed in the neck and mutilated?"
+    sx "Yeah... I heard a funeral was held in his honor."
+    c "That Daena is a lot better than that old fat man."
+    c "But, you know, she only {i}looks{/i} kind. Most generals aren't kind in the slightest..."
+    sx "Yeah. I bet it's just an act. Let's wait for a few more days 'till she reveals her true colors."
+    scene black with dissolve
+    "But that day never came. Day by day, she brought us a different meal, gave us books that only free-men are allowed to read." 
+    "A week had passed and then a month." 
+    "Nothing changed."
+    "She is the lower general, so she is rarely reprimanded for doing these things." 
+    "The other guards tell her that we might just kill her and escape if the time comes. {w}Daena seems to believe in that, since she {i}always{/i} has her gun with her."
+    "There is a sense of distrust every time she smiles at us."
+    "Her father is the higher general, meaning that he is also in charge of this prison and the large base surrounding it." 
+    "She is his right hand woman. Her moves are observed. So sometimes, she pretends that she's either scolding or beating us."
+    "Such a nice move."
+    stop music fadeout 1.0
+    $renpy.pause(2)
+    scene cg musiccouple with dissolve
+    play music "flashback1.mp3" fadein 1.0
+    $ show_button_game_menu = False
+    nvl clear
+    nvl show dissolve
+    lu "There was a boy who was leaning on the wall."
+    lu "A girl was lying down the floor, using the boy's knee as her pillow."
+    lu "She was smiling as the boy inserted something in her ear. Then, her face turned to something of joy."
+    nvlgi "Wow, this is amazing!"
+    nvlb "I knew you would like it. {w}I recorded the song myself."
+    nvlgi "Hehehe, thanks!"
+    nvlgi "Why does it seem that this song sounds a bit more dramatic than the last time I heard it?"
+    nvlb "Because I'm the one singing?"
+    nvlgi "Maybe. Maybe that's the point."
+    lu "The song continued as the boy seemed to obsessively stroke the girl's hair."
+    lu "Suddenly, the boy opened his mouth to talk."
+    nvl clear
+    nvlb "Hey."
+    nvlgi "Why, what's the matter?"
+    lu "The girl replied, still smiling."
+    nvlb "You love me, right?"
+    nvlgi "Yes, why?"
+    nvlb "I'm scared. Scared of what will happen to us."
+    nvlb "I'm not sure whether our parents like what's going on between us, anyway."
+    lu "Despite what the boy said, the girl still smiled. Her fingers started drawing patterns on a thin layer of dust on the floor."
+    nvlgi "So what if they don't like us? They're not the ones telling us what we should feel."
+    nvlgi "Don't get scared, it'll be alright."
+    lu "Her fingers set on the thing in her ear and readjusted it a little."
+    lu "She smiled, and said something to the guy which I can't seem to catch."
+    lu "Then... they just laughed."
+    lu "Laughed as if they had no problems..."
+    nvl clear
+    nvl hide dissolve
+    $renpy.pause(1)
+    $ show_button_game_menu = True
+    show bg cell with dissolve
+    stop music
+    "I open my eyes."
+    "What happened? Was I sleeping?"
+    "Then... what was that I saw?"
+    "I move to the hole, when I realize..."
+    "It's covered for the night..."
+    "Damn! Now what am I supposed to do?"
+    n "What's your problem, Sirius?"
+    show daena with dissolve
+    s "Oh..."
+    d "I said, \"What's your problem?\""
+    show daenao with dissolve
+    hide daena
+    d "You're pacing around your cell like a confused little girl. Is there anything you'd like to know?"
+    sh "Nothing, ma'am."
+    d "Ehh..."
+    show daenas with dissolve
+    hide daenao
+    d "Let me guess..."
+    d "You had a {i}dream{/i}."
+    s "A {i}dream{/i}?"
+    sc "What's a dream?"
+    show daenaw with dissolve
+    hide daenao
+    d "Ahehehehe... {w}Expected response..."
+    "What is she talking about?"
+    d "Classified information. Sorry, I really can't tell."
+    "Like I have an interest in knowing what that means... no way."
+    d "I should go. The other guards are patrolling now..."
+    show daenac with dissolve
+    hide daenaw
+    d "I remember my mom telling me that I should kill anybody who I tell my secrets to..."
+    "Uh-oh."
+    show daenay2 with dissolve
+    hide daenac
+    hide daenas
+    d "Ahehehe... That's a joke."
+    sp "Just get out of here, {i}Ma'am{/i}."
+    d "Sure, sure. I'll do that."
+    hide daenay2 with dissolve
+    "Now that's what you call a weird encounter with General Blackstar."
+    "It's a lot weirder than the moment I met Cetus..."
+    "Where we all stared at each other like we all had dirt on our faces."
+    "Huh, better shrug that off."
+    scene black with dissolve    
+    centered "The next afternoon..."
+    play music "usu.mp3"
+    scene bg cell with dissolve   
+    show cetuso with dissolve
+    c "So this \"dream\" thing you're talking about... {w} it sounds crazy."
+    sp "Yes, Cetus. I'm telling you the truth."
+    s "And I don't even know why, but she even pulled off a joke I almost believed."
+    show cetusy with dissolve
+    c "You mean you fell for the joke? Geez."
+    sx "Errr... {w}yeah."
+    show cetus with dissolve
+    hide cetusy
+    c "So, what are you going to do about it?"
+    sc "The dreams, you mean?"
+    s "Nothing."
+    hide cetus with dissolve
+    c "Why? Do you want more dreams, or do you want to talk more to Daena?"
+    sx "Both."
+    "Yes, because if I have more dreams, I'll realize why am I getting them in the first place through Daena."
+    "Yet, she doesn't even tell me what a \"dream\" is. Like I have the chance to know..."
+    scene black with dissolve
+    $ show_button_game_menu = False
+    $renpy.pause(2)
+    play music "flashback2.mp3"
+    scene cg sad with dissolve
+    nvl clear
+    nvl show dissolve
+    lu "Here it is again."
+    lu "A \"dream\", nonetheless."
+    lu "But why...{w} Why does it feel so sad? Why does my chest feel... heavy?"
+    lu "I see a girl who is sitting at a bedside. She keeps on glancing at a necklace in her hands..."
+    nvlgi "When we met, I was so happy, I thought my life would be complete..."
+    nvlgi "I thought that I'd live the rest of my life with you..."
+    nvlgi "Why did you leave me!?"
+    nvlgi "Why now? Why noooow!?"
+    lu "She continues sobbing over the necklace..."
+    lu "When I look over, I realize it is a locket."
+    scene black with dissolve
+    nvl clear
+    lu "There are pictures in the locket...."
+    lu "I don't know why, the word just came into my mind."
+    lu "There is a guy in his mid-teens, smiling. On the other side of the locket is the guy and the girl posing with their arms on each other's shoulders."
+    scene cg sad with dissolve
+    nvlgi "\"Monday, {w}we were together... {w}having fun chatting about life...\""
+    lu "What is she doing now?"
+    lu "Singing?"
+    nvlgi "\"It's like forever...\""
+    nvlgi "\"I wish it was our everyday...\""
+    nvl clear
+    lu "She continues her singing..."
+    lu "Her words are clear, yet her occasional sobs were heart-wrenching."
+    lu "Why am I feeling like..."
+    lu "... as if I was the one who was her dead lover?"
+    lu "As if I'm the one who was cried upon...?"
+    nvlgi "You remember? You were singing this song you composed yourself."
+    nvlgi "I thought it was too sad... I thought that it was a bit stupid before..."
+    lu "She keeps on singing, and her sorrow grows on every phrase and note."
+    lu "I want to wake up now..."
+    lu "When I stare at her, it just makes my chest grow heavy."  
+    nvl clear
+    scene black with dissolve
+    nvl hide dissolve
+    "Why did I feel that way?"
+    "What was that feeling? It seems like a rock on my chest. It was a heavy feeling of sorrow and... pity."
+    "A kind of pity I can't seem to get out of."
+    "Agh, stop thinking about it!"
+    stop music fadeout 1
+    scene bg cell with dissolve 
+    $ show_button_game_menu = True
+    "I open my eyes and sleepily stare at the ceiling above."
+    "The lights remain bright, yet I can't seem to find a reason to go back to sleep."
+    "..."
+    "....."
+    "......."
+    "Ahh, I give up!"
+    "I lie down my mattress, staring up to the ceiling again."
+    "What was that song she was singing?"
+    "I only heard a few lines, but..."
+    "Somehow, I can remember what the whole song is..."  
+    "I sit over the mattress, fingering my cuffs gently, and started singing.."
+    "... even though my voice isn't good for singing."        
+    scene black
+    with dissolve
+    stop music fadeout .5
+    centered "Monday, we were together,\nHaving fun chatting about life..."
+    centered "It's like forever, \nI wish it was our everyday..."
+    centered "Tuesday, we held our hands together, \nWalking around the park."
+    centered "It's like forever, \nI wish it was our everyday..."
+    centered "But why, here we are now, \nIn our own sep'rate ways?"
+    centered "Why, why did you leave, \nAnd leave me all alone?"
+    centered "It's one week with you, \nWhere the happiness never left."
+    centered "It's one week with you, \nI wish every week was like that."
+    centered "But here you go..."
+    centered "Wednesday, you carried all of my things, \nEven if I told you not to..."
+    centered "It's like forever, \nI wish it was our everyday."
+    centered "Thursday, we dated, \nTreated me at the ice cream house."
+    centered "It's like forever, \nI wish it was our everyday."
+    centered "But why, here we are now, \nIn our own sep'rate ways?"
+    centered "Why, why did you leave, \nAnd leave me all alone?"    
+    centered "But here you go..."
+    centered "Friday, we met in the park, \nAnd then you told me goodbye."
+    centered "I didn't believe you, \nThen we were, the usual us..."
+    centered "And then, before I slept, \nI heard my phone ring and beep..."
+    centered "It was your mother... \nShe said, you're away."
+    centered "I thought you just left, \nTo go to some place."
+    centered "But what she said is that, \nYou were dead..."
+    centered "It was one week with you, \nWhere you gave me so much happiness."
+    centered "It was one week with you, \nThat ended so miserably."
+    centered "It's Saturday, \nI saw your stationary."
+    centered "It's Sunday, \nI saw our locket."    
+    centered "It's a Monday, \nYou're going back to heaven."
+    centered "Your body goes down there, \nAnd then..."
+    centered "It was one week with you, \nWhen you gave me so much happiness."
+    centered "It was one week with you, \nAnd I thank you for giving it to me..."
+    centered "It was one week with--"
+    $ show_button_game_menu = True
+    scene bg cell
+    with dissolve
+    $ show_window()    
+    "I feel something wet on my hands."
+    "I look up, thinking the ceiling dripped or something similar."
+    "I look back to my hands again and more drops add to the wetness."
+    "I realize I'm crying."
+    "This is no time to cry! I didn't even know I was crying until I saw my own teardrops on my hands!"
+    "I wipe the tears off my face and clean my nose."
+    "I feel like... there was something in the song that made me remember something in the past." 
+    "It was something... weird. It made me warm inside at first, but then at the end the nice feeling faded and left me crying."
+    "Now I admit I knew I was crying in the first place."    
+    "I move to lie own on my thin mattress, but not before I turn and see..."
+    show daenash with dissolve
+    "General Blackstar staring at me from a window-like hole in the door to my cell."
+    "She has that teary-eyed look, and a smile on her face."
+    show daenap with dissolve
+    hide daenash
+    "But after she notices me looking at her, she glares at me and closes the window."
+    hide daenap with dissolve
+    "Weird."
+    scene black with dissolve    
+    play music "conspiracy.mp3" fadein 3
+    "Days pass and more memories start to come back to me every day."
+    "Not memories of my past, but memories of the way this world used to be. I can see that people were smiling, happy, and they had the freedom of showing their emotions." 
+    "But now..."
+    "I really don't know why this is happening."
+    scene bg cell with dissolve
+    "I go to the hole between the two cells."
+    s "Hey, Cetus."
+    show cetus with dissolve
+    c "What is it?"
+    s "Do you remember how things used to be in the past?"
+    show cetuss with dissolve
+    "She stayed silent for a while."
+    c "Past? Do you mean thoughts before our generation or thoughts of our childhood... stuff like that?"
+    sx "The former."
+    c "Err...I think I do." 
+    hide cetuss with dissolve
+    c "Before, it wasn't like this. People used to walk freely. People used to love, to dream, to remember. To smile and show everything they felt. Cry all you want, nobody would stop you. To be happy, to live the life they wanted." 
+    sc "\"Used to\"?" 
+    "She nods."
+    show cetuss with dissolve
+    c "And then, I remember doing that stuff now is a... crime. {w} The rest in my head's a little blurry. I used to know that stuff, but then somehow I forgot about it..."
+    ss "I had some visions about it. I almost wish that I was able to stay asleep... But why are things like this? Why is all of this happening?"
+    "She shakes her head with a frown in her face."    
+    c "I don't know. Something about... having all those feelings being... {w}useless."
+    sw "Useless?!"
+    ss "B-but, before... {w}before, people used those feelings like they were..."
+    "Suddenly, Cetus stares at me like I'm saying something crazy."
+    show cetussh with dissolve
+    hide cetuss
+    c "You know that information?!"
+    c "Don't you know that those things are only strictly for the military's access only?"
+    c "Those stuff are forbidden! Doing those private acts of emotions can send you to jail, or worse... {w}death!"
+    show cetusm with dissolve
+    hide cetussh
+    c "The reason why they erase our memories? Isn't it obvious? They are \"helping\" us forget about our old hurting experiences, that's why!"
+    sp "..."
+    sp "That's... {w}unfair. Really unfair."
+    show cetusc with dissolve
+    hide cetusm
+    c "What's going on in that head of yours now?"    
+    sp "We need to escape and tell everyone the truth of what kind of \"freedom\" the Pagi offers." 
+    sp "They don't deserve to live like this, they deserve a choice at least."
+    sx "The Pagi is being unfair by erasing everyone's memories so they don't remember how things used to be..."
+    show cetuss with dissolve
+    hide cetusc
+    "Cetus calms down, and thinks before she suddenly open her mouth to speak again."
+    show cetus with dissolve
+    hide cetuss
+    c "But.. {w}our necklaces might be detonated."
+    s "I know, but the wires are pretty thin... Maybe we can break it."
+    c "Perhaps our fingernails?"
+    "I look at my fingernails and look back at Cetus, shaking my head because they are cut short."
+    sx "Not an option."
+    show cetussly with dissolve
+    "Cetus flicks up her fingers and I'm surprised to see that her nails are around half an inch long. It seems that she's spent all her time sharpening them to make them like knives."
+    c "Mine are an option. So what are we going to do after we bail out?"
+    sg "Start a rebellion."
+    c "..."
+    show cetusm with dissolve
+    hide cetussly
+    c "Isn't it better to go straight to the war room and assassinate the general?"
+    sm "Wait! Why Daena's father? Why kill?" 
+    ss "Shedding innocent blood will do nothing to change things..."
+    show cetusp with dissolve
+    hide cetusm
+    play music "mystery.mp3" fadein 3
+    c "It's the only way. If we slay the general then we can take over. The general may not remember things, but we do, meaning that we know that the Pagi really aren't doing anything good like how he pretends."
+    sc "But I don't have any military experience. I'm just a regular girl."
+    hide cetusp with dissolve
+    c "I do. You can be my student, Sirius."
+    sm "No! I appreciate that you want to stop all this but..." 
+    sm "I know we can do this without killing people. If we did something like that it would make us as ruthless and cruel as the Pagi." 
+    sm "It would be almost like we too lost all of out feelings. Please, Cetus, stop thinking about this crazy plan."
+    show cetusp with dissolve
+    hide cetus
+    c "Fine, I see your point. So what's your plan?"
+    "I fall silent."
+    c "The day after tomorrow, I will escape from here. Join me if you want to."
+    s "..."
+    sp "No."
+    sp "What in the world are you thinking? I won't go with your plan of killing somebody."
+    sm "Cetus, you're crazy. Snap out of it."
+    sm "I won't escape here while killing somebody. I won't do that."
+    show cetusr with dissolve
+    hide cetusp
+    "Her face suddenly dims, and I was afraid."
+    c "Don't act innocent, Sirius! You've also killed somebody before! Don't tell me you didn't!"
+    "Oh no... I don't want to bring that up."
+    "That is a thing I already regret. I don't want to be reminded of that."
+    sp "I didn't kill him. I just hurt him. {w}The words \"kill\" and \"hurt\" are two different things."
+    c "Yes, but you {i}intended{/i} to kill that guard. {w}See, if you were aiming for his head at the time, he would've been dead by now!"
+    sm "Don't change the subject! We're talking about that damn general you are so obsessed to kill!"
+    c "And don't act as if you are a fucking saint! You wouldn't be here if you didn't do {b}anything{/b} wrong!"
+    sp "It's final. I won't join your plan."
+    c "Fine! Like I'll need your help."
+    c "Thank you so much, {i}Saint{/i} Sirius."
+    hide cetusr with dissolve
+    "The sarcasm is evident in her voice, but as she slams the screened window shut, I start to regret shouting at her."
+    "I regret that day! I didn't want to kill anybody at that time! Why would she remind me of that?"
+    "She's mad at me. She's really mad at me.{w} Because I didn't agree with her plan to {i}kill{/i}."
+    "She's once a soldier. I'm not military. Maybe I just don't get how violence works in the military."
+    "But still..."
+    scene black with dissolve
+    stop music
+    $ show_button_game_menu = False
+    $renpy.pause(2)
+    scene hhallway with dissolve
+    nvl clear
+    nvl show dissolve
+    play music "dream.mp3"
+    lu "Here it is again."
+    lu "But... now it feels a lot different than the first two."
+    show lss with dissolve
+    lu "I see a girl with messy short brown hair, and she is in a white hall."
+    lu "She is holding some sort of a fake animal that looks like a white bunny squished into a white circle of foam."
+    lu "I was focused on nothing but her."
+    nvlgi "She's still there.. right?"
+    show pws at left with dissolve
+    lu "She is focusing her attention on a tall woman who is wearing a uniform which makes her seem like a member of the police force."
+    lu "Her face changes into something of... Pity? Remorse? Hurt?"
+    nvlpw "I'm, sorry, I really can't tell anybody until the investigations are over."    
+    hide pws with dissolve
+    lu "The police woman leaves, but the girl remains in the hall. She's crying..."
+    show ls2 with dissolve
+    hide lss
+    nvlgi "No... this can't be happening..."
+    lu "She sinks to her knees and holds her head like she is planning to crush her skull."
+    nvlgi "No, no, no... Please, no... She won't go away like that..."
+    nvl clear
+    lu "She faces the white bunny with sad, teary eyes and a smile that seems to expect something."
+    show lse with dissolve
+    nvlgi "Hey, Ursa... She isn't gone yet, right? She isn't right?"
+    lu "She is silent, like she is expecting a response from the bunny."
+    lu "What is she talking about? Is she crying over the death of somebody? Someone's disappearance?"
+    lu "Or..."
+    nvlgi "She didn't leave because she hated me, right?"
+    lu "The stuffed bunny remains silent. The girl remains silent, expecting an answer."
+    lu "Suddenly, there was a hand that grabbs the girl and lifts her up."
+    show nuo at right with dissolve
+    lu "It is another woman, but she seems to be one of the medical staff."
+    hide lse with dissolve
+    nvlgi "Lemme gooooo!"
+    nvlnu "I'm sorry, but we have to do this, girl. It won't hurt a biggie, I promise."
+    nvlgi "I wanna see heeeer! Lemme gooo!"
+    hide ls2 with dissolve
+    hide nuo with dissolve
+    lu "She keep on struggling, but it is no use. The bunny she is carrying was left behind."
+    nvl clear
+    show pws at left with dissolve
+    lu "Someone picks it up: the same police officer who seems to be curious about a mere child." 
+    show nus at right with dissolve
+    lu "The nurse from a while ago goes out of the room, and seeing the bunny..."
+    nvlnu "You're gonna pick that up? I am pretty sure that you know of the case this child is going through."
+    nvlpw "Yes, and it's pretty much a rare one. We haven't taken this course of action before. {w}She has to undergo under a series of tests and genetic procedures in order to be sent back to daycare."
+    show nuw at right with dissolve
+    hide nus
+    nvlnu "It's really rare to find someone that can do it, do you think she's one?"
+    show pwm at left with dissolve
+    hide pws
+    nvlpw "She grew too attached to her biological mother during her stay in the center. It's a possibility."
+    nvlpw "Anyway, we can prove that by this."
+    lu "The officer throws the stuffed toy to the nurse."
+    show nusm at right with dissolve
+    hide nuw
+    nvlnu "With this piece of foam? Heh, how?"
+    nvlpw "Give it to her after the procedure on her memory is finished. If she still recognizes the toy, it means there's a possibility."
+    nvl clear
+    nvlpw "If she hugs the toy like before and knows its name, she could very well be."
+    show nuse at right with dissolve
+    hide nusm
+    nvlnu "Yes, ma'am. I'll do that."
+    hide nuse with dissolve
+    hide pwm with dissolve
+    nvl clear
+    lu "..."
+    lu "I wait for the girl to come out of the room."
+    lu "It takes minutes, hours... until she comes out."    
+    lu "But..."
+    show wlss with dissolve
+    lu "She looks different."
+    lu "There are tears in her eyes, and her hair is white. Her eyes glow a soft violet, and she seems paler than usual."
+    lu "The nurse from earlier goes over the girl."
+    show nusmi at right with dissolve
+    nvlnu "Hey, girlie. I got something for you."
+    lu "The nurse hands the girl Ursa, and the girl's eyes widen."
+    nvlgi "... Ursa?"
+    lu "The nurse's eyes widen as she finally hands the girl the toy. The girl hugs the toy like before..."
+    nvl clear
+    show wlsh with dissolve
+    hide wlss
+    nvlgi "Ursa! I'm feeling better now!"
+    show nuo at right with dissolve
+    hide nusmi
+    nvlnu "Just one question, girl."
+    nvlnu "Can you still remember your name?"
+    lu "The girl nods."
+    nvlgi "Yes, ma'am."
+    nvlgi "My name is..."
+    lu "..."
+    nvl hide dissolve
+    $ show_button_game_menu = True
+    scene bg cell with hpunch
+    stop music
+    "What the--"
+    "Suddenly, I hear a commotion in Cetus' cell."
+    "She closed the screen a while ago, but strangely, now it's open."
+    "I can hear Cetus being restrained by a guard who are forcing her face to the ground."
+    show cetusr with dissolve
+    play music "mystery.mp3"
+    c "Aaaaah! Damnit, get your hands off me!"
+    hide cetusr with dissolve
+    show pmsm with dissolve
+    gu "Shut up, convict! You have no right to talk!"
+    "The guard laughs as he pop out a... {w}taser!?"
+    "Oh no..."
+    scene black with dissolve
+    "I look with shock to Cetus as they helplessly zap her continuously."
+    "It is a horrible sight. Cetus desperately kicks, knees and elbows the guards, but they are too strong."
+    sw "..."
+    scene bg cell with dissolve
+    "A few minutes pass, and the guards leaves her cell."
+    "Suddenly Daena enters my cell, but she seems... {w}mad."
+    show daenam with dissolve
+    d "Do you know what your damn friend has done to our war meeting!?"
+    ss "..."
+    ss "Yeah... {w}She attacked your father, right?"
+    d "Don't look so calm!"
+    play sound "guncock.wav"
+    "She suddenly points her gun at me..."
+    scene cg cetusattack with dissolve
+    d "She attacked my father, made a mess at the conference hall, and five out of eight lower military personnel are in intensive care units right now due to the ruckus she made!"
+    show blackfilm with dissolve
+    d "And you are in her plan! Both of you will get punished under the Code of War!"
+    scene bg cell with dissolve
+    show daenam with dissolve
+    sw "What? But I'm not the one who attacked! I'm not--"
+    d "Shut up! You pretend to argue last time so that Cetus has an excuse to patch that damn screen with her mattress so that I can focus on only one of you!"
+    "So that screen is a link so that Daena can watch us simultaneously? {w}Technology's so weird."
+    ss "No! I'm telling the truth here, I'm not connected to Cetus' plan of attack!"
+    show daenasl with dissolve
+    hide daenam
+    "Suddenly, she grins. Her smile is scary, as if she just thought of something... bad."
+    d "You convicts will {i}never{/i} learn."
+    d "You liars, killers and people who won't follow a fucking block of text with instructions. Persons who can't follow simple rules and regulations."
+    d "See, if you didn't insist on knowing who your parents were, you would be in a completely different situation at this moment."
+    sw "..."
+    "I try crawling backwards, but suddenly I remember I'm not in open space."
+    "I'm in a cramped room, with this young girl pointing a gun at me."
+    "For... attempting to kill her father."
+    "But..."
+    play music "memory.mp3"
+    scene black with dissolve
+    "I've already committed a lot of sins in my life."
+    "I should pay for them."
+    "Isn't that correct?"
+    show wlss with dissolve
+    "I was that girl who cried over my mom. {w}My real mom. {w}If it's a sin in society's eyes, then I'll pay for it."
+    hide wlss with dissolve
+    show cetusy with dissolve    
+    "I shouted at Cetus, my only friend. She did a lot of things for me. She helped me get used to this thing called reality."
+    "And I killed somebody for what I {i}wanted{/i}. {w}Shouldn't I strive more for what I {i}need?{/i}? For what I should get?"
+    hide cetusy with dissolve
+    show daenaa with dissolve
+    "I'm sorry too, Daena. I am not a good prisoner. {w}No one is."
+    "We are all in the prisons of fate. We all can't escape."
+    "And now you are blaming me for a sin I didn't commit."
+    "It's all right. I have done worse things, anyway.."
+    stop music fadeout 2
+    scene bg cell with dissolve
+    show daenam with dissolve
+    sh "Okay.."
+    show daenaco with dissolve
+    hide daenam
+    d "What?"
+    sh "Kill me now. That's what you want, right?"
+    sh "Don't worry, it's not a waste of bullets."
+    d "..."
+    sh "I've made a lot of sins in the past, I'll know I'll pay for them someday."
+    sh "Please, make it quick."
+    d "..."
+    "I wait as I raise my hands up in the air in defeat and.."
+    show cg giveup with dissolve
+    "... feel the tears in my eyes flow down to my cheeks."
+    d "..."
+    si "I know I'm really stupid to say this, but you win."
+    si "I know I lose in the end. Everyone does."
+    "Daena lowers her gun a little and stares at me with a mixture of doubt and relief."    
+    si "I knew that I did something I would soon regret. And that was going to that room."
+    si "But what could I do? I knew I'd be going to jail. Yet I still did it. And now I'll be paying for it."
+    si "And even though I regret everything I've done before... the only way I can pay for it is to die."   
+    "She lowers her gun and hooks it on her holster. Then she faces me and gestures for us to sit down on the floor." 
+    scene bg cell with dissolve
+    show daenas with dissolve
+    play music "sad.mp3" fadein 2
+    d "You agreed with her?"
+    sc "To what, ma'am?"
+    d "To kill my father."
+    s "No, ma'am. {w}I tried convincing her not to, but she's stubborn. She wouldn't listen to me."
+    d "Why? Both of you know I will be the one who will execute her when she's punished for attempted murder." 
+    d "You are lucky I placed you two under my care, or else you'd be both on a garrote right now."    
+    s "I didn't plan it, ma'am. She asked me to help her. {w}I refused."
+    s "I only suggested escaping. I wanted to see that record room and who my real parents were."
+    d "You know that until now, double jeopardy is forbidden."
+    s "Yes, ma'am. I wanted to escape, to start a rebellion against the military law. {w}But Cetus dismissed it, because she said I hadn't formulated a solid plan, and she wanted to start with killing your father."
+    sh "I couldn't convince her out of it and I wanted to escape, but I didn't want to hurt... anybody... so I stayed..."
+    d "You should have come up with a better plan beforehand."
+    sc "What?"
+    "Now I'm confused."
+    show daenac with dissolve
+    hide daena
+    d "I've been listening in on your conversations... and I can appreciate everything that you believe." 
+    d "I've peeked into the records room before and had seen the people laughing, crying and doing the things that all of you are now being punished for doing." 
+    d "They said that the reason why the military are allowed to do it, to look inside there, according to the Pagi, is so that they can see how much pain and sadness people used to have to go through." 
+    d "They should feel the things that caused people despair before. But I didn't just see those types of memories..."
+    ss "Miss Daena..."
+    d "No, let me finish."
+    "I can see... that there are tears in her eyes."
+    d "Well, that song that you sang... it reminded me so much of my mother before... It was... very similar... You aren't so bad after all..." 
+    "... {w}Mother?" 
+    d "And I was such a fool to believe that you were bad just because you were arrested."
+    "My heart urges me to hug her, to comfort her..."
+    "...and so I do."
+    scene cg calm with dissolve
+    "As she is crying, I rub her back, trying to make her feel better." 
+    "I can feel her hair. It's as soft as silk. As she's shaking in my arms, she chokes on her own tears like she is crying to death."
+    "It feels very odd, to comfort the guard who had kept me from freedom for so long, who had kept me from running free. Now I am the one who is teaching her things and comforting her feelings."
+    "Her sadness is unexplainable."
+    d "My mother was guarding the most dangerous convict there is before in here. And well, she got too close and got killed."
+    "She has to stop for a moment because of her sobbing."
+    d "And aside from that, there was my bestfriend, Caelum."
+    sc "Bestfriend?"
+    d "Yes."
+    d "My dad thought something was going on between us, so... {w} he sent Caelum to another highly-guarded convict, who had committed a lot of crimes, even cannibalism, and kills anybody who enters his cell. And Caelum..."
+    si "I... I'm so sorry..."    
+    "I really feel sorry for her. Why was she, who loved so much, like this?"
+    "It is so unfair."
+    "She suddenly stands abruptly and then wipes her tears away."
+    stop music fadeout 2
+    scene bg cell with dissolve
+    show daenaa with dissolve
+    d "Ehhhm... sorry for that."
+    "Tears are still running down her cheeks."
+    sc "So the former lower general isn't a fat ol' guy?"
+    play music "darkambient.mp3" fadein 2
+    show daena with dissolve
+    hide daenaa
+    d "No, he isn't. That's only a rumor my father spread so that they could mask Caelum's death." 
+    d "Nobody knew, except the general circle, that Caelum was a lower general. Caelum was only an ordinary soldier to the public, so when he was killed they said it happened at war."
+    s "Uhm... why was he chosen anyway?"
+    d "He had showed a leadership potential during the capture of the rebels the last time. He lead us, too, when they escaped their cells."
+    d "But when there were votes for him to be the lower general, the lower general at the time complained, because their positions would overlap. He went crazy and almost killed Caelum."
+    d "I restrained him though and sent him to jail. Father started disagreeing when we started going out and then he lost it. And you know what happened."
+    sg "Don't worry, everything'll be fine..."
+    "I pat her on the back."
+    show daenaco with dissolve
+    d "How so?"
+    sg "Feelings are, as they say, forever. Love doesn't stop, even though death tries to get in the way. Well, that's how I understand it."
+    d "Feelings are... forever?"
+    s "Yes. Right?"
+    "After the dream of the crying girl, I just {i}have{/i} to say that."
+    "I suddenly see the girl's face on her. Grieving for a life she can't take back. Crying for someone she loves."
+    "If I didn't comfort Daena, she might have been in a random room by now, holding a knife to her wrist or a gun to her head."
+    show daenay with dissolve 
+    hide daenaco
+    d "I have to say, you are a lot wiser than me."
+    s "Not really..."
+    hide daenay with dissolve
+    "Suddenly, her face turns serious, even through her continuous crying."
+    d "Heh, sorry. I tend to cry a lot."
+    "Please, Ma'am, don't state the obvious."
+    "Suddenly, she sets her finger on an earpiece in her ear, and she frowns."
+    d "Mhmmm."
+    d "I have to go. I'm being called to Sergeant Calypso's office."
+    ss "Okay. See you, General Blackstar."
+    d "Sure. Good night."
+    hide daena with dissolve
+    "She opens the door and leaves the cell."
+    "It is already night time... yet I'm afraid to sleep. I'm scared of those dreams, afraid what they will bring me."
+    "I'm scared the dreams might turn... into a bad one. I don't know what bad dreams are called, to be exact."
+    "But then..."
+    stop music fadeout 1
+    scene black with dissolve
+    "I can't really stop the dreams...{w} can I?"
+    $renpy.pause(1)
+    nvl clear
+    nvl show dissolve
+    scene hhallway with dissolve
+    $ show_button_game_menu = False
+    play music "dream.mp3"
+    lu "I open my eyes, but then... I can't move. My eyes seem heavy."
+    lu "I stare endlessly on the ceiling."
+    lu "Am I waiting for something? I can't really tell."
+    lu "Then, the emergency door opens and the nurse from last time comes out."
+    show nuo with dissolve
+    nvlnu "Oh gosh, I've completely forgotten about you."
+    nvlnu "Hah, I really can't blame you if there are so many of these cases in one day."
+    lu "So many... \"cases\"?"
+    nvlnu "So, will you come with me or not, Sirius?"
+    lu "I nod in reply. I actually don't know what she's talking about, but I had the sudden urge to nod and agree."
+    nvlnu "Okay, grab my hand. You won't like it if you get lost in the legs of all the tall people in there."
+    scene black with dissolve
+    lu "And we go in the room."
+    lu "I don't know why it is so dark. I can't see anything."
+    lu "Yet, I can see the nurse beside me."
+    show nusmi with dissolve
+    nvlnu "Don't be scared. All will be fine in here."
+    nvl clear
+    hide nusmi with dissolve
+    lu "Yet I'm not scared at all of the dark. I am scared of who those \"tall people\" she's talking about are."
+    lu "I am pulled over strange surfaces and I almost trip."
+    lu "I really can't see where are we going."
+    lu "But, when it gets a little brighter..."
+    $renpy.pause(1)
+    scene bg old_cell with dissolve
+    lu "I see my old cell room."
+    lu "What is this? Have they found something wrong with me? Predicted that I'll be doing something wrong and decided to start my prison days now?" 
+    lu "Or is it that I'm dreaming about the distant future and I'm seeing myself being thrown to jail again?"
+    lu "Suddenly, the nurse came in front of me."
+    show nusmi with dissolve
+    nvlnu "We're here."
+    lu "I have the urge to ask why I am here. Surely not for {i}that{/i}, right?"
+    nvls "Why are we here? What are we supposed to do here?"
+    nvls "Are they going to do something bad?"
+    show nus with dissolve
+    hide nusmi
+    nvlnu "I actually don't know what exactly."
+    nvl clear
+    nvlnu "I was only told to bring you here. The rest... {w}Only they know."
+    hide nus with dissolve
+    lu "She gestures towards a couple of people who... I don't seem to know."
+    scene black with dissolve
+    lu "I cover my eyes with my hands. I'm scared. So scared. I want to cry."
+    lu "I don't know why. I really don't know."
+    lu "Is it the guilt? The regret? All those things I did?"
+    lu "Or the fact I really can't bear what will happen?"
+    nvln "Is she the one?"
+    nvlnu "Yes, sir. She's the one I'm talking about."
+    nvln "Okay. You may leave."
+    lu "I hear the footsteps of the nurse as she leaves quickly."
+    lu "For a few moments, all I hear is the whirring of some vent fan, the sound of breathing against metal surfaces, and my own breathing and sobbing."
+    lu "And suddenly, I hear a whisper to the older guy from a while ago."
+    nvln "Shouldn't we be done with her already?"
+    nvln "Shut up! She's just a kid, for heaven's sake. Calm down."
+    nvln "I still think we have to make it quick."
+    nvl clear
+    lu "Then, a silence passed for a few seconds before he -- the older man who seems the general -- talked."
+    nvlm "Sirius, we know of what's going on with you. I know you have been experiencing strange things these past few days, and from the tests you have gone through so far, we have made a conclusion on what's happening. {w}We'll tell you something."
+    lu "What? They'll send me to jail? {w}Huh, that's {i}totally{/i} surprising."    
+    lu "Yet I'm feeling it's... {w}different. Yeah, I'm humoring myself."
+    nvlm "You're unique. You are different amongst the other kids your age. {w}{i}You can {b}dream{/b}{/i}."    
+    lu "Has this happened to me before? I... can't really remember. {w}Oh wait, they removed this shit in my head when I was 8. No wonder."
+    lu "I'm still covering my face. No way do I want to see their faces. {w}They might turn out to be someone I know and I'll hate it for sure."
+    nvls "What's a {i}dream{/i}? Is it something that took my mommy away?"
+    lu "My... mother? I can't seem understand what's going on..."
+    nvl clear
+    nvlm "No, no. It is an occurrence in your mind, like a sequence of events that go through your mind when you sleep."    
+    lu "Now that seems really familiar."
+    nvlm "And now we have to do something to make it go away."
+    lu "I feel him approach me, and then I can feel his breath in my ear as he comes closer to whisper."
+    nvlm "Do you want all the hurt to end? All the misery and pain to disappear?"
+    nvlm "Do you want it all gone? Because we can remove that heaviness in your heart." 
+    lu "The guy who whispered a while ago steps up and seems annoyed."
+    nvln "Stop the blabbering already! She looks so hurt that we don't have to ask her! She'd say yes!"
+    lu "He grabs me and suddenly drags me somewhere."
+    lu "He was forcing me to remove my hands over my face."
+    lu "And then I do."
+    lu "But the sight in front of me is unexplainable..."
+    nvl clear
+    scene cg mirrorblur with dissolve
+    lu "I am facing a mirror."
+    lu "And I instantly know what the sight in front of me means."    
+    scene cg mirror with dissolve
+    lu "What I see is the face of a girl, with seemingly bedraggled white hair, violet eyes, and wearing the same outfit of a certain girl I saw before."
+    lu "The girl who cried long ago for her mother."
+    lu "And that girl became myself."
+    nvln "Look at her! It looks like she can't even differentiate right from wrong! She's too depressed to even speak!"
+    nvln "I say we go ahead with the process!"
+    nvls "Process."
+    nvls "What process? What will you do?"
+    lu "And then, almost surprisingly, someone hits me from behind."
+    scene black
+    lu "And it all ends there."  
+    stop music fadeout 1
+    scene bg cell with dissolve
+    "I was that girl."
+    "And I didn't even remember it?!"
+    "I'm so stupid! I saw her in the first dream... And yes, she did have white hair and violet eyes... {b}like me!{/b}"
+    "Wait, she {i}is{/i} me."
+    "But what exactly was that event that happened long ago?"
+    "What's that process? Is it the time they use a stronger means to remove my memory?"
+    "For now, I'm afraid to even sleep..."
+    scene black with dissolve
+    centered "The next day..."
+    scene bg cell with dissolve
+    $ show_button_game_menu = True
+    "..."
+    "Someone suddenly comes in the door of my cell."
+    show cg calypso with dissolve
+    play music "calypso.mp3"
+    "She is pretty, with brown eyes and dark hair. But then, her look suggests she's pretty hostile.."
+    n "Here. {w}Your breakfast."
+    "She crouches a little before she literally drops the tray on the floor."
+    "Maaaan, how harsh. Now the soup's all over the floor. How am I supposed to clean this?"
+    "Good thing they also give out free tissue rolls."
+    n "You know, I'm not as harsh as you think."
+    scene bg cell with dissolve
+    show casmi with dissolve
+    n "Just act good and you'll be on my good side. {w}Sort of."
+    "Wow, she speaks like she can read my thoughts..."
+    "Meh, maybe because of the look on my face..."
+    show capi with dissolve
+    n "Shut up, will you? I can't read faces, for heaven's sake."
+    sc "..."
+    "Did she just..."
+    hide capi with dissolve
+    n "{i}React to your thoughts? Well, I just did, didn't I?{/i}"
+    "Oh crap."
+    show camehe with dissolve
+    hide casmi
+    n "Mehehe. Your mind is like an open book."
+    show causu with dissolve
+    hide camehe
+    n "Oh shit, I forgot to introduce myself."
+    "I feel like this woman's one person who will ruin my life. {w}Again. {w}Oh, like Cetus hasn't yet with this whole getting-mad-at-me-because-you-don't-agree-with-me phase."
+    "She suddenly narrows her eyes as she smiles. Oops, I forgot she's a literal mind-reader."
+    show cafufu with dissolve
+    ca "I'm Sergeant Calypso. You can call me Sergeant C. It's {i}nice{/i} to meet you."
+    "She emphasizes the word \"nice\"."
+    "Uh oh."
+    hide cafufu with dissolve
+    ca "I also know about what had happenned to both of you last time. {w}Case MC-13, I assume?"
+    sc "MC-13?"
+    "That sounds like a media board rating."
+    ca "The attacking thing and all."
+    "Ahh, so now she thinks I'm related to it? Oh, how word quickly spreads. I told Daena a million times I'm not involved, and despite protests, tears and some drama she {i}still{/i} won't believe me?"
+    "She's so golden."
+    ca "Oh well. I should check the cell next to yours. White flash."
+    show casmi with dissolve
+    hide causu
+    "White flash?"
+    ca "Cetus' codename in the meetings. Ever since the attack we're forbidden to state its name anymore."
+    "\"Its\"? Damn, Cetus is not an object, so she shouldn't be referred to as one, by the way."
+    ca "Okay. Chow-chow."
+    hide casmi with dissolve
+    "I can't believe how rude she is! Argh! If only she couldn't read my mind I'd throw a bowl of boiling soup at her."
+    with fade
+    "After a few minutes of staying and talking with Cetus, Sergeant C finally comes out of Cetus' cell."
+    "Then, without hesitation, I look over to the hole."
+    show cetussl with dissolve
+    play music "memory.mp3"
+    "Ehh, she's sleeping..."
+    "The tray lies peacefully beside her."
+    "I stare at her for a few minutes before she finally opens her eyes."
+    show cetuso with dissolve
+    hide cetussl
+    "She quickly notices me looking at her, and her face changes to annoyance."
+    show cetusm with dissolve
+    hide cetuso
+    c "Snap off, will you?"
+    "Great. So she's still mad at me."
+    "I stare at her for a while. {w}For a long while."
+    "I look down, and contemplate." 
+    hide cetusm with dissolve
+    "I suddenly grab the apple on my tray and munch on it. I clean up the spilled mess on the floor, and eat what is left in the bowl."
+    "Thenk I drink all the water in the bottle."
+    "I think I may lose my appetite, but I force every spoonful of food in my mouth."
+    "And then, Cetus approaches the hole."
+    c "Yo."
+    s "..."
+    show cetusp with dissolve 
+    c "Okay, I give up. Don't puppyface me."
+    sc "Err... puppyface you?"
+    "Ahh... what is she trying to say?"
+    show cetussa with dissolve
+    hide cetusp
+    c "I'm... {w}I'm sorry."
+    c "I know you must've felt bad when I shouted at you. {w}I'm sorry."
+    c "And I shouldn't have reminded you about what happened before that you finally regretted."
+    "I am silent as everything she says sinks into me."
+    c "No reply for ten seconds so I'll take that as a no."
+    sp "Okay, okay I get the idea."
+    sg "I forgive you."
+    "She is silent, until she beams a smile at me."
+    show cetusy2 with dissolve
+    hide cetussa
+    c "Yay~"
+    play music "cetus.mp3"
+    c "So, what happened?"
+    sc "What do you mean, \"What happened?\""
+    c "You know, I was attacked by tazers by those fucking guards yesterday. And don't tell me it's nothing."
+    scene black with dissolve
+    "I relay to Cetus everything."
+    "About the dreams, who I was, and about Daena's story."
+    "She doesn't say anything as I speak and just nods at certain points in the story."
+    "After I finish, she stays silent, closes her eyes, and furrows her brows in thought."
+    scene bg cell with dissolve
+    show cetussa with dissolve
+    c "Daena said that? I really can't believe it..."
+    sh "Yes, yes, she did."
+    c "Be careful though."
+    sc "Careful? Of what?"
+    c "If what you said is true about your past, then get ready to be attacked by it. Sometimes the truth hurts more than the lie."
+    c "People really use these things. Your feelings and your heart. They attack you inside."
+    c "But then, I know that your mother loved you. You know, disasters are sometimes hidden blessings..."
+    "!!!"
+    s "Now I'm just wondering what she'd do next..."
+    c "Who's this \"she\"? Daena?"
+    sp "No."
+    sp "Sergeant C."
+    show cetusw with dissolve
+    hide cetussa
+    c "Sergeant who?"
+    sp "Sergeant {i}C{/i}. {w}Sergeant Calypso."
+    s "For some reason, Daena's gone and this snobby sergeant replaced Daena as our guard."
+    show cetuso with dissolve
+    hide cetusw
+    c "Let me guess... {w}Later on she'll send us on a cleaning job."
+    sc "Cleaning job? You mean those guards sending us to clean toilets or maybe something worse?"
+    c "Yes. Those are annoying."
+    "Convicts are usually sent on some odd jobs so that we can do something else rather than sitting all day. {w}The guard from months ago used to always send me to do kitchen jobs, and I hated it."
+    "Although I should be honest: I also hated it when I sat around doing nothing."
+    scene black with dissolve
+    "We wait."
+    "We talk, chatter, and speak to each other like close friends."
+    "Well, yes. We are close friends already."
+    scene bg cell with dissolve
+    "Suddenly, Calypso (I'll just call her that because \"Sergeant C\" sounds silly) comes into the cell with an annoyed look."
+    show capi with dissolve
+    play music "calypso.mp3"
+    ca "Okay, you two, get your cuffs on."
+    sc "B-but why?"
+    ca "Because I told you so! Get going, you two!"
+    hide capi with dissolve
+    "And we do. The whole time I try my best not to think of how horrible Calypso is, but she always reads my thoughts and shoots me a cold glare."
+    scene bg hallway with dissolve
+    "Then she drags us to the hallway as soon as we get our cuffs on."
+    show cetuso with dissolve
+    c "I really think she's gonna drag us to a cleaning job."
+    sp "What else do you think?"
+    "We walk in silence as Calypso leads us through the hallways."
+    show cetusm with dissolve
+    hide cetuso
+    play music "mystery.mp3"
+    "But, as we go further, Cetus's face distorts to suspiciousness, and I can tell there's something wrong."
+    ss "What's the matter, Cetus?"
+    c "She's taking us to the meeting room."
+    c "I know the route I took. This is the exact way I came in."
+    "To the meeting room? What is Calypso planning to do? Is she--"
+    ca "Here we are."
+    "I look and see..."
+    scene mr with dissolve
+    "An empty meeting room."
+    sc "What are we supposed to do now?"
+    show cagl with dissolve
+    ca "Cleaning time!"
+    "Uh-oh. Now that's what I predicted."
+    show causu with dissolve
+    ca "Why, what did you expect? That I'd drag your chins to another jail? You're joking."
+    "To be exact, that's what I'm expecting."
+    "Oh well. I wonder what she'll ask us to do."
+    show capi with dissolve
+    hide causu
+    hide cagl
+    ca "Convicts. Shut up, you're both confusing me."
+    hide capi with dissolve
+    show cetusp with dissolve
+    "She stares at Cetus, and she pouts with an annoyed reply."
+    c "You're not my mother, don't tell me what to do."
+    ca "Shut up and just follow orders or I'll drag you back to your cell this instant!"
+    show cetusse with dissolve 
+    hide cetusp
+    "Cetus' face darkens even more as her rage towards Calypso grows."
+    ca "You bet. Come on, let's get started so that it won't take you {i}ages{/i} to finish."
+    hide cetusse with dissolve
+    show cagl with dissolve
+    play music "peace.mp3"
+    ca "Okay, so. You see those file shelves? There are pads there with information. I want you to arrange them in alphabetical order."
+    ca "And don't you dare to open them. You can't open them even if you try anyway, they all have passwords."
+    ca "Then clean the {i}entire{/i} room. No speck of dust!"
+    c "Okay, okay."
+    ca "I'll be watching you through the surveillance cameras."
+    hide cagl with dissolve
+    sp "Why does she have to watch over us? Are we babies?"
+    show cetusm with dissolve
+    c "My thoughts are the same."
+    c "So, shall we get started?"
+    scene black with dissolve
+    "We start with cleaning."
+    "It is a hassle. Really."
+    "It takes us minutes, hours, until lunch time comes and our stomachs grumble in hunger."
+    scene mr with dissolve
+    show cetust with dissolve
+    c "Damn... this is tiring. I'm really hungry."
+    ss "Yeah..."
+    hide cetust with dissolve
+    "I finger over the stack of pads sitting beside me, and pull one out."
+    "I know this thing has a password anyway, but I want to entertain myself by guessing what the password is."
+    "But when I turn it on, I'm surprised it opens seamlessly."
+    play music "conspiracy.mp3"
+    sa "Hey Cetus. You gotta take a look at this."
+    show cetuso with dissolve
+    c "What is it?"
+    sa "This thing doesn't have a password."    
+    c "No joke?"
+    sp "Do I look like I'm joking? I told you to look."    
+    c "Don't you know that Calypso's looking at us now?"
+    "I look up to the area where the surveillance camera is supposed to be, but the light's not on." 
+    "For some reason Calypso has turned off the camera."
+    sg "It's okay. We're safe."
+    "Cetus sits beside me and looks over."
+    show cetusc with dissolve
+    hide cetuso
+    c "Do you even know how to use that?"
+    s "No."
+    "I hand her the pad which she controlled without any difficulty."
+    "Then, she frowns."
+    show cetus with dissolve
+    hide cetusc
+    c "I wonder why they didn't put a password on this..."
+    c "This thing is classified."
+    sc "What are these pads for anyway?"
+    c "Meh, for reference. They put this stuff here for easy access of information, and it is connected to the stuff in the records room."
+    c "But if they really want the most important information, they really go to the records room itself."
+    sa "I see."
+    sg "Let's open it now!"
+    "We sift through the information..."
+    "I wonder what kind of information is in there. Old prisons? Murderers? Or maybe birth information?"
+    sa "What is it about?"
+    show cetussl with dissolve
+    c "Memoria Syndrome."
+    c "There are lists here of people who have recorded symptoms of ...the Memoria Syndrome. Dreaming."
+    sc "Symptoms of Memoria Syndrome?"
+    c "They think of dreaming as a disease. A plague that society should avoid."
+    "She glances back to the pad and suddenly, her eyes widened in surprise."
+    show cetussh with dissolve
+    hide cetussl
+    sa "What's that?"
+    c "Ehh?"
+    "She looks surprised and scared at the same time... {w}What is happening now?"
+    hide cetussh with dissolve
+    c "Eh... nothing.."
+    c "I was just surprised that convicts also... have this thing."
+    "I glance over the pad, and there is a list of \"Convicts\", but there are only numbers. I can't even seem to remember my number anymore after not being called it for a long time."
+    s "Let's turn that pad off before Calypso sees us."
+    c "Okaaaay."
+    stop music fadeout 2
+    scene black with dissolve
+    "After a few hours..."
+    scene mr with dissolve
+    show casmi with dissolve
+    play music "calypso.mp3"
+    ca "Okay, you two. You did a good job."
+    hide casmi with dissolve
+    show cetus with dissolve
+    "Cetus rolls her eyes to the floor, careful that she won't meet Calypso's eyes."
+    "..."
+    hide cetus with dissolve
+    show capi with dissolve
+    ca "Shut up, will you? I'm just a sergeant, but I do an {i}awesome{/i} job."
+    "She directs her dirty glance to Cetus."
+    "I guess she doesn't know how to control her thought-reading shit yet."
+    ca "Just get your butts in your cell and shut up."
+    stop music fadeout 2
+    scene bg hallway with dissolve
+    $renpy.pause(.5)
+    scene bg cell with dissolve
+    "It was a hard day. {w}My back hurts and my face feels like it's flattened by a road roller."
+    "Then, my fatigue must have lulled me to sleep..."
+    play music "memory.mp3"
+    scene black with dissolve
+    $renpy.pause(1)
+    centered "Hey!"
+    centered "Please! Don't go!"
+    "Who is that?"
+    "It sounds like someone...{w} I know."
+    centered "Even if they said we can't be married, will you care? Will you?"
+    centered "Will you let a dang piece of paper and a couple of signatures stop us?"
+    centered "Please... agree now..."
+    centered "I thought you were brave! I thought you'd do everything! You told me those things!"
+    centered "Why now, when we've reached this far?"
+    "I can only hear her voice."
+    "But then..."
+    centered "You were here before! But why can't I see your old self? Are you that shallow?"
+    centered "Are you that shallow?"
+    centered "I'm not Captain Lujing for nothing! I am brave! Is that what you are afraid of? Me backing out?"
+    centered "I'll never leave you!"
+    "..."
+    "Suddenly, I hear a much more familiar voice speak."
+    centered "He liked whales."
+    centered "I am a whale."
+    centered "That's what I am. His symbol is a whale. Whales are huge animals, you know."
+    centered "We are big, we are brave. That's a whale."
+    centered "That's what I am."
+    centered "I'm like a flying whale. Brave, bold, and daring."
+    centered "Sirius, I know that you know that."
+    centered "I'm Cetus, my friend. I am the whale."
+    scene bg cell with hpunch
+    stop music
+    "Aaaah!"
+    "Another dream... again..."
+    "And this time, it's really disturbing..."
+    "Why won't these dreams leave me alone?"
+    "I'm really confused. These dreams. All these things make the situation much, much, much worse."
+    n "What makes things lot worse?"
+    "I turn around to see..."
+    play music "conspiracy.mp3"
+    show capi with dissolve
+    sp "Calypso."
+    ca "I'm asking you."
+    sp "Nothing."
+    show cag with dissolve
+    ca "You know that's one of the lamest answers you can give."
+    "... crap."
+    ca "So, what is it?"
+    "Dang... I shouldn't tell her. She'd kill me for sure. And after reading that unprotected shit in the meeting room, that really wouldn't help."
+    show cawha with dissolve
+    hide cag
+    "Suddenly, she looked surprised."
+    ca "Unprotected?"
+    ca "Someone left a file in the meeting room unprotected?!"
+    "She grabs her gun and points it to me."
+    play sound "guncock.wav"
+    hide cawha with dissolve
+    ca "I bet it's Daena... She's the only one who checks that file..."
+    sa "What file?"
+    show cafufu with dissolve
+    hide capi 
+    ca "Why would I tell you? You're a fucking convict, for goodness' sake."
+    ca "You're lower than dirt. You should learn to stoop down your own level, you shit."
+    ca "And oh, by the way. You have an interesting background."
+    "What?"
+    ca "Your birthmother had an interesting background too... And I wasn't surprised when I found out you were diagnosed with the Memoria Syndrome."
+    "If she means that weird shit that has been happening to me recently, I have to say yes."
+    "But maybe she's just saying all these things to unhinge me.. I should better control myself..."
+    "She's a cunning woman. She is someone that can use every single word you say--and in my case, think--against you."
+    "Not pretty, but sly."
+    ca "And plus, did you forget that your mother hated you? That's why she left."
+    ca "She only \"loved\" because what people would say if they thought otherwise. All she wanted all along was attention from others, not you."
+    ca "She doesn't care about you."
+    ca "You're nothing to her."
+    sm "Take that back."
+    ca "Why now? Isn't it true? You're worse than anybody."
+    "No. No, no no."
+    "Sirius, hold back. {w}Don't strangle her."
+    scene black with dissolve
+    c "{i}If what you said is true about your past, then get ready to be attacked by it. Sometimes the truth hurts more than the lie.{/i}"
+    c "{i}People really use these things. Your feelings and your heart. They attack you inside.{/i}"
+    c "{i}But then, I know that your mother loved you. You know, disasters are sometines hidden blessings...{/i}"
+    "She isn't lying. I know that. But I'm sorry, Cetus."
+    "I'm not a whale like you. I'm not brave."
+    "I am now being hurt inside. I'm affected."
+    scene bg cell with dissolve
+    "Then I find myself doing something."
+    sm "How dare you!"
+    "I jump to her, and knock her gun away."
+    scene sicalgrou with hpunch  
+    play sound "thud.wav"
+    ca "Aah!"
+    si "Don't you dare speak like that if you yourself are as dirty as me!"
+    scene sicalgrou1 with dissolve    
+    ca "Hah! Now the dirt is speaking."
+    si "You're heartless. You don't understand me. So you can't speak like that to me!"
+    si "And why? Are you my mother? Do you know what my mother felt before? {w}No! You don't! So you have no right!"
+    si "No right to go saying these things!"
+    "But, instead of being silent, she smiles a hellish grin."
+    play music "mystery.mp3"
+    scene sicalgrou2 with dissolve
+    ca "My, my. I can only read thoughts, not emotions."
+    ca "You can ask your Daena what that feels."
+    ca "I know. I'm heartless. But what? You don't need a heart to live in this harsh world."
+    ca "People will use it against you. I'm emotionless. Heartless. A person without a soul since she has sold it to the devil. {w}Yes, I did."
+    "I hold her back, adding more weight on her. She winces, but her smile still stays."
+    scene black with dissolve
+    "It is involuntary when I place my hand over her neck."
+    sm "What happened... All those years ago?"
+    ca "Why would I-- {w}Agh.."
+    "I tighten the grip."
+    "Why am I being so harsh? I'm not sure. I'm engulfed with temporary insanity."
+    "I am so mad I can release a thousand cleavers."
+    scene sicalgrou3 with dissolve
+    "But then, instead of looking mad, Calypso's face mellows to an innocent smile."
+    stop music
+    ca "She is a pretty girl, isn't she?"
+    ca "I know you already saw her... in your dreams."
+    ca "I hate saying this, but I have to tell you."
+    "She seems as if she's possessed by someone else."
+    "What is it? I can't tell what she's talking about..."
+    play music "memory.mp3"
+    scene black with dissolve
+    ca "She was a young woman when she conceived you."
+    ca "A young age of sixteen."
+    ca "She even tried to abort you."
+    ca "But when you were born, she quit her job just to take care of you. She did everything."
+    ca "She was really happy."
+    ca "But when the government realized she was giving you too much care, you were separated from her."
+    ca "Because of that, they said you were a patient of the Memoria Syndrome, a rare case of feelings."
+    ca "It took months before we finally erased your memory perfectly."
+    ca "If you remember--or saw--the events before, you had bandages on your arms. Those were the scars from the procedures that we all tried to remove."
+    ca "We tried to give you a normal life. A normal way of living."
+    ca "But then, we failed."
+    ca "When you were 8, the diagnosed age for the start of memory erasure, you started going hostile. You almost killed the few nurses working."
+    ca "You woke up and started swinging everything around, destroying things."
+    ca "We figured it had something to do about the past procedures."
+    ca "So we had no choice. We had to reverse the procedure we did before."
+    ca "And that's why you still have the Memoria Syndrome until now."
+    scene sicalgrou3 with dissolve
+    stop music fadeout 2
+    s "..."
+    ca "..."
+    ca "Daena has something to do with those procedures, too. Her father at least."
+    ca "Ehh, let me stand up, will you? You're like a hundred sacks of potatoes on me."
+    scene bg cell with dissolve
+    "I stand up, and let her go."
+    "My heart is satisfied. But then..."
+    "I find myself wondering... why did she even tell me this?"
+    show casmi with dissolve
+    ca "I know what you are thinking. You don't have to worry."
+    ca "Soon, I'll forget it anyway."
+    "Why did she totally change? It's as if she has...{w}split personalities."
+    ca "I got to go. You don't want the other guards to wonder what we are doing here."
+    ca "Farewell."
+    hide casmi with dissolve
+    "She waves me goodbye. Weird."
+    "A while ago, she was calling me dirt. Now she treats me like I'm her best friend."
+    "If so, then..."
+    "I should just do something else..."
+    scene black with dissolve
+    play music "usu.mp3"
+    "The next few days are really strange."
+    "Sometimes, Calypso forces us to clean, sometimes; she even gives us extra food or something similar."
+    "It's almost like Daena trying to be bad."
+    "But then, Daena's absence makes me think..."
+    "... about the things Calypso told me."
+    "Is it true? She seems honest."
+    "But a part of me is telling me it's a lie."
+    "No, no no... Why am I thinking of these things?"
+    "Shouldn't I be happy? That she loved me?"
+    "But then..."
+    scene bg cell with dissolve
+    n "Hello! Breakfast delivery!"
+    "Hey... that isn't Calypso. Who's that?"
+    "The door opens and the one I see is..."
+    show daenay2 with dissolve
+    play music "daena.mp3"
+    sa "Daena?!"
+    d "I'm baaack! You missed me, right?"
+    sp "Where did you come from?"
+    show daenao with dissolve
+    d "Well, to be honest..."
+    "She sits on the mattress, and lays the tray at my feet."
+    "She suddenly grabs the apple before I do and munches on it."
+    show daenaa with dissolve
+    hide daenao
+    d "Oops, sorry. {w}I sorta didn't eat breakfast so.."
+    sg "No, it's okay! Eat that."
+    sc "So, what are you saying?"
+    d "Ehh, sorry."
+    show daena with dissolve
+    d "As I was saying, I was with my father for two weeks in the hospital."
+    sa "Why is he in there?"
+    d "Cetus' attack triggered a couple of rebel attacks when the news leaked in the public."
+    d "In one of the attacks, we had to defend ourselves in an ambush, and one sniper got him in some vital part..."
+    sh "Okay.."
+    sc "But wait. Why were you also in the hospital? Were you sick or something?"
+    hide daena with dissolve
+    d "Ahaha, no. I was guarding my dad, he invited me."
+    d "But then, he became brain-dead three days before I left."
+    d "I actually didn't know what I did but.."
+    sc "Huh?"
+    d "Ehh..."
+    show daenas with dissolve
+    hide daenaa
+    play music "sad2.mp3" fadein 3
+    "She suddenly frowns. The apple she was munching is already half-eaten. She seems to have lost the appetite because it now sits back in the tray."
+    show daenac with dissolve
+    d "Well... I killed him off."
+    sc "Huh?"
+    d "When he was brain-dead, I did the first thing I could think of. {w}Euthanasia."
+    sw "What?!"
+    "I suddenly creep up and move backwards."
+    hide daenac with dissolve
+    d "It was all I could do. I couldn't let him suffer anymore. I was really sad on killing him, but--"
+    sm "Why? Give me a good reason. {w}WHY?"
+    d "First, he had done a lot of things to me that I can't forgive him. He killed Caelum. {w}And even my mother."
+    d "Just for power."
+    d "Second, I first thought of you two. {w}You changed me. I wanted to pay that back."
+    sm "You can't pay me back by killing somebody. You know that."
+    d "Yes, but... Even though you complain a lot of times, I can't take back what I did. And I'll never regret it."
+    s "..."
+    d "If he was allowed to kill Caelum, the man I loved, to get me in my place, then I can kill him to get my own place. And you in place."
+    s "..."
+    s "You mean in the military? You want us in the military?"
+    d "Yes."
+    sx "B-But, actually, Cetus has way more experience in this sort of situation than I do."
+    show daenasm with dissolve
+    hide daenas
+    d "Then you shall be my adviser."
+    ss "Uhhh... No. I don't think I can do that job." 
+    ss "And plus, won't you get sued for putting two {i}convicts{/i} in place?"
+    show daenay2 with dissolve
+    d "Don't worry, I'll get that fixed."
+    sx "Plus, ma'am... I only wanted to do something so that I could return to how our lives were before. The life before all this weirdness, I mean."
+    hide daenay2 with dissolve
+    d "You have me convinced, for now. Maybe we'll talk again some other time."
+    sy "Okay."
+    "She picks up the apple, munches on it again, then walks out of the cell door, but she stops before she exits."
+    d "I'll be back soon. Take care." 
+    sg "Thank you, Ma'am."
+    show daenao with dissolve
+    d "Actually, you can call me Daena."
+    sg "Thanks... {w}Daena."    
+    stop music fadeout 2
+    scene black
+    with dissolve
+    centered "A few days later..."
+    show bg cell
+    with dissolve
+    play music "usu.mp3"
+    "I am starving." 
+    "Every day seems to be a hollow day. No matter what I eat, nothing seems to stay..."
+    "Suddenly, the cell door opens."
+    "It's Daena."
+    d "Quick, wear this." 
+    "She hands me a black cloak."
+    sc "Why? What's wrong?"
+    "She grins at me."
+    s "Well, we have to sneak the future adviser of the Head General into the ceremony to avoid early death right?"
+    "She must really believe what Cetus and I believe and want to help us change the way things are. She hadn't even change her mind nor had second thoughts."
+    "At least we won't have to go through crazy things like starting some rebellion or killing somebody important."
+    "Oh yeah, Daena killed that 'somebody important', at the very least."    
+    scene black with dissolve
+    "We slip into Cetus' cell and Daena retells what she'd told me a few days ago." 
+    "Cetus looks a lot more suspicious of her than I did, but she still agrees to come with us, seeing it as an opportunity of achieving freedom if nothing else."
+    "She has changed..."
+    scene mr with dissolve
+    play music "peace.mp3"
+    "There is a huge gathering of people as we enter the large meeting room."
+    "I become nervous, fidgeting with the sleeves of my cloak and hiding my face from sight in the hood."
+    "Most of the people turn to greet Daena as we pass, and she nods to them all with a grim determination on her face." 
+    "Yet, Calypso seems to glare at the three of us with utter distaste."
+    "She moves to the front of the room and clears her throat, getting everyone's attention."
+    show daena with dissolve
+    d "A few days ago, something unfortunate happened. My father, who was very important to me and to all of you, passed away." 
+    d "It was a peaceful death, so we can all take solace in that."
+    d "However, after our mourning, we have to decide who will become the next Head General to take his place." 
+    show daenash with dissolve
+    hide daena
+    d "While I may not be as intelligent and skilled as my father, I would still be honored to take his place if you all would have me as your leader."
+    hide daenash with dissolve
+    "There is a sudden quiet and then people erupt into conversation with each other." 
+    "Daena lets them talk for a while and then gathers their attention once again."
+    with fade
+    "I watch as the other lower generals step forward, seeming to have reached an agreement."
+    "I pull my right hand behind my back and cross my fingers. I feel Cetus' hand reach over to tightly hold onto my free hand."
+    g "We've come to a decision. We have decided that you, Daena Blackstar, will become the next leader of our military base."
+    "I have to hold back my cheers. I watch as a brief smile appears on Daena's lips before she nods."
+    show daenasm with dissolve
+    d "Thank you. I must have a replacement for my former position as lower general. Cetus, please step forward."
+    "I feel her hand grip mine more tightly in her surprise, but I give her an encouraging look before she lets go and walks to Daena's side, pulling down her hood."
+    show cetuscoh at right with dissolve
+    g "Her? Wait, isn't she--?"
+    d "Cetus is a military-trained woman who will take my place as lower general. She may be a little rusty, but nothing active duty won't cure."
+    "There are murmurs of surprise in the crowd."
+    "And there is one who seems to be suspicious about it."
+    hide daenasm with dissolve    
+    hide cetuscoh with dissolve
+    show capi with dissolve
+    "Calypso."
+    "I thought that nobody would agree on the fact that a convict would turn to a general all of a sudden, but I bet that Cetus was way more experienced than any of them."
+    "She is even older than all of them."
+    hide capi with dissolve
+    show daenasm with dissolve    
+    d "And every great leader, or great general, needs an adviser to help them along, someone to keep them going. Sirius, please step forward."
+    "Oh, and she was also serious about making me an adviser? Nice work."
+    "I was about to step forward when..."
+    play sound "thud.wav" 
+    with vpunch
+    stop music
+    ca "Wait a second!"
+    hide daenasm with dissolve
+    show cama with dissolve
+    "Calypso suddenly steps forward, and she slams the table as she protests against Daena's decision."
+    play music "mystery.mp3"
+    ca "Why them? They are convicts for heaven's sake! Their criminal records are as dirty as shit!" 
+    play sound "thud.wav" 
+    with vpunch
+    ca "I object!"
+    "Some other people murmur, and seem to agree with her."
+    d "Wait, let me explain--"
+    ca "You're a lot more stupid than your father. Why did you even try taking the position? You know you can't handle it."
+    hide cama with dissolve
+    show daenaa with dissolve
+    d "Please, Sergeant Milice, let me explain."
+    "It takes me a moment before I realize the Milice she's talking about is Calypso."
+    show daena with dissolve
+    hide daenaa
+    stop music fadeout 1
+    play music "sad.mp3"
+    d "I have been with them, and I know they haven't sinned like what is said in the law."
+    d "I have gone through emotional distress ever since I was little. My mother killed. My boyfriend killed."
+    d "I know you can't feel these things I can't feel, but I can assure you this is true."
+    d "Milice. You can look me in the eye, tell me if I'm thinking the opposite way."
+    show cetuscser at right with dissolve
+    c "I can safely say we're innocent, in a rather unbiased way. As a former military personnel, I can say it's against the law to lie in the midst of military officials, as it's almost equivalent to the case of perjury in court."
+    ca "These people can just overthrow you! Don't you realize what danger are you bringing in our nation, {i}General{/i}?"
+    show daenac with dissolve
+    hide daena
+    d "I can read their emotions. I know they aren't lying."
+    "She can? Wow, what a surprise. No wonder she reacts quickly to what I am saying all the time."
+    "Suddenly, a lower general steps up."
+    g "She isn't lying."
+    g "I can tell, too, they aren't lying. I trust her decisions."
+    g "And if she trusts somebody, her decision is correct about them."
+    ca "..."
+    hide daenac with dissolve
+    hide cetuscser with dissolve
+    show cama with dissolve
+    "She suddenly bursts into a wave of fury."
+    ca "You will all regret this!"
+    play music "conspiracy.mp3" fadein 2
+    ca "Don't you know your father was supposed to have me as the lower general, before your mother decided to join the military?"
+    ca "So he picked you instead. I was expecting that position all my life."
+    show cag with dissolve
+    hide cama
+    ca "That woman got what she deserved. She deserves to die under that filthy convict."
+    "Daena looks down, and she seems to swallow her tears."
+    "I was almost thinking that she may have convinced Daena, because of that revelation."
+    "But then, she looks up, with a teary smile and a determined look."
+    hide cag with dissolve
+    show daenash with dissolve
+    play music "sad.mp3" fadein 2
+    d "Then, thank you."
+    d "If you hadn't done that, I wouldn't have been here now."
+    d "I know it was a sad chapter in my life, but I have nowhere to go but forward. {w}I have to move on."
+    hide daenash with dissolve
+    stop music fadeout 2
+    "Calypso is lost between words."
+    "With fury, she strips off the badge on her shoulders and the insignia on her left chest and throws it to Daena's feet."
+    show cama with dissolve
+    ca "You will suffer one day."
+    play music "mystery.mp3"
+    ca "You will one day find this nation falling, your subordinates going against you."
+    ca "And you."
+    "She looks at me with a frozen glare."
+    ca "You're the reason why all of this is happening. You're the reason for this great change. {w}And when all of this fails, you will be the one who will be blamed in the end."
+    ca "And when the day of your punishment comes..."
+    show cag with dissolve
+    hide cama
+    ca "You'll die by my hands."
+    hide cag with dissolve
+    "She storms out of the room."
+    stop music fadeout 2
+    "I am afraid. That message shoots a cold shiver down my back." 
+    "But the other general from a while ago pats me on the back."
+    play music "peace.mp3" fadein 2
+    g "Nah, she's always like that. {w}Don't worry. You'll be safe."    
+    g "Go ahead. Walk forward. Make your friend proud."
+    "I nervously take the few steps forward to stand on Daena's other side. She smiles warmly at me, a show of emotion that makes me feel great comfort." 
+    "I pull off my hood and turn towards the large group of people."
+    show daenasm with dissolve
+    d "Now, things are going to start changing here. Life as we know it is unacceptable and now that I am leader things will start to get better."
+    "I can see flickers of doubt in the eyes of many people, but I also see the glimmer of hope just beyond the surface."     
+    scene black
+    with dissolve    
+    "They aren't puppets any longer, they want free will as well, and I can feel it."
+    "I feel warmth in my chest, a happiness that I hadn't felt in what seemed like an eternity."
+    "I've never felt this happy before, that I feel like I'm about to cry and shout and dance at the same time."
+    "It will take maybe a few days, a few months, or maybe a year or more. But no matter how long, we can do it. I'm sure of it."
+    "We still have a lot of work to do, convincing more and more people that what the Pagi is doing is wrong, that we deserve the free will to be ourselves and have emotions, but I think that we can do it."
+    "With Cetus and Daena by my side, with our souls and hearts reaching out to help everyone have better lives, I know that we can do it."
+    $renpy.pause(3)
+    centered "Thank you for finishing Soul and Heart!"
+    centered "~Credits~"
+    centered "Editor, Proofreader, Co-writer\nnight_serenade"
+    centered "Editors\nShadow, RemnantDream, Wright1000"
+    centered "Music\nSENTIVE, Kevin Macloed, maestrorage (Newgrounds), Freeplaymusic, Rengoku Teien"
+    centered "Sound Effects\nYoutube, freeSFX, SoundBible"
+    centered "CG Help\nNebi, Tag-"
+    centered "Background Artist\nMugenjohncel"
+    centered "Beta-testers\nTag-, shine, Kirroha, netravelr, Kaku-chan, azureXtwilight"
+    centered "Done in Ren'Py Visual Novel Engine"
+    centered "I got to admit, I almost did everything, including the writing/story, coding, spritework and especially, most of the CG linearts and the cutscene CGs. :)"
+    centered "I really appreciate all the help and support given to me, and as my first KN, I hope I didn't break any of your expectations!"
+    $ persistent.my_bonus = True
+    $ renpy.full_restart()
+
+</poem>
