@@ -12,7 +12,7 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 
 
 
-` ................................................................................................................................................................................................................................................................................................... I can't hear the annoying sound of the clock anymore.\
+` ................................................................................................................................................................................................................................................................................................... Я уже не слышу надоедливого тиканья часов.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -20,30 +20,30 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 
 
-` Knock, Kno----ck.@
+` Тук, Ту—к.@
 br
-` The rhythm of my breathing has gone totally erratic and I can't fix it.@
-` ...... It's deathly cold.@
-` If it's this cold, I want to stop caring about everything----I feel like sleeping.\
+` Ритм моего дыхания окончательно сбился и я не могу его восстановить.@
+` Тут до смерти холодно...@
+` Раз тут так холодно, я хочу обо всём забыть — я хочу заснуть.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
-` Knock Kno, Knock.@
-` Kno, Kno, Knock.@
-` Kno Kno Kno, Kno Kno.@
-` Kno, Kno, Kno---Kno.@
-` Kno, Kno Kno, Kno-----Knock.@
-` kno-----,,,,,,knock.@
-` ,,,,---Kno kno, knock knock.@
+` Тук Ту, Тук@
+` Ту, Ту, Тук.@
+` Ту Ту Ту, Ту Ту@
+` Ту, Ту, Ту — Ту.@
+` Ту, Ту Ту, Ту — Тук.@
+` ту-----,,,,,,тук@
+` ,,,,---Ту ту, тук тук.@
 br
-`"--------"@
+` - ...@
 br
-` I think I hear a knocking sound.@
-` Maybe it's Hisui.@
-` But my body doesn't move anymore.@
-` Tohno Shiki, will live forever in this cage, and no one will kill Tohno Shiki...\
+` Кажется, я слышал стук.@
+` Наверное это Хисуи.@
+` Но моё тело уже не двигается.@
+` Тоно Шики, всегда будет жить в этой клетке, и никто не убьёт Тоно Шики...\
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
 
@@ -61,6 +61,7 @@ waittimer 3000
 
 
 return
+
 
 
 
