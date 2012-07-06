@@ -96,17 +96,17 @@ image splash3 = "splash3.png"
 
 define mi = Character('Милисия', color="#c8ffc8")
 define vo = Character('??')
-define m = Character('\"Mae\"')
-define gi = Character('Girl')
-define gh = Character('Daena')
+define m = Character('\"Мэй\"')
+define gi = Character('Девочка')
+define gh = Character('Даина')
 define si = Character('Sirius')
 
 define nvlx = Character(None, kind=nvl)
 define nvlvo  = Character('Голос', kind=nvl)
 define nvlmi  = Character('Милисия', kind=nvl)
-define nvlma = Character('Mae', kind=nvl)
-define nvlm = Character('\"Mae\"', kind=nvl)
-define nvlgi = Character('Girl', kind=nvl)
+define nvlma = Character('Мэй', kind=nvl)
+define nvlm = Character('\"Мэй\"', kind=nvl)
+define nvlgi = Character('Девочка', kind=nvl)
 
 transform mam:
     xpos 0 ypos -800 xanchor 0 yanchor 0
@@ -192,7 +192,7 @@ label start:
     mi "..."
     show mish with dissolve
     hide mipi
-    mi "... сестра. Я полагаю, я могу называть тебя так."
+    mi "Сестра. Я полагаю, я могу называть тебя так."
     vo "{i}На самом деле? Можешь?{/i}"
     vo "{i}Я буду очень рада! Правда!{/i}"
     vo "{i}Сестра~{/i}"
@@ -309,7 +309,7 @@ label start:
     nvlx "...."
     show mipi2 with dissolve
     hide mipi
-    nvlmi "... сестра?"
+    nvlmi "...сестра?"
     nvlvo "Да. Мы же сёстры."
     nvlvo "Мы больше похоже на близнецов."
     nvlvo "Ты не помнишь, хм... момент, когда Сириус атаковала тебя."
@@ -370,112 +370,111 @@ label start:
     nvlmi "Я имею в виду убить тебя. Хотя это не стоит моего времени."
     show mapo2 at left with dissolve
     hide mashy
-    nvlgi "What stuff is worth your time?"
+    nvlgi "Тогда что же стоит твоего времени?"
     nvl clear
-    nvlgi "Trying to insult Sirius and Cetus but suddenly backfires?"    
-    nvlgi "Trying to go cute with the head general only to get kicked out by his daughter?"
-    nvlgi "Failing your dreams? Making yourself the laughingstock of the nation?"
-    nvlgi "What is worth your time and effort, Miliceeeeent?"
-    nvlgi "Failing all the time, everytime?"
-    nvlgi "Always failing, is that where you are trying your best to succeed into?"
+    nvlgi "Не обернулась ли для тебя попытка оскорбить Сириуса и Цитаса неприятными последствиями?"
+    nvlgi "Не обернулась ли попытка милого разговора с командиром к тому, что тебя вышвырнула его дочь?"
+    nvlgi "Тебе нравится все твои провалы? Хочешь быть посмешищем нации?"
+    nvlgi "Что же стоит твоих усилий и времени, Милиииисия?"
+    nvlgi "Нравится быть неудачницей?"
+    nvlgi "Хочешь побить все рекорды по провалам?"
     show masly at left with dissolve
     hide mapo2
-    nvlx "She laughed with a hysterical tone, and that's where she totally broke it."
-    nvlx "I picked up the knife and charged towards her."
+    nvlx "Она истерично засмеялась, что и оказалось для неё фатальным."
+    nvlx "Я подняла нож и замахнулась..."
     show miliceattacksmae with dissolve:
         xpos 0 ypos -600 xanchor 0 yanchor 0
         linear 5.0 xpos 0 ypos 0
-    nvlx "It wasn't in my own will. Something did it."
-    nvlx "It's like some hidden force had clouded my judgement and started taking control of me."
-    nvlx "I was mad, yes, but before, I know what I was doing. Now, i felt like someone's manipulating me..."
+    nvlx "Всё происходило не по моей воле. Как будто, кто то сделал это за меня."
+    nvlx "Как будто какая то скрытая сила затуманила мой разум и взяла надо мной контроль."
+    nvlx "Я была сумасшедшей, да. Но это было раньше! Сейчас же мной как будто бы кто то манипулирует..."
     nvl clear
-    nvlx "But then, when I was near her, she didn't flinch. {w}She just smiled that crazy-looking grin she kept on brandishing."
+    nvlx "Но... она даже не дрогнула. {w}Она лишь ещё раз улыбнулась своей сумасшедшей на вид улыбкой."
     scene black with dissolve
     show masly with dissolve
-    nvlgi "Heh."
-    nvlgi "I win this time."
-    nvlgi "I'm sorry, sister. It just have to happen."
-    nvlgi "Condolences, Miliceeeent."
+    nvlgi "Хе."
+    nvlgi "На этот раз, я победила."
+    nvlgi "Мне жаль, сестра. Это должно было когда либо случиться."
+    nvlgi "Соболезную, Милисия."
     scene black with dissolve
     stop music 
     
     nvl hide dissolve
     $ show_button_game_menu = True
-    "What?"
-    "... condolences?"
-    "Suddenly, I felt something."
-    "It's as if I was watching everything from third person view a while ago, and ..."
-    "What the hell...."
-    "What in the world is this sticky feeling? It's like I got this fluid all over me... "
-    "It feels familiar, and the smell is sickly as well..."
-    "I try opening my eyes, but it's no use. It feels sticky as well."
-    "Reaching to my eyes, I rub the foreign substance away from my eyes."
-    "And then..."
+    "Соболезнуешь?"
+    "Тут я поняла, что в последнее время"
+    "я смотрела на всё происходящее от третьего лица, и ..."
+    "Какого чёрта..."
+    "Что это за неприятное липкое ощущение? Какая то жидкость была на мне... "
+    "Знакомая вещество с болезненным запахом..."
+    "Липкая субстанция мешала мне открыть глаза."
+    "Я стрёрла эту инородную жидкость с моих глаз."
+    "И тогда..."
     scene joisan with dissolve
     play music "darkmystery.mp3" fadein 1 
-    "What in the--"
-    "Who's this person covered in blood? How did I get in here? Why am I holding this knife that's stabbed in his chest?"
-    "Agh... What in the world..."
-    "I don't know how I got in here, and I don't even know who's this guy..."
-    "And most especially, I don't remember anything from a while ago..."
-    "I look around me, and I realized I was in the camp. In the training field to be more specific."
-    "Pretty much one of the most isolated places in the camp."
-    "But why, why did this happen..."
-    "Why was anybody -- or maybe I -- was so ... crazed to kill this guy?"
+    "Что за..."
+    "Кто это? Он весь в крови! Как я сюда попала? Почему у меня в руках этот окровавленный нож?"
+    "Чёрт... Что это..."
+    "Я не только е знала как я сюда попала, но даже не знала, кто этот парень..."
+    "И что более важно, я не помню последних событий..."
+    "Я осмотрелась, и поняла, что я была в лагере. Если быть более точной, то на тренировочной площадке."
+    "Это место оно из самых изолированных мест в лагере."
+    "Но почему, почему это произошло..."
+    "Почему кто то ... или я ... настолько свихнулся ... что убил этого парня?"
     scene field with dissolve
     show masly at left with dissolve
-    vo "I was bored!"
-    vo "I killed him because I was so bored!"
-    "I can hear the same voice as a while ago on my head.{w=0.5} But now, it's as if I am also {i}seeing{/i} a delusion, because that teenager girl from a while ago is right in front of me this time."
-    "She walks around the corpse, and kicks on his head playfully."
-    vo "So bored with the world! So bored with everything!"
-    vo "I'm so tired of acting like someone else's puppy! I hate it!"
-    vo "People might think I'm like an obedient dog, but I'm like a sly cat, staring at them evilly!"
-    vo "This is the only way I can show how worthy I am! I will show them how will I treat anybody who crosses my way!"   
-    "Someone else's puppy..."
+    vo "Мне было скучно!"
+    vo "Я убила его из за того, что мне было очень скучно!"
+    "Всё тот же знакомый мне голос.{w=0.5} Но в этот раз, я ещё и {i}вижу{/i} галлюцинацию, поскольку та девочка-подросток сейчас стоит передо мной."
+    "Она обходит его труп и игриво пинает его голову."
+    vo "Мне так скучно в этом мире! Мне так всё надоело!"
+    vo "Мне так надоело всё делать, будто я чей то щенок! Ненавижу это!"
+    vo "Люди думают, что я как послушная собака. Но я скорее хитрая кошка со злобным взглядом!"
+    vo "Такой мой единственный способ показать чего я стою! Я им покажу, на что я способна по отношению к тому, кто перешёл мне дорогу!"
+    "Чей то щенок..."
     show mipi at right with dissolve
     hide miwo
-    "Agh..."
-    "I looked around, and it's nighttime. Judging from my surrounding, it may have been days after I lost consciuosness."
-    "Firstly, this guy seems to be in the military circle, judging from the color of shirt he's wearing." 
-    "Secondly, from his age, he seems to be the ones Daena appointed to fill one of the many blank positions, so..."
-    "Right now, she's the one in place."
-    "If I was the one who did this then..."
-    "Then..."
-    "This is all their fault! I will never be under them again! Damn it!"
-    "If they just haven't made this system, then it wouldn't have happened!"
-    "All of this wouldn't have happened!"
-    "And if that system wasn't made... {w}Then this girl isn't in front of me now!" 
+    "Тьфу..."
+    "Я осмотрелась. Сейчас ночь. Судя по окружению, возможно прошло несколько дней, как я потеряла сознание."
+    "Во-первых, судя по цвету одежды, этот парень из военных." 
+    "Во-вторых, судя по его возрасту, похоже он был назначен Даиной на одну из пустующих должностей..."
+    "А сейчас она она на этом месте."
+    "Тогда если это сделала я..."
+    "В таком случае..."
+    "Это всё их вина! Я никогда им более не подчинюсь! Плевала на всё!"
+    "Если бы не было всей этой системы, этого бы не произошло!"
+    "Всего бы этого не произошло!"
+    "И если бы этой системы не было... {w}Тогда этой девочки не было бы передо мной сейчас!" 
     show mashy at left with dissolve
     hide masly
-    vo "Don't get mad at me! My boredom wasn't the only reason you know."
-    vo "I promised, right?"
-    vo "I told you before, when you were little, that I'd be a good girl and protect you!"
-    vo "I {i}am{/i} different, but I can still do it. I might be dead already, but I can still do what I didn't do."
-    "What now? Before, a delusion. Now, someone who have risen from the dead?!"
-    "Anger and fear both filled me to the brim, but her voice still went on. I don't understand what sort of feeling developed inside me, but..."
-    vo "Miri-chan, I promised that."
-    vo "Even if I die, I will protect you."
-    vo "I will!"
+    vo "Не злись на меня! Как ты наверное уже догадалась, скука была не единственной причиной."
+    vo "Я ведь пообещала."
+    vo "Ранее, когда ты была маленькой, я говорила тебе, что я буду хорошей девочкой и защищу тебя!"
+    vo "Я конечно не похожа на хорошую девочку, но я всё же могу защищать тебя. Может быть я мертва, но я могу продолжать делать то, что к сожалению не делала раньше."
+    "И что теперь? Раньше ты была просто галлюцинацией. Сейчас же, ты утверждаешь, что ты восстала из мёртвых?!"
+    "Страх и злость заполнили меня до краёв, но она продолжала говорить. Странные чувства зарождались во мне..."
+    vo "Мири-чан, я обещала."
+    vo "Даже если я умру, я буду защищать тебя."
+    vo "И я буду!"
     show misho at right with dissolve
     hide mipi
-    "Mi-Miri-chan?"
-    "That name sounds familiar...."
-    "Almost instantly, I feel a rush of thought in my head."
+    "Ми-Мири-чан?"
+    "Знакомое имя...."
+    "Я ощущаю огромный поток мыслей в моей голове."
     scene field with vpunch
-    "As if they're just locked away in some hidden space in my head, thoughts and memories started to fill my mind."
+    "Как если бы они были заперты в потайном месте моего мозга, а теперь, освободившись, воспоминания заполняют мой разум."
     with vpunch
-    "It felt like as if a mallet was pounding the insides of my head."
+    "Как будто маленький молоточек стучит в моей голове."
     with vpunch
-    "Slowly...."
+    "Медленно...."
     with vpunch
-    "Painfully..."
+    "Мучительно..."
     with vpunch
-    "After a couple of seconds, it was gone, but I felt dizzy."
+    "Наконец, прекратилось... Но я всё ещё чувствовала головокружение."
     show mashy with dissolve
-    "I looked up at her, but then, it's like..."
-    "... that she's..."
-    mi "Oneesan?"
+    "Я взглянула на неё, но похоже..."
+    "... что она..."
+    mi "Онээсан?"
     scene black with dissolve
     stop music 
     $renpy.pause(2)
@@ -485,70 +484,70 @@ label start:
     $renpy.pause(2)    
     scene maeflashback1 with dissolve
     play music "memory.mp3" fadein 1
-    nvlvo "Ne, she's really pretty, right, okaa-san?"
-    nvlvo "Stop calling me by such an absurd name, Mae."
-    nvlma "But, okaa-san--"
-    nvlvo "Stop it."
-    nvlma "... okay."
-    nvlvo "And stop calling your sister such absurd names! You'd just influence Milicent!"
-    nvlma "Yes, mom."
-    nvlvo "Haah. Why did I have a daughter with this thing... Musica Syndrome..."
+    nvlvo "Нэ, она действительно хорошенькая, не так ли, окаа-сан?"
+    nvlvo "Не называй меня так, Мэй."
+    nvlma "Но, окаа-сан..."
+    nvlvo "Перестать."
+    nvlma "Хорошо."
+    nvlvo "И не называй так свою сестру! Называй ещё просто Милисия!"
+    nvlma "Да, мама."
+    nvlvo "Эх. И почему моя дочь имеет этот... синдром Музыки..."
     scene black with dissolve
     nvl clear
-    nvlx "Musica Syndrome. Since music is a symbol of cultures back at the old age, it means having knowledge about certain cultures and nationalities in the past."
-    nvlx "It ain't genetic. It's an error in the mirochip that's implanted to her when she was born."
-    nvlx "She likes speaking in some old Eastern country's \"form of respect\", but father and mother found it more of obnoxious and disrespectful."
-    nvlx "They found her weird."
+    nvlx "Синдром Музыки. Так как музыка считается символом культуры прошлого века, через неё можно что то понять о культурах и национальностях прошлого."
+    nvlx "Синдром не является генитическим. Просто произошла ошибка в микрочипе, который был вживлён ей при рождении."
+    nvlx "Она любит говорить \"формы уважительного обращения\", как в некоторых старых восточных странах. Но её родители посчитали эти слова неприятными и неуважительными."
+    nvlx "Они считали её странной."
     scene maeflashback2 with dissolve
-    nvlma "Hey, Milicent!"
-    nvlmi "Sister Mae?"
-    nvlma "Eh, stop calling me that. {w}I sound like an old woman! Call me oneesan!"
-    nvlmi "Onee... san?"
-    nvlma "Yep! It means sister!"
-    nvlmi "Sister?"
-    nvlma "Yep! That's why I'll call you sister too! I'll also call you oneesan!"
+    nvlma "Эй, Милисия!"
+    nvlmi "Сестра Мэй?"
+    nvlma "Эй, прекрати меня так звать. {w}это звучит, как будто я старая женщина! Зови меня онээсан!"
+    nvlmi "Онээ... сан?"
+    nvlma "Ага! Это означает - сестра!"
+    nvlmi "Сестра?"
+    nvlma "Да! Ты для меня тоже сестра! Поэтому я тоже буду звать тебя онээсан!"
     nvl clear
-    nvlmi "Mae... Mae-oneesan?"
-    nvlma "Yep! {w}Hahaha, you do learn quickly!"
+    nvlmi "Мэй... Мэй-онээсан?"
+    nvlma "Ага! {w}Хаха, ты быстро схватываешь!"
     scene black with dissolve
-    nvlx "But I didn't find her weird at all."
-    nvlx "She was a nice person."
-    nvlx "She taught me a lot of things, taught me how do Eastern people eat, told me that people before \"bless their meals\" before they eat them."
-    nvlx "When mom and dad were not at home, we even eat our food with our hands."
+    nvlx "Она мне совсем не казалась странной."
+    nvlx "Она была замечательным человеком."
+    nvlx "Она многому меня научила, рассказала, как на востоке едят люди, и что они \"благодарят богов за еду\" перед тем как её съесть."
+    nvlx "Когда мамы с папой не было дома, мы даже ели руками."
     nvl clear
-    nvlx "Until one day, she got sick."
-    nvlx "It wasn't a bad one, I think, since it didn't last long."
-    nvlx "But after that, she totally changed."
-    nvlx "I mean, she still eats with me, teaches me things, tells me stories."
-    nvlx "But then, she suddenly had a darker view of the world, unlike before."
+    nvlx "Пока в один прекрасный день она не заболела."
+    nvlx "Я думаю, болезнь не была опасной. Она быстро выздоровела."
+    nvlx "Но после неё, она полностью изменилась."
+    nvlx "Она продолжала есть вместе со мной, показывать мне разные интересные вещи, рассказывать истории."
+    nvlx "Но, в отличие от её прошлой, она стала мрачно смотреть на мир."
     nvl clear
     scene maeflashback31 with dissolve
     play music "darkmystery.mp3" fadein 1 
-    nvlmi "O-o{w=0.5}-oneesan?!{w=0.5} W-{w=0.5}w-{w=0.5}what are y-{w=0.5}you doing?!"
-    nvlmi "W-{w=0.5}what are you doing with the cat?!"
+    nvlmi "О-о{w=0.5}-онээсан?!{w=0.5} Ч-{w=0.5}ч-{w=0.5}что т-{w=0.5}ты делаешь?!"
+    nvlmi "Ч-{w=0.5}что ты делаешь с этой кошкой?!"
     scene maeflashback32 with dissolve
-    nvlma "It stole my cookie."
-    nvlmi "Well, I do understand that, but why do you have to crack the cat open? It looks hideous, mom and dad will get angry!"
-    nvlma "The cookies he stole might still be in there! I'm looking for it..."
-    nvlma "The cat ate it, so it still be in here somewhere..."
-    nvlmi "Hey, hey! Stop it! The cat's dead already, and you're opening him up for just a cookie?"
-    nvlma "Yep. Mirisento-san, it's... logic."
-    nvlma "I can just return him back later on. You'll see."
+    nvlma "Она стащила моё печенье."
+    nvlmi "Ну, я понимаю, но почему ты хочешь вскрыть эту кошку? Выглядит безобразно... Мама с папой будут сердиться!"
+    nvlma "Печенье, что она украла у меня должно быть находится внутри! Я хочу найти..."
+    nvlma "Кошка съела их, так что они все еще должны находится в где-то тут..."
+    nvlmi "Эй, эй! Прекрати! Кошка уже мертва, ты решила вскрыть её только из за печенья?"
+    nvlma "Да. Мирисия-сан, это ведь... вполне логично."
+    nvlma "Я смогу её вернуть обратно, вот увидишь."
     scene black with dissolve
-    nvlx "I still didn't understand what happened that day. Why she mutilated the cat to find just a piece of cookie."
-    nvlx "The next day, my parents found the cat's mutilated corpse, and they were too disgusted and horrified to even ask who of the two of us did it."
+    nvlx "Я всё ещё не понимаю, что произошло в тот день. Почему она изуродовала кошку, что бы найти кусок печенья."
+    nvlx "На следующий день, мои родители нашли тело кошки, они были настолько шокированы, что даже не спросили, кто из нас двоих это сделал."
     nvl clear
-    nvlx "Because of that, I was too scared to even go into her room, I might just find stuff written in blood there."    
-    nvlx "It was... well, the time I still had fear."
-    nvlx "We were the total opposites. I was afraid, sometimes she'd slap me for being a crybaby."
-    nvlx "I loved one thing, she hated it or find it boring. But we still find each other good company...until now."
-    nvlx "I was technically avoiding her, and I just watch from the terrace as she started carving weird symbols in the tree bark or as she kills another cat."
+    nvlx "Я была настолько напугана, что боялась войти в её комнату, боялась найти там что то кровавое."    
+    nvlx "Тогда... я всё ещё могла бояться."
+    nvlx "Мы были полными противоположностями. Я боялась её. Иногда она давала пощечину мне за то, что я была плаксой."
+    nvlx "Она считала скучным всё, что я мне нравилось делать. Но не смотря на это, мы не плохо вместе проводили время."
+    nvlx "Я старалась её избегать и смотреть издалека, как она вырезает странные символы на деревьях или мучает очередную кошку."
     scene maeflashback4 with dissolve
     play music "memory.mp3" fadein 2
-    nvlx "But she died. Just like that."
-    nvlx "But I didn't cry. I wasn't feeling anything."
-    nvlx "We just found her dead, at the back of a large tree, unconcscious."
-    nvlx "Not even the autopsy can tell what's the reason why she died. It's as if she just fainted and her life ended there."
+    nvlx "Но она умерла. Просто так."
+    nvlx "Но я не плакала. Я ничего не чувствовала."
+    nvlx "Просто однажды мы нашли её мёртвой за каким-то большим деревом."
+    nvlx "Даже вскрытие не смогло выяснить причину её смерти. Как если бы она упала в обморок, и жизнь просто покинула её."
     nvl clear
     nvlx "One side of me believed that she hated me because I won't join her demonic rituals. The other believed that before she died, she wanted to tell something to me but she wasn't able to reach it out because I was avoiding her."
     nvlx "I don't know what to believe."    
