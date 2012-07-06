@@ -11,93 +11,93 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 
-`"-----"@
-` I have a headache.@
-` ...... I don't quite understand how, but what I did with Hisui helped me regain some of my strength.@
-` But in exchange, my headaches have gotten much worse.@
+` - ...@
+` Голова болит...@
+` Я не совсем понимаю, но похоже, после того, что мы сделали с Хисуи, к мне вернулась часть сил.@
+` Но в замен, мои головные боли стали гораздо сильнее.@
 ;S.E."???"
 wave se3
 
-` ...... I hear a knock at the door.@
-` It's probably...... Kohaku-san, I suppose.\
+` Я слышу стук в дверь.@
+` Наверное... скорее всего, это Кохаку-сан.\
 
 ;(????)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 ;CD-DA????????????
 play "*9"
 
-`"Please excuse me, Shiki-sama."@
-`"---------Eh?"@
-` The one who came was Hisui.@
+` - Шики-сама, позвольте войти.@
+` - ...Э?@
+` Пришла Хисуи.@
 
 ;(??????)
 cl c,%type_lshutter_fst
 
 
-`"-------"@
-` Hisui wordlessly performs her usual check-up.@
-` Because I haven't slept today, I'm not bleeding.@
-` I'm not using an IV, so after taking a few measurements and changing the sheets, she gives me some water and medicine.\
+` - ...@
+` Ничего не говоря, Хисуи проводит свой обычный осмотр.@
+` Я сегодня не спал, так что кровью не истекаю.@
+` К капельнице я не подключён, так что она только меняет простыни, проверяет пару вещей и даёт мне воды и лекасртва.\
 
-`"-------"@
-` The whole time, there is nothing but silence between us.@
-` ...... After doing what I did, I can't look at her in the face.@
-` I think Hisui is like that too, but Hisui probably still dutifully and methodically carries out all her normal tasks because of her role as a servant.\
+` - ...@
+` Всё это время никто их нас не говорит ни слова...@
+` После того, что я сделал, я не могу смотреть ей в глаза.@
+` Наверное, Хисуи чувствует то же самое, но наверное, как служанка, она по прежнему продолжает прилежно и методично выполнять свои обязанности.\
 
-` And all of a sudden.@
+` И вдруг.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t02.jpg",%type_lshutter_fst
 
-`"Shiki-sama, how is your body's condition?"@
-` She talks to me.@
-`"Um, I, uh-----"@
-` As far as my condition goes, I can move a little more than before because of what happened earlier, but---
+` - Шики-сама, как ваше самочувствие?@
+` Она обращается ко мне.@
+` - Эм, я, аа...@
+` Благодаря тому, что мы делали, ко мне вернулась часть подвижности, но...
 
 
 ;(?????)
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"Shiki-sama, is there something the matter?@ Your face appears very red."@
-`"My, my face is red... because---Hisui, you..."@
-`"Yes?@ What did I do?"@
-` Hisui tilts her head to the side questioningly.\
+` - Шики-сама, что-то случилось?@ Вы очень покраснели?@
+` - Я, я покраснел... потому что — Хисуи, ты...@
+` - Да?@ Что я сделала?@
+` Хисуи вопросительно наклоняет голову на бок.\
 
-`"Uh-----"@
-` Damn it, I can't just say it.@
-` And I still haven't been able to apologize for before.@
-`"That is, I...... I'm sorry about before.@ You must have been embarrassed to do it, but I treated you a bit rough."@
+` - Эээ...@
+` Чёрт, я не могу это произнести.@
+` И я всё ещё не извинился за то,ч то случилось.@
+` - Это, я... прости меня за случившееся.@ Тебе, наверное, было очень стыдно, и я был с тобой немного груб.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
-`"Ah............"@
-` Hisui lowers her gaze as if embarrassed.@ I suppose she remembers now.@
+` - А...@
+` Хисуи опускает глаза, словно смутившись.@ Похоже, она вспомнила.@
 br
-` ----I guess that's not the reason.\
+`       Нет, похоже дело не в этом.\
 
 ;(?????)
 ld c,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
 
-`"...... Do not worry, Shiki-sama.@ I must apologize as well, for doing that to your body without asking.@ It is only natural if you end up hating me."@
-`"Wha---hate you?@ I have no reason to hate you......!@ No matter what happens, I won't hate you.@ ...... Besides, it is only natural if you end up hating me."@
+` - Шики-сама, не волнуйтесь.@ Я тоже должна извиниться, за то что прикасалась к вам без разрешения.@ Вполне естественно если вы меня теперь ненавидите.@
+` - Чт — ненавижу?@ У меня нет причины тебя ненавидеть!..@ Чтобы ни случилось, я тебя не возненавижу...@ И потом, вполне естественно было бы для тебя начать ненавидеть меня.@
 cl c,%type_crossfade_fst
 
-` My whole body becomes heavy as I say this.@
-` Even though I'm the one who said it, it should be about time Hisui is getting tired of hearing me.\
+` Сказав это, и чувствую, как по моему телу разливается тяжесть.@
+` Я сам признёс эти слова, но Хисуи уже наверняка надоело это слышать.\
 
-` I bet she's remembering what happened before and hating me even as I speak...... Huh?@
+` Уверен, сейчас она вспоминает, что случилось, и ненавидит меня... А?@
 
 ;(???????)
 ld c,":a;image\tachi\his_t14.jpg",%type_lshutter_mid
-` ...... That's odd.@
-` Why is Hisui smiling so happily?@
-`"...... Hisui.@ Why, are you smiling?"@
-`"Shiki-sama, your words and mine were the same.@ I thought it was amusing."@
-` Hisui giggles, as if it is really funny.\
+` Странно.@
+` Почему Хисуи так счастливо улыбается?@
+` - Хисуи...@ Почему, ты улыбаешься?@
+` - Шики-сама, мы с вами сказали друг другу одно и то же.@ Мне это показалось забавным.@
+` Хисуи легонько посмеивается, будто бы это очень смешно.\
 
-` ...... My head starts spinning.@
-` Hisui's rare smile is so cute, I'm about to go crazy.@
+` У меня голова пошла кругом...@
+` Улыбка Хисуи, так нечасто появляющая на её лице, кажется до того очаровательной, я вот-вот сойду с ума.@
 
 
 ; ???<????>
@@ -109,49 +109,50 @@ ld c,":a;image\tachi\his_t29.jpg",%type_crossfade_fst
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
 
-` That might be why.@
-` Her smile looks incredibly scary to me.\
+` Наверное именно поэтому.@
+` Сейчас её улыбка кажется мне невероятно пугающей.\
 
-`"...... Anyway, I haven't said thanks yet.@ Thank you for before, Hisui.@ ...... The, method was a little problematic, but thanks to you my body is better.@ I may even be able to walk a little."@
+` - Ну... Как бы то ни было, я тебя до сих пор не отблагодарил.@ Спасибо, Хисуи.@ Эм... метод, был немного проблематичным, но благодаря тебе мне уже лучше.@ Я, наверное, даже смогу немного ходить.@
 
 ;(?????)
 ld c,":a;image\tachi\his_t03.jpg",%type_crossfade_fst
 
-`"Eh---ah, yes.@ Even though what I did is a small thing, I am happy that I could be of some use."@
-` Hisui looks at me directly.@
-` ...... Seeing her like that makes me remember what happened, and I start to get a little uncomfortable.\
+` - Э... а, хорошо.@ Я не сделала ничего особенного, но я рада, что смогла быть полезной.@
+` Хисуи пристально смотрит на меня.@
+` Глядя на неё, я начинаю вспоминать что случилось, и мне становится немного неуютно.\
 
-`"...... But, about before, I don't think it was really appropriate.@ I'm happy, but it's not quite right."@
+` - Но, насчёт этого, я не уверен, что это было правильным поступком.@ Я благодарен, но это не совсем правильно.@
 
 ;(????)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"...... Not quite, right?"@
-`"Yes.@ That's, something that both parties should agree to... and even though you're a servant, you don't have to go that far..."@
+` - Не совсем, правильно?@
+` - Да.@ Это, это должно происходить по обоюдному согласию... и хоть ты и моя служанка, ты не обязана заходить так далеко...@
 
 ;(?????)
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`"I understand.@ As you say, I will ask for your permission before I touch you next time."@
-` ...... No, you're missing my point...
+` - Я поняла.@ Как пожелаете, отныне я буду спрашивать разрешения прежде чем прикоснуться к вам.@
+` «Нет, я вообще не это имел ввиду...»
 
 ;(??????)
 ld c,":a;image\tachi\his_t16.jpg",%type_crossfade_mid
 
-`"Please excuse me.@ If anything happens, please call for me, Shiki-sama."@
+` - С вашего позволения, я пойду.@ Если что-нибудь случится, Шики-сама, пожалуйста позовите меня.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Hisui walks out of the room.\
+` Хисуи выходит из комнаты.
+\
 
-`"...... She's really calm......"@
-` I'm a bit taken aback.@
-` Just seeing Hisui's face makes me blush, but Hisui acted just like she always does.@
-`"............"@
-` I don't get it.@
-` Something doesn't feel quite right and lingers in the back of my mind.\
+` - Она так спокойна...@
+` Я немного ошарашен.@
+` Я краснею едва взглянув на Хисуи, но она ведёт себя соверешнно нормально.@
+` - ...@
+` Я не понимаю этого.@
+` Мысль, что что-то здесь не так, отчётливо звучит в моей голове.\
 
 
 ; ???<??????(?)>
@@ -170,30 +171,30 @@ monocro #fffff0
 bg "image\bg\bg_40b.jpg",%type_crossfade_slw
 
 
-`"A------"@
-` When I open my eyes, the day has already passed.@
-` ...... It seems I fell asleep, but I don't remember when.\
+` - А...@
+` Когда я открыл глаза, день уже прошёл...@
+` Похоже, я незаметно для себя заснул.\
 
-` *pant* *pant* *pant* *pant*
+` *хаа* *хаа* *хаа* *хаа*
 br
-` My breathing is ragged.@
-` My body is burning.@
-` My body.@ My body feels like it's roasting, erupting into flames.\
+` Моё дыхание прерывисто.@
+` Моё тело пылает.@
+` Моё тело.@ Оно словно жарится, полыхает словно факел.\
 
-`"...... Wa...... ter......"@
-` My throat is thirsty.@
-` It's so hot, I can't even speak.@
-` I can't even call for Hisui or Kohaku-san.@
-`"........."@
-` My empty room.@
-` I start to feel down staying in this for so long.@
-` This restless room.@
-` This room I don't remember.@
-` ...... This room, it feels, like it isn't my room.\
+` - Во...ды...@
+` В горле пересохло.@
+` Мне так жарко, я даже говорить не могу.@
+` Я даже не могу позвать Хисуи или Кохаку-сан.@
+` - ...@
+` Моя пустая комната.@
+` Мне становится плохо от того, что я столько времени провёл в ней.@
+` Это беспокойная комната.@
+` Эта комната, которой я не помню...@
+` Эта комната, она словно, не моя.\
 
-`"...... Wa...... ter......"@
-` I'm thirsty.@
-` Water.@ I should go back to my house, and quickly, get some water to drink.\
+` - Во...ды...@
+` Я хочу пить.@
+` Воды.@ Мне надо вернуться в свой домик, и быстро, попить воды.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -201,21 +202,21 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?? : ???? : ????(?)<???????(?)>
 bg "image\bg\bg_46b.jpg",%type_crossfade_fst
 
-` I gasp for air.@
+` Я хватаю ртом воздух.@
 br
-` Placing my hand on the wall and feeling like I'll collapse any second, I manage to drag myself out of my room.@
+` Оперевшись на стену и едва не падая, я кое-как выбираюсь из своей комнаты.@
 br
-` I have trouble breathing.@
+` Мне трудно дышать.@
 br
-` ...... What is this?@ I haven't even walked thirty feet and already my heart feels like it will explode.\
+` Что это?..@ Я и десяти метров не прошёл, а моё сердце уже вот-вот лопнет.\
 
-` I need more air.@
+` Мне нужен воздух.@
 br
-` Still, I have to go.@
-` I might die if I walk anymore.@
-` But if I don't get any water to drink, I'll probably die anyway.@
-` Then, I'll walk and go get some water.@
-` I can't just stay and lounge on my bed forever.\
+` Всё равно, я должен идти.@
+` Я умру, если буду шагать дальше.@
+` Но если я не найду воды, то всё равно умру.@
+` Значит, надо идти и достать воды.@
+` Я не могу вечно валяться в постели.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -223,10 +224,10 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_42b.jpg",%type_crossfade_mid
 
 
-` *pant*...... *pant*...... *pant*......
+` *хаа*...... *хаа*...... *хаа*......
 br
-` I go out into the courtyard.@
-` Water----this, isn't, the kitchen though.@
+` Я выхожу во двор.@
+` Воды... но, это не кухня.@
 br
 
 ; ???<???????(?)>
@@ -235,29 +236,29 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_54b.jpg",%type_crossfade_fst
 
 
-` ......... *pant*......... *pant*
+` ......... *хаа*......... *хаа*
 br
-` I enter the woods.@
-` ...... Soon.@
-` Soon, I will be able to be at a place with water, a familiar place.\
+` Я иду среди деревьев...@
+` Скоро.@
+` Скоро, я приду в знакомое место, где будет вода.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ?? : ???? : ?????(?)<???????(?)>
 bg "image\bg\bg_44a.jpg",%type_crossfade_mid
 
-` *pant* ............ *pant*
+` *хаа* ............ *хаа*
 br
-` With the fever getting to me, I arrive at the place.@
-` White, sunshine.@
-` Even though the day is already ending, the entire world is white.@
-` This place is burning hot like a desert, and I squint my eyes since the world is so white.@
+` Меня лихорадит, но я прихожу на место.@
+` Белый, свет.@
+` День подходит к концу, но весь мир залит белым цветом.@
+` Тут жарко как в пустыне, и я зажмуриваюсь, потому что этот мир такой белый.@
 br
 br
-` ...... Thud.@ I hear a noise.@
-` ...... It comes from the detached house.@
-` ...... Someone.@
-` ...... Someone's inside?\
+` ...... Тук.@ Я слышу шум.@
+` ...... Он доносился из отдельной постройки.@
+` ...... Кто-то.@
+` ...... Кто-то внутри?\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -265,32 +266,32 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_45b.jpg",%type_crossfade_fst
 
 
-` Opening the sliding door very slightly, I peer in from the porch.@
-` Inside, I see the figures of Akiha and Kohaku.@
-` They look a little strange.@
-` I hear the swishing of an obi being removed.@
+` Тихонько отодвинув раздвижную дверь, я заглядываю внутрь с порога.@
+` Я вижу фигуры Акихи и Кохаку-сан.@
+` Они выглядят немного странно.@
+` Я слышу шорох развязываемого оби.@
 br
-` -----What...?@
+`     Что?..@
 br
-` Without a word, Kohaku pulls down her kimono and bares her breasts.\
+` Не говоря ни слова, Кохаку распахивает кимоно и оголяет грудь.\
 
 monocro off
 ; ?? : H : ?????????<???????(?)>
 bg "image\event\aki_h13.jpg",%type_lshutter_mid
 
 
-` Kohaku stands there with a blushing face, but does not move.@
-` Akiha presses her lips against the bared white chest.@
+` Кохаку продолжает неподвижно стоять, покраснев.@
+` Акиха прижимается губами к голой белой груди.@
 br
-` Tension.@
+` Напряжение.@
 br
-` Kohaku looks down at her bare chest, and Akiha crouches so that she is burying her face in Kohaku's breasts.@
-` A thin red drop makes a line down her breast.\
+` Кохаку смотрит на свою грудь, Акиха приседает, прижимаясь к груди Кохаку.@
+` Тонкая красная линия стекает по груди Кохаку.\
 
-` Akiha's throat starts to move, swallowing something.@
-` What---what is she drinking?@ There's no need to ask; I already understand.@
+` Горло Акихи начинает двигаться, глотая.@
+` Что — что она пьёт?@ Спрашивать нет нужды. Я уже понял.@
 br
-` Akiha, she's drinking, Kohaku's blood----\
+` Акиха, пьёт, кровь Кохаку...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
@@ -298,57 +299,57 @@ bg "image\bg\ima_11.jpg",%type_crossfade_mid
 ; ?? : H : ?????????<???????(?)>
 bg "image\event\aki_h13.jpg",%type_nowaitdisp
 
-` ...... I feel dizzy.@
-` My mind goes blank.@
-` All I can do is stare at the strange event happening before my eyes, like in a daydream.@
-` Suddenly, Akiha opens her mouth with her arms still around Kohaku.\
+` Мне ставноится плохо...@
+` В голове всё перепуталось.@
+` Словно во сне, я могу только смотреть на невероятную вещь, происходящую у меня на глазах.@
+` Неожиданно Акиха, не отпуская Кохаку, начинает говорить.\
 
-`"About the killer...... what do you think, Kohaku?"@
-`"Let's see.@ I think there can be no mistake that it's the work of SHIKI-sama."@
+` - Насчёт убийцы... Кохаку, что ты думаешь?@
+` - Посмотрим.@ Я уверена, что это дело рук ШИКИ-сама.@
 br
-` ----What.@
+`      Что.@
 br
-`"I---I suppose so.@ I have no idea how he can walk around with that body, but we can't leave him alone.@ The impurity of the Tohno blood that has awakened must be cleansed by those of the Tohno blood."@
+` - По...Полагаю ты права.@ Я понятья не имею как он может передвигаться в таком состоянии, но мы не можем оставить его в покое.@ Порок тех, в ком пробудилась кровь Тоно, должен быть смыт теми, в ком течёт кровь Тоно.@
 br
-` ----Just, what are they saying?\
+`      О чём, о чём она говорит?\
 
-`"Then, Akiha-sama."@
-`"Yes.@ As the head of the Tohno family, I will kill my brother."@
+` - Тогда, Акиха-сама.@
+` - Да.@ Как глава семьи Тоно, я убью своего брата.@
 br
-` ----Those words send chills down my spine.@
+`     От этих слов мороз пробегает у меня по коже.@
 br
-` Akiha isn't playing around.@ Even Kohaku-san nods seriously.\
+` Акиха не шутит.@ Даже кохаку-сан серьёзно кивает.\
 
-`"Then, Akiha-sama.@ We should let Hisui-chan know about this too."@
-`"You're right.@ ...... But we shouldn't need her help.@ My brother can't move around as he likes, so we should be enough to kill him."@
+` - Тогда, Акиха-сама.@ Мы должны сообщить и Хисуи-тян тоже.@
+` - Ты права...@ Но её помощь нам не пригодится.@ Мой брат не может двигаться как хочет, мы вдвоём должны суметь с ним справиться.@
 br
-` ----*pant* *pant* *pant*
-` My breathing gets out of control.@
+` ----*хаа* *хаа* *хаа*
+` У меня не получается дышать нормально.@
 br
-`"You understand, Kohaku?@ Don't let Nii-san pick up on any of this.@ It will all be over in a few days, so let's not trouble him."@
-`"Yes, I understand.@ He can't even move from his bed by himself, so he will never find out."\
+` - Ты поняла, Кохаку?@ Не допусти, чтобы Нии-ан узнал об этом.@ Всё будет кончено через несколько дней, не будем его беспокоить.@
+` - Да, я поняла.@ Он даже встать с постели сам не может, он не узнает.\
 
-` -----*pant* *pant* *pant*
+` -----*хаа* *хаа* *хаа*
 br
-` My fingers shake uncontrollably.@ Nausea permeates my being and I almost pass out.@
+` Мои пальцы непрослушно трясутся.@ Меня тошнит, и я едва не теряю сознание.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 br
-` But, I can't pass out here.@
+` Но, я не могу потерять сознание здесь.@
 br
-` -----I have to get away.@
+`      Я должен бежать.@
 br
-` If I pass out here, I'll surely be killed.@
-` If they find out I was watching them, they'll kill me right here.\
+` Если я отключусь здесь, меня точно убьют.@
+` Если они узнают, что я видел их, они убьют меня на месте.\
 
-` I struggle for breath.@
-` ...... I don't understand.@
-` I don't understand why they would want to kill me.@
-` Even my brain trying to understand doesn't work because of the fever.@
-` ...... I don't understand.@
-` This, has to be a bad dream.\
+` Мне трудно дышать.@
+` Я не понимаю.@
+` Я не понимаю, почему они хотят убить меня.@
+` Мой воспалённый жаром мозг не может справиться с этим вопросом.@
+` Я не понимаю...@
+` Это, это должно быть дурной сон.\
 
 br
 br
@@ -356,13 +357,13 @@ br
 br
 br
 br
-` ----------Dream
-`         Dream----------?\
+` ----------Сон
+`         Сон----------?\
 
-` Yes, this is a dream.@
-` Like always, this has to be just another one of my nightmares.@
-` Then, I have to wake up quickly.@
-` Before this horrible vision consumes me, I have to wake up and return to my normal life----\
+` Да, это сон.@
+` Это наверняка очередной мой кошмар.@
+` А значит, надо поскорее проснуться.@
+` Пока этот ужасный мираж не поглотил меня, я должен проснуться и вернуться к своей обычной жизни...\
 
 monocro off
 ;S.E.??
@@ -376,48 +377,48 @@ bg "image\bg\bg_40b.jpg",%type_lcartain_slw
 ;CD-DA?????
 play "*1"
 
-`"Ah-----"@
-` ...... Somehow, I make it to my room.@
-` Now---yes, now I, should lock the door--
+` - А...@
+` Каким-то непонятным образом я сумел добраться до своей комнаты.@
+` А теперь — да, теперь, надо запереть дверь...
 br
 ;(???do)
 ld c,":a;image\tachi\his_t12.jpg",%type_lshutter_fst
 
-`"Shiki-sama."@
-`"-------"@
-` ...... I don't know how long she has been there, but Hisui is standing in my room.\
+` - Шики-сама.@
+` - ...@
+` Я не знаю, когда она сюда пришла, но Хисуи стоит в моей комнате.\
 
 ;(?????)
 ld c,":a;image\tachi\his_t13.jpg",%type_crossfade_fst
 
-`"What are you doing?@ In your condition, walking is very dangerous."@
-`"Hi...... sui."@
-`"Please, lay down.@ If you push yourself, Akiha-sama will scold me."@
-`"Akiha...... will scold......?"@
+` - Что вы делаете?@ В вашем состоянии предвигаться очень опасно.@
+` - Хи...суи.@
+` - Пожалуйста, ложитесь.@ Акиха-сама отругает меня если вы будете перенапрягаться.@
+` - Акиха... отругает?..@
 br
-` Why would she get in trouble if I went outside?@
-` ...... No, I understand perfectly.@
-` Akiha realizes that I'm the killer.@ So she plans to lock me in my room, and when night comes, kill me.\
+` Почему у неё будут проблемы если я выйду?@
+` Нет, я прекрасно понимаю...@
+` Акиха считает меня убийцей.@ И потому она собирается запереть меня в моей комнате, и убить когда наступит ночь.\
 
-`"----Please leave, Hisui."@
+` -||| Хисуи, пожалуйста уходи.@
 
 
-`"Shiki-sama......?"@
-`"I won't let anyone in this room.@ Even you, no one will ever come in again......!"@
+` - Шики-сама?..@
+` - Я никого не пущу в эту комнату.@ Даже тебя, никто сюда больше не зайдёт!@
 
 ;(??????)
 ld c,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
 
-`"Shiki-sama---kyaa!"@
+` - Шики-сама—Аа!@
 
 cl c,%type_lshutter_fst
 
-` I don't know where I got the strength, but I push her out into the hallway.@
-` Then, I shut the door and lock it.\
+` Не знаю, откуда у меня взялись силы, но я выталкиваю её в коридор.@
+` А затем я закрываю дверь и запираю её на замок.\
 
-`"Shiki-sama---!?@ Shiki, sama, please open the door, Shiki-sama......!"@
-` She knocks on the door.@
-` Ignoring it all, I crumble to the floor.\
+` - Шики-сама?!@ Шики, сама, пожалуйста откройте дверь, Шики-сама!@
+` Она стучит в дверь.@
+` Не обращая на неё внимания, я опускаюсь на пол.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -428,48 +429,48 @@ wave se0
 
 
 br
-` ----Pai, n.@
+`     Боль, но.@
 br
-` It sticks inside my brain.@ The poison permeates every pore in my body.@ Every time I take a breath, the mold invades my whole body.@
+` Боль сжимает мой мозг в кулаке.@ Яд просачивается в каждую пору на моей коже.@ С каждым вдохом в моё тело проникает плесень.@
 
 ;S.E."??"
 wave se0
 
 
 br
-` ----I can't move freely.@
+`    Я не могу нормально двигаться.@
 br
-` Something other than my organs or my functions, but something more from the core, like my very own energy, seems to be flowing out of my body.\
+` Что-то, не мои органы или силы, но что-то более глубокое, как сама моя жизнь, покидает моё тело.\
 
 ;S.E."??"
 wave se0
 
 
-` My heart has an invisible pipe sticking out of it.@
-` My "life" is flowing along this pipe to him.\
+` В моё сердце воткнули невидимую трубку.@
+` Моя «жизнь» вытекает по этой трубке в него.\
 
 ;S.E."??"
 wave se0
 
 
 br
-` -----It, hurts.@
+`    Мне, больно.@
 br
-` So I can't make it.@
-` No matter how hard my body tries to recover, he takes away everything.@
-` So unless I take in something from the outside world, I can't live.@
+` И потому я не могу выжить.@
+` Как бы сильно моё тело не старалось оправиться, он отбирает всё.@
+` Так что если я не буду принимать что-то из внешнего мира, я не выживу.@
 
 ;S.E."??"
 wave se0
 
 
-` Intravenous drip.@ Nutrient supplement.@ Injection.@ Sedative.@ Moisture.@ Blood.@ Reason.@ Intelligence.@ Feelings.@ Memory.@ Sight.@ Sound.@ Taste.@ Touch.@ Smell.@ Bodily fluids.@ Love.@ Impulse.\
+` Капельница.@ Питательный раствор.@ Укол. @ Успокоительное.@ Влага.@ Кровь.@ Рассудок.@ Интеллект.@ Чувства.@ Память.@ Зрение.@ Слуху.@ Вкус.@ Осязание.@ Обоняние.@ Телесные жидкости.@ Любовь.@ Импульс.\
 
-` ------Ha...... a
+`       Ха...а
 br
-` These drugs, all they can do is barely keep me alive.@
-` This isn't healing me.@
-` If there's something that will help me move, it's----\
+` Эти лекарства, они могу лишь поддерживать во мне жизнь.@
+` Они меня не вылечат.@
+` Если и есть что-то, что поможет мне двигаться, это...\
 
 ;S.E."??"
 wave se0
@@ -487,21 +488,21 @@ bg "image\bg\ima_11.jpg",%type_nowaitdisp
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-` Knock.@ Knock.@ The sound wakes me up.\
+` Тук.@ Тук.@ Шум будит меня.\
 
 br
-` Knock Knock.\
-`     Knock Knock.@
-`        Knock Knock.\
+` Тук Тук.\
+`     Тук Тук.@
+`        Тук Тук.\
 
-`"...... Sh...... ut, up!"@
-` Placing my hand on the wall, I manage to stand up.@ My own wheezing fills my ears.@
+` - Да... заткнитесь, уже!@
+` Держась за стену, я кое-как встаю.@ Моё сиплое дыхание отдаётся в ушах.@
 br
-` Knock Knock.@ Knock Knock.@ Knock Knock.@
+` Тук Тук.@ Тук Тук.@ Тук Тук.@
 br
-`"Nii-san!@ Please open the door, Nii-san."@
-` Akiha is banging on the door.@
-` ...... That's right.@ I locked it, so no one can get in.@
+` - Нии-сан!@ Пожалуйста открой, Нии-сан.@
+` Акиха колотит в дверь.@
+` Точно...@ Я запер её, чтобы никто не смог войти.@
 br
 
 
@@ -509,6 +510,7 @@ br
 
 
 return
+
 
 
 
