@@ -99,7 +99,7 @@ define vo = Character('??')
 define m = Character('\"Мэй\"')
 define gi = Character('Девочка')
 define gh = Character('Даина')
-define si = Character('Sirius')
+define si = Character('Сириус')
 
 define nvlx = Character(None, kind=nvl)
 define nvlvo  = Character('Голос', kind=nvl)
@@ -172,7 +172,7 @@ label start:
     mi "Её... Сириус..."
     vo "{i}Сириус, эх... Какое красивое имя. Она ведь звезда? Помнится, раньше имена были только у людей с высоким рангом...{/i}"
     hide miwo with dissolve
-    mi "Хочешь сказать, что она в ближайшее время будет иметь высокое звание? Ха! Быть того не может! Она осужденна! Она грязь нации!"
+    mi "Намекаешь, что она в ближайшее время будет иметь высокое звание? Ха! Быть того не может! Она уже осуждена! Она грязь нации!"
     vo "{i}Ты веришь в меня?{/i}"
     mi "Да не знаю я!"
     vo "{i}Ты ведь знаешь, я могу видешь будующее.{/i}"
@@ -599,7 +599,7 @@ label start:
     hide magl
     "Маниакальный смех."
     "Её смех... гогот веьмы... кажется ещё более ужасным, чем ее смех некоторое время назад. Или мне кажется?.."
-    "Хоть она и выглядит невинной, но её глаза говорили мне ​​что-то еще..."
+    "Хоть она и выглядит невинной, но её глаза говорили мне что-то еще..."
     m "Не волнуйся..."
     m "Я не причиню тебе боли."
     m "В отличие от тех, кому ты верила, но которые наплевали на тебя."
@@ -690,7 +690,7 @@ label start:
     nvlx "За экраном была металлическая дверь."
     nvlx "Вокруг железной двери, была стеклянная стена, поэтому можно было увидеть, что находилось по ту сторону. В комнате не было ровным счётом ничего."
     nvlx "Я никогда в жизни не видела этого ранее, разве что на картинках."
-    nvlx "Эта комната названа \"камера (!retrieval - восстановление, исправления!) воспоминаний\", где любой из нас может загрузить память из архивов."
+    nvlx "Эта комната названа \"камера восстановления воспоминаний\", где любой из нас может загрузить память из архивов."
     nvl clear
     nvlx "Скоро начнётся этот процесс..."
     nvl clear
@@ -700,7 +700,7 @@ label start:
         xpos 0 ypos -425 xanchor 0 yanchor 0
         linear 8.0 xpos 0 ypos 0
     nvlx "Я попыталась расслабиться и восстановить дыхание."
-    nvlx "Это не так у и просто сделать. Синие огоньки мерцали вокруг меня. {w=0.5}Прикрыв глаза, мне стало чуть чуть спокойнее."
+    nvlx "Это не так уж и просто сделать. Синие огоньки мерцали вокруг меня. {w=0.5}Прикрыв глаза, мне стало чуть чуть спокойнее."
     nvlx "Я нервничала, потому что... я не знала, как эта штука работает. Я не знала, что мне делать."
     nvlx "Я знала, что я должна стоять здесь, и пытаться вспомнить как можно больше о Мэй. {w=0.5}О ней."
     nvlx "Система должна найти эти воспоминания в своих архивах. А когда она мне покажет их, я смогу их модифицировать."
@@ -722,7 +722,7 @@ label start:
     nvlx "Именно мой дефект... {w=0.5}привёл к твоей смерти."
     nvlx "Это я во всём виновата."
     nvlx "Я наконец вспомнила."
-    nvlx "Что я чувствовала в тот день... я старалась забыть все мои проблемы."
+    nvlx "Вспомнила что я чувствовала в тот день... я старалась забыть все мои проблемы."
     nvlx "Здесь... Я вернула их... эти чувства."
     nvlx "Мэй... Ты умерла, но я всега буду помнить тебя."
     nvlx "Всегда!"
@@ -738,64 +738,64 @@ label start:
     nvlx "Зачем я остановила её? Я чувствовала, словно я сама себе дала пощёчину за этот глупый поступок."
     scene maememory with dissolve
     nvlx "Она взглянула на меня, но на этот раз в её взгляде не было хитрости или раздражения. Был только интерес."
-    nvlx "I remember back those days. The young version of me looking at her, wearing the same smile."
-    nvlx "I guess I was just too harsh on everybody. Because of the pain I have felt."
-    nvlx "I haven't sold my soul to the devil. I have just taken it away, locked it somewhere I can't find it, and pretended I can live without it."
-    nvlma "Why? Do you want something, by any chance?"
-    nvlx "Her memory seems to have been cleared, as if she doesn't remember she'd mocked me, or had insulted me."
-    nvlmi "Please stay."
+    nvlx "В прошлом, будучи молодой, я смотрела на неё с тем же выражением лица. (!I remember back those days. The young version of me looking at her, wearing the same smile.!)"
+    nvlx "Думаю, я была слишком резка по отношению ко всем. Из за чувства боли."
+    nvlx "Я не продала свою душу дьяволу. Я просто заперла ее где-то, где я её не смогла бы найти, и сделала вид, что я могу жить без неё."
+    nvlma "Почему ты остановила меня? Я тебе понадобилась?"
+    nvlx "Похоже, её память была стёрта, как если бы она не помнила, как она оскорбляла меня. (!Her memory seems to have been cleared, as if she doesn't remember she'd mocked me, or had insulted me.!)"
+    nvlmi "Пожалуйста, не уходи."
     nvl clear
-    nvlmi "Here in this memory chamber, I'll recover our memories..."
-    nvlmi "... and make them less painful."
-    nvlmi "That way, you can finally rest in peace..."
-    nvlmi "Sorry, Mae. I have to do this."
-    nvlmi "It's both for your sake, and mine."
-    nvlma "Do you not mind the casualties? The anger the people will set upon onto you?"
-    nvlma "You know clearly that by doing this, lots of people will be affected."
-    nvlma "Since all these memories are linked, one change will set upon a chain reaction."
-    nvlx "I smile to her sweetly. I wish she have seen this before she died..."
+    nvlmi "Здесь, в этой камере, я восстановлю нашу память..."
+    nvlmi "... и сделаю её менее болезнеееой."
+    nvlmi "Таким образом, ты наконец сможешь обрести покой..."
+    nvlmi "Мне жаль, Мэй. Я должна это сделать."
+    nvlmi "Как для твоего блага, так и для моего."
+    nvlma "Не возражаешь против такой жертвы? The anger the people will set upon onto you?"
+    nvlma "Ты прекрасно понимаешь, твои действия повлияют на многих людей. You know clearly that by doing this, lots of people will be affected."
+    nvlma "Так как все воспоминания связаны друг с другом, одно изменение создаст на цепную реакцию."
+    nvlx "Я улыбаюсь ей. Я хочу, чтобы прежде чем она умерла, она увидела мою улыбку..."
     scene maeflashback4 with dissolve
-    nvlx "That figure of her under that tree... dead... it doesn't feel at all as if she's dead. She looks like she's just sleeping."
+    nvlx "Под тем большим деревом... её мёртвое тело... ни что не давало понять, что она умерла. Она как будто просто спала."
     scene maememory with dissolve
-    nvlmi "Don't get me wrong. I'm not mad at you, Mae."
-    nvlmi "It's to get this guilty feeling off my chest."
+    nvlmi "Не пойми меня неправильно. Я не сержусь на тебя, Мэй."
+    nvlmi "(!It's to get this guilty feeling off my chest.!)"
     nvl clear
-    nvlmi "You know, ever since you died, it was also a chain reaction."
-    nvlmi "Your death, mom and dad's death, then now..."
-    nvlmi "Joi is dead. I killed him."
-    nvlma "No, don't say that. I killed him."
-    nvlx "Her persistence, unlike a while ago, makes me laugh."
-    nvlmi "Maybe so that we won't argue... We killed him."
-    nvlma "Yep. We did."
-    nvlx "She laughed sweetly, unlike a while ago."
-    nvlx "Yet, there's still this mystery that resides in my mind, but who am I to care?"
-    nvlx "I can see her right in front of me. She's dead, but I can see her."
-    nvlx "She has revived. She was the sister I tried to forget."
-    nvlx "And right now, I don't care if it's a delusion."
+    nvlmi "Знаешь, даже твоя смерть породила цепную реакцию."
+    nvlmi "Твоя смерть, смерть мамы и папы, и потом..."
+    nvlmi "Жуи тоже мёртв. Я убила его."
+    nvlma "Нет, не не так. Это я убила его."
+    nvlx "Ее настойчивость заставило меня засмеяться."
+    nvlmi "В любом случае, давай не будем спорить... Мы убили его."
+    nvlma "Да. Мы убили."
+    nvlx "Она нежно засмеялась, совсем не так, как было раньше."
+    nvlx "В моей голове всё ещё что то не так. Но кто я такая, чтобы меня это волновало?"
+    nvlx "Я вижу её прямо передо мной. Она мертва, но я могу её видеть."
+    nvlx "Но она возродилась. Она была сестрой, которую я пыталась забыть."
+    nvlx "И сейчас, меня не заботит, иллюзия ли она, или нет."
     nvl clear
     scene mimamemory1 with dissolve
-    nvlma "Come, hold my hand. And can you remember, oneesan? What period of they year people repent in their sins to praise a dying Lord?"
-    nvlmi "It was Lent."
-    nvlma "It's Lent now. Try to remember your sins, and repent for them."
-    nvlma "The action of remembering is already a sign of repentance."
-    nvlma "It's the only way."
+    nvlma "Возьми меня за руку. Ты помнишь, онээсан? В какие дни люди должны каяться в своих грехах?!"
+    nvlmi "В пост."
+    nvlma "Сейчас пост. Вспомни свои грехи и покайся в них."
+    nvlma "Вспоминая свои грехи, ты уже каешься в них."
+    nvlma "Таков единственный путь."
     scene mimamemory2 with dissolve
-    nvlmi "It's ironic, you know. You were telling me to kill people a while ago and now you're asking me to pay for my sins."
+    nvlmi "Забавно. Раньше ты предлагала мне убивать людей, а сейчас просишь меня заплатить за мои грехи."
     scene mimamemory3 with dissolve
-    nvlma "Mood changes from one phase to another. It's normal."
-    nvlma "And plus, isn't it that they should repent more?"
-    nvlx "They should... repent more?"
-    nvlx "Does she mean they are the ones that should ask more for... forgiveness?"
+    nvlma "Настроение меняется из одной крайности в другую. Думаю это нормально."
+    nvlma "К тому же, разве не они должны каяться ещё больше?"
+    nvlx "Они должны... каяться больше чем мы?"
+    nvlx "Она имеет ввиду, что они должны больше просить прошения?.."
     nvl clear
-    nvlma "The bigger the sin, the bigger the punishment."
-    nvlma "So they made you a big sin, they should have a repentance and a punishment that's just as heavy as their faults."
-    nvlma "Oh, I'm also sorry for butting in your conversations for the past few days."
-    nvlmi "It's okay."
-    nvlma "So what should we do now?"
-    nvlx "She laughed again."
+    nvlma "Чем больше грехов, тем ужаснее наказание."
+    nvlma "Они совершили по отношению к тебе тяжкий грех, они должны покаяться и понести наказание, равное тяжести их поступков."
+    nvlma "Ох, я также хочу попросить прощения за стычки в разговорах с тобой в последние несколько дней."
+    nvlmi "Всё нормально."
+    nvlma "Что же нам теперь делать?"
+    nvlx "Она вновь засмеялась?"
     scene mimamemory4 with dissolve
-    nvlma "Well, clear everything, that is."
-    nvlma "We still have lots of things to do."
+    nvlma "Это же очевидно."
+    nvlma "У нас есть еще много дел."
     scene black with dissolve
     stop music fadeout 3    
     
@@ -803,56 +803,56 @@ label start:
     play music "darkmystery.mp3"
     centered "Thank you for finishing \"Twin Faces\"!"
     centered "Script, Story, Sprites, and almost everything else\nLumenAstrum"
-    gi "Miss Hartnight, while I was on my way to the records room, I got a report coming from the security personnel of the records room."
-    gh "Hmm? What is it?"
+    gi "Мисс Хатнайт, я только что получила отчет от сотрудников безопасности картотеки."
+    gh "Да? Продолжай."
     show epilogue11 with dissolve
-    gi "The records room were left open. Upon closer inspection and observation, we found out that former Calypso entered the records room."
-    gh "Hmm? And?"
+    gi "Комплекс картотеки был оставлен открытым. После детальной проверки, мы выяснили, что внутрь входила Калипсо."
+    gh "И?"
     show epilogue12 with dissolve
-    gi "Well... how should I explain this..."
-    gi "She was alone."
-    gi "But this is the strange part..."
+    gi "Ну... как бы это сказать..."
+    gi "Она была одна."
+    gi "Это как раз очень странно..."
     scene black with dissolve
     centered "CG Help\nOhMhaiGosh\n(Go see her dA account! She's amazing!)"
     centered "That one odd hallway background\nmugenjohncel\n(I was sorta in a hurry to find another hallway BG...)"
     show epilogue12 with dissolve
-    gh "Hmm. Another addition on the series of strange happenings lately."
-    gi "She entered the memory chamber. But the footage was cut from there."
+    gh "Мм. Еще одно дополнение к серии странных событий происходивших за последнее время."
+    gi "Она вошла в камеру восстановления воспоминаний. И с этого момента запись прерывается."
     show epilogue11 with dissolve
-    gi "But we found somebody else in the memory chamber..."
-    gh "Eh?"
+    gi "Дело в том, что в камере мы нашли кое кого другого..."
+    gh "В смысле?"
     scene black with dissolve
     centered "Music\nJamendo, SENTIVE, Neosounds, wakaba-music, Rengoku Teien"
     centered "Filtered Photographs for BGs\nSamu-kun's photographs and some Japanese site I lost the link into\n(please tell in case you recognize the images ^^;)"
     show epilogue11 with dissolve
-    gi "There was a woman in her teenage years who was lying in the memory chamber."
-    gi "From her records, she was Mae, older sister of Milicent. But then, she died around ten years ago."
-    gi "But from the autopsy results she died around only three hours ever since former Calypso entered the records room."
-    gh "Hmm, it's more or less a technological phenomenon. We can also call the records room as a lab by it's own, considering the information we can get and utilize."
-    gh "It is possible, but... it's quite unlikely."
-    gh "Inspect where this Mae person's old body was placed, then tell me more."
-    gh "Oh, I haven't seen Colonel Marshall a while ago in the meeting. Have you seen him?"
+    gi "Там была девочка подросткового возраста. Она лежала внутри камеры."
+    gi "Как мы выяснили, это была Мэй, старшая сестра Милисии. Но она умерла примерно десять лет назад."
+    gi "Вскрытие показало, что она умерла примерно через три часа после того как Калипсо вошла в камеру."
+    gh "В некоторой степени это могло было быть обусловлено аппаратурой. Картотеку саму по себе можно назвать лабораторией, учитывая данные, которые мы можем получить и использовать."
+    gh "Это возможно, но ... весьма маловероятно."
+    gh "Проверка места нахождения старого тела Мэй даст нам дополнительную информацию."
+    gh "Ох. На собрание не явился полковник Маршалл. Вы не видели его?"
     scene black with dissolve
     centered "Acknowledgements\n\nazureXtwilight - For helping me in that one CG, helping me find music and for pre-reading my script! :D\n\nMy friend Kyle - For pointing out some grammar mistakes (even though there are still a lot right now)\n\nThe LemmaSoft community - For having NaNoReno and this project possible!"
     centered "Done with Ren'Py Visual Novel Engine"
     show epilogue11 with dissolve
-    gi "Actually... {w}I also got another report, General. {w=0.5}He was found in the training fields with a knife stabbed in his chest."
+    gi "На самом деле... {w}Я получила ещё один отчёт, Командующий. {w=0.5}На тренировочных площадках нашли этого человека с ножом в груди."
     show epilogue12 with dissolve
-    gi "But we're still trying to find out everything about this case."
-    gh "Call in Team Spinos to deal with this matter. Dismissed."
-    gi "Yes, General."
-    gi "I'll inform you in case there will be updates about this case."
+    gi "Но мы все еще выясняем, что там произошло."
+    gh "Вызовите команду Спинос, передайте это дело им. Вы свободны."
+    gi "Да, Командир."
+    gi "Я вам сообщу, если появится какая-то новая информация по этому делу."
     play sound "door.wav"
     scene black with dissolve
     centered "I hope you enjoyed this short story I wrote!"
     centered "For anyone who does not get it, playing/reading my other KN \"Soul and Heart\" might help, although there'd be a bit of a spoiler now..."
     centered "Arigato gozaimasu from the Harmonica Vitrea team!"
     show epilogue21 with dissolve
-    gh "So, it has happened now..."
-    gh "I guess I can't really help it."
+    gh "Это должно было когда-то произойти..."
+    gh "Я полагаю я не могу тут чем либо помочь."
     show epilogue22 with dissolve
-    gh "We have to prepare for the worst... if that split personality takes over... we're screwed."
-    gh "But then, I have to pay for it. My family was the reason this entire personality ruckus even started...."    
+    gh "Мы должны готовиться к худшему... если её вторая личность вытеснит основную... то всему конец."
+    gh "В конце концов, мне придётся заплатить за всё. Моя семья была причиной всей этой истории с раздвоением личности..."    
     $ persistent.my_bonus = True
     return
  
