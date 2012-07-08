@@ -1,0 +1,50 @@
+<poem>
+
+label bonus:
+    if not persistent.my_bonus:
+        $ show_button_game_menu = False
+        scene black with dissolve
+        centered "You haven't unlocked this yet..."
+        centered "Please play through the full game to unlock this section!"
+        $ renpy.full_restart()
+        
+    $ show_button_game_menu = False
+    
+    
+label bonusmenu:
+    scene bgbonus
+    with dissolve    
+    menu:
+        "Creator's Notes":
+            jump firstmenu
+        "CG Gallery":
+            jump gallery
+        "Music Room":
+            jump music_room
+        "Back to Main Menu":
+            return
+            
+label firstmenu:
+    scene black with dissolve
+    nvl clear
+    nvl show dissolve
+    nvlx "Okay, I'll get this straight. I don't really want to bore you with my talk just like in S&H, so I won't be having some sort of choice thingie in here."
+    nvlx "Firstly, the idea for Twin Faces started back before NaNoRenO even started. I wasn't even thinking about NaNoRenO the time I made this."
+    nvlx "All I thought that, while writing Withering Blossoms, Milicent {i}has{/i} to be understood somehow.{w} I mean, duh! Lots of people who played S&H didn't get her."
+    nvlx "And the only way for her to be understood is to see things in her view."
+    nvlx "It was hard writing for a, well, delusional girl. Notice her sudden change of attitude, sudden change of mind, and well, screw it. I sucked, right?"
+    nvl clear
+    nvlx "Second, her name, Milicent, doesn't really mean anything important or anything that signifies her attitude. It is more of a personal thing."
+    nvlx "If you remember someone named \"mint-and-chocolate\" back at the LemmaSoft forums (if you are a LSF member), well, it's something concerning our friendship, which broke several days after she joined in on the forums because of an issue back at school."
+    nvlx "She's also making a VN and she also has a character named Milicent. But I guess making that disgusts her because I am also making one, so my Milicent is some sort of a tribute to our friendship."
+    nvl clear
+    nvlx "Third, Mae means \"before\" in Japanese. It symbolizes her connection with Milice's past and her Musica Syndrome as well."
+    nvlx "I really wanted it Japanese because as a Musica Syndrome \"patient\", she knows Japanese culture the best, so I guess I have to connect that."
+    nvl clear
+    nvlx "Fourth, any plot hole in the story is either intentional or a big mistake. Go figure it out."
+    nvlx "Well, delusions are confusing as well, so they're almost the same."
+    nvlx "I hope you enjoyed reading this as much as I enjoyed making it. ^^"
+    nvl clear
+    jump bonusmenu
+    
+</poem>
