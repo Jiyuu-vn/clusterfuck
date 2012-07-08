@@ -4,8 +4,8 @@ label bonus:
     if not persistent.my_bonus:
         $ show_button_game_menu = False
         scene black with dissolve
-        centered "You haven't unlocked this yet..."
-        centered "Please play through the full game to unlock this section!"
+        centered "На данный момент, бонусы заблокированы."
+        centered "Пожалуйста, пройдите игру, чтобы разблокировать их!"
         $ renpy.full_restart()
         
     $ show_button_game_menu = False
@@ -15,35 +15,35 @@ label bonusmenu:
     scene bgbonus
     with dissolve    
     menu:
-        "Creator's Notes":
+        "Заметки создателя":
             jump firstmenu
-        "CG Gallery":
+        "Галерея":
             jump gallery
-        "Music Room":
+        "Музыка":
             jump music_room
-        "Back to Main Menu":
+        "Вернуться в главное меню":
             return
             
 label firstmenu:
     scene black with dissolve
     nvl clear
     nvl show dissolve
-    nvlx "Okay, I'll get this straight. I don't really want to bore you with my talk just like in S&H, so I won't be having some sort of choice thingie in here."
-    nvlx "Firstly, the idea for Twin Faces started back before NaNoRenO even started. I wasn't even thinking about NaNoRenO the time I made this."
-    nvlx "All I thought that, while writing Withering Blossoms, Milicent {i}has{/i} to be understood somehow.{w} I mean, duh! Lots of people who played S&H didn't get her."
-    nvlx "And the only way for her to be understood is to see things in her view."
-    nvlx "It was hard writing for a, well, delusional girl. Notice her sudden change of attitude, sudden change of mind, and well, screw it. I sucked, right?"
+    nvlx "Скажу вам прямо. Я не хочу утомлять вас долгими разговорами, как это было в Soul & Heart. На этот раз я не буду предлагать вам что либо выбирать."
+    nvlx "Во-первых, идея Twin Faces появилась до появления NaNoRenO. Я даже не думала о NaNoRenO, тогда, когда я делала это"
+    nvlx "Во время написания Withering Blossoms, главное для меня было то, чтобы Милисия была более менее разъяснена.{w} Потому что многие люди, которые играли в Soul & Heart так её и не поняли."
+    nvlx "Единственный способ что бы её смогли понять - посмотреть на вещи с её точки зрения."
+    nvlx "Было не просто писать от лица такой... бредовой девушки. Обратите внимание на ее внезапные изменения мироощущения, внезапные изменения в сознании."
     nvl clear
-    nvlx "Second, her name, Milicent, doesn't really mean anything important or anything that signifies her attitude. It is more of a personal thing."
-    nvlx "If you remember someone named \"mint-and-chocolate\" back at the LemmaSoft forums (if you are a LSF member), well, it's something concerning our friendship, which broke several days after she joined in on the forums because of an issue back at school."
-    nvlx "She's also making a VN and she also has a character named Milicent. But I guess making that disgusts her because I am also making one, so my Milicent is some sort of a tribute to our friendship."
+    nvlx "Во-вторых, её имя, Милисия (Milicent), не отражает ничего значащего для её мировоззрения. Для меня это чуть более личное."
+    nvlx "Если вы член форума LemmaSoft и помните кого то с именем \"mint-and-chocolate\", зайдите на этот форум. Это касается нашей дружбы, начавшейся через несколько дней после того, как она вступила в на этот форум из-за школьных проблем."
+    nvlx "Она так же делает визуальные новеллы, и у неё так же есть персонаж по имени Милисия (Milicent). Возможно её это возмутит, но я сделала персонажа с тем же именем Милисия (Milicent), чтобы отдать дань нашей дружбе."
     nvl clear
-    nvlx "Third, Mae means \"before\" in Japanese. It symbolizes her connection with Milice's past and her Musica Syndrome as well."
-    nvlx "I really wanted it Japanese because as a Musica Syndrome \"patient\", she knows Japanese culture the best, so I guess I have to connect that."
+    nvlx "В-третьих, имя Мэй(Mae) означает на японском \"раньше\" (яп. Маэ). Это символизирует её связь с прошлым Милисии и её музыкальным синдромом (Musica Syndrome)."
+    nvlx "Я хотела связать её имя с Японией, так как будучи \"больной\" музыкальным синдромом, она лучше других знакома с японской культурой."
     nvl clear
-    nvlx "Fourth, any plot hole in the story is either intentional or a big mistake. Go figure it out."
-    nvlx "Well, delusions are confusing as well, so they're almost the same."
-    nvlx "I hope you enjoyed reading this as much as I enjoyed making it. ^^"
+    nvlx "В-четвёртых, каждая недосказанность в этой истории или преднамеренна, или является действительно большой моей ошибкой. Так что разбирайтесь."
+    nvlx "Галлюцинации хоть и сильно сбивают с толку, но всё же они почти одинаковы."
+    nvlx "Надеюсь, вам понравилось читать новеллу настолько же, насколько мне понравилось её делать. ^^"
     nvl clear
     jump bonusmenu
     
