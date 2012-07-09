@@ -1,4 +1,5 @@
 <poem>
+<nowiki>
 # You can place the script of your game in this file.
 
 # Declare images below this line, using the image statement.
@@ -854,5 +855,5 @@ label start:
     gh "В конце концов, мне придётся заплатить за всё. Моя семья была причиной всей этой истории с раздвоением личности..."    
     $ persistent.my_bonus = True
     return
- 
+</nowiki>
 </poem>
