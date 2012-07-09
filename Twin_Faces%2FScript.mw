@@ -800,8 +800,8 @@ label start:
     
     $renpy.pause(3)
     play music "darkmystery.mp3"
-    centered "Thank you for finishing \"Twin Faces\"!"
-    centered "Script, Story, Sprites, and almost everything else\nLumenAstrum"
+    centered "Благодарим за прохождение игры \"Twin Faces\"!"
+    centered "Скрипт, история, спрайты, и почти всё остальное\nLumenAstrum"
     gi "Мисс Хатнайт, я только что получила отчет от сотрудников безопасности картотеки."
     gh "Да? Продолжай."
     show epilogue11 with dissolve
@@ -812,8 +812,8 @@ label start:
     gi "Она была одна."
     gi "Это как раз очень странно..."
     scene black with dissolve
-    centered "CG Help\nOhMhaiGosh\n(Go see her dA account! She's amazing!)"
-    centered "That one odd hallway background\nmugenjohncel\n(I was sorta in a hurry to find another hallway BG...)"
+    centered "Помощь в компьютерной графике\nOhMhaiGosh\n(Посмотрите её dA аккаунт! Она потрясающая!)"
+    centered "Фоновое изображение странного коридора\nmugenjohncel"
     show epilogue12 with dissolve
     gh "Мм. Еще одно дополнение к серии странных событий происходивших за последнее время."
     gi "Она вошла в камеру восстановления воспоминаний. И с этого момента запись прерывается."
@@ -821,8 +821,8 @@ label start:
     gi "Дело в том, что в камере мы нашли кое кого другого..."
     gh "В смысле?"
     scene black with dissolve
-    centered "Music\nJamendo, SENTIVE, Neosounds, wakaba-music, Rengoku Teien"
-    centered "Filtered Photographs for BGs\nSamu-kun's photographs and some Japanese site I lost the link into\n(please tell in case you recognize the images ^^;)"
+    centered "Музыка\nJamendo, SENTIVE, Neosounds, wakaba-music, Rengoku Teien"
+    centered "Обработка фотографий для фоновых изображений\nSamu-kun's\nФотографии были взяты с некоторых японских сайтов, ссылки на которые были утеряны\n(Сообщите, если вы узнаете изображения ^^;)"
     show epilogue11 with dissolve
     gi "Там была девочка подросткового возраста. Она лежала внутри камеры."
     gi "Как мы выяснили, это была Мэй, старшая сестра Милисии. Но она умерла примерно десять лет назад."
@@ -832,8 +832,8 @@ label start:
     gh "Проверка места нахождения старого тела Мэй даст нам дополнительную информацию."
     gh "Ох. На собрание не явился полковник Маршалл. Вы не видели его?"
     scene black with dissolve
-    centered "Acknowledgements\n\nazureXtwilight - For helping me in that one CG, helping me find music and for pre-reading my script! :D\n\nMy friend Kyle - For pointing out some grammar mistakes (even though there are still a lot right now)\n\nThe LemmaSoft community - For having NaNoReno and this project possible!"
-    centered "Done with Ren'Py Visual Novel Engine"
+    centered "Благодарю\n\nazureXtwilight - за помощь в компьютерной графике, за помощь в поиске музыки и за проверку моего скрипта! :D\n\nKyle - за указание некоторых грамматических ошибок (хотя и сейчас их много осталось)\n\nСообщество LemmaSoft - за предоставление NaNoReno и за возможность создать этот проект!"
+    centered "Игра создана при помощи Ren'Py Visual Novel Engine"
     show epilogue11 with dissolve
     gi "На самом деле... {w}Я получила ещё один отчёт, Командующий. {w=0.5}На тренировочных площадках нашли этого человека с ножом в груди."
     show epilogue12 with dissolve
@@ -843,9 +843,9 @@ label start:
     gi "Я вам сообщу, если появится какая-то новая информация по этому делу."
     play sound "door.wav"
     scene black with dissolve
-    centered "I hope you enjoyed this short story I wrote!"
-    centered "For anyone who does not get it, playing/reading my other KN \"Soul and Heart\" might help, although there'd be a bit of a spoiler now..."
-    centered "Arigato gozaimasu from the Harmonica Vitrea team!"
+    centered "Надеюсь, вам понравилась эта история!"
+    centered "Прочтение другой моей новеллы \"Soul and Heart\" может помочь вам разобраться. Однако, вы уже прочитали много спойлеров к ней..."
+    centered "Аригато годзаимас от команды Harmonica Vitrea!"
     show epilogue21 with dissolve
     gh "Это должно было когда-то произойти..."
     gh "Я полагаю я не могу тут чем либо помочь."
