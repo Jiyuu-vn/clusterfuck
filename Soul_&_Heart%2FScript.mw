@@ -205,12 +205,12 @@ label splashscreen:
     $ show_button_game_menu = False
     $ renpy.pause(0)
     scene black
-    show text "This is a work of fiction. The similarities to real people, whether living or dead, organizations and symbols are purely coincidental."
+    show text "Все герои являются вымышленными, все совпадения с реальными людьми, событиями, организациями - случайны."
     with dissolve
     with Pause(3.0)
     hide text
     with dissolve
-    show text "Soul and Heart is not written to symbolize, to go against or support any existing political figure or military organization's opinion and beliefs."
+    show text "Целью написания Soul and Heart не является поддержка любых существующих политических фигур, военных организаций или верований."
     with dissolve
     with Pause(3.0)
     hide text
@@ -232,44 +232,44 @@ label start:
     nvl show dissolve
     play music "prologue.mp3"
     lu "..."
-    lu "There's the room!"
-    lu "I scramble to my feet, trying to make it out in the dark."
-    lu "Aaaaah, it's so dusty and dark in here. I can't see anything."
-    lu "I take out my lamp, hoping to see something."
+    lu "Комната..."
+    lu "Темно. Я пыталась подняться на ноги."
+    lu "Ах, здесь так пыльно и темно. Хоть глаз выколи."
+    lu "Я взяла в руки лампу в надежде увидеть хоть что-нибудь."
     nvl clear
     show cg siriusprologue with dissolve
     $ renpy.pause(2)
-    lu "There. Much better."
-    lu "Now, where is the cabinet with the birth information?"
+    lu "Во. Так намного лучше."
+    lu "Так... Где же здесь помещение с информацией о рождениях?"
     lu "..."
     scene cg siriusprologue2 with dissolve
-    nvls "There it is!"
-    nvls "Now where are the files under \"S\"?"
-    lu "This is my only chance to find out who my parents are!"
+    nvls "Нашла!"
+    nvls "Файлы начинающиеся с \"С\"..."
+    lu "Сейчас мой единственный шанс выяснить кто мои родители!"
     scene cg siriusprologue3 with dissolve
-    lu "I can't risk being caught or else I'll end up in jail!"
-    nvls "Wow, so many people have a name starting with \"S\"...."
-    nvls "No file with the name of \"Sirius\"?"
+    lu "Я не могу рисковать быть пойманной, иначе меня посадят в тюрьму!"
+    nvls "Вау, так много людей, имя которых начинается на \"С\"..."
+    nvls "И ни одного файла с именем \"Сириус\"?"
     play sound "door.wav"
-    lu "Suddenly, I hear the door open and I flinch as I turn around."
+    lu "Внезапно, я услышала звук открывающейся двери, я вздрогнула и обернулась."
     scene cg siriusprologue4 with dissolve
-    nvls "Ahh!"
-    nvls "Who's there? I'm armed!"
-    lu "I desperately point my gun and lamp into the sheer darkness."
-    lu "I only stole this gun. And the lamp, well... {w}I stole it too."
-    lu "I can't risk anybody stopping me!"
-    lu "I have to know who they are!"
+    nvls "Ах!"
+    nvls "Кто здесь? Я вооружена!"
+    lu "Я отчаянно свила лампой и целилась в темноту."
+    lu "Я стащила этот пистолет. Как и лампу... {w}Я украла их."
+    lu "Я не могу позволить кому-либо остановить меня!"
+    lu "Я должна узнать, кто они!"
     scene black with dissolve
     nvl clear
-    lu "I go back into the files where I can't find one with my record in it."
-    lu "Damn, it's taking me too long... I have to find that file now!"
-    nvls "Aha!"
-    lu "I found it! Finally!"
-    lu "Now where is that file--?"
+    lu "Я вернулась к тем файлам, среди которых я искала свою запись."
+    lu "Чёрт, слишком долго... я должна поторопиться!"
+    nvls "Ага!"
+    lu "Нашла!"
+    lu "Теперь, где нужные мне данные?"
     play sound "guncock.wav"
     lu "..."
-    nvln "Hey, miss stealer-girl."
-    lu "I turn around and see a gun pointed at me."
+    nvln "Эй, мисс воровка."
+    lu "Я обернулась и увидела целящийся в меня пистолет."
     nvl clear 
     scene cg guard1 with dissolve
     nvlg "You thought you were invisible, huh... Well, I saw you scrambling over to the room after your work shift."
