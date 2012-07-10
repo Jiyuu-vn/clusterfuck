@@ -1,293 +1,202 @@
-[[Tsukihime|[Назад]]]
-
-<pre>
 *s270
 
-; ???? : ?????? : ?????(?)<????>
 bg "image\bg\bg_27b.jpg",%type_nowaitdisp
+`«...»@
+` Ясно.@
+` Мне на это возразить нечего.@
+` Нечего, но...\
+` — Слушай, не ходи ты туда!@ Там Арквейд!@
+`  Ты же знаешь, что она тебя ненавидит?@ Я не хочу чтобы вы встретились!@
 
-`"-------"@
-` I see.@
-` Certainly, I don't really have the right to say anything about that.@
-` I don't have the right, but---\
-
-`"Look, just don't go!@ Arcueid is in the park!@
-` You know how she detests you, right?@ So I can't let the two of you meet!"@
-
-; ??<?>=???:?01(????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-
-`"Oh?@ Are you worried about me?"@
-`"Of course, I don't want to see the two of you fight.@ I'm begging you, please just go back!"\
-
-`"--Oh.@ I see, you're not worried about me, but you're worried about her, right?"@
+` — О?@ Ты обо мне волнуешься?@
+` — Конечно. Я не хочу, чтобы вы дрались.@ Умоляю, просто иди домой!\
+` — ...О.@ Ясно. Ты не обо мне волнуешься, а о ней, так?@
 br
-` Looking off into the distance, she completely ignores what I say.@
+` Она игнорирует мои слова с отрешённым видом.@
 br
-` ...... For some reason,
-` it seems she is doing all this intentionally because she enjoys teasing me.\
-
-`"...... Senpai.@ Don't tell me, you're still carrying a grudge from this morning......?"@
-` She just smiles and doesn't say anything.@
-` ...... She's angry.@
-` That face is unmistakably carrying a grudge.\
-
-`"...... I get it, everything this morning was completely my fault.@ I'm sorry.@
-` So---"@
-`"If you tell me to go back because of that, I'll beat you down Tohno-kun."@
-`"......... Huh?"@
-`"Tohno-kun.@ We're still fighting right now.@ It seems I'm still angry, so it isn't easy to just talk calmly."\
-
-`"Um...... Senpai?"@
-`"If you went back, we could make up, but I know that's impossible.@
-; ??<?>=???:?01(????????)<???????(?)>
+` Почемуто...
+` мне кажется, что она это делает нарочно, потому что ей просто нравится меня дразнить.\
+` — Семпай...@ Ты что, всё ещё сердишься из-за того, что случилось утром?..@
+` Она просто молча улыбается.@ ;улыбаемся и машем, улыбаемся и машем…
+` И впрямь сердится.@
+` На лице написано.\
+` — Ладно, я был неправ.@ Прости.@
+`  Так что...@
+` — Тоно-кун, если ты мне сейчас скажешь, чтобы я из-за этого шла домой, то я тебя побью.@
+` — Э?..@
+` — Тоно-кун.@ Мы с тобой всё ещё в ссоре.@ Я, похоже, всё ещё злюсь и мне очень непросто говорить спокойно.\
+` — Э... Семпай?@
+` — Если бы ты сейчас развернулся и пошёл назад, то мы могли бы помириться, но я знаю, что это невозможно.@
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-` So this conversation is meaningless.@
-` There is no need for you to apologize.@ I'm not concerned with what happened this morning."@
-` She looks at me with those eyes devoid of any emotion.\
-
-`"My duty is to hunt down vampires.@ Anything else is trivial."@
-; ?????<??????(?)>
+`  Значит говорить бесполезно.@
+`  Не нужно извиняться.@ Меня это утро совершенно не волнует.@
+` Её взгляд совершенно лишён эмоций.\
+` — Охотиться на вампиров — мой долг.@ Всё остальное не имеет значения.@
 cl c,%type_lshutter_mid
 br
-` Senpai walks into the park.@
-`"Hey---Senpai!"\
+` Семпай без тени сомнения заходит в парк.@
+` — Эй, Семпай!..\
 
-; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
-;CD-DA??
 playstop
 
-; ??A(?)<?????(?)>
 bg "image\bg\bg_28b.jpg",%type_lcartain_mid
-
-` She crosses through the park.@
-` As expected, she's heading right towards where Arcueid is waiting.\
-
-`"Wait a minute.@ Why are you so angry, Senpai!?"@
-; ??<?>=???:?01(????????)<???????(?)>
+` Она пересекает его, не останавливаясь ни на секунду.@
+` Как я и думал, она идёт туда, где меня ждёт Арквейд.\
+` — Подожди.@ Ты почему злишься, Семпай?!@
 ld c,":a;image\tachi\cel_t07b.jpg",%type_lshutter_fst
-
-`"---I'm not angry.@ How about yourself?@ If you come with me, won't she misunderstand things?"@
-`"Misunderstand---misunderstand what?"@
-`"Don't you like her?@ Then, I don't think you should be with me, someone who is her enemy."\
-
-`"Wha...... it's not like I like her......"@
+` — ...Я не злюсь.@ А ты не боишься идти со мной?@ Она ведь может и неправильно понять.@
+` — Неправильно понять... Что именно?@
+` — Тебе разве она не нравится?@ Тогда тебе не стоит быть со мной — её врагом.\
+` — Что... Я б не сказал, что она мне прямо таки нравится...@ ;расти предложение большое и маленькое *__*
 br
-` I can't say for sure though.@
-` I don't know for sure what I truly feel, but I'm sure I am attracted to her.\
+` Но точно сказать я не могу.@
+` Я не знаю, что именно я чувствую, но меня к ней определённо влечёт.\
 
-; ??<?>=???:?01(????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-
-`"You really can't lie even to yourself, can you?@ I think you are far too honest."@
-` For a brief instant, her mask reveals a sigh.\
-
-`"But, it really is better if we separate here.@ We are no longer friends, and if Arcueid were to see us---"@
+` — Ты и впрямь не можешь себе врать?@ Ты слишком честен.@
+` Она вздыхает, на миг потеряв свою непроницаемую маску.\
+` — Но нам и в правду стоит здесь разделиться.@ Мы больше не друзья, и если Арквейд увидит нас вместе...@
 br
-`"Hm?@ What would happen, Ciel?"@
-;CD-DA???????
+` — Мм?@ И что же случится, Сиэль?@
 play "*6"
-
 br
-`"----!"@
-; ?????<???????(?)>
+` — ...!@
 cl c,%type_crossfade_fst
-` We both turn around towards the voice behind us.@ There we see---Arcueid, who seems to be in a particularly bad mood.\
+` Голос раздался из-за спины.@ Развернувшись, мы видим... Арквейд, у которй явно очень плохое настроение.\
 
-; ?<?>=??????:??01(??????????)<??????(?)>
 ld l,":a;image\tachi\ark_t05b.jpg",%type_lshutter_fst
-`"How surprising.@ I came because I heard Shiki's voice and I find you here.@
-` Didn't we already share our information yesterday?@ I don't believe you have anything to do with me anymore."@
-; ?<?>=???:??02(?????????)<???????(?)>
+` — Как удивительно.@ Я сюда пришла, потому что услышала голос Шики. И что же я вижу? Тебя.@
+`  Мы разве вчера не закончили переговоры?@ Или у тебя ко мне ещё какое-то есть дело?@
 ld r,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"Yes, I don't have anything to do with you anymore.@ I was just pointing things out to him."\
-
-`"Oh really?@ You intend on stealing my partner?"@
-`"...... That sounds good too.@ I still owe you from that one injury you gave me."@
-; ?????<???????(?)>
+` — Верно, нам с тобой больше делать нечего.@ Я просто говорила с ним.\
+` — Вот как?@ Хочешь украсть моего напарника?@
+` — Звучит неплохо.@ Я ещё тебе не отплатила за ту рану.@
 cl c,%type_crossfade_fst
-
 \
-
 ` The situation is critical between the two of them.@
 br
-` As the one standing between them, I can't just watch.@
-` ...... Looking at this problem, our relative locations are Senpai, me, then Arcueid.@
-` And if the two of them fight, I would be right in the middle of it.\
-
-`"You two, why are you glaring at each other?@ Your goal is the same, so calm down and......"@
-; ?<?>=??????:??01(??????????)<??????(?)>
+` Я прямо между ними, и просто смотреть как всё обернётся не могу.@
+` Если учесть все их проблемы, и где находятся Семпай и Арквейд...@
+` Если они начнут драться, то я буду прямо в эпицентре.\
+` — Почему вы друг на друга так смотрите?@ У вас одна цель, так что успокойтесь и...@
 ld l,":a;image\tachi\ark_t05a.jpg",%type_crossfade_fst
+` — Помолчи, Шики!@
 
-`"Be quiet Shiki!"@
-
-; ?<?>=???:??02(?????????)<???????(?)>
 ld r,":a;image\tachi\cel_t06b.jpg",%type_crossfade_fst
+` — Пожалуйста, не вмешивайся, Тоно-кун!@
+`«...»@
+` Провал.@
+` Похоже просто поговорить с ними не выйдет.\
 
-`"Please be quiet Tohno-kun!"@
-`"-------"@
-` ...... I failed.@
-` I tried to talk to them but it doesn't seem to have worked.\
-
-; ?<?>=??????:??01(??????????)<??????(?)>
 ld l,":a;image\tachi\ark_t05a.jpg",%type_crossfade_fst
-`"--Fine.@ Shiki seems to care for you, so I will let you go.@
-` I won't attack you so just disappear."@
-`"...... That's surprising.@ Is he that important to you?@
-` I didn't think Arcueid Brunestud could be concerned with anything other than killing vampires."\
+` — Ладно...@ Шики о тебе, похоже, волнуется, так что я тебя отпущу.@
+`   Просто сгинь с глаз моих.@
+` — Удивительно.@ Он тебе настолько важен?@
+` Вот уж не думала, что Арквейд Брюнстад волнует что-то кроме охоты на вампиров.\
 
-; ?<?>=??????:??01(??????????)<??????(?)>
 ld l,":a;image\tachi\ark_t05c.jpg",%type_crossfade_fst
+`«...»@
+` — Тебе ведь так легко управлять людьми.@
+`   Если тебе нужна была помощь, то почему ты просто не подчинила его себе?@
 
-`"------"@
-`"For you, controlling humans comes easily.@
-` It would be better for you to just make him your servant if you wanted help, Arcueid, but why haven't you done that?"@
-
-; ?<?>=??????:??01(??????????)<??????(?)>
 ld l,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
-
-`"---Don't joke about such things.@ Shiki is my partner.@
-` Even if I don't do that, he still says he will help me."@
-` Arcueid looks away uneasily.@
-` That murderous intent seems to have disappeared.\
-
-`"---Arcueid.@ Don't tell me, you..."@
-; ?<?>=??????:??01(??????????)<??????(?)>
+` — Даже не шути об этом...@ Шики мой напарник.@
+`   Даже без этого он готов мне помогать.@
+` Арквейд растроенно отводит взгляд.@
+` Желание убить, похоже, испарилось.\
+` — Арквейд.@ Ты что...@
 ld l,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-
-; ?<?>=???:??02(?????????)<???????(?)>
 ld r,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-
-`"You---really want to suck his blood?"@
-` Cling.@
-` From Senpai's direction I hear the sound of solid metal.\
-
-`"...... I see.@ I was surprised you were interested in humans, but that does not really matter.@
-` If you desire the blood of humans, then there is only one thing to do."@
-` Cling.@ The sound springs forth from her hand.@
-` Numerous swords, like long nails, are there.\
-
-`"...... Hey, Senpai......!?"@
-; ?<?>=???:??02(?????????)<???????(?)>
+` — Ты... Хочешь выпить его кровь?@
+` Звяк.@
+` Звук металла раздался со стороны семпай.\
+` — Ясно...@ Я была удивлена твоим интересом к людям, но теперь это не важно.@
+`   Если ты хочешь человеческой крови, то мне остаётся только одно.@
+` Звяк.@ Звук доносится из её руки.@
+` Словно очень длинные ногти, в ней виднеются лезвия нескольких мечей.\
+` — Эй, Семпай?!..@
 ld r,":a;image\tachi\cel_t06b.jpg",%type_crossfade_fst
+` — Тоно-кун, будь добр, отойди.@
+`   Я только что убедилась, что она и впрямь вампир.@ Даже истинный предок, сотрудничающий с церквью, возжелав крови становится нашим врагом.@
+`   Я её уничтожу, пока не появились жертвы.\
 
-`"Tohno-kun, please back away.@
-` Just now, I have confirmed that she truly is a vampire.@ Even if she is a True Ancestor that cooperates with the Church, once she desires blood, she becomes our enemy.@
-` Before any victims appear, I will terminate her here."\
-
-; ?<?>=??????:??01(??????????)<??????(?)>
 ld l,":a;image\tachi\ark_t05c.jpg",%type_crossfade_fst
+` — Какую же ты несёшь чепуху, когда тебе не отвечают.@
+`   Ну ладно, хочешь умереть, так я тебе помогу в этом.@ Не часто мне доводиться убить кого-то дважды.@
+` Её глазы полны желания убить.@
+` Семпай встречает её взгляд в боевой стойке.\
 
-`"---You really do speak nonsense when people do not answer you, Ciel.@
-` Very well, if you want to die, then I will grant your wish and kill you.@ It's not often I get to kill the same person twice."@
-` Her eyes flare with the intent to kill.@
-` Senpai receives Arcueid's stare in her fighting stance, swords at the ready.\
-
-;S.E."??"
 wave se0
-
-` Freezing.@
-` The air feels like it is freezing, and I can hardly breathe.@
+` Замер.@
+` Воздух словно замер. Мне тяжело дышать.@
 br
-` ---This isn't good.@
-` They really will kill each other like this.\
+` Плохо...@
+` Они так друг друга и впрямь поубивают.\
+` — Да подождите же вы, пожалуйста...@ Успокойтесь я сказал!@
+` Я кричу, игнорируя напряжение, повисшее в воздухе.@
 
-`"...... Wait you two, please.@ I said to calm down......!"@
-` Ignoring the tension in the air, I yell out.@
-
-
-; ?<?>=??????:??01(??????????)<??????(?)>
 ld l,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-; ?<?>=???:??02(?????????)<???????(?)>
 ld r,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-
-`"----"@
-`"----"@
-` For an instant, they both stop.@
-; ?????<??????(?)>
+`«...»@
+`«...»@
+` На миг они остановились.@
 cl a,%type_lshutter_fst
 \
-
-` After that, the sound of two feet kicking the earth.@
+` И сразу же раздался звук ног, отталкивающихся от земли.@
 br
-` ---My shout must have triggered the start.@
+` Мой крик, похоже, спровоцировал начало.@
 br
-` The white and black figures crash into each other as if they were two magnets of opposite polarity.\
+` Чёрная и белая фигуры столкнулись друг с другом словно два магнита.\
 
-; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-
-` The fight between the two of them is beyond me.@
-` Arcueid's body movement isn't something I can track with my eyes.@
-` All I can see is a white blur running through the night.@
-` What's surprising is that Senpai does not even back off seeing Arcueid's speed.\
-
-` It's not like Senpai moves with Arcueid's amazing speed.@
-` But she accurately deflects Arcueid's blazing attacks while standing on the ground.@
+` Их бой тяжело описать словами.@
+` Движения Арквейд столь быстры, что мне за ними не уследить.@
+` Я лишь вижу размытое белое пятно, мчащееся сквозь ночь.@
+` Однако же Семпай, как ни странно, не отступает перед лицом столь быстрого соперника.\
+` Не то чтобы она могла двигаться с той же безумной скоростью.@
+` Но она умело отражает все атаки Арквейд, не отступая ни на пядь.@
 br
-` As a third person looking on, their strengths are equal.@
-` However, just like Senpai said, Arcueid's power seems limitless.\
+` Их силы кажутся равными.@
+` Однако, как Семпай и говорила, силы Арквейд безграничны.\
+` Как бы удивительна не была Семпай она не может преодолеть свой предел.@
+` У Арквейд же, похоже, никаких пределов нет.@
+` По началу Семпай побеждала, но теперь Арквейд уже дерётся с ней на равных и её сила продолжает расти...\
 
-` No matter how amazing Senpai is, her power is not something that goes beyond a certain point.@
-` In contrast, Arcueid seems limitless.@
-` In the beginning, Senpai was overwhelming her, but Arcueid matches her quickly and is now easily surpassing her powers---\
-
-; ??B(?)<?????(?)>
 bg "image\bg\bg_29b.jpg",%type_lcartain_fst
 quakey 4,375
-;S.E."????"
 wave se4
 
+` Бой завершился быстро.@
+` Тело Семпай легко пролетает несколько метров, после чего с глухим ударом начинает катиться по земле словно мешок мусора.\
 
-` The fight is quickly decided.@
-` Senpai's body flies lightly on the air and strikes the ground rolling, like a piece of trash.\
-
-; ??<?>=???:??01(?????????)<??????(?)>
 ld c,":a;image\tachi\cel_t06b.jpg",%type_lshutter_fst
-`"Ka---"@
-` Senpai lets out a cry and stands up.@
-` But that is a useless thing to do.@
-;S.E."?????"
+` — Ka...@
+` С криком она вновь поднимается на ноги.@
+` Но это бесполезно.@
 wave se9
 
-; ?????<??????(?)>
 cl c,%type_tshutter_fst
-;S.E."????"
 wave se4
+` Словно выстрелом из невидимой пушки её вновь поднимает в воздух, чтобы снова ударить о земь.@
 
-` Senpai's body seems to be shot out by an invisible cannon and flies into the air once more, and hits the ground.@
-
-
-` She lies there, not moving.@
-` Blood flows along the park's brick pathway.\
-
-;S.E."??"
+` Она лежит где упала, не шевелясь.@
+` Кровь течёт по брусчатке.@
 wave se0
-
-`"Sen---pai?"@
-` There's no response.@
-` She seems unconscious.@
-` Arcueid runs towards her----without any mercy, with terrible eyes seemingly bent on slicing Senpai's neck.\
-
-`"------Ah."@
-` I can't speak.@
-` There can be no mistake that Arcueid intends to kill her.@
-` And Senpai can't defend herself.@
-`"------"\
-
-
+` — Сем...пай?@
+` Тишина.@
+` Похоже она потеряла сознание.@
+` Арквейд бежит к ней... Ни капли жалости в глазах, лишь желание рассечь ей шею.\
+` — Аа...@
+` Слова не идут из горла.@
+` Ошибки быть не может, Арквейд собирается убить Семпай.@
+` И она никак не может защититься.@
+`«...»\
 
 
 return
-
-
-</pre>
-
-[[Tsukihime|[Назад]]]
-
-[[Категория:Tsukihime]]
