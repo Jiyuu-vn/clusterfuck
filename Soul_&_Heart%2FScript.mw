@@ -272,81 +272,81 @@ label start:
     lu "Я обернулась и увидела целящийся в меня пистолет."
     nvl clear 
     scene cg guard1 with dissolve
-    nvlg "You thought you were invisible, huh... Well, I saw you scrambling over to the room after your work shift."
-    nvlg "I remember that after your shift, you should be at the agro technology center."
-    nvlg "And I started wondering why there was a gun and a lamp hanging off your waist belt."
+    nvlg "Думаешь, что ты невидимая? Хе... Я видел, как ты выходила после рабочей смены."
+    nvlg "Насколько я помню, после своей смены, ты должна идти в агро-технологический центр."
+    nvlg "Но вот только я заметил фонарик и пистолет у тебя за поясом."
     scene black with dissolve
     $renpy.play('gun.wav')
     with hpunch
     scene cg guard2 with dissolve
-    lu "I aim my gun at him and he shoots beside me, almost hitting."    
-    nvlg "No use, Sirius."
-    nvlg "Or should I say..."
-    nvlg "... convict."
+    lu "Я прицелилась на него, и он сделал предупредительный выстрел. Пуля почти задела меня."
+    nvlg "Бесполезно, Сириус."
+    nvlg "Хотя наверное лучше уже называть тебя..."
+    nvlg "... заключённая."
     nvl clear
-    nvls "No... way..."
-    nvls "There's no way you have a license to turn me over!"
-    nvls "Even though you caught me, so what? You don't have the rights to turn me over, {i}guard{/i}."
-    lu "Despite my warning, he just laughs at me."
-    lu "What is this guy getting into!?"
-    nvlg "Heh. That can't stop me."
-    nvlg "I can just ask a member of the police force to turn you over."
-    nvlg "Whether I have the right or not, you still committed a crime."
-    nvlg "And a fucking license won't stop me."
+    nvls "Ни за что..."
+    nvls "У тебя нет лицензии! Ты не можешь меня остановить!"
+    nvls "Даже если ты схватишь меня, что дальше? У тебя нет права меня остановить, {i}солдат{/i}."
+    lu "Несмотря на мои предупреждения, он только смеялся надо мной."
+    lu "О чём он думает?!"
+    nvlg "Эй. Это тебя не спасёт."
+    nvlg "Я могу просто вызвать полицию."
+    nvlg "Могу ли я иметь право или нет - дело не меняет. Ты все равно совершила преступление."
+    nvlg "Так что это чёртова лицензия не остановит меня."
     nvl clear
-    lu "I suddenly have the bravery to stop him, to shoot him before he turns me over."
+    lu "Внезапный приток храбрости подсказал: если я застрелю его прежде чем он помешает мне."
     $renpy.play('gun.wav')
     with hpunch
     scene black with dissolve
-    lu "I shoot and start to dash to the door."
-    lu "He starts to grab at my ankle, which sends me falling to the ground."
+    lu "Я выстрелила, и ринулась в сторону двери."
+    lu "Он ухватился за мою ногу, отчего я упала на землю."
     $ renpy.play('thud.wav')
     with vpunch
-    nvls "Aaah!"
-    nvlg "Go and rot into jail, you bitch!"
-    nvls "No way! I won't let you send me there!"
-    lu "I am desperate to get out of his grasp, to get his oily, dirty hands off me, to get out of this room."
-    lu "Or at least to go back and recheck the file..."
+    nvls "Аа!"
+    nvlg "Гнить тебе в тюрьме, сука!"
+    nvls "Никогда! Я не позволю тебе отправить меня туда!"
+    lu "Я отчаянно пыталась вырваться из его жирных, грязных рук и выбраться наконец из этой комнаты."
+    lu "Или в крайнем случае, вернуться к тем файлам и..."
     $renpy.play('gun.wav')
     with hpunch
-    lu "I shoot at his shoulder. He trembles in excitement as he tightens his grip."
+    lu "Я выстрелила в его плечо. Он затрясся от боли, но ещё сильнее вцепился в меня."
     nvl clear
-    nvls "Aaaah! Get your dirty hands off me, you corrupt beast!"
-    nvlg "Ahh... I'll send you to jail... soon..."
-    lu "I'm really scared."
-    lu "No way will he send me to jail!"
-    lu "I am also shaking as I grab my gun and shoot him in the shoulder one more time."
+    nvls "Ааах! Убери свои грязные руки от меня, гнилая скотина!"
+    nvlg "Ты отправишься в тюрьму... Никуда не денешься..."
+    lu "Я стряслась от страшно."
+    lu "Я ни в коем случае не могла допустить этого!"
+    lu "Поэтому я выстрелила в его плечо ещё раз."
     $renpy.play('gun.wav')
     with hpunch
     $renpy.pause(1)
     nvl clear
-    lu "He writhes in pain as he lessens his grip on my ankle..."
-    lu "I am desperate to escape."
-    lu "I point my gun at him as I step back slowly..."
+    lu "Корчась от боли, он ослабевает свою хватку на лодыжке..."
+    lu "Это мой шанс."
+    lu "Не сводя его с мушки, я медленно делаю один шаг назад..."
     play sound "step.wav"
     $renpy.pause(.5)
-    lu "Slowly..."
+    lu "Медленно..."
     play sound "step.wav"
     $renpy.pause(.5)
-    lu "He is gradually moving towards me..."
+    lu "Он так же постепенно ползёт за мной..."
     play sound "guncock.wav"
     play sound "step.wav"
-    nvlg "Damn... you..."
+    nvlg "Чёрт... тебя побери..."
     play sound "step.wav"
     $renpy.pause(.5)
-    lu "Out of nervousness and fear, I shoot blankly towards him, not sure of what I'm shooting at..."
+    lu "Из за страха и накала нервов, я выстрелила в его сторону, не будучи уверенной куда именно я попаду..."
     $renpy.play('gun.wav')
     with hpunch
     $renpy.pause(1)
     play sound "step.wav"
     $renpy.pause(.1)
     play sound "sigh.wav"
-    lu "I let out a nervous sigh as I run out of the room."
+    lu "Я нервной вздохнула и выбежала из комнаты."
     $ renpy.music.play ("run.wav", channel="my_channel", if_changed=True)
     nvl clear
-    lu "I've lost it."
-    lu "I'm so stupid! Argh!"
-    lu "There goes my only hope of finding out who my parents are!"
+    lu "Всё потеряно."
+    lu "Какая ж я дура! Тьфу!"
+    lu "Это была моя единственная надежда выяснить, кто мои родители!"
     lu "And I'm pretty sure that the guards I knocked out to get access to the room and keycard...{w} and that guard I shot at the records room... {w}will send out a call for back-up."
     lu "And I'd be sent to jail soon..."
     nvl hide dissolve
