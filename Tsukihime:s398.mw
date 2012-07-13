@@ -9,19 +9,19 @@ bg "image\bg\bg_40d.jpg",%type_nowaitdisp
 
 
 
-` ---If I don't sleep tonight, it'll be fine.@
+` Если не спать ночью, всё будет в порядке.@
 br
-`"...... That's right.@ If I don't sleep, and if--"@
-` If there is another victim tomorrow, then for sure, I won't have had anything to do with it.\
+`"Верно. Если я не буду спать, и если..."@
+` Если завтра будет ещё жертва, тогда уж точно я не имел с ним ничего общего.\
 
-`"----Alright."@
-` I do understand this is a bit off course.@
-` I know it's a bit strange staying here and not sleeping, waiting for someone I do not know to be killed.@
-`"---But, what else can I do?"@
-` Since I---my memory is not to be trusted, there is no other way to do this.@
+`"Ладно."@
+` Я понимаю, что это не совсем правильно.@
+` Я знаю, что немного странно оставаться здесь и не спать, ожидая того, что кто-то будет убит.@
+`"Но что ещё я могу сделать?"@
+` Так как я... моей памяти нельзя доверять, нет другого способа сделать это.@
 br
-` ---Anyway.@
-` There is no other way for me to do this than to stay in my room without dreaming and wait until morning.\
+` Как бы то ни было.@
+` Нет другого способа сделать это, кроме как оставаться в своей комнате, не засыпая, и ждать утра.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -33,8 +33,8 @@ bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 br
 br
 br
-` -----Time passes.@
-` I still manage to stay awake.\
+` Время идёт.@
+` Мне удаётся не заснуть.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ?? : ?? : ?????(??)<???????(?)>
@@ -46,8 +46,8 @@ br
 br
 br
 br
-` ----Another hour.@
-` I still manage to stay awake.\
+` Ещё час.@
+` Мне удаётся не заснуть.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ?? : ?? : ?????(??)<???????(?)>
@@ -62,8 +62,8 @@ br
 br
 br
 br
-` -----An hour.@
-` I still, manage... to stay awake.\
+` Час.@
+` Мне удаётся... не заснуть.\
 
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ; ?? : ?? : ?????(??)<???????(?)>
@@ -79,12 +79,12 @@ br
 br
 br
 br
-` ----It is now past one o'clock in the morning.@
+` Уже минул час утра.@
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ; ?? : ?? : ?????(??)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_nowaitdisp
 
-` I... still  manage   to stay    awake.\
+` Мне... удаётся не заснуть.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -101,18 +101,18 @@ br
 br
 br
 br
-` ----In just four hours, it will be morning.\
+` Всего четыре часа, и утро настанет.\
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 ; ?? : ?? : ?????(??)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_nowaitdisp
 
-` ...... Something is wrong.@
-` I am... still  conscious... but...
+` Что-то не так.@
+` Я... всё ещё... в сознании... но...
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ; ?? : ?? : ?????(??)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_nowaitdisp
 
-` ...... My field of vision collapses.@
+` ...Моё поле зрения уменьшается.@
 
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 ; ?? : ?? : ?????(??)<???????(?)>
@@ -122,15 +122,15 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 bg "image\bg\bg_40d.jpg",%type_crossfade_mid
 
 br
-` I must stay up.@
-` I am not sleepy yet, but...
-` Why?@
+` Я должен встать.@
+` Я ещё не сонный, но...
+` Почему?@
 !w750
-` Why?@
+` Почему?@
 !w1350
-` Why?@
+` Почему?@
 !w1750
-` Why does my    body   want   to sleep   this much-----?\
+` Почему моё тело так сильно хочет спать?..\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_tcartain_mid
@@ -148,11 +148,11 @@ waveloop se10
 bg "image\bg\bg_26a.jpg",%type_nowaitdisp
 
 
-` *pant*---*pant*----*pant*\
+` Я тяжело дышу.\
 
-` I feel like I am being watched.@
-` I.@
-` With bloodshot eyes, I look at the people walking down the streets.\
+` Такое чувство, будто за мной наблюдают.@
+` Я.@
+` С налитыми кровью глазами я смотрю на людей, идущих по улицам.\
 
 br
 br
@@ -160,32 +160,32 @@ br
 br
 br
 br
-` ---Maybe it's because of the time?@
-`   Compared to last night, there's hardly anyone around.\
+` Может быть, это из-за времени?@
+` Если сравнить с прошлой ночью, тогда практически никого не было.\
 
-` ...... Someone is watching me.@
-` I can't find what I'm looking for.@
-` Again.@ Tonight, I can't find the person I'm looking for.@
+` Кто-то наблюдает за мной.@
+` Я не могу найти то, что ищу.@
+` Снова.@ Этой ночью я не смог найти человека, которого искал.@
 
 br
 br
 br
 br
 #ff0000
-`      I'm starting to get annoyed.\
+` Я становлюсь раздражённым.\
 #ffffff
 
-` I pant heavily.\
+` Я тяжело дышу.\
 
-` I should change my spot.@
-` I'm going to stop looking in town.\
+` Нужно сменить место.@
+` Я собираюсь прекратить искать в городе.\
 
 ; ???? : ??????? : ???(?)<???????(?)>
 bg "image\bg\bg_24c.jpg",%type_crossfade_fst
 
 
-` I go from roof to roof and end up somewhere crowded.@
-` ...... Looking from the roof of the highest house, I scan the streets.\
+` Я хожу с крыши на крышу, но везде оказывается людно.@
+` Наблюдая с крыши самого высокого здания, я осматриваю улицы.\
 
 br
 br
@@ -195,15 +195,15 @@ br
 br
 br
 #ff0000
-`             Don't look!\
+` Не смотри!\
 #ffffff
 
 
-`"----There."@
-` I see a person walking alone.@
-` A woman.@
-` This time, there can be no mistake...
-` It'll be great if it's Akiha.\
+` — Там.@
+` Я вижу одиноко идущего человека.@
+` Женщина.@
+` На этот раз ошибки быть не может...
+` Будет здорово, если это Акиха.\
 
 #ff0000
 
@@ -214,12 +214,12 @@ br
 br
 br
 br
-`        Don't look at me.\
+` Не смотри на меня.\
 #ffffff
 
-` No, it really doesn't matter.@
-` Once more.@
-` Once more, I want to taste that wonderful sensation----\
+` Нет, в действительности это не имеет значения.@
+` Ещё раз.@
+` Я хочу ещё раз испытать это чудесное чувство...\
 
 
 ; ???<????>
@@ -232,26 +232,26 @@ wave se12
 bg "image\bg\ima_12b.jpg",%type_lshutter_fst
 
 
-` I kill her from behind, taking care not to damage her body.@
-` Holding her long hair, I drag Akiha's body.@
+` Я убил её сзади, постаравшись не повредить тело.@
+` Держа Акиху за длинные волосы, я тащу её тело.@
 
 ; ???? : ??????? : ?(?)<??????(?)>
 bg "image\bg\bg_22c.jpg",%type_lshutter_mid
 
 
 ` *pant*----*pant*----*pant*
-` Biting into Akiha's neck, I suck her blood.@
+` Вонзившись в шею Акихи, я высасываю её кровь.@
 
 br
-` ---Boring.@
-` This is nowhere near as exciting as last night.@
-` If her hair is this short, it's not Akiha at all.\
+` Надоело.@
+` Это совсем не так захватывающе, как прошлой ночью.@
+` Если её волосы такие короткие, это вовсе не Акиха.\
 
-`"...... Boring......!"@
-` I start to get pissed off.\
-` Even though I slice the body into pieces, I'm still mad.@
-` Impostor.@
-` This impostor pisses me off.\
+` — Надоело!..@
+` Я начал впадать в бешенство.\
+` Даже разрезая тело на куски, я не могу успокоиться.@
+` Самозванка.@
+` Эта самозванка меня бесит.\
 
 #ff0000
 
@@ -262,20 +262,20 @@ br
 br
 br
 br
-`         Stop watching me!\
+` Хватит наблюдать за мной!\
 #ffffff
 
-` *pant*----*pant*----*pant*----
+` Я тяжело дышу.
 br
-` I've used up extra energy.@
-` Soon, dawn will arrive.@
-` Once it becomes morning, Shiki will awaken.@
+` Я использовал слишком много энергии.@
+` Скоро наступит рассвет.@
+` Как только настанет утро, Шики проснётся.@
 br
-`"I'm tired tonight.@ I'll start again, tomorrow."@
-` Yeah, that'll do.@ That's what I'll do.\
+` — Я устал этой ночью.@ Продолжу завтра.@
+` Ага, сделаю это.@ Вот что я сделаю.\
 
-` Now then.@
-` Before the morning comes, before any one realizes, I must go back to school----\
+` Итак.@
+` Прежде чем утро настанет, прежде чем кто-нибудь поймёт, я должен вернуться в школу...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
