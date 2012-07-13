@@ -16,56 +16,56 @@ gosub *left_phase
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
 
-` I cannot wake up.@
-` Immersed in a dark dream, I can't wake up.@
+` Я не могу проснуться.@
+` Погружённый в глубокий сон, я не могу проснуться.@
 br
-` ---I feel a chill go down my spine.@
-` Without reason, without purpose.@
-` I realize I will never be able to wake from this dream.\
+` Я чувствую, как холод пробегает у меня по спине.@
+` Без причины, без цели.@
+` Я понимаю, что никогда не смогу очнуться от этого сна.\
 
 !w5000
 
-`"Shiki-sama, please wake up.@ You will be late for school."@
+` — Шики-сама, прошу, вставай.@ Ты опоздаешь в школу.@
 
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 ;CD-DA?????
 play "*2"
 
-`"---------Eh?"@
-` Hisui is in front of me.@
-` This is my room, and there is surprisingly great weather outside.@
-`"Hi...... sui?"@
+` — Что?..@
+` Хисуи рядом со мной.@
+` Это моя комната, а на улице удивительно хорошая погода.@
+` — Хи... суи?@
 
 ;(????)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Good morning, Shiki-sama.@ You do not have as much time today, so please hurry to the sitting room."@
-` As usual, Hisui speaks in her detached tone.\
+` — Доброе утро, Шики-сама.@ У тебя сегодня не осталось времени, так что поторопись в гостиную.@
+` Хисуи говорит своим обычным отстранённым тоном.\
 
-`"Oh------h."@
-` With that, everything disappeared.@
-` I embrace my recently awakened but still throbbing body.@
-` ...... I feel relieved.@
-` The awful world I was in until just now has just turned into a dream.@
-`"...... Thanks.@ If you hadn't woken me up, I might have never woken up."\
+` — Ах-х.@
+` И тогда всё исчезло.@
+` Я овладел своим недавно пробудившимся, но всё ещё содрагающимся телом.@
+` Я чувствую облегчение.@
+` Страшный мир, в котором я пребывал, теперь оказался просто сном.@
+` — Спасибо.@ Если бы ты не разбудила меня, я мог никогда не проснуться.\
 
-`"Shiki-sama......?@ If you are not feeling well, please tell me so."@
-`"No, that's not it.@ ---Morning, Hisui.@ I'm glad that you're here."@
+` — Шики-сама?..@ Если чувствуешь себя нехорошо, прошу, скажи мне.@
+` — Нет, вовсе нет.@ С утром, Хисуи.@ Я рад, что ты здесь.@
 
 ;(??????)
 ld c,":a;image\tachi\his_t02.jpg",%type_crossfade_fst
 
-`"Eh----ah, thank you very much, Shiki-sama."@
-` She blushes slightly and lowers her head.@
-`"No, I'm the one who should be saying thank-----it's past seven-thirty already!?@ Sorry, I'll get up, so please go wait in the sitting room!"@
-`"Yes, I will be waiting."@
+` — Э-а, большое спасибо, Шики-сама.@
+` Она слегка покраснела и склонила свою голову.@
+` — Нет, это я должна говорить спаси... уже семь тридцать?!@ Прости, я всё приготовлю, так что, прошу, подожди в гостиной!@
+` — Да, буду ждать.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` Right as Hisui leaves the room, I change into my school uniform.\
+` Как только Хисуи покинула мою комнату, я переоделся в школьную форму.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -74,15 +74,15 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 
 
-` Jumping out of bed, I scarf down a little of the breakfast Kohaku-san made and leave the mansion.@
-` It all took me less than ten minutes.@
+` Вскочив с кровати, я проглотил немного завтрака, приготовленного Кохаку-сан, и покинул дом.@
+` Всё это заняло у меня меньше десяти минут.@
 br
-`"I'm leaving--see you later, Hisui!"@
+` — Я пошёл... Пока, Хисуи!@
 
 ;(????)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Yes, I will be awaiting your return."\
+` — Да, буду ждать твоего возвращения.\
 
 ;(??????)
 ; ?????<??????(?)>
@@ -100,18 +100,18 @@ bg "image\bg\bg_03a.jpg",%type_lshutter_fst
 wave se2
 !w2000
 
-`"...... I made it......"@
-` I breathe out and rest my body.@
-` I made it just in time before they closed the gate, but I still have to make it to class.\
+` — Я сделал это...@
+` Я выдохнул и расслабился.@
+` Я успел как раз перед закрытием ворот, но ещё нужно успеть в класс.\
 
 ; ?? : ?? : ??(?)<??????(?)>
 bg "image\bg\bg_06a.jpg",%type_lshutter_fst
 
-`"...... Whew."@
-` The teacher hasn't arrived in the classroom yet.@
-` I try to catch my breath as I sit down.@
-` ...... The classroom seems more lively today than usual.@
-` Tomorrow is a holiday, so everyone probably feels like today is a Saturday.\
+` — ...Фью.@
+` Учитель ещё не вошёл в класс.@
+` Сев, я пытаюсь восстановть дыхание.@
+` Сегодня в классе, похоже, более оживлённо, чем обычно.@
+` Завтра праздник, поэтому каждый, наверное, чувствует, будто завтра суббота.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -123,8 +123,8 @@ playstop
 bg "image\bg\bg_06b.jpg",%type_crossfade_fst
 
 
-` School ends.@
-` Since I don't have any reason to stay at school, I'll head back to the mansion.\
+` Учёба закончилась.@
+` Так как мне нет смысла оставаться в школе, отправлюсь домой.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -133,22 +133,22 @@ bg "image\bg\bg_23b.jpg",%type_lcartain_mid
 
 
 
-`"...... Yesterday's dream."@
-` This is definitely the place where I saw someone get killed in my dream.@
-` Even though I tried as hard as I could not to dream, I guess you can't run away from yourself.@
-`"-----Kk."@
-` I grind my teeth.@
-` I feel pitiful about my weakness.@
-` After all, it's all a dream.@
-` Certainly there is something wrong with me seeing those dreams, but I think I'm still sane.\
+` — Вчерашний сон...@
+` Это определённо то место, где я видел, как кого-то убили в моём сне.@
+` Даже если я попытаюсь так сильно, как могу, не спать, думаю, невозможно убежать от себя.@
+` — Кх.@
+` Я сжал зубы.@
+` Чувствую презрение к своей слабости.@
+` Как-никак, всё это сон.@
+` Определённо, есть что-то странное в том, что я вижу эти сны, но думаю, я в здравом уме.\
 
 ; ???? : ??????? : ?(?)<??????(?)>
 bg "image\bg\bg_22b.jpg",%type_lshutter_mid
 
-` ...... My old man is my old man.@
-` I don't know about the Tohno blood.@
-` But I don't want to become a burden on Akiha and the others while I'm sane.@
-` I have to try and act as normally as possible, and try to find a way to solve all of this---\
+` ...Мой старик — это мой старик.@
+` Я не знаю о крови Тоно.@
+` Но я не хочу стать ношей для Акихи и других, пока я в своём уме.@
+` Я должен попытаться вести себя нормально, насколько возможно, и найти способ справиться с этим...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -161,37 +161,37 @@ play "*3"
 ;(????)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"Welcome back, Shiki-sama."@
-` As soon as I open the door, Hisui politely greets me.@
-`"I'm back.@ I'll be in my room, so it's okay if you return to whatever you were doing."@
-`"Thank you.@ I will return to cleaning the sitting room.@ If you need anything, please call for me."@
+` — С возвращением, Шики-сама.@
+` Как только я открыл дверь, Хисуи учтиво поприветствовала меня.@
+` — Я вернулся.@ Буду в своей комнате, так что можешь возвращаться к своим делам.@
+` — Спасибо.@ Вернусь к уборке гостиной.@ Если что-нибудь понадобится, позови меня.@
 
 ;(??????)
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-`"...... Hisui is cleaning the sitting room..."@
-` I don't see Kohaku-san, but she's probably sweeping the rear courtyard or going out to get groceries.@
-` It appears Akiha hasn't come back yet, so I'll go back to my room.\
+` — Хисуи прибирается в гостиной...@
+` Не вижу Кохаку-сан, но она, вероятно, подметает задний двор, или же ушла за покупками.@
+` Оказывается, Акиха ещё не вернулась, так что пойду к себе в комнату.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_40b.jpg",%type_lshutter_mid
 
 
-` Putting away my bag, I change out of my uniform.@
-` I spend about an hour just sitting around my room.@
-` All of a sudden, I hear a gurgling noise.@
-` It's not a strange noise or anything.@
-` It's just the sound of my stomach.\
+` Бросив свою сумку, я переодел форму.@
+` Я потратил около часа, просто просидев в своей комнате.@
+` Совершенно неожиданно я услышал булькающий звук.@
+` Это не странный шум или что-то такое.@
+` Это просто мой желудок урчит.\
 
-`"...... That's right, I didn't really have a chance to eat since this morning."@
-` Not wanting to be late this morning, I was only able to eat just a little of what Kohaku-san made for breakfast.@
-` I thought about eating at the cafeteria, but I lost my appetite as soon as I remembered what I saw at the cafeteria yesterday.\
+` — И вправду, с утра мне так и не подвернулось возможности поесть.@
+` Не желая опоздать этим утром, я смог поесть совсем немного из того, что Кохаку-сан приготовила на завтрак.@
+` Я подумал о том, чтобы поесть в столовой, но потерял аппетит, как только вспомнил, что видел в столовой вчера.\
 
-`"...... I wonder if I can get something to snack on before dinner......"@
-` ...... I really don't want to be a bother, but I'm really starving.@
+` — Интересно, смогу ли я найти чего-нибудь перекусить до ужина...@
+` Я правда не хочу никого беспокоить, но я действительно ужасно голодный.@
 br
-` I should---
+` Я должен...
 br
 
 
