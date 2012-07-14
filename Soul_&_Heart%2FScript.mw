@@ -520,16 +520,16 @@ label start:
     d "Приятно слышать, что ты ещё жива."
     "Мне показалось странным её поведение." 
     "Её приятно что Цетус ещё \"жива\"? {w}Она ожидала... что Цетус должна быть уже {i}мертва{/i}?"
-    "The fact that only generals are allowed to smile, cry or do anything related to emotions and seeing her do just that... {w}catches me off guard."   
+    "Лишь генералы могут улыбаться, плакать или делать все, что связано с эмоциями. Я видела именно это она сейчас и делала... {W} Она поймала меня врасплох. (!The fact that only generals are allowed to smile, cry or do anything related to emotions and seeing her do just that... {w}catches me off guard.!)"   
     show cetus at right with dissolve
     hide cetuso
-    "She lowers the tray of food so that it sits at my feet." 
-    "Surprisingly, it isn't the usual soup, juice and a random fruit. It's some stew and rice cakes, a bottle of some carbonated drink, and some water."
+    "Она опускает поднос с едой к моим ногам." 
+    "Удивительно, но на подносе не обычный суп, сок и какой-нибудь фрукт. А тушёное мясо, рисовые лепешки, бутылка с газированным напитком и вода."
     show daenao with dissolve
-    d "I just thought you might want something different for a change."    
-    sy "Ma'am, my thanks."
+    d "Я просто подумала, что вы для разнообразия хотели бы что-нибудь другое."    
+    sy "Спасибо, Мэм."
     hide daenao with dissolve
-    d "Don't mention it."    
+    d "Не стоит благодарности."    
     hide daenasm with dissolve    
     "She exits and I hear Cetus' cell open. It seems that they are talking for a while too."
     "After Daena leaves, I go over to the hole."    
