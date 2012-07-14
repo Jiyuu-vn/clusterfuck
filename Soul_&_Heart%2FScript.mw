@@ -457,69 +457,69 @@ label start:
     c "Редкий случай. В первый раз вижу такого человека."
     hide cetuso with dissolve
     c "Эх... Меня заключили в тюрьму за незаконный брак."    
-    "That means she and her spouse had become a couple without the Pagi's approval."    
-    s "Where is your husband now? On another prison group?"
-    c "Euthanasia, since he's a guy. I got my gender removed."
-    sc "What? How can they actually remove your gender?"
-    c "Operation. They removed anything that only a female has: reproductive organs, bosoms and soft facial structures. They even cut my long hair and flushed out my eye color."
-    "I really don't know about the soft facial structures, because in my view, she still has that."
-    sx "My situation's a lot worse. They disrupted my genetic structure."
+    "Это означает, что он и она стали парой без разрешения Паги."    
+    s "А где сейчас находится твой муж? В другой тюрьме?"
+    c "Эвтаназия. А мой пол был уничтожен."
+    sc "Что? Как это можно уничтожить твой пол?"
+    c "Операция. Они удалили всё что только имеет женщина: репродуктивные органы, грудь, мягкие черты лица. Они даже сократили длину моих волос и поменяли цвет глаз."
+    "Я не знаю, что такое мягкие черты лица, но по-моему, она всё же имеет их."
+    sx "Со мной всё куда хуже. Они разрушили мою генетическую структуру."
     show cetuso with dissolve
-    c "Meaning?"
-    sx "I get a random sickness every month, including having heart attacks and seizures. My eye color changes almost all the time." 
-    sp "And some other random shit."    
+    c "В смысле?"
+    sx "Каждый месяц я заболеваю случайной болезнью, включая сердечные приступы. И постоянно меняется цвет глаз." 
+    sp "И ещё всякое разное дерьмо."
     scene cg siriusnecklace1 with dissolve
-    "Saying the curse word, I hear a beep in my electric necklace and a voice speaks to reprimand me."
-    "Geez, I don't want a homily right now."
-    vn "Next time you curse, convict 3547, I'll send you to hell, you bitch."
+    "Когда я произнесла ругательство, я получила разряд через моё ожерелье. Голос, доносящийся из него, делает мне выговор."
+    "Блин, я не хочу сейчас слушать эти проповеди."
+    vn "В следующий раз, заключённая 3547, я отправлю тебя прямиком в ад, сука."
     scene cg siriusnecklace2 with dissolve
-    si "If you don't want me to curse, be a good example and shut up. That's sexual harassment."
-    vn "Like I care. You're harassing me too."
-    si "I know that sexual harassment is forbidden for humans. So my question is, are you human?"
-    "Cetus laughs hard."
-    "There's another beep. I expected it to blow up or something." 
-    "But I hear nothing, and the red light on the necklace turns off."
+    si "Если вы не хотите чтобы я ругалась, побудьте хорошим примером и заткнитесь. Что за сексуальное домогательство."
+    vn "Я буду делать то, что хочу. Ты тоже до меня изнуряешь."
+    si "Насколько мне известно, сексуальное домогательство запрещено для людей. Вы человек?"
+    "Цетус засмеялась."
+    "Ещё один сигнал. Я ожидала очередную ругань на меня." 
+    "Но я так ничего и не услышала, и красный сигнал на ожерелье погас."
     scene cg siriusnecklace3 with dissolve
-    "Whew. I was sure they'd be scraping bits of me off the floor."
+    "Фух. Я уж думала, им придётся отскабливать с пола мои останки."
     scene bg cell with dissolve
     show cetusy with dissolve
-    c "That was a good one, Sirius! I like your sense of humor!"
-    "She laughs more noisily, so loud that I'm pretty sure a guard will come quickly and tie her up."
-    ss "Hey! They might put you in a straitjacket if they hear you!"
+    c "Ты молодец, Сириус! Мне нравится твоё чувство юмора!"
+    "Она смеётся слишком шумно. Так громко - я была уверена что придёт охранник утихомирить её."
+    ss "Эй! Если тебя услышат, на тебя наденут смирительную рубашку!"
     show cetusy2 with dissolve
     hide cetusy
-    c "I've done this like a million times and had not a single straitjacket. If they do come to bring me one though, I'll burn it and use the ashes to brush the Head General's teeth."
-    "It was my turn to laugh."
-    sy "Here, I'll tell you about something funny. There was this time, before I'd been transferred..."    
+    c "Я уже делала так миллион раз, и ни разу мне её не принесли. Если и принесут, тогжа я сожгу её, а золой начищу зубы главному командиру."
+    "Настала моя очередь хохотать."
+    sy "Хочу рассказать тебе кое что забавное. Ещё до того, как я была переведена сюда..."    
     scene black with dissolve
-    "Our stories and talking last until twilight. I know the time because a voice usually indicates the time to the convicts."
+    "Мы рассказывали дру другу разные истории, болтали, пока не наступил вечер. Я это поняла по голосу, который для заключённых говорит время."
     scene bg cell with dissolve
-    "Suddenly, the door of my cell appears and opens. A girl wearing a lower general uniform enters the cell, along with a tray of food."
+    "Вдруг дверь моей камеры приоткрывается. Девушка, младший командир, входит в мою клетку держа поднос с едой."
     show cg daena with dissolve   
     stop music fadeout 1.0
     $renpy.pause (1)
     play music "daena.mp3" fadein 0.5
-    n "Good afternoon, Sirius."
-    "Hey... No member of the military has called me by my real name before." 
-    "They always just call me convict. Does that mean that I'm going to be executed? My memories wiped again?"    
-    "My worry over this must be showing because the girl tries to reassure me." 
-    "Huh, strange."  
+    n "Добрый день, Сириус."
+    "Ой... Ранее никто из военных не называл меня по настоящему имени." 
+    "Они всегда зовут меня заключённой. Означает ли то что меня казнят? Что мои воспоминания в очередной раз будут уничтожены?"
+    "Похоже моё беспокойство было довольно заметным, потому что вошедшая девушка попыталась успокоить меня." 
+    "Как странно."  
     scene bg cell with dissolve
     show daenaa with dissolve
     hide daena
-    d "Hey, don't worry. {w}My name is Daena Blackstar, and I'll be guarding this cell for the next two quarters of the year, along with the cell next to yours."    
-    "Military personnel are the only ones with last names, which are used to indicate their position. Cetus and I don't have them." 
-    "So her last name confirms my suspicion that she is a lower general."      
+    d "Не волнуйся. {w}Меня зовут Дайна Блэкстар, и я буду сторожить эту камеру следующие полгода. Прочем как и камеру соседнюю с тобой."    
+    "Военные - единственные люди имеющие фамилии. Эти фамилии используются для обозначения звания. Поэтому Цетус и я не имеем их." 
+    "Её фамилия подтвердила мои подозрения по поводу того, что она младший командир."
     show cetuso at right
     with dissolve    
-    c  "Sirius? Who's there?"
-    d "Oh... That must be Cetus."
-    c "Uhh... yeah."
+    c  "Сириус? Кто у тебя?"
+    d "Ох... Ты должно быть Цетус."
+    c "Мм... да."
     show daenasm with dissolve
     hide daenaa
-    d "Nice to hear you're still alive in there."   
-    "I'm bewildered by the way she's acting." 
-    "She is happy Cetus is still \"alive\"? {w}Why, was she expecting Cetus to be {i}dead{/i} now?"
+    d "Приятно слышать, что ты ещё жива."
+    "Мне показалось странным её поведение." 
+    "Её приятно что Цетус ещё \"жива\"? {w}Она ожидала... что Цетус должна быть уже {i}мертва{/i}?"
     "The fact that only generals are allowed to smile, cry or do anything related to emotions and seeing her do just that... {w}catches me off guard."   
     show cetus at right with dissolve
     hide cetuso
