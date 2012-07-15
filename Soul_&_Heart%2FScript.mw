@@ -531,26 +531,26 @@ label start:
     hide daenao with dissolve
     d "Не стоит благодарности."    
     hide daenasm with dissolve    
-    "She exits and I hear Cetus' cell open. It seems that they are talking for a while too."
-    "After Daena leaves, I go over to the hole."    
+    "Она вышла. Я услышала, как открылась дверь в соседнюю камеру. Похоже они тоже о чём то долго беседовали."
+    "После того Дайна ушла, я ринулась к дыре."
     show cetus at center with moveinright
-    s "Cetus, I think she's the replacement for the older lower general."
+    s "Цетус, Я думаю, что она заменяет прошлого младшего командира."
     show cetuso with dissolve
-    c "The one that convict 0589 stabbed in the neck and mutilated?"
-    sx "Yeah... I heard a funeral was held in his honor."
-    c "That Daena is a lot better than that old fat man."
-    c "But, you know, she only {i}looks{/i} kind. Most generals aren't kind in the slightest..."
-    sx "Yeah. I bet it's just an act. Let's wait for a few more days 'till she reveals her true colors."
+    c "Того, которого изуродовал и зарезал в шею заключённый 0589?"
+    sx "Да... я слышала в его честь были похороны\."
+    c "Эта Дайна куда лучше чем тот старый толстый мужик."
+    c "Но, почему то мне кажется, она только претворяется добренькой. Большинство командиров не имеют ни капли доброты..."
+    sx "Ага. Бьюсь об заклад, она просто претворяется. Подождём несколько дней и она раскроет своё истинное лицо."
     scene black with dissolve
-    "But that day never came. Day by day, she brought us a different meal, gave us books that only free-men are allowed to read." 
-    "A week had passed and then a month." 
-    "Nothing changed."
-    "She is the lower general, so she is rarely reprimanded for doing these things." 
-    "The other guards tell her that we might just kill her and escape if the time comes. {w}Daena seems to believe in that, since she {i}always{/i} has her gun with her."
-    "There is a sense of distrust every time she smiles at us."
-    "Her father is the higher general, meaning that he is also in charge of this prison and the large base surrounding it." 
-    "She is his right hand woman. Her moves are observed. So sometimes, she pretends that she's either scolding or beating us."
-    "Such a nice move."
+    "Но этого так и не произошло. День за днем​​ она принесла нам разнообразную еду, давала нам читать те книги, которые вообще говоря не позволялись читать заключённым." 
+    "Так прошла неделя... а затем и месяц." 
+    "Ничего не изменилось."
+    "Она младший командир, поэтому она редко делала на выговор за эти вещи." 
+    "Другие охранники говорили ей, что мы можем при удобном случае убить её и убежать. {w}Похоже Дайна верила в это, поэтому она всегда носила с собой пистолет."
+    "Не смотря на то что она нам улыбается, всё таки ощущается чувство недоверия к нам."
+    "Её отец - главный командир. Это означает что он отвечает и за эту тюрьму, и всю военную базу, что окружает её." 
+    "Она его правая рука. Она наблюдает за всем происходящим. Поэтому, временами она делает вид что избивает или выговаривает нас."
+    "Какой хороший ход."
     stop music fadeout 1.0
     $renpy.pause(2)
     scene cg musiccouple with dissolve
