@@ -620,40 +620,40 @@ label start:
     d "Я должна идти. Сейчас патрулируют другие охранники..."
     show daenac with dissolve
     hide daenaw
-    d "I remember my mom telling me that I should kill anybody who I tell my secrets to..."
+    d "Помню мама мне говорила, что мне следует убиавть всех, кто знает мои секреты..."
     "Uh-oh."
     show daenay2 with dissolve
     hide daenac
     hide daenas
-    d "Ahehehe... That's a joke."
-    sp "Just get out of here, {i}Ma'am{/i}."
-    d "Sure, sure. I'll do that."
+    d "Ахаха... Шучу."
+    sp "Просто уйдите отсюда, {i}мэм{/i}."
+    d "Да, да. Так я и сделаю."
     hide daenay2 with dissolve
-    "Now that's what you call a weird encounter with General Blackstar."
-    "It's a lot weirder than the moment I met Cetus..."
-    "Where we all stared at each other like we all had dirt on our faces."
-    "Huh, better shrug that off."
+    "Вот такие вот у нас происходят странные встречи с командиром Блэкстар."
+    "Ещё более странные, чем момент, когда я встретила Цетус..."
+    "Когда мы смотрели друг на друга, будто бы у нас на лицах было написано."
+    "(!Huh, better shrug that off.!)"
     scene black with dissolve    
-    centered "The next afternoon..."
+    centered "На следующий день..."
     play music "usu.mp3"
     scene bg cell with dissolve   
     show cetuso with dissolve
-    c "So this \"dream\" thing you're talking about... {w} it sounds crazy."
-    sp "Yes, Cetus. I'm telling you the truth."
-    s "And I don't even know why, but she even pulled off a joke I almost believed."
+    c "Этот \"сон\" о котором ты говоришь... {w} просто бред какой-то."
+    sp "Да, Ценус. Но я говорю правду."
+    s "Я даже не знаю почему, но она пошутила по тому поводу, и я ей почти поверила."
     show cetusy with dissolve
-    c "You mean you fell for the joke? Geez."
-    sx "Errr... {w}yeah."
+    c "Ты поверила в эту шутку? Боже. (! Над тобой пошутили? Боже. You mean you fell for the joke? Geez.!)"
+    sx "Ээ... {w}да."
     show cetus with dissolve
     hide cetusy
-    c "So, what are you going to do about it?"
-    sc "The dreams, you mean?"
-    s "Nothing."
+    c "И что ты собираешься с этим делать?"
+    sc "Имеешь ввиду со снами?"
+    s "Ничего."
     hide cetus with dissolve
-    c "Why? Do you want more dreams, or do you want to talk more to Daena?"
-    sx "Both."
-    "Yes, because if I have more dreams, I'll realize why am I getting them in the first place through Daena."
-    "Yet, she doesn't even tell me what a \"dream\" is. Like I have the chance to know..."
+    c "Почему? Тебе нравиться видеть сны? Или ты таким образом хочешь больше общаться с Дайной?"
+    sx "И то и другое."
+    "Да. Если у меня будут ещё сны, то я пойму причину, почему они мне снятся, главным образом благодаря Дайне."
+    "Тем не менее она даже не сказала, что такое эти \"сны\". Как будто у меня есть шанс узнать..."
     scene black with dissolve
     $ show_button_game_menu = False
     $renpy.pause(2)
@@ -661,14 +661,14 @@ label start:
     scene cg sad with dissolve
     nvl clear
     nvl show dissolve
-    lu "Here it is again."
-    lu "A \"dream\", nonetheless."
-    lu "But why...{w} Why does it feel so sad? Why does my chest feel... heavy?"
-    lu "I see a girl who is sitting at a bedside. She keeps on glancing at a necklace in her hands..."
-    nvlgi "When we met, I was so happy, I thought my life would be complete..."
-    nvlgi "I thought that I'd live the rest of my life with you..."
-    nvlgi "Why did you leave me!?"
-    nvlgi "Why now? Why noooow!?"
+    lu "И вновь..."
+    lu "\"Сон\"."
+    lu "Но почему...{w} Почему так грустно? Почему в моей груди так... тяжело?"
+    lu "Я видела девушку сидящую на постели. Она рассматривает ожерелье, которое держит в своих руках..."
+    nvlgi "Когда мы впервые встретились, я была так счастлива, моя жизнь приобрела смысл..."
+    nvlgi "Я думала, я буду с тобой до конца жизни..."
+    nvlgi "Почему ты ушёл?!"
+    nvlgi "Почему именно сейчас?!"
     lu "She continues sobbing over the necklace..."
     lu "When I look over, I realize it is a locket."
     scene black with dissolve
