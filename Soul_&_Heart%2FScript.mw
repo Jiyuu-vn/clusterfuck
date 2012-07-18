@@ -753,63 +753,63 @@ label start:
     scene bg cell
     with dissolve
     $ show_window()    
-    "I feel something wet on my hands."
-    "I look up, thinking the ceiling dripped or something similar."
-    "I look back to my hands again and more drops add to the wetness."
-    "I realize I'm crying."
-    "This is no time to cry! I didn't even know I was crying until I saw my own teardrops on my hands!"
-    "I wipe the tears off my face and clean my nose."
-    "I feel like... there was something in the song that made me remember something in the past." 
-    "It was something... weird. It made me warm inside at first, but then at the end the nice feeling faded and left me crying."
-    "Now I admit I knew I was crying in the first place."    
-    "I move to lie own on my thin mattress, but not before I turn and see..."
+    "Мои руки были мокрыми (!или влажными!)."
+    "Я посмотрела вверх, ожидая что с потолка что-то капает."
+    "Вновь оглядываю свои руки, на них падает несколько капель."
+    "Я плакала."
+    "Не время рыдать! Я даже не знала, что я плакала, пока не увидела слезы на своих руках!"
+    "Я вытерла свои слёзы и высморкалась."
+    "Мне кажется... эта песня напоминает мне что-то важное." 
+    "Это... странно. Вначале она нагнала на меня жар, но в конце приятное чувство угасло, оставив место печали."
+    "Сейчас я поняла, что в первую очередь я плакала. (!Что-то тут не так...!)"    
+    "Я хотела вновь прилечь на матрас, но прежде я увидела..."
     show daenash with dissolve
-    "General Blackstar staring at me from a window-like hole in the door to my cell."
-    "She has that teary-eyed look, and a smile on her face."
+    "Командир Блэкстар наблюдает за мной через окошко на двери."
+    "Она смотрела на меня слезящимися глазами, однако с улыбкой на лице."
     show daenap with dissolve
     hide daenash
-    "But after she notices me looking at her, she glares at me and closes the window."
+    "Тут она заметила что я смотрю на неё, и она зарыла окошко."
     hide daenap with dissolve
-    "Weird."
+    "Странная она."
     scene black with dissolve    
     play music "conspiracy.mp3" fadein 3
-    "Days pass and more memories start to come back to me every day."
-    "Not memories of my past, but memories of the way this world used to be. I can see that people were smiling, happy, and they had the freedom of showing their emotions." 
-    "But now..."
-    "I really don't know why this is happening."
+    "Шли дни, и всё больше и больше воспоминаний возвращаются ко мне."
+    "Не воспоминания о моем прошлом, но воспоминания о том, каким был раньше мир. Я видела улыбающийся счастливых людей, они свободно могли показывать свои эмоции." 
+    "Сейчас е..."
+    "Я не знала почему так случилось."
     scene bg cell with dissolve
-    "I go to the hole between the two cells."
-    s "Hey, Cetus."
+    "Я подошла к дыре между камерами."
+    s "Эй, Цетус."
     show cetus with dissolve
-    c "What is it?"
-    s "Do you remember how things used to be in the past?"
+    c "Что такое?"
+    s "Ты знаешь каким мир был раньше?"
     show cetuss with dissolve
-    "She stayed silent for a while."
-    c "Past? Do you mean thoughts before our generation or thoughts of our childhood... stuff like that?"
-    sx "The former."
-    c "Err...I think I do." 
+    "Она некоторое время помолчала."
+    c "Раньше? Имеешь ввиду мир до нашего рождения, или ты про наше детство?.."
+    sx "До рождения."
+    c "Ээ...Думаю да." 
     hide cetuss with dissolve
-    c "Before, it wasn't like this. People used to walk freely. People used to love, to dream, to remember. To smile and show everything they felt. Cry all you want, nobody would stop you. To be happy, to live the life they wanted." 
-    sc "\"Used to\"?" 
-    "She nods."
+    c "Раньше он не был таким. Люди могли ходить где хотели. Могли любить, мечтать, помнить. Улыбаться и показывать всем, что они чувствуют. Никто не мешал плакать(!или кричать?!). Они жили той жизнью, какой хотели." 
+    sc "\"Могли\"?" 
+    "Она кивнула."
     show cetuss with dissolve
-    c "And then, I remember doing that stuff now is a... crime. {w} The rest in my head's a little blurry. I used to know that stuff, but then somehow I forgot about it..."
-    ss "I had some visions about it. I almost wish that I was able to stay asleep... But why are things like this? Why is all of this happening?"
-    "She shakes her head with a frown in her face."    
-    c "I don't know. Something about... having all those feelings being... {w}useless."
-    sw "Useless?!"
-    ss "B-but, before... {w}before, people used those feelings like they were..."
-    "Suddenly, Cetus stares at me like I'm saying something crazy."
+    c "А сейчас, всё это является... преступлением. {w} Остальное я плохо помню. Будто бы я знала, но почему то забыла..."
+    ss "У меня были видения об этом. (!I had some visions about it!) Я почти хотела не просыпаться... Но почему сейчас всё так? Как это случилось?"
+    "Она нахмурившись качает головой."    
+    c "Я не знаю. Иметь все эти чувства было... {w}бесполезно."
+    sw "Бесполезно?!"
+    ss "Н-но, раньше... {w}раньше люди использовали эти чувства такими, какими они были..."
+    "Внезапно Цетус взглянула на меня как будто бы я сказала что-то глуппое."
     show cetussh with dissolve
     hide cetuss
-    c "You know that information?!"
-    c "Don't you know that those things are only strictly for the military's access only?"
-    c "Those stuff are forbidden! Doing those private acts of emotions can send you to jail, or worse... {w}death!"
+    c "Ты владеешь информацией про это?!"
+    c "Разве ты не знаешь, к таким вещам имеют доступ строго только военные?"
+    c "Информация засекречена! Обычные люди за это попадают в тюрьму, а то и... приговариваются к смертной казни!"
     show cetusm with dissolve
     hide cetussh
-    c "The reason why they erase our memories? Isn't it obvious? They are \"helping\" us forget about our old hurting experiences, that's why!"
+    c "Причина, по которой нам стирают память... Разве это не очевидно? Они помогают нам забыть то, что причиняло нам боль и страдания. Вот почему!"
     sp "..."
-    sp "That's... {w}unfair. Really unfair."
+    sp "Это... {w}несправедливо. Нечестно."
     show cetusc with dissolve
     hide cetusm
     c "What's going on in that head of yours now?"    
