@@ -807,74 +807,74 @@ label start:
     c "Информация засекречена! Обычные люди за это попадают в тюрьму, а то и... приговариваются к смертной казни!"
     show cetusm with dissolve
     hide cetussh
-    c "Причина, по которой нам стирают память... Разве это не очевидно? Они помогают нам забыть то, что причиняло нам боль и страдания. Вот почему!"
+    c "Причина, по которой нам стирают память... Разве она не очевидна? Они помогают нам забыть то, что причиняло нам боль и страдания. Вот почему!"
     sp "..."
     sp "Это... {w}несправедливо. Нечестно."
     show cetusc with dissolve
     hide cetusm
-    c "What's going on in that head of yours now?"    
-    sp "We need to escape and tell everyone the truth of what kind of \"freedom\" the Pagi offers." 
-    sp "They don't deserve to live like this, they deserve a choice at least."
-    sx "The Pagi is being unfair by erasing everyone's memories so they don't remember how things used to be..."
+    c "О чём думаешь? (!What's going on in that head of yours now?!)"
+    sp "Нам нужно сбежать и рассказать всем правду, что сделали с нашей свободой Паги. (! We need to escape and tell everyone the truth of what kind of \"freedom\" the Pagi offers!)" 
+    sp "Они не заслуживают такой жизни. Люди должны хотя бы сами выбирать, какую они хотят жизнь."
+    sx "Не справедливо что Паги стирает всем память, и никто даже не помнит как люди жили раньше..."
     show cetuss with dissolve
     hide cetusc
-    "Cetus calms down, and thinks before she suddenly open her mouth to speak again."
+    "Цетус успокоилась и подумала перед так как продолжить разговор!"
     show cetus with dissolve
     hide cetuss
-    c "But.. {w}our necklaces might be detonated."
-    s "I know, but the wires are pretty thin... Maybe we can break it."
-    c "Perhaps our fingernails?"
-    "I look at my fingernails and look back at Cetus, shaking my head because they are cut short."
-    sx "Not an option."
+    c "Но.. {w}наши ожерелья могут взорвать."
+    s "Я знаю, однако провода совсем тонкие... может быть мы сможем их разрезать."
+    c "Ногтями?"
+    "Я посмотрела на свои ногти и вновь взглянула на Цетус. Я покачала головой, ногти были слишком коротко подстрижены."
+    sx "Не вариант."
     show cetussly with dissolve
-    "Cetus flicks up her fingers and I'm surprised to see that her nails are around half an inch long. It seems that she's spent all her time sharpening them to make them like knives."
-    c "Mine are an option. So what are we going to do after we bail out?"
-    sg "Start a rebellion."
+    "Цетус слегка ударила пальцами, и я удивилась увидев что её ногти имеют длину с пол дюйма. Складывалось ощущение что Цетус тратила всё своё свободное время, что бы сделать свои ногти похожими на ножи."
+    c "А по моему ещё какой вариант. Так что мы будем делать, после того как выберемся отсюда?"
+    sg "Начнём восстание."
     c "..."
     show cetusm with dissolve
     hide cetussly
-    c "Isn't it better to go straight to the war room and assassinate the general?"
-    sm "Wait! Why Daena's father? Why kill?" 
-    ss "Shedding innocent blood will do nothing to change things..."
+    c "Не лучше ли сразу направиться в штаб и убить командир?"
+    sm "Подожди! Отца Дайны? Зачем убивать?" 
+    ss "Проливая невинную кровь, ты не изменишь положение вещей..."
     show cetusp with dissolve
     hide cetusm
     play music "mystery.mp3" fadein 3
-    c "It's the only way. If we slay the general then we can take over. The general may not remember things, but we do, meaning that we know that the Pagi really aren't doing anything good like how he pretends."
-    sc "But I don't have any military experience. I'm just a regular girl."
+    c "Это единственный выход. Если мы его убьем то мы можем попытаться взять управление системой на себя. Командующий может и не понимает, но мы то знаем: Паги не делает ничего хорошего, а только претворяется."
+    sc "У меня нет никакого военного опыта. Я просто обыкновенная девушка."
     hide cetusp with dissolve
-    c "I do. You can be my student, Sirius."
-    sm "No! I appreciate that you want to stop all this but..." 
-    sm "I know we can do this without killing people. If we did something like that it would make us as ruthless and cruel as the Pagi." 
-    sm "It would be almost like we too lost all of out feelings. Please, Cetus, stop thinking about this crazy plan."
+    c "Зато у меня он есть. Так что учись, Сириус."
+    sm "Нет! Я понимаю что ты хочешь остановить всё это, но..." 
+    sm "Я верю - можно обойтись без убийств. Мы не должны уподобляться жестоким методам Паги." 
+    sm "Мы не должны быть такими бесчувственными людьми. Пожалуйста, Цетус, скажи что ты передумала."
     show cetusp with dissolve
     hide cetus
-    c "Fine, I see your point. So what's your plan?"
-    "I fall silent."
-    c "The day after tomorrow, I will escape from here. Join me if you want to."
+    c "Хорошо, я поняла твою точку зрения. Тогда такой план предложишь ты?"
+    "Я не смогла ответить."
+    c "Послезавтра, я сбегу отсюда. Если хочешь - присоединяйся ко мне."
     s "..."
-    sp "No."
-    sp "What in the world are you thinking? I won't go with your plan of killing somebody."
-    sm "Cetus, you're crazy. Snap out of it."
-    sm "I won't escape here while killing somebody. I won't do that."
+    sp "Конечно нет."
+    sp "Цетус, о чём ты думаешь? Я не поддерживаю твой план убивать кого-либо."
+    sm "Ты сошла с ума. Одумайся. (!Snap out of it.!)"
+    sm "Я не собираюсь сбегать отсюда, чтобы убить человека. Я не хочу этого."
     show cetusr with dissolve
     hide cetusp
-    "Her face suddenly dims, and I was afraid."
-    c "Don't act innocent, Sirius! You've also killed somebody before! Don't tell me you didn't!"
-    "Oh no... I don't want to bring that up."
-    "That is a thing I already regret. I don't want to be reminded of that."
-    sp "I didn't kill him. I just hurt him. {w}The words \"kill\" and \"hurt\" are two different things."
-    c "Yes, but you {i}intended{/i} to kill that guard. {w}See, if you were aiming for his head at the time, he would've been dead by now!"
-    sm "Don't change the subject! We're talking about that damn general you are so obsessed to kill!"
-    c "And don't act as if you are a fucking saint! You wouldn't be here if you didn't do {b}anything{/b} wrong!"
-    sp "It's final. I won't join your plan."
-    c "Fine! Like I'll need your help."
-    c "Thank you so much, {i}Saint{/i} Sirius."
+    "Её лицо тускнеет(!dims!), мне стало страшно. (!или стало её жаль?!)"
+    c "Не притворяйся невинной, Сириус! Ты ведь ранее убила кое-кого. И не говори что это не так!"
+    "Ох нет... я не хочу об этом говорить."
+    "Я сожалею о том, что тогда случилось. Не напоминайте мне об этом."
+    sp "Я не убила его. Только ранила. {w}\"убить\" и \"ранить\" - не одно и тоже."
+    c "Да, но ты {i}намеревалась{/i} убить того охранника. {w}Если бы ты тогда целилась ему в голову, сейчас бы он был уже мёртв!"
+    sm "Не уходи от темы разговора! Мы говорим об этом чёртовом командире, которого ты жаждешь убить!"
+    c "Не разговаривай со мной, словно ты святая! Если бы ты не совершала дурных поступков, тебя бы здесь не было!"
+    sp "Я для себя решила: я к тебе не присоединюсь."
+    c "Отлично!.. Будто бы я нуждаюсь в твоей помощи."
+    c "Спасибо тебе большое, {i}святая{/i} Сириус!"
     hide cetusr with dissolve
-    "The sarcasm is evident in her voice, but as she slams the screened window shut, I start to regret shouting at her."
-    "I regret that day! I didn't want to kill anybody at that time! Why would she remind me of that?"
-    "She's mad at me. She's really mad at me.{w} Because I didn't agree with her plan to {i}kill{/i}."
-    "She's once a soldier. I'm not military. Maybe I just don't get how violence works in the military."
-    "But still..."
+    "С очевидным сарказмом, она захлопывает занавесу. Мне стало стыдно, что я накричала на неё."
+    "Я сожалею о том дне! Я не хотела никого убивать! Почему она напомнила мне тот день?"
+    "Она действительно рассердилась. Она очень злится на меня.{w} Потому что я не согласилась с её планом {i}убить командующего{/i}."
+    "Она когда-то была солдатом. А я не военная. Может быть я просто не понимаю, насколько насилие меняет(!управляет!)(!оказывает действие на!) военных."
+    "Но всё же..."
     scene black with dissolve
     stop music
     $ show_button_game_menu = False
