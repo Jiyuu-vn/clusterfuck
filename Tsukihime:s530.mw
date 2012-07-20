@@ -17,16 +17,16 @@ cl c,%type_lcartain_mid
 ld c,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
-` You have reached Hisui's True Ending.@ Well done.@
+` Вы открыли Истинную Концовку Хисуи.@ Поздравляем.@
 br
-` Each heroine (with one exception) has two different kinds of endings.@
-` A True Ending and a Good Ending.@
-` After reaching one of the endings, please go back a little and readvance through the story.@
-` A different event should await you.\
+` У каждой героини ( за одним исключением) есть два типа концовок.@
+` Истинная Концовка, и Хорошая Концовка.@
+` Получив одну из концовок, вернитесь немного назад и перепройдите историю.@
+` Другие события должны будут открыться вам.\
 
 
-` Well then, thank you very much for playing up to this point.@
-` Let's meet again somewhere in Tsukihime.\
+` Ну что ж, спасибо вам что дошли до этого момента.@
+` До новых встреч, где-нибудь в Цукихиме.\
 
 
 
@@ -43,6 +43,7 @@ playstop
 
 
 return
+
 
 
 
