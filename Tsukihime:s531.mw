@@ -19,29 +19,28 @@ ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
 
 
 
-` You have reached Hisui's Good Ending.@ Well done.@
+` Вы открыли Зорошую Концовку Хисуи.@ Поздравляем.@
 br
-` Each heroine (with one exception) has two different kinds of endings.@
-` A True Ending and a Good Ending.@
-` Since you can't reach Hisui-san's Good Ending without seeing the True Ending, you have now finished Hisui-san's route completely!\
+` У каждой героини ( за одним исключением) есть два типа концовок.@
+` Истинная Концовка, и Хорошая концовка.@
+` Поскольку вы не можете получить Хорошую Концвоку Хисуи-сан, не получив её Истинную концовку, вы только что полностью прошли её ветку.\
 
-
-` Well then, thank you very much for playing up to this point.@
-` Let's meet again somewhere in Tsukihime.@
+` Ну что ж, спасибо вам что дошли до этого момента.@
+` До новых встреч, где-нибудь в Цукихиме.\
 
 br
-`"Ciel-san.@ I also have something I must impart."@
+` - Сиэль-сан.@ Я тоже должен сообщить нечто важное.@
 br
-` Huh, Professor Roa?@ This is rare indeed for you to come to a place like this."\
+` О, Профессор Роа?@ Как непривычно видеть вас здесь.\
 
 ; ??(?????) : ???<??????(?)>
 ld l,":a;image\tachi\roa_t05a.jpg",%type_lshutter_fst
-`"This circumstance is unique.@ I will get to the point right away.@ Now that you have cleared Hisui-san's route, there should be another choice for you on the first day.@
-` This is the unlocking of the last route in Tsukihime.@
-` ...... Well, even if I do not tell you this, it is very clear if you go to the graphic mode."@
+` - Это особый случай.@ Я перейду сразу к делу.@ Теперь, когда вы прошли ветку Хисуи-сан, вам стал доступен новый вариант выбора в первом дне.@
+` Он откроет последнюю ветку Цукихиме.@
+` Впрочем, даже если бы я не говорил этого, вы бы всё поняли сами, заглянув в галерею.@
 br
-` That's right.@
-` Well then, please continue on and enjoy Tsukihime!\
+` Именно.@
+` Ну что ж, приятного вам дальнейшего чтения Цукихиме!\
 
 
 
@@ -56,6 +55,7 @@ playstop
 
 
 return
+
 
 
 
