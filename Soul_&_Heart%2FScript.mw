@@ -883,94 +883,94 @@ label start:
     nvl clear
     nvl show dissolve
     play music "dream.mp3"
-    lu "Here it is again."
-    lu "But... now it feels a lot different than the first two."
+    lu "И вот опять.(!Here it is again!)"
+    lu "Но... сейчас отличается от предыдущих двух случаев."
     show lss with dissolve
-    lu "I see a girl with messy short brown hair, and she is in a white hall."
-    lu "She is holding some sort of a fake animal that looks like a white bunny squished into a white circle of foam."
-    lu "I was focused on nothing but her."
-    nvlgi "She's still there.. right?"
+    lu "В белом зале я видела девушку с грязными короткими каштановыми волосами."
+    lu "Она держала какое-то (!fake - игрушечное? посмотреть на избражение!) животное, которое выглядит как белый кролик который издаёт звук белой пены. (!squished into a white circle of foam!)"
+    lu "Я смотрела ни на кого другого, как на неё."
+    nvlgi "Она всё ещё здесь... ведь так?"
     show pws at left with dissolve
-    lu "She is focusing her attention on a tall woman who is wearing a uniform which makes her seem like a member of the police force."
-    lu "Her face changes into something of... Pity? Remorse? Hurt?"
-    nvlpw "I'm, sorry, I really can't tell anybody until the investigations are over."    
+    lu "Она вниматенльно смотрела на высокую женщину одетую в полицейскую униформу."
+    lu "Её выражение лица меняется на... Жалость? Угрызение совести? Боль?"
+    nvlpw "Прости, к сожалению я не могу рассказать кому-либо пока не закончится расследование."    
     hide pws with dissolve
-    lu "The police woman leaves, but the girl remains in the hall. She's crying..."
+    lu "Полицейская ушла, а девушка осталась в зале. Она плакакла..."
     show ls2 with dissolve
     hide lss
-    nvlgi "No... this can't be happening..."
-    lu "She sinks to her knees and holds her head like she is planning to crush her skull."
-    nvlgi "No, no, no... Please, no... She won't go away like that..."
+    nvlgi "Нет... этого не может быть..."
+    lu "Она упала на колени и схватилась за голову, словно хотела раздавить свой череп."
+    nvlgi "Нет, нет, нет ... Пожалуйста, не надо... Она не должна уходить подобным образом..."
     nvl clear
-    lu "She faces the white bunny with sad, teary eyes and a smile that seems to expect something."
+    lu "Она смотрела на белого кролика с улыбкой и грустными слезящимися глазами, похоже ожидая чего-то."
     show lse with dissolve
-    nvlgi "Hey, Ursa... She isn't gone yet, right? She isn't right?"
-    lu "She is silent, like she is expecting a response from the bunny."
-    lu "What is she talking about? Is she crying over the death of somebody? Someone's disappearance?"
-    lu "Or..."
-    nvlgi "She didn't leave because she hated me, right?"
-    lu "The stuffed bunny remains silent. The girl remains silent, expecting an answer."
-    lu "Suddenly, there was a hand that grabbs the girl and lifts her up."
+    nvlgi "Эй, Урса. Она ведь ещё не ушла? Не ушла?"
+    lu "Она замолчала будто бы ожидая ответа от кролика."
+    lu "О чём она говорит? Она плачет из-за чьей-то смерти? Чьего-то исчезнования?"
+    lu "Или..."
+    nvlgi "Она не уйдёт, потому что она ненавидит меня, да? (!She didn't leave because she hated me, right?  бред!)"
+    lu "Плюшевый зайчик не отвечал. Но девушка молчала, ожидая от него ответа."
+    lu "Внезапно чьи-то руки схватили и подняли девушку."
     show nuo at right with dissolve
-    lu "It is another woman, but she seems to be one of the medical staff."
+    lu "Другая женщина была похожа на доктора."
     hide lse with dissolve
-    nvlgi "Lemme gooooo!"
-    nvlnu "I'm sorry, but we have to do this, girl. It won't hurt a biggie, I promise."
-    nvlgi "I wanna see heeeer! Lemme gooo!"
+    nvlgi "От-пус-тите!  (!Lemme gooooo! - Let me go ?? !)"
+    nvlnu "Мне очень жаль, но (!!)нам нужно это сделать для тебя(!или это наша работа!), девочка. Тебе не причинят боли, я обещаю."
+    nvlgi "Я хочу увидеть её!!! От-пус-тите!"
     hide ls2 with dissolve
     hide nuo with dissolve
-    lu "She keep on struggling, but it is no use. The bunny she is carrying was left behind."
+    lu "Она продолжала брыкаться. Кролик, что она держала, теперь остался позади."
     nvl clear
     show pws at left with dissolve
-    lu "Someone picks it up: the same police officer who seems to be curious about a mere child." 
+    lu "Кто-то поднял его: всё та же полицейская, которая по-видимому интересовалась этим ребёнком." 
     show nus at right with dissolve
-    lu "The nurse from a while ago goes out of the room, and seeing the bunny..."
-    nvlnu "You're gonna pick that up? I am pretty sure that you know of the case this child is going through."
-    nvlpw "Yes, and it's pretty much a rare one. We haven't taken this course of action before. {w}She has to undergo under a series of tests and genetic procedures in order to be sent back to daycare."
+    lu "Медсестра некоторое время назад вышла из комнаты, и сейчас глядела на кролика..."
+    nvlnu "Ты хочешь подобрать его? Я уверена, что вы знаете, что пережил этот ребёнок. (!I am pretty sure that you know of the case this child is going through.!)"
+    nvlpw "Да, такое случается не часто. Мы не принимали этот план действий раньше. {w}Она должна пройти все тесты и генетические процедуры перед тем как её отправят обратно в (!daycare - детский приют?!)."
     show nuw at right with dissolve
     hide nus
-    nvlnu "It's really rare to find someone that can do it, do you think she's one?"
+    nvlnu "Чрезвычайно редко можно найти человека способного это сделать, вы думаете она из них?"
     show pwm at left with dissolve
     hide pws
-    nvlpw "She grew too attached to her biological mother during her stay in the center. It's a possibility."
-    nvlpw "Anyway, we can prove that by this."
-    lu "The officer throws the stuffed toy to the nurse."
+    nvlpw "Она росла слишком привязанной к своей биологической матери во время ее пребывания в центре. Так что вполне возможно."
+    nvlpw "Во всяком случае, мы можем это выяснить."
+    lu "Офицер бросает мягкую игрушку к медсестре."
     show nusm at right with dissolve
     hide nuw
-    nvlnu "With this piece of foam? Heh, how?"
-    nvlpw "Give it to her after the procedure on her memory is finished. If she still recognizes the toy, it means there's a possibility."
+    nvlnu "С этой игрушкой? Хе, и как?"
+    nvlpw "Дать зайчёнка ей после того, как закончится процедура на её памяти. Если она узнает игрушку, значит это возможно."
     nvl clear
-    nvlpw "If she hugs the toy like before and knows its name, she could very well be."
+    nvlpw "Если она обнимает игрушку и вспомнит его имя, тогда это вполне может быть."
     show nuse at right with dissolve
     hide nusm
-    nvlnu "Yes, ma'am. I'll do that."
+    nvlnu "Да, мэм. Тогда я сделаю это."
     hide nuse with dissolve
     hide pwm with dissolve
     nvl clear
     lu "..."
-    lu "I wait for the girl to come out of the room."
-    lu "It takes minutes, hours... until she comes out."    
-    lu "But..."
+    lu "Я ждала, пока девушка выйдет из комнаты."
+    lu "Прошли минуты, часы... пока она наконец не вышла."    
+    lu "Но..."
     show wlss with dissolve
-    lu "She looks different."
-    lu "There are tears in her eyes, and her hair is white. Her eyes glow a soft violet, and she seems paler than usual."
-    lu "The nurse from earlier goes over the girl."
+    lu "Она выглядит по-другому."
+    lu "Она плакала. А её волосы стали белыми. Она кажется бледнее обычного, а её глаза слегка светятся фиолетовым светом."
+    lu "Медсестра подходит к девушке. (!The nurse from earlier goes over the girl.!)"
     show nusmi at right with dissolve
-    nvlnu "Hey, girlie. I got something for you."
-    lu "The nurse hands the girl Ursa, and the girl's eyes widen."
-    nvlgi "... Ursa?"
-    lu "The nurse's eyes widen as she finally hands the girl the toy. The girl hugs the toy like before..."
+    nvlnu "Эй, девочка. У меня есть кое-что для тебя."
+    lu "Медсестра протягивает Урсу, и глаза девочки заблестели."
+    nvlgi "... Урса?"
+    lu "Глаза медсестры расширились, как она вручила игрушку девочке. Девочка как и раньше обняла игрушку..."
     nvl clear
     show wlsh with dissolve
     hide wlss
-    nvlgi "Ursa! I'm feeling better now!"
+    nvlgi "Урса! Я по тебе скучала!"
     show nuo at right with dissolve
     hide nusmi
-    nvlnu "Just one question, girl."
-    nvlnu "Can you still remember your name?"
-    lu "The girl nods."
-    nvlgi "Yes, ma'am."
-    nvlgi "My name is..."
+    nvlnu "Можно задать тебе вопрос, девочка?.."
+    nvlnu "Ты всё ещё помнишь своё имя?"
+    lu "Девочка кивнула."
+    nvlgi "Да, мэм."
+    nvlgi "Меня зовут..."
     lu "..."
     nvl hide dissolve
     $ show_button_game_menu = True
