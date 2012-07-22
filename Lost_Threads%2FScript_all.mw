@@ -454,56 +454,56 @@ label start:
     
     "...ну почему я?"
     
-    "Wait a minute.  Why am I letting a girl talk me down?  I'll show HER who I am..."
+    "Подождите-ка.  С какой стати я позволяю этой девушке себя перебить?  Я покажу ей, КТО Я такой!"
     
-    j "Wait, let me explain!"
+    j "Постой, дай мне объяснить"
     
-    "Here's where I go in for the kill..."
+    "Сейчас, я сражу её наповал!"
     
-    j "My fiancé just died, and I'm just drowning away my sorrows in martinis and women... PLEASE DON'T KILL ME!"
+    j "Недавно, умерла моя невеста, и теперь, я пытаюсь утопить своё горе в мартини и женщинах... ПРОШУ,НЕ УБИВАЙ МЕНЯ!"
     
-    "Oops."
+    "Упс."
     
     show m yelling
     with dissolve
     
-    m1 "Oh, spare the explanation, I'm too dizzy to hurt you right now..."
+    m1 "Прибереги свои объяснения для кого-нибудь другого, у меня слишком сильно болит голова, чтобы тебя слушать."
     
     show m thinking
     with dissolve
     
-    "She slumps back into her seat."
+    "Она откинулась на спинку сиденья."
     
-    "I guess I'm off the hook for now."
+    "Кажется, всё обошлось."
     
-    "She suddenly sits up in her seat."
+    "Внезапно, она выпрямилась на своём стуле."
     
     show m yelling
     with dissolve
     
-    m1 "You say your fiancé just died?"
+    m1 "Говоришь, твоя невеста умерла?"
     
     show m angry
     with dissolve
     
-    "Oh boy, another teary-eyed sympathetic girl..."
+    "Малыш,  другая симпатичная плаксивая девушка..."
     
-    j "Yeah, her horse and buggy kind of... rolled off the bridge..."
+    j "Ну, её лошадь и кибидка... упали с моста..."
     
     show m shocked
     with dissolve
     
-    m1 "Oh..."
+    m1 "Ох..."
     
     show m embarrassed
     with dissolve
     
-    "Mmmmm, awkward silence.  My favorite."
+    "Ммммммм, неловкая тишина. Обожаю её."
     
     show m yelling
     with dissolve
     
-    m1 "Well, I'm sorry, ok?"
+    m1 "Ну, прими мои сожаления, так лучше?"
     
     show m embarrassed
     with dissolve
@@ -518,48 +518,48 @@ label start:
     
     j "..."
     
-    "...this is fun..."
+    "...забавно..."
     
     show m yelling
     with dissolve
     
-    m1 "Well, in case you were wondering, my name's Melissa Tempse, but you can call me Mel."
+    m1 "Ладно, если это тебя обрадует, меня зовут Мелисса Темпс, но ты можешь звать меня Мэлл."
     
     show m angry
     with dissolve
     
-    "I don't care..."
+    "Мне без разницы..."
     
-    j "My name's Joshua McDermouth, but you call me what I tell you to call me.  And I say, call me Joshua."
+    j "Меня зовут Джошуа МакДермот, но ты будешь называть меня так, как я тебе скажу, и я говорю - Джошуа."
     
-    "Ah, aren't I smooth with women?  This is why people call me..."
+    "Ах, разве я не привлекателен для женщин?  Поэтому, люди зовут меня..."
     
     play sound "punch.wav"
     show bg bar
     with hpunch
     
-    j "OWWW!  WHAT THE HELL WAS THAT FOR?"
+    j "Aррр! КАКОГО ЧЁРТА НАДО БЫЛО ЭТО ДЕЛАТЬ?"
     
     show m smug
     with dissolve
     
-    m "That was for you being a jerk."
+    m "Чтобы над тобой подурачиться."
     
-    "What the..."
+    "Какого..."
     
     play sound "punch.wav"
     show bg bar
     with vpunch
     show m smug
     
-    m "And that was just because I don't like you."
+    m "А вот это - потому что ты мне не нравишься."
     
-    "Ah... I think my vision's going out..."
+    "Ахх... кажется, в глазах темнеет..."
     
     show bg black
     with fade
     
-    "Oh, you bitch..."
+    "Ах, ты дрянь..."
     
     hide m smug
     with dissolve
@@ -609,7 +609,7 @@ label start:
     show m embarrassed blur
     with dissolve
     
-    "Where... am I?"
+    "Где... я?"
     
     hide m embarrassed blur
     scene bg black
@@ -621,17 +621,17 @@ label start:
     show m embarrassed blur
     with dissolve
     
-    "I..."
+    "Я..."
     
     scene bg bedroom blur
     show m embarrassed blur
     with flash2
     
-    "Oww... My head... Gah.....!"
+    "Оуууу... моя голова... агх!"
     
-    m "Wake up, you lazy idiot!"
+    m "Вставай давай, ленивый идиот!"
     
-    "Huh?"
+    "Э?"
     
     scene bg bedroom
     show m angry
@@ -639,21 +639,21 @@ label start:
     stop music
     play music "mistake.mp3"
     
-    j "EH????"
+    j "ЭЭЭ????"
     
-    "My vision clears, and I'm lying down in a comfy bed..."
+    "Зрение проясняется, я лежу на удобной кровати..."
     
-    slow "without my clothes on."
+    slow "без одежды."
     
     jslow "............."
     
-    "Did I actually do something I'm going to regret last night?"
+    "Неужели, этой ночью я сделал что-то такое, о чём придётся сожалеть??"
     
     "..."
     
-    "Hmm, it seems this girl's clothes are still on..."
+    "Хммм, судя по всему, одежда этой девушки всё ещё на ней..."
     
-    "Wait, this girl..."
+    "Стоп, эта девушка..."
     
     scene bg bar flashback
     show m smug flashback
@@ -665,30 +665,30 @@ label start:
     show m angry
     with dissolve
     
-    j "....... {w=2} YOU!!!"
+    j "....... {w=2} ТЫ!!!"
     
-    j "What did you do to me last night?!?!?!?!"
+    j "Что ты сделал со мной прошлой ночью!?!?!?!?!"
     
     show m surprised
     with dissolve
     
-    m "...eh?"
+    m "...э?"
     
-    j "MY VIRGINITY!!!!"
+    j "МОЯ ДЕВСТВЕННОСТЬ!!!!"
     
     show m yelling
     with dissolve
     
-    mslow "....... you idiot."
+    mslow "....... ты идиот."
     
     show m pointing
     with dissolve
     
-    "She raises her hand, as though to hit me..."
+    "Она подняла руки, будто собралась побить меня..."
     
-    "Oh no, mommy....."
+    "О нет, мамочки....."
     
-    "I close my eyes."
+    "Я закрыл глаза."
     
     scene bg black
     hide m pointing
@@ -698,39 +698,39 @@ label start:
     
     slow "..."
     
-    "Huh?"
+    "Э?"
     
-    "I suddenly feel as though I've just been covered with warm clothes."
+    "Мне вдруг показалось, будто на мне тёплая одежда."
     
-    "How could anyone dress another person that quickly...?"
+    "Разве кто-нибудь может так быстро одеть другого человека...?"
     
-    "I cautiously open one eye."
+    "Я осторожно приоткрыл один глаз."
     
     scene bg bedroom
     show m smug
     with dissolve
     
-    "I'm shocked."
+    "Я в шоке."
     
-    "My wet clothes from the previous night's rain are back on me, now completely dry."
+    "На мне была моя одежда, мокрая от вчерашнего дождя, правда, теперь она была идеально сухая."
     
-    "But what's more important..."
+    "Но, что куда более важно..."
     
-    "That intolerable woman is smirking at me."
+    "Та невыносимая женщина мне ухмыляется."
     
-    m "How long are you gonna gape at me?"
+    m "Долго ещё будешь ан меня пялиться?"
     
-    "I sputter a bit."
+    "Я немного бормочу."
     
     show m pointing
     with dissolve
     
-    m "I guess I left out the complete formal introduction yesterday."
+    m "Кажется, все формальности остались во вчерашнем дне."
     
     show m interested
     with dissolve
     
-    m "I am Melissa Tempse, self-made mage, and current member of the Mage's Guild of New York."
+    m "Я Мелисса Темпс, маг-самоучка и постоянный член Гильдии Магов Нью-Йорка."
     
     slow ".............."
     
@@ -738,7 +738,7 @@ label start:
     hide m interested
     with dissolve
     
-    m "H-Hey, don't faint on me again!"
+    m "Э-эй, не падай опять в обморок при виде меня!"
     
     "No use... already slipping away...... Mages.... Hahaha.... I must be losing it...."
     
