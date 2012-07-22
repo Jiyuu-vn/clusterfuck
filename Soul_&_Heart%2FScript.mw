@@ -976,89 +976,89 @@ label start:
     $ show_button_game_menu = True
     scene bg cell with hpunch
     stop music
-    "What the--"
-    "Suddenly, I hear a commotion in Cetus' cell."
-    "She closed the screen a while ago, but strangely, now it's open."
-    "I can hear Cetus being restrained by a guard who are forcing her face to the ground."
+    "Что за..."
+    "Неожиданно я услышала шум в камере Цетуса."
+    "Некогда закрытая Цетусом шторка, как ни странно теперь была отрытой."
+    "Я слышу как Цетуса усмирял охранник, который хотел уложить её лицом к полу."
     show cetusr with dissolve
     play music "mystery.mp3"
-    c "Aaaaah! Damnit, get your hands off me!"
+    c "Ааааах! Черт возьми, убери свои руки от меня!"
     hide cetusr with dissolve
     show pmsm with dissolve
-    gu "Shut up, convict! You have no right to talk!"
-    "The guard laughs as he pop out a... {w}taser!?"
-    "Oh no..."
+    gu "Заткнись, заключённая! Я тебе не разрешал разговаривать!"
+    "Смеясь, охранник достаёт... {w}электрошоковый пистолет?!"
+    "О нет..."
     scene black with dissolve
-    "I look with shock to Cetus as they helplessly zap her continuously."
-    "It is a horrible sight. Cetus desperately kicks, knees and elbows the guards, but they are too strong."
+    "Я с ужасом смотрела на беспомощную Цетус, которую непрерывно било шоком."
+    "Жуткое зрелище. Цетус отчаянно брыкалась, била ногами, локтями, коленом охранников, но они были слишком сильны."
     sw "..."
     scene bg cell with dissolve
-    "A few minutes pass, and the guards leaves her cell."
-    "Suddenly Daena enters my cell, but she seems... {w}mad."
+    "Через несколько минут охранники покинули ее камеру."
+    "И тут Дайна входит в мою камеру, и она выглядит... {w}взбешённой."
     show daenam with dissolve
-    d "Do you know what your damn friend has done to our war meeting!?"
+    d "Знаешь ли ты, что твоя проклятая подруга вытворила на военном совете?!"
     ss "..."
-    ss "Yeah... {w}She attacked your father, right?"
-    d "Don't look so calm!"
+    ss "Да... {w}Она напала на твоего отца?"
+    d "И ты так спокойно говоришь об этом?!"
     play sound "guncock.wav"
-    "She suddenly points her gun at me..."
+    "И тут она нацеливает на меня пистолет..."
     scene cg cetusattack with dissolve
-    d "She attacked my father, made a mess at the conference hall, and five out of eight lower military personnel are in intensive care units right now due to the ruckus she made!"
+    d "Она напала на моего отца, учинив беспорядок в конференц-зале. Пять из восьми младших военнослужащих находятся в отделениях интенсивной терапии из-за того. И всё из-за того, что она натворила!"
     show blackfilm with dissolve
-    d "And you are in her plan! Both of you will get punished under the Code of War!"
+    d "И ты тоже помогала ей ! Оба вы получите наказание в соответствии с Кодексом о Войне!"
     scene bg cell with dissolve
     show daenam with dissolve
-    sw "What? But I'm not the one who attacked! I'm not--"
-    d "Shut up! You pretend to argue last time so that Cetus has an excuse to patch that damn screen with her mattress so that I can focus on only one of you!"
-    "So that screen is a link so that Daena can watch us simultaneously? {w}Technology's so weird."
-    ss "No! I'm telling the truth here, I'm not connected to Cetus' plan of attack!"
+    sw "Что? Но я же ни на кого не нападала! Я не..."
+    d "Замолчи! Ты притворяешься что Цетус имеет оправдание за закрытие этой проклятой занавесы её матрасом, таким образом я могла видеть только одну из вас! (!You pretend to argue last time so that Cetus has an excuse to patch that damn screen with her mattress so that I can focus on only one of you! !)"
+    "Так эта занавеса даёт возможность Дайне смотреть за нами одновременно? {w} Какие странные технологии."
+    ss "Нет! Я говорю правду, я никак не связана с планами Цетуса!"
     show daenasl with dissolve
     hide daenam
-    "Suddenly, she grins. Her smile is scary, as if she just thought of something... bad."
-    d "You convicts will {i}never{/i} learn."
-    d "You liars, killers and people who won't follow a fucking block of text with instructions. Persons who can't follow simple rules and regulations."
-    d "See, if you didn't insist on knowing who your parents were, you would be in a completely different situation at this moment."
+    "Тут она улыбнулась. Её улыбка была пугающей, будто она только что подумала о чём-то плохом."
+    d "Вы, заключённые, {i}никогда{/i} не учитесь."
+    d "Вы лжецы, убийцы и прочие, кто не следует этим грёбаным клочкам инструкций. Люди, не умеющие следовать простым правилам и нормам."
+    d "Вот смотри. Если бы ты не была настойчива в желании узнать, кто твои родители, сейчас ты была бы в совершенно другой ситуации."
     sw "..."
-    "I try crawling backwards, but suddenly I remember I'm not in open space."
-    "I'm in a cramped room, with this young girl pointing a gun at me."
-    "For... attempting to kill her father."
-    "But..."
+    "Я пытаюсь отступить шаг назад, но тут осознаю, что камера не бесконечная."
+    "Я нахожусь в этой тесной комнате вместе с этой молодой девушкой, целящей свой пистолет на меня."
+    "Из-за... покушения на её отца."
+    "Но..."
     play music "memory.mp3"
     scene black with dissolve
-    "I've already committed a lot of sins in my life."
-    "I should pay for them."
-    "Isn't that correct?"
+    "За свою жизнь я совершила много грехов."
+    "И я должна заплатить за них."
+    "Ведь верно я говорю?"
     show wlss with dissolve
-    "I was that girl who cried over my mom. {w}My real mom. {w}If it's a sin in society's eyes, then I'll pay for it."
+    "Мне была той девушкой, которая плакала над моей мамой. {w}Моей настоящей мамой. {w}И если это по мнению общества грех, я заплачу за него."
     hide wlss with dissolve
     show cetusy with dissolve    
-    "I shouted at Cetus, my only friend. She did a lot of things for me. She helped me get used to this thing called reality."
-    "And I killed somebody for what I {i}wanted{/i}. {w}Shouldn't I strive more for what I {i}need?{/i}? For what I should get?"
+    "Я накричала на Цетуса, мою единственную подругу. Однако она много для меня сделала. Она помогла мне смириться с этой реальностью."
+    "И я убила человека, потому что я {i}хотела{/i} этого. {w}Разве я не должна стремиться к тому, в чём я больше всего {i}нуждаюсь?{/i}? (!For what I should get?!)"
     hide cetusy with dissolve
     show daenaa with dissolve
-    "I'm sorry too, Daena. I am not a good prisoner. {w}No one is."
-    "We are all in the prisons of fate. We all can't escape."
-    "And now you are blaming me for a sin I didn't commit."
-    "It's all right. I have done worse things, anyway.."
+    "Прости меня, Дайна. Плохая из меня заключённая.."
+    "Но у нас всех такая судьба. Мы не можем её избежать."
+    "И сейчас ты обвиняешь меня в грехе, которого я не совершала."
+    "Всё нормально. Я совершала и худшие вещи..."
     stop music fadeout 2
     scene bg cell with dissolve
     show daenam with dissolve
-    sh "Okay.."
+    sh "Хорошо..."
     show daenaco with dissolve
     hide daenam
-    d "What?"
-    sh "Kill me now. That's what you want, right?"
-    sh "Don't worry, it's not a waste of bullets."
+    d "Что?"
+    sh "Убей меня. Ты ведь этого хочешь?"
+    sh "Не волнуйся, это не напрасная трата пули."
     d "..."
-    sh "I've made a lot of sins in the past, I'll know I'll pay for them someday."
-    sh "Please, make it quick."
+    sh "В прошлом я совершила множество грехов. И я знаю, однажды меня придётся за них заплатить."
+    sh "Пожалуйста, пусть это будет быстро и не мучительно."
     d "..."
-    "I wait as I raise my hands up in the air in defeat and.."
+    "Я стояла с поднятыми вверх руками в знак поражения..."
     show cg giveup with dissolve
-    "... feel the tears in my eyes flow down to my cheeks."
+    "... и чувствовала как слеза стекает по моей щеке."
     d "..."
-    si "I know I'm really stupid to say this, but you win."
-    si "I know I lose in the end. Everyone does."
+    si "Конечно глупо говорить об этом, но ты победила."
+    si "Я знаю, в конце концов я проиграю. Все об этом знают."
     "Daena lowers her gun a little and stares at me with a mixture of doubt and relief."    
     si "I knew that I did something I would soon regret. And that was going to that room."
     si "But what could I do? I knew I'd be going to jail. Yet I still did it. And now I'll be paying for it."
