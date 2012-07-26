@@ -82,7 +82,7 @@ init:
     $ s2 = Character(u'Солдат 2', color ="#F5F5F5", show_two_window=True)
     $ f1 = Character(u'Крестьянин 1', color ="#F5F5F5", show_two_window=True)
     $ f2 = Character(u'Крестьянин 2', color ="#F5F5F5", show_two_window=True)
-    $ c = Character(u'Connor', color ="ff1493", show_two_window = True)
+    $ c = Character(u'Коннор', color ="ff1493", show_two_window = True)
     $ o = Character(u'Пожилой мужчина', color ="#F5F5F5", show_two_window = True)
     $ o2 = Character(u'Старик', color ="ff3030", show_two_window=True)
     $ w = Character(u'Женщина', color ="#f5f5f5", show_two_window = True)
@@ -91,11 +91,11 @@ init:
     $ d = Character(u'Пьяный мужчина', color="ffd700", show_two_window = True)
     $ lg = Character(u'Маленькая девочка', color="fffafa", show_two_window = True)
     $ mo = Character(u"Мать девочки", color="fffafa", show_two_window = True)
-    $ nvlj = NVLCharacter("Joshua", color="#00ee00")
+    $ nvlj = NVLCharacter("Джошуа", color="#00ee00")
     $ nvlt = NVLCharacter(None, color="fffafa")
     $ config.adv_nvl_transition = dissolve
     $ config.nvl_adv_transition = dissolve
-    $ c2 = Character('Connor, Jr. Jr.', color="ff3030", show_two_window = True)
+    $ c2 = Character('Коннор, Jr. Jr.', color="ff3030", show_two_window = True)
     
     $ top = Position(xalign=0.5, yalign=0.5)
     
@@ -434,7 +434,7 @@ label start:
     
     "Может, и мне стоит так поступить..."
     
-    "Just as I get up to run..."
+    "Я было принялся уходить..."
     
     show m yelling
     with dissolve
@@ -454,7 +454,7 @@ label start:
     
     "...ну почему я?"
     
-    "Подождите-ка.  С какой стати я позволяю этой девушке себя перебить?  Я покажу ей, КТО Я такой!"
+    "Подождите-ка.  С какой стати я позволяю этой девушке так себя со мной вести?  Я покажу ей, КТО Я такой!"
     
     j "Постой, дай мне объяснить"
     
@@ -488,7 +488,7 @@ label start:
     
     "Малыш,  другая симпатичная плаксивая девушка..."
     
-    j "Ну, её лошадь и кибидка... упали с моста..."
+    j "Ну, её лошадь и коляска... упали с моста..."
     
     show m shocked
     with dissolve
@@ -1563,9 +1563,9 @@ label start:
     
     "Я вижу людей."
     
-    m "Let go of me!"
+    m "Уйди от меня!"
     
-    "Huh?"
+    "Э?"
     
     stop music
     play music "mistake.mp3"
@@ -1573,49 +1573,49 @@ label start:
     show m yelling
     with dissolve
     
-    s1 "Hehe, look what we have here."
+    s1 "Хе-хе, смотри-ка что у нас есть."
     
-    s2 "Looks like she's lost."
+    s2 "Кажется, она потерялась."
     
     hide m yelling
     with dissolve
     
-    "Grrrrr, those losers....."
+    "Гррр, те лузеры....."
     
-    s1 "Let's take her back to camp."
+    s1 "Давайте вернём её обратно в лагерь."
     
-    s2 "Wait, she isn't really dressed like one of those colonist soldiers though...  She's actually dressed kinda weird."
+    s2 "Подожди, она одета не так как те соладты колонисты...  Она как-то странно одета."
     
-    s1 "Whatever.  We'll just bring her there anyways.  The rest of the soldiers haven't had much fun in a while!"
+    s1 "Мне без разницы.  Мы притащим её с собой.  The rest of the soldiers haven't had much fun in a while(Другая часть солдат, однажды, получила не особо много удовольствия???)!"
     
     show m yelling
     with dissolve
     
-    m "Wait, don't take me there!"
+    m "Подождите, не забирайте меня отсюда!"
     
     hide m yelling
     with dissolve
     
-    "The two soldiers walk off with Melissa in tow."
+    "Оба солдата ушли, таща за собой на верёвке Мелиссу."
     
-    "That's not good."
+    "Ничего хорошего."
     
-    "Maybe I should get some help???"
+    "Может, мне стоит пойти за подмогой???"
     
-    "I walk along the path."
+    "Я иду вдоль дороги."
     
     scene bg woods1
     with dissolve
     
-    "YES!"
+    "ТОЧНО!"
     
-    "There's is a bag lying on the ground."
+    "Здесь на земле лежит сумка."
     
-    "And fortuitously for me..."
+    "И, к счатью для меня..."
     
-    "It has those two soldiers' spare townsclothes!"
+    "Это сумка тех двоих солдат со сменной одеждой!"
     
-    "Now just change into these..."
+    "Осталось только замаскироваться, переодевшись в это..."
     
     scene bg black
     with dissolve
@@ -1634,7 +1634,7 @@ label start:
     
     slow "..........."
     
-    "Hey, it's a tavern!"
+    "О, а вот и таверна!"
     
     stop music
     
@@ -1646,74 +1646,74 @@ label start:
     with dissolve
     play music "tavern.mp3"
     
-    "I sit down at a table in the corner."
+    "Я сел за столик в углу комнаты."
     
-    "Two men are engaged in a heated discussion a few tables over."
+    "Двое мужчин, сидящих через пару столов от меня, что-то бурно обсуждали."
     
-    f1 "The British are suppressing our rights.  Suppressin' them, I tell you."
+    f1 "Британцы ущемляют наши права.  Я говорю, ущемляют."
     
-    f1 "Suppressing them like...{w=1} like the grass suppresses the ground!"
+    f1 "Да дак ущемляют...{w=1} как трава застилает землю!"
     
-    "Huh? How does that work?"
+    "Э? Как это работает?"
     
-    f2 "I agree.  We have to join our fellow countrymen and storm their camp!  {w=1}People around the country are already fighting... {w=1}We're one of the few towns that still haven't fallen into line!!!"
+    f2 "Согласен. Мы должны присоединиться к нашим горожанинам и пойти штурмом на их лагерь!  {w=1} Люди со всей страны уже готовы к битве... {w=1}Наш город один из немногих, кто не подчинился им!!!"
     
-    f1 "I say we do it tonight!  Rise and call our fellow men to rise!  Rise with honor!  Rise with strength!"
+    f1 "Говорю тебе, мы сделаем это сегодня ночью! Встань, и начни созывать людей для восстания!  Восстанем гордо!  Восстанем с силой!"
     
-    "... Wait a minute..."
+    "... Так, стоп..."
     
-    "Maybe I could use this to my advantage!  If we can storm the camp, I might be able to save Melissa..."
+    "Может, я могу использовать это как преимущество!  Если мы пойдём на шторм лагеря, может, я смогу спасти Мелиссу..."
     
-    j "I will join you!"
+    j "Я хочу присоединиться к вам!"
     
-    "The two men look over in my direction..."
+    "Эти двое посомтрели в мою сторону..."
     
-    j "*gulp*"
+    j "*сглотнул*"
     
-    f1 "... Who are you? I've never seen you before... Are you new?"
+    f1 "... Кто ты такой? Я никогда тебя прежде не видел... Ты новенький?"
     
-    j "Yes, actually, I'm from the next town."
+    j "Ну да, вообще-то, я из соседнего города."
     
-    f2 "Ah, Brooklyn?"
+    f2 "А! Бруклин?"
     
-    "Did he say Brooklyn!???!"
+    "Он сказал Бруклин!???!"
     
-    "I'M IN THE RIGHT PLACE!"
+    "ДА Я ПОПАЛ В НУЖНОЕ ВРЕМЯ, В НУЖНЫЙ МОМЕНТ!"
     
-    "I silently thank Melissa for getting at least the town right."
+    "Мысленно, я поблагодарил Мелиссу, что она хоть городом не промахнулась."
     
-    j "Yes, Brooklyn."
+    j "Да, я из Бруклина."
     
-    f1 "Ah, I see."
+    f1 "А, вижу."
     
-    f2 "In that case, you can join in our fight!"
+    f2 "В таком случае, можешь присоединиться к нашей битве!"
     
-    "The two men rise and rush out the door..."
+    "Эти двое мужчин встали и вышли..."
     
-    f1 "LIGHT YOUR TORCHES!"
+    f1 "ЗАЖГИТЕ ФАКЕЛЫ!"
     
-    f2 "LOAD YOUR MUSKETS!!!"
+    f2 "ДОСТАНЬТЕ ОРУЖИЕ!!!"
     
-    "Hmm... is this bad?"
+    "Хммм... это плохо?"
     
     stop music
     scene bg hill night
     with dissolve
     play music "Battle.mp3"
     
-    "It is now night."
+    "Наступил вечер."
     
-    "The two farmers from before are standing before a pretty incited crowd."
+    "Те двое мужчин стояли перед возбуждённой толпой."
     
-    f1 "Today, we shall overcome the brutal forces of Britain!  {w=1}Those merciless men will fall to our impassioned ones!  {w=1}Not a single one of the cruel redcoats will leave today without wishing they had not set foot upon this land!"
+    f1 "Сегодня, мы разгромим войска Британцев!  {w=1}Эти жестокие люди падут под нашим пылким наттиском!  {w=1}Ни один бессердечный Британский солдат не переживёт этот день, если не станет молить о том, что ноги его больше не будет на нашей земле!"
     
-    "Strong words."
+    "Хорошо сказал."
     
-    "The men give a cry, and brandish their guns... and pitchforks."
+    "Мужчины начали плакать и махать ружьями... и вилами."
     
-    "And the mob moves forward with a deafening roar."
+    "Толпа, с оглушающим рёвом понеслась вперёд."
     
-    "I'll follow behind them... in a safe distance."
+    "Я последую за ними... буду держаться на безопасном расстоянии."
     
     scene bg camp
     
@@ -1738,55 +1738,55 @@ label start:
     play sound "gun.wav"
     $ renpy.pause(0.5)
     
-    "Oh dear..."
+    "Мамочки..."
     
-    "I don't want to die!"
+    "Я не хочу умирать!"
     
-    "Crap."
+    "Чёрт."
     
-    "I hide inside a tent."
+    "Я спрятался в палатке."
     
     stop music    
     scene bg tent
     with dissolve
     play music "comfort.mp3"
     
-    "Huh?"
+    "Э?"
     
     show m thinking
     with dissolve
     
-    "It's Melissa!"
+    "Мелисса!"
     
-    j "Mel!"
+    j "Мэл!"
     
     show m surprised
     with dissolve
     
-    m "Joshua?"
+    m "Джошуа?"
     
     show m happy
     with dissolve
     
-    m "JOSHUA!"
+    m "ДЖОШУА!"
     
-    j "By the way... You can call me Josh... Joshua seems a bit too formal..."
+    j "Кстати... Зови меня Джош... Джошуа - как то слишком формально..."
     
-    m "Okay!"
+    m "Ладно!"
     
-    "She jumps onto me..."
+    "Она прыгнула на меня..."
     
-    "I can't breathe..."
+    "Не могу дышать..."
     
-    m "I'm so relieved to see you..."
+    m "Какое облегчение, видеть тебя снова..."
     
-    "My lungs... they're collapsing..."
+    "Мои лёгкие... Они сжимаются..."
     
-    m "Joshua?  You're changing into an odd shade of blue..."
+    m "Джошуа?  Ты одел какую-то странную синюю штору..."
     
-    j "*frantically waving arms*"
+    j "*лихорадочно машет руками*"
     
-    m "Oh!"
+    m "О!"
     
     show m embarrassed
     with dissolve
