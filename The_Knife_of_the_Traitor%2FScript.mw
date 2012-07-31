@@ -590,66 +590,66 @@ label start:
     scene bg01 with dissolve
 
     
-    r"From the depths of her cursed slumber, the girl awakes."
+    r"Вырывавшись из объятий зачарованного кошмара, девушка очнулась."
     window show
     show osstand at left with dissolve
     play music "intro_theme.ogg"
     os"..."
-    r"L-Lady Os?"
+    r"Го-Госпожа Оз?"
     o"..."
     show corstand at right with dissolve
-    co"Praise the Gods! You're alive! YOU'RE ALIVE!"
+    co"О Господи, спасибо! Вы живы! ЖИВЫ!"
     o"..."
-    co"Huh? Wait..."
+    co"Эм? Минутку..."
     o"..."
     hide corstand with aaa
     show corsur2 at right with aaa
     $ renpy.play('fwaon1.wav')
     with vpunch
-    co"What's..."
+    co"Что за..."
     $ renpy.play('fwaon2.wav')
     with hpunch
-    co"WHAT'S THAT ON YOUR NECK?!"
+    co"ЧТО ЗА ХРЕНЬ ТОРЧИТ ИЗ ВАШЕЙ ШЕИ?!"
     o"..."
     hide corsur2 with aaa
     show corstand at right with aaa
-    co"Good Lord! So you can't speak?!"
-    o"*nods*"
-    co"Let me cast a spell on you so you can speak to me with your mind."
+    co"Бог мой! Неужели вы теперь не можете говорить?!"
+    o"*кивок*"
+    co"Не сочтите за дерзость, я воспользуюсь заклинанием, которое позволит вам обращаться ко мне мысленно."
     $ renpy.play('bukimi1.wav')
     o"!"
-    co"That's it! Try sending me your thoughts, my lady."
+    co"Готово! Постарайтесь направить ваши мысли ко мне, моя госпожа."
     co"..." 
     hide corstand with aaa
     show corsur2 at right with aaa
     $ renpy.play('fwaon3.wav')
     with vpunch
-    co"WHAT?! You don't remember me? What is this witchcraft!?"
+    co"КАК ЖЕ ТАК?! Вы, в самом деле, не помните меня? Что за чертовщина?!"
     o"..."
     hide corsur2 with aaa
     show corstand at right with aaa
-    co"My lady, it pains me DEEPLY to hear that. I'm your loyal Corvus, and I've been serving your family since I was born. True story!"
+    co"Моя госпожа, ваши слова, они ранят меня В САМОЕ СЕРДЦЕ. Ведь это я, ваш верный Корвус. Я служил вашей семье всю свою жизнь, с того самого дня, как родился. И это правда!"
     o"..."
-    c"I just woke up, so I'm just as confused as you are, but..."
-    c"From the condition of this room- *sneeze* -it looks like we've been sleeping for quite some time. Some bastardly traitor probably cast some kind of spell on us."
-    c"Also, that knife on your neck must be cursed. That's why you can't remember a thing. Atrocious, absolutely atrocious!"
-    c"What this ruffian did to you has no name! Your precious porcelain skin- *cough* I mean your neck and your voice has been ruined!"
+    c"Я сам только что пришел в себя и сбит с толку не меньше вашего, но..."
+    c"Если хорошенько осмотреться- *чиханье* -это наводит на мысль, что мы основательно вздремнули. Наверно, это проделки мерзкого изменника: он наложил на нас какое-то заклятье."
+    c"А кинжал в вашей шее, без сомнения, проклят. Из-за него и исчезли все ваши воспоминания. Какая жестокость, ужасающая жестокость!"
+    c"Поступок этого негодяя переходит все границы! Ваша нежнейшая фарфоровая кожа- *кашель* Я хотел сказать, как он посмел навредить вашей шее и вашему голосу!"
     o"..."
-    c"My lady, allow me to refresh your memory."
-    c"You are the heir to the throne of the Kingdom of Ulla, the most beautiful kingdom in this vast land."
-    c"With your speeches and your, ahem, discipline, our territory spread like wildfire during your reign. Oh, the riches we had! Your father, Lord Skedel, was so proud of you! *sniff*"
-    c"But it seems somebody grew jealous of your glory."
-    c"On your 17th birthday, you came to this tower to have some fun with the prisoners. I followed you to make sure you got back in time for your birthday ceremony."
+    c"Моя госпожа, позвольте, я помогу вам вспомнить."
+    c"Вам предстоит унаследовать трон Королевства Улла, самого прекрасного королевства на всем белом свете."
+    c"За время своего правления вы, вашими речами и, кхм, поддержанием порядка, стремительно раздвинули наши границы, И богатела наша страна! Ваш отец, господин Скедл, так гордился вами! *хнык*"
+    c"Но ваша слава разожгла чью-то зависть."
+    c"В день вашего 17-летия вы отправились в эту башню, чтобы пленники развеяли вашу скуку. Я последовал за вами: вам нельзя было опаздывать на торжество в честь вашего дня рождения."
     o"..."
-    c"Alas, the sleep spell conquered me as soon as I entered the tower. I didn't catch even a single glimpse of the culprit."
-    c"Judging from the knife on your neck, the traitor must have tried to kill you right after that!" 
-    c"Oh, I'm so glad you managed to survive, Lady Os! Your father will be so happy to see you again!"
+    c"Увы, усыпляющие чары поразили меня, как только я влетел в башню. Я даже не успел разглядеть преступника."
+    c"Если судить по кинжалу, торчащему из вашей шеи, изменник пытался убить вас!" 
+    c"О, я невероятно счастлив, что вы таки выжили, Госпожа Оз! И ваш отец будет вне себя от радости, когда снова увидит вас!"
     o"..."
-    c"Gahaha, don't worry! We'll catch the culprit and make him give you your memories back!" 
+    c"Муа-ха-ха, не стоит волноваться! Мы обязательно найдем виновника и заставим его вернуть ваши воспоминания!" 
     o"..."
     stop music fadeout 1.5
-    c"Why don't we explore the tower a little? If the sleep spell affected everybody, the prisoners should be waking up right about now."
-    o"*nods*"
+    c"Я бы предложил сначала исследовать эту башню. Если остальные заснули, как и мы, то они должны постепенно просыпаться."
+    o"*кивок*"
     
 label firstmenu:
     if has_visited_basement2 and has_visited_kitchen2 and has_visited_watchtower2:
@@ -659,19 +659,19 @@ label firstmenu:
         play music"intro_theme.ogg"
         menu:
 
-            "Go to the basement." if has_visited_basement2 == False:
+            "Пойти в подвал." if has_visited_basement2 == False:
                 if has_visited_basement == False:
                     jump ba
                 else:
                     jump ba2
             
-            "Go to the kitchen." if has_visited_kitchen2 == False:
+            "Пойти на кухню." if has_visited_kitchen2 == False:
                 if has_visited_kitchen == False:
                     jump ki
                 else: 
                     jump ki2
           
-            "Go to the balcony." if has_visited_watchtower2 == False:
+            "Пойти на балкон." if has_visited_watchtower2 == False:
                 if has_visited_watchtower == False:
                     jump wt
                 else:
@@ -692,65 +692,65 @@ label ba:
     $ renpy.play('mizu2.wav')
     pause 1
     window show dissolve
-    c"Watch your step, Lady Os! The floor's covered in, uh, fertilizer."
+    c"Смотрите под ноги, Госпожа Оз! Пол покрыт, эм, удобрениями."
     o"!"
     show bg02 with dissolve
-    c"Nnngh!"
-    c"This flatulence is killing me!"
+    c"Ынгх!"
+    c"Эти газы просто убивают меня!"
     show osstand at left with aaa
     show corstand2 at left with aaa
     show vostand at right with dissolve
-    vo"That's mean, Corvus."
-    c"You!"
+    vo"Как вульгарно, Корвус."
+    c"Ты!"
     play music "vosges_theme.ogg"
-    vo"To what do I owe this honor?"
+    vo"Чем же я заслужил такую честь?"
     show vosmile at right with aaa
     hide vostand with aaa
-    c"Don't get too full of yourself. Lady Os is just looking around after her brief nap."
+    c"Не бери на себя так много. Госпожа Оз  просто осматривает свои владения после небольшого отдыха."
     show voswut at right with aaa
     hide vosmile with aaa
-    vo"Brief? Are you serious? We've been here for four years. Trapped like rats."
-    c"F-four years?! How can you be so sure of that?"
+    vo"Небольшого? Ты шутишь? Мы торчим здесь уже четыре года. Как будто в мышеловке."
+    c"Че-четыре?! Откуда такая уверенность?"
     show vostand at right with aaa
     hide voswut with aaa
-    vo"Can you see the little window there?"
-    vo"Gaze at the sky, and you will see an small green light there. That's the venturous star."
-    vo"It appears every 14 years. Before this mess occurred I happened to look up the number of years that would pass before it would appear again."
-    c"Hmmph. That makes sense, I guess..."
+    vo"Загляните в это крошечное окошко."
+    vo"Присмотритесь к небосводу, и вы заметите маленькую зелёную звезду. Это отважная звезда."
+    vo"Она появляется не небе раз в 14 лет. Мне посчастливилось посчитать, сколько лет должно пройти до её следующего появления, прежде чем началась вся эта неразбериха."
+    c"Хым, не лишено смысла..."
     o"..."
-    c"I'm sorry, my lady! This is Vosges, the magician of the castle. At least, that's what he thinks..."
-    v"What's this? She has amnesia?"
-    v"Heh. Hope you have fun figuring out which one of us did this."
-    c"What do you mean?"
-    v"You should pay more attention to what happens around you, Corvus, instead of drooling on your lady."
+    c"Прошу прощения, моя госпожа! Пред вами Восгез, волшебник этого замка. Ну, по крайней мере, он так думает..."
+    v"К чему всё это? Неужели у неё амнезия?"
+    v"Ха. Что ж, желаю хорошо повеселиться, пока будете выяснять, кто из нас виновник."
+    c"Говори прямо!"
+    v"Тебе бы стоило проявить внимательность, Корвус, вместо того, чтобы истекать слюной от одного вида своей повелительницы."
     hide corstand2 with aaa
     show corblush at left with aaa
-    c"H-how dare you!"
-    v"Well, I suppose I should explain the situation we find ourselves in, since you're obviously clueless."
+    c"Да как ты смеешь!"
+    v"Похоже, мне придется прояснить настоящее положение дел: ни грамма понимания на ваших лицах."
     show cormad2 at left with aaa
     hide corblush with aaa
-    v"Four years ago, someone attempted to murder Lady Os in this tower."
-    c"How did you know?"
-    v"On her 17th birthday, I received a strange note."
+    v"Четыре года назад в этой башне на Госпожу Оз было совершено покушение."
+    c"Откуда ты знаешь?"
+    v"В день её семнадцатилетия я получил подозрительную записку."
     hide cormad2 with aaa
     show corstand2 at left with aaa
-    c"What did it say?"
-    v"It said that Lady Os was going to be killed in this tower that day."
+    c"И в ней?"
+    v"Там говорилось о запланированном убийстве Госпожи Оз."
     hide corstand2 with aaa
     show corsur at left with aaa
-    c"WHAT?!"
-    v"I was invited to watch."
-    c"And you didn't warn Lady Os of this?! You filthy traitor!"
-    v"*shrugs* What else did you expect me to do?"
+    c"НЕ МОЖЕТ БЫТЬ!"
+    v"Я был приглашен как зритель."
+    c"И ты даже не предупредил Госпожу Оз?! Подлый изменник!"
+    v"*пожал плечами* А ты ожидал другого?"
     o"..."
     hide corsur with aaa
     show corstand2 at left with aaa
-    c"Does Vosges hate you, my lady? Let's just put it this way... I wouldn't be surprised if it turns out that he was the one who attempted to kill you."
-    c"Because of the barrier surrounding this tower, nobody can get in or out, which means that the traitor has to be one of the prisoners."
+    c"Что, госпожа, ненавидит ли вас Восгез? Если вам интересно моё мнение… Я бы не удивился, если покушение на вас дело его рук. "
+    c"Никто не может пересечь барьер, окружающий башню, поэтому преступник находится среди пленников."
     o"..."
-    c"Oh, but you are the sole exception, my lady!"
-    c"As the creator of this barrier, you can come and go as you please. I only managed to get in because I was following very closely behind you."
-    v"How naive."
+    c"Ой, что вы, моя госпожа, вас это не касается!"
+    c"Как создатель барьера вы можете спокойно проходить сквозь него. Я проник сюда только потому, что непрестанно следовал за вами."
+    v"Сама невинность."
     c"Are you thinking of something unpleasant again, with that decaying brain of yours?"
     v"The presence of the barrier merely means that the culprit has to be someone who was in the tower at the time."
     v"Sure, it could be me. It could be Gervase."
