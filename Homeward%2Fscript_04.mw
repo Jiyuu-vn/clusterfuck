@@ -1,5 +1,947 @@
 <poem>
 <nowiki>
+    
+    $ renpy.music.stop(fadeout=3.0)
+    window hide dissolve
+    scene bg black with dissolvelong
+    show eyecatchlogo with dissolve
+    $ renpy.pause (4.0)
+    hide eyecatchlogo with dissolve
+    
+    window show dissolve
+    scene bg street4 with dissolve
+    play music "Music/Julians_Auftritt.ogg" fadeout 1.5 loop        
 
+    show nonami uniform neutral with dissolve:
+        xanchor 0.5
+        xpos 0.5
+        
+    show haruka uniform neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+        
+    show sora uniform neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+
+    "We were walking to school together when Nonami suddenly brought it up."
+    
+    show nonami uniform armscrossed smile with dissolve
+    
+    no "Golden Week's coming up soon, isn't it?"
+    
+    show haruka uniform smile with dissolve:
+        xpos 0.2
+    
+    ha "That's right, isn't it. Does Nona-chan have anything planned?"
+    no "Umm... Not really."
+    ha "What about Saionji-san and Sora-chan?"
+    ri "Sora and I are going to Seattle."
+    
+    show nonami uniform armscrossed gloom with dissolve
+    no "Eh... That sounds nice."
+    no "... ... ..."
+    
+    show nonami uniform surprise with dissolve
+    no "EHHHHHHHH!?!?"
+    
+    show haruka uniform handstogether forcedsmile with dissolve:
+        xpos 0.2
+        
+    ha "That's pretty incredible, huh..."
+    
+    ##show nonami uniform neutral teary with dissolve
+    no "Uuu... Rii-kun..."
+    
+    show nonami uniform excited teary with dissolve
+    no "Please take me with you!"
+    "I don't think that would possible..."
+    
+    ##show nonami uniform neutral teary with dissolve
+    no "*sniff* *sniff* Wouldn't it be nice to be an American like Rii-kun..."
+    "You know, I'm sure a lot of other Japanese people visit the American West Coast for Golden Week too."
+    
+    show haruka uniform handraised forcedsmile with dissolve:
+        xpos 0.2
+        
+    ha "Has Sora-chan ever traveled abroad before?"
+    
+    show sora uniform armscrossed neutral with dissolve:
+        xpos 0.8
+    so "U-uhn. This will be my first time."
+    
+    show haruka uniform handstogether smile with dissolve:
+        xpos 0.2
+    ha "It sounds like you two will have a lot of fun."
+    
+    show sora uniform armscrossed eyesclosed with dissolve:
+        xpos 0.8
+    so "Mm, mm. But I can't speak any English."
+    ha "Eh-heh, as long as your brother's with you, I don't think it'll be a problem."
+    
+    show nonami uniform excited frustrated with dissolve
+    no "Uuuu... No fair... I wanna go too!"
+    
+    scene bg outsideschool with dissolve
+    "Soon, we arrived at school."
+    "I thought that Nonami would forget everything about it by lunch time, but she continued to pout for the rest of the day."
+    "Oh, oh... Maybe I should have just stayed quiet..."
+    
+    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop    
+    scene bg seattlestreet1 with dissolve
+    
+    "And yet, when Golden Week came..."
+    
+    show nonami casual neutral happy with dissolve
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    no "Uwaaahhh! Look, look, Rii-kun! It's the Supeesu Niidoru!"
+    "It's called the Space Needle. Nobody is going to understand if you say it like that, Nonami..."
+    no "Amazing! Look, look, Rii-kun! They're Americans!"
+    "I felt tempted to hide my face in embarrassment. Please stop drawing so much attention to us, Nonami..."
+    
+    show nonami casual excited happy with dissolve
+    no "Uwaahhh! They're speaking English!"
+    "Did you expect them to speak German?"
+    
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xpos 0.2
+    ha "Eh-heh... Sorry, Saionji-san... But Nona-chan really insisted..."
+    
+    show sora casual tanuki neutral with dissolve:
+        xpos 0.8
+    so "Unexpected increase in party size."
+    
+    show nonami casual armsraised smile2 with dissolve
+    no "Wooaaahhh!!! There really are Starbucks and Seattle's Bests around every corner!"
+    "Somebody please tell me..."
+    ri "Just how did everything turn out this way...?"
+    
+#####################
+    
+    play music "Music/Scheming_Weasel.ogg" fadeout 1.5 loop
+    scene bg airport with dissolve
+    
+    "Eight hours prior:"
+    "Sora and I were at the airport, waiting for our flight, when unbeknown to us, a dark conspiracy was unfolding behind our very backs..."
+    show nonami casual armscrossed suspicious with dissolve:
+        xanchor 0.5
+        xpos 0.3
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.7
+
+    no "Oh! There they are..."
+    
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xpos 0.7
+    ha "N-Nona-chan... why don't we just go up to them and say hello?"
+    
+    show nonami casual armscrossed confident with dissolve:
+        xpos 0.3
+    no "No, no! We have to wait... or else the impact will all be gone. It's all about the impact, Haru-chan!"
+    ha "Eh-heh... I don't really understand..."
+    no "It's just like you wake up on Christmas morning and find a present that hasn't been wrapped! Or you watch a movie, but you're already spoiled from watching the previews!"
+    ha "Ehehehe... Meaning...?"
+    
+    show nonami casual armscrossed smile2 with dissolve:
+        xpos 0.3
+    no "Basically, we're going to surprise Rii-kun and Sora-chan. If we just waltz right up to them and tell them that your parents bought us tickets too, then the surprise factor is going to be lost."
+    
+    show haruka casual handfront forcedsmile with dissolve:
+        xpos 0.7
+    ha "I-is that so?"
+    
+    show nonami casual armscrossed confident with dissolve:
+        xpos 0.3
+    no "Uhn, uhn! That's why we absolutely cannot reveal ourselves until the very last moment!"
+    ha "I see..."
+    "They creeped up behind us. As soon as it seemed like I was turning to face their direction, Nonami opened up a newspaper and covered her face."
+    
+    show nonami casual armscrossed irritated with dissolve:
+        xpos 0.3
+    no "Whew. Close call."
+    
+    show nonami casual neutral with dissolve:
+        xpos 0.3
+    no "Mm. I think the coast is clear for now."
+    
+    show haruka casual handfront forcedsmile with dissolve:    
+        xpos 0.7
+    ha "T-then, I think I'll just go to the washroom for a bit."
+    
+    show nonami casual neutral irritated with dissolve:
+        xpos 0.3
+    no "Eh? But-"
+    
+    show haruka casual handstogether forcedsmile with dissolve:
+        xpos 0.7
+    ha "The toilets on the airplane are just a bit..."
+    no "Ah, well, I guess it couldn't be helped. Remember, you must avoid exposing our cover no matter what!"
+    ha "Okay, I understand."
+    
+    hide haruka with dissolve
+    
+    hide nonami with dissolve
+    show nonami casual armscrossed confident with dissolve
+    no "Now, to continue surveillance of our target..."
+    "Nonami returned her sights to where we were sitting, only to realize that I was just with my father now."
+    
+    show nonami casual neutral baffled with dissolve
+    no "Eh? Where did Sora-chan go?"
+    
+    scene bg airportwashroom with dissolve
+    
+    "Haruka was washing her hands at the washroom when a familiar looking face suddenly entered."
+    show haruka casual handstogether happy with dissolve:
+        xanchor 0.5
+        xpos 0.7
+    
+    show sora casual tanuki neutral with dissolve:
+        xanchor 0.5
+        xpos 0.3
+
+    ha "Ah, Sora-chan, good day to you."
+    
+    show sora casual tanuki sweatdrop with dissolve:
+        xpos 0.3
+    so "... ... ..."
+    
+    show haruka casual handstogether sweatdrop with dissolve:
+        xpos 0.7
+
+    ha "... ... ..."
+    so "... ... ..."
+    
+    show haruka casual excited hurt with dissolve:
+        xpos 0.7
+    ha "Uuu... I messed up."
+    
+    show sora casual tanuki neutral with dissolve:
+        xpos 0.3
+    so "What are you doing here?"
+    
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xpos 0.7
+    ha "Umm... That's... Ahh..."
+    
+    show haruka casual excited embarassed with dissolve:
+        xpos 0.7
+    ha "Ahh... Ahh... Haru-chan's working part time at the airport now!"
+    
+    show sora casual tanuki suspicious with dissolve:
+        xpos 0.3
+    so "Ehhh... I see..."
+    
+    show haruka casual excited embarassed sweatdrop with dissolve:
+        xpos 0.7
+    ha "Eh-heh..."
+    so "... ... ..."
+    
+    show sora casual tanuki closedeyes with dissolve:
+        xpos 0.3
+    so "How about I just didn't see you right now."
+    
+    show haruka casual handstogether smile with dissolve:
+        xpos 0.7
+    ha "Thank-you, Sora-chan... You're a life saver."
+    "Sora grabbed her hand bag and returned back to the waiting area."
+    
+    scene bg airport with dissolve
+    
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.3
+    show nonami casual neutral happy with dissolve:
+        xanchor 0.5
+        xpos 0.7
+    no "Oh! You're back! How'd it go?"
+    
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xpos 0.3
+    ha "Eh-heh... Uhh... I don't think there were any big problems."
+    "Just then, the boarding announcement came on the P.A."
+    
+    show nonami casual excited smile with dissolve:
+        xpos 0.7
+    no "Come on, let's get going, Haru-chan!"
+    
+    show haruka casual neutral concern with dissolve:
+        xpos 0.3
+    ha "Umm... Wait one moment..."
+    
+    show haruka casual excited surprise with dissolve:
+        xpos 0.3
+    ha "Ehhhh!? I can't find my passport!"
+    
+    show nonami casual neutral surprise with dissolve:
+        xpos 0.7
+    no "W-WHAT!?"
+    
+    show haruka casual handstogether forcedsmile with dissolve:
+        xpos 0.3
+    ha "Ummm... Ummm... I had it in my hand bag just a moment ago..."
+    
+    show haruka casual neutral surprise sweatdrop with dissolve:
+        xpos 0.3
+    ha "Ah."
+    no "What? What was that \'ah\' about?"
+    
+    show haruka casual neutral forcedsmile sweatdrop with dissolve:
+        xpos 0.3
+    ha "L-look..."
+    "Haruka pointed to Sora, who was coincidentally carrying the same hand bag as hers."
+    ha "S-somehow, I think my purse got swapped with Sora's!"
+    ha "Look, look! Here's Sora's passport right here!"
+    "Haruka pulled out Sora's passport from her hand bag."
+    
+    show nonami casual excited surprise with dissolve:
+        xpos 0.7
+    no "WHHHAAATTTTT!? How did something like that happen!?"
+    
+    show haruka casual handfront forcedsmile blush with dissolve:
+        xpos 0.3
+    ha "Eh-heh... A-anyways, we need to get my purse back!"
+    
+    show nonami casual armscrossed irritated with dissolve:
+        xpos 0.7
+    no "B-but how do we pull something like that off without exposing ourselves!?"
+    
+    show haruka casual excited hurt with dissolve:
+        xpos 0.3
+    ha "Uuuuu... Stupid, stupid Haru-chan..."
+    
+    show nonami casual neutral surprise with dissolve:
+        xpos 0.7
+    no "A-anyways, we need to get on that plane!"
+    "Nonami pulled out a pair of oversized sunglasses and donned a ridiculous looking hat."
+    
+    show nonami casual neutral irritated hat with dissolve:
+        xpos 0.7
+    no "Here, let's try this! Gimme your hand bag!"
+    
+    hide haruka with dissolve
+    hide nonami with dissolve
+    show nonami casual neutral irritated hat with dissolve    
+    "Nonami wandered towards me and Sora."
+    "At the last moment, she pretended to trip and accidentally knocked Sora's hand bag out of her hand."
+    
+    show nonami casual neutral mockhappy hat with dissolve
+    no "Ooooohhh! Ai amu beeri soorii!"
+    ri "... ... ..."
+    no "Ai amu aa amerikan!"
+    so "... ... ..."
+    no "Hia izu yoru bagu!"
+    "Nonami swapped the two hand bags and offered Sora hers back."
+    
+    show haruka casual handsbehind forcedsmile behind nonami with dissolve:
+        xanchor 0.5
+        xpos 0.6
+
+    ha "... ... ..."
+    ri "You know, we can totally tell that it's you, Nonami."
+
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    so "Uhn. Uhn. Terrible disguise."
+    
+    show nonami casual neutral irritated hat with dissolve
+    no "N-Nonami?"
+    no "W-whoever would that be?"
+    "I guess her bad English ran out at that point."
+    "Haruka appeared from behind her and apologized."
+    
+    show haruka casual handfront forcedsmile with dissolve:
+        xpos 0.8
+    ha "Eh-heh... I'm terribly sorry about all this, Sora-chan, Saionji-san..."
+    
+    show nonami casual armscrossed gloom hat with dissolve
+    no "Uuu... Is our plan foiled already? But we haven't even taken off the ground yet..."
+    "What plan?"
+    ha "Since Nona-chan was really disappointed that she couldn't spend Golden Week with you two, we thought that it would be nice if we could all go to Seattle together."
+    ha "I'm sorry for all the inconvenience this caused you."
+    ri "No, it's not like it's an inconvenience or anything..."
+    so "Just a big surprise."
+    
+    show nonami casual neutral happy hat with dissolve
+    no "Oh! D-does this mean..."
+    no "That our plan was a success after all!? Hey, you were surprised too, weren't you, Rii-kun?"
+    "Surprised? I guess in a strange kind of way, like the feeling you get when you're walking along barefoot and you happen to step on a pile of goo or something..."
+    ri "Uhhh... I guess a little bit surprised."
+   
+    show nonami casual excited smile2 hat with dissolve
+    no "All right! Mission success!"
+    "Whatever that meant."
+    "...In the end, we ended up going to Seattle together after all..."
+    "You know, they could have just told us that they were going to go too from the very beginning."
+    "Sometimes, Nonami really does take things a little bit too far..."
+    
+    play music "Music/Investigations.ogg" fadeout 1.5 loop    
+    
+    scene bg seattlestreet2 with dissolve
+    "A busy street greeted us once we left our hotel."
+    
+    show nonami casual neutral with dissolve
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    ri "Now, where should we go?"
+    
+    show nonami casual excited happy with dissolve
+    
+    no "Oh! Let's go to the Supeesu Niidoru!"
+    
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xpos 0.2
+    
+    ha "Eh-heh... It's called the Space Needle, Nona-chan..."
+    "You truly are the best, Haru-chan..."
+    ri "We need to ride the bus to go there. Come on, follow me."
+    "I led our group to the nearest bus stop."
+    "Shortly afterwards, a bus arrived."
+    "The gates opened, and people came out."
+    
+    show nonami casual armscrossed neutral with dissolve
+    show haruka casual neutral with dissolve:
+        xpos 0.2
+    
+    no "Mmm..."
+    
+    show nonami casual armscrossed irritated with dissolve
+    
+    no "Mmmmmmmm..."
+    no "Oy, Rii-kun, what's wrong?"
+    ri "What is?"
+    no "How are we supposed to get in if the rear gate's closed?"
+    ri "You enter through the front gate in America, Nonami..."
+    
+    show nonami casual neutral surprise with dissolve
+    
+    no "Uwah! Really!? Amazing!"
+    "No, it's actually not that amazing at all."
+    "In fact, I'm pretty sure that in some prefectures in Japan, you enter the bus from the front..."
+    "I led the group onto the bus."
+    ri "It says here that it's free to get to the space needle."
+    "It looked like we didn't need to pay the fare as long as we stayed downtown."
+    
+    show nonami casual armscrossed confident with dissolve
+    
+    no "Just as I thought..."
+    
+    show nonami casual excited happy with dissolve
+    
+    no "America really is the country of the free!"
+    
+    show haruka casual handsbehind forcedsmile with dissolve:
+        xpos 0.2    
+    
+    ha "Please just sit down, Nona-chan..."
+    "Well, this certainly was turning out to be an interesting trip..."
+    
+    scene bg spaceneedlebase with dissolve
+    
+    "We arrived at the Space Needle."
+    
+    show nonami casual neutral happy with dissolve
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8    
+    
+    no "Ooohh! There it is! Let's go, let's go, everyone!"
+    "We bought our tickets and lined up for the elevator."
+    "Since it was still the weekday in America, the lines weren't that long."
+    
+    scene bg spaceneedleelevator with dissolve:
+        yalign 1.0
+        linear 45.0 yalign 0.0
+    
+    show nonami casual neutral with dissolve
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    "Pretty soon, we were in the elevator."
+    
+    show haruka casual handsbehind neutral with dissolve
+    
+    ha "The elevators here are pretty big, huh..."
+    
+    show sora casual tanuki neutral with dissolve
+    
+    so "Uhn."
+    
+    show nonami casual armscrossed neutral with dissolve
+    
+    no "It must be because we're in America."
+    
+    show haruka casual handsbehind forcedsmile with dissolve
+    
+    ha "It's nice, huh..."
+    so "Uhn."
+    no "Incredible..."
+    
+    show sora casual tanuki sweatdrop with dissolve
+    
+    so "... ... ..."
+    ha "It's nice because it's so big."
+    ri "... ... ..."
+    ha "We can all fit comfortably in it."
+    ri "*cough* *cough*"
+    ri "Excuse me."
+    ha "Don't worry about it."
+    so "... ... ..."
+    no "Uwah. My ears just popped."
+    
+    show haruka casual handsbehind neutral with dissolve
+    
+    ha "Mine too."
+    ri "We're getting pretty high now, huh..."
+    
+    show sora casual tanuki neutral with dissolve    
+    
+    so "Can see the curvature of the Earth."
+    ha "Too bad it's a little cloudy..."
+    "...Just how long was this elevator ride going to continue!?"
+    "Luckily, the chime dinged and the doors opened."
+    "Whew... An elevator can make anything awkward."
+    
+    scene bg spaceneedleinterior with dissolve
+    
+    show nonami casual neutral with dissolve
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    "We stepped into the main floor of the disk."
+    
+    show nonami casual excited happy with dissolve
+    
+    no "Come on, come on, let's go to the observation deck!"
+    "We went upstairs and found the gate leading to the deck."
+    "As I slid it open, it felt as if I had let loose Pandora's Box."
+    
+    scene bg spaceneedleobservationdeck with dissolve
+    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop        
+    
+    show nonami casual neutral surprise with dissolve
+    show haruka casual handstogether hurt with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki irritated with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    "A tidal wave of gale force wind assaulted us, whipping our hairs backwards and almost knocking us off our feet."
+    
+    show nonami casual excited surprise with dissolve
+    
+    no "W-woaahh!!"
+    "We marched against the unholy wind and onto the deck."
+    no "It's like we're in the middle of a tyyyppphhhooonnn!!!"
+    "Amidst the wind, I could barely even take the time to check out the scenery."
+    "Nonami turned to take a photograph of me, only to have the wind whip her hair into her face."
+    
+    show nonami casual neutral frustrated with dissolve
+    no "Mmppff..."
+    
+    show haruka casual handstogether hurt2 with dissolve
+    ha "Haauu... Not good, not good..."
+    "My face turned hot when I saw Haruka shuffling timidly forward with her hands in between her legs in a desperate attempt to keep her skirt from getting blown up."
+    "Behind me, I suddenly felt Sora wrap her hands around me."
+    
+    show sora casual tanuki swirly with dissolve
+    so "S-so high... Gonna get blown away..."
+    "Even though she was my sister, it still didn't change the fact that for all intents and purposes, she still felt exactly like any other girl against my back!"
+    "Suddenly..."
+    
+    show nonami casual neutral surprise with dissolve
+    
+    no "Uwah! Haru-chan, I can totally see your butt!"
+    
+    show haruka casual handsbehind surprise with dissolve
+    
+    ha "E-eh!?"
+    "Everything that followed seemed to happen in slow motion..."
+    "...With a yelp, Haruka instinctively clasped her hands against her rear..."
+    "... and without anything to hold it down, the front of Haruka's skirt flew upwards..."
+    
+    scene cg polkadots with dissolve
+    
+    "P-polka dots...?"
+    
+    scene bg white with dissolve
+    
+    ha "E-E-E-EEAAAAHHHHHHHHHHHHHH!!!!!!!!!"
+    
+    $ renpy.music.stop (fadeout=1.0)
+    
+    scene bg spaceneedleinterior with dissolve
+    
+    "We crashed back into the safety of the inner disk."
+    
+    show haruka casual handfront cry with dissolve
+    show nonami casual armscrossed worried with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown distantleft with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    ha "... ... ..."
+    no "Uu..."
+    "I rubbed the back of my head in embarrassment. I guess a part of this was my fault..."
+    ri "S-sorry... I really didn't see anything."
+    "That was a lie. I totally saw everything. Sorry, Haruka..."
+    no "It was my fault too. Sorry, Haru-chan..."
+    "Haruka kept sniffling and hid her face, too ashamed to look at me."
+    no "There, there. Come on."
+    "Nonami led Haruka away to the bathroom."
+    
+    show nonami casual neutral forcedsmile with dissolve:
+        xpos 0.2
+    
+    no "W-we'll be right back, Rii-kun. Eh-heh..."
+    
+    hide nonami with dissolve
+    hide haruka with dissolve
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xpos 0.5
+    
+    ri "U-uhn. Thanks."
+    
+    play music "Music/Ano_Hi_no_Sora.ogg" fadeout 1.5 loop
+    
+    "With a sigh, I went over to a window and waited with Sora until they returned."
+    "A heavy mood hung in the air. I didn't think Haruka would be affected this badly by that accident."
+    "I had just expected her to be a little embarrassed about it and then to just laugh and forget about it."
+    "Maybe I really was too used to living in America."
+    "I had to be more careful, since Japanese girls were more sensitive about stuff like this."
+    ri "Oy, Sora."
+    so "Uhn."
+    ri "Do you think that in Japan, girls are a lot more shy around guys?"
+    so "Hmm..."
+    so "Maybe."
+    ri "I didn't think Haruka-san would get so upset."
+    "I hate to admit it, but some deep part of me was probably a little happy when it actually happened."
+    "I sighed. I guess I was just a dirty guy deep underneath after all."
+    so "But I don't think you can generalize people that much."
+    ri "Hm?"
+    so "It's true that there are people like Haruka-sempai in Japan, but there are also people like Nonami-sempai."
+    so "When you're too busy looking for things that confirm your beliefs, you can miss the things that contradict it."
+    "I suppose Sora was right."
+    "Even in America, there were a lot of girls who were really shy with boys too."
+    "I guess no matter where you go, there are still going to be all sorts of people."
+    ri "Thanks, Sora."
+    
+    show sora casual tanuki onearmdown closedeyes with dissolve
+
+    so "Uhn."
+    
+    show sora casual tanuki irritated with dissolve
+    
+    so "But that still doesn't mean you can peep on girls."
+    ri "Sorry. This time was just an accident. I promise I won't do it again."
+    
+    show sora casual tanuki closedeyes with dissolve
+    
+    so "Mm."
+    
+    scene bg black with screenwipe
+    scene bg spaceneedleinterior with screenwipe
+    
+    "A little while after, Nonami and Haruka returned. It seemed like Haruka was better now."
+    
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    show nonami casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.5
+    
+    ri "They're back."
+    "Nonami whispered something into Haruka's ears and nudged her forward."
+    "She shyly approached me."
+    
+    play music "Music/Lullaby_to_the_World.ogg" fadeout 1.5 loop
+    
+    hide nonami with dissolve
+    hide sora with dissolve
+    show haruka casual handstogether embarassed with dissolve
+    
+    ha "Umm..."
+    
+    show haruka casual handstogether shout with dissolve
+    
+    ha "S-Saionji-san, I'm terribly sorry about all this!"
+    ri "N-no, I should be the one apologizing. I'm sorry, Haruka-san..."
+    
+    show haruka casual handstogether smileblush with dissolve
+    
+    ha "Uu-uhn. It was just an accident."
+    ri "Uh..."
+    "I was at a slight loss for words."
+    "I looked at Sora for help, only to notice that she was now gone and standing by Nonami's side. Did they want us to figure this out together?"
+    
+    show haruka casual handfront blush with dissolve
+    
+    ha "When I was younger, I would always cry whenever a boy would talk to me."
+    ha "Everyone told me I needed to get stronger, because it could become troublesome when I was older."
+    
+    show haruka casual handfront forcedsmileblush with dissolve
+    
+    ha "But it looks like I haven't really changed at all."
+    ha "And now I've ruined what was supposed to be Saionji-san's vacation..."
+    ri "N-no, you haven't ruined anything at all."
+    ri "In fact, I had a lot of fun today."
+    "All of a sudden, Nonami whispered something to Haruka."
+    
+    show nonami casual neutral forcedsmile with dissolve:
+        xanchor 0.5
+        xpos 0.9
+    
+    no "C'mon, you've gotta do \"that,\" Haru-chan!"
+    
+    hide nonami with dissolve
+    show haruka casual handsbehind embarassed with dissolve
+    
+    ha "Umm..."
+    ha "Saionji-san, is it okay to call you Riku-kun from now on? Eh-heh... If Nona-chan always calls you Rii-kun, then I want to call you Riku-kun too."
+    ri "Hm? You should have just called me that from the beginning."
+    ha "R-really?"
+    ri "Yeah."
+    ha "T-then..."
+    
+    show haruka casual handfront smileblush with dissolve
+    
+    ha "Please call me Haru-chan from now on too!"
+    
+    show nonami casual neutral baffled with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    no "Eh?"
+    
+    show nonami casual excited surprise with dissolve:
+        xpos 0.8
+    
+    no "Oy Haru-chan, that wasn't in our plan!"
+    
+    show haruka casual handsbehind sad with dissolve
+    
+    ha "B-but it is a little unfair that Riku-kun only calls Nona-chan so casually."
+    no "Eeehhhhhh!?"
+    
+    show haruka casual handfront smile with dissolve
+    
+    ha "Eheh... Ehehehe... I'm a little relieved now."
+    
+    show nonami casual neutral gloomextreme with dissolve
+    
+    no "Uuuu... Outmaneuvered by Haru-chan... How embarrassing..."
+    
+    show sora casual tanuki confident with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    
+    so "In that case, I might just start calling Riku \"onii-chan.\""
+    ri "Y-you too, Sora?"
+    
+    show sora casual tanuki irritated with dissolve:
+        xpos 0.2
+    
+    so "Dummy. I was just joking."
+    
+    hide haruka with dissolve
+    hide nonami with dissolve
+    hide sora with dissolve
+    
+    "And so, everything ended happily a top the Space Needle."
+    "By the time we were headed back down the tower, we were already happily talking as if that incident had never happened."
+    "Somehow, I'm glad that Haruka and Nonami ended up coming with us on the trip after all."
+    
+    play music "Music/Merry_Go_Around.ogg" fadeout 1.5 loop
+    
+    scene bg ridetheduck with dissolve
+
+    show nonami casual neutral with dissolve
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    "The rest of Golden Week passed without any problems."
+    "On the second day, we went to \"Ride the Duck.\""
+    
+    show nonami casual neutral surprise with screenwipe
+    
+    no "Uwah! What's this?"
+    ri "It's a World War II-era amphibious landing vehicle. We're gonna tour the city in this."
+    no "Eeeehhhh!?"
+    
+    scene bg seattlemariners with screenwipe
+    
+    show nonami casual neutral with dissolve
+    show haruka casual neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show sora casual tanuki onearmdown neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8    
+    
+    "On the third day, we went to a Seattle Mariners game."
+    
+    show haruka casual handfront surprise with dissolve:
+        xpos 0.2
+    
+    ha "Amazing... It's Ichiro-san."
+    "TWANG!"
+    
+    show nonami casual excited surprise with dissolve
+    
+    no "Uwah! It's gonna be a home run! Catch it, Haru-chan!"
+    
+    scene bg americangrill with screenwipe
+    
+    "And before we knew it, it was already time to leave."
+    "We went to an American grill on our last night in Seattle."
+    "The four of us sat gathered around a table."
+    
+    show ceasarsalad with dissolve:
+        yanchor 0.5
+        ypos 0.4
+        xanchor 0.5
+        xpos 0.5
+    
+    "First, a bowl of Caesar Salad at least half as big as Sora was slammed on the table."
+    no "Uwah! It's American sized!"
+    ha "Eh-heh... I wonder how we're going to eat all of this..."
+    
+    show primerib:
+        yanchor 0.5
+        ypos 0.4
+        xanchor 0.5
+        xpos 0.5
+    show ceasarsalad behind primerip:
+        ypos 0.5
+        xanchor 0.5
+        xpos 0.5
+    with dissolve
+    
+    "Then, Nonami's plate of prime ribs arrived."
+    no "EEEEEHHHHHH!? I-i-it's the size of my television!"
+    "Of all things to compare it to..."
+    
+    show steak:
+        yanchor 0.5
+        ypos 0.4
+        xanchor 0.5
+        xpos 0.5
+    show primerib behind steak:
+        ypos 0.5
+        xanchor 0.5
+        xpos 0.5
+    show ceasarsalad behind primerib:
+        ypos 0.6
+        xanchor 0.5
+        xpos 0.5
+    with dissolve
+    
+    "Third, Haruka received her plate of New York steak."
+    ha "T-there's still b-blood..."
+    "The steak might actually weigh more than her..."
+    
+    show hamburger:
+        yanchor 0.5
+        ypos 0.4
+        xanchor 0.5
+        xpos 0.5
+    show steak behind hamburger:
+        yanchor 0.5
+        ypos 0.5
+        xanchor 0.5
+        xpos 0.5
+    show primerib behind steak:
+        ypos 0.6
+        xanchor 0.5
+        xpos 0.5
+    show ceasarsalad behind primerib:
+        ypos 0.7
+        xanchor 0.5
+        xpos 0.5
+    with dissolve
+    
+    "Finally, my quarter pounder hamburger with fries arrived."
+    "Luckily I thought ahead and told Sora not to order anything."
+    ri "Here, we'll split this between us, Sora."
+    so "Uhn."
+    no "Uuu..."
+    "Nonami maneuvered her fork around her ribs, not quite sure how to handle it."
+    no "Hiyah!"
+    "Suddenly, she stabbed the rib, lifted it into the air, and took a bite out of it."
+    no "Mmmm..."
+    no "Uwah! Delicious!"
+    ha "Eh-heheh..."
+    "Haruka poured some gravy into her bowl of mashed potatoes."
+    "She neatly cut a polite morsel of steak with her knife, dipped it into the mashed potato, and put it into her mouth."
+    "I wasn't sure if she knew that the mashed potato wasn't supposed to be used as a dip, but I wasn't about to correct her."
+    "Sora grabbed a piece of french fry off of my plate."
+    so "As expected, it tastes different in America."
+    no "Uhn, uhn! In Japan, meat doesn't taste like this!"
+    ha "Eh-heh... I think I'm full just looking at it..."
+    "But you've only just started eating, Haruka..."
+    no "Alright! All limits off! I'm sure I can exercise once I get back home to get all the extra kilos off!"
+    ha "I think I'm going to be full until tomorrow evening..."
+    so "Uhn."
+    ri "So... Is it bad that I also ordered dessert?"
+    no "Eeeeeehhhh!?"
+    
+    scene bg black with dissolve
+    
+    play music "Music/Thanks.ogg" fadeout 1.0 loop    
+
+    "We returned to Japan the next day, our vacation over."
+    "Much tears were shed when we realized how much homework we had to do before school began, so we spent the rest of the weekend hitting the books."
+    "I got bored while I was studying, so I decided to talk to Sora a bit."
+    
+    scene bg rikuroomnight with dissolve
+    
+    show sora casual tanuki onearmdown neutral with dissolve 
+    
+    ri "Oy Sora, where do you wanna go during summer vacation?"
+    "She pointed to a spot on the world map at the back of her social studies textbook."
+    so "Mm. Dominican Republic."
+    ri "You picked that out just randomly, didn't you?"
+    so "Uhn. But as long as everyone else is with us, I think it'll be fun no matter where we go."
+    "I guess Sora was right."
+    ri "Next time, let's make sure that everyone goes together from the very beginning."
+    
+    show sora casual tanuki onearmdown closedeyes with dissolve 
+    
+    so "Uhn."
+    "And so, our first Golden Week together ended..."
+	
 </nowiki>
 </poem>
