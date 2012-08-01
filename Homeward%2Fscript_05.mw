@@ -1,5 +1,1319 @@
 <poem>
 <nowiki>
+    
+    $ renpy.music.stop(fadeout=1.0)
+    window hide dissolve
+    scene bg black with dissolvelong
+    show eyecatchlogo with dissolve
+    $ renpy.pause (4.0)
+    hide eyecatchlogo with dissolve
+    window show dissolve
+    
+    scene bg sportsfield with dissolve
+    
+    play music "Music/Sincere.ogg" fadeout 1.5 fadein 1.5 loop    
+    
+    show nonami sports excited smile2 with dissolve
+    
+    no "Eaahh, it's great weather for a sports festival, eh Rii-kun?"
+    "Nonami was right. There was not a single cloud in the sky and it felt as if the temperature was in the mid 20's."
+    "Before I knew it, summer had begun."
+    "The sports field was bustling with activity. All of the students were dressed in their P.E. uniforms and getting ready for the day's events."
+    "At the sounding of a loudspeaker, the students were ordered to form a line based on their classes in front of the podium."
+    
+    show nonami sports neutral happy with dissolve
+    
+    no "Oh! That's my signal. I better get going!"
+    
+    hide nonami with dissolve
+    
+    "Nonami ran away and joined the line beside us."
+    "Since Sora was still in her second year, her line was a little bit further away."
+    "The headmaster walked up to the podium and gave everyone a lengthy address."
+    "..."
+    "... ..."
+    "... ... ..."
+    "Whew... My legs were getting tired from waiting so long..."
+    "Finally, he finished his speech and called up all of the class representatives."
+    
+    show haruka sports neutral with dissolve
+    
+    "Haruka went to the front of the podium to represent our class."
+    "She, along with the rest of the class representatives, recited the oath of fair play."
+    
+    show haruka sports handfront focused with dissolve
+    
+    ha "We, as class representatives, solemnly pledge...!"
+    ha "...that we the student body shall uphold...!"
+    ha "...nothing but the highest standards of sportsmanship and fair play!"
+    "I couldn't help but be slightly amused when Haruka recited such a manly sounding oath at the top of her lungs."
+    "After that was done, it was time for the first event."
+    
+    hide haruka with dissolve
+    show nonami sports armscrossed confident with dissolve
+    
+    no "Ufufufu... Guess what, Rii-kun."
+    ri "Ehhh... It looks like our classes will be facing off against each other. Tug of war, huh?"
+    
+    show nonami sports excited explode with dissolve
+    
+    no "Uwahaha! I hope you've been working out, Rii-kun."
+    
+    if kendoclub:
+        ri "Oy, I haven't been slacking off either, you know."
+        
+    if cookingclub:
+        
+        show haruka sports neutral forcedsmile with dissolve:
+            xanchor 0.5
+            xpos 0.8
+        
+        ha "I guess Riku-kun's been too busy with club activities."
+        
+    hide nonami with dissolve
+    hide haruka with dissolve
+    
+    "The loudspeaker signaled the beginning of the first event."
+    "We all lined up along the rope."
+    
+    show nonami sports excited explode with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    no "One, two, three, four, one, two, three, four..."
+    "I could see Nonami stretching on the other side..."
+    "Fuu. So she expects a big victory, huh?"
+    "I guess this meant that I couldn't slack off either."
+    
+    hide nonami with dissolve
+    
+    ri "Haru-chan... Remember, we're aiming for nothing but total victory."
+    
+    show haruka sports excited forcedsmile with dissolve
+    
+    ha "Uh-nn..."
+    "Uh oh... She didn't look that confident."
+    
+menu:
+    "Encourage Haruka.":
+        jump encourageharuka
+        
+    "Leave Haruka alone for now.":
+        jump leaveharukaalone
+            
+label encourageharuka:
+    
+    "Alright! I guess this calls for some encouragement."
+    ri "Haru-chan, fight!"
+    
+    show haruka sports excited smile with dissolve
+    
+    ha "U-uhn. I suppose Riku-kun's right. Fighto."
+    jump sportsfestival
+    
+label leaveharukaalone:
+    
+    "It looked like Haruka was worried, so I better not add any more pressure."
+    "I left her alone for now."
+    jump sportsfestival
+        
+label sportsfestival:
 
+    hide haruka with dissolve
+    "At the first sounding of the whistle, we grabbed onto the rope."
+    no "Ufufufu..."
+    "I saw Nonami wrapping the rope around her waist on the other side."
+    "Oh for crying out loud..."
+    "I definitely wasn't going to lose!"
+    
+    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop
+    show cg tug of war neutral with dissolve
+    
+    "At the second whistle, the event began."
+    "I pulled the rope with all of my might."
+    no "One, two, three, HEAVE!"
+    "Surprised by their strength, I accidentally took a step forward."
+    "W-woah! T-they weren't pushovers!"
+    "Aw no... I couldn't let this happen!"
+    ri "One, two, three, HEAVE!"
+    "We took half a step back!"
+    ha "Ha-hauuu..."
+    
+    if kendoclub:
+        "Tsch... Something on this level..."
+        "Wasn't even a problem!"
+        "I put all of my strength into the rope."
+        
+        show cg tug of war haruka
+        
+        ri "One, two, three, HEAVE!"
+        "Alright! Another step back."
+        no "Eaaahhh!!!! One, two, three, HEAVE!"
+        "Oh no you don't, Nonami!"
+        ri "Haru-chan, put all of your strength into it!"
+        ha "U-understood!"
+        ri "One, two, three, HEAVE!"
+        no "Uwaahh!!!"
+        "All right... It looked like they were on their last leg now..."
+        ri "J-just a little bit more..."
+        ri "One, two, three, HEAVE!"
+        ha "U-uuuu...!"
+        
+        scene bg white with dissolve
+        scene bg sportsfield with dissolve
+        $ renpy.music.stop (fadeout=1.5)
+        
+        "With a final, tremendous pull, we sent the opposing team tumbling to the ground."
+        
+        show nonami sports armscrossed tears with dissolve
+        
+        no "Uuuu... I got defeated by Rii-kun... I guess it was my mistake to challenge a fellow kendo warrior, huh...?"
+        
+    if cookingclub:
+        
+        show cg tug of war nonami
+        
+        "Oh, oh, it looked like Haruka was already tired..."
+        no "One, two, three, HEAVE!"
+        "W-woaahh!!"
+        "We nearly tumbled over the line that time."
+        ri "Noo! We can't let Nonami win! Pull, Haru-chan, pull!"
+        ha "Haaaaauuuuuuuu!"
+        "But it was already too late."
+        no "One, two, three, HEAVE!"
+        
+        scene bg white with dissolve
+        scene bg sportsfield with dissolve
+        $ renpy.music.stop (fadeout=1.5)
+        
+        "And with that, our line disintegrated and the entire class tumbled down to the ground."
+        
+        show haruka sports neutral hurt with dissolve:
+            xanchor 0.5
+            xpos 0.3
+        
+        ha "Uuuu... I'm sorry, Riku-kun..."
+        
+        show nonami sports neutral hurt with dissolve:
+            xanchor 0.5
+            xpos 0.7
+        
+        no "Uwahahaha! Looks like I win!"
+        
+        show nonami sports armscrossed smile2 with dissolve:
+            xpos 0.7
+        
+        no "Oh-hohoho! It's still three years too soon for you to be challenging me, Rii-kun!"
+        "Tsch..."
+        "Was eating all those cakes at the cooking club a mistake?"
+        "...But the cakes were all so delicious..."
+        "There was no way I could have ever have turned them down!"
+
+    scene bg black with screenwipe
+    scene bg sportsfield with screenwipe
+    play music "Music/Investigations.ogg" fadeout 1.5 loop    
+    
+    "After the morning events, it was time for the first break."
+    
+    show sora sports neutral with dissolve
+    
+    "I found Sora drinking some tea from the water dispenser."
+    ri "How's it going, Sora?"
+    so "Our team's won all of our events so far."
+    ri "Really?"
+    
+    show sora sports neutral closedeyes with dissolve
+    
+    so "Uhn."
+    
+    if kendoclub:
+        ri "My team's been doing pretty well too."
+        
+    if cookingclub:
+        ri "That's nice... My team's been doing kind of so-so..."
+        
+    "But before we could talk any more, Nonami suddenly came running to us with her arms flailing up and down, screaming as if the sky was going to collapse."
+    
+    hide sora
+    show sora sports neutral:
+        xanchor 0.5
+        xpos 0.3
+    show nonami sports neutral surprise:
+        xanchor 0.5
+        xpos 0.7
+    with dissolve
+    
+    no "Uwah! Rii-kun, we've got a crisis!"
+    "What could possibly be the problem now...?"
+    no "Look, look!"
+    "She grabbed a crumpled up sheet of paper from her pocket and held it out for us to read."
+    ri "What's this?"
+    
+    show sora sports armscrossed neutral with dissolve:
+        xpos 0.3
+    
+    so "Mmm... \"Dear Nakamiya Haruka-sama...\""
+    so "\"I am sorry I that I did not have the strength to deliver my words in person...\""
+    so "\"It was your kind and gentle personality that drew me to you.\""
+    so "\"Please have the understanding to accept my unworthy feelings.\""
+    so "\"I await your response under the cherry tree after school.\""
+    
+    show sora sports armscrossed confident with dissolve:
+        xpos 0.3
+    
+    so "Hmph. What a bland letter..."
+    
+    show nonami sports excited surprise with dissolve:
+        xpos 0.7
+    
+    no "T-t-t-t-there's no mistake about it! This is the proverbial love letter of myth and legend, Rii-kun! What are we gonna do, what are we gonna do!?"
+    ri "Wait, wait, slow down. How did you even get this in the first place?"
+    
+    show nonami sports armscrossed neutral with dissolve:
+        xpos 0.7
+    
+    no "W-well, I returned to my locker 'cause I forgot my water bottle there, but on my way back, I saw something sticking out of Haru-chan's locker."
+    no "At first, I thought it was just trash, so I was about to throw it out, but then I noticed that it looked too pretty for it to be just garbage."
+    ri "So Haru-chan hasn't even read this yet?"
+    no "It doesn't look like it."
+    "Eah, what a serious problem..."
+    "Nonami was nearly about to grab me by the scruff of my t-shirt and shake me back and forth."
+    
+    show nonami sports excited surprise with dissolve:
+        xpos 0.7
+    
+    no "What do we do Rii-kun, what do we do!?"
+    ri "Uhhh..."
+    
+menu:
+    "We should return it to Haruka's locker.":
+        jump returnlocker
+        
+    "Burn it.":
+        jump burnit
+
+label returnlocker:
+    ri "W-well, we have to return it to Haru-chan's locker, don't we?"
+    
+    show sora sports armscrossed neutral with dissolve:
+        xpos 0.3
+    
+    so "Uhn, uhn. Theft of personal property is a crime."
+    
+    show nonami sports neutral surprise with dissolve:
+        xpos 0.7
+    
+    no "B-but this is Haru-chan we're talking about! Aren't worried about her, Rii-kun?"
+    ri "... ... ..."
+    "Come to think of it, Haruka's easygoing personality could be worrisome sometimes..."
+    "What if she was being tricked by some scummy guy?"
+    "I don't think Haruka would be able to get herself out of a situation like that..."
+    no "See, see? As her friends, we need to take this into our own hands!"
+    
+    show sora sports armscrossed hesitant with dissolve:
+        xpos 0.3
+    
+    so "I guess if Nonami-sempai just took it from her locker by accident..."
+    "But then, wouldn't it be dishonest to hide something like that from Haruka?"
+    "I really had no idea what to think now..." 
+    no "H-here, you hold onto this!"
+    "Nonami handed the love letter to me."
+    ri "Eh!? Why me?"
+    no "W-well, weren't you the one who wanted to return it?"
+    ri "B-but I didn't mean..."
+    "Just then, the loudspeaker signaled the end of break."
+    no "Oh! Now I have to get goin'!"
+    ri "No, wait!"
+    
+    show nonami sports excited happy with dissolve:
+        xpos 0.7
+    
+    no "See ya later, Rii-kun! I'm countin' on ya!"
+    
+    hide nonami with dissolve
+    
+    "And with that, Nonami disappeared as quickly as she appeared."
+    "... ... ..."
+    "Great, now what?"
+    jump afternoonsportsfestival
+    
+label burnit:
+    "S-such a dangerous thing couldn't be allowed to exist! We have to burn it!"
+    "Or so I thought."
+    
+    show nonami sports armscrossed suspicious with dissolve:
+        xpos 0.7
+    
+    no "Oh... I see."
+    ri "W-what?"
+    
+    show nonami sports neutral smile2 with dissolve:
+        xpos 0.7
+    
+    no "Oh, nothing, nothing! Uwah-haha! Anyways, we have to make sure we keep our eyes on Haru-chan."
+    
+    show nonami sports armscrossed confident with dissolve:
+        xpos 0.7
+    
+    no "Knowing Haru-chan, she's totally the type of person who would be tricked by some scummy guy into doing a bunch of perverted stuff."
+    "Oy, isn't that a little..."
+    
+    show nonami sports excited happy with dissolve:
+        xpos 0.7
+    
+    no "All right! I'm entrusting the letter to you, Rii-kun!"
+    ri "Eh?"
+    no "If you wanna burn it, then I say burn it!"
+    "Sometimes, it feels as if Nonami can read my mind..."
+    "Although I wasn't actually really going to burn it. It would be too dishonest to burn something that could be important to Haruka."
+    "Just then, the loudspeaker rang, signaling the end of break."
+    
+    show nonami sports neutral smile2 with dissolve:
+        xpos 0.7
+    
+    no "Alright, see ya later, Rii-kun! I'm countin' on ya!"
+    
+    hide nonami with dissolve
+
+    "And with that, Nonami disappeared as quickly as she appeared."
+    "I sighed. Just what was I going to do now?"
+    jump afternoonsportsfestival
+    
+label afternoonsportsfestival:
+    
+    scene bg black with screenwipe
+    scene bg sportsfield with screenwipe
+    $ renpy.music.stop (fadeout=2.0)    
+    
+    "I couldn't really get into the rest of the morning sports events."
+    "If you think about this from a really logical standpoint, there honestly was no reason why I should be worried, right?"
+    "It's not like Haruka and I were really going out or anything... What difference did it really make to me whether she received a love letter?"
+    "But there was still something inside me that made me worried."
+    "Maybe it was just that I didn't want to see Haruka with another guy."
+    
+    play music "Music/Radio_Martini.ogg" fadeout 1.5 loop        
+    show sora sports armscrossed neutral with dissolve
+    
+    so "Oy. Riku."
+    "All of a sudden, Sora's voice knocked me out of my thoughts."
+    ri "W-what?"
+    
+    show sora sports neutral with dissolve
+    
+    so "The next event is starting."
+    ri "Oh. Sorry."
+    "It looks like we were going to face Sora's class in the three legged race."
+    
+    hide sora with dissolve
+    
+    "We all lined up and took scraps out of a box to determine who our partner would be."
+    "Wow, wouldn't it be really awkward if a boy and a girl were paired together? Obviously, whoever planned this event out didn't give it much thought."
+    
+    show haruka sports neutral smile with dissolve
+    
+    ha "Ah, it looks like we've been paired together, Riku-kun."
+    "...unbelievable."
+    "And so, I ended up being the only guy in my class to be paired with a girl."
+    "Haruka ran over to me with a rope."
+    ha "Here, let me tie our legs together."
+    "Come to think of it, now would be a good time to tell Haruka about that love letter..."
+    
+menu:
+    "\"Haru-chan, there's something that I need to tell you...\"":
+        jump tellone
+        
+    "Forget it. Let's just get this race started.":
+        jump donttell
+        
+label tellone:
+    
+    show haruka sports neutral with dissolve
+    
+    ha "Eh? What is it?"
+    ri "T-to tell the truth, we found a -"
+    "All of a sudden, an ear piercing shriek cut through the air, completely drowning out the rest of my sentence."
+    "Everyone turned around to see the source of the noise."
+    "Girl" "Sorry, the loud speaker backfired!"
+    "...What the hell was that!? And I had to gather up so much courage to tell Haruka about the love letter too!"
+    
+menu:
+    "Whatever... I'm still going to tell Haruka about the love letter!":
+        jump telltwo
+        
+    "Forget this. Let's get on with the sports festival.":
+        jump donttell
+        
+label telltwo:
+    
+    ri "I said, we found a-"
+    "All of a sudden, a gust of wind picked up, throwing a cloud of dust at us."
+    
+    show haruka sports neutral hurt with dissolve
+    
+    ha "U-uu..."
+    "We covered our faces with our hands, protecting our eyes from the dust cloud."
+    "And then, just as quickly as the gust of wind appeared, it disappeared."
+    "It almost felt as if the weather itself was against me telling Haruka about that letter..."
+    
+menu:
+    "This is ridiculous! I'm telling Haruka about the latter no matter what!":
+        jump tellthree
+    
+    "I give up. Let's just get on with the sports festival.":
+        jump donttell
+    
+label tellthree:
+
+    show haruka sports neutral with dissolve    
+
+    ri "To tell the truth, there was a-"
+    "All of a sudden, I heard somebody shouting behind me."
+    
+    show cg watchout1 with dissolve
+    
+    "Boy" "Watch out, there's a runaway ball on the loose!"
+    "I turned around and saw a volleyball coming straight for my face."
+    
+    hide cg watch1
+    show cg watchout2
+    with dissolve
+    
+    "Girl" "S-somebody help catch my pet hamster!"
+    "From the corner of my eye, I saw a crazed ball of fur scurrying towards me."
+    
+    hide cg watchout2
+    show cg watchout3
+    with dissolve
+    
+    "Teacher" "Saionji-kun, watch out, a bird's pooped right above you!"
+    "W-what!? I looked up, and sure enough, I saw an enormous glob of white matter falling towards my head."
+    "Tsch... In this kind of situation, it looks like I have no other choice than to use \"that!\""
+    ri "EAAAHHH!!!"
+    
+    hide cg watchout3 with dissolve
+    
+    "I used my special evasive action technique and leapt out of the way, causing the hamster to ricochet against the volleyball and fly back into its owner's arms and the volley ball to fly into the sky and deflect the bird poop."
+    "Just what kind of bizarre day was today!?"
+    
+menu:
+    "For the last time... I'm going to tell Haruka about that love letter!":
+        jump tellfour
+    
+    "Ah forget this. Let's just get back to the festival.":
+        jump donttell
+        
+label tellfour:
+    ri "Haruka! I have something very important to tell you! Today, we found a-"
+    "All of a sudden, I heard a thunderous explosion behind me."
+    
+    scene bg white with dissolve
+    scene bg sportsfield with dissolve
+    
+    "Girl" "EEAAAHHHHHHH!!! The science club's mecha dinosaur's on the loose again!!!"
+    "AS IF A THING LIKE THAT EVEN EXISTED!!!!!!!"
+    "... ... ..."
+    jump donttell
+    
+label donttell:
+    "In the end, I couldn't tell Haruka about the love letter after all."
+    "I sighed. Just what was I going to do now?"
+    
+    show haruka sports handfront smile with dissolve
+    
+    ha "Here, Riku-kun. I've finished tying the rope."
+    "Urk. We were so close together now!"
+    "With not a single cloud to protect us against the shining sun, I could easily feel Haruka's moist body through our thin P.E. uniforms."
+    "How embarrassing..."
+    "A short distance away, I saw Sora eye me with displeasure."
+    
+    show sora sports armscrossed irritated with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    so "Hmph."
+    
+    scene cg oneleggedrace with dissolve
+    
+    "Everyone finished tying themselves to their partners, so the race got underway."
+    "Teacher" "On your marks..."
+    "Teacher" "Get set..."
+    "Teacher" "Go!"
+    
+    play music "Music/Merry_Go_Around.ogg" fadeout 1.5 loop    
+    
+    scene bg white with dissolve
+    
+    "Riku and Haruka" "Eaaahh!"
+    "We fell on our faces out the starting gate."
+    "Aw no..."
+    "While I was freaking out about the love letter, I totally forget how uncoordinated a person Haruka was!"
+    ri "C-come on, we need to get back up."
+    ha "U-uhn... I'm sorry, Riku-kun..."
+    
+    scene cg oneleggedrace with dissolve
+    
+    "Haruka and I managed to stand back up."
+    ri "O-okay... On three..."
+    ri "One... Two... ThreeeAAHHH!!"
+    
+    scene bg white with dissolve    
+    
+    "We took another dive forward."
+    ha "Uuuu... I'm sorry..."
+    "As Sora and her partner went past us, my younger sister eyed us with pity."
+    "Tsch... To be looked down upon by my very sister!"
+    ri "C-come on Haru-chan! We have to get back up!"
+    "Haruka appeared to be thoroughly dazed."
+    ha "Uuu..."
+    ri "H-here! Let me help you up!"
+    "I attempted to lift Haruka up from underneath her arms."
+    "Unfortunately, I reached just a tad too deep and ended up running my hands up her chest as I tried to lift her up."
+    ha "Hiiaaahh!"
+    ri "S-sorry!"
+    "...This was getting dangerous..."
+    "It felt like my brain was beginning to turn as soft and squishy as Haruka's breasts."
+    ri "H-here!"
+    
+    scene cg oneleggedrace with dissolve
+    
+    "I finally managed to lift Haruka back up."
+    ha "Uuuuu..."
+    ri "C-come on, Haru-chan..."
+    "I wrapped my arm around her shoulder and tried to hold her steady."
+    ri "One step, two step..."
+    "Good, good, it looks like we were making forward progress... even though we were in last place."
+    ha "Uuu... R-Riku-kun..."
+    ri "What is it?"
+    ha "B-b-b-b-bra..."
+    ri "E-eh?"
+    
+    scene cg oneleggedrace2 with dissolve
+    
+    ha "H-H-Haru-chan's bra's come loose!"
+    "Eeeeeehhhhhhh!?!?"
+    ha "Back when we fell... I think the strap came undone when you tried to lift me back up..."
+    ha "I-it's starting to fall down..."
+    "Code red, code red!"
+    ri "C-can you hold on until the end?"
+    
+    scene cg oneleggedrace3 with dissolve
+    
+    ha "Uuuuu-uuhnn....! It's already gotten so low..."
+    "Y-you mean to say that what I'm feeling against my side right now was Haruka's actual... actual..."
+    "No, no, no, no! Keep these thoughts out of your head, Riku!"
+    ha "Uuu... I think both straps have slipped off my shoulder now..."
+    "Aw no..."
+    "At this rate, the bra was going to slip completely off!"
+    ri "H-Haru-chan! H-hold the bra or else it's totally gonna fall off!"
+    ha "T-too embarrassing..."
+    "I looked forward..."
+    "The finish line was still so far away...!"
+    "Will we make it in time? Or will the bra slip off and hit the ground first?"
+    "Eaahh, no choice but to hurry up!"
+    ri "Let's go faster! One, two, one, two!"
+    "In our haste, we passed by Sora."
+    "Then before we knew it, we had passed by everyone else as well."
+    "All right... Looks like first place was in our grasp!"
+    "Just..."
+    "One more..."
+    "Tiny..."
+    "Steeeeee---"
+    
+    scene bg white with dissolve
+    $ renpy.music.stop(fadeout=1.0)
+   
+    "... ... ..."
+    "... ..."
+    "..."
+    
+    scene bg trackfieldfar with dissolve
+    
+    play music "Music/Radio_Martini.ogg" loop
+    
+    "We stood in front of the track field, watching the rest of Nonami's event."
+    
+    show sora sports armscrossed confident with dissolve:
+        xanchor 0.5
+        xpos 0.3
+    show haruka sports handfront embarassed with dissolve:
+        xanchor 0.5
+        xpos 0.7
+    
+    so "It was unfortunate that Riku tripped at the very end and blew it for Haruka-sempai."
+    "Oy, oy, I'm pretty sure it went the other way..."
+    
+    show haruka sports handfront forcesmileblush with dissolve:
+        xpos 0.7
+    
+    ha "Uu-uhn. We were still fortunate enough to have come in second place."
+    so "Come to think of it, what was that little thing Riku slipped into his pocket afterwards?"
+    
+    show haruka sports neutral surpriseblush with dissolve:
+        xpos 0.7
+    
+    ha "H-heh!? A-ahh..."
+    ri "M-my coin purse just happened to slip out when we fell... that's all."
+    
+    show sora sports armscrossed suspicious with dissolve:
+        xpos 0.3
+    
+    so "Ehhh... I see..."
+    "Soon, Nonami's event finished and it was time for lunch."
+    
+    scene bg schoolback with dissolve
+    $ renpy.music.stop(fadeout=1.0)
+    
+    show haruka sports handfront neutralblush with dissolve
+    
+    "While everyone else was at the school field eating their bento, Haruka and I managed to sneak behind the school."
+    "I reached into my pocket and returned Haruka's bra."
+    ri "Sorry."
+    
+    show haruka sports handfront smileblush with dissolve
+    
+    ha "Uu-uhn. I think I can trust Riku-kun enough to keep my bra safe."
+    "Well, that was good to hear."
+    "...I think."
+    "I guess we've gone a pretty far way since I accidentally saw her underwear on top of the Space Needle back during Golden Week."
+    "The love letter was right next to where Haruka's bra was just a moment ago."
+    "What a fitting place to deliver Haruka the letter... After all, don't a lot of other couples confess their love underneath the intimate shadow of the school?"
+    "Tsch..."
+    
+    play music "Music/Ano_Hi_no_Sora.ogg" fadeout 0.5 loop
+    
+    "What a horrible situation."
+    "After everything that we've been through together, I didn't want to give Haruka away to some other guy that I had never even met before."
+    "Who knew what could happen? Would she just hold hands with him? Embrace? Kiss? Or go a lot further than even that?"
+    "A deep sort of rage mounted inside my lower gut at the thought."
+    "But it wasn't like we were really going out either..."
+    "This was supposed to be none of my business..."
+    "In fact, I was probably being the bad guy here, keeping a secret like this from Haruka..."
+    "Ah, just what was I supposed to do!?"
+    
+menu:
+    "I'm going to give Haruka the letter and finish this once and for all!":
+        jump giveharukaletter
+        
+    "Forget this... I'm never going to give Haruka that letter.":
+        jump nevergiveharukaletter
+        
+label giveharukaletter:
+    
+    $ giveletter = True
+    $ dontgiveletter = False
+    
+    "This was going to be the end..."
+    "Who knew... Maybe this would be the last time I would be able to have a day like this with Haruka."
+    "I guess though, I've felt this feeling many times."
+    "Farewells were always too painful... So whenever I had to leave someone important to me forever, we would always promise to meet each other again... No matter how hopeless, how slim, how remote the actual chances were."
+    "That way, no matter how far the distance, we wouldn't have to admit that we would probably never see each other again."
+    "But eventually, our feelings would inevitably waver."
+    "Even though we promised to never forget each other, our precious memories will be replaced by newer ones."
+    "And pretty soon, we would become exactly like two strangers again."
+    "Was the same thing going to happen now with Haruka?"
+    ri "Haru-chan... Actually..."
+    
+    show haruka sports neutral concerned with dissolve
+    
+    ha "Mm? What's the matter, Riku-kun? You suddenly don't look so good..."
+    ri "Uhn... To tell the truth, Nonami was wandering around your locker earlier today, and she happened to find something..."
+    ha "What was it?"
+    "So the end had finally arrived, huh..."
+    "I reached into my pocket and grabbed the letter."
+    "Good bye, Haru-chan... Our time together was indeed fun..."
+    ri "It was a..."
+    
+    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop
+    show nonami sports excited happy with dissolve:
+        xanchor 0.5
+        xpos 0.8
+
+    no "SCALLOPED OYSTER CASSEROLE!!!!"
+    "Eh?"
+    no "Check it out, Rii-kun! They're selling scalloped oyster casseroles over there for just 300 yen!"
+    
+    show nonami sports excited smile2 with dissolve:
+        xpos 0.8
+    
+    no "Mmmmmmmm! So tasty! Haru-chan, you try having some too!"
+    "WHAT THE HELL WAS THAT!!!!!!"
+    "I stormed over to Nonami with nothing but fury written on my face."
+    "If you had asked a preschooler what colour crayon she would pick to draw this situation, I had no doubt she would pick the ugliest colour possible, like mauve purple or maybe rust red."
+    ri "Y-you always butt in at the worst possible moment!!!"
+    
+    show nonami sports neutral surprise with dissolve:
+        xpos 0.8
+    
+    no "E-eh?"
+    ri "Eaaaahhhhhhhh!!!"
+    "I grabbed Nonami by the arms and tried to tie her up as if she were one of those long rubber balloons that carnival magicians twist and fold into the shape of poodles."
+    no "O-oy, what's the big idea!? You're making me spill my oysters!"
+    ri "Waaaaaahhhhhh!!!"
+    "You know..."
+    "I'm really starting to think that I should just have stayed home today..."
+    jump afterlunchsportsfestival
+    
+label nevergiveharukaletter:
+    
+    $ giveletter = False    
+    $ dontgiveletter = True
+    
+    "I made up my mind. I was never going to give Haruka the letter."
+    "My entire life, I had lost everyone special to me."
+    "Farewells were always too painful... So whenever I had to leave someone important to me forever, we would always promise to meet each other again... No matter how hopeless, how slim, how remote the actual chances were."
+    "That way, no matter how far the distance, we wouldn't have to admit that we would probably never see each other again."
+    "But eventually, our feelings would inevitably waver."
+    "Even though we promised to never forget each other, our precious memories will be replaced by newer ones."
+    "And pretty soon, we would become exactly like two strangers again."
+    "I couldn't bear to imagine something like that happening between Haruka and I..."
+    "If I had no choice but to move again... well, that would just be outside of my power to control."
+    "But there was no way I was going to purposefully just throw Haruka away."
+    
+    show haruka sports neutral concerned with dissolve    
+    
+    ha "Riku-kun, are you okay? You suddenly don't look that well..."
+    ri "M-me? No, I'm fine..."
+    
+    show haruka sports neutral smile with dissolve
+    
+    ha "Should we get going now?"
+    ri "Yeah, let's go eat lunch."
+    "I wanted our happy days to continue."
+    "I wanted to spend the rest of our days walking to school together, taking classes together, and having fun together... Then maybe one day, Haruka might even like me enough to leave an envelope just like the one I had in my pocket in my locker too..."
+    "Was there anything wrong with thinking like that?"
+    "After all, I was her friend, while whoever wrote her the love letter hadn't even met her before..."
+    "Who gave him the right to date Haruka, when I was here standing right beside her?"
+    ha "Even though a lot of things happened, today was still a lot of fun."
+    ri "Yeah. Me too..."
+    
+    show haruka sports excited happy with dissolve
+    
+    ha "Eheh... It sure is nice to have a trustworthy guy around to take care of things like this."
+    ri "Yeah..."
+    "...I..."
+    "...really was the worst, wasn't I?"
+    "I sighed."
+    "In the end, I was just abusing Haruka's easily trusting nature for my own ends, wasn't I...?"
+    "I was just taking advantage of a nice girl and lying to her just because I wanted her for myself."
+    jump afterlunchsportsfestivaltwo
+    
+label afterlunchsportsfestival:
+    
+    play music "Music/Fragments_of_Stars.ogg" fadeout 1.5 loop
+    scene bg white with dissolve
+    scene bg trackfieldfar with dissolve
+    show nonami sports neutral with dissolve
+    
+    "I sighed as I ate my cup of scalloped oyster casserole with Nonami."
+    no "Ehhh... So you still haven't given Haru-chan the love letter yet?"
+    ri "Yeah, and I only just managed to summon up the courage to do it too..."
+    
+    show nonami sports neutral forcedsmile with dissolve
+    
+    no "Ehehe. Sorry, sorry."
+    ri "You have no idea how nerve-racking it is to give that thing to her..." 
+    ri "I don't really want to keep lying to Haru-chan, but I don't really want to give her away to another guy either..."
+    ri "But then, it's not like we're really going out, so there's honestly no reason why I should be worried either."
+    
+    show nonami sports armscrossed confident with dissolve
+    
+    no "Mmm... What a conundrum..."
+    
+    show nonami sports neutral happy with dissolve
+    
+    no "Mah, don't worry, don't worry. Next time, I'll help you give the letter to her."
+    ri "Really?"
+    
+    show nonami sports neutral smile2 with dissolve
+    
+    no "After all, I did mess up your last attempt and all."
+    ri "Thanks, Nonami. It'll be much easier if we tell Haru-chan about the letter together."
+    "I managed to relax after Nonami said that."
+    "Maybe with Nonami's help, I'll finally be able to fix this big mess."
+    "All of a sudden, the loud speaker went off, signaling the end of lunch."
+    
+    show nonami sports excited happy with dissolve
+    
+    no "Oh! Looks like I need to get back to my class."
+    ri "Yeah. I'll see you."
+    
+    show nonami sports neutral smile2 with dissolve
+    
+    no "Uhn. See you later!"
+    jump endsportsfestival
+
+label afterlunchsportsfestivaltwo:
+    
+    play music "Music/Fragments_of_Stars.ogg" fadeout 1.5 loop
+    scene bg trackfieldfar with dissolve
+    show nonami sports armscrossed focused with dissolve
+    
+    "After I ate lunch with Haruka, Nonami suddenly appeared and dragged me away."
+    "She took me behind some food stands and stared at me intently."
+    no "So? Did you tell Haruka about the love letter?"
+    ri "Not really..."
+    no "Eh... So you're really going to burn it after all?"
+    ri "Maybe..."
+    
+    show nonami sports armscrossed confident with dissolve
+    
+    no "I see..."
+    ri "I don't actually know what I'm going to do... On one hand, I don't really want to give her the letter, but on the other hand, I feel really guilty lying to her too..."
+    
+    show nonami sports neutral smile2 with dissolve
+    
+    no "Ehh... So Rii-kun's really taken a liking to Haru-chan, hasn't he?"
+    ri "H-huh?"
+    no "Well, I say good choice, Rii-kun! I'm sure Haru-chan'll make a lovely wife for ya. She's really good at cooking and she comes from a good family too."
+    "You know, I wasn't really thinking that far ahead, Nonami..."
+    ri "No, this is actually really bad, Nonami. By keeping the letter a secret, aren't I just taking advantage of her? Haru-chan really does trust people too easily..."
+    
+    show nonami sports armscrossed suspicious with dissolve
+    
+    no "Fuuu... Rii-kun, have you ever had a girlfriend before?"
+    ri "Err..."
+    "Not really."
+    
+    show nonami sports neutral focusedtalk with dissolve
+    
+    no "You see? This is exactly why you've been single all this time!"
+    ri "W-what is?"
+    
+    show nonami sports armscrossed confident with dissolve
+    
+    no "It's 'cause you lack initiative! Girls like guys who are confident, Rii-kun! Not wussy, self-doubting, mousy types who are too scared of making mistakes!"
+    "O-ouch... So you mean to say that I'm a wussy?"
+    
+    show nonami sports neutral focusedtalk with dissolve    
+    
+    no "If you focus just too much on fulfilling your own sense of justice, then you're just gonna be sitting on your butt, arguing with yourself whether you're doing the right thing or not while everyone else is busy snatching up all the girls away!"
+    ri "W-well, if you put it that way..."
+    "Ugh, maybe Nonami was right..."
+    "Haruka thinks I'm trustworthy, and I'm pretty sure Nonami and Sora think the same."
+    "So, why should I think that I'm dishonest?"
+    ri "You're probably right..."
+    no "Uhn, uhn! So you'd better confess your feelings to Haru-chan by sundown tonight, or else I'm gonna be super mad!"
+    ri "Oy, oy! T-that's impossible! You need to give these things some time, Nonami..."
+    
+    show nonami sports armscrossed irritated with dissolve
+    
+    no "Fuuu... I guess Rii-kun will still be Rii-kun..."
+    
+    show nonami sports armscrossed confident with dissolve    
+    
+    no "Mah, whatever. As long as you burn that letter, everything should be fine."
+    "I was feeling better now after talking with Nonami."
+    "Maybe I was just over thinking this."
+    "All of a sudden, the loud speaker went off, signaling the end of lunch."
+    
+    show nonami sports excited happy with dissolve    
+    
+    no "Oh! Looks like I need to get back to my class."
+    ri "Yeah. I'll see you."
+    
+    show nonami sports neutral smile2 with dissolve    
+    
+    no "See you later!"
+    ri "And Nonami, thanks."
+    jump endsportsfestival
+    
+label endsportsfestival:
+    
+    scene bg sportsfield with dissolve
+    $ renpy.music.stop(fadeout=1.0)
+    
+    "I made my way back to my class, feeling better after having spoken to Nonami."
+    "However, little did I know how events will unfold that day..."
+    
+    play music "Music/Investigations.ogg" fadeout 1.5 loop
+    
+    "I reached into my pocket, and to my surprise, found the letter missing."
+    "Wha-?"
+    "I checked my other pocket, and found it just as empty."
+    "Where could that thing be?"
+    "I looked around my surroundings, but it was now nowhere to be found."
+    
+    if dontgiveletter:
+        "Well, I guess it didn't really matter that it disappeared, considering that I was probably going to throw it out anyways..."
+        
+    if giveletter:
+        "It felt as if somebody had reached down my throat and squeezed my lungs."
+        "Oh no... Now I had done it..."
+        "How was I possibly going to explain this to Haruka?"
+        
+    "All of a sudden, I caught sight of it."
+    
+    scene bg trackfield with dissolve 
+    
+    "A small, white envelope. Lying at the very end of the track course."
+    
+    scene bg sportsfield with dissolve
+    
+    "It must have somehow fallen out of my pocket there during the lunch break!"
+    
+    if dontgiveletter:
+        "Aw crap! What if somebody picks it up and gives it to Haruka!?"
+        
+    "I had to recover it at all costs!"
+    "Just as I was about to make a run for it, the next event began and I had no choice but to join my classmates."
+    "It looked like I was facing Nonami's class... at the track field. What luck!"
+    "It was going to be a relay race, with the love letter placed strategically at the finish line."
+    
+    scene bg trackfieldfar with dissolve
+    show nonami sports neutral with dissolve
+    
+    "As we made our way to the track field, I went to Nonami and whispered into her ears the situation."
+    ri "Oy, bad news. The love letter fell out of my pocket during lunch break, and now it's lying at end of the track."
+    
+    show nonami sports neutral surprise with dissolve
+    
+    no "E-eh?"
+    ri "Looks like we'll have to try to be the very last runners and grab the letter before anyone else gets to it."
+    
+    show nonami sports excited happy with dissolve
+    
+    no "Oh! This is beginning to sound like the scenario to some romance drama!"
+    ri "So, try to be the last runner in the race..."
+    
+    show nonami sports excited smile2 with dissolve
+    
+    no "Uhn, uhn, understood!"
+    
+    if kendoclub:
+        
+        hide nonami with dissolve
+        
+        "It turned out being pretty easy for Nonami to be nominated the final runner by her class, since she was already a veteran on the kendo team."
+        "I had already witnessed just how quickly she could run at the beginning of the school year."
+        "Luckily, since I was also on the kendo team and I was pretty tall, I managed to get selected as the final runner as well."
+        "All right! Looks like we had a fairly good chance of recovering the letter!"
+        
+    if cookingclub:
+        
+        hide nonami with dissolve
+        
+        "It turned out being pretty easy for Nonami to be nominated the final runner by the class, since she was already a veteran on the kendo team."
+        "However, for me, such a thing was much more difficult..."
+        "My P.E. grades weren't that great and my daily exercise routine consisted only of walking to school."
+        "In the end, I had to promise that I would buy juice for everyone if our team lost the relay because of me."
+        "Ahh... Looks like I had to win this no matter what now!"
+        
+    
+    scene bg trackfield with dissolve
+    
+    "Soon, all of us were in position for the relay race..."
+    "All right... So it finally all came down to this..."
+    "We had to get that letter back no matter what!"
+    
+    play music "Music/Truth.ogg" fadein 0.5 fadeout 1.5 loop
+    
+    "A teacher shot the starting gun, and the first runners were off."
+    "I stared intensely from my position as the runners behind me made their way around the track."
+    "It looked like my class had the lead for now..."
+    "All of a sudden, I noticed that Haruka was four runners behind me."
+    "Aw no... Did this mean what I thought it meant?"
+    "My fears were confirmed when she dropped the baton nearly as soon as she received it and accidentally kicked it off the track."
+    
+    show haruka sports neutral hurt2 with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    ha "Uuuu..."
+    
+    hide haruka with dissolve
+    
+    "Yeah. It was all over."
+    "Nonami's class cheered as they eventually raced ahead by two runners, while Haruka was still attempting to run her stretch of the race."
+    "Looks like all of my hope now rested on Nonami. There was no way we we going to catch up now..."
+
+    show nonami sports armscrossed confident with dissolve
+    
+    no "Ufufufufu..."
+    
+    show nonami sports neutral focusedtalk with dissolve
+    
+    no "Insert entry plug!"
+    no "Synchronization at 98 percent!"
+    no "All safety locks released..."
+    "Behind her, the second to last runner on Nonami's team passed the baton to her."
+    
+    show nonami sports neutral explode with dissolve
+    
+    no "NONA-01, LAUNCH!"
+    
+    hide nonami with dissolve
+    
+    "Nonami exploded forth like a mecha flying from a launch catapult."
+    "Just then, I realized that the second to last runner on my team had arrived behind me as well."
+    "What? Had we managed to catch up after all?"
+    "I grabbed the baton from him and ran top speed after Nonami."
+    
+    scene cg sportsfestivalrun with dissolve
+    
+    no "Hooyaahhh!! Rii-kun, come on, come on!"
+    "Nonami turned her face around and waved at me."
+    "Was she letting me catch up?"
+    no "There's gonna be a punishment game for the last one to the finish line!"
+    ri "Oy! Like hell I'm gonna play your punishment game!"
+    no "Forward goooo!"
+    "We were nearly neck to neck by now."
+    
+    if dontgiveletter:
+        no "Come on, Rii-kun, come on! Push past all obstacles and run!"
+        no "No matter how hard it is, no matter how painful! No matter how much you want to stop!"
+        "Tsch... Looks like I had no choice but to give it my all!"
+        ri "EAAAHHHH!!!"
+        "I ran like I had never run before in my life."
+        no "Go! Go! Go!"
+        "The finish line was now in sight. The pretty white envelope awaited me, just a few more steps away..."
+        "All I could hear was the sound of Nonami's voice, the wind rushing past my ears, and the pounding of my heart."
+        "I reached my hands forward to grab the letter."
+        "Just... a few centimeters away..."
+        
+    if giveletter:
+        "Ah, what a troublesome day..."
+        "To think that all of my attempts to tell Haruka about the letter were foiled up until now..."
+        "And now, I was somehow running with Nonami to retrieve the darned letter, which I just coincidentally happened to drop at the end of the track field."
+        no "Come on, Rii-kun, come on! Towards the finish line we go!"
+        "Nonami was a total loose cannon, and she had a big mouth, and caused me a lot of trouble..."
+        "But I was relieved to have a friend like her."
+        "In this kind of situation, there was nobody else in the world who I wanted to run beside more!"
+        ri "Nonami! Let's gooo!!!!"
+        "I ran like I had never run before in my life."
+        "The finish line was now in sight. The pretty white envelope awaited me, just a few more steps away..."
+        "All I could hear was the sound of Nonami's voice, the wind rushing past my ears, and the pounding of my heart."
+        "I reached my hands forward to grab the letter."
+        "Just... a few centimeters away..."
+        
+    scene bg white with dissolve
+    $ renpy.music.stop(fadeout=1.0)    
+
+    "I lied on my back on the track, my head spinning in a daze."
+    "Had I done it?"
+    "Suddenly, I heard Haruka's voice."
+    
+    show haruka sports excited surprise with dissolve
+    
+    ha "R-Riku-kun! Are you okay?"
+    "I could see her head looking down upon me."
+    
+    show nonami sports excited surprise with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    
+    "Suddenly, Nonami's head appeared beside hers."
+    no "H-hey, Rii-kun, get up!"
+    "And then, Sora appeared beside Nonami."
+    
+    show sora sports neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    so "Oooyyy... are you okay?"
+    "Why was everyone worried about me?"
+    ri "U-ugh..."
+    "Oh yeah. It was probably because I fell pretty spectacularly while I was trying to grab the envelope."
+    "Clumsy me..."
+    "I clutched the letter in my hand."
+    "Yes... I had it."
+    no "Come on..."
+    "I felt Nonami grab me up."
+    "I limped to the bleachers, my head still in a daze."
+    
+    scene bg trackfieldfar with dissolve
+    play music "Music/Lullaby_to_the_World.ogg" fadeout 1.5 loop
+    show nonami sports neutral with dissolve:
+        xanchor 0.5
+        xpos 0.2
+    show haruka sports neutral with dissolve
+    show sora sports neutral with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    "After I had received some first aid, I was feeling a lot better."
+    
+    show nonami sports excited happy with dissolve:
+        xpos 0.2
+    
+    no "Uwaha! That was quite a fall, Rii-kun!"
+    
+    show sora sports neutral closedeyes with dissolve:
+        xpos 0.8
+    
+    so "Uhn, uhn. Like Tokyo Tower collapsing."
+    
+    show haruka sports handfront concerned with dissolve
+    
+    ha "Are you sure you're feeling okay?"
+    ri "Yeah... I'm feeling a lot better now."
+    "Whew... At least the envelope was safe..."
+    
+    if giveletter:
+        
+        "I reached into my pocket and withdrew the letter."
+        ri "Haru-chan, actually, there's something Nonami and I had to tell you."
+        
+        show nonami sports neutral with dissolve:
+            xpos 0.2
+        
+        no "Uhn. I was wandering through our lockers when I happened to find that envelope slipped inside your locker."
+        no "At first, I thought it was just trash, but then I noticed that it was a love letter."
+        ri "We were so surprised that we didn't really know what to do..."
+        no "So, we ended up unintentionally hiding it from you until now."
+        ri "I'm sorry, Haru-chan!"
+        
+        show nonami sports excited regret with dissolve:
+            xpos 0.2
+        
+        no "Uuu... Me too! Sorry, Haru-chan!"
+        "Haruka grabbed the envelope and read the love letter."
+        "Well, I guess it was all over now."
+        "Even if Haruka ended up going out with that guy and eventually ended up forgetting about me, I guess there was now nothing I could do about it."
+        
+        show haruka sports handfront forcesmile with dissolve
+        
+        ha "Ummmmmmm..."
+        
+    if dontgiveletter:
+        "Or was it?"
+        "I reached into my pocket and found it empty."
+        
+        show haruka sports handfront smile with dissolve
+        
+        ha "By the way Riku-kun, you dropped this while you were walking to the bleachers."
+        "Ah."
+        "Well..."
+        "Damn."
+        "Looks like we had no choice but to confess now..."        
+        "I knelt down on my knees in front of Haruka and bowed my head."
+        "Even though my injuries from the fall hurt, I gritted my teeth and apologized."
+        ri "Haru-chan, I'm really sorry!"
+        
+        show haruka sports handfront surprise with dissolve
+        
+        ha "E-eh? What for?"
+        ri "I was really shocked when I saw that you had gotten a love letter..."
+        ri "B-b-but to t-tell the truth, I was really worried..."
+        ri "I thought I was going to lose you... And that our happy days together will end..."
+        ri "So I kind of decided to hide the letter from you..."
+        ri "I'm sorry! I can understand if you never forgive me for this!"
+        "I felt my face turning hot. Tears began to form in my eyes."
+        
+        show nonami sports neutral surprise with dissolve:
+            xpos 0.2
+        
+        no "A-actually, this is all my fault, Haru-chan!"
+        "All of a sudden, Nonami knelt down beside me as well."
+        
+        show nonami sports excited regret with dissolve:
+            xpos 0.2
+        
+        no "It was actually me who found that love letter..."
+        no "I didn't really know what to do, so I just gave it to Rii-kun without really thinking..."
+        no "I'm sorry, Haru-chan! This is all of my fault!"
+        ha "Ummmmmm..."
+
+    play music "Music/Stroll.ogg" fadeout 1.5 loop
+    show haruka sports handfront smile with dissolve
+    ha "T-to tell the truth, this actually isn't a real love letter."
+    
+    show nonami sports neutral baffled with dissolve:
+        xpos 0.2
+    
+    no "E-eh?"
+    
+    show haruka sports neutral smile with dissolve
+    
+    ha "Eheheheheh... There was actually a girl in the cooking club who's had a crush on an upperclassman for a really long time."
+    
+    show haruka sports neutral happy with dissolve
+    
+    ha "Since she was really troubled about it, I told her to practice writing a love letter to me so that she could get over her doubts."
+    
+    show nonami sports excited surprise with dissolve:
+        xpos 0.2
+    
+    no "EEEHHHHHHHHHHHHHH!?!?"
+    ri "So you mean to say that this letter is..."
+    
+    show haruka sports neutral smile with dissolve   
+    
+    ha "Just for practice."
+    
+    show nonami sports excited tears with dissolve:
+        xpos 0.2
+    
+    no "No way, no way, Haru-chan!!! Waaahhhhh!!!!"
+    "...Unbelievable..."
+    "So we had been freaking out about nothing the entire day!?"
+    
+    show nonami sports neutral tears with dissolve:
+        xpos 0.2
+    
+    no "Uuuuuuuu... How humiliating..."
+    ri "To think that we actually wasted our entire sports festival worried about a random slip of paper..."
+        
+    if dontgiveletter:
+        
+        show haruka sports handfront smileblush with dissolve
+        
+        ha "Eehhh... I never knew Riku-kun thought that way of me. Eh-heh..."
+        ri "E-errr..."
+        
+        show sora sports neutral confident with dissolve:
+            xpos 0.8
+        
+        so "Caught red handed."
+        ri "S-Sora, you too!?"        
+        so "Hmph. It's Riku's fault for being such a dummy."
+        
+    "Argh, damn it all!"
+    "Now I wish the thing had actually been a real love letter, just so that we hadn't wasted all our time making a fool of ourselves!"
+    ri "Nonami..."
+    
+    show nonami sports excited teary with dissolve:
+        xpos 0.2
+    
+    no "Rii-kun!"
+    "We embraced ourselves with tears in our eyes."
+    "Riku and Nonami" "We're morons!!!!"
+    
+    scene bg white with dissolve
+    
+    "The rest of the sports festival passed without any more drama..."
+    "Sigh... I really did make a fool out of myself today..."
+    
+    if dontgiveletter:
+        "Uggghhh... And I said all that embarrassing stuff to Nonami and Haruka too..."
+        "How humiliating..."
+        
+    play music "Music/Thanks.ogg" fadeout 1.5 loop
+    scene bg soraroom with dissolve
+    show sora casual tanuki onearmdown neutral with dissolve
+
+    "Later that evening, I spoke with Sora in her room."
+    ri "I guess Sora didn't have much of an appearance today..."
+    so "Uu-uhn. Look."
+    "Sora opened her backpack and turned it upside down on her bed."
+    "A small sea of medals, trinkets, trophies, and certificates poured out."
+    ri "E-eh?"
+    
+    show sora casual tanuki onearmdown confident with dissolve
+    
+    so "While you were busy goofing off, I was trying my best and won all of my events."
+    ri "Eeeehhh!? Really!?"
+    so "In fact, you can say I was the MVP of the sports festival."
+    ri "Sorry, Sora... I really didn't even notice..."
+    
+    show sora casual tanuki confident with dissolve
+    
+    so "Hmph. Silly Riku, getting distracted by stupid stuff like that..."
+    "I guess Sora was right, as usual."
+    "I looked at a group photograph of us at the end of the sports festival."
+    "It was now set as the default wallpaper on my cell phone."
+    "Three years from now, maybe we'll all look back on this event and laugh."
+    "Three years, huh..."
+    "I was sure that we'll all be friends even then."
+	
 </nowiki>
 </poem>
