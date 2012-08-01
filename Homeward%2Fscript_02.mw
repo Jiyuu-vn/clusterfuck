@@ -1,5 +1,915 @@
 <poem>
 <nowiki>
+    $ renpy.music.stop(fadeout=1.0)
+    window hide dissolve
+    show eyecatchlogo with dissolve
+    $ renpy.pause (4.0)
+    hide eyecatchlogo with dissolve
+    window show dissolve
+        
+    play music "Music/Julians_Auftritt.ogg" fadeout 1.0 fadein 1.0 loop
+    
+    scene bg street1 with dissolve
+    
+    "The next morning, I woke up early to go to school."
+    "As soon as I stepped out of the door, a familiar face greeted me."
+    
+    show nonami uniform greet happy with dissolve
+    
+    no "Oh! Mornin' Rii-kun!"
+    ri "Good morning."
+    "That's right. We were going to walk to school together again, weren't we?"
+    "Nonami looked really different compared to yesterday now that she was in her school uniform."
+    "I smiled and followed her towards the school, taken by the fact that she had grown so much since I left her."
+    "Considering that the last time I saw her was when she was 10 years old, I still wasn't used to seeing her grown up."
+    
+    show nonami uniform armsraised happy with dissolve
+    
+    no "Eah, I can't believe Rii-kun's back. It feels like forever since we've walked to school together like this, huh?"
+    ri "Yeah..."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Eh-heh... You don't have to worry about a thing! Since it's still the beginning of the term, you haven't missed anything much."
+    
+    show nonami uniform armscrossed confident with dissolve
+    
+    no "Although if you need help, I can always help you with homework!"
+    "Nonami stamped her chest and nodded, looking pretty confident of her abilities."
+    "Somehow though, I don't ever recall her being particularly good with schoolwork..."
+    
+    scene bg woodenbridge with dissolve
+    show nonami uniform neutral with dissolve
+    
+    "We crossed an old wooden bridge overlooking a concrete water canal on the way to school."
+    "From the bridge, I could see a distant mountain range. I stopped for a moment to take in the view."
+    ri "There weren't any mountains where I lived in America."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Japan's really pretty, huh?"
+    ri "Uhn."
+    
+    show nonami uniform neutral with dissolve
+    
+    no "They built this bridge a really long time ago, even before the canal was made. Even though it's really old, a lot of people have become attached to it and the city couldn't tear it down when they built the canal."
+    ri "Eeh, I didn't know that."
+    no "Mmmm... Are you sure? I'm pretty sure we used to cross it all the time when we were younger."
+    "I tried to think back to before I left Japan, but nothing came to mind."
+    ri "Sorry."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Mah, it's not that important. Should we get goin'?"
+    ri "Yeah."
+    
+    scene bg street2 with dissolve
+    show nonami uniform armsraised smile with dissolve
+    
+    no "Mmm... By the way Rii-kun, do you have a girlfriend?"
+    "O-oy, that was a pretty direct question to ask this early in the morning..."
+    "I was caught off guard by the question and remained silent."
+    
+    show nonami uniform armscrossed confident with dissolve
+    
+    no "Oooohh... So ya do, huh?"
+    ri "No, I don't!"
+    
+    show nonami uniform suspicious with dissolve
+    
+    no "Tsch. Then you shoulda said so sooner."
+    ri "I was just caught by surprise, that's all."
+    "Even though I had answered her question, Nonami still kept eying me pretty suspiciously."
+    "I wasn't really sure what else to tell her, aside from the fact that I really don't have one."
+    "She sure was straight forward about this stuff, wasn't she?"
+    
+    show nonami uniform armsraised happy with dissolve
+    
+    no "Eeh, so Rii-kun's more interested in Japanese women, huh?"
+    ri "W-well, it's not really that simple, you know."
+    ri "I've never really stayed in one place long enough to really get involved in relationships like that."
+    
+    show nonami uniform neutral with dissolve
+    
+    "Now I kind of wanted to ask Nonami the same question, but it felt too forward asking a girl a question like that, so I held off."
+    "Besides, if she had a person like that now, I was probably going to find out about it sooner or later anyways."
+    
+    scene bg outsideschool with dissolve
+    show nonami uniform neutral with dissolve:
+        xalign 0.8
+    
+    "Pretty soon, we arrived at the front of our school."
+    
+    show nonami uniform happy with dissolve:
+        xalign 0.8
+    
+    no "Ah, we're almost there!"
+    ri "Eeh, it's a lot bigger than what I saw in the photographs."
+    
+    show nonami uniform smile2 with dissolve:
+        xalign 0.8
+    
+    no "Isn't it? Eh-heh..."
+    "Just then, we could hear the first bell ring."
+    
+    show nonami uniform surprise with dissolve:
+        xalign 0.8
+    
+    no "Oh! We better get goin'!"
+    ri "Uhn. I've got to go to the staff room now."
+    
+    show nonami uniform greet smile with dissolve:
+        xalign 0.8
+    
+    no "Oh! All right, I'll see ya later then!"
+    ri "Yeah, I'll see you later."
+    
+    scene bg classroom with dissolve
+    play music "Music/Lullaby_to_the_World.ogg" fadeout 1.5 loop
+    
+    "After a visit to the staff room, I was lead to my new classroom by the homeroom teacher."
+    "I wrote \"Saionji Riku\" on a corner of the board and introduced myself."
+    ri "Hello everyone. My name is Saionji Riku. I'm 18 years old. I've returned to Japan after having lived abroad for nine years. I'll be in your care from now."
+    "The teacher directed me to an empty seat in the classroom."
+    "Unfortunately, I wasn't in the same class as Nonami. I guess we'll just have to meet during lunch period instead."
+    "As soon as homeroom ended, a crowd of students gathered around me and raised a commotion."
+    "Student A" "Where did you stay abroad?"
+    ri "W-well, I lived in America for five years..."
+    "Student B" "Crazy! So can you speak a lot of English?"
+    ri "I-I guess?"
+    
+    show haruka uniform concerned with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    ha "Ummm... Everyone..."
+    
+    hide haruka with dissolve
+    
+    "Student C" "Please teach us English, Saionji-san!"
+    "Student D" "Me too, me too!"
+    
+    show haruka uniform concerned with dissolve:
+        xanchor 0.5
+        xpos 0.8
+   
+    ha "Y-you mustn't trouble the transfer..."
+    "Student E" "Say something in English for us!"
+    
+    show haruka uniform handraised surprise with dissolve
+    
+    ha "Everyone... please li-li-liissseeeaahh!"
+    
+    hide haruka with dissolve
+    
+    "All of a sudden, the thunderous crash of a chair tipping over and hitting the floor finally brought an abrupt silence to the room."
+    
+    show haruka uniform pain with dissolve:
+        xanchor 0.5
+        xpos 0.8
+        yanchor 1
+        ypos 0.3
+    
+    ha "Uuuuu..."
+    "A small girl laid on the floor with a dazed look on her face."
+    "Student A" "Woah, iinchou, are you alright?"
+    
+    show haruka uniform handraised pain with dissolve
+    
+    ha "Haauuu... H-Haru-chan needs help..."
+    "The classroom rushed to help the iinchou back up."
+    "Student B" "Are you okay? Do you need to go to the nurse's office?"
+    ha "I think I'll somehow manage..."
+    "The girl got back to her feet and tried her best to hide her embarrassment at having tripped over the chair."
+    
+    show haruka uniform neutral with dissolve:
+        yanchor 1
+        ypos 0
+    
+    ha "Everyone, you shouldn't bother the transfer student like that. I'm sure Saionji-san has other commitments and can't teach everyone English."
+    "The classroom reluctantly agreed with her."
+    ha "Now, let's get this classroom back together. Social studies will be in five minutes."
+    
+    hide haruka with dissolve
+    
+    "With everyone's help, we managed to return the chairs to their usual grid pattern."
+    "...They sure were organized about this, weren't they? In America, I had rarely seen classrooms arranged into a grid."
+    
+    show haruka uniform handstogether neutral with dissolve:
+        xalign 0.5
+    
+    ha "It's nice to meet you, Saionji-san. I'm Haruka Nakamiya, the iinchou of class 3-2. I hope we'll get along well from now on."
+    ri "Thanks for helping me out back there."
+    
+    show haruka uniform handstogether forcedsmile with dissolve
+    
+    ha "I-it was no problem... That's because I'm the iinchou. Eh-heh..."
+    
+    show haruka uniform handstogether embarrassed with dissolve
+    
+    ha "A-anyways, if you need any help getting around the school, then please feel free to ask."
+    
+    hide haruka with dissolve
+    
+    "With an embarrassed look on her face, she scurried back to her seat in front of me and reached into her desk to find her pencil case, stare it its contents for a moment, and then put it right back in."
+    "She looked kinda out of it for a iinchou..."
+    "Before long, the rest of the day's classes began."
+    
+    scene bg black with screenwipe
+    scene bg classroom with screenwipe
+    
+    "Minamikawa High School was a private school that focused mainly on international studies, so it didn't feel like I was very behind in many of the classes. In fact, I was probably ahead of everyone in English."
+    "Anyways, since I transferred near the beginning of the school year, we weren't really that far into any of our classes."
+    "Still, I couldn't afford to slack off, so by lunch time, my notebook was already filled with notes."
+    "Now, I think I'll just head off to the cafeteria to grab some bread..."
 
+    show nonami uniform greet smile with dissolve
+    play music "Music/Fragments_of_Stars.ogg" fadeout 1.5 loop    
+    
+    no "Yah-hoo!"
+    "All of a sudden, the door slammed open."
+    "Aw man..."
+    
+    show nonami uniform happy with dissolve
+    
+    no "Oh! There ya are, Rii-kun!"
+    "Before I knew it, Nonami had marched across the room, grabbed a chair, and plopped down in front of me."
+    "She revealed two bento boxes from behind her and nearly slammed them down on the table."
+    
+    show nonami uniform armscrossed confident with dissolve
+    
+    no "Uu-fufufu... I know you've been waiting for this, Rii-kun..."
+    "No, I wasn't actually waiting for anything at all."
+    ri "W-waiting for what exactly...? Eheh..."
+    "By now, everyone else was looking at us, wondering what all the commotion was about."
+    
+    show nonami uniform excited happy with dissolve
+    
+    no "Tada!"
+    "Nonami opened the bento boxes, revealing two delicious looking meals."
+    "Hey, they actually looked pretty nice."
+    "Nonami swelled up like a croaking bullfrog with pride."
+    
+    show nonami uniform armscrossed confident with dissolve
+    
+    no "Uwah-hahaha! Unbeknown to you, my family is now the owner of the Sapuraizu Donkii down by the new mall."
+    ri "The what?"
+    no "The sa-pu-ra-i-zu don-kii."
+    ri "... ... ..."
+    ri "You mean the \"Surprise Donkey?\""
+    
+    show nonami uniform surprise with dissolve
+    
+    no "Uwah, as expected of an American!"
+    "...Come to think of it, I had seen that bizarre looking restaurant before when I passed by the mall yesterday."
+    "Although seriously now, what kind of a restaurant would call itself \"The Surprise Donkey?\" Definitely not the kind of mental image I want to have when I order something to eat..."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Hehe... Since I help out my parents there all the time, I've gotten pretty good at cooking."
+    
+    show nonami uniform happy with dissolve
+    
+    no "Come on, try it, try it! You won't regret it!"
+    ri "T-thanks... Itadakimasu."
+    "I didn't think I'd ever have to say that before eating again in my life."
+    "Nonami eagerly watched as I grabbed a sausage cut into the shape of an octopus and ate it."
+    "...in fact, a little bit too eagerly. Her face was pretty much about to hit my nose."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Well?"
+    ri "It's good."
+    
+    show nonami uniform happy with dissolve
+    
+    no "Really!? Oh! Then try this, Rii-kun! And this! And that!"
+    "She pointed to various items in the bento box with her chopsticks."
+    ri "I'll try them all."
+    
+    show nonami uniform excited smile with dissolve
+    
+    no "From today on, I'll bring your bento to school every day!"
+    ri "A-are you sure it won't be-"
+    
+    show nonami uniform excited happy with dissolve
+    
+    no "No problem-o, mussyoo!"
+    "...She's even trying to speak broken French now."
+    
+    show nonami uniform happy with dissolve
+    
+    no "You won't believe it, Rii-kun! The Sapuraizu Donkii's gotten so popular now that sometimes the line goes all the way outside the door during the lunch rush!"
+    no "Sometimes, I even need to carry a plate on my head to give everyone their food on time!"
+    ri "Really? Sounds pretty crazy..."
+    "Nonami's mouth worked too quickly for me to keep up."
+    
+    show nonami uniform greet happy with dissolve
+    no "Oh! It's Haru-chan!"
+    
+    show haruka uniform happy with dissolve:
+        xanchor 0.5
+        xpos 0.8
+    
+    ha "Ah, Nona-chan."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Come on, come on! Sit down here."
+    "Nonami appropriated another empty chair and moved it to my table."
+    
+    show nonami uniform smile:
+        linear 0.7 xpos 0.3
+        
+    show haruka uniform happy:
+        linear 0.7 xpos 0.7
+    
+    no "Heya Haru-chan, this is my old friend, Rii-kun. Take good care of him from now, okay?"
+    
+    show haruka uniform smile with dissolve:
+        xpos 0.7
+        
+    show nonami uniform smile:
+        xpos 0.3
+    
+    ha "Uhn. We've already been introduced. Saionji-san, Nona-chan's told me a lot of great things about you."
+    
+    show nonami uniform happy with dissolve:
+    
+    no "Didcha now, Rii-kun? Haru-chan's been working at Sapuraizu Donkii ever since we opened three years ago."
+    ri "So Haruka-san's been working ever since the beginning of high school?"
+    
+    show haruka uniform onehandraised forcedsmile with dissolve
+    
+    ha "Eh-heh... It's really not too much trouble."
+    
+    show nonami uniform smile2 with dissolve
+    
+    no "Oh, by the way Rii-kun, which club were you thinking of joining?"
+    "That sure was an abrupt change of topics. I guess none of us can really keep up with her pace..."
+    ri "Club?"
+    
+    show nonami uniform excited happy with dissolve
+    
+    no "It builds your mind and body! Find your inner character by joining an after school club!"
+    "Urk, too deep. Please return to your usual self, Nonami."
+    
+    show haruka uniform handstogether neutral with dissolve
+    
+    ha "Most of the students in our school belong to a club. Saionji-san should be thinking of joining one too."
+    
+    show nonami uniform smile with dissolve
+    
+    no "Uf-fufufu... So what about it? Care to learn the ways of the sword with me, Rii-kun?"
+    "Nonami began to speak with a deep voice and attached a crumpled bit tissue paper to her chin as if it were a sage's beard."
+    
+    show nonami uniform armscrossed confident with dissolve
+    
+    no "Master kendo and you shall learn all the secrets of the universe! Channel your inner chi and surpass all obstacles!"
+    "Uhh... M-maybe..."
+    ri "What club does Haruka-san belong to?"
+    
+    show nonami uniform surprise with dissolve
+    
+    no "Uwah-ha, shot down!"
+    
+    show haruka uniform handsbehind forcedsmile with dissolve
+    
+    ha "Eh-heh... I'm in the cooking club."
+    "Haruka did seem like the kind of person who would be interested in something like that."
+    "Unfortunately, I'm not sure how the rest of the club would feel about a guy joining."
+    "Well then, I guess I could check out the..."
+    
+menu:
+    "Kendo club":
+        jump kendoclub
+        
+    "Cooking club":
+        jump cookingclub
+            
+label kendoclub:
+    
+    $ kendoclub = True
+    $ cookingclub = False
+    
+    ri "I guess I could check out the kendo club for a bit."
+    
+    show nonami uniform happy with dissolve
+    show haruka uniform neutral with dissolve
+    
+    no "Oh! Really?"
+    ri "Come to think of it, maybe the exercise will be good for me."
+    
+    show nonami uniform excited smile with dissolve
+    
+    no "Uhn, uhn! Club activities are usually after school in the dojo. You can even come by today if you want."
+    jump finishlunch
+    
+label cookingclub:
+
+    $ cookingclub = True
+    $ kendoclub = False
+    
+    ri "I think I'll go check out the cooking club."
+    
+    show haruka uniform handstogether smile with dissolve
+    show nonami uniform neutral with dissolve
+    
+    ha "Eheheh. Come see us, we always have things that need to be tasted. We usually meet after school in the home economics classroom."
+    jump finishlunch
+    
+label finishlunch:
+
+    "It wasn't long until I finished eating everything in my bento box."
+    ri "Thanks Nonami. It was really good."
+    
+    show nonami uniform smile2 with dissolve
+    
+    no "Ah, no problem, no problem."
+    ##bell rings
+    "The bell ring, signaling the end of lunch period."
+    
+    show nonami uniform surprise with dissolve
+    
+    no "Oh! I better get goin'!"
+    
+    if kendoclub:
+        
+        show nonami uniform greet happy with dissolve
+        
+        no "I'll see you at practice, Rii-kun!"
+
+    "Nonami quickly grabbed her bento boxes and disappeared as quickly as she had appeared."
+    
+    hide nonami with dissolve
+    show haruka uniform smile with dissolve
+    
+    ha "It was nice having lunch with you, Saionji-san."
+    
+    hide haruka with dissolve
+    
+    "Haruka returned to her seat in front of me and put her bento box into her bag."
+    "Soon, the rest of afternoon classes began."
+    
+    scene bg black with screenwipe
+    scene bg classroom with screenwipe
+    
+    ##bell rings
+    "Well, the first day of classes wasn't as painful as it could have been."
+    "...Although half of the kanji in my history textbook was pretty much unreadable."
+    "I'll have to check out an English one from the library some time..."
+    "I wasn't that horrible though. I've already dealt with Korean, English, and French, so relearning my own language shouldn't be that difficult."
+    "And for the first time, I had an old friend here."
+    "As long as Nonami was around, things should be okay."
+    
+    if kendoclub:
+        "Well then, it was time to check out the kendo club."
+        jump kendo
+
+    if cookingclub:
+        "Well then, it was time to check out the cooking club."
+        jump cooking
+        
+###############################################################
+        
+label kendo:
+    
+    scene bg dojo with dissolve
+    
+    "As soon as I approached the dojo, I could hear screams and the clashing of bamboo swords."
+    "Woah, it sounded really intense in there."
+    "I cautiously opened the door and stepped in."
+    
+    show nonami kendo greet with dissolve
+    
+    no "Oh! It's Rii-kun!"
+    "All the members got into a line, knelt down, and removed their bogu."
+    "Nonami came running to me, her helm now in her arms."
+    
+    show nonami kendo smile alt with dissolve
+    
+    no "Hahah! Welcome, welcome."
+    "All of the members curiously came and circled around me."
+    "Nonami explained to them that I was looking for a club to join."
+    
+    show nonami kendo happy with dissolve
+    
+    no "Don't worry 'bout a thing, Rii-kun! We'll train you up to become a kendo master in no time at all!"
+    "Somehow, I got the feeling that Nonami was understating things."
+    
+    show nonami kendo neutral with dissolve
+    
+    no "Oh, and by the way, do you have anything to exercise in?"
+    ri "I have my P.E. uniform in my bag."
+    
+    show nonami kendo excited smile2 with dissolve
+    
+    no "Oh! That should do. Come on, come on, get changed!"
+    "I quickly took the uniform out and went to the change room, lest Nonami run out of patience and strip me in the middle of the dojo."
+    
+    scene bg black with screenwipe
+    scene bg dojo with screenwipe    
+    
+    "I returned with my P.E. uniform on."
+    
+    show nonami kendo happy with dissolve
+    
+    no "Oh! You've returned."
+    "Well, it's not like I was planning to run away."
+    
+    show nonami kendo excited happy with dissolve
+    
+    no "Alright! From today onwards, I'll be your personal kendo trainer."
+    
+    show nonami kendo greet with dissolve
+    
+    no "Come on, Rii-kun, follow me!"
+    "Nonami ran out the dojo."
+    ri "Wait, where are we going?"
+    
+    show nonami kendo greet alt with dissolve
+    
+    no "Come on, come on!"
+    
+    scene bg trackfield with dissolve
+    
+    "Before I knew it, we were at the track field."
+    ri "Errr... I didn't know that we could also join the track team..."
+    
+    show nonami kendo smile2 alt with dissolve
+    
+    no "No, no, you silly. We're gonna build up your muscles by running around the track a couple of times."
+    "A couple of times? I wasn't liking the sound of this..."
+    no "Alright, let's begin with a few stretches..."
+    "Nonami began to stretch her legs."
+    
+    show nonami kendo happy with dissolve
+    
+    no "I'll count to four, then we count to eight together!"
+    no "One, two, three, four!"
+    ri "Five, six, seven, eight."
+    
+    show nonami kendo irritated with dissolve    
+    
+    no "... ... ..."    
+    no "One, two, three, four!!!"
+    ri "Five, six, seven, eight."
+    no "... ... ..."
+    no "Oy."
+    ri "Eh?"
+    
+    play music "Music/Sincere.ogg" fadeout 1.5 loop    
+    show nonami kendo explode
+    with dissolve
+    with hpunch
+        
+    no "PUT MOAR HEART INTO IT!!!"
+    "U-uwah."
+    "I could almost see a volcanic eruption occurring inside her eyes."
+    no "Ya ain't gonna unleash your inner samurai with a voice like that!!"    
+    no "A one! A two! A one and a two!"
+    ri "Five, six, seven, eight!"
+    no "That's better, Rii-kun!"
+
+    show nonami kendo charged with dissolve
+
+    no "One, two, three, four!"
+    ri "Five, six, seven, eight!"    
+    no "That's right! One, two, three four!"
+    ri "Five, six, seven, eight!"
+    "And this went on until we were finished stretching."
+    
+    show nonami kendo serious with dissolve
+    
+    no "Okay, I think we're finally ready to run now..."
+    "We lined up on the starting mark."    
+    no "Alright, on your mark..."
+    no "Get set..."
+    
+    show nonami kendo charged with dissolve
+    
+    no "GO!!!"
+    
+    scene cg nonamikendorun with dissolve
+    
+    "Nonami ran off as if she had a rocket strapped to her back."
+    no "Wooooosh! Come on, come on Rii-kun! Don't get left behind!"
+    ri "No fair! You got a head start 'cause you were the one who said the start off!"
+    no "Ooohhhohohoho! No point complaining now!"
+    "Nonami began to make race car noises."
+    no "Vrrroooommmm!!! Screeeeeeee!!!"
+    ri "Now you're just making fun of me!"
+    "I ran as quickly as I could, but I could barely even keep up."
+    no "Come on, come on, Rii-kun! You can do it!"
+    "Ah, this was irritating! Getting outclassed by a girl!"
+    no "Ohhohoho! Next time, I'm gonna bring my shinai and start whacking you on the butt if you don't hurry up!"
+    ri "As if something like that would happen! Aaahhhhh!!!"
+    "I gave it my all and accelerated."
+    no "Oh! Impressive, Rii-kun!"
+    ri "I'm gonna get you!!"
+    no "Faster, faster, faster! Vrrrooooooooommmmmmm!!!"
+    "Just a little bit further..."
+    "Nonami's back was getting larger with every moment."
+    ri "Eaaaahhhh!!!"
+    "Just when she was within reach, she suddenly burst ahead with renewed energy."
+    no "Now it's time for world one, stage two!"
+    ri "W-what!? That's not fair!"
+    no "Uwahahaha! Try to catch me now, Rii-kun!"
+    "She began to singsong the Super Mario Brothers theme."
+    no "Bu-da-da-bu-da-da!"
+    "Ah..."
+    "WHAT THE HELL WAS THIS!?!?"
+    
+    scene bg white with dissolve
+    pause 0.5
+    scene bg trackfieldevening with dissolve
+    $ renpy.music.stop(fadeout=1.0)
+    
+    "By the time we were finished running around the track, I was already doubled over gasping for air."
+    "I collapsed on the grass and stared up into the sky."
+    ri "W-water..."
+    no "Here."
+    "Nonami handed me a bottle of tea. I pulled myself up, gulped it down, and collapsed again."
+    ri "Thanks..."
+    
+    scene bg eveningsky with dissolve
+    play music "Music/My_Love.ogg" fadeout 1.0 fadein 1.0 loop
+    
+    "Nonami plopped down beside me and laid down."
+    no "Uwaaahhh... This weather's so nice!"
+    ri "Yeah..."
+    "Fluffy clouds floated high above the sky and the cool breeze felt nice after the long run."
+    "The setting sun cast long shadows on the gently swaying grass."
+    "I closed my eyes and basked in the cool spring air."
+    no "Don't you wish that moments like this can just go on forever?"
+    ri "Mm..."
+    no "Lying in the grass like this makes you feel as if everything's going to be alright."
+    no "That there will be no unhappiness. That tomorrow will bring a better day."
+    no "That all of our happiness, all of our joys, will just go on and on forever."
+    ri "Yeah..."
+    "But everything had to come to an end."
+    "No matter how happy a moment, it was only for a fleeting moment."
+    "Everything had to change. Friends had to be lost and special memories forgotten, never again to be reclaimed."
+    "Because that was the way things were."
+    no "After all, we're here together, right?"
+    ri "...I'm glad."
+    no "Mm?"
+    ri "I'm glad I could see you again, Nonami."
+    no "Eeehh... Rii-kun's being sentimental."
+    no "Thanks."
+    "Maybe this really was a small shard of paradise that I had wandered into."
+    "I knew that the slightest of mishaps could easily shatter that shard to pieces."
+    "But while I was still within it, I was... happy."
+    "All those years of silence were being filled with the sound of Nonami's cheerful voice."
+    "A huge, empty void had formed inside of me from being a stranger for so long. Would that void get smaller?"
+    "All of a sudden, Nonami picked herself off the ground and stood before me."
+    no "All right! Congratulations, Rii-kun, you've now earned your right to carry a sword!"
+    no "From today onwards, we'll be practicing at the dojo."
+    "I stood up and found that I now was feeling much better."
+    
+    scene bg trackfieldevening with dissolve
+    
+    "It was already into the evening by now. We had better get going soon."
+    
+    show nonami kendo smile alt with dissolve
+    
+    no "Well, now that that's over, let's go grab something to eat."
+    
+    scene bg schoolfieldevening with dissolve
+    show nonami kendo neutral alt with dissolve
+    
+    "We made our way back to the dojo."
+    ri "When did you start kendo, by the way?"
+    
+    show nonami kendo neutral alt with dissolve
+    
+    no "Mmm... Well, I think it was about three years after you left."
+    
+    show nonami kendo smile alt with dissolve
+    
+    no "You should have seen me in my first bogu back then. I even have a cute little shinai from elementary school in my room, just for memory's sake."
+    ri "Ehh... I didn't know they made bogu for elementary schoolers."
+    no "Ehehehe. It's quite the sight whenever I go to a tournament now and see the elementary schoolers fight."
+    
+    show nonami kendo smile2 alt with dissolve
+    
+    no "Uwaahh... I can't believe there was once a day when I used to be one of them."
+    "We arrived at the dojo. After changing back into our regular clothes, we went to a McDonald's and continued our every day conversations."
+    
+    scene bg nonamihouse with dissolve
+    
+    "After getting something to eat, we arrived at Nonami's house, since she lived closer to the school than me."
+    
+    show nonami uniform neutral with dissolve
+    
+    no "Oh, we're here."
+    
+    show nonami uniform greet smile with dissolve
+    
+    no "See you tomorrow, Rii-kun."
+    ri "Bye bye."
+    
+    hide nonami with dissolve
+    
+    "I made my way back to my house."
+    
+    scene bg rikuroomnight with dissolve
+    $ renpy.music.stop(fadeout=1.0)    
+    
+    "Well, today was pretty fun."
+    "I plopped into my bed and fell right to sleep."
+    
+    jump soraarrives
+    
+######################################################################
+
+label cooking:
+    
+    scene bg homeeconroom with dissolve
+    $ renpy.music.stop(fadeout=1.0)
+    
+    "I made my way upstairs into the home economics room."
+    "I guess I was a little bit nervous. Hopefully, they won't mind a boy coming in here."
+    ri "I'm sorry to intrude. Is Haruka-san here?"
+    
+    play music "Music/Lullaby_to_the_World.ogg" fadeout 1.0 fadein 1.0 loop    
+    
+    show haruka cook happy with dissolve
+    ha "Ah, Saionji-san. Please come right in."
+    "I was led in by Haruka. As expected, the cooking club was filled with just girls."
+    "The room was bustling with activity. Everyone was chatting while they made all sorts of food."
+    
+    show haruka cook neutral with dissolve
+    ha "Do you cook a lot, Saionji-san?"
+    ri "Uhh... A little bit. Since I live with just my father, it would be nice if I could learn to get better."
+    
+    show haruka cook smile with dissolve
+    ha "Eh... I see."
+    "I followed Haruka to a kitchen station."
+    
+    show haruka cook handraised smile with dissolve
+    ha "This is my area. Mmm... I was thinking of making a simple bento box for tomorrow. Would you like to help?"
+    ri "Sure. Go ahead."
+    
+    show haruka cook neutral with dissolve
+    ha "First, you need to cook the rice."
+    "Haruka showed me a row of rice cookers to the side of the room."
+    ha "First, you have to measure out the rice in this cup. One cup is one serving. Next, you rinse the rice with water a couple of times, then you add water up to the appropriate line on the rice bowl."
+    ri "Yeah. Sounds pretty easy so far."
+    ha "Since we'll be making two servings today, we'll just add two cups and add water up to the line for two servings."
+    "Haruka then put the rice bowl into the cooker and turned it on."
+    ha "Now, let's make some tamagoyaki."
+    "She got out a package of butter, some salt and sugar, a carton of milk, and a carton of eggs from a grocery bag."
+    ha "First, you crack two eggs in a bowl. You have to be careful not to get the shell into the bowl with the yolk."
+    "Haruka demonstrated by cracking a pair of eggs."
+    ri "Like this?"
+    "I tried to do the same, but because I was a little bit nervous, a shell fragment accidentally got into the bowl."
+    
+    show haruka cook smile with dissolve
+    ha "Uhn. Like that."
+    "She continued to smile and discretely picked the shell out with a chopstick."
+    
+    show haruka cook neutral with dissolve
+    ha "Now, you add milk until it's approximately twice its original size. Then, you add a little bit of salt and sugar."
+    ri "How much should I add?"
+    ha "Ummm... I guess it kind of depends on your preference. I add about a teaspoon of salt and three teaspoons of sugar."
+    ha "After you've done that, you just mix everything together."
+    "I spun the contents of the bowl with a pair of chopsticks, until it turned into a solid light yellow batter."
+    ha "Now, you melt a little bit of butter on the frying pan so that it doesn't stick, and then you pour it in."
+    "Haruka turned on the stove and melted a spoon of butter on it."
+    "She then poured her bowl of batter into the pan."
+    "I did the same."
+    
+    show haruka cook smile with dissolve
+    ha "Uhn, just like that."
+    
+    show haruka cook neutral with dissolve    
+    ha "When you're doing this at home, it's generally not a good idea to use a frying pan that's too big, or else the batter will spread out too thin and it'll be hard to fold it."
+    ri "I see..."
+    ha "Now, while the batter is still kind of raw, you fold it a couple of times using the spatula."
+    ha "Mmm... I guess this part's a little bit tricky. You have to make sure that the bottom's solid, while the top's still uncooked."
+    "Haruka demonstrated by slipping her spatula underneath her batter and neatly folding it four times."
+    "This looked a little bit difficult. I tried the same, but I ended up tearing the bottom of the batter."
+    
+    show haruka cook handsbehind forcedsmile with dissolve
+    ha "It's kind of difficult because the solid bottom's kind of thin..."
+    "I tried to fold it again, but now, the batter was already entirely solid."
+
+    show haruka cook onehandraised forcedsmile with dissolve
+    ha "Eh-heh... And it also cooks pretty quickly..."
+    ri "Sorry."
+    
+    show haruka cook smile with dissolve
+    ha "It's no problem, Saionji-san."
+    
+    show haruka cook neutral with dissolve
+    ha "After you've rolled the egg, you take it out and cut it into strips."
+    "Haruka demonstrated by taking the folded egg out and cutting it into about ten neat strips."
+    
+    show haruka cook smile with dissolve
+    ha "To make everything look nice, you throw the sides out. Eh-heh, I always eat them so that I can see if they turned out okay."
+    "Since mine wasn't folded entirely right, they kind of fell apart as I tried to cut them."
+    "In the end, Haruka presented me with ten perfectly made tamago, while I presented her with some scrambled eggs."
+    
+    show haruka cook handraised smile with dissolve
+    ha "Eh-heh. Don't worry, Saionji-san. You'll get better soon."
+    
+    show haruka cook neutral with dissolve
+    ha "Now, we need to make some stir fried vegetables."
+    "Haruka put away the ingredients for the tamagoyaki and got out some vegetable oil, a carrot, some asparagus, an onion, a package of mini sausages, and a bottle of soy sauce."
+    ha "After you wash the vegetables, you peel the carrot and cut them into round slips."
+    "I tried to imitate her, although though my carrot slips weren't as neat as hers."
+    
+    show haruka cook smile with dissolve
+    ha "Eh-heh, I don't really like eating the stem of the asparagus, so I cut most of them out when I make mine."
+    ri "Yeah, I don't really like them either..."
+    ha "But then, I always feel guilty about throwing them out, so I end up using them for decoration."
+    
+    show haruka cook neutral with dissolve
+    ha "Now, you just have to cut the top and the bottom off the onion and then peel the outer skin off."
+    ha "After that, I slice the onion horizontally into some circular slips. The \'o\' shape they make once you separate the layers looks interesting, don't you think?"
+    ri "Uhn. Let's do that."
+    "Soon, we had a pile of sliced carrots, onion rings, and asparagus."
+    ha "The sausages are easy to prepare. You just take them and you make a small cross with your knife on the bottom."
+    
+    show haruka cook smile with dissolve
+    ha "That way, when the meat expands in the heat, they make that cute octopus shape."
+    "Even though it sounded pretty easy, my sausages looked nowhere as neat as Haruka's."
+    
+    show haruka cook neutral with dissolve
+    ha "Now, I think we're ready to stir fry this."
+    ha "You add all the vegetables into the frying pan and add some vegetable oil. Like this."
+    "The pan sizzled as Haruka added the oil and stirred the vegetables with the spatula."
+    ha "While it's cooking, I think it tastes better if you also add some soy sauce."
+    "I followed her instructions and made some reasonably good looking stir fry."
+    ha "You can also add some salt to your taste. Some people also like adding ground chili peppers too."
+    ri "I see... But Haruka-san's not adding any?"
+    
+    show haruka cook onehandraised forcedsmile with dissolve
+    ha "Eh-heh... Spicy food's just a little..."
+    "I decided to just add a little bit of salt."
+    "We finished making the stir fry."
+    
+    show haruka cook happy with dissolve
+    ha "And that's it for the sides."
+    "A bit later, the rice finished cooking."
+    "Haruka opened the rice and mixed it with a rice scoop."
+    
+    show haruka cook neutral with dissolve
+    ha "You have to make sure the rice is mixed after you open the lid, or else you won't be able to eat it later."
+    "After slipping her hands into a pair of oven mittens, she grabbed the rice bowl and brought it to our station."
+    ha "Now, all we have to do is put all of the food into the bento box and decorate it."
+    "Haruka neatly tucked in the rice into the biggest section of the box."
+    ha "Mmm... The rice looks nice with some sesame seeds on top."
+    ha "And of course, we can't forget the red dried plum at the middle."
+    "She brought out more ingredients."
+    "We put the finishing touches on our bento boxes."
+    "As she said earlier, Haruka used the asparagus stems to make a little wall between the tamago and the vegetables."
+    "I should do the same. Well, in my case, I suppose it'd be the scrambled eggs and the vegetables..."
+    "We finally finished making our bento boxes."
+    
+    show haruka cook smile with dissolve
+    ha "And with that, we're finished."
+    
+    show haruka cook happy with dissolve
+    ha "Eheheh... Since I have some left over side dishes, would Saionji-san like to taste some of it?"
+    ri "Sure. Thanks, Haruka-san."
+    "I grabbed one of her left over tamagoyaki with a pair of chopsticks and gave it a try."
+    ri "Woah, it's delicious!"
+    
+    show haruka cook onehandraised smileblush with dissolve
+    ha "Ah, no, it's really nothing."
+    ri "Haruka-san really is good at cooking, isn't she?"
+    ha "I've been in the club for a really long time, so it's really not that amazing."
+    ri "Eh... So you think even I could get good if I try?"
+    
+    show haruka cook excited happy with dissolve
+    ha "Of course! As long as you put in your best effort, you can learn to do anything."
+    ri "Come to think of it, I have been eating kind of bad food for a while..."
+    ri "My father generally doesn't come home until really late, so I usually eat instant ramen or bread from the convenience store for dinner most of the time..."
+    
+    show haruka cook onehandraised surprise with dissolve
+    ha "Eeehh!? You can't do that, Saionji-san..."
+    ri "Ahahaha, I think you're right. Maybe learning to cook will be a good idea."
+    
+    show haruka cook excited happy with dissolve    
+    ha "Alright! I will give it my best effort to teach you, Saionji-san!"
+    ri "I'll be in your care from now on then, Haruka-san."
+    
+    show haruka cook smile with dissolve
+    ha "Please feel free to come to our club any time."
+    "We talked while tasting our left overs for a little bit more, and then I went back home."
+    
+    scene bg black with dissolve
+    scene bg rikuroomnight with dissolve
+    $ renpy.music.stop (fadeout=3.0)
+    
+    "By the time I got back home, it was already dark."
+    "Well, today was pretty fun."
+    "Mmm... Since Nonami said that she was going to bring bento boxes for me from now on, I guess I could eat the one I made with Haruka for dinner."
+    "Even though the one I made wasn't as good as Haruka's, it was still a lot more edible than my usual dinners."
+    "After dinner, I opened my books and studied for the rest of the time before going to sleep."
+    jump soraarrives
+	
 </nowiki>
 </poem>
