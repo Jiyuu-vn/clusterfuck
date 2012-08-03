@@ -22,77 +22,77 @@ label start:
     
     $ renpy.pause(1.0)
     
-    "16 Июля, 1905."
+    "July 16th, 1905."
     
     play music "funeral.mp3"
     
-    "Снаружи идет дождь."
+    "The rain pours outside."
     
     play sound "rain01.mp3"
 
     scene bg cemetery
     with fade
 
-    "Неделю назад тоже лил дождь."
+    "It was raining a week ago as well."
     
-    "Когда это произошло."
+    "When it happened."
     
     scene bg cemetery
     with flash
     
-    "Сказали, она утонула."
+    "They said she drowned."
     
-    "Ее повозка и лошади покинули Нью-Йорк и Бруклинский мост."
+    "Her horse and buggy went off the New York and Brooklyn Bridge."
     
-    priest "Мы собрались здесь, чтобы почтить..."
+    priest "Here we honor..."
     
-    "Ее тело так и не было найдено. Одна лишь повозка была обнаружена после многочисленных поисков."
+    "They never found the body. Only the buggy itself surfaced after much searching."
     
-    priest "Ее время еще не пришло. Такая молодая, полная жизни, полная юности..."
+    priest "Her time had not come yet. So young, so vibrant, so full of youth..."
     
-    "Мы были помолвлены, и собирались сыграть свадьбу всего через неделю."
+    "We were engaged to be married only a week later."
     
-    "Обстоятельства ее смерти не ясны. По всей видимости, в это время на мосту было только две повозки, одна из которых принадлежала ей."
+    "The circumstances surrounding her death were sketchy. Apparently, her buggy had been one of only two buggies on the bridge at the time."
     
-    "9:03. Это время засело у меня в голове. Я спал дома, когда они пришли  сообщить мне."
+    "9:03 AM. The time stuck with me. I was at home, sleeping, when they came to tell me."
     
-    "Священник прекратил свою непрерывную монотонную речь."
+    "The priest has stopped his incessant droning."
     
-    "Люди начинают расходиться."
+    "The crowds start moving away."
     
-    "Думаю, мне тоже пришло время уходить."
+    "I guess it's time for me to leave, too."
     
     scene bg street2
     with fade
     
-    "А дождь все не прекращается."
+    "It's still raining."
     
     play sound "rain01.mp3"
     
-    "Какая жалкая погода..."
+    "What miserable weather..."
     
-    "Как жалок я сам..."
+    "I'm miserable..."
     
-    j "Горе мне!!!!"
+    j "Woe is me!!!!"
     
-    "Прохожие останавливаются, чтобы поглазеть на меня..."
+    "The people in the street stop to stare..."
     
-    "Пожалуй, я проскользну в этот переулок, чтобы избежать посторонних глаз..."
+    "I guess I'll slip into this alleyway to escape the stares of bystanders..."
     
     scene bg alleyway2
     with fade
     
-    "Переулок кажется пустым."
+    "This alleyway seems to be empty."
     
-    "Таким же пустым, как и мое сердце."
+    "Empty like my heart."
     
-    j "Почему Глэдис пришлось умереть?!"
+    j "Why did Gladys have to die?!"
     
-    j "Она тронула мое сердце... Она была моей второй половинкой... Она..."
+    j "She touched my heart... She made me whole... She..."
     
-    "О, глядите, бар!"
+    "Oh, look, a bar!"
     
-    j "Урааа, ПИВО!"
+    j "Hooray, BEER!"
     
     play sound "door03.wav"
     
@@ -103,118 +103,118 @@ label start:
     stop music
     play music "members only.mp3"
     
-    "Внутри душно и накурено."
+    "The air is warm and hazy."
     
-    j "Дайте мне мартини, смешать, но не взбалтывать."
+    j "Give me a martini, shaken, not stirred."
     
-    "Что я говорю..."
+    "What am I saying..."
     
-    "Я сел на один из стульев."
+    "I sit down at one of the stools."
     
-    "Рядом со мной сидит девушка."
+    "A girl is sitting next to me."
     
     show m embarrassed
     with dissolve
     
     m1 "..."
     
-    "Она кажется... подавленной..."
+    "She looks... depressed..."
     
-    j "Эй, мисс, не хотели бы вы зайти ко мне попозже?"
+    j "Hey, miss, would like to come over my place later?"
     
-    "Она бросила на меня сердитый взгляд."
+    "She glares."
     
     show m angry
     with dissolve
     
-    "Кажется, она ничем не подавлена."
+    "I guess she's not depressed."
     
     show m yelling
     with dissolve
     
-    m1 "Кем ты себя возомнил?"
+    m1 "Who do you think you are?"
     
     show m angry
     with dissolve
     
-    bartender "Хмм, сир, ваш заказ... взболтанный, но не смешанный...?"
+    bartender "Umm, sir, here's your drink... shaken not stirred...?"
     
     play sound "glass.wav"
     
-    "И бармен сбежал от надвигающейся бури..."
+    "The bartender runs away from the approaching storm..."
     
-    "Может, мне тоже лучше ретироваться..."
+    "Maybe I should slip away too..."
     
-    "Только я был готов сбежать..."
+    "Just as I get up to run..."
     
     show m yelling
     with dissolve
     
-    m1 "Даже не думай от меня уйти!"
+    m1 "Don't you dare run away!"
     
-    "Черт."
+    "Crap."
     
-    m1 "Да-да. Я с тобой говорю."
+    m1 "That's right. I'm talking to you."
     
-    "Я в дерьме..."
+    "Double crap..."
     
-    m1 "Знаешь, я НЕНАВИЖУ людей вроде тебя. Ты думаешь, что можешь заполучить любую девушку, которую ты только пожелаешь. Но сегодня, МИСТЕР, все иначе."
+    m1 "You know, I HATE people like you. You think that you can pick up any girl you want. Well, today, MISTER, you have another thing coming."
     
     show m angry
     with dissolve
     
-    "....почему именно я....?"
+    "....why me....?"
     
-    "Подождите минуту. Почему я позволяю какой-то незнакомке так с собой разговаривать? Я покажу ЕЙ, кто я такой..."
+    "Wait a minute. Why am I letting a girl talk me down? I'll show HER who I am..."
     
-    j "Подожди, дай мне все объяснить!"
+    j "Wait, let me explain!"
     
-    "Мое терпение заканчивается..."
+    "Here's where I go in for the kill..."
     
-    j "Моя невеста умерла, и я просто пытаюсь утопить свою печаль в мартини и женщинах... ПОЖАЛУЙСТА, НЕ УБИВАЙ МЕНЯ!"
+    j "My fiancé just died, and I'm just drowning away my sorrows in martinis and women... PLEASE DON'T KILL ME!"
     
-    "Упс."
+    "Oops."
     
     show m yelling
     with dissolve
     
-    m1 "О, не трать время на объяснения, у меня слишком кружится голова, чтобы преподавать тебе урок..."
+    m1 "Oh, spare the explanation, I'm too dizzy to hurt you right now..."
     
     show m thinking
     with dissolve
     
-    "Она упала обратно на стул."
+    "She slumps back into her seat."
     
-    "Кажется, я спасен."
+    "I guess I'm off the hook for now."
     
-    "Внезапно, она выпрямилась."
+    "She suddenly sits up in her seat."
     
     show m yelling
     with dissolve
     
-    m1 "Ты сказал, что твоя невеста недавно умерла?"
+    m1 "You say your fiancé just died?"
     
     show m angry
     with dissolve
     
-    "О, Господи, еще одна слезливая симпатичная девушка..."
+    "Oh boy, another teary-eyed sympathetic girl..."
     
-    j "Да, ее лошадь и повозка как бы сказать... упали с моста..."
+    j "Yeah, her horse and buggy kind of... rolled off the bridge..."
     
     show m shocked
     with dissolve
     
-    m1 "О..."
+    m1 "Oh..."
     
     show m embarrassed
     with dissolve
     
-    "Ммммммм, неловкое молчание. Мое любимое."
+    "Mmmmm, awkward silence. My favorite."
     
     show m yelling
     with dissolve
     
-    m1 "Слушай, мне жаль, ясно?"
+    m1 "Well, I'm sorry, ok?"
     
     show m embarrassed
     with dissolve
@@ -229,51 +229,50 @@ label start:
     
     j "..."
     
-    "...это смешно..."
+    "...this is fun..."
     
     show m yelling
     with dissolve
     
-    m1 "Хм, если тебя это интересует, то я Мелисса Тэмпс, но ты можешь называть меня просто Мэл."
+    m1 "Well, in case you were wondering, my name's Melissa Tempse, but you can call me Mel."
     
     show m angry
     with dissolve
     
-    "Мне все равно..."
+    "I don't care..."
     
-    j "Я – Джошуа МакДермаус, но ты будешь называть меня так, как я тебе скажу. Зови меня Джошуа."
+    j "My name's Joshua McDermouth, but you call me what I tell you to call me. And I say, call me Joshua."
     
-    "Ах, не правда ли я мягок с женщинами? Вот почему люди называют меня..."
+    "Ah, aren't I smooth with women? This is why people call me..."
     
     play sound "punch.wav"
     show bg bar
     with hpunch
     
-    j "АУ! ЗА ЧТО ЭТО, ЧЕРТ ВОЗЬМИ, БЫЛО?"
+    j "OWWW! WHAT THE HELL WAS THAT FOR?"
     
     show m smug
     with dissolve
     
-    m "Это за то, что ты урод."
+    m "That was for you being a jerk."
     
-    "Что за..."
+    "What the..."
     
     play sound "punch.wav"
     show bg bar
     with vpunch
     show m smug
     
-    m "А это просто за то, что ты мне не нравишься."
+    m "And that was just because I don't like you."
     
-    "Ах... кажется, я теряю сознание..."
+    "Ah... I think my vision's going out..."
     
     show bg black
     with fade
     
-    "Эх, стерва..."
+    "Oh, you bitch..."
     
     hide m smug
     with dissolve
     stop music
-
 </poem>
