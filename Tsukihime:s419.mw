@@ -11,103 +11,103 @@ bg "image\bg\bg_34a.jpg",%type_nowaitdisp
 ;(??01)
 ld c,":a;image\tachi\koha_t01a.jpg",%type_lshutter_fst
 
-`"Shiki-san, I hate to ruin your fun, but would you like some breakfast?@ It is almost time, so I thought I should make some."@
-`"Oh, I forgot.@ ...... I'm not so much hungry as I am thirsty though."@
+` - Шики-сан, не хочу прерывать ваше веселье, но ты позавтракать не хочешь?@ Уже почти пора, и я собиралась тебе что-нибудь сделать.@
+` - О, я и забыл...@ Но я не голодный, только пить хочу.@
 
 ;(??04)
 ld c,":a;image\tachi\koha_t04.jpg",%type_crossfade_fst
 
-`"Oh, that won't do, Shiki-san.@ You collapsed yesterday so you need to eat to regain your strength.@
-` Even if you don't feel like eating, you should have some food."\
+` - О, Шики-сан, так нельзя.@ Ты вчера потерял сознание, значит тебе нужно есть чтобы восстановить силы.@
+` Даже если ты не голоден тебе нужно что-нибудь съесть.\
 
 ;(????)
 cl c,%type_lshutter_fst
 
-`"Uh......"@
-` What she says is true, but I just don't feel like it right now.@
-` After seeing that dream, I can't bring myself to eat.\
+` - Уу...@
+` Она права, но у меня совершенно нет аппетита.@
+` После того сна мне ничего в горло не полезет.\
 
 ;(???01)
 ; ?? : 01~10 : 01_?01(?????)<??????(?)>
 ld l,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
 
-`"...... Nee-san.@ If Shiki-sama does not feel well, I do not think you should force him."@
+` - Нээ-сан.@ Если Шики-сама нехорошо себя чувствует, я не думаю что тебе стоит его заставлять.@
 
 ;(???04)
 ld r,":a;image\tachi\koha_t04.jpg",%type_lshutter_fst
 
-`"Hisui-chan, you are too indulgent when it comes to Shiki-san----huh?"@
+` - Хисуи-тян, ты слишком снисходительна к Шики-сану — а?@
 
 ;(???09)
 ld r,":a;image\tachi\koha_t09.jpg",%type_crossfade_fst
 
-`"Shiki-san, you're not feeling well again this morning?"@
-` Kohaku-san stares at me.@
-` As if on cue, Hisui and Akiha add their serious stares on me as well.@
-` ...... I guess I really can't go on fooling myself.\
+` - Шики-сан, ты сегодня опять плохо себя чувствуешь?@
+` Кохаку-сан смотрит на меня.@
+` Как по команде, Хисуи и Акиха бросают на меня свои серьёзные взгляды.@
+` Похоже, я больше не могу обманывать себя...\
 
-`"---To tell the truth, I do feel a little under the weather.@ I can eat, but could you make it something I don't need to chew?@ I feel pretty bad, and I can't really taste anything."@
+` - Сказать по правде, я действительно чувствую себя немного неважно.@ Я могу есть, но ты бы не могла приготовить чего-нибудь, что не надо пережёвывать?@ Когда мне так нехорошо, я не могу ничего распробовать.@
 
 ;(????)
 cl r,%type_lshutter_fst
 
-` After telling the truth, Kohaku-san says "Oh, I see," and looks a little downcast.@
-` ...... As the one in charge of cooking, she probably feels something about what I said.\
+` Услышав правду, Кохаку-сан говорит: «О, понятно», и слегка поникает.@
+` Наверное, её, как отвечающую за готовку, задели мои слова.\
 
 ;(???04)
 ld l,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"...... Um, Shiki-sama?@ I think you are not feeling well because there was a change in your environment.@
-` So, if the mansion is not suitable for you, maybe you should go back and live with the Arima family for a while......?"@
-`".................."@
-` Hisui's opinion is driven by a sincere concern about my health.\
+` - Эм, Шики-сама?@ Мне кажется, что вы нехорошо себя чувствуете из-за смены окружения.@
+` Поэтому, если особняк вам не подходит, быть может, вам стоит вернуться и какое-то время пожить с семьёй Арима?..@
+` - ...@
+` Хисуи движет искренняя забота о моём здоровье.\
 
 ;(????)
 cl l,%type_lshutter_fst
 
-` ...... Ever since I came back, my life has been strange.@
-` Since that promise from eight years ago has apparently been forgotten; maybe it's better for my health if I go back and live at the Arimas.\
+` С тех пор как я вернулся, в моей жизни начались странности.@
+` Раз то обещание восемь лет назад, похоже, забылось, для меня наверное будет лучше вернуться к Аримам.\
 
-`"...... Yeah.@ That may be good too.@
-` Although I've only been here for a week, if I don't seem to get used to it soon, I'll leave for a while and go regain my health."@
-` "Well, that may be jumping the gun a little bit," I add.@
+` - Да...@ Может быть, это и к лучшему.@
+` Хоть я и прожил здесь только неделю, если в скором времени я не освоюсь, я ненадолго съеду чтобы восстановиться.@
+` «Хотя думать об этом, пожалуй, несколько преждевременно», добавляю я.@
 br
-` ---And then.@
-` Suddenly, Akiha stands up from her sofa.\
+`     В следующую секунду.@
+` Акиха вдруг резко встаёт с дивана.\
 
 ;(???09a)
 ld c,":a;image\tachi\aki_t09.jpg",%type_lshutter_fst
 
-`"Oh, that will not do, Nii-san.@ You finally came back, so please do not leave again.@
+` - О, Нии-сан, так нельзя.@ Ты наконец вернулся, пожалуйста, не уезжай снова.@
 
 ;(08a)
 ld c,":a;image\tachi\aki_t08a.jpg",%type_crossfade_fst
 
-` If you say you are going to leave one more time, I will kill you, Nii-san."@
+` Нии-сан, если ты ещё раз скажешь, что хочешь уехать, я тебя убью.@
 
 ;(??????)
 cl c,%type_lshutter_fst
 
-` Akiha smiles as she says that joke and disappears towards the lobby.\
+` Улыбаясь своей шутке, Акиха уходит в фойе.\
 
 ;(??03)
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_fst
 
-`"Hisui-chan.@ It's time for Akiha-sama to go to school, please accompany her to the door.@ I'll be taking care of Shiki-san's breakfast."@
-` With a simple "yes", Hisui walks after Akiha.@
-`"Well then, I'll make you something easy for you to eat.@ Please wait just a moment."@
+` - Хисуи-тян.@ Акихе-сама пора собираться в школу, проводи её.@ Я займусь завтраком Шики-сана.@
+` После простого «хорошо», Хисуи выходит вслед за Акихой.@
+` - Ну что ж, я приготовлю тебе чего-нибудь лёгкого.@ Подожди минутку.@
 ;(?????)
 cl c,%type_lshutter_fst
 
-` Kohaku-san walks quickly toward the kitchen.\
+` Кохаку-сан быстро уходит на кухню.\
 
-`"-------"@
-` I sit on the sofa, dumbstruck.@
+` - ...@
+` Я в ступоре опускаюсь на диван.@
 br
-` ---I will kill you, Nii-san.@
+`     «Нии-сан, я тебя убью.»@
 br
-` ...... Those words won't leave my head.@
-` It's probably because even though it was a joke, it didn't sound like a joke to me.\
+` Эти слова не выходят у меня из головы...@
+` Наверное, потому, что может это была и шутка, на шутку это было ни разу не похоже.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -121,12 +121,12 @@ bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 ;S.E."??"
 wave se2
 
-` ---Noon arrives.@
-` As usual, Arihiko is skipping school.@
+` Наступает полдень.@
+` Арихико как всегда прогуливает.@
 br
-`"I guess I'll go to the cafeteria."@
-` I don't feel like eating by myself here.@
-` Maybe if I go to the lively cafeteria, my appetite may pick up.\
+` - Пойду в столовую.@
+` Мне не хочется есть в классе в одиночестве.@
+` Может, если я пойду в оживлённую столовую, у меня появится аппетит.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -134,28 +134,28 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_50.jpg",%type_lcartain_mid
 
 
-` As expected, the cafeteria is full of people.@
-` After waiting in a long line, I buy the tried and true meal set A and walk to a table.@
-` Listening to the voices of everyone else, I begin to eat.@
+` Как и ожидалось, в столовой полно народа.@
+` Отстояв в длинной очереди, я беру старый добрый обед «А» и иду к столику.@
+` Под шум окружающих меня голосов, я приступаю к еде. @
 br
-` ----And then.@
+` Как вдруг...@
 br
-` For a moment, I see a terrible image.\
+` Мне показалось, что я увидел нечто ужасное.\
 
-`"......?@ Is it the television screen?"@
-` I gape at the large television mounted on the wall at the end of the cafeteria.@
-` At my school, they record the morning news and replay it at lunch.@
-` I just stare dumbfounded at the news broadcast that is several hours late.\
+`«..?@ Экран телевизора?»@
+` Я в шоке смотрю на экран большого телевизора, установленого на стене в глубине столовой.@
+` В этой школе утренние новости записывают и затем показывают во время обеда.@
+` Я ошеломлённо смотрю выпуск новостей, закончившийся несколько часов назад.\
 ;CD-DA???????
 play "*4"
 
 
 
-`"----No way..."@
-` I watch the news in amazed horror.@
-` Shown in the television is the alley that I saw last night in my dream.@
-` The newscaster is talking.@
-` On the screen, the words "Vampire Serial Killer's New Victim" appears in bloody lettering.\
+` «Не может быть...»@
+` С удивлением и ужасом я смотрю новости.@
+` На экране показывают переулок из моего сегодняшнего сна.@
+` Диктор что-то говорит.@
+` На экране появляется надпись кровавым шрифтом: «Девятая Жертва Вампира-Маняка».\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
@@ -164,14 +164,14 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_50.jpg",%type_nowaitdisp
 
 
-` ...... It appears that the girl was saved.@
-` The girl is in the hospital recovering from having her blood drained.@
-` She is still unconscious.@ Chances of recovery are unknown.@
-` ...... The identity of who attacked and stole her blood is also unknown.@
-` The picture of the girl on the television is unmistakably that girl from last night.@
+` Похоже, девушку спасли...@
+` Она сейчас лежит в больнице, оправляясь от потери крови.@
+` Она всё ещё не пришла в сознание.@ Шансы на выздоровление неизвестны...@
+` Личность нападавшего, похитившего её кровь, тоже неизвестна.@
+` На фотографии в телевизоре без всякого сомнения девушка из сегодняшнего сна.@
 br
-` ---That means there's one thing that isn't unknown.@
-`   The criminal who attacked her is, without a doubt----\
+`     Это значит, что кое-что на самом деле известно.@
+`   Преступник, который напал на неё, это несомненно—\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_nowaitdisp
@@ -179,21 +179,21 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 ; ?? : ?? : ????<?????(?)>
 bg "image\bg\bg_50.jpg",%type_nowaitdisp
 
-`"------"@
-` I start to feel faint.@
+` - ...@
+` Мне становится плохо.@
 
 
-`"How......... come?"@
-` That was a dream.@ It had to be a dream.@
-` But in reality, the same person in my dream, had her blood sucked out the same way in my dream.@
-`"That vampire should be gone already."@
-` I killed Yumizuka with my own hands.@
-` Those killings, they shouldn't be happening anymore.\
+` «Что это значит?..»@
+` Это был сон.@ Это должен был быть сон.@
+` Но и в реальности у того же человека, что и во сне, высосали кровь так же, как и в моём сне.@
+` «Вампира уже не должно быть.»@
+` Я убил Юмизуку собственными руками.@
+` Убийства должны были прекратиться.\
 
-`"I----killed?"@
-` Yes, I killed.@
-` Just like the time when I killed Yumizuka.@
-` While breathing hard, last night, that woman I've never met---\
+` «Я...убил?»@
+` Да, я убил.@
+` Так же, как когда я убил Юмизуку.@
+` Тяжело дыша, вчера ночью, незнакомую женщину...\
 
 ; ????????<???????(?)>
 bg "image\bg\ima_13.jpg",%type_crossfade_mid
@@ -204,8 +204,8 @@ br
 br
 br
 br
-` Didn't I tell you, Shiki-kun?@
-` It's useless to resist it.\
+` «Шики-кун, я же говорила?@
+` Этому бесполезно сопротивляться.»\
 
 br
 br
@@ -213,40 +213,40 @@ br
 br
 br
 br
-` What are you talking about?@
-` You're more of a killer than I am.\
+` «О чём ты говоришь?@
+` Ты больший убйица, чем я.»\
 
 
 ; ?? : ?? : ????<????>
 bg "image\bg\bg_50.jpg",%type_crossfade_mid
 
 
-`"Ugh---"@
-` Resisting the urge to throw up, I get up from my seat.@
+` - Уу...@
+` Сдерживая рвотные позывы, я поднимаюсь со стула.@
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
 br
-` I can't go back to class.@
-` I find myself running into the city.\
+` Я не могу возвращаться в класс.@
+` Я вдруг замечаю, что бегу по городской улице.\
 
 !w2000
 ; ???? : ?????? : ???1(?)<?????(?)>
 bg "image\bg\bg_31a.jpg",%type_lcartain_mid
 
 
-` ---I come to the place I saw in my dream.@
+` Я прихожу к тому месту, которое видел во сне.@
 br
-` There are several policemen around the area, and tape reading "Police Line Do Not Cross" is stretched across the alley.@
-`"---Exactly the same."@
-` Without a doubt, this is the place I went to in my dream.@
-` ---No, it wasn't a dream.@
-` I can't delude myself into thinking it is a dream any longer.\
+` Неподалёку дежурят несколько полицейских, и вход в переулок перетянут полицейской лентой.@
+` «Всё точно так же...»@
+` Несомненно, это то самое место, что я видел во сне.@
+`    Нет, это был не сон.@
+` Я не могу больше обманывать себя и говорить что это сон.\
 
-`"........."@
-` Even if I stay here longer, the cops will only stare at me.@
-` ...... I can't go back to school now, so I guess I'll go back to the mansion.\
+` - ...@
+` Я привлеку внимание полиции если останусь здесь.@
+` В школу возвращаться уже нельзя...@ Похоже, придётся вернуться в поместье.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -261,16 +261,16 @@ bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 ;S.E."??????????…?(???)"
 waveloop se10
 
-` Since it's not even two o'clock yet, Hisui isn't waiting in the lobby.@
-`"..............."@
-` I can say I got lucky.@ I don't feel like seeing anyone right now.@
-` I glance at my reflection in the window.@
-` The pale face looks like a completely different Tohno Shiki.@
+` Сейчас нет ещё и двух часов, так что Хисуи меня не встречает.@
+` - ...@
+` Пожалуй, мне повезло.@ Сейчас мне не хочется никого видеть.@
+` Я смотрю на своё отражение в зеркале.@
+` Бледное лицо в нём похоже на совершенно незнакомого Тоно Шики.@
 br
-` My self that seems like another person.@
-` That dream that seemed like it belonged to another person.@
-` That which cannot be noticed,
-` the traces of the killing that only remains in my memory.\
+` Я, похожий на чужого человека.@
+` Сон, словно снившийся другому человеку.@
+` Нечто, что невозможно заметить,
+` следы убийства, остающиеся только в памяти.\
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
@@ -280,44 +280,44 @@ br
 br
 br
 br
-` Dizziness.@
-` Before me, my vision goes black.\
+` Головокружение.@
+` В глазах всё чернеет.\
 
 
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_33a.jpg",%type_nowaitdisp
 
 
-`"No----!@ I'm not the same as my old man............!!!"@
-` Desperately fending off the dizziness, I try to stay upright.@
-`"------My old man."@
-` I can go to my old man's room, and I can find out about his illness.@
-` If I do that, I can confirm that I'm not the same.@ If I am the same----there might be a way to help myself.\
+` - Нет!@ Я не такой как мой старик!!!@
+` Сражаясь с головокружением, я отчаянно пытаюсь устоять на ногах.@
+` - Мой старик...@
+` Я могу пойти в его комноту и найти что-нибудь о его болезни.@
+` Если я это сделаю, я смогу подвтердить, что я не такой.@ Если же я такой — там может быть способ помочь мне.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
-` ...... His room is on the first floor in the western part of the mansion, next to Kohaku-san's room.@
-` It was fortunate that I left school early.@
-` At this time, no one else is around.@
-` I pull out my knife and take off my glasses.@
-` I try to cut the "line" of the door's lock and put my glasses back on.@
+` Его комната на первом этаже в западном крыле особняка, рядом с комнатой Кохаку-сан.@
+` Хорошо, что я ушёл из школы раньше.@
+` Сейчас тут никого нет.@
+` Я достаю нож и снимаю очки.@
+` Я пробую перерезать «линию» на дверном замке и одеваю очки обратно.@
 br
-` The room was not locked.\
+` Комната была не заперта.\
 
 ; ?? : ?? : ????(??)<??????(?)>
 bg "image\bg\bg_41.jpg",%type_lshutter_mid
 
 
-` My old man's room is just like it always was.@
-` Nearly all of the rows of books are educational reports, and nothing catches my attention.@
-` What I want right now is my old man's journal or notes.@
-` The old man was extremely methodical.@ There certainly has to be something like that lying around here somewhere---
+` Комната моего папаши ничуть не изменилась.@
+` Ряды книг почти целиком состоят из образовательных отчётов, и ничего не привлекает моего внмания.@
+` Мне нужен дневник или записки старика.@
+` Он был очень методичный.@ Где-то тут наверняка должно быть что-то в этом роде...
 
-`"...... Of course, they're not just lying about where anyone can see them."@
-` Maybe they're locked away somewhere.@
-` I should probably look in these desk drawers first.\
+` - Конечно, они не будут валяться где-нибудь у всех на виду...@
+` Может быть, они где-то заперты.@
+` Сперва надо посмотреть в ящиках стола.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -325,25 +325,25 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_41.jpg",%type_lshutter_fst
 
 
-` This isn't time to be fooling around.@
-` Taking off my glasses, I look at the "lines".@
-` Using my knife, I cut the "lines" on the drawer.@
-` Inside, there appears to be some old documents bundled together and what seems to be a journal.\
+` Дурака валять некогда.@
+` Я снимаю очки и смотрю на «линии».@
+` Ножом я разрезаю «линии» на ящике стола.@
+` Внутри лежит куча старых документов и какой-то дневник.\
 
-` First, I look at the old documents.@
-`"...... This is, my family tree?"@
-` Definitely.@
-` Right after Tohno MAKIHISA is written Tohno SHIKI and Tohno AKIHA.@
-` And right after that, the word "Nanaya" is written there.@
+` Сперва я просматриваю документы.@
+` - Это, моё семейное древо?..@
+` Определённо.@
+` После Тоно МАКИХИСА написаны Тоно ШИКИ и Тоно АКИХА.@
+` И сразу за ними написано слово «Наная».@
 br
-`"Eh...... my old man, he adopted a son ten years ago?@ ...... Ah, but he passed away shortly thereafter."@
-` Ten years ago, that would mean I was just in elementary school.@
-` That long ago, it's only natural that I wouldn't remember.\
+` - Э... мой старик усыновил мальчика десять лет назад?..@ А, но он скоро после того умер.@
+` Десять лет назад, я был ещё в младшей школе.@
+` Так давно, не удивительно что я не помню.\
 
-`"Let's see...... the heads of the household have had pretty short lifespans.@ My old man died before he was fifty, and before that, before thirty in an accident... before that, eighteen years of age, with suicide---"@
+` - Посмотрим... никто из глав семейства не прожил долгую жизнь.@ Папаша умер когда ему не было ещё пятидесяти, перед ним, меньше тридцати, в аварии... перед этим, восемнадцать лет, от самоубийства...@
 br
-` ----No, wait a second.@
-` No matter how you look at it, this is strange.\
+` Нет, погодите...@
+` Как ни крути, но это не нормально.\
 ;CD-DA???????
 play "*6"
 
@@ -351,9 +351,9 @@ play "*6"
 wave se0
 
 
-` Looking through the family tree, all members of the Tohno household have died strangely.@
-` Madness.@ Accidents.@ Murder.@ Disappearances.@ Still birth.@
-` ...... Not one of them lived a long life, or even died peacefully.\
+` Судя по этому древу, все члены рода Тоно умерли странной смертью.@
+` Безумие.@ Несчастные случаи.@ Убийства.@ Исчезновения.@ Мертворождения.@
+` Никто не прожил долгой жизнью и умер спокойно...\
 
 ;S.E."??"
 wave se0
@@ -364,22 +364,22 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 br
-`"Wha............"@
-` This entire document is filled with horrible fates.@
-` Even worse, most of the causes of death are madness.@
-` Most of these ended up taking their own lives.\
+` - Что...@
+` Этот документ полон историй об ужасных судьбах.@
+` Что хуже всего, самой частой причиной смерти явялется безумие.@
+` Большниство сошедших с ума наложили на себя руки.\
 
-`"That's strange---all of this is strange."@
-` But I can't exactly place my finger on it.@
-`"...... Next is...... my old man's journal."@
-` I pick up the journal which has a relatively new binding.@
+` - Странно — всё это странно.@
+` Но сама эта информация не даёт ответа на мои вопросы.@
+` - Дальше... дневник папаши...@
+` Я беру в руки журнал с относительно новым переплётом.@
 br
-` ----Thump, Thump.@
+`     Пум, Пум.@
 br
-` My heart starts to pound.@
-` My heart seems to understand that I shouldn't be opening this.@
-` But I can't turn back now.@
-` Swallowing hard, I open my old man's journal.\
+` Моё сердце заколотилось.@
+` Оно словно понимает, что мне лучше не открывать это.@
+` Но я не могу отступить.@
+` Напряжённо сглотнув, я открываю дневник старика.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -389,93 +389,93 @@ bg "image\bg\bg_41.jpg",%type_lshutter_fst
 
 
 br
-` ------There is a demon lurking inside the Tohno bloodline.@
+`       «В крови рода Тоно живёт демон.»@
 br
-` The opening statement is in those lines.\
+` Первой строчкой служит что-то подобное.\
 
-` And that isn't just a simple metaphor.@
-` The ancestors of the Tohno were a mixed breed of "something nonhuman" and human.@ We, being their descendants, also have this element of "something nonhuman" in our blood.@
+` «Это не метафора.@
+` Предки Тоно были полукровками, смешав в себе кровь людей и «нелюдей».@ Мы, их потомки, тоже несём что-то «нечеловеческое» в нашей крови.@
 br
-` In regards to our blood...
-` There are those with strong and those with weak nonhuman blood.@
-` Those with weak nonhuman blood can live their lives as ordinary people, but those with strong nonhuman blood can never live a normal life.\
+` Что касается нашей крови...
+` Есть те, в ком сильна нечеловеческая кровь, и те, в ком она слаба.@
+` Те, в ком нечеловеческая кровь слаба, могут жить как обычные люди, но тем, в ком эта кровь сильна, нормальная жизнь недоступна.\
 
-` Those with strong Tohno blood are born with special powers.@
-` It could be a body that is resistant to death,
-` it could be an ability to move things without touching them,
-` or it could be fangs used to take bodily fluids from other people.\
+` Те, в ком сильна кровь Тоно, с рождения обладают особыми силами.@
+` Это может быть неубиваемое тело,
+` или способность перемещать предметы не прикасаясь к ним,
+` или клыки, способные высасывать жидкость из тел других.\
 br
-` This blood.@
-` When this blood becomes too strong, the members of the Tohno family start to gradually lose their sanity.@
-` The majority of those become demons that feed on human flesh.@
-` So, the head of the Tohno household carries the responsibility of punishing those who have turned into such a monster.\
+` Эта кровь.@
+` Когда эта кровь становится слишком сильной, члены рода Тоно начинают постепенно терять рассудок.@
+` Большинство становятся демонами, пожирающими плоть людей.@
+` И потому долг главы семьи Тоно — наказывать тех, кто превратился в такое чудовище.»\
 
-`"--------"@
-` It's messed up.@
-` My old man, what was he trying to say?@ Writing so seriously about something that's more like a fairy tale.@
+` - ...@
+` Что за бред.@
+` О чём толковал мой папаша?@ Он так серьёзно писал о чём-то, что больше похоже на вымысел из сказки.@
 br
-` -----The journal turns more into the old man's rant.@
+`      Записи всё больше становятся похожи на бессвязные размы.@
 br
-` The date is roughly nine years ago.@
-` The handwriting starts to get erratic.\
+` Дата примерно девятилетней давности.@
+` Почерк становится неровным.\
 
 monocro #ffff00
 ; ?? : ?? : ????(??)<???????(?)>
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 
-` I am no longer able to suppress my raging blood.@
-` I was able to obtain an orphan from a family of Synchronizers, so this should help me strengthen my mind.@ However, it really is only a matter of time before I go insane.\
+` «Я больше не могу сдерживать свою бушующую кровь.@
+` Я смог заполучить сироту из семьи Синхронизаторов, это должно укрепить мой разум.@ Однако моё сумасшествие — лишь вопрос времени.\
 
-` ...... It is terrifying.@
-` When I come to, I find that I can't even remember half of the day.@
-` During that time, I'm forcing my inversion impulse on that child.@
+` Это ужасно...@
+` Когда я прихожу в себя, я понимаю, что не помню и половины того, что случилось за день.@
+` В это время, я глушу свою трансформацию с помощью того ребёнка.@
 br
-` If this keeps up,
-` it is only a matter of time before I completely lose my sanity and turn into a beast.@
-` I don't even know how much time I have left to remain as myself.\
+` Если это продолжится в том же духе,
+` то это только вопрос времени, когда я окончательно потеряю рассудок и превращусь в зверя.@
+` Я даже не знаю, сколько времени я ещё смогу оставаться собой.\
 
-` No.@ If that child is here, then I can probably last for a few more years.@
-` But that child will not be able to bear that.@ After that child breaks, I will have to take my own life.@
+` Нет.@ Пока этот ребёнок здесь, я смогу протянуть ещё наверное пару лет.@
+` Но ребёнок этого не выдержит.@ Когда этот ребёнок сломаетя, я буду вынужден забрать свою жизнь.@
 br
-` ...... It is incredibly ironic.@
-` I eliminated so many things in order to preserve myself, but in the end, I will probably have to commit suicide.@
-` Or maybe this is the curse of the Nanayas.@
-` I end up adopting his son, but I guess I could not lift their grudge with such a thing.\
+` Это так иронично...@
+` Я столько всего уничтожил чтобы спасти себя, но в конце концов мне наверное придётся совершить самоубийство.@
+` А может быть, это проклятье Наная.@
+` Я усыновил его сына, но похоже этим их гнев не унять.\
 
-` But, I can't make up for the events of the past.@ If death is waiting for me, then I must accept it when the time comes.@
-` But until then---I must protect my children.@
-` Akiha's blood is weak.@ Unless she wishes it herself, she does not have to suffer the same fate.@
+` Но я не могу исправить прошлого.@ Если меня ожидает смерть, то я должен принять её когда придёт время.@
+` Но до тих пор — я должен защищать своих детей.@
+` Кровь Акихи слаба.@ Если она сама не захочет, ей не обязательно становиться жертвой той же судьбы.@
 br
-` The problem is SHIKI.@ That child is incredibly close to me.@ More than anything else, I do not want that child to suffer my fate.@
-` ...... If the Tohno blood is unnatural, I need to distance him as much as possible from the Tohno name and see how he will fare----\
+` Проблема с ШИКИ.@ Этот ребёнок очень похож на меня.@ Больше всего на свете я не хочу, чтобы его постигла моя судьба...@
+` Если кровь Тоно не нормальна, мне нужно держать его как можно дальше от имени Тоно, и посмотреть, что получится...»\
 
 monocro off
 ; ?? : ?? : ????(??)<???????(?)>
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 
-` I let out a deep breath and expel the air from my lungs.@
-` I take a break from reading.@
-` ...... It makes me sick.@
-` The contents of my old man's journal are so far away from reality that it's plain weird.@
+` Протяжно выдохнув, я выгоняю весь воздух из лёгких.@
+` Я решаю оторваться от чтения...@
+` Меня от этого тошнит.@
+` Содержание папашиного дневника до того оторвано от реальности, что это просто ненормально.@
 br
-` My old man didn't just have manic-depression.@
-` Rather, he just became violent without his knowing.@
-` Just like Tohno Shiki right now.\
+` Он не просто страдал от маниакаильной депрессии.@
+` Скорее, с ним случались приступы жестокости, которых он не осознавал.@
+` Как с Тоно Шики в настоящем.\
 
-`"----That's strange."@
-` But, that isn't what concerns me.@
-` He writes SHIKI and AKIHA strangely.@
-` Looking back to the family tree, I see that he writes "Akiha" using the Chinese characters for "Autumn Leaves", while "SHIKI" is written using the characters for "Four Seasons".@
-`"The characters for 'Four Seasons' can certainly be pronounced as 'SHIKI', but the characters in my name are 'Intention' and 'Esteemed'."@
-` I have a feeling that thinking too hard about that will be bad, but my train of thought does not stop.@
-`"...... What are these 'Synchronizers'?@ Maybe the adopted child?"@
-` But, I feel that's wrong too.\
+` - Странно...@
+` Но меня беспокоит не это.@
+` Он странно пишет имена ШИКИ и АКИХА.@
+` В семейном древе, он пишет «Акиха» используя иероглифы, означающие «Осенние листья», а «ШИКИ» он пишет как «Четыре времени года».@
+` Иероглифы, составляющие «Четыре времени года» можно читать как «ШИКИ», но моё имя пишется через иероглифы «Намерение» и «Ценимый».@
+` Я чувствую, что об этом лучше не задумываться, но ход моих мыслей не останавливается.@
+` - Что это за «Синхронизаторы»?..@ Может, приёмный сын?@
+` Но, я чувствую что это тоже не так.\
 
-` Anyway, I've only read half-way through all of this.@
-` If I read through it completely, I might come up with a solution.@
-` But---do I really want to find out?@
+` Как бы то ни было, я дочитал только до середины.@
+` Если я прочитаю до конца, то могу прийти к какой-то разгадке.@
+` Но — хочу ли я выяснять?@
 
 ;S.E."??"
 wave se0
@@ -486,110 +486,108 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?? : ?? : ????(??)<???????(?)>
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
-`"........."@
+` - ...@
 br
-` ------I feel like vomiting.@
+` Меня тошнит.@
 br
-` I can't stay standing.@
-` Hurry.@
-` I must hurry back to my room and sleep; it feels like there is something wrong with my head.\
+` Я едва стою на ногах.@
+` Скорее.@
+` Скорее к себе в комнату и спать. С моей головой словно что-то не то.\
 br
-` But still, I decide to go back reading the journal.\
+` Но всё равно, я решаю читать дальше.\
 
 
-` ---The rest of it seems to be a record of some sort.@
+`    Дальше идёт что-то типа хроники.@
 br
-` The date starts in the summer of eight years ago, and about a month after that.\
-`"............"@
-` I don't understand it yet, but I continue to look through it.\
+` Первая дата относится к лету восемь лет назад, cледующая где-то через ммесяц.\
+` - ...@
+` Я ещё не понимаю содержимого, но продолжаю читать.\
 
 monocro #ffff00
 ; ?? : ?? : ????(??)<???????(?)>
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 
-` ~ Month ~ Day
+`~ Месяц ~ День
+` Мой сын ШИКИ поддался текущей в нём крови Тоно.@
+` ШИКИ, он убил приёмного ребёнка, оказавшегося рядом.@
+` (Приёмный ребёнок был наследником рода Наная. После всего что произошло, хорошо хоть что он не был из семьи Синхронизаторов, как Кохаку и Хисуи.)
 br
-` My son SHIKI succumbed to his Tohno blood.@
-` SHIKI, he killed my adopted son who happened to be there.@
-` (The adopted son is the heir of the house Nanaya. I guess it is a blessing in all the unfortunate events that he isn't in the same family as the Synchronizers, like Kohaku and Hisui.)
-` SHIKI's inversion impulse is terrible.@ So it was determined that he must be eliminated.@ I have my duty as the head of the Tohno household, but killing my own son is so difficult.\
+` Трансформация ШИКИ ужасна.@ Потому он должен быть уничтожен.@ Я обязан исполнить свой долг главы рода Тоно, но убить собственного сына тяжело.\
 
-` The Tohno blood is stronger in SHIKI than in AKIHA.@
-` Talking about potential, I feel an older origin in Akiha's blood, but SHIKI's Tohno blood runs much stronger.@
-` I assume that is why SHIKI inverted before he became an adult.@
-` SHIKI's powers are "immortality" and "fusion".@
-` SHIKI could not manage the awakened powers and as a result, killed the adopted Nanaya child, taking his life.@
-` I have to say it was a superb job for using his powers for the first time.\
+` Кровь Тоно гораздо более сильна в ШИКИ, чем в АКИХЕ.@
+` С точки зрения потенциала, в крови Акихи чувствуется более древняя сила, но в ШИКИ влияние крови Тоно гораздо более заметно.@
+` Полагаю, именно потому трансформация ШИКИ произошла до того, как он повзрослел.@
+` Способностями ШИКИ являются «бессмертие» и «слияние».@
+` ШИКИ не смог справиться со своими пробдившимися силами, и убил приёмного ребёнка Наная, поглотив его жизнь.@
+` Должен признать, для первого раза он великолепно воспользовался своими силами.\
 
-` ~ Month x Day
+` ~ Месяц x День
 br
-` Both SHIKI and the adopted son managed to escape death.\
+` И ШИКИ, и приёмный сын сумели избежать смерти.\
 
-` ~ Month ~ Day
+` ~ Месяц ~ День
+` Проблема с тем, как скрыть случившееся от внешнего мира, всё ещё не решена.@
+` ШИКИ убил ребёнка Наная.@
+` Я сумел замять этот случай, но ШИКИ нельзя показывать перед другими людьми.@ Нанесённые мною раны ещё не зажили, и к тому же его тело преобразилось.@
+` В нынешнем состоянии он не может появляться на публике как Тоно ШИКИ... , нет его даже просто человеком нельзя считать.@
 br
-` The problem of maintaining appearances to normal society still remains.@
-` SHIKI has killed the adopted Nanaya child.@
-` I have covered up the incident, but SHIKI cannot be shown to the public.@ The wound I gave him hasn't healed and his figure has transformed.@
-` He is not in a condition to be brought in front of others as Tohno SHIKI...... he cannot be called a human either.@
-br
-` The Nanaya child still lives.@
-` As long as he lives, I've decided to use him.@
-` If there are any disagreements, I would like to hear them.\
+` Ребёнок Наная Всё ещё жив.@
+` Пока он жив, я буду использовать его.@
+` Если есть кто-то, кто против этого, пусть скажет об этом сам.\
 
-` Complementarity.@
-` The Nanayas are a family that produces killers.@
-` If that adopted son happens to stay alive, the link between him and SHIKI may corrupt SHIKI's mind.@
-` Even if SHIKI regains his sanity, I cannot deny the possibility of the Nanaya child's influence turning him into a killer.@
+` Сопряжённость.@
+` Род Наная — прирождённые убийцы.@
+` Если приёмный сын выживет, связь между ним и ШИКИ может повредить разум ШИКИ.@
+` Даже если к ШИКИ вернётся рассудок, нельзя исклюячать возможность, что влияние ребёнка Наная превратит его в убийцу.@
 br
-` To prevent this from occurring, we must have him somewhere where we can keep an eye on him.@ But we cannot allow him near the Tohno mansion either.@
-` I should have him raised by an appropriate branch of the family.\
+` Чтобы не допустить этого, мы должны постоянно держать его под присмотром.@ Но мы не можем позволить ему остаться на территории поместья Тоно.@
+` Я передам его подходящим родственникам.\
 
-` ~ Month x Day
+` ~ Месяц x День
+` Кровь Тоно, пробудившаяся в ШИКИ...@
+` Может быть, из-за того, что он был так близок к смерти, но его разум пришёл в норму.@
+` Но я не могу с уверенностью утвержать, что его трансформация не случится вновь.@
+` Моё сердце обливается кровью, но я не могу позволить ШИКИ жить на территории поместья.@
+` Я поручу его доверенному слуге.\
+
+` ~ Месяц x День
 br
-` ...... The Tohno blood that has awakened within SHIKI.@
-` Maybe it is because he was so close to death, but he has regained his sanity like before.@
-` But I don't know if something will cause him to invert again.@
-` Even though it tears me apart, I cannot allow SHIKI near the Tohno mansion either.@
-` I place him in the care of a trusted servant.\
+` Я поручил приёмыша из рода Наная другим членам семьи.@
+` АКИХА ненавидит меня.@
+` Думаю, это вполне естественно, ведь АКИХА одновременно лишилась обоих братьев.\
 
-` ~ Month x Day
+` ~ Месяц X День
 br
-` I put my adopted son from the Nanaya family into the care of another branch of our family.@
-` AKIHA hates me.@
-` AKIHA has lost both of her brothers at the same time, so I suppose it is only natural.\
+` Я собираюсь сделать Акизу следующей главой рода.@
+` Таланта АКИХИ более чем достаточно, чтобы успешно выполнять обязанности главы.@
+` ШИКИ может обладать способность. «бессмертия»,
+` но Акиха обладает способностью «похищать».@
+` (Как брат и сестра, они оба обладают способностью отдавать и забирать жизненную энергию.)
+` Какая жалость.@ Если бы она родилась хотя бы десять лет назад, я бы смог уничтожить род Наная без помощи Кишимы.\
 
-` ~ Month X Day
+` Но мне нужно соблюдать осторожность.@
+` Её способность «похищать» - палка о двух концах.@ Похищая чьё-то тепло, она может похитить всю сущность своей жертвы.@
+` Как я — мне нужно научить её не навлекать на себя проклятье противника.\
+
+` ~ Месяц X День
 br
-` I start to raise Akiha as the next head of the household.@
-` AKIHA has more than enough talent to carry out her duties as the head of the household.@
-` SHIKI may have the ability of "Immortality",
-` but Akiha has the power to "plunder."@
-` (As siblings, both of them have the ability to share and take life energy.)
-` It is regretful.@ If only she had been born ten years ago, I would have been able to eliminate the Nanayas without the help from the Kishimas.\
+` АКИХА пыталась наведаться к Аримам.@
+` Я не могу позволить ей встретиться с приёмным сыном.@
+` Я отдал её в школу-интернат чтобы ограничить её свободу.\
 
-` But I have to be careful.@
-` Her ability to "plunder" is a double-edged sword.@ She might plunder someone's entire concept while plundering their heat.@
-` Like me--I have to teach her how not to attract the curse of an enemy.\
-
-` ~ Month X Day
+` ~ Месяц X День
 br
-` AKIHA tried to visit the Arima residence.@
-` I cannot let her and my adopted son see each other.@
-` I placed her in a boarding school so that her freedom is limited.\
+` В последнее время моё состояние ухудшается.@
+` Похоже, дочери Синхронизаторов уже недостаточно.\
 
-` ~ Month X Day
+` ~ Месяц X День
 br
-` Recently, my condition has been getting worse.@
-` It seems like the daughter of the Synchronizers is not enough now.\
-
-` ~ Month X Day
-br
-` ...... For the first time in a long time, I've come back to my self.@
-` How many months has it been since I last picked up this pen?@ There probably will not be a next time.@ I will have to finish writing here.@
-` I gave instructions for this to be given to my daughter AKIHA after my death.@
-` I don't know if AKIHA will ever read this, but if she does read it, it is to be destroyed.@
-` That is my only request for my daughter to fulfill.\
+` Впервые за долгое время я пришёл в себя...@
+` Сколько месяцев прошло с тех пок, как я брался за перо?@ Следующего раза скорее всего не будет.@ Мне придётся прекратить записи.@
+` Я распорядился, чтобы после моей смерти эти записи были переданы АКИХЕ.@
+` Я не знаю, прочтёт ли это АКИХА, но если прочтёт, то после этого она должна уничтожить их.@
+` Это всё, о чём я хочу попросить свою дочь.»\
 
 
 monocro off
@@ -597,11 +595,11 @@ monocro off
 bg "image\bg\bg_41.jpg",%type_crossfade_fst
 
 
-`"-------What is this?"@
-` The child adopted ten years ago.@
-` I completely forgot about that.@
-` ...... I killed him?@
-` That summer day eight years ago, when I received that wound.@
+` - Что это означает?@
+` Ребёнок, усыновлённый десять лет назад.@
+` Я совсем забыл о нём.@
+` Я убил его?..@
+` То лето восемь лет назад, когда я получил свою рану.@
 br
 
 
@@ -611,14 +609,14 @@ bg "image\bg\cmo_05.jpg",%type_nowaitdisp
 bg "image\bg\bg_41.jpg",%type_nowaitdisp
 
 
-` ...... He, killed me?@
-` That summer day eight years ago, when I received this wound.\
+` Он, убил меня?..@
+` То лето восемь лет назад, когда я получил свою рану.\
 
 
-`"-----"@
-` Nausea wells within me.@
-` I feel sick.@
-` That memory that I had forgotten until now runs through my head.\
+` - ...@
+` Тошнота начинает подниматься из глубины моего живота.@
+` Мне становится плохо.@
+` Воспоминание, которое я забыл, вновь всплывает у меня в голове.\
 ;S.E."??"
 wave se0
 
@@ -629,19 +627,19 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 bg "image\bg\bg_41.jpg",%type_nowaitdisp
 
 br
-`"------"@
-` ...... I understand.@
-` Everything has been written down, so I have to accept it.@
-` Besides, everything falls into place.@
-` The reason I was adopted by the Arimas.@
-` The reason I was disinherited as the eldest son.@
-` It's nothing.@
-` In other words, I---Shiki was only a replacement for the one named SHIKI.\
+` - ...@
+` Я понимаю...@
+` Всё было записано, поэтому мне остаётся только принять это.@
+` Кроме того, так всё встаёт на свои места.@
+` Почему меня отдали семьи Арима.@
+` Почему от меня отреклись как отстаршего сына.@
+` Это всё мелочи.@
+` Иными словами, я — Шики, был только заменой для человека по имени ШИКИ.\
 
-`"---What is, this?"@
-` Cursing myself, I toss the journal to the side.@
-` ...... There's no need for me to investigate any further.@
-` Staying here any longer is just a waste of my time.\
+` - Что, всё это значит?@
+` Выругавшись на самого себя, я отбрасываю журнал в сторону...@
+` Больше ничего искать не нужно.@
+` Оставаться здесь будет пустой тратой времени.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -653,22 +651,22 @@ playstop
 bg "image\bg\bg_40b.jpg",%type_crossfade_mid
 
 
-` ---The day ends.@
+` День подходит к концу.@
 br
-` Collapsed on my bed, I just keep on thinking about the same thing.@
-` ...... Thinking calmly, there were only two things I found out from that journal.@
-` That I am not a part of the Tohno family.@
-` That the Nanaya lineage turns out a large number of killers.\
+` Развалившись у себя на кровати, я думаю об одном и том же...@
+` Если рассуждать спокойно, из дневника я узнал две вещи.@
+` Что я не из семьи Тоно.@
+` Что в роду Наная было много убийц.\
 
-` I don't have any blood ties to Tohno Makihisa.@
-` In other words, those dreams of murder have to be my own.@
-` If that is the case, there's only one thing left to do.@
+` Я не связан кровными узами с Тоно Макихисой.@
+` Иными словами, сны об убийствах — это только мои сны.@
+` Раз так, остаётся лиш одно.@
 br
-` ----I hear voices coming from the lobby.@
+`     Со стороны фойе доносятся голоса.@
 br
-`"...... I wonder if Akiha is back."@
-` I get up from bed.@
-` I want to hear the truth from Akiha.\
+` - Может, Акиха вернулась...@
+` Я встаю с постели.@
+` Я хочу услышать правду от Акихи.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -676,12 +674,12 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_46b.jpg",%type_lcartain_mid
 
 
-`"-----"@
-` Gathering up my courage, I knock on the door.@
-`"Akiha, I want to talk."@
-`"Eh, Nii-san?@ Please come in."@
-` Her voice is bright and cheerful.@
-` Taking a breath to compose myself, I open the door.\
+` - ...@
+` Набравшись храбрости, я стучу в дверь.@
+` - Акиха, я хочу поговорить.@
+` - Э, Нии-сан?@ Пожалуйста входи.@
+` Её голос звучит весел и жизнерадостно.@
+` Сделав вдох чтобы успокоиться, я открываю дверь.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -692,243 +690,244 @@ bg "image\bg\bg_36c.jpg",%type_lshutter_fst
 ;(???04b)
 ld c,":a;image\tachi\aki_t04b.jpg",%type_lshutter_fst
 
-`"It certainly is rare for you to come to my room like this, Nii-san."@
-` Just like this morning, Akiha has a smile on her face.@
-` Seeing that, I just stand there wordlessly, wanting to go back.@
-` ...... I guess after all,
-` I have felt that my self as Tohno Shiki and my sister, Tohno Akiha, are important to me.@
+` - Нии-сан, ты нечасто решаешь заглянуть ко мне.@
+` Акиха улыбается точь в точь как утром.@
+` Увидев её улыбку, я останавливаюсь на месте, не в силах произнгести ни слова. Мне захотлеось уйти.@
+` Похоже...
+` Я понял, что моя личность Тоно Шики, и моя сестра, тоно Акиха, очень важны для меня.@
 br
-` ----But still.@
-` There is something I have to ask her.\
+` Но всё равно.@
+` Я должен спросить у неё.\
 
-`"Akiha----"@
-`"Yes, what is it Nii-san?"@
-` Akiha appears to be looking forward to a fun conversation.@
+` - Акиха...@
+` - Да, Нии-сан?@
+` Похоже, Акиха настроилась на весёлый разговор.@
 
 ;(???)
 cl c,%type_lshutter_fst
 
-`"------"@
-` Gritting my teeth, I look her seriously in the eye.\
+` - ...@
+` Скрипнув зубами, я с серьёзынм видом смотрю её в глаза.\
 
-`"Please tell me about the Nanaya family.@ I think I have a right to know."@
-`"--------"@
-` In that instant, Akiha freezes like a puppet whose strings were cut.\
+` - Расскажи мне о семье Наная.@ Думаю, я имею право знать.@
+` - ...@
+` В ту же сеекунду Акиха цепенеет, словно марионетка, которой обрезали верёвочки.\
 ;CD-DA????????
 play "*8"
 
 ld c,":a;image\tachi\aki_t11b.jpg",%type_lshutter_fst
 
-`"-------"@
-` Akiha wordlessly stares at me.@
-`"If you won't answer, then I'll rephrase my question.@
-` My old man---Tohno Makihisa had two personalities, right?@ And not just him.@ Almost all members of the Tohno family have some sort of illness.@ ...... I used to think that's what I had.@
-` But, that's wrong.@ My anemia came from that incident eight years ago.@ Because I..."@
-`"I know.@ You were adopted by the Tohno family, right?"@
+` - ...@
+` Акиха смотрит на меня, не говоря ни слова.@
+` - Если ты не станешь отвечать, яперефразирую свой вопрос.@
+` У моего старика — у Тоно Макихисы было раздвоение личности, так?@ И не только у него.@ Почти всё члены семьи Тоно страдают от какоей-нибудь болезни...@ Я думал, что и я такой же.@
+` Но это не так.@ Моя анемия началась из-за того случая восемь лет назад.@ Потому что я...@
+` - Я знаю.@ Ты был усыновлён в семью Тоно, верно?@
 
 ;(??????)
 cl c,%type_lshutter_fst
 
-` Saying that,
-` she smiles for some reason.\
+` Произнеся это,
+` она почему-то улыбается.\
 
-`"Akiha---?"@
-` Akiha slowly and elegantly walks to the window as if she was in a play.@
-` The curtains billow in the breeze.@
-` Placing her hand on the window, she turns around.\
+` - Акиха?..@
+` Неспешно и элегантно, словно актриса на сцене, Акиха подходит к окну.@
+` Занавески колышаться на ветру.@
+` Положив руку на подоконник, она оборачивается.\
 
 ; ?? : ?? : ???(???)<???????(?)>
 bg "image\event\aki_e07a.jpg",%type_lshutter_fst
 
 
-`"Nii-san, you were adopted by the Tohno family.@ Your real name is Nanaya Shiki.@
-` As you say, your health condition is due to that accident eight years ago.@ You appear to know already that the members of the Tohno family are different than most humans."@
-` Akiha succinctly says the thing that I would have had the most difficulty asking.\
+` - Нии-сан, ты был усыновлён в семью Тоно.@ Твоё настоящее имя — Наная Шики.@
+` Как ты и говорил, причиной твоеё болезни стал тот случай восемь лет назад.@ Похоже, ты уже понял что члены семьи Тоно отличаются от обычных людей.@
+` Этой короткой фразой Акиха подтверждает то, о чём мне было труднее всего спросить.\
 
-`"...... Akiha.@ That----"@
-`"It is okay.@ It was only a matter of time, and I did not like hiding it.@ Now that you know, there is no need.@
-` ...... No, maybe there never was a need.@ Then there's no need to put up with any of this."@
+` - Акиха..@ Это...@
+` - Всё нормально.@ Это был только воспро времени, и мне не нравилось это скрывать.@ Теперь когда ты знаешь, в этом нет необходимости.@
+` Нет, скорее, в этом никогда не было необходимости.@ Значит больше не нужно это всё терпеть.@
 br
-` "Is that not right, Nii-san?"@
+` «Не правда ли, Нии-сан?»@
 br
-` Akiha says this with her voice full of confidence.\
+` Полным уверенности голосом произносит Акиха.\
 
-`"Akiha.@ So like I thought, I---"@
-`"Yes.@ You are the one Father adopted ten years ago, but you do not remember it.@
-` Do you remember the SHIKI who used to play with us?"@
-`"------No.@ I don't."@
-`"That's right.@ It is because Father hypnotized you."\
+` - Акиха.@ Как я и думал, я...@
+` - Да.@ Тебя Отец усыновил десять лет назад, но ты этого не помнишь.@
+` Ты помнишь ШИКИ, который играл с нами?@
+` - Нет...@ Не помню.@
+` - Вот именно.@ Потому что Отец загипнотизировал тебя.\
 
-`"...... SHIKI was someone who could not resist his Tohno blood.@ You may not remember it, but that day eight years ago, you protected me from SHIKI.@ You sacrificed yourself to protect me from the bloodthirsty SHIKI.@
-` That is how you were killed by SHIKI and SHIKI was killed by Father.@ It is the duty of the head of the Tohno household to dispose of those who are no longer human."\
+` - ШИКИ не смог сдерживать свою кровь Тоно.@ Ты возможно не помнишь этого, но в тот день, восемь лет назад, ты защитил меня от ШИКИ.@ Ты пожертвовал собой чтобы защитить меня от жадущего крови ШИКИ.@
+` Так ШИКИ убил тебя, а ШИКИ убил Отец.@ Обязанность главы семьи Тоно — избавляться от тех, кто перестал быть человеком.\
 
-`"......?@ Killed?@ But I'm still alive, right?"@
-`"---Yes.@ By a miracle, you survived.@ You remember what happened afterwards, right?@ You were taken to a hospital and the day you returned, you were adopted by the Arima family.@
-` That is when Father hypnotized you.@ You were not fully healed so your heart and mind was weak.@ So you easily believed what Father told you."\
+` - ?@ Убил?@ Но я ведь ещё жив, так ведь?@
+` - Да.@ Чудом ты выжил.@ Ты ведь помнишь, что случилось потом?@ Тебя увезли в больницу, а в тот день, когда ты вернулся, тебя усыновила семья Арима.@
+` Тогда то тебя загипнотизировал Отец.@ Ты ещё не полностью оправился, и твою сердце и разум были слабы.@ И поэтому ты легко поверил тому, что тебе сказал Отец.\
 
-`"...... I see.@ Then, that's enough.@ If you understand, then there is no more need to talk.@
-` I'm not a member of the Tohno family, right?@
-` Then, you don't---have to force yourself to call me brother."@
-` Soon.@
-` Soon I, an outsider, should leave this place.\
+` - Я понял...@ Тогда, этого достаточно.@ Раз ты понимашь, больше обсуждать нечего.@
+` Я ведь не член семьи Тоно.@
+` Тогда, тебе больше... не нужно заставлять себя называть меня братом.@
+br
+` Скоро.@
+` Скоро мне, чужаку, предстоит покинуть этот дом.\
 
-`"...... Don't get me wrong, Nii-san.@
-` I do not call you Nii-san for the sake of society.@
-` Do you not remember?@ Even before you were killed by SHIKI, I called you Nii-san.@ It had nothing to do with you being adopted.@
-` I knew from the very beginning you were not my true brother.@
-` And you accepted that too.@
-` So---no matter what you think, you are Tohno Shiki.@ So please stay here in this mansion."\
+` - Нии-сан, не пойм меня неправильно.@
+` Я называю тебя так не ради приличия.@
+` Ты не помнишь?@ Ещё до того, как ШИКИ убил тебя, я называла тебя Нии-сан.@ Усынолвение тут не при чём.@
+` Я с самого начала знала, что ты не мой настоящий брат.@
+` И ты тоже принял этому.@
+` Так что... что бы ты не думал, ты — Тоно Шики.@ Поэтому прошу тебя, останься в этом поместье.\
 
-` Akiha's words make me happy.@
-` But, I don't understand.@
-` Why does she accept me, an outsider?\
+` Слова Акихи радуют меня.@
+` Но, я не понимаю.@
+` Почему она принимает меня, чужака?\
 
-`"---Why?@ I'm not even your real brother."@
-`"...... Goodness, after I have said all this, you still do not understand?@
-` You are the only one I will call Nii-san.@ Even if you do not wish it, I just want you by my side.@
-` Because, I love you, Nii-san."\
+` - Почему?@ Я ведь даже не твой брат.@
+` - Право же... после всех этих слов, ты до сих пор не понимаешь?@
+` Ты единственный, кого я назову братом.@ Даже если ты не хочешь этого, я просто хочу, чтобы ты был рядом со мной.@
+` Потому что я люблю тебя, Нии-сан.\
 ;S.E."??"
 wave se0
 
-`"Wha------"@
-` Akiha says something totally unbelievable.@
-` I'm happy that she likes me as her brother.@
-` But, as long as this situation remains----I can't be here.\
+` - Чт...@
+` Акиха говорит нечто совершенно невероятное.@
+` Я рад, что она любит меня как брата.@
+` Но, пока эта ситуация не изменилась — я не могу здесь оставаться.\
 
-`"...... No, I'm not the kind of person you think I am.@ You see SHIKI as a killer, but I---I'm just a killer like him."@
-`"A killer, what do you mean?"@
-`".................."@
+` - Нет, я не такой человек, которым ты считаешь.@ Ты считаешь ШИКИ убийцей, но я... я такой же убийца как и он.@
+` - Убийца, что ты имеешь в виду?@
+` - ...@
 br
-` I can't keep it a secret any longer.@
-` Everything I did up until now----the dream I had last night, the bloodstains I can not explain, and that dream where Akiha killed me.\
+` Я не могу скрывать это и дальше.@
+` Всё что я сделал до сих пор — моё вчерашний сон, кровавые пятна, которые я не могу объяснить, и сон, в котором меня убила Акиха.\
 
-`"...... I can't trust myself.@ I thought those were just dreams.@
-` But my old man wrote that the Nanaya were a family that produced killers.@ If I become like SHIKI, I don't know what I will do to you, Akiha."@
-` I lay it all out to her from the bottom of my heart.@
-` But, after blinking in surprise, she tries not to laugh.\
+` - Я не могу доверять себе.@ Я думал это просто сны.@
+` Но старик писал, что в семье Наная рождаются убийцы.@ Если я стал таким как ШИКИ, Акиха, я не знаю что я могу с тобой сделать.@
+` Я выкладываю перед ней всё, что было у меня на сердце.@
+` Но, несколько раз удивлённо моргнув, она начинает сдавленно смеяться.\
 
-`"Wha, what's so funny?@ This isn't a joke.@ ...... You may not believe me, but I really have dreams of sucking people's blood......!"@
-` Akiha is still giggling.@
-` ...... What is this?@
-` She makes me look stupid, worrying about all of this.\
+` - Что, что смешного?@ Это не шутка.@ Ты можешь мне не поверить, но мне правда сняться сны, в которых я пью человеческую кровь!..@
+` Акиха продолжает посмеиваться.@
+` Что это значит?..@
+` Из-за этого я чувствую себя глупо, раз волновался обо всём этом.\
 
-`"Yeah, it is funny.@ See, you can't be a vampire.@ Because you are from the Nanaya family, your blood is only human.@
-` Besides, the Nanayas are not killers.@
-` ...... Certainly from Father's point of view, they are, but the only ones that the Nanaya feel a homicidal impulse towards are nonhumans.@
-` So what you saw had to be just dreams.@ And even those dreams are probably SHIKI transmitting to you, so it isn't that you want to see them."\
+` - Да, это смешно.@ Видишь ли, ты не можешь быть вампиром.@ Раз ты из семьи Наная, в тебе течёт только челвеческая кровь.@
+` И потом, Наная не убийцы.@
+` Конечно, с точки зрения Отца они ими являлись, но Наная испытывали убийственный порыв только по направлению к нелюдям.@
+` Поэтому то что ты видел, это просто сны.@ И даже их тебе скорее всего передавал ШИКИ, сам ты бы их видеть и не стал.\
 
-` ...... SHIKI transmitted them?@
-` Come to think of it, my old man did write something about that.@
-` SHIKI stole some of my life, so there is like a link between us.\
+` Их передавал ШИКИ?..@
+` Если подумать, старик писал о чём-то таком.@
+` ШИКИ украл часть моей жизни, и поэтому между нами есть связь.\
 
-`"...... I see.@ Then who is killing on the streets right now?@ Even if what I saw was just a dream, there are victims showing up on the streets in reality---"@
+` - Вот как...@ Тогда, кто творит эти убийства?@ Даже если то, что я видел — только сон, жертвы появляются и в реальности...@
 br
-` ---The killer is real.@
-` I feel like I've met him before.@
-` Or was that a dream too?@
-` No, putting that off to the side.@ If there's a killer on the streets, then---\
+` Убийца настоящий.@
+` Мне кажется, что я уже встречался с ним.@
+` Или это тоже был сон?@
+` Нет, это не важно.@ Если по улицам бродит убийца, то...\
 
-`"...... SHIKI is still alive......?"@
-`"Eh?"@
-` Akiha, who was just giggling until now, becomes serious.\
+` - ШИКИ ещё жив?..@
+` - Э?@
+` Акиха, до сих пор посмеивавшаяся, становится серьёзно.\
 
-`"Akiha.@ In my old man's journal, he wrote that SHIKI was still alive.@ In other words---"@
-`"Father's journal......?"@
-` Akiha tilts her head, curious.@
-`"My old man wrote that SHIKI and I were connected.@ Then maybe what I saw were really his dreams."@
-` ...... No, it's more likely what he's actually doing.\
+` - Акиха.@ В своих записях, старик писал что ШИКИ всё ещё жив.@ Иными словами...@
+` - Записи Отца?..@
+` Акиха наклоняет голову набок от любопытства.@
+` - Старик писал, что мы с ШИКИ связаны.@ Значит, может быть то что я видел на самом деле было его снами.@
+` Нет, скорее, это то, что он на самом деле делал.\
 
-`"...... That may be a possibility.@ Father's death was suspicious, and it did seem like someone was being raised in the underground cell."@
-`"...... Wait a minute, Akiha.@ Do we have such a thing like an underground cell here?"@
-`"Oh, of course.@ There are a lot of members of the Tohno family who lose their sanity, so it is only natural to lock them away before they can hurt the outside world, right?@
-` Well, that isn't all it is used for.@ When I got in trouble, Father would lock me up down there."@
-` For some reason, Akiha sounds like she is having fun.@
-` ...... A chill runs down my spine.\
+` - Это возможно...@ Смерть Отца была подозрительной, и похоже, кого-то действительно держали в подземной камере.@
+` - Акиха, погоди...@ У нас есть подземные камеры?@
+` - О, конечно.@ В семье Тоно многие теряли рассудок, поэтому вполне логично держать их в заперти чтобы они не причинили вред никому из окружающих, не так ли?@
+` Ну, их использовали не только для этого.@ Когда я безобразничала, Отец бывало запирал меня там.@
+` Почему-то Акиха говорит об этом, словно о чём-то забавном.@
+` Мороз пробегает у меня по коже...\
 
-`"...... I get it.@ We'll stop talking about it.@ We have to do something about SHIKI, though.@
-` If SHIKI really is wandering the streets killing people, then we have to stop him."@
-`"Is that so?@ We really do not have to concern ourselves about him, do we?@ Is it not the job of the police to take care of killers?"\
+` - Я понял...@ Не будем об этом.@ Но нам нужно что-то сделать с ШИКИ.@
+` Если ШИКИ и правда скитается по улицам и убивает людей, то мы должны остановить его.@
+` - Разве?@ Нам ведь не нужно думать о нём, не так ли?@ Разве ловить убийц это не раота полиции?\
 
-`"Wha----Akiha, what are you saying?@ He's killing people, but he is your brother.@ He has to pay for his crime, but still---"@
-`"...... Goodness, Nii-san.@ You are really too nice of a person."@
-` Taking a breath, she brushes her hair back.\
+` - Что... Акиха, что ты говоришь?@ Он убивает людей, но он твой брат.@ Он должен заплатить за свои преступления, но всё же...@
+` - Право же, Нии-сан.@ Ты действительно слишком хороший человек.@
+` Сделав вдох, она убирает рукой прядь волос.\
 
-`"You are my only relative.@ I do not care about SHIKI, so you do not have to worry about him."@
-`"No, we can't just do that.@ Do you think the police can catch him so easily?@ And before then, there will be more victims!"@
-`"I will not do anything.@ That is, not our responsibility."@
-` She says this and looks me directly in the eye.\
+` - Ты — мой единственный родственник.@ ШИКИ меня не заботит, а значит и тебе не нужно о нём переживать.@
+` - Нет, так нельзя.@ Думаешь, полиция сможет легок поймать его?@ И до того будут и другие жертвы!@
+` - Я не стану ничего делать.@ Это, не наша забота.@
+` Глядя прямо мне в глаза,произносит она.\
 
-`"Hey, let's not speak of these matters any longer.@ Talking about murder and killers is boring, isn't it?"@
-`"Wha-----"@
-` I try to tell her that it has to do with our family, but I can't.@
-` ...... Her eyes pierce into me deeply.@
-` Staring at me like that, her eyes seem to take away my resolution.\
+` - Эй, давай больше не будем говорить об этом.@ Убийства и маньяки, это такая скучная тема для разговора, не так ли?@
+` - Что...@
+` Я пытаюсь сказать ей, что это наше семейное дело, но я не могу.@
+` Её взгляд пронзает меня насквозь...@
+` Когда она смотрит на меня так, её глаза словно отнимают у меня всю решимость.\
 
-`"It seems you understand.@ Well then, will you return to your room?@ I just came back from school so there are things I have to do."@
-`"-----"@
-` ...... Like Akiha says, there isn't anything else to talk about.@
-` Still not convinced, I turn away from her.\
+` - Похоже ты понял.@ Тогда, ты не мог бы вернёться к себе?@ Я только вернулась из школы и у меня есть дела.@
+` - ...@
+` Как она и сказала, больше обсуждать нечего.@
+` Я отворачиваюсь, по прежнему не переубеждённый.\
 
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_36c.jpg",%type_lshutter_mid
 
 
-` I go to leave her room.@
+` Я иды к выходу из комнаты.@
 br
-` ----And all of a sudden,
-` from behind me, a voice tells me to stop.@
+`      И вдруг,
+` из-за мой спины голос останавливает меня.@
 
-`"...... What is it?@ Aren't we done talking Akiha?"@
+` - Что такое?@ Акиха, разве мы не закончили?@
 
 ;(???01b)
 ld c,":a;image\tachi\aki_t01b.jpg",%type_lshutter_fst
 
-`"-------"@
-` Akiha stares at me silently.\
+` - ...@
+` Акиха молча смотрит на меня.\
 
-`"---Nii-san.@ You are the most important thing to me.@ If I had lost my memories of you over these eight years, I would not be who I am.@
-` ...... Because you were here, I was able to be myself.@ You are more important to me than myself, so I wanted you to like me, always."@
+` - Нии-сан.@ Ты самое дорогое, что у меня есть.@ Если бы за эти восемь лет я забыла тебя, я бы не смогла стать той, кем стала.@
+` Я смогла быть собой потому что ты был здесь.@ Ты мне дороже меня самой, и я всегда хотела нравиться тебе.@
 
-` True sincerity.@
-` Akiha looks at me like I'm the only thing she sees.\
+` Неподдельная искренность.@
+` Акиха смотрит на меня так, словно больше она не видит ничего.\
 
-`"But that is just a selfish request, right?@ This family and I are just a burden to you.@
-` That is why I always feared that you would distance yourself from me.@
+` - Но это ведь только эгоистичная просьба.@ Эта семья и я — только обуза для тебя.@
+` Поэтому я всегда боялась, что ты отдалишься от меня.@
 
 ;(??09)
 ld c,":a;image\tachi\aki_t09b.jpg",%type_crossfade_fst
 
-` But that's just me worrying, right?@ Because you came back here.@ Because you came back for my sake."@
+` Но я ведь зря волновалась, верно?@ Потому что ты вернулся.@ Потому что ты вернулся ради меня.@
 br
-` She says happily.@
-` ...... Seeing her smile, my chest hurts.\
+` Счастливо говорит она.@
+` От этой улыбки я чувствую боль в груди...\
 
-`" ...... That's right.@ I came back because I could not leave you alone here.@ But now, I'm beginning to think I was wrong."@
-` I did come back because I wanted to watch over her.@
-` But, she's wrong.@
-` Her eyes are so sincere that I can't lie.\
+`" - Да...@ Я вернулся потому что не мог бросить тебя.@ Но сейчас, я начинаю думать что это не так.@
+` Я действительно венулся потому что хотел оберегать её.@
+` Но, она ошибается.@
+` Её глаза до того искренние, что я не могу врать.\
 
-`"But, Akiha.@ That isn't the only reason why I came back.@ I---"@
+` - Но, Акиха.@ Я вернулся не только из-за этого.@ Я...@
 br
-` I came back for the sake of the child I made a promise with.@
-` That is something that's even more precious than my feelings towards Akiha, and something I can't lie about.\
+` Я вернулся ради девочки, с которой заключил обещание.@
+` Это для меня дороже даже моих чувств к Акихе, и я не могу врать об этом.\
 
 ;(???11b??????06b)
 ld c,":a;image\tachi\aki_t06b.jpg",%type_crossfade_fst
 
 
-`"Stop it.@ I do not want to hear it.@ You came back, so that is that.@
-` So anything else---such as your feelings, I do not need."@
+` - Перестань.@ Не желаю слышать этого.@ Ты вернулся, и всё.@
+` Поэтому всё остальное — вроде твоих чувств, мне это не нужно.@
 
 ;(??????)
 cl c,%type_lshutter_fst
 
-` She looks away.@
-` Akiha looking down like that just---for no real reason, seems very dangerous.\
+` Она отворачивается.@
+` Акиха, выглядящая такой расстроенной — почему-то она кажется очень опасной.\
 
-`"Go back to your room.@ Please do not look like that in front of me, Nii-san."@
-`".................."@
-` Not knowing what to say, I silently leave her room.\
+` - Возвращайся к себе.@ Нии-сан, не надо стоять передо мной с таким видом.@
+` - ...@
+` Не найдя слов, я молча покидаю комнату.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -941,19 +940,19 @@ playstop
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-` The night wears on, and it's almost midnight.@
-` It's already way past the time I would usually go to sleep.@
-` I lie down and look up at the moon through the window.@
-`"............"@
-` The night goes by without me sleeping.@
-` It isn't that I'm scared of seeing another dream of murder.@
-` The killer SHIKI wandering the streets.@
-` The somehow dangerous looking Akiha.@
-` Thinking of that, I cannot sleep and just look up at the moon.\
+` Ночь медленно сгущается, и уде почти полночь.@
+` Время, когда я обычно засыпаю, уже давно прошло.@
+` Я лежу на постели и смотрю в окно на луну.@
+` - ...@
+` Ночь тянется без сна.@
+` Дело не в том, что я боюсь нового сна про убйиство.@
+` Убийа ШИКИ, скитающийся по улицам.@
+` Акиха, почему-то казавшаяся опасной.@
+` От мыслей об этом я не могу заснуть, и продолжаю смотреть на луну.\
 
-`"............ I'm so thirsty."@
-` The last time I drank anything was about four hours ago at dinner.@
-` I don't want to endure it, so I go to the kitchen to get something to drink.\
+` - Как же пить хочется...@
+` В последний раз я что-нибудь пил четырея часа назад, за ужином.@
+` Я не хочу это терпеть, и решаю сходить на кухню чего-нибудь попить.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -961,202 +960,203 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ?? : ?? : ????(??)<?????(?)>
 bg "image\bg\bg_35.jpg",%type_lcartain_mid
 
-` I down a cup of water in one gulp.@
-` Why is it so delicious?@
-`"...... That's odd.@ I was just thirsty."@
-` The sensation of fluid going down my throat is just like it was last night in my dream.\
+` Я выпиваю стакан воды одним махом.@
+` Почему он показался таким вкусным?@
+` - Странно...@ Я же только немного хотел пить.@
+` Ощущение от стекающей по горлу жидкости точь в точь похоже на чувство из моего вчерашнего сна.\
 
-`"Hm......?@ Someone's coming."@
-` I can hear the footsteps coming closer.@
-` Soft, small footsteps that barely echo in the deep night.@
+` - Хм?..@ Кто-то идёт.@
+` Я слышу приближающиеся шаги.@
+` Тихие, мягкие шаги едва слышны в глубокой ночи.@
 br
 ;(?????01)
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
 
-`"...... Shiki-sama?@ What are you doing this late at night?"@
-`"Hisui?@ I was just thirsty so I thought I'd get something to drink."@
+` - Шики-сама?..@ Что вы делаете так поздно?@
+` - Хисуи?@ Меня жажда замучала, и я ходил чего-нибудь попить.@
 
 ;(17)
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"Shiki-sama.@ If that is the case, please call for me.@ At night, you should be resting in your room.@ ...... Walking around here at night is not good."@
-` Hisui speaks plainly.\
+` - Шики-сама.@ В таком случае вам нужно было позвать меня.@ Ночью вам следует отдыхать у себя.@ Ходить здесь по ночам нельзя.@
+` Прямо говорит Хисуи.\
 
-`"......?"@
-` There's something wrong with her words.@
-` Telling me it's not good to walk around at night means she's telling me not to get out of my room at night.@
-` ...... No, more than that.@
-` Hisui and Kohaku-san have worked here since they were very young.@
-` So---it would not be strange for them to know that I was adopted.\
+` - ?@
+` С её словами что-то не то.@
+` Говоря, что по ночам ходить здесь нельзя, она словно говорит мне не выходить по ночам из комнаты.@
+` Нет, ещё кое-что...@
+` Хисуи и Кохаку-сан работали здесь с раннего детства.@
+` Поэтому — они наверняка знают, что я усыновлён.\
 ;CD-DA????????
 play "*1"
 
-`"...... Hisui.@ There is something that I want to ask.@ Is it okay?"@
+` - Хисуи.@ Мне надо тебя кое о чём спросить.@ Можно?@
 
 ;(01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"Yes.@ If that is the case, then let us go back to your room.@ This is not somewhere to be having a conversation."@
-`"No, this is fine.@ It is just something small, anyway."@
-`"-----?"@
-` Hisui tilts her head.\
+` - Да.@ В таком случае давайте вернёмся к вам в комнату.@ Здесь нам не следует разговаривать.@
+` - Нет, здесь вполне нормально.@ Да и всё равно это мелочь.@
+` - ?@
+` Хисуи наклоняет голову набок.\
 
-`"............"@
-` I take a deep breath.@
-` If she doesn't know, then asking her will be revealing a secret.@
-` But, I don't intend to hide it anyway.\
+` - ...@
+` Я делаю глубокий вдох.@
+` Если она не знает, то спросив её, я раскрою секрет.@
+` Но, я всё равно не планировал это скрывать.\
 
-`"I'll make it short.@ Did you know that I was adopted?"@
-`"--------"@
-` Her shoulder shakes.@
-` ...... That tells me that she did know.\
+` - Буду краток.@ Ты знала что был я усыновлён?@
+` - ...@
+` Её плечи вздрогнули...@
+` Это значит, что она знала.\
 
-`"...... I see.@ If you know, then Kohaku-san must know too.@
-` What's this?@ This really isn't a secret after all."@
-`"Shiki-sama, that is---"@
+` - Понятно...@ Раз ты знаешь, то и Кохаку-сан тоже должна знать.@
+` С чего это всё?@ Оказывается, это никакой не секрет.@
+` - Шики-сама, это...@
 
 ;(???17)
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-` She says that as she lowers her eyes.\
+` Опустив глаза, она начинает говорить.\
 
-`"...... I am so very sorry.@ Even if you are adopted, there is no doubt that you are the eldest son of the Tohno family.@ Akiha-sama accepts you as her relative and you are mine and Nee-san's master."@
-`"...... Thanks.@ If you say that, then I believe that I can stay here."\
+` - Я искренне глубоко сожалею.@ Даже если вас усыновили, нет никаких сомнений в том, что вы — старший сын семьи Тоно.@ Акиха-сама принимает вас как родственника, и вы наш с Нээ-сан хозяин.@
+` - Спасибо.@ Раз ты так говоришь, то наверное я могу остаться здесь.\
 
 ;(???13)
 ld c,":a;image\tachi\his_t13.jpg",%type_crossfade_fst
 
-`"Shiki-sama...... Please do not say things like that.@ This really is your true home."@
-`"I know.@ That's what I think too.@ Even though it was for a short while, what happened here when I was a child is very important to me.@ I can't throw it away."@
+` - Шики-сама... Пожалуйста не говорите так.@ Здесь ваш настоящий дом.@
+` - Я знаю.@ Я тоже так думаю.@ Хоть это было недолго, то, что случилось здесь в детстве было для меня очень важно.@ Я не могу это выбросить.@
 
 ;(???04)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-` Hisui looks visibly relieved.\
+` Хисуи явно успокаивается.\
 
-`"...... But I still want to know.@
-` Before I came here, um...... it was Nanaya...?@ If you know, could you tell me what kind of child I was?"@
-`"...... I am sorry.@ Other than that you were the eldest son of the Nanaya line, I do not know.@ Makihisa-sama completely destroyed all the records."@
-` ...... I see.@ Well, if he made me act as Tohno Shiki, then all the records of me as Nanaya Shiki probably were destroyed.\
+` - Но всё авно хочу знать.@
+` Прежде чем я оказался здесь, эм... кажется, меня звали Наная?..@ Если ты знаешь, ты не могла бы рассказать, кем я был?@
+` - Я сожалею...@ Я знаю только что вы были старшим сыном рода Наная.@ Макихиса-сама уничтожил все записи.@
+` Понятно...@ Что ж, если он заставил меня стать Тоно Шики, то все записи обо мне как о Наная Шики наверняка были бы уничтожены.\
 
 ;(???01)
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"But Shiki-sama, Nee-san may know something."@
-`"Huh......?@ Hisui, why would Kohaku-san know anything?"@
-`"Nee-san took care of Makihisa-sama ever since she was young.@ She may know more about the Tohno family than even Akiha-sama does."@
-`"..................?"\
+` - Но Шики-сама, Нээ-сан может что-то знать.@
+` - А?..@ Хисуи, откуда Кохаку-сан знать об этом?@
+` - Нээ-сан ухаживала за Макихисой-сама ещё с детства.@ О семье Тоно она может знать даже больше, чем Акиха-сама.@
+` - ?\
 
-` Come to think of it, Kohaku-san did say that she was Makihisa's servant.@
-` But I thought that was just to take care of his condition once in a while.@ ...... I didn't realize she was his servant from that young of an age.\
+` Если подумать, Кохаку-сан говорила, что была служанкой Макихисы.@
+` Но я думал что она только изредка следила за его здоровьем...@ Я и не знал, что она была его служанкой с такого раннего возраста.\
 
-`"...... That Kohaku-san?@ ...... Since she played with us everyday, I just can't picture her being near my old man all the time------"@
-` ...... To be honest, Hisui seems like she was more suited for that.@
-` Always looking down at me, Akiha, and Kohaku-san from the inside of the mansion.\
+` «Та Кохаку-сан?..@ Она каждый день играла с нами, пожтому я не могу представить как она неотступно была со стариком...»@
+` Честно говоря, Хисуи для этой роли подходит больше.@
+` Как она всё время смотрела на меня, Акиху и Кохаку-сан из особняка.\
 
-`"...... Is that true?@ But that's odd.@ Why would my old man tell Kohaku-san all the things he would not even tell Akiha?"@
-`"No, I do not think he told her directly.@ Since Nee-san was always near Makihisa-sama's room in the mansion, I believe she had many chances to overhear Makihisa-sama thinking out loud."@
-`"-------Always near my old man?"@
+` - В самом деле?@ Но это странно.@ С чего бы старик стал говорить Кохаку-сан то, что он не говорил даже Акихе?@
+` - Нет, я не думаю что он прямо рассказывал ей.@ Поскольку Нээ-сан всегда была рядом с комнатой Макихисы-сама в особняке, я думаю у неё было много возможностей подслушать, как Макихиса-сама думает вслух.@
+` - Всегда рядом со стариком?..@
 br
 ;CD-DA??
 playstop
 
-` But.@
-` But that's what Hisui, who stayed in the mansion all the time, did---\
+` Но.@
+` Но это ведь Хисуи всегда оставалась в особняке...\
 
-`"Wait.@ Kohaku-san was always with my old man as a child?"@
+` - Стой.@ В детстве Кохаку-сан всегда была рядом со стариком?@
 
 ;(????25)
 ld c,":a;image\tachi\his_t25.jpg",%type_crossfade_fst
 
-`"Ah----"@
+` - А...@
 
 ;(???26)
 ld c,":a;image\tachi\his_t26.jpg",%type_crossfade_fst
 
-` Hisui looks down.@
+` Хисуи опускает глаза.@
 br
-` ---Something just went wrong here.@
+` Что-то только что пошло не так.@
 br
-` The feeling of inconsistency comes back and everything falls back into place.\
-` Kohaku-san knew about the promise that only Hisui should know about.@
-` Hisui forgot about the promise made eight years ago.@
-` But it might just be...
-` That I just reversed their roles in my memory.@
-` If that's true then----\
-`"...... Hisui.@ I'll ask one more time, but do you remember about eight years ago?"@
+` Чувство противорчеия возращается, и всё становится на свои места.\
+` Кохаку-сан знала об обещании, о котором должна была знать только Хисуи.@
+` Хисуи забыла об обещании восемь лет назад.@
+` Но, может быть...
+` Я поменял их местами в своих воспоминаниях.@
+` Если это так, то...\
+` - Хисуи.@ Я спрошу ещё раз, ты помнишь что было восемь лет назад?@
 
 ;(17)
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"---Yes.@ About how I gave you that ribbon, right?"@
-`"...... That's right.@ After I left my room, you stopped me by the entrance and gave me a ribbon.@ Do you remember what color it was?"@
-`"It was white, but what about it?"@
+` - Да.@ О том, как я дала вам ленточку?@
+` - Да...@ Когда я вышел из своей комнаты, ты остановила меня у входа и дала мне ленточку.@ Ты помнишь какого она была цвета?@
+` - Белого, а что?@
 br
-` There is nothing wrong with her answer.@
-` But, she is already wrong.@
-`"------"@
-` Thud.@
-` The power drains from my legs and I collapse onto the chair.\
+` Ответ правильный.@
+` Но, она уже ошиблась.@
+` - ...@
+` Бум.@
+` Силы покидают мои ноги, и я валюсь на стул.\
 ;CD-DA????????????
 play "*9"
 
 
-`"-----How--"@
-` How could I have been so wrong up until now?@
+` - Как...@
+br
+` Как я мог так ошибаться?@
 
 ;(23)
 ld c,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
 
-`"Shiki-sama......?"@
-`"---That's wrong Hisui.@ I was given the ribbon under that tree in the garden.@ Not by the entrance."@
-`"---------"@
-` Hisui gasps and falls into silence.\
+` - Шики-сама?@
+` - Нет, Хисуи.@ Ленточку мне дали под деревом в саду.@ Не у входа.@
+` - ...@
+` Ошеломлённо вздохнув, Хисуи замолкает.\
 
 ;(?????)
 cl c,%type_lshutter_fst
 
-`"Why----"@
-` I don't get it.@
-` Why did Kohaku-san try to trick me?@
-` Why---why didn't she just tell me that she was the one I made the promise with?\
+` - Почему...@
+` Я не понимаю.@
+` Почему Кохаку-сан пыталась обмануть меня?@
+` Почему — почему она не сказала, что это с ней я заключил обещание?\
 
 ;(??26)
 ld c,":a;image\tachi\his_t26.jpg",%type_lshutter_fst
 
-`"Shiki-sama---please do not tell Nee-san about this.@ If she finds out, she will have nowhere else to go."@
-` All of a sudden,
-` Hisui says this.\
+` - Шики-сама — пожалуйста, не говорите об этом Нээ-сан.@ если она узнает, ей будет некуда идти.@
+` Ни с того ни с сего,
+` Хисуи говорит это.\
 
-`"If she finds out that I knew you two changed places?"@
-` She silently nods.\
-`"...... Then it was you who played with us, and Kohaku-san---was the one in the mansion, right?"@
-` She silently nods.\
+` - Если она узнает, что я знаю что вы поменялись местами?@
+` Она молча кивает.\
+` - Значит, с нами играла ты, а Кохаку-сан — это она была в особняке, так?@
+` Она молча кивает.\
 
-`"Why......?@ Why did you act like you traded places?@ There's no point.@ Or were you guys playing around with me?"@
+` - Почему?..@ Почему вы вели себя так, словно поменялись местами?@ В этом нет смысла.@ Или вы просто решили поиграть со мной?@
 
 ;(???21b)
 ld c,":a;image\tachi\his_t21b.jpg",%type_lshutter_fst
 
-`"It was not our intent to deceive you, Shiki-sama.@ We cannot even fully describe it ourselves how it came to be."\
+` - Шики-сама, мы не собирались вас обманывать.@ Мы и сами не можем точно сказать, как это случилось.\
 
 
 
-`"...... It started eight years ago.@ After you were adopted by the Arima family, I think I just became calmer than before.@
-` Nee-san tried to cheer me up by acting very happy, and then, we gradually traded our roles."@
+` - Это началось восемь лет назад.@ Когда вас отдали семье Арима, мне кажется, я стала гораздо спокойней.@
+` Нээ-сан пыталась меня подбодрить и стала вести себя очень весело, и постепенно мы поменялись ролями.@
 
-`"But why...... why did it happen......?@ Hisui...... you were always so energetic."@
-`"...... That is not true.@ I am naturally not active.@ But when you were there, I tried to follow you as hard as I could."@
-`"----------"\
+` - Но почему... почему это случилось?..@ Хисуи... ты всегда была такой энергичной.@
+` - Это не так.@ От природы я не активная.@ Но когда вы были здесь, я изо всех сил пыталась угнаться за вами.@
+` - ...\
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 ; ?? : ?? : ????(???)<???????(?)>
 bg "image\event\his_e01b.jpg",%type_crossfade_mid
 
-` ...... Yeah, I remember.@
-` That girl who was always cheerful, always smiling.@
-` The most free-spirited, who would always worry over us, who put up with the most, who acted like Kohaku-san would, if she was younger.\
+` Да, я вспоминаю...@
+` Эта всегда весёлая, всегда улыбающаяся девочка.@
+` Самая раскованная, вечно переживавшаяся за нас, самая терпеливая, которая вела себя как Кохаку-сан, только поменьше.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
@@ -1164,43 +1164,43 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_35.jpg",%type_crossfade_fst
 
 
-`"...... Really?@ I think you would be cheerful even if I wasn't there.@ That was your character.@ Trust me since I, the one who followed after you, am saying this."@
+` - В самом деле?..@ Я думаю ты была бы такой же весёлой даже если бы меня не было.@ Это был твой характер.@ Поверь, я говорю как тот, кто постоянно пытался угнаться за тобой.@
 ;(??04)
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"...... Yes.@ Those days were very fun.@ I think those were the best two years of my life."\
+` - Да...@ То были очень весёлые дни.@ Я думаю, это были лучшие два года в моей жизни.\
 
 ;(??21)
 ld c,":a;image\tachi\his_t21b.jpg",%type_crossfade_fst
 
-`"But something crumbled after you left, Shiki-sama.@
-` Akiha-sama started to hate Makihisa-sama, and Makihisa-sama became very strict with Nee-san.@
-` The happy days were then over.@ I gradually became very quiet and could not even work anymore."\
+` - Но Шики-сама, после того как вы ушли что-то сломалось.@
+` Акиха-сама стала ненавидеть Макихису-сама, и Макихиса-сама стал очень строг с Нээ-сан.@
+` Счастливые дни подошли к концу.@ Постепенно я стала очень тихой, и больше не могла работать.\
 
-`"So Nee-san took over for me.@
-` Smiling like I always used to, running around like I used to.@ In turn, I took over Nee-san's old role.@
-` ...... That was the easiest for me.@ At the same time, it fulfilled Nee-san's only wish."\
+` - И Нээ-сан стала делать это за меня.@
+` Улыбалась, как улыбалась я, носилась повсюду, как бегала я.@ В ответ я стала играть старую роль Нээ-сан.@
+` Так было легче всего...@ В то же время так выполнялось единственное желание Нээ-сан.\
 
-`"...... Kohaku-san's wish......?"@
-` I don't understand what she said.@
-` Only that Hisui really thinks about Kohaku-san.@
-` That is the only thing I could feel.\
+` - Желание Кохаку-сан?..@
+` Я не понимаю, что она имеет ввиду.@
+` Только что Хисуи очень волнуется за Кохаку-сан.@
+` Это всё, что я понимаю.\
 
-`"Hisui.@ What do you mean by her wish?"@
+` - Хисуи.@ Что ты имеешь ввиду, её желание?@
 
 ;(17)
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"...... Nee-san always wanted to be like me.@ But for my sake, she held back.@
-` I think it is just an act for her to work in my place.@
-` She pretends to be me and kills her own will.@ She is just a doll that only acts like a 'Hisui from the past'."\
+` - Нээ-сан всегда хотела быть как я.@ Но ради меня она сдерживалась.@
+` Я думаю, когда она работает вместо меня, это только игра.@
+` Она притворяется мной, и убивает свою собственную волю.@ Она стала куклой, которая привторяется «Хисуи из прошлого».\
 
 ;(26)
 ld c,":a;image\tachi\his_t26.jpg",%type_crossfade_fst
 
-`"...... I was scared of that Nee-san.@ Nee-san lost her identity and I realized that she was just living by acting out someone's role.@
-` ...... I think that if I go back to my old self, Nee-san will return to her old, true self.@
-` ...... Nee-san said this when we first traded places."\
+` - Я боялась этой Нээ-сан...@ Нээ-сан потеряла свою личность, и я поняла что она птылась жить, играя чью-то роль...@
+` Я думаю, чот если я снова стану такой как раньше, то и Нээ-сан снова станет такой как была.@
+` Нээ-сан сказала мне это кога мы впервые поменялись ролями.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
@@ -1210,9 +1210,9 @@ br
 br
 br
 br
-` It's okay, Hisui-chan.@
-` Until you become cheerful again, I will take your place.@
-` So no matter when, once you are cheerful again, I will give you back your role.\
+` Всё в порядке, Хисуи-тян.@
+` Я займу твоё место пока ты не повеселеешь.@
+` И не важно когда, как только ты снова повеселеешь я верну тебе твою роль.\
 
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
@@ -1223,45 +1223,45 @@ bg "image\bg\bg_35.jpg",%type_crossfade_fst
 ;(17)
 ld c,":a;image\tachi\his_t17.jpg",%type_crossfade_fst
 
-`"----I was scared of those words and I thought that I should return to my self right away.@
-` ...... But then, by accident, I saw her walking around happily in the garden.@
+` - Меня напугали эти слова, и я подумала что немеделнно должна стать такой как раньше.@
+` Но тогда, случайно я увидело, как она радостно гуляла в саду...@
 
 ;(21)
 ld c,":a;image\tachi\his_t21b.jpg",%type_crossfade_fst
 
-` ...... Nee-san really looked happy.@ ...... I did not know I looked that way back then, but she really was happy.@ And all she was doing was walking by herself."\
+` Нээ-сан была такой счастливой...@ Я не знаю, как я тогда выглядела, но она была очень счастлива.@ Но она только гуляла в одиночестве.\
 
-`"Nee-san was only pretending to be 'Hisui'.@ Even still, she looked so happy.@
-` So---Nee-san just does not realize it, but I understood that Nee-san always wanted to be like that.@
-` I just could not destroy that."@
+` - Нээ-сан только притворялась «Хисуи».@ Но всё равно она выглядела такой счастливой.@
+` И потому — Нээ-сан сама не понимала этого, но я поняла, что Нээ-сан всегда хотела быть такой.@
+` Я не могла взять и уничтожить это.@
 
 ;(??????)
 cl c,%type_crossfade_fst
 
 
-` ...... Biting her lip, Hisui holds back her tears in silence.\
+` Закусив губу, Хисуи замолкает, пытаясь не заплакать.\
 
 
 ;(???17)
 ld c,":a;image\tachi\his_t17.jpg",%type_lshutter_fst
 
-`"...... Shiki-sama.@ Please let Nee-san stay the way she is.@ ...... If you do not, she will lose her place."@
-` ...... I can only nod to her words.@
-` But that definitely is not the correct choice.@
-` Kohaku-san has to pretend to be the Hisui from the past, and Hisui has to pretend to be the Kohaku-san from the past to protect that.\
+` - Шики-сама.@ Пожалуйста, повзольте Нээ-сан остаться такой.@ Иначе она потеряет своё место.@
+` В ответ я могу только кивнуть...@
+` Но это точно не правильный выбор.@
+` Кохаку-сан должна притворяться Хисуи из прошлого, и Хисуи должна притворяться Кохаку-сан из прошлого чтобы защитить этого.\
 
-` ---Hisui has been watching Kohaku-san who only knows how to live a lie, but still says she will live with her.@
-` That---has to be so difficult.\
+` Хисуи наблюдала за Кохаку-сан, которая может жить только ложью, но всё равно она хочет остаться с ней.@
+` Это... должно быть так сложно.\
 
 ;(13)
 ld c,":a;image\tachi\his_t13.jpg",%type_crossfade_fst
 
-`"Shiki-sama.@ Please promise me that you will not say anything to Nee-san."@
-`"...... Fine.@ But, Hisui, are you okay with this?"@
-`"........................"@
-` Hisui doesn't answer.@
-` ...... Full of conflicting emotions, I get up from the chair.@
-` All I can do is leave the downcast Hisui behind in the kitchen.\
+` - Шики-сама.@ Пожалуйста пообещайте что ничего не расскажите Нээ-сан.@
+` - Хорошо...@ Но Хисуи, тебя это устраивает?@
+` - ...@
+` Хисуи не отвечает.@
+` Полный противоречивых чувств, я встаю со стула...@
+` Сейчас я могу только уйти, оставь приунывшую Хисуи одну на кухне.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -1272,17 +1272,17 @@ playstop
 bg "image\bg\bg_33d.jpg",%type_lcartain_mid
 
 
-`"-------?"@
-` Going back to my room, I notice that the door is open.@
-`"...... Did someone go outside?"@
-` ...... Hisui must still be in the kitchen.@
-` That means that it's either Kohaku-san or Akiha.\
+` - ?@
+` Возвращаясь к себе, я замечаю, что вхожная дверь открыта.@
+` - Кто-то вышел на улицу?..@
+` Хисуи должна быть её на кухне.@
+` Значит, это или Кохаку-сан или Акиха.\
 
-`".................."@
-` To be honest, I want to sleep.@
-` My body and my heart are tired; I feel like I could collapse if I don't sleep.@
-` Just tonight.@ I feel like if I don't sleep, I'll break.@
-` I should----
+` - ...@
+` Честно говоря, я хочу спать.@
+` Моё тело и дух вымотаны. Мне кажется, что если я не посплю, то рухну где стою.@
+` Только сегодня.@ Я чувствую, что если не посплю, то сломаюсь.@
+` Пожалуй, стоит...
 br
 
 
@@ -1292,6 +1292,7 @@ br
 
 
 return
+
 
 
 
