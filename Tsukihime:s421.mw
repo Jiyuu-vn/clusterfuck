@@ -10,10 +10,10 @@ bg "image\bg\bg_33d.jpg",%type_nowaitdisp
 
 
 
-` ----I should go back to my room.@
+` Мне надо вернуться к себе.@
 br
-` Hisui's words echo inside my head.@
-` My leaden body weakens more, weighed down by those chains.@
+` Слова Хисуи проносятся у меня в голове.@
+` Скованое этими цепями, моё налитое свинцом тело слабеет ещё больше.@
 ;CD-DA???????
 play "*6"
 
@@ -26,11 +26,11 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_33d.jpg",%type_crossfade_fst
 
 
-`".............................."@
-` I try to go up the stairs and my body stops.@
-` ...... My legs can't go far up enough.@ It looks like I can only walk.@
-`"........................ What is this?"@
-` ...... Oh well.@ I should go back to the kitchen to ask Hisui to lend me her shoulder----\
+` - ...@
+` Я пытаюсь подняться по ступеням, и моё тело останавливается.@
+` Я не могу поднять ногу чтобы стать на ступень...@ Похоже, я могу только идти по ровному полу.@
+` - Это ещё что?..@
+` Ну, ладно.@ Я вернусь на кухню и попрошу Хисуи помочь мне...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -39,50 +39,50 @@ bg "image\bg\bg_33d.jpg",%type_crossfade_fst
 quakey 2,300
 
 
-`"H------uh?"@
-` I start to go back and collapse on the carpet.@
-`"-----H, hey."@
-` I can't even shout.@
-` I exhaust myself crawling on my arms.\
+` - А...а?@
+` Я разворачиваюсь и падаю на ковёр.@
+` - Э, эй.@
+` Я даже крикнуть не могу.@
+` Я пробую ползти, и это отнимает у меня все силы.\
 
 ; ??<???????(?)>
 bg "image\bg\ima_10b.jpg",%type_crossfade_mid
 !w2000
 
 
-` Clomp, clomp.@ I hear footsteps.@
-` Hisui comes from the kitchen.@
-` ...... I'm saved.@ Now Hisui can help me out---
-` Clomp-clomp, clomp-clomp, clomp.@
-`"........................ No way."@
-` Crawling away from the stairs backfired.@
-` I have hidden myself in the shadows and Hisui goes up the stairs without even noticing me.\
+` Клац, клац.@ Я слышу шаги.@
+` Хисуи выходит из кухни.@
+` Я спасён...@ Теперь Хисуи может мне помочь...
+` Клац-клац, клац-клац, клац.@
+` - Не может быть...@
+` Отползать от лестницы было плохой идеей.@
+` Я вполз в тень, и Хисуи поднялась по лестнице даже не заметив меня.\
 
-`".............................. That was incredibly stupid of me."@
+` - Это было чертовски глупо...@
 ;S.E."??"
 wave se0
 
-` As soon as I voice my thoughts, something catches my attention.@
-` The feeling of something close to me.@
+` Как только я вслух произношу то, что было у меня на уме, что-то привлекает моё внимание.@
+` Чувство, что рядом со мной что-то есть.@
 br
-`"-----------!"@
-` I look behind me as I'm lying on the ground.@
+` - !@
+` Лёжа на полу я оглядываюсь.@
 br
-` Over there,
-` a ghost-like figure.\
+` Там,
+` стоит фигура, похожая на призрака.\
 
 ;S.E."????(???)"
 waveloop se1
 
 
-`"----------"@
-` Then I really realize my situation.@
-` I can't move.@
-` I can't even call out.@
-` The dark mansion.@
-` ...... That "someone" looks at me as if staring at its prey.@
-` Under all these conditions, it's no surprise if I die here.@
-` This situation seems like such a bad horror movie that I almost start to laugh instead of being scared.\
+` - ...@
+` И я по-настоящему понимаю, в каком положении я оказался.@
+` Я не могу пошевелиться.@
+` Я не могу даже вскрикнуть.@
+` Тёмное поместье.@
+` «Кто-то», который смотрит на меня как на добычу...@
+` Учитывая обстоятельства, не удивительно если я умру здесь.@
+` Эта ситуация до того похожа на плохой ужастик, что вместо того чтобы испугаться мне хочеться смеяться.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -90,9 +90,9 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\ima_10b.jpg",%type_crossfade_fst
 
 
-`".................. Ha, haha."@
-` That "someone" takes a step towards me.@
-` Is it fear of being killed?@ My dizziness starts to increase.@
+` - Ха, хаха.@
+` «Кто-то» подходит ближе.@
+` Это от страха, что меня сейчас убьют?@ Моё головокружение усиливается.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -100,15 +100,15 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\ima_10b.jpg",%type_crossfade_fst
 
 
-`"---------"@
-` The presence stops.@
-` It looks down at me and my defenseless back----
+` - ...@
+` Присутствие останавливается.@
+` Он смотрит на меня и на мою беззащитную спину...
 ;CD-DA??
 playstop
 br
-`"Shiki-san, if you sleep there, you will catch a cold you know."@
+` - Шики-сан, если ты будешь спать здесь, то простудишься, знаешь ли.@
 br
-` ---and throws me those cheerful words.\
+` ... и жизнерадостным тоном говорит мне это.\
 
 ;S.E.??
 wavestop
@@ -118,16 +118,16 @@ bg "image\bg\bg_33d.jpg",%type_tshutter_mid
 ;CD-DA??????
 play "*3"
 
-`"........................ Kohaku, san?"@
-`"Yes, it is me.@ What is it?"@
-` .................. I let my tension go.@
-`"Shiki-san?@ Really, just what exactly are you doing lying down like that?"@
-` ...... Her voice is really cheerful.@
-` With that, I relaxed, and I---
+` - Кохаку, сан?@
+` - Да, это я.@ А что?@
+` Моё напряжение улетучивается.@
+` - Шики-сан?@ Действительно, ты чего тут разлёгся?@
+` Её голос звучит так весело...@
+` Услышав его, я расслабляюсь, и...
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-` completely overwhelmed by dizziness, my consciousness shuts down.\
+` не в силах больше сносить головокружение, моё сознание отключается.\
 ;CD-DA??
 playstop
 
@@ -150,113 +150,113 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 ;CD-DA?????
 play "*2"
 
-` Strong rays of sunshine cause me to open my eyes.@ I'm in my room.@
-` I am now wearing my pajamas and lying in bed.\
-`"---------That's right, last night."@
-` I collapsed in the lobby last night.@
-` Hisui did not realize I was there and Kohaku-san heard something and came.@
-`"...... That means that Akiha was the one that left."@
-` ...... Probably.@ Akiha always had a strong sense of responsibility, so she must have gone looking for SHIKI on the streets.@
-`" ...... Akiha.@ I told her to leave him to me......"\
+` Яркие лучи солнца заставляют меня открыть глаза.@ Я у себя в комнате.@
+` Я в пижаме, лежу на кровати.\
+` - Точно, вчера ночью...@
+` Ночью я потерял сознание в фойе.@
+` Хисуи меня не заметила, а Кохаку-сан пришла, услышва что-то.@
+` - Значит, ушла тогда Акиха.@
+` Скорее всего.@ Акиха всегда обладала сильным чувством ответственности, и она должно быть пошла искать ШИКИ.@
+` - Акиха...@ Я же сказал оставить его мне.\
 
 
 ;S.E."???"
 wave se3
 
-`"Excuse me."@
-` With a knock, the door opens.@
-` Kohaku-san enters carrying a towel and a bucket.@
+` - Позвольте-ка.@
+` Раздаётся стук, и дверь открывается.@
+` В комнату, неся полотенце и ведро, входит Кохаку-сан.@
 
 ; ?? : 01~10 : 02_?02(????)<??????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_lshutter_mid
 
-`"Ah, good morning Shiki-san.@ How are you feeling?"@
-` Kohaku-san draws near with her normal smile.@
-`"-------"@
-` I think back to last night's conversation with Hisui.@
-` Tucking that away into the back of my mind, I try to make my usual smile.\
+` - А, с добрым утром, Шики-сан.@ Как ты себя чувствуешь?@
+` Улыбаясь как обычно, Кохаку-сан подходит ближе.@
+` - ...@
+` Я вспоминаю о вчерашнем разговоре с Хисуи.@
+` Запихнув это воспоминание подальше, я пытаюсь улыбнуться как всегда.\
 
-`"Mornin', Kohaku-san.@ Um---did you carry me up here after last night?"@
+` - С добрым, Кохаку-сан.@ Эм... ты вчера отнесла меня сюда?@
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
-`"Huh?@ Do you not remember Shiki-san?@ I found you collapsed in the lobby and you stood up once I called you.@
-` You said you had a nice nap and started to walk.@ I did lend you my shoulder, but you walked here by yourself."@
-`"......... Oh.@ I don't even remember it.@ I must have been so tired that I forgot what I did."@
-`"So you don't remember anything about last night?"@
-`"...... Maybe.@ I remember being in the kitchen-----"@
-` ...... And hearing about Hisui and Kohaku-san's connection.\
+` - А?@ Шики-сан, ты не помнишь?@ Я увидела, как ты упал в фойе, но как только я позвала тебя ты встал.@
+` Ты сказал, что неплохо покимарил, после чего пошёл сам.@ Я предложила тебе помочь, но ты дошёл сюда сам.@
+` - О?@ Я этого совсем не помню.@ Наверное, я так устал, что забыл, что я делал.@
+` - То есть ты не помнишь ничего о вчерашнем?@
+` - Может быть.@ Я помню, что был на кухне...@
+` «... И узнал о связи между Хисуи и Кохаку-сан.»\
 
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"Ahaha.@ That is unfortunate.@ Shiki-san, you kept apologizing to me.@
-` I inquired why you kept apologizing, and you kept saying that you were an idiot and a blockhead.@
-` Shiki-san, are you a blockhead?"@
-`"No, I don't think so."@
-` ...... Well, I am really starting to get the idea that they think my brain is made out of wood.\
+` - Ахаха.@ Жаль.@ Шики-сан, ты всё время просил у меня прощения.@
+` Я спросила, почему ты извиняешься, а ты только твердил что ты идиот и дубоголовый.@
+` Шики-сан, ты дубоголовый?@
+` - Нет, вроде нет.@
+` Но похоже, они и правда думают что у меня в голове опилки...\
 cl c,%type_crossfade_fst
 
 
-`"...... Anyway, thanks a lot.@ If I slept on the stairs, I'd have caught a cold, and school---"@
-` Huh?@ Are my eyes playing tricks on me?@ The clock tells me it is already past ten in the morning.\
+` - Как бы то ни было, спасибо.@ Я бы простудился если бы заснул на лестнице, и школа...@
+` А?@ Меня подводят глаза?@ Стрелки часов показывают начало одиннадцатого.\
 
-`"Ah---!@ Ko, Kohaku-san, School!"@
+` - А!..@ Ко, Кохаку-сан, Школа!@
 ld c,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
 
-`"Yes.@ Today is your school's founding holiday, so you don't have school."@
-`"--------"@
-` That's right.@ Come to think of it, it was.@
-` I completely forgot about it since I have been spacing out at school lately.\
+` - Да.@ Сегодня день основания твоей школы, поэтому занятий у тебя нет.@
+` - ...@
+` Точно.@ Если подумать, так и есть.@
+` Я совсем забыл об этом, потому что в последнее время в школе постоянно витал в облаках.\
 
-`"Well, I should get up anyway.@ If I sleep any longer Akiha will---"@
-` I sit up on my bed.@
+` - Ну, все равно пора вставать.@ Если я и дальше буду спать, Акиха...@
+` Я сажусь на постели.@
 
 quakey 2,300
 
-`"Huh?-----I can't really."@
-` My body won't move.@
-` I try to get up with my arms, but they have no strength.\
+` - А?... Я не могу.@
+` Моё тело не двигается.@
+` Я пытаюсь подняться с помощью рук, но в них нет силы.\
 
 ;(??01)
 ld c,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
 
-`"It seems your condition is still bad.@ You have a slight fever and you look a little pale.@ It may be boring, but please rest in bed today, Shiki-san."@
+` - Похоже, ты всё ещё не оправился.@ У тебя небольшой жар и ты немного бледен.@ Это может быть скучно, но сегодня полежи весь день.@
 
 cl c,%type_lshutter_fst
 
-` Kohaku-san wipes my forehead with the cold, wet towel.@
-` ...... It feels good and cold.\
+` Кохаку-сан вытирает мне лоб холодным мокрым полотенцем.@
+` Оно приятно прохладное...\
 
-`"Hmm, it seems your fever is down.@ You're not sweating as much and your face looks much better.@ You should be well by the evening."@
-` Kohaku-san crisply brings out a thermometer and an ice pillow.@
-` ...... In the end, she makes me open my mouth and checks the condition of my tongue.\
+` - Хмм, жар похоже спал.@ Ты так сильно не потеешь, и лицо у тебя выглядит гораздо лучше.@ К вечеру должен будешь прийти в норму.@
+` Кохаку-сан решительно дастаёт градусник и пузырь со льдом...@
+` Под конец она. ещё заставила меня открыть рот и посмотрела язык.\
 
 ;(???03)
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_fst
 
-`"Well, I'll bring you some rice porridge right away.@ Shiki-san, you better behave today."@
+` - Ну что ж, а сейчас я тебе рисовой каши принесу.@ Шики-сан, сегодня лучше веди себя хорошо.@
 
 cl c,%type_lshutter_fst
 
-`"Ah---Kohaku-san."@
+` - А — Кохаку-сан.@
 
 ;(??03)
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_fst
 
-`"Yes?@ What is it, Shiki-san?"@
-` ...... As expected, she is like always.@
-` Her usual cheerful smile doesn't change.@
-` I---I can't bring myself to think that her smile is just an act.\
+` - Да?@ Что такое, Шики-сан?@
+` Как и ожидалось, она ведёт себя как всегда.@
+` Её обычная жизнерадостная улыбка не меняется.@
+` Мне... мне не хватает духу подумать, что это только маска.\
 
-`"...... Nothing.@ I'm looking forward to the rice porridge."@
+` - Ничего.@ С нетерпением жду каши.@
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"Yes, well then, excuse me."@
+` - Конечно, ну, тогда я пошла.@
 
 ;(?????)
 cl c,%type_lshutter_fst
 
 
-` Kohaku-san disappears down the hall, her footsteps padding after her.@
-` I just stare at that figure silently.\
+` Кохаку-сан исчезает в коридоре, до меня ещё доносится звук её шагов.@
+` Я только молча смотрю ей вслед.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_fst
@@ -271,21 +271,21 @@ bg "image\bg\bg_40a.jpg",%type_bshutter_fst
 ;CD-DA?????
 play "*1"
 
-` Noon arrives.@
-` After bringing the food, Kohaku-san went back to her duties.@
-` ........................ *sigh*@
-` Being alone, I let out a sigh as I think of my strange circumstances.@
-` ...... Myself being adopted.@
-` ...... Akiha saying that she doesn't care about it.@
-` ...... Hisui and Kohaku-san.@
-` ...... And the killer that's still on the loose.\
-` I asked Kohaku-san, but it doesn't seem like there was a new victim in the news today.@
-` But as long as SHIKI is still on the loose, there will be more victims.@
-`"...... If only this body did what I told it to, I---"@
-` I could stop SHIKI.@ I lay my head back down on the pillow as I start to say that.@
-` Maybe it's because I've been seeing those dreams, but I'm beginning to have violent thoughts like SHIKI.@
-`"...... Whatever I do, I should heal up first."@
-` I close my eyes.\
+` Наступил полдень.@
+` После того, как она принесла мне поесть, Кохаку-сан вернулась к свои обязанностям.@
+` ........................ *эх*@
+` Оставшись в одиночестве, я вздыхаю, задумавшись о свих странных обстоятельствах.@
+` Моё усыновление...@
+` Акиха, которая говорит что ей это безразлично...@
+` Хисуи и Кохаку-сан...@
+` И убийца, бродящий на свободе.\
+` Я спрашивал Кохаку-сан, но похоже новостей о новой жертве не было.@
+` Но пока ШИКИ на свободе, новые жертвы будут.@
+` - Если бы только это тело делало то, что я ему говорю, я...@
+` Я мог бы остановить ШИКИ.@ Начав произносить эту фразу, я роняю голову на подушку.@
+` Может быть, это из-за моих снов, но ко мне начинают приходить жестокие мысли, как к ШИКИ.@
+` - Что бы я ни собрался делать, для начала надо выздороветь.@
+` Я закрываю глаза.\
 
 
 
@@ -294,6 +294,7 @@ play "*1"
 
 
 return
+
 
 
 
