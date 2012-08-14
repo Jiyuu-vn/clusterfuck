@@ -11,36 +11,36 @@ bg "image\bg\bg_06a.jpg",%type_crossfade_mid
 wave se2
 
 
-` At lunch break, that guy who didn't even show up for a single class arrives.@
+` Во время обеденного перерыва объявился чувак, которого не было ни на одном занятии.@
 ; ??<?>=??:??<??????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_lshutter_fst
 
-`"Yo Tohno!@ Food, let's get some food!"@
-` He's happy about something, being even more energetic than usual.\
-`"Of course, food.@ But you seem to be in a great mood.@ Did something happen, Arihiko?"@
-`"Yup.@ I just asked Senpai if she wanted to eat lunch together, and she refused."@
-`".................."@
-` That's odd.@
-` "Senpai" must be referring to Ciel-senpai, but this guy seems to get happy when his offer is refused.\
+`- Йо, Тоно!@ Еда, давай-ка поедим!@
+` Он в приподнятом настроении, и даже более энергичен, чем обычно.\
+`- Разумеется, еда.@ Но ты в прекрасном настроении, как я погляжу.@ Что-то случилось, Арихико?@
+`- Ага.@ Я только что спросил Сенпай, не хочет ли она пообедать вместе, и она отказалась.@
+`- ..................@
+` Это странно.@
+` "Сенпай", полагаю, относится к Сиэль-сенпай, но почему его радует, что ему отказали?\
 
-`"Hey, Arihiko, you have that sort of taste?"@
+`- Эй, Арихико, это такие у тебя вкусы?..@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t02.jpg",%type_crossfade_fst
 
-`"No, no, I'm not finished.@ So I asked Senpai why not, and she said 'If Tohno-kun is there, then I don't want to come'!!@ Uwahahahahahahahaha!@ Isn't that great, Tohno!?"@
-`"..............."@
-` That's odd.@
-` Why have I been friends with this guy since middle school?\
+`- Нетнет, я не закончил.@ После этого я спросил Сенпаю, почему нет, и она сказала "Если там Тоно-кун, то я не хочу"!!@ Увахахахаха!@ Разве не прекрасно, Тоно!?@
+`- ...............@
+` Это странно.@
+` Почему я дружу с этим парнем со средней школы?\
 
-`"Oh man, she really hates you Tohno!@ A rival's loss is my gain, so I'll treat you to lunch today!"@
-` Arihiko happily slaps my back.@
-`"...... I see.@ Senpai's still mad at me about this morning."@
-` I have no idea why she's angry at me, but she definitely is angry.@
+`- О, она определённо тебя ненавидит, Тоно!@ Потеря соперника - моё приобретение, так что обед сегодня за мой счёт!@
+` Арихико довольно похлопал меня по спине.@
+` ...... Понимаю.@ Сенпай всё ещё злится на меня после того, что было с утра.@
+` Я не представляю, из-за чего она на меня сердита, но она определённо сердита.@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Hey, let's go Tohno.@ There's only seats enough for half the people using the cafeteria."@
-` Arihiko takes me by the arm and drags me off.\
+`- Эй, Тоно, двигаем.@ В столовой есть место только для половины желающих.@
+` Арихико потащил меня за руку.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -48,99 +48,99 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_50.jpg",%type_lcartain_mid
 
 
-` I sit next to Arihiko and eat my lunch.@
-` My school's cafeteria has a television, and for better or worse for our education, they play back the morning news they recorded this morning.@
+` Я сижу рядом с Арихико и ем свой обед.@
+` В нашей школьной столовой есть телевизор, и, к лучшему или худшему для нашего образования, повторяют запись утренних новостей.@
 br
-` At any rate, the news they are playing back is talking about a drunk customer stabbing to death a convenience store employee, something that makes me not want to go to a convenience store for a few days at least.\
+` В любом случае, в новостях рассказывают о пьяном покупателе, зарезавшем ножом работника магазина. После этого в ближайшие несколько дней в магазины мне ходить не захочется.\
 
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"What a dangerous world we live in.@ Indiscriminate serial killers, drunken people stabbing people.@ A man can't even feel safe playing around at night anymore."@
-` Arihiko seems like he is seriously watching the news.\
+`- В каком опасном мире мы живём.@ Неразборчивые серийные убийцы, пьяницы режут людей.@ Нигде больше нельзя чувствовать себя ночью в безопасности.@
+` Похоже, Арихико серьёзно относится к новостям.\
 
-`"...... Well, certainly it is dangerous.@ But at least those serial killings won't happen anymore, so things should be like usual."@
-`"Oh really?@ Did they catch the serial killer?"@
-`"No, they haven't caught him..."@
+`- ...... Ну, это определённо опасно.@ Но по крайней мере этих серийных убийств больше не будет, так что всё должно вернуться в норму.@
+`- Серьёзно?@ Серийного убийцу поймали?@
+`- Нет, его не поймали...@
 br
-` ---But Nrvnqsr is no longer in this world.@
-` So the stupid title of the modern day vampire killings shouldn't be showing up in the news anymore and there will be no more of those meaningless killings.\
+` ...Но Неро больше нет на этом свете.@
+` Так что в новостях больше не будут говорить о "современном вампире" и этих бессмысленных убийств больше не будет.\
 
-`"Anyway, those terrible incidents won't happen anymore.@ There won't be any more victims, and the streets will be back to normal."@
+`- В любом случае, больше этих ужасных происшествий не будет.@ Больше не будет жертв, и улицы вернутся в норму.@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t04.jpg",%type_crossfade_fst
 
-`"No----I think there'll actually be another victim, Tohno."@
-`"----What?@ How can you be so sure, Arihiko?"@
-`"Well look for yourself.@ The news says they've found the tenth dead body."@
+`- Нет... Я думаю, была ещё одна жертва, Тоно.@
+` - ...Что?@ Как ты можешь быть уверен, Арихико?@
+`- Ну, сам посмотри.@ В новостях говорили, что нашли тело десятой жертвы.@
 br
-` -----Eh?@
+` ...Э?@
 br
-`"Aw really...... that's right behind the movie theater I always go to."\
+`- Брр... Прямо за кинотеатром, в который я всегда хожу.\
 
-`"Hey----hey, wait."@
-` I push Arihiko and look at the TV.@
-` What I see is without a doubt,
-` the news reporting that the tenth victim of the serial killings was found last night.@
+`- Эй... эй, погоди.@
+` Я толкнул Арихико и взглянул на телевизор.@
+` И действительно, там сообщали,
+` что прошлой ночью была найдена десятая жертва серийных убийств.@
 
 ;CD-DA??
 playstop
 
-`"That----can't be."@
-` He, Nrvnqsr, is dead.@
-` So why----is there another dead body with most of its blood drained?\
+`- Этого... не может быть.@
+` Он, Неро, мёртв.@
+` Так почему... почему появилось новое обескровленное тело?\
 
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
 
-`"Hmm, this modern vampire guy.@ I don't know anything about the person, but if it's like a sexy chick, I maybe wouldn't mind getting my blood sucked."@
-`"------"@
+`- Хмм, этот современный вампир...@ Я о нём ничего не знаю, но если это сексапильная цыпочка, возможно, я бы и не отказался пожертвовать немного крови.@
+`- ...@
 br
-` If it's like a sexy chick, he maybe wouldn't mind getting his blood sucked?@
+` Если это сексапильная цыпочка, возможно, он бы и не отказался пожертвовать немного крови?@
 br
-` His stupid talk----might be right.@
+` Его глупая болтовня... может быть в верном направлении.@
 br
-`"----No way."@
-` I don't want to think about it, but...
-` Even with Nrvnqsr gone, there's still one more vampire left, Shiki----\
+`- ...Нет.@
+` Я не хочу об этом думать, но...
+` Даже с устранением Неро, здесь остался ещё один вампир, Шики...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ??(?)<???????(?)>
 bg "image\bg\bg_06a.jpg",%type_crossfade_mid
 
-` Classes end and school is over.@
-` Actually, it's more like at some point, school was over.@
-` Wrapped up in my bad thoughts, I look up and suddenly find myself alone.\
+` Уроки окончены, а с ними - школьное время.@
+` Точнее даже, просто в какой-то момент школьное время закончилось.@
+` Погрузившись в мрачные мысли, я поднял взгляд и неожиданно обнаружил себя в одиночестве.\
 
-`"----The serial killings are still happening."@
-` I don't know what that means.@
-` The only one who knows the answer is probably Arcueid.@
+`"...Серийные убийства всё ещё происходят".@
+` Я не знаю, что это значит.@
+` Полагаю, ответ знает только Арквейд.@
 br
-` I don't know.@
-` I'm not involved in any of those incidents anymore.@
-` Once I settled things with Nrvnqsr, I came back to the ordinary world.@
-` Then----I can only be insane to want to go back to that abnormal world once again.\
+` Я не знаю.@
+` Я больше не имею отношения к этим инцидентам.@
+` Закончив дела с Неро, я вернулся в обычный мир.@
+` Так что... Только безумец может думать о том, чтобы вернуться в этот ненормальный мир.\
 
-`"I shouldn't----be involved."@
+`- Мне не следует... ввязываться.@
 br
-` I understand even if I don't say it.@
-` That's probably my second most correct choice.@
-` But a long, long time ago, someone taught me the most correct choice.\
-br
-br
+` Я понимаю это и без слов.@
+` Думаю, это почти самый правильный выбор.@
+` Но когда-то давно, кто-то научил меня самому правильному выбору.\
 br
 br
 br
-` ----Listen, Shiki.@ Every person's life is filled with pitfalls.@
-` You have more power to do something about it than most people, so you've got to get it together----
+br
+br
+` ...Слушай, Шики.@ Жизнь любого человека наполнена падениями.@
+` У тебя больше силы, чтобы что-то с этим сделать, чем у большинства, так что тебе следует этоучитывать...
 !w750
 
 \
-`"----"@
-` So I just can't pretend I didn't see it.@
-` This incident isn't over yet.@
-` It seems once I got involved in this incident, I have to see this out to the very end--\
+`- ...@
+` Так что я не могу просто притвориться, что ничего не вижу.@
+` Этот инцидент ещё не окончен.@
+` Раз уж я ввязался в это, следует идти до конца...\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -148,8 +148,8 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 bg "image\bg\bg_24a.jpg",%type_lcartain_mid
 
 
-` I leave school.@
-` First, let's go to Arcueid's place.@
+` Я вышел из школы.@
+` Сперва, к Арквейд.@
 br
 
 ; ???(??)<?????(?)>
@@ -167,8 +167,8 @@ bg "image\bg\bg_15c.jpg",%type_crossfade_mid
 ; ???????????(?)<?????(?)>
 bg "image\bg\bg_12a.jpg",%type_lcartain_mid
 
-` Her room is still the same, but Arcueid isn't there.@
-` ...... Well, I didn't think I'd find her this easy.@ Looks like I have to go out into the city and look for her.\
+` Её комната в том же состоянии, но Арквейд здесь нет.@
+` ...Ну, я и не думал, что найду её так легко.@ Похоже, мне придётся поискать её в городе.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -178,12 +178,12 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ??????(?)<?????(?)>
 bg "image\bg\bg_25b.jpg",%type_lcartain_mid
 
-` The sun sinks and the city is really starting to get dark.@
-` I looked around the major places in the city, but I didn't even catch a glimpse of her.\
+` Солнце зашло, и город погрузился во тьму.@
+` Я обыскал основные места в городе, но не нашёл никаких её признаков.\
 
-`"----Damn it.@ She was around when it didn't matter, so why can't I find her when I do need her?"@
-` ...... What should I do?@
-` The night is just beginning, so---
+`-...Блин.@ Когда это не имело значения, она была здесь, так почему я не могу её найти, когда она мне нужна?@
+` ...Что мне делать?@
+` Ночь только началась, так что...
 br
 
 
