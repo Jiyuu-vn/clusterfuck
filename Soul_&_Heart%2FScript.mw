@@ -135,69 +135,69 @@ init:
     
     image splash = "splash.png"
     
-    $ si = Character('Sirius', color="#a368c4")
-    $ s = Character('Sirius',
+    $ si = Character('Сириус', color="#a368c4")
+    $ s = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_norm.png", xalign=0.0, yalign=1.0))    
-    $ sx = Character('Sirius',
+    $ sx = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_exp.png", xalign=0.0, yalign=1.0))    
-    $ sp = Character('Sirius',
+    $ sp = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_piss.png", xalign=0.0, yalign=1.0))    
-    $ sm = Character('Sirius',
+    $ sm = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_mad.png", xalign=0.0, yalign=1.0))    
-    $ ss = Character('Sirius',
+    $ ss = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_sad.png", xalign=0.0, yalign=1.0))    
-    $ sc = Character('Sirius',
+    $ sc = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_con.png", xalign=0.0, yalign=1.0))    
-    $ sg = Character('Sirius',
+    $ sg = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_glad.png", xalign=0.0, yalign=1.0))    
-    $ sw = Character('Sirius',
+    $ sw = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_what.png", xalign=0.0, yalign=1.0))    
-    $ sy = Character('Sirius',
+    $ sy = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_yay.png", xalign=0.0, yalign=1.0))    
-    $ sh = Character('Sirius',
+    $ sh = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_hmm.png", xalign=0.0, yalign=1.0))
-    $ sa = Character('Sirius',
+    $ sa = Character('Сириус',
                         color="#a368c4",
                         window_left_padding=160,
                         show_side_image=Image("sirius_ah.png", xalign=0.0, yalign=1.0))
 
-    $ c = Character('Cetus', color="#89a6b1")    
-    $ d = Character('Daena', color="#397999")
-    $ ca = Character('Sgt. Calypso', color="#8c684d")
-    $ vn = Character('Voice')
-    $ gu = Character('Guard')
-    $ g = Character('General')
+    $ c = Character('Цетус', color="#89a6b1")    
+    $ d = Character('Дайна', color="#397999")
+    $ ca = Character('Сержант Калипсо', color="#8c684d")
+    $ vn = Character('Голос')
+    $ gu = Character('Охранник')
+    $ g = Character('Командующий')
     $ n = Character('?')
     
     
-    $ nvls = Character('Sirius', color="#a368c4", kind=nvl)
-    $ nvlg = Character('Guard', kind=nvl)
+    $ nvls = Character('Сириус', color="#a368c4", kind=nvl)
+    $ nvlg = Character('Охранник', kind=nvl)
     $ nvln = Character('?', kind=nvl)
-    $ nvlgi = Character('Girl', kind=nvl)
-    $ nvlb = Character('Boy', kind=nvl)
-    $ nvlnu = Character('Nurse', kind=nvl)
-    $ nvlpw = Character('Police Woman', kind=nvl)
-    $ nvlm = Character('General Man', kind=nvl)
+    $ nvlgi = Character('Девочка', kind=nvl)
+    $ nvlb = Character('Мальчик', kind=nvl)
+    $ nvlnu = Character('Медсестра', kind=nvl)
+    $ nvlpw = Character('Полицейская', kind=nvl)
+    $ nvlm = Character('Командир', kind=nvl)
     $ lu = Character(None, kind=nvl)    
     
     $ renpy.music.register_channel("my_channel", "music", True)
@@ -821,7 +821,7 @@ label start:
     "Цетус успокоилась и подумала перед так как продолжить разговор."
     show cetus with dissolve
     hide cetuss
-    c "Но.. {w}наши ожерелья могут взорвать."
+    c "Но... {w}наши ожерелья могут взорвать."
     s "Я знаю, однако провода совсем тонкие... может быть мы сможем их разрезать."
     c "Ногтями?"
     "Я посмотрела на свои ногти и вновь взглянула на Цетус. Я покачала головой, ногти были слишком коротко подстрижены."
@@ -1399,7 +1399,7 @@ label start:
     "Мы разговаривали, болтали друг с другом как близкие друзья."
     "Пожалуй да. Мы уже близкие друзья."
     scene bg cell with dissolve
-    "Вдруг, Калипсо (я её так назвала, потому что "Сержант К\" звучит глупо) вошла в камеру с раздражённым видом."
+    "Вдруг, Калипсо (я её так назвала, потому что \"Сержант К\" звучит глупо) вошла в камеру с раздражённым видом."
     show capi with dissolve
     play music "calypso.mp3"
     ca "Так, вы, двое, наденьте наручники."
@@ -1485,20 +1485,20 @@ label start:
     "Цетус села рядом и стала наблюдать."
     show cetusc with dissolve
     hide cetuso
-    c "Ты даже не знаешь как его использовать ?"
+    c "Ты даже не знаешь как ей пользоваться?"
     s "Не-а."
-    "Я передала ей карточку, с которой как оказалось она управляется без каких-либо затруднений."
+    "Я передала ей карточку, с которой, как оказалось, она управляется без каких-либо затруднений."
     "Она поморщилась."
     show cetus with dissolve
     hide cetusc
     c "Интересно, почему они не поставили на него пароль..."
     c "Тут скорее всего секретная информация."
     sc "И что на этих карточках?"
-    c "Для связи. Эта карточка упрощает доступ к некоторой информации из архива."
+    c "Они используются для связи. Эта карточка упрощает доступ к некоторой информации из архива."
     c "Но если нужна действительно важная информация, то всё равно нужно самому пойти в ахрив."
     sa "Вот как."
     sg "Давай её откроем!"
-    "Мы просмотрели разную информацию..."
+    "Мы пробежались по файлам..."
     "Интересно, что там за информация. О старых тюрьмах? Убийцах? Или может быть информация о рождениях?"
     sa "О чём они?"
     show cetussl with dissolve
@@ -1608,12 +1608,12 @@ label start:
     "Если она имеет ввиду те странные вещи, которые происходили со мной в последнее время, то я должна сказать да."
     "Но возможно она так говорит вещи, чтобы поиздеваться надо мной... Мне следует держать себя в руках..."
     "Она хитрый человек. Она может использовать каждое моё слово... даже каждую мою мысль... против меня."
-    "Достаточно хитрая. 
+    "Достаточно хитрая."
     ca "И к тому же, разве ты забыла, что твоя мать ненавидела тебя? Именно поэтому ты сейчас одна."
     ca "Она делала вид, что любит, иначе что бы о ней подумали люди. Все это время ей нужна была не ты, а внимание со стороны окружающих."
     ca "Ей было на тебя наплевать."
     ca "Ты для неё ничто."
-    sm "Возьми слова обратно."
+    sm "Возьми слова обратно!"
     ca "Почему? Разве это не правда? Ты хуже всех."
     "Нет. Нет, нет, нет."
     "Сириус, держи себя в руках. {w}Только не задуши её."
