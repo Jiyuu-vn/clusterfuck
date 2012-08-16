@@ -7,9 +7,9 @@
 ; ????(?)<???????(?)>
 bg "image\bg\bg_32c.jpg",%type_crossfade_mid
 
-` It's quiet at the mansion gate.@
-` The time is seven o'clock at night.@
-` Akiha should be back, probably having tea in the sitting room.\
+` У ворот усадьбы тихо.@
+` Сейчас семь часов вечера.@
+` Акиха должна бы уже вернуться, скорее всего, сейчас пьёт чай в гостиной.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -17,41 +17,41 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_48c.jpg",%type_lshutter_mid
 
 
-` ......?@
-` I'm not sure what's going on, but I hear voices coming from the sitting room.@ It's almost time for dinner, so it's strange for people to be just talking at this time.@
-` Kohaku-san should be in the kitchen, and I think a conversation between Hisui and Akiha would be out of character.@
+` ?..@
+` Я не уверен, что происходит, но я слышу голоса из гостиной.@ Почти время обеда, так что странно, что в это время разговаривают.@
+` Кохаку-сан должна бы быть на кухне, а разговор Акихи с Хисуи я просто не могу представить.@
 br
-`"...... Kohaku-san and Akiha are drinking tea, perhaps." Well, I guess that's most likely.@
-` First thing's first.@ I open the mansion's front door.\
+`- Видимо, Кохаку-сан и Акиха пьют чай. Ну, полагаю, это самое вероятное...@
+` Однако всё по порядку.@ Я открыл парадную дверь усадьбы.\
 
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_33c.jpg",%type_lcartain_mid
 ; ??<?>=??:?01(?????)<????>
 ld c,":a;image\tachi\his_t01.jpg",%type_nowaitdisp
 
-` Hisui is standing in the lobby.@
-`"I'm a little late, but I'm back."@
-`".................."@
-` Hisui silently greets me devoid of any expression.@
-` She does not say her usual "Welcome back", and looks like she's in a bad mood.\
+` В лобби стоит Хисуи.@
+`- Я немного задержался, но я вернулся.@
+`- ...@
+` Хисуи молча и без выражения приветствовала меня.@
+` Она не произнесла своё обычное "Добро пожаловать домой", и похоже, она в дурном настроении.\
 
-`"Did something happen?@ I might be imagining it, but you seem a little angry."@
+`- Что-то случилось?@ Возможно, мне кажется, но ты выглядишь немного сердитой.@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
 
-`"...... There is a guest for you, Shiki-sama.@ She has been waiting in the sitting room, so please hurry there."@
-`"A guest for me?"@
-` Hisui nods.\
+`-...К вам гость, Шики-сама.@ Она ждёт в гостиной, так что, пожалуйста, поторопитесь туда.@
+`- Гость ко мне?@
+` Хисуи кивнула.\
 
-`"I wonder who.@ There isn't anyone who would come visit me----"@
+`- Хм, интересно, кто...@ Нет никого кто мог бы зайти навестить меня...@
 br
-` Oh, wait.@
-` I have this terrible, terrible feeling.@
+` О, погодите.@
+` У меня возникло жуткое предчувствие.@
 br
-`"Hisui.@ What, kind of person is it......?"@
-`"A pretty woman with golden hair."@
-` Hisui's response is straightforward.@
-` I wordlessly dash towards the sitting room.\
+`- Хисуи.@ Кто... Что это за человек?..@
+`- Красивая женщина с золотыми волосами.@
+` Ответ Хисуи прямолинеен.@
+` Я бз слов помчался в гостиную.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -62,76 +62,76 @@ bg "image\bg\bg_34b.jpg",%type_lcartain_fst
 play "*3"
 
 
-` ----Too late.@
-` It seems the current state of affairs is already at a level I can't escape from.\
+` ...Слишком поздно.@
+` Похоже, текущее состояние дел уже на том уровне, где я не смогу спастись.\
 
 ; ?????? : ?? : ??????<??????(?)>
 bg "image\event\ark_e08.jpg",%type_tshutter_mid
 
-`"----Welcome home, Nii-san."@
-`"Oh, you're finally back."@
+`- ...Добро пожаловать домой, Нии-сан.@
+`- О, ты наконец вернулся.@
 
-` They both greet me in completely opposite manners.@
-`".................."@
-` What, is this?@
-` Arcueid and Akiha seem to be confronting each other.\
+` Они обе приветствовали меня в совершенно противоположных манерах.@
+`- ...@
+` Что это?..@
+` Похоже, Арквейд и Акиха в состоянии противостояния.\
 
-` They are both sitting down calmly.@
-` But while Arcueid's calmness is natural, Akiha's calmness is from her hostility toward Arcueid.@
-` Akiha takes a look at me.\
+` Они обе спокойно сидят.@
+` Но в то время как спокойствие Арквейд естественно, спокойствие Акихи исполнено враждебности к Арквейд.@
+` Акиха взглянула на меня.\
 
 
-`"What is the matter, Nii-san?@ You do not have to stand there, please have a seat here."@
+`- Что такое, Нии-сан?@ Не стой там, присаживайся.@
 br
-` Uh, I feel like I'll get stabbed if I go over there.@
+` Ух, у меня такое чувство, что меня зарежут, если я подойду ближе.@
 br
-`"Uh, I'm fine.@ Anyway, Akiha, this person is, well----"@
-` Hmm----how should I explain this?@
-` Akiha would not believe me if I say she's a classmate of mine, and telling her I met her in town would be like throwing oil on a fire.\
+`- Эм, мне и так нормально.@ В любом случае, Акиха, эта персона, ну...@
+` Хмм... Как мне это объяснить?@
+` Акиха мне не поверит, если я скажу, что она моя одноклассница, и сказать, что мы познакомились в городе, всё равно что подлить масла в огонь.\
 
-`"Well?@ What is it?"@
-`"Um, that's, uh----"@
+`- Ну?@ Что ты хотел сказать?@
+`- Эм, ну...@
 br
-` Now that we're in this situation, I think it doesn't matter what I say, but I have to make a good excuse and get out of it.@
-` That's what I have to do, but----why did Arcueid come here in the first place?@
+` Думаю, в этой ситуации неважно, что сказать, лишь бы выкрутиться.@
+` Это я и собираюсь сделать, но... Почему Арквейд вообще сюда пришла?@
 br
-`"Um----did she say why she came here?"@
+`- Эм... она сказала, почему пришла сюда?@
 
-` I point to Arcueid in a desperate suicide gamble.\
-
-
-`"Hm?"@
-` She tilts her head, confused.@
-
-`"...... Isn't she one of your friends, Nii-san?@ That is what she told me."@
-`"Well---yeah, you can say she's a friend."@
-
-`"I see.@ I really would like for her to be introduced to me.@ If she is your friend, Nii-san, I can't push her out of our house."@
-`"Ah---well, Akiha-san."@
-` I start to stammer again.@
-` Then Arcueid, unable to sit quietly during our sibling conversation, joins in without my permission.\
+` Я указал на Арквейд, отчаянно и самоубийственно рискнув.\
 
 
-`"Please don't worry about it.@ I just came here to get Shiki, so we'll be on our way.@ Isn't that right, Shiki?"@
-` ...... My whole world jolts.@
+`- Хм?@
+` Акиха растерянно наклонила голову.@
+
+`- Разве она не одна из твоих друзей, Нии-сан?..@ Она мне так сказала.@
+`- Ну... да, можно так сказать.@
+
+`- Понятно.@ Я бы хотела, чтобы ты мне её представил.@ Если она из твоих друзей, Нии-сан, я не могу просто выгнать её из дома.@
+`- Ах... ну, Акиха сан.@
+` Я снова начал запинаться.@
+` И в этот момент Арквейд, неспособная спокойно посидеть, пока брат с сестрой разговаривают, вмешалась без разрешения.\
+
+
+`- Да не беспокойтесь.@ Я просто пришла сюда забрать Шики, так что мы пошли.@ Верно, Шики?@
+` ...Мой мир затрещал по швам.@
 br
-` ------This is bad.@
-` If I let her keep talking, she'll lead me to an early grave.\
+` Это плохо...@
+` Если позволить ей продолжать говорить, она сведёт меня в могилу.\
 
-`"Huhu, ahahahaha!"@
-` Laughing desperately, I run to Arcueid and grab her arm.@
+`- Хахаха, аххаха!@
+` Отчаянно смеясь, я подбежал к Арквейд и схватил её за руку.@
 
 bg "image\bg\bg_34b.jpg",%type_lshutter_mid
 
 ; ?<?>=??????:?03(?????????)<???????(?)>
 ld l,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Hey, Shiki, what are you doing all of a sudden?"@
-` There's no time to listen to her complaints.@
+`- Эй, Шики, чего это ты вдруг?..@
+` Выслушивать её нет времени.@
 ; ????<??????(?)>
 cl l,%type_lshutter_fst
 
-` I pull on her arm and dash out of the sitting room, leaving a stunned Akiha behind.\
+` Я потащил её за руку и умчался из гостиной, оставив позади ошарашенную Акиху.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -141,13 +141,13 @@ bg "image\bg\bg_33c.jpg",%type_lcartain_fst
 ; ??<?>=??:?01(?????)<????>
 ld c,":a;image\tachi\his_t01.jpg",%type_nowaitdisp
 
-` Hisui is in the lobby.@
-` She looks at me with somewhat colder eyes than usual as I run with Arcueid.@
+` Хисуи всё ещё в лобби.@
+` Она взглянула на меня холоднее, чем обычно, когда я вместе с Арквейд пробежал по коридору.@
 br
-`"Are you leaving, Shiki-sama?"@
-`"----Yeah, I'll be back late.@ I really am sorry, but can you leave the gate open?"@
-`"----Yes, as you wish."@
-` I dash past Hisui's courteously bowing figure and escape the mansion.\
+`- Вы уходите, Шики-сама?@
+`- ...Ага, и вернусь поздно.@ Извини, но не могла бы ты оставить ворота открытыми?@
+`- ...Как пожелаете.@
+` Я промчался мимо кланяющейся фигуры Хисуии и спасся из усадьбы.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -158,82 +158,82 @@ bg "image\bg\bg_32c.jpg",%type_lcartain_fst
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Ow.@ Just what in the world were you thinking, taking me outside so quickly like that?"@
-`"That's my line......!@ What in the world were you thinking!?@ Coming into my house like that is just insane!@
-` Are you trying to destroy my life, you idiot......!"@
-` I grit my teeth as I glare at Arcueid.@
+`- Ой.@ Что тебе вдруг взбрело в голову, так быстро убегать?@
+`- Это моя фраза!..@ Что ты, блин, думала?!@ Так вот заявиться в мой дом - это просто безумие!@
+` Ты пытаешься мою жизнь разрушить, идиотка?!..@
+` Я сжал зубы зыркнув на Арквейд.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t13.jpg",%type_crossfade_fst
 
-`"I---idiot!?@ Are you calling me an idiot!?"\
+`- И-идиотка?!@ Ты назвал меня идиоткой?!\
 
-`"I'm calling an idiot an idiot, so what else is there, idiot!@ If you want to argue, I'm listening!"@
-`"Eh----ah, huh?"@
-` I'm completely infuriated.@
-` It's been a while since I've been this mad, and once I'm mad, I have to say everything I want to the person I'm mad at, no matter who it is.\
+`- Называть идиота идиотом совершенно нормально, так что как ещё тебя называть, идиотка?!@ Если тебе есть что возразить, я слушаю!@
+`- Э... ах, эм?..@
+` Я в ярости.@
+` Я давненько так не злился, а когда я злюсь, то высказываю всё, что думаю о том, на кого злюсь, кто бы это ни был.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
 
-`"Hey, I just came to see you.@ I didn't do anything to make you mad!"@
-`"...... Wait.@ Are you serious, Arcueid?@ You only came to see me?"@
+`- Эй, я просто пришла увидеться с тобой.@ Я не сделала ничего, чтобы тебя разозлить!@
+`- ...Погоди.@ Ты серьёзно, Арквейд?@ Ты просто пришла увидеться со мной?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`"I didn't even say anything weird.@ I didn't say anything to your sister about your eyes or about me or anything."@
-`"Of course.@ If you did, we wouldn't be talking like this.@ I would not have hesitated and thrown you out if you did."\
+`- Я даже не сказала ничего необычного.@ Я не говорила твоей сестре о твоих глазах, или обо мне, или что-то в этом роде.@
+`- Разумеется.@ Если бы ты это сделала, мы бы сейчас так не разговаривали.@ Я бы не задумываясь вышвырнул тебя вон, если бы ты это сделала.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"...... I don't get it.@ Then why are you so mad?"@
-`"That's because you don't ever think!@
-` Look, you already stand out just being here.@ I'll say it now, but you should realize that just by being here you cause trouble......!"@
-` For the time being, I said it all.@
-` Getting it all out of my system calms me down, but obviously Arcueid isn't so calm.@
-` Looking like a cat, she stares at me ill-temperedly.\
+`- ...Я не понимаю.@ Тогда почему ты так злишься?@
+`- Потому что ты никогда не думаешь!@
+` Смотри, ты даже ничего не делая сильно выделяешься.@ Объясняю. Пойми ты, ты создаёшь проблемы просто тем, что находишься здесь!..@
+` Ну вот, я выговорился.@
+` Высказав наболевшее, я немного успокоился, но вот об Арквейд того же сказать нельзя.@
+` Она уставилась на меня, как сердитая кошка.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
 
-`"----What, saying things like that... What do you mean I stand out?@ Don't I look like any other human?"@
-`"No, beautiful women always stand out.@ It doesn't have anything to do with being human."@
-` I answer directly.@
+`- ...Что ты такое говоришь?.. Что значит "выделяюсь"?@ Разве я не выгляжу, как все люди?@
+`- Нет, красивые женщины всегда выделяются.@ Это никак не связано с тем, человек ты или нет.@
+` Прямо ответил я.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` I answer so flatly that Arcueid understands flatly, too.\
+` Я ответил так откровенно, что Арквейд меня поняла.\
 
-`"---Well, I said too much.@ It was the first time that's happened to me, so I kind of panicked."@
+`- ...Ну, я сказал слишком много.@ Со мной такое впервые, так что я запаниковал.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`"...... That's okay.@ It seems like I was the one to blame."@
-` Arcueid nods meekly.@
-` I feel a little guilty because I think there's something more to it than that.@
-` ...... In the first place, why did she come to my house......?\
+`- ...Всё нормально.@ Похоже, я и правда виновата.@
+` Арквейд смущённо кивнула.@
+` Я почувствовал себя виноватым, поскольку тут всё не так просто.@
+` ...И всё-таки, почему она вообще пришла ко мне домой?..\
 
-`"Anyway, why did you come over?@ ...... Well, I wanted to talk to you, too, so I guess it's a good thing."@
+`- В любом случае, почему ты пришла?@ Ну, я тоже хотел с тобой поговорить, так что это к лучшему...@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
-`"Really?@ I was just... wondering how you were doing, so I swung by to see you."@
-`"...... I see.@ Next time, please do so in a different place.@ And as stealthily as possible, too."@
-` ...... I'm worn out.\
+`- Правда?@ Я просто... ну, хотела узнать, как ты, так что заскочила повидаться.@
+`- ...Понятно.@ В следующий раз, пожалуйста, делай это в другом месте.@ И как можно более незаметно.@
+` ...\
 
-`"----Anyway, I want to have a serious talk.@ I want to talk about it somewhere else since I feel uneasy here, so is that okay?"@
+`-...В любом случае, я хочу серьёзно поговорить.@ И лучше где-то в другом месте, а то здесь мне не по себе. Ты не против?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Sure----but talk about what?"@
-`"You'll see.@ ...... There'll be less people around, so let's go more towards the middle of the park."@
-` Telling her to come on, I start walking.@
+` - Без проблем... но поговорить о чём?@
+`- Увидишь.@ ... Там будет меньше народа, так что давай пройдём ц центру парка.@
+` Произнеся это, я зашагал.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Tilting her head in curiosity, she follows me obediently.\
+` С любопытством наклонив голову, она послушно последовала за мной.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
