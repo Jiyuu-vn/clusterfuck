@@ -1,3 +1,5 @@
+<poem>
+<nowiki>
 label bonus:
     if not persistent.my_bonus:
         $ show_button_game_menu = False
@@ -89,3 +91,5 @@ label firstmenu:
                  lu "Огромное спасибо!"            
           
     jump bonusmenu
+</nowiki>
+</poem>
