@@ -12,29 +12,29 @@ bg "image\bg\bg_29b.jpg",%type_nowaitdisp
 play "*3"
 
 
-`"Huh?"@
-` What does she mean by last night?@
-` I don't understand what she's talking about.@
-` After all, I'm the idiot who mistook Arcueid's words and made such a stupid mistake, so of course I don't understand what she is saying, and---huh?@
+`- Э?@
+` Что она имеет в виду, "прошлой ночью"?@
+` Я не понимаю, о чём она.@
+` В конце концов, я идиот, неправильно понявший слова Арквейд и допустивший такую глупую ошибку, так что не удивительно, что не понимаю, о чём она, и... э?..@
 br
-` Did Arcueid ask me who came last night---?\
+` Арквейд спросила, кто пришёл прошлой ночью?..\
 
-`"...... Arcueid.@ What do you mean by 'last night'?"@
+`- ... Арквейд. @Что ты имеешь в виду, "прошлой ночью"?@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Hm?@ That's strange, I know I sent you a dream familiar."@
-`"Wait, what's that dream familiar thing?"@
+`- Хм??@ Странно. Я же помню, я посылала к тебе фамильяра снов.@
+`- Погоди, что ещё за фамильяр снов?@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Um, it's like a familiar that lets you see a dream about what you desire the most.@ You're a male, so I sent you a succubus.@ Wasn't it a good dream?"@
+`- Эм, ну, это фамильяр, который позволяет увидеть сон о том, чего больше всего желаешь.@ Ты парень, так что я послала тебе суккуба.@ Как сон, хороший был?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-`"I-----"@
+`- Я...@
 br
-` A good dream?@ That was...\
+` Хороший сон?@ Это было...\
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
@@ -48,121 +48,121 @@ monocro off
 ; ??B(?)<???????(?)>
 bg "image\bg\bg_29b.jpg",%type_crossfade_fst
 
-` I remember the realistic dream I had and my face turns red.@
+` Я вспомнил тот реалистичный сон и покраснел.@
 
-`"You, that was your doing---!"@
-` Arcueid grins even more.@
-` ---Crap.@
-` If I stayed quiet this conversation would have been over, but since I reacted so strongly---\
+`- Ты, это было твоих рук дело!..@
+` Арквейд ухмыльнулась ещё шире.@
+` ...Блин.@
+` Если бы я просто промолчал, на этом этот разговор и закончился бы, но после такой реакции...\
 
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"Ah, so you did get it.@ So, who came?@ I know, it was your sister, right?"@
-`"N, n, not Akiha----!@ What kind of a guy do you think I am!@ I'm not crazy to do that to a sister!"@
-`"Hmm.@ If it wasn't your sister, then was it the maids at the mansion?"@
+`- Хе, ты наконец сообразил.@ Так кто пришёл?@ Знаю, твоя сестра, верно?@
+`- Н, н, не Акиха!..@ За кого ты меня принимаешь!@ Я не настолько чокнутый, чтобы делать это с сестрой!@
+`- Хмм.@ Если это не твоя сестра, значит, служанки из усадьбы?@
 ; ?????<????>
 cl c,%type_nowaitdisp
 
-` Arcueid looks up at me full of amusement.\
+` Арквейд удивлённо посмотрела на меня.\
 
-`"Uh----"@
-` She's acting like the Arcueid from last night's dream.@
+`- Ух...@
+` Она ведёт себя как Арквейд из вчерашнего сна.@
 br
-`"It doesn't concern you, so leave me alone."@
-` I look away from her and refuse.@
-` But Arcueid keeps saying "Come on, come on," over and over.\
+`- Это не твой дело, так что оставь меня в покое.@
+` Я отвернулся и отказался отвечать.@
+` Но Арквейд продолжала повторять "Ну так кто? Давай уже...".\
 
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"Come on, tell me.@ You can at least tell me who you dreamed about."@
-` She asks like a curious kid.@
-` Every time I turn away she keeps jumping in front of me, saying "Come on, come on."@
+`- Давай уже, расскажи.@ Ты можешь по крайней мере рассказать, кто тебе приснился.@
+` Она словно любопытный ребёнок.@
+` Каждый раз, как я отворачиваюсь, она снов оказывается передо мной, повторяя "Ну расскажи..."@
 br
-` ...... This is pure torture.@
-` She's as mischievous as last night's dream.\
+` ... Это просто пытка.@
+` Она такая же проказливая, как в том сне.\
 
-` I bury my face in my hands.@
+` Я закрыл лицо руками.@
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Hey Shiki, don't be quiet and tell me."@
-` Arcueid keeps looking at me with those upturned eyes.@
+`- Эй, Шики, не молчи и расскажи мне.@
+` Арквейд смотрит на меня снизу вверх.@
 br
-` ---I can't, God.@
-` This is my limit.@
+` Господи, я не могу...@
+` Это мой предел.@
 br
-`"...... You."@
-` I hesitatingly let it out in a quiet voice.\
+`- ...Ты.@
+` Нерешительно и негромко произнёс я.\
 
 
-`"---Eh?@ What about me?"@
-`"Don't make me say it again.@ I'm saying that it was you who came!"@
-` I shout angrily as I look away.@
-` Arcueid's eyes widen in surprise.@
+`- Э?..@ Что "я"?@
+`- Не заставляй меня это повторять.@ Я говорю, что той, кто пришла, была ты!@
+` Сердито выкрикнул я, отвернувшись.@
+` Глаза Арквейд удивлённо расширились.@
 ;CD-DA?????
 play "*1"
 
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
-`"M, me......?"@
-`"Yeah, it's not a joke.@ You came, and----"@
-` There's no way I can finish.\
+`- Й, я?..@
+`- Угу, я не шучу.@ Ты пришла, и...@
+` Нет, закончить эту фразу я не могу.\
 
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"Ah----"@
-` Now Arcueid looks away from me, looking very uncomfortable.@
+`- Ах...@
+` Теперь Арквейд отвернулась, и явно чувствует себя неудобно.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 br
-`".................."@
-`".................."@
-` Neither of us know what to say.@
-` The uncomfortable silence continues.\
+` - ...@
+`- ...@
+` Никто из нас не знает, что сказать.@
+` Повисла некомфортабельная тишина.\
 
 ` ......@
 ` ............@
 ` .....................
 ` ..............................@
-` ....................................... *ahem*@
-` I can't bear the silence any longer and force out that cough.\
+` ....................................... *кхем*@
+` Я больше не могу выносить тишину, так что кашлянул.\
 br
-`"...... In the first place, why did you send me that dream familiar thing?@ Are you still angry at me for killing you?"\
+`- Вообще, почему ты послала ко мне этого фамильяра, или как там?..@ Ты всё ещё сердита на меня за то, что я тебя убил?\
 
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
 
-`"That's not it at all.@ I sent it as thanks for defeating Nrvnqsr.@ I really am grateful to you, I thought you'd be extremely happy."@
-`"As thanks?---I'll pass on that kind of thanks.@ Having that kind of poor taste, just what are vampires thinking?"@
-` I slump my shoulders.@
-` I don't know what she's mad about, but she looks at me with a dissatisfied expression.@
+`- Да нет, совсем не так.@ Я сделала это в качестве благодарности за уничтожение Неро.@ Я действительно признательна тебе, и думала, что ты будешь доволен.@
+`- В качестве благодарности?.. Предпочту отказаться от таких благодарностей.@ Такой дурной вкус... Что вы, вампиры, думаете, вообще?@
+` Я передёрнул пIечами.@
+` Не знаю, почему она злится, но она недовольно посмотрела на меня.@
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"What's that all about, you meanie?@ I know I'm not human."@
+`- Вредина.@ Я и сама знаю, что я не человек.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` She turns away, then starts walking off.@
+` Она отвернулась и начала уходить.@
 \
 
-`"Hey, hold on.@ Where are you going?"@
-`"It has nothing to do with you.@ Don't follow me!"@
-` Is she really that angry?@ Arcueid walks away without even turning around.\
+`- Эй, погоди.@ Куда ты идёшь?@
+`- Не твоё дело.@ Не иди за мной!@
+` Она действительно так сердита?@ Арквейд, не оборачиваясь, зашагала прочь.\
 
-`"............"@
-` Where does she plan on going anyway?@
-`"............"@
-` Maybe I did say too much.@
-` No matter what the results were or the methods used, she really thanked me with good intentions.@ I start to feel intense regret and think that maybe I should have just accepted her gift happily.\
+`- ...@
+` Куда она, вообще, собралась?@
+`- ...@
+` Возможно, я сказал слишком много.@
+` Какими бы ни были результаты или методы, она действительно просто хотела отблагодарить меня, с лучшими намерениями.@ Я понял, что сожалею. Возможно, мне стоило просто принять её подарок.\
 
-`"-----"@
-` Damn it.@ Why is it that I just can't leave Arcueid alone......!?@
+` - ...@
+` Блин.@ И почему я просто не могу оставить Арквейд?!..@
 br
-`"Aw---Hey, I said wait!"\
+`- Эх... Эй, подожди ты!\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
