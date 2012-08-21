@@ -8,76 +8,76 @@ bg "image\bg\bg_06g.jpg",%type_nowaitdisp
 
 
 
-`"----------"@
-` The footsteps pass by.@
-` ----I only have one chance.@
-` The instance she passes by the classroom, I'll jump out into the hallway and attack her.@
-` If the distance is too great, I'll be killed just like SHIKI.@
-`"----------"@
-` The footsteps keep moving.@
-` ...... About a distance of two meters.@ At her stride, that should be about eight steps.@
-`".................. Okay."@
-` I sneak silently over and place my hand on the door.@
-` Tap, tap.@ The hard sound of her footsteps come closer.\
+` - ...@
+` Шаги прохоят мимо меня.@
+` У меня есть лишь один шасн...@
+` Как только она пройдёт мимо класса, я выскочу в коридор и нападу.@
+` Если дистанция будет слишком большой, я погибну в точности как ШИКИ.@
+` - ...@
+` Шаги идут дальше.@
+` Дистанция должна быть примерно в два метра.@ С её шагом, это будет где-то восемь шагов.@
+` - .................. Поехали.@
+` Бесшумно прокравшись, я кладу руку на дверную ручку.@
+` Топ, топ.@ Жёсткие звуки её шагов приближаются.\
 
-` One.@
-`   Two.@
-`     Three.@
-`      Four.@
-`        Five.@
-`          Six.@
-`            Seven.@
-`              Eight......!\
+` Один.@
+`   Два.@
+`     Три.@
+`      Четыре.@
+`        Пять.@
+`          Шесть.@
+`            Семь.@
+`              Восемь!\
 
 !w2000
 
-` The footsteps stop there.@
-` She hasn't passed the classroom yet.@
-` She just stands on the other side of the door.@
+` Шаги останавливаются.@
+` Она ещё не прошла мимо класса.@
+` Она продолжает стоять на другой стороне двери.@
 ;S.E."??"
 wave se0
 !w2000
 br
-`"Wha-------"@
-` Time stops.@
-` Thump.@ The inside of my head torques painfully.@
+` - Что...@
+` Время останавливается.@
+` Пум.@ Сожержимое моей головы начинает болезненно вращаться.@
 br
 ;S.E."??"
 wave se0
 !w2000
-`"----------"@
-` Does she know?@ Does she know?\
+` - ...@
+` Она знает?@ Она знает?\
 ;S.E."??"
 wave se0
 !w2000
-` Then what should I do?@
-` She cannot come in the classroom unless she opens the door.@
-` She needs to come in the classroom in order to see me.@
+` Тогда что мне делать?@
+` Она не сможет попасть в класс, не открыв двери.@
+` Чтобы убить меня, ей нужно зайти в класс.@
 ;S.E."??"
 wave se0
 br
-` So---as long as this door is closed, she can't kill me.\
+` А значит — пока эта дверь закрыта, она не может меня убить.\
 
 ;S.E."????(???)"
 waveloop se1
 
-`"---------"@
-` ...... Then I don't care.@
-` If she tries to open the door, then that's fine.@ It'll just be a battle between what is faster: my "slicing" or her "looking".@
-` Calm.@
-` I take a deep breath.@
-` But it still doesn't change the fact that I'm at a disadvantage.@
-` All Akiha needs to do is look.@
-` But I have to see the "lines" on her body and then slice them with my knife.@
-` Since I have to make an extra movement, even though this is my range, I can't say it's my advanta----\
+` - ...@
+` Тогда без разницы.@
+` Не страшно, если она попытается открыть дверь.@ Это будет только сорвенование, что быстрее: я «режу» или она «смотрит».@
+` Спокойно.@
+` Я делаю глубокий вдох.@
+` Но это не меняет факта, что я в невыгодном положении.@
+` Акихе нужно лишь посмотреть.@
+` Но мне нужно увидеть «линии» на её теле и прорубить по ним ножом.@
+` Поскольку мне нужно совершать дополнительное движение, хоть это и в моём радиусе действия, я не могу сказать что у меня преим—\
 
 ;S.E."???????????"
 wave se7
 
 
-`"-------Eh?"@
-` All of a sudden,
-` A crash comes from the window.@
+` - Э?@
+` Неожиданно,
+` Со стороны окна доносится треск.@
 ;S.E."?????"
 wave se9
 
@@ -86,34 +86,34 @@ bg "image\bg\ima_11b.jpg",%type_nowaitdisp
 quakex 3,50
 
 
-`"Wha-----"@
-` My brain freezes.@
-` I instantly lose all feeling in my arms and legs.@
-` My heavy body rises up and is slammed against the wall.\
+` - Что...@
+` Мой мозг останавливается.@
+` В одно мгновение я лишаюсь чувствительности в руках и ногах.@
+` Моё тяжелое тело поднимается и меня вбивает в стену.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_tshutter_fst
 
-`"Ha----ah----!"@
-` My field of view cuts off.@
-` The water in my eyes evaporates instantly and I can't see anything.@
-` I don't know anything about what is going on in the outside world.@
-` All I can understand is what I'm doing.@
-` I'm suspended in mid-air, and just like Kohaku-san earlier, I'm crucified to the wall by Akiha's hair.\
+` - Ха... ааа!@
+` Я перестаю видеть.@
+` Вода в моих глазах мгновенно испаряется и я ничего не вижу.@
+` Я не знаю, что происходит во внешнем мире.@
+` Я понимаю только что происходит со мной.@
+` Я подвешен в воздухе, и как Кохаку-сан до этого, волосы Акихи распинают меня на стене.\
 
 ;CD-DA???????
 play "*4"
 
-`"How careless.@ It's nothing compared to a natural-born assassin like you, Nii-san, but I can still hide my presence.@
-` Well, that's what I did and while you were paying so much attention to the hallway, I came by from the next classroom.@ Next time, you should learn from experience and pay attention to the balcony, too."@
-` She giggles.@
-`"Ah--------gg!"@
-` My neck is being constricted.\
-` My limbs have no feeling, as if they were cut off.@ My body is being saturated with Akiha's hair.\
+` - Как безрассудно.@ Это ничто по сравнению с прирождённым убийцей вроде тебя, Нии-сан, но всё же я могу скрывать своё присутствие.@
+` Ну, это то что я сделала и пока ты так прислушивался к коридору, я зашла через другой класс.@ В следующий раз не забывай обращать внимание и на балкон.@
+` Она посмеивается.@
+` - А...гг!@
+` Моя шея сжимается.\
+` Я не чувствую своих конечностей, их словно отрезали.@ Моё тело наполняется волосами Акихи.\
 
-`"Ah, that was rude.@ There is no 'next time' for you, Nii-san.@
-` Besides, I'm sorry, Nii-san.@ I rudely ate you instantly.@
-` Even though I consumed most of you in the heat of the moment, you are still conscious, right?@ Please forgive my lack of manners since I'll do this right this time."\
+` - А, это было невежливо.@ Нии-сан, для тебя не будет «следующего раза».@
+` И потом, Нии-сан, прости меня.@ Я невежливо съела тебя за один момент.@
+` Хоть я и разом поглотила большую часть твоего тепла, ты ведь всё ещё в сознании, верно?@ Прости мою грубость, в этот раз я сделаю всё правильно.\
 br
 !w2000
 br
@@ -122,20 +122,20 @@ br
 br
 br
 br
-` ----Well then, I will have you.@
-`     Farewell, Nii-san.\
+`     Ну что ж, а сейчас я заберу тебя.@
+`    Прощай, Нии-сан.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
-`"----------"@
-` My body burns.@
-` The Red Lock of Hair sears both my body and my very soul.@
+` - ...@
+` Моё тело пылает.@
+` Красные Локоны испепеляют моё тело и саму мою душу.@
 br
-` Thump.@ I can hear my last heartbeat.@
+` Пум.@ Я слышу последний удар своего сердца.@
 br
-` ...... How, stupid.@
-` Even though I knew so much, Nanaya Shiki has still ended up the same as Tohno SHIKI.\
+` Как, глупо.@
+` Хоть я и столько знал, Наная Шики закончил точно так же, как и Тоно ШИКИ.\
 
 
 !w3000
