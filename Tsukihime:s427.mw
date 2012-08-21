@@ -9,148 +9,148 @@
 bg "image\bg\bg_11d.jpg",%type_nowaitdisp
 
 
-` ---It's too early.@
+`    Ещё рано.@
 br
-` To absolutely ensure my kill, the enemy needs to be defenseless.\
+` Чтобы гарантировать убийство, враг должен быть беззащитен.\
 
 ;CD-DA???????
 play "*6"
 
 ld c,":a;image\tachi\aki_t28.jpg",%type_crossfade_fst
-`"You made a mistake, Nii-san.@ That was your last chance to kill me."@
-` The enemy stops.@
-` Her breathing and stare are full of confidence.@
-`"--------"@
-` That means, this distance right now is her maximum range in this dark hallway.\
+` - Нии-сан, ты совершил ошибку.@ Это был твой последний шанс убить меня.@
+` Враг останавливается.@
+` Её дыхание и звгляд абсолютно уверенны.@
+` - ...@
+` Это значит, что эта дистанция — её максимальный радиус действия в тёмном коридоре.\
 
-`"You were so quick earlier.@ I thought I would still lose sight of you even in this narrow hallway with your speed.@
-` But, that won't happen with this distance.@ I am close enough to see the color of your eyes, so I can easily track you."@
-`"---------"@
-` No matter how fast I dash, she is saying she will kill me before I get close.@
-` But---that's only if I dash toward her.\
+` - Раньше ты был так быстр.@ Я думала что с твоей сокростью я даже в этом узком коридоре потеряю тебя из виду.@
+` Но, на таком расстоянии этого не случится.@ Я так близко, что вижу цвет твоих глаз.@
+` - ...@
+` Как бы быстро я не бежал, она говорит что убьёт меня преждем чем я смогу приблизиться.@
+` Но — это только если я буду двигаться к ней.\
 
 ld c,":a;image\tachi\aki_t27.jpg",%type_crossfade_fst
 
-`"..............."@
-` She narrows her eyes.@
-` Is she bothered by the fact that she has my life in the palm of her hand, or that I am so calm?@ ...... Or, does that cause her to hesitate?@
-` Whichever one it is---just like SHIKI thought, she really doesn't understand what a battle to the death means.\
+` - ...@
+` Она щурит глаза.@
+` Её увлекает тот факт, что моя жинь в её руках, или что я так спокоен?@ Или, это заставляет её колебаться?@
+` Как бы то ни было — ШИКИ был прав, она совсем не понимает истинной сущности боя насмерть.\
 
-`"---You look like you're planning something, Nii-san."@
-` She says the obvious.@
-` There's no need to answer.@
-`"--------Is she stupid?"@
-` I mutter and switch my knife to the other hand.@
-` I take it from my dominant hand and place it in my left.@
-` I have figured out her range.@
-` All that's left---\
+` - Нии-сан, ты выглядишь так будто что-то замышляешь.@
+` Она утверждает очевидное.@
+` Отвечать не нужно.@
+` - Она что, дура?@
+` Бормочу я, и меняю руку с ножом.@
+` Я перекладываю его из своей основной руки в левую.@
+` Я разгадал её радиус.@
+` Осталось только...\
 
-`"---Ridiculous.@ You're getting scared now."@
+` - Невероятно.@ Ты пугаешься.@
 ld c,":a;image\tachi\aki_t29.jpg",%type_crossfade_fst
 
-`"I-----I'm not scared......!@ You're the one being scared and not able to move!"@
-`"...... Okay.@ You can kill me, right?@ Then you should do so.@ If you do nothing, I'll kill you the next time you blink.@
-` ---I'm about sick and tired of seeing your face."@
-`"---------!"\
+` - Я — я не пугаюсь!..@ Это ты так напуган что пошевелиться не можешь!@
+` - Ладно.@ Ты же можешь меня убить, верно?@ Так сделай это.@ Иначе я убью тебя как только ты моргнёшь.@
+` Меня уже задолбало смотреть на твоё лицо.@
+` - !\
 
-` The air around her swirls.@
-` Her desire to kill starts to embody itself in her red hair.@
+` Воздух вокруг неё завивается вихрем.@
+` Её желание убить воплощается в виде её красных волос.@
 ld c,":a;image\tachi\aki_t31.jpg",%type_lshutter_fst
 
 
-` Her gaze, and the surrounding air that turns crimson and tries to wrap around my arms at the same time.\
+` Её взгляд, и окружающий воздух становятся багровыми, стараясь опутать мои руки.\
 cl c,%type_lshutter_fst
 
 
-`"------"@
-` I leap back.@
-` More than anything, I slice the red hair coming to wrap my dominant hand.@
+` - ...@
+` Я отскакиваю назад.@
+` В первую очередь я обрубаю красные волосы, тянущиеся к моей основной руке.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?? : ?? : ????2(?)<???????(?)>
 bg "image\bg\bg_11d.jpg",%type_crossfade_fst
 ld c,":a;image\tachi\aki_t29.jpg",%type_lshutter_fst
-`"Ah-------!"@
-` Akiha's clipped voice.@
-` I then switch the knife to my freed dominant hand.@
-` I slice the hair around my left arm...... It took a bit to free myself on this hand.\
+` - А!..@
+` Резкий вскрик Акихи.@
+` Затем я перекладываю нож в основную руку.@
+` Я обрубаю волосы вокруг моей левой руки... Потребовалось немного времени, чтобы осовбодить эту руку.\
 cl c,%type_lshutter_fst
 
-`"Feh-----"@
-` I can't feel my left arm.@
-` I can't see any wounds, but there isn't any sense or feeling.@
-`"I see now----that's what it does."\
+` - Фху...@
+` Я не чувствую левую руку.@
+` Я не вижу никаких ран, но рука вообще не ощущается.@
+` - Теперь понятно... вот как оно действует.\
 
 monocro #ff0000
 ; ?? : ?? : ????2(?)<??????(?)>
 bg "image\bg\bg_11d.jpg",%type_lshutter_fst
 
-` I jump back even more.@
-` ---The red hair chases me.@
-` It isn't as quick as before, but still wraps around my limbs.\
+` Я отскакиваю снова.@
+` Красные волосы гонятся за мной.@
+` Они уже не такие быстрые как до этого, но всё равно опутывают мои конечности.\
 
-` ...... No, chasing isn't the right word to use.@
-` There is no way to escape this red hair.@
-` When she sees me, it is already wrapped around me.@ It is wrong to imagine dodging it or avoiding it.@
-` If it's there, it's there.@ If it's not, it's not.@
-` Like the air touching my skin, the red hair is already wrapped around me.\
+` ...Нет, про них неправильно говорить, что они гонятся.@
+` От этих волос убежать невозможно.@
+` Как только она видит меня, они уже опутывают меня.@ Они не движутся сквозь пространство, поэтому думать о том, чтобы уклониться или избежать их, некорректно@
+` Если они есть, они есть.@ Есл их нет, их нет.@
+` Словно окружающий меня воздух, красные волосы уже опутали меня.\
 
-` Therefore, there was no way to escape from that attack.@
-` If there is anything I can do, it is---before Akiha steals something from me, I have to cut that pipeline...... that red hair of hers.@
-` The interval between her seeing something and stealing from it is only an instant.@
-` But if the target isn't clear in her vision, there is a small time before she actually steals from me.@ Before she can steal too much from me, I cut the hair to avoid a fatal wound.\
+` Следовательно, избежать этой атаки невозможно.@
+` Единственное что я могу, это — прежде чем Акиха заберёт что-то у меня, я должен перерезать её канал... её красные волосы.@
+` Интервал между тем, как она что-то увидит, и тем, как она что-то заберёт у него, лишь мгновение.@
+` Но если она не видит цель отчётливо, проходит небольшой отрезок времени прежде чем она может что-то у меня забрать.@ Прежде чем она заберёт слишком много, я обрубаю волосы чтобы избежать смертельной раны.\
 
-` That's all I'm doing.@
-` Even though I can see her image of "red hair", it doesn't make a difference that her ability is overpowering.\
+` Это всё, что я делаю.@
+` Хоть я и могу видеть её «красные волосы», это не меняет того, что её способность слишком сильна.\
 
 monocro off
 ; ?? : ?? : ????2(?)<??????(?)>
 bg "image\bg\bg_11d.jpg",%type_lshutter_fst
 
 
-` ---Maybe she's taking it easy, but she follows me without running.@
+` Наверное она решали не напрягаться, но она следует за мной шагом.@
 br
-`"--------"@
-` I cut the hair that comes to bind my arms, legs and body continuously.@
-` The left arm that I sacrificed to confirm her power doesn't move at all.@
-` There's no pain.@ There's no blood.@ But despite my clothes, I can tell that a big part of the flesh is taken away by burn wounds.\
+` - ...@
+` Я продолжаю обрубать волосы, постоянно пытающиеся опутать мои руки, ноги и туловище.@
+` Левая рука, которой я пожертвовал чтобы проверить её силы, совсем не двигается.@
+` Боли нет.@ Крови нет.@ Но несмотря на одежду, я понимаю, что потерял большой объём плоти из-за ожоговых ран.\
 
-`"--------Tch."@
-` What's making me uneasy is that the open flesh sends sickening cold air into me.@
-` Thanks to that, I can't concentrate fully on escaping.@
-` My efforts to escape Akiha's gaze gradually become slower and I soon stop.\
+` - Тч...@
+` Что меня беспокоит, так это что из-за контакта открытой плоти с воздухом я ощущаю неприятный холод.@
+` Из-за этого я не могу полностью сосредосточиться на побеге.@
+` Мои попытки избежать взгляда Акихи становятся всё медленней, и вскоре я останавливаюсь.\
 
-` ---And, it now becomes Akiha's range.@
+`     И, я оказываюсь в радиусе Акихи.@
 br
 ld c,":a;image\tachi\aki_t11c.jpg",%type_lshutter_mid
-`"----Oh, what's this?@ All you can do is run away?@ I told you, my prey will only end up burning."@
-` She must be confident that I've been driven into a corner.@
-` She stops walking and glares at me.\
+` - О, что такое?@ Ты можешь только бежать?@ Я же сказала, моя добыча неизбежно сгорит.@
+` Она должно быть уверена, что загнала меня в угол.@
+` Остановившись, она смеряет меня взглядом.\
 
 ld c,":a;image\tachi\aki_t28.jpg",%type_crossfade_fst
-`"It's over, Nii-san.@ Isn't it going to be fun?@ You're going to be killed by me without leaving a trace---!"@
+` - Всё кончено, Нии-сан.@ Разве это не весело?@ Я убью тебя, не оставив от тебя ни следа!@
 br
-` ----I told you.@
-` Talking like that is a useless excess, Akiha.\
+`      Я же говорил.@
+` Акиха, разговор — это бесполезное излишество.\
 
 ; ?? : ?? : ??(?)<??????(?)>
 bg "image\bg\bg_07b.jpg",%type_lshutter_fst
 
 
-` ------Crash.@
-` I jump back to the stairs, and jump down them without using the steps.@
+` Бамм.@
+` Я отскакиваю к лестнице, и разом прыгаю вниз через все ступени.@
 br
-`"What---!?"@
+` - Что?!@
 br
-` ...... I hear her voice coming from above.@
-` I was only jumping straight back this whole time, so she could not react to me moving sideways.@
-` ...... Well, I planned to reach the stairs while moving back, so it's no coincidence.\
+` Сверху до меня доносится её голос.@
+` Я всё это время отскакивал назад по прямой, поэтому она не смогла среагировать когда я отскочил в сторону.@
+` Ну, я и планировал добраться до лестницы когда двигался назад, так что это не совпадение.\
 
-`"Why you............!@ Stand still.........!"@
-` Akiha looks down the stairs to try to see me.@
-`"-----Now,"@
-` Before she can do that, I jump down one more time.\
+` - Ах ты!..@ Стой спокойно!@
+` Акиха смотрит вниз, пытаясь разглядеть меня.@
+` - Сейчас,@
+` Прежде чем она успевает это сделать, я перепрыгиваю ещё одну лестницу.\
 ;CD-DA??
 playstop
 
@@ -160,16 +160,16 @@ bg "image\bg\ima_10.jpg",%type_tshutter_fst
 bg "image\bg\bg_07b.jpg",%type_bshutter_fst
 
 
-`"Gg........."@
-` Flying down the stairs a second time causes my knees to protest in agony.@
-` I ignore it and run to the hallway.@
-` I hear the dry sound of Akiha's footsteps rushing down the stairs.@
-`"------Window."@
-` This is the second floor.@ I can jump down outside and still be okay.\
+` - Гг...@
+` После второго прыжка с лестницы мои колени болезненно протестуют.@
+` Я игнорирую их, и бегу дальше по коридору.@
+` Я слышу резкий звук шагов Акихи, быстро спускающейся по лестнице.@
+` - Окно.@
+` Это второй этаж.@ Выпрыгнув, я вполне смогу безопасно приземлиться.\
 
-`"------"@
-` But then, I'll end up like SHIKI.@
-` I have repeated what happened in that dream this much, so I shouldn't have to copy what SHIKI did to every detail.\
+` - ...@
+` Но тогда со мной будет то же, что и с ШИКИ.@
+` Всё это время я повтрял события того сна, поэтому мне нужно в точности копировать действия ШИКИ.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -177,25 +177,25 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_10f.jpg",%type_lshutter_fst
 
 
-` I enter the hallway.@
-` Even on the second floor the red hair fills the air...... They're like live blood vessels.@
+` Я вхожу в коридор.@
+` Даже на втором этаже в воздухе висят красные волосы... Они словно жилы, по которым течёт живая кровь.@
 
 quakey 2,50
 
 
-`"-----!?"@
-` The feeling in my leg disappears and I collapse to the ground.@
-`"Cra-----"@
-` My left leg is wrapped in hair.@
-` ---Did she see my leg as I went down the stairs?@
-` I'm outside her visual range, so this won't be fatal, but----\
+` - ?!@
+` Я перестаю чувствовать одну ногу, и падаю на пол.@
+` - Чёр...@
+` Моя левая нога опутана волосами.@
+` Она увидела мою левую нога когда я спускался  по лестнице?@
+` Я вне её поля хрения, поэтому это не смертельно, но...\
 
-`"Shit...... she's more wicked than I thought."@
-` I cut the hair.@
-` My left leg---It's now just like my left arm.@
-`"------"@
-` The sound of footsteps comes closer.@
-` Before she enters the hallway, I dash into a classroom.\
+` - Твою мать... она свирепей чем я думал.@
+` Я обрубаю волосы.@
+` Моя левая нога — теперь в том же состоянии, что и левая рука.@
+` - ...@
+` Звук шагов всё ближе.@
+` Прежде чем она успевает войти в коридр, я вбегаю в классную комнату.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -203,55 +203,56 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_06g.jpg",%type_lshutter_fst
 
 
-`"------,-------,----"@
-` Holding my breath, I lean against the wall between us.@
-` ...... I don't believe it.@
-` Half of my body might as well be dead.@
-` I was aware of it, but I didn't think I'd end up copying that dream this much.@
+` - ------,-------,----"@
+` Задержав дыхание, я прислоняюсь к разделяющей нас стене.@
+` Невероятно...@
+` Половина моего тела уже считай мертва.@
+` Я осознавал это, но я не думал что до такой степени повторю тот сон.@
 br
 ;S.E."???????????????"
 wave se8
 
-` ...... Tap, tap, tap.@
+` ...... Топ, топ, топ.@
 br
-` The footsteps draw nearer and nearer.\
+` Шаги приближаются всё ближе и ближе ко мне.\
 
-`"--------"@
-` In my dream, SHIKI was killed right after this.@
-` ...... SHIKI's decision wasn't incorrect.@ He just didn't have a full understanding of Akiha's ability.@
-` The burnt smell of the air.@
-` The temperature's scorching resemblance of deep summer.@
-` And the body parts that disintegrate with burning pain.@
-` All of these facts made SHIKI think that Akiha's power was 'burning' the enemy.\
+` - ...@
+` В моём сне, ШИКИ был убит сразу послое этого...@
+` Решение, принятое ШИКИ, было верным.@ Он просто не вполне понимал способность Акиъи.@
+` Горелый запах в воздухе.@
+` Температура, словно жарким летом.@
+` И части тело, исчезающие с болью как от огня.@
+` Из-за этих фактов ШИКИ решил, что сила Акихи «сжигает» протвиника.\
 
-` But the truth is just the opposite.@
-` Akiha entangles her target with her red hair and completely steals their "heat".@ This causes instant freezing followed by vaporization, making it look like it disintegrated.@
-` If it truly was burning, then matters would be hopeless once the flame was lit.@ No matter how many times the red hair is sliced, it's not possible to cut off your own body.\
+` Но на самом деле всё как раз наоборот.@
+` Акиха опутывает свою цель волосами, и похищает её «тепло» без остатка.@ Это вызывает моментальное замерзание, за которым следует испарение, из-за чего и кажется что она испарилась.@
+` Если бы это на самом деле было горение, ситуация стала бы безнадёжной как только вспыхнет пламя.@ Сколько ты ни руби красные волосы, твоё тело всё ещё сможет гореть.\
 
-` But---that is just stealing and taking in.@
-` Therefore, even if I get completely wrapped by the red hair, as long as I can cut off the hair before I am completely drained and kill Akiha herself, then there's no problem.@
-` While she lives, she can turn her target into an inferno.@ But that illusion of fire will die when Akiha dies.\
+` Но — это только похищение и поглощение.@
+` Следовательно, даже если меня полностью опутают красные волосы, если я смогу прорубиться сквозь них и убить Акиху прежде чем она опустошит меня, проблем не будет.@
+` Пока она жива, она может превратить врага в факел.@ Но эта иллюзия огня умрёт вместе с Акихой.\
 
 ;S.E."???????????????"
 wave se8
 
-` ...... Tap, tap, tap, tap.\
+` ...... Топ, топ, топ, топ.\
 
-`"------"@
-` I was already prepared to have my left arm burned when I stuck it out.@ I was prepared to cut it off from my shoulder once it lit up, but there was no need for that.@
-` Akiha's ability will not kill me if I can stop Akiha herself.@
-` Since Akiha is not a true flame user, a surprise attack cannot end up in mutual death if she dies before me.\
+` - ...@
+` Когда я подставил свою левую руку, я был готов к тому что она сгорит.@ Я был готов отрубить её как только она загорится, но в этом не было необходимости.@
+` Способность Акихи не убьёт меня если  смогу сотановиться саму Акиху.@
+` Поскольку Акиха не использует настоящее пламя, внезапная атака не закончится обоюдной смертью если я убью её первой.\
 
-`"--------"@
-` I hear a sound.@
-` I hear her footstep right behind my back.@
-` Without a doubt---Akiha is about to pass the classroom without even noticing I am here.@
+` - ...@
+` Я слышу звук.@
+` Прямо за моей спиной раздаётся её шаг.@
+` Без всяких сомнений — Акиха сейчас пройдёт мимо класса, даже не заметив меня.@
 br
 
 
 
 
 return
+
 
 
 
