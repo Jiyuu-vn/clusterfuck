@@ -41,7 +41,7 @@
     scene bg woodenbridge with dissolve
     show nonami uniform neutral with dissolve
     
-    "По пути в школу мы перешли старый деревянный мост через забетонированный(!concrete!) водяной канал."
+    "По пути в школу мы перешли старый деревянный мост через забетонированный водяной канал."
     "С моста, вдали я увидел горный гребет. Я ненадолго остановился, чтобы полюбоваться им."
     ri "Когда я жил в Америке, вокруг не было никаких гор."
     
@@ -133,36 +133,36 @@
     "Учитель указала мне на свободное место в классе."
     "К сожалению Нонами была не в моём классе. Зато думаю мы сможем встретиться в обеденный перерыв."
     "Как только урок закончился, меня сразу окружила толпа учеников."
-    "Student A" "Where did you stay abroad?"
-    ri "W-well, I lived in America for five years..."
-    "Student B" "Crazy! So can you speak a lot of English?"
-    ri "I-I guess?"
+    "Первый ученик" "А в каких странах ты был?"
+    ri "Н-ну, пять лет жил в америке..."
+    "Второй ученик" "Вау! И ты умеешь говорить по-английски?"
+    ri "I-I guess? (!!)"
     
     show haruka uniform concerned with dissolve:
         xanchor 0.5
         xpos 0.8
     
-    ha "Ummm... Everyone..."
+    ha "Эй... вы, все..."
     
     hide haruka with dissolve
     
-    "Student C" "Please teach us English, Saionji-san!"
-    "Student D" "Me too, me too!"
+    "Третий ученик" "Научи пожалуйста нас английскому, Саёнджи-сан!"
+    "Четвёртый ученик" "И меня, меня тоже!"
     
     show haruka uniform concerned with dissolve:
         xanchor 0.5
         xpos 0.8
    
-    ha "Y-you mustn't trouble the transfer..."
-    "Student E" "Say something in English for us!"
+    ha "Ты не должен волноваться о твоём переводе сюда..."
+    "Пятый ученик" "Скажи что-нибудь по-английски!"
     
     show haruka uniform handraised surprise with dissolve
     
-    ha "Everyone... please li-li-liissseeeaahh!"
+    ha "Вы, все!.. вы-вы-выслушайте меня пожалуйста!"
     
     hide haruka with dissolve
     
-    "All of a sudden, the thunderous crash of a chair tipping over and hitting the floor finally brought an abrupt silence to the room."
+    "И тут, чей-то стул опрокидывается и с грохотом падает на пол, что наконец привело к тишине в комнате."
     
     show haruka uniform pain with dissolve:
         xanchor 0.5
@@ -170,58 +170,58 @@
         yanchor 1
         ypos 0.3
     
-    ha "Uuuuu..."
-    "A small girl laid on the floor with a dazed look on her face."
-    "Student A" "Woah, iinchou, are you alright?"
+    ha "Уууу..."
+    "Маленькая девушка лежала на полу с ошеломлённым выражением лица."
+    "Первый ученик" "Ваа, iinchou, ты в порядке?"
     
     show haruka uniform handraised pain with dissolve
     
-    ha "Haauuu... H-Haru-chan needs help..."
-    "The classroom rushed to help the iinchou back up."
-    "Student B" "Are you okay? Do you need to go to the nurse's office?"
-    ha "I think I'll somehow manage..."
-    "The girl got back to her feet and tried her best to hide her embarrassment at having tripped over the chair."
+    ha "Хаауу... Х-Хару-тян нужна помошь..."
+    "Класс бросился на помощь к iinchou."
+    "Второй ученик" "Как ты? Нужна ли помощь медсестры?"
+    ha "Спасибо, я сама как-нибудь справлюсь..."
+    "Девушка встала на ноги, пытаясь скрыть своё смущение от того, что споткнулась о стул."
     
     show haruka uniform neutral with dissolve:
         yanchor 1
         ypos 0
     
-    ha "Everyone, you shouldn't bother the transfer student like that. I'm sure Saionji-san has other commitments and can't teach everyone English."
-    "The classroom reluctantly agreed with her."
-    ha "Now, let's get this classroom back together. Social studies will be in five minutes."
+    ha "Вы, все! Вы не должны так утомлять только что переведённого к нам ученика. Уверена, у Саёнджи-сан есть и другие дела, кроме как учить всех нас английскому."
+    "Ученики неохотно согласился с ней."
+    ha "Давайте возвращаться в класс. Через пять минут начнётся обществознание."
     
     hide haruka with dissolve
     
-    "With everyone's help, we managed to return the chairs to their usual grid pattern."
-    "...They sure were organized about this, weren't they? In America, I had rarely seen classrooms arranged into a grid."
+    "Все вместе мы расставили стулья в их обычный клеточный порядок."
+    "...Они очень организованы, не так ли? В Америке, не часто увидишь что бы стулья были упорядоченны в клетку."
     
     show haruka uniform handstogether neutral with dissolve:
         xalign 0.5
     
-    ha "It's nice to meet you, Saionji-san. I'm Haruka Nakamiya, the iinchou of class 3-2. I hope we'll get along well from now on."
-    ri "Thanks for helping me out back there."
+    ha "Приятно познакомиться, Саёнджи-сан. Я Харука Накамия, председатель класса 3-2. Надеюсь, мы хорошо поладим."
+    ri "Спасибо что выручила меня."
     
     show haruka uniform handstogether forcedsmile with dissolve
     
-    ha "I-it was no problem... That's because I'm the iinchou. Eh-heh..."
+    ha "Н-нет проблем... Я же всё таки председатель. Ха-ха..."
     
     show haruka uniform handstogether embarrassed with dissolve
     
-    ha "A-anyways, if you need any help getting around the school, then please feel free to ask."
+    ha "В любом случае, если у тебя будет какая то проблема связанная с школой, не стесняйся просить у меня помощи."
     
     hide haruka with dissolve
     
-    "With an embarrassed look on her face, she scurried back to her seat in front of me and reached into her desk to find her pencil case, stare it its contents for a moment, and then put it right back in."
-    "She looked kinda out of it for a iinchou..."
-    "Before long, the rest of the day's classes began."
+    "Со смущением на лице, она посмешила к своему месту. Её парта была спереди от меня. Она вытащила из стола пенал, некоторое время смотрела на его содержимое, а потом снова положила его в свою парту."
+    "She looked kinda out of it for a iinchou...(!!)"
+    "Вскоре вновь начались уроки."
     
     scene bg black with screenwipe
     scene bg classroom with screenwipe
     
-    "Minamikawa High School was a private school that focused mainly on international studies, so it didn't feel like I was very behind in many of the classes. In fact, I was probably ahead of everyone in English."
-    "Anyways, since I transferred near the beginning of the school year, we weren't really that far into any of our classes."
-    "Still, I couldn't afford to slack off, so by lunch time, my notebook was already filled with notes."
-    "Now, I think I'll just head off to the cafeteria to grab some bread..."
+    "Средняя школа Минамикава являлась частной школой с уклоном в международные стандарты обучения, так что вообщем то я не отставал от моих одноклассников. so it didn't feel like I was very behind in many of the classes. Фактически, пожалуй я был впереди всех в английском."
+    "В любом случае, я перевёлся в эту школу в начале учебного года, так что я почти не отстал ни по одному из предметов."
+    "Всё же я не мог позволить себе расслабиться, так что к обеду моя тетрадь была уже заполнена всяческими записями."
+    "Теперь я думаю мне пора пройтись в кафе, захватить немного хлеба..."
 
     show nonami uniform greet smile with dissolve
     play music "Music/Fragments_of_Stars.ogg" fadeout 1.5 loop    
