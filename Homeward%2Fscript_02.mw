@@ -392,17 +392,17 @@ label kendoclub:
     $ kendoclub = True
     $ cookingclub = False
     
-    ri "I guess I could check out the kendo club for a bit."
+    ri "Загляну ка я пока в клуб кэндо."
     
     show nonami uniform happy with dissolve
     show haruka uniform neutral with dissolve
     
-    no "Oh! Really?"
-    ri "Come to think of it, maybe the exercise will be good for me."
+    no "О! Правда?"
+    ri "Если подумать, упражнения могут быть мне полезны."
     
     show nonami uniform excited smile with dissolve
     
-    no "Uhn, uhn! Club activities are usually after school in the dojo. You can even come by today if you want."
+    no "Ух, ух! Клуб собирается как правило сразу после школьных занятий в додзё. Если хочешь, можешь придти уже сегодня."
     jump finishlunch
     
 label cookingclub:
@@ -410,64 +410,64 @@ label cookingclub:
     $ cookingclub = True
     $ kendoclub = False
     
-    ri "I think I'll go check out the cooking club."
+    ri "Загляну ка я пока в кулинарный клуб."
     
     show haruka uniform handstogether smile with dissolve
     show nonami uniform neutral with dissolve
     
-    ha "Eheheh. Come see us, we always have things that need to be tasted. We usually meet after school in the home economics classroom."
+    ha "Хаха. Приходи, у на всегда много вещей, которые должен кто-то съедать. Мы обычно встречаемся сразу после школьных занятий в классе экономики."
     jump finishlunch
     
 label finishlunch:
 
-    "It wasn't long until I finished eating everything in my bento box."
-    ri "Thanks Nonami. It was really good."
+    "Прошло совсем не много времени, и я съел всё что было в моём бэнто."
+    ri "Спасибо, Нонами. Было очень вкусно."
     
     show nonami uniform smile2 with dissolve
     
-    no "Ah, no problem, no problem."
+    no "А, не за что."
     ##bell rings
-    "The bell ring, signaling the end of lunch period."
+    "Прозвенел звонок, сообщающий о том, что обед закончился."
     
     show nonami uniform surprise with dissolve
     
-    no "Oh! I better get goin'!"
+    no "О! Пора идти!"
     
     if kendoclub:
         
         show nonami uniform greet happy with dissolve
         
-        no "I'll see you at practice, Rii-kun!"
+        no "Увидимся на тренировке, Рии-кун!"
 
-    "Nonami quickly grabbed her bento boxes and disappeared as quickly as she had appeared."
+    "Быстро схватив свою коробку из под бэнто, Нонами исчезла столь же стремительно, как и некоторое время назад появилась."
     
     hide nonami with dissolve
     show haruka uniform smile with dissolve
     
-    ha "It was nice having lunch with you, Saionji-san."
+    ha "Было приятно с тобой пообедать, Саёнджи-сан."
     
     hide haruka with dissolve
     
-    "Haruka returned to her seat in front of me and put her bento box into her bag."
-    "Soon, the rest of afternoon classes began."
+    "Харука вернулась на свое место передо мной и положила своё бэнто в сумку."
+    "Вскоре начались остальные послеобеденные занятия."
     
     scene bg black with screenwipe
     scene bg classroom with screenwipe
     
     ##bell rings
-    "Well, the first day of classes wasn't as painful as it could have been."
-    "...Although half of the kanji in my history textbook was pretty much unreadable."
-    "I'll have to check out an English one from the library some time..."
-    "I wasn't that horrible though. I've already dealt with Korean, English, and French, so relearning my own language shouldn't be that difficult."
-    "And for the first time, I had an old friend here."
-    "As long as Nonami was around, things should be okay."
+    "Ну, первый день школы прошёл не так плохо, как мог бы быть."
+    "...Хотя половина из кандзи в моем учебнике по истории были для меня не читаемыми."
+    "Надо будет спросить в библиотеке учебник по истории на английском..."
+    "Хотя это и не так ужасно. Я уже имел дело с Корейским, Английским и Французским, так что подучить мой родной язык не должно быть очень сложно."
+    "И впервые у меня был тут старый друг."
+    "Пока Нонами рядом, всё должно быть хорошо."
     
     if kendoclub:
-        "Well then, it was time to check out the kendo club."
+        "Что ж, пора пройтись до клуба кэндо."
         jump kendo
 
     if cookingclub:
-        "Well then, it was time to check out the cooking club."
+        "Что ж, пора пройтись до клуба кулинарии."
         jump cooking
         
 ###############################################################
@@ -476,78 +476,78 @@ label kendo:
     
     scene bg dojo with dissolve
     
-    "As soon as I approached the dojo, I could hear screams and the clashing of bamboo swords."
-    "Woah, it sounded really intense in there."
-    "I cautiously opened the door and stepped in."
+    "Как только я подошел к додзё, я услышал крики и звуки сталкивающихся бамбуковых мечей."
+    "Вау, такой интенсивный звук."
+    "Я осторожно приоткрыл дверь и сделал шаг вперёд."
     
     show nonami kendo greet with dissolve
     
-    no "Oh! It's Rii-kun!"
-    "All the members got into a line, knelt down, and removed their bogu."
-    "Nonami came running to me, her helm now in her arms."
+    no "О! Это Рии-кун!"
+    "Все выстроились в ряд, опустились на колени, и сняли богу."
+    "Нонами подбежала ко мне со шлемом в руках."
     
     show nonami kendo smile alt with dissolve
     
-    no "Hahah! Welcome, welcome."
-    "All of the members curiously came and circled around me."
-    "Nonami explained to them that I was looking for a club to join."
+    no "Хаха! Приветствую, приветствую."
+    "Все члены клуба с любопытством окружили меня."
+    "Нонами объяснила им, что я подыскиваю себе клуб."
     
     show nonami kendo happy with dissolve
     
-    no "Don't worry 'bout a thing, Rii-kun! We'll train you up to become a kendo master in no time at all!"
-    "Somehow, I got the feeling that Nonami was understating things."
+    no "Ни о чём не волнуйся, Рии-кун! Мы в момент сделаем из тебя мастера кэндо!"
+    "Почему то мне казалось, что Нонами несколько занижала сложность всего."
     
     show nonami kendo neutral with dissolve
     
-    no "Oh, and by the way, do you have anything to exercise in?"
-    ri "I have my P.E. uniform in my bag."
+    no "О, кстати, у тебя есть какая-нибудь одежда для занятий?"
+    ri "У меня в сумке есть униформа П.Е."
     
     show nonami kendo excited smile2 with dissolve
     
-    no "Oh! That should do. Come on, come on, get changed!"
-    "I quickly took the uniform out and went to the change room, lest Nonami run out of patience and strip me in the middle of the dojo."
+    no "О! Подойдёт. Давай! Быстрее! переодевайся!"
+    "Я вытащил свою униформу и побыстрее направился в раздевалку, пока у Нонами не кончилось терпение и она не раздела меня прямо тот посреди додзё."
     
     scene bg black with screenwipe
     scene bg dojo with screenwipe    
     
-    "I returned with my P.E. uniform on."
+    "Вернулся я уже одетым в униформу П.Е."
     
     show nonami kendo happy with dissolve
     
-    no "Oh! You've returned."
-    "Well, it's not like I was planning to run away."
+    no "О! Ты вернулся."
+    "Ну, я пока не планировал побег."
     
     show nonami kendo excited happy with dissolve
     
-    no "Alright! From today onwards, I'll be your personal kendo trainer."
+    no "Хорошо! С сегодняшнего дня, я буду твоим личным тренером кэндо."
     
     show nonami kendo greet with dissolve
     
-    no "Come on, Rii-kun, follow me!"
-    "Nonami ran out the dojo."
-    ri "Wait, where are we going?"
+    no "Давай, Рии-кун, за мной!"
+    "Нонами выбежала из додзё."
+    ri "Подожди, куда мы?.."
     
     show nonami kendo greet alt with dissolve
     
-    no "Come on, come on!"
+    no "Давай, за мной!"
     
     scene bg trackfield with dissolve
     
-    "Before I knew it, we were at the track field."
-    ri "Errr... I didn't know that we could also join the track team..."
+    "Прежде чем я что либо понял, мы уже оказались на стадионе."
+    ri "Эрррр... я и не знал, что мы можем присоединиться к легкоотлетам..."
     
     show nonami kendo smile2 alt with dissolve
     
-    no "No, no, you silly. We're gonna build up your muscles by running around the track a couple of times."
-    "A couple of times? I wasn't liking the sound of this..."
-    no "Alright, let's begin with a few stretches..."
-    "Nonami began to stretch her legs."
+    no "Не, не, глупый. Мы будем наращивать твои мышцы пробегая по несколько кругов по стадиону."
+    "Несколько кругов? Мне это не нравится..."
+    no "Что ж, давай начнём с растяжки."
+    "Нонами начала разминать ноги."
     
     show nonami kendo happy with dissolve
     
-    no "I'll count to four, then we count to eight together!"
-    no "One, two, three, four!"
-    ri "Five, six, seven, eight."
+    no "Я буду считать до четырёх, вместе будет восемь!"
+    no "Раз, два, три, четыре!"
+    ri "Пять, шесть, семь, восемь."
     
     show nonami kendo irritated with dissolve    
     
