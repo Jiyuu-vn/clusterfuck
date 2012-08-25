@@ -3,57 +3,59 @@
 <pre>
 *s145
 
+
 mov $phasebg,"image\bg\bg_47.jpg"
 mov $phasetitle_a,":a;image\word\PARK_07A.PNG"
 mov $phasetitle_b,":a;image\word\day_07.png"
 gosub *left_phase
 
+
 ; ??????1(?????)<???????(?)>
 bg "image\bg\cmo_05.jpg",%type_crossfade_mid
 
-` Back then, the whole mansion was like a giant playground.@
+` В то время, вся усадьба была словно гигантская игровая площадка.@
 br
-` The garden, a deep forest.@
-` The house, a tall castle.@
+` Сад - дремучий лес.@
+` Дом - высокий замок.@
 br
-` We played in our own little world, which would take days to explore.\
+` Мы играли в нашем собственном мире, на исследование которого уходили дни.\
 
-` Every day was fun.@
-` No one thought about ever growing up,
-` and we believed that days and nights would always be the same.@
+` Каждый день был весельем.@
+` Никто не думал о взрослении,
+` и мы считали, что эти дни и ночи всегда будут такими.@
 br
-` It was just a childhood spent playing like puppies.@
-` We got along wonderfully, and were the best of playmates.\
+` Просто детство, проведённое в играх.@
+` Мы прекрасно ладили, и были хорошими товарищами по играм.\
 
-` Whenever I turned back, Akiha would be there, waving her hands and hiding shyly.@
-` Yes, always the same.\
+` Когда я оборачивался, Акиха всегда была там, застенчиво прячась или маша руками.@
+` Да, всегда...\
 
-` At that time, the mansion was a giant playground.@
-` The garden, a deep forest.@
-` The house, a tall castle.@
+` В то время, вся усадьба была гигантской игровой площадкой.@
 br
-` We played in our own little world, which would take days to explore.\
+` Сад - дремучий лес.@
+` Дом - высокий замок.@
+br
+` Мы играли в нашем собственном мире, на исследование которого уходили дни.\
 
 !w2000
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
-
-` I slowly awaken and open my eyes.@
-` The morning light wraps around me and my sleepiness starts to lift.@
+` Я медленно выплыл из глубин сна и открыл глаза.@
+` Утренний свет окутал меня, прогоняя сонливость.@
 br
-` As the last vestiges clear,
-` I sense that I had a very nostalgic dream.\
+` Оставив лишь ощущение,
+` что у меня был очень ностальгический сон.@
 
 ; ?????(???)<???????(?)>
 bg "image\bg\bg_40e.jpg",%type_crossfade_slw
 
-`"-------"@
-` As soon as I open my eyes, I start to see those terrible things jump into my vision.@
-` My head stabs with pain.@
-`"Gg----"@
-` I scramble for the glasses by my pillow and put them on.\
+`- ...@
+` Стоило мне открыть глаза, как в моём поле зрения возникли эти ужасные вещи.@
+` Мою голову пронзила боль.@
+` - Угх...@
+` Я вытащил из-под подушки очки и надел их.\
 
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_mid
@@ -61,141 +63,141 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_mid
 ;CD-DA?????
 play "*2"
 
-` I take in some air.@
-` After taking a few deep breaths, I manage to calm down.@
-`"Why did I---so early..."@
-` See those lines so clearly this early in the morning?@
-` It's difficult to see the lines of death in buildings.@
-` It's usually hard to see them, and seeing them so clearly like I just did now is rare.@
-`"............"@
-` What's more, I even saw those "points".@
-` I think my headache is getting worse too.\
+` Я сделал вдох.@
+` Ещё несколько глубоких вздохов, и я успокоился.@
+` - Почему я... так рано...@
+` В такую рань так чётко вижу эти линии?@
+` Видеть линии смерти на зданиях сложно.@
+` Обычно их практически не видно, видеть так чётко, как сейчас - редкость.@
+` - ......@
+` Больше того, я вижу эти "точки".@
+` Кажется, и головная боль стала сильнее.\
 
-` Sensei said these eyes would attract things that weren't good.@
-` I think Arcueid and these vampires are certainly not good.@
-` So, maybe it's all affecting my eyes and making them stronger.@
-`"----Can't be."@
-` I'm probably just tired.\
+` Сенсей говорила, что эти глаза могут притягивать неприятности.@
+` Ну, полагаю, Арквейд и этих вампиров можно назвать неприятностями.@
+` Так что, возможно, всё это влияет на мои глаза и делает их сильнее.@
+br
+`- ...Да нет, не может быть.@
+` Скорее всего, я просто устал.\
 
 ;S.E."???"
 wave se3
 
 
-`"Please excuse me."@
+` - Прошу прощения.@
 ; ??<?>=??:?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
-` Hisui enters, greeting me with a bow.@
-`"Ah, morning Hisui."@
-`"Yes, good morning Shiki-sama."@
-` ...... Hisui brings my uniform as usual.@
-br
-` But what is it?@
-` I think she is a bit angry.\
+` Хисуи вошла в комнату, приветствовав меня поклоном.@
+`- Доброе утро, Хисуи.@
+`- Да, доброе утро, Шики-сама.@
+` Хисуи как обычно принесла мою форму...@
+` Но я вижу, что она сердита.\
 
-`"Hisui, did something happen this morning?@ You seem, to be in a bad mood."@
+` О причине можно и не говорить...@
+` Определённо, это из-за того, что я вчера вернулся очень поздно, а потом прокрался в свою комнату и заснул.\
+
+` - Хисуи, прошлой ночью, ну....@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\his_t08.jpg",%type_crossfade_fst
-`".................."@
-` Hisui looks at me as though she wants to say something, and then walks silently to the door.\
-
+`- Шики-сама, нет нужды оправдываться передо мной.@
+` Быстро ответив, она шагнула к двери.@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"Then please excuse me.@ I will tell Nee-san to prepare your breakfast, so please hurry to the sitting room."@
-`"Yeah, I planned on doing so......"\
-` I am a bit curious why Hisui is mad.@
+`- Ну, прошу извинить.@ Нии-сан приготовила ваш завтрак, так что, пожалуйста, поспешите в гостиную.@
+`- Ну, я это и собирался...\
+
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\his_t09.jpg",%type_crossfade_fst
-`" I forgot to say one thing.@ Akiha-sama would like to talk to you about your sneaking out last night.@ So please hurry to the sitting room."@
+
+`- И, Шики-сама.
+` Акиха-сама хочет поговорить с вами о вашем позднем возвращении прошлой ночью.@ Так что, пожалуйста, поспешите в гостиную.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-\
-
-` She shuts the door emotionlessly.@
-`"Cr-----"@
-` Crap.@ They know about me sneaking out last night.@
-`"...... Go to the sitting room means Akiha is waiting there......?"@
-` Man...... Why can't bad things be just kept a secret?\
+br
+` Она закрыла дверь.@
+`- О-о...@
+` ...Ну, если подумать, это естественный итог.\
 
 ; ???<?????(?)>
-bg "image\bg\ima_10.jpg",%type_lcartain_slw
+bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????(?)<?????(?)>
-bg "image\bg\bg_34a.jpg",%type_lcartain_slw
+bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
-` Akiha is the only one in the sitting room.@
-` Kohaku-san is in the kitchen, humming away.@
+` В гостиной - только Акиха.@
+` Кохаку-сан напевает в кухне.@
 ; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
-`".................."@
-` Akiha doesn't say anything when she sees me and sips her tea quietly.\
+`- ......@
+` Акиха ничего не сказала, увидев меня, только молча пьёт чай.\
 
-`"Hey.@ Good morning, Akiha."@
-` I try to greet her as naturally as I can.@ Akiha's eyebrow twitches as she places her teacup down and slowly looks at me.\
+`- Эй.@ Доброе утро, Акиха.@
+` Я постарался поздороваться как можно естественнее.@ Брови Акихи вздрогнули; она поставила чашку на стол и медленно перевела взгляд на меня.\
 
 ; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t18a.jpg",%type_crossfade_fst
-`"Good morning Nii-san.@ It was quite late when you came home last night, wasn't it?"@
-`"...... No, not really.@ It was at most a little past one o'clock, quite normal for a healthy young man in high school to be up, right?"@
-`"I see.@ My bedtime is also past midnight so I was up at that time.@ But I would come home much earlier than that."\
+`- Доброе утро, Нии-сан.@ Вчера было довольно поздно, когда ты вернулся, не так ли?@
+`- ...Да не особо.@ Чуть больше часа, нормальное время для здорового старшеклассника, разве нет?@
+`- Понятно.@ Я сама ложусь после полуночи, так что я тогда не спала.@ Но домой я возвращаюсь раньше.\
 
-`"Yeah, even I was home earlier, wasn't I?@ ...... I just had something to do, so I was out for a little bit---"@
+`- Ах... ну, обстоятельства поджимали, так что я не мог вернуться раньше.@ Но я же вернулся, так что...@
 ; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
-`"Without permission?@ You acted like you were out doing something you felt guilty over."@
-`"Uh......"@
-` Her stare is pure ice.@
-` ...... This is the second time, and I'm sure even though Akiha looks calm, she is quite angry.\
+`- Да, очень поздно ночью и сразу пробрался в свою комнату.@ Без шума и ничего не сказав.@
+` ...Можно подумать что, ты так себя вёл, потому что тебе есть чего стыдиться.@
+`- Эм...@
+` Её взгляд - чистый лёд.@
+` ...Это второй раз, и я уверен, что хоть Акиха и выглядит спокойной, она изрядно сердита.\
 
-`"--Nii-san.@
-` I don't know what went on at the Arima house, but here the curfew is eight o'clock.@ It is a rule that must not be broken.@
-` The gate will be locked after that, so please don't climb in like a robber."@
-`"Oh---You knew?"\
-`"...... The surveillance camera showed me quite clearly.@
-` It is a good thing Kohaku-san realized it was you and turned off the alarm system because otherwise you would probably be detained right now, Tohno Shiki."\
+`- ...Нии-сан.@
+` Я не знаю, как было в доме Арима, но здесь в восемь часов наступает комендантский час.@ Это правило, которое не следует нарушать.@
+` Ворота после этого будут заперты, так что, пожалуйста, не перелезай через них, как грабитель.@
+`- Эм... Ты знаешь?@
+`- ...Через камеру наблюдения было очень чётко видно.@
+` Хорошо, что Кохаку поняла, что это ты, и выключила сигнализацию, потому что иначе тебя бы арестовали.\
 
-`"...... Oh.@ I should thank Kohaku-san then.@
-` And, um, Akiha, I'm sorry.@ I shouldn't have kept quiet about it."@
-`"...... If you understand, then it is fine.@ Please make sure you observe your curfew from now on.@ I will overlook it this time."@
-`"...... About that, Akiha."@
-`"What is it?"@
-`"...... This is a little hard to say.@ I... have something to do tonight too.@ I don't know when I will be back, but I'm not going to do anything bad---"\
+`-...О.@ В таком случае, мне следует поблагодарить Кохаку-сан.@ И, эм, Акиха, извини.@ Мне не следовало таиться.\
+`- ...Если ты понимаешь, ладно.@ Пожалуйста, постарайся отныне соблюдать комендантский час.@ В этот раз я проигнорирую.@
+`- Насчёт этого...@
+`- Что?@
+`- Это не так-то просто...@ Мне... сегодня тоже нужно кое-что сделать.@ Я не знаю, когда вернусь, но я не делаю ничего плохого...\
 
-`"---------"@
-` Akiha's gaze tightens.@
+`- ...@
+` Взгляд Акихи напрягся.@
 `"Kohaku!"@
-` She suddenly stands up.@
+` Внезапно она встала.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
-` Kohaku-san comes in from the kitchen.\
+` Кохаку-сан вышла из кухни.\
 ; ?<?>=??:?02(????)<??????(?)>
 ld l,":a;image\tachi\koha_t02.jpg",%type_lshutter_mid
-`"Yes, what is it Akiha-sama?"@
+`- Да, что такое, Акиха-сама?@
 ; ?<?>=??:??02(????????)<???????(?)>
 ld r,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
 
-`"I will be going to school, get the preparations ready."@
-`"Huh?@ But I have not yet made Shiki-san's breakfast."@
+`- Я отправляюсь в школу, подготовь всё.@
+`- Э?@ Но я ещё не сделала завтрак Шики-сан.@
 ; ?<?>=??:??02(????????)<???????(?)>
 ld r,":a;image\tachi\aki_t06.jpg",%type_crossfade_fst
-`"You can leave this person alone.@ It seems he can do everything by himself."@
+`- Оставь его.@ Как я погляжу, он вполне способен справиться со всем самостоятельно.@
 ; ????<??????(?)>
 cl r,%type_lshutter_mid
-` Akiha strides towards the lobby.\
+` Акиха направилась к лобби.\
 
 ; ?<?>=??:?02(????)<??????(?)>
-ld l,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
-` Kohaku-san sighs.@
-`"...... Shiki-san, you should not make Akiha-sama so upset.@ You are her big brother, so please treat her better okay?"@
-` Saying that, she walks after Akiha.@
+ld l,":a;image\tachi\koha_t01a.jpg",%type_crossfade_mid
+` Кохаку-сан вздохнула.@
+`- Шики-сам, вам не стоит так беспокоить Акиху-сама.@ Вы её старший брат, так что, пожалуйста, заботьтесь о ней получше, хорошо?@
+` Произнеся это, она прошла следом за Акихой.@
 ; ????<??????(?)>
 cl l,%type_lshutter_mid
 br
-` The teacup sits, still steaming.\
+` Всё ещё исходящая паром чашка осталась на столе.\
 
-`"---Well, in short..."@
-` I'm left by myself to calmly consider my situation.@
-`"I guess I'm skipping breakfast today."@
-` Yeah, no doubt.@
-` ...... I should stop by a convenience store on the way and buy some bread.\
+`- ...Ну, короче говоря...@
+` Я остался один, и спокойно подытожил ситуацию.@
+`- Похоже, сегодня я остался без завтрака.@
+` Да, это точно.@
+` Стоит заскочить в магазин по пути и прикупить булочек...\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -203,7 +205,6 @@ bg "image\bg\ima_10.jpg",%type_lcartain_slw
 playstop
 
 !w2000
-
 
 
 
