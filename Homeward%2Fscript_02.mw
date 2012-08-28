@@ -246,7 +246,7 @@
     show nonami uniform excited happy with dissolve
     
     no "Тада!"
-    "Нонами отрыла бенто, показывая два аппетитно выглядящих блюда."
+    "Нонами открыла бэнто, показывая два аппетитно выглядящих блюда."
     "Да, она действительно выглядят хорошо."
     "Нонами с гордостью раздулась, прямо как квакающая лягушка."
     
@@ -657,67 +657,67 @@ label kendo:
     ri "Я рад, что смог увидеть тебя снова, Нонами."
     no "Эээхх... Рии-кун такой сентиментальный."
     no "Спасибо."
-    "Maybe this really was a small shard of paradise that I had wandered into."
-    "I knew that the slightest of mishaps could easily shatter that shard to pieces."
-    "But while I was still within it, I was... happy."
-    "All those years of silence were being filled with the sound of Nonami's cheerful voice."
-    "A huge, empty void had formed inside of me from being a stranger for so long. Would that void get smaller?"
-    "All of a sudden, Nonami picked herself off the ground and stood before me."
-    no "All right! Congratulations, Rii-kun, you've now earned your right to carry a sword!"
-    no "From today onwards, we'll be practicing at the dojo."
-    "I stood up and found that I now was feeling much better."
+    "Может быть я и действительно забрёл в маленький осколок рая."
+    "Но я знал, что лубая случайность могла разбить этот осколок на куски."
+    "Но пока что.... я был счастлив."
+    "Все прошлые годы тишины теперь были заполнены весёлым голосом Нонами."
+    "A huge, empty void had formed inside of me from being a stranger for so long. Would that void get smaller? (!!)"
+    "Внезапно Нонами вскочила и встала передо мной."
+    no "Отлично! Поздравляю, Рии-кун, теперь ты заработал право носить меч!"
+    no "С сегодняшнего дня, мы будем практиковаться в додзё."
+    "Я встал и понял, что теперь я чувствовал себя намного лучше."
     
     scene bg trackfieldevening with dissolve
     
-    "It was already into the evening by now. We had better get going soon."
+    "Уже вечер. Пора бы по-тихоньку заканчивать."
     
     show nonami kendo smile alt with dissolve
     
-    no "Well, now that that's over, let's go grab something to eat."
+    no "Ну, теперь, когда мы закончили, предлагаю взять что-нибудь поесть."
     
     scene bg schoolfieldevening with dissolve
     show nonami kendo neutral alt with dissolve
     
-    "We made our way back to the dojo."
-    ri "When did you start kendo, by the way?"
+    "Мы вернулись в додзё."
+    ri "Кстати, кода ты начала заниматься кэндо?"
     
     show nonami kendo neutral alt with dissolve
     
-    no "Mmm... Well, I think it was about three years after you left."
+    no "Ммм... Где то через три года посте того как ты уехал."
     
     show nonami kendo smile alt with dissolve
     
-    no "You should have seen me in my first bogu back then. I even have a cute little shinai from elementary school in my room, just for memory's sake."
-    ri "Ehh... I didn't know they made bogu for elementary schoolers."
-    no "Ehehehe. It's quite the sight whenever I go to a tournament now and see the elementary schoolers fight."
+    no "Видел бы ты меня в моём первом богу. У меня даже был милый маленький шинайчик. Ещё с начальной школы. У меня он лежит в моей комнате, на память."
+    ri "Эхх... Я и не знал что есть богу для начальной школы."
+    no "Хехехе. Всякий раз как я иду на турнир между учениками начальных школ, я попадаю на неплохое зрелище."
     
     show nonami kendo smile2 alt with dissolve
     
-    no "Uwaahh... I can't believe there was once a day when I used to be one of them."
-    "We arrived at the dojo. After changing back into our regular clothes, we went to a McDonald's and continued our every day conversations."
+    no "Уваахх... Не могу поверить, что когда-то я был одним из них."
+    "Мы добрались до додзё. После того, как я переоделся обратно в обычную одежду, мы пошли в Макдональдс и продолжили нашу беседу."
     
     scene bg nonamihouse with dissolve
     
-    "After getting something to eat, we arrived at Nonami's house, since she lived closer to the school than me."
+    "После того как мы поели, мы пришла к дому Нонами, так как она жила ближе к школе, чем я."
     
     show nonami uniform neutral with dissolve
     
-    no "Oh, we're here."
+    no "Мы пришли."
     
     show nonami uniform greet smile with dissolve
     
-    no "See you tomorrow, Rii-kun."
-    ri "Bye bye."
+    no "До завтра, Рии-кун."
+    ri "Пока."
     
     hide nonami with dissolve
     
-    "I made my way back to my house."
+    "Я отправился к моему дому."
     
     scene bg rikuroomnight with dissolve
     $ renpy.music.stop(fadeout=1.0)    
     
-    "Well, today was pretty fun."
-    "I plopped into my bed and fell right to sleep."
+    "Что ж, сегодня было довольно весело."
+    "Я упал в постель и уснул."
     
     jump soraarrives
     
@@ -728,46 +728,46 @@ label cooking:
     scene bg homeeconroom with dissolve
     $ renpy.music.stop(fadeout=1.0)
     
-    "I made my way upstairs into the home economics room."
-    "I guess I was a little bit nervous. Hopefully, they won't mind a boy coming in here."
-    ri "I'm sorry to intrude. Is Haruka-san here?"
+    "Я поднялся по лестнице чтобы попасть в класс экономики."
+    "Я немного нервничал. Будем надеяться, что они не будут возражать что к ним прийдёт парень."
+    ri "Простите за беспокойство. Харука-сан здесь?"
     
     play music "Music/Lullaby_to_the_World.ogg" fadeout 1.0 fadein 1.0 loop    
     
     show haruka cook happy with dissolve
-    ha "Ah, Saionji-san. Please come right in."
-    "I was led in by Haruka. As expected, the cooking club was filled with just girls."
-    "The room was bustling with activity. Everyone was chatting while they made all sorts of food."
+    ha "Ах, Саёнджи-сан. Можешь войти."
+    "Харука проводила меня внутрь. Как и ожидалось, в клубе кулинарии были только девушки."
+    "В комнате была бурная деятельность. И пока все готовили различную еду, все болтали."
     
     show haruka cook neutral with dissolve
-    ha "Do you cook a lot, Saionji-san?"
-    ri "Uhh... A little bit. Since I live with just my father, it would be nice if I could learn to get better."
+    ha "Ты готовил когда-нибудь, Саёнджи-сан?"
+    ri "Ухх... Совсем немного. Так как я живу только с моим отцом, было бы неплохо научиться готовить лучше."
     
     show haruka cook smile with dissolve
-    ha "Eh... I see."
-    "I followed Haruka to a kitchen station."
+    ha "Аа... Понятно."
+    "Я пошёл за Харукой на кухню."
     
     show haruka cook handraised smile with dissolve
-    ha "This is my area. Mmm... I was thinking of making a simple bento box for tomorrow. Would you like to help?"
-    ri "Sure. Go ahead."
+    ha "Это моё место. Ммм... Я думаю приготовить простенький бэнто на завтра. Поможешь?"
+    ri "Давай. Конечно."
     
     show haruka cook neutral with dissolve
-    ha "First, you need to cook the rice."
-    "Haruka showed me a row of rice cookers to the side of the room."
-    ha "First, you have to measure out the rice in this cup. One cup is one serving. Next, you rinse the rice with water a couple of times, then you add water up to the appropriate line on the rice bowl."
-    ri "Yeah. Sounds pretty easy so far."
-    ha "Since we'll be making two servings today, we'll just add two cups and add water up to the line for two servings."
-    "Haruka then put the rice bowl into the cooker and turned it on."
-    ha "Now, let's make some tamagoyaki."
-    "She got out a package of butter, some salt and sugar, a carton of milk, and a carton of eggs from a grocery bag."
-    ha "First, you crack two eggs in a bowl. You have to be careful not to get the shell into the bowl with the yolk."
-    "Haruka demonstrated by cracking a pair of eggs."
-    ri "Like this?"
-    "I tried to do the same, but because I was a little bit nervous, a shell fragment accidentally got into the bowl."
+    ha "Первое, что тебе понадобится - рис."
+    "Харука показала мне ряд рисоварок в стороне комнаты."
+    ha "Во-первых, надо отмерить объём риса чашечками. Одна чашка - одна порция. Далее, несколько раз промываем рис водой, а потом заливаем его водой до соответствующей линии на чашке."
+    ri "Ага. Пока что всё просто."
+    ha "Так как сегодня мы делаем две порции, добавим риса два стакана и дважды добавим воду объёмом до линии на чашке."
+    "Потом Харука помещает чашку с рисом в рисоварку и включает её."
+    ha "Теперь давай приготовим тамогояки."
+    "Она достала из своей продуктовой сумки пакет сливочного масла, немного соли, сахара, пакет молока и коробку яиц."
+    ha "Сначала разобьём два яйца в миску. Это надо делать осторожно, чтобы в миску не упала скорлупа."
+    "Харука показала мне, разбив прау яиц."
+    ri "Вот так?"
+    "Я попытался сделать то же самое, но из за того, что я немного нервнчал, осколок скорлупы всё же упал в миску."
     
     show haruka cook smile with dissolve
-    ha "Uhn. Like that."
-    "She continued to smile and discretely picked the shell out with a chopstick."
+    ha "Ух. Ну, как то так."
+    "Она продолжала улыбаться и вытащила палочкой скорлупу."
     
     show haruka cook neutral with dissolve
     ha "Now, you add milk until it's approximately twice its original size. Then, you add a little bit of salt and sugar."
