@@ -10,85 +10,85 @@ bg "image\bg\bg_11a.jpg",%type_nowaitdisp
 ld c,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
 
-`"----Ah."@
-` Having her stare right at me like this--makes me remember my dream.@
-`"Tohno-kun?@ What's wrong?@ Your face is turning red."@
-`"I, it's nothing.@ Just, I had a bad dream.@ I don't feel very well."@
-` I think I'm honest as I don't say I don't feel bad at all.\
+` - А...@
+` Когда она так пристально на меня смотрит — я начинаю вспоминать свой сон.@
+` - Тоно-кун?@ В чём дело?@ Ты краснеешь.@
+` - Н, ничего.@ Просто, плохой сон приснился.@ Я не очень хорошо себя чувствую.@
+` Думаю, я говорю честно, потому что я и не говорю что чувствую себя плохо.\
 
-`"......... Tohno-kun?"@
-` She looks at me with a very serious expression.@
-`"...... Senpai......?"@
-` I'm perplexed.@ I feel as if Senpai is reading my mind, and I remember more and more of last night's dream.@
+` - Тоно-кун?@
+` Она очень серьёзно смотрит на меня.@
+`  - Сенпай...?@
+` Я в растерянности.@ Мне кажется что Сенпай читает мои мысли, и я всё четче и чётче вспоминаю сегодняшний сон.@
 
 
 ; ??<?>=???:????<???????(?)>
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
 
-`"Tohno-kun, you said you had a bad dream.@ What does that mean?"@
-`"It doesn't mean anything, and it's none of your business.@ Don't worry about it, and I'm asking you what you're doing."\
+` - Тоно-кун, ты сказал что тебе приснился плохой сон.@ Что это значит?@
+` - Это ничего не значит, и это не твоё дело.@ Не переживай об этом, лучше скажи, что ты делаешь.\
 
 
 ; ??<?>=???:?<???????(?)>
 ld c,":a;image\tachi\cel_t08.jpg",%type_crossfade_fst
 
 
-`"It is my business!@ Tohno-kun, you didn't sleep well last night, did you?"@
-`"----Eh?"@
-` Well--she is right but.@
-`"...... Senpai, how do you know about that?"@
+` - Нет, это моё дело!@ Тоно-кун, ты вчера плохо спал, не так ли?@
+` - |Э?@
+` Ну... он права, но.@
+` - Сенпай, откуда ты это знаешь?@
 
 
 ; ??<?>=???:????<???????(?)>
 ld c,":a;image\tachi\cel_t12.jpg",%type_crossfade_fst
 
 
-`"Because your face is all red.@ I don't know if you are sick, but you don't look well, Tohno-kun."@
-`"Oh--I see."@
-` I was surprised for a moment there.@
-` She guessed right about last night, so I thought--\
+` - Потому что у тебя лицо всё красное.@ Уж не знаю, не заболел ли ты, Тоно-кун, но выглядишь ты неважно.@
+` - О... понятно.@
+` А я уж удивился.@
+` Она правильно угадала о вчерашней ночи, и я думал...\
 
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07a.jpg",%type_crossfade_fst
 
 
-`"About this dream, Tohno-kun.@ Please tell me what kind of dream it was."@
-` ...... Senpai asks me again, as she hasn't given up.@
-`"...... Fine.@ It's not a big deal really.@ Just...... Um, you were in it a little."@
+` - Тоно-кун, об этом сне.@ Пожалуйста скажи, что это был за сон.@
+` ...Сенпай не сдаётся, и спрашивает меня снова.@
+` - Ладно.@ Вообще это ничего особенного.@ Просто... Эм, ты немного в нём была.@
 br
-` I answer reluctantly.@
+` Неохотно отвечаю я.@
 br
-` All of a sudden,
+` И вдруг ни с того ни с сего,
 
 ; ??<?>=???:???<???????(?)>
 ld c,":a;image\tachi\cel_t10d.jpg",%type_crossfade_fst
 
 
-`"I, I was in it!?"@
-` Senpai gets mad.\
+` - Я, я в нём была?!@
+` Сенпай вспыхивает.\
 
-`"Um...... Senpai?"@
+` - Эм... Сенпай?@
 
 ; ??<?>=???:?<???????(?)>
 ld c,":a;image\tachi\cel_t09b.jpg",%type_crossfade_fst
 
 
-`"........................"@
-` Senpai quickly takes a step away and stares at me.@
-`"............"@
+` - ...@
+` Быстро отступив, Сенпай молча смотрит на меня.@
+` - ...@
 
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
 
 
-` Senpai looks like she wants to say something more, but she just gives a quick bow and runs away.\
+` Сенпай явно хочет сказать что-то ешё, но вместо этого она быстро кланяется и убегает.\
 
-`".........?"@
-` I tilt my head in confusion.@
-` Then, the homeroom bell echoes through the hallway.\
+` - ?..@
+` Я озадаченно наклоняю голову набок.@
+` А затем по коридору разносится звонок.\
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 !w1000
@@ -96,6 +96,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
 return
+
 
 
 </pre>
