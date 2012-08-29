@@ -10,59 +10,59 @@ bg "image\bg\bg_32b.jpg",%type_lcartain_mid
 ;CD-DA?????
 play "*1"
 
-` I head up the road and draw near the mansion.@
-` After a little more walking, I see Hisui standing by herself at the front gate.@
+` Поднимаясь по улице, я приближаюсь к поместью.@
+` Пройдя ещё немного, я замечаю Хисуи, которая стоит в одиночестве у ворот в поместье.@
 br
-`"......?@ I wonder what Hisui is doing?"@
-` Tilting my head to the side, I head for the front gate.@
-` Hisui realizes I'm here and bows her head.\
+` - ?@ Интересно, что Хисуи делает?@
+` Наклонив голову набок, я направляюсь к воротам.@
+` Заметив меня, Хисуи склоняет голову.\
 
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"Welcome back, Shiki-sama."@
-`"---Ah, yeah---thanks, Hisui."@
-` I can barely reply since I'm bewildered by the respectfulness of it all.@
-`"Um---were you waiting for me to come home?"@
-`"Yes.@ Greeting the master is a servant's duty."@
-` Answering very matter-of-factly, she doesn't even bat an eyelash.\
+` - С возвращением, Шики-сама.@
+` - … А, да... спасибо, Хисуи.@
+` Я едва могу ответить, так меня ошарашила вся эта уважительность.@
+` - Эм... ты дожидалась моего возвращения?@
+` - Да.@ Встречать хозяина — долг слуги.@
+` Не моргнув глазом, кратко отвечает она.\
 
-`"Um, Hisui, I'm truly happy you waited to greet me, but there's really no need to wait outside.@
-` I'll come back on my own, so you can just greet me whenever you realize I'm back."@
+` - Эм, Хисуи, я правда рад что ты ждала моего возвращения, но совсем не нужно стоять и дожидаться меня снаружи.@
+` Я и сам до дома дойду, поэтому ты можешь приветствовать меня как только заметишь, что я вернулся.@
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t05.jpg",%type_crossfade_fst
 
-`"-----"@
-` Hisui's face clouds slightly.@
-` ...... Oh, maybe...
-` Maybe she was waiting for me to return like this on Saturday and Sunday.\
+` - ...@
+` Лицо Хисуи слегка омрачается.@
+` О, быть может...
+` Быть может, она так меня дожидалась и в субботу с воскресеньем.\
 
-`"--Hisui, um--"@
+` - Хисуи, эм—@
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
 
-`"I understand.@ Starting from tomorrow, I will await your return in the lobby."@
-` Hisui gives a quick bow and opens the mansion gate.@
-` Hisui turns around as she does so.\
+` - Я поняла.@ С завтрашнего дня я буду ожидать вашего возвращения в фойе.@
+` Быстро поклонившись, Хисуи открывает входные ворота.@
+` Она делает это, развернувшись ко мне спиной.\
 
-` ............ []*sigh*@
-` For some reason, the atmosphere isn't exactly conducive to conversation.@
-` Hisui closes the gate after I pass through, then she silently walks to the entrance to open the door and leads me into the lobby.\
+` ............ []*эх*@
+` Почему-то, атмосфера не способствует ведению разговора.@
+` Хисуи закрывает за мной ворота, и затем молча идёт ко входу чтобы открыть дверьи  впустить меня в фойе.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_40b.jpg",%type_lcartain_mid
 
-` I get to my room.@
-` Akiha isn't back yet from her lessons, Kohaku-san is preparing dinner, and Hisui is cleaning the mansion.@
+` Я возвращаюсь к себе в комнату.@
+` Акиха ещё не вернулась со своих занятий, Кохаку-сан готовит ужин, а Хисуи убирает в особняке.@
 br
-`"---Geez, there's nothing to do."@
-` Well, there's quite a mountain of studying, reviewing, and memorizing a student like me has to do.@
-` But, I just don't feel like doing anything.\
+` - Эх, делать вообще нечего.@
+` Ну, вообще у меня целая гора всего, что надо выучить, повторить и запомнить, как и у любого другого ученика.@
+` Но мне не хочется делать ничего.\
 
-` Suddenly, Arcueid's face flashes in my mind.@
-` Whether good or bad, it's probably just a reaction to the crazy two days I just had.@
-` Perhaps spacing out here in my room will be good, giving my mind and heart a break.\
+` Неожиданно мне вспоминается лицо Арквейд.@
+` Хорошо это или плохо, наверное это просто реакция на два безумных предыдущих дня.@
+` Пожалуй будет лучше просто расслабится у себя, дать отдых разуму и сердцу.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -72,15 +72,16 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_40c.jpg",%type_crossfade_mid
 
 
-` After eating dinner by myself in the large dining room, Kohaku-san treats my wounds and I go back to my room.@
-` Akiha didn't make it back in time for dinner.@ Her lesson was apparently going to last a while, so she was going to eat away from home.@
-` It's past ten at night now.@
-` It's a bit too early, but since I'm exhausted, I should sleep early tonight--\
+` Я ужинаю один в большой столовой, после чего Кохаку-сан обрабатывает мои раны и я возвращаюсь к себе в комнату.@
+` Акиха к ужину не успела.@ Похоже, её урок затянулся надолго, и она решила поужинать вне дома.@
+` На часах начало одиннадцатого.@
+` Ещё немного рано, но я вымотна, и потому сегодня лягу раньше...\
 ;CD-DA??
 playstop
 
 
 return
+
 
 </pre>
 
