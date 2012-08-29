@@ -9,170 +9,170 @@
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
 
-` ...... If someone is coming to my room, it either has to be Kohaku-san, Hisui or Akiha.@
-` Hisui and Kohaku-san would probably knock so that leaves only Akiha......@
-`"............... Akiha?"@
-` I sit up in bed and call out.@
-` The moonlight only dimly illuminates the room, so I can hardly see.@
-` I look around, but I don't see anyone's silhouette.\
+` … Если кто-то зашёл ко мне в комнату, это должно быть или Кохаку-сан, или Хисуи, или Акиха.@
+` Хисуи и Кохаку-сан скорее всего постучали бы, значит остаётся Акиха...@
+` - Акиха?..@
+` Сев на постели, зову я.@
+` Комнату освещает только тусклый лунный свет, и я почти ничего не вижу.@
+` Я осматриваюсь, но не вижу ничьего силуэта.\
 
-`"...... Must be my imagination......"@
-` My mind must be a little dull from lack of sleep.@
-` I let out a breath and roll over onto my side.@
+` - Наверное показалось...@
+` Голова наверное чудит от недосыпа.@
+` Выдохнув, я укладываюсь на бок.@
 
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_40c.jpg",%type_nowaitdisp
 
 
-` The light on my nightstand comes on.@
+` Включилась лампа на тумбочке.@
 ;S.E."??"
 wave se0
 
-`"------Eh?"@
-` My heart skips a beat.@
-`"...... That's strange.@ I don't remember turning that on......"@
+` - Э?@
+` Моё сердце ёкнуло.@
+` - Странно...@ Не помню чтобы её включал...@
 
 ; ?? : ?? : ?????(??)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_crossfade_fst
 
 
-` I turn off the light.@
-` I have school tomorrow, so I need to get some sleep.\
+` Я выключаю свет.@
+` Завтра школа, и мне надо отоспаться.\
 
-`"That won't do, Nii-san.@ We'll need the lights on for this."@
-` Suddenly,
-` from behind me, a calm voice calls out.@
-`"-----!"@
-` I turn around.@
-` There, I see----
+` - Нии-сан, это ты зря.@ Для этого нам понадобится свет.@
+` Неожиданно,
+` за моей спиной раздаётся спокойный голос.@
+` - ...!@
+` Я оглядываюсь.@
+` Там, я вижу...
 
 ; ?? : 01~10 : 04_?04(?????)<??????(?)>
 ld c,":a;image\tachi\aki_t04b.jpg",%type_lshutter_fst
 
-` Akiha,
+` Акиху,
 cl c,%type_crossfade_fst
 ; ?? : 01~10 : 03_?03(?????????)<??????(?)>
 ld c,":a;image\tachi\koha_t03b.jpg",%type_lshutter_fst
 
-` and Kohaku-san.\
+` и Кохаку-сан.\
 cl c,%type_crossfade_fst
 ;CD-DA?????
 play "*1"
 
-`"Akiha......?@ What are you doing here at this hour?@ And why is Kohaku-san with you?@ Did something happen?"@
-` I slip out of bed as I speak.@
-` After exchanging glances, they laugh.@
+` - Акиха?..@ Ты что тут делаешь в такое время?@ И почему Кохаку-сан с тобой?@ Что-то случилось?@
+` Сев на кровати ис весив ноги, говорю я.@
+` Переглянувшись, они смеются.@
 ld c,":a;image\tachi\koha_t03b.jpg",%type_crossfade_fst
-`"Geez Shiki-san, you're too out of it.@ Akiha-sama and I are here because there is something."@
-` Kohaku-san giggles.@
+` - Боже, Шики-сан, ты слишком не в себе.@ Мы с Акихой-сама пришли потому что у нас есть кое-какое дело.@
+` Посмивается Козаку-сан.@
 cl c,%type_crossfade_fst
 
-`"......?"@
-` I don't understand what's so funny.\
+` - ?..@
+` Я не понимаю что смешного.\
 
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
-`"Kohaku, laughing like that is rude to Nii-san.@ I understand how you feel, but you shouldn't surprise him too much.@ We have to save the fun for later, right?"@
+` - Кохаку, так смеяться — грубо по отношению к Нии-сану.@ Я понимаю что ты чувствуешь, но не надо так сильно его удивлять.@ Нам следует приберечь забаву на попозже, не правда ли?@
 ld c,":a;image\tachi\koha_t12.jpg",%type_crossfade_fst
 
-`"Oh, forgive me Akiha-sama.@ He's just so cute when he doesn't understand simple things like this, so I couldn't help it."@
+` - О, простите меня, Акиха-сама.@ Но он такой милый когда не понимает таких простых вещей, и я несмогла удержаться.@
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"...... That's true.@ Certainly Nii-san is a bit dense.@ I mean, not even realizing why the two of us would come here this late at night, not even knowing his own position.@
-` Yes, he's just like an innocent little puppy.@ Cute, but clueless."@
+` - Это так.@ Определённо, Нии-сан немного туговат.@ Он ведь даже не понимает зачем нам приходить сюда так поздно ночью, не понимает собственного положения.@
+` Да, он как невинный маленький щенок.@ Милый, но безмозглый.@
 cl c,%type_crossfade_fst
 
-` With a cold smile, Akiha looks my way.\
+` Холодно улыбаясь, Акиха смотрит прямо в мою сторону.\
 
-`"Aki, ha............?"@
-` Seeing her eyes finally makes me understand that there's something wrong with the way they are acting.@
-` ...... How should I say it.@ I don't sense any hostility, but it feels like they are up to something.\
+` - Аки, ха?..@
+` Взглянув в её глаза, я понимаю, что они ведут себя как-то не так.@
+` Как бы сказать...@ Я не чувствую враждебности, но они словно что-то затеяли.\
 
-`"Akiha, if you have something to say, I'll listen, so just go ahead.@ We have school tomorrow, so we should go to bed early."@
-` I tell her this as coolly as I can.@
+` - Акиха, если тебе есть что сказать, то я слушаю, так что говори.@ У нас завтра школа, и нам следует лечь пораньше.@
+` Как можно спокойнее говорю я.@
 ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 
-`".................."@
-` She stares at me without saying a word; she's not happy with something.@
-` No, more than that...
-` Akiha sighs.@
-`"...... I thought Nii-san would be a little more flustered, but I'm a bit shocked that he's not getting in the mood."@
-` She's talking as if I'm not even here.\
+` - ...@
+` Она смотрит на меня, не говоря ни слова. Она чем-то недовольна.@
+` Нет, не только это...
+` Акиха вздыхает.@
+` - Я думала Нии-сан будет стесняться немного сильнее, но я немного шокирована что он никак не примет нужного настроя...@
+` Она говорит так, будто меня вообще здесь нет.\
 
-`"----?@ Um, Akiha.@ I still don't know what you are trying to say, but......"@
+` - ?..@ Эм, Акиха.@ Я всё ещё не понимаю к чему ты клонишь, но...@
 ld c,":a;image\tachi\aki_t03b.jpg",%type_crossfade_fst
 
-`"Geez, Nii-san.@ Just what kind of upbringing did you have at the Arima household?@
-` Look, someone of the opposite sex is in your room at night.@ A gentleman of your age should be excited just by that, but you're acting like normal.@ It's just natural for a woman like me to be shocked by that."@
-` She glares at me.\
+` - Право же, Нии-сан.@ Как Арима тебя воспитывали?@
+` Послушай, в твоей комнате ночью находятся лица противоплоного пола.@ Джентльмену твоего возраста следует прийти в возбуждение от этого, но ты ведёшь себя как ни в чём не бывало.@ Вполне естественно, что женщина вроде меня будет шокирована.@
+` Она сверлит меня глазами.\
 
-`"...... Wait a minute, Akiha.@ I would notice if girls were in my room, but you guys are different.@ We're brother and sister, so this isn't a big deal, and Kohaku-san comes to check around every night."@
-` Yeah, that's why this isn't surprising.@
-` Akiha is my little sister, and Kohaku-san is a servant.@
-` It isn't a big deal for them to come here, day or night, so I really don't----\
+` - Акиха, погоди-ка...@ Если бы ко мне в комнату зашли девчонки, я бы среагировал, но вы это другое.@ Мы брат и сестра, так что ничего особенного тут нет, и Кохаку-сан сюда почти  каждый вечер заходит.@
+` Да, именно поэтому в этом нет ничего удивительного.@
+` Акиха моя младшая сестра, а Кохаку-сан — служанка.@
+` Нет ничего особенного если они решат ко мне зайти, днём или ночью, и я правда не...\
 
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"In other words, Nii-san, you see us more as family than you do as women?@
-` ............ I see.@ It might be good for you if that was really true."@
-` She looks me over again with that strange smile.@
-` That quiet look that seems to look into my mind.@
-`"--------"@
-` Thump.@ My heartbeat starts to quicken.@
-` ...... There's something, odd.@
-` Being looked at like that by Akiha, I start to feel more and more uneasy.\
+` - Иными словами, Нии-сан, ты нас воспринимашь как семью, а не как женщин?@
+` Понятно...@ Возможно, для тебя было бы лучше если бы так и было.@
+` Она снова оглядывает меня со странной улыбкой.@
+` Это спокойный взгляд, словно заглядывающий мне в мысли.@
+` - ...@
+` Пум.@ Моё сердцебиение учащается.@
+` Тут, что-то, странное...@
+` Находясь под таким взглядом Акихи, я чувствую себя всё более и более неуютно.\
 
-` ...... For example,
+`    Например...
 br
-` Like my true feelings of not being able to accept Akiha as my sister yet since she's changed so much since I last saw her.@
+` Как мои истинные чувства, когда я не могу принять Акиху как сестру, когда она так изменилась с нашей последней встречи.@
 br
-` Like my true feelings of me starting to feel more for Hisui and Kohaku-san than I should to just servants.@
+` Как мои истинные чувства, когда я начинаю проялвять к Хисуи и Кохаку-сан большую симпатию, чем полагается проявлять к просто прислуге.@
 br
-` It feels like she is staring into my hidden feelings and I feel guilty.\
+` Она словно смотрит в мои скрытые чувства, и я начинаю чувствовать себя виновато.\
 
-`"Oh?@ What's wrong, Nii-san?@ Suddenly looking away like that... you look like you're hiding something."@
-`"Wha----"@
-` I realize my cheeks are getting red.@
-`"O-of course not......!@ Just tell me what you want.@ If we don't get some sleep soon, tomorrow will be difficult."@
-` Not to be defeated, I match her stare.@
+` - О?@ Что случилось, Нии-сан?@ Ты вдруг так отворачиваешься... выглядит так, будто ты что-то скрываешь.@
+` - Что...@
+` Я понимаю, что мои щёки заливаются краской.@
+` - К-конечно нет!..@ Прото говори же что хотела.@ Если мы скоро не заснём, завтра будет трудно.@
+` Не желая сдаваться, я встречаю её взгляд.@
 br
-` And then,
-` For some reason, Akiha gives a bored sigh.\
+` И затем,
+` Почему-то, Акиха скучающе вздыхает.\
 
 ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 
-`"How disappointing.@ I was looking forward to seeing your confused face, Nii-san.@ But this is boring.@
-` Well, we'll watch you be embarrassed further, so I guess it will be okay."@
-`"Huh------?"@
-` I climb out of bed.@
-` Wait a minute.@
-` I think she just said something terrible-----\
+` - Как разочаровывающе.@ Нии-сан, я надеялась увидеть твоё стесняющееся лицо.@ Но это скучно.@
+` Ну, мы потом позже посмотрим как ты будешь стесняться, так что я думаю это не страшно.@
+` - Э?..@
+` Я встаю с постели.@
+` Подождите-ка.@
+` Кажется, она только что произнесла нечто ужасное...\
 
-`"Akiha, what are---"@
+` - Акиха, что ты...@
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"Oh?@ Is it okay for you to stand up with your body?@
-` You have anemia, so you should be calm during the night.@
-` You seem to be lacking sleep even now, and you were tired for the past few days, right?@ Please pay more attention to your health, Nii-san.@ Your body is very weak.@
-` So, won't you collapse if you keep pushing yourself like this?"@
-`"Wha------"@
+` - О?@ Можно ли тебе вставать с твоим телом?@
+` У тебя анемия, тебе по ночам следует лежать спокойно.@
+` Даже сейчас ты страдаешь от нехватки сна, и ты устал за последние несколько дней, верно?@ Нии-сан, будь пожалуйста повнимательней к своему здоровью.@ Твой организм очень слаб.@
+` Учитывая всё это, сможешь ли ты стоять на ногах если будешь так напрягаться?@
+` - Что...@
 br
 ;S.E."??"
 wave se0
 
-` -----Thump.@
-`  Her words seem to affect me.\
+`      Пум.@
+`  Её слова, похоже, действуют на меня.\
 
-`"---What are you saying?@ I'm fine---"@
-`"Oh?@ Funny, you're looking a little strained to me.@
-` As if...... yes, your breathing is going to get wilder, your blood will feel sluggish in your veins, and see, your hands and feet are going to start feeling cold."@
+` - О чём ты говоришь?@ Я в порядке—@
+` - О?@ Забавно, мне ты кажешься слегка напряжённым.@
+` Словно бы... да, твоё дыхание становится нерегулярным, кровообращение становится вялым, и, видишь, ты чувствуешь холод в руках и ногах.@
 br
 ;S.E."??"
 wave se0
 
-` -----Thump.@
+`     Пум.@
 br
-`"Hey----Stop, it.@ If you say that-----"@
-` I really... will feel... dizzy---\
+` - Эй — перестань.@ Если ты будешь так говорить...@
+` «... у меня... и правда... закружится голова...»\
 
 ;CD-DA??
 playstop
@@ -181,59 +181,59 @@ waveloop se1
 
 ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 
-`"No, it isn't just your imagination.@ Your body was strange from when we came in, but you just never realized it, Nii-san.@
-` See?@ Kohaku was laughing earlier because you didn't even notice it yourself.@
-` You're so weak that you might collapse at any time, but you don't ever think of your condition, Nii-san."\
+` - Нет, тебе это не кажется.@ Нии-сан, ты был в странном состоянии с тех пор как мы вашли, но ты так этого и не заметил.@
+` Понятно?@ Кохаку только что смеялась потому что ты сам этого не осознавал.@
+` Ты так слаб что можешь в любой момент потерять сознание, но ты даже не думаешь о своё состоянии.\
 
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"You are like a scarecrow, you being the only one not noticing that.@
-` Wearing old clothes, bamboo for arms and legs.@ From far away he looks human... but once you look close, it's just something made up to take human form."@
+` - Ты словно огородное пугало, единственный, кто не замечает этого.@
+` В старых лохмотьях, с бамбуковыми палками вместо рук или ног.@ Издалеко он кажется человеком... но стоит приглядеться, и становится ясно, что это лишь что-то, на человека походящее.@
 br
-`"Wha-----"@
-` Why did she suddenly start talking about all this nonsense?-----\
+` - Что...@
+` Почему она вдруг стала нести этот бред?..\
 
 ld c,":a;image\tachi\aki_t18b.jpg",%type_crossfade_fst
 
-`"Really, you still don't understand?@
-` Your face is pale and your mind is numb.@
-` You really are like a scarecrow, that you don't even want to admit to that.@ Don't you think so too, Kohaku?@ That Nii-san is like an ornament that could break at any time."@
-`"Stu...... That, can't----"@
+` - В самом деле, ты до сих пор не понял?@
+` Ты бледен и твоя я голова плохо работает.@
+` Ты и в самом деле как пугало, что не хочешь признавать это.@ Ты не согласна, Кохаку?@ Нии-сан словно украшение, которое вот-вот сломается.@
+` - Ду... Этого, не...@
 br
-` be true.@ It can't, but...
-` Why----why am I really feeling dizzy----\
+` может быть.@ Не может, но...
+` Почему — почему у меня так закружилась голова...\
 
 ld c,":a;image\tachi\aki_t11b.jpg",%type_crossfade_fst
 
-`"See, you're already at your limit.@
-` Stop pushing yourself and lie down.@
-` But you will stay awake.@
-` You won't be able to move your arms and legs, but you will still be conscious."@
-`"Stu---sto......... p----"@
+` - Видишь, ты уже на пределе.@
+` Перестань насиловать себя, и укладывайся.@
+` Но ты не заснёшь.@
+` Ты не сможешь двигть руками и ногами, но ты будешь в сознании.@
+` - Ду — пере...стань...@
 br
-` My body collapses.@
-` I'm falling towards the bed, just like Akiha said---
+` Моё тело обмякает.@
+` Я падаю на кровать, как и сказала Акиха...
 
-`"----"@
-` No.@ My body isn't strange.@
-` Because, I didn't have any symptoms of anemia earlier---\
+` - ...@
+` Нет.@ С моим телом всё в порядке.@
+` Потому что, до этого у меня не было симптомов анемии...\
 
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"I told you, it does not matter.@ Your body is always under constraint.@
-` So, you have no control tonight either.@
-` ----Because.@
+` - Я же сказала, это не важно.@ Твой организм всегдя находится под нагрузкой.@
+` И потому сегодня ты тоже не сможешь себя контролировать.@
+`      Потому что.@
 br
-` You've always been my puppet, Nii-san."@
+` Ты всегда был моей куклой, Нии-сан.@
 br
-`"Wha-----"@
+` - Что...@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
-` I fall onto the bed.@
-` ...... In the end, Akiha was right.@
-` Just like whenever I have an anemic spell, I lose consciousness---\
+` Я валюсь на кровать.@
+` Акиха оказалась права...@
+` Как всегда бывает при приступе анемии, я теряю ссознание...\
 ;S.E.??
 wavestop
 
@@ -245,660 +245,660 @@ bg "image\bg\bg_40c.jpg",%type_crossfade_mid
 ;CD-DA????????
 play "*5"
 
-`"Hu----h?"@
-` ...... No, this time it's different.@
-` My entire body is numb, but I'm still conscious.@
-` I can't really concentrate, but I'm awake.@
-`"Different, than my, usual, anemia......"@
-` I stare blankly at the ceiling.\
+` - Э...э?..@
+` Нет, в этот раз всё иначе.@
+` Всё моё тело онемело, но я в сознании.@
+` Я совсем не могу сосредоточиться.@
+` - Не как, при моей, обычной, анемии...@
+` Я беспомощно смотрю в потолок.\
 
-`"Akiha-sama?@ Um, did we overdo it......?@ He looks like he really has anemia......"@
-` ...... Kohaku-san's, voice.@
-`"What are you talking about, Kohaku?@ You're the one who put some drugs into his dinner, so he will be a little dazed.@
-` I only wanted him to sleep a bit.@ I could have done that myself."@
-` ...... Akiha sounds dissatisfied.@
-`"...... Hey, you two."@
-` I call out to them, still lying down.@
-` My arms and legs won't work, but I somehow manage to turn my neck and look at both of them.\
+` - Акиха-сама?@ Эм, мы перестарались?..@ Он выглядит так словно у него и правда анемия...@
+` Голос, Кохаку-сан...@
+` - Кохаку, что ты несёшь?@ Ты же сама подмешала ему наркотик в ужин, значит он будет только немного оглушён.@
+` Я только хотела чтобы он немного заснул.@ Я и сама могла бы это сделать.@
+` Голос Акихи звучит недовольно...@
+` - Эй, вы там...@
+` Всё ещё лёжа, я зову их.@
+` Мои руки и ноги всё ещё не работают, но кое-как мне удаётся изогнуть шею и посмотреть на них.\
 
 
 
-`"Shiki-san is very pure, so I guess suggestion seems to work easily on him.@ I suppose that's a good trait about him too."@
+` - Шики-сан очень чист душой, наверно поэтому он легко поддаётся внушению.@ Наверное это тоже его хорошая черта.@
 br
-` ...... It seems they are ignoring me.@
+` Похоже, они меня игнорируют.@
 br
-`"Yes, but Kohaku, when they are too pure... don't they make you want to dominate them?"@
+` - Да, но Кохаку, когда они слишком чисты... тебе разве не хочется подчинить их?@
 br
-` ...... She looks over at me.\
+` Она оглядывает меня...\
 
 ; ?? : H : ?01?????(?????)<??????(?)>
 bg "image\event\aki_h14.jpg",%type_lshutter_fst
 
 
-`"-----"@
-` As soon as our eyes meet, I feel a chill run up my spine.@
-` Coldness sinks into my skin, burrowing under my flesh and into my very core.@
-` I feel as if my brain is becoming numb.@
-` My body feels tied up as she looks at me with those eyes, as if time has stopped and the whole area has frozen up.\
+` - ...@
+` Как только наши взгляды встречаются, я чувствую мороз на коже.@
+` Холод проникает сквозь мою кожу, вгрызаясь в плоть и до самых внутренностей.@
+` Мой мозг оцепенел.@
+` Она смотрит на меня таким взглядом, и мне начинает казаться, что время остановилось, я чувствую себя связанным.\
 ;S.E."??"
 wave se0
 
-`"A----Aki, ha?"@
-`".................."@
-` She doesn't say a word.@
-` ...... Thump.@ My heart beats loudly.@
-` Her face is entirely devoid of expression, but her eyes---her eyes glow like a predator stalking her prey-----\
+` - А... Аки, ха?@
+` - ...@
+` Она не говорит ни слова.@
+` Пум...@ Громко отдаётся стук моего сердца.@
+` Её лицо совершенно ничего не выражают, но её глаза — её газа сияют как у хищника, выслеживающего добычу...\
 
 
-`"Domination, huh?@ Well, I like seeing his troubled face as much as his happy face, so I understand what you mean, Akiha-sama."@
-` ...... Next to Akiha, Kohaku-san tilts her head.@
-` Akiha doesn't look at Kohaku-san, but she gives a small nod.\
+` - Подчинение, значит?@ Ну, мне его встревоженное лицо нравится не меньше чем его счастливое лицо, поэтому я вас понимаю, Акиха-сама.@
+` ...Рядом с Акихой, Кохаку-сан наклоняет голову набок.@
+` Акиха не оглядывается на Кохаку-сан, но несильно кивает.\
 
-`"Let's see, it's like a painting.@
-` Hey Kohaku, let's say there's a painting that is well done, but not magnificent.@ Because it's well done, you don't have any complaints, but you can't like it because it's just well done and doesn't have anything interesting about it.@
-` In that case, do you know how to make it special for you, Kohaku?"@
-`"Umm, let's see...... I don't know, Akiha-sama."\
+` - Это как картина.@
+` Кохаку, предположим, что есть некая картина., которая хорошо написана, но не великолепна.@ Поскольку она хорошо написана, у тебя нет замечаний, но она не может тебе понравится потому что она просто хорошо написана и ничего интересного в ней нет.@
+` Кохаку, ты знаешь как в таком случае сделать её для себя особенной?@
+` - Эмм, посмотрим... Я не знаю, Акиха-сама.\
 
-`"It's simple.@ You just have to paint over the painting and make it worthless.@
-` As a result, that good painting will turn into trash.@ But the process, breaking what is "good" for you, isn't it wonderful?\
+` - Всё просто.@ Нужно только закрасить картину, тем самым испортив её.@
+` В итоге хорошая картина станет мусором.@ Но процесс, разрушение «приятной» для тебя вещи, разве это не чудесно?\
 
-`"---Isn't it beautiful just thinking about it?@
-` I feel love and regret for that painting.@
-` The pain as the painting gets ruined, anger at myself for ruining it, frustration because it's beyond repair, and more than anything else, the fact that I am the only one who can break it is absolute.@
-` I think it is the happiness of owning it.@ Because it is the only one, and because the wounds on it are put on there by me, you feel more attached to it.@
-` Because the more marks you put on it, the more it becomes yours."@
+` - Разве сама мысль об этом не прекрасна?@
+` Я чувствую любовь и сожаление к этой картине.@
+` Боль от разрушения картины, гнев на себя, за то что я её разрушаю, раздражение, потому что её невозможно исправить, но больше всего, то, что только я могу разрушить её, это просто несравненно.@
+` Я думаю, это и есть счастье обладания.@ Потому что вещь только одна, и потому что раны на ней нанесены моей рукой, начинаешь ощущать к ней привязанность.@
+` Потому что чем больше следов ты оставишь, тем более эта вещь становится твоей.@
 br
-` ----Without any motion.@
-` Like a machine, Akiha laughs.\
+`       Абсолютно без движения.@
+` Акиха смеётся словно механическая.\
 
-`"Hey, Kohaku.@ Don't you want to break that?@
-` I think it will be... enjoyable."@
+` - Эй, Кохаку.@ Разве ты не хочешь сломать это?@
+` Я думаю, это будет... приятно.@
 br
 ; ?? : ?? : ?????(?)<??????(?)>
 bg "image\bg\bg_40c.jpg",%type_lshutter_mid
 
 
-`"Wha----Hey, Akiha............!"@
-` I shout.@
-` But Akiha doesn't respond, and Kohaku-san with her smile,
+` - Что... Эй, Акиха!@
+` Выкрикиваю я.@
+` Но Акиха не отвечает, и Кохаку-сан, улыбаясь своей улыбкой,
 br
-`"Yes.@ I understand, Akiha-sama,"@
+` - Да.@ Я понимаю, Акиха-сама.@
 br
-` responds like that.\
+` говорит такие слова.\
 
-`"Erggh!"@
-` I rally all of the strength in my body.@
-` I strain as hard I can and order my lifeless limbs to stand.@
-`"Tss,n~~~~~~~.........!!!!!"@
-` I strain.@
-` I gradually feel my ability to move my arms and legs starting to return---\
+` - Эррр!@
+` Я собираю все свои силы.@
+` Я напрягаюсь как только могу и приказываю своим  безжизненным конечностям встать.@
+` - Цсс, нннннннннн!!!@
+` Я напрягаюсь.@
+` Я чувствую, как постепенно ко мне возвращается способность двигать руками и ногами...\
 
 ; ?? : 01~10 : 02_?02(???????????)<??????(?)>
 ld c,":a;image\tachi\koha_t02b.jpg",%type_lshutter_mid
 
-`"That is enough, don't do that, Shiki-san.@ You are anemic, so you shouldn't strain your body too much."@
-` With her usual smile, Kohaku-san crouches beside the bed.@
+` - Хватит, Шики-сан, не делай этого.@ У тебя анемия, тебе нельзя перенапрягаться.@
+` Улыбаясь, Кохаку-сан приседает у кровати.@
 cl c,%type_crossfade_fst
 
-`"Kohaku-san, what are----"@
-`"What does it look like?@ I am tying you down so you won't struggle.@ It's okay, I'll only tie your wrists and ankles so it won't hurt that much."@
-`"Tie?@ What are you thinking----owww......!" I clench my jaw at the sudden pain.@
-` As if she had a lot of practice, Kohaku-san expertly binds my hands and feet to the bed.\
+` - Кохаку-сан, что ты—@
+` - А на что это похоже?@ Я тебя привязываю, чтобы ты не дёргался.@ Ничего страшного, я свяжу только запястя и лодыжки, так что сильно больно не будет.@
+` - Связываешь?@ Ты чего вообще — аййй!..  — я сжимаю челюсти от резкой боли.@
+` Кохаку-сан ловко, словно обладая большим опытом, привязывает мои руки и ноги к кровати.\
 
 ;S.E."??"
 wave se0
 
-`"Tss..................!"@
-` I feel a tinge in the back of my head.@
-` I don't know what those two are thinking.@
-` But being bound hand and foot on my bed, just imagining what I look like makes me go crazy.@
-` Having them see me like that, I'm so embarrassed I want to die----\
+` - Цс!..@
+` Я чувствую, будто что-то скапливается в моём затылке.@
+` Я не знаю, что они задумали.@
+` Но я привязан к кровати по рукам и ногам, и от одной мысли, как я сейчас выгляжу, мне хочется сойти с ума.@
+` Когда я перед наими в таком виде, мне так стыдно что аж сдохнуть хочется.\
 
-`"Kohaku-san......!@ Please stop fooling around......!"@
+` - Кохаку-сан!@ Пожалуйста, хватит шутить!..@
 ld c,":a;image\tachi\koha_t15.jpg",%type_crossfade_fst
-`"Oh, Shiki-san, you're blushing.@ To scream so much, it must be your first time being tied down."@
-`"............!@ Of, Of course it is!@ Look, just untie me!"@
+` - О, Шики-сан, ты краснеешь.@ Ты так кричишь, тебя наверное впервые так связывают.@
+` - !@ Ко, конечно впервые!@ Слушай, просто развяжи меня!@
 ld c,":a;image\tachi\koha_t02b.jpg",%type_crossfade_fst
 
-`"Akiha-sama, Shiki-san is saying all these things.@ He doesn't seem to realize his position, so isn't it alright to treat him more roughly?"\
+` - Акиха-сама, Шики-сан говорит все эти вещи.@ Похоже он не понимает своего положения, поэтому может стоит обойтись с ним более грубо?\
 
 cl c,%type_crossfade_fst
 
-`"Eh-----Kohaku, san?"@
-` Still smiling, she gazes down at me tied down.@
-` Her look is far more frightening than Akiha's sharp gaze.@
-` Is it like the cruelty of young kids?@ Kohaku-san seems to be enjoying this far more than Akiha.\
+` - Э... Кохаку, сан?@
+` Продолжая улыбаться, она свысока смотрит на моё связаное тело.@
+` Её выражение лица пугает куда больше, чем острый взгляд Акихи.@
+` Это как жестокость маленьких детей?@ Кохаку-сан это похоже нравится гораздо больше чем Акихе.\
 
 
 
 
-`"...... I suppose.@ Nii-san wanted you, so I'll leave the manner of lovemaking to you, Kohaku.@
-` But, don't overdo it though.@ Even if he does seem like a doll, Nii-san cannot be fixed once he's broken."@
-`"That's true.@ I'll try to be gentle, then."@
-` So saying,
-` Kohaku-san begins to take off my clothes.\
+` - Пожалуй, да...@ Нии-сан хотел тебя, поэтому можешь заниматься с ним сексом как захочешь.@
+` Однако, не перестарайся.@ Может он и похож на куклу, но если Нии-сан сломается, починить его будет нельзя.@
+` - И правда.@ Тогда я постараюсь быть поласковей.@
+` С этими словами,
+` Кохаку-сан начинает стаскивать с меня одежду.\
 
-` She straddles me as she begins her work.@
-` In that position, she slowly undoes the buttons of my shirt, one by one.@
-` With this task complete, her fingers move down to my pants.@
-`"Wha, wha, wha............!"@
-` I try to flail around, but it's no use.@
-` I hear a dry, metallic sound.@
-` Kohaku-san slowly begins to slide my zipper down.\
+` Сев на меня сверху, она приступает к своему делу.@
+` Она медленно расстягивает пуговицы на моей рубашке, одну за другой.@
+` Закончив с этим, её пальцы спускаются к моими штанам.@
+` - Э, э, э...!@
+` Я пытаюсь дёргаться, но это бесполезно.@
+` Я слышу сухой, металлический звук.@
+` Кохаку-сан начинает медленно расстёгивать мне молнию.\
 
-`"------Wha, what, are you, do............!"@
-` I can barely speak.@
-` I can't understand how or why all this is happening.\
-` I can't grasp how I came to be tied to my bed, or why Kohaku-san is taking off my clothes.\
+` - … Чт... что, ты, де...!@
+` Я едва могу говорить.@
+` Я не понимаю, как и почему это произошло.\
+` Я не могу понять, как я оказался привязаным к кровати, или почему Кохаку-сан меня раздевает.\
 
-`"Shiki-san?@ I haven't done anything yet... does it really feel that good already......?"@
-` With those outrageous words, Kohaku-san places her hand lightly on the front of my underwear.@
-`"Th... that's not it, but, Kohaku-san---!"@
-`"Oh really?@ Then you won't mind if I see all of you, Shiki-san."@
-`"Tssss!"@
-` She pulls my underwear down.@
-`"----------"@
-` My mind goes entirely blank.@
-` She's exposed my lower body.@
-` My limp member is unveiled for all to see.\
+` - Шики-сан?@ Я же даже ещё ничего не сделала... тебе и правда уже так приятно?..@
+` Произнеся эти шокирующие слова, Кохаку-сан остородно кладёт урку мне на трусы.@
+` - Д... дело не в этом, но, Кохаку-сан!@
+` - Правда?@ Тогда ты не будешь против если я увижу тебя всего, Шики-сан.@
+` - Цссссс!@
+` Она стягивает с меня трусы.@
+` - ...@
+` Мой разум полностью опустел.@
+` Она оголила мою нижнюю часть тела.@
+` Мой вялый член предстал на всеобщее обозрение.\
 
-`"Aha!@ Shiki-san, you're so small and you look so cute!"@
-` Kohaku-san speaks happily from somewhere near my pelvis.@
-` Being bound and stared at by Akiha's cool gaze makes me shrivel even more.@
-`"--------!"@
-` The rope creaks as I strain against it.@
-` Embarrassed, I wanted to cover myself with both hands.@
-` But bound as I am, I can't even do that.@
-`".................."@
-` Akiha continues to stare at me without speaking.@
-` Blood rushes to my head.\
+` - Аха!@ Шики-сан, ты такой маленький и симпатичный!@
+` В направлении моего таза раздаётся обрадованный голос Кохаку-сан.@
+` Связанный, находясь под холодным взглядом Акихи я съёживаюсь ещё больше.@
+` - !@
+` Верёвка скрипит когда я птаюсь порвать её.@
+` Смущаясь, я хочу прикрыться обеими руками.@
+` Но путы не позволяют мне даже этого.@
+` - ...@
+` Акиза продолжает смотреть на меня, ничего не говоря.@
+` Кровь ударяет мне в голову.\
 
-`"Ah-----ck."@
-` I grit my teeth.@
-`"It's okay, Shiki-san.@ I'll help you perk up, so don't worry..."@
-` With no regard for what I want, Kohaku-san's fingers reach out to me.@
-`"N-------!"@
-` My back arches in response.@
-` Her fingers crawl up my thigh like an unhurried spider, her ultimate destination all too obvious.\
+` - А...кк.@
+` Я сжимаю зубы.@
+` - Ничего страшного, Шики-сан.@ Я помогу тебе взбодриться, ты не переживай...@
+` Не обращая внимания на то, чего хочу я, пальцы Кохаку-сан приближаются ко мне.@
+` - Н!..@
+` Моя спина выгибается в ответ.@
+` Словно паук, её рука неспешно взбирается по моему бедру, её конечно назначение слишком очевидно.\
 
-` One by one, they continue to advance with insidious slowness.@
-` So slowly.@ The feeling of being touched by someone else.@ ...... And the sensation that it is nearing my most personal space, throws my brain headlong into chaos.\
+` Один а другим, с коварной неспешностью её пальцы продвигаются вперёд.@
+` Так медленно.@ Ощущение чужого прикосновения....@ И осознание, что оно приближается к моему самому интимному месту, ввергает мой разум в полную сумятицу.\
 
-`"Hm......... What a bad boy, Shiki-san.@ Getting this excited already?"@
-` Tap.@
-` As if playing a keyboard, Kohaku-san feels along my inner thigh.@
-`"-----, h............!"@
-` I try to hold my breath.@
-` I close my eyes to avoid seeing her face, but I can still feel a piercing gaze boring into me.@
-` ...... It goes without saying.@
-` It is Akiha's stare.@
-` As long as that's there---I can't let anything out of my mouth.\
+` - Хм... Какой плохой мальчик, Шики-сан.@ Уже так возбудился?@
+` Топ.@
+` Словно нажимая на клавиши пианино, пальцы Кохаку-сан пробегают по внутренней стороне моего бедра.@
+` - ... х............!@
+` Я пытаюсь задержать дыхание.@
+` Я закрываю глаза чтобы не видеть её лица, но я всё равно ощущаю пронзительный взгляд, сверлящий меня.@
+` Ясно без вопросов.@
+` Это взгляд Акихи.@
+` Пока он сверлит меня — я не могу издать ни звука...\
 
-` ...... Kohaku-san keeps going.@
-` The delicate fingers creeping up my thigh---finally arrive at their destination.@
-`"----, -----!"@
-` A jolt rushes through me.@
-` With just her finger, so softly they barely make contact, Kohaku-sa-Kohaku plays around... my whole... shaft.\
+` Кохаку-сан продолжает своё дело.@
+` Её тонкие пальцы, взбиравшиеся по моему бедру... наконец достигают своей цели.@
+` - ----, -----!@
+` Разряд электричества пронзает меня насквозь.@
+` Одними пальцами, так аккуратно что они едва соприкасаются, Кохаку-са-Кохаку проводит ими по... моему... стволу.\
 
-`"A----, gg---"@
+` - А... гг...@
 br
-` ---I don't... understand.@
+`     Я... не понимаю.@
 br
-` Does it feel this good to be touched by someone else, or are her fingers special?@
-` My blood starts pounding as her hand takes me in a light embrace.@
-` Thump.@ Thump.@
-` In spite of my conscience, I find myself starting to get hard.\
+` Мне так приятно от чужого прикосновения, или её пальцы особенные?@
+` Моя кровь вскипает когда её рука нежно обхватывает меня.@
+` Пум.@ Пум.@
+` Вопреки уколам совести, мой член оживляется.\
 
-`"Mm...... Shiki-san, you have to speak up----"@
+` - Мм... Шики-сан, не надо сдерживать голос...@
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_40c.jpg",%type_nowaitdisp
 
-`"-----,m----!?"@
-` The bed creaks.@
-` Just now---I felt something slippery glide along the length of my scrotum.@
-`"Hey----Kohaku... san---!"@
-` I lift my head and look down at her.@
+` - ..., м!?@
+` Кровать поскрипывает.@
+` Только что — я почувствовал, как что-то скользкое скользнуло по моей мошонке.@
+` - Эй — Кохаку...сан!@
+` Подняв голову, я смотрю на неё.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-`"What-----"@
-` Even though I expected it,
-` looking at the scene enchants my already confused brain.\
+` - Аэ...@
+` Хоть я и ожидал этого,
+` это зрелище завораживает мой и без того смятённый ум.\
 
 ; ?? : H : ?01??(?????)<???????(?)>
 bg "image\event\koha_h10.jpg",%type_lshutter_mid
 
 
-`"Kohaku, san---what, are you---"@
-`"What am I doing?@ I am servicing you, of course."@
-` She answers as if what she's doing is perfectly natural.@
-` But, that---to lick me there---
-`"Y, you can't......!@ Don't you think there's something wrong with doing something that dirty......!?"@
-`"No, I don't.@ Because these are Akiha-sama's orders, there's no room for me to think."@
-` Akiha's orders?@ That's ridiculous.\
+` - Кохаку, сан... что, ты...@
+` - Что я делаю?@ Доставляю тебе удовольствие.@
+` Она говорит так, будто делает что-то совершенно нормальное.@
+` Но, это... облизнуть меня там...
+` - Н, нельзя!..@ Ты разве не думаешь, что делать что-то столь непристойное неправильно...?!@
+` - Нет, не думаю.@ Раз это приказала Акиха-сама, у меня нет места для раздумий.@
+` Приказ Акихи?@ Быть не может.\
 
-`"A, Ah, Akiha..................!!!!"@
-`"What is it, Nii-san?@ I'm right here.@ There's no need to shout."@
-`"Stop fooling around......!@ What are you thinking!?@ This is wrong......!@ Why are you... making Kohaku-san do this......!?"@
+` - А, Аа, Акиха!!!@
+` - Что такое, Нии-сан?@ Я вот она, рядом.@ Незачем кричать.@
+` - Хватит ерундой страдать!@ О чём ты думаешь?!@ Это неправильно!..@ Почему ты... заставляешь Кохаку-сан делать это...?!@
 ; ?? : H : ?01?????(?????)<??????(?)>
 bg "image\event\aki_h14.jpg",%type_bshutter_fst
 
-`"Oh, just because I want to see it."@
+` - О, просто потому что мне хотелось на это посмотреть.@
 br
-` ---Simple.@
-` She declares this as if I'm some sort of idiot making a big deal out of nothing.\
+`     Просто.@
+` Она говорит это так словно я какой-то идиот, поднимающий шум и ничего.\
 
 
-`"...... H, hey.@ Y, you want to see it, Akiha......?"@
-`"Is that a problem?@ I am the head of the Tohno household.@ When you returned here, you became mine.@ You must have known that when you came back."@
-`"Wha-----"@
-` Is she kidding?@
-` ...... Certainly, I knew since she's the heiress for the Tohno family, I'm just a hanger-on, but---\
+` - ...Э, эй.@ Т, тебе хотелось на это посмотреть, Акиха?..@
+` - Это проблема?@ Я — глава семьи Тоно.@ Когда ты вернулся сюда, ты стал моей собственностью.@ Ты должен был понимать это, когда возвращался.@
+` - Что...@
+` Она что, шутит?..@
+` Конечно, я знал что раз она — наследница семьи Тоно, то я только иждивенец, но...\
 
-`"You understand, don't you?@ Tohno Shiki can only live in the Tohno household.@ You have nowhere else to go, and you cannot separate yourself from me.@
-` Tohno Shiki is owned by the Tohno family, and I am the head of that family, so you can't disobey me."@
+` - Ты же понимаешь, не так ли?@ Тоно Шики может жить только в доме Тоно.@ Тебе некуда больше идти, и ты не можешь уйти от меня.@
+` Тоно Шики — собственность семьи Тоно, и я глава этой семьи, и поэтому ты не можешь ослушаться меня.@
 br
-` ---Why is it?@
-` Akiha's words... just listening to them makes me believe that it's the truth---\
+`     Почему это?@
+` Слава Акихи... звук её голоса почему-то убеждает меня, что они истинны...\
 
-`"See?@ You're my possession, so I can do whatever I want with you, Nii-san.@
-` I just wanted to see your dirty, indecent body.@ I'm not interested in anything else, and I don't want to hear anything you have to say."@
-` Akiha's voice sounds terribly disinterested.@
-` She-----she made Kohaku-san do such a dirty thing, but it seems like she's getting disappointed.\
+` - Видишь?@ Ты моя собственность, и я могу делсть с тобой всё что захочу, нии-сан.@
+` Я только хотела увидеть твоё грязное, непристойное тело.@ Всё остальное меня не интересует, и я не желаю слушать что ты там говоришь.@
+` Голос Акихи звучит ужасно безразлично.@
+` Она — она заставила Кохаку-сан делать такую неприличную вещь, но похоже она разочарована.\
 
-`"Damn it!@ Really, what are you thinking, Akiha......!?@ If you don't stop this now, I'll really get angry......!"@
-`"Is that so?@ Funny, your body seems to like it just fine."@
-`"Wha------"@
-` Having said that, my whole body becomes hot.@
-` Just like she said, my manhood has hardened from Kohaku-san's teasing.@
-` Even though I deny it with my words, my body seems to have a mind of its own.\
+` - Чтоб его!...@ В самом деле, Акиха, о чём ты только думаешь?!@ Если ты немедленно не прекратишь это, я правда разозлюсь!..@
+` - Вот как?@ Забавно, твоё тело, похоже, совсем не против.@
+` - Что...@
+` Только я произношу это, как во мне вспыхивает огонь.@
+` Как она и говорила, моё достоинство только корепло от ласок Кохаку-сан.@
+` Хоть я и торицаю это словами, у моего тела, похоже, собственное мнение.\
 
-`"Now do you understand?@ This is what you wanted in the first place, Nii-san.@ There's no escaping it."@
-`"Th------"@
-` That's, not... true.@
-` The instant I try to deny it, Kohaku-san touches my shaft with her fingers.@
-` That fully erect, expanded piece of meat.@
-` Kohaku-sa... n... takes her delicate fingers and wraps them around it.\
+` - Теперь ты понимаешь?@ Это то, чего хотел ты сам, Нии-сан.@ От этого не скрыться.@
+` - Э—@
+` Это, не... правда.@
+` Как только я открываю рот чтобы сказать это, пальцы Кохаку-сан прикасаются к моему члену.@
+` К этому торчащему, разбухшему куску плоти.@
+` Кохаку-са..н... её тонкие пальцы оплетают его.\
 
-`"------A, gg............!"@
-` More than just her touch, the simple fact that it's Kohaku's fingers causes my mind to white out.@
+` - А...гг!..@
+` Больше чем её прикосновение, от самого факта что это пальцы Кохаку, мои глаза на секунду застилает белой пеленой.@
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
-`"Damn-------it."@
-` I close my eyes and grit my teeth, desperately trying to rid my mind of these perverted thoughts.@
+` - Чтоб...его...@
+` Я закрываю глаза и сжимаю зубы, отчаянно пытаясь прогнать из головы эти извращённые мысли.@
 br
-` ----But, it's just wasted effort.@
+`     Но, всё это впустую.@
 br
-` Kohaku's fingers.@
-` Their soft touch make me more excited.\
+` Пальцы Кохаку.@
+` Их мягкое прикосновение возбуждает меня ещё больше.\
 
-`"Heh... that's wonderful Shiki-san.@ You're so lively.@ Amazing."@
-` Her voice is getting heated.@
-`"But there is still a long way to go.@ See--Akiha-sama is watching, so you should make it a little bigger."@
-` Suddenly,
-` her fingers start to move.@
-` Sliding sensually up and down my entire length.@
+` - Хе... вот так, Шики-сан.@ Ты такой бодрый.@ Неверотяно.@
+` Её голос звучит всё более страстно.@
+` - Но, нам ещё рано останавливаться.@ Видишь — Акиха-сама смотрит, поэтому тебе надо чтобы он стал ещё чуть побольше.@
+` Вдруг,
+` её пальцы приходят в движение.@
+` Вверх и вниз, они сладострастно скользят по всей длине моего члена.@
 ; ?? : H : ?01??(?????)<??????(?)>
 bg "image\event\koha_h10b.jpg",%type_lshutter_fst
 
-`"Ts----, ah.........!"@
-` I let out a weak gasp.@
-` Unprepared for this sudden attack, my back arches in surprise.\
+` - Цс—, а...!@
+` Я издаю слабый стон.@
+` Не ожидая этой внезапной атаки, моя спина выгибается дугой.\
 
 
 
 
 
 
-`"Hm...... You really are excited.@ I can't believe you're getting bigger."@
-` Kohaku sounds as if she really is impressed, using three fingers to stroke me like she is playing with a new toy.@
-`"Ah----, Kohaku, s... to---"@
-` It almost feels as if she's squeezing me rather than stroking me.@
-` She grins like she is truly enjoying this.\
+` - Хм... Ты и правда возбудился.@ Не могу поверить, ты продолжаешь расти.@
+` Голос Кохаку звучит так будто она и правда поражена. Тремя пальцами она продолжает поглаживать меня, словно играя с новой игрушкой.@
+` - А..., Кохаку, пе... реста...@
+` Ощущение почти такое, будто она меня выжимает.@
+` Она широко улыбается, будто ей это доставляет удовльсьтвие.\
 
-`"Ha, ah----,...............!"@
-` A weak groan sneaks past my lips, despite my attempts to stifle it.@
-`"Ohh.@ You can't keep it in, can you, Shiki-san?@ Does it really feel that good?@ Even though I'm doing this to you against your will, and Akiha-sama is watching, it really feels so good that you can't even hold back?"@
-`"Ts------"@
-` Kohaku's teasing voice.@
-` Makes me remember.@
-` Akiha.@ She's right there, and watching me----\
+` - Ха, аааа...!@
+` Несмотря на все мои попытки сдержаться, из меня вырывается слабый стон.@
+` - Оо.@ Ты не можешь держать это в себе, не правда ли, шики-сан?@ Тебе правда так приятно?@ Хоть я и делаю это против твоей воли, и на тебя смотрит акиха-сама, тебе так приятно, что ты не можешь сдержаться?@
+` - Тц...@
+` Дразнящий голос Кохаку.@
+` Напоминает мне.@
+` Акиха.@ Она рядом, и наблюдает за мной...\
 
-` In the midst of my mingling embarrassment and resentment, these sensations force their way through.@
-` I start to bulge out against Kohaku's delicate fingers.@
-`"Kya---!"@
-` Kohaku's small voice cries out.@
+` Эти ощущения пробиваются сковзь смесь моего стыда и обиды.@
+` Я вырываюсь из тонких пальцев Кохаку.@
+` - Аа!@
+` Негромко вскрикивает Кохаку.@
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 ; ?? : H : ?01?????(?????)<??????(?)>
 bg "image\event\aki_h14.jpg",%type_crossfade_fst
 
-`"---------"@
-` I can feel Akiha's gaze pierce my skin.\
+` - ...@
+` Я чувствую, как меня буравит взглят Акихи.\
 
-`"----Hmm.@ Nii-san, you've finally decided to be honest with yourself, it seems."@
-` ...... Akiha looks cool and composed... the exact opposite of me at this moment.@
-`"Okay Kohaku.@ Please begin."@
-` Her voice is like ice.@
-` Kohaku gives a quick affirmative... and a sudden flash runs through me.\
+` - Хмм.@ Нии-сан, похоже ты наконец решил быть честным с собой.@
+` Акиха выглядит спокойной и хладнокровной... полная противоположность меня сейчас.@
+` - Хорошо, Кохаку.@ Можешь начинать.@
+` Её голос холоден как лёд.@
+` В ответ Кохаку- кратко кивает... и меня пронзает резкая вспышка.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
-` I feel something... wet.@
-` My hot, burning manhood suddenly comes into contact with something very wet-----
-`"Ah----Ah----!?"@
+` Я чувствую что-то... влажное.@
+` Мой горячий, пылающий член неожиданно ощущает что-то очень влажное...
+` - А...А...?!@
 ; ?? : H : ?02?????<???????(?)>
 bg "image\event\koha_h11.jpg",%type_crossfade_fst
 
-` I throw my head up, and in that instant, lose all the remaining reason I have left.@
-` Kohaku's tongue is licking me.\
+` Я резко поднимаю голову, и в тот же момент, теряю последние остатки здравого рассудка.@
+` Язык Кохаку прикасается ко мне.\
 
-`"Mm...... Shiki-san, it's so... hot."@
-`"Tss........., tss........."@
-` Kohaku's... sweet breath swirling around me... is making me crazy.@
-` I feel my entire being focus on that one point.@
-`"...... Ah...... mmph...... mm,...... ah......"@
-` Her fingers hold me... and as I swell, she licks me with her delicate pink tongue.@
-`"Ah----mm...... Shiki... san---"@
-` ...... Her movements... are very careful and enthusiastic.\
+` - Мм... Шики-сан, он такой... горячий.@
+` - Тц..., ссс....@
+` Сладкое дыхание... Кохаку... окружает меня... это свожит меня с ума.@
+` Я чувствую, как всё моё существо сосредоточилось в одной точке.@
+` - А...мммф... мм,.. а...@
+` Её пальцы обхватывают меня... и она облизывает своим нежным розовым языком мой разбухающий член.@
+` - А... мм... Шики...сан...@
+` Её движения... очень аккуратные, и полны желания.
 
-` The back of her tongue.@
-` The tip of it as it slides around me.@
-` The lips that embrace my tip.@
-` She licks me as if trying to taste everything.@
-` Her small tongue laps diligently at my tip.@
-` This sensation.@
-` It's so much better than her fingers alone.@
-` Why----with just her tongue, can she make my heart pound like this?\
+` Задняя часть её языка.@
+` Его кончик, скользящий по мне.@
+` Губы, обхватившие головку моего члена.@
+` Облизывая меня, она словно хочет попробовать всё.@
+` Её маленький язык прилежно оборачивает вокруг моей головки.@
+` Этот ощущение.@
+` Это гораздо лучше, чем от одних её пальцев.@
+` Почему — почему, одним только языком она заставляет моё сердце так колотиться?\
 
 
-`"Shiki-san...... hey, Shiki-san, does... it... feel good......?"@
-` She looks at me with glittering, upturned eyes.@
-` But she still doesn't stop caressing me.@
-`"A----, ha, gh----............!"@
-` Resisting the heat rising inside of me, I grip the bed sheets.\
+` - Шики-сан... эй, Шики-сан, тебе... хорошо?..@
+` Она поднимает на меня свои влажные, бестящие глаза.@
+` Но она и не перестаёт ласкать меня.@
+` - А..., ха, гх...!@
+` Сдерживая поднимающийся изнутри жар, я вцепляюсь руками в простыни.\
 
-` Her dainty, delicate fingers continue to embrace me.@
-` Indecent slurping noises.@
-` From my testicles to my tip, her fingers stroke me with wet slopping noises.@
+` Её тонкие, изящные пальцы продолжают держать меня.@
+` Непристойные хлюпающие звуки.@
+` От яичек до самой головки, её пальцы поглаживают меня с влажным хлюпающим звуком.@
 br
-`"-----, nn----!"@
+` - ... нн...!@
 br
-` ----The pleasure almost makes me go mad.@
-` As if studying it all, Akiha watches the two of us----\
+`      Наслаждение почти своит меня с ума.@
+` Словно изучая нас, Акиха продолжает наблюдать за нами...\
 
-`"Mm...... Shiki-san, moan louder."@
-` This time, she targets the very tip of my shaft with her tongue.@
-` The sensation feels even better than before---
+` - Мм... Шики-сан, постанывай громче.@
+` В этот раз, она прикасается языком к самому кончику моего члена.@
+` Это даже приятней чем раньше...
 br
-`"------, H----"@
+` - ..., Х...@
 br
-` I twist the sheets as I try resist these sensations.@
-` Her hot tongue seems to suck at me just by making contact.@
-` She seems to be sucking the very life out of me.\
+` Я скручиваю простыни, старясь вытерпеть это ощущение.@
+` Её горячий язык как будто присасывается ко мне.@
+` Она словно высасывает из меня жизнь.\
 
-`"Ah...... mm, mha, ah,............ mmh."@
-` Her wet, sticky tongue.@
-` From the very base of my shaft around my testicles, I start to feel a light pain.@
-` Viscous fluid starts to dribble forth.\
+` - А... мм, мха, а... ммх...@
+` Её влажный, лпкий язык.@
+` У самого основания моего члена, около яичек, я начинаю чувствовать лёгкую боль.@
+` Из меня начинает сочиться клейкая жидкость.\
 
-`"...... Heh, Shiki-san, how indecent."@
-` I want to look away from her.@
+` - ...Хее, Шики-сан, как непристойно.@
+` Я хочу отвернуться от неё.@
 br
-` -----But.@
-` If I do that, I'll have to look at Akiha.@
+` Но...@
+` Если я сделаю это, мне придётся смотреть на Акиху.@
 br
 ; ?? : H : ?01?????(?????)<???????(?)>
 bg "image\event\aki_h14.jpg",%type_crossfade_fst
 
 
 
-`"........................"@
-` Akiha doesn't say a word.@
-` She simply watches our exchange in silence.@
-` Even when our eyes meet, she just brushes her hair away from her eyes and acts like she doesn't care-----\
+` - ...@
+` Акиха не говорит ни слова.@
+` Она только молча наблюдает за нами.@
+` Даже когда наши глаза встретились, она только убирает волосы с лица, будто её всё равно...\
 
-`"Ga......"@
-` That makes my heart pound even faster.@
-` Akiha is watching me.@
-` My sister is watching me, and I can't stop it.@
-` I'm horny like a beast, and I can't resist Kohaku's caress-----\
+` - Га...@
+` Это только заставляет моё сердце биться ещё быстрее.@
+` Акиха наблюдает за мной.@
+` Моя сестра наблюдает за мной, и я не могу этому помешать.@
+` Я завёлся как зверюга, и я не могу устоять перед ласками Кохаку...\
 
 ; ?? : H : ?01??(?????)<???????(?)>
 bg "image\event\koha_h10b.jpg",%type_crossfade_fst
 
 
-`"Hey.@ Shiki-san, don't look away."@
-`"-------"@
-` Kohaku pulls me back to reality.@
-` ...... Her stroking fingers are now coated with sticky fluid.@
-` Not just her saliva.@
-` But from me as well.\
+` - Эй.@ Шики-сан, не отворачивайся.@
+` - ...@
+` Кохаку возвращает меня в действительность.@
+` Её пальцы теперь покрыты клеёкой жидкостью...@
+` Не только её слюной.@
+` Но и моей влагой.\
 
-` ...... Is it... dirty?@
-` Kohaku licks my wet member and starts to stroke it with her fingers.@
-` Wet sounds fill the air.@
-` Her actions are wilder than before, her movements making loud noises.\
+` … Он... грязный?@
+` Кохаку вылизывает мой влажный член чтобы снова взять его в руку.@
+` В воздухе раздаются влажные звуки.@
+` Её движения теперь резче чем раньше, она издаёт много шума.\
 
-`"-----,gah-----!"@
-` It starts to fill up at the back of the shaft.@
-` Her tongue is enough to make me explode, but her wet fingers increase the sensation.@
-`"Ko... haku-----that's, enough----stop."@
-` I try to hide my gasping as I manage to speak.@
-` Kohaku... just giggles and looks back at me.@
-`"No, I can't do that Shiki-san.@ Akiha-sama wants to see you finish.@ So there's a lot left to do."\
+` - …  гахх!..@
+` Что-то начинает накапливаться у сонования моего члена.@
+` От её языка я готов был разорваться, но её влажные делают ощущение ещё острее.@
+` - Ко...хаку... хватит, достаточно... перестань.@
+` Сумев выдавить из себя эти слова, я пытаюсь скрыть свои стоны.@
+` Кохаку... только посмеивается и смотрит мне в глаза.@
+` - Нет, шики-сан, не могу.@ Акиха-сама хочет увидеть всё до конца.@ Поэтому у нас ещё много работы.\
 
-`"What---See me finish... what... do you..."@
-`"Isn't it obvious?@ She wants to see you come.@
-` Over and over again, until you break and completely forget what happened here tonight."@
-` Saying that,
-` Her lips close around my tip.\
+` - Что... Всё до конца... что... ты...@
+` - Разве не ясно?@ Она хочет увидеть как ты кончишь.@
+` Снова и снова, пока ты не сломаешься и не забудешь о том, что случилось этой ночью.@
+` Она говорит это,
+` и её губы смыкаются вокруг моеё головки.\
 
 ; ?? : H : ?02?????<??????(?)>
 bg "image\event\koha_h11.jpg",%type_tshutter_fst
-`"Ah-------!"@
-` Thump.@ Numbness spreads from my back up to my head.@
-` All I have felt up to now was her licking, so doing this so suddenly is more like pain than pleasure.\
+` - А!..@
+` Пум.@ Я весь немею, до самой головы.@
+` До этого я чувствовал только прикосновения её языка, и поэтому когда она делает это так внезапно мне становится скорее больно чем приятно.\
 
-`"N...... mm, mmh......"@
-` She rolls me gently inside of her mouth.@
-` It's hot.@ I was already burning up, but the sweet moisture inside her mouth is like lava.@
-`"----------"@
-` She attacks the tip of my shaft again.@
-` Sucking, pushing, rolling with her tongue.@ Kohaku continues her teasing.@
-`"Mm----ah."@
-` But, I'm already at my limit.@
-` The heat rising within me threatens to explode.\
+` - Н... мм, ммх...@
+` Взяв его в рот, она нежно перекатывает меня из стороны в сторону.@
+` Горячо.@ Я уже весь пылал, но сладкая влага у неё во рту горяча словно лава.@
+` - ...@
+` Она снова нападает на головку моего члена.@
+` Присасываясь, нажимая, перекатывая её языком.@ Коахку продолжает свои ласки.@
+` - Мм...а@
+` Но, я уже на пределе.@
+` Жар, поднимающийся из меня, вот-вот вырвется.\
 
-`"Ah----............!!"@
-` I'm going to come.@
-` I can't hold back.@
-` Inside of Kohaku's mouth, I---
+` - Аааа....!!!@
+` Я сейчас кончу.@
+` Я не могу сдерживаться.@
+` В рот Кохаку, я...
 br
 ; ?? : H : ?01?????(?????)<???????(?)>
 bg "image\event\aki_h14.jpg",%type_tshutter_fst
 
-` ----I can't.@
+` ...я не могу.@
 br
-` Akiha is watching.@
-` Full of interest.@
-` No, she has no interest in me.@
-` She is taking pleasure in this situation.@
-` No, as if thinking lowly of me by seeing me like this.\
+` Акиха смотрит.@
+` С любопытством.@
+` Нет, я ей не интересен.@
+` Она наслаждается этой ситуацией.@
+` Нет, словно мысленно насмехаясь надо мной, от того что видит меня в таком положении.\
 
-`"Ga-----hh.........!"@
-` I clench my teeth as I try to resist.@
-` ...... I can't.@
-` I can't let go in front of her.@
-` That would be the last straw.@
-` If that happened, I really would break----\
+` - Га... хх!..@
+` Стиснув зубы, я пытаюсь сдержаться.@
+` ...Я не могу.@
+` Я не могу разрядиться у неё на глазах.@
+` Это последняя капля.@
+` Если это случится, я и правда сломаюсь...\
 
-`"Aha, Shiki-san, you really are persistent."@
-` Kohaku-san sounds happy.@
-`"But it's useless to resist.@ I've developed a liking for you Shiki-san, so I'll play around with you a bit more."@
-` Her voice... seems far away.@
-` Right now---Akiha's gaze is many times more painful.\
+` - Аха, Шики-сан, ты и правда упрямый.@
+` Радостно говорит Кохаку-сан.@
+` - Но сопротивляться бесполезно.@ Ты мне пришёлся по нраву, и я поиграю с тобой ещё немного.@
+` Её голос... звучит как издалека.@
+` Сейчас — взгляд Акихи во много раз болезненней.\
 
-`"Heehee, Akiha-sama gave me permission, so I'm going to get serious now.@
-` Please prepare yourself, Shiki-san.@ I'm actually pretty rough, when I want to be."@
-` She is still distant.@
-` And then, I'm suddenly assailed by a new sensation.\
+` - Хихии, Акиха-сама мне разрешила, поэтому сейчас я буду действовать во всю силу.@
+` Шики-сан, приготовься.@ Если я захочу, я могу быть довольно грубой.@
+` Она всё ещё далеко.@
+` И затем, на меня вдруг накатывает новое чувство.\
 
 bg "image\event\koha_h11.jpg",%type_crossfade_fst
 
 
-`"-------Ah..................!!!!"@
-` It's such a shock that it causes my hips to shoot upwards.@
-` The lips that were only enclosing my tip now take my whole shaft---
-`"M, mm, mmph----"@
-` Her lips slide all the way to my base.\
+` - |Ааааа!!!@
+` Это так шокирует меня, что мои бёдра подскакивают вверх.@
+` Губы, до этого смыкавшиеся только вокруг моеё голвоки, теперь заглатывают весь ствол...
+` - М, мм, ммф...@
+` Её губы спускаются до самого основания.\
 
-`"Ko---koha... ku......!"@
-` It's useless to resist.@
-` My back is arching, my hips floating, like a dog in heat.@
-`"Mm...... a, haa...... Shiki-san, don't be so... wild---"@
-` Her fingers grasp me tightly.@
-` Once again, she takes me almost into her throat.@
-` Her hot mouth.@ Her tongue flicks all around with a life of its own.\
+` - Ко — коха...ку!..@
+` Сопротивление бесполезно.@
+` Моя спина выгибается дугой, бёдра подскакивают как у кобеля при спаривании.@
+` - Мм... а, хаа... Шики-сан, не бушуй, так...@
+` Её пальцы крепко сжимают меня.@
+` И снова она заглатывает меня почти до самого горла.@
+` Её горячий рот.@ Её язык мечется по мне, словно живой.\
 
-` She sucks on me.@
-` Her tongue moves back and forth as she holds me in her mouth.@
-`"Nn, nn, nnnn............!"@
-` Her neck shifts, and as she does---I feel like I'm about to rip apart.@
-`"K----sto... Kohaku... stop... it----"@
-`"Mm...... You shouldn't, Shiki-san.@ Don't ask for things that won't happen."@
-` She smiles mischievously.@
-` Ever so softly, she bites down with the tips of her teeth.\
+` Она засасывает меня.@
+` Взяв его в рот, её язык движется вперёд и назад.@
+` - Нн, нн, нннн!..@
+` Её шея сдвигается, и как только она это делает — мне кажется, что я сейчас разорвусь.@
+` - К... пе... Кохаку... прекрати... это...@
+` - Мм... Не стоит, Шики-сан.@ Не проси того, чего не будет.@
+` Она игриво улыбается.@
+` И совсем мягко, едва ощутимо, она прикусывает его самыми кончиками зубов.\
 
-`"-------!?"@
-` This catapults me even higher than before.@
-`"Ah, Ah, g------!"@
-` I try to move my arms, and the ropes digs into my skin.@
-` ...... That pain helps me hold back.\
+` - ?!@
+` Это подбрасывает меня ещё выше чем раньше.@
+` - А, А, г...!@
+` Я пытаюсь двигать руками, и верёвки вонзаются мне в кожу...@
+` Боль помогает мне сдержаться.\
 
-`"Huh?@ That's strange... I really thought you'd come that time."@
-`"Kohaku... why... are,......!"@
-`"It's alright.@ I told you earlier, this is all according to Akiha-sama's orders."@
-` Kohaku-san... doesn't sound guilty at all.@
-` She's enjoying these orders.@
-`"Akiha, you----"@
-` I look to where Akiha is sitting.@
+` - Ха?@ Странно... Я думала что в этот раз ты точно кончишь.@
+` - Кохаку... почему... ты...!@
+` - Всё нормально.@ Я же говорила, это по приказу Акихи-сама.@
+` Её голос... вовсе не звучит виновато.@
+` Её нравятся эти приказы.@
+` - Акиха, ты...@
+` Я оглядываюсь на Акиху.@
 bg "image\event\aki_h14.jpg",%type_tshutter_fst
 
-` She is silent.@
-` She doesn't even twitch when I glare at her.@
-` She just stares as if possessed by something.\
+` Она молчит.@
+` Она даже не дёргается когда я поворачиваюсь к ней.@
+` Она просто смотрит, словно одержимая чем-то.\
 
-` ----Huh...... as if, possessed......?@
+`        О... словно, одержимая?..@
 br
-` Is it my imagination?@
-` She doesn't look any different, but...... why does she seem to be eagerly watching us---?\
+` Мне это кажется?@
+` Она вроде бы ничуть не изменилась, но... почему мне кажется что она с таким увлечением наблюдает за нами?..\
 
 bg "image\event\koha_h10b.jpg",%type_crossfade_fst
 
-`"Then I guess I'll play around here."@
-`"Eh---Ah, wait, I said stop......!"@
-`"Hm----how cute, Shiki-san."@
-`"N, not, there----"@
-` My body falls back on the bed.@
-` A different sensation runs up my back and into my brain.\
+` - Тогда, пожалуй я поиграю здесь.@
+` - Э — А, погоди, стоя я сказал!..@
+` - Хм... как мило, Шики-сан.@
+` - Н, не, туда...@
+` Моё тело снова опадает на кровать.@
+` Уже другое ощущение, пробежав по моей спине, попадает мне в мозг.\
 
-` A sucking sensation.@
-` Kohaku-san isn't sucking my shaft...... but my testicles.@
-` Licking all along my scrotum.@
-` While her fingers stroke my manhood, she uses her index finger and thumb to caress me down there.@
+` Она снова сосёт.@
+` Кохаку-сан соссёт не мой член... но мои яйца.@
+` Она облизывает всё мошонку.@
+` Пока её рука продолжает поглаживать мой член, большим и указательным пальцем она прикасается ниже.@
 br
-` ---It isn't even as strong as when she was licking me.@
-` But I'm already so close to my limit, touching me softly like that makes it even worse.\
+`      Это совсем не такое острое ощущение, как когда она действовала языком.@
+` Но я так близок к пределу, что такое лёгкое касание даже ещё хуже.\
 
-`"Ah............, tss............!"@
-` I stifle a cry.@
-` Maybe if I cry out, I might be able to resist this pleasure.@
+` - А..., цсс!..@
+` Я сдерживаю стон.@
+` Может быть, если бы я застонал, я мог бы сдерживать это наслаждение.@
 br
-` But, I don't want to do that.@
-` Akiha is still watching.@
-` Even my rough breathing, my stifled voice.@
-` My hands clenching the sheets, my erect shaft, she's watching everything.\
+` Но, я не хочу этого делать.@
+` Акиха всё ещё наблюдает.@
+` Даже моё хриплое дыхание, мой сдавленый голос.@
+` Мои руки, сжимающие простыни, мой стоячий член, она видит всё.\
 
-`"------.................."@
-` ...... I start to lose track of what's going on.@
-` Am I about to explode from Kohaku's touching?\
-` Or does that have nothing to do with it, and I'm going crazy from having Akiha look at me?\
+` - …, ...@
+` Я перестаю понимать, что происходит вокруг.@
+` Я вот-вот разряжусь от прикосновений Кохаку?\
+` Или это тут не при чём, и я схожу с ума от взгляда Акихи?\
 
-`"A...... Aki...... ha............"@
-` Thump.@
-` Kohaku's fingers travel even lower.@
-` There is my ass, wet with her saliva.@
-`"Ah...... ha, haa, ah......"@
-` Even though I knew what was going to happen, I couldn't do anything.@
-` Because even if I did resist, I wouldn't be able to stop her, and more than that----I'm captivated by Akiha's eyes and I don't care about Kohaku.\
+` - А... Аки...ха...@
+` Пум.@
+` Пальцы Кохаку спускаются ещё ниже.@
+` К моему заднему проходу, мокрому от её слюны.@
+` - А... ха, хаа, а...@
+` Хоть я и знал, что будет, я не мог ничего сделать.@
+` Потому что даже если бы я сопротивлялся, я бы не смог остановить её, и что важнее того — меня заворожили глаза Акихи, и я не обращаю внимания на Кохаку.\
 
-`"Shiki-san, you have to lift your hips.@ You have to show Akiha-sama when you let it out."@
-` I feel a sliding sensation.@
-` In my ass.@
-` Into that hole where nothing should ever enter, Kohaku sticks her slender finger.\
+` - Шики-сан, приподними бёдра.@ Акиха-сама должна видеть, как ты всё выпустишь.@
+` Я чувствую скольжение.@
+` Прямо мне в зад.@
+` В дыру, в которую ничто не должно входить, входит тонкий палец Кохаку.\
 
-`"------!!!!!"@
-` There's only pain.@
-` My hips jump in response.@
-` The muscles squeeze as if trying to push out the foreign object.@
-`"Ow---!@ What are you doing, Shiki-san!?"@
-` Taking advantage of my position, she adds another finger.@
-` She starts to wiggle them around inside me.\
+` - !!!!!@
+` Только боль.@
+` Мои бёдра подскакивают в ответ.@
+` Мои мышцы сжимаются, пытаясь вытолкнуть посторонний объект.@
+` - Ай!@ Шики-сан, ты что делаешь?!@
+` Воспользовавшись моим положением, она добавляет ещё один палец.@
+` Она начинает шевелить ими внутри меня.\
 
-`"Ga-----!!!!!!"@
-` The sensation is only pain.@
-` My body protests in agony.@
-` Kohaku's fingers.@
-` With just those little things, my body screams in agony.\
+` - Га...!!!@
+` Я чувствую только боль.@
+` Моё страдающее тело протестует.@
+` Пальцы Кохаку.@
+` Такие маленькие, они заставили моё тело кричать от агонии.\
 
-`"Ah----ii,-----!"@
-` Despite this, my shaft now stands harder and taller than before.@
-` Has this pain become pleasure?@
-` My twitching manhood swells further, pulsing with blood.\
+` - Ах...иии, …!@
+` Несмотря на это, мой член стоит выше и твёрже чем раньше.@
+` Эта боль стала удовольствием?@
+` Мой дёргающийся член разбухает ещё больше, наливаясь кровью.\
 
-`"Hmm---t looks like this is it.@ But Akiha-sama, don't you think it's a little embarrassing for him to come because his ass was violated?"@
-`"Wha--------"@
-` I blush furiously.@
-` Akiha still doesn't speak.@
-` She just stares at me like that and----\
+` - Хмм... похоже, что это и правда всё.@ Но Акиха-сама, вы не думаете что это немного стыдно, кончить от того, что ему проникли в зад?@
+` - Что...@
+` Я густо краснею.@
+` Но Акиха по прежнему молчит.@
+` Она только смотрит на меня, и...\
 
-`"Haa...... ah, haa, ha, a------"@
-` I can't... breathe.@
-` Kohaku's fingers attack me inside.@
-` ...... I know I can't resist.@
-` But I feel something is wrong.@
-` I'm certainly being caressed by Kohaku.@
-` But more than that, I feel like Akiha's gaze is violating me and crawling deep into my skin----\
+` - Хаа... а, хаа, ха, а...@
+` Я не могу... дышать.@
+` Пальцы Кохаку терзают меня изнутри.@
+` Я знаю, что не могу сопротивляться...@
+` Но я чувствую, что что-то не так.@
+` Да, я чувствую ласки Кохаку.@
+` Но больше того, я чувствую, как взгляд Акихи насилует меня, проникая мне под кожу...\
 
-`"This is it.@ You can come now, Shiki-san."@
-` Saying that, Kohaku slips a third finger into me.@
-` That really was it.@
+` - Вот теперь всё.@ Шики-сан, можешь кончать.@
+` С этими словами, Кохаку вводит в меня третий палец.@
+` Это и правда всё.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 
 
-`"A, a-------!!!!"@
-` Thump.@ My blood pounds in my ears.@
-` My rod, that resisted for so long, finally starts to go wild.@
-`"A---Aki, ha----!"@
-` I let go in a fury of heat and liquid.\
+` - А, аааа!!!@
+` Пум.@ Кровь ударяет мне по ушам.@
+` Мой ствол, так долго сопротивлявшийся, наконец срывается.@
+` - А...Аки, ха!..@
+` Я выстреливаю поток жара и влаги.\
 
-` It wasn't just that I could no longer resist what Kohaku was doing.@
-` I almost explode with the strength of my release.@
-` My pent up emotions spray all over the bed, dirtying the sheets.@
-`"Ha----ah, ah-----"@
-` My raging heart gradually begins to calm.@
-` With that, everything that I had tried so hard to resist, and the person that was the brother of Akiha... crumbles away----\
+` Дело не только в том, что я больше не мог противиться Кохаку.@
+` Я чуть не взрываюсь, так сильно я разрядился.@
+` Мои скрытые эмоции выплёскиваются на постель, запачкав простыни.@
+` - Хааа, а...@
+` Моё бущшующее сердце начинает успокаиваться.@
+` И вместе с этим, всё, что я изо всех сил сдерживал, и человек, бывшией братом Акихи... всё разрушается...\
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 !w3000
@@ -910,6 +910,7 @@ playstop
 
 
 return
+
 
 
 </pre>
