@@ -6,50 +6,51 @@
 ; ?? : ?? : ??(?)<????>
 bg "image\bg\bg_06a.jpg",%type_nowaitdisp
 
-` Is she looking for someone in the hallway?@ Senpai paces back and forth.@
-` ...... Looking at it calmly, she looks like she doesn't have anything to do with my classroom.\
+` Она ищет кого-то в коридоре?@ Сенпай ходит взад-вперёд.@
+` Если подумать спокнойно, похоже что до моего класса ей дела нет.\
 
-`"...... As usual, I don't understand her at all.@ What the heck is she doing?"@
-` I sit down in my chair and watch her.@
-` Senpai crosses her arms as if thinking about something, and stares at the students passing by.\
+` - Как всегда, я её вообще не понимаю...@ Что она творит?@
+` Я наблюдаю за ней со своего места.@
+` Скрестив руки, словно задумавшись, Сенпай оглядывает проходящих мимо учеников.\
 
-`"Maybe she dropped something."@
-` ...... It sounds weird for a third-year student to drop something in the second-year hallway, but this is the ever-roaming Senpai we're talking about.@
+` - Может что-то обронила...@
+` Хотя идея, что третьегодка может что-то обронить в коридоре у второгодок, звучит странно, но мы же о вечно везде носящейся Сенпай говорим.@
 br
-` ----Huh?@
-` Senpai suddenly enters into my classroom.@
-` She strides directly to me.\
+`     А?@
+` Вдруг Сенпай входит в мой класс.@
+` И решительно направляется ко мне.\
 
 ; ??<?>=???:?<??????(?)>
 ld c,":a;image\tachi\cel_t10a.jpg",%type_lshutter_fst
 
-`"Tohno-kun!"@
-`"!"@
-` And she suddenly yells at me.@
-`"Wh, what is it, Senpai?@ I haven't done anything bad to make you angry."@
-`"No excuses.@ Just come over here, please."\
+` - Тоно-кун!@
+` - !@
+` И неожиданно она кричит она меня.@
+` - В, в чём дело, Сенпай?@ Я не сделал ничего плохого чтобы ты на меня злилась.@
+` - Никаких оправданий.@ Иди сюда, пожалуйста.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????2(?)<?????(?)>
 bg "image\bg\bg_11a.jpg",%type_lcartain_mid
 
-` She pulls my arm and drags me out into the hallway.@
-`"H, hey, Senpai, what are you doing all of a sudden?@ Weren't you looking for something!?"@
+` Схватив меня за руку, она вытаскивает меня в коридор.@
+` - Э, эй, Сенпай, ты чего вытворяешь?@ Ты разве не искала что-то?!@
 ; ??<?>=???:??01(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t10a.jpg",%type_crossfade_fst
-`"It's fine, just stay right there!"@
+` - Не обращай внимания, просто стой на месте!@
 
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-`"......"@
-` Under Senpai's intensity, I quickly snap to attention.@ And like yesterday, Senpai starts to sniff me.@
-`"...... Um, Senpai......?"\
+` - ...@
+` Под напором Сенпай я быстро встаю по стойке «смирно».@ И как и вчера, Сенпай начинает меня обнюхивать.@
+` - Эм, Сенпай?..\
 
 
 
 return
+
 
 
 </pre>
