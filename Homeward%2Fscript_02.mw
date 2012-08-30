@@ -851,64 +851,64 @@ label cooking:
     "Вот мы и закончили готовить стир фрай."
     
     show haruka cook happy with dissolve
-    ha "And that's it for the sides."
-    "A bit later, the rice finished cooking."
-    "Haruka opened the rice and mixed it with a rice scoop."
+    ha "Это мы положим сбоку."
+    "Немного позже рис уже был готов."
+    "Харука открыла его и перемешала с помощью специальной лопатки для риса."
     
     show haruka cook neutral with dissolve
-    ha "You have to make sure the rice is mixed after you open the lid, or else you won't be able to eat it later."
-    "After slipping her hands into a pair of oven mittens, she grabbed the rice bowl and brought it to our station."
-    ha "Now, all we have to do is put all of the food into the bento box and decorate it."
-    "Haruka neatly tucked in the rice into the biggest section of the box."
-    ha "Mmm... The rice looks nice with some sesame seeds on top."
-    ha "And of course, we can't forget the red dried plum at the middle."
-    "She brought out more ingredients."
-    "We put the finishing touches on our bento boxes."
-    "As she said earlier, Haruka used the asparagus stems to make a little wall between the tamago and the vegetables."
-    "I should do the same. Well, in my case, I suppose it'd be the scrambled eggs and the vegetables..."
-    "We finally finished making our bento boxes."
+    ha "Ты должен убедится, что рис перемешан, иначе потом ты не сможешь его съесть."
+    "Она надела пару рукавиц и принесла чашу с рисом к нашему месту."
+    ha "Теперь, всё что нам осталось сделать, это положить еду в коробочку и украсить её."
+    "Харука аккуратно уложила рис в самый большой раздел коробки."
+    ha "Ммм... Рис будет хорошо выглядеть, если посыпать сверху кунжутом."
+    ha "И, конечно, мы не можем забыть о сушёной красной сливе в центре."
+    "Она показала ещё какие-то ингредиенты."
+    "Мы сделали последние штрихи на нашем бэнто."
+    "Харука использовала стебли спаржи чтобы сделать небольшую стенку между тамаго и овощами."
+    "Я должен делать то же самое. Только в моем случае стенка будет между яичницей и овощами..."
+    "Наконец наши бэнто были закончены."
     
     show haruka cook smile with dissolve
-    ha "And with that, we're finished."
+    ha "Ну... вот и всё (!And with that, we're finished!)."
     
     show haruka cook happy with dissolve
-    ha "Eheheh... Since I have some left over side dishes, would Saionji-san like to taste some of it?"
-    ri "Sure. Thanks, Haruka-san."
-    "I grabbed one of her left over tamagoyaki with a pair of chopsticks and gave it a try."
-    ri "Woah, it's delicious!"
+    ha "Эхехех... У меня осталось немного разных гарниров, не хочешь их попробовать"
+    ri "Конечно. Спасибо, Харука-сан."
+    "Я схватил палочки и попробовал остатки от тамогояки."
+    ri "Вау, как вкусно!"
     
     show haruka cook onehandraised smileblush with dissolve
-    ha "Ah, no, it's really nothing."
-    ri "Haruka-san really is good at cooking, isn't she?"
-    ha "I've been in the club for a really long time, so it's really not that amazing."
-    ri "Eh... So you think even I could get good if I try?"
+    ha "А, не, это ерунда."
+    ri "Харука-сан действительно хорошо готовит, не так ли?"
+    ha "Я была в этом клубе очень долгое время, так что это не так уж и удивительно."
+    ri "Вот как... Значит ты думаешь даже я смогу так готовить?"
     
     show haruka cook excited happy with dissolve
-    ha "Of course! As long as you put in your best effort, you can learn to do anything."
-    ri "Come to think of it, I have been eating kind of bad food for a while..."
-    ri "My father generally doesn't come home until really late, so I usually eat instant ramen or bread from the convenience store for dinner most of the time..."
+    ha "Конечно! Чем больше усилий ты вложишь, тем большему сможешь научиться."
+    ri "А ведь я совсем недавно ел не очень хорошую еду..."
+    ri "Мой отец всегда приходит домой очень поздно, так что я обычно ужинал раменом быстрого приготовления, или хлебом из мини-маркета..."
     
     show haruka cook onehandraised surprise with dissolve
-    ha "Eeehh!? You can't do that, Saionji-san..."
-    ri "Ahahaha, I think you're right. Maybe learning to cook will be a good idea."
+    ha "Эээхх!? Ты не мог такое делать, Саёнджи-сан..."
+    ri "Ахахаха, думаю ты права. Научиться готовить может быть мне очень кстати."
     
     show haruka cook excited happy with dissolve    
-    ha "Alright! I will give it my best effort to teach you, Saionji-san!"
-    ri "I'll be in your care from now on then, Haruka-san."
+    ha "Хорошо! Я сделаю всё возможное, чтобы научить тебя, Саёнджи-сан!"
+    ri "Тогда я этого момента я буду твоим учеником, Харука-сан."
     
     show haruka cook smile with dissolve
-    ha "Please feel free to come to our club any time."
-    "We talked while tasting our left overs for a little bit more, and then I went back home."
+    ha "Пожалуйста, не стесняйся приходить к нам в клуб в любое время."
+    "Мы доедали остатки и продолжали разговаривать. А потом я пошёл домой."
     
     scene bg black with dissolve
     scene bg rikuroomnight with dissolve
     $ renpy.music.stop (fadeout=3.0)
     
-    "By the time I got back home, it was already dark."
-    "Well, today was pretty fun."
-    "Mmm... Since Nonami said that she was going to bring bento boxes for me from now on, I guess I could eat the one I made with Haruka for dinner."
-    "Even though the one I made wasn't as good as Haruka's, it was still a lot more edible than my usual dinners."
-    "After dinner, I opened my books and studied for the rest of the time before going to sleep."
+    "Когда я вернулся домой, было уже темно."
+    "Ну, сегодня было довольно весело."
+    "Ммм... Так как Нонами собирается приносить бэнто для меня, значит то, что мы сделали с Харукой, я мог съесть на ужин."
+    "Несмотря на то, что мой бэнто вышел не так хорош, как бэнто Харуки, он был все равно более съедобен, нежели мой обыны ужин."
+    "После ужина, я открыл книги и занялся учёбой весь остаток дня."
     jump soraarrives
 	
 </nowiki>
