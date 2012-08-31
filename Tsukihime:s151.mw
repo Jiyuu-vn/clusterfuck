@@ -6,10 +6,10 @@
 ; ?? : ?? : ??(?)<????>
 bg "image\bg\bg_06a.jpg",%type_nowaitdisp
 
-` ---But I can't just leave in the middle of class.@
+` ...Но я не могу просто ути посреди урока.@
 br
-`"......... Please."@
-` I bring my hands together and pray silently that she won't start any "interesting" trouble for twenty minutes.\
+`- Пожалуйста...@
+` Я сложил рууки и молча момолился о том, чтобы она не начала ничего "интересного" в ближайшие двадцать минут.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -20,113 +20,113 @@ bg "image\bg\bg_06a.jpg",%type_lshutter_mid
 ;S.E."??"
 wave se2
 
-` Class ends.@
-` I dash out of the classroom engulfed in the lunchtime commotion.\
+` Урок закончился.@
+` Я выбежал из класса, окутанного обеденной суетой.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????2(?)<?????(?)>
 bg "image\bg\bg_11a.jpg",%type_lcartain_mid
 
-` I bolt down through the hallway.@
-` ...... Arcueid is out back.@
-` Because it's lunchtime, there may be one or two students going there.@
-` Before that, I have to send her away from school......!\
+` Я промчался по коридору.@
+` Арквейд за школой...@
+` Сейчас обед, так что туда могут пройти пара учеников.@
+` Прежде чем это произойдёт, я должен убрать её со школьной территории!..\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????(?)<?????(?)>
 bg "image\bg\bg_04.jpg",%type_lcartain_mid
 
-` I pant with exertion.@
-` I exit the hallway and out into the courtyard.@
-` Fortunately, no one else has gone outside.@
-` All that's left is to grab Arcueid, but...
+` Я устало дышу.@
+` Из коридора - во двор.@
+` К счастью, наружу ещё никто не вышел.@
+` Осталось только подхватить Арквейд, но...
 
 ; ???(?)<?????(?)>
 bg "image\bg\bg_05a.jpg",%type_lcartain_mid
 br
-`"...... The worst."@
-` Entering the back of the school, I unthinkingly voice my thoughts.\
+`- Худшее произошло...@
+` Пройдя за школу, я вслух произнёс свои мысли.\
 
-` In the back,
+` За школой,
 ; ?<?>=??????:??03(02?????????)<??????(?)>
 ld l,":a;image\tachi\ark_t07.jpg",%type_lshutter_mid
-` I can see a very hostile Arcueid and...
+` я обнаружил очень враждебно настроенную Арквейд, и...
 ; ?<?>=???:??02(?????)<??????(?)>
 ld r,":a;image\tachi\cel_t07a.jpg",%type_lshutter_mid
-` through the worst twist of fate, Ciel-senpai is also present.@
+` по прискорбному повороту судьбы, здесь же - Сиэль-семпай.@
 br
-` As if facing an invader, Senpai is staring at Arcueid.\
+` Семпай злобно уставилась на Арквейд, словно противостоя силам вторжения.\
 
-`"Arcueid......!"@
-` Both of them turn around.@
+`- Арквейд!..@
+` Они обе обернулись.@
 ; ?<?>=??????:??02(???????)<???????(?)>
 ld l,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"Shiki."@
+`- Шики.@
 ; ?<?>=???:?<???????(?)>
 ld r,":a;image\tachi\cel_t06a.jpg",%type_crossfade_fst
-`"-------"@
+`- ...@
 ; ?????<???????(?)>
 cl a,%type_crossfade_mid
 \
 
-` ...... Thank goodness.@ Arcueid's hostility seems to fade.@
-` After looking back at Arcueid, Senpai leaves in another direction.@
-`"Ah...... Senpai."@
-` She must've been offended by being glared at by Arcueid.@
-` For Senpai to just disappear like that without saying anything must mean something.\
+` Слава богу...@ Враждебность Арквейд, похоже, рассеялась.@
+` Ещё раз взглянув на Арквейд, семпай удалилась.@
+`- Э... Семпай...@
+` Должно быть, её оскорбило зырканье Арквейд.@
+` Если семпай так ушла, ничего не сказав, это должно что-то значить.\
 
-`"Arcueid, you......!"@
-` I run over to her.@
+`- Арквейд, ты!..@
+` Я подбежал к ней.@
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
-`"Shiki you slowpoke!"@
-` She yells at me as I get to her.\
+`- Шики, ты копуша!@
+` Прикрикнула она на меня, когда я приблизился.\
 
-`"Hey...... slow?@ Hey now."@
-`"But weren't you?@ I know you saw me, but you never came down.@ If you came earlier, I wouldn't have been seen by that person!"@
-` ...... "That person" must mean Senpai.\
+`- Эй... копуша?@ Эй, эй!@
+`- А разве нет?@ Я же знаю, что ты меня увидел, но так и не спустился.@ Если бы ты появился раньше, она бы меня не увидела!@
+` ..."Она" - это, должно быть, семпай.\
 
-`"It couldn't be helped, I have my circumstances.@ I'm different from you, I'm just a normal student.@ In the first place, why the heck did you come here?"@
+`- Тут было ничего не поделать, у меня свои обстоятельства.@ Я отличаюсь от тебя - я просто обычный ученик.@ И вообще, почему ты, блин, сюда пришла?@
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"I just felt something from around here.@ Then I picked up your scent and realized it was your school."@
-`"...... So you weren't thinking and you just came for no reason?"@
-` I give a frown.@ Is she a dog or something?\
+`- Я просто почувствовала что-то в этом районе.@ А потом заметила твой запах и поняла, что это твоя школа.@
+`- ...То есть ты не задумывалась, просто пришла сюда?@
+` Я фыркнул.@ Она что, собака?\
 
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"Well excuse me!@ I came here for a reason.@ There's hardly any traces of The Dead here, so I wanted to see it for myself."@
-`"Really?@ But if there's no traces of The Dead here, then shouldn't this place be unimportant?@ There's no one at school at night, so if The Dead wanted some prey, they would go downtown, not to a school."\
+`- Ну, извини!@ У меня была причина прийти сюда.@ Здесь практически нет следов Мертвецов, так что я хотела взглянуть внимательнее.@
+`- Действительно?@ Но если здесь нет следов Мертвецов, то разве это не значит, что это место не имеет значения?@ Здесь по ночам никого не бывает, так что если Мертвецам нужна добыча, они отправятся в город, а не в школу.\
 
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
-`"...... Well, that does make sense."\
-`"There's nothing strange here.@ I can't really sense The Dead, but since my eyes see death, I can tell without taking off my glasses."@
+`- ...Ну, это разумно.\
+`- Здесь нет ничего странного.@ Я хоть и не чувствую Мертвецов, но поскольку мои глаза видят смерть, я могу это сказать и не снимая очков.@
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"I see.@ If you say so, Shiki, then there's nothing strange about this place, perhaps."@
-`"Not 'perhaps', definitely."@
-` Arcueid looks like she doesn't believe me.\
+`- Понятно.@ Раз ты так говоришь, Шики, то, видимо, в этом месте нет ничего странного.@
+`- Не "видимо", а точно.@
+` Такое впечатление, что Арквейд мне не верит.\
 
-`"Anyway, if we stay here any longer, people will see us.@
-` I'll keep my promise for sure, so just go home and rest.@ We may see the 'enemy' tonight."@
+`- В любом случае, если мы здесь задержимся, люди нас увидят.@
+` Я определённо выполню своё обещание, так что просто вернись домой и отдохни.@ Возможно, мы сегодня столкнёмся с "врагом".@
 ; ??<?>=??????:?(?~?????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Oh?@ You sound like you want me out of here, Shiki?"@
-` She starts to look angry again.\
+`- О?@ Ты хочешь от меня избавиться, Шики?@
+` Она снова выглядит сердитой.\
 
-`"Ah, that's just your imagination, so hurry on back.@ Otherwise things might get a little hairy."@
-` Go, go.@ I push her from behind.@
-`".................."@
+`- Ох, тебе просто кажется, так что поторопись обратно.@ Иначе у нас могут быть сложности.@
+` Давай, давай.@ Я подтолкнул её.@
+`- ......@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-` Though her eyes indicate she wants to say something, she just leaves silently.\
+` Хотя по глазам видно, что она хочет что-то сказать, она просто молча ушла.\
 
-`"...... Man.@ If I see Senpai, I have to apologize to her about Arcueid."@
-` Thinking aloud, I go back.\
+`- Н-да...@ Если мне встретится семпай, нужно будет извиниться перед ней за Арквейд.@
+` Подумав это вслух, я пошёл обратно в школу.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
