@@ -174,86 +174,259 @@ bg "image\bg\bg_11c.jpg",%type_crossfade_fst
 ;CD-DA???????
 play "*6"
 
-`"Kohaku...... san?"@
-` I use all of my foggy consciousness to look around me.@
-` There's no one in the hallway.@
-` Only the moonlight streaming from the window is vivid.\
+`"Kohaku..*s107a
+
+; ??(?)<???????(?)>
+bg "image\bg\bg_06a.jpg",%type_crossfade_mid
+
+` ...Урок уже начался.@
+` Что это за урок?@ Я не помню, какой предмет у меня стоит пятым уроком.@
+br
+; ???<???????(?)>
+bg "image\bg\ima_11.jpg",%type_crossfade_fst
+;S.E."??"
+wave se0
+; ??(?)<???????(?)>
+bg "image\bg\bg_06a.jpg",%type_crossfade_fst
+
+
+` Даже посмотрев на доску, и вглядевшись в следы, оставленные мелом учителя, я всё ещё не понимаю что это за урок.@
+br
+; ???<???????(?)>
+bg "image\bg\ima_11.jpg",%type_crossfade_fst
+;S.E."??"
+wave se0
+; ??(?)<???????(?)>
+bg "image\bg\bg_06a.jpg",%type_crossfade_fst
+
+br
+` Я не могу их прочесть.@
+` Символы расплываются как вода, и смешиваются словно галлюцинация.@
+br
+;S.E."??"
+wave se0
+\
+
+` - Угх...@
+` Меня словно сейчас вырвет.@
+` Головокружение.@ Мой разум куда-то проваливается.\
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_fst
+;S.E."??"
+wave se0
+; ??(?)<???????(?)>
+bg "image\bg\bg_06a.jpg",%type_crossfade_fst
+
+` Щёлк, шёлк.@
+`    Дрожь, дрожь.@
+`     Скрип, скрип.@
+`      Шат, шат.@
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_fst
+;S.E."??"
+wave se0
+; ??(?)<???????(?)>
+bg "image\bg\bg_06a.jpg",%type_crossfade_fst
+\
+
+` Пробиваются эти звуки.\
+` Несовместимость.@
+` Откуда исходит это противоречие?@
+
+;S.E."??"
+wave se0
+
+` Я не могу справитсья с этим чувством, что со всем моим телом что-то не так.@
+` Это чувство наполняет меня до краёв.@
+` Мои кости словно выезжают из суставов.@
+
+;S.E."??"
+wave se0
+
+` Да, потому что мои суставы не на своих местах, из-за этого появляется это неестественное чувство.@ Моя туша горит невидимым дымом и рассыпается в прах.\
+
+br
+br
+br
+br
+br
+br
+br
+` Щёлк, щёлк.@ Дрожь, дрожь.@ Скрип, скрип.@ Шат, шат.\
+
+; ???<???????(?)>
+bg "image\bg\ima_11b.jpg",%type_crossfade_fst
+;S.E."??"
+wave se0
+; ??(?)<???????(?)>
+bg "image\bg\bg_06a.jpg",%type_crossfade_fst
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_mid
+
+` Я падаю со стула.@
+` Раздаётся женский крик.@
+` Я слышу шаги учителя, подбежавшего ко мне.@
+` Я...
+` Хоть я и отключился, я спокойно наблюдаю за собой со стороны.\
+
+!w3000
+
+
+` Дальше всё случилось как и всегда.@
+` Я потерял сознание от анемии, меня отнесли в медпункт где я и проспал пока не пришёл в себя.@
+` Поскольку даже после семи вечера, времени закрытия школы, у меня была температура за 38, медсестра позвонила мне домой чтобы кто-нибудь забрал меня, и ушла.@
+br
+` И вылилось это в...\
+
+;CD-DA?????
+play "*1"
+
+; ????1(?)<???????(?)>
+bg "image\bg\bg_10c.jpg",%type_crossfade_fst
+; ??<?>=??:?01(??????)<???????(?)>
+ld c,":a;image\tachi\koha_t01b.jpg",%type_crossfade_fst
+
+` - Шики-сан, ты в порядке?@ У тебя всё ещё температура, так что не стесняйся опереться мне на плечо.@
+br
+`     Да, такие вот дела.\
+
+` - Нет, я в порядке...@ Уж идти то я могу, так что не переживай.@
+` Я отхожу от Кохаку-сан и пытаюсь отговориться от всего этого.@
+` Госсподи...@ То, что Кохаку-сан пришла меня заюирать, уже стыдно.@ День, когда я обопрусь ей на плечо, будет днём когда я умру.\
+
+
+` - О, так нельзя, нельзя так себя заставлять.@ Шики-сан, ты не виноват что у тебя слабы организм.@ Поэтому ты можешь иногда просить о помощи.@
+` Я не скажу Акихе-сама или Хисуи-тян, так что пока можешь на меня положиться.@
+` Мягко улыбаясь, она берёт меня за руку.\
+
+` - А... да, прости.@
+` Густо покраснев, я покорно делаю как она просит...@
+` Действительно, я могу потерять сознание если и дальше буду упрямиться.\
+
+` - Снаружи ждёт машина, поэтому пожалуйста потерпи до тех пор.@
+; ?????<??????(?)>
+cl c,%type_lshutter_mid
+` Держа меня за руку, Кохаку-сан начинает идти.@
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_fst
+; ????1(?)<???????(?)>
+bg "image\bg\bg_10c.jpg",%type_crossfade_fst
+
+
+` - А...@
+` Дело плохо...@ Уже от ходьбы у меня дико кружится голова.@
+` Стараясь не потерять сознание, я позволяю Кохаку отвести меня к лестнице.\
+
+; ???<?????(?)>
+bg "image\bg\ima_10.jpg",%type_lcartain_slw
+!w1000
+;CD-DA??
+playstop
+
+; ??(?)<????>
+bg "image\bg\bg_07b.jpg",%type_nowaitdisp
+; ????2(?)<???????(?)>
+bg "image\bg\bg_11c.jpg",%type_crossfade_mid
+
+
+` А...а?@
+` Почему — я поднимаюсь... на.... второй... этаж?\
+
+` - Эм... Кохаку-сан... это... не туда.@
+` Я зову её.@
+` Ответа нет.@ Нет, не только это... я не чувствую её руки, я даже не вижу её.\
+
+; ???<???????(?)>
+bg "image\bg\ima_10.jpg",%type_crossfade_fst
+; ????2(?)<???????(?)>
+bg "image\bg\bg_11c.jpg",%type_crossfade_fst
+;CD-DA???????
+play "*6"
+
+` - Кохаку...сан?@
+` Я напрягаю всё своё затуманеное сознание чтобы осмотреться.@
+` В коридоре никого.@
+` Только лунный свет, струящийся черещ окно, хорошо виден.\
 
 ;S.E."??"
 wave se0
 
 
-`"--------"@
-` It comes suddenly.@
+` - ...@
+` Он приходит внезапно.@
 
 ;S.E."??"
 wave se0
 
-`"Ah------"@
-` The sound of my heartbeat.@
-` And a chill that races up my spine.\
+` - А...@
+` Звук моего сердцебиения.@
+` И мороз, пробегающий у меня по спине.\
 
 ;S.E."????(???)"
 waveloop se1
 ;S.E."???????????"
 wave se7
 
-` Thump.@ Tap.\
+` Пум.@ Топ.\
 br
 ;S.E."???????????"
 wave se7
 
-` Thump.@ Tap.@
+` Пум.@ Топ.@
 br
 
 ;S.E."???????????"
 wave se7
-` Thump.@ Tap.@
+` Пум.@ Топ.@
 br
-` Thump.@ Tap.@ Thump.@ Tap.@ Thump.@ Tap.@ Tap.@ Tap.@ Tap.@ Tap.\
+` Пум.@ Топ.@ Пум.@ Топ.@ Пум.@ Топ.@ Топ.@ Топ.@ Топ.@ Топ.\
 
-` In the darkness, the footsteps draw closer.@
+` Во тьме, приближаются шаги.@
 br
-` ---This is.@
+`     Это.@
 br
-` This is similar to the fear I felt from that one time.\
+` Это похоже на тот страх, что я чувствовал тогда.\
 
-`"Kohaku, san......!"@
-` I call her name.@ Not to call for help, but to tell her to escape, I frantically call her name.\
+` - Кохаку, сан!..@
+` Я выкрикиваю её имя.@ Не чтобы позвать на помощь, но чтобы сказать ей убегать, я лихорадочно кричу её имя.\
 
-`"Kohaku-san, Kohaku-san, Kohaku-san......!"@
-` Where is she?@ I don't see her anywhere.@
-` The footsteps are near me now.@
+` - Кохаку-сан, Кохаку-сан, Кохаку-сан!..@
+` Где она?@ Я её не вижу.@
+` Шаги уже рядом со мной.@
 br
-` At least...
-` I want Kohaku-san to escape here unharmed.\
+` Хотя бы...
+` Я хочу чтобы Кохаку-сан ушла сбежала отсюда невредимой.\
 
-`"It's useless Shiki.@ She's already done."@
-` ...... I hear a voice.@
-` In the darkness in front of me is
+` - Бесполезно, Шики.@ Она уже готова.@
+` ...Я слышу голос.@
+` Во тьме передо мной
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_mid
-` the bandaged man who tried to kill me that night.\
+` стоит забинтованый человек, который пытался убить меня тогда.\
 
-`"------Ah."@
-` ...... Why is it...?@
-` I feel like I know this person's face.\
+`  - А...@
+` ...Почему это?..@
+` Я словно бы знаю его лицо.\
 
-`"You sure aren't lucky.@ If knew it was like this, I wouldn't have waited for you in front of the mansion."@
+` - Не повезло же тебе.@ Если бы я знал, что всё так будет, я бы не ждал тебя перед поместьем.@
 br
-` ...... The footsteps draw closer.@
+`      Шаги приближаются.@
 br
-`"Ka...... aah."@
-` I try to move.@
-` But I can only totter along.@
-` I guess I pushed my body too hard every day.@ It seems like my body, at the very last moment, broke down.\
+` - Ка...аах.@
+` Я пытаюсь двигаться.@
+` Но у меня получается только ковылять, едва не падая.@
+` Наверное, я слишком сильно напрягал своё тело изо дня в день.@ Похоже, в самый последний момент оно отказало.\
 
-`"This is the end, so I'll tell you.@ This is my lair now."@
+` - Это конец, поэтому я скажу тебе.@ Теперь это моё логово.@
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_mid
 
-` I hear a stabbing sound.@
-` In his hands, a knife.@ The silver blade pierces directly into my heart.\
+` Я слышу звук удара.@
+` В его руке, нож.@ Серебряный клинок вонзается прямо в моё сердце.\
 
 ;S.E.??
 wavestop
@@ -267,28 +440,28 @@ bg "image\bg\ima_18.jpg",%type_nowaitdisp
 ;CD-DA??
 playstop
 
-` ----I collapse to the ground.@
-` I feel death working its way from my very fingertips.@
-` My mind fades away, drop by drop.\
+` Я падаю на пол.@
+` Я чувствую, как смерть проходит в меня от кончиков пальцев.@
+` Мой разум затухает, капля за каплей.\
 
-` In that process.@
-` With my fading mind, I look up at the sky.@
-` I have nowhere else to look, so I just look there.@
+` Среди этого.@
+` С затухающим рассудком, я смотрю в небо.@
+` Мне больше некуда смотреть, и я смотрю туда.@
 br
-` The blue moon is in the night sky.@
-` ...... How stupid.@
-` I'm about to die, but I...
-` I am charmed by such an ordinary thing.\
+` Голубая луна висит в ночном небе...@
+` Как глупо.@
+`Я сейчас умру, но я...
+` Я зачарован такой простой вещью.\
 
 monocro off
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
-` When is this memory from?@
-` In a forest like a black veil.@
-` On that terrible night.@
-` Just like this, I was staring only at the moon----
+` Откуда это воспоминание?@
+` В лесу, похожем на чёрный занавес.@
+` В ту ужасную ночь.@
+` Точно так же как сейчас, я смотрел только на луну...
 
 !w2000
 \
@@ -304,6 +477,7 @@ waittimer 3000
 
 ;goto *title
 return
+
 
 
 </pre>
