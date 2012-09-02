@@ -7,69 +7,69 @@
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_40c.jpg",%type_nowaitdisp
 
-`".................."@
-` ...... I guess it can't be helped.@
-` I'm afraid I'll make her cry if I keep going against her.\
+` - ...@
+` Пожалуй, ничего не поделаешь.@
+` Я боюсь, что доведу её до слёз если и дальше буду с ней спорить.\
 
-`"...... Alright.@ I'll go to sleep for today."@
-` Saying that, I lie down.@
+` - Хорошо.@ На сегодня я лягу спать.@
+` С этими словами я укладываюсь.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_crossfade_fst
 
-`"Really......?@ You're not going to sneak out of the room later?"@
-`"No, I get it.@ To tell the truth, my body feels incredibly heavy.@ I don't think I could sneak outside."@
+` - Правда?..@ Ты потом не улизнёшь тайком из комнаты?@
+` - Нет, я всё понял.@ По правде говоря, я чувствую невероятную тяжесть в теле.@ Не думаю что я смог бы улизнуть.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t04b.jpg",%type_crossfade_fst
 
-`"----Thank goodness."@
-` Akiha breathes out and relaxes visibly.\
+` - Слава богу.@
+` Выдохает Акиха, явно успокоившись.\
 
-`"Hisui, tell Kohaku that Nii-san is awake.@ Nii-san, what about dinner?"@
-`"...... Oh yeah.@ No, tell Kohaku-san I'm sorry, but I don't think I can eat right now.@ I'm just going to go to sleep."@
+` - Хисуи, скажи Кохаку что Нии-сан проснулся.@ Нии-сан, что насчёт ужина?@
+` - ... А, да.@ Нет, скажите Кохаку-сан что мне жаль, но я наверное сейчас есть не смогу.@ Я только лягу спать.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
-`"...... I understand.@ Then Hisui, tell Kohaku that."@
-` Still looking downcast, Hisui nods and leaves the room.\
+` - Я поняла.@ Тогда Хисуи, передай Кохау это.@
+` Всё так же потупившись, Хисуи кивает и покидает комнату.\
 
-` ...... Now then.@
-` Lying in bed, I start to feel sleepy again.@
-` Like this, I bet I could fall asleep in less than a minute.@
+` А теперь...@
+` Ляжа на постели, я снова чувствую сонливость.@
+` Такими темпами, уверен, я засну меньше чем за минуту.@
 br
-` ----But, before that,
+`      Но, перед этим,
 br
-`"Akiha.@ There's a place like that in the garden?"@
+` - Акиха.@ В саду есть такое место?@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_crossfade_fst
 
-`"Yes.@ When we were children, we used to play there often."@
-`"Oh.@ For some reason, I don't remember it well."@
-` ...... Yeah.@ I really did forget all about it.\
+` - Да.@ Мы часто там играли когда были маленькими.@
+` - О.@ Я почему-то плозо это помню.@
+` ...Да.@ Я и правда совсем об этом забыл.\
 
-`"And one more thing.@ ...... It's a weird question, but when we were kids----wasn't there another kid with us?"@
+` - И ещё одно...@ Это странный вопрос, но когда мы были маленькими — с нами разве не было ещё одного ребёнка?@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t01b.jpg",%type_crossfade_fst
 
-`"Huh?"@
-` She tilts her head, like she doesn't understand what I'm saying.@
-` ...... I guess not.@ There couldn't have been another kid.@
-` But... if that's true, how strange?@
-` That scene I saw in my dream,
-` and the dream I saw in the clearing.@
-` If these two are the same----
-` Then it doesn't make sense unless there's another kid that was killed......\
+` - А?@
+` Она наклоняет голову набок, словно не понимая о чём я говорю.@
+` Наверное, нет...@ Не могло быть другого ребёнка.@
+` Но... если это так, как странно?@
+` Та сцена, которуя я видел во сне,
+` и сон, который я видел на поляне.@
+` Если всё это об одном и том же случае...
+` То это не клеится если с нами не было другого ребнка, который и был убит...\
 
-`"No, it's nothing.@ Just talking about a dream."@
+` - Нет, ничего.@ Просто обо сне заговорил.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_crossfade_fst
-`"Is that so?@ Then, good night, Nii-san.@ Please rest well."@
-`"Yeah, I'll do that."@
+` - Вот как?@ Тогда доброй ночи, Нии-сан.@ Отдохни как следует.@
+` - Ага, непременно.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
-` As soon as I answer her,
-` I fall asleep as fast as if I had passed out again.\
+` Едва я отвечаю ей,
+` я засыпаю так быстро, словно я снова потерял сознание.\
 ;CD-DA??
 playstop
 
@@ -78,6 +78,7 @@ playstop
 
 
 return
+
 
 
 </pre>
