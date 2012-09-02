@@ -7,22 +7,23 @@
 ; ?? : ?? : ????(?)<????>
 bg "image\bg\bg_32a.jpg",%type_nowaitdisp
 
-`"Does that clear it up?@ Then let's go...... Arcueid, do you have anywhere in mind?"@
+` - Ну что, прояснили?@ Тогда пошли... Арквейд, ты хотела пойти в какое-то конкретное место?@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Hmm, I don't know so I'll let you decide.@ Just take me wherever?"@
+` - Хмм, я не знаю поэтому предоставлю решать тебе.@ Отведёшь меня, куда-нибудь?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-` ...... So she told me we're going somewhere and now it's this?\
+` Итак, она сказала мне что мы куда-то идём, а теперь это?\
 
-` Oh well--I'm not sure what kind of place she likes, but I'll take her to a good hangout place.@
-` Well then--
+` Ну да ладно — я не уверен, что за места ей нравятся, но я отведу её в какое-нибудь хорошее место.@
+` Итак...
 br
 
 
 
 
 return
+
 
 
 </pre>
