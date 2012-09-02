@@ -12,31 +12,31 @@ bg "image\bg\bg_25a.jpg",%type_lcartain_mid
 ;CD-DA??????
 play "*3"
 
-` For the time being, we go into town.@
-` All that's left is to branch off the main street and go to the empty alley----\
+` Пока что мы идём по городу.@
+` Осталось только свернуть с главной улицы и выйти в переулок...\
 
 ; ??<?>=??????:?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_lshutter_mid
-`"Huh?@ What is it, Shiki?"@
-`"Nothing.@ It's different that normal, so I was just a little confused."@
-`"?"@
+` - Э?@ Шики, в чём дело?@
+` - Ни в чём.@ Это для меня непривычно, и я немного запутался.@
+` - ?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
-` Arcueid perplexedly cocks her head to the side.@
-` ...... It seems like she doesn't notice at all.\
+` Арквейд растерянно наклоняет голову набок...@
+` Похоже, она ничего не заметила.\
 
-` I can feel the weight of stares all around me.@
-` Just walking down the street causes people all around to cast glances at us.@
-` ...... It doesn't need to be said, but it's probably because Arcueid really stands out.\
+` Я чувствую взгляды со всех сторон.@
+` Просто гуляя по улице мы привлекаем к себе внимание прохожих.@
+` ...Это ясно без слов, но скорее всего это потому что Арквейд очень выделяется.\
 
-` I'm a little aware of it, but everyone else's reactions make me even more conscious of it, and it's a bit troubling.@
-` Arcueid acts just like she normally does, but since I can't help but be overwhelmed by her femininity, I can't seem to make any meaningful conversation.\
+` Я немного осознаю это, но реакции окружающих только ещё больше обращают на это внимание, и это меня немного донимает.@
+` Арквейд ведёт себя как обычно, но я невольно пасую перед её женственностью, и нормального разговора у нас не клеится.\
 
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"Hey, do you hear me Shiki?@ I'm asking you where we're going."@
-`"We're almost there so hold on.@ We're going somewhere you can relax."\
+` - Эй, Шики, ты меня слышишь?@ Я спрашиваю, куда мы идём?@
+` - Мы почти пришли, так что потерпи.@ Мы идём туда, где ты сможешь расслабиться.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -45,65 +45,65 @@ bg "image\bg\bg_31a.jpg",%type_lcartain_slw
 
 
 br
-` ----And we arrive at the alley.\
+`      И мы приходим в переулок.\
 
-`"Here we are.@ People don't normally come by here, so you can relax here----"@
+` - Вот, мы пришли.@ Люди сюда обычно не заходят, поэтому тут ты сможешь расслабиться...@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"........................"@
-` Huh----?@
-` Her gaze suddenly turns heartless, almost deadly.\
+` - ...@
+` Э?@
+` Её взгляд вдруг становится бесчувственным, почти убийственным.\
 
-`"Arcueid......?@ Don't tell me, you're not happy with this place......?"@
-`"........................"@
-` ...... She seems so angry she can't even speak.\
+` - Арквейд?..@ Неужели, тебе тут не нравится?..@
+` - ...@
+` Похоже, она так злится что не может произнести ни слова.\
 
-`"That's odd...... You're a vampire, so I thought you would like a place like this better than somewhere crowded----"@
+` - Странно... Ты же вампир, и я думал в таком месте тебе будет комфортней чем в оживлённом...@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
-`"----------!"@
-` The light in her eyes sharpens.@
-` ...... This isn't good.@ This might be the first time I've seen her this angry.@
+` - !@
+` Огонёк в её глазах становится ещё ярче.@
+` Дело плохо...@ Я, наверное, впервые вижу её настолько злой.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
 \
 
-` Giving a deep sigh, Arcueid looks up again.@
+` Тяжело вздохнув, Арквейд снова поднимает глаза.@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_fst
 
-`"Hey, Shiki.@ What kind of a joke is this?"@
-`"Ah----uh."@
-` Frightening.@ Her smiling face is really frightening.\
+` - Эй, Шики.@ Что это за шутка такая?@
+` - А...э.@
+` Ужас.@ Её улыбающееся лицо выглядит очень пугающе.\
 
-`"No, um...... I'm really sorry.@ I really messed up."@
-` I bring my hands together and implore forgiveness.@
-` She keeps smiling.\
+` - Нет, эм... я очень сожалею.@ Я правда облажался.@
+` Я складываю руки вместе в извиняющемся жесте.@
+` Она всё улыбается.\
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"That's right, there's really nothing to do here.@ The only thing we could do here is to replay the time we first met."@
+` - Да, тут же совсем нечего делать.@ Здесь мы разве что сможем повторить, как мы впеврвые встретились.@
 br
-` When we first met!?@ That means----
+` Когда мы впервые встретились?!@ Это значит...
 br
-`"Yeah, the results may turn out a little different from back then, but that might be fun too, right Shiki?"\
+` - Да, исход может быть немного другим чем тогда, но это тоже может быть весело, да, Шики?\
 
 br
 br
-` ----This is a threat.@
-` She counterattacks with a smile.\
+` ...Это угроза.@
+` Улыбнувшись, она контратакует.\
 
-`"...... I said I'm sorry.@ I'll make it up to you, so please stop smiling like that.@ I'll take you somewhere better."@
+` - Я же сказал, я сожалею.@ Я это компенсирую, поэтому прошу тебя, перестань так улыбаться.@ Я отведу тебя куда получше.@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Really?@ I was getting in the mood for it too."@
-` She looks disappointed.\
+` - Правда?@ А я уже как раз настроилась.@
+` Она выглядит разочарованно.\
 
-` ...... I really must contemplate my actions.@
-` Even though Arcueid is a vampire, I must have been really stupid to take her to an alley for a date......\
+` Мне правда стоит задуматься о своём поведении...@
+` Арквейд может и вампир, но я наверное совсем тупой раз повёл её на свидание в подворотню...\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -112,10 +112,10 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ??????(?)<?????(?)>
 bg "image\bg\bg_25a.jpg",%type_lcartain_mid
 
-` For four hours...
-` Appropriate for the ball of curiosity that is Arcueid, we end up going to the department store in front of the station.\
+` Следующие четыре часа...
+` Как и следовало ожидать от стремящейся всюду сунуть свой нос Арквейд, мы пошли в универмаг перед вокзалом.\
 
-` It seems like Arcueid made me take her there just to trouble me, but somewhere along the way, I guess it started to be pretty fun for her and she became happy again.@ It was a little tiring, but I think it was a good time.\
+` Скорее всего, Арквейд заставила меня отвести её туда чтобы помотать мне нервы, но где-то в процессе ей это похоже начало нравится и она снова развеселилась.@ Это было немного утомительно, но, я думаю, достаточно весело.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -128,6 +128,7 @@ playstop
 
 
 return
+
 
 
 </pre>
