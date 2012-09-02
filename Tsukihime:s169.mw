@@ -13,75 +13,75 @@ bg "image\bg\bg_25a.jpg",%type_lcartain_mid
 play "*3"
 
 
-` For the time being, the movie theater is always a safe bet.@ As long as the movie you choose is good, it can't be boring.@
+` Как бы то ни было, кинотеатр — это всегда беспроигрышный вариант.@ Если выбрать хороший фильм, то скучно не будет.@
 br
 ; ??<?>=??????:?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_lshutter_fst
-`"This place is always pretty lively, although I don't know what's here."@
-` Arcueid walks right next to me.@
+` - Тут всегда так оживлённо, хотя я и не знаю что там.@
+` Арквейд идёт рядом со мной.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-`"------"@
-` On the way----actually even now, everyone around us keeps casting glances our way.@
-` ...... It doesn't need to be said, but it's probably because Arcueid really stands out.\
+` - ...@
+` По дороге сюда — нет, даже сейчас, окружающие люди бросают на нас взгляды.@
+` ...Это ясно без слов, но скорее всего это потому что Арквейд очень выделяется.\
 
-` I'm aware of it a little, but everyone else's reactions make me even more conscious of it, and it's a bit troubling.@
+` Я немного осознаю это, но реакции окружающих только ещё больше обращают на это внимание, и это меня немного донимает.@
 br
-` Arcueid acts just like she normally does, but since I can't help but be overwhelmed by her femininity, I can't seem to make any meaningful conversation.\
+` Арквейд ведёт себя как обычно, но я невольно пасую перед её женственностью, и нормального разговора у нас не клеится.\
 
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
-`"Hey, do you hear me Shiki?@ I'm asking you where we're going."@
-`"Ah----um, well most couples here usually go to the movie theater."@
-` I point to the movie theater in front of us.\
+` - Эй, Шики, ты меня слышишь?@ Я спрашиваю, куда мы идём?@
+` - А... эм, ну, большинство пар обычно ходит в кинотеатры.@
+` Я показываю пальцем на кинотеатр перед нами.\
 
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Movie theater...... hmm, so watching a movie then."@
-` ...... The princess does not seem to be pleased.@
-` But, after coming this far, I don't have a choice.@
-` It's not like I have any clue what would please a vampire girl in the first place.@
-` Because I've gone this far, I just have to prepare myself for her to say "Boring."\
+` - Кинотеатр... хмм, значит кино смотреть.@
+` Похоже, принцесса недовольна...@
+` Но у меня уже нет выбора когда я зашёл так далеко.@
+` Начнём с того, что я в принципе онятия не имею, что может понравится девушке-вампиру.@
+` Раз уж я дошёл до этого, мне остаётся только приготовится к тому, что она скажет: «Скучно».\
 
-`"Just go in.@ If you're dissatisfied, we can always split up here."@
-`"I'm not really... dissatisfied."@
-` Giving a sigh, Arcueid follows me.@
+` - Просто заходи внутрь.@ Если тебе не понравится, мы всегда можем после этого разойтись.@
+` - Мне не то чтобы... не нравится.@
+` Вздохнув, Арквейд идёт за мной.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-` She slumps her shoulders as if to say "you good-for nothing guy!".\
+` Она опускает плечи, словно говоря «что за бесполезный тип!».\
 
-`"I'm going to go buy tickets, but what do you want to see?@ Let's see, there's a romance, and a romance, and a romance...... this theater kind of stinks."@
-` To be honest, I want to go back too.@
+` - Я пойду за билетами, но что ты хочешь посмотреть?@ Так, тут у нас романтика, и романтика, и романтика... что за хреновый кинотеатр.@
+` Честно говоря, мне уже тоже хочется уйти.@
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
-`"Any one of them is fine.@ They really all look the same."@
-`"Yeah.@ Then let's just buy one."@
+` - Любой подойдёт.@ Они все выглядят одинаково.@
+` - Ага.@ Тогда пошли покупать.@
 ; ?????<?????(?)>
 cl c,%type_rcartain_mid
 
-` I get in the shortest line and buy two tickets.\
+` Я становлюсь в самую короткую очередь и беру два билета.\
 
-`"Here you go.@ Just show this ticket when we go in.@ They'll take half of the ticket, but that's how it's supposed to be so don't get angry."@
+` - Держи.@ Когда пойдём на вход, просто покажешь билет.@ Они половинку отрвут, но так и должно быть, так что не возмущайся.@
 ; ??<?>=??????:?02(??)<????>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
 
-`"I know that much.@ You really think I don't know anything, Shiki."@
-`"Ah...... no, that's not it.@ I just thought maybe you didn't know much about human society."@
+` - Я это знаю.@ Шики, ты и правда думаешь что я не знаю ничего.@
+` - А... нет, дело не в этом.@ Я просто подумал что ты немногое знаешь о человеческом обществе.@
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
-`"I have some knowledge of it stored away.@ I know at least about a movie theater."@
+` - Кое-какие знания у меня отложены.@ Уж про кинотеатры я знаю.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` Giving a small "hmph", she turns her face away and walks towards the theater.\
+` Негромко хмыкнув, она отворачивается и идёт в кинотеатр.\
 
-` ...... It was a mistake.@
-` I knew taking a vampire to a movie theater would be too dull.\
+` Это было ошибкой...@
+` Я так и знал, что вести вампиршу в кинотеатр — слишком банально.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -90,70 +90,70 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ??????(?)<???????(?)>
 bg "image\bg\bg_25a.jpg",%type_crossfade_fst
 
-` ----We exit the theater.@
+`     Мы выходим из кинотеатра.@
 br
-` We watched a romance... it wasn't exactly boring, but not terribly interesting either.@
-` It was a typical French movie.@ It focused less on breathtaking scenes and concentrated more on creating a calm atmosphere.@
-` As we leave the theater, Arcueid walks with me wordlessly.\
+` Мы посмотрели романтический фильм... не то чтобы он был скучным, но и не особым интересным.@
+` Обычный французский фильм.@ В нём не было большого количества захватывающих сцен, он больше пытался создать спокойную атмосферу.@
+` Мы покидаем кинотеатр, Арквейд молча идёт рядом со мной.\
 
-`"............"@
-` ...... An uncomfortable silence.@
-` Maybe she would've been happier if it was an action flick or a horror movie.@
+` - ...@
+` Неловкое молчание...@
+` Может, ей бы больше понравилось если бы мы пошли на боевик или на ужастик.@
 br
-`"Hey, Arcueid."@
+` - Эй, Арквейд.@
 ; ??<?>=??????:?01(?????)<??????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_lshutter_fst
-`"Yeah, it was really fun, Shiki!"@
+` - Да, Шики, это было так весело!@
 br
-` Wh, wh, wha, what......!?\
+` Ч, ч, чт, что...?!\
 
-`"Uh, fun, Arcueid?"@
-`"Man, hearing about it and seeing it were two entirely different things.@ Even though I knew some background information about what a movie theater was, my imagination fell short of reality."@
-` ...... Arcueid gives a happy, heart-felt smile.\
+` - Э, Арквейд, весело?@
+` - Эх, слышать об этом это одно, но видеть — совсем другое.@ Хоть я и знала кое что о том, что такое кинотеатр, но то что я представляла не идёт ни в какое сравнение с реальностью.@
+` Арквейд искренне довольно улыбается.\
 
-`"The darkness was really nice, and even though the sounds were loud, they weren't noisy.@ And having you next to me was also fun.@
-` But more than that, the subject matter was really good!@ I was surprised they would go so far to make up a story.@ It's so detailed, my imagination was nothing like that.@ I was really moved."@
-`"...... Ah, is... is that so?"@
+` - В темноте было так неплохо, и звуки были громкие но по ушам не били.@ И то что ты рядом сидел было так классно.@
+` Но больше того, содержание было очень хорошим!@ Я так удивилась что они даже сюжет придумали.@ Он был таким детальным, я и представить себе такого не могла.@ Я была правда тронута.@
+` - А... правда?@
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Huh?@ You look like you don't agree.@ Was it was boring?"@
-`"No, not really boring, just ordinary.@ There's way more interesting things than that."\
+` - Э?@ Ты похоже не согласен.@ Разве фильм был скучный?@
+` - Нет, не то что бы скучный, просто обычный.@ Есть фильмы и поинтересней.\
 
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
 
-`"No way.@ That was really good, you know!?"@
-`"Well, I guess movie experts like that kind of movie, but there's a ton of better ones.@
-` They are not out right now, but there are epics out there many times better than that.@
-` To be blunt, what we just saw was pretty low quality."@
+` - Не может быть.@ Фильм же правда был хороший!@
+` - Ну, наверно киноэкспертам такие фильмы нравятся, но есть целая куча фильмов получше.@
+` Сегодня их не крутили, но есть фильмы во много раз лучше этого.@
+` Если говорить прямо, то этот фильм был совсем невысокого качества.@
 !w500
 
-`"...... I'm surprised."@
+` - ...Я в удивлении.@
 !w500
 
-`"...... It's so easy to read your expressions Arcueid."\
+` - Арквейд, твои мысли так легко понять.\
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
-` Not just surprised, but amazed.@
-` That Arcueid, she looked so not into it, so I thought she was going to complain... but now she's like an excited kid.@
+` Не просто в удивлении, она поражена.@
+` Та Арквейд, она выглядела такое разочарованой, и я думал что она будет жаловаться... но теперь она ведёт себя как взволнованый ребёнок.@
 br
-`"...... Too bad.@ If it was earlier, we could've seen a better movie.@ If I knew you would have liked it, I would have taken you."@
+` - Жаль.@ Если бы это было раньше, мы могли бы посмотреть фильм получше.@ Если б я знал, что тебе понравится, я бы тебя сводил.@
 br
-` It's not so she thanks me, but I genuinely do want to make her happy.\
+` Дело даже не в её благодарности, но я правда хочу её порадовать.\
 
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
 
-`"Oh, I see.@ I guess we don't have much luck."@
-` Arcueid slumps her shoulders in disappointment.@
-`"Yeah, we just keep missing the opportunities."@
-` I slump my shoulders in disappointment too.@
-` ...... Yeah, really.@
-` It really would have been nice to see her happy, smiling face a little longer.\
+` - О, понятно.@ Не везёт нам, наверное.@
+` Арквейд расстроенно опускает плечи.@
+` - Да, мы всё упускаем возможности.@
+` Я тоже расстроенно опускаю плечи.@
+` Да, действительно...@
+` Было бы неплохо подольше видеть её радостное, улыбающееся лицо.\
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
