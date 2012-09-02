@@ -7,21 +7,22 @@
 bg "image\bg\bg_32a.jpg",%type_nowaitdisp
 
 
-`"Aren't you just easily angered?@ You're a pretty selfish person at heart, after all."@
-` I clearly voice my thoughts on the matter.@
+` - Может ты просто легко злишься?@ В душе ты ведь всё-таки эгоистка.@
+` Я откровенно говорю то, что думаю.@
 ; ??<?>=??????:?01(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
-`"Really?@ Now that you mention it, you could be right.@ It seems like I've become really emotional since you killed me."@
-` Arcueid nods in a satisfied manner.@
+` - Правда?@ Если подумать, ты наверное прав.@ Похоже я стала очень эмоциональной после того как ты меня убил.@
+` Арквейд удовлетворённо кивает.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` ...... Well, whether that was the truth or not, the problem is resolved as long as Arcueid is convinced.\
+` Ну, неважно правда это или нет, раз Арквейд это устраивает, проблема решена.\
 
 
 
 
 return
+
 
 
 </pre>
