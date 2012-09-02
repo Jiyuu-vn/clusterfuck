@@ -8,79 +8,79 @@ bg "image\bg\bg_56.jpg",%type_nowaitdisp
 ;CD-DA?????
 play "*1"
 
-` ...... That's right.@
-` I've been helping Arcueid look for this "enemy", but I don't even know what kind of guy he is yet.@
+` Да.@
+` Я помогаю Арквейд с поиками этого «врага», но я даже не знаю какой он.@
 br
-`"Then I'll ask.@ Arcueid, your 'enemy', what kind of vampire is he?@ You've been chasing him this long, so you know what he looks like, right?"@
+` - Тогда я спрошу.@ Арквейд, твой «враг», что он за вампир?@ Ты столько за ним гонялась, значит ты наверняка знаешь как он выглядит, верно?@
 ; ??<?>=??????:?(????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"Well----I----"@
-` Arcueid looks away.\
+` - Ну... я...@
+` Арквейд отвтоди взгляд.\
 
-`"What is it?@ Didn't you just say you wouldn't hide anything from me?"@
+` - В чём дело?@ Ты разве не сказала только что что не будешь от меня ничего скрывать?@
 ; ??<?>=??????:?(????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`"Yes, but please listen without getting angry.@
-` I only knew just recently that the vampire in this city was here.@ I came here as soon as I knew the 'enemy' was in this city in this country, but I have never met him.@
-` So to be honest, I don't know anything about the 'enemy' this time."@
-`"You don't know?----Didn't you recognize Nrvnqsr on sight?"\
+` - Да, только пожалуйста, не сердись.@
+` Я только недавно узнала что вампир появился в этом городе.@ Я приехада сюда как только унала что «враг» был в этом городе в этой стране, ноя никогда его не видела.@
+` Так что честно говоря, в этот раз я о «враге» ничего не знаю.@
+` - Ты не знаешь? Разве ты не узнала Нрвнкср с персовго взгляда?\
 
-`"Nrvnqsr was famous, and he never changed his appearance.@
-` While the "enemy" I'm pursuing isn't as strong of a vampire, his traits fall within a broad range and I have no idea of his specialties or features this time.@
-` I'm really sorry Shiki---but I really can only tell you this much."@
+` - Нрвнкср был знаменит, и он никогда не менял свою внешность.@
+` И хотя «враг» которого я преследую не так силён как вампир, он может выглядеть как угодно, и в этот раз я ничего не знаю о его внешности или особых приметах.@
+` Шики, мне правда жаль — но я правда ничего больше не могу тебе сказать.@
 br
-` ...... I know she's not lying.@ I know, but still, I feel like she's hiding something.@
-` Like----\
+` Я знаю, что она не врёт.@ Я знаю, но всё равно, я чувствую что она что-то скрывает.@
+` Как например...\
 
-`"That's okay.@ You can't help it if you don't know.@
-` But----at least you know the name of this 'enemy', right?"@
+` - Ничего.@ Если ты не знаешь, то с этим ничего не поделаешь.@
+` Но... ты знаешь хотя бы имя этого «врага», верно?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
-`"N----name?"@
-`"Yeah, his name."@
-` She gets downcast, descending into silence.@
-` She cannot tell me his name for some reason, and she is troubled.@
+` - И...имя?@
+` - Да, его имя.@
+` Она поникает, и погружается в мочлание.@
+` Почему-то она не может сказать его имя, и она встревожилась.@
 br
-` Well, that's what I thought, anyway.\
+` Ну, я всё равно так и думал.\
 
 ; ??<?>=??????:?(????)<???????(?)>
 ld c,":a;image\tachi\ark_t05c.jpg",%type_crossfade_fst
 
-`"----His name."@
-` Coldness.@
-` Rapidly, I feel a chill so great it seems like it could freeze the entire room.@
+` - Его имя.@
+` Холод.@
+` Я вдруг чувствую такой холод, что его хватило бы чтобы заморозить всю комнату.@
 br
-`"Shiki, his name is......"@
-` Arcueid isn't having any trouble saying it.@
+` - Шики, его имя...@
+` Арквейд вовсе не трудно назвать его.@
 br
-`"...... His name is Michael.@ Michael Roa Valdamjong.@
-` Called Uroboros, a Dead Apostle who used to be human."@
-` She speaks while still looking down.@
-` Pure enmity, as if she was spitting forth blood.@
+` - ...Его имя Михаэль.@ Михаэль Роа Вальдамион.@
+` По прозвищу Уроборос, Мертвый Апостол который раньше был человеком.@
+`  Не поднимая глаз, говорит она.@
+` Чистая злоба, она словно кровь выплёвывает.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 \
 
-`"Arcueid, you----"@
-`"------"@
-` Her shoulders are shaking.@
-` It looks like she's trying to hold herself back from going on a rampage.@
-`"...... Sorry.@ I shouldn't have asked.@ It's okay, just forget about it."@
-` Arcueid shakes her head slightly.@
-` As if trying to say she could never forget.@
+` - Арквейд, ты...@
+` - ...@
+` Её плечи дрожат.@
+` Она словно сдерживается чтобы не взбеситься и не устроить бойню здесь и сейчас.@
+` - Прости.@ Не надо было мне спрашивать.@ Всё в порядке, просто забуть об этом.@
+` Арквейд несильно качает головой.@
+` Словно говоря этим, что она никогда не забудет.@
 br
-` A period of silence ensues between us.\
+` Между нами воцаряется молчание.\
 
 
-`"------I'm sorry."@
-` Arcueid says this, still looking down.@
-`"----Mm."@
-` I give a noncommittal response.@ Both of us rise automatically from our seats and leave the restaurant.\
+` - Прости.@
+` Всё ещё не поднимая глаз, говорит Арквейд.@
+` - Мм.@
+` Неопределённо отвечаю я.@ Мы автоматически встаём со своих мест и выходим из кафе.\
 
 
 ; ???<?????(?)>
@@ -93,6 +93,7 @@ playstop
 
 
 return
+
 
 
 </pre>
