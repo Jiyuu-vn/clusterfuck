@@ -6,72 +6,72 @@
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_40a.jpg",%type_nowaitdisp
 
-`"----"@
-` I glance at the clock.@
-` It's already past nine.@
-` I'd be late even if I went to school now---and to be honest, going with Arcueid is more fun than going to school......\
+` - ...@
+` Я смотрю на часы.@
+` Уже неачало десятого.@
+` Всё равно я в школу уже опоздал... и честно говоря, пойти с Арквейд веселее чем идти в школу...\
 
-`"Alright.@ I'll spend the day with you.@ But if we go into the city during the day, I don't think there'll be any Dead around?"@
+` - Хорошо.@ Я весь этот день буду с тобой.@ Но если мы пойдём в город днём, вряд ли мы встретим Мертвых?@
 ; ??<?>=??????:?01(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
-`"I don't care about that.@ I just wanted to walk around, so even if it is daytime, it doesn't matter."@
-`"......?@ What, aren't we making up for last night and going to look for vampires?"\
+` - Меня это не заботит.@ Я хотела только погулять, так что без разницы что на дворе день.@
+` - ?..@ Что, мы разве не собираемся искать вампиров вместо прошлой ночи?\
 
-`"Yes, of course we'll look tonight.@ But to have you help me all day and night would be hard, so during the day I thought we could relax."@
-`"I think that'd be more fun too.@ But, just the two of us walking around, that's......"\
+` - Да, кончено вечером мы будем искать.@ Но заставлять тебя помогать мне днём а затем и ночью будет слишком, и я решила что днём мы можем просто отдохнуть.@
+` - Я тоже думаю, что так будет веселее.@ Но, просто гулять вдвоём, это...\
 
-` like what they call a date in the real world.@
-` ...... Maybe you can't say that with a vampire like Arcueid, but I suppose she's telling me to take her out for some fun.@
-` For me, I----I need to get ready mentally and...\
+` в реальном мире это называется свиданием...@
+` Не знаю, можно ли так сказать про вампира, как Арквейд, но похоже она хочет чтобы я сводил её куда-нибудь повеселиться.@
+` Мне же, я... я должен мысленно подготовиться, и...\
 
-`"......?@ What's wrong, Shiki?@ Your face, it's turning red."@
-`"------Uh."@
-` I cover my face with my hands and look away.@
+` - ?@ Шики, что такое?@ Твоё лицо, оно краснеет.@
+` - Ээ...@
+` Я закрываю лицо руками и отворачиваюсь.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` ...... Certainly it's been just the two of us many times before.@
-` But, those were emergency situations, and it was more like a pact of cooperation than anything between a man and a woman.@
-` That's why----no matter how pretty I thought she was, I tried not to notice it.\
+` Конечно, мы много раз уже оказывались вдвоём.@
+` Но, то были экстренные ситуации, и отношение между нами скорее напоимнало пакт о взаимопомощи чем что-то между мужчиной и женщиной.@
+` Вот почему — какой бы красивой я её не считал, я старался этого не замечать.\
 
-` But, if...
-` Without any danger, without any purpose, if the two of us just walk around, I might notice something I never noticed before, and it makes me hesitate----\
+` Но, если...
+` Без опасности, без цели, если мы просто пойдём гулять вдвоём, я могу заметить что-нибудь чего раньше не замечал, и это заставляет меня колебаться...\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Shiki?@ Hey, are you going to school after all......?"@
-`"...... No way.@ I said I'd do it, so I will.@ I don't know what you're thinking, but walking around shouldn't be a problem."@
+` - Шики?@ Эй, ты таки в школу собираешься?..@
+` - ...Вовсе нет.@ Я сказал что пойду с тобой, значит пойду.@ Я не знаю что ты задумала, но думаю просто погулять будет несложно.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"Then it's decided.@ Then let's go."@
+` - Значит решено.@ Тогда пошли.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` She walks toward the window she snuck in earlier.\
+` Она подходит к окну, через которое пролезла.\
 
-`"Wait a minute.@ I'm going to change, so can you just look outside for a while?"@
+` - Погоди минуту.@ Я сейчас переоденусь,ты не могла бы отвернуться ненадолго?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
-`"What, did you call me?"@
-`"Oh, yes, no!@ Just go outside, I'll be there soon."@
-`"Okay, I'll wait outside.@ I've waited this long, so don't make me wait any longer, Shiki..."@
+` - Что, ты меня звал?@
+` - О, да, нет!@ Просто, иди уже наружу, я скоро буду.@
+` - Хорошо, я подожду снаружи.@ Я уже столько прождала, Шики, не заставляй меня ждать ещё...@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 \
 
-` She jumps out the window with the lightness of a cat.@
-` I hear the rustling of the trees outside.@
-` She didn't jump to the ground, but along the tree branches.@
+` С ловкостью кошки, она выпрыгивает из окна.@
+` Снаружи доносится шорох деревьев.@
+` Она спрыгнула не на землю, а на ветви.@
 br
-` ...... With a body like that, it should have been easy getting in here undetected.\
+` С таким телом, ей наверное было совсем несложно проникнуть сюда незамеченой...\
 
-`"...... This isn't the time to be impressed.@ I too have to sneak out without Hisui noticing."@
-` I change into some normal clothes.@
-` Cracking open the door slightly, I look around to make sure no one's in the hallway and tip-toe outside.\
+` - ||Некогда клювом щёлкать.@ Мне надо выскользнуть так, чтобы Хисуи меня не заметила.@
+` Я переодеваюсь в более повседневную одежду.@
+` Приоткрыв дверь, я выглядываю в коридор, и убедвишись, что там никого нет, на цыпочках иду наружу.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -86,46 +86,46 @@ bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 play "*3"
 
 
-` Luckily, no one saw me as I made my way out.@
-` Arcueid is looking the other way as she mumbles to herself.@
+` К счастью, меня никто не заметил и мне удалось выйти.@
+` Арквейд что-то бормочет себе под нос, глядя в другую сторону.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t22.jpg",%type_crossfade_fst
 
-`"Thanks for waiting.@ C'mon, let's go Arcueid.@ If we stick around here, Kohaku-san will find us."@
+` - Спасибо что подождала.@ Давай, Арквейд, пойдём.@ Кохаку-сан нас заметит если мы и дальше будем тут торчать.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
-`"Eh?@ Ah, yeah, we should go."@
-` Completely different from before, her words seem very empty.\
+` - Э?@ А, да, надо идти.@
+` Её слова звучат так понуро, совсем не так как недавно.\
 
-`"What is it?@ This isn't like you at all.@ Did something happen again just now?"@
-`"...... No, nothing really."@
-` I said the 'again' part strong, but her words are still hollow.@
+` - Что такое?@ Это на тебя совсем не похоже.@ Только что опять что-то произошло?@
+` - ...Да нет, ничего.@
+` Я сделал ударение еа слове «опять», но её слова звучат по прежнему понуро.@
 br
-` ----It seems like she's planning something.@ I feel kind of scared.@
+`      Она словно что-то затевает.@ Мне становится боязно.@
 br
-`"...... Are you feeling sick because it's daytime?@ There's no need to force yourself to go out.@ If it's hard for you, we can stop."\
+` - Ты плохо себя чувствуешь потому что сейчас день?@ Не нужно заставлять себя гулять через силу.@ Если тебе тяжело, мы можем прекратить.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Mmh, I feel fine right now.@ But seeing this wall reminded me of last night."@
-`"......?@ About last night, you mean while you waited for me at the park?"@
+` - Мм, я себя нормально чувствую.@ Но когда я увидела эту стену, мне вспомнился вчерашний вечер.@
+` - ?@ Вчерашний вчере, в смысле когда ты меня в парке ждала?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
-` "Yes," Arcueid nods meekly.\
+` «Да», кротко кивнула Акрвейд.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"I dashed here with all my strength and snuck into your room...... but it seems strange when I think about it now.@
-` Why was I so angry back then?@ It was just a little promise."@
-` Saying she doesn't get it, Arcueid crosses her arms in thought.\
+` - Я бежала со всех ног, и пролезла к тебе в комнату... но когда я думаю об этом сейчас, мне это кажется странным.@
+` Мочему я тогда так злилась?@ Это же только маленькое обещание.@
+` «Не понимаю», говорит Арквейд, задумчиво скрестив руки.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
-`"Ah, that's right.@ Maybe you get it, Shiki?@ You always tell me I'm so stupid, so maybe you can understand?"@
-`"Hey......"@
-` If she doesn't understand herself, then how does she expect me to?@
-` There's no way I understand, but if I have to respond----
+` - А, точно.@ Шики, может ты понимаешь?@ Ты всё время говоришь мне какая я глупая, может, тебе это понятно?@
+` - Эй...@
+` Раз она сама этого не понимает, как я должен это понять?@
+` Мне неоткуда понимать в чём тут дело, но ответить-то надо...
 br
 cl c,%type_crossfade_fst
 
@@ -133,6 +133,7 @@ cl c,%type_crossfade_fst
 
 
 return
+
 
 
 </pre>
