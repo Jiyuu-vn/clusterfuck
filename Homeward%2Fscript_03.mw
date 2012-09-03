@@ -13,9 +13,9 @@ label soraarrives:
     play music "Music/Heaven.ogg" fadeout 1.0 fadein 1.0 loop
     scene bg street3 with dissolve
     
-    "The day Sora arrived was marked with the falling of April showers."
-    "I had been on the telephone with her just the other day. She told me then that she was going to arrive in the afternoon, so I probably had to skip club activities to help her move in."
-    "I talked to Nonami and Haruka about it as we were walking to school."
+    "В день приезда Соры шёл Апрельский ливень."
+    "Буквально на днях я говорил с ней по телефону. Она сказала, что приедет сюда после обеда, поэтому мне придётся пропустить клуб чтобы помочь ей."
+    "Об этом я предупредил Нонами и Харуку по пути в школу."
     
     show nonami uniform armsraised with dissolve:
         xanchor 0.5
@@ -25,57 +25,57 @@ label soraarrives:
         xanchor 0.5
         xpos 0.7
     
-    no "Ehh... So Rii-kun had a younger sister like that? Sounds pretty tough, eh..."
-    ri "I can hardly even remember what she looks like..."
-    ha "Will Sora-san be going to school with us?"
-    ri "Yeah. She'll be a year below us, though."
+    no "Эх... Значит у Рии-куна есть младшая сестра? Круто..."
+    ri "Я с трудом могу вспомнить, как она выглядит..."
+    ha "Сора-сан будет ходить в школу с нами?"
+    ri "Ага. Но она будет на один класс младше нас."
 
     show haruka uniform concerned with dissolve
-    ha "Eh... I hope things go alright."
-    ri "I suppose it's not that bad. After all, had it not been for her, I would never have come back here."
+    ha "Эх... Надеюсь всё будет хорошо."
+    ri "Думаю это к лучшему. В конце концов, если бы не она, я бы сюда не вернулся."
     
     show haruka uniform handstogether smile with dissolve
-    ha "Eheh, I suppose Saionji-san does have a point there."
-    ri "By the way, do you two have any brothers or sisters?"
+    ha "Эхех, полагаю для Саёнджи-сана это имеет большое значение."
+    ri "Кстати, а у тебя есть братья или сёстры?"
     
     show nonami uniform happy with dissolve
-    no "Oh! I have two brothers."
-    ri "Big family, huh?"
+    no "О! У меня есть два брата."
+    ri "У вас большая семья, да?"
     
     show nonami uniform neutral with dissolve
-    no "Uh huh. Well, we need all the help we can get at the Sapuraizu Donkii anyways."
-    "I'm telling you Nonami, it's called the \"Surprise Donkey...\""
+    no "Угу. Ну, мы нуждаемся в любой помощи, которую может получить для Сапураизу Донкии."
+    "Я же тебе говорил, правильно говорить \"Сюрпраиз Донки...\""
     
     show nonami uniform happy with dissolve
-    no "Man, it's always a pretty big fuss when we play on the Wii together at home though."
+    no "Боже, как же шумно, когда мы дома вместе играем в Wii."
     
     show nonami uniform smile2 with dissolve
-    no "Sometimes, even our dad joins in and it's all four of us playing together. Total chaos! You can never imagine the amount of noise three men can make together!"
-    "If Nonami called something noisy, then this was probably a new level cacophony all together. I feel sorry for their neighbors..."
+    no "Иногда даже наш папа присоединяется и мы все вчетвером играем вместе. Полнейший беспорядок! Ты не представляешь, какой шум могут создать трое мужчин вместе!"
+    "Если уж Нонами говорит о шуме, то это должно быть какое то шум нового поколения. Бедные мои соседи..."
     
     show haruka uniform happy with dissolve 
-    ha "Maybe it'll be like that for Saionji-san once Sora-san moves in too."
+    ha "Когда приедет Сора-сан, для Саёнджи-сана может быть будет так же."
     
     show nonami uniform excited with dissolve
-    no "Oh! Then all four of us could play on the Wii together!"
-    "As long as it didn't end with one of us getting arrested for breaking neighborhood noise laws."
-    ri "So, what about Haruka-san?"
+    no "О! Тогда мы все вчетвером сможем играть в Wii!"
+    "До тех пор, пока одного из нас не арестуют за нарушение закона об уровне шума доносящегося до соседей."
+    ri "А как насчёт тебя, Харука-сан?"
     
     show haruka uniform handraised with dissolve
-    ha "I'm a single child."
-    ri "Ehh... I see."
+    ha "Я одна в семье."
+    ri "Аа... Понятно."
     
     show haruka uniform handsbehind smile with dissolve
-    ha "Well, it's not too bad, because then my parents can give me all the attention."
+    ha "Ну, это не так плохо, потому что всё внимание родителей ко мне одной."
     
     show haruka uniform onehandraised smile with dissolve
-    ha "Sometimes though, I think it would be nice to have a younger sister to talk to..."
+    ha "Хотя временами мне кажется что было бы не плохо иметь младшую сестру..."
     
     show nonami uniform armsraised smile with dissolve
-    no "Yeah, it is nice. My brother sometimes helps me out with my homework, since he's in college now."
+    no "Да, это хорошо. Мой брат учится в колледже, так что он иногда помогает мне с домашними заданиями."
     
     scene bg outsideschoolrain with dissolve
-    "Throughout our idle chatter, we almost didn't realize that we had already arrived at the school gate."
+    "Пока мы болтали, мы почти не заметили как прибыли к воротам школы."
     
     show nonami uniform greet happy with dissolve:
         xanchor 0.5
@@ -85,25 +85,25 @@ label soraarrives:
         xanchor 0.5
         xpos 0.7
 
-    no "Oh, we're here already. See you around."
+    no "О, мы уже пришли. Увидимся!"
     
     show haruka uniform happy with dissolve
-    ha "Bye bye, Nona-chan."
+    ha "Пока, Нона-тян."
     
     hide nonami with dissolve
-    "Nonami ran off to class. We had better get going too."
+    "Нонами побежала в свой класс. Мы следует сделать тоже самое."
     
     scene bg classroom with dissolve
-    "I was too distracted by Sora's imminent arrival to really get into today's classes."
-    "As soon as the last class ended, I ran back to the house."
+    "Я был слишком отвлечён предстоящим прибытием Соры, чтобы заниматься учёбой."
+    "Поэтому как только закончился последний урок, я побежал обратно домой."
     
     play music "Sound/rain.ogg" fadeout 1.5 loop
     scene bg livingroom with dissolve
-    "Good, it looked like she hadn't arrived yet."
-    "I entered the living room and sat down on a chair. It wouldn't be long now."
-    "My father was always busy with his work and usually didn't return until late in the night, so I was the only person around to help Sora move in."
-    "I sat in anticipation, with only the sound of the rain drops colliding against the window to keep me company."
-    "Hopefully, this weather won't delay her trip."
+    "Хорошо. Судя по всему она ещё не приехала."
+    "Я вошел в гостиную и сел на стул."
+    "Мой отец занят своей работой и вряд ли не возвратится до поздней ночи, так что я был единственным человеком, который может помочь Соре поселиться здесь."
+    "Я сидел и ждал. Компанию мне составлял лишь звук дождя, барабанящего по окнам."
+    "Дубу надеяться, эта погода не задержит её."
     "... ... ..."
     "... ..."
     "... ... ..."
@@ -111,9 +111,9 @@ label soraarrives:
     
     play sound "Sound/Doorbell.wav"
     
-    "All of a sudden, the door bell rang."
-    "That must be her now."
-    "I leapt out of my chair and ran to the door."
+    "Внезапно, раздался дверной звонок."
+    "Должно быть это она."
+    "Я вскочил со стула и бросился к двери."
     
     scene bg streetevening with dissolve
     show rain1s
@@ -121,52 +121,52 @@ label soraarrives:
     show rain3s
     with dissolve
     
-    "When I opened it, I was greeted with the top of a black umbrella."
+    "Открыв дверь, я увидел верхушку чёрного зонта."
     play music "Music/Dream_of_a_Butterfly.ogg" fadeout 1.0 fadein 1.0 loop
     
     show sora casual tanuki distantleft with dissolve
     
-    "It was set aside and folded up by its user, revealing a frail looking girl underneath it."
-    "I had to bend down to talk to her face to face."
-    ri "Hello. You must be Sora."
+    "Зонтик сдвинулся в сторону и сложился. Его владелица была хрупкая красивая девушка."
+    "Мне пришлось наклониться, чтобы говорить с ней лицом к лицу."
+    ri "Привет. Ты должно быть Сора."
     so "... ... ..."
-    ri "I'm Riku, your older brother."
-    "Her greeting took the form of silence."
-    ri "Here, let me get your things."
-    "I ran to the taxi and grabbed a large luggage bag from the trunk."
-    "Was this all of it? Considering that she was going to live with us from now on, I would have expected her to have brought more belongings."
-    "After paying the driver, we went inside the house."
+    ri "Я Рику, твой старший брат."
+    "Она продолжала молча приветствовать меня."
+    ri "Давай я возьму твои вещи."
+    "Я подбежал к такси и вытащил большую сумку из багажника."
+    "Это все её вещи? Учитывая то, что она собирается теперь жить с нами, я ожидал что у неё будет больше вещей."
+    "После того как водителю такси была оплачена его работа, мы вошли в дом."
     
     scene bg doorway with dissolve
-    "A heavy silence fell upon the house as soon as I closed the door, as if I had just sealed shut the gate to an underground shelter."
-    "I felt compelled to break the silence."
-    ri "Well, follow me. I'll take you to your room."
+    "Как только я закрыл за собой дверь, занавес молчания упал на дом. Будто я только что закрыл ворота подземного убежища."
+    "Я должен был прервать молчание."
+    ri "Ну, за мной. Я покажу тебе твою комнату."
     
     scene bg stairs with dissolve
-    "There was only the sound of our footsteps against the wooden stairs as we made our way upstairs."
+    "Пока мы поднимались вверх, нас сопровождал лишь звук шагов по деревянной лестнице."
     
     scene bg soraroom with dissolve
     show sora casual tanuki distantleft with dissolve
-    "I led her to the second bedroom and dropped her luggage bag on the floor."
-    "She walked over and plopped down on the bed, her stuffed tanuki in her arms."
-    ri "Do you need help unpacking?"
-    "She shook her head from side to side a little."
-    "More silence."
-    ri "Are you hungry? Do you need anything to eat?"
+    "Я показал ей ее спальню и оставил на полу сумку."
+    "Она подошла и плюхнулась на кровать, (!her stuffed tanuki in her arms!)."
+    ri "Тебе помочь разобрать сумку?"
+    "Она слегка покачала головой из стороны в сторону."
+    "Тишина."
+    ri "Ты голодна? Хочешь что-нибудь поесть?"
     so "... ... ..."
     
     if cookingclub:
-        ri "I've been in the cooking club for about a week now, so I should be able to cook something tasty for Sora. Would you like that?"
+        ri "На неделе я посетил кулинарный клуб, так что я могу приготовить для Соры что-нибудь вкусное. Хочешь?"
         show sora casual tanuki distantleft mouthopen with dissolve
-        so "...I wouldn't hate it."
+        so "...Я не против."
         
     if kendoclub:
-        ri "Mm... Well, we only have instant ramen right now. Would you like that, Sora?"
+        ri "Мм... Вообщем, сейчас у меня есть только рамен быстрого приготовления. Хочешь?"
         show sora casual tanuki distantleft mouthopen with dissolve
-        so "...I wouldn't hate it."
+        so "...Я не против."
         
-    "She responded so quietly that I could barely hear her, but at least I knew now that she could speak."
-    ri "Okay, I'll be right back."
+    "Она ответила так тихо, что я едва мог расслышать ее. Но по крайней мере теперь я знал, что она могла разговорить."
+    ri "Хорошо, я скоро вернусь."
     
     if cookingclub:
         
