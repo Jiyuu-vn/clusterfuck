@@ -7,38 +7,38 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????(?)<?????(?)>
 bg "image\bg\bg_01c.jpg",%type_lcartain_mid
 
-` ----Concerned about what happened this afternoon, I come to my school.@
+` Я беспокоюсь о том, что случилось сегодня днём, и потому направляюсь в школу.@
 br
-` ...... Thinking back, Arcueid was strange when we were here earlier.@
-` There's no logic to it, but if she's just wandering around, I think she may end up here.\
+` Когда мы были здесь раньше, Арквейд вела себя странно.@
+` В этом нет никакой логики, но если она просто бесцельно скитается, то могла забрести туда.\
 
 ; ????(?)<?????(?)>
 bg "image\bg\bg_03c.jpg",%type_lcartain_mid
 
-` There's no sign of anyone; not even a single sound.@
+` Вокруг ни души. Не слышно ни единого звука.@
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ????(?)<???????(?)>
 bg "image\bg\bg_03c.jpg",%type_crossfade_fst
 
-`"............"@
-` But still, I feel like there's someone in the building.\
+` - ...@
+` Но всё равно, мне кажется что в здании кто-то есть.\
 
 ;S.E."??"
 wave se0
 
 
-` Something.@
+` Что-то.@
 !w500
 
-` Without the presence of the sun,
+` Без света солнца,
 !w500
 
-` the school building has changed into an ominous "place".\
+` школьное здание превратилось в зловещее «место».\
 
-`"...... Let's go in, Shiki."@
-` I don't have time to hesitate.@
-` Encouraging myself verbally, I walk inside the building.\
+` - Пошли внутрь, Шики.@
+` Мне некогда колебаться.@
+` Подбодрив себя словами, я захожу в здание.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -52,7 +52,7 @@ bg "image\bg\bg_10c.jpg",%type_lcartain_mid
 waveloop se1
 
 br
-` ----There's no one on the first floor.\
+`      На первом этаже никого.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -62,8 +62,8 @@ bg "image\bg\bg_07b.jpg",%type_lcartain_mid
 br
 br
 br
-` ----I feel a numb sensation behind my neck.@
-` Ignoring it, I walk up to the second floor.\
+`     Я чувствую какое-то окоченение в задней части шеи.@
+` Не обращая на него внимания, я поднимаюсь на второй этаж.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -75,59 +75,59 @@ br
 br
 br
 br
-` ----I arrive on the second floor.@
-` No one here.\
+`      Я на втором этоже.@
+` Никого нет.\
 
 ;S.E."???????????"
 wave se7
 
-` No one here.@
+` Никого нет.@
 ;S.E."???????????"
 wave se7
 
-` No one, here.@
+` Никого, нет.@
 br
-` But.@
-` On my back,
-` A soft, cold sensation like the belly of a snake covers me.\
+` Но.@
+` На моей спине,
+` Мягкое, холодное чувство, будто по мне ползёт змея.\
 
-`"------Who's there!?"@
-` I whirl around.@
-` I think there was...
+` - Кто здесь?!@
+` Я резко разворачиваюсь.@
+` Кажется...
 ; ??<?>=??(?????):?????(????????)<????>
 ld c,":a;image\tachi\roa_t07a.jpg",%type_nowaitdisp
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 \
 
-`"Eh----?"@
-` I hear a stabbing sound.@
-` In the next instant,
-` My chest is sliced open.\
+` - Э?..@
+` Я слышу звук удара ножом.@
+` В следующий миг,
+` Моя грудь оказывается разрублена.\
 
 ; ????(???)<??????(?)>
 bg "image\bg\ima_12b.jpg",%type_lshutter_fst
 
-` Blood flows forth.@
-` I'm stabbed from behind, as if to open my old wound.@
-`"Ah----"@
-` My body falls.@
+` Кровь хлынула наружу.@
+` Меня ударили сзади, словно для того чтобы открыть мою старую рану.@
+` - А...@
+` Моё тело валится на землю.@
 br
-` ----I don't know what's going on.@
+`      Я не знаю что происходит.@
 \
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-` Everything fades.@
-` In the last instant,
+` Всё исчезает.@
+` В последний момент,
 br
 ;S.E.??
 wavestop
 
 ; ??????2(???????)<???????(?)>
 bg "image\bg\cmo_06.jpg",%type_crossfade_mid
-` I see a scene from a distant summer day, repeating in my mind.\
+` Я снова вижу перед собой сцену, разыгравшуюся в тот далёкий летний день.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -145,6 +145,7 @@ waittimer 3000
 
 ;goto *title
 return
+
 
 
 
