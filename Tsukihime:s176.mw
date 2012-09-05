@@ -7,9 +7,9 @@
 ; ???(?)<?????(?)>
 bg "image\bg\bg_24b.jpg",%type_lcartain_mid
 
-` After eating, we do some window shopping on the main street and end up heading towards my school for some reason.@
-` The sun starts to set.@
-` Actually, it's because Arcueid suddenly exclaims 'Let's go to the school you're attending', and I couldn't tell her no.\
+` Поев, мы пошли порассматривали витрины на главной улице, и в итоге почему-то направились к моей школе.@
+` Солнце наклонилось к горизонту.@
+` На самом деле мы туда пошли потому что Арквейд неожиданно заявила: «Давай сходим в твою школу!», и я не смог ей отказать.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -20,62 +20,62 @@ bg "image\bg\bg_01b.jpg",%type_lcartain_mid
 ;CD-DA??????
 play "*3"
 
-`"I've told you before, but we can't go inside.@ I've skipped school today after all, and you're an outsider."@
+` - Я же сказал, мы не можем зайти внутрь.@ Я всё-таки сегодня прогулял, а ты — посторонняя.@
 ; ??<?>=??????:?01(????)<??????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_lshutter_fst
-`"I know.@ I won't cause you any trouble, so just relax."@
-` Arcueid peers at the school from the gate.@
+` - Я знаю.@ Проблем утебя из-за меня не будет, так что расслабься.@
+` Стоя перед воротами, Арквейд рассматривает школьное здание.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Huh.........?"@
-` Arcueid tilts her head.@
+` - А?..@
+` Арквейд склоняет голову набок.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-`"What's wrong?@ Did something happen?"@
-` I look at the school grounds from behind her.\
+` - В чём дело?@ Что-то случилось?@
+` Я заглядываю у неё из-за спины.\
 
-`"H...... uh?"@
-` This time I'm the one tilting my head.@
-` There's no sign of anyone on the school grounds.@
-` It's not even quite six o'clock yet.@
-` At this time, there should be a lot of athletic clubs still practicing----\
+` - А...а?@
+` В этот раз я склоняю голову набок.@
+` На территории школы не видно ни души.@
+` Ещё даже шести часов нет.@
+` В это время должны проходить тренировки у спортивных секций...\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Shiki, it seems there's no one here."@
-` Hmm, I'm not sure why, but there really is no one here.@
-` I don't see anyone in the building either.@
+` - Шики, похоже тут никого нет.@
+` Хмм, не уверен почему, но тут и правда никого нет.@
+` В здании тоже никого не видно.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 
-`"Shiki, there's no one inside you know."@
-` Arcueid stares upward at me.@
+` - Шики, в здании ведь тоже никого нет.@
+` Арквейд смотрит на меня снизу вверх.@
 br
-` ...... Somehow, I'm pretty sure I know what she's trying to say.\
+`         Почему-то, я уверен что понимаю, к чему она клонит...\
 
-`"No way."@
-` I refuse her bluntly.@
-` But, she doesn't listen to me.@
+` - Нет, нельзя.@
+` Я решительно отказываю.@
+` Но, она меня не слушает.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"If there's no one there, then I can't get in trouble for going in.@ We came at a great time, didn't we?"@
-`"I told you, I don't want to."@
+` - Раз тут никого нет, значет мне ничего не будет если я зайду.@ Удачно мы зашли, не правда ли?@
+` - Я же сказал, я не хочу.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
-`"Wow, it's bigger than I thought inside.@ The school building is also really huge, it seems well-suited for its task."@
+` - Ого, а внутри просторней чем я думала.@ И само здание такое большое, выглядит вполне подходяще для своей функции.@
 br
-` ...... That's strange.@
-` Arcueid's voice isn't coming from right near me, but from inside the school grounds.\
+` Странно.@
+` Голос Арквейд раздаётся не рядом со мной, а доносится со стороны школы.\
 
-`"Shiki, this door won't open, so is it okay if I break it down?"@
-` What blurring speed!@
-` Arcueid is already right next to a glass door with her arm cocked to break it.@
+` - Шики, эта дверь не открывается, можно я её выломаю?@
+` Ну и скорость!@
+` Арквейд уже стоит рядом со стеклянной дверью, и замахивается рукой чтобы разбить стекло.@
 br
-`"Y...... you, why won't you listen to what people are saying--!?"@
-` With all my strength, I dash towards the glass to prevent it from being broken by a big idiot.\
+` - Т... ты, ты почему не слушаешь что другие говорят?!@
+` Со всех ног я бегу к стеклянной двери чтобы не дать одной идиотке её выломать.\
 
 ; ????(?)<?????(?)>
 bg "image\bg\bg_03b.jpg",%type_lcartain_mid
@@ -83,76 +83,76 @@ bg "image\bg\bg_03b.jpg",%type_lcartain_mid
 ; ??<?>=??????:?01(?????)<????>
 ld c,":a;image\tachi\ark_t08.jpg",%type_nowaitdisp
 
-`"Ah, you came over."@
-` She gives a smile as if she was enjoying this.\
-`"...... Is going to my high school this much fun?@ There's a lot of other better places I can take you, so let's just get out of here."@
+` - А, вот ты и пришёл.@
+` Она ухмыляется, будто ей это нравится.\
+` - Тебя что, настолько интересует моя школа?@ Я тебя могу сводить во множество мест получше, поэтому давай уже уходить отсюда.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"I don't think so.@ The place you always come to, it seems pretty fun."@
-` Arcueid gives a mischievous laugh and smiles devilishly.@
-`"Shiki, I want to go inside here.@ Can you kill the lock on this?"@
-`"K, kill it?@ You----"\
+` - Я так не думаю.@ Это место, куда ты постоянно ходишь, звучит довольно интересно.@
+` Арквейд озорно засмеялась, и растянулась в коварной улыбке.@
+`- Шики, я хочу зайти внутрь.@ Ты можешь убить замок на окнах?@
+` - У, убить?@ Ты—\
 
-`"Wouldn't it be less messy than if I did it?@ The way you slice something apart doesn't leave any cross-sections that look like the action of a blade.@ If someone finds it later on, it'll just look like it fell apart on its own.@ C'mon, c'mon."@
-` She points to the glass window by the hallway.@
+` - Разве у тебя это не получится куда чище, чем у меня?@ Когда ты что-то разрезаешь на части, после этого не остаются следы как от лезвия.@ Если кто-то потом это заметит, это будет выглядеть будто замок сам развалился.@ Ну давай, давай.@
+` Она показывает пальцем на окно коридора.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
-`"...... Sheesh, you're acting like a kid."@
-` I half-lower my glasses.\
+` - Боже, ведёшь себя как ребёнок...@
+` Я приопускаю очки.\
 
 monocro #ff00ff
 ; ????(?)<?????(?)>
 bg "image\bg\bg_03b.jpg",%type_lcartain_fst
 
 
-` ...... Now then, a window with a "line" at the crescent lock would be...
+` Так, окно с «линией» как раз на замке было бы...
 br
-`"...... Crap, there conveniently is one."@
-` Taking my knife out of my pocket, I cut down the lock.@
-` ...... No, not cut down.@ More like 'killing' it.\
+` - Чёрт, как удобно, как раз одно такое есть.@
+` Вынув нож из кармана, я срезаю замок.@
+` … Нет, не срезаю.@ Скорее, «убиваю».\
 
 monocro off
 ; ????(?)<?????(?)>
 bg "image\bg\bg_03b.jpg",%type_lcartain_fst
 
-`"All set.@ Let's go in here."@
-` Lifting open the glass window, we enter the school building.\
+` - Готово.@ Давай заходим.@
+` Приоткрыв окно, мы залезаем внутрь здания.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ??(?)<???????(?)>
 bg "image\bg\bg_06f.jpg",%type_crossfade_mid
 
-` ........................ []*sigh*@
+` ........................ []*эх*@
 br
-` I knew it.@
-` Arcueid declares she wants me to guide her to my classroom first.\
+` Я так и знал.@
+` Арквейд заявляет, что первым делом хочет зайти в мой класс.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Hey, Shiki.@ What do you study here?"@
-`"What?----Normal school stuff.@ History, and a lot of deep studies into the culture of my country.@ And to know about how things work, we study physics and math.@ And we might go overseas one day, so we study English too."@
-`"Oh really?@ Taking you into account, I thought you were studying things like the best way to slice up people or how to use various blades."@
-` She says something pretty funny.\
+` - Эй, Шики.@ Что вы тут учите?@
+` - Что?.. Обычные школьные вещи.@ Историю, и культуру моей страны.@ И чтобы знать, как устроен мир, мы изучаем физику и математику.@ И когда-нибудь нам может понадобиться отправиться за границу, поэтому мы ещё изучаем английский.@
+` - В самом деле?@ Глядя на тебя, я думала вы тут изучаете как лучше расчленять людей или как обращаться с холодным оружием.@
+` Она говорит что-то довольно забавное.\
 
-`"Arcueid, you're saying that even though you already know what kind of place this is, right?"@
+` - Арквейд, ты говоришь это хоть уже и знаешь что это за место, верно?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
 
-`"Ahaha, Good Job!"@
-` She starts to clap.@
+` - Ахаха, Молодец!@
+` Она начинает хлопать.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 ;CD-DA??
 playstop
 
-` ...... It's always hard to understand what she's thinking, but today takes the cake.@
-` Dragging me here, just what the heck is she planning?\
+` Мне всегда нелегко понять, что у неё на уме, но сегодня она превзошла сама себя.@
+` Что она такого задумала, что решила притащить меня сюда?\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
@@ -160,239 +160,241 @@ ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
 ;CD-DA??????
 play "*7"
 
-`"Shiki."@
-`"What is it?@ Suddenly looking serious like that.@ You really did have a reason for bringing me here, didn't you?"@
-`"No, there wasn't any reason.@ I just wanted to hear about this kind of place."@
-`"...... This kind of place?@ About school?"@
-`"Yeah, you spend about half your day here, right?@ Is there a use for all the knowledge and experiences you gain here?@ Are you just wasting your time learning things unnecessary for you?"@
-`"Huh----?"@
-` Her question is the least understandable so far.\
+` - Шики.@
+` - Что такое?@ С чего ты это так посерьёзнела.@ У тебя действительно была какая-то причина что ты привела меня сюда, не так ли?@
+` - Нет, не было никакой причины.@ Я просто хотела услышать, что это за место.@
+` - Что это за место?..@ Школа?@
+` - Да, ты тут проводишь около половины своего дня, верно?@ Понадобятся ли тебе все те знания и опыт, что ты тут получишь?@ Ты просто тратишь время, на изучение ненужных тебе вещей?@
+` - А?..@
+` Это самый непонятный её вопрос.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
-`"For example, there's some skills you learn here that will never be used.@ Isn't that a waste?"@
-`"...... Well, maybe it is a waste.@ I learn math, but we only use the simplest of math in our daily lives.@ I learn about this country's history and English, but I don't know if I'll ever use it."@
+` - К примеру, некоторыми навыками, которыми ты здесь овладеешь, ты никогда не воспользуешься.@ Разве это не пустая трата времени?@
+` - Ну, может и пустая...@ Я учу математику, но в повседневной жизни мы используем только простейшие вычисления.@ Я изучаю историю моей страны и английский, но не знаю, пригодится ли мне это.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Oh, so you realize it then.@ But...... then, why do you do such pointless things?@ Your time is so short, you don't have time to waste."\
+` - О, так ты понимаешь.@ Но... тогда почему ты занимаешься такими бессмысленными вещами?@ Ваше время так коротко, вам некогда тратить его впустую.\
 
-`"No time to waste?@ Well, we don't have a specific goal, so we live pointlessly like this until we do."@
+` - Некогда тратит впустую?@ Ну, у нас нет какой-то особой цели, поэтому мы и живём так бессмысленно пока она не появляется.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"I can't believe it.@ Even though you know it's pointless, you make it something you live for.@
-` ...... Yeah, I really can't believe it."@
-` Her voice is terribly hushed.@
-` I don't know why, of course.\
+` - Не могу поверить.@ Хоть ты и знаешь, что это бессмысленно, ты делаешь это своей жизнью...@
+` Да, я правда не могу в это поверить.@
+br
+` Её голос звучит ужасно тихо.@
+` Конечно же, я не понимаю почему.\
 
-`"...... Something to live for, huh?@ That may be true.@ But are useless things that bad?"@
+`  - Своей жизнью...@ Может, это так и есть.@ Но разве бессмысленные вещи настолько плохи?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
-`"----Eh?"@
-`"Isn't it alright to do extra things?@
-` Even if I use what I learn only here, it still becomes a reminder of my days here.@
-` Some years later, there'll be a time when I'll just think.@ And I'll remember back and say 'yeah, that's how it was back then' and give a bitter smile.@ So there's meaning in it."\
+` - Э?@
+` - Разве это плохо, делать что-то лишнее?@
+` Даже если то, что я здесь выучил, мне больше нигде не понадобятся, это всё равно станет напоминанием о проведённыз здесь днях.@
+` И когда-нибудь спустя годы, наступит врям когда я решу просто сесть и задуматься.@ И я вспомню прошлое, скажу: «Да, так оно и было», и горько улыбнусь.@ Так что тут нет смысла.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"...... I don't get it.@ Those memories themselves are pointless, but you're saying there's fun in remembering them, Shiki?"@
-`"Yeah, that's okay.@ People are designed not to remember painful things.@
-` But in the first place, the lives of humans are full of pointless things.@ To think of it, isn't life itself pointless?@
-` So I don't think about it too deeply.@ I think it's best to just fool yourself and live like you don't realize there's no meaning to life."\
+` - Я не понимаю...@ Шики, эти воспоминания бессмыссленны, но т ы хочешь сказать что их приятно вспоминать?:@
+` - Да, это нормально.@ Люди так устроены, что плохого не помнят.@
+` Но, человеческие жизни в принципе полны бессмысленнных вещей.@ Если подумать, разве сама жизнь не бессмысленна?@
+` Поэтому я особо не задумываюсь об этом.@ Я думаю, что лучше всего просто обмануть себя и жить так будто ты не знаешь, что смысла жизни нет.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"You know it's pointless yet you do it.@ ...... I really don't get it.@ I can't do anything pointless.@ Even now, I haven't done anything that I didn't need to do."@
-`"What are you saying?@ Wasn't this whole day full of pointlessness?@ Isn't your purpose hunting vampires?@ Then there's really no need for you to go walking around with me."\
+` - Ты знаешь, что это бессмысленно, но всё равно делаешь это...@ Я правда этого не понимаю.@ Я не могу делать ничего бессмыссленного.@ Даже сейчас, я не делала ничего ненужного.@
+` - О чём ты говоришь?@ Разве весь этот день не был одной сплошной бессмыслицей?@ Твоя цель разве не охотится на вампиров?@ Тогда тебе незачем ходить со мной гулять.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"...... That's true.@ I don't understand that either.@ I wanted to ask you because you don't seem to do anything but pointless things, but now I'm totally confused."@
+` - Это так...@ Я тоже этого не понимаю.@ Я хотела спросить тебя потому что ты ничего кроме бессмысленных вещей не делаешь, но теперь я совсем запуталась.@
 br
-` ----Hey.@
+`      Эй.@
 br
-`"Yes, yes.@ I'm sorry, I'm only a completely pointless person."@
+` - Да, да.@ Прости, я всего лишь совершенно бессмысленный человек.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t13.jpg",%type_crossfade_fst
 
-`"............ Ah----yeah."\
+` - ...А... да.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"I'm sorry.@ I understand what you're trying to say, Shiki.@
-` Humans are a collective, so their worth isn't determined by the individual but by the whole group.@ Even if an individual is mistaken, if the group is correct then it is forgiven.@
-` But as for us, we are solitary creatures so we can't allow ourselves to be mistaken.@ We can't allow our wills to be influenced by anyone else.@
-` So----that's why I was always taught never to do extra things."@
+` - Прости.@ Шики, я поняла что ты хочешь сказать.@
+` Люди живут в обществе, и их ценность определяется не индивидуально, а по всей группе.@ Даже если один человек ошибается, если вся группа права, то это не страшно.@
+` Но мы, мы существуем поодиночке, и потому мы не можем позволить себе ошибаться.@ Мы не можем позволить себе отвлекаться на других.@
+` И потому... поэтому меня всегда учили не делать лишних вещей.@
 br
-` ...... Quietly.@
-` She talks as if she was in a confessional.\
+` Тихо...@
+` Она говорит тихо, словно на исповеди.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"----But now, I don't know anymore.@ For just a brief time... really, only seven days.@
-` ...... I started to wonder if I really was right?@
-` Because it was so fun.@ Doing this, living like this, I never thought until now how happy it could make me."\
+` - Но сейчас, сейчас я уже не знаю.@ За такое короткое время... правда, всего ща семь дней...@
+` Я начала думать, действительно ли я была права?@
+` Потому что это было так весело.@ Делать всё это, жить так, как сейчас, я никогда до сих пор не думала, какой счастливой это может меня сделать.\
 
-`"Ar...... cueid?"@
+` - Ар...квейд?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"Maybe I... broke down.@
-` I've never been awake for this long until now----Maybe I'm already fast asleep dreaming about all this."@
-` ...... With empty eyes, Arcueid whispers these words.\
+` - Может быть... я сломалась.@
+` Я никогда раньше так долго не бодрствовала... Может я уже сплю, и мне всё это снится...@
+` Глядя в никуда, Арквейд шепчет эти слова.\
 
-`"Wha----"@
-` I can't speak.@
-` Her image flutters like a projected hologram.\
+` - Что...@
+` Я не могу говорить.@
+` Её силуэт подрагивает, словно голограмма.\
 
-`"...... Broken?@ What do you mean?@ You look pretty normal to me."@
-`"Maybe on the outside, but I'm different on the inside.@ ...... Happiness and pain, all of these extra feelings are becoming greater.@ I can't ignore things that I used to be able to in the past.@ So I'm broken, right?@
+` - Сломалась?..@ Что ты имеешь ввиду?@ Мне ты кажешься вполне нормальной.@
+` - Может быть снаружи, но внутри я другая...@ Радость и боль, все эти лишние чувства становятся всё сильнее.@ Я больше не могу закрывать глаза на то, на что раньше не обращала внимания.@ Значит я сломалась, верно?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_mid
 
-` And also, I'm not normal.@ I'm different from you, Shiki.@ I'm a vampire."@
+` И потом, я не нормальная.@ Шики, я не такая как ты.@ Я вампир.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 \
 
-` Saying that, she seems to laugh.@
-` Really faintly, as if hiding in the red of the setting sun.@
+` Она говорит, и следом посмеивается.@
+` Совсем слабо, словно пытаясь скрыть это за закатным светом.@
 br
-`"--------Tha-"@
-` That's... strange.@
-` It's just... weird.@
+` - |Это...@
+` Это... странно.@
+` Это просто... странно.@
 br
-` The dusk classroom.@
-` Bathed in the red sun, a vulnerable looking girl.@
-` This scene, it's...\
+` Классная комната на закате.@
+` И окрудённая красная солнцем, стоит девушка, выглядящая такой уязвимой.@
+` Эта картина, это...\
 
-`"That's--not like you at all."@
+` - Это... совсем не тебя непохоже.@
 br
-` Yeah, it's not like her at all.@
-` You're a vampire----so don't look so vulnerable, like you were some ordinary girl.\
+` Да, это совсем на неё непохоже.@
+` Ты же вампир — поэтому не надо выглядеть такой ранимой, словно ты совсем обычная девшука.\
 
-`"Things you can't ignore, having to do pointless things, if it's not causing trouble to anyone----isn't it alright just to let it all go?@
-` I said not to think about yourself too seriously.@
-` I don't know what you're thinking about, but I don't see a problem.@
-` You're not----causing trouble to anyone."\
+` - То, но что ты не можешь на что-то закрыть глаза, то , что ты делаешь бессмысленные вещи, если это никому не мешает — разве нельзя просто не обращать на это внимание?@
+` Я говорил не задумываться о себе слишком сильно.@
+` Я не знаю о чём ты думаешь, но я не вижу тут проблемы.@
+` Ты... не причиняешь никому неприятностей.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Really?@ But you always yell at me, is that different?"@
-`"----I'm an exception.@ I have the sin of killing you, so dealing with you is just karma.@
-` It's okay, I'm doing it because I want to.@ So please don't think about the trouble you're causing me."\
+` - Правда?@ Но ты всегда на меня ворчишь, это другое?@
+` - Я исключение.@ На мне грех твоё убиства, так что возитсься с тобой это моя карма.@
+` Всё в порядке, я так делаю просто потому что мне это нравится.@ Поэтому не задумывайся о нейдобствах, которые мне доставляешь.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"............"@
-` Arcueid's expression clouds over.@
-` ...... If she makes that kind of a face, it's a little troubling.@
-` She looks so weak, I want to embrace her.\
+` - ...@
+` Лицо Арквейд омрачается...@
+` Когда она делает такое лицо, мне становится немного неудобно.@
+` Она выглядит такой слабой, что мне хочется её обнять.\
 
-`"...... Please Arcueid, get it straight now.@
-` It's true that you're selfish, you don't listen to other people, and you're full of problems.@
-` But, other than that, you're pretty normal.@ You're not broken, you're just like a normal girl.@
-` ----So smile.@ If you keep making that expression, it'll make me feel bad."\
+` - Арквейд, прошу тебя, пойми ты уже.@
+` Да, ты эгоистичная, ты никого не слушаешь и от тебя одни проблемы.@
+` Но, во всём остальном ты вполне нормальная.@ Ты не сломана, ты просто нормальная девшука.@
+` Поэтому улыбайся.@ Если ты и дальше будешь делать такое грустное лицо, мне будет не по себе.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`"...... That's pretty mean.@ Am I really that selfish?"@
-` Arcueid looks at me suddenly as if studying my expression.@
+` - Это было жестоко.@ Я правда настолько эгоистичная?@
+` Неожиданно Арквейд поворачивается ко мне, словно изучая моё лицо.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` I'm taken aback a little.@
-` It seems this princess didn't realize she was selfish.\
+` Меня это застаёт немного врасплох.@
+` Похоже, принцесса и не понимала, что она эгоистка.\
 
-`"----Hahahahaha!@ What are you saying?@ If you take every bit of selfishness out of you, there'd be nothing left but bones!@ Just bones!"@
-` What I'm saying doesn't quite make sense, but it seemed very funny.@
+` - Хахахахаха!@ О чём ты говоришь?@ Да если из тебя вынуть весь эгоизм, от тебя же одни косточки останутся!@ Одни косточки!@
+` Я говорю какой-то бред, но мне это казалось забавным.@
 br
-` --Because even in my wildest dreams, I never imagined I would see Arcueid embarrassed over herself.@
+`      Потому что я никогда и представить себе не мог, что Арквейд начнёт себя стесняться.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
-`"........................!!"@
+` - !!!@
 br
-` Oh, she got mad.\
+` О. Она разозлилась.\
 
-`"Shiki you jerk!@ I was seriously discussing matters and you act so heartlessly!!"@
-`"Like I said, didn't I say I was nice to everyone but you?@ So being mean to you now isn't anything new."@
-` Stifling my laughter, I look back at her.@
-` The cloud hanging over her head has dispersed and she has a genuine expression on her face, which is much more like her.\
+` - Шики, скотина!@ Я тут серьёзные вещи обсуждаю, а ты ведёшь себя так бесчувственно!!!@
+` - А я разве раньше не говорил, что я добрый со всеми кроме тебя?@ Так что то, что я сейчас бесчувственный, это нормально.@
+` Сдерживая хохот, я бросаю на неё ответный взгляд.@
+` Тучи над её головой рассеялись, и на её лице снова появилось нормальное выражение, более для неё привычное.\
 
-`"But you know, I guess it's better for you to be lively.@ I'm a little relieved."@
+` - Но ты знаешь, я думаю тебе лучше когда ты такая энергичная.@ Мне немного полегчало.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t13.jpg",%type_crossfade_fst
 
-`"Eh......?@ Wh, why are you relieved?@ Aren't you supposed to be heartless towards me?"@
-`"Ah----yeah, that's right."@
-` I tilt my head questioningly.@
+` - Э?..@ По, почему тебе полегчало?@ Ты разве ко мне не бесчувственный?@
+` - А... да, действительно.@
+` Я вопросительно наклоняю голову.@
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
-` ...... That's strange, I don't even know why myself.\
+`      Странно, я и сам не понимаю почему.\
 
-` ...... Before, I just didn't want to see her looking depressed, and I wanted to protect her----
+` Только что я только не хотел видеть её расстроеной, и я хотел защитить её...
 br
-`"............"@
+` - ...@
 br
-` That's ridiculous.@
-` Without a doubt, she is pretty, and I know she's a good person.@ Also, it isn't boring to be with her.@
-` ...... But no way can such a ridiculous thing be happening.@
-` Get a hold of yourself, Shiki.@ She's a vampire.\
+` Быть не может.@
+` Несомненно, она красивая и я знаю, что в душе она хорошая.@ К тому же с ней не скучно.@
+` Но это... нет, такого бреда просто не может быть.@
+` Шики, приди в себя.@ Она вампир.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t16.jpg",%type_crossfade_fst
 
-`"That's pretty vague.@ Are you saying you don't understand yourself?"@
-`"...... Be quiet, it's alright if I don't understand myself.@ I've always been aware of how strange I am from the beginning.@ That's why my memories are always vague."@
+` - Как расплывчато.@ Хочешь сказать ты сам себя не понимаешь?@
+` - Да отстань ты, это нормально что я себя не понимаю.@ Я с самого начала всегда знал какой я странный.@ Поэтому у меня и память такая нечёткая.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Oh, I see.@ That's why you're always spaced out, Shiki."@
-` Arcueid nods to herself as if deeply understanding the matter.@
+` - О, понятно.@ Вот почему ты вечно витаешь в облаках.@
+` Арквейд кивает, словно прекрасно всё поняла.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-`"............"@
-` Having her take my excuse so seriously makes me wonder if maybe it really is true.\
+` - ...@
+` Когда она так серьёзно соглашается с моей отмазкой, я начинаю думать, что может быть это была правда.\
 
 !w1000
 
 
-`"----Well then."@
-` We can't stay in this classroom forever.@
-` We should hurry up and leave before we're found by teachers left in school.\
+` - Ну что ж...@
+br
+` Мы не можем вечно сидеть в классе.@
+` Нам надо уходить пока нас не заметили учителя, оставшиеся в школе.\
 
-`"Come on, let's head out.@ There's nothing else to do here, right?"@
+` - Давай, пошли отсюда.@ Больше нам тут делать нечего, так?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-`"Yeah, nothing else, but...... Shiki?"@
-` I throw her a questioning glance.@
-` She seems to be pondering her words, and then asks me a strange question.\
+` - Да, больше нечего, но... Шики?@
+` Я вопросительно смотрю на неё.@
+` Она стоит, словно подбирая слова, а затем задаёт мне странный воспрос.\
 
-`"Shiki, do you enjoy things?"@
-`"...... Are you sick today or something?"@
+` - Шики, тебе всё это нравится?@
+` - |Ты что сегодня, заболела?@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Don't make fun of me.@ I know a little bit about your body.@ Even you know it, right?@
-` That it isn't strange for you to die at any moment."@
-`"Wha-------"\
+` - Не надо надо мной насмехаться.@ Я кое-что понимаю о твоём организме.@ Даже ты это знаешь, верно?@
+` Что можешь умереть в любой момент.@
+` - Что...\
 
 br
 br
@@ -400,26 +402,26 @@ br
 br
 br
 br
-` ----Thump.@
-` The scar on my chest almost feels like it's squirming.@
+`        Пум.@
+` Шрам на моей груди будто съёжился.@
 !w1000
 \
 
-`"You----well, humans die eventually."@
+` - Ты... ну, люди в конечном итоге всегда умирают.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
-`"But in your case, death will come quicker than for other people."@
-` ...... Her eyes are serious.@
-` But, everyone has lines of death on them, so there are many places where they can die easily.@
+` - Но к тебе смерть придёт быстрее чем к другим.@
+` Её взгляд серьёзен.@
+` Но, линии смерти есть на всех, поэтому у всех есть много мест, где они могут легко умереть.@
 br
-` It's not like----I'm the only one who's very close to death.\
+` Не то чтобы... я единственный, кто очень близок к смерти.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
 
-`"Answer me.@ Do you ever have moments where you enjoy yourself even though you have such an unstable hold on life?"@
-`"------You really are stupid.@
-` There's no way I can know that."@
+` - Скажи мне.@ Ты когда-нибудь бываешь счастлив, даже зная, как неустойчива твоя жизнь?@
+` - … Ты и правда глупая.@
+` Откуда же мне это знать?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
@@ -427,26 +429,26 @@ cl c,%type_crossfade_fst
 ; ???(??)<???????(?)>
 bg "image\bg\ima_08.jpg",%type_crossfade_fst
 
-` ...... But, there's one thing clear to me.@
-` I almost died eight years ago, and for a short while,
-` probably when I was getting surgery at the hospital, I felt like I was in a dark place.@
+` Но, одно мне ясно.@
+` Я чуть не умер восемь лет назад, и какое-то время,
+` наверное когда меня оперировали в больнице, я словно был в каком-то тёмном месте.@
 br
-` Maybe it was a dream.@
-` Just, at that time, I truly felt like I died, like that place was truly "death".@
-` I was extremely happy after my miraculous recovery.@ Then, I met Sensei and was able to return to a normal life.\
+` Может быть это был сон.@
+` Только, в то время, мне правда казалось что я умер, что то место было «смертью».@
+` Я был очень рад своему чудесному выздоровлению.@ А потом я встретил Сенсей и смог вернуться к нормальной жизни.\
 
-` I never realized it until I died once.@
-` But the world is so peaceful and such a fun place to be.@
-` They say fun things cannot be found, but I think for humans, just living is fun.@
+` Я никогда не понимал этого пока однажды не умер.@
+` Но, этот мир такое мирное и радостное место.@
+` Говорят, радость невозможно найти самому, но я думаю, что для людей сама жизнь — уже радость.@
 br
-` That's why----I can continue living like this even knowing that it's all pointless.\
+` Вот почему — я могу продолжать жить даже зная, что это всё бессмысленно.\
 
-` ...... That's why.@
-` If someone asks me if I'm enjoying life, unless it's something really unforgivable, I can't help but answer that I am.@
-` No matter how much despair it is, I'm satisfied with just existing.@
-` That's something more certain than the nothingness of death.@
-` No one had to teach me that, but I still know that.@
-` Just being allowed to be here really is a wonderful thing----\
+` Вот почему...@
+` Если кто-то спросит меня, наслаждаюсь ли я жизнью, если только это не совершенно неподобающая ситуация, я могу ответить только утвердительно.@
+` Какой бы безычходной не была жизнь, я доволен уже тем, что существую.@
+` Это что-то более определённое, чем пустота смерти.@
+` Никто меня этому не учил, но я всё же знаю это.@
+` Уже то, что я могу быть здесь, само по себе чудесно...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -455,77 +457,80 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_06f.jpg",%type_nowaitdisp
 
 
-`"----It's just... isn't living enjoyable enough?@ Everything up until now was fun, so I can feel like living.@
-` ...... Well, I guess this is how I can answer your question."@
+` - Но просто... разве жить само по себе не хорошо?@ До сих пор всё было весело, и я не против жить так и дальше.@
+` Ну, наверное вот так я могу тебе ответить.@
 br
-` I can't really say anything too profound.@ I've only been alive for seventeen years.\
+` Я правда не могу сказать ничего глубокого.@ Я только семнадцать лет на свете живу.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"I see, so that is how your heart is.@ ...... Just doing that is fun enough?@ That's true, even though you know it's something extra, you can't give it up because you enjoy it.@
+` - Понятно, вот что у тебя на сердце...@ Уже это само по себе достаточно весело?@ Действительно, хоть ты и знаешь что это что-то лишнее, ты не можешь отказать от этого потому что тебе это нравится.@
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_crossfade_fst
-` ...... I was scared of that and asked, but perhaps that might be a good answer."@
-`"----What, are you still thinking about that thing from before?"\
+` Меня это напугало и потому я спросила, но пожалуй это хороший ответ.@
+` - Что, ты до сих пор об этом думаешь?\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"Yes, but for now the hard feelings have faded.@ I can't stray off course until this vampire is defeated.@ Until then, we will fight together."@
+` - Да, но пока что моё беспокойство прошло.@ Я не могу отвлекаться от дела пока этот вампир не будет побеждён.@ А до тех пор мы будем сражаться вместе.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 ;CD-DA??
 playstop
 
-` "Right?" She says, smiling.@
+` «Правильно?», улыбаясь, говорит она.@
 br
-`"----"@
-` Until this vampire is defeated, huh?@
-`"...... That's right.@ That was the relationship between us."@
-` Because today was just so normal,
-` I completely forgot about that most important fundamental fact.\
+` - ...@
+` Значит, пока этот вампир не будет побеждён?@
+` - Да, действительно...@ Такова связь между нами.@
+` Потому что сегодня был такой обычный день,
+` Я совсем забыл об этом самом важном, определяющем всё факте.\
 
-`"----Hey, Arcueid."@
+` - Эй, Арквейд.@
 br
-` Just, without thinking...
+` Просто, не думая...
 br
-`"When this is all over----when we're done defeating this vampire... Before we part, can't we do something like this just once more?"@
-` Those words really come out of my mouth naturally.\
+` - Когда всё это кончится — когда мы победим этого вампира... Прежде чем мы расстанемся, мы не можем сделать что-то такое ещё раз?@
+` Сами собой эти слова срываются у меня с языка.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t13.jpg",%type_crossfade_fst
 
-`"Eh----?@ What do you mean?"@
-`"I'm saying after your task is finished, let's do these pointless things one more time.@
-` In the end, we're here together because we agreed to help each other.@
-` So----I really was wondering, what would happen if we were to meet again without any responsibilities... if we just met for no particular reason."\
+` - Э?..@ Что ты имеешь ввиду?@
+` - Я говорю, когда твоя задача будет выполнена, давай ещё раз займёмся этой бессмыслицей.@
+` Всё-таки, мы сейчас находимся здесь потому что согласились помогать друг другу.@
+` И потому... мне правда было интересно, что случится если мы встретимся снова без всяких обязательств... если мы встретимся просто так.\
 
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-!w500
+!w300
 
 
 br
 br
 br
 br
-` ----That's not true.@
-` Just as friends, and not thinking about her being a vampire at all.@
-` I just thought it would make Arcueid happy if we created some normal memories like that.\
+`       Это не правда.@
+` Просто как друзья, не обращая внимания на то, что она вампир.@
+` Я просто подумал, что Арквейд бы понравилось если бы мы создали ещё больше таких нормальных воспоминаний.\
 
-`"----If you're too busy, then it's okay.@ I only thought of it just now, anyway."@
-` But that's really the opposite of how I feel.@
+` - Если ты слишком занята, то ладно.@ Мне всё равно это только сейчас в голову пришло.@
 br
-` After her eyes widen in surprise, she nods.\
+` Но на самом деле я думаю совсем другое.@
+!w200
+br
+br
+` Её глаза расширяются от удивления, но затем она кивает.\
 
 ; ??<?>=??????:??(????)<???????(?)>
 ld c,":a;image\tachi\ark_t09.jpg",%type_crossfade_fst
 
-`"Okay----!@ When everything's over, let's come here again, Shiki!@ It won't have any meaning, but I'm sure it will be really, really fun!"@
-` In the classroom bathed by the sunset,
-` Arcueid smiles and makes a promise with me.\
+` - Хорошо!@ Шики, когда всё закончится, давай придём сюда снова!@ Это будет совершенно бессмысленно, но я уверена это будет очень очень весело!@
+` В залитой закатным светом классной комнате,
+` улыбаясь, Арквейд пообещала мне это.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
@@ -537,37 +542,37 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 bg "image\bg\bg_24c.jpg",%type_crossfade_mid
 
 
-` ...... In the end, when we go outside, the sun has already set.@
-` It's just past seven-thirty.@
-` A little early, but since we don't have anything else to do, we should start searching for the vampire.@
+` Когда мы наконец вышли, солнце уже село.@
+` На часах чуть больше половины восьмого.@
+` Немного рановато, но поскольку делать нам больше нечего, надо начинать искать вампира.@
 br
-`"Well then, shall we begin, Arcueid?"@
-` I turn around to face Arcueid who was walking behind me.\
+` - Ну что, тогда начнём, Арквейд?@
+` Я разворачиваюсь к ней.\
 
 ; ??<?>=??????:??(????)<??????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_lshutter_fst
-`"What, already?@ Didn't the sun just set?"@
-`"Yeah, but it wouldn't hurt to start earlier.@ We've played around long enough today, so we should be serious at night, right?@
-` Arcueid, let's stick to our decisions."\
+` - Что, уже?@ Разве солнце не только что село?@
+` - Да, но от того что мы начнём раньше хуже не будет.@ Мы сегодня достаточно дурака проваляли, поэтому вечером надо быть серьзней, верно?@
+` Арквейд, давай придерживаться наших планов.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
-`"Shiki, you're strangely serious.@ If you're this serious, then why did you break our promise yesterday?"@
-`"Hey, I couldn't help that; I couldn't even move.@ I really did intend to go before."@
+` - Шики, ты неожиданно серьёзен.@ Если ты такой серьёзный, почемы ты вчера своё обещание нарушил?@
+` - Эй, я ничего не мог с этим поделать, я даже пошевелиться не мог.@ Я правда собиралася пойти.@
 
-` Yeah, if Akiha didn't stop me, I probably would've gone ahead to the park in my condition.\
+` Да, если бы Акиха меня не остановила, я бы наверное пошёл в парк в таком состоянии.\
 
-`"Hmmm, I see.@ Then, let's do that."@
-` With a slightly empty expression, Arcueid says something I don't understand.@
-`"Do what?"@
-`"You intended to go to the park, right Shiki?@ We still have time, so if you couldn't get it done yesterday, then isn't it okay if we do it now?"@
+` - Хммм, понятно.@ Тогда давай это сделаем.@
+` Выглядя немного рассеяно, Арквейд говорит что-то непонятное.@
+` - Сделаем что?@
+` - Шики, ты собирался пойти в парк, верно?@ Время у нас ещё есть, поэтому раз ты не смог сделать это вчера, ты может мы сделаем это сегодня?@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 \
-` She starts to run lightly.@
-` She really seems to be serious about going to the park.@
-`"--Hey, wait.@ Hey......!"@
-` I run with all my strength so I don't lose sight of her.\
+` Она пускается в неторопливый бег.@
+` Похоже, она всерьёз собирается в парк.@
+` - Эй, погоди.@ Эй!..@
+` Я бегу за ней со всех ног, стараясь не потерять её из виду.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -583,51 +588,51 @@ ld c,":a;image\tachi\ark_t08.jpg",%type_nowaitdisp
 ;CD-DA?????
 play "*1"
 
-`"See, even though you were complaining, you still kept up, Shiki.@ Ahaha~"@
-` Arcueid laughs.@
-`"...... Idiot... if I... left you alone... you'd... bother... someone else..."@
-` I desperately try to catch my breath after running the whole way.\
+` - Видишь, Шики, хоть ты и жаловался ты всё равно за мной поспел.@ Ахаха!@
+` Арквейд смеётся.@
+` - Дура,.. если бы я... оставил тебя в покое... ты бы... кому-нибудь другому... на шею села...@
+` Я изо всех сил пытаюсь отдышаться после того как проделал весь путь бегом.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01a.jpg",%type_crossfade_fst
 
-`"I knew there would be a lot of people here now.@ It's a bit unsettling since I can feel their presence everywhere."@
-`"...... Like I said, why... won't you... ever... listen... to what I... have to say...?"@
+` - Я знала что сейчас тут будет много людей.@ Немного неудобно, потому что я повсюду чувствую их присутствие.@
+` - Я говорю, почему... ты... никогда... не слушаешь... что я.... говорю?..@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"Hm?@ I hear your voice all the time."@
-`"...... Oh.@ Then... you hear me... but you just ignore me, that's... worse..."\
+` - Хм?@ Я тебя постоянно слушаю.@
+` - О...@ То есть.... ты меня слушаешь... но просто не обращаешь внимания, это даже... хуже...\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"I don't ignore you.@ If I answer whenever you scold me, you'd just call me an idiot so I stay quiet."@
-`"...... Oh.@ Then maybe... I have a problem... too?"@
-` I still try to catch my breath.@
+` - Я не не обращаю внимания.@ Если бы я каждый раз отвчеала на твоё ворчание ты бы только называл меня идиоткой, поэтому я молчу.@
+` - О...@ Тогда может быть... со мной тоже... что-то не то?@
+` Я всё ещё пытаюсь отдышаться.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 \
 
-` From my school to this park is roughly six kilometers.@
-` Even if it was a little jog, going that far is too much for a heart like mine.@
-` ...... It's not that she was running all that quickly.@ Actually, she seemed to be running slowly.@
-` But probably because of the effects of my anemia, I don't feel too well.\
+` От моей школы до этого парка примерно шесть километров.@
+` Даже трусцой, для моего сердца это далековато.@
+` Она не то чтобы особо быстро бежала...@ По сути, она бежала медленно.@
+` Но наверное из-за моей анемии я чувствую себя неважно.\
 
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
-`"Are you okay Shiki?@ You don't have to force yourself.@ Shouldn't you rest on that bench?"@
-`"...... I'll do that.@ Once I'm rested up, we'll go to the city again, Arcueid."@
+` - Шики, ты в порядке?@ Не переутруждайся.@ Может лучше на лавку сядешь?@
+` -Я так и сделаю...@ Арквейд, как только я передохну, пойдём снова в город.@
 ; ??<?>=??????:?03(?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
-`"Sheesh.@ I'm happy you're motivated, but it's still too early.@
-` Nrvnqsr was like that too, but vampires don't move around unless it's their time.@
-` Since they won't move around until they sense deep night, it's okay to kill a little time here."@
+` - Да боже.@ Я рада что ты так решительно настроен, но ещё слишком рано.@
+` Нрвнкср был таким, но вампиры раньше своего времени активности не проявляют.@
+` Поскольку они решать действовать пока не почувствуют, что уже глубокая ночь, мы можем пока посидеть здесь.@
 br
-`"----"@
-` If that's how it was, then she could've told me earlier.@
+` - ...@
+` Если это так, то надо было раньше мне сказать.@
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -635,16 +640,17 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_28b.jpg",%type_lshutter_fst
 
 br
-` ----Sitting on the bench, I stare at the clock aimlessly.@
+`      Сидя на лавочке, я бесцельно смотрю на часы.@
 br
-` It's just past nine o'clock.@
-` The people all around have gone away and the night deepens quickly.@
-` For some reason Arcueid doesn't sit down, but paces back and forth as if she was bored.\
+` Только начало девятого.@
+` Люди вокруг нас разошлись, и вокруг быстро темнеет.@
+` Арквейд почему-то не садится, а ходит взад-вперёд будто ей скучно.\
 
 
 
 
 return
+
 
 
 </pre>
