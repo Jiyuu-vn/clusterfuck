@@ -7,17 +7,17 @@
 bg "image\bg\bg_25b.jpg",%type_nowaitdisp
 
 
-` ----I'll search the shopping district.@
+` Я обыщу торговый район.@
 br
-` Even though she was in so much pain, she's not the kind of person to rest because of it.@
-` She told me to go back.@ In other words, she was saying she won't be going back.@
-` I think she plans on finding the vampire by herself.\
+` Хоть ей и было очень больно, она не из тех, кто станет из-за этого отдыхать.@
+` Она сказала мне возвращаться.@ Иными словами, она сказала что сама она возвращаться не будет.@
+` Я думаю, она собирается найти вампира в одиночку.\
 
-` Then----I'll go to the shopping district and find the vampire or The Dead before she does.@
-` Arcueid can't find them, but I can spot The Dead if I take off my glasses.@
+` Тогда — я отправлюсь в торговый район и найду вампира или Мёртвых раньше неё.@
+` Арквейд не может их найти, но я могу заметить Мёртвого если сниму очки.@
 br
-`"------Alright."@
-` Taking off my glasses and grimacing from the slight headache, I run to the shopping district.\
+` - Вперёд.@
+` Я снимаю очки, и, скривившись от лёгкой головной боли, бегу к торговому району.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -28,19 +28,19 @@ monocro #ff00ff
 bg "image\bg\bg_26a.jpg",%type_lcartain_mid
 
 
-`"Ugh----"@
-` The pain races through my forehead.@
-` ...... I'm not particularly concentrating on looking for "lines", but it seems running through town without my glasses on is a huge burden on my brain.@
+` - Угх...@
+` Боль сверлит мне лоб...@
+` Я особо не пытаюсь всматриваться в «линии», но похоже, что пробежка по городу без очков очень сильно нагружает мне мозг.@
 br
-`"Damn it----still, I'm not finding anything."@
-` ...... All the people walking through the shopping district have normal "lines" on them.@
-` I don't see anyone painted with the disjointed scribbles I saw before.\
+` - Чтоб его... я всё равно ничего не могу найти.@
+` На всех прохожих, гулявших по тороговому району, были нормальные «линии».@
+` Я не видел никого, кто был бы весь изрисован ломаными кривыми.\
 
-`"...... Ow"@
-` I rub my temples with my fingers.@
-` As long as I have my glasses off, this headache will only get worse.@
-` But still--I can't give up this easily.@
-` Taking a deep breath, I start to run through the shopping district once more.\
+` - Ау...@
+` Я потираю виски пальцами.@
+` Пока я бегаю без очков, эта боль будет только усиливается.@
+` Но всё равно — я не могу так просто сдаться.@
+` Сделав глубокий вдох, я снова пускаюсь в бег по торговому району.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -50,16 +50,16 @@ bg "image\bg\ima_10.jpg",%type_lshutter_mid
 bg "image\bg\bg_26a.jpg",%type_lshutter_mid
 
 
-` I start to pant from exertion.@
-` The exhaustion from running coupled with the pain in my head makes me nauseous.@
-` No matter how many times I run around, I can't find any Dead or anything out of the ordinary.@
-` Lifting up my hand to my forehead, I feel a feverish heat.@
-` It really does feel like I have a high fever.@
-`"...... Damn it, I'm not done yet----"@
-` I tell myself this as I start to run once more.\
+` Я начинаю запыхаться от перенапряжения.@
+` Усталость от бега в сочетании с головной болью вызывает у меня тошноту.@
+` Сколько бы я ни бегал по округе, я не замечаю ни Мёртвых, ни хоть чего-нибудь необычного.@
+` Приложив руку ко лбу, я чувствую дикий жар.@
+` Судя по всему у меня и правда высокая температура.@
+` - Чёрт, я ещё не выдохся...@
+` Я говорю себе это, и снова пускаюсь в бег.\
 
 br
-` ----And then.@
+`      И тут...@
 br
 ;S.E."?????????"
 wave se11
@@ -74,19 +74,19 @@ waittimer 16
 dec %flushcount
 if %flushcount>=0 skip -7
 
-`"............... Ah."@
-` Not here, but somewhere farther away.@
-` In a narrow alley between two buildings, I can see something like sparks flying in the air.@
-` No, more accurately,
-` it feels like the "points" of death are shooting forth and disappearing.\
+` - А...@
+` Не здесь, но чуть дальше.@
+` В узком переулке между думя зданиями, я вижу как будто искры летят в воздухе.@
+` Нет, если точнее,
+` это словно вспыхивают и исчезают «точки» смерти.\
 
-`"----That's..."@
-` ...... There's no mistake.@
-` It's exactly the same as when Arcueid defeated The Dead before.@
-` She----in that condition, is fighting by herself......!@
+` - Это...@
+` Ошибки быть не может.@
+` Всё в точности так же, как когда Арквейд сражалась с Мёртвыми в прошлый раз.@
+` Она... в таком состоянии, сражается в одиночку!..@
 br
-`"----Found her......!"@
-` Forgetting my pain and weariness, I dash towards the alley.\
+` - Нашёл её!..@
+` Забыв о боли и усталости, я бегу в переулок.\
 
 monocro off
 
@@ -96,30 +96,30 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ;CD-DA???????
 play "*6"
 
-` The entrance to the alley.@
-` I run to the narrow path between the buildings.@
+` Вход в переулок.@
+` Я бегу к узкому проходу между домами.@
 br
-`"Death" is flying through the air and fading away.@
-` ...... How many is she fighting?@ There's an enormous amount of it.\
+` В воздухе летает и и исчезает «смерть».@
+` Со сколькими она сражается?..@ «Смерти» так много.\
 
-`"------Gh."@
-` I can hardly bear it.@
-` As I run to the alley, my spine groans in protest.@
+` - Гх...@
+` Я едва могу это вынести.@
+` Когда я подбегаю к переулке, мой хребет начинает протестующе стонать.@
 br
-`"Ha------agh."@
-` As if a saw was slowly but surely slicing through my spine,
-` a pain works it way from inside me.@
-` My instincts scream at me.@
-` They say where I'm going is too dangerous, and I have to go back.\
+` - Хаа... агх.@
+` Словно пила, медленно но верно распиливающая мой хребет,
+` по моему телу расползается боль.@
+` Мои инстинкты вопят.@
+` Они предупреждают, что там, куда я иду, слишком опасно, что я должен вернуться.\
 
-`"Shut----up."@
-` But, that goes without saying.@
-` The amount of death there isn't normal.@
-` Inside.@ I know something terrible is happening inside this alley.@
-` But I can't turn back now.@
-` I can't leave Arcueid alone.@
-` If----I run away here, she might go off and die.@
-` I can't shake off that feeling, and I enter the alley filled with death.\
+` - За...ткнитесь.@
+` Но, это и без них понятно.@
+` Количество смерти просто ненормально.@
+` Там.@ Я знаю, что в том переулке происходит что-то ужасное.@
+` Но я не могу сйчас отступить.@
+` Я не могу бросить Арквейд одну.@
+` Если... сейчас я убегу, она может погибнуть.@
+` Я не могу отделаться от этого чувства, и я вхожу в переулок, кишащий смертью.\
 
 monocro #ff0000
 
@@ -128,47 +128,47 @@ monocro #ff0000
 bg "image\bg\bg_31b.jpg",%type_lcartain_mid
 
 
-`"Wha------"@
-` My mind freezes.@
+` - Ч...@
+` Все мои мысли разом останавливаются.@
 br
-` What I see is surreal.@
+` Картина, октрывшаяся моим глазам, выглядит сюрреалистично.@
 br
-` Scattered all across the ground are the figures of numerous people.@
-` Faceless, limbless, their stomachs sliced open, the corpses bathed entirely in crimson.@
+` Вокруг разбросаны множество человеческих тел.@
+` С сорваными лицами, с оторваными конечностями, с выпотрошеными животами, трупы целиком покрыты багрянцем.@
 br
-` On the wall, the ground, even on the moon overhead.@
-` Everything here is just... red.\
+` Стены, земля, даже парящая в небе луна.@
+` Всё вокруг просто... красное.\
 
-` A dull, sickening sound.@
-` The last one, the last human shape full of lines expires from her hands.@
+` Глухой, мерзкий звук.@
+` Последний из них, последняя исчерченая линиями человеческая фигура уничтожается её руками.@
 br
-` With a single hand.@
-` She smashes the head of The Dead into the wall, squishing it like a tomato.@
-` As if not satisfied, she tears the headless body vertically in half and smashes it onto the ground.\
+` Одной рукой.@
+` Она вбивает голову Мёртвого в стену, расплющив её в кашу словно помидор.@
+` Словно не удовлетворившись этим, она разрывает безголовое тело вертикально пополам и  бьёт половинками об землю.\
 
 monocro off
 ; ???2(?)<???????(?)>
 bg "image\bg\bg_31b.jpg",%type_crossfade_fst
 
 
-`"Ar----cueid."@
-` The world is only filled with red and the moonlight.@
-` In the center of it all stands Arcueid.@
-` She doesn't notice I am here.@
-` She only looks up at the moon----in a trance and breathing heavily.\
+` - Ар...квейд.@
+` Вокруг только багрянец и лунный свет.@
+` В центре всего этого стоит Арквейд.@
+` Она не заметила, что я здесь.@
+` Она только стоит и смотрит на луну — в трансе, тяжело дыша.\
 
-`"------"@
-` I can't speak.@
-` The pain inside me reaches a feverish pitch.@
-` It seems like the saw has cut all the way through.\
+` - ...@
+` Я не могу говорить.@
+` Боль, расползающаяся по моему телу, достигает критической точки.@
+` Пила словно пропилила меня целиком.\
 br
-` ----Creak Creak.@
+`       Скрип Скрип.@
 br
-` My entire mind is screaming.@
-` I shouldn't be here.@ I don't want to die, it shouts.@
+` Мой рассудок вопит во весь голос.@
+` Мне нельзя здесь находится.@ Я не хочу умирать, раздаются его крики.@
 br
-` Then,
-` Arcueid's eyes suddenly shift.@
+` И затем,
+` Взгляд Арквейд вдруг смещается в сторону.@
 ;CD-DA??
 playstop
 
@@ -177,58 +177,58 @@ ld c,":a;image\tachi\ark_t20b.jpg",%type_nowaitdisp
 ;S.E."????(???)"
 waveloop se1
 
-` Her eyes aren't her usual crimson, but a golden flare.@
-` It's not that our eyes have met.@
-` It's just that I looked at those "eyes".\
+` Её глаза утратили свой обычный алый цвет, и вместо этого стали ярко золотыми.@
+` Мы даже не посмотрели руг на друга.@
+` Я просто увидел эти «глаза».\
 
-` Th, ump.@
-` My blood races through my entire body and my mind is jolted.@
+` П, ум.@
+` Кровь разом пробгеает сквозь всё моё тело, и мой разум поражает электричеством.@
 br
 br
 br
-` ----At first, a sense of overwhelming crisis.\
+`       Сначала, чувство невероятного кризиса.\
 
-` I shouldn't be here.@
-` I shouldn't be in front of that thing.@
+` Мне нельзя здесь находиться.@
+` Мне нельзя находиться перед этим существом.@
 br
-`   IT WILL KILL YOU.@
-`   YOU CAN'T STAND UP TO IT.@
+`   ОНО УБЬЁТ ТЕБЯ.@
+`   ТЫ НИЕГО НЕ СМОЖЕШЬ ЕМУ СДЕЛАТЬ.@
 br
-` That "creature" is on an entirely different level.@
-` Not a matter of higher or lower, but something beyond evaluation.@
-` Before that thing----just being there means death.\
+` Это «создание» находится на соершенно другом уровне.@
+` Не выше или ниже, но вне всяких оценок.@
+` Перед этим существом — просто находиться здесь означает умереть.\
 
-` THU, MP.@
-` My entire body throbs.@
+` ПУ, ММ@
+` Всё моё тело пульсирует.@
 br
-` At first, it was fear.@
-` Then, a desire to kill.@
+` Сначала, это был страх.@
+` Потом, желание убить.@
 br
-` Because, that thing shouldn't exist.@
-` So kill it.@ Hurry up and kill it.@ Kill it here.@ Kill it now.@
-` In the name of this blood,
+` Потому что, это существо не должно быть.@
+` Поэтому убей его.@ Скорее убей его.@ Убей его здесь.@ Убей его сейчас.@
+` Во имя этой крови,
 !w500
 
-` take that thing here,
+` возьми это существо,
 !w500
 
-` and destroy it----\
+` и уничтожь его...\
 
 br
-` My heart pounds furiously.@
+` Моё сердце яростно стучит.@
 br
-` I know there's no way I can face it, but my entire body screams for me to kill it.@
-` What a contradiction----Is it telling me to kill it even though I know it's going to kill me?\
-` Is it telling me I don't want to be killed, so kill instead?\
+` Я знаю, что не могу противостоять этому существу, но всё моё тело призывает меня убить его.@
+` Какое противоречие — оно приказывает мне убить его хоть я и знаю что оно убьёт меня?\
+` Оно говорит мне убить если я е хочу быть убитым.\
 
-`"Gah----, ah."@
-` ...... No.@ I'm not... here.@
-` Those eyes----I must not look at those golden eyes.@
-` I know this, but I can't escape her eyes.\
+` - Гха... а.@
+` Нет.@ Меня здесь... нет.@
+` Эти глаза... я не должен смотреть в эти золотые глаза.@
+` Я знаю это, но я не могу оторваться от её глаз.\
 
-` Thump.@ Thump.@ My blood boils...@
-` The stimulating throb of my blood.@
-` But, there's something else that tries to burst through my consciousness.\
+` Пум.@ Пум.@ Моя кровь вскипает...@
+` Стимулирующая пульсация крови.@
+` Но, есть ещё что-то, что пытается пробиться сквозь моё сознание.\
 
 monocro #ff0000
 ; ???2(?)<???????(?)>
@@ -245,25 +245,25 @@ play "*4"
 
 br
 br
-`"Gh----ah, ghaa----"@
+` - Гх...а, гхаааа...@
 br
 br
-` Why do I want to kill?@
-` Are you going to kill before being killed because you don't want to die?@
-` No, that's not a reason.@
-` There's no need for a reason to kill.@
-` Be honest, Tohno Shiki.@
-` Already, from a long time ago----you wanted to take this woman and...\
+` Почему я хочу убить?@
+` Иы собираешься убить прежде чем убьют тебя, потому что не хочешь умирать?@
+` Нет, причина не в этом.@
+` Чтобы убивать не нужна причина.@
+` Будь честен, Тоно Шики.@
+` Уже с давних пор — ты хотел взять эту женщину и...\
 
 br
 br
-`"Shut----up."@
+` - Зат...кнись.@
 br
-` No, your reason and conscience should shut up.@
-` That's how it should be.@
-` I just, want her.@ I want Arcueid.@ Remember.@ Remember the feeling from that time.@
-` You knew from the first time you saw her.@
-` Since that time you killed that creature with your hands and lost your virginity as a killer------!@
+` Нет, пусть твои разум и совесть заткнутся.@
+` Так и должно быть.@
+` Я просто, хочу её.@ Я хочу Арквейд.@ Вспомни.@ Вспомни то чувство с того раза.@
+` Ты понял как только увидел её.@
+` С тех самых пор как ты убил это существо собственными руками и потерял девственность как убийца!..@
 
 
 ; ????(??????)<???????(?)>
@@ -274,29 +274,29 @@ monocro off
 
 br
 br
-`"Ah------\Ah."@
+` - А...\...аа.@
 br
 br
-` Yes.@ I want all of it.@
+` Да.@ Я хочу всё.@
 !w1200
 
-` Her heart, her body,
+` Её сердце, её тело,
 !w700
 
-` Her tears, her saliva,
+` Её слёзы, её слюну,
 !w500
-` Her blood, her flesh, sin and punishment, desire and impatience------\
+` Её кровь, её плоть, преступление и наказание, желание и нетерпение...\
 
 br
 br
-`"HA----agh......!"@
+` - ХА... агх!..@
 br
 br
 br
-` My breathing is out of control.@
-` I can't get a grip on my mind.@
-` Her eyes are consuming me.@
-` Those swaying, golden eyes.\
+` Моё дыхание выходит из-под контроля.@
+` Я не могу сосредоточиться.@
+` Её глаза поглощают меня.@
+` Эти дрожащие, золотые глаза.\
 br
 
 br
@@ -304,10 +304,10 @@ br
 br
 br
 br
-` That is,
+` Это,
 !w750
 
-` something that cannot be killed no matter how much I kill...
+` то, что невозможно убить сколько бы я ни убивал...
 !w750
 
 \
@@ -319,257 +319,255 @@ bg "image\bg\bg_31b.jpg",%type_crossfade_fst
 ; ??<?>=??????:??(?????)<????>
 ld c,":a;image\tachi\ark_t18.jpg",%type_crossfade_fst
 
-`"----Shiki!?"@
-` Arcueid realizes I'm here.@
-` As soon as she sees I am fixated to her eyes, she changes them to their crimson color.@
+` - ...Шики?!@
+` Арквейд понимает, что я здесь.@
+` Как только она понимает что я прикован к её глазам, она снова делает их алыми.@
 br
-` But, by now,
-` it's far too late.\
+` Но, уже
+` слишком поздно.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-` I bring out my knife and push Arcueid down.@
-` Her powerless body is easy to push.@
-` I straddle her.@
-` One arm at her neck, the other arm holding my knife overhead.@
+` Я достаю свой нож и валю Арквейд на землю.@
+` Её обессилевшее тело легко повалить.@
+` Я залезаю на не сверху.@
+` Одна рука держит за шею, вторая держит нож над головой.@
 br
-` All that's left,
-` is to strike between her breasts.\
+` Осталось только
+` ударить между её грудей.\
 
-`"Calm down----!@ This isn't what you want, Shiki......!"@
+` - Успокойся!@ Шики, ты не этого хочешь!..@
 br
-` I can hear her voice.@
-` The core of my brain starts to overheat.@
+` Я слышу её голос.@
+` Ядро моего мозга начинает раскаляться.@
 br
-`"Shut up------!"@
-` My arm tightens around her neck.@
-` She painfully lifts her chin.@
-` ...... I can't believe it.@
-` With all of her strength, she can't even free this one arm right now.\
+` - Заткнись!@
+` Моя рука крепче сжимает её шею.@
+` От боли она задиирает подбородок.@
+` Невероятно...@
+` Со всей её силой она не может освободиться от этой руки.\
 
-`"Shi----ki."@
-` Breathing painfully, Arcueid coughs out my name.@
-` Thump.@
-` My heart beats hard in my chest.\
+` - Ши...ки.@
+` Тяжело дыша, Арквейд кряхтит моё имя.@
+` Пум.@
+` Моё сердце колотится у меня в груди.\
 
 ;S.E."??"
 wave se0
 
-` I pant.@ And pant.@
-` My breathing is out of control.@
-` My vision is blurry and indistinct.@
-` This fire inside of me----I have to release it right away.\
+` Я задыхаюсь.@ И задыхаюсь.@
+` Моё дыхание выходит из-под контроля.@
+` Перед глазами всё расплывчато и нечётко.@
+` Огонь, горящий во мне — я должен выпустить его наружу.\
 
 ;S.E."??"
 wave se0
 
-` Panting.@
-` I slowly start to move.@
-` I move my hips down her stomach.@
-` Spreading her legs, I press myself between them.\
+` Тяжело дыша.@
+` Я медленно начинаю двигаться.@
+` Мои бёдра соскальзывают ниже её живота.@
+` Я раздвигаю её ноги и устраиваюсь между ними.\
 
 ;S.E."????(???)"
 waveloop se1
 
-`"Wha..."@
-` She looks at me uncertainly.@
-` That look makes my head pound.@
+` - Что...@
+` Она непонимающе смотрит на меня.@
+` Этот взгляд ударяет мне в голову.@
 br
-` Panting.@ And panting.@
-` Swelling.@
-` My shaft swells so fast it's almost painful.@ I have to violate her right now or I'll go crazy.\
+` Я не могу нормально дышать.@
+` Мой член твердеет так быстро что это почти больно.@ Если я не изнасилую её прямо сейчас, то сойду с ума.\
 
-` Her vermillion-shaded cheeks.@
-` Her soft neck.@
-` And below me, her unparalleled body.\
+` Её раскрасневшиеся щёки.@
+` Её мгякая шея.@
+` И подо мной, её несравненное тело.\
 
-` My panting fills the air.@
-` I can feel her heartbeat.@
+` Я чувствую её сердцебиение.@
 br
-` Panting, panting, panting.@
-` Her golden eyes seem to suck away my soul.\
+` Моё беспорядочное дыхание громко раздаётся в воздухе.@
+` Её золотые глаза словно вытягивают из меня душу.\
 
-` I release her neck.@
-` And instead touch her breasts.@
-` Her arms.@ Her legs.@
-` My fingers trace the white skin under her clothes, soaking up the coolness of her body.\
+` Я отпускаю её шею.@
+` И прикасаюсь к её груди.@
+` Её руки.@ Её ноги.@
+` Мои пальцы пробегаеют по белой коже под её одеждой, впитывая прохладу её тела.\
 
-`"No----this, this isn't like you, Shiki......!"@
+` - Нет... это, это на тебя не похоже, Шики!..@
 br
-` Her burning voice.@
-` Her inviting red eyes.@
-` Seeing these things, my mind completely shatters.\
+` Её распалённый голос.@
+` Её призывающие алые глаза.@
+` Эти вещи окончательно лишают меня рассудка.\
 
 ; ??????:??????????<????>
 bg "image\event\ark_h03.jpg",%type_lshutter_mid
 
-`"N.........!"@
-` She stifles her cries as if embarrassed.@
-` Frantically, she tries to push me back with both hands.\
+` - Н!..@
+` Она вскриквает, сдавлено, словно стесняясь.@
+` Лихораочно, обеими руками она пытается оттолкнуть меня.\
 
-` Pushing them away, I press her onto the ground.@
-` Would it be better if I had some nails?@
-` With both arms pushed back and her figure spread open like a cross, Arcueid looks at me with naked hate in her eyes.\
+` Я отталкиваю их прочь и прижимаю её к земле.@
+` Моет, было бы лучше если бы у меня были длинные ногти?@
+` С прижатыми к земле руками, распростёртая как на кресте, Арквейд смотрит на меня с неприкрытой ненавистью.\
 
-`"------Kk."@
-` Stretched out like this, she looks even more beautiful.@
-` Like this, I can't use my arms either.@ If I let go, she'll rip my throat open for sure.@
+` - Кк...@
+` Когда она так растянута, она кажется ещё красивее.@
+` В таком положении я тоже не могу двигать руками.@ Если я её отпущу, она наверняка вырвет мне горло.@
 br
-` This tension.@ This balance that makes us seem like we're killing each other rather than me violating her increases the beast-like lust in me.\
+` Это напряжение.@ Это равновесие, словно это  мы  готовимся убить друг друга а не  я  насилую  её,  оно только усиливает мою звериную похоть.\
 
-`"--Stop, it----stop, or you'll regret it----"@
-` I won't let her finish.@
-` Since my mouth is free, I use that to undress her.\
+` - Прекрати, это... прекрати или пожалеешь...@
+` Я не дам ей довговрить.@
+` Поскольку рот у меня свободен, я раздену её им.\
 br
-` Breathing wildly, I violently tear the clothes from her body.\
+` Беспорядочно дыша, я начинаю срывать с неё одежду.\
 
-`"...... Nn, Shiki, get ahold of your----!"@
-` She squirms, still trying to resist as she trembles in my grasp.@
+` - Нн, Шики, возьми себя в!..@
+` Дрожа под моей хваткой, она начинает извиваться, всё ещё пытаясь вырваться.@
 br
-` ----Pan... ting.@
+`       Хааа...@
 br
-` My breath blows across her stomach.\
+` Моё дыхание касается её живота.\
 
-`"Ah-----n......!"@
-` Is she that sensitive?@ Her whole body reacts.@
-` ...... I feel excited.@
-` As I strip off her clothes, my tongue dances teasingly along her white skin.\
+` - А...н!..@
+` Она настолько чувствительная?@ Реагирует всё её тело.@
+` Меня это заводит...@
+` Я снимаю с неё одежду, и мой язык дразняще пробегает по её белой коже.\
 
-`"Shiki, No----!"@
-` She struggles harder, but I'm stronger than her right now.@
-` I won't let her resist.@
-` I continue removing her clothes.@
-` In the middle of it, her bra gets stuck on her chest, but I simply tear it off.\
+` - Шики, Нет!@
+` Она борется сильнее, но сейчас я сильнее её.@
+` Я не позволю ей сопротивляться.@
+` Я раздевать её.@
+` Её лифчик застревает в процессе, но я его просто срываю.\
 
-` Her breasts move as I do so.@
-` Her well-shaped globes are bared for me to see.@
-` I bite down on one of them.@
+` Её груди всколыхнулись когда я сделал это.@
+` Мои мглазам предстали её хорошо сформированые сферы.@
+` Я прикусываю одну её грудь.@
 br
-`"Naha----!"@
+` - Наха!..@
 br
-` She lets out a gasp.@
-` Her entire body arches like a bow.@
-` I don't care.@
-` I run my tongue along the flesh between my teeth, relishing the taste.\
+` Она вскрикивает.@
+` Всё её тело выгибается дугой.@
+` Мне всё равно.@
+` Я пробую языком плть между зубами, наслаждаясь её вкусом.\
 
-`"Shi...... ki........., stop......!"@
-` Her voice becomes a bit hotter.@
-` Her pink nipples harden.@
-` Just like the hardening of a man, her nipples seem to stiffen regardless of what she's thinking.@
-`"N--------!"@
-` She must be embarrassed about it, as she stifles her voice.@
-`"Shiki----if you do this, afterwards----"@
-` Ignoring her voice, I continue to lick her gorgeous breasts.\
+` - Ши...ки..., перестань!..@
+` Её голос стал чуть страстным.@
+` Её розовые соски затвердевают.@
+` Как стояк у мужчины, её соски твердеют независимо от её желания.@
+` - Н...!@
+` Должно быть она стыдится этого, судя по тому как дсавлено звучит её голос.@
+` - Шики... если ты сделаешь это, потом...@
+` Не обращая внимания на её голос, я продолжаю облизывать её великолепные груди.\
 
-`"N...... ah----!"@
-` Her face starts to contort.@
-` Her breast is firm.@ The more I push my face into it, the more it pushes back against me.@
-` Her white breasts turn a light shade of red.@
-` I keep sucking.@
-`"...... Ah...... oh...... ah, n----"@
-` Her heated voice.@
-` Her body glistening with sweat.@
-` Her shaking head, her pained gasps.\
+` - Н... а!..@
+` Её лицо искривляется.@
+` У неё упругая грудь.@ Чем сильнее я вжимаюсь в неё лицом, тем сильнее она меня выталкивает.@
+` Её белые груди слегка розовеют.@
+` Я продолжаю присасываться к ней.@
+` - А... о... а, н...@
+` Её распалённый голос.@
+` Её блестящее от пота тело.@
+` Её трясущаяся голова, её блестящее от пота тело.\
 
-` My tongue plays along her soft breasts.@
-` There's no reason for it.@
-` All that's left inside of me is a desire to lick, moisten, and play with her.@
+` Мой язык играет с её мягкой грудью.@
+` Просто так, без всякой причины.@
+` Я не чувствую ничего, кроме желания лизать, увлажнять, играть с ней.@
 br
-` I bury my face in her chest.@
-` Her white mounds glisten with my saliva.\
+` Я зарываюсь лицом в её грудь.@
+` Её белые холмы блестят от моей слюны.\
 
-`"...... Ha...... sto, p...... I...... won't ever...... forgive... you......!"@
-` It sounds like she's gritting her teeth.@
-` I'm annoyed that her voice is still so reasonable.@
-` I bite down on her nipples.@
-`"N, gah-----!!"@
-` Her entire body arches harder than before.@
-` As if pushing her breasts up, she arches back.\
+` - Хаа... пере, стань... я... никогда... тебя... не прощу...!@
+` Она говорит словно сжатые зубы.@
+` Меня злит, что она ещё может говорить связно.@
+` Я прикусываю её сосок.@
+` - Н, гха...!!!@
+` Её тело выгибается ещё сильнее чем раньше.@
+` Она выгибается дугой, словно стараясь вытолкнуть свою грудь.\
 
-` It's not my intent to give her diligent, caring foreplay.@
-` I just move my face.@
-`"S, stop...... Shiki, pl... ease---"@
-` I move my tongue to the space in between her breasts.@
-`"If you, touch me there, I'll start... to----"@
-` As if to leave a mark that won't go away, I suck on her skin.@
+` Я не пытаюсь устроить её приятную прелюдию.@
+` Я просто двигаю лицом.@
+` - Х, хватит... Шики, по...жалуйста...@
+` Я спускаюсь языком в пространство между грудей.@
+` - Если ты, прикоснёшься там, я начну—@
+` Словно желая оставить неисчезающий след, я засасываю её кожу.@
 br
-`"Hwaa----!"@
+` - Хаааа!..@
 br
-` Her arms start to flail.@
-` Holding them down, my tongue continues to crawl along her body.@
-` From her chest to her collarbone.@ From there to her neck.\
+` Её руки резко дёргаются.@
+` Я прижимаю их слиьнее, и мой язык скользит дальше по её телу.@
+` От её груди к ключице.@ От ключицы к шее.\
 
 
-`"No...... Shiki... you... don't... even... like... me......!"@
-` I don't acknowledge her.@
-` I can't even hear her.\
+` - Нет... Шики... я ведь... тебе... даже... не нравлюсь!..@
+` Я не обращаю внимания на её слова.@
+` Я её даже не слышу.\
 
-` Her glistening body destroys any reason I have left.@
-` Her beautiful body looks even better covered with sweat.@
+` Её поблёскивающее тело разрушает последние сотатки моего рассудка.@
+` Покрытое потом, её прекрасное тело выглядит даже лучше.@
 br
-` ----Thump.@
+`     Пум.@
 br
-` My blood is surging painfully.@
-` I want to take her right now.\
+` Кровь болезненно ударяет в меня.@
+` Я хочу взять её немедленно.\
 
-` My panting echoes through the alley.@
-` There's no need to hold back.@
-` If I want to do it, I'll just do it.@
-` I move my mouth away from her neck and bring it down towards her lower half.@
-`"............!!!"@
-` Arcueid struggles harder than ever.@
-` Like this, she could free herself from my arms.\
+` По переулку разносится моё тяжелое дыхание.@
+` Сдерживаться незачем.@
+` Если я хочу этого, то я просто это сделаю.@
+` Я отцепляюсь от её шеи и спускаюсь вниз.@
+` - !!!@
+` Арквейд дёргается ещё сильнее чем раньше.@
+` Так она может и вырваться.\
 
-` But before that,
-` I move lower, traveling quickly past her navel.@
-` Into the midst of her golden curls,
-` my tongue crawls down to her pink, fleshy creases.@
+` Но прежде чем это случится,
+` Я спускаюсь ниже, быстро проходя мимо её пупка.@
+` Среди её золотых волосков,
+` мой язык спускается к её розовым складкам.@
 br
-` I suck lightly on the protruding nub in between those slick walls.\
+` Я несильно засасываю бугородк, выпирающий между этими скользкими стенами.\
 
-`"Ah----N, no-----!"@
-` Arcueid arches her back.@
-` I bite down on the most sensitive spot of the female anatomy.@
-` This sensation of pleasure is far different from when I was licking her whole body.\
+` - А — Н, нет!..@
+` Спина Арквейд выгибается дугой.@
+` Я прикусываю самую чувствительную часть её тела.@
+` Это совсем не то удовольствие, как когда я облизывал её.\
 
-` Looking at her,
-` I see sticky fluid building up inside of her.@
-` The smell of warm juices.@
-` I don't care if it's enough lubrication for her.@
-` I'm not thinking at all about her pleasure.@
+` Глядя на неё,
+` Я вижу как в ней начинает скапливаться клейкая влага.@
+` Запах тёплых соков.@
+` Мне всё равно, хватит ли ей этой смазки.@
+` Меня её удовольствие вообще не заботит.@
 br
-` I just----have to have her body.\
+` Я просто... должен получить её тело.\
 
-`"------Shi... ki."@
-` Her voice is weak, as if realizing what's coming next.@
-` Has she given up?@ She looks at me with dampened eyes.@
+` - Ши...ки.@
+` Её голос звучит слабо, словно она поняла что сейчас будет.@
+` Она сдалась?@ Она смотрит на меня влажными глазами.@
 br
-`"------"@
-` Her moist... eyes.@
-` Does that mean...
-` she's crying?\
+` - ...@
+` Её влажные... глаза.@
+` Это значит...
+` она плачет?\
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 ; ??????:??????????<????>
 bg "image\event\ark_h03.jpg",%type_crossfade_fst
 
-`"Ghaa............!"@
-` My head is splitting with pain.@
-` My instincts tell me to go on.@
-` That if I stop now I'll die.@
-` My heart beats wildly----Telling me that if I don't do it now, she'll kill me later.\
+` - Гхааааа!..@
+` Моя голова раскалывается от боли.@
+` Мои инстинкты говорят мне продолжать.@
+` Что если я сейчас остановлюсь, мне конец.@
+` Моё сердце бешено колотится... говорит мне, что если я сейчас этого не сделаю, потом она меня убьёт.\
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 ; ??????:??????????<????>
 bg "image\event\ark_h03.jpg",%type_crossfade_fst
 
-`"------"@
-` She's crying.@
-` Why----is she crying?@
-` If it was me, I would never let her cry.\
+` - ...@
+` Она плачет.@
+` Почему... она плачет?@
+` Я бы ни за что на свете не заставил её плакать.\
 
 ; ???<????>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -577,11 +575,11 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\event\ark_h03.jpg",%type_crossfade_fst
 
 
-` My headache continues.@
-` Screaming at me to go on.@
-` ----It's strange to be distracted.@
-` There's only one thing that needs to be done.@
-` I----
+` Моя головная боль не останавливается.@
+` Приказывая мне продолжать...@
+` Странно что я отвлёкся.@
+` Сейчас остаётся только одно.@
+` Я...
 br
 
 
@@ -589,6 +587,7 @@ br
 
 
 return
+
 
 
 </pre>
