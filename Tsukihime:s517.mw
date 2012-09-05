@@ -16,38 +16,38 @@ cl c,%type_lcartain_mid
 
 
 ld r,":a;image\tachi\cel_t20.jpg",%type_tshutter_mid
-` Hello.@ I am the teacher of this classroom, Ciel.@
-` For the sixth period class, let's think about the basics of finding people.@
+` Здравствуйте.@ На этом уроке вашим учителем буду я, Сиэль-сенсей.@
+` Темой шестого урока мы возьмём основы поиска людей.@
 br
-` To be straightforward, Tohno-kun does not know how to find people.@
-` Please consider the reason why she ran away; why, where, and to do what.@ If you piece these together, you will find an answer.@
+` Если говорить прямо, Тоно-кун искать людей не умеет.@
+` Пожалуйста подумайте о причине, почему она убежала; почему, куда, и что она собиралась там делать.@ Если вы сложите это вместе, то получите ответ.@
 br
-` In other words, she got hungry, so she went into the alley to do some sucking.\
+` Иными словами, она проголодалась, и пошла в переулок крови пососать.\
 
 ; ?????? : 01~10 : 01_?01(?????????)<??????(?)>
 ld l,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 ld l,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
 
 
-`"Nonsense!@ Violent Ciel!@ Glasses!@ Indian!"@
+` - Чушь!@ Буйная Сиэль!@ Очкарик!@ Индуска!@
 br
 ` ..................@
-` This session is finished.@
-` Please continue enjoying the main storyline.\
+` На этом урок окончен.@
+` Пожалуйста, продолжайте читать основной сюжет.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 ld c,":a;image\tachi\ark_t30.jpg",%type_lshutter_fst
-`"Nya?@ What is it, Ciel?@ Why are you pulling out something like a shotgun, and a machine gun, and a vulcan cannon?"@
+` - Ня?@ Сиэль, ты чё?@ Почему ты достаёшь... дробовик, и пулемёт, и миниган?@
 br
 ;S.E."????????????"
 wave se6
 
 
-` Arc!@ India has nothing to do with it.@ Nothing!@
+` Арк!@ Индия тут совершенно не при чём.@ Не при чём!@
 br
-`"Oh my, Glasses got pissed off-nyaa!@ Whoosh (sound effect)"\
+` - Ой ня, Очкастая разозлилась!@ Фшуух (спецэффект)\
 
 cl c,%type_bscroll_mid
 
@@ -60,6 +60,9 @@ cl c,%type_bscroll_mid
 playstop
 
 return
+
+
+
 
 
 
