@@ -7,37 +7,37 @@
 bg "image\bg\bg_28b.jpg",%type_nowaitdisp
 
 
-` Time is the only thing which passes by.@
-` A quiet night.@
-` It's completely different from two nights ago and there isn't a single cloud in the sky.@
-` The bright, pure moonlight illuminates the park and Arcueid.\
+` Ничего не происходит, и только время идёт своим ходом.@
+` Тихая ночь.@
+` Совсем не такая как два дня назад, сейчас на небе ни облачка.@
+` Яркий, чистый лунный свет освещает парк и Арквейд.\
 
-`"...... Moonlight......"@
-` If it was as bright as this back then, maybe I could have seen the bandaged man's face...... wait a minute...
+` - Лунный свет...@
+` Если бы тогда было так же светло, я мог бы разглядеть лицо того забинтованого типа... погодите...
 br
-`"Ah----------!"@
+` - А!@
 br
-` I jump up from the bench.\
+` Я вскакиваю с лавки.\
 
 ; ??<?>=??????:??01(?????)<??????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_lshutter_fst
-`"Shiki!?@ What's wrong, did you see The Dead?"@
-` Arcueid rushes towards me.@
-`"No, that's not it---I forgot something really important."@
-` It really was careless of me.@
-` I was attacked yet I completely forgot about it until now.\
+` - Шики?!@ Что случилось, ты Мертвого увидел?@
+` Арквейд подбегает ко мне.@
+` - Нет, дело не в этом. Я забыл кое-что очень важное.@
+` Я и правда слишком беспечен.@
+` На меня напали, а я об этом вспомнил только сейчас.\
 
-`"Arcueid.@ I was attacked two nights ago by a strange person."@
+` - Арквейд.@ Две ночи назад на меня напал странный человек.@@
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t13.jpg",%type_crossfade_fst
-`"Eh?@ A strange person?@ What kind?"@
-`"Well, that is----"@
+` - Э?@ Странный человек?@ Какого типа?@
+` - Ну, это...@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
 br
-` I calm down and I describe as clearly as I can what happened last night.\
+` Я успокаиваюсь, и как можно точнее пересказываю то, что случилось.\
 ;CD-DA??
 playstop
 
@@ -47,99 +47,100 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 bg "image\bg\bg_28b.jpg",%type_lshutter_fst
 
 
-`"...... Yeah, that's how it was------"@
-` Finishing my explanation, I read Arcueid's expression.@
+` - …Так всё и было.@
+` Закончив рассказ, я вглядываюсь в лицо Арквейд.@
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
-` From when I started until now, her eyes remained sharp without any gentleness.\
+` С самого начала моего рассказа и до сих пор, её взгляд оставался сосредоточенным, в нём не было ни капли доброты.\
 
-`"So what is it Arcueid?@ That bandaged man, and that person wearing those robes like some priest, are they enemies of yours?"@
-`"...... Yes.@ Both of them are 'enemies'.@ I don't know just who or what that bandaged man is, but that woman wearing those Catholic robes, I have an idea about."@
-` She narrows her eyes as if she was in a bad mood.@
-` No, she looks less like she was in a bad mood and more like she's irritated.\
+` - Так что это было, Арквейд?@ Тот забинтованый, и другой человек в рясе как у священника, это твои враги?@
+` - Да.@ Они оба «враги».@ Кто или что этот забинтованый я не знаю, но та женщина в католической рясе, про неё я догадываюсь.@
+` Она сузила глаза, словно в плохом настроении.@
+` Нет, это не столько плохое настроение сколько раздражение.\
 
 ;CD-DA????????????
 play "*9"
 
 
-`"I may know the person who helped you, Shiki.@ ...... Man.@ If it's really her, she'll probably be able to find the enemy before me."@
-` She bites her lip vexedly.@
-`"Wait a minute.@ I didn't say that person was a woman though."\
+` - Шики, возможно я знаю, кто тебе помог.@ Эх...@ Если это и правда она, она наверное сможет найти врага раньше меня.@
+` От раздражения она прикусывает губу.@
+` - Погоди минутку.@ Я не говорил что это была женщина.\
 
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t01b.jpg",%type_crossfade_fst
-`"No, there's no mistake.@ That woman is the only agent given authority to hunt heretics alone and who uses Black Keys that combine the Cremation Rite and the Steel Shell Effect."@
-` Her irritability is almost like hostility.@
-` Even when she spoke about Nrvnqsr, her voice was never saturated with emotion to this extent.\
+` - Нет, ошибки быть не может.@ Из тех агентов, кто обладает разрешением охотиться на еретиков в одиночку, только она использует Чёрные Ключи, сочетающие Ритуал Кремации и Эффект Стального Снаряда.@
+` Её раздражение почти похоже на враждебность.@
+` Даже когда она говорила про Нрвнкср, её тон не был таким эмоциональным.\
 
-`"...... Arcueid.@ Um, that person who helped me, is she a vampire......?"@
+` - Арквейд.@ Эм, эта женщина что помогла мне, она вампир?..@
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"No, that's not it----that's right, I have yet to tell you about something else that's very important."\
+` - Нет, вовсе нет — да, я же не рассказала тебе ещё кое-чего важного.\
 
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
-`"I think I explained it before, but vampires like the one making his lair in this town turn humans into their minions and expand their territory.@ At the same time, they try their utmost to conceal their existence.@
-` Even though victims appear, they use various magical techniques to make things appear not out of the ordinary.@
-` You know why?"\
+` - Кажется я уже говорила, но вампиры вроде того, что поселился в этом городе, превращают людей в своих слуг и расширяют свою территорию.@ Но при этом они изо всех сил стараются скрыть своё существование.@
+` Даже оставляя после себя жертвы, они используют различные магические приёмы чтобы создать видимость, что ничего необычного не происходит.@
+` Ты знаешь почему?\
 
-`"...... Well, it's because humans aren't stupid.@ If they find out monsters like that exist where they live, they'd attack them.@ Even though humans are weak, they do have things like police, so they might be able to do something."@
-`"---Well, I guess that's true, but police are only a law-enforcement group against humans.@ We don't consider them at all.@
-` But, it's correct to say that vampires hide their presence for the sake of self-preservation."\
+` - Нуу, наверное потому что люди не глупы.@ Если они узнают что рядом с ними обитают такие чудовища, они нападут.@ Хоть люди и слабы, у них есть полиция и другие похожие вещи, и онинаверняка могут что-нибудь сделать.@
+` - Ну, пожалуй да, но полиция это провоохранительная организация, направленая против людей.@ Их мы вообще не учитываем.@
+` Но, это верно что вампиры скрываются ради самосохранения.\
 
-`"Shiki, there is a natural enemy of the vampires.@ A group of something like professional killers that now have the power balance in their favor.@
-` ...... It's true for other transcendent species, but especially for vampires, it is fatal for them to reveal themselves.@
-` Even if a vampire made a secret kingdom in a village somewhere in the mountains away from all civilization, this natural enemy would definitely notice if victims keep increasing.\
+` - Шики, у вампиров существует естественный враг.@ Они как группа профессиональных убийц, и в данный момент баланс сил лежит в их пользу.@
+` Это справделиво для всех сверхъестественных чущество, но особенно для вампиров, раскрывать своё существование для них смертельно опасно.@
+` Даже если вампир построит себе тайное королевство в какой-нибудь глухой горной деревне, этот естественный враг непременно узнает об этом если число жертв будет расти.\
 
-` Vampires exploit the humans in secret, for no reason other than self-preservation.@
-` The vampires hide their dead victim's bodies, not out of fear of human society finding out, but in fear of these natural enemies discovering them."@
-`"...... Huh?@ The natural enemy of vampires?@ Yet another group of monsters I don't know about."@
+` - Вампиры паразитируют на людях тайком исключительно ради самосохранения.@
+` Вампиры скрывают тела своих жертв не от страха перед человеческим обществом, но от страха что их обнаружат их естественные враги.@
+` - А?..@ Естественный враг вампиров?@ Ещё одна новая группа монстров.@
 br
-` For a normal guy like me, I just want all these unnatural things to stop appearing.\
+` Мне, как нормальному парню, уже хочется чтобы эти сверхъестественные штуки перестали появляться.\
 
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
-`"What are you saying?@ Their natural enemy is without a doubt you humans."@
-`"-----?@ Natural enemies, us?"@
+` - Что ты несёшь?@ Их естественный враг это без сомнения вы, люди.@
+` - ?@ Естественные враги, мы?@
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t06.jpg",%type_crossfade_fst
-`"Yeah.@ Starting from a long time ago, humans used many kinds of magic, the occult, magical ceremonies to create an organization and started to eliminate primates other than humans.@
-` The greatest of these is Christianity---the pride of the Vatican, the Exorcists.@ The Catholic Church always viewed "nonhumans" as impurities, but vampires are considered the most dangerous."@
+` - Да.@ С давних времён люди использовали множество разных видов магии, оккультизм, магические церемонии чтобы создать такую организацию и начали  уничтожать разумных существ, не являющихся людьми.@
+` Величайшая из них — Христианство, городсть Ватикана, Экзорцисты.@ Католическая церковь всегда воспринимала «нелюдей» как нечто нечистое, но вампиры всегда считались самыми опасными.@
 
-` "There are many religious groups in the world, but the Catholic Church looks at vampires with more hostility than the rest.@
-` You know, it's almost an obsession.@ They are so insane, I don't even want to mess with them."@
-` Arcueid lets out a sigh.\
+` - В мире существует много религиозных организаций, но Католическая Церковь относится к вампирам с большей враждебностью, чем остальные.@
+` Ты знаешь, это почти как одержимость.@ Они до того оголтелые, что мне даже не хочется с ними связываться.@
+` Арквейд вздыхает.\
 
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t02.jpg",%type_crossfade_fst
 
-`"The one who helped you was a member of an elite organization that hunts heretics.@
-` This group, the Burial Agency, is part of the Church.@ They use their own strength rather than law to deal with contradictions to Christianity.@ These hidden exorcists are more like professional killers."@
-`"............"@
-` Priests that go around exterminating vampires, huh?@
-` It's so fitting, I'm not really sure what to say.\
+` - Та, кто тебе помогла, была членов элитной организации охотников на еретиков.@
+` - Эта организация, Погребальное Агентство, является частью Церкви.@ Они используют сосбвтенные силы, а не закон, чтобы устранять всё, что противоречит христианству.@ Эти скрытые экзорцисты больше напоминают профессиональных убийц.@
+` - ...@
+` Священники, истребляющие вампиров, значит?@
+` Звучит до того логично что мне и добавить нечего.\
 
-`"Then aren't they like us?@ If this Burial Agency is a group whose purpose is to hunt vampires too, can't we search together?"@
+` - Тогда, разве они не такие же как мы?@ Если это Похоронное Агентство — организация, целью которой тоже является охота на вампиров, то не можем ли мы искать вместе?@
 ; ??<?>=??????:??02(?????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
-`"----That won't work.@ For them, it's enough that someone is a vampire.@ To them, non-human primates are just "Evil".@ It doesn't matter if they suck blood or not.@
-` This exorcist may have even just came here to seal me rather than fight the vampire who lives in this city."\
+` - Нет, это невозможно.@ Им достаточно что кто-то является вампиром.@
+` Для них, любой нечеловек — лишь «Зло».@ Не важно, пьёт он кровь или нет.@
+` Эту экзорцистку вполне могли отправить сюда чтобы обезвредить меня, а не для борьбы с вампиром, поселившимся в городе.\
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 ;CD-DA??
 playstop
 
-` Sounding irritated, Arcueid starts to pace back and forth again.\
+` Арквейд начинает с недовольным видом ходить взад-вперёд.\
 
-`".................."@
-` Things have gotten quite complicated.@
-` Arcueid's enemy is sought after by both a vampire, and a group that hunts vampires.\
+` - ...@
+` Как всё осложнилось.@
+` Врага Арквейд преследуют и вампиры, и охотники на вампиров...\
 
-`"...... What is this?@ Then doesn't that mean she's all by herself?"@
-` Thinking aloud, I watch Arcueid as she paces back and forth.@
+` - Так что это получается?@ Разве не получается, что так она совсем одна?@
+` Я думаю вслух, наблюдая за шагающей из стороны в сторону Арквейд,@
 br
-` Under the white moonlight,
-` Arcueid appears to be dancing a solitary waltz.\
+` Осенённая белым лунным светом,
+` она словно бы танцует одинокий вальс.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -147,13 +148,6 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ;CD-DA??
 playstop
 
-
-
-
-
-
-
-return
 
 
 </pre>
