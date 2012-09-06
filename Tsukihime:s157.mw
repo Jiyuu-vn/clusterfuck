@@ -7,18 +7,18 @@
 ; ????<?????(?)>
 bg "image\bg\bg_47.jpg",%type_lcartain_mid
 
-` ...... I go up the residential hill and arrive at the outskirts of the mansion.@
-` It's around two in the morning.@
-` As expected, I'm totally assailed by sleepiness.@
+` ...Я поднялся по холму в жилой район, оказавшись поблизости от усадьбы.@
+` Сейчас около двух ночи.@
+` Как и ожидалось, тянет в сон.@
 br
-`"...... I wonder if she's going to be okay."@
-` I'm concerned about how she seemed when we parted.@
-` It seemed like it wasn't pain from her wound, but---\
+`- Будет ли с ней всё в порядке, хотелось бы знать...@
+` Меня беспокоит то, как она выглядела, когда мы расстались.@
+` Похоже, это не раны разболелись, но...\
 
-`"Hm?"@
+`- Хм?@
 br
-` What is that?@
-` It feels like there's someone lurking in the shadows not illuminated by the streetlights.\
+` Что это?@
+` Такое чувство, что кто-то скрывается в тенях, где не светят фонари.\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -28,67 +28,67 @@ br
 ;S.E."??"
 wave se0
 
-` ---Thu,mp.@
+` ...Бу-бум.@
 br
-` My heart stops my breath.@
-` My blood rushes through my body, this sensation----\
+` Моё сердце замерло, и дыхание остановилось.@
+` Кровь рванулась по телу, это ощущение...\
 
 br
-` Certainly, there's someone standing there.@
-` The figure gets closer and closer.@
+` Там точно кто-то стоит.@
+` И... приближается.@
 br
-` Footsteps.@
-` The sound of dry footsteps reaches my ears.\
+` Шаги.@
+` Звук сухих шагов достиг моих ушей.\
 
 br
 ;S.E."??"
 wave se0
 
-` ----Thu, mp.@
+` ...Бу-бум.@
 br
-` I have a bad feeling about this.@
-` Chills race up my spine.\
+` У меня дурное предчувствие.@
+` Мурашки поползли по спине.\
 
-`"----"@
-` The figure draws near.@
-` Suddenly----the streetlights shatter loudly.@
+`- ...@
+` Фигура приближается.@
+` Внезапно... фонари с громким шумом разлетелись на части.@
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
 
-` The moon is hidden by the clouds.@
-` The whole world instantly turns to darkness.@
+` Луна скрыта облаками.@
+` Весь мир мгновенно погрузился во тьму.@
 br
-`"!"@
-`      Thu, mp.........!@
+`- !@
+`      Бу-бум!..@
 br
-` My heartbeat skips, as if warning me of death.@
-` I jump back for no apparent reason.\
+` Моё сердце сбилось с ритма, словно предупреждая меня о смерти.@
+` Я без какой-либо очевидной причины отпрыгнул назад.\
 
 ; ????<???????(?)>
 bg "image\bg\ima_14.jpg",%type_crossfade_fst
 
 
-` A blade runs through the darkness.@
-` Not being able to get away fully, my glasses are grazed by it.@
-` They fall to the ground with a clatter.\
-`"Who---"@
-` The instant I start to say "are you?",
-` The clouds part for a brief moment and illuminates the dark figure.\
+` Клинок рассёк тьму.@
+` Я не смог полностью уклониться, и он зацепил мои очки.@
+` Они со стуком упали на землю.\
+`- Кто...@
+` В тот миг, как я начал произносить "ты?",
+` облака на миг расступились, осветив тёмную фигуру.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ??<?>=??(?????):?????(????????)<???????(?)>
 ld c,":a;image\tachi\roa_t07a.jpg",%type_crossfade_fst
 
-`"Wha----"@
-` A man wrapped entirely in bandages is gripping a knife.@
+`- Че...@
+` Человек, весь обмотанный бинтами, сжимающий нож.@
 \
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` The bandaged man goes to attack me again.@
-` I quickly ready my knife and stop it.@
+` Человек в повязках снова атаковал.@
+` Я стремительно выхватил нож и остановил удар.@
 ; ????<??????(?)>
 bg "image\bg\ima_14.jpg",%type_lshutter_fst
 
@@ -96,52 +96,52 @@ bg "image\bg\ima_14.jpg",%type_lshutter_fst
 waveloop se1
 
 br
-` Two slivers of light shoot towards each other.@
-`"----!"@
-` I can't, think calmly.@
-` The fact that I'm being attacked causes my mind to panic.\
+` Два пятна света устремились друг к другу.@
+`- !..@
+` Я не могу спокойно мыслить.@
+` Нападение заставляет меня паниковать.\
 
-` Clang!@ Clang!@ Sparks fly from our clashing knives and scatter into the darkness.@
-`"Kk---"@
-` I still can't calm down.@
-` It's not because I'm being attacked.@
+` Лязг!@ Лязг!@ Искры из наших сталкивающихся ножей разлетаются во тьму.@
+` - Кк...@
+` Я всё не могу успокоиться.@
+` Не потому, что меня атакуют.@
 br
-` Clang---.@
-` I swing my knife to cancel out the one attacking me from every angle.\
+` Лязг...@
+` Мой нож парирует удары со всех сторон.\
 
-`"Why----"@
-` What's surprising is that,
-` my body is completely stopping all the attacks in this darkness without a pause.\
+`- Почему...@
+` Самое неожиданное то,
+` что моё тело безостановочно парирует все атаки в этой тьме.\
 
-`"My body is moving by itself---?"@
-` No, that's not it.@
-` All my arms are doing,
-` is seeking out the lines and points that I can see in the darkness with my glasses off.@
+` Моё тело движется само?..@
+` Нет, дело не в этом.@
+` Всё, что делают мои руки -
+` ориентируются на точки и линии, которые я вижу во тьме без очков.@
 br
-` That's all I can see, so I swing my knife through the dark air after those lines.@
-` As a result, the bandaged man's knife is simply stopping mine.@
-` In other words,
-` It's not that I'm defending myself, but he's defending himself from me.\
+` Это всё, что я вижу, так что я машу ножом в их направлении.@
+` В результате, нож человека в повязках просто останавливает мой.@
+` Другими словами,
+` Это не я защищаюсь, а он защищается от меня.\
 br
-` ----I can win......!@
+` ...Я могу победить!..@
 br
-` I don't know who he is, but there's no doubt.@
-` I'm overwhelming him.@
-` My blood rages forth from my advantage.@
-` I'll win.@ I'm, stronger than him.@
-` Because I'm stronger.@ Because he's trying to kill me, aren't I just returning the favor----!?\
+` Я не знаю, кто он, но одно несомненно.@
+` Я его тесню.@
+` Моя кровь ярится от моего преимущества.@
+` Я побеждаю.@ Я сильнее его.@
+` Потому что сильнее.@ Потому что он пытается меня убить, почему не отплатить тем же?!..\
 
 ;S.E."?????????"
 wave se11
 
-` Clang.@ Clang.@
-` The sound of ringing metal echoes in the air and I force him back towards the mansion wall.\
+` Лязг.@ Лязг.@
+` Звон металла разносится в воздухе, и я прижимаю его к ограде усадьбы.\
 ;S.E."????(???)"
 waveloop se1
 
-`"----!"@
-` There.@
-` My eyes fixate on the "line" on his chest and I thrust my knife forward.@
+`- !..@
+` Там.@
+` Мои глаза сосредоточились на "линии" на его груди и я сделал выпад ножом.@
 
 monocro #ff0000
 
@@ -150,8 +150,8 @@ bg "image\bg\cmo_06.jpg",%type_crossfade_fst
 
 
 br
-` ----Momentarily.@
-` For some reason I see a boy painted in blood and Akiha's crying face----\
+` ...Один миг.@
+` Почему-то я вдруг увидел окровавленного мальчика и плачущее лицо Акихи...\
 
 monocro off
 
@@ -159,8 +159,8 @@ monocro off
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-`"Gh!"@
-` I pull my knife back before completion.\
+`- Гх!@
+` Я не закончил удар.\
 
 br
 br
@@ -168,7 +168,7 @@ br
 br
 br
 br
-` ---What, am I--I'm, trying to kill someone, why---\
+` ...Что за... я - пытаюсь кого-то убить, почему...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -176,100 +176,100 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-` My head.@
-` My head hurts.@
-` My legs wobble and I stagger backwards.@
-` As I do so,
-` I empty the contents of my stomach.@
+` Моя голова.@
+` Моя голова раскалывается.@
+` Мои ноги задрожали и я споткнулся, упав назад.@
+` И,
+` опустошил желудок.@
 br
-` My chest starts to itch.@
+` Моя грудь начала чесаться.@
 br
-` My head hurts, the old wound on my chest burns.@
-` My eyes, feel like they're going to burst out of my sockets----\
+` Моя голова болит, старая рана на моей груди горит.@
+` Мои глаза словно вот-вот вылезут из глазниц...\
 
-`"Haa----ah, agh---!"@
-` I can't stop throwing up.@
-` The vomit splatters all over the asphalt.@
-` And there,
-` the bandaged man comes after me with his knife.\
+`- Хаа... ах, агх!..@
+` Я не могу остановить рвоту.@
+` Пятна рвоты на асфальте.@
+` И,
+` человек в повязках снова бросился на меня с ножом.\
 
 ; ????<??????(?)>
 bg "image\bg\ima_14.jpg",%type_lshutter_fst
 
 br
-`"-----!"@
+`- !..@
 br
 ;S.E."?????????"
 wave se11
 
-` Clang!@ Another collision.@
-` My knife shoots towards his.@
-` This time, I really defend myself.@
-` I know where he's aiming.@ Since I know, I block him once again with another clang.\
+` Лязг!@ Новое столкновение.@
+` Мой нож метнулся к его.@
+` В этот раз я действительно защищаюсь.@
+` Я знаю, куда он целит.@ А раз знаю, снова с лязгом блокирую удар.\
 
 ;S.E."?????????"
 wave se11
 
 br
-` Clang!@ Clang!@ Clang!@
+` Лязг!@ Лязг!@ Лязг!@
 br
 ;S.E."?????????"
 wave se11
 
-` Despite not being able to see his knife due to its speed, I somehow manage to block it over and over.@
-` The reason I can defend myself is simple.@
+` Хотя из-за скорости я и не вижу его нож, но снова и снова ухитряюсь его блокировать.@
+` Причина, по которой я способен защищаться, проста.@
 ;S.E."????(???)"
 waveloop se1
 
-` Because, where he's aiming are the "lines" on my body.@
+` Потому что он целит в "линии" на моём теле.@
 br
-` So I know where he is aiming at and I understand more than anyone that having them cut would mean instant death, so I have to defend it.\
+` Так что, раз я знаю, куда он целит, и лучше чем кто-либо понимаю, что их разрезание означает мгновенную смерть, я их защищаю.\
 
-` No, wait.@
+` Нет, погодите.@
 br
-` ...... Aiming---for my lines?\
+` ...Целит в мои линии?..\
 
-`"------Ah."@
-` It's the exact opposite of before.@
-` That means,
-` don't tell me, he.@
+`- Ах...@
+` Сейчас всё наоборот, роли поменялись.@
+` Это значит,
+` неужели он...@
 br
-` ----Ku.@
+` ...Кх.@
 br
-` The bandaged man smiles in the darkness.\
+` Человек в повязках улыбается во тьме.\
 
-` ---Th, um, p.@
+` ...Бу-буб-бум.@
 br
-` My heart rate goes out of control.@
-` Feeling some unnameable fear, I stumble backwards.@
-` He doesn't pursue me.@ He just smiles.@
-` His blood-shot eyes seems to be saying "So you've finally realized it?" as he sneers at me.@
+` Моё сердце бешено бьётся.@
+` Ощущая некий безымянный страх, я отшатнулся назад.@
+` Он не преследует меня.@ Он просто улыбается.@
+` Его глаза словно говорят "Так ты наконец это понял?", когда он презрительно усмехается.@
 br
-`"You can----see them?"@
-` Yes.@
-` He also, can see the "lines"----\
-
-br
-br
-br
-br
-br
-br
-` Then,
-` He can, also kill with one blow---\
+`- Ты... их видишь?@
+` Да.@
+` Он тоже может видеть "линии"...\
 
 br
-` ----Ku.@
 br
-` The man laughs.@
-` He draws near while laughing.@
-` I---even down to my fingers gripping my knife, tremble uncontrollably.@
+br
+br
+br
+br
+` В таком случае,
+` Он тоже может убить одним ударом...\
+
+br
+` ...Хе.@
+br
+` Человек рассмеялся.@
+` Смеясь, он приближается ко мне.@
+` Я... весь, до кончиков пальцев, сжимающих нож, неконтролируемо дрожу.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 
-` Slice.@ Slice.@ Slice.@ The sound of flesh being pierced by a blade resounds three times.@
-` And then, a thud, a sound of a body hitting the wall.\
+` Разрез.@ Разрез.@ Разрез.@ Звук плоти, рассекаемой лезвием, звучит трижды.@
+` А затем - удар, звук тела, ударившегося о стену.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -277,66 +277,66 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ;S.E.??
 wavestop
 
-`"Eh---?"@
+`- Э?..@
 br
-` ---I can't grasp the situation.@
+` Я не понимаю, что происходит...@
 br
-` The bandaged man was suddenly pierced by three spear-like pipes.@
-` Not just pierced, but stuck onto the wall.@
-` Like an insect pinned in a bug collection.\
+` Человека в повязках внезапно пронзили три копьеподобных трубы.@
+` Не просто пронзили, но прибили к стене.@
+` Как жука в коллекции насекомых.\
 
 br
-`"---YOU'RE IN MY WAY."@
+`- ...ТЫ МНЕ МЕШАЕШЬ.@
 br
-` His voice grates awfully.@
-` At the same time---the three spears alight like candles and engulf him in flames.@
+` Его голос ужасно скрипит.@
+` И в этот момент три копья загорелись, как свечи, и пламя поглотило его.@
 br
-`"AAAAAaAAAaaaaAaAAAh!"@
+`- AAAAAaAAAaaaaAaAAAх!@
 br
-` An anguished voice in the whirlpool of flames.@
-` In the darkness, that scene seems less cruel, and almost beautiful.\
+` Мучительный вопль в огненном смерче.@
+` Во тьме эта сцена выглядит не такой жестокой, почти красивой.\
 
 br
-`"AAAAAAAAAAH!"@
+`- AAAAAAAAAAХ!@
 br
-` The bandaged man---no, the bandages are burned already, his skin is showing.@
-` Wrapped in the flames, the man stares at me.@
-` His blood-shot eyes filled only with murder.@
-` His black eyes like a weapon bent on cursing Tohno Shiki.\
+` Человек в повязках - нет, повязки уже сгорели, и видна кожа.@
+` Окутаный пламенем, он смотрит на меня.@
+` Его кровожадные глаза наполнены жаждой убийства.@
+` Его чёрные глаза - словно оружие, стремящееся дотянуться до Тоно Шики.\
 
-`"-----Wha..."@
-` Stunned, I can only watch.@
-` He runs off into the distance, still engulfed in flames.\
+`- ...Че...@
+` Ошарашенный, я могу только смотреть.@
+` Он убежал вдаль, всё ещё окутанный пламенем.\
 
 ; ?(??????)<???????(?)>
 bg "image\bg\ima_18.jpg",%type_crossfade_mid
 
-` ---The moon re-emerges.@
-` After those flames, and that cursing voice, everything returns to silence like it was before.@
-`"----"@
-` I fall to my knees and lean against the wall.\
+` ...Луна снова появилась из-за облаков.@
+` После того пламени, и этих воплей, всё вернулось к прежней тишине.@
+`- ...@
+` Я упал на колени и прислонился к стене.\
 
-` I look up at the sky.@
-` In the direction where those spears flew from, someone is standing high and far off.@
+` Я взглянул на небо.@
+` В направлении, с которого прилетели те копья, поодаль и сверху, кто-то стоит.@
 
 ; ???:??????????????<???????(?)>
 bg "image\event\cel_e04.jpg",%type_crossfade_fst
 
-`"-----"@
-` Far away.@
-` Standing composed on top of the streetlight, I see a familiar figure.\
+`- ...@
+` Вдалеке.@
+` Я увидел знакомую фигуру, спокойно стоящую на фонарном столбе.\
 
-`"...... Eh?"@
-` Robes like a priest from another country.@
-` Clenched in her hand, large, nail-like swords.@
-` Emotionless, pale eyes.@ Blue, sky-blue eyes.@
-`"...... Sen...... pai?"@
-` Under the moonlight, I can only make out the silhouette.@
-` But, she seems to resemble Senpai.\
+`- Э?..@
+` Роба, словно у иностранного священника.@
+` В её руке - большие мечи, напоминающие гвозди.@
+` Безэмоциональные, бледные глаза.@ Синие, небесно-синие глаза.@
+`- Сем...пай?..@
+` Под лунным светом я могу различить лишь силуэт.@
+` Но, она похожа на семпай.\
 
-`"------"@
-` Our eyes meet.@
-` The standing figure on top of the streetlight suddenly disappears like a ghost.@
+`- ...@
+` Наши глаза встретились.@
+` Фигура, стоящая на фонарном столбе, внезапно исчезла, словно призрак.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -344,11 +344,11 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_47.jpg",%type_crossfade_mid
 
 
-`"Ah-----"@
-` I sit down roughly.@
-` Is it relief from my headache fading or just the lifting of all this tension?@
+`- Ах...@
+` Я грубо сел.@
+` Это облегчение от исчезновения головной боли, или просто откат после всего этого стресса?@
 br
-` Leaning my back against the wall, I start to drift off to sleep-----.\
+` Прислонившись спиной к стене, я ощутил, что засыпаю...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
