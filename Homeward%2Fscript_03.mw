@@ -174,16 +174,16 @@ label soraarrives:
         scene bg soraroom with screenwipe
         
         show sora casual tanuki onearmdown distantleft with dissolve
-        "I went downstairs and quickly cooked some curry rice. Good thing there was already some left over rice from this morning in the cooker."
-        "After I finished, I brought two plates of curry rice upstairs."
-        "Sora ate the curry without a word."
+        "Я спустился вниз и быстренько приготовил рис с карри. Хорошо, что в рисоварке ещё с утра осталось немного риса."
+        "Закончив, я принёс две тарелки с рисом, посыпанным карри."
+        "Сора съела карри не вымолвив не слова."
         
         show sora casual tanuki onearmdown distantright with dissolve
         so "... ... ..."
-        ri "Well? Do you like it?"
+        ri "Ну как? Понравилось?"
         show sora casual tanuki onearmdown distantright mouthopen with dissolve        
-        so "...It's medium good."
-        "I guess that meant that it was alright?"
+        so "...Ничего."
+        "Надеюсь, это означало, что понравилось?"
 
     if kendoclub:
         
@@ -191,58 +191,58 @@ label soraarrives:
         scene bg soraroom with screenwipe
         show sora casual tanuki onearmdown distantleft with dissolve
 
-        "I went downstairs and boiled some water on a kettle. I poured it into two cups of instant ramen and brought them upstairs."
-        "Sora ate without a word."
+        "Я спустился вниз и вскипятил чайник. Я залил ей две чаши с раменом быстрого приготовления и принёс их наверх."
+        "Сора ела без слов."
         
-    ri "So, does Sora-chan have any hobbies?"
+    ri "Итак, у Соры-тян есть какие-либо хобби?"
     
     show sora casual tanuki onearmdown distantleft mouthopen with dissolve    
-    so "Not really."
-    ri "I see..."
+    so "Наверное нет."
+    ri "Понятно..."
     
     show sora casual tanuki onearmdown distantleft with dissolve    
     so "... ... ..."
-    ri "Do you like that tanuki?"
+    ri "Тебе нравятся тануки?"
     
     show sora casual tanuki distantright mouthopen with dissolve    
-    so "Uhn. Important gift."
-    ri "A gift? From who?"
-    so "Don't know."
-    ri "Huh..."
+    so "Ух. Это важный для меня подарок."
+    ri "Подарок? От кого?"
+    so "Я не знаю."
+    ri "Ах..."
     
     show sora casual tanuki distantright with dissolve    
     so "... ... ..."
-    ri "Do you think you'll need anything?"
+    ri "Тебе что-нибудь нужно сейчас?"
     
     show sora casual tanuki onearmdown distantleft mouthopen with dissolve        
-    so "Uhn. Leave."
-    ri "Huh?"
-    so "My clothes are wet. I'm going to change."
-    ri "O-oh! Sorry."
-    "I quickly got out of the room."
+    so "Ух. Выйди."
+    ri "А?"
+    so "Моя одежда вся мокрая. Я хочу переодеться."
+    ri "О-ой! Извини."
+    "Я поспешно вышел из комнаты."
     
     scene bg closeddoor with dissolve
     
-    "I leaned against the closed door and couldn't help but sigh deeply."
-    "Somehow, I got the feeling that living with Sora was going to be difficult..."
+    "Я прислонился к закрытой двери и глубоко вздохнул."
+    "Так или иначе, я меня складывалось ощущение, что жизнь с Сорой будет не простой..."
     
     scene bg rikuroomnight with dissolve
     
-    "I left Sora alone for the remainder of the day. Maybe it was best to give her some time to adjust to her new house."
-    "I went to my room to study and then went to bed."
+    "Я оставил на оставшуюся часть дня Сору одну. Наверное так будет лучше, если дать ей немного времени привыкнуть к новому дому."
+    "Я пошёл в свою комнату, сделал домашнее задание, и потом лёг спать."
     
     scene bg black with dissolvelong
     scene bg closeddoor with dissolvelong
     
     $ renpy.music.stop(fadeout=1.0)    
     
-    "It didn't look like Sora was awake the next morning."
-    "I tried knocking on her door."
-    ri "Sora? It's time for your first day of school."
-    "There was no response."
-    "I guess she was still tired from moving in. It wasn't a good idea to push her too much."
-    "After waiting without success for a response, I decided to let her rest and left for school."
-    "Maybe tomorrow she would feel better..."
+    "На следующее утро, было не похоже что Сора уже проснулась."
+    "Я постучался в её дверь."
+    ri "Сора? Пора вставать, первый день твоей школы."
+    "Нет ответа."
+    "Наверное она всё ещё уставшая от переезда. Будет не очень хорошо сейчас от неё что-либо требовать."
+    "Безрезультатно прождав её ответа, я решил дать ей отдохнуть и ушел в школу."
+    "Надеюсь завтра она будет чувствовать себя лучше..."
         
     if cookingclub:
         jump soracookingclub
