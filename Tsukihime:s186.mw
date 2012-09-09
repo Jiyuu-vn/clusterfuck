@@ -6,23 +6,23 @@
 ; ???? : ?????? : ??B(?)<????>
 bg "image\bg\bg_29b.jpg",%type_nowaitdisp
 
-` ...... Arcueid doesn't come.@
-` It's only natural.@
-` After doing that----after trampling over everything she trusted me with, I forcibly violated her body.\
+` Арквейд всё не приходит...@
+` Вполне естественно.@
+` После того что я сделал — после того как я растоптал всякое доверие, что было между мной и ней и изнасиловал её.\
 
-` She probably won't come.@
-` This is what she meant when she said for both of us to forget about it.@
+` Она скорее всего не придёт.@
+` Вот что она имела ввиду когда говорила что нам стоит забыть об этом.@
 br
-`"Damn it......!"@
-` My heart wrapped in regret, I leave the park.\
+` - Проклятье!..@
+` С сожалением в сердце я поикдаю парк.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????<?????(?)>
 bg "image\bg\bg_47.jpg",%type_lcartain_mid
 
-` ...... I return to the mansion.@
-` Opening the rear door, I walk inside.\
+` Я возвращаюсь в особняк.@
+` Через задний вход я захожу внутрь.\
 
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_33d.jpg",%type_lcartain_slw
@@ -31,14 +31,14 @@ bg "image\bg\bg_46c.jpg",%type_lcartain_slw
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_40d.jpg",%type_lcartain_slw
 
-` I yawn.@
-` I sink onto my bed without thinking.@
-` Tick.@ Tick.@ Tick.@ The sound of the clock echoes through the room.\
+` Я зеваю.@
+` Ни о чём не думая, я падаю на кровать.@
+` Тик.@ Тик.@ Тик.@ Звук тикающих часов разносится по комнате.\
 
-`"............"@
-` ...... Just sleep for now.@
-` When I wake up tomorrow things will be different.@
-` About Arcueid, about the vampire roaming this city, when morning comes all of it will be----\
+` - ...@
+` Пока ложись спать.@
+` Когда я завтра проснусь, всё будет по другому.@
+` Про Арквейд, про вампира, скитающегося по городу, когда наступит утро всё это будет...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -58,43 +58,43 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-` THROB           THROB           THROB
+` ПУММ           ПУММ           ПУММ
 !w1000
-` THUMP           THUMP           THUMP
+` ТУК           ТУК           ТУК
 !w1000
-` Throb           Throb           Throb
+` Пум           Пум           Пум
 !w1000
-` Thump           Thump           Thump
+` Тук           Тук           Тук
 \
-` ...... The pain synchronizes with my pulse.@
-` Every time I feel the throb of pain, my memories fade away.@
-` Every time my heart thumps, memories are plastered on.@
+` Боль синхронизируется с пульсом.@
+` С каждым ударом боли, мои воспоминания исчезают.@
+` С каждым ударом сердца, мои воспоминания закрашиваются.@
 br
-` The fading away memories are probably extras.@
-` Memories, the past, experiences I don't need.@
-` All of it fades away.@ In other words, oblivion.\
+` Исчезающие воспоминания, наверное, были лишними.@
+` Воспоминания, прошлое, опыт который мне не нужен.@
+` Всё это исчезает.@ Иными словами, забывается.\
 
-`"Ah------"@
-` As regret washes over me, as my memories thin, as my past fades away, I reach out with my hand.@
-` But I can't grasp anything.@
-` Because,
-` I've already forgot what kind of memories I've lost.\
+` - А...@
+` Сожаление нахлынуло на меня, мои воспоминания уходят, моё прошлое исчезает, и я вытягиваю вперёд руку.@
+` Но я ничего не могу схватить.@
+` Потому что,
+` Я уже забыл какие воспоминания я потерял.\
 
-` THROB, throb.@
-` The repeating headaches make me feel sick, and even in my dream, I feel like throwing up.\
+` ПУММ, пум.@
+` От повторяющейся головной боли мне становится плохо, и хоть это и сон, меня начинает тошнить.\
 ;S.E.??
 wavestop
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
-`"Shiki-sama, are you awake?"@
+` - Шики-сама, вы проснулись?@
 br
-` ----I hear a voice.@
+`      Я слышу голос.@
 br
-`"Please hold on.@ I will bring you something to drink."@
+` - Пожалуйста потерпите.@ Я принесу вам попить.@
 br
-` ----After that, the sound of running footsteps.\
+`     Затем, звук убегающих шагов.\
 
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_slw
@@ -102,128 +102,128 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_slw
 ;CD-DA?????
 play "*2"
 
-` I slowly open my eyes.@
-` I'm lying in bed with the radiant sunlight streaming through the window.@
+` Я медленно открываю глаза.@
+` Я лежу на постели, ослепительный солнечный свет струится через окно.@
 br
-`"----Morning?"@
-` Slowing lifting myself up, I feel my own sweat drenching me.@
-`"What......?@ I must've had a nightmare or something."@
-` I try to remember what I dreamt about.\
+` - Утро?@
+` Медленно приподнявшись, я понимаю что весь покрыт потом.@
+` - Что такое?..@ Должно быть кошмар приснился.@
+` Я пытаюсь вспомнить, что мне снилось.\
 
-` ................................................................................................................................................................................................................................................................................................................................................................................................ I can't remember.\
+` ................................................................................................................................................................................................................................................................................................................................................................................................ Я не могу вспомнить.\
 
-`  It is the nature of dreams to fade upon awakening.@
-` But, there's still something.@
-` I feel like there's a vague image of something I've forgotten.\
+`  Вполне обычно что сон не запоминается после пробуждения.@
+` Но, всё равно что-то есть.@
+` Мне кажется, что я ещё помню расплывчатый образ чего-то, что я забыл.\
 
 ; ??<?>=??:?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
-`"Shiki-sama?@ Have you woken yet?"@
-`"I'm up.@ Morning, Hisui."@
-`"Yes, good morning, Shiki-sama."@
-` Hisui approaches the bed, expressionless as always.\
+` - Шики-сама?@ Вы проснулись?@
+` - Проснулся.@ Доброе утро, Хисуи.@
+` - Да, с добрым утром, Шики-сама.@
+` Хисуи подходит ближе к кровати, как всегда невыразительная.\
 
-`"I have brought you something to drink.@ If you are not feeling well, please drink."@
-` Hisui carries a silver tray with a drink prepared on it.@
-`"No, I don't feel bad or anything.@ I slept deeply, so my head is clear too."@
-`"---However,"@
-` Hisui offers a rare reply.@
-`"It appeared your condition was bad last night."@
+` - Я принесла вам попить.@ Если вам нехорошо, пожалуйста выпейте.@
+` В руках у Хисуи серебряный поднос со стаканом.@
+` - Нет, я нормально себя чувствую.@ Я крепко спал, и в голове у меня ясно.@
+` - Однако,@
+` Хисуи, против обыкновения, продолжает разговор.@
+` - Этой ночью вы словно находились в тяжёлом состоянии.@
 br
-` ...... It seems I did have a nightmare last night.\
+` Кажется, мне и правда снился ночью кошмар...\
 
-`"Nah, there's nothing wrong with me.@ But I'm really grateful you're concerned, Hisui."@
+` - Не, со мной всё в норме.@ Но я правда благодарен что ты переживала, Хисуи.@
 ; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
-`"...... Yes, I am glad you are well, Shiki-sama."@
-` Hisui looks at me with her delicate, glass eyes.\
+` - Да, я рада что вы здоровы, Шики-сама.@
+` Хисуи смотрит на меня своими красивыми, стеклянными глазами.\
 
-` ...... Um, I feel uneasy.@
-`"I'll go change and head to the dining room.@ Please tell Kohaku-san I'll be having breakfast."@
+` Эм, я чувствую себя неловко...@
+` - Я переоденусь и пойду в столовую.@ Передай пожалуйста Кохаку-сан что я буду завтракать.@
 ; ??<?>=??:??02(????????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"I understand."\
+` - Я поняла.\
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` ...... Well then.@
-` It's seven o'clock.@
-` I can take my time this morning.\
+` Ну что ж.@
+` На часах семь утра.@
+` Сегодня утром можно не торопиться.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ????(?)<?????(?)>
 bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
-` Akiha and Hisui are in the sitting room.@
-` From the kitchen, I can hear Kohaku-san's lilting humming.\
+` В гостиной расположились Акиха и Хисуи.@
+` Я слышу, как на кухне что-то напевает себе под нос Кохаку-сан.\
 
 ; ??<?>=??:??<??????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_lshutter_mid
-`"Good morning, Nii-san."@
-`"Morning.@ You don't seem very cheerful today, Akiha.@ Was there something you didn't like in your breakfast?"@
+` - Доброе утро, Нии-сан.@
+` - Доброе.@ Акиха, ты сегодня не в приподнятом настроении.@ Тебе что-то в завтраке не понравилось?@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t13a.jpg",%type_crossfade_fst
-`"...... Nii-san, how did you arrive at that conclusion?"\
+` - Нии-сан, и как ты пришёл к такому выводу?\
 
-`"Just came to my mind.@ I just remembered there were many kinds of food you either liked or disliked."@
-`"That's rude... I was that way as a child, but now I have no dislikes."@
-`"...... I see.@ That's odd, cause if that's the case, you should have more physical development for your age......"\
+` - Просто подумалось.@ Я просто вспомнил что в детстве ты любила перебирать харчами.@
+` - Нии-сан, это невежливо... Я была такой только в детстсве, теперь меня всё устраивает.@
+` - Понятно...@ Странно, потому что в таком случае ты была бы более физически развита в своё возрасте...\
 
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t11a.jpg",%type_crossfade_fst
-`"Nii-san.@ Did you just say something?"@
-` Akiha glares at me.@
-` ...... Crap.@ I should watch my mouth.\
+` - Нии-сан.@ Ты сейчас что-то сказал?@
+` Акиха бросает на меня тяжёлый взгляд.@
+` Чёрт...@ Следи за языком.\
 
-`"...... No, I didn't say anything.@ I was just thinking aloud, so don't worry about it."@
+` - Нет, я ничего не говорил...@ Просто мысли в слух, не обращай внимания.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld c,":a;image\tachi\aki_t02.jpg",%type_crossfade_fst
-`"...... Geez.@ It seems there was no need to worry, Hisui.@ I don't think Nii-san will die even if you kill him."@
-`"Yes, I feel the same way."@
-` Akiha sighs and Hisui expressionlessly agrees.@
-` I can guess from their conversation they were both worried about me.@
+` - Право же...@ Хисуи, похоже волноваться нам не нужно.@ Нии-сан наверное не умрёт даже еси его убить.@
+` - Да, я считаю так же.@
+` Акиха вздыхает, а Хисуи нейтрально соглашается.@
+` Судя по их разговору, они обе за меня переживали.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
 
 \
 
-`"---Why?"@
-` I wonder why.@
+` - Почему?@
+` Мне становится интересно почему.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld l,":a;image\tachi\aki_t21.jpg",%type_crossfade_fst
-`"Why?@ Normally, you would worry!@ After you came home last night, you went straight to bed and had nightmares all night.@
-` Even though we tried to wake you, you never woke up.@ Doesn't that sound like you were sick?"\
+` - Почему?@ Ешщё бы мы не волновались!@ Когда ты пришёл домой прошлой ночью, ты сразу лёг спать и тебе всю ночь снились кошмары.@
+` Хоть мы и пытались тебя разбудить, ты не просыпался.@ Разве это не похоже на болезнь?\
 
-`"Oh?@ Really---But I didn't really catch a cold or anything."@
+` - О?@ Правда... но у меня вроде бы нет простуды или чего-то такого.@
 ; ?<?>=??:?01(?????)<???????(?)>
 ld r,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"I do not think you had a cold.@ Shiki-sama, you were sleeping as always, and your temperature and breathing were normal.@ But you were secreting lots of sweat."@
-`"...... Secreting?@ I don't like that word choice."\
+` - Я не думаю что у вас была простуда.@ Шики-сама, вы спали как обычно, ваша температура и дыхание были в норме.@ Но вы выделяли очень много пота.@
+` - Выделял?..@ Мне не нравится такой подбор слов.\
 
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld l,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
-`"It was worse on me because I was tending you, so please be a little thankful.@ And thank Kohaku as well.@ I couldn't have done it by myself."@
-`"Yourself...... Akiha, you were caring for me?"\
+` - Мне было тяжелее потому что я за тобой ухаживала, так что прояви немного благодарности.@ И Кохаку тоже поблагодари.@ Сама бы я не справилась.@
+` - Сама... Акиха, ты ухаживала за мной?\
 
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld l,":a;image\tachi\aki_t16a.jpg",%type_crossfade_fst
-`"O-of course I was.@ We are siblings.@
-` I was only watching your condition; it was Kohaku who cleaned your sweat."@
-` She looks away and mumbles like she was talking to herself.@
-` This isn't like her as she normally looks at you directly and says things directly.\
+` - К-конечно ухаживала.@ Мы же родственники.@
+` Я только следила за твоим состоянием; пот тебе вытирала Кохаку.@
+` Она отводит взгляд и бормочет себе под нос, словно сама себе.@
+` Это на неё не похоже, обычно она смотрит прямо на тебя и говорит всё прямо.\
 
-`"Really.@ Thanks Akiha.@ Sorry to worry you."@
+` - Правда.@ Спасибо, Акиха.@ Прости что заставил тебя волноваться.@
 ; ??<?>=??:??02(?~????)<???????(?)>
 ld l,":a;image\tachi\aki_t05a.jpg",%type_crossfade_fst
 
-`"You don't have to thank me.@ I was just doing my duty.@ If you want to thank someone, thank Kohaku."@
-` She looks away and doesn't even try to look at me anymore.\
+` - Незачем меня благодарить.@ Я просто выполняляа свой долг.@ Если ты хочешь кого-нибудь отблагодарить, благодари Кохаку.@
+` Она отворачивается, даже уже не пытаясь на меня смотреть.\
 
-`"Shiki-san, breakfast is ready," Kohaku-san's voice rings out from the kitchen.@
-`"Nii-san, please hurry up and eat your breakfast."@
-`"Gotcha."@
-` I head to the dining room.\
+` «Шики-сан, завтрак готов», из кухни раздаётся голос Кохаку-сан.@
+` - Нии-сан, иди скорее завтракать.@
+` - Слушаюсь.@
+` Я направляюсь в столовую.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -232,9 +232,9 @@ bg "image\bg\bg_32a.jpg",%type_lcartain_mid
 
 ; ??<?>=??:?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_mid
-`"Please be careful on your way, Shiki-sama."@
-`"I'm off.@ I'll be back around four o'clock today."@
-` Raising a hand to the bowing Hisui, I leave the mansion.\
+` - Шики-сама, будьте осторожны по дороге.@
+` - Я пошёл.@ Сегодня вернусь где-то к четырём.@
+` Помахав склонившейся Хисуи, я покидаю поместье.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -249,17 +249,17 @@ bg "image\bg\bg_23a.jpg",%type_lcartain_slw
 ;CD-DA??????
 play "*3"
 
-` I walk the morning path to school.@
-` Monday morning.@ For some reason, my feet feel really light today.@
-` Maybe it's because these past few days were so out of the ordinary, my body welcomes such a normal day.\
+` Я иду по утренней дороге в школе.@
+` Утро понедельника.@ Почему-то поступь у меня сегодня особенно лёгкая.@
+` Может это потому что последние несколько дней были до того необычными, и моё тело приветствует такой нормальный день.\
 
-`"............ Huh?"@
-` That's strange.@
-` I said 'out of the ordinary', but what kind of life was that?@
+` - А?..@
+` Странно.@
+` Я сказал «необычными», но что это была за жизнь?@
 br
-`".................."@
-` I feel like something very important happened.@
-` But, I can't remember what it was.\
+` - ...@
+` Мне кажется, что случилось что-то очень важное.@
+` Но, я не могу вспомнить что.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -268,49 +268,49 @@ bg "image\bg\bg_01a.jpg",%type_lcartain_mid
 
 ; ??<?>=??:??<??????(?)>
 ld c,":a;image\tachi\ari_t05.jpg",%type_lshutter_mid
-`"Yo, Tohno!"@
-` Arihiko whacks me on the back in greeting.@
-`"Mornin'.@ You're pretty early today."@
-`"Ah, just a whim of mine.@ Well, it doesn't hurt to act like a good student every now and then."@
-` Arihiko laughs brightly.@
-` Seeing that smile assures me that this is my world.@
+` - Здоров, Тоно!@
+` Арихико приветствеенно хлопает меня по спине.@
+` - Здоров.@ Рано ты сегодня.@
+` - А, просто захотелось.@ Ну, изредка прикидываться порядочным учеником не повредит.@
+` Арихико весело смеётся.@
+` Эта улыбка показывает мне, что это мой мир.@
 
-`".................."@
+` - ...@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
-`"Mmm, what is it, Tohno?@ Making such a difficult expression...@ Did you forget something at your house?"\
+` - Ммм, в чём дело, Тоно?@ Такую непонятную рожу строишь...@ Ты что-то забыл дома?\
 br
 br
 br
 br
 br
 br
-` DID YOU FORGET SOMETHING?@
+` ТЫ ЧТО-ТО ЗАБЫЛ?@
 !w1000
 br
-` ...... Those words reverberate through my head like a curse.\
+` ...Эти слова многократно отдаются в моей голове как проклятье.\
 !w1000
 
-` But, in the end,
-` I can't remember what it was I forgot.\
+` Но, в итоге,
+` Я не могу вспомнить что я забыл.\
 ;CD-DA??
 playstop
 
-`"...... Nah, I didn't forget anything.@ Let's hurry on to the classroom.@ After waking up this early, it'd be a waste if you were late, right?"@
-`"Haha, you got a point."@
+` - Не, ничего я не забыл.@ Пошли скорее в класс.@ Было бы жаль опоздать после того как ты прсонулся так рано, верно?@
+` - Хаха, точно.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 br
-` I pass the school gate with my friend.@
-` With that, something ends completely.\
+` Вместе со своим другом я прохожу в школьные ворота.@
+` С этим, что-то окончательно завершается.\
 
-`"------"@
-` I feel someone staring at me and I turn around.@
-` But there's no one there.@
-` Just the scattering leaves in the courtyard.@
+` - ...@
+` Мне кажется что кто-то смотрит на меня и я оборачиваюсь.@
+` Но там никого нет.@
+` Только ветер разбрасывает листья по двору.@
 br
-` Tohno Shiki heads to class.@
-` As if returning to a peaceful, happy, and normal everyday life.@
+` Тоно Шики возвращается в класс.@
+` Словно бы возвращаясь к мирной, сччастливой и нормальной будничной жизни.@
 \
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
@@ -328,6 +328,7 @@ waittimer 3000
 
 ;goto *title
 return
+
 
 
 </pre>
