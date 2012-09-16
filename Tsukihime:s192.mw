@@ -7,23 +7,23 @@
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-` ----I'll go to Arcueid's room.@
+` Я пойду в комнату Арквейд.@
 br
-` If Arcueid is as weak as Senpai says, she had to have returned to her room to rest.\
+` Если Арквейд так слаба как сказала Сенпай, она должна была вернуться к себе и отдыхать.\
 
 ; ???????????(?)<?????(?)>
 bg "image\bg\bg_12b.jpg",%type_lcartain_mid
 
-` I gasp for air.@
-` My legs, which ran as hard as they could, finally stop.@
-` Trying to catch my breath, I enter the apartment.\
+` Я хватаю ртом воздух.@
+` Мои ноги, до сих пор бежавшие изо всех сил, наконец останавливаются.@
+` Стараясь отдышаться, я вхожу в жилой дом.\
 
 ; ????????(?)<?????(?)>
 bg "image\bg\bg_13b.jpg",%type_lcartain_mid
 
-` ...... I grab the doorknob.@
-` It isn't locked.@
-` Without hesitating, I turn it and open the door.\
+` Я хватаю дверную ручку...@
+` Не заперто.@
+` Без колебаний я поворачиваю её и открываю дверь.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -32,46 +32,47 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 bg "image\bg\bg_15b.jpg",%type_crossfade_mid
 
 
-` ...... Even though it wasn't locked, there's no one here.\
+` Дверь не заперта, но здесь никого нет...\
 br
-`"Arcueid...... are you here?"@
+` - Арквейд... ты тут?@
 br
-` There's no response.@
-` Does she never lock her door?@ There's no sign of her having even returned here.\
+` Ответа нет.@
+` Она что, никогда дверь не запирает?@ Нет ни малейших признаков того, что она сюда возвращалась.\
 
-`"Damn...... Then she's still in town......!?"@
-` I hit the wall.@
-` But letting it out on the wall is not going to get Arcueid to come out.@
-`"...... Where did you go...... where did you go, Arcueid......!?"@
+` - Чёрт... Тогда она всё ещё в городе?!@
+` Я ударяю стену.@
+` Но от того, что я буду срываться на стене, Арквейд не появится.@
+` - Куда ты делась... куда ты делась, Арквейд... ?!@
 br
-` ------If there really is a God, I want to ask him for help.\
+`       Если на свете есть Бог, я хочу попросить его о помощи.\
 
-` Arcueid isn't here.@
-` But I can't find her just running around aimlessly.@
-` At this rate I'll never----never see her again.@
+` Арквейд здесь нет.@
+` Но я не смогу её найти если буду бесцельно бегать по городу.@
+` Такими темпами я никогда... никогда её не увижу.@
 br
-`"------"@
-` No, I'm not done yet.@
-` I still haven't fulfilled my promise with Arcueid.@ The promise to help her defeat the vampire, and the promise to meet tonight so we can fight together.\
+` - ...@
+` Нет, я ещё не закончил.@
+` Я всё ещё не выполнил своё обещание Арквейд.@ Обещание помочь ей победить вампира, и обещание встретиться сегодня чтобы мы могли сражаться вместе.\
 
-`"...... Pro...... mise......"@
-` ...... That's right.@ There's still our promise.@
-` Even if it's just one-sided, I----even if it's just me, I'll fulfill our promise.\
+
+` - Обе... щание...@
+` Да, точно...@ Ещё осталось наше обещание.@
+` Пусть это и не взаимно — пусть это надо только мне, я выполню наше обещание.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
 ; ??B(?)<?????(?)>
 bg "image\bg\bg_29b.jpg",%type_lcartain_slw
 
-` I return to the park.@
-` Our promise still remains here.@
-` Our unfulfilled promise for tonight remains here.@
+` Я возвращаюсь в парк.@
+` Наше обещание всё ещё остаётся здесь.@
+` Наше невыполненное обещание на сегодня осталось здесь.@
 br
-` ----So,
-` If I can't break this promise, and if she thinks it's important too,
+`    И потому,
+` Раз я не могу нарушить это обещание, и если она тоже считает его важным,
 br
-` Arcueid will come back here.@
-` I can only continue to believe in her and wait here.\
+` Арквейд придёт сюда.@
+` Я могу только продолжать верить в неё и ждать здесь.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -79,6 +80,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
 return
+
 
 
 </pre>
