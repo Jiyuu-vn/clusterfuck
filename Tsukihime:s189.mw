@@ -1,6 +1,5 @@
 [[Tsukihime|[Назад]]]
 
-<pre>
 *s189
 ;S.E."????(???)"
 waveloop se1
@@ -9,32 +8,32 @@ waveloop se1
 ; ??????:??????????????(??)<???????(?)>
 bg "image\event\ark_e05b.jpg",%type_lshutter_mid
 
-` Arcueid's arms stretch out.@
-` Like that, she holds my body.@
-`"Ar---"@
-` My breath stops in my throat as I call her name.\
+` Руки Арквейд тянутся вперёд.@
+` И она хватает меня.@
+` - Ар...@
+` Я пытаюсь позвать её по имени, но дыхание застревает у меня в горле.\
 
-` Her bloodshot eyes.@
-` Her sharp teeth like a beast's.@
-` The overwhelming pressure that drains me of any will to resist.@
-` The thing with its teeth nearing my neck isn't the woman I know.\
+` Её налитые кровью глаза.@
+` Её острые, звериные зубы.@
+` Ошеломляющее давление, лишающее меня всякой способности сопротивляться.@
+` Это существо, чьи зубы приближаются к моей шее — не женщина которую я знаю.\
 
 
-` I can't do anything.@
-` I can't even lift a finger.@
+` Я не могу ничего сделать.@
+` Я не могу пошевелить даже пальцем.@
 br
-` I'm going to be eaten.@
-` This is what it means to be preyed upon.@
+` Меня сейчас съедят.@
+` Так чувствует себя жертва перед хищником.@
 br
-` Her teeth push against my neck.@
-` The only thing filling my mind is fear.\
-`"Hiii----!"@
-` A shriek comes out.@
-` I almost think for an instant how pitiful it is for me to make such a sound.@
+` Её зубы прижимаются к моей шее.@
+` Я не чувствую ничего кроме страха.\
+` - Хиииииии!@
+` Из меня вырывается вопль.@
+` На мгновение я почти подумал, как же я жалок что издаю такой звук.@
 br
-` Maybe it was just my imagination, but...
+` Наверное это мне только показалось, но...
 br
-` It feels like she freezes in place.\
+` Она словно бы неподвижно застыла.\
 ;S.E.??
 wavestop
 
@@ -44,27 +43,27 @@ bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ;S.E."?????"
 wave se9
 
-` But before I can even confirm this,
-` Wham!@ A violent explosion erupts before me and Arcueid's body is smashed sideways.\
+` Но прежде чем мне удаётся это подтвердить,
+` Бамм!@ Передо мной что-то взрывается, и тело Арквейд отшвыривает в сторону.\
 
 ; ??B(?)<??????(?)>
 bg "image\bg\bg_29b.jpg",%type_lshutter_fst
 
-`"Wha----"@
-` As if she was hit by a car, she was blown back several meters.@
-` But she gets up like it was nothing.\
+` - Что...@
+` Она отлетела на несколько метров, словно её сбило машиной.@
+` Но она встаёт как ни в чём не бывало.\
 
 ; ??<?>=??????:??(?????)<??????(?)>
 ld c,":a;image\tachi\ark_t18.jpg",%type_lshutter_mid
-`"I...... I"@
-` Arcueid stands there, stunned.@
-` I---can't even think what to do, either.\
+` - Я...я...@
+` Ошеломлённая, Арквейд стоит без движения.@
+` Я... тоже не могу решить, что делать.\
 
-` And there,
-`"You were going to suck his blood."@
-` A cold, scolding voice.@
-`"That is your true nature, Arcueid Brunestud."@
-` The merciless voice towers from above.\
+` И затем,
+` - Ты собиралась выпить его кровь.@
+` Холодный, обвиняющий голос.@
+` - Это твоя истинная природа, Арквейд Брюнстад.@
+` Безжалостный голос раздаётся сверху.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -72,151 +71,151 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\event\cel_e04.jpg",%type_crossfade_fst
 
 
-` I look up at the moon.@
-` There---stands the robed figure from that one night.@
+` Я смотрю на луну.@
+` Там... стоит та же фигура в рясе, что и несколько дней назад.@
 br
-`"Sen, pai----"@
-` There's no mistake.@
-` No matter how I look at it, it's Ciel-senpai.@
-` She doesn't even look at me, but she glares at Arcueid crouching far away.\
+` - Сен, пай.@
+` Ошибки быть не может.@
+` Как ни крути, это Сиэль-сенпай.@
+` Она даже не смотрит на меня, вместо этого глядя на Арквейд в отдалении.\
 
-`"Even if you destroy your kin, you cannot change the fact you are a vampire yourself.@
-` ...... I don't know why you drew him close to you, but didn't you think it would end this way?"@
+` - Даже если ты уничтожаешь себе подобных, это не может изменить того факта что ты сама — вампир.@
+` Я не знаю зачем ты подпустила его так близко к себе, но разве ты не думала что всё кончится именно так?@
 br
-` Her voice is completely different from normal.@
-` Neither strict nor kind.@
-` Her emotionless voice---is horribly devoid of any humanity.\
+` Её голос звучит совсем не так как обычно.@
+` Не добрый и не строгий.@
+` Её бесчувственный голос — в нём нет ничего человеческого.\
 
 ; ??B(?)<??????(?)>
 bg "image\bg\bg_29b.jpg",%type_lshutter_fst
 
-` Without making a noise, Senpai descends from the streetlight to the ground.@
+` Не издав ни звука, Сенпай спускается с фонаря на землю.@
 ; ?<?>=???:??01(?????????)<??????(?)>
 ld l,":a;image\tachi\cel_t06b.jpg",%type_lshutter_fst
-`"Usually, it's nothing I mess with, but I will not overlook you trying to kill an ordinary person.@
-` It isn't part of the plan to fight you---but if there is a need, we can settle our score."@
+` - Обычно я занимаюсь не этим, но я не собираюсь закрывать глаза на то, как ты пытаешься убить обычного человека.@
+` Это не часть плана сразиться с тобой — но если есть необходимость, мы можем свести наши счёты.@
 ; ?<?>=??????:??(?????)<???????(?)>
 ld r,":a;image\tachi\ark_t15.jpg",%type_crossfade_fst
 
-`"--Don't be ridiculous.@ I don't want anything to do with you.@ And---"@
-` She looks at Senpai hatefully.\
+` - Не неси чушь.@ Мне от тебя ничего не надо.@ И...@
+` Она с ненавистью смотрит на Сенпай.\
 
-`"I never intended to kill him."@
-`"---That does not sound convincing at all.@ It's not like you don't realize what you did earlier, and what kind of yell he gave out when he saw you."@
+` - Я никогда не собиралась его убивать.@
+` - Звучит совсем не убедительно.@ Ты прекрасно понимала что делала, и т слышала его крик, когда он тебя увидел.@
 ; ?<?>=??????:??(?????)<???????(?)>
 ld r,":a;image\tachi\ark_t05c.jpg",%type_crossfade_fst
-`"-----"@
-`"I don't care if you hate me.@ But you took your insanity and directed it at him.@ Shall we ask him how he felt?"@
-` With a turn of her head,
-` Senpai casts a glance at me for the first time.\
+` - ...@
+` - Мне всё равно если ты меня ненавидишь.@ Но ты направила своё безумие на него.@ Может, спросим у него что он чувствовал?@
+` Повернув голову,
+` Сенпай впервые смотрит на меня.\
 
 ; ?<?>=??????:??(?????)<???????(?)>
 ld r,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
-`"-------"@
-` Arcueid averts her gaze painfully.@
-` Silence fills the park.@
+` - ...@
+` Арквейд болезненно отводит взгляд.@
+` В парке воцаряется тишина.@
 ; ?????<???????(?)>
 cl a,%type_crossfade_fst
 br
-` A footstep.@
-` The robed Senpai takes only one step towards me.\
+` Шаг.@
+` Сенпай в рясе делает шаг ко мне.\
 
 ; ??<?>=???:??01(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"Get back, vampire.@ You had no right to stay by his side from the beginning."@
-`"Wha----"@
+` - Уходи, вампир.@ У тебя никогжа не было права находиться с ним рядом.@
+` - Что...@
 br
-` That's not true.@
-` I don't know who Senpai is or what happened to Arcueid earlier, but I can at least declare this.@
-` Because----I myself want to be by her side---\
+` Это не так.@
+` Я не знаю кто такая Сенпай или что только что было с Арквейд, но я могу сказать хотя бы это.@
+` Потому что... я сам хочу быть рядом с ней.\
 
-`"You're wrong......!@ What's with you, coming out of nowhere, wearing weird clothes, and speaking like you understand everything......!?@
-` Arcueid is definitely a vampire, but she hasn't drunk blood even once!@ That was probably just a joke, and you don't have any right to----"@
+` - Ты ошибаешься!..@ Ты что вообще творишь, появилась из ниоткуда, вырядилась чёрт знает как и говоришь так будто всё знаешь?!@
+` Аркейд действительно вампир, но она ни разу не пила крови!@ Это наверное была просто шутка, и у тебя нет никакого права...@
 
 ; ??<?>=???:??01(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t06b.jpg",%type_crossfade_fst
-`"Please be quiet Tohno-kun.@ She hasn't drank blood even once?@ Yes, certainly these past eight hundred years, there's no record of her having any victims.@ However----"\
+` - Тоно-кун, пожалуйста помолчи.@ Она ни разу не пила крови?@ Действительно, за последние восемьсот лет не существует записей об её жертвах.@ Однако...\
 
-`"Just shut up!@ I don't care to listen to whatever strange story you have to say......!@
-` Look, if you try to get in her way, I'll not forgive even you.@
-` After all I---I'm helping her because I want to.@ It's none of your business to interfere--!"@
+` - Да заткнись ты!@ Меня не интересуют твои странные байки!@
+` Слушай, если ты будешь её мешать, я не прощу даже тебя.@
+` В конце концов я... я помогаю ей потому что хочу этого.@ Тебе до это вообще не должно дела быть!..@
 ; ??<?>=???:??01(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"---Tohno-kun, you---"@
-` An inkling of emotion enters her voice.\
+` - Тоно-кун, ты...@
+` В её голосе будто мелькнуло какое-то чувство.\
 
-`"---I understand.@ If you say so, then I won't do anything else.@
-` However---"@
+` - Я поняла.@ Если ты так говоришь, я не стану ничего делать.@
+` Однако...@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` Senpai changes her gaze to Arcueid.@
-` Arcueid looks away---not at me or Senpai.\
+` Сенпай переводит вгляд на Арквейд.@
+` Арквейд смотрит в строну — не на меня или Сенпай.\
 
 
 ; ?<?>=??????:?(????)<???????(?)>
 ld r,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
-`".................."@
+` - ...@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld l,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"As he said, Arcueid Brunestud.@ Do you still intend to be by his side after this?"@
+` - Ты слышала его, Арквейд Брюнстад.@ Ты всё равно собираешься остаться с ним после этого?@
 br
-` Arcueid doesn't answer.@
-` She raises her head to look at me once, and then---runs off into the night.@
+` Арквейд не отвечает.@
+` Подняв голову и быстро глянув на меня — она убегает в ночь.@
 ; ????<??????(?)>
 cl r,%type_lshutter_fst
 
 \
 
-`"Wh---why are you leaving, Arcueid......!?"@
-` I start to run after her.@
+` - По... Арквейд, почему ты уходишь?!@
+` Я бегу вслед за ней.@
 br
 quakey 1,100
 
-` But.@
+` Но.@
 br
-`"----!?"@
-` My feet don't leave the ground.@
-` Senpai walks slowly over to me.\
+` - !?@
+` Мои ноги не отрываются от земли.@
+` Сенпай медленно подходит ко мне.\
 
 ; ????<???????(?)>
 cl l,%type_crossfade_fst
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"I won't let you follow her.@ I can't let you be killed, Tohno-kun."@
+` - Я не позволю тебе последовать за ней.@ Тоно-кун, я не могу допустить чтобы тебя убили.@
 br
-` In her hands are thin, rod-like blades.@
-` One of them stands by my feet---pinning my shadow to the ground.\
+` В её руках несколько тонких, длинных клинков.@
+` Один из них торчит у моих ног — пришпилив мою тень к земле.\
 
-`"You cannot move until that is removed.@ No matter how hard you struggle, your shadow will struggle just as hard not to separate from you."@
-`"----Stop fooling around, I'll lose her!"@
-` I grip the blade below me.@
-` But no matter what, I can't pull it out.\
+` - Ты не сможешь двигаться пока Ключ не будет удалён.@ Как бы ты ни боролося, твоя тень будет так же сильно стараться не отделяться от тебя.@
+` - Кончай этот бред, я её потеряю!@
+` Я хватаю клинок у своих ног.@
+` Но что бы я ни делал, я не могу его вытащить.\
 
-`"I forgot to mention this, but I'm the only one who can remove it, so please give up."@
-` Saying that, she stops in front of me.@
-`"----"@
-` I glare at her.@
-` She takes in my gaze---then sighs.\
+` - Забыла сказать, но убрать его могу только я, поэтому не старайся.@
+` С этими словами, она останавливается передо мной.@
+` - ...@
+` Я смотрю прямо на неё.@
+` Она смотрит в ответ... и вздухает.\
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t10b.jpg",%type_crossfade_fst
-`"Geez, really---why do you go overboard so much, Tohno-kun."@
-`"---Eh?@ ...... Um, Senpai?"@
+` - Ну в самом деле... Тоно-кун, чего ты так надрываешься?@
+` - Э?..@ Эм, Сенпай?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
 
 
-`"I know.@ I don't hate her myself, but this is for both of your sakes.@ I will let you go soon, so please listen to what I have to say for a while."\
+` - Я знаю.@ Я сама её не ненавижу, но это для вашего же с ней блага.@ Я скоро тебя отпущу, поэтому будь добр, послушай пока что я скажу.\
 
-` She looks up hesitantly.@
-` This is the leisurely Senpai I know from school.@
+` Она смотрит немного неуверенно.@
+` Это та самая несерьёзная Сенпай, которую я знаю по школе.@
 br
-` ---Is that why?@
-` Even though I still can't grasp the situation, I start to calm down.\
+`    Это из-за того?@
+` Хоть я всё ещё ничего не понимаю, я начинаю успокаиваться.\
 
 ;CD-DA?????
 play "*1"
@@ -225,219 +224,219 @@ play "*1"
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"...... This is abrupt so I am prepared for you to hate me.@ But I have something I have to tell you.@
-` I'm very sorry for restraining you like this."@
-` Senpai bows her head.@
-` ...... She's dressed strange, but Senpai is still Senpai.\
+` - Это очень неожиданно и я готова к тому что ты меня возненавидишь.@ Но мне нужно тебе кое-что сказать.@
+` За то что обездвижила тебя, я извиняюсь.@
+` Сенпай склоняет голову...@
+` Она странно выглядит, но Сенпай есть Сенпай.\
 
-`"---It's okay.@ I'm not angry so please don't apologize.@ You've already helped me once Senpai, and I want to ask you some things as well."@
+` - Всё нормально.@ Я не злюсь, поэтому не извиняйся.@ Ты уже один раз момогла мне, и к тому же мне тоже надо кое-что у тебя спросить.@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
 
-`"---That does help.@ ...... But, what would you like to ask me, Tohno-kun?"@
-`"...... Um, isn't it obvious?@ Just who are you, Senpai?@
-` Dressed like that and smashing away Arcueid, and I'm the only one who remembers you at school."@
-` Senpai gives a sigh in response.\
+` - Замечательно.@ Но, Тоно-кун, что ты хотел спросить?@
+` - Эм, разве не очевидно?@ Сенпай, кто ты такая?@
+` Ты так одета, и ты так отбросила Арквейда, и в школе тебя никто кроме меня не помнит.@
+` Сенпай в ответ вздыхает.\
 
-`"Then let me ask.@ Tohno-kun, what do you think about me?"@
-`"...... Hm.@ I've only heard some things from Arcueid, about the Church and stuff."@
+` - Тогда позволь спросить.@ Тоно-кун, что ты обо мне думаешь?@
+` - Хм...@ Я только слышал некоторые вещи от Арквейд, про Церковь и всё остальное.@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-`"That's right.@ As you know, I am an exorcist of the Church.@ My specialty is hunting vampires.@
-` I can't answer anything else, but I think that is enough for you."\
+` - Именно так.@ Как ты знаешь, я экзорцист Церкви.@ Моя специальность — охота на вампиров.@
+` Большего я сказать не могу, но думаю тебе этого хватит.\
 
-`"Enough?@ --Um, why would someone like you even come to my school?@ If you wanted to exterminate vampires, wouldn't you be searching the city like Arcueid?"@
-`"No, there was a reason for me coming to your school, Tohno-kun.@ Um...... right, since this overlaps with the talk I want to give, I will ask the questions from now on."\
+` - Хватит?..@ Эм, зачем кому-то вроде тебя приходить ко мне в школу?@ Если ты собиралась истреблять вампиров, разве тебе не нужно было обыскивать город как Арквейд?@
+` - Нет Тоно-кун, у меня была причина чтобы появляться в твой школе.@ Эм... так, поскольку это относится к тому, что я хотела сказать, дальше задавать воспросы буду я.\
 
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t06b.jpg",%type_crossfade_fst
-`"Tohno-kun, you seem to have teamed up with her, but do you know anything about what she's after?"@
-`"Yeah.@ ...... Well, I heard he's the old type of vampire who drinks the blood of humans to expand his territory."\
+` - Тоно-кун, ты похоже объединился с ней, но ты что-нибудь знаешь о том, кого она преследует?@
+` - Да.@ Ну, я слышал что это классический вампир который пьёт кровь людей чтобы расширить свою территорию.\
 
-`"It seems you know about the two main classifications of vampires.@ Then I think you know about how he is imperfectly immortal---"@
-`"Yeah.@ About how he needs to drink blood to maintain his body.@ But on the other hand, as long as he can drink blood he'll never age, right?"\
+` - Похоже ты знаешь о двух основных классификациях вампиров.@ Тогда ты наверное знаешь о том, как он несовершенно бессмертен.@
+` - Да.@ О том как ему нужна кровь чтобы поддерживать своё тело.@ Но с другой стороны, пока он будет пить кровь, он не будет стареть, так?\
 
-`"Yes.@ But you can't say he's 'immortal' in the end, can you?@ Besides, there are ones for whom drinking blood does not maintain their body fully, and there are some that are exterminated by us.@
-` You can't call something that can die like that immortal."@
+` - Да.@ Но ведь, в конечном счёте его нельзя назвать «бессмертным», не так ли?@ Кроме того, некоторые вампиры не могут в полной мере поддерживать себя кровью, а некоторых уничтожаем мы.@
+` Существо, которое может так умереть, нельзя называть бессмертным.@
 \
 
-`"----Well, certainly---he's not immune to death."@
-` I don't know what Senpai's trying to get at here.@
-`"Is this related to why you came to my school?"@
+` - Ну, действительно... он не полностью неуязвим для смерти.@
+` Я не знаю, к чему клонит Сенпай.@
+` - Это как-то связано с тем, почему ты пришла ко мне в школу?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-`"Of course.@ Geez, please wait until I'm finished."\
+` - Конечно.@ Боже, да дай ты мне закончить.\
 
-`"...... Okay, but---if you could give me the short version, I'd appreciate it."@
-`"...... Oh really?@ If that's the case, then I'll explain as directly as I can."@
-` Senpai seems a little disappointed.@
+` - Хорошо, но... если ты можешь сообщить мне краткую версию, я буду признателен.@
+` - Вот как?..@ В таком случае, я объясню как можно короче.@
+` Сенпай похоже немного разочарована.@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"Then, a simple explanation.@ Hmm, anyway, the immortality of the vampires known as Dead Apostles is very unstable.@
-` For them, it is merely a prolongation of their lifespans many times that of normal people."\
+` - Итак, простое объяснение.@ Хмм, в общем, бессмертие вампиров, называемых Мёртвыми Апостолами, очень нестабильно.@
+` Для них, это только продление своего срока жизни во много раз больше, чем у обычных людей.\
 
-`"...... A question.@ Not only are their life spans long, but they also have unnatural powers.@ Is there any relation?"@
-`"Not really.@ Their individual powers are things they had when they were human, strengthened over hundreds of years.@
-` Continuing their studies from their human lives gives them these extraordinary powers."\
+` - Воспрос.@ Их жизни не тольуо длиннее, но они обладают и сверхъествественными вохможностями.@ Это как-то связано?@
+` - Не совсем.@ Их индивидуальные способности достались им ещё от их человеческих дизней, усилившись за многие сотни лет.@
+` Продолжив свои изыскания из своих человеческих жизней, они получают свои необычные способности.\
 
-`"The Dead Apostles each have different goals.@ What they each decide to study is different.@
-` Because of that, there was one who seriously studied immortality."@
-`"......?@ He became immortal yet he still researched it?"@
-`"Yes.@ The instant the Dead Apostles become vampires, they assume they have reached the limit of immortality as humans.@
-` However, he felt that it was just a degeneration.@ He did not want something so imperfect, and he wanted to come up with a more perfect immortality."\
+` - Все Мёртвые Апостолы преследуют разные цели.@ Каждый из них изучает что-то своё.@
+` Поэтому, среди них был тот, кто углублённо изучал бессмертие.@
+` - ?@ Он стал бессмертным, но продолжил исследовать бессмертие?@
+` - Да.@ Как только Мёртвые Апостолы становятся вампирами, они регают что достигли вершины человеческого бессмертия.@
+` Однако он решил что это лишь вырождение.@ Ему не нужн было что-то столь несовершенное, и он хотел найти более совершенную форму бессмертия.\
 
 !w1000
 
-`"..............."@
-` Senpai seems to be more engaged.\
+` - ...@
+` Сенпай начинает говорить более увлечённо.\
 
-`"But, as long as something has shape, it cannot but perish.@ There isn't anything that can withstand the passage of time.@
-` Vampires merely have a resistance higher than that of humans.@ Anything living internalizes death the moment they are born.@ Even if in possession of a body which does not age, as long as it exists, it cannot escape death.@
+` - Но, пока что-то имеет форму, оно в конце концов может лишь исчезнуть.@ Ничто не способно выдержать течение времени.@
+` Вампиры просто выдерживают это лучше, чем люди.@ Во всём сущем с самого рождения заложен потенциал к смерти.@ Даже обладая нестареющим телом, пока нечто существует, оно не может избежать смерти.@
 
-` To escape death is to die.@
-` This contradiction is a problem that cannot be solved."@
+` Отделаться от смерти можно только умерев.@
+` Неразрешимый парадокс.@
 \
 
-`"---Yeah.@ Everyone has death within them.@ If there is someone who doesn't, then that's---"@
-` Probably something that never existed in the first place.@
-` Even Arcueid can die during the day.@
-` There can't be anything that cannot die in this world.\
+` - Да...@ В каждом есть смерть.@ Если где-то и есть кто-то, в ком её нет, то это...@
+` Наверное что-то, чего никогда и не существовало.@
+` Даже Арквейд может умереть днём.@
+` В этом мире не может существовать бессмертных существ.\
 
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-`"That's the reason, but he concluded that if he could preserve his existence after death, then he would be immortal.@
-` ...... It isn't in our doctrine, but it's what you call reincarnation.@
-` Even if you die, if you could preserve your sense of self and start over again as a new human, that would be eluding death.@
-` ...... Well, when he isn't completely annihilated, he isn't dead, so it's actually not quite eluding death."\
+` - Такова идея, но он пришёл к выводу, что если он сможет сохраняить свою сущность после смерти, то это будет бессмертием.@
+` В нашей доктрине такого явления не рассматривается, но ты можешь назвать это реинкарнацией.@
+` Даже если умереть, если ты сумеешь сохранить своё самосознание и начнёшь заново как новый человек, ты сможешь избежать смерти.@
+` Ну, поскольку он не уничтожается целиком, он не мёртв, так что технически он не избегает смерти.\
 
-`"Reincarnation---you mean if he dies he will start over as a baby?"@
+` - Реинкарнация — ты хочешь сказать что если он умрёт, он начнём заново с самого раннего детства?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"Yes.@ While he is alive, he chooses his next host and when it is born, he transmits all the information of his 'self'.@
-` His information stays deep within the baby until it matures, or until it gains its intelligence as its own.@
-` As soon as that baby has the intelligence to succeed 'his self', the baby becomes a new vampire that is him."\
+` - Да.@ Пока он жив, он выбирает своего следующего носителя и когда он рождается, он передаёт ему информацию о своей «личнсти».@
+` Эта информация остаётся в ребёнке пока тот не постареет или не станет достаточно умён.@
+` Как только интеллект ребёнка становится достаточно силён чтобы унаследовать «его личность», ребёнок становится новым вампиром, который и есть тот вампир.\
 
-`"---Wait a minute.@ What's that?@ Don't tell me that he does surgery on it while it's in the mother or something like that."\
+` - Погоди минуту.@ Что это значит?@ Только не говори что он проводит на нём операцию пока он ещё в материнской утробе или ещё что-то в этом роде.\
 
-`"No, it's not anything medical.@ Because the instant his body is destroyed, he reincarnates into the body he chose as his next body.\
-`"I said all of 'his information' earlier, but to use simpler terms, think of it as his 'soul'.@
-` It wouldn't be quite correct to say his soul propagates through the air and takes over someone's body, but it's similar to an electromagnetic wave.@ In this case, the human brain is what does the transmitting and the receiving.@
-` His exceptional point is that he took this soul, which is incalculable and something that disperses as soon as it leaves the envelope of the body, and processed it as something that could be transmitted."\
+` - Нет, это не подразумевает ничего медицинского.@ Потому что как только его тело уничтожается, он реинкрнируется в тело, которое он избрал свом следующим носителем.\
+` - Раньше я говорила «его информация», но если выразиться проще, можно сказать что это его «душа».@
+` Было бы не совсем правильно говорить, что его душа пролетает по воздуху и вселяется в чьё-то тело, но это напоминает электромагнитные волны.@ В данном случае, в роли передатчика и приёмника выступает человеческий мозг.@
+` Его исключительное достижение стостит в том, что он взял душу, нечто неиуловимое и исчезающее сразу как только она покидает свою телесную оболчку, и просчитал её и сделал годным для передачи.\
 
-`"...... Sorry, Senpai.@ I can't see how this relates to you coming to my school."@
-`"It is related.@ Because this reincarnating vampire is in your school, Tohno-kun."\
+` - Прости, Сенпай.@ Я всё ещё не понимаю как это относится к тому, что ты пришла ко мне в школу.@
+` - Это относится.@ Потому что этот реинкарнирующий вампир находится в твоей школе, Тоно-кун.\
 
-`"------Huh!?"@
+` - Аа?!@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"The vampire I am pursuing and the vampire Arcueid is pursuing are the same.@
-` ...... Although she's probably only referred to him as the 'enemy'."\
+` - Вампир, которого преследую я, и вампир, которого преследует Арквейд — один и тот же.@
+` Хотя она скорее всего называла его только как «враг».\
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-`"............"@
-` I nod silently.@
-` Certainly she's only used the word "enemy", but she never told me anything about him.\
+` - ...@
+` Я молча киваю.@
+` Действительно, она использовала только слова «враг», и никогда мне ничего о нём не рассказывала.\
 
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"Her duty was to kill vampires, but since he appeared, she only pursued him.@
-` He has reincarnated seventeen times already.@
-` She has destroyed him every time."@
-`"Every time...... But, even if he dies he will just be reborn, right?@ Isn't that pointless?"\
+` - Её долг — истреблять вампиров, но как только он появился, она преследовала только его.@
+` Он реинкарнировался уже семнадцать раз.@
+` Каждый раз она уничтожала его.@
+` - Каждый раз... Но, даже если он умрёт, он просто переродится, так?@ Разве это не бессмысленно?\
 
-`"----Yes.@
-` He is killed by her, reincarnates each time, and is killed again by her.@ That cycle has been repeated over and over.@
-` If she...... if Arcueid had the power to kill not the 'body' but the 'meaning', then this probably would not be happening."@
+` - Да.@
+` Она убивает его, он каждый раз реинкарнирует, и она снова убивает его.@ Это цикл повторялся уже много раз.@
+` Если бы у неё... если бы у Арквейд была сила убить не «тело», но «суть», то этого бы наверное не случалось.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-` Senpai looks down a little, and it seems like she is gritting her teeth.@
-` ...... I don't know why.@
-` However, it appears that Senpai also has some grudge against the "enemy" like Arcueid does.\
+` Сенпай немного поникла, и мне кажется что она сжимает зубы...@
+` Я не знаю почему.@
+` Однако, похоже Сенпай тоже обладает каким-то счётом с этим «врагом», как и Арквейд.\
 
 
-`"...... Senpai.@ What kind of vampire is he?"@
+` - Сенпай.@ Этот вампир, какой он?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"He was originally a man, but that can change depending on his body he reincarnates into.@
-` The troublesome part of this Dead Apostle is that his incarnations are hard to find.\
-` Because he is properly born as a human baby and has parents.@ He transforms into a vampire only when he reaches the age where he can do everything at a satisfactory level.\
+` - Изначально это был мужчина, но в зависимости от его нынешнего воплощения это может меняться.@
+` Самое сложное с этим Мёртвым Апостолом это что его воплощения трудно найти.\
+` Потому что он рождается как обычный человек от человеческих родителей.@ Он превращается в вампира только когда достигает возраста в котором может всё делать на удовлетворительном уровне.\
 
-`"Until then, that human shows no hint of being a vampire.@ But once he awakens, he uses the relationships he gained until that time to blend perfectly into society.@
-` I heard that the Church detects his presence usually after a whole town is turned to The Dead."\
+` - До тех пор, человек не проявляет ни малейших вампирских признаков.@ Но пробудившись, он использует полученые к тому времени связи чтобы влиться в общество.@
+` Я слышала, что обычно Церковь обнаруживает его присутствие когда все жители города уже превращены в Мертвых.\
 
-`"Wait a minute.@ Um, well, then this new host, he wouldn't ever realize he is a vampire until he awakens?"@
-`"...... Yes, but it isn't like two people sharing one body.@ The baby born as a human is still him.@
-` Depending on its environment, it's a good or bad person.@ ...... But even that, the instant he awakens, goes away.\
+` - Погоди немного.@ Эм, то есть, этот новый носитель, он даже не подозревает что он вампир пока не пробудится?@
+` - Да, но это не получается что два человека делят одно тело.@ Это тот же человек, что родившился у людей.@
+` В зависимости от окружения, он может быть хорошим или плохим...@ Но даже это исчезает как только он пробуждается.\
 
-`"Um, to sum it up, once he dies, he is reborn into the next body, and once that body gains intelligence, it gains the previous life's 'self' and becomes a vampire."\
+` - Эм, то есть если подытожить, как только он умирает, он перерождается в новом теле, и как только это тело получает достаточный ум, он получает свою просшлую «личность» и становится вампиром.\
 br
-`"--------"@
-` What is it?@
-` Just hearing this---it's terribly... scary.\
+` - ...@
+` Что же это?@
+` Просто слышать об этом — это... жутко.\
 
-`"...... That's strange.@ I don't really understand it, but it's strange.@
-` Because what you call vampires... they don't just suddenly become vampires, right?@
-` So, even if their old self awakens, wouldn't the body still remain human......?"\
+` - Странно.@ Я не совсем понимаю, но это странно.@
+` Потому что то, что мы называем вампирами... они же не становятся вампирами сами по себе, так?@
+` Поэтому, даже если в нём пробудится его старая сущность, разве человеческое тело не останется человеческим?..\
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"No, reincarnation isn't the transmitting of personality, it is the transmission of the soul.@ Once bitten by a True Ancestor, not just the body, but the soul is forever soiled.@
-` He transmits all of his information called his soul to his next self, so when he awakens, the body becomes one of a vampire but---"@
-`"But what?"\
+` - Нет, реинкарнация это не передача характера, это передача души.@ После укуса Истинного Предка, не только тело, но и душа становится навечно осквернённой.@
+` Он передаёт всю информацию, называемую его душой, своему следующему воплощение, и потому когда он просыпается, его тело превращается в вампира но...@
+` - Но что?\
 
-`"As you said, just that is too weak.@
-` So he selects his next host while he is alive.@
-` The family he is born into must meet two conditions, the first being one of wealth.@
-` Being born into a family of high social standing, property, and money makes it easier to make the whole town into vampires later on.\
+` - Как ты и сказал, одного этого не достаточно.@
+` И поэтому он сам подбирает своё следующее воплощение пока ещё жив.@
+` Семья, в которой он рождается, должна соответствовать двум условиями, первое — богатство.@
+` Родившись в семье с высоким положением в обществе, обладя собственностью и деньгами, ему становится проще потом обратить весь город в вампиров.\
 
-`"And there is another requirement.@ This is the important one, but amongst normal people like us, there are also people that carry special powers.@
-` Not like magic, which is a mystic power that can be learned, but rather special abilities from birth.@ ---Such people are normally called Demonic Children or psychics.\
+` - Есть и другое уловие.@ Это важно, но среди нормальных людей вроде нас есть люди, обладающие особыми способностями.@
+` Не как магия, мистическая сила которой можно научиться, но врождённые уникальные способности.@ Обычно таких людей называют Детьми Демонов или телепатами.\
 
-`"These special abilities are genetic, so they are inherited---passed on by blood.@ He chooses those families that have "something not human" in their lineages.@
-` A family with wealth and influence, and inhuman power.@ Those are the requirements for his host, Tohno Shiki-kun."@
+` - Эти особые способности обусловлены их генами, и передаются по наследству — по крови.@ Он выбирает те семьи, в чьём роду есть «что-то нечеловеческое».@
+` Семья, обладающая богатством, влиянием и нечеловеческой способностью.@ Таковы требования для его носителя, Тоно Шики-кун.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
 ;CD-DA??
 playstop
 
-`"-------"@
-` There's still something weird.@
-` I think that story is weird.@
+` - ...@
+` Есть ещё что-то странное.@
+` Я думаю что эта история странная.@
 br
-` What's weird---is that Senpai is telling me this story----\
+` Что странно... это что Сенпай рассказывает мне эту историю...\
 
-`"...... His name."@
+` - ...Его имя.@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"Yes?@ Did you say something?"@
-`"His name......!@ You keep saying 'enemy' and 'him', but how can I understand that!?@ Can't you tell me his name......!?"@
-` I yell at her, not even knowing why I'm angry.@
+` - Да?@ Ты что-то сказал?@
+` - Его имя!..@ Ты всё говоришь «враг» или «он», но как мне это понимать?!@ Ты не можешь мне его имя сказать...?!@
+` Я кричу на неё, даже не понимая почему я злюсь.@
 br
-` She doesn't look fluttered at all.@
-` She only---looks at me sympathetically.\
+` Она ничуть не дрогнула.@
+` Она только... с сочувствием смотрит на меня.\
 
-`"No problem.@ Among the Dead Apostles, he is known as the Serpent of Akasha.@
-` This is due to the serpent being the symbol of infinity and cycles.@ Shedding its skin and gaining a new body, it was perfect for his name.@
-` On the other hand, he is recorded in the Church as the 'Infinite Reincarnator'.@ His human name is Michael Roa Valdamjong.@ He is also simply referred to as 'Roa'."@
-`"Ro, a---"@
-` Never heard of it.@ ...... Of course.@ It's not like I've ever met him.\
+` - Нет проблем.@ Среди Мёртвых Апостолов он известен как Змей Акаши.@
+` Это потому что змей символизирует бесконечность и циклы.@ Он сбрасывает кожу, обретая тем самым новое тело, имя как раз для него.@
+` Церковь же присвоила ему обозначение «Бесконечный Реинкарнатор».@ Его человеческое имя — Михаэль Роа Вальдамион.@ Для краткости его называют просто «Роа».@
+` - Ро, а...@
+` Никогда о нём не слышал...@ Ещё бы.@ Как будто мы раньше виделись.\
 
-`"...... In short, you came to my school because you knew this Roa was there?"@
+` - Короче говоря, ты пришла в мою школу потому что знала, что этот Роа был там?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
 
-`"Yes.@ It truly was a sketchy feeling, but I knew this incarnation of Roa was there.@
-` I can sense Roa far better than Arcueid.@ That's why I came here much earlier than Arcueid and already found out who his new host is."@
+` - Да.@ Это было очень нечёткое чувство, но я знала, что нынешнее воплощение Роа находилось там.@
+` Я могу чувствовать Роа лучше, чем Арквейд.@ Поэтому я и оказалась здесь гораздо раньше Арквейт и уже выяснила, кто его новый носитель.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
 br
-` ------.@
+` ...@
 br
-` The voice stops for some reason.@
-` Senpai looks at me sympathetically like before.\
+` Почему-то её слова обрываются.@
+` Сенпай снова смотрит на меня с сочувствием.\
 
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
@@ -445,10 +444,10 @@ ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 ;CD-DA????????????
 play "*9"
 
-`"...... I explained this before, but Roa chooses fine lineages and excellent bodies for his next host.@
-` So once you find out Roa is in this place, the answer comes naturally when you investigate the families which meet his criteria."@
-`"------"@
-`"In this area, there is only one old family that meets his criteria.@ I don't have to say any more, do I, Tohno---Shiki-kun."@
+` - Я уже говорила, от своего носителя Роа нужна богатая семья и подходящее тело.@
+` Так что как едва я узнала, что Роа здесь, ответ стал очевиден когда я изучила семье, соответствующие этому критерию.@
+` - ...@
+` - В этой местности, есть лишь одна семья, соответствующая этому критерию.@ Мне не нужно продолжать, не так ли, Тоно... Шики-кун.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
@@ -460,184 +459,186 @@ br
 br
 br
 br
-` ----That's why.@
-` That's why I'm saying this conversation is weird.\
+`     Вот почему.@
+` Вот почему я и говорю, что этот разговор странный.\
 
-`"Ha."@
+` - Ха.@
 br
-`"Ha."@
+` - Ха.@
 br
-`"Hahaha, ha."@
+` - Хахаха, ха.@
 br
-` I'm the one laughing dryly.\
+` Раздаётся мой сухой смех.\
 
-`"...... What are you saying, Senpai?@ That can't be."@
+` - Сенпай, что ты такое говоришь?@ Этого не может быть.@
 br
-` Senpai doesn't answer.@
-` Almost as if,
-` she is saying that I am this Roa's host.\
+` Сенпай не отвечает.@
+` Почти как если бы,
+` она утверждает, что это я — носитель Роа.\
 
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"...... But, there can be no doubt.@ The Tohno family has 'something different' in its blood.@
-` It has power and the latent superhuman ability that Roa needs.@
-` The power you used to defeat The Dead earlier wasn't human.@
-` So----this time's Roa's host is unmistakably Tohno Shiki."@
+` - Но, в этом нт сомнений.@ В крови семьи Тоно есть «нечто иное».@
+` Она обладает влиянием и скрытой сверхчеловеческой способностью, которые нужны Роа.@
+` Способность, которую ты использовал чтобы победить Мёртвых явно была нечеловеческой.@
+` И потому — нынешний носитель Роа, без сомнения, Тоно Шики.@
 br
-` ---I don't understand.\
-` I don't understand a single thing she says.\
+`     Я не понимаю.\
+` Я не понимаю ни единого её слова.\
 
-`"...... Why?@ Why can you be so certain, Senpai?"@
-`"What?@ Because I'm the one who decided all this."@
-` She says something I can't understand once more.\
+` - Почему?@ Почему ты так уверена, Сенпай?@
+` - Что?@ Потому что я это определила.@
+` Она опять говорит что-то непонятное.\
 
-`"Wh, what!?"@
-`"...... But, it's different.@ You were the one killed, yet you are the one who survived.@
-` The one killed survived and the one who killed is dead.@ I think all the mistakes began there."@
+` - Чт, что?!@
+` - Но, не совсем.@ Ты был убит, но при этом жив остался ты.@
+` Тот кто был убит, выжил, а тот кто убил, умер.@ Я думаю, вся путаница началась отсюда.@
 br
-` She says so as if she's on the verge mentally.@
-` Senpai pulls the "sword" from the ground by my feet.\
+` Её слова похожи на безумный бред.@
+` Сенпай вынимает «меч» из земли рядом со мной.\
 ;CD-DA??
 playstop
 
-`"Ah---"@
-`"That is all I had to tell you.@ I'll leave the rest for you to decide, Tohno-kun."@
-`"Leave it to me?@ But according to your story, I---"@
+` - А...@
+` - Это всё что я хотела сказать.@ Остальное я оставлю на твоё усмотрение, Тоно-кун.@
+` - На моё усмотрение?@ Но соглано втоему рассказу, я...@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
-`"...... To be honest, I don't know either.@ You are an incredibly ordinary person, like a student you could find anywhere.@ My intuition has to be wrong.@
-` Because---you are someone who shouldn't be in a world like mine."@
+` - Честно говоря, я тоже не знаю.@ Ты невероятно обычный человек, какого можно найти где угодно.@ Моя интуриция должно быть оишбается.@
+` Потому что — ты не такой человек, который должен попадать в мир, в котором живу я.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
 
-` With a sad smile, Senpai leaps an incredible distance from me.@
-` As if trying to tell me she's someone else now, an unreachable, far distance.\
+` Печально улыбнувшись, Сенпай одним махом отпрыгивает от меня на огромное расстояние.@
+` Словно пытаясь сказать мне, что теперь она кто-то другой, кто-то далёкий и недостижимый.\
 
-`"-----"@
-` I---still can't leave Arcueid alone.@
-` Unless I chase after her now, I feel like I'll never see her again.@
+` - ...@
+` Я... всё равно не могу оставить Арквейд.@
+` Я чувствую, что если сейчас не погонюсь за ней, то никогда больше её не увижу.@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"You're going after her, Tohno-kun?"@
-` Senpai's voice returns to the way it was when she drove off Arcueid.@
-` An inflectionless voice devoid of emotion.\
+` - Тоно-кун, ты собираешься за ней?@
+` Голос Сенпай снова звучит так, как когда она прогоняла Арквейд.@
+` Монотонный, бесчувственный голос.\
 
-`"---Yeah.@ Because you're a person of the Church, I know she's an enemy of yours.@
-` But a lot of things have happened and I agreed to help her, so I have to look for her.@ I don't know what she'll do if I leave her by herself."@
-` Laughing as if it was a joke, I tell her "Later" and turn around.\
+` - Ага...@ Я понимаю, что поскольку ты из Церкви, она твой враг.@
+` Но много чего случилось, и я согласился ей помочь, поэтому я должен её искать.@ Я не знаю что она сделает если я оставлю её одну.@
+` Рассмеявшись будто это шутка, я говорю ей «Пока» и разворачиваюсь.\
 
-`"---Please wait.@ If you go after her you will only get killed.@ You must not see Arcueid Brunestud again."@
-`"Only get killed?---Well, you may not believe me, but she really doesn't suck blood.@ She's quite a good person, actually."@
-`"...... I know.@ Certainly she hasn't drunk human blood.@ However, that's at an end.@ A True Ancestor who gives in to the vampiric impulse once can only fall downward from there."@
+` - Пожалуйста подожди.@ Если ты отправишься за ней, то погибнешь.@ Ты никогда не должен больше видеться с Арквейд Брюнстад.@
+` - То погибну? Ну, ты можешь мне не поверить, но она действительно не пьёт кровь.@ На самом деле она хороший человек.@
+; «На самом деле она хорошая»? Т.к. технически она не человек, я тут не совсем уверен.
+` - Я знаю.@ Действительно, она никогда не пила человеческой крови.@ Но дальше так продолжаться не может.@ Истинный Предок, поддавшийся вампирскому импульсу, не способен снова взять его под контроль.@
 br
-` My feet freeze in place.\
+` Мои ноги останавливаются как вкопаные.\
 
-`"...... Senpai?@ True Ancestor--vampiric impulse, what do you mean?"@
-`"...... I mean the desire to drink blood.@
-` Tohno-kun.@ The vampires called Dead Apostles mostly became vampires after a vampire sucked their blood.@ To preserve their bodies they need the blood of humans.@
-` In other words, they can't escape drinking blood if they want to live."\
+` - Сенпай?@ Истинный Предок — вампирский импульс, что ты имеешь ввиду?@
+` - Я имею ввиду желание пить кровь.@
+` Тоно-кун.@ Большинство Мёртвых Апостолов стали вампирами когда вампир выпил их кровь.@ Чтобы поддерживать свои тела, им нужна кровь людей.@
+` Иными словами, они не могут перестать пить кровь если хотят жить.\
 
-`"But the ones that were vampires from the beginning are different.@
-` ...... The Dead Apostles were originally humans like us.@ So maybe you can still call them human.@
-` However, if someone was born a vampire, can you call it human?"@
-`"Wha---what are you saying, Senpai?@ I'm asking about about Arcueid."\
+` - Но те, кто были вампирами изначально, другие.@
+` Мёртвые Апостолы изначально были такими же людьми как и мы.@ Поэтому при желании их вс ещё можно назвать людьми.@
+` Однако, если кто-то был рождён вампиром, можно ли считать это существо человеком?@
+` - Что — Сенпай, что ты хочешь сказать?@ Я спрашиваю про Арквейд.\
 
-`"This is about her.@
-` I won't let you say you never thought about it.@
-` If Dead Apostles become vampires from vampires,
-` there has to be an origin, 'an existence that is a vampire from the beginning'.@
-` These vampires that are a completely different species from us, we call the True Ancestors.@
-` Those who don't need human blood and have special powers equivalent to, no, surpassing the Dead Apostles.@
-` She is a member of the royal family of the True Ancestors.@ ...... although they don't really have any rank structure, so saying 'royal' isn't quite accurate."\
+` - Это как раз про неё.@
+` Я не позволю тебе сказать что ты никогда не думал об этом.@
+` Если Мёртвых Апостолов делают вампирами другие вампиры,
+` значит где-то должен быть их источник, «существо, бывшее вампиром всегда».@
+` Этих вампиров, являющихся абсолютно другим биологическим видом, мы называем Истинными Предками.@
+` Тех, кому не нужна человеческая кровь и кто обладает особыми способностями равными, нет, превосходящими способности Мёртвых Апостолов.@
+` Она — член семьи правителей Истинных Предков...@ Хотя на самом деле у них нет иерархии, поэтому называть их «правителями» не совсем правильно.\
 
-`"---So what, Senpai?@ This conversation---this doesn't have anything to do with me......!"@
-`"It does.@ These vampires known as the True Ancestors have a deeper impulse to drink blood than the Dead Apostles."@
-` Her eyes are completely emotionless.@
-` Like mirrors, they show my agitated face.\
+` - И что с того, Сенпай?@ Этот разговор — это меня никак не касается!..@
+` - Касается.@ Вампиры, называемые Истинными предками обладают более сильной жаждой крови сем Мёртвые Апостолы.@
+` Её глаза не выражают абсолютно ничего.@
+`Словно зеркала, они отражают моё взолнованое лицо.\
 
-`"Do you see, Tohno-kun?@ The True Ancestors can live without human blood.@
-` However, maybe a mistake happened in their evolution, or maybe there's no such thing as a perfect existence, but anyway, there is a period when they desire the blood of humans.\
+` - Тоно-кун, ты понимаешь?@ Истинные предки могут жить без человеческой крови.@
+` Однако, может быть из-за ошибки в их эволюции, а может просто потому что не может быть существ без изъянов, но в любом случае, у них наступают периоды когда они жаждут человеческой крови.\
 
-`"...... The instant a human has his blood drunk by them, he no longer remains human.@
-` True Ancestors are on a scale different from humans as creatures.@ When the powerful life of a True Ancestor touches the blood of a human, the sheer difference means a human cannot remain human after such contact.@
-` Like a small wave absorbed into a larger wave, that person becomes a part of the True Ancestor--to simplify, it becomes a doll."\
+` - Как только они выпивают кровь человека, то он уже перестаёт быть человеком.@
+` Как живые существа, Истинные Предки находятся на принципально ином уровне, чем люди.@ Когда мощная жизнь Истинного Предка прикасается к крови человека, огромная разница не даёт человеку оставаться человеком.@
+` Как маленькая волна поглощается большой волной, этот человек становится частью Истинного Предка — если упростить — он становится куклой.\
 
-`"The problem is, there's no reason for their vampiric impulses.@
-` There's no reason, so there's no way to stop it.@
-` The fatal flaw in an otherwise perfect existence.@ You can call it a terminal illness.@
-` Anyway, they live by resisting their urge to drink blood.@
-` It isn't a matter of using the mind to put up with it.@
-` They use all their powers to resist this urge and seal it within themselves by force.\
+` - Проблема в том, что у их вампирских импульсов нет причины.@
+` Нет причины, а значит нет и способа остановить.@
+` Смертельный изъян в иначе безупречном создании.@ Это можно назвать неизлечимой болезнью.@
+` Как бы то ни было, они живут, подавляя свою жажду крови.@
+` Они не делают это, просто сдерживаясь и заставляя себя терпеть.@
+` Они используют свои способности чтобы силой сдержать это желание и загнать его внутрь.\
 
-`"...... By using their enormous power on themselves, they are suppressing the vampiric impulse.@
-` But if--something external causes them to lose their power, what do you think happens to their ability to suppress it?"@
+` - Направив свои колоссальные способности на себя, они сдерживают свои вампирские импульсы.@
+` Но если — какой-нибудь внешний фактор заставит их потерять силу, как ты думаешь, что случится с их способностью сдерживаться?@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 br
-` ...... If something external causes them to lose power......?@
-` Such as, receiving a wound which requires power to heal, or using power to regenerate after being killed completely---\
+`        Если внешний фактор заставит их потерять силу?..@
+` Как например, рана, чтобы залечить которую им нужно использовать свою силу, или использвание своих способностей чтобы восстановиться после того как их убили...\
 
-` ...... So let's say she has ten units of power.@
-` And say she uses seven of them to resist the urge to drink blood inside her.@
-` But if---for some reason she loses five out of the ten units, then even if she uses all her remaining power, she can only use five units of power to resist.@
+;Реквестирую спрайт с Сиэль-сенсей сюда, срочно >_>.
+` Предположим, что у неё десять единиц силы...@
+` И предположим, что семь из них она использует для подавления желания пить кровь.@
+` Но если... по какой-то причине она теряет пять из десяти единиц, то даже если она использует всю свою оставшуюся силу, она сможет использовать только пять единиц.@
 br
-` That's not enough.@
-` Then, what will it take away from her---?\
+` Этого недостаточно.@
+` Но тогда, что тогда произойдёт с ней?..\
 
-`"...... And?@ What happens to those True Ancestors who couldn't resist, Senpai?"@
+` - И?..@ Сенпай, что случается с теми Истинными Предками, которые уже не могут сдержаться?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"They drink human blood, of course.@ After that, nothing.@ Once they give in, they can only keep on falling.@
-` Once a True Ancestor knows the taste of blood, I hear the urge becomes many times more painful than before.@ As a result, they aren't able to resist the urge anymore.\
+` - Они пьют кровь, конечно же.@ После этого, ничего.@ Уступив один раз, они могут двигаться только по наклонной.@
+` Насколько я слышаала, как только Истинный Предок познает вкус крови, его жажда становится во много раз тяжелее чем раньше.@ И в итоге, они уже не могут сдерживать это желание.\
 
-`"And when that happens, they become the dreaded Demon Lords.@
-` True Ancestors are certainly a superior race, but since they they bind themselves to resist the vampiric impulse, they can never utilize their full powers.@
-` But once they fall, there's no longer the need to restrain themselves.@ Then, they just become demons which suck human blood for their own pleasure."@
+` - И когда это случается, они становятся ужасающими Властителями Демонов.@
+` Истинные Предки поистине высшая форма жизни, но поскольку они сковывают себя чтобы сдержать свои вампирские импульсы, они никогда не могут использовать все свои силы.@
+` Но сорвавшись, им уже не нужно сдерживаться.@ И они становятся демонами, которые пьют кровь людей ради собственного удовольствия.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
 ;CD-DA????????
 play "*8"
 
-` ...... I remember how Arcueid appeared earlier.@
-` Her blood-shot eyes.@
-` Her wild breathing.@
-` Her breath assailing my neck.\
+` Я вспоминаю, как Арквейд выглядела только что.@
+` Её налитые кровью глаза.@
+` Её беспорядочное дыхание.@
+` Её дыхание, касающееся моей шеи.\
 
-`"...... Lies."@
-` That's a lie.@
-` Because,
-` She certainly said she's scared of drinking blood----
+` - Ложь...@
+` Это ложь.@
+` Потому что,
+` Она точно говорила что боится пить кровь...
 br
-`"Ah."@
-` ...... Yeah, she's scared.@
-` Because once she does it, she knows she won't be able to stop.\
+` - А.@
+` … Да, боится.@
+` Потому что знает, что как только она сделает это, то не сможет остановиться.\
 
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"...... If there is any salvation, it is that the urge is instantaneous.@
-` The True Ancestors keep just one subordinate for the time the urge gets too great to suppress.@ That's the beginning of those called Dead Apostles.@
-` They are something that is already dead.@
-` A vampire kept alive for the sake of easing the pain of the True Ancestors.@ That is the form of the vampire in this city."\
+` - Если и есть спасение, то это что этот порыв резко обстряется и быстро слабеет.@
+` Истинные предки обычно держат одного подчинённого на случай если этот порыва станет слишком силён.@ Так появились те, кого мы называем Мёртвыми Апостолами.@
+` Они уже не живут.@
+` Вампир, живущий чтобы облегчить боль Истинного Предка.@ Таковы вампиры вроде того, что обосновался в этом городе.\
 
-`"But, she doesn't have such a thing.@ ...... No, until now, she never needed one.@
-` Special among all the True Ancestors, she was able to resist the vampiric impulse using her will alone."@
-`"---Then there's no problem.@ Once her wound heals, once her body returns to normal, she can resist it, right......?"\
+` - Но, у неё нет такого подчинённого...@ Нет, до сегодняшнего дня её никогда не было это нужно.@
+` Уникальная среди всех Истинных Предокв, она могла сдерживать вампирский импульс одной силой воли.@
+` - Значит, нет проблем.@ Как только её раны заживут, как только её организм вернётся в норму, она сможет это сдерживать, верно?..\
 
-`"...... Technically, but there is a limit, Tohno-kun.@
-` The vampiric impulse has no end, and it will not go away.@ The resisted urges which build again and again will eventually overflow their vessel.@
-` The longer they live, the larger the vampiric impulse in them gets.@
-` And when they can no longer restrain themselves with their own power--when the impulse overwhelms their power, their lives are ended by others.@
-` That is the life span for those without life spans."\
+` - Технически да, но Тоно-кун, у всего есть предел.@
+` Вампирский импульс не заканчивается и не исчезает.@ Подавленые порывы будут накапливаться и накапливаться пока в конечном итоге не переполянт свой сосуд.@
+` Чем дольше они живут, тем сильнее становяться их импульсы.@
+` И когда они уже не могут сдерживать себя своей силой — когда их импульс пересиливает их, другие обрывают их жизни.@
+` Таков срок жизни тех, чья жизнь тянется без срока.\
 
-`"--But Arcueid is okay.@ She's just weak because of me, so after a few days, she'll---"@
-`"...... Perhaps.@ But she's reached her limit already.@
-` Even though she was only actually active for a few years, the amount of time of her existence does not change.@
-` The urge which has grown inside her will soon consume her.@ There's no denying that now is not the time.@
-` She---Arcueid's life cannot be saved."\
+` - Но ведь Арквейд в порядке.@ Она просто ослабла из-за меня, а значит через пару дней она...@
+` - Возможно.@ Но она уже достигла своего предела.@
+` Хоть и время, когда она бодрствовала, равно лишь нескольким годам, это не меняет того, сколько она прожила на самом деле.@
+` Порыв, накопившийся внутри неё, скоро поглотит её.@ Ничто не указывает на то, что этот момент не настал сейчас.@
+` Она — жизнь Арквейд невозможно спасти.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -648,47 +649,31 @@ bg "image\bg\bg_29b.jpg",%type_crossfade_fst
 br
 br
 br
-` ---Thump.@
+`     Пум.@
 br
-` For the first time.@ Not because of my anemia, but someone else's words.@
-` Everything starts to fade away in a haze of dizziness.\
+` Впервые.@ Не из-за моей анемии, но из-за чьих-то слов.@
+` Всё меркнет в водовороте головокружения.\
 
-`"-----"@
-` What does it mean?@
-` Even though she knows she's past her limit, she's still hunting vampires here?@
+` - ...@
+` Что это значит?@
+` Хоть она и знает, что уже превысила свой предел, она продолжает охотиться на вампиров?@
 br
-` ---That's odd.\
-` No matter---how I think of it, it's odd.\
+`     Это странно.\
+` Как... ни крути, это странно.\
 
-`"...... It's all lies.@
-` Because if she knew she's at her limit, then why would she hunt vampires for our sake?"@
+` - Всё это ложь.@
+` Потому что если бы она знала, что на пределе, с чего бы она стала охотиться на вампиров ради нас?@
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"She deals with them not for our sakes, but because it is her purpose."@
-`"Purpose---who decided that?"\
+` - Она истребляет их не ради нас, но потому что таково из предназначение.@
+` - Предназначение — кто это решил?\
 
-`"Probably the other True Ancestors.@ She was born in the 12th century when there were many fallen True Ancestors.@
-` The True Ancestors could not ignore their fallen kin nor the Dead Apostles increasing in number.@
-` That's why they created something solely for killing.@
-` Without a need for anything else, the most pure True Ancestor created for punishment.@
-` That is the True Ancestor called Arcueid.@
-` She's like a nuclear missile without a mind of its own, once she leaves the castle, her target is definitely destroyed."\
-
-; ???<???????(?)>
-bg "image\bg\ima_11.jpg",%type_crossfade_fst
-; ??B(?)<???????(?)>
-bg "image\bg\bg_29b.jpg",%type_crossfade_fst
-
-br
-` ---Thump.@
-` This dizziness again.@
-br
-` ...... She should stop saying that.@
-` She's a person.@ Talking about her like she's just some sort of weapon makes me mad.\
-
-`"No, she is a weapon.@ In the first place, she existed only for that purpose.@
-` ...... So it seems there is now something wrong with her.@
-` It is the first time I've seen her talk like that.@ She never spoke any words before."\
+` - Другие Истинные Предки, наверное.@ Она родилась в ХІІ веке, когда было много павших Истинных Предков.@
+` Истинные Предки не могли игнорировать своих павших сородичей и растущее число Мёртвых Апостолов.@
+` Поэтому они создали нечто, предназначеное исключительно для убийства.@
+` Не нуждающийся больше ни в чём, самый чистый Истинный Предок, созданый лишь для вершения наказания.@
+` Имя этого Истинного Предка — Арквейд.@
+` Она не обладает собственным умом, словно ядерная ракета, как только она покидает свой замок, значит её цель можно считать уничтоженой.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -696,13 +681,15 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_29b.jpg",%type_crossfade_fst
 
 br
+`     Пум.@
+` Опять головкружение.@
 br
-` -----Huh?@
-` Hold on.@
-` Never spoke---that's odd.\
+` Она должна перестаь это говорить...@
+` Она — живое существо.@ Когда она говорит о ней как о каком-то оружии, это меня злит.\
 
-`"Because she never does anything extra.@
-` From long ago---for the past hundreds of years, she has lived that way.@ Ever since she was born in the old castle amongst the mountains, never changing."\
+` - Нет, она и есть оружие.@ С самого начала она существовала исключительно ради этой цели...@
+` Поэтому сейчас с ней похоже что-то не то.@
+` Я в первый раз вижу как она разговаривает.@ Она никогда раньше не произносила ни единого слова.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
@@ -710,10 +697,24 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_29b.jpg",%type_crossfade_fst
 
 br
-` ---Thump.@
-` My heartbeat, and this dark dizziness.@
-` ...... What is this?@
-` This unknown scenery, these memories I've never had, they start to fill my vision.\
+br
+`       А?@
+` Погодите.@
+` Никогда не разговаривала — это странно,\
+
+` - Потому что она никогда не делает ничего лишнего.@
+` С давних пор — уже сотни лет она живёт именно так.@ С тех пор как она родилась в старом замке в горах, никогда не меняясь.\
+
+; ???<???????(?)>
+bg "image\bg\ima_11.jpg",%type_crossfade_fst
+; ??B(?)<???????(?)>
+bg "image\bg\bg_29b.jpg",%type_crossfade_fst
+
+br
+`      Пум.@
+` Моё сердцебиение, и это тёмное головкружение.@
+` Что это?..@
+` Это незнакомый вид, эти воспоминания которых у меня не было, появляются у меня перед глазами.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
@@ -725,40 +726,13 @@ br
 br
 br
 br
-` The wide, castle courtyard.@
-` The unadorned grassy field inside the solitary castle.@
-` The white girl stares blankly up at the sky.\
+` Большой двор внутри замка.@
+` Простое травяное поле в одиноком замке.@
+` Белая девушка невыразительно смотрит в небо.\
 
-`"She did not have any extra knowledge, or freedom beyond what was needed for her purpose.@
-` She only goes outside when her target is determined.@
-` She gets taught only the information needed to definitely destroy the enemy."\
-
-br
-br
-br
-br
-br
-br
-` No one is there.\
-` No one to talk to.@
-` Not even another face to see.\
-
-`"After killing her target and when she returns to the castle, her taught knowledge is washed out and she is taken to sleep.@
-` Without knowing anything, nothing other than killing vampires."\
-
-br
-br
-br
-br
-` There's nothing.@
-` Such as the fun of speaking with someone else.@
-` The precious moments of seeing someone else and greeting them.@
-` She was excluded from all of it.\
-
-`"Her power was strong enough to defeat the fallen True Ancestors.@ ...... But, it's ironic.@ She was so powerful that she was shunned by the rest of the True Ancestors.@
-` Even while praising her as the princess, no one approached her.@
-` Even while giving her a castle, her world was only the dark basement.@
-` So there was nothing to give her any feelings."\
+` - У неё не было никаких лишних знаний или свободы кроме того, что было нужно для выполнения её предназанчения.@
+` Она выходила только когда у неё появлялась цель.@
+` Её учили только тому, что было необходимо чтобы наверняка унчитожить врага.\
 
 br
 br
@@ -766,69 +740,26 @@ br
 br
 br
 br
-` That's,
-` almost enough to make me pity her for living.@
-` A parody of life.\
+` Здесь никого нет.\
+` Не с кем поговорить.@
+` Даже не с кем увидеться.\
 
-`"She apparently had no words or even time of her own.@ --The True Ancestors treated her only as a weapon.@
-` A weapon has no need for extra functions, such as baking bread or doing laundry.@
-` If you're going to put on extra functions, you would put on something more fit for a weapon, right?"\
-
-br
-br
-br
-br
-br
-` --I was always taught never to do extra things.\
-br
-br
-br
-` Yes, she has said that before.@
-` The reason for deciding everything for herself, for having those empty eyes.@
-br
-` That's why she never needed anyone else.@
-` No, maybe she never knew about it.\
-
-`"All they wanted of her was to be a superior killing machine.@
-` That's why she doesn't know anything.@ I don't mean something big like the meaning of life, but not even the small joy of just living normally."\
+` - Когда она убивала свою цель и возвращалась в замок, данные ей знания стирались и она погружалась в сон.@
+` Ничего не зная, ничего кроме убийства вампиров.\
 
 br
 br
 br
 br
-br
-` She was always so cheerful.@
-` Even trivial things made her so happy.@
-br
-` So I thought she was always like that.\
-br
-br
-br
-br
-br
-` ...... But I was horribly wrong.@
-` She really was---just enjoying those simple things.@
-` She must have enjoyed those things so much.\
+` Здесь нет ничего.@
+` Ничего нет, как нет радости общения с другими.@
+` Драгоценных моментов, когда встречаешь кого-то и приветствуешь его.@
+` Всего этого она была лишена.\
 
-br
-br
-br
-br
-br
-` ---Because it's so fun.@
-` I never thought about how life could be fun just by living.\
-br
-br
-br
-br
-br
-` Like it was an uneasiness she couldn't understand,
-` The classroom filled with the red setting sun where she asked me those questions with a reserved voice.\
-
-`"Even though Arcueid has existed for so long, she knows less about living than we do.@
-` If you convert it to the time she was allowed to move freely, it is amazingly short.@
-` Her lifetime was spent almost entirely in sleep.@
-` Most likely a deep, dark sleep."\
+` - Её сила была достаточно велика чтобы побеждать павших Истинных предков.@ Но, это так иронично...@ Она была так сильна, что другие Истинные Предки сторонились её.@
+` Даже когда её славили как принцессу, никто не приближался к ней.@
+` Даже когда ей подарили замок, её мир был лишь тёмным подвалом.@
+` И поэтому у неё не было ничего, что могло научить её чувством.\
 
 br
 br
@@ -836,37 +767,94 @@ br
 br
 br
 br
-` ---Really?@ I have enough fun just talking, you know.@
+` Этого,
+` почти достаточно, чтобы мне стало жаль её жизни.@
+` Пародия на жизнь.\
+
+` - Судя по всему, она не умела разговаривать и даже не имела своего времени.@ Истинные Предки обращались с ней как с оружием.@
+` Оружию не нужны лишние функции, ему не нужно уметь печь хлеб или стирать одежду.@
+` Если уж добавлять лишнии функции, то только подохоящие для оружия, верно?\
+
+br
+br
+br
+br
+br
+`   «Меня всегда учили не делать лишних вещей.»\
+br
+br
+br
+` Да, она как-то сказала это.@
+` Почему она решала всё за себя, почему у неё такие пустые глаза.@
+br
+` Вот почему она никогда ни в ком не нуждалась.@
+` Нет, быть может она даже не знала об этом.\
+
+` - Они хотели только чтобы она была совершенной машиной убийства.@
+` Пожтому она не знает ничего.@ Я не говорю про какие-нибудь серьёзные вещи вроде смысла жизни, но даже мелких радостей нормального существования.\
+
+br
+br
+br
+br
+br
+` Она всегда была такой жизнерадостной.@
+` Даже обычные вещи так её радовали.@
+br
+` И я решил что она просто всегда такая.\
+br
+br
+br
+br
+br
+` Но я ужасно ошибался.@
+` Её и правда... нравились все эти мелочи.@
+` Ей должно быть и правда настолько это всё нравилось.\
+
+br
+br
+br
+br
+br
+` «Потому что это так весело.@
+` Я никогда не думала, какой счастливой меня может сделать обычная жизнь.»\
+br
+br
+br
+br
+br
+` Словно бы это было неопнятная ей тревога,
+` В классе, залитом багряным закатным солнцем, тихим голосом она задавала мне все эти вопросы.\
+
+` - Хоть Арквейд и прожила так много, о жизни она знает даже меньше нас.@
+` Если выделить из этого времени то время, когда она могла вести себя свободно, оно будет невероятно коротким.@
+` Почти вся её жизнь прошла во сне.@
+` Скорее всего в глубоком сне без сновидений.\
+
+br
+br
+br
+br
+br
+br
+`    «Правда?@ А мне нравится просто разговаривать.»@
 !w1000
 
 \
 
-`"After dealing with all the fallen True Ancestors, she did not leave the castle.@ Having fulfilled her purpose, the True Ancestors sought to educate her properly.@
-` However, she could not be free.@ Because of a slight mistake, she ended up killing all the True Ancestors remaining in the castle."\
+` - Когда она уничтожила всех павших Истинных Предков, она перестала покидать замок.@ После того как она выполнила свою цель, Истинные Предки собирались дать ей нормальное воспитание.@
+` Однако она не смогла стать свободной.@ Из-за простой ошибки она перебила всех Истинных Предков, что были в замке.\
 
 br
 br
 br
 br
 br
-` Maybe the one that was taught how to kill vampires really did finish her job until the very end.@
-` In the end, she was left alone.\
+` Быть может, та, которая знала лишь как убивать вампиров, выплнила свою задачу до конца.@
+` И в конце, она осталась совсем одна.\
 
-`"After killing all the True Ancestors, she sealed herself up in the castle.@ In the empty castle of the True Ancestors, bound with a thousand chains.@
-` Whenever Roa is reborn, she awakens from her sleep and moves around for a short time."\
-
-br
-br
-br
-br
-br
-br
-` In the middle of that fixed world,
-` She never said a single word.\
-
-`"That's why she is a killer down to her very core.@
-` Even though the True Ancestors which bound her are now gone, she still wanders around with the sole purpose of killing vampires.@
-` She probably does not have any other fun."\
+` - Убив всех Истинных Предков, она заточила себя в замке.@ В пустом замке Истинных Предков, она оставалсь скованая тысячей цепей.@
+` Когда же возрождается Роа, она ненадолго просыпается ото сна и выходит в мир.\
 
 br
 br
@@ -874,48 +862,61 @@ br
 br
 br
 br
-` That's... a lie.@
-` That's not what made her happy.\
+` В этом застывшем мире,
+` Она никогда не произнесла ни слова.\
+
+` - И поэтому она — убийца до самой глубины своей сути.@
+` Хотя Истинных Предков, сковывашвих её, давно нет, она продолжает скитаться лишь чтобы убивать вампиров.@
+` Ничто другое её наверное не забавляет.\
+
+br
+br
+br
+br
+br
+br
+` Это... неправда.@
+` Ей не это нравилось.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
 
-`"----"@
+` - ...@
 br
-` I wasn't... watching anything.@
+` Я... смотрел, но ничего не видел.@
 br
-`"----it."@
+` - … это.@
 br
-` Like her words, or her happy face.@
-` If only I looked closer----I would have known.\
+` Как её слова, или её счастливое лицо.@
+` Если бы я смотрел внимательней — я бы понял.\
 
-`"-----of it."@
+` - … всё это.@
 br
-` I never realized how alone she was until now.@
+` Я никогда не понимал, как она была одинока.@
 br
-` All the things we feel and take for granted.@
-` Such as talking with a friend about meaningless things or the fun that lets you forget time.@
+` Всё то, что мы примаем как должное.@
+` Бессмыссленная болтовня с друзьями, или забава, позволяющая убить время.@
 br
-` At the end of a day, lying down on a bed and the peacefulness of just staring at the ceiling.\
+` И в конце дня, просто повалиться на кровать и мирно смотреть в потолок.\
 
 br
 br
 br
 br
 br
-` To her, those unimportant things were priceless moments of happiness.\
+` Для неё, все эти мелочи были бесценными моментами счастья.\
 
-`"-----all of it."@
+` - … всё это.@
 br
-` What is misery?@ It's her not even knowing how miserable she is.@
+` Что есть несчастье?@ Для неё, это даже не понимать насколько она несчастна.@
 br
-` Such a terrible--almost comical solitude should not exist.\
+` Такое ужасное... почти комичное одиночество не должно существовать.\
 
-`"------Lies, all of it."@
+` - Ложь, всё это.@
 br
-` ...... Enough with all these difficult things.@
-` I never knew she felt such happiness from trivial things.@
-` If I could let her know that such things were things she could always enjoy, that would have been such a great----\
+` Хватит этих сложностей.@
+` Я никогда не понимал, как ей нравятся эти простые мелочи.@
+` Если бы я мог показать ей, что этими мелоачми она может наслаждаться всегда, это было бы так...\
 
 !w2000
 
@@ -925,44 +926,44 @@ bg "image\bg\bg_29b.jpg",%type_crossfade_slw
 ; ?<?>=???:??02(?????????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"Tohno-kun----?"@
-` Her voice returns my vision to normal.@
-`"What's wrong?@ You suddenly went quiet and spaced out.@ Were you listening?"@
-`"No---sorry, I don't remember.@ I heard you speaking, but it felt like someone else was talking."@
-` Senpai nods doubtfully.\
+` - Тоно-кун?@
+` Её голос возвращает меня в реальность.@
+` - Что случилось?@ Ты вдруг притих и стал смотреть в одну точку.@ Ты слушал?@
+` - Нет... прости, я не помню.@ Я слышал что ты говорила, но это словно говорил кто-то другой.@
+` Сенпай с сомнением кивает.\
 
-`"Um, in other words, she----"@
-`"It's okay.@ I don't care what she did or what she's like.@
-` I can't leave her alone any longer, so I'll be going."@
+` - Эм, иными словами, она...@
+` - Не страшно.@ Мне всё равно что она делала или какая она на самом деле.@
+` Я не могу и дальше оставлять её одну, так что я пошёл.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
-` Turning away from Senpai, I start to walk towards the city.\
+` Развернувшись от Сенпай, я направляюсь в город.\
 
-`"---Tohno-kun.@ Once a True Ancestor fails to suppress the vampiric impulse, there is no hope for recovery.@ If she appears in front of you, it means she came to drink your blood."@
+` - Тоно-кун.@ Для Истинного Предка, не сумешвго сдержать вампирский импульс, нет надежды на выздоровление.@ Если она снова появится перед тобой, это значит она собирается выпить твоей крови.@
 br
-` I think what she says is the truth for her.@
-` But it's a different truth than mine.\
+` Я думаю, что эти слова — правда для неё.@
+` Но это не моя правда.\
 
-`"That's not true.@ Because she hasn't drunk blood yet."@
-`"No.@ If I had not have stopped her, she would have drunk your blood."@
-`"...... You're wrong, because she stopped.@ Arcueid was fine.@ That's why even if you didn't stop her, the result would have been the same."\
+` - Это не так.@ Потому что она ещё не пила крови.@
+` - Нет.@ Если бы я не остановила её, она бы выпила твоей крови.@
+` - Ты ошибаешься, потому что она остановилась.@ Арквейд сумела сдержаться.@ Поэтому даже если бы ты не остановила её, исход был бы тем же.\
 
 br
 br
-` Yes, certainly.@
-` She stopped right then.\
+` Да, определённо.@
+` Она остановилась тогда.\
 
 
-`"...... So you're going to be on her side no matter what, Tohno-kun?"@
-`"Yeah.@ Sorry, Senpai."@
-` Senpai doesn't answer.@
-` I think I hear her sigh.\
+` - Тоно-кун, значит, ты собираешься быть на её стороне несмотря ни на что?@
+` - Ага.@ Прости, Сенпай.@
+` Сенпай ничего не говорит.@
+` Каежтся, я слышал как она вздохнула.\
 
-`"---We may end up fighting, you know."@
-`"Maybe.@ But, I won't apologize, Senpai."@
-`"..............."@
-` There's no response from Senpai.@ Just her presence getting farther away.@
-` Disappearing footsteps.@ Without turning around, I head towards town, shrouded by night.\
+` - Нам ведь возможно придётся сразиться.@
+` - Может быть.@ Но Сенпай, я не стану извиняться.@
+` - ...@
+` Ответа нет.@ Только её присутствие отдаляется.@
+` Исчезающие шаги.@ Не оглядываясь, я ухожу в окутаный тьмой город.\
 
 
 ; ???<?????(?)>
@@ -975,20 +976,20 @@ playstop
 bg "image\bg\bg_25b.jpg",%type_lcartain_slw
 
 
-` ---There's no one on the main street.@
-` Not Arcueid, not even just regular people.@
-`"Damn------"@
-` This is the same as last night.@
-` I don't have any way of finding her.@
-` Right now, even though I want to see her so badly, I don't have any means.@
+` На главной улице никого нет.@
+` Ни Арквейд, ни обычных людей.@
+` - Чёрт...@
+` Это в точности как вчера.@
+` У меня нет возможности её отыскать.@
+` Сейчас, хоть я и так сильно хочу её увидеть, я не могу этого сделать.@
 br
 
-` ---She,
-` Even though she's in so much pain, I can't help her, at all----\
+`     Она,
+` Даже когда её так больно, я не могу ей помочь, совсем...\
 
-`"----Damn it!"@
-` I'm so irritated, it drives me nuts.@
-` Somehow---I have to find her somehow, or else I can't move forward---
+` - Проклятье!@
+` Я так злюсь, это меня с ума сводит.@
+` Как-нибудь... я должен хоть как-нибудь её отыскать, иначе я жить дальшен е смогу...
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -1006,26 +1007,24 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 ; ??B(?)<???????(?)>
 bg "image\bg\bg_29b.jpg",%type_crossfade_mid
 
-` I gasp painfully.@
-` Even though I ran all through the city, I don't see her.@
-` My body is exhausted, and I can't get enough air.@
-` I breathe harder.@
-` The scar on my chest throbs with my heartbeat.@
-` Until now---I've never hated this fragile body this much.\
+` Я тяжело дышу.@
+` Хоть я и оббегал весь город, я нигде её не видел.@
+` Моё тело измождено, и мне нехзватает воздуха.@
+` Я дышу всё тяжелее.@
+` Шрам у меня на груди пульсирует в такт моему сердцебиениею.@
+` Раньше... никогда раньше я не ненавидел своё хрупкое тело так сильно.\
 
-` I hungrily breathe in air.@
-` ...... I can't find her.@
-` I won't find her just running around aimlessly like this.@
-` I struggle for breath.@
-` If, if I have any chance of finding her, it would be---
+` Я хватаю ртом воздух.@
+` Я не могу её найти...@
+` У меня не получится её отыскать если я буду бесцельно бегать по округе.@
+` Я пытаюсь отдышаться.@
+` Если, если где-то её можно найти, это...
 br
 
 
 
 return
 
-
-</pre>
 
 [[Tsukihime|[Назад]]]
 
