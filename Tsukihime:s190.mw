@@ -7,52 +7,52 @@
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-` ----I'll check in the alley she was in last night.@
-` If she's running away from people, that's the only place I can think of.\
+` Я проверю во вчерашнем переулке.@
+` Если она пытается сбежать от людей, я не знаю где ей ещё быть.\
 
 ; ???2(?)<?????(?)>
 bg "image\bg\bg_30b.jpg",%type_lcartain_mid
 
 
-` I still have no control over my breathing.@
-` I run with all my strength from the park.@
-` My heart screams from overexertion.@
-` Ignoring it, I continue to run to find her as soon as possible.\
+` Я всё никак не могу совладать со своим дыханием.@
+` Изо всех сил я бегу из парка.@
+` Моё сердце кричит от перенапряженя.@
+` Не обращая на него внимания, я продолдаю бежать чтобы найти её как можно скорее.\
 
 ; ???1(?)<?????(?)>
 bg "image\bg\bg_31b.jpg",%type_lcartain_mid
 
-`"----Arcueid!"@
-` As soon as I get to the alley, I call out her name.@
-`"You're here, aren't you?@ Come out, Arcueid......!"@
-` Under the moonlight, my solitary voice echoes in the alley.@
-`"...... Arcueid......!@ Please, come out......!"\
+` - Арквейд!@
+` Как только я прибегаю в переулок, я зову её по имени.@
+` - Ты ведь здесь?@ Выходи, Арквейд!@
+` Под лунным светом, по переулку эхом разносится моё одинокий голос.@
+` - Арквейд!..@ Прошу тебя, выходи!\
 
 br
 br
 br
 br
 br
-` ...... There's no response.@
-` There's only an empty loneliness here.\
+` Ответа нет.@
+` Здесь нет ничего, кроме пустого одиночества...\
 
-`"Damn............!"@
-` Arcueid isn't here.@
-` Then where else is there?@
+` - Чёрт!..@
+` Арквейд здесь нет.@
+` Тогда где ещё искать?@
 br
-` I can't find her running around aimlessly.@
-` At this rate I'll never----never see her again.\
+` Я не смогу её найти если буду бесцельно бегать по городу.@
+` Такими темпами я никогда... никогда её не увижу.\
 
-`"------"@
-` No, I'm not done yet.@
-` I still haven't fulfilled my promise with Arcueid.@
+` - ...@
+` Нет, я ещё не закончил.@
+` Я всё ещё не выполнил своё обещание Арквейд.@
 br
-` The promise to help her defeat the vampire, and the promise to meet tonight so we can fight together.\
+` Обещание помочь ей победить вампира, и обещание встретиться сегодня чтобы мы могли сражаться вместе.\
 
 
-`"...... Pro...... mise......"@
-` ...... That's right.@ There's still our promise.@
-` Even if it's just one-sided, I----even if it's just me, I'll fulfill our promise.\
+` - Обе... щание...@
+` Да, точно...@ Ещё осталось наше обещание.@
+` Пусть это и не взаимно — пусть это надо только мне, я выполню наше обещание.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -60,15 +60,15 @@ bg "image\bg\ima_10.jpg",%type_lcartain_slw
 bg "image\bg\bg_29b.jpg",%type_lcartain_slw
 
 
-` I return to the park.@
-` Our promise still remains here.@
-` Our unfulfilled promise for tonight remains here.@
+` Я возвращаюсь в парк.@
+` Наше обещание всё ещё остаётся здесь.@
+` Наше невыполненное обещание на сегодня осталось здесь.@
 br
-` ----So,
-` If I can't break this promise, and if she thinks it's important too,
+`    И потому,
+` Раз я не могу нарушить это обещание, и если она тоже считает его важным,
 br
-` Arcueid will come back here.@
-` I can only continue to believe in her and wait here.\
+` Арквейд придёт сюда.@
+` Я могу только продолжать верить в неё и ждать здесь.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -76,6 +76,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
 return
+
 
 
 </pre>
