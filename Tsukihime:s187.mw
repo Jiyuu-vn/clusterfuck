@@ -7,26 +7,26 @@
 ; ??B(?)<??????(?)>
 bg "image\bg\bg_29b.jpg",%type_lshutter_fst
 
-` ......... The clock's hands point to twelve.@
-` It's two hours past the promised time.@
-`"---Whew."@
-` I slouch on the bench and sigh.@
-`"...... She might not come after all."@
-` I don't know.@
-` I don't know, but I don't feel like going back.@
-`"---Yeah, I'll wait until the morning.@ Damn it."@
-`  I lie on the bench in frustration.@
+` Стрелки часов показывают на двенадцать.@
+` Прошло уже два часа после назначеного времени.@
+` - Фух.@
+` Я вздыхаю, развалившись на лавочке.@
+` - Она может и не прийти...@
+` Я не знаю.@
+` Я не знаю, но возвращаться мне не хочется.@
+` - Да, я буду ждать до утра.@ Мать его за ногу.@
+`  Разозлившись, я укладываюсь на лавку.@
 br
-` ----And then.\
+` И затем.\
 
-`"......... Huh?"@
-` Wait a minute.@
-` I think I saw a flash of white behind the rest area.@
-` ...... Besides, it moves back as soon as I saw it.\
+` - А?..@
+` Погодите-ка.@
+` Кажется, я увидел что-то белое за игровой площадкой...@
+` Кроме того, оно спряталось как только я его заметил.\
 
-`"------"@
-` I stand up from the bench and stride towards the rest area.@
-` ...... As if it knew it couldn't hide anymore, the white figure shows its face.@
+` - ...@
+` Я встаю с лавки и иду к игровой площадке.@
+` Словно поняв, что дальше прятаться бесполезно, белая фигура выходит из укрытия.@
 br
 ; ??<?>=??????:?01(?????)<??????(?)>
 ld c,":a;image\tachi\ark_t08.jpg",%type_lshutter_fst
@@ -34,144 +34,145 @@ ld c,":a;image\tachi\ark_t08.jpg",%type_lshutter_fst
 ;CD-DA??????
 play "*3"
 
-`"Ahaha, you found me~"@
-` Arcueid appears more cheerfully than ever.\
+` - Ахаха, ты меня нашёл~@
+` Арквейд выглядит ещё более жизнерадостно чем обычно.\
 
-`"Arcueid, you---"@
-`"Hm?@ What?"@
-`"---You really came?"@
-` I blurt that out because I still can't believe it.@
+` - Арквейд, ты...@
+` - Хм?@ Что?@
+` - ...Ты правда пришла?@
+` Я выпаливаю это не подумав потому что до сих пор не могу в это поверить.@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t04.jpg",%type_crossfade_fst
 
-`"Of course, we promised.@ I came about ten minutes before you did."@
-` She looks the other way.@
-`"...... Ten minutes before, but, I---"@
-` I came before ten o'clock, and she came earlier?\
+` - Конечно, мы же договаривались.@ Я пришла примерно за десять минут до тебя.@
+` Она смотрит в сторону.@
+` - За десять минут, но я...@
+` Я пришёл когда не было ещё и десяти, но она пришла раньше?\
 
-`"Why......?@ If you were here before me, why didn't you tell me you were waiting there?"@
+` - Почему?..@ Если ты пришла раньше меня, почему не сказала что уже здесь?@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t03.jpg",%type_crossfade_fst
 
-`"I wanted to watch you while I was hiding."@
-`"-----"@
-` ...... I see.@
-` Even though she doesn't act any different, she must be bothered by what happened last night.@
-` That's why----she couldn't face me directly and was hiding.\
+` - Я хотела незаметно понаблюдать за тобой.@
+` - ...@
+` Понятно...@
+` Хоть она и ведёт себя как всегда, её должно беспокоить то, что случилось вчера.@
+` Вот почему... она не смогла просто выйти ко мне и спряталась.\
 
-`"...... Sorry.@ That's right, it's not that simple---"@
-`"Yeah.@ You never even knew I was here.@
-` I was waiting for you to notice.@
-` I was planning on meeting in a different way this time, but you ruined it by just spacing out."@
-`"----Eh?"@
+` - Прости.@ Верно, не всё так просто...@
+` - Ага.@ Ты даже и не заметил что я уже тут.@
+` Я ждала когда ты заметишь.@
+` Я планировала встретиться в этот раз немного иначе, но ты всё испортил когда стал сидеть и ничего не делать.@
+` - Э?@
 br
-` Ruined what?\
+` Испортил что?\
 
-`"Arcueid---you weren't hiding because you felt awkward......?"@
+` - Арквейд... ты не пряталась потому что чувствовала себя неловко?..@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t11.jpg",%type_crossfade_fst
 
-`"Why?@ I was a little bored so I wanted to play around."@
-` She says it lightly, not even knowing an inkling of the frustration I felt.@
-`"...... Play around with me, you---"@
+` - Почему?@ Мне было немного скучно и я решила поиграть.@
+` Беспечно говорит она, даже не подзоервая о моём раздражении.@
+` - Поиграть со мной, ты...@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
 
-` The joy I felt from meeting her fades away instantly.@
-` It's not a mood where I have to think about what I should do after seeing her.@
-` ...... As usual, she's acting at her own pace without even understanding how I feel.\
+` Радость встречи с ней тут же улетучилась.@
+` Все моё беспокойство о том, что теперь говорить, исчезло...@
+` Как обычно, она живёт на своей волне, даже не понимая что сейчас чувствую я.\
 
-`"-----Ha."@
-` I fill my lungs with a deep breath of night air.@
-` I'm less angry than surprised.@
-` Maybe I'm just relieved she is acting normally.@ Well, normal for her.@
-` As proof, it feels like my heart laden with impurities has just been cleaned anew.\
+` - Ха...@
+` Я вдыхаю полную грудь ночного воздуха.@
+` Я не столько зол, сколько удивлён.@
+` Может мне просто полегчало от того что она ведёт себя нормально.@ Ну, для неё нормально.@
+` Как доказательство, тучи, сгуствишеся в моём сердце полнстью рассеялись.\
 
-`"...... Man.@ You win."@
+` - Эх.@ Ты победила.@
 ; ??<?>=??????:?03(?????????)<????>
 ld c,":a;image\tachi\ark_t03.jpg",%type_nowaitdisp
 
-`"Really?@ I thought you were just zoned out."@
-`"No, not about the hide-and-go-seek."@
-` ...... Oh well, it's useless putting it into words.\
+` - Правда?@ Я думала ты просто замечтался.@
+` - Нет, я не про прятки.@
+br
+` А, это бесполезно пытаться сказать словами.\
 
-`"I'm glad you came.@ To be honest, I thought I'd never see you again."@
+` - Я рад что ты пришла.@ Честно говоря, я думал что больше никогда тебя не увижу.@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t12.jpg",%type_crossfade_fst
-`"---Eh?@ You thought so after only waiting two hours?"@
-`"...... That's not it.@ It's because of last night.@ I thought we would never meet again."@
+` - Э?@ Ты думал это только потому что прождал два часа?@
+` - Нет, не потому...@ Это из-за вчерашней ночи.@ Я думал что мы никогда больше не встретимся.@
 
 ;CD-DA??
 playstop
 
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"----"\
+` - ...\
 
 ;CD-DA????????
 play "*5"
 
-`"...... That won't do, Shiki.@ I said to just forget about it."@
-` Arcueid says this weakly.@
+` - Не надо, Шики.@ Я же говорила просто забыть об этом.@
+` Слабым голосом говорит Арквейд.@
 cl c,%type_crossfade_fst
 
-`"Ah-----"@
-` ...... Idiot.@
-` I am such an idiot.@
-` I selfishly thought she was acting completely normal.@
-` But, I was wrong.@
-` She was acting that way so I wouldn't feel bad.\
+` - А...@
+` ...идиот.@
+` Какой же я идиот.@
+` Я эгоистично решил что она ведёт себя совершенно нормально.@
+` Но, я ошибся.@
+` Она вела себя так чтобы я не чувствовал себя плохо.\
 
-`"...... Sorry.@ I was an idiot.@ I don't have any right to yell at you anymore."@
+` - Прости...@ Я был идиотом.@ У меня больше нет права на тебя кричать.@
 
 ld c,":a;image\tachi\ark_t10.jpg",%type_crossfade_fst
 
-`"I said it's okay.@ If anyone is to blame, it's me.@ So just forget about it.@ Isn't that better for the both of us?"@
-` She tries to fool us both by speaking cheerfully.@
-` Fool us about last night, fool us about how bothered she is.@
-` But.@
-` Telling me to forget with that expression, how can I forget?\
+` - Я же сказала что всё нормально.@ Если кто-то и виноват, то это я.@ Так что просто забужь об этом.@ Разве так не будет лучше для нас обоих?@
+` Она пыталась обмануть нас обоих весёлыми словами.@
+` Обмануть про вчерашнее, обмануть про то, как её трудно.@
+` Но.@
+` Когда она говорит мне забыть с таким лицом, как я могу забыть?\
 
-`"---No.@ I wasn't apologizing for last night.@ I'm an idiot because I can't forget about something I should forget."@
-`"Eh---Shiki?"@
-`"Since this morning, all I thought about was you.@ All I could think about was how I should apologize to you and what to say after I saw you.@
-` So, I can't---just forget about it now."\
+` - Нет.@ Я извинялся не за вчерашнее.@ Я ижиот потому что не могу забыть того, что следует забыть.@
+` - Э — Шики?@
+` - С самого утра я думал только о тебе.@ Я думал только о том, как перед тобой извиниться, и что сказать когда я тебя встречу.@
+` И потому, сейчас... я не могу просто забыть.\
 
 ld c,":a;image\tachi\ark_t17.jpg",%type_crossfade_fst
 
-`"----"@
-` Arcueid looks away.@
-` I---can't look at her either.@ After sensing I said something I shouldn't have, I can't look into her eyes now.\
+` - ...@
+` Арквейд смотрит куда-то в сторону.@
+` Я... тоже не могу  на неё посмотреть.@ Почувствовав, что я сказал что-то, что говорить не следовало, я уже не могу посмотреть её в глаза.\
 
-` She doesn't respond.@
-` I can't either, and a long silence begins.@
+` Она не отвечает.@
+` Я тоже не могу ответить, и воцаряется долгое молчание.@
 
 br
-` ---I don't know how long the two of us stood there.@
+`     Я не знаю сколько мы так простояли.@
 br
-` Arcueid nods slightly.\
+` Арквейд слегка кивает.\
 
-`"...... Yeah, to tell the truth.@
+` - Да, сказать по правде.@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t14.jpg",%type_crossfade_fst
 
-` I couldn't forget about it either, Shiki."@
-` Arcueid blushes as she says this with some difficulty.@
-`"Arcueid----"@
-` She looks so cute doing that.@
+` Шики, я тоже не могла про это забыть.@
+` Покраснев и немного запинаясь, говорит Арквейд.@
+` - Арквейд...@
+` Она выглядит при этом такой очаровательной.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
-` As soon as I think that---Arcueid looks around her.@
+` Едва я успеваю это подумать — Арквейд оглядывется по сторонам.@
 br
-` I don't know when this happened, but we're surrounded by human shapes.\
+` Не знаю когда это случилось, но нас окружили человеческие фигуры.\
 
 ;CD-DA??
 playstop
 
-`"Wha.........!?"@
-` I can't think since it was so sudden.@
+` - Что...?!@
+` Это так неожиданно что я ничего не соображаю.@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 
@@ -179,90 +180,91 @@ ld c,":a;image\tachi\ark_t07.jpg",%type_crossfade_fst
 play "*6"
 
 
-`"We're surrounded.@ Get ready Shiki.@ If you don't fight, you'll just die."@
-`"Fight?@ Then they---"@
-`"If you take off your glasses, you'll get it, won't you?@ They are 'The Dead' without even a finger's worth of normal blood."@
-`"............!"@
-` I quickly take out my knife and take off my glasses.\
+` - Мы окружены.@ Приготовся, Шики.@ Если ты не будешь драться, то умрёшь.@
+` - Драться?@ Значит это...@
+` - Ты поймёшь если снимешь очки, не так ли?@ Это «Мёртвые», в них ни капли нормальной крови.@
+` - !@
+` Я быстро достаю нож и снимаю очки.\
 
 ; ??B(?????)<???????(?)>
 bg "image\bg\bg_29c.jpg",%type_crossfade_mid
 
-` Like she says,
-` The five people surrounding us are just scribbled lines making a human shape.\
+` Как она и сказала,
+` Пятеро окруживших нас людей выглядят словно скопления иний и каракулей в форме человека.\
 
-`"Why---!?@ You said you killed them all yesterday, Arcueid!"@
+` - Почему?!.@ Арквейд, ты же сказала что убила всех вчера!@
 ; ??<?>=??????:?04(????????????)<???????(?)>
 ld c,":a;image\tachi\ark_t05c.jpg",%type_crossfade_fst
-`"---Yes.@ These are the ones I destroyed yesterday."@
-` She narrows her eyes and glares at them.@
-` They advance sluggishly.\
+` - Да.@ Это те самые кого я уничтожила вчера.@
+` Сузив глаза, она оглядывает их.@
+` Они неуклюже наступают.\
 
-`"Then were they only pretending to be dead......!?"@
-`"Of course not.@ I'm not weakened enough to be fooled by such tricks.@ ...... But, the fact that I made a mistake can't be excused.@ I didn't make sure they dissolved into ashes at the end."@
+` - Так значит они только притворялись мёртвыми?!@
+` - Конечно нет.@ Я не настолько ослабла что меня можно обмануть такими фокусами.@ Но  тот факт, что я освершила ошибку, нельзя оправдать...@ Я не убедилась что они рассыпались в пепел.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 br
-` Shuffle.@
-` They close the circle around us.@
-` My fingers grasping my knife tremble a bit.\
+` Шорох.@
+` Они берут нас в кольцо.@
+` Мои пальцы, сжимающие нож, немного дрожат.\
 
-` To be blunt, there's no pressure coming from these Dead.@
-` Compared to a monster like Nrvnqsr, they're practically nothing.@
+` Если говорить прямо, от Мёртвых не исходит никакого давления.@
+` По сравнению с чудовищем вроде Нрвнксра, они практически ничто.@
 br
-` ---But, five of them.@
-` Can I fight this many Dead---this many things who were once human?\
+`     Но, их пятеро.@
+` Смогу ли я сражаться против стольки Мёртвых — против стольки существо, которые раньше были людьми?\
 
-`"--Shiki, if you hesitate you'll die.@ They are no longer alive.@ Once they have their blood sucked by a vampire and become The Dead, they can no longer return--they are just dolls used by the vampire.@ There's no sin in killing them."@
-` I hear her voice from behind me.@
-` It seems she moved to protect my vulnerable back.\
+` - Шики, если ты будешь колебаться, умрёшь.@ Они уже не живые.@ Когда вампир выпивает у них кровь и превращает их в Мёртвых, они уже не могут снова стать людьми — они лишь куклы, которых использует вампир.@ В том чтобы убить их, нет греха.@
+` Я слышу её голос у меня за спиной.@
+` Похоже что она переместилась чтобы прикрыть мою уязвимую спину.\
 
-`"Wait.@ What do you mean?"@
-`"...... I mean there are many ways to magically control a dead body.@ It's easier to infuse a human corpse with mana than animals or intangible objects, so it's very convenient---unfortunately, I don't have time to go over the details.@
-` They're coming."@
-` I sense her moving away.@
-` At the same time, they attack.\
+` - Подожди.@ Что ты имеешь ввиду?@
+` - Я хочу сказать, что существует множество магических способов управлять мёртвым телом.@ В человеческий труп проще передать часть маны, чем в животное или в нематериаьные объекты, поэтому это очень удобно — к сожалению, у меня нет времени вдаваться в детали.@
+` Они нападают.@
+br
+` Я чувствую, как она отходит.@
+` И в то же время, они бросаются в атаку.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-` The shapes of death attack.@
-` They simply fly forward, arms outstretched.@
-`"----K!"@
-` I take a huge leap to the side and evade their attack.@
-` Then, I sense something terrible behind me.\
+` Тени смерти нападают.@
+` Они просто бросаются вперёд с вытянутыми руками.@
+` - К!..@
+` Я резко отскакиваю в сторону и избегаю их атаки.@
+` Затем, я чувствую что-то ужасное у себя за спиной.\
 
-`"Why---you......!"@
-` I whirl around with all my strength.@
-` There, one of The Dead is trying to punch me.@
+` - Ах... ты!..@
+` Изо всех сил я резко оборачиваюсь.@
+` Там, один из Мёртвых пытается меня ударить.@
 
 ; ??<?>=?????:?????????<???????(?)>
 ld c,":a;image\tachi\man_t03.jpg",%type_crossfade_fst
 
 br
-` ----The Dead's body is almost devoid of places without "lines".@
-` Which lets me slice anywhere on it's body.@
-` What's more, it's movements are incredibly sluggish.@
-` Far easier than anything that came out of Nrvnqsr.\
+` На теле Мёртвого почти нет мест, где не было бы «линий».@
+` Что позволяет мне рубить как угодно.@
+` Кроме того, его движения невероятно неуклюжи.@
+` Он куда менее опасен чем существа, которых на меня спускал Нрвнкср.\
 
-`"------"@
-` The Dead charge me.@
-` I can kill them with ease.@
+` - ...@
+` Мёртвые несутся на меня.@
+` Я без труда могу их убить.@
 br
-` Evading the swinging arm, I aim for the first one's unprotected lower left abdomen.@
+` Увернувшись от выброшеной в меня руки, я целюсь в незащищённую левую нижнюю часть живота первого из них.@
 br
-` In the "line" of blood vessels there.@
-` I stare at the heart called its "point"----
+` На «линии»-кровеносном сосуде.@
+` Я вижу его «точку»-сердце...
 br
-`"Damn---it......!!!!"@
-` Thrash.@
-` The knife doesn't reach it's target, only slicing through its upraised arm.\
+` - Чтоб... тебя!!!@
+` Вжих.@
+` Нож не достигает своей цели, вместо этого только отрубива его вытянутую руку.\
 
-` The one-armed Dead doesn't even pause its attack.@
-` The other Dead also comes in showing no fear.@
+` Однорукий Мёртвый даже не останавливается.@
+` Другой Мёртвый, тоже не проявляя ни малейшего страха, приближается ко мне.@
 br
-` The one-armed Dead attacks.@
-` Right when I evade that Dead, the other Dead jumps on me from behind.\
+` Однорукий Мёртвый нападает.@
+` Как только я уворачиваюсь от него, другой Мёртвый прыгает на меня сзади.\
 
 ; ????(??????)<???????(?)>
 bg "image\bg\ima_13.jpg",%type_crossfade_fst
@@ -273,112 +275,113 @@ wave se9
 quakex 2,100
 
 
-`"Ah----"@
-` Grind.@
-` From behind, like a piggy-back stance.@
-` The Dead bites on my neck.@
-` Not to suck my blood or anything like that.@
-` Just like a beast trying to kill its prey by biting its neck off.\
+` - А...@
+` Клац.@
+` Сзади, забравшись мне на спину.@
+` Мёртвый кусает меня в шею.@
+` Не для того чтобы выпить мою кровь или что-то в этом роде.@
+` Просто пытаясь перегрызть мне шею, словно животное.\
 
-`"Gah----!"@
-` Is a neck able to be bitten off by human mouth?@
-` The Dead's mouth is shallow.@ It bites with its front teeth rather than its back.@
-` As a result, The Dead's teeth actually break off.@
-` Even still---it tries to bite through my neck with its flat mouth.@
+` - Гха!..@
+` Можно ли вообще перегрызть шею человеческими зубами?@
+` Рот Мёртвого неглубокий.@ Он кусает меня передними, а не задними зубами.@
+` В результате его зубы просто выламываются.@
+` Но всё равно — он пытается перегрызть мне шею одними дёснами.@
 br
-` It doesn't really hurt.@
-` It's just disgusting.\
+` Мне даже не особо больно.@
+` Это только отвратительно.\
 
-`"Ah...... ah, ah---"@
-` The one-armed dead walks toward me.@
-` I have to kill The Dead behind me or I'll die.@
-` The method is simple.@
-` As it tries to continue biting my neck, I can just slice my knife through its face.\
+` - А... а, аа...@
+` Однорукий Мёртвый приближается ко мне.@
+` Я должен убить Мёртвого у меня за спиной или я умру.@
+` Метод прост.@
+` Пока он продолжает меня кусать, я могу просто рубануть его по лицу.\
 
-`"------"@
-` But---that means I am going to kill.@
-` I understand.@
-` They aren't human, they aren't even living---but I still feel it's wrong.\
+` - ...@
+` Но... это означает что я убью.@
+` Я понимаю.@
+` Они не люди, они даже не живые... но мне всё равно кажется это неправильным.\
 br
 br
 br
 br
-` ---How naive.@
-` Even if they are corpses.@
-` They have the shapes of humans, and they move like them.@
-` It still seems mistaken to kill them as another human being----\
+`      Как наивно.@
+` Хоть это и на самом деле трупы.@
+` Они выглядят как люди, они движутся как люди.@
+` Мне всё равно кажется неправильным убивать себе подобных...\
 
-`"Shiki---!?"@
-` I hear Arcueid's voice as she deals with the other three Dead.@
-` Without thinking, despite the one in front of me, I look over at her.@
+` - Шики?!@
+` Я слышу голос Арквейд, которая была занята тремя другими Мёртвыми.@
+` Машинально, несмотря на Мёртвого передо мной, я поворачиваюсь к ней.@
 br
-` ---And.@
-` I see something terribly unbelievable.\
+`    И@
+` Я вижу что-то совершенно невероятное.\
 
 ; ??B(?????)<????>
 bg "image\bg\bg_29c.jpg",%type_crossfade_fst
 ; ??<?>=??????:?????(??????????)<??????(?)>
 ld c,":a;image\tachi\ark_t15.jpg",%type_lshutter_fst
 
-`"-----"@
-` Arcueid is wounded.@
-` Even though they move so sluggishly and would only take her a second to kill, Arcueid is being pushed by those Dead.@
-` She breathes heavily.@
-` Her footwork is also unsteady---and she's having difficulty evading those attacks even I can evade.@
+` - ...@
+` Арквейд ранена.@
+` Несмотря на всю неуклюжесть их движений, несмотря на то что она могла бы убить их за секунду, они теснят Арквейд.@
+` Она тяжело дышит.@
+` Её перемещения тоже неуверенные — и она с трудом уворачичвается от атак, от которых могу увернться даже я.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
 \
 
 
-` The Dead rips into her arm.@
-` She counters.@
-` She tears the body in two from the head to its waist.@
-` Both halves crumble to the ground.@
+` Мёртвый полосует её по руке.@
+` Она контратакует.@
+` Она разрывает тело пополам от головы до поясницы.@
+` Обе половинки падают на землю и рассыпаются.@
 br
-` At the same time---the other waiting shades of death pounce on her.\
+` И в тот де момент — другие, выжидавшие тени смерти налетают на неё.\
 
 ; ??<?>=??????:??(?????)<????>
 ld c,":a;image\tachi\ark_t18.jpg",%type_nowaitdisp
 
-`"A---"@
-` With a crash she lands on her knees.@
-` I can tell she's breathing wildly from this distance.@
+` - А...@
+` С грохотом она падает на колени.@
+` Даже отсюда я могу понять, как тяжело она дышит.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
 
-` There---the two Dead attack.\
-` They kick her kneeling figure in the face and makes her collapse on the ground.@
+` Затем... двоё Мёртвых нападают.\
+` Прежде чем она поднялась с колен, они бьют её ногой в лицо, и она падает на землю.@
 br
-`"St---"@
+` - Пре...@
 br
-` After that,
-` they carry a dull, expressionless smile as they get on top of her.\
+` Затем,
+` тупо, невыразительно улыбаясь они залезают на неё сверху.\
 
-`"Stop---"@
+` - Прекратите...@
 br
-` ...... She lies there arms outspread like a cross.@
-` Like when I did those disgraceful things to her last night.@
+` Она лежит на земле с раскинутыми руками, словно распятая.@
+` Как вчера ночью, когда я делал с ней те позорные вещи.@
 br
-`"Stop it, you fucking bastards---!"\
+` - Прекратите это, блядские уроды!\
+;Stop it, you fucking bastards---! - как по мне, в данном случае вполне уместно. Впрочем, если кто против — спорить не буду.
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ????<????>
 bg "image\bg\ima_14.jpg",%type_nowaitdisp
 
-` Stab.@
-` I cut through the face of the one behind me still trying to bite me.@
-` I pierce the lower right abdomen of the one in front of me which had strangely paused.@
-` That's where its "death" is.@
-` Not even looking at it as it crumbles away, I turn around and kill the faceless Dead behind me.\
+` Хрясь.@
+` Я полосую по лицу Мёртвого у меня на спине, который всё продолжал меня кусать.@
+` Я бью в нижнюю правую часть живота Мёртвого передо мной, который почему-то остановился.@
+` Там была его смерть.@
+` Даже не поглядев, как он рассыпается в пыль, я разворачиваюсь и убиваю безликого Мёртвого у меня за спиной.\
 
-` I run.@
-` The ones around her realize I'm coming and get up and attack.@
-`"-----"@
-` No problem.@
-` I slice through their "points" of death as they attack me.\
+` Я бегу.@
+` Насевшие на неё Мёртвые замечают меня и поднимаются и нападают.@
+` - ...@
+` Нет проблем.@
+` Я прорубаю их «точки» смерти когда они пытаются на меня напасть.\
 
 !w1000
 ;CD-DA??
@@ -387,60 +390,60 @@ playstop
 ; ??B(?)<??????(?)>
 bg "image\bg\bg_29b.jpg",%type_lshutter_fst
 
-`"Ha-----agh."@
-` After it's all over.@
-` I start to catch my breath.@
+` - Ха...агх.@
+` И всё закончилось.@
+` Я останавливаюсь чтобы перевсти дыхание.@
 br
-`"Gha---ah."@
-` The four figures crumble away into ash.@
-` The one Arcueid killed earlier makes five.\
+` - Гхааа...а.@
+` Четыре тела рассыпаются в прах.@
+` Вместе с тем, кого убила Арквейд, это получается пять.\
 
-`"Ha--aah."@
-` Killed.@ Without hesitating, I stopped them completely.@
+` - Хаа...аа.@
+` Убил.@ Без колебания, я полностью их уничтожил.@
 br
-`"Agh, ah."@
-` I can't think clearly.@ Probably because regret and self-admonition are screaming at me.\
+` - Агх, а.@
+` Я не могу нормально соображаться.@ Наверное потому что сожаление и угрызения совести снедают меня.\
 
-` My panting fills the air.@
-` But, it's still good.@
-` It's better than her getting hurt.@
-` For the first time,
-` With my own free will, with the mind of Tohno Shiki---I used this power for someone else's sake.@
+` Моё тяжёлое дызание раздаётся в ночном воздухе.@
+` Но, это всё равно хорошо.@
+` Это лучше, чем дать ей пострадать.@
+` Впервые,
+` По своей собственной свободной воле, в здравом уме, как Тоно Шики — я использовал эту силу ради кого-то ещё.@
 br
-` I keep panting.@
-` I can't seem to fully catch my breath.@
-` I can hear slight wheezing mixed in with the wild breathing.\
+` Я тяжёло дышу.@
+` У меня всё никак не получается отдышаться.@
+` Сквозь мою одышку, до меня доноситя едва слышное хриплое дыхание.\
 
-`"...... Arcueid."@
-` Turning around, I see her full of pain and on her knees.@
+` - Арквейд.@
+` Развернувшись, я вижу как она сидит на коленях, скривишись от боли.@
 br
-`"Are you okay, Arcueid......!?"@
-` I dash towards her.@
-` She's curled up as she breathes like something who can do nothing else.\
+` - Ты в порядке, Арквейд?!@
+` Я подбегаю к ней.@
+` Свернувшись в комочек, она не двигается и только дышит, словно бы ни на что другое она сейчас не способна.\
 
-`"What's wrong, you're covered in sweat.@ Did your wound open up......?"@
-` I kneel and try to look at her face.@
+` - Что случилось, ты вся покрыта потом.@ У тебя рана открылась?..@
+` Присев на корточки, я старюсь заглянуть е йв лицо.@
 ; ??<?>=??????:??03(02?????????)<???????(?)>
 ld c,":a;image\tachi\ark_t20.jpg",%type_crossfade_fst
 
-`"Shi----ki."@
-` However, she has a hand covering it.@
-` I can't see her face.@
-` All I can see---is the blood-shot red eyes through her fingers.\
+` - Ши...ки.@
+` Но, она прикрывает его рукой.@
+` Я не вижу её лица.@
+` Всё что я вижу — это её налитые кровью красные глаза, глядящие сквозь её пальцы.\
 
-`"---"@
-` Her suffering isn't normal.@
-` The way she's breathing intermittently isn't natural.@
-` A hungry breath.@
-` Bloodshot eyes.@
-` Her waving hair.\
+` - ...@
+` Её муки не нормальны.@
+` Её прерывистое дыхание не естественно.@
+` Голодное дыхание.@
+` Налитые кровью глаза.@
+` Её развевающиеся волосы.\
 
-`"Ar---c"@
+` - Ар...к@
 br
-` ----Chill.@
+`       Холод.@
 br
-` Sensing danger, I step back.@
-` Yet far faster than my movement is her teeth closing in to suck my blood.\
+` Почувствовав опасность, я отступаю.@
+` Но гораздо быстрее меня её зубы, приближающиеся чтобы выпить моей крови.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_11.jpg",%type_lshutter_fst
@@ -450,6 +453,8 @@ bg "image\bg\ima_11.jpg",%type_lshutter_fst
 
 
 return
+
+
 
 
 </pre>
