@@ -11,86 +11,86 @@ gosub *left_phase
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_slw
 
-` I wake up to the sound of Hisui's voice.@
-` Since then----after returning to the mansion, I must have made my way to my room somehow and slept.\
+` Я просыпаюсь под голос Хисуи.@
+` С тех пор — после того как я ернулся в поместье, я должно быть как-то добрался до своей комнаты и заснул.\
 
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"Shiki-sama, are you not feeling well?"@
-`"----No, I'm fine."@
-` Answering, I sit up in bed.@
+` - Шики-сама, вам нехорошо?@
+` - Нет, я в порядке.@
+` Усевшись на кровати, я отвечаю ей.@
 br
-` ...... I'm almost amazed at myself.@
-` I don't even feel like talking, but my body tries to start my day as always.\
+` Я почти удивляюсь сам себе.@
+` Мне даже говорить не хочется, но моё тело старается начать день как обычно.\
 
-`"Breakfast?@ I'll be down soon."@
+` - Завтрак?@ Сейчас спущусь.@
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
 
-`"......... Yes.@ I will be waiting."@
-` Looking as if she still wants to say something, Hisui leaves the room.@
-` I change my clothes and head to the sitting room.\
+` - ||Хорошо.@ Я буду ждать.@
+` Явно чего-то не высказав, Хисуи покидает комнату.@
+` Я переодеваюсь в свою одежду и направляюсь в гостиную.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
 ; ????(?)<?????(?)>
 bg "image\bg\bg_34a.jpg",%type_lcartain_slw
 
-` Akiha and Kohaku are there.@
-`"Morning."@
-` Giving my usual greeting, I go to the dining room.@
-` I eat breakfast and return to the sitting room.@
-` I sit on the sofa and stare at the clock.\
+` Акиха и Кохаку сидят там.@
+` - Доброе утро.@
+` Поздоровавшись как всегдя, я направляюсь в столовую.@
+` Позавтракав, я возвращаюсь в гостиную.@
+` Я усаживаюсь на диван и смотрю на часы.\
 
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
-`"...... Nii-san?@ Um, you know you have school today, right?"@
-`"Hm----?@ Yeah, that's right.@ I guess I should go to school."@
-` I forgot.@
-` I didn't feel like doing anything, and I thought I would keep living like this empty shell.\
+` - Нии-сан?@ Эм, ты ведь помнишь что у тебя сегодня школа, верно?@
+` - Хм?..@ Да, точно.@ Наверное надо идти в школу.@
+` Я и забыл.@
+` Мне не хотелось ничего делать, и я думал что я так и буду жить дальше пустой оболочкой.\
 
-`"...... I do have my life as Tohno Shiki.@ If I don't have anything to do, it won't hurt to go to school."@
-`"Nii-san......?"@
-` Akiha looks at me uneasily.@
+` - У меня ведь всё ещё осталась моя жизнь как Тоно Шики.@ Раз мне больше нечего делать, можно и в школу сходить.@
+` - Нии-сан?..@
+` Акиха с тревогой смотрит на меня.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 
-` ...... Speaking is just a pain.@
+` Разговаривать такая морока...@
 br
-` Without saying anything, I go to school.\
+` Ничего не говоря, я иду в школу.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 ; ??(?)<?????(?)>
 bg "image\bg\bg_06a.jpg",%type_lcartain_slw
 
-` Time passes by uneventfully.@
-` I emptily attend my lessons.@
-` The sound of the chalk.@
-` I mindlessly write down what's written on the board into my notes.@
+` Время проходит без происшествий.@
+` Я безжизненно сижу на уроках.@
+` Звук мела.@
+` Я бездумно записываю то, что написано на доске.@
 br
-` I look out the window into the rear courtyard.@
-` Of course there's no one there.\
+` Я выглядываю из кона на задний двор.@
+` Конечно же там никого нет.\
 
-`"------"@
-` ----What am I doing?@
-` Just calmly attending my lessons like this.@
-` Not searching for her and just returning to my normal life.\
+` - ...@
+` Что я делаю?..@
+` Просто сижу на уроках.@
+` Не ищё её, и просто возвращаюсь к своей нормальной жизни.\
 
-`"------"@
-` But, there's no way for me to search for Arcueid.@
-` Since she left on her own, there's probably no possibility of me finding her.@
+` - ...@
+` Но, сейчас у меня нет возможности искать Арквейд.@
+` Она ушла неведомо куда, и скорее всего мне не удастся её отыскать.@
 br
-` That's why...
-` I've really lost Arcueid---.\
+` Вот почему..
+` Я правда потерял Арквейд...\
 
 br
-` []*snap*@
+` []*щёлк*@
 br
-`"............"@
-` A sound comes from above my desk.@
-` ...... Ah, it's nothing.@
-` I was just gripping my mechanical pencil so hard that I snapped another one.\
+` - ...@
+` Звук раздаётся над моей партой...@
+` А, мелочь.@
+` Я так сильно сжимал механический карандаш что сломал его.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
@@ -101,22 +101,22 @@ bg "image\bg\bg_06a.jpg",%type_lshutter_mid
 wave se2
 
 
-` Classes end.@
-` In the commotion of the classroom, I still remain seated.@
+` Занятия заканчиваются.@
+` Среди шумного класса, я по прежнему не встаю со своего места.@
 br
-`"Tohno, can you come here for a moment?"@
-` My math teacher speaks up from the podium.@
-`"----Yes, what is it?"@
-` I respond and walk towards him.\
+` - Тоно, можно тебя на минуту?@
+` Мой учитель по математике зовёт меня с кафедры.@
+` - Да, что вы хотели?@
+` Ответив, я иду к нему.\
 
-`"Tohno, hasn't your recent behavior been a little wild?@ I have received information that you have been going out late at night.@ Does it ring a bell?"@
-`"...... Yes.@ These past few days, I had things to do in town at night."@
-`"----I see."@
-` My math teacher----well, my homeroom teacher as well----looks a bit concerned, then looks a little sorry.\
+` - Тоно, твоё поведение в последнее время было не слишком ли необузданным?@ Мне сообщили что ты бродил по улицам поздно ночью.@ Ничего не напоминает?@
+` - Да.@ В последние несколько дней у меня были дела в городе ночью.@
+` - Вот как.@
+` Мой учитель по математике — по совместительству, мой классный руководитель — выглядит немного озабочено, а затем немного виновато.\
 
-`"I know you're not the kind of student to goof off at night, but there have been concerns voiced by the faculty.@ It appears the head of the student council would like to speak to you.@
-` Because of that, please go to the student council room after school.@ Just consider yourself unlucky and bear with it."@
-` Saying goodbye, he leaves the classroom.\
+` - Я знаю что ты не из тех учеников, которые стали бы заниматься ночью неизвестно чем, но другие учителя обеспокоены этим.@ Похоже, с тобой хочет поговорить глава ученического совета.@
+` Поэтому, после занятий отправляйся в комнату совета.@ Просто считай что тебе не повезло и смирись с этим.@
+` Попрощавшись, он выходить из класса.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -125,53 +125,55 @@ bg "image\bg\ima_10.jpg",%type_lcartain_slw
 ; ?????(?)<?????(?)>
 bg "image\bg\bg_08a.jpg",%type_lcartain_slw
 
-` After school.@
-` I stop by the student council room, but the teacher isn't there.@
-` ...... Now that I remember, that teacher is also an adviser to the gymnastics team.@
-` He probably won't come until practice is over.\
+` После занятий.@
+` Я захожу в комнату ученического совета, но учителя там нет.@
+` Я вспоминаю, тот учитель также курирует спортивную команду...@
+` Он скорее всего не вернётся раньше конца тренировки.\
 
-`"------"@
-` I sit in my chair and wait faithfully.@
-`"............ Kk."@
-` I bite my lip.@
-` I know this isn't the time to be doing this.@
-` I know, but there's nothing I can do.\
+` - ...@
+` Я усаживаюсь на стул и прилежно жду.@
+` - Кк...@
+` Я прикусываю губу.@
+` Я знаю что сейчас не время для этого.@
+` Я знаю, но ничего не могу сделать.\
 
-` Outside the window, the sunset paints the sky vermillion.@
-` I can hear the voices of club members practicing outside and the students talking while going home.@
-` Within that, this classroom is the only quiet place.\
+` За окном закат окрасил небо в багрянец.@
+` Я слышу голоса членов секций которые вышли на тренировки, голоса учеников, возвращающихся домой.@
+` Рядом с этим, эта классная комната — единственное тихое место.\
 
-` ...... This makes me angry.@
-` Why am I here?@
-` I can't do anything.@
-` I'm angry at my powerlessness.@
-` However, I have no way to solve this myself, so in the end, all I can do is accept everything I'm told emptily.\
+` Это меня злит.@
+` Почему я здесь?@
+` Я ничего не могу сделать.@
+` Я злюсь на собственное бессилие.@
+` Однако у меня нет возможности решить это самому, а значит, в итоге мне только остаётся безучастно принимать всё что мне говорят.\
 
-`"...... What am I doing?"@
-` There's no answer.@
-` I just sit in the empty classroom listening to the sounds outside.\
+` - Что я делаю?@
+` Ответа нет.@
+` Я только сижу в пустом классе и слушаю звуки с улицы.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_08b.jpg",%type_crossfade_mid
 
-` Tick.@
-` The second hand of the clock sweeps by, telling me it's now seven at night.@
-` No one comes by.@
-` The school closes at six and all the teachers leave at six-thirty, so no one else remains on the school grounds.\
+` Тик.@
+` Щёлкнув, вторая стрелка часов показывает что сейчас семь вечера.@
+` Никто так и не пришёл.@
+` Школа закрывается в шесть, и все учителя расходятся в полседьмого, поэтому на территории школы никого не остаётся.\
 
-`"...... I guess I'm forgotten."@
-` I get up from my chair.@
-` After pondering matters so long, my head starts to clear a little.\
+` - Похоже меня забыли.@
+` Я встаю со стула.@
+` После стольких размышлений, в голове у меня начинает немного проясняться.\
 
-` I was thinking all this time.@
-` About what I should do, what I should prioritize.@
-` From here, I should----
+` Я думал всё это время.@
+` О том, что мне делать, чем заняться в первую очередь.@
+` Сейчкас, мне следует...
 br
 
 
 return
+
+
 
 
 </pre>
