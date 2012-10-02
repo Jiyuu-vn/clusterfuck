@@ -26,69 +26,69 @@ label start:
     
     play music "funeral.mp3"
     
-    "The rain pours outside."
+    "The rain pours outside." - На улице идет дождь.
     
     play sound "rain01.mp3"
 
     scene bg cemetery
     with fade
 
-    "It was raining a week ago as well."
+    "It was raining a week ago as well." - Он шел уже около недели.
     
-    "When it happened."
+    "When it happened." - Когда это произошло.
     
     scene bg cemetery
     with flash
     
-    "They said she drowned."
+    "They said she drowned." - Говорят, она утонула.
     
-    "Her horse and buggy went off the New York and Brooklyn Bridge."
+    "Her horse and buggy went off the New York and Brooklyn Bridge." - Ее лошадь и экипаж упали с Бруклинского моста в Нью Йонке.
     
-    priest "Here we honor..."
+    priest "Here we honor..." - Почтим память...
     
-    "They never found the body. Only the buggy itself surfaced after much searching."
+    "They never found the body. Only the buggy itself surfaced after much searching." - Они так не нашли тела. Только ее экипаж всплыл после длительных поисков.
     
-    priest "Her time had not come yet. So young, so vibrant, so full of youth..."
+    priest "Her time had not come yet. So young, so vibrant, so full of youth..." - Она ушла от нас слишком рано. Она была так молода, так энергична, так полна жизни...
     
-    "We were engaged to be married only a week later."
+    "We were engaged to be married only a week later." - всего неделей ранее мы обручились.
     
-    "The circumstances surrounding her death were sketchy. Apparently, her buggy had been one of only two buggies on the bridge at the time."
+    "The circumstances surrounding her death were sketchy. Apparently, her buggy had been one of only two buggies on the bridge at the time." - Обстоятельства ее смерти довольно подозрительно. По всей видимости, в тот момент на мосту было всего два экипажа, включая ее собственный.
     
-    "9:03 AM. The time stuck with me. I was at home, sleeping, when they came to tell me."
+    "9:03 AM. The time stuck with me. I was at home, sleeping, when they came to tell me." - 9:03 утра. Время застряло у меня в голове. Я спал дома, когда они пришли известить меня.
     
-    "The priest has stopped his incessant droning."
+    "The priest has stopped his incessant droning." - Священник закончил свою монотонную речь.
     
-    "The crowds start moving away."
+    "The crowds start moving away." - Люди начали уходить.
     
-    "I guess it's time for me to leave, too."
+    "I guess it's time for me to leave, too." -Наверное, и мне пора.
     
     scene bg street2
     with fade
     
-    "It's still raining."
+    "It's still raining." - Дождь все не прекращается.
     
     play sound "rain01.mp3"
     
-    "What miserable weather..."
+    "What miserable weather..." - Какая жалкая погода...
     
-    "I'm miserable..."
+    "I'm miserable..." - Я жалок...
     
-    j "Woe is me!!!!"
+    j "Woe is me!!!!" - Горе мне!!!
     
-    "The people in the street stop to stare..."
+    "The people in the street stop to stare..." - Люди на улицах остановились и уставились на меня.
     
-    "I guess I'll slip into this alleyway to escape the stares of bystanders..."
+    "I guess I'll slip into this alleyway to escape the stares of bystanders..." - Лучше мне свернуть в переулок, чтобы избежать взглядов прохожих...
     
     scene bg alleyway2
     with fade
     
-    "This alleyway seems to be empty."
+    "This alleyway seems to be empty." - Этот переулок кажется таким пустынным.
     
-    "Empty like my heart."
+    "Empty like my heart." - Такой же пустой, как мое сердце.
     
-    j "Why did Gladys have to die?!"
+    j "Why did Gladys have to die?!" - Почему Глейдз должна была умереть?!
     
-    j "She touched my heart... She made me whole... She..."
+    j "She touched my heart... She made me whole... She..." - Она пробудила во мне чувства... 
     
     "Oh, look, a bar!"
     
