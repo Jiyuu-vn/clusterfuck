@@ -13,25 +13,25 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 ; ???<???????(?)>
 bg "image\bg\cmo_14.jpg",%type_crossfade_fst
 
-` I'm in a dark place.@
-` Eight years since I awoke.@
-` I've been holding my breath in darkness the whole time.\
+` Я в тёмном месте.@
+` Восемь лет с тех пор как я проснулся.@
+` Всё это время я ждал в темноте.\
 
-` I don't even know why.@
-` That has long since been worn away.@
-` Here, there is only darkness.@
-` But, I know there is something I have to do.\
+` Я даже не знаю почему.@
+` Это уже давно забылось.@
+` Здесь есть только тьма.@
+` Но, я знаю что мне нужно кое-что сделать.\
 
-` I don't know why I live.@
-` But I know my purpose.@
-` The chains which held me are all gone.@
-` There is nothing holding me back.@
+` Я не знаю почему я жив.@
+` Но я знаю свою цель.@
+` Цепи, сковывавшие меня, исчезли.@
+` Меня ничто не держит.@
 !w500
 br
-` All that's left,
+` Осталось только,
 !w500
 br
-` is killing you.\
+` убить тебя.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_slw
@@ -39,16 +39,16 @@ bg "image\bg\ima_11.jpg",%type_crossfade_slw
 bg "image\bg\bg_40e.jpg",%type_crossfade_fst
 
 br
-` Tweet.@ Tweet tweet.@ Chirp.@ Chirp.@
+` Чирик.@ Чирик чирик.@ Чвирк.@ Чвирк.@
 br
-` Is the window open?@
-` I can hear the voices of small birds coming from the garden.@
+` Окно открыто?@
+` Я слышу пение птиц, доносящееся из сада.@
 br
-` A cool breeze brushes my face.@
-` The brilliant sunlight hits my eyes.@
-` A quiet, delicate tinge.@
+` Прохладный ветер обдувает моё лицо.@
+` Ослепительный солнечный свет светит мне в глаза.@
+` Тихое, делкиатное прикосновение.@
 br
-` A gentle, morning visit.\
+` Начинается спокойное утро.\
 
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
@@ -56,11 +56,11 @@ bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 ;CD-DA?????
 play "*2"
 
-` Morning?@
-` It seems I slept until now after Akiha treated me.@
-` My body still feels a little heavy.@
-` But still I feel much better than last night.@
-` Opening my eyes, I get up.\
+` Утро?@
+` Похоже что после того как Акиха успокоила меня я проспал до сих пор.@
+` Моё тело всё ещё немного тяжеловатое.@
+` Но всё же мне гораздо лучше чем вчера.@
+` Я открываю глаза и встаю.\
 
 ;S.E."??"
 wave se0
@@ -70,49 +70,49 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?????(?)<????>
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 
-`"Ugh............"@
-` I feel like throwing up instantly.@
-` I still have my anemia from yesterday?@
-` My chest hurts and I feel sick.@
+` - Угх...@
+` Тут же меня чуть не стошнило.@
+` Моя вчерашняя анемия ещё не прошла?@
+` В груди болит и я чувствую себя мерзко.@
 br
 ; ??<?>=??:?01(?????)<??????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_lshutter_fst
-`"Please excuse me."@
-` Hisui enters my room.@
-` She must've thought I was still asleep because she seems surprised to see me up.\
+` - Пожалуйста, позвольте войти.@
+` В комнату входит Хисуи.@
+` Она должно быть думала что я ещё сплю, потому что она выглядит удивлённой.\
 
-`"Good morning.@ It seems you have awakened, Shiki-sama."@
-`"----"@
-` For some reason,
-` Hisui's reaction annoys me.\
+` - Доброе утро.@ Шики-сама, похоже вы проснулись.@
+` - ...@
+` Почему-то,
+` реакция Хисуи меня злит.\
 
-`"Morning.@ Breakfast, right?@ I'll be there soon, so just get out.@ I'm going to change."@
+` - Доброе.@ Завтрак, да?@ Сейчас буду, так что выйди.@ Я переоденусь.@
 ; ??<?>=??:??01(????)<???????(?)>
 ld c,":a;image\tachi\his_t04.jpg",%type_crossfade_fst
-`"...... Yes, please excuse me."@
+` - ...Да, с вашего позволения.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-`"..............."@
-` No matter how poor of a mood I'm in, letting it out on Hisui like that... there's something wrong with me.\
+` - ...@
+` Какое бы дурное у меня ни было настроение, срывать его на Хисуи... со мной что-то не так.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_fst
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40a.jpg",%type_crossfade_fst
 
-`"----"@
-` I feel sick.@
-` Even if I go to school like this, I won't be able to do anything.@
+` - ...@
+` Мне плохо.@
+` Даже если я пойду в школу в таком состоянии, то всё равно ничего делать не смогу.@
 br
-`"...... Maybe I'll just stay home."@
-` But, I have to go.@
-` If I go to school, I may see Senpai again.\
+` - Может просто остаться дома?..@
+` Но, я должен пойти.@
+` Если я пойду в школу, я может быть снова встречусь с Сенпай.\
 
-` ...... She may not be the "Senpai" I want---but she may still be there.@
+` Она может быть не той «Сенпай» которая мне нужна... но она всё равно может там быть.@
 br
-`"-----Whew."@
-` Taking a deep breath, I settle down.@
-` Managing to resist my dizziness, I leave my room.\
+` - Фуух.@
+` Сделав глубокий вдох, я успокаиваюсь.@
+` Сумев подавить головокружение, я покидаю комнату.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -121,27 +121,27 @@ bg "image\bg\bg_34a.jpg",%type_lcartain_mid
 
 ; ??<?>=??:??<??????(?)>
 ld c,":a;image\tachi\aki_t16a.jpg",%type_lshutter_mid
-`"Oh, Nii-san.@ ...... Good, morning."@
-` ...... As soon as I enter the sitting room, Akiha greets me hollowly.\
+` - О, Нии-сан...@ Доброе утро.@
+` Как только я вхожу, меня вяло приветствует Акиха.\
 
-`"...... Yeah, morning.@ You're up early Akiha."@
-`"I am always up this early but...... Nii, san?"@
+` - Ага, доброе.@ Акиха, ты сегодня рано.@
+` - Я всегда так встаю, но... Нии-сан?@
 ; ??<?>=??:??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t12a.jpg",%type_crossfade_fst
-`"...... Are you alright?@ Your face still looks pale.@ If you do not feel well, you can stay home---"@
-`"No, I'm fine.@ I'm better, so you don't need to worry."@
-` I answer her quickly and pass right by.@
-` I head to the dining room since I'll probably collapse if I don't eat.\
+` - Ты в порядке?@ У тебя лицо немного бледное.@ Если тебе нехорошо, то, ты можешь остаться дома...@
+` - Нет, я в норме.@ Мне уже лучше, так что не переживай.@
+` Я быстро отвечаю ей и прохожу мимо ней не останавливаясь.@
+` Я направляюсь в столовую потому что если я сейчас не поем то наверное свалюсь с ног.\
 
-`"See ya.@ Isn't it about time for school?"@
+` - Пока.@ Разве тебе уже не пора в школу?@
 ; ??<?>=??:??01(????)<???????(?)>
 ld c,":a;image\tachi\aki_t17a.jpg",%type_crossfade_fst
-`".................. Yes.@ Then, I will be going now."@
-` Speaking hesitantly, she stands up quietly.@
+` - ................. Да.@ Тогда, я пойду.@
+` Неуверенно произносит она, и молча встаёт.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-` Akiha exits the sitting room.@
-` After watching her go out of the corner of my eye, I enter the dining room.\
+` Акиха выходит из гостиной.@
+` Проводив её краем глаза, я иду в столовую.\
 ;CD-DA??
 playstop
 
@@ -150,17 +150,17 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???(?)<?????(?)>
 bg "image\bg\bg_23a.jpg",%type_lcartain_mid
 
-` I leave the mansion and head for school.@
-` My limbs are still heavy, and with a feeling like I'm in someone else's body, I go down the hill.\
+` Я покидаю поместье и направляюсь к школе.@
+` Я спускаюсь по склону. Мои конечности всё ещё тяжёлые, и я словно нахожусь в чужом теле.\
 
 ; ????(?)<?????(?)>
 bg "image\bg\bg_01a.jpg",%type_lcartain_mid
 
-` It's seven-forty.@
-` The gate becomes congested with students hurrying to class.@
+` Сейчас без двадцати восемь.@
+` Сквозь ворота проходит всё больше учеников, торопящихся на занятия.@
 br
-`".................."@
-` I don't think Senpai will come, but is waiting here better than waiting in my classroom?@
+` - ...@
+` Я не думаю что Сенпай придёт, но будет ли ждать тут лучше, чем ждать в классе?@
 br
 
 
@@ -168,6 +168,7 @@ br
 
 
 return
+
 
 
 </pre>
