@@ -7,48 +7,48 @@
 ; ??(?)<?????(?)>
 bg "image\bg\bg_06a.jpg",%type_lcartain_mid
 
-` Homeroom is about to start, but it is still very rowdy in the classroom.@
-` I take my seat by the window and set down my bag.\
+` Классный час вот-вот начнётся, но в классе ещё очень шумно.@
+` Я сажусь за своё место у окна и опускаю сумку.\
 
 ; ??<?>=??:??<??????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_lshutter_fst
-`"Hey, mornin'.@ You're looking pretty bad today."@
-`"...... Sheesh.@ Everyone looks at me and says the same thing.@ Do I look that sick?"@
-`"Eh---?@ ...... Yeah, come to think of it, you look normal.@ I don't know, but you look really down, Tohno."@
-`"............ Down, huh?@ ..."@
+` - Здоров.@ Хреново выглядишь.@
+` - Госсподи...@ Вы сговорились что-ли все, мне все сегодня это говорят.@ У меня что, настолько больной вид?@
+` - Э?..@ Да, если подумать, вид у тебя нормальный.@ Даже не знаю, Тоно, но выглядишь ты очень подавленым.@
+` - ...Подавленым, да?@ ...@
 
-` Certainly my spirits are low.@
-` Ever since Senpai said farewell, my body has been heavy and both my mind and body are knocked out.\
+` Действительно, я не в самом бодром расположении духа.@
+` С тех пор как Сенпай попрощалась со мной, моё тело налито тяжестью, и я выбит из колеи физически и умственно .\
 
-`"---Arihiko.@ Did you see Senpai today?"@
+` - Арихико.@ Ты видел сегодня Сенпай?@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t03.jpg",%type_crossfade_fst
-`"Huh?@ Senpai?@ Which Senpai?"@
-`"Which?@ ...... the only Senpai we both know is Ciel-senpai."@
-`"Shiel-Senpai?@ ...... Who's that?@ Are there any foreign students at our school?"@
+` - А?@ Сенпай?@ Которого из?@
+` - Которого?..@ Мы с тобой знакомы столько с Сиэль-сенпай.@
+` - Щиэль-Сенпай?..@ Это кто?@ У нас в школе есть ученики из других стран?@
 br
-` ----My mouth hangs open in amazement.@
+`       У меня отвисает челюсть.@
 br
-`"...... Arihiko, you......"@
-` I manage to stammer this out in my confusion.@
-` But, nothing else comes out.\
+` - Арихико... ты...@
+` В шоке, мне кое-как мне удаётся выговорить это.@
+` Но, больше я ничего произнести могу.\
 
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\ari_t01.jpg",%type_crossfade_fst
-`"You okay Tohno?@ Just spit it out.@ As long as it's not asking for money, I'll help you out."@
+` - Тоно, ты в порядке?@ Выкладывай уже в чём дело.@ Если только тебе не надо денег дать, я помогу.@
 br
-` Arihiko is acting like he always does.@
-` Just like always, he completely does not remember about Senpai.@
+` Арихико ведёт себя как всегда.@
+` Как всегда, он совсем не помнит Сенпай.@
 br
-`"...... Nah, it's nothing.@ Sit down, class'll start."@
-`"Oh, it's that time.@ Well, later."@
+` - Не, ничего.@ Усаживайся, скоро урок начнётся.@
+` - О, уже время.@ Ладно, до скорого.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-` Arihiko goes back to his own seat and the teacher arrives.\
+` Арихико возвращается на своё место, и в класс заходит учитель.\
 
-` Homeroom starts, followed by physics, the first period class.@
+` Начинается классный час, за ним физика, первый урок.@
 br
-` ---I watch it like a movie on a screen.\
+`      Я наблюдаю за происходящим словно это мне показывают фильм.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
@@ -57,24 +57,24 @@ bg "image\bg\ima_03.jpg",%type_lshutter_fst
 
 
 
-` Senpai... really disappeared.@
-` Not just from my sight, but the person known as Ciel-senpai is gone completely without a trace.@
-` Arihiko doesn't remember her.@ ...... I'm sure no one else does either.@
-` That farewell, this is what it meant.\
+` Сенпай... и правда исчезла.@
+` Не только с моих глаз, но человек, известный как Сиэль-сенпай, исчезла без следа.@
+` Арихико её не помнит...@ Уверен, что и другие тоже не помнят.@
+` То прощание, вот что оно означало.\
 
-`"--------"@
-` The movie in front of me continues playing, showing a teacher using white chalk on a blackboard.@
-` Nothing seems real anymore.@
-` Once classes are over and break time begins, that person will never come again, ever.@
-` During lunch, we will never sit in the tea ceremony room and spend the time aimlessly over lunch.\
+` - ...@
+` Фильм передо мной продолжает крутиться, учитель в нём что-то пишет на доске.@
+` Всё уже кажется нереальным.@
+` Когда закончатся уроки и начнётся перемена, она уже не придёт, никогда.@
+` Мы уже никогда не будем сидеть в комнате для чайных церемоний и валять дурака за обедом.\
 
-` ...... Somewhere.@ I had a thread of hope, but that is gone as well.@
+`     Где-то.@ У меня оставался лучик надежды, но теперь и он исчез.@
 br
-` I've lost Ciel completely.@
-` I still haven't---haven't done anything.@ Haven't told her anything.@
-` We spent time eating lunch together on a nice day such as today.@
+` Я окончательно потерял Сиэль.@
+` Я всё ещё... ничего не сделал.@ Ничего её не сказал.@
+` Одним хорошим днём, как сегодня, мы пообедали вместе.@
 br
-` That was, a distant, precious dream----\
+` Это был, далёкий, приятный сон...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -83,17 +83,18 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 ; ??(?)<???????(?)>
 bg "image\bg\bg_06a.jpg",%type_crossfade_fst
 
-` I realize the number of my classmates in the room is dwindling.@
+` Я понимаю, что число одноклассников в комнате уменьшается.@
 br
-` ---It seems it's now lunch time.@
-`".................."@
-` I don't feel like doing anything.@
-` I feel sluggish, so I'll just---
+`     Похоже, наступил обед.@
+` - ...@
+` Мне не хочется ничего делать.@
+` Я чувствую себя вяло, и поэтому я...
 br
 
 
 
 return
+
 
 
 </pre>
