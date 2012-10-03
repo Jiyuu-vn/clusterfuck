@@ -6,32 +6,32 @@
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_01a.jpg",%type_nowaitdisp
 
-`"........."@
-` No, I have a feeling that I won't see Senpai if I wait here.@
-` If Senpai doesn't feel like seeing me, she'll leave as soon as she sees me.@
-` ...... If that's the case, she won't come to school through the front gate.@
+` - ...@
+` Нет, мне кажется что мне не удастся встретиться с Сенпай если я буду ждать здесь.@
+` Если Сенпай не захочется меня видеть, она уйдёт как только заметит меня...@
+` В таком случае, она зайдёт в школу не через передние ворота.@
 br
-`"...... If she even comes, it'll be through the back gate."@
-` I rush to the back of the school with this thought in mind.\
+` - Если она и придёт, то зайдёт через задний вход.@
+` С этой мыслью я быстро на задворки школы.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???(?)<?????(?)>
 bg "image\bg\bg_05a.jpg",%type_lcartain_mid
 
-` ----[]*sigh*@
-` No one is here.@
-` Not even students coming to school through the back gate.@
-` ...... But, I still wait for Senpai who for sure isn't coming.\
+` ----[]*эх*@
+` Никого нет.@
+` Даже тух учеников которые обычно ходят через задний вход...@
+` Но всё равно, я продолжаю ждать Сенпай, которая явно не приходит.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
 ; ???(?)<??????(?)>
 bg "image\bg\bg_05a.jpg",%type_lshutter_mid
 
-` The chime sounds once, telling me that the gate closes.@
-` ...... Senpai didn't come.@
-` I should go back before homeroom starts.\
+` Раздаётся один звонок, предупреждающий о том, что ворота закрыты...@
+` Сенпай не пришла.@
+` Надо возвращаться пока классный час не начался.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -39,6 +39,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
 return
+
 
 
 </pre>
