@@ -805,47 +805,47 @@ label pa:
     show voswut at right with aaa
     v"Чт-что ты делаешь?!"
     c"М-м-моя госпожааааа!"
-    c"You dirty shroom! Be grateful that Lady Os has deigned to gift her divine touch unto a festering fungus like you!"
+    c"Ты паршивый мухомор! Будь благодарен, что госпожа Оз одарила своим божественным прикосновением ничтожную поганку вроде тебя!"
     o"..."
     c"!"
-    c"...she{w} says{w} she {w}{size=8}is{/size} {w}{size=5}sorry..{/size}"
-    v"What?"
+    c"...она{w}говорит{w} она {w}{size=8}is{/size} {w}{size=5}прости..{/size}"
+    v"Что?"
     hide corsur with aaa
     show corstand2 at left with aaa
-    c"She's sorry! For what she has done to you..."
+    c"Она извиняется! За всю боль, что причинила тебе..."
     v"---"
     show vosblush at right with aaa
     hide voswut with aaa
-    v"I'm quite speechless."
+    v"У меня просто нет слов."
     o"..."
-    v"A simple apology like that is useless, and you know it."
-    c"Ugh, I'm sick of your ungratefulness. Let's go, my lady."
-    o"*nods*"
+    v"Ты ведь, что извинения - это пустые слова."
+    c"Гр, меня тошнит от твоей неблагодарности. Идемте, моя госпожа."
+    o"*кивает*"
     hide corstand2 with aaa
     hide osstand with aaa
     pause 2
-    v"...it's just a damn apology..."
-    v"...so... {w}why?"
+    v"...это все лишь дурацкие извинения..."
+    v"...так... {w}почему?"
     stop music fadeout 1.5
     scene black with dissolve 
     scene bg01 with aaa
     show osstand at left with aaa
     show corstand at right with aaa
-    c"That stinky shroom...! Ugh, he pisses me off!"
-    o"Why did you do that, Lady Os?"
+    c"Этот гнилой гриб...! Гр, как он меня раздражае!"
+    o"Почему вы сделали это, госпожа Оз?"
     menu:
 
-        "Because he's cute.":
+        "Потому что он милый.":
         
             jump cuvo
             
-        "I felt like it.":
+        "Просто захотелось.":
         
             jump wut
 
 label cuvo:
     $ vosges += 1
-    c"W-what are you thinking, my lady!? {w}{color=#adc6ba}{i}I feel defeated by that shrimp...{/i}{/color}"
+    c"О-о чем выдумаете, моя госпожа!? {w}{color=#adc6ba}{i}Меня уничтожил подобный жалкий человечешка...{/i}{/color}"
     stop music fadeout 1.5
     scene black with dissolve 
     scene bg01 with aaa
@@ -859,14 +859,14 @@ label hu:
     o"..."
     c"..."
     v"..."
-    v"Is this supposed to be funny?"
-    v"Get out."
+    v"Думаете, это смешно?"
+    v"Вон отсюда."
     scene black with dissolve
     scene bg01 with aaa
     show osstand at left with aaa
     show corstand at right with aaa
-    c"Gyahaha, of course you're hungry. You've been sleeping for four years!"
-    o"*nods*"
+    c"Гьяхаха, конечно же вы голодны. Вы ведь проспали целых четыре года!"
+    o"*кивает*"
     jump cho2
 label wut:
     $ corvus += 1
@@ -881,13 +881,13 @@ label ba2:
     show vostand at right with aaa
     show osstand at left with aaa
     show corstand2 at left with aaa
-    c"You two again? What do you want?"
+    c"Снова вы двое? Что вам надо?"
     menu:
 
-        "Why do you stink like that?":
+        "Почему от тебя так плохо пахнет?":
             jump stink
             
-        "Just passing by.":
+        "Просто мимо идем.":
         
             jump vpass
 
@@ -896,9 +896,9 @@ label stink:
     show vosmad2 at right with aaa
     show corlaugh at left with aaa
     hide corstand2 with aaa
-    c"Gyahahahaha!"
-    v"Do you never tire of mocking me?"
-    v"This smelly hat that {i}you{/i} put on me renders me unable to eat or drink regular food, and I have to consume the 'fertilizer' magically generated in this dungeon instead."
+    c"Гьяхахахаха!"
+    v"Тебе еще не надоело издеваться надо мной?"
+    v"Эта вонючая шляпа, которую {i}ты{/i} заставила меня носить, не дает мне есть и пить нормальную пищу и мне приходится довольствоваться выращенными магическим путем "удобрениями"."
     show vostand at right with aaa
     hide vosmad2 with aaa
     v"Now leave. Please. I've had enough."
@@ -927,7 +927,7 @@ label vpass:
     jump cho2
     
 label cho2:
-    c"Well, where shall we go?"
+    c"Что ж, куда направимся теперь?"
     jump firstmenu
     
 label ki:
