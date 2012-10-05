@@ -917,13 +917,13 @@ label stink:
     
 label vpass:
     v"Не слишком-то задерживайтесь."
-    v"Wouldn't want you to get the impression that I can actually tolerate your presence."
+    v"Я не хотел бы, чтобы у вас сложилось впечатление, будто вам тут рады."
     c"..."
     scene black with dissolve
     scene bg01 with aaa
     show osstand at left with aaa
     show corstand at right with aaa
-    c"For once, I feel the same way he does." 
+    c"Впервые я с ним единого мнения." 
     jump cho2
     
 label cho2:
@@ -940,27 +940,27 @@ label ki:
     scene bg03 with aaa
     show osstand at left with aaa
     show corstand at right with aaa
-    c"Of course! Let me find something for you to eat. Just wait a minute!"
+    c"Конечно! Позвольте мне найти что-нибудь, дабы утолить ваш голод. Это не займет больше минуты!"
     hide corstand with aaa
     o"..."
     show gerpup1 at center with aaa
     pause
-    c"Lady Os! There's..." 
+    c"Госпожа Оз! There's..." 
     window hide dissolve
     show corsur2 at right with aaa
-    cup"WHAT'S THAT?!"
-    cup"A puppy?"
+    cup"ЭТО ЕЩЕ ЧТО ТАКОЕ?!"
+    cup"Щенок?"
     $ renpy.play('inu1.ogg')
    
     hide corsur2 with aaa
     show corstand at right with dissolve
-    cup"How cute!"
+    cup"Какой милый!"
     hide gerpup1 with aaa
     show gerpup2 at left with aaa
     oup"..."
-    cup"WHAT ARE YOU-"
-    gup"Titties! I want to touch some, wan wan!"
-    gup"I've been trapped here for so long... I'm so lonely, wan wan!"
+    cup"ЧТО ТЫ-"
+    gup"Сиськи! Хочу потрогать, гав гав! Titties! I want to touch some, wan wan!"
+    gup"Я был заперт тут целую вечность... Мне так одиноко, гав гав!"
     scene black with aaa
     $ renpy.play('punch.wav')
     with vpunch
@@ -976,36 +976,36 @@ label ki:
     scene bg03 with aaa
     show osstand at left with aaa
     show cormad2 at left with aaa
-    c"I'm not surprised that I didn't remember you, Gervase."
+    c"Я не удивляюсь, что забыл про тебя, Герваз."
     show gerstand at right with dissolve
-    c"You're so unpleasant that my mind blocked out every memory of your loutish presence."
-    g"Shut the fuck up."
+    c"Ты так отвратителен, что мой собственный разум заблокировал каждое воспоминание о твоем ужасном существовании."
+    g"Клюв захлопнул."
     show germad at right with aaa
     hide gerstand with aaa
-    g"Like I give a poop about what you think about me."
-    c"And why are you here again? You're supposed to guard Vosges and make sure he doesn't do anything stupid!"
-    g"Yeah, right, let the dog watch the prisoner and leave no food so it can starve to death..."
+    g"Да мне похеру, что ты обо мне думаешь."
+    c"Почему ты опять здесь? Ты должен охранять Восгеза и проследить, чтобы он не сделал ничего глупого!"
+    g"Ага, конечно, пусть собака следить за пленниками и умирает от голода..."
     hide cormad2 with aaa
     show corstand2 at left with aaa
-    g"I just woke up and came here to find something to eat, but there's absolutely nothing!"
+    g"Я только что очнулся и пришел сюда в поисках съестного, но здесь совсем ничего нет!"
     show gerstand at right with aaa
     hide germad with aaa
     if has_visited_basement or has_visited_watchtower:
-        c"Well, we've been sleeping in this tower for four years, so all of the food here must have rotted away."
-        g"Four YEARS?! No wonder I'm feel like I haven't eaten in ages..."
+        c"Ну, мы проспали в этой башне четыре года, вся еда, наверное, просто испарилась."
+        g"Четыре ГОДА?! Теперь понятно, почему у меня такое чувство, будто я уже сто лет не ел..."
         jump nofood
     else:
-        c"Looks like all of the food's rotted away. We must have been sleeping for a very long time..."
+        c"Похоже, вся еда просто испарилась. Должно быть, мы спали очень долго..."
         jump nofood
 label nofood:
-    g"Os! Open the barrier and let us out! At this rate, we're all going to starve to death!"
-    c"Lady Os is suffering from amnesia right now, so..."
-    g"Wait, what?! Does that mean we're trapped here?"
-    c"Oh, the King must be worried sick...! I don't even want to {i}think{/i} about what's been going on in Ulla while my lady was sleeping..."
-    g"Hah, with that senile old bastard on the throne? Face it, birdie, Ulla's probably in ruins by now."
+    g"Оз! Сними барьер и выпусти нас отсюда! Если так и продолжится, мы все помрем от голода!"
+    c"В данный момент госпожа Оз подвержена амнезии, так что..."
+    g"Погодь, чего?! Выходит, мы заперты здесь?"
+    c"Ох, Король, должно быть, ужасно волнуется...! Я не хочу даже {i}думать{/i}о том, что происходило в Улле, пока моя госпожа спала..."
+    g"Ха, с этим дряхлым стариком на троне? Взгляни правде в глаза, пташка, Улла уже должна лежать в руинах к этому моменту."
     hide corstand2 with aaa
     show corsur at left with aaa
-    c"...in ruins?! Our precious Ulla?!"
+    c"...в руинах?! Наша любимая Улла?!"
     show germad at right with aaa
     hide gerstand with aaa
     g"Pfft! 'Our'? Don't make me laugh. Ulla was hell for everyone except this bitch here."
