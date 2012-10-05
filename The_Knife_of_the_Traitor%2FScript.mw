@@ -721,8 +721,8 @@ label ba:
     c"Прошу прощения, моя госпожа! Пред вами Восгез, волшебник этого замка. Ну, по крайней мере, он так думает..."
     v"К чему всё это? Неужели у неё амнезия?"
     v"Ха. Что ж, желаю хорошо повеселиться, пока будете выяснять, кто из нас виновник."
-    c"ЧТо ты хочешь этим сказать!"
-    v"Тебе бы стоило проявить внимательность, Корвус, вместо того, чтобы истекать слюной от одного вида своей повелительницы."
+    c"Что ты хочешь этим сказать!"
+    v"Тебе стоит быть внимательней к тому, что происходит вокруг тебя, Корвус, вместо того, чтобы истекать слюной от одного вида своей повелительницы."
     hide corstand2 with aaa
     show corblush at left with aaa
     c"Да как ты смеешь!"
@@ -734,7 +734,7 @@ label ba:
     v"В день её семнадцатилетия я получил подозрительную записку."
     hide cormad2 with aaa
     show corstand2 at left with aaa
-    c"И в ней?"
+    c"И что в ней было сказано?"
     v"Там говорилось о запланированном убийстве Госпожи Оз."
     hide corstand2 with aaa
     show corsur at left with aaa
@@ -745,51 +745,51 @@ label ba:
     o"..."
     hide corsur with aaa
     show corstand2 at left with aaa
-    c"Что, госпожа, ненавидит ли вас Восгез? Если вам интересно моё мнение… Я бы не удивился, если покушение на вас дело его рук. "
-    c"Никто не может пересечь барьер, окружающий башню, поэтому преступник находится среди пленников."
+    c"Что, госпожа, ненавидит ли вас Восгез? Если вам интересно моё мнение… Я бы не удивился, если покушение на вас его рук дело. "
+    c"Никто не может пересечь барьер, окружающий башню, поэтому преступник - один из пленников."
     o"..."
     c"Ой, что вы, моя госпожа, вас это не касается!"
     c"Как создатель барьера вы можете спокойно проходить сквозь него. Я проник сюда только потому, что непрестанно следовал за вами."
-    v"Сама невинность."
-    c"Are you thinking of something unpleasant again, with that decaying brain of yours?"
-    v"The presence of the barrier merely means that the culprit has to be someone who was in the tower at the time."
-    v"Sure, it could be me. It could be Gervase."
-    c"That's what I've been saying!"
-    v"It could also be... {w}you."
+    v"Как наивно с твоей стороны."
+    c"Какие еще грязные мысли посетили твою гниющую голову?"
+    v"Наличие барьера вовсе не гарантирует то, что преступник один из пленников."
+    v"Конечно, это мог быть я. А мог быть Гервас."
+    c"А я о чем говорю!"
+    v"А также это мог быть... {w}ты."
     show cormad2 at left with aaa
     hide corstand2 with aaa
-    c"How dare you insult me, you smelly stinkhorn! There's nobody more loyal to Lady Os than me! Nobody!"
-    v"Oh, I don't think anybody can possibly doubt that."
+    c"Да как ты смеешь меня обвинять, вонючий гриб! В всем мире нет существа более преданного госпоже Оз, чем я! Нет!"
+    v"О, никто и не спорит."
     o"..."
     hide cormad2 with aaa
     show corstand2 at left with aaa
-    c"Do {i}I{/i} hate you? Of course not! I would give my life for you!" 
+    c"Ненавижу ли {i}я{/i} вас? Конечно нет! Я отдал бы свою жизнь за вас!" 
     o"..."
-    c"{i}Why{/i} does he hate you? Well-"
-    v"So you really don't remember anything. {w}What a pity."
+    c"{i}Почему{/i} он ненавидит вас? Ну-"
+    v"Так значит, ты действительно ничего не помнишь. {w}Какая жалость."
     show vosmile at right with aaa
     hide vostand with aaa
-    v"You wiped out my town and killed every single person I was attached to."
-    c"You also confined him to this basement, where he has to pick through the dirt and crap to find the old books you left for him to read."
-    c"Which is hilarious, because some of those books are corrupted magic tomes that you put there to mislead him in his pursuit of knowledge."
+    v"Ты стерла с лица земли мой родной город и убила всех, кто был мне дорог."
+    c"А также заточила его в этом подвале, где ему пришлось пробираться сквозь толщи грязи и отходов, чтобы найти те книги, что вы соблаговолили оставить ему для чтения."
+    c"Что само по себе очень даже забавно, ведь некоторые из этих книг являются поддельными магическими томами, направленными но то, чтобы подпортить его знаниями."
     show vosmad at right with aaa
-    v"-what?"
-    c"Oh, and the hat he's wearing stops him from growing. He should be around twenty, but his body will forever be that of a thirteen-year-old."
-    v"That can't be..!"
+    v"-что?"
+    c"О, и шапка, что он носит, не дает ему расти. Ему должно быть уже около двадцати, но его тело так и останется телом тринадцати летнего подростка."
+    v"Быть такого не может!.."
     show vosmad2 at right with aaa
     hide vosmad with aaa
-    c"Oops. Sorry, were you listening?"
-    v"Damn you, witch! Words cannot express the intensity of my hatred for you!"
+    c"Упс. Прости, ты все слышал?"
+    v"Проклятая ведьма! Никакие слова не способны выразить всей глубины моей ненависти по отношению к тебе!"
     o"..."
-    c"Watch your stinky mouth, Vosges! My lady is sensitive to your foul breath."
+    c"Следи за своим грязным языком, Воргез! Моя госопожа плохо переносит твое гнойное дыхание."
     o"..."
     menu:
 
-        "Pat the kid.":
+        "Погладить мальчика по голове.":
         
             jump pa
             
-        "...I'm hungry.":
+        "...Я голодная.":
         
             jump hu
 
@@ -803,8 +803,8 @@ label pa:
     show osstand at left with aaa
     show corsur at left with aaa
     show voswut at right with aaa
-    v"W-what are you doing?!"
-    c"M-m-my laaaaady!"
+    v"Чт-что ты делаешь?!"
+    c"М-м-моя госпожааааа!"
     c"You dirty shroom! Be grateful that Lady Os has deigned to gift her divine touch unto a festering fungus like you!"
     o"..."
     c"!"
