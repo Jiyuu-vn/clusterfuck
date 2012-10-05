@@ -870,7 +870,7 @@ label hu:
     jump cho2
 label wut:
     $ corvus += 1
-    c"You're so kind, my lady. It moves my bird entrails. *sniff*"
+    c"Вы так добры, моя госпожа. Это трогает меня вплоть до самых кишек. *шмыг*"
     jump cho2
     
 label ba2:
@@ -901,10 +901,10 @@ label stink:
     v"Эта вонючая шляпа, которую {i}ты{/i} заставила меня носить, не дает мне есть и пить нормальную пищу и мне приходится довольствоваться выращенными магическим путем "удобрениями"."
     show vostand at right with aaa
     hide vosmad2 with aaa
-    v"Now leave. Please. I've had enough."
+    v"А теперь уходите. Пожалуйста. С меня довольно всего этого."
     hide corlaugh with aaa
     show cormad at left with aaa
-    c"We were leaving already."
+    c"Мы и так уже уходили."
     o"..."
     hide osstand with aaa
     hide cormad with aaa
@@ -916,7 +916,7 @@ label stink:
     
     
 label vpass:
-    v"Don't stay too long."
+    v"Не слишком-то задерживайтесь."
     v"Wouldn't want you to get the impression that I can actually tolerate your presence."
     c"..."
     scene black with dissolve
