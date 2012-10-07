@@ -7,8 +7,8 @@
 bg "image\bg\bg_50.jpg",%type_nowaitdisp
 
 
-`"...... Oh well.@ We're finally friends again, and if I talk to her about Arcueid, she'll probably get angry once more."@
-` For now, I have to maintain this relationship.@ I watch Senpai as she leaves and then dig into my meal.\
+` - А, ладно.@ Мы наконец помирились, и если я заговорю с ней об Арквейд она наверное только снова разозлиться.@
+` Пока что мне надо поддерживать это отношение.@ Я провожаю взглядом Сенпай, и приступаю к своему обеду.\
 
 
 ; ???<?????(?)>
@@ -20,57 +20,57 @@ bg "image\bg\bg_06b.jpg",%type_lcartain_mid
 
 
 
-` The end of the day homeroom session is over.@
-` My chattering classmates all get up from their seats.@
-`"----Well then."@
-` I should wait here a bit and see what happens.@
-` Senpai might come here, and even if she doesn't, I can go to the tea ceremony room.\
+` Занятия подошли к концу.@
+` Болтая между собой, мои одноклассники встают со своих мест.@
+` - Ну что ж.@
+` Надо подождать здесь и посмотреть что будет.@
+` Может прийти Сенпай, и даже если она не придёт, я могу пойти в комнату для чаепитий.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 ; ??(?)<??????(?)>
 bg "image\bg\bg_06b.jpg",%type_lshutter_fst
 
-` It doesn't seem like Senpai is coming.@
-` I guess I just have to go to the tea ceremony room.\
+` Похоже Сенпай не придёт.@
+` Тогда, пожалуй надо отправляться в комнату для чаепитий.\
 
 ; ????2(?)<?????(?)>
 bg "image\bg\bg_11b.jpg",%type_lcartain_mid
 
-` My legs quickly exit the classroom and head there.@
+` Мои ноги быстро выносят меня из класса и несут в нужном направлении.@
 br
-` ---Well, meeting Senpai means there are a lot of things we have to talk about.@
-` About the vampire in this town, and about Arcueid.@
-` Even though I know it will be painful to talk about them, I still get excited at the chance to be with Senpai again.\
+`      Ну, встретиться с Сенпай означает что мы о  многом сможем поговорить.@
+` О вампире в этом городе, и об Арквейд.@
+` Хоть я и знаю что разговор получится тяжёлым, я всё равно приятно волнуюсь от того что смогу снова побыть с Сенпай.\
 
-` I start to breathe hard----
+` Я начинаю тяжёло дышать...
 br
-` I dash down towards the tea ceremony room.\
+` Перейдя на бег, я направляюсь к комнате для чаепитий.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
 ; ???(?)<?????(?)>
 bg "image\bg\bg_09b.jpg",%type_lcartain_mid
 
-` There isn't anyone here.@
-` It seems like she hasn't come here yet.@
+` В комнате никого нет.@
+` Похоже что она ещё не пришла.@
 br
-` ...... *pant*...... *pant*.@
+` ...... *хаа*...... *хаа*.@
 br
-` ...... I think I got too excited.@
-` Sitting down on the tatami mat, I catch my breath.\
+` По-моему я перевозбудился...@
+` Усевшись на татами, я пытаюсь отдышаться.\
 
-` ...... *pant*...... *pant*...... *pant*.@
+` ...... *хаа*...... *хаа*...... *хаа*.@
 br
-` My heated body doesn't cool off that easily.@
-` I painfully gasp for air.@
-` My body is drenched in sweat, and I feel terrible.\
+` Моё распалившееся тело отказывается так просто остывать.@
+` Я болезненно хватаю ртом воздух.@
+` Меня всего покрывает пот, и я чувствую себя ужасно.\
 
-` My panting fills the air.@
+` Моё тяжёлок дыхание отдаётся в воздухе.@
 br
-` There's---something weird.@
-` I've been resting for a while, but my breathing is getting worse.@
-` In the first place, why is my body tired after only running this little distance......?\
+` Что-то... не так.@
+` Я отдыхаю уже какое-то время, но моё дыхание только ухудшается.@
+` Прежде всего, почему я так устал только после небольшой пробежки?..\
 
 monocro #ff0000
 quakey 1,100
@@ -78,13 +78,15 @@ quakey 1,100
 play "*4"
 
 
-`"---Gah!?"@
+` - Гха?!@
 br
-` Suddenly,
-` a stabbing pain fills my chest.\
+` Неожиданно,
+` режущая боль пронзает мою грудь.\
 
 
 return
+
+
 
 
 </pre>
