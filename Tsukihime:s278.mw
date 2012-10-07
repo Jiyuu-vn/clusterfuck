@@ -6,21 +6,21 @@
 ; ?? : ?? : ??(?)<????>
 bg "image\bg\bg_06a.jpg",%type_nowaitdisp
 
-` ---I'll just stay in the classroom.@
+` Я останусь в классе.@
 br
-` Senpai isn't there no matter where I go.@ No matter what I do, she won't come back---\
+` Куда бы я ни пошёл, Сенпай там не будет.@ Что бы я ни делал, она не вернётся...\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_slw
 ; ??(?)<??????(?)>
 bg "image\bg\bg_06b.jpg",%type_lshutter_slw
 
-` The end of the day homeroom session is over.@
-` My chatting classmates get out of their seats.@
-` After staring at them blankly, I get out of my seat to go back to the mansion.\
+` Занятия заканчиваются.@
+` Мой одноклассники встают со своих мест, болтая между собой.@
+` Обведя их безучастным взглядом, я поднимаюсь со своего места, чтобы отправиться обратно в поместье.\
 
-` ---Back to the mansion.@
-` But it's not like there's anything if I go back.@
+`      Обратно в поместье.@
+` Но, всё равно даже если я вернусь, это ничего мне не даст.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -34,25 +34,25 @@ monocro off
 ; ??(?)<????>
 bg "image\bg\bg_06b.jpg",%type_crossfade_fst
 
-`"............"@
-` I know I can never reach her, but I can't give up.@
-`"Damn it---what the hell should I do......!"@
+` - ...@
+` Я знаю что никогда не смогу встретить её снова, но я не могу сдаться.@
+` - Чтоб его... что мне делать!..@
 br
-` Voicing my thoughts angrily, I leave the classroom.\
+` Я раздражённо озвучиваю свои мысли, и выхожу из класса.\
 
 
 ; ????2(?)<?????(?)>
 bg "image\bg\bg_11b.jpg",%type_lcartain_mid
 
-` ...... I look up and find myself in front of the tea ceremony room.@
-` Even though she won't be here, my legs walk in on their own.\
+` Подняв глаза, я понимаю что стою перед комнатой для чаепитий.@
+` Несмотря на то что её там не будет, мои ноги сами собой несут меня внутрь.\
 
 ; ???(?)<?????(?)>
 bg "image\bg\bg_09b.jpg",%type_lcartain_mid
 
-`"-------Ha."@
-` Of course, no one is here.@
-` I wasn't expecting anything, but when I'm hit hard like this, my vision seems to waver.@
+` - Ха.@
+` Ну конечно, никого нет.@
+` Я ничего и не ожидал, но от того что я вот так оказался поставленым перед фактом, перед глазами у меня поплыло.@
 br
 
 ; ???<???????(?)>
@@ -61,7 +61,7 @@ bg "image\bg\ima_11.jpg",%type_crossfade_fst
 bg "image\bg\bg_09b.jpg",%type_crossfade_fst
 
 
-` The world starts to spin around me.\
+` Мир вокруг начинает вращаться.\
 ;CD-DA???????
 play "*4"
 
@@ -75,7 +75,7 @@ br
 br
 br
 br
-`     Instantly, it happens.\
+`     Это происхоит в один миг.\
 
 ; ???(?)<????>
 bg "image\bg\bg_09b.jpg",%type_nowaitdisp
@@ -83,42 +83,43 @@ bg "image\bg\bg_09b.jpg",%type_nowaitdisp
 quakey 1,100
 
 
-` The ground shakes.@
-` I think to myself it's a large earthquake---but I realize it's not the ground shaking, but the impact of my body hitting the floor that I felt.\
+` Пол сотрясается.@
+` Я думаю про себя что это большое землетрясение — но потом понимаю, что это не пол содрогнулся, это моё тело упало на татами.\
 
-`"Ah----eh?"@
-` I can't speak well.@
+` - А...э?@
+` Мне трудно говорить.@
 br
-` Panting.@
+` Учащённое дыхание.@
 
-` The gasping breaths can be no one else's but mine.@
-` But I don't feel bad.@
-` It's more like I don't feel anything, like I have no sense of feeling at all.\
+` Раздающиеся в воздухе шумные вдохи могут принадлежать только мне.@
+` Но я не чувствую себя плохо.@
+` Скорее я вообще ничего не чувствую, словно я потерял способность чувствовать.\
 
-` The sound of frantic breathing.@
+` Звук прерывистого дыхания.@
 br
-` Even though I'm not exhausted, my throat painfully gasps for air.@
-` I don't feel anything.@
-` I feel like the collapsed body here isn't mine.\
+` Хоть я и не устал, моё горло лихорадочно хватает воздух.@
+` Я ничего не чувствую.@
+` Моё безвольно лежащее тело словно принадлежит кому-то другому.\
 
-` The sound of gasping.@
+` Звуки прерывистого дыхания.@
 br
-` Something's---weird.@
-` As I lie breathing wildly on the floor, blood spreads out on the tatami mats----\
+` Что-то... странное.@
+` Тяжёло дыша, я лежу на полу и вижу, как кровь разливается по татами...\
 
 monocro #ff0000
 
 quakey 1,100
 
-`"----Gah."@
+` - Гха...@
 br
-` Suddenly,
-` a stabbing pain fills my chest.\
+` Вдруг,
+` режущая боль пронзает мою грудь.\
 
 monocro off
 
 
 return
+
 
 
 </pre>
