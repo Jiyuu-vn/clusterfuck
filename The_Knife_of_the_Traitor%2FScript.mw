@@ -1022,25 +1022,25 @@ label nofood:
     c"Ну, вы были строги лишь к тем, кто заслуживал этого. Гервас не раз пытался предать вас..."
     show gerangry at right with aaa
     hide germad with aaa
-    g"NOBODY deserves the kind of torture this demon put me through! So go fuck yourself, Corvus! AND YOU TOO, BITCHOS! "
+    g"Да я ВРАГУ не пожелаю тех мук, через которые она заставила меня пройти! Так что отъебись, Корвус! И ТЫ ТОЖЕ, СУКА! "
     hide corstand2 with aaa
     show cormad2 at left with aaa
-    c"How dare you talk to us like that?! Animal!"
-    g"YOU'RE AN ANIMAL TOO!"
-    c"At least I'm cute!"
-    g"I'M CUTER THAN YOU!"
-    c"You smell like poop!"
-    g"YOU LOOK LIKE POOP AND I BET YOU TASTE LIKE POOP TOO!"
-    c"...why... you...!"
+    c"Да как у тебя язык повернулся сказать нам такое?! Животное!"
+    g"ДА ТЫ САМ ЖИВОТНОЕ!"
+    c"Я хотя бы милый!"
+    g"Я МИЛЕЕ ТЕБЯ!"
+    c"От тебя несет дерьмом!"
+    g"ТЫ ВЫГЛЯДИШЬ КАК ДЕРЬМО И, ГОТОВ ПОСПОРИТЬ, НА ВКУС ТОЖЕ КАК ДЕРЬМО!"
+    c"...как... ты...!"
     o"..."
-    r"Gervase's body is incredibly beaten up." 
+    r"Тело Герваса в ужасном состоянии." 
     menu:
 
-        "Change his bandages." :
+        "Сменить его повязки." :
         
             jump ban
             
-        "...I'm hungry.":
+        "...Я голодная.":
         
             jump hu2
 
@@ -1050,10 +1050,10 @@ label ban:
     show geroute1 with dissolve
     window hide dissolve
     gsub"!!!!"
-    gsub"Don't touch me!"
+    gsub"Не трогая меня!"
     show geroute2 with dissolve
-    gsub"Aaann..."
-    csub"M-my lady! NOOOOOOOO!"
+    gsub"Ааахх..."
+    csub"М-моя госпожа! НЕЕЕЕЕЕЕТ!"
     hide geroute1 with aaa
     hide geroute2 with aaa
     scene bg03 with dissolve
@@ -1061,10 +1061,10 @@ label ban:
     show corsur at left with aaa
     show gerblush at right with aaa
     window show dissolve
-    c"...*sniff*"
-    g"Why... why did you do that?"
+    c"...*шмыг*"
+    g"Почему... почему ты это сделала?"
     o"..."
-    c"My lady says that your wounds look painful..."
+    c"Моя госпожа говорит, похоже, что эти раны причиняли тебе сильную боль..."
     show germad at right with aaa
     hide gerblush with aaa
     g"Pff! Now you want to play nice, huh? Fuck off, bitch! Don't expect gratitude from me."
