@@ -1064,46 +1064,46 @@ label ban:
     c"...*шмыг*"
     g"Почему... почему ты это сделала?"
     o"..."
-    c"Моя госпожа говорит, похоже, что эти раны причиняли тебе сильную боль..."
+    c"Моя госпожа говорит, было похоже, что эти раны причиняли тебе сильную боль..."
     show germad at right with aaa
     hide gerblush with aaa
-    g"Pff! Now you want to play nice, huh? Fuck off, bitch! Don't expect gratitude from me."
+    g"Пф! Теперь строишь из себя добрячку, а? Отвали, стерва! Не жди от меня благодарности."
     hide corsur with aaa
     show cormad at left with aaa
-    c"Whatever. Let's go, my lady."
+    c"Как кажешь. Пойдемте, моя госпожа."
     o"..."
     hide cormad with aaa
     hide osstand with aaa
     show gerstand at right with aaa
     hide germad with aaa
-    g"...hmph."
+    g"...хмпф."
     scene black with dissolve
     pause 1
     stop music fadeout 1.5
     scene bg01 with aaa
     show osstand at left with aaa
     show corstand at right with aaa
-    c"Please don't do that anymore, ruffians like Gervase don't deserve your compassion..."
-    c"Also, it might be dangerous."
+    c"ПРошу вас, никогда больше так не делайте, животные, подобные Гервасу, не заслуживают вашего внимания..."
+    c"К тому же, он очень опасен."
     menu:
 
-        "Refuse.":
+        "Возразить.":
         
             jump cant
             
-        "Agree.":
+        "Согласиться.":
         
             jump will
     
 label cant:
     $ gervase += 1
-    c"Fine. Fine! Just... be more careful! I'll be watching your back anyway..."
+    c"Хорошо. Хорошо! Просто... будьте осторожны! А я всегда прикрою вас со спины..."
     jump cho2
 label will:
     $ corvus += 1
-    c"You will?"
-    o"*nods*"
-    c"My lady! I'm so grateful!"
+    c"Обещаете?"
+    o"*кивает*"
+    c"Моя госпожа! Я так вам благодарен!"
     jump cho2
 label hu2:
     stop music fadeout 1.5
@@ -1114,17 +1114,17 @@ label hu2:
     g"..."
     show gerstand at right with aaa
     hide germad with aaa
-    g"Get out of my sight."
+    g"С глаз моих долой."
     scene black with aaa
     scene bg01 with dissolve
     show osstand at left with aaa
     show corstand at right with aaa
-    c"My lady, look! There's a nest of tarantulas right behind you!" 
-    r"Os turns around."
-    r"She plucks out the tarantulas and plops them one by one into her mouth."
+    c"Госпожа, смотрите! Готов поспорить, это гнездо тарантулов за вашей спиной!" 
+    r"Оз поворачивается."
+    r"Одного за другим она вытаскивает тарантулов и закидывает себе в рот."
     show osmile2 at left with aaa
     hide osstand with aaa
-    c"A-ah, my lady, leave some for me too!"
+    c"А-а, моя госпожа, оставьте и мне немного!"
     jump cho2
     
 label ki2:
@@ -1135,25 +1135,25 @@ label ki2:
     show gerstand at right with aaa
     show osstand at left with aaa
     show corstand2 at left with aaa
-    g"What do you want?"
+    g"Что вам надо?"
     o"..."
     menu:
 
-        "Just passing by.":
+        "Просто мимо идем.":
         
             jump gpass
             
-        "Does it hurt less?" if ger_01 == True:
+        "Перестало болеть так сильно?" if ger_01 == True:
              jump groute01
              
 label gpass:
     $ gervase -= 1
-    g"Hmph, then fuck off."
+    g"Хмпф, тогда отвалите."
     scene black with aaa
     scene bg01 with aaa
     show osstand at left with aaa
     show cormad at right with aaa
-    c"Brainless beast..."
+    c"Безмозглое чужовище..."
     hide cormad with aaa
     show corstand at right with aaa
     jump cho2
@@ -1161,20 +1161,20 @@ label gpass:
 label groute01:
     $ gervase += 2
     show gerblush at right with aaa
-    g"...do you really care?"
-    o"*nods*"
+    g"...тебе что, действительно не все равно?"
+    o"*кивает*"
     c"..."
-    g"Just a little bit less..."
-    g"There, happy now?"
-    o"*nods*"
-    g"Fine, now get lost."
+    g"Чуть-чуть слабее..."
+    g"Ну что, довольна?"
+    o"*кивает*"
+    g"Прекрасно, теперь исчезните."
     hide corstand2 with aaa
     hide osstand with aaa
     scene black with dissolve
     scene bg01 with aaa
     show osstand at left with aaa
     show corstand at right with aaa
-    c"Bleh!"
+    c"Тьфу!"
     jump cho2
     
 label wt:
@@ -1183,9 +1183,9 @@ label wt:
     scene black with dissolve
     $ renpy.play('foot1.wav')
     pause 2
-    c"My lady, from here we should be able to see the castle."
+    c"Госпожа, отсюда можно увидеть замок."
     o"..."
-    c"Y-you're afraid of heights?!"
+    c"В-вы боитесь высоты?!"
     scene bg04 with flashbulb
     show osstand at left with aaa
     show corstand2 at left with aaa
@@ -1193,19 +1193,19 @@ label wt:
     c"..."
     o"..."
     ls"..."
-    c"Who are you?"
-    c"{color=#adc6ba}{i}I've never seen this guy in my life...{/i}{/color}"
-    ls"Do you expect me to tell you everything? Why don't you figure it out yourself? Oh wait, that might be too difficult for your tiny little bird brain to handle."
+    c"Ты кто такой?"
+    c"{color=#adc6ba}{i}В жизни не видел этого парня...{/i}{/color}"
+    ls"Ты ждешь, чтобы я тебе что-то объяснил? Почему бы не пораскинуть собственными мозгами? Ох, постой, или для твоих крошечных птичьих мозгов это непосильная задача?."
     c"..."
-    ls"Well, if you don't have anything more useful to say, get out of my way. I have tons of books to arrange before it's afternoon. So shoo, shoo!"
+    ls"Ну чтож, если это все, что ты можешь сказать, тогда с дороги. Мне еще целую тонну книг надо к полудню расставить. Так что брысь, брысь!"
     play music "lilja_theme.ogg"
-    c"{color=#adc6ba}{i}What on earth is this guy talking about?! I can't see any books here except for the one he's holding...{/i}{/color}"
-    ls"What?"
-    c"{color=#adc6ba}{i}I should choose my words carefully... Who knows how this lunatic will react?{/i}{/color}"
-    c"Excuse me, sir. Are you a new servant, perhaps?"
+    c"{color=#adc6ba}{i}Да о чем этот парень говорит?! Здесь нет ни единой книги кроме той, что он держит в руках...{/i}{/color}"
+    ls"Что?"
+    c"{color=#adc6ba}{i}Мне стоит очень осторожно подбирать слова... Мало ли, как этот сумасшедший может среагировать?{/i}{/color}"
+    c"Прошу прощения, сэр. Осмелюсь предположить, вы новый слуга?"
     show lilsmile at right with aaa
     hide lilstand with aaa
-    ls"HAHAHAHHAAHAAHAHAHHAHHA. Servant? Me? Are you blind as well as incurably stupid?"
+    ls"ХАХАХАХХАААХААХАХАХХА. Слуга? Я? Ты не только тупой, но еще и слепой?"
     show lilstand at right with aaa
     hide lilsmile with aaa
     ls"My name is Lilja. {w}I'm a God."
