@@ -9,30 +9,30 @@ monocro off
 ; ????(??????)<???????(?)>
 bg "image\bg\ima_13.jpg",%type_crossfade_fst
 
-`"Tsss, ah............!"@
-` My body falls with a crash.@
-`"Ah, ah, ah............!"@
-` My entire body is convulsing.@
-` It, hurts.@
-` My chest, my chest is, burning,,,,,,!\
+` - Цссс, а!..@
+` Я с грохотом падаю.@
+` - А, а, аа...!@
+` Всё моё тело содрогается.@
+` Мне, больно.@
+` Моя грудь, моя грудь, полыхает,,,,,,,!\
 
-`"----,aaaah.........!"@
-` My mind is drifting away.@
-` My fingers claw at the tatami mats in pain.@
-` I pull and rip at the mats.@
-` But, it doesn't stop the pain.\
+` - ----, aaaa...!@
+` Мой разум ускользает от меня.@
+` От боли я рою пальцами татами.@
+` Я цеплюсь за татами, разрываю их.@
+` Но, это не останавливает боль.\
 
-`"Hagh, ghah, ghaaaaa......!"@
-` Pain.@
-` Pain.@
-` Pain.@
+` - Хагх, гхах, гааааа!..@
+` Боль.@
+` Боль.@
+` Боль.@
 br
-` Such pain, is frightening.\
+` Такая боль, пугает меня.\
 
-`"U, ugah, kuaaaa.........!"@
-` I can't bear it.@
-` If it lasts another second,
-` then, it would be better, just to die----!\
+` - У, уга, кхаааааа!..@
+` Я не могу этого вынести.@
+` Если это продлится ещё хоть секунду,
+` то, было бы лучше, просто умереть     !\
 
 br
 br
@@ -41,11 +41,11 @@ br
 br
 br
 br
-` "Fine.@ I'll grant your wish Shiki."\
+` - Хорошо.@ Я исполню твоё желание, Шики.\
 
-`"----Eh?"@
-` I lift my head off the floor.@
-` Before that.\
+` - Э?..@
+` Я приподнимаю голову.@
+` Но прежде чем мне удаётся это сделать.\
 
 ; ???<????>
 bg "image\bg\ima_10.jpg",%type_nowaitdisp
@@ -73,126 +73,127 @@ bg "image\bg\bg_09c.jpg",%type_crossfade_slw
 ;S.E."????(???)"
 waveloop se1
 
-` Before that,
-` my pain disappears.@
-` I don't feel pain anywhere.\
-` I don't even feel heavy.@
+` Прежде чем мне удаётся это сделать,
+` моя боль исчезла.@
+` Я не чувствую боли.\
+` Я не чувствую даже тяжести.@
 br
-` I don't even feel... alive.\
+` Я не чувствую даже... жизни.\
 
-`"----"@
-` I try to say something, but my throat doesn't move.@
-` There's nothing.@
-` No pain,
-` no sensation,
-` not even, freedom.\
+` - ...@
+` Я пытаюсь сказать что-нибудь, но моё горло не двигается.@
+` Ничего нет.@
+` Ни боли,
+` ни чувства, 
+` ни даже свободы.\
 
-`"-----!"@
-` I don't know what's going on, so I try to get up.@
-` My body doesn't even twitch.@
-` It's not that I'm tied down, nor is it that my entire body is numb.@
+` - !..@
+` Я не знаю что происходит, и поэтому пытаюсь подняться.@
+` Моё тело даже не дёрнулось.@
+` Но я не связан, и моё тело не онемело.@
 br
-` If I have to give a metaphor,
-` it's like my body is already dead, but my mind is mistakenly still lingering in my body.\
+` Если провести сравнение,
+` это как будто моё тело уже умерло, но мой разум почему-то не покинул его.\
 
-`"------"@
-` Of my five senses, only my sight is still alive.@
-` ...... the room is dark.@
-` It is already night outside.@
-`"---"@
-` I can't move my face, so I move my eyes.\
+` - ...@
+` Из всех моих чувств до сих пор работает только зрение.@
+` В комнате темно...@
+` На улице уже ночь.@
+` - ...@
+` Я не могу повернуть голову, поэтому я поворачиваю глаза.\
 
 br
 ` ----, -----, ------,
 br
-` Something.@
-` I hear something nearby.@
-` But I can't really hear anything.@
-` It seems something is wrong with my ears since I can't even hear my own breathing.@
+` Что-то.@
+` Я слышу рядом что-то.@
+` Но я не могу ничего разобрать.@
+` Похоже что с моими ушами что-то не то потому что я не слышу даже собственного дыхания.@
 br
-` Just,
-` I feel like I can dimly hear a pained voice calling my name.\
+` Только,
+` мне кажется будто я слышу чей-то страдающий голос, который зовёт меня по имени.\
 
 
-`"---Oh?@ I thought you had completely disappeared, but you're awfully persistent, Shiki."\
-` I can hear a voice I shouldn't be able to hear.@
-`"----!"@
-` I glance around the dark as best as I can.@
-` There,
-` I see something I don't know about.\
+` - Оо?@ Я думал ты полностью исчез, но ты ужасно настойчивый, Шики.\
+` Я слышу голос, который не должен мочь слышать.@
+` - !..@
+` Изо всех сил я оглядываюсь во тьме.@
+` Там,
+` я вижу что-то незнакомое.\
 
 ;S.E.??
 wavestop
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
-`"----"@
-` Who is that?@
-` I've never seen him.@ I've never seen him---but I feel like, I've known him from a long, long time ago.\
+` - ...@
+` Кто это?@
+` Я никогда его не видел.@ Я никогда его не видел — но мне кажется что я очень, очень давно знаком с ним.\
 
-`"What's this?@ How mean of you, Shiki.@
-` You've been looking for me for so long and when I come out, you don't remember me?"@
-` With an amused laugh, he stares at me with blood-shot eyes.\
+` - Чего?@ Шики, как жестоко.@
+` Ты столько меня искал, а когда я наконец появился ты меня даже не помнишь?@
+` Весело хохотнув, он смотрит на меня налитыми кровью глазами.\
 
-`"-----"@
-` My mind, the only thing still working, freezes.@
+` - ...@
+` Мой разум, единственная часть меня которая ещё работает, остановился.@
 br
-` He didn't say it yet,
-` But---I know he is a vampire.@
-` That he is the "Serpent" Senpai and Arcueid are looking for.\
+` Он ещё этого не сказал,
+` Но — я знаю что он вампир.@
+` Что он — «Змей», которого искали Сенпай и Арквейд.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t05a.jpg",%type_crossfade_fst
-` "...... No, that's wrong.@ Certainly I am the vampire known as the Serpent of Akasha.@
-` But to you, I'm not the Serpent, but rather, SHIKI, right?@
+` - Нет, неверно.@ Действительно, я вампир, известный как Змей Акаши.@
+` Но для тебя я не Змей, а скорее ШИКИ, верно?@
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_fst
-` ---Man, how cold of you.@ You make me look stupid for thinking about you all these eight years.@
-` Hey, don't you feel the same way Ciel?"@
-` He says that while looking at me.\
+` Какой же ты всё-таки бесчувственный.@ Это выставляет меня идиотом что я думал о тебе все эти восемь лет.@
+` Эй, Сиэль, ты так не считаешь?@
+br
+` Он говорит это, продолжая смотреть на меня.\
 
-`"----!"@
-` Senpai.@ Is Senpai here?@
-` But where?@ I can't see her, nor do I sense her presence.@
-` If she is here, then why isn't she doing anything about him?@
-` In front of me.@ Right now, our enemy is in front of me.........!\
+` - !..@
+` Сенпай.@ Сенпай здесь?@
+` Но где?@ Я не вижу её и я не чувствую её присутствие.@
+` Если она здесь, то мочему ничего с ним не делает.@
+` Передо мной.@ Прямо сейчас наш враг передо мной!..\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
-`"You shouldn't ask Ciel something she can't do that much about.@ Right now, she isn't in a condition to really show herself in front of others.@
-` Well, in the first place---I don't think you can really see anything right now."@
+` - Не стоит просить у Сиэль того чего она сделать не может.@ Сейчас она не в том состоянии чтобы показываться на людях.@
+` Хотя, начнём с того... я не думаю что ты сейчас вообще можешь что-нибудь увидеть.@
 br
-` Another sound.@
-` Something.@
-` I can hear the sound of something tenaciously, almost madly clawing the tatami mats.\
+` Ещё один звук.@
+` Что-то.@
+` Я слышу, как что-то настойчиво, почти исступлённо скребётся по татами.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_fst
-`"...... Hey, didn't I tell you not to pay attention to that......!?@
-` Look Shiki, the only thing you should see is me.@
-` The only thing you should hear is my voice.@
-` The only existence you should acknowledge is mine.@
-` The only one that lets you live is me.........!@
-` Finally, at last, I've met you here, so don't think of anything other than me---!"\
+` - Эй, разве я не говорил не обращать на это внимания?!.@
+` Слушай, Шики, единственное что ты должен видеть, это я.@
+` Единственное что ты должен слышать это мой голос.@
+` Единственное существо, которое ты должен замечать, это я.@
+` Единственное, что держит тебя в живых, это я!..@
+` Наконец-то, мы наконец-то встретились, поэтому не думай ни о чём кроме меня!\
 
-` ----A sharp sound.@
-` From the hand of the man before me---this vampire called the Serpent, I hear a sickening sound.@
-` And then, I hear a faint, pained gasp.@
+`      Резкий звук.@
+` От руки этого человека передо мной — этого вампира по прозвищу Змей, я слышу отвратительный звух.@
+` А затем, я слышу слабый, измученный вскрик.@
 br
-` ----no, ku--n
-` I can't quite make it out.\
+` ----но, ку--н
+` Я не могу толком его разобрать.\
 
-`"---Did you really forget Shiki?@
-` ...... Was the old man's hypnosis that good or---did you lose your memory after dying once?@
-` Shit, either way, what a waste!\
+` - Шики, ты и правда забыл?..@
+` Гиноз старика был так силён, или — ты потерял память после того как умер?@
+` Твою мать, в любом случае тогда всё насмарку!\
 
-` Do you understand!?@ These eight years, I've waited these eight years!@ I've waited for this instance where I could steal everything from you, the one who killed me!@ But what use is it now if you don't remember!?"\
-`"-----"@
-` What is, he saying?@
-` I---killed him?\
+` - Ты понимаешь?!@ Эти восемь лет, я ждал эти восемь лет!@ Я ждал этого момента, когда я смогу отбрать всё у тебя, у того кто убил меня!@ Но какой в этом смысл если ты не помнишь?!\
+` - ...@
+` Что, он говорит?@
+` Я... убил его?\
 
-`"That's right!@ If you've forgotten, then remember.@ The three of us were always together, right?@
-` In the Tohno mansion.@ Akiha and you, and I would play in the garden together.@ Before I became like this eight years ago that day!"\
+` - Именно!@ Если ты забыл, то вспоминай!@ Мы всегда были вместе втроём, верно?@
+` В поместье Тоно.@ Акиха и ты и я играли вместе в саду.@ Пока в тот день восемь лет назад я не стал таким!\
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
@@ -200,8 +201,8 @@ bg "image\bg\ima_11.jpg",%type_nowaitdisp
 bg "image\bg\cmo_06.jpg",%type_nowaitdisp
 
 br
-` ---I, can't remember.@
-` Certainly---it seems like there was another kid with us back then.\
+`     Я, не могу вспомнить.@
+` Действительно... с нами, кажется, был ещё один ребёнок.\
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
@@ -211,15 +212,15 @@ bg "image\bg\bg_09c.jpg",%type_nowaitdisp
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_fst
-`"...... You can't remember?@ And we were such good friends too."@
-` He grits his teeth.@
-` His whole body quivers with emotion as if he was brimming with vexation.\
+` - Ты не можешь вспомнить?..@ А мы ведь ещё так дружили.@
+` Он скрипит зубами.@
+` Всё его тело дрожит от переполняющей его досады.\
 
-`"---Geez.@ Was I the only one in pain?@
-` That's terrible, Shiki.@ I was always locked away by my old man, but I could always sense you.@
-` Haha.@ Because I was using your 'life'.@ Even though we're not connected by blood, we're connected by our souls."\
-`"That's why you---I wanted you to have a terribly gruesome end."@
-` How unfortunate, he says.\
+` - Господи...@ Я что, один мучался?@
+` Шики, как ужасно.@ Я всё время просидел взаперти по мислости папаши, но я всегда чувствовал тебя.@
+` Хаха.@ Потому что я использовал твою «жизнь».@ Даже если мы не связаны кровью, мы связаны душами.\
+` - И поэтому ты... я хотел чтобы тебя ожидал по-настоящему ужасный конец.@
+` «Какая жалость», говорит он.\
 
 br
 br
@@ -227,206 +228,206 @@ br
 br
 br
 br
-` That sound again.@
-` The sound of someone clawing at the tatami mats.\
+` Опять этот звук.@
+` Звук, как кто-то скребётся по татами.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03a.jpg",%type_crossfade_fst
-`"...... What an annoying woman.@ I stole this life.@ This was mine since eight years ago!@ You think I can just give it back to Shiki?@
-` In the first place, I would die without it.@ Ciel, are you telling me to die?@ How cruel.@ Just be quiet and stay dead right there."@
+` - Что за надоедливая баба...@ Я украл эту жизнь.@ Она моя уже восемь лет!@ Ты думаешь я могу просто вернуть её Шики?@
+` Начнём с того что без неё я бы умер.@ Сиэль, ты хочешь сказать чтобы я умер?@ Как жестоко.@ Сдохни уже и лежи молча.@
 br
-` Another piercing sound.@
-` The clawing noise stops.\
+` Ещё один звук, будто что-то вонзается во что-то.@
+` Скребущиеся звуки прекратились.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
-`"----Hmm, where were we?@
-` Ah, that's right.@ We were talking about how deep our bonds were.@
-` What I wanted to say is this, Shiki.@ I'm your brother.@ But you and Akiha seem to have heartlessly forgotten that."@
-` "-----"@
-` My...... Tohno Shiki's, brother.........?@
+` - Хмм, на чём мы остановились?..@
+` А, точно.@ Мы говорили о том, как крепка наша связь.@
+` Шики, я хотел сказать вот что.@ Я твой брат.@ Но вы с Акихой об этом бессердечно забыли.@
+`  - ...@
+` Мой... брат, Тоно Шики?..@
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t05a.jpg",%type_crossfade_fst
-`"...... Well, I'll keep it at that.@
-` Shiki, you've heard from Ciel about me, right?@ A reincarnating soul.@ A vampire that returns to life after it dies."\
-` His eyes narrow.@
-` His mood turns different from before.@
-` His soft, almost human personality starts to disappear.\
+` - Ну, насчёт этого пожалуй хватит.@
+` Шики, ты ведь слышал обо мне от Сиэль?@ Реинкарнирующаяся душа.@ Вампир, который возвращается к жизни после того как умрёт.\
+` Его глаза сужаются.@
+` Его настроение становится совсем другим.@
+` Его мягкая, почти человеческая личность начинает исчезать.\
 
-`"This is my eighteenth reincarnation.@ You know about my requirements for the new reincarnating body, right?@
-` A family that carries power within its blood and has influence in society.@
-` There's no need to say what fits those requirements.@
-` During the seventeenth time---my previous self chose the Tohno bloodline.@
-` Choosing the Far East was just a whim.@ Maybe I just wanted a change of scenery from my previous incarnations."\
+` - Это моя восемнадцатая реинкарнация.@ Ты ведь знаешь о моих требованиях к новому телу для реинкарнации, верно?@
+` Семья, в чьей крови есть сила, и которая обладает влиянием в обществе.@
+` Не нужно говорить, кто подходит под эти требования.@
+` В семнадцатый раз — моё прошлое воплощение выбрало семью Тоно.@
+` Дальний Восток я выбрал просто так.@ Может быть мне просто хотелось сменить обстановку.\
 
-`"I was killed by the princess and my eighteenth self was reborn as Tohno SHIKI.@
-` I had no complaints about his body.@ His intelligence and development advanced rapidly and the weather in this country was comfortable."\
+` - Принцесса убила меня и моя восемнадцатая личность переродилась в Тоно ШИКИ.@
+` Его тело меня полностью устраивало.@ Он быстро развивался физически и умственно, а климат в этой стране был хорошим.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
-`"---But, that was as far as it went.@
-` 'The Serpent'---Well, Roa made a mistake in that the power of the Tohno bloodline was too great.@
-` Akiha and I, we're only half human after all.@ The other half is as much a monster as Roa, which those of the Tohno line must resist throughout their lives.@
-` But, some people are weak, which stops them from resisting.@
-` It is the duty of the head of the Tohno household to kill those who succumb to this inversion and are no longer human but---"\
+` - Но дальше дело не зашло.@
+` «Змей» — Роа просчитался, сила рода Тоно оказалась слишком велика.@
+` Всё-таки Акиха и я, мы только наполовину люди.@ Вторая половина так же чудовищна как и Роа, и члены рода Тона должны сопротивляться ей всю жизнь.@
+` Но, некоторые бывают слабы, и перестают сопротивляться.@
+` Долг главы дома Тоно — убивать тех, кто поддался этой трансформации и перестал быть людьми, но...\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t02a.jpg",%type_crossfade_fst
-`"To sum it up, I lost.@
-` Normally, Roa wouldn't awaken until I become an adult.@
-` But---since you and I are connected, you can understand, right Shiki?"\
+` - Короче говоря, я проиграл.@
+` Обычно Роа бы не пробудился пока я не позврослел.@
+` Но — поскольку ты и я связаны, ты то можешь понять, верно, Шики?\
 
-`"Two wills cannot exist in one body.@
-` It's possible if the other personality stems from a person's will, but a completely different will cannot enter.@ What happens when it can't?@
-` Simple.@ The vessel, the brain, cries out.@
-` Headaches occur.@ Suddenly, without reason, without meaning."@
-`"-----"@
-` Head...... aches......, don't tell me---\
+` - Две воли не могут существовать в одном теле.@
+` Это возможно если одна личность проистекает из другой, но абсолютно чужая воля войти не может.@ Знаешь что бывает в таких случаях?@
+` Всё просто.@ Сосуд, мозг, не выдерживает.@
+` Начинаются головные боли.@ Без предупреждения, без причины, без смысла.@
+` - ...@
+` Головные, боли... не может быть—\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
-`"That's right.@ Your headaches have flowed from me to you.@
-` Didn't I say so earlier?@ I am using your life.@ We are two people using the same life.@
-` So---if I can move like this, then you end up as immobile as a corpse.@
-` What kills a will is another will.@ My will to live is stronger than yours."@
+` - Именно.@ Твои головные боли достались тебе от меня.@
+` Разве я не говорил?@ Я использую твою жизнь.@ Мы оба использем одну жизнь.@
+` И потому — если я могу свободно двигаться, ты становишься неподвижным как труп.@
+` Волю убивает воля.@ Моя воля к жизни сильнее твоей.@
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_fst
-`"...... Well, but you are still amazing.@ I'm using your strength trying to kill you...... But that's strange, why are you still alive?"@
-` As he tilts his head, he really does look perplexed.\
+` - Ноо, ты всё равно удивительный.@ Я использую твою же силу чтобы убить тебя... Но вот странно, почему ты ещё жив?@
+` Он наклоняет голову набок с искренне озадаченным видом.\
 
-` ...... I'm the one who wants to tilt my head questioningly.@
-` Why is he using my life, and what in the world is he?@ My mind is brimming with questions.\
+` Это мне хочется вопросительно наклонить голову.@
+` Почему он использует мою жизнь, и что он вообще такое?@ Моя голова переполняется вопросам.\
 
-`"...... It seems you still don't understand, Shiki.@
-` I told you, the only thing that can kill a will is another will.@ In other words, killing the will does not kill the body.@
-` The Roa inside of me was another will besides my own.@
-` Eight years ago that summer day.@ Roa killed the will of Tohno SHIKI."@
+` - Шики, похоже ты всё ещё не понимаешь.@
+` Я же сказал, волю может убить только другая воля.@ Иными словами, смерть воли не означает смерть тела.@
+` Роа внутри меня был ещё одной, чуждой волей.@
+` В тот летний день восемь лет назад.@ Роа убил волю Тоно ШИКИ.@
 br
-`"----"@
-` Like I said, I'm Tohno Shiki, right?\
+` - ...@
+` Я же говорю, это ведь я Тоно Шики, верно?\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04c.jpg",%type_crossfade_fst
 
-`"Yeah, you are Tohno Shiki.@ A true impostor who became the eldest son of the Tohno household in place of me, who succumbed to inversion."@
-`"-----"\
+` - Да, ты Тоно Шики.@ Настоящий самозванец, который стал стал старшим сыном дома Тона вместо меня, поддавшегося трансформации.@
+` - ...\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
 
-`"Listen up.@
-` ...... I even liked you Shiki.@
-` Me and my old man didn't get along either, and you were a good guy.@ We really were good friends.@
-` Of course I loved Akiha too.@ But I couldn't allow her to grow more attached to you."@
+` - Слушай внимательно.@
+` Шики, ты ведь мне даже нравился.@
+` Мы с папашей тоже не уживались, а ты был хороший парень.@ Мы были очень хорошими друзьями.@
+` Конечно же Акиху я тоже любил.@ Но я не мог позволить ей привязываться к тебе ещё больше.@
 br
-` ...... w, wait.@
-` What, what is he saying----\
+` ...п, подождите.@
+` Что, что он говорит...\
 
-`"...... Yeah, I remember that feeling from that time.@
-` Everything turned crimson and I started to hate everything.@ The voices of the birds, the leaves on the treas, everything became bothersome to me, and I destroyed whatever I came across.\
+` - Да, я помню то чувство...@
+` Всё побагровело и я начал ненавидеть всё.@ Голоса птиц, листва на деревьях, всё меня злило, и я уничтожал всё что попадалось мне под руку.\
 
-`"Eight years ago, Shiki.@
-` In that courtyard, Roa killed my will.@
-` Normally, it would have been all over when Roa awoke.@ But the Tohno family is special.@
-` As soon as my reason was lost, my body succumbed to inversion.@
-` I guess it's what you call an inversion impulse, but you do what you always thought was taboo.@
-` I guess deep in my heart, I was jealous of you.@ In the end, I killed you because you were there."\
+` - Восемь лет назад, Шики.@
+` В том дворе Роа убил мою волю.@
+` Обычно если бы Роа пробудился всё было бы кончено.@ Но семья Тоно особенная.@
+` Как только я потерял рассудок, моё тело поддалось трансофрмации.@
+` Кажется, это называется инверсией, но в общем, ты начинаешь делать то, что всегда считал запретным.@
+` Наверное, в глубине души, я тебе завидовал.@ В конечном итоге я убил тебя, потому что ты оказался там.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t02a.jpg",%type_crossfade_fst
-`"Man, there never was a pleasure greater than that time!@
-` Piercing your chest with this hand and feeling your heart as you coughed up blood.@ I thought I was born again!@
-` It felt so wonderful, I stood there wanting to play with your dying body even longer, but I was pushing my luck.@
-` While I was eagerly trying to rip out your heart, someone informed the old man.@
-` That bastard, he rushed over and killed me!@ Me, his real son!@ Shit.@ I guess cruel fathers do exist.@ A father like that can't complain when he's killed by his own son, right, Shiki!?@
-` Well in the end--I felt pretty good."\
+` - Эх, я никогда не испытывал большего удовольствия!@
+` Я пробил тебе грудь вот этой рукой и сжимал в кулаке твоё сердце пока ты кашлял кровью.@ Я будто заново родился!@
+` Это было так чудесно, и я просто стоял, собираясь поиграть с твоим телом ещё немного, но тем самым я испытывал судьбу.@
+` Пока я весь из себя вырывал твоё сердце, кто-то сказал старику.@
+` Эта сволочь, он прибежал и убил меня!@ Меня, собственного сына!@ Твою ж ты мать.@ Похоже такие жестокие отцы действительно бывают.@ Такому отцу не пристало жаловаться если его убивает собственный сын, верно, Шики?!@
+` В общем, в итоге — мне было здорово.\
 
 br
 br
 br
 br
 br
-` ------Blood.@
-` In that courtyard.@
-` The bloody corpse of a child.\
+`          Кровь.@
+` В том дворе.@
+` Окровавленный труп ребёнка.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03a.jpg",%type_crossfade_fst
 
-`"--Yes, you finally remember Shiki......!@
-` That's right, I'm the one who killed you!@ But you lived through it and took over my place as Tohno Shiki......!@
-` My old man, that bastard---he locked me away like trash in an underground cell after killing me.@
-` Because he couldn't have it known that his eldest son was dead, he took you, his adopted son, and replaced me!"\
+` - Да, Шики, ты наконец-то вспомнил!..@
+` Верно, это я убил тебя!@ Но ты выжил и занял моё место, место Тоно Шики!..@
+` Папаша, этот ублюдок — после того как он убил меня он запер меня в подземной камере словно какое-то отребье.@
+` Потому что он не мог допустить чтобы смерть его старшего сына стала известна другим, он взял тебя, своего приёмного сына, и заменил меня!\
 
 br
-` I---------was adopted?@
+` Я---------был усыновлён?@
 br
 \
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_mid
-`"Yeah.@ The old man used you after your miraculous recovery.@ Fortunately for him, we were kids.@
-` We didn't doubt the fact that we were actual brothers---and you were pretty screwed up from that incident.@
-` My old man deceived you and Akiha with a simple lie and made you forget about me, the true Tohno SHIKI!"\
+` - Ага.@ После того как ты чудом оправился, папаша использовал тебя.@ К счастью для него, мы были детьми.@
+` Мы не сомневались что мы действительно были братьями — и ты после того случая был совсем не в себе.@
+` Папаша обманул тебя и Акиху простой ложью и заставил тебя забыть обо мне, о настоящем Тоно ШИКИ!\
 
 br
 br
 br
 br
 br
-` ------No one, was there.@
+`         Никто, не появлялся.@
 br
-` After that accident.@
-` Why was I all alone like that?@
-` In other words, that means---\
+` После той аварии.@
+` Почему я оказался совсем один?@
+` Иными словами, это означает...\
 
-`"Yes, it's because no one needed you.@
-` Well, in order to protect the image of this family, you were treated as Tohno Shiki.@
-` ---Yeah, but I did need you.@
-` Because thanks to stealing your life, I was able to survive when my old man killed me.@
-` For that, and only that, I thank you, Shiki."\
+` - Да, это потому что ты был никому не нужен.@
+` Ну, чтобы защитить имидж семьи тебя поместили в больницу под именем Тоно Шики...@
+`       Да, но вот мне ты был нужен.@
+` Благодаря украденой у тебя жизни я сумел выжить когда старик убил меня.@
+` За это, и только за это, я благодарен тебе, Шики.\
 
 br
-` ...... I don't understand.@
-` So why?@
-` Why am I still alive then?\
+` Я не понимаю...@
+` Тогда почему?@
+` Тогда почему я до сих пор жив?\
 
 
-`"Who knows.@ I'd like to know that myself---but, it really doesn't matter.@ Because you're going to die here anyway."@
-` Saying that,
-` He---Roa stands up slowly.\
+` - Кто знает.@ Я бы и сам хотел это знать — но, на самом деле это не важно.@ Потому что ты всё равно сейчас умрёшь.@
+` С этими словами,
+` Он — Роа медленно поднимается.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-`"---Your painful death was the goal of this body...... of Tohno SHIKI.@ I've gone along with that this long, but it's time to lower the curtain.@
-` Even for me---to have two bodies with one life is not very efficient."\
+` - Твоя мучительная смерть была целью этого тела... целью Тоно ШИКИ.@ Я долго подыгрывал этому, но пора опускать занавес.@
+` Даже для меня... иметь два тела с одной жизнью не сликшом эффективно.\
 
-` The voice nears.@
-` I'll be killed like this.@
-` ...... No, I say I'll die, but maybe I'm already dead.@
-` My arms and legs can't move.@
-` My eyes, my ears, my nose don't work.@
+` Голос приближается.@
+` Сейчас меня убьют.@
+` Нет, я говорю что сейчас умру, но может быть я уже мёртв.@
+` Мои руки и ноги не двигаются.@
+` Мои глаза, мои уши, мой нос не работают.@
 br
-` ---There is nothing left.\
+`      Не осталось ничего.\
 
-` I don't want to just accept what he says.@
+` Я не хочу просто принимать его слова...@
 br
-` ...... But I don't care about anything anymore.@
+` Но мне уже всё безразлично.@
 br
-` My eyes that can see "death", because my body is already like a dead body.@
-` In the end, I was just an impostor.@
-` And on that summer day eight years ago, I was already dead----\
+` Мои глаза которые могут видеть «смерть», потому что моё тело уже считай мёртвое.@
+` В конечном итоге, я оказался простым самозванцем.@
+` И в тот летний день, восемь лет назад, я уже был мёртв...\
 
 br
-`"----Tohno-kun----!"@
+` -    Тоно-кун    !@
 br
-` ...... But, I can hear a voice.\
-` A sobbing voice.@
-` An incredibly sad, almost shouting voice.\
+` Но, я всё равно слышу голос.\
+` Плачущий голос.@
+` Невероятно печальный, почти срывающийся на крик голос.\
 
 ; ???:??????????(01)<???????(?)>
 bg "image\event\cel_e09.jpg",%type_crossfade_slw
@@ -436,104 +437,104 @@ play "*7"
 
 
 br
-` ---Did my eyes get used to the darkness?@
-` Or, did my will force my eyes to open?\
+`     Мои глаза привыкли к темноте?@
+` Или моя воля заставила мои глаза открыться?\
 
-` I finally grasp what it was this bastard was sitting on while he gave his long speech.\
+` Я наконец понимаю на чём сидел этот урод пока говорил свою долгую речь.\
 
-`"---Damn, you regenerated again?"@
-` Roa's legs stop.@
-` He turns around toward Senpai.@
-`"Didn't I tell you to stay dead?@ You really are an eyesore."@
-` With a piercing sound,
-` Roa takes one of Senpai's swords and thrusts it into her body.@
+` - Чёрт, ты опять восстановилась?@
+` Ноги Роа останавиливаются.@
+` Он разворачивается к Сенпай.@
+` - Разве я не сказал тебе сдохнуть?@ Ты прям как кость в горле.@
+` С резким звуком,
+` Роа берёт один из мечей Сенпай и вонзает его в её тело.@
 br
-`"Aug............!"@
-` Her pained voice.@
-` Her nails dig into the tatami mat.\
-
-br
-` Clawing, and clawing.@
-` Her nails are almost peeled off, and her breathing is like a combusting engine.@
-br
-` But still.@
-`"...... Tohno, kun.........!"@
-br
-` Clawing and writhing.@
-` She frantically continues to call out my name as I lie there collapsed like a cut puppet.\
-
-`"...... Annoying woman.@ Didn't I tell you no matter how many times you call out his name, Shiki won't hear you?@
-` Right now, he's just a living corpse.@ He can only hear my voice.@
-` ...... No, not even my voice.@ He only knows my will because of the connection of life between us.@ How can you not understand that fact?"\
-br
-br
-br
-br
-br
-br
-` More piercing sounds.@
-` The swords pierce Senpai's body.\
-
-`"Ts----!"@
-` Her body twitches in response.@
-` Even still---Senpai continues to call out my name, as if she was a broken record.\
+` - Аугг...!@
+` Её измученый голос.@
+` Её ногти, скребущиеся по татами.\
 
 br
-` Tohno-kun.@
-` Tohno-kun.@
-` Tohno-kun.@
-` With her pain-filled, sobbing voice.\
+` Снова и снова она продолжает рыть пальцами татами.@
+` Её ногти почти сорваны, она хрипит словно горящий двигатель.@
+br
+` Но всё равно.@
+` - Тоно, кун!..@
+br
+` Корчась и скребя пальцами по татами.@
+` Она лихорадочно зовёт меня по имени, пока я валяюсь как марионетка с обрезаными верёвочками.\
+
+` - Надоедливая женищна.@ Разве я не сказал что сколько ты его ни зови, Шики тебя не услышит?@
+` Сейчас он не более чем живой труп.@ Он слышит только мой голос.@
+` Нет, даже не мой голос...@ Он лишь знает мою волю благодаря нашей связаной жизни.@ Почему ты этого не понимаешь?\
+br
+br
+br
+br
+br
+br
+` Ещё пронзительные звуки.@
+` Мечи вонзаются в тело Сенпай.\
+
+` - Цс!..@
+` Её тело дёргается в ответ.@
+` Но всё равно — Сенпай продолжает звать моё имя, словно заевшая пластинка.\
 
 br
-`"--------"@
-br
-` I could hear it.@
-` ...... I definitely heard it from before.@
-` But I probably didn't listen to half of what she said.\
+` Тоно-кун.@
+` Тоно-кун.@
+` Тоно-кун.@
+` Своим болезненным, плачущим голосом.\
 
-` Even as she spit out blood.@
-` She kept calling out to me who was just lying there like a thrown-away, broken doll.\
+br
+` - ...@
+br
+` Я слышал его.@
+` Я определённо слышал его ранее...@
+` Но я наверное не услышал и половины её слов.\
 
-`"---An immortal body?@
-` How foolish.@ If you had this much power you could have defeated me."@
-br
-` The sound of stabbing again.@
-br
-`"But for such a guy you laid down your swords.@ I'm disappointed, Elesia.@ Thinking a piece of trash like you is actually my daughter makes me sick......!"@
-br
-` Thrust.@ Thrust.@ Thrust.\
+` Даже сквозь идущую горлом кровь.@
+` Она всё звала меня, того, кто просто лежал как выброшенная, сломаная кукла.\
 
-` As if he's lost his mind, he keeps stabbing Senpai over and over again.@
-` Her defenseless back.@ Her shoulders.@ Her legs.@ Her throat.@
-` Her bloody arms outstretched towards me.@
+` - Бессмертное тело?@
+` Как глупо.@ Если у тебя было столько силы ты могла бы меня победить.@
 br
-` Mercilessly stabbing.@
+` Снова звук удара.@
 br
-` Despite this.@
-` Her lips keep on calling my name.\
-
-` ...... I can't hear it.@
-` I can't hear it anymore.@
-` It's not that my ears are no longer working, but her throat is already dead.\
-
-` But she still keeps calling out to me.@
-` As if she is wishing I'll be able to move if she continues on like that.\
-
-`"-----"@
+` - Но ради этого типа ты опустила мечи.@ Я разочарован, Элезия.@ Меня тошнит от одной мысли, что такой кусок отбросов вроде тебя является моей дочерью!..@
 br
-` To be honest,
-` I don't understand why she would go that far.\
+` Удар.@ Удар.@ Удар.\
 
-`"-----St--"@
+` Словно взбесишвись, он снова и снова вонзает в Сенпай мечи.@
+` В её беззащитную спину.@ Её плечи.@ Её ноги.@ Её горло.@
+` Её окровавленные руки, тянущиеся ко мне.@
 br
-` I'm almost going insane.@
-` Watching her be stabbed for my sake makes me almost insane.\
+` Без капли жалости.@
+br
+` Но не смотря на это.@
+` Её губы продолжают звать моё имя.\
 
-`"------op."@
+` Я больше не слышу...@
+` Я больше не слышу её голоса.@
+` Не потому что у меня отключилсиь уши, а потому что её горло уже уничтожено.\
+
+` Но она продолжает звать меня.@
+` Словно думая что я смогу двигаться если она продолжит делать так.\
+
+` - ...@
 br
-` But, I don't move.@
-` No matter how frustrated I am, I can't move.@
-` No matter what I do---no matter what I do, this body doesn't move......!\
+` Честно говоря,
+` я не понимаю почему она настолько надрывается.\
+
+` -      Пре   @
+br
+` Я почти обезумел.@
+` От одного вида, как её пронзают насквозь ради меня, я почти схожу с ума.\
+
+` -      крати.@
+br
+` Но, я не двигаюсь.@
+` Как бы я ни был зол, я не могу пошевелиться.@
+` Что бы я ни делал — что бы я ни делал, это тело отказыватся двигаться!..\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -548,39 +549,39 @@ bg "image\bg\bg_09c.jpg",%type_crossfade_fst
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t01a.jpg",%type_crossfade_fst
 
-`"--Wonderful.@ A simple hatred that is almost lethal.@ It was just an instant, but I felt your will directed against me.@
-` You may want to kill me---but this isn't something to be mad about."@
+` - Великолепно.@ Простая ненависть, её почти достаточно чтобы убить.@ Это было лишь на мгновение, но я почувствовал как твоя воля обратилась на меня.@
+` Ты можешь хотеть убить меня — но это не то, из-за чего стоит злиться.@
 br
-` He pulls out a sword.@
-` Senpai's body sinks toward the floor.@
-` Before that can happen, he pulls her up by the hair.\
+` Он достаёт меч.@
+` Тело Сенпай обмякает на полу.@
+` Но прежде чем это случится, он хватает её за волосы.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t05a.jpg",%type_crossfade_fst
 
-`"Look boy, let me teach you something.@
-` No matter how limitless the regenerative ability of a vampire is, it lasts only when they are alive.@
-` Their immortality is only as long as they are alive.@ Once they die, their powers of recovery cease immediately.@
-` Vampires are only difficult to kill, not immortal, but---"\
+` - Смотри, мальчишка, я тебя кое-чему научу.@
+` Как бы безгранична ни была регенеративная способность вампира, она действует лишь покуда вампир жив.@
+` Их бессмертие длится лишь пока они живы.@ Как только они умрут, их восстановительные способности немедленно прекращают действовать.@
+` Вампиры не бессмертны, их просто трудно убить, но...\
 
-` Splat.@
-` A black sword springs forth from Senpai's chest.@
-` Her chest breaks apart.@
-` Roa impales her heart from behind.\
+` Шмяк.@
+` Чёрный меч выскакивает из груди Сенпай.@
+` Её грудь разрывается.@
+` Роа пронзил её сердце со спины.\
 
-`"Tsaaah.........!"@
-` The throat that died moves.@
-` Spewing forth with blood, her body writhes in agony.\
+` - Цссааааа!...@
+` Мёртвое горло содрогается.@
+` Разбрызгивая кровь, её тело начинает биться в агонии.\
 
-`"But---the amazing thing about this woman is.@
-` Even if she dies completely, it isn't her but time itself that restores her body.@
-` Do you understand?@
-` After she dies, without anyone's help, even her own, this world itself returns it back to normal in order to rectify a contradiction.@
-` For example---just like this!"\
+` - Но — что самое удивительное в этой женщине.@
+` Даже если она окончательно умрёт, само время восстанавливает её.@
+` Ты понимаешь?@
+` После её смерти, без чьей-либо помощи, даже без её собственной, сам мир возвращает её в норму чтобы исправить противоречие.@
+` Например — вот так!\
 
-` Roa's amused voice lifts in delight, and at the same time.@
-` With a sickening sound,
-` a black sword springs out from Senpai's forehead-------\
+` Возбуждённый голос Роа подскакивает ещё выше от восторга, и в то же время.@
+` С омерзительным звуком,
+` чёрный меч вырывается изо лба Сенпай...\
 
 ; ????(??????)<???????(?)>
 bg "image\bg\ima_13b.jpg",%type_crossfade_mid
@@ -588,21 +589,21 @@ bg "image\bg\ima_13b.jpg",%type_crossfade_mid
 
 
 br
-` Her head.@
-` From behind.@
-` With that thin, sharp sword.@
-` While she was living, her brain was pierced----\
+` Её голова.@
+` Сзади.@
+` Этим тонким, острым мечом.@
+` Пока она была жива, её мозг был пронзён...\
 
-`"Hyahahaha, isn't it natural for a pierced brain to bring death!?@ Look Shiki, she's flailing about like a fish on a hook!"@
+` - Хиаахахаха, разве не логично что пробитый насквозь мозг приводит к смерти?!@ Смотри Шики, она дёргается как рыба на крючке!@
 br
-` Full of amusement,
-` Roa loses himself in amusement.\
+` Раззадорившись, 
+` Роа от веселья забывает обо всём.\
 
-`"But look.@ Even though the light in her eyes faded, her heart is starting to beat again.@ ...... Shit, what a fucked up life.@
-` It makes us, the ones living with only one life, look foolish."@
+` - Но погляди.@ Хоть её глаза уже потускнели, но её сердце начинает биться снова.@ Чёрт, что за долбанутая жизнь.@
+` По сравнению с этим, мы, у кого жизнь только одна, вглядим совсем глупо.@
 br
-` He swings his arm.@
-` As if she really was a piece of trash, Senpai's body slams into the wall.\
+` Он взмахивает рукой.@
+` Словно куча мусора, тело Сенпай врезается в стену.\
 
 ;S.E."??"
 wave se0
@@ -613,38 +614,38 @@ br
 br
 br
 br
-` That was it.\
+` Всё.\
 
 ;S.E."??"
 wave se0
 
-` That's enough.@
-` I don't care what happens.@
-` I don't care if I go crazy.@
+` Хватит.@
+` Мне всё равно что будет.@
+` Мне всё равно если я сойду с ума.@
 ;S.E."??"
 wave se0
 
-` I don't care if people call me a murderer.@
-` I'll\
+` Мне всё равно если люди будут называть меня убийцей.@
+` Я\
 
 
 ;S.E."??"
 wave se0
 
-`"See, I'm cute compared to her.@ This is a monster that comes back from nothing even if you kill every last bit of her, every last cell of her.@ Is killing something that doesn't really die really a sin......!?"@
+` - Видишь, по сравнению с ней я вообще безобидный.@ Это монстр, который возвращается из ничего даже если её уничтожить целиком, до последней клетки.@ Разве это грех, убивать что-то что на самом деле не умирает?!@
 ;S.E."??"
 wave se0
 
-` Heeheeehee!@ A high, ill-sounding laugh.@
-` Roa throws the sword in his hand towards Senpai as if he was playing darts.\
+` Хиихихи!@ Высокий, безумный смех.@
+` Словно играя в дартц, Роа бросает в Сенпай меч, который держал в руке.\
 
 br
 ;S.E."??"
 wave se0
 
-` Splud!@
-` That is the signal.@
-` With that, all rational thought splinters away.\
+` Шмяк!@
+` Это сигнал.@
+` После этого, всякие рациональные мысли исчезают.\
 
 ; ???(?)<???????(?)>
 bg "image\bg\bg_09c.jpg",%type_crossfade_fst
@@ -652,28 +653,28 @@ bg "image\bg\bg_09c.jpg",%type_crossfade_fst
 ;S.E."??"
 wave se0
 
-`"---------"@
-` I stand up.\
+` - ...@
+` Я встаю.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t05a.jpg",%type_crossfade_fst
-`"Bastard, how can you move---!?"@
-`"-----"\
+` - Скотина, как ты можешь двигаться?!@
+` - ...\
 
 ;S.E."??"
 wave se0
 
-` There's no need to say it.@
-` The one with the stronger will uses the life, right?@
-` Then---up until now,
-` I never thought this strongly about anything before.\
+` Это незачем объяснять.@
+` Жизнь использует тот, чья воля сильнее, верно?@
+` Тогда — до сих пор,
+` я никогда раньше так сильно ни о чм не думал.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_fst
 ;S.E."??"
 wave se0
 
-`"This can't be!@ Am---am I weaker than you......!?"\
+` - Этого не может быть!@ Я... я слабее тебя?!\
 
 br
 br
@@ -685,7 +686,7 @@ br
 ;S.E."??"
 wave se0
 
-`     Roa.@ I'm going to kill you.@
+`     Роа.@ Я тебя убью.@
 !w1000
 
 \
@@ -705,58 +706,58 @@ wave se11
 
 
 
-` In the darkness,
-` My knife crosses against his claws.@
-` His movement is almost blindingly fast.@
-` But, my body follows him.\
+` В темноте,
+` Моё нож встречается с его когтями.@
+` Его движения почти невидны глазу.@
+` Но, моё тело поспевает за ним.\
 
 ;S.E."????(???)"
 waveloop se1
 
-` My arms move as if they belonged to someone else.@
-` My eyes persistently, accurately look at just his "lines".@
-` My entire body burns.@
-` My brain feels like it is on fire.@
-` Just like---when I first saw that golden-haired princess of the vampires, my body is like something else.\
+` Мои руки движутся будто чужие.@
+` Мои глаза настойчиво, точно следят за его «линиями».@
+` Всё моё тело горит.@
+` Моё мозг словно пылает.@
+` Как когда... когда я впервые увидел златовласую принцессу вампиров, моё тело словно не принадлежит мне.\
 
-`"Keh----!"@
+` - Ке...!@
 br
-` Roa springs away.@
-` One of his legs.@ His upper right arm.@ His left collarbone area.@
-` I have already cut through the "lines" there.@
-` The price is my right arm.@
-` Roa first took my arm holding the knife.@
-` So, if he destroys my remaining left arm, it would mean my loss.@
+` Роа отскакивает в сторону.@
+` Одна их его ног.@ Правая верхняя часть руки.@ Левая область ключицы.@
+` Я разрезал «линии» там.@
+` Цена — моя правая рука.@
+` Первым делом Роа уничтожил мою руку, державшую нож.@
+` Значит, если он уничтодит и левую руку, это будет означать моё поражение.@
 br
-` In this situation, losing means certain death.\
+` В этой ситуации, поражение означает верную смерть.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_lshutter_fst
 
 
-`"---I don't believe it.@ A match for me, a vampire.@
-` ...... your eyes, they are perhaps more appropriate for me than this body."@
-`"----"@
-`"If you don't realize it, then that's fine.@ This story is a boring one not even worth talking about."@
-` With a shuffle,
-` Roa increases the distance between us.\
+` - Не могу поверить.@ Противник равный мне, вампиру...@
+` Твои глаза, они возможно больше подходят мне, чем это тело.@
+` - ...@
+` - Если ты не понимаешь, то ничего страшного.@ Это скучная история, её даже рассказывать не стоит.@
+` Роа отбегает назад,
+` увеличивая дистанцию между нами.\
 
-`"...... It's a very old story.@ The last of a fool who obsessed over living forever.@ Just wondering who it was that actually won that."\
+` - Это очень старая история.@ Последняя история глупца, одержимого вечной жизнью.@ Интересно, кто же на самом деле её получил.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t05a.jpg",%type_crossfade_fst
 
-`"---To live forever.@
-` That was the miracle that Roa dreamed about.@
-` I decided that an everlasting cycle of rebirth is eternity.@
-` But that is no different than a continuation of a single bloodline.@
-` If there is such a thing as a power that Roa, who accepted death, can earn at the end of his reincarnation---instead of the power that steals the lives of others like vampires.@
-` ...... I just thought the power you have, the power to see death, was an appropriate end for me."\
+` - Жить вечно.@
+` Это было чудом, о котором мечтал Роа.@
+` Я решил что бесконечный цикл перерождений и есть вечность.@
+` Но это всё равно что и продолжение одного семейства.@
+` Если и есть такая вещь как сила, которую Роа, принявший смерть, может заслужить в конце своих реинкарнаций — не сила похищать жизни других как вампир.@
+` Я просто подумал что твоя сила, сила видеть смерть, была бы подходящим концом для меня.\
 
 br
-` His body lowers a bit.\
+` Его корпус немного опускается.\
 
-`"I just had that ridiculous idea!"@
+` - Мне просто пришла в голову такая невероятная мысль!@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 \
@@ -769,8 +770,8 @@ bg "image\bg\bg_11d.jpg",%type_crossfade_fst
 ;S.E."?????????"
 wave se11
 
-` His arm reaches out.@
-` I slice through it instantaneously.@
+` Его рука вылетает вперёд.@
+` Я тут же рублю по ней.@
 br
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03a.jpg",%type_crossfade_fst
@@ -778,33 +779,33 @@ ld c,":a;image\tachi\roa_t03a.jpg",%type_crossfade_fst
 ;S.E."????(???)"
 waveloop se1
 
-`"Gah---!"@
-` Roa runs away.@
+` - Гха!..@
+` Роа убегает.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
-` I follow after him.@
-` His movements are many times faster than mine.@
-` But, that doesn't matter.\
+` Я следую за ним.@
+` Его движения во много раз быстрее моих.@
+` Но это не имеет значения.\
 
-` Just killing.@
-` I don't care about anything else.@
-` In reality,
-` I've already killed one of his legs, and his speed is reduced.@
-` As he runs away,
-` He braces his hand against the wall and glares at me.\
+` Только убить.@
+` Больше меня ничего не волнует.@
+` В реальности,
+` я уже убил одну из его ног и его скорость понизилась.@
+` Отбежав,
+` Он упирается рукой в стену и смотрит на меня.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03a.jpg",%type_crossfade_fst
 
-`"Shit!@---Do you intend to fight yourself, Shiki?"@
-`"------"@
-`"Don't be silent......!@ You're me.@ I am SHIKI, and you are Shiki.@
-` We are the same type of being.@ It doesn't matter if that bastard Roa existed or not.@
-` ...... I was originally a creature eating human flesh.@ As a child, I had this urge to eat human flesh.@ Even though that has changed to drinking blood, if Roa hadn't entered my body, I would've certainly become a human eating monster."\
+` - Чёрт!@ Шики, ты собираешься драться с самим собой?@
+` - ...@
+` - Не молчи!..@ Ты это я.@ Я ШИКИ, и ты Шики.@
+` Мы одинаковые.@ Неважно, существовал бы этот ублюдок Роа или нет.@
+` Я изначально был существом, питающимся людьми.@ Ещё в детстве мне хотелось поедать человеческую плоть.@ Сейчас это превратилось в желание пить кровь, но если бы Роа не вселился в меня, я бы всё равно стал монстром, пожирающим людей.\
 
-`"---But, that's the same for you.@
-` Like I enjoy eating human flesh, you enjoy killing others!@ Remember the urge you had when you first saw that woman, the ecstasy of killing with that knife!"@
-`"------"\
+` - Но ты ведь такой же!@
+` Как мне нравится человеческая плоть, тебе нравится убивать людей!@ Вспомни тот порыва когда ты впервые уивдел ту женщину, экстаз убийства, когда ты разделал её тем ножом!@
+` - ...\
 
 br
 br
@@ -812,47 +813,47 @@ br
 br
 br
 br
-` The urge I had when I first saw her----
-` That was---when I killed Arcueid.\
+` Желание когда я впервые увидел её...
+` Это было... когда я убил Арквейд.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t02a.jpg",%type_crossfade_fst
 
-`"Yeah, that's right.@ No matter how much you pretend to be a good person, that's something you can't excuse.@ You wanted that woman and did the thing that got you the most excited.@
-` What can you call that other than being a killer?@
-` You and I are the same---we are both abnormal people living in the same place."@
-`"------"@
+` - Да, именно.@ Как бы ты ни притворялся хорошим, это было непростительно.@ Ты хотел эту женщину, и сделал с ней то что тебя больше всего возбуждало.@
+` Как такое назвать кроме как убийцей?@
+` Ты и я одинаковые — мы оба ненормальные, живущие в одном окружении.@
+` - ...@
 br
-` ...... Shut up.@
-` If I hear his voice any longer, I'll go crazy.\
+` Заткнись...@
+` Если я ещё услышу этот голос, я сойду с ума.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03a.jpg",%type_crossfade_fst
 
-`"Yes, the same.@
-` So why are you trying to kill me?@ It's just that Roa entered me!@
-` If Roa entered you instead, our positions would've been reversed......!@
-` But you're going to kill me!?@ You're just hurting yourself......!"\
+` - Да, одинаковые.@
+` Так почему ты пытаешься убить меня?@ В меня просто вселился Роа!@
+` Если бы Роа вселился в тебя, наши места бы поменялись!..@
+` Но ты собираешься убиить меня?!@ Ты только ранишь себя!..\
 
-` Roa screams.@
-` These past eight years.@
-` The monster who made his lair in this city, feeding off the blood of countless people screams.\
+` Роа вопит.@
+` Эти восемь лет.@
+` Монстр, поселившийся в этом городе, выпивший кровь бесчисленных людей, вопит.\
 
-`"---I'm not you.@ You're just a killer."@
-`"Idiot, you don't understand, do you?@ I thought so too, at first.@ That I'm sane.@ That even if Roa's will is here, I thought it would be fine.@
-` But, it wasn't.@ You're the same.@ You, like me, will end up as a killer, Tohno Shiki!"@
-` He laughs.\
+` - ...Я не ты.@ Ты просто убийца.@
+` - Идиот, ты не понимаешь, не так ли?@ Я тоже так думал поначалу.@ Что я не сумасшедший.@ Что даже если во мне будет воля Роа, я думал что всё будет нормально.@
+` Но нормально не было.@ И ты такой же.@ Ты, как и я, станешь убийцей, Тоно Шики!@
+` Он смеётся.\
 
-`"Isn't that right?@ I know that's inside you too.@
-` You know, that impulse is not something that flows from me to you.@
-` Just admit it, killer.@
-` Your inversion impulse is nothing more than what you wish for......!"\
+` - Разве не так?@ Я знаю что это есть и в тебе.@
+` Знаешь, это импульс не переткает от меня к тебе.@
+` Просто признай это, убийца.@
+` Твоя инверсия это лишь то, чего ты на самом деле хочешь!..\
 
-`"-----"@
+` - ...@
 br
-` I ready my knife.@
-` I don't want to hear his voice any longer.@
-` I focus my gaze on him.@
+` Я беру нож наизготовку.@
+` Не желаю больше слышать его голос.@
+` Я фокусируюсь на них.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -862,30 +863,30 @@ bg "image\bg\bg_11d.jpg",%type_crossfade_fst
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03c.jpg",%type_crossfade_fst
 br
-` All that's left is to slice them.\
+` Осталось только разрубить их.\
 
-`"...... I see.@ You're trying to kill me, Shiki."@
+` - Вот как.@ Ты пытаешься убить меня, Шики.@
 br
-` He pulls back.@
-` That's his final move---
+` Он отступает.@
+` Это будет последним что он сделает...
 br
-`"But, don't you ever wonder which one of us was really killed?"@
-`"----"@
-` Suddenly,
-` I halt my attack.\
+` - Но ты никогда не думал кто из нас на самом деле был убит?@
+` - ...@
+` Неожиданно,
+` Я останавливаюсь.\
 
-`"Yes, in the end, both of us died in that place.@
-` So---I might be the one killed by Roa, and you might be the Tohno SHIKI taken over by the Serpent, right?"\
+` - Да, в конце концов мы оба тогда умерли.@
+` Так что — может быть это я был убит Роа, а ты может быть Тоно ШИКИ, в которого вселился Змей, верно?\
 
-`"Hey Shiki.@ Didn't you ever think about it this way?@
-` That you just have not realized it, but you were already insane a long, long time ago!"\
+` - Эй, Шики.@ Ты никогда об этом не думал?@
+` Что ты просто не заметил этого, но ты уже давным давном сошёл с ума!\
 
 br
 br
-` --------That,
-` That can't be true---can it?\
+`          Это,
+` Этого не может быть... верно?\
 
-`"Ha----!"@
+` - Ха!@
 ; ?????<??????(?)>
 cl c,%type_lshutter_fst
 
@@ -901,27 +902,27 @@ wave se5
 quakey 4,100
 
 br
-` I get kicked into the wall from behind.\
+` Я получаю удар ногой  спину и меня вбивает в стену.\
 
 ;S.E."????(???)"
 waveloop se1
 
-`"Gah......!"@
-` What is this?@ Being distracted by such stupid words.@
-` My remaining left arm becomes shredded and painted in blood.@
-` I can't move it one bit and my knife clatters to the floor.@
-` And---in front of me, Roa stands with his furious, blood-shot eyes.\
+` - Гах!..@
+` Что это вообще было?@ Позволить таким бредням себя отвлечь.@
+` Моя оставшаяся левая рука теперь разроблена и покрыта кровью.@
+` Я совсем не могу ею пошевелить, и мой нож с лязгом падает на пол.@
+` И — передо мной, с яростными, налитыми кровью глазами, стоит Роа.\
 
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t03c.jpg",%type_crossfade_fst
 
-`"---Idiot, that's not it at all.@ I'm Roa.@ You had that inverse impulse because you were connected to me subconsciously."@
+` - Идиот, ничего подобного.@ Я Роа.@ Ты получил этот импульс потому что был подсознательно связан со мной.@
 br
-` He grins.@
-` Roa takes a step forward.@
+` Он ухмыляется.@
+` Роа делает шаг вперёд.@
 br
-`"Bye Shiki.@ It's been fun!"@
-` With that, he swings his knife-like claws downward.\
+` - Пока, Шики.@ Было весело!@
+` С этими словами, его когти-ножи летят вниз.\
 
 ;S.E."??????"
 wave se5
@@ -929,23 +930,23 @@ wave se5
 ; ????(???)<??????(?)>
 bg "image\bg\ima_12b.jpg",%type_lshutter_fst
 
-`"------"@
-` There's no pain.@
-` Just the sound of splashing blood.@
-`"You bitch----!"@
-` Roa's voice rings out.@
+` - ...@
+` Боли нет.@
+` Только звук брызнувшей крови.@
+` - Сучка!@
+` Раздаётся голос Роа.@
 br
-` In front of me, Senpai's body takes the full force of Roa's claws.\
+` Передо мной, тело Сенпай приняло всю силу когтей Роа.\
 
 ;S.E."??"
 wave se0
 
-`"--------"@
-` I can't think of anything.@
-` No, there's no need to think.@
+` - ...@
+` Я не могу ни о чём думать.@
+` Нет, думать не нужно.@
 br
-` I scoop up my fallen knife with my mouth.@
-` My teeth tighten around the hilt.\
+` Ртом я подбираю упавший нож.@
+` Мои зубы сжимаются на рукояти.\
 
 ; ???<????>
 bg "image\bg\ima_11.jpg",%type_nowaitdisp
@@ -956,8 +957,8 @@ br
 br
 br
 br
-` I dash into Roa, almost like I was collapsing into him.@
-` I slice the "line" running diagonal from his shoulder.\
+` На полной скорости я врезаюсь в Роа.@
+` Я рублю «линию», идущую по диагонали от его плеча.\
 ;S.E.??
 wavestop
 
@@ -968,25 +969,25 @@ bg "image\bg\bg_11d.jpg",%type_lshutter_fst
 monocro #ff00ff
 
 br
-`"Kuaaaaaaaaaaaaaaaaa!"@
+` - Кйаааааааааааа!@
 br
-` He screeches like some demonic bird.@
-` Running away from Senpai and me, he jumps directly into the window, and falls out.@
+` Он верещит словно демоническая птица.@
+` Побежав прочь от меня и Сенпай, он прыгает в окно и вываливается наружу.@
 br
-` The glass shatters and he falls outside.\
+` Разбивается стекло, и он падает на улицу.\
 
-`"I won't let you get away---!"@
-` I run to the window.@
-`"Damn.........!"@
-` But of course, I can't jump from the third floor.\
+` - Не уйдёшь!..@
+` Я бегу к окну.@
+` - Чёрт!..@
+` Но конечно, я не могу выпрыгнуть с третьего этажа.\
 
-` Under the moonlit night.@
-` As if he didn't receive a fatal wound by just having his "lines" of death cut, Roa runs away like a beast.@
+` Под лунной ночью.@
+` Словно бы ему не перерубили «линию» смерти и он не получил смертельную рану, Роа бежит прочь словно зверь.@
 br
-`"---"@
-` ...... I can't chase him.@
-` From here, I can't chase him.@
-` But, it seems like there's no need for that.\
+` - ...@
+` Я не могу погнаться за ним...@
+` Отсюда, я не могу погнаться за ним.@
+` Но, похоже в этом нет необходимости.\
 
 
 ;CD-DA????????????
@@ -997,18 +998,18 @@ bg "image\bg\ima_18.jpg",%type_crossfade_fst
 
 monocro off
 
-` Under the moonlight, Roa's running figure stops.@
-` There isn't one person outside, but two.\
+` Под лунным светом, бегущая фигура Роа останавливается.@
+` За окном виден не один силуэт, а два.\
 
-` One, the beast-like figure of Roa.@
-` One, the sublime, white figure of the vampire princess.@
+` Один из них, звериная фигура Роа.@
+` Другой, великолепная, белая фигура принцессы вампиров.@
 br
-` ---The fight lasted only an instant.@
+`     Бой длился лишь мгновение.@
 br
-` Roa screams as he dies and fades to ash.\
+` С криком, Роа умирает и рассыпается в пепел.\
 
-`"-----Ar...... cueid."@
-` She stands there composed and looks up at me, then disappears before my eyes.\
+` - Ар...квейд...@
+` Она просто спокойно стоит, и посмотрев на меня, исчезает прямо у меня на глазах.\
 
 
 ; ????2(?????)<??????(?)>
@@ -1016,32 +1017,32 @@ bg "image\bg\bg_11d.jpg",%type_lshutter_mid
 
 monocro #ff00ff
 
-`"Hha----Ahh."@
-` ...... I'm exhausted.@
-` My body collapses on the floor.@
-` Leaning against the wall, I sit down.\
+` - Хха...ааа.@
+` Я вымотан.@
+` Моё тело падает на пол.@
+` Прислонившись к стене, я усаживаюсь.\
 
-`"Ga---"@
-` The knife falls from my mouth.@
+` - Га...@
+` Нож выпадает у меня изо рта.@
 br
-` From my elbow down, my right arm is shattered, twisted and split.@
+` Моя правая рука ниже локтя разбита в щепки.@
 br
-` Roa's claw marks remain gouged into my left shoulder and my left arm hangs, unmoving.@
+` Следы от когтей Роа остаются на моём левом плече и моя левая рука висит без движения.@
 br
-` I feel like a squid or an octopus with both my arms just hanging there.\
+` Я себя кальмаром или осьминогом чувствую с такими висячими руками.\
 
-`"...... Sen...... pai."@
-` I look down the hallway.@
-` I look down to where Senpai had collapsed when she protected me earlier.@
+` - Сен...пай...@
+` Я смотрю дальше по коридору.@
+` Я смотрю туда где упала Сенпай после того как она защитила меня.@
 br
-` And there,
+` И там,
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"Sen---pai, your wounds are okay?"@
-`"Yes.@ A wound like this will heal quickly."@
-` I cannot make out her face since it's dark.@
-` But I thought it looked paler than usual.@
+` - Сен...пай, твои раны в порядке?@
+` - Да.@ Такие раны заживают быстро.@
+` В темноте я не могу разобрать её лица.@
+` Но мне показалось что оно бледнее чем обычно.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 \
@@ -1054,35 +1055,24 @@ bg "image\bg\bg_11d.jpg",%type_crossfade_fst
 waveloop se1
 
 br
-`"Gah----!"@
+` - Гха!..@
 br
-` ----Thump.\
+`      Пум.\
 br
 br
 br
-` Headache.@
+` Головная боль.@
 br
-` ----Thump.\
+`      Пум.\
 
 br
 br
 br
 br
 br
-` This headache,
+` Эта головная боль,
 br
-` ----Thump.\
-
-br
-br
-br
-br
-br
-br
-br
-` because I still see these "lines",
-br
-` ----Thump.\
+`     Пум.\
 
 br
 br
@@ -1091,44 +1081,55 @@ br
 br
 br
 br
+` потому что я всё ещё вижу эти «линии»,
+br
+`     Пум.\
 
-` I have this headache.\
+br
+br
+br
+br
+br
+br
+br
+
+` У меня болит голова.\
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
 
-`"...... Tohno-kun?@ What's wrong?"@
-`"Nothing--it's just---my head, hurts."@
-` I manage to reply as I bear the pain.@
+` - Тоно-кун?..@ Что случилось?@
+` - Ничего... просто... голова, болит.@
+` Сквозь боль мне удаётся ей ответить.@
 br
-` My hands.@ If I could move them, I could hold my head and maybe calm down.@ But, they don't move an inch.\
+` Мои руки.@ Если бы я мог пошевелить ими я бы мог обхватить голову руками и может быть успокоиться.@ Но они совсем не двигаются.\
 
-`"---Probably because you saw too much death.@
-` ...... Tohno-kun, you were pushing yourself too much.@ Trying to defeat Roa by yourself was being reckless."@
-`"...... It's not reckless.@ You were the one being reckless.@ Why---did you let him do that to you?"\
+` - Наверное потому что ты увидел слишком много смерти.@
+` Тоно-кун, ты слишком перенапрягаешься.@ Пытаться победить Роа в одиночку было безрассудно.@
+` - Ничего не бесзрасудно...@ Ты сама повела себя безрассудно.@ Почему... ты позволила ему такое с тобой сделать?\
 
-`"He just...... caught me off guard......"@
-`"---Idiot, I, heard all of it."@
+` - Он просто... застал меня врасплох...@
+` - Глупая, я всё слышал.@
 br
-` ...... I heard how Senpai threw away her swords to protect me.@
+`    Я слышал как Сенпай бросила мечи чтобы защитить меня.@
 br
-`"...... Going through that just to protect me, was stupid."@
-` Going through that, and just calling out my name, there's something wrong.\
+` - Проходить через такое только чтобы защитить меня, было глупо.@
+` Прозодить через такое, и звать меня по имени, что-то с этим не так.\
 
 
-`"...... I suppose.@ No matter what I did, you revived by yourself.@
-` I guess I was... just doing useless things."@
-`"------"@
-` Not---that's not it at all.\
+` - Наверное...@ Чтоб ы я ни сделала, ты поднялся сам.@
+` Похоже я... делала что-то бесполезное.@
+` - ...@
+` Нет... вовсе нет.\
 
 
-`"...... But, I heard you."@
-`"Tohno-kun......?"@
-`"Your voice, I know I heard it.@ You kept calling my name---so it made me realize that I was still alive."@
+` - Но, я тебя слышал.@
+` - Тоно-кун?..@
+` - Твой голос, я знаю что слышал его.@ Ты всё звала меня по имени... и это заставило меня понять что я всё ещё жив.@
 br
-` So,
-` what saved me wasn't my desire to kill Roa.@
-` But it was just... Senpai's voice.\
+` Поэтому,
+` меня спасло не моё желание убить Роа.@
+` Это был... голос Сенпай.\
 
 ;CD-DA??
 playstop
@@ -1141,22 +1142,22 @@ bg "image\bg\bg_11d.jpg",%type_crossfade_fst
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t06b.jpg",%type_crossfade_fst
 
-`"Ghh----!"@
-`"Tohno-kun---!?@ Your wounds, do they hurt?@ Please wait, I'll heal them......!"@
-`"...... No, it's not, really my arms......"@
+` - Гхх!..@
+` - Тоно-кун?!@ Твои раны, они болят?@ Пожалуйста потерпи, я ихвылечу!..@
+` - Нет, это не мои руки...@
 br
-` This headache is terrible.@
-` The pain isn't coming from outside, but feels like it is shooting out from inside me.\
+` Головная боль просто ужасна.@
+` Эта боль идёт не снаружи, но словно вырывается изнутри.\
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"...... It's a reaction from seeing too much 'death'.@ Suddenly overworking your brain like that probably caused too much blood flow."@
-`"...... I, know that, but."\
+` - Это реакция от того что ты увидел слишком много «смерти».@ Неожиданное перенагрузка на мозга наверное вызвала чрезмерный приток крови.@
+` - Я, знаю это, но...\
 
-`"Look, your power is very dangerous to you, Tohno-kun.@ Seeing that which should not be possible to see puts a huge strain on your body, and your blood vessels will not be able to handle the flow of your blood.@
-` Seeing the 'death' of something close to you...... like humans shouldn't be a problem, but seeing the 'death' of things that don't naturally have a 'death' is extremely dangerous."@
-`"...... Yeah, that's okay though Senpai.@
-` Roa...... is now dead.@ I don't have to see any more 'death'----"\
+` - Тоно-кун, послушай, твоя спочобность очень опачно для тебя.@ Видеть то, что должно быть невозможно увидеть подвергает твоё тело огромной нагрузке, и твои кровеносные сосуды могут не выдержать напор крови.@
+` Видеть «смерть» чего-то близкого к тебе... как людей, не должно быть проблемой, но видеть «смерть» того, что обычно «смерти» не имеет, очень опасно.@
+` - Да, но Сенпай, уже всё нормально.@
+` Роа... теперь мёртв.@ Мне больше не нужно видеть «смерть»...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -1164,21 +1165,21 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_11d.jpg",%type_crossfade_fst
 
 
-`"So, I don't have to see them.@
-` ...... Senpai, do you know where my glasses are?"@
+` - Поэтому, мне больше не нужно видеть их...@
+` Сенпай, ты знаешь где мои очки?@
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"------Huh?"@
-`"My glasses...... without them, I see these lines all the time.@
-` If I don't have them, I'll go crazy...... they're probably in the tea ceremony room, so could you please get them for me?"@
-`"Tohno-kun, what are you saying?@ Your glasses are definitely----"\
+` - ...А?@
+` - Мои очки... без них я постоянно вижу эти линии.@
+` Без них, я сойду с ума... они наверное в комнате для чаепитий, ты не могла бы принести их?@
+` - Тоно-кун, о чём ты?@ Твои очки совершенно точно...\
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t06b.jpg",%type_crossfade_mid
 
-`"...... I understand.@ I'll go get it right away, so please close your eyes.@ If you use them much longer, it will be really bad for you."@
-`"---Yeah, I'll do that.@ Thanks."@
-` I close my eyelids.@
+` - ...Я поняла.@ Я сейчас их принесу, поэтому пожалуйста закрой глаза.@ Это будет очень вредно если ты и дальше будешь и использовать.@
+` - Да, я так и сделаю...@ Спасибо.@
+` Я опускаю веки.@
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -1189,75 +1190,75 @@ wavestop
 
 !w3000
 
-` After only a few moments,
-` I can feel Senpai's fingers on my face.@
-`"Here you go, it's all okay now.@ Please open your eyes, Tohno-kun."@
+` Спустя всего несколько секунд,
+` я чувствую пальцы Сенпай у себя на лице.@
+` - Вот так, готово.@ Тоно-кун, открой глаза.@
 
 ; ????2(?)<???????(?)>
 bg "image\bg\bg_11c.jpg",%type_crossfade_mid
 
-`"Ah......"@
-` The lines of death are now gone.@
-` My headache disappeared as I closed my eyes---and I can now see Senpai's face clearly.\
+` - А...@
+` Линии смерти исчезли.@
+` Моя головная боль исчезла когда я закрыл глаза... и теперь я отчётливо вижу лицо Сенпай.\
 
-`"Thanks Senpai.@ Now it's back to normal."@
+` - Спасибо Сенпай.@ Теперь всё нормально.@
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_crossfade_fst
-`"What are you saying?@ There's still some work before you return to normal, so please keep still."@
-` She says that and sits down besides me.@
+` - О чём ты говоришь?@ Нам нужно ещё кое-что сделать прежде чем всё будет нормально, поэтому посиди спокойно.@
+` С этими слвами она опускается рядом со мной.@
 ; ?????<?????(?)>
 cl c,%type_tcartain_mid
 \
 
-`"---Hmm, these wounds really aren't that bad.@ I'll be able to heal them right away, so please hold on just a little longer."@
-` Senpai carefully reaches out and holds my twisted arm.\
+` - Хммм, раны на самом деле не серьёзные.@ Я смогу их вылечить немедленно, поэтому потерпи ещё немного.@
+` Сенпай осторожно прикасается к моей раздробленой руке.\
 
-`"Nn----"@
-` There's an almost tickling, warm sensation.@
-` My cold arm begins to warm up again, and the numbed pain returns after that.\
+` - Нн...@
+` Тёплое, почти щекотное ощущение.@
+` Моя остывшая рука начинает прогреваться, а вслед за этим возвращается заглушённая ранее боль.\
 
-`"Oww."@
-`"If there's pain, it lets you know you are alive.@ Now, let's take care of your left arm."@
-` With a light step, she moves over to my left side and puts her hand on my shoulder.\
+` - Аай.@
+` - Если больно, это означает что ты ещё жив.@ А теперь займёмся твоей левоё рукой.@
+` Она легонько перходит к моей левой стороне и кладёт руку на моё плечо.\
 
-`"...... Amazing, my left arm is already healed!"@
-`"It isn't amazing, this is my normal profession, so it is only natural I can do that."@
-` ...... Her normal profession?@ Is she a nurse or something?@
-` Well, I don't think a nurse could heal a shattered arm like that in a matter of minutes though.\
+` - Невероятно, моя левая рука уже зажила!@
+` - Это не удивительно, это моя обычная работа, так что вполнеестественно что я так умею.@
+` Её обычная работа?@ Она что, медсестра?@
+` Хотя, я не думаю что медсестра может так вылечить раздробленую руку за несколько минут.\
 
-`"...... Hey Senpai."@
-`"--Yes?"@
-`"Senpai, just what kind of person are you?@ Come to think of it, I don't really know anything about you, Ciel-senpai."@
-` The fingers over my wounds suddenly stop.@
-` But, it was only a momentary reaction.\
+` - Эй, Сенпай...@
+` - Да?@
+` - Сенпай, что ты на самом деле за человек?@ Если подумать, я ведь ничего о тебе не знаю, Сиэль-сенпай.@
+` Пальцы наж моеё раной резко останавливаются.@
+` Но, это была только секундная реакция.\
 
-`"I'm the same as you Tohno-kun.@ I also, have not had this body from birth.@
-` I also was close to death...... no, I am someone who died and came back to life.@ And it just became a habit for me to come back to life."@
-` Is she joking?@ She gives a pained smile.\
+` - Я такая же как и ты, Тоно-кун.@ Моё тело, тоже не было таким с рождения.@
+` Я тоже была близка к смерти... нет, я умерла и вернулась к жизни.@ И возвращаться к жизни стало моей привычкой.@
+` Она что, шутит?@ Она грустно улыбается.\
 
-`"...... What do you mean?@ If you die, you normally can't come back, right?"@
-`"What I am saying, is that I was not normal."@
-`"Not normal...... like, Arcueid?"@
-`"........................"@
+` - Что ты имеешь ввиду?@ Если умереть, то обычно назад не возвращаются, так ведь?@
+` - Я хочу сказать, что я не была обычной.@
+` - Не была обычной... как, Арквейд?@
+` - ...@
 br
-` She doesn't respond.@
-` Is she done?@ Senpai stands up.\
+` Она не отвечает.@
+` Она закончила?@ Сенпай встаёт.\
 
 ; ??<?>=???:??02(?????)<???????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_crossfade_fst
 
-`"There, all finished.@ How is it, can you move?"@
-`".................."@
-` I lift my hands and move them around.@
-` My fingers can move at will, and there is only a little pain.@
-`"Yeah, no problems.@ ...... Thanks, Senpai.@ I'm just always helped by you."@
-` Senpai doesn't answer, she just smiles.\
+` - Вот, всё готово.@ Как ты себя чувствуешь, можешь двигаться?@
+` - ...@
+` Я поднимаю руки и двигаю ими из стороны в сторону.@
+` Мои пальцы нормально двигаются, и боли я почти не чувствую.@
+` - Да, нет проблем...@ Спасибо, Сенпай.@ Вечно ты мне помогаешь.@
+` В ответ Сенпай только улыбается.\
 
-`"Then, let's go back.@ There's no need to be here any longer."@
+` - Тогда пошли отсюда.@ Больше тут делать нечего.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-` Senpai starts to walk away.@
-` ...... Picking up my fallen knife, I follow her out of the school.\
+` Сенпай уходит прочь.@
+` Подобрав упавший нож, я следую за ней из школы.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_mid
@@ -1268,140 +1269,140 @@ play "*8"
 ; ????(?)<?????(?)>
 bg "image\bg\bg_01c.jpg",%type_lcartain_mid
 
-` ...... The two of us walk to the gate under the moonlight.@
-` Senpai doesn't say anything.@
-` Looking at her back, I think reluctantly about things I don't want to consider.@
+` Под светом луны мы вдвоём идём к воротам.@
+` Сенпай ничего не говорит.@
+` Глядя ей в спину, я неохотно начинаю думать о том, о чём думать не хочется.@
 br
-` Roa is gone.@
-` Arcueid is also gone.@
-` Their purpose was to eliminate Roa, so Senpai has no reason to stay here any longer.\
+` Роа нет.@
+` Арквейд тоже нет.@
+` Их целью было уничтожить Роа, поэтому Сенпай больше незачем тут оставаться.\
 
-`".................."@
-` ...... This is serious.\
-` I knew it all along---but I never thought this would come so quickly.@
+` - ...@
+` Это серьёзно.\
+` Я всегда это знал — но я никогда не думал что это наступит так быстро.@
 br
-` I want Senpai to stay here.@
-` I want her to stay---but it isn't just my problem.\
+` Я хочу чтобы Сенпай осталась.@
+` Яхочу чтобы она осталась... но это не только моё дело.\
 
-`"............"@
-` I steal a glance at Senpai's face.@
-` What,
-` What does Senpai plan on doing......?@
+` - ...@
+` Я мельком смотрю на лицо Сенпай.@
+` Что,
+` Что Сенпай собирается делать?..@
 br
-` And then,
-` Senpai suddenly stops walking.\
+` А затем,
+` Сенпай неожиданно останавливается.\
 
 ; ??<?>=???:??02(?????)<??????(?)>
 ld c,":a;image\tachi\cel_t07b.jpg",%type_lshutter_fst
-`"Tohno-kun."@
-` She looks directly at me with eyes devoid of any emotion.\
+` - Тоно-кун.@
+` Она смотрит прямо на меня бесчувственными глазами.\
 
-`"...... What is it, Senpai?"@
-`"About what we were talking about before."@
-`"Before---about how you're like Arcueid?"@
-` She nods.@
-` Still staring me in the eye, she starts to speak.@
+` - Что такое, Сенпай?..@
+` - О том о чём мы говорили раньше.@
+` - Раньше... о том как ты похожа на Арквейд?@
+` Она кивает.@
+` По прежнему глядя мне в глаза, она начинает говорить.@
 br
-`"Tohno-kun.@ If I was a vampire, what would you do?"\
+` - Тоно-кун.@ Если бы я была вампиром, что бы ты сделал?\
 
-`"Wha----"@
-` My mind goes blank.@
-` I don't know what she wants to hear.@
+` - Что...@
+` Мысли покидают мою голову.@
+` Я не знаю что она хочет услышать.@
 br
-` Still---
+` Но всё же
 br
-`"...... Senpai is Senpai.@ Even if you are a vampire, that wouldn't change."@
-` Her expression remains the same.@
-` Just for an instant,
-` I think she smiled sadly.\
+` - Сенпай это Сенпай.@ Даже если бы ты была вампиром, это бы не изменилось.@
+` Её лицо не меняется.@
+` Лишь на мгновение,
+` мне показалось что она печально улыбнулась.\
 
-`"I am the same as her.@ Just like she is a vampire who has had no experience, I just might be a vampire who has no sense of self."@
-` She speaks as if it was a monologue.\
+` - Я действительно такая же как она.@ Как она является вампиром, у которого нет опыта, я могу быть вапмиром, который не осознаёт этого.@
+` Она говорит будто сама с собой.\
 
-`".................."@
-` I'm at a loss for words.@
-` ...... I don't know what to say to that.@
-` So, just like before, I can only say what I really feel.\
+` - ...@
+` У меня нет слов...@
+` Я не знаю что на это ответить.@
+` Потому, как и до этого, я могу сказать только то что чувствую на самом деле.\
 
-`"...... That's fine."@
-`"Eh?"@
-`"I said, that's fine.@ Even if you are a vampire, I still like you Senpai."@
-`"Wha----"@
+` - ...Ничего страшного.@
+` - Э?@
+` - Я сказал, ничего страшного.@ Даже если бы ты была вампиром, я всё равно люблю тебя, Сенпай.@
+` - Что—@
 ; ?????<???????(?)>
 cl c,%type_crossfade_fst
 br
-` Senpai stands there in complete amazement.@
-` Realizing what I just said, I blush furiously and look away.\
+` Сенпай молча стоит в полном шоке.@
+` Осознав, что я только что сказал, я дико краснею и отворачиваюсь.\
 
-`"Anyway!@ That's all I want to say.@ C'mon, let's go back, Senpai!"@
-` Trying to hide my embarrassment, I pull myself to reality.@
+` - И вообще!@ Это всё что я хотел сказать.@ Ладно, Сенпай, давай возвращаться!@
+` Стараясь скрыть смущение, я пытаюсь вернуться в реальность.@
 br
-` Go back.@
-` Where is Senpai going to return to?\
+` Возвращаться.@
+` А куда будет возвращаться Сенпай?\
 
-`"------"@
-` I suddenly feel terrible.@
-` I'm afraid to look at her face and can't turn around.@
-`"---Tohno-kun."@
-` From behind me, Senpai's voice calls out.@
-` Her quiet, emotionless voice.\
+` - ...@
+` Вдруг на меня накатывает ужасное чувство.@
+` Я боюсь посмотреть ей в лицо и я не могу обернуться.@
+` - Тоно-кун.@
+` Из-за меня доносится голос Сенпай.@
+` Тихий, бесчувственный голос.\
 
-`"...... What is it?"@
-` I answer without turning.@
-`"You know why I came to this city, right?"@
-`"----Yeah.@ Unfortunately, I know.@ You came to kill Roa."\
+` - Что?..@
+` Я отвечаю не оборачиваясь.@
+` - Ты знаешь почему я приехала в этот город, не так ли?@
+` - ...Да.@ К несчасть, знаю.@ Ты приехала убить Роа.\
 
-`"...... Yes.@ But, I haven't told you why yet.@ I really meant to tell you in the tea ceremony room, but things ended quickly."@
-`"...... That's true.@ It was kind of disappointing.@
-` But, wasn't you chasing Roa part of your duty in the Church?"\
+` - ...Да.@ Но я ещё не сказала тебе почему.@ Я хотела сказать тебе ещё в комнате для чаепитий, но всё быстро закончилось.@
+` - Действительно...@ Даже немного разочаровывающе получилось.@
+` Но разве ты не преследовала Роа потому что это твой долг в Церкви?\
 
-`"...... No.@ The place I'm in doesn't really have much work.@ Even when there is, it's only a few times a year I get called there.@
-` So this time is my own judgment.@ Not because of the orders of the Church, but I came here through my own will."@
-`"...... Your, will?"\
+` - ...Нет.@ В моём отделе не слишком много работы.@ Даже если она есть, меня вызывают туда только несколько раз в год.@
+` Так что в этот раз это моё решение.@ Не из-за приказов Церкви, но я приехала сюда по собственной воле.@
+` - Собственной, воле?..\
 
-`"Yes.@ I came here only because of my own circumstances.@ I want to die as a human, so I've been chasing Roa.@ He is the reason my body has become like this."@
+` - Да.@ Я прибыла сюда из-за своих личных обстоятельств.@ Я хочу умереть как человек, и поэтому я преследовала Роа.@ Это из-за него моё тело стало таким.@
 br
-` ...... wants to die.@ Wants to die?---\
+` ...хочет умереть.@ Хочет умереть?    \
 
-`"...... For that sole reason, I have kept on living like this.@
-` But, that is all over now.@
-` ...... These past five years.@ Was it a long time?@ Was it a short time?@ I don't know."@
-` Her emotionless voice stops.\
+` - Лишь по этой причине я продолжала жить.@
+` Но, теперь всё кончено.@
+` Эти пять лет...@ Медленно ли они пролетели?@ Быстро ли?@ Я не знаю.@
+` Её нмонотонный голос останавливается.\
 
 ; ??<?>=???:?01(????????)<?????(?)>
 ld c,":a;image\tachi\cel_t01b.jpg",%type_lcartain_fst
-` She jumps directly in front of me.@
-`"So I have to thank you, Tohno-kun.@
-` My work here is done now.@ All that's left is for me to take responsibility for all my actions."@
-`"...... Senpai, you mean---"@
-` She's going to leave?\
+` Она выскакивает прямо передо мной.@
+` - Поэтому мне нужно поблагодарить тебя, Тоно-кун.@
+` Теперь моя работа закончена.@ Мне осталось только понести ответственность за все мои действия.@
+` - Сенпай, ты имеешь ввиду...@
+` Она уедет?\
 
-`"Thank you so much for everything until now.@ It has been a long time since I've been this happy.@
-` So, let's finish with a handshake."@
-` Senpai puts out her hand.@
-` I wordlessly accept it.@
+` - Спасибо тебе огромное за всё, что было.@ Уже очень давно я не была так счастлива.@
+` Поэтому, напоследок пожмём друг другу руки.@
+` Сенпай протягивает руку.@
+` Я молча принимаю её.@
 br
-` A handshake where we only grip our hands tightly.@
+` Рукопожатие, в которорм мы просто крипко сжимает друг другу руки.@
 br
-`"Then this is where we part.@ Um, even though I'm not going to be here, please stay friends with Inui-kun.@
-` I wanted to be a student like you and Inui-kun."\
+` - На этом мы и расстанемся.@ Эм, хоть меня здесь и не будет, пожалуйста дружи и дальше с Инуи-куном.@
+` Мне хотелось бы побыть ученицей вроде тебя или Инуи-куна.\
 
-`"And, and please don't take off your glasses too much.@ Strange power has a tendency to attract strange things.@ You were fine this time, but I do not know what will happen the next time."@
-`"...... Yeah.@ I know, someone taught me that a long time ago.@
-` In the first place, I've only recently began to take them off with everything that has been happening."@
+` - И, и пожалуйста, не снимай свои очки слишком часто.@ Странные способности обладают свойством притягивать странное.@ В этот раз всё обошлось, но я не знаю что будет в следующий раз.@
+` - Ага...@ Я знаю, кое-кто меня научил этому когда-то давно.@
+` Начнём с того, я только недавно начал их снимать со всем тем, что происходит.@
 
-`"I see.@ That is a relief."@
+` - Понятно.@ Хорошо.@
 br
-` Her fingers pull back.@
-` With the handshake over, she pulls back slightly.\
+` Её пальцы расслабляются.@
+` Наше рукопожатие окончено, и она немного отсутпает.\
 
-`"Then this is farewell.@ It would be nice to meet again someday."@
-`"----"@
+` - Ну, тогда на этом мы прощаемся.@ Было бы неплохо когда-нибудь встретиться снова.@
+` - ...@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 br
-` I can't reply.\
-` I couldn't even stop her.\
+` Я не могу ответить.\
+` Я не смог даже остановить её.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -1412,48 +1413,48 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 bg "image\bg\bg_33c.jpg",%type_lcartain_mid
 
 
-` I return to the mansion.@
-` It's past nine at night.@ ...... An hour past curfew.@
+` Я возвращаюсь в поместье.@
+` Начало десятого вечера...@ Час после дозволеного времени.@
 br
 ; ??<?>=??:?03(??)<??????(?)>
 ld c,":a;image\tachi\koha_t03.jpg",%type_lshutter_mid
-`"Ah, Shiki-san.@ You have come back late today."@
-` She might have been in the sitting room until now, as Kohaku-san comes out to greet me.\
+` - А, Шики-сан.@ Ты сегодня поздно.@
+` Кохаку-сан наверное только что была в гостиной, потому что она выходит встретить меня.\
 
-`"I'm back.@ Sorry about that."@
-`"No, as long as you are back safely it is okay.@ I will go make dinner, so please wait in the sitting room."@
-`"Ah---is Akiha there?"@
+` - Я вернулся.@ Извини за это.@
+` - Ничего, раз ты успешно вернулся то всё нормально.@ Я пойду готовить ужин, так что подожди пожалуйста в гостиной.@
+` - Аа... Акиха сейчас там?@
 br
-` ...... Not because I broke curfew---but after hearing what Roa said, I don't think I can talk to her now.\
+` Не потому что я нарушил комендантский час... но после того что сказал Роа, я не думаю что сейчас смогу с ней разговаривать.\
 
 ; ??<?>=??:?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
-`"No, she is now in her room, so you can be rest assured."@
-`"...... No, that's not it, but...... hey Kohaku-san.@ In this house, did you ever hear of me and Akiha having another brother?"@
-`"I don't think so.@ Why do you ask, Shiki-san?@ Did something happen?"\
+` - Нет, она у себя в комнате, поэтому можешь быть спокоен.@
+` - Нет, дело не в этом... но,.. скажи, Кохаку-сан.@ В этом доме, ты никогда не слышала чтобы у меня и Акихи был ещё один брат?@
+` - По-моему нет.@ А почему ты спрашиваешь, Шики-сан?@ Что-то случилось?\
 
-`"---No.@ I just heard something about me maybe having a brother, and I wasn't really sure."@
+` - Нет.@ Я просто услышал что может быть у меня был брат, и я был не осовсем уверен.@
 ; ??<?>=??:?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"You and Akiha-sama are the only two siblings.@ I have worked in this mansion since I was a child, so it can't be a mistake."@
-` She smiles happily.@
+` - Вы с Акихой-сама были единственными детьми в семье.@ Я работаю в этом поместье ещё с детства, так что ошибки быть не может.@
+` Она счастливо улыбается.@
 br
-`"---Eh?@ Kohaku-san, you've been working here since back then......!?"\
+` - Э?..@ Кохак-усан, ты работаешь здесь аж с тех пор...?!\
 
 ; ??<?>=??:?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"Yes.@ We were just apprentices, but Hisui-chan and I would help around the mansion.@ It did happen a long time ago, so it is natural that you do not remember."@
+` - Да.@ Мы были только начинающими, но мы с Хисуи-тян помогали по особняку.@ Но это было давно, так что не удивительно что ты не помнишь.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Is she getting nostalgic?@ She continues to smile as she heads back to the sitting room.\
+` На неё нахлынули воспомиания?@ По прежнему улыбаясь, она возвращается в гостиную.\
 
-`"............"@
-` Just what was he saying?@
-`"---I guess it doesn't matter anymore."@
-` Muttering to myself, I walk towards the sitting room.\
+` - ...@
+` О чём он тогда говорил?@
+` - Наверное, это уже не важно.@
+` Пробормотав это себя под нос, я направляюсь в гостиную.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -1461,17 +1462,17 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 bg "image\bg\bg_40c.jpg",%type_crossfade_slw
 
 
-` ...... I lie down in bed.@
-` Pulling the sheets over me, I stare blankly at the ceiling.@
+` Я укладываюсь на постель...@
+` Натянув на себя простыни, я молча смотрю в потолок.@
 br
-` ----It's over.@
+`        Всё закончилось.@
 br
-` I still have my wounds and my memories, but it's all over.@
-` Now I can return to my peaceful life as a high school student.@
-` No need to think about killing or being killed anymore.\
+` У меня всё ещё остались мои раны и воспоминания, но всё закончилось.@
+` Теперь я могу вернуться к мирной жизни старшеклассника.@
+` Больше не нужно думать о собственной или чужой смерти.\
 
-` Just forget.@
-` Forget about everything, and from tomorrow----
+` Просто забудь.@
+` Забудь обо всём, и с завтрашнего дня...
 br
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
@@ -1481,17 +1482,17 @@ bg "image\event\cel_e01.jpg",%type_crossfade_fst
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-`"------"@
-` ...... I can't.\
-` There's no way I can forget.\
+` - ...@
+` Я не могу.\
+` Я ни за что не могу забыть.\
 
-`"Damn----it."@
-` But, I can't do anything about it.@
-` From the beginning, Senpai and I have always lived in different worlds.@
-`".................."@
-` ...... Just go to sleep.@
-` I'll be able to take it tomorrow.@
-` I'll sleep now, so I can calm down---\
+` - Чтоб... его.@
+` Но, с этим ничего не поделаешь.@
+` С самого начала мы с Сенпай были из разных миров.@
+` - ...@
+` Засыпай уже...@
+` Завтра я со всем этим справлюсь.@
+` Сейчас, чтобы успокоиться, я буду спать...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -1504,11 +1505,11 @@ playstop
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40d.jpg",%type_crossfade_slw
 
-` ...... I can't sleep.@
-` My chest is still bothering me.@
+` ...Не могу заснуть.@
+` Моя грудь по прежнему меня беспокоит.@
 br
-`"......... Oh well."@
-` I choose a book of English sentences to read so I can drift off to sleep.\
+` - Ну ладно.@
+` Я беру книгу с английскими предложениями чтобы побыстрее задремать.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11.jpg",%type_crossfade_mid
@@ -1520,84 +1521,84 @@ waveloop se10
 bg "image\bg\cmo_11.jpg",%type_crossfade_fst
 
 ` 1976.@
-` I was born as a child of a shopkeeper from a remote countryside village in France.\
+` Я родилась в семье лавочника в отдалённой деревне во Франции.\
 
-` I looked like my mother, who was oriental, so I grew up feeling a little out of place wherever I went.@
+` Я была похожа на свою мать, которая была азиаткой, и поэтому я всегда чувствовала себя везде немного посторонней.@
 br
-` But all the townspeople were great people and would greet me with bright smiles.\
+` Но все горожане были замечательными людьми и приветствовали меня широкими улыбками.\
 
-` To be able to face those smiles, I lived my days honestly and positively.\
+` Чтобы я могла ответить на эти улыбки, я жила честной и позитивной жизнью.\
 
 
 
 ; ??????2(????)<???????(?)>
 bg "image\bg\cmo_12.jpg",%type_crossfade_mid
 
-` Helping my dad, going to school, falling in love like normal.@
-` That was my life and I never doubted my happiness.@
+` Помогала отцу, ходила в школу, влюблялась как обычно.@
+` Это была моя жизнь и я никогда не сомневалась в своём счастье.@
 br
-` It was truly a very short time until my sixteenth birthday.\
+` Это было очень короткое время до моего шестнадцатого дня рождения.\
 
 
 
 ; ??????3(???)<???????(?)>
 bg "image\bg\cmo_13.jpg",%type_crossfade_mid
 
-` That came suddenly to my body.@
+` Это приходило в меня внезапно.@
 br
-` Such as when I would be playing with children.@ For no reason, I wanted to snap their necks.@
+` Как например как когда я играла с детьми.@ Без всякой причины мне хотелось свернуть им шеи.@
 br
-` Such as when I see a poor beggar by the road.@ It seemed so funny, I wanted to stab him with a knife.\
+` Как например как когда я видела бедного попрошайку на улице.@ Это казалось таким забавным, я хотела порезать его ножом.\
 
-` ...... There was no reason for those feelings.@
-` I could not talk to anyone about it, so I started to lock myself away in my room.\
+` У этих чувств не было никакой причины.@
+` Я не могла никому рассказать о них, и поэтому я чтала запираться у себя в комнате.\
 
-` My dark passions came forth from within me.@
-` It's not like I had two personalities or someone came inside me.@
-` First of all, I don't believe in such unscientific things.\
+` Мои тёмные страсти приходили изнутри меня.@
+` Не потому что у меня было раздвоение личности или что в меня кто-то вселился.@
+` Прежде всего, я не верю в такие ненаучные вещи.\
 
-` My feelings are the small destructive passions everyone has.@
+` Мои чувства, это маленькие деструктивные побеждения которые есть у всех.@
 br
-` Like yelling at your dad after coming to wake you up after you stayed up all night.@
+` Как когда ты кричишь на своего отца который тебя будит после того как ты не спала всю ночь.@
 br
-` Like feeling angry when you walk along a rainy street and a car passing by splashes you with water.@
+` Как когда ты злишься когда ты идёшь под дождём по улице и тебя забрызгивает проезжающая машина.@
 br
-` Such small feelings I feel for an instant solidify inside of my mind and take over.\
+` Такие мимолётные мелочи укреплялись в моей голове и подчиняли себе всё.\
 
 br
 br
 br
 br
 br
-` That's why.@
-` I knew I would do something terrible if I stayed like this.\
+` Вот почему.@
+` Я знала что сделаю что-нибудь ужасное если и дальше буду такой.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 
 
-` I could only lock myself away in my room.@
-` I could only not see anyone and do nothing.@
-` ...... That way, I wouldn't hate anyone, and I wouldn't have those feelings.@
+` Я могла только запираться у себя в комнате.@
+` Я могла только никого не видеть и ничего не делать.@
+` Так, я бы никого не ненавидела и не испытывала этих чувств.@
 br
-` ---But, that was a mistake.@
-` Imprisoned in my room, my mind was grinded away, and I eventually passed my limit.\
+`    Но, это было ошибкой.@
+` Заточённый в моей комнате, мой разум медленно истощался, и в конце концов мои силы истекли.\
 
-` That day.@
-` After I was completely replaced, what I thought about was how thirsty I was.@
-` I took my weakened body out of my room.\
+` В тот день.@
+` После того как я полностью заменилась, я подумала о том как мне хочется пить.@
+` Я вывела своё солабевшее тело из комнаты.\
 
-` My parents ran to me, as I came out the room for the first time in few months.@
-` Greeting my worried parents with a smile, I killed them.\
+` Мои родители устремились ко мне, когда я впервые за несколько месяцев вышла из комнаты.@
+` Встретив своих взволнованных родителей улыбкой, я убила их.\
 
-` It really was quick.@
-` With my weakened body, I bit into their necks and sucked their blood.@
-` After sucking out their blood and life, I stood back up.@
+` Это было очень быстро.@
+` Со своим слабым телом, я вонзилось зубами в их шеи и выпила их кровь.@
+` Высосав их кровь и жизнь, я снова поднялась.@
 br
-`"---Has it been a hundred years?@ This body is very fascinating."@
+` - Прошло уже сто лет?@ Это тело просто замеательно.@
 br
-` That was my voice that I had never heard before.@
-` My lips shaping a smile, what used to be me hugged itself.\
+` Это был мой голос которого я никогда раньше не слышала.@
+` Мои губы скривились в улыбке, и то что было мной обняло себя.\
 
 monocro #ff0000
 
@@ -1606,33 +1607,33 @@ monocro #ff0000
 bg "image\bg\cmo_09.jpg",%type_crossfade_mid
 
 
-` ---What kind of coincidence was it?@
+`      Что это ха совпадение?@
 br
-` Originally, the family I was born into was one that I choose beforehand.@
-` But my previous self was destroyed by the "princess" before I could decide that.\
+` Изначально, я рождался в семье которую я выбирал заранее.@
+` Но моё предыдущее воплощение было уничтожено «принцессой» прежде чем я смог это сделать.\
 
-` I could only fill the condition that the one I'm reincarnated into has a physical potential, resulting in an imperfect reincarnation.@
-` As a result, I was born into a body with a high potential, but into a normal family without any high social standing.@
-` It will be difficult to take over this town without having people notice.\
+` Я смог только выполнить условия что тот, в кого я воплощаюсь, должен обладать потенциалом, и в итоге реинкарнация была с изъяном.@
+` В резлуьтате я родился в теле с высоким потенциалом, но в обычной семье без высокого положения в обществе.@
+` Захватить город незаметно будет сложно.\
 
-` But, I was not disappointed.@
-` In fact, I was filled with happiness.\
+` Но я не был разочарован.@
+` Наоборот, я был преисполнен радости.\
 
-` Certainly it would take a long time for a normal family to gain power.@
-` Seizing power socially would be difficult with this self.@
+` Действительно, нормальной семьи потребуется много времени чтобы получиться власть.@
+` С этой личностью захватить власть в обществе будет нелегко.@
 br
-` But in exchange for that inconvenience.@ I found a truly excellent body.\
+` Но взамен на это неудоство.@ Я нашёл поистине великолепное тело.\
 
-` Until now,
-` I had always tried to balance the body and the family standing.@ Consequently, I was never able to find a truly excellent body.@
+` До сих пор,
+` я всегда старался уравновесить тело и положение семьи.@ Следовательно, мне никогда не удавалось найти потсине великолепное тело.@
 br
-` However----the body this time carries many more Magic Circuits than any of the bodies before----and this body had the same potential as my original.\
+` Однако — в этом теле содержалось больше Магических Проводников чем любом другом теле ранее — и оно обладало тем же потенциалом что и моё изначальное тело.\
 
-` I cursed my calculating self up until now.@
-` Things like social standing, they could always be set up later.@
-` But the quality of the body is something natural that cannot be added later.@
+` Я проклинал свою прошлую расчётливость.@
+` Вещи вроде общественного положения всегда можно получить потом.@
+` Но качество тела определяется природой и его потом нельзя улучшить.@
 br
-` After my seventeenth reincarnation, I finally realized that truth.\
+` После моей семнадцатой реинкарнации, я наконец понял эту истину.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -1640,38 +1641,38 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 ; ??????3(???)<???????(?)>
 bg "image\bg\cmo_13.jpg",%type_crossfade_mid
 
-` My self that finally awoke naturally started to control the people around me like water soaking into the ground.@
-` Not in the wild manner I had done so previously, but rather in a way that didn't spill as much blood.@
-` The reason is horribly cruel.\
+` Моя наконец пробудвшаяся личность начала постепенно подчинять окружающих меня людей.@
+` Не так буйно как я это делал раньше, но скорее таким образом чтобы не пролить много крови.@
+` Причина до ужаса жестока.\
 
-` The reincarnated will called myself cannot exist by itself.@
-` All I can do is tell the will "I want to do that."@
+` Реинкарнировавшаяся воля, которую я называю собой, не может существовать сама.@
+` Я могу только говорить приказ: «Я хочу сделать то-то».@
 br
-` I am the one moving this body, but the method, the process was determined by my mind which has grown along with this body.\
+` Телом управляю я, но метод, способ, определяется разумом с которым это тело выросло.\
 
-` In other words---my will is from the body I am reincarnated into, but my consciousness still remains from my original self.@
-` I have my consciousness, and I have my past memories.@
-` As I sleep, I could only dream of nightmares which I would do myself.\
+` Иными словами — моя воля принадлежит телу, в котором я реинкарнировался, но моё сознание всё ещё происходит из моей изначальной личности.@
+` У меня ещё есть моё сознание, и у меня есть мои прошлые воспоминания.@
+` Когда я спал, мне могли только сниться кошмары, которые я совершу потом.\
 
-` I still remember.@
-` The sensation of biting into my parents' throats.@
+` Я ещё помню.@
+` Как я вгрызалась в горло своих родителей.@
 br
-` I took the townspeople who always greeted me, one by one.@ as if melting them slowly from their feet, I continued to humiliate and mutilate their souls.@
+` Одного за другим я взяла горожан, которые всегда приветствовали меня.@ Словно медленно расплавляя их, начиная с ног, я продолжала унижать и калечить их души.@
 br
-` Within just a month.@
-` I held their lives in my fist and played with them however I wanted to.\
+` Всего за месяц.@
+` Я собрала их жизни в своём кулаке, и играла с ними как хотела.\
 
 monocro #00ffff
 
 ; ?(??????)<???????(?)>
 bg "image\bg\ima_01.jpg",%type_crossfade_fst
 
-` I wanted to go crazy.@
-` I wanted to entrust myself completely to insanity.@
-` But if I did that, I would commit even more sins than before.@
+` Я хотела сойти с ума.@
+` Я хотела полностью отдать себя безумию.@
+` Но если бы я сделала это, я бы совершила ещё больше грехов чем раньше.@
 br
-` That's why I kept on.@
-` Trying to preserve my sanity, I tried to minimize the damage I did.\
+` Поэтому я продолжала держаться.@
+` Стараясь созранить рассудок, я старалсь свести к минимуму творимый мною ущерб.\
 
 br
 br
@@ -1680,7 +1681,7 @@ br
 br
 br
 br
-` If there was such a thing as a relief...\
+` Если и было что-то похожее на облегчение...\
 br
 br
 br
@@ -1688,7 +1689,7 @@ br
 br
 br
 br
-` It was that the end to this nightmare arrived quickly.\
+` Это что конец этому кошмару настал быстро.\
 
 monocro #ff0000
 
@@ -1702,15 +1703,15 @@ br
 br
 br
 br
-`   That white woman came on a night with a crimson moon.\
+`   Ночью с багряной луной пришла эта женщина в белом.\
 
-` I didn't know.@
-` But I knew who she was.@
+` Я не знала.@
+` Но я знал кто она такая.@
 br
-` After our fight, the white vampire princess killed me.@
-` Since I had already prepared myself for the next reincarnation, I once again reincarnated, leaving my corpse behind.@
+` После нашей схватки белая принцесса вампиров убила меня.@
+` Поскольку я уже приготовился к следующей реинкарнации, я снова реинкарнировал, оставив после себя свой труп.@
 br
-` The white princess left and my body was taken to the Vatican.\
+` Белая принцесса ушла, и моё тело увезли в Ватикан.\
 
 
 ; ???<???????(?)>
@@ -1726,6 +1727,8 @@ wavestop
 
 
 return
+
+
 
 
 </pre>
