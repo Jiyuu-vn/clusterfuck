@@ -1237,57 +1237,57 @@ label wt:
     c"ГААААААААААХ!"
     hide lilstand  with aaa
     show lilsmile at right with aaa
-    l"Да! ДА! Продолжай! Я знаю, ты весь в возбуждении! Кричи! Shout your lungs out! Ululate! Whip your hair about in my praise!"
+    l"Да! ДА! Продолжай! Я знаю, ты весь в возбуждении! Кричи! Кричи во всю глотку! Реви! Рви на себе волосы, славя меня!"
     hide corscared with aaa
     show corstand2 at left with aaa
     c"..."
-    l"Why so quiet? Has my beauty left you speechless? AHAHAHAHAHAHAHAHAHAHAHAHA!"
+    l"ЧТо замолчал? Моя красота лишила тебя дара речи? АХАХАХАХАХАХАХАХАХАХАХАХА!"
     hide corscared with aaa
     show corstand2 at left with aaa
-    c"{color=#adc6ba}{i}What a weirdo...{/i}{/color} So you found something, Mr. Lilja?"
+    c"{color=#adc6ba}{i}Вот ведь странный тип...{/i}{/color} Нашли что-нибудь, мистер Лилджа?"
     hide lilsmile with aaa
     show lilstand at right with aaa
-    l"Yes. According to my books, those knife curses were rather fashionable about four years ago."
-    l"The only way to remove it is for it be drawn out by the person who did the curse."
-    c"I see."
-    l"Just be careful not to let some random person pull it off. It will instantly kill her."
-    c"*gasp* And if we find the wrong culprit?"
-    l"Like I said. It will kill her."
-    c"*sniffle* Well, we have to be extremely careful then. I'm glad to find someone in this place who doesn't hate my lady."
-    l"...who said I didn't hate her?"
-    c"Huh?"
-    l"It's her fault that I'm not reigning in the heavens." 
-    l"I've been trapped here for four years while you were sleeping like babies. I became almost a mere mortal, doing banal things all day and aging with every second. {w}It's... {w}It's..."
+    l"Да. Если верить моим книгам, эти проклятые кинжалы были довольно модными около четырех лет назад."
+    l"Снять проклятье может лишь тот, кто его наложил."
+    c"Вот как."
+    l"Ни в коем случае не дайте вытащить кинжал другому человеку. Это убьет ее мгновенно."
+    c"*глоть* То есть если мы ошибемся в выборе виновного?.."
+    l"Как я и сказал. Это убьет ее."
+    c"*шмыг* Ну, значит нам просто надо быть предельно внимательными. Я так рад встретить в этом месте кого-то, кто не испытывает ненависти к моей госпоже."
+    l"...кто сказал, что я не испытываю к ней ненависти?"
+    c"А?"
+    l"Это она виновата, что я не правлю сейчас на небесах." 
+    l"Я был заперт здесь четыре года, пока вы спали, как младенцы. Я чуть не превратился в простого смертного, занимаясь чепухой целыми днями и старея с каждой секундой. {w}Это... {w}Эьл..."
     show lilsmile at right with aaa
     hide lilstand with aaa
-    l"IT'S MAKING ME CRAZY HAHAHAHAHAHAHA!"
-    c"Nnngh..."
-    c"Let's go, my lady!"
-    o"*nods*"
+    l"ЭТО СВОДИТ МЕНЯ С УМА ХАХАХАХАХАХАХА!"
+    c"Нгх..."
+    c"Идемте, моя госпожа!"
+    o"*кивает*"
     scene black with dissolve
     scene bg01 with aaa
     stop music fadeout 1.5
     show osstand at left with aaa
     show corstand at right with aaa
-    c"Gosh! That guy was nuts! Talking about Gods... pfft!"
-    o"*nods*"
-    c"I'm glad you agree, my lady!"
+    c"Черт возьми! Этот парень просто псих! Болтает всякую чушь о Богах... пф!"
+    o"*кивает*"
+    c"Я рад, что вы согласны со мной, моя госпожа!"
     jump cho2
 
 label wt2:
   stop music fadeout 1.5
   $ has_visited_watchtower2 = True
-  c"My lady, do you really want to return there?"
+  c"Моя госпожа, вы действительно хотите туда веруться?"
   o"..." 
-  o"*shakes*"
-  c"I thought so..."
+  o"*дрожит*"
+  c"Так я и думал..."
   jump cho2  
   
 label room:
     play music"intro_theme.ogg"
-    c"... {w}Wait, my lady!"
-    c"We should stop to think about what we've learned!"
-    o"...*nods*"
+    c"... {w}Постойте, моя госпожа!"
+    c"Нам стоит сделать пауза и обдумать все, что мы узнали!"
+    o"...*кивает*"
     scene black with aaa
     pause 1 
     scene bg01 with dissolve
