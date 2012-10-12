@@ -1208,36 +1208,36 @@ label wt:
     ls"ХАХАХАХХАААХААХАХАХХА. Слуга? Я? Ты не только тупой, но еще и слепой?"
     show lilstand at right with aaa
     hide lilsmile with aaa
-    ls"My name is Lilja. {w}I'm a God."
+    ls"Мое имя Лилджа. {w}Я Бог."
     hide corstand2 with aaa
     show corsur at left with aaa
-    c"WHAT?!"
-    c"If that's a joke, it's not a very funny one!"
-    l"Lady Os knows me very well, so she will confirm that what I'm saying is true. But the truth should be obvious. You can tell just by looking at me that I'm {i}completely{/i} out of this world."
+    c"Что?!"
+    c"Если это шутка, то ей не достает юмора!"
+    l"Госпожа Оз прекрасно меня знает, она подтвердит, что все мои слова - правда. Хотя она и так очевидна. Одного лишь взгляда достаточно, чтобы понять, что я принадлежу {i}совершенно{/i} другому миру."
     hide corsur with aaa
     show corstand2 at left with aaa
-    c"Uhmm, you see- Lady Os is an amnesiac right now. Someone tried to kill her and stabbed a knife on her neck."
-    l"I can see the knife perfectly, as well as the curse that surrounds it."
-    c"Really? So what can we do to remove it?"
-    l"Let me check my books."
+    c"Эмм, видите ли- в данный момент Госпожа Оз страдает амнезией. Кто-то пытался убить ее и пронзил горло этим ножом."
+    l"Ну, нож я вижу, как и проклятье, окружающее его."
+    c"Правда? Так есть какой-то способ снять его?"
+    l"Сейчас посмотрю в книгах."
     hide lilstand with aaa
-    c"{color=#adc6ba}{i}But there aren't any books here! He's just moving his hands about in thin air!{/i}{/color}"
+    c"{color=#adc6ba}{i}Но здесь нет никаких книг! Он просто машет руками в воздухе!{/i}{/color}"
     c"..."
-    c"{color=#adc6ba}{i}Wait. I've read books describing an invisible library that only immortals can see. Could it be...?{/i}{/color}"
-    c"My lady, is he really a God? Can you remember him?"
+    c"{color=#adc6ba}{i}Постойте-ка. Я как-то читал о невидимой библиотеке, которая доступна лишь вечным. Неужели...?{/i}{/color}"
+    c"Госпожа, он действительно Бог? Вы можете хоть что-нибудь вспомнить о нем?"
     o"..."
-    c"I see, so you can't... "
-    c"This is all rather shocking to me."
-    c"I'm a bit religious, but to see a God with your own eyes... I think it's a little..."
+    c"Ясно, значит нет... "
+    c"Это все не слабо выбило меня из колеи."
+    c"Я не слишком-то религиозен, но видеть Бога своими собственными глазами... Это немного..."
     show lilstand at center with aaa
     with vpunch
-    l"Too much for your itsy bitsy eyes to take? I know I'm gorgeous."
+    l"Твои мелкие глазки не способны с этим справиться? Знаю, я бесподобен."
     hide corstand2 with aaa
     show corscared at left with aaa
-    c"GAHHHHHHHHH!"
+    c"ГААААААААААХ!"
     hide lilstand  with aaa
     show lilsmile at right with aaa
-    l"Yes! YES! Come on! I know you're excited! Shout more! Shout your lungs out! Ululate! Whip your hair about in my praise!"
+    l"Да! ДА! Продолжай! Я знаю, ты весь в возбуждении! Кричи! Shout your lungs out! Ululate! Whip your hair about in my praise!"
     hide corscared with aaa
     show corstand2 at left with aaa
     c"..."
