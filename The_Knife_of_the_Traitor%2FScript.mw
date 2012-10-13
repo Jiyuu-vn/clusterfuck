@@ -1241,7 +1241,7 @@ label wt:
     hide corscared with aaa
     show corstand2 at left with aaa
     c"..."
-    l"ЧТо замолчал? Моя красота лишила тебя дара речи? АХАХАХАХАХАХАХАХАХАХАХАХА!"
+    l"Что замолчал? Моя красота лишила тебя дара речи? АХАХАХАХАХАХАХАХАХАХАХАХА!"
     hide corscared with aaa
     show corstand2 at left with aaa
     c"{color=#adc6ba}{i}Вот ведь странный тип...{/i}{/color} Нашли что-нибудь, мистер Лилджа?"
@@ -1279,14 +1279,14 @@ label wt2:
   $ has_visited_watchtower2 = True
   c"Моя госпожа, вы действительно хотите туда веруться?"
   o"..." 
-  o"*дрожит*"
+  o"*качает головой*"
   c"Так я и думал..."
   jump cho2  
   
 label room:
     play music"intro_theme.ogg"
     c"... {w}Постойте, моя госпожа!"
-    c"Нам стоит сделать пауза и обдумать все, что мы узнали!"
+    c"Нам стоит сделать паузу и обдумать все, что мы узнали!"
     o"...*кивает*"
     scene black with aaa
     pause 1 
@@ -1294,32 +1294,32 @@ label room:
     show osstand at left with aaa
     show corstand at right with aaa
     
-    c"This is really worrying, Lady Os..."
-    c"Apart from us, there are three people in this tower."
-    c"All of them hate you, so all of them would have a motive for trying to kill you."
-    c"Due to your amnesia, we can't take down the barrier, so nobody can leave or enter."
-    c"And the most important thing: the knife in your neck must be pulled out by the person who did the curse."
-    c"There is no room for mistakes. We must identify the real culprit without fail."
-    c"Ahh... what a mess."
+    c"Все это очень тревожно, Госпожа Оз..."
+    c"Не считая нас, в этой башня три человека."
+    c"Каждый из них испытывает к вам ненависть, а значит у каждого есть мотив для убийства."
+    c"В связи с вашей амнезией, вы не можете снять барьер, поэтому никто не может ни войти, ни выйти."
+    c"И самое главное: нож из вашей шеи должен вытащить тот, кто наложил проклятие."
+    c"Мы не можем допустить ошибку. Мы обязаны точно знать, кто виновник."
+    c"Ооох... ну и бардак."
     o"..."
-    c"We should question them further..."
-    c"Let's start with Gervase. He's supposed to be the guard, after all."
+    c"Нам стоит продолжить их опрашивать..."
+    c"Начнем с Герваса. Он ведь все-таки как бы наш охранник."
     o"..."
-    c"Eh? You want to go alone? Why?"
+    c"Э? Вы хотите пойти одна? Почему?"
     o"..."
-    c"D-do you think so my lady? I'm annoying?"
-    o"*nods*"
+    c"В-вы так считаете, моя госпожа? Я раздражаю?"
+    o"*кивает*"
     hide corstand with aaa
     show corcrys at right with aaa
-    c"*tears*"
-    c"Well, I can't go against your will..."
+    c"*в слезах*"
+    c"Ну, у меня нет прав идти против вашей воли..."
     hide corcrys with aaa
     show corstand at right with aaa
-    c"But even so, your father entrusted your safety to me, so please take this whistle."
+    c"Но все же, ваш отец доверил мне вашу безопасность, поэтому, прошу вас, возьмите этот свисток."
     o"...?"
-    c"If you are in trouble, just use it and I'll fly to your side in the blink of an eye!"
-    o"*nods*"
-    c"Please be careful, Lady Os. I'll be waiting for you!"
+    c"Если вы попадете в беду, просто воспользуйтесь им, и я прилечу в мгновение ока!"
+    o"*кивает*"
+    c"Молю, будьте осторожны, госпожа Оз. А я буду ждать вас!"
     scene black with dissolve
     $ renpy.play('foot1.wav')
     pause 2
@@ -1330,91 +1330,91 @@ label kitchen:
     scene bg03 with dissolve
     show osstand at left with aaa
     show gerpup1 at center with aaa
-    g"Not you again... I'm tired. Give it a rest, will you?"
-    o"*shakes*"
-    g"Why don't you speak already?"
-    r"Os points at her neck."
-    g"...{w}what the fuck is that?! Argh, all right then... "
+    g"Опять ты... Я устал. Дай отдохнуть, а?"
+    o"*качает головой*"
+    g"Когда ты уже заговоришь, наконец?"
+    r"Оз указывает на шею."
+    g"...{w}это еще что за херня?! Аргх, ладно... "
     show gerstand at right with flashbulb
     hide gerpup1 with aaa
-    g"So, what do you want?"
+    g"Итак, что тебе надо?"
     play music"gervase_theme.ogg"
     show oswrites at left with aaa
     hide osstand with aaa
-    r"Os takes a little book out of her pocket and writes something in it. Then she hands it to Gervase."
+    r"Оз достает из кармана блокнот и пишет в нем что-то. Затем она протягивает его Гервасу."
     show osstand at left with aaa
     hide oswrites with aaa
-    g"Hey."
+    g"Эй."
     o"?"
     show gerblush at right with aaa
     hide gerstand with aaa
-    g"Do you expect me to know how to read?"
+    g"Думаешь, я умею читать?"
     o"!"
     show oswis at left with aaa
     hide osstand with aaa
     $ renpy.play('karasu1.mp3')
     with hpunch
-    c"WOOOOOOOOOOOOOOOOOOOOO!"
-    g"Eh?"
+    c"ЖУУУУУУУУУУУУУУУУУУУУУУУУУУУХ!"
+    g"А?"
     show osstand at left with aaa
     hide oswis with aaa
     show cormad2 at left with aaa
-    c"Did he try to touch you again, my lady?"
-    o"*shakes*"
+    c"Он снова распустил свои грязные лапы, моя гопожа?"
+    o"*качает головой*"
     show gerstand at right with aaa
     hide gerblush with aaa
-    c"Ah, he can't read. Can't say I'm surprised. He {i}is{/i} a dog, after all."
+    c"А, он не умеет читать. Не то чтобы я удивлен. Он ведь {i}действительно{/i} пес, в конце концов."
     hide cormad2 with aaa
     show corstand2 at left with aaa
-    g"I'm proud to be one..."
-    c"Anyway. We are trying to find the person who did this to Lady Os. You may be interested, since it's the culprit's fault that she can't remember how to get out of here."
-    g"That means I can leave this place if I find the culprit?"
-    c"Eh. That's for Lady Os to decide."
+    g"И я горд им быть..."
+    c"В любом случае. Мы пытаемся найти того, кто сотворил это с госпожой Оз. Это и тебе будет полезно, ведь именно из-за него она не может вспомнить, как выбраться отсюда."
+    g"То есть, я смогу покинуть это место, если найду виновного?"
+    c"Эм. Тут уж госпожа Оз будет решать."
     show germad at right with aaa
     hide gerstand with aaa
-    g"Well then, eat shit. I'm not helping if there's nothing in return for me."
+    g"Ну тогда хрен вам. Я не собираюсь вам помогать, если не получу ничего взамен."
     hide corstand2 with aaa
     show cormad2 at left with aaa
-    c"...You lowlife-"
+    c"...Ах ты презренный-"
     o"..."
     hide cormad2 with aaa
     show corstand2 at left with aaa
-    c"Ugh! Lady Os wants to know what you want in return."
-    g"Now we're talking! Let's see..."
+    c"Гр! Госпожа Оз спрашивает, что ты хочешь взамен."
+    g"Вот это другой разговор! Посмотрим..."
     show gerthink at right with aaa
     hide germad with aaa
     g"..."
     pause 2
-    c"{color=#adc6ba}{i}I hope his brain implodes from thinking too much...{/i}{/color}"
+    c"{color=#adc6ba}{i}Надеюсь, его голова не взорвется от перенапряжения...{/i}{/color}"
     show germad at right with aaa
     hide gerthink with aaa
-    g"I know what I want!"
-    c"That was fast!"
+    g"Я знаю, что я хочу!"
+    c"Быстро ты!"
     show gerstand at right with aaa
     hide germad with aaa
-    g"{size=11}Tits{/size} {w}... lots of them." 
-    c"...you're joking right?"
-    g"...no."
-    c"{color=#adc6ba}{i}THIS GODDAMN CREATURE...{/i}{/color}"
-    c"Do you have no shame? At least have the courtesy to request something decent..."
+    g"{size=11}Титьки{/size} {w}... много." 
+    c"...ты что, шутишь?"
+    g"...нет."
+    c"{color=#adc6ba}{i}ЧЕРТОВО СОЗДАНИЕ...{/i}{/color}"
+    c"У тебя что, стыда нет? Хотя бы сделай одолжение, попроси что-нибудь приличное..."
     show gerlick at right with aaa
     hide gerstand with aaa
-    g"Umm... how about pussies? I like pussies."
+    g"Эмм... а как насчет кошечек? Я люблю кошечек."
     c"..."
     o"..."
-    c"My lady says whatever as long as you shut up."
+    c"Моя госпожа говорит, что угодно, лишь бы ты заткнулся."
     show gersmile at right with aaa
     hide gerlick with aaa
-    g"Then it's a deal! Hahaha!"
-    c"*sigh* Well, Gervase, your cooperation is essential, since you were the one who watches the door."
-    c"This is highly unlikely, since Lady Os's barrier is impenetrable, but could you tell us if someone suspicious entered the tower before we were trapped here?"
+    g"Заметано! Хахаха!"
+    c"*вздох* Ну, Гервал, мы рассчитываем на твое сотрудничество, ведь ты следил за дверью."
+    c"Ты можешь сказать, не заходил ли сюда кто-нибудь подозрительный, перед тем как мы оказались в заперты здесь? Что конечно мало вероятно, так как барьер госпожи Оз непроницаем."
     show gerstand at right with aaa
     hide gersmile with aaa
-    g"Nobody else entered apart from you two."
-    g"Though, Corvus, I never saw you enter..."
-    c"I flew!"
-    g"Ah. Well."
-    g"After Os came, I went on my usual night rounds through the tower."
+    g"Никто, кроме вас двоих, не входил."
+    g"Хотя, Корвус, как раз-таки как ты входил я не видел..."
+    c"Я влетел!"
+    g"А. Ладно."
+    g"После того, как пришла Оз, я отправился на свой регулярный обход башни."
     g"Vosges was in the basement as usual, doing his mage things, but I could tell it wasn't harmful at all. Then I took a peek at the kitchen, which was empty.
     But then when I went to the third floor, something weird happened..."
     c"And?"
