@@ -7,12 +7,12 @@
 ; ?? : ?? : ?????(?)<????>
 bg "image\bg\bg_33a.jpg",%type_nowaitdisp
 
-` ---Certainly, if I went to see Ciel-senpai with this headache, I'd just be a bother.@
+` Действительно, если я пойду к Сиэль-сенпай с такой головной болью, то только буду ей обузой.@
 br
-`"...... That's, right...... I haven't even had a chance to rest from last night.@ I guess I pushed myself a little."@
+` - Да, точно... Я так и не отдохнул с прошлого вечера.@ Похоже я немного перенапрягся.@
 ; ?<?>=??:?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t03.jpg",%type_crossfade_fst
-`"Then please rest.@ Shiki-san, can you walk by yourself?"@
+` - Тогда передохни.@ Шики-сан, ты сможешь дойти сам?@
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -20,56 +20,56 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_33a.jpg",%type_crossfade_fst
 
 
-`"Ah---no."@
-` It seems impossible right now.\
+` - Ааа... нет.@
+` Сейчас это кажется невозможным.\
 
 ; ?<?>=??:?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"That's right, oh, Hisui-chan!@ Carry Shiki-san to his room."@
+` - Понятно, о, Хисуи-тян!@ Отведи Шики-сана в его комнату.@
 ; ?<?>=??:??<???????(?)>
 ld r,":a;image\tachi\his_t07.jpg",%type_crossfade_fst
-`"Eh---Nee-san, but---"@
+` - Э... Нээ-сан, но...@
 ; ?<?>=??:?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t04.jpg",%type_crossfade_fst
-`"Hisui-chan!@ Shiki-san is sick, are you just going to abandon him like that?"@
-`"Ah----"@
-`"I will allow it for today, so take him to his room."\
+` - Хисуи-тян!@ Шики-сану плохо, ты собираешься просто бросить его?@
+` - А...@
+` - Один раз я думаю можно, так что отведи его в его комнату.\
 
 ; ?<?>=??:??<???????(?)>
 ld r,":a;image\tachi\his_t21.jpg",%type_crossfade_fst
-`"...... Yes.@ Sorry for saying such selfish words,"@
+` - ...Хорошо.@ Извини что говорю такие эгоистичные слова,@
 ; ?<?>=??:?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t01a.jpg",%type_crossfade_fst
-`"As long as you understand, it's fine.@ Did you find the medicine?"@
+` - Раз ты понимаешь, то всё хорошо.@ Ты нашла лекарства?@
 
 ; ?<?>=??:??<???????(?)>
 ld r,":a;image\tachi\his_t23.jpg",%type_crossfade_fst
-`"...... Um, you had too many medicines, is this the fever medicine?"\
+` - Эм, у тебя слишком лекарств, это средство от жара?\
 
 ; ?<?>=??:?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t05.jpg",%type_crossfade_fst
 
-`"Ahaha, that's used for something else.@ Shiki-san is still conscious, so we don't need to use medicine that would stabilize him."@
+` - Ахаха, нет, это нужно для кое-чего другого.@ Шики-сан ещё сознании, нам не нужны препараты для стабилизации.@
 ; ?<?>=??:?03(??)<???????(?)>
 ld l,":a;image\tachi\koha_t02.jpg",%type_crossfade_fst
 
-`"It seems his fever is from being too tired, so I'll make some medicine.@ Hisui-chan, please take care of the rest."@
+` - Его жар скорее всего от переутомления, так что я пойду приготовлю лекарство.@ Хисуи-тян, пожалуйста займись остальным.@
 ; ????<??????(?)>
 cl l,%type_lshutter_mid
-` Kohaku-san swiftly disappears towards the west hall---where her room is.\
+` Кохаку-сан быстро исчезает в западном крыле — по направлению к своей комнате.\
 
 ; ?<?>=??:??<???????(?)>
 ld r,":a;image\tachi\his_t20.jpg",%type_crossfade_fst
 
-`"Shiki-sama, I will take you to your room."@
-` With an "excuse me", she lends me her shoulder.@
+` - Шики-сама, я отведу вас к вам в комнату.@
+` Извинившись, она подставляет плечо.@
 ; ????<???????(?)>
 cl r,%type_crossfade_fst
 
 br
-` Thanks to Hisui's help, I manage to get up the stairs.@
-` On the way, even more than my terribly throbbing headache, Hisui's incredibly embarrassed face burns into my memory.\
+` С помощью Хисуи мне удаётся подняться по лестнице.@
+` По дороге, больше моей ужасно пульсирующей головной боли мне запомнилось невероятно смущённое лицо Хисуи.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -83,8 +83,8 @@ bg "image\bg\bg_40c.jpg",%type_crossfade_mid
 
 
 br
-` ---In the end,
-` I lie down in bed, drink the medicine Kohaku-san made, and entrust her to pass on my message to Ciel-senpai who is waiting at the movie theater.@
+` В конечном итоге, 
+` Я укалдываюсь на кровать, выпиваю лекарство Кохаку-сан и доверяю ей передать сообщение ожидающей у кинотеатра Сиэль-сенпай.@
 br
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
@@ -92,12 +92,13 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-`"............ Gah."@
-` My headache doesn't stop.@
-` As if in exchange, my body did seem to cool down.\
+` - Гах...@
+` Головная боль не прекращается.@
+` Словно в качестве конпенсации, моё тело остыло.\
 
 
 return
+
 
 
 </pre>
