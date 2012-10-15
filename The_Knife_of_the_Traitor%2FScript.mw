@@ -1415,55 +1415,55 @@ label kitchen:
     c"Я влетел!"
     g"А. Ладно."
     g"После того, как пришла Оз, я отправился на свой регулярный обход башни."
-    g"Vosges was in the basement as usual, doing his mage things, but I could tell it wasn't harmful at all. Then I took a peek at the kitchen, which was empty.
-    But then when I went to the third floor, something weird happened..."
-    c"And?"
+    g"Восгез был, как обычно, в подвале, занимаясь своими магическими делами, но ничего опасного я в них не увидел. Потом я заглянул на кухня, которая была пуста.
+    Но затем, когда я пошел на третий этаж, случилось нечто странное..."
+    c"И?"
     show germad at right with aaa
     hide gerstand with aaa
-    g"I can't remember what happened. My eyes went blurry out of nowhere, and then I fell asleep and rolled down the stairs. My ass hurt like there was no tomorrow when I woke up."
-    c"...I see."
-    c"This was a waste of time after all."
+    g"Я не могу вспомнить, что случилось. Я внезапно перестал что-либо видеть и заснул, свалившись при это с лестницы. Когда я очнулся, задница болела до чертиков."
+    c"...Вот как."
+    c"В конце концов, это была пустая трата времени."
     show gerstand at right with aaa
     hide germad with aaa
-    g"What else did you expect? I did my part as the watchdog I am."
-    c"Well, you sure are a great one, because according to your story, there were four people including you, while there are really five."
+    g"А чего ты ждал? Я лишь делал свою работу сторожевого пса."
+    c"И он из тебя вышел просто замечательный, потому как, в соответствии с твоей историей, в башне было четверо, включая тебя самого, а на самом деле - пятеро."
     show germad at right with aaa
     hide gerstand with aaa
-    g"Five? What the fuck are you talking about?"
-    c"There's a guy named Lilja on the balcony."
+    g"Пятеро? Что ты мелешь?"
+    c"На балконе парень, по имени Лилджа."
     show gerstand at right with aaa
     hide germad with aaa
-    g"That's impossible. I went there a few minutes ago and it was empty."
-    c"Huh? Maybe he went somewhere else?"
+    g"Быть такого не может. Я был там всего несколько минут назад и там никого не было."
+    c"А? Может быть, он ушел куда-то?"
     o"..."
-    c"My lady says that we've heard enough from you."
-    c"We'll be back later."
-    g"Fine."
+    c"Моя госпожа говорит, что мы услышали достаточно от тебя."
+    c"Мы скоро вернемся."
+    g"Ладно."
     hide corstand2 with aaa
     hide osstand with aaa
     stop music fadeout 1.5
     pause 1
-    g"A guy in the balcony? What the fuck is he talking about?"
+    g"Парень на балконе? Да о чем он говорит?"
     show gerangry at right with aaa
     hide gerstand with aaa
-    g"...nngh...!"
-    g"...my head..."
+    g"...нгх...!"
+    g"...моя голова..."
     g"..."
     show germad at right with aaa
     hide gerangry with aaa
-    g"...ah!"
+    g"...а!"
     
     scene black with dissolve
     scene bg01 with aaa
     show osstand at left with aaa
     show corstand at right with aaa    
-    c"Do you think that Lilja went to another part of the tower?"
-    o"*shrugs*"
-    c"Well, I think Vosges should be next."
+    c"Думаете, Лилджа пошел в какую-то другую часть башни?"
+    o"*пожимает печами*"
+    c"Что ж, думаю теперь следует проведать Восгеза."
     o"..."
-    c"You're right. I'll go check the balcony then."
-    o"*nods*"
-    c"Don't forget to call me if you need me!"
+    c"Вы правы. Тогда я проверю балкон."
+    o"*кивает*"
+    c"Зовите, если я вам понадоблюсь!"
     scene black with dissolve
     pause 2
     
@@ -1485,75 +1485,75 @@ label base:
     show vostand at right with aaa
     o"..."
     play music"vosges_theme.ogg"
-    v"Never in my life have I received so many visits in one day. What do you want this time?"
+    v"В жизни у меня не было столько посещений за один день. Что тебе нужно на этот раз?"
     o"..."
-    v"Where is your shadow? Without him we can't communicate."
+    v"А где твоя тень? Без него мы не сможем общаться."
     o"..."
     show oswrites at left with aaa
     hide osstand with aaa
-    r"Os takes a little book out of her pocket and starts writing something. Then she hands it to Vosges."
+    r"Оз достает из кармана блокнот и что-то в нем пишет. Потом протягивает его Восгезу."
     show osstand at left with aaa
     hide oswrites with aaa
-    v"Well, that was unexpected."
-    v"Let's see... 'Where did you read about the star?'"
+    v"Такого я не ожидал."
+    v"Посмотрим... 'Где ты прочитал о звезде?'"
     show vosmile at right with aaa
     hide vostand with aaa
-    v"Hmph. You really do have amnesia, don't you."
+    v"Хмпф. У тебя действительно амнезия."
     show vostand at right with aaa
     hide vosmile with aaa
-    v"I got that information from one of the books you so kindly left for me here..."
-    v"All of them bear the stamp of the Great Library of Ulla. Even the corrupted volumes."
-    v"I have no idea how you managed to counterfeit that mark. You really went to great lengths to make sure I couldn't tell the corrupted books from the authentic ones, didn't you?"
+    v"Я получил эту информацию из книги, что ты была так любезна оставить здесь..."
+    v"На каждой из них имеется штамп Большой Библиотеки Уллы. Даже на подделках."
+    v"Не представляю, как тебе удалось ее скопировать. Ты хорошо постаралась, чтобы я не смог отличить подделок от настоящих, да?"
     o"..."
-    v"No matter... it's telling that you simply dumped all those books, both real and fake, into this festering shithole."
-    v"It's incredible how a kingdom like Ulla, whose victories are founded on violence and sadism, has this kind of abandoned knowledge..."
-    v"And it's even more incredible how you've completely disregarded that heritage." 
+    v"Не важно... это говорит о том, что ты просто выкинула все книги без разбора в эту гнойную клоаку."
+    v"Невероятно, как в королевстве, подобном Улле, чьи победы гнездятся на насилии и садизем, можно найти столько считавшихся утраченными знаний..."
+    v"Еще более невероятно то, как наплевательский ты отнеслась к этим сокровищам мирового наследия." 
     o"..."
-    v"More questions?"
-    o"*nods*"
+    v"Еще вопросы?"
+    o"*кивает*"
     show oswrites at left with aaa
     hide osstand with aaa
-    r"The small ritual of paper and pencil resumes."
+    r"Маленький ритуал бумаги и карандаша возобновляется."
     show osstand at left with aaa
     hide oswrites with aaa
     show voswut at right with aaa
     hide vostand with aaa
-    v"Oh. The note."
-    v"Of course I was telling the truth about the note. Even though I despise you, Os, I am not like you."
+    v"Ох. Записка."
+    v"Конечно же я говорил правду о записке. Пусть я тебя и презираю, Оз, я не такой, как ты."
     show vostand at right with aaa
     hide voswut with aaa
-    v"I wouldn't try to kill you, or stab that thing on your neck."
+    v"Я не стал бы пытаться убить тебя, или воткнуть эту штуку тебе в шею."
     show osmile1 at left with aaa
     hide osstand with aaa
     o"..."
     show vosblush at right with aaa
     hide vostand with aaa
-    v"Why... are you smiling?"
+    v"Почему... ты улыбаешься?"
     show oswrites at left with aaa
     hide osmile1 with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa    
     show vosmad at right with aaa
     hide vosblush with aaa
-    v"Because I'm a good kid? I'm not a kid!"
+    v"Потому что я хороший мальчик? Я не мальчик!"
     show vostand at right with aaa
     hide vosmad with aaa
-    v"I think the one you should doubt... {w}is Corvus."
+    v"Я считаю, что тот, кто достоин сомнений... {w}это Корвус."
     o"?"
-    v"He seems very false to me. Especially when he said that he would give his life for you. That's extremely hard to believe, especially given his... circumstances..."
+    v"Он мне кажется фальшивкой. Особенно когда говорит, что отдал бы жизнь за тебя. В это очень сложно поверить, особенно принимая во внимание его... особенности..."
     show oswrites at left with aaa
     hide osstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa
-    v"You really trust him? If so, why isn't he here?"
+    v"Пы действительно ему доверяешь? Если так, то почему его здесь нет?"
     show oswrites at left with aaa
     hide osstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa
-    v"'He's very annoying and when he is around all of you are upset.'"
+    v"'Он ужасно раздражает, и когда он рядом, то портит всем вам настроение.'"
     v"{color=#adc6ba}{i}...I think she doesn't realize we are upset because of her.{/i}{/color}"
     show oswrites at left with aaa
     hide osstand with aaa
