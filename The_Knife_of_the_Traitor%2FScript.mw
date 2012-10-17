@@ -1554,20 +1554,20 @@ label base:
     show osstand at left with aaa
     hide oswrites with aaa
     v"'Он ужасно раздражает, и когда он рядом, то портит всем вам настроение.'"
-    v"{color=#adc6ba}{i}...I think she doesn't realize we are upset because of her.{/i}{/color}"
+    v"{color=#adc6ba}{i}...Кажется, она не осознает, что это она портит нам настроение.{/i}{/color}"
     show oswrites at left with aaa
     hide osstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa
-    v"A favor? You have some nerve, asking a favor from an enemy."
-    v"But I must say I'm quite curious. So, spill the beans."
+    v"Одолжение? А ты смелая, раз просишь врага об одолжении."
+    v"Но, должен мне признать, мне довольно любопытно.Так что выкладывай. ."
     menu:
         
-        "What can I do to make you not hate me?":
+        "Что я могу сделать для того, чтобы ты перестал меня так ненавидеть?":
          jump vosroute2
         
-        "Call for Corvus.":
+        "Позвать Корвуса.":
          jump coroute1
          
              
@@ -1575,59 +1575,59 @@ label vosroute2:
     $ vosges += 2
     show oswrites at left with aaa
     hide osstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa
     v"...?"
-    v"Are you serious?"
-    o"*nods*"
-    v"I hate you, and there's nothing you can do to change that. Believing that it's possible is egotistical of you."
+    v"Ты серьезно?"
+    o"*кивает*"
+    v"Я ненавижу тебя, и с этим ничего не поделаешь. Очень эгоистично с твоей стороны думать, что это возможно."
     show oswrites at left with aaa
     hide osstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa
-    v"What would make me happy? That's a difficult question."
+    v"Что сделает меня счастливым? Сложный вопрос."
     show vosmile at right with aaa
     hide vostand with aaa
-    v"I've realized that even if I manage to get out of Ulla and start again, there will be always this knot in my chest."
-    v"I will never recover from the horrors you've inflicted upon me."
+    v"Я понял, что даже если бы смог выбраться из Уллы и начать жизнь заново, в моей груди продолжала бы зиять дыра."
+    v"Я никогда не смогу оправиться от тех страданий, что ты причинила мне."
     show vostand at right with aaa
     hide vosmile with aaa
-    v"So my answer is: I can be half-happy if I'm free."
+    v"Поэтому мой ответ таков: Я был бы наполовину счастлив, если бы обрел свободу.."
     o"..."
-    v"I really don't know what are you trying to pull. Perhaps you are faking so you can mock me like you used to. Well, too bad. I'm tired of your tricks."
-    o"*shakes*"
-    v"You aren't faking it? I find that very hard to believe, Os."
-    v"Do you remember how you massacred my people? Do you remember what my village looked like before you devoured it all with your cold blue flames?"
+    v"Я и правда не понимаю, чего ты добиваешься. Возможно, ты притворяешься, чтобы потом опять выставить меня на посмешище, как ты это делала всегда. Что ж, какое разочарование. Я устал от твоих игр."
+    o"*качает головой*"
+    v"Ты не притворяешься? Мне в это как-то трудно поверить, Оз."
+    v"Помнишь, как ты вырезала всех до единого моих людей? Помнишь, на что была похожа моя деревня, перед тем как ее спалила голубым холодным огнем?"
     o"..."
-    v"I do. Even now, in my dreams, I can see every stream, every field, every single blade of slick, shimmering grass."
-    v"I grew up in that village. I was happy there, even though my parents worked me to the bone. Our village had always been enslaved by Ulla, so we pushed ourselves constantly to meet the expectations of your people."
-    v"I first saw you when you came to visit the crop camp. You were so small and frail. I remember you even talked to the elders asking if we needed something. I thought{w} you were nice."
-    v"Of course, months later, I realized I was wrong. Wrong to judge people by their looks. And to worse, to trust them so easily. I couldn't understand back then because I was a child, but now I know." 
-    v"People like you exist."
+    v"Я помню. Даже сейчас в своих снах я вижу каждый ручей, каждое поле, каждое отдельное лезвие острой мерцающей травы."
+    v"Я вырос в этой деревне. Я был там счастлив, хоть мои родители и заставляли меня работать до упаду. Наша деревне всегда находилась под гнетом королевства Улла, поэтому мы костьми ложились,лишь бы угодить твоим людям."
+    v"Впервые я увидел тебя, когда ты осматривала склад овощей. Ты казалась столь маленькой и хрупкой. Помню, ты даже спрашивала старейшин, не нуждаемся ли мы в чем-нибудь. Я подумал{w} что ты была милой."
+    v"Конечно же, месяцы спустя, я понял, что ошибался. Глупо судить людей по внешности. А еще глупее с легкостью им доверять. Будучи ребенком я не могу этого понять, но теперь я знаю." 
+    v"Что есть такие люди, как ты."
     o"..."
-    v"Please leave."
-    o"*shakes*"
+    v"Прошу, уйди."
+    o"*качает головой*"
     show oswrites at left with aaa
     hide osstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show osstand at left with aaa
     hide oswrites with aaa
-    v"I'm not reading anything else you write."
-    o"...{w}*nods*"
+    v"Я не буду больше ничего читать."
+    o"...{w}*кивает*"
     hide osstand with aaa
-    v"You are not fooling me again..."
+    v"Тебе больше не удастся обмануть меня..."
     pause 1
     stop music fadeout 1.5
     scene black with dissolve
     scene bg01a with aaa
     show ncorstand at right with aaa
     show nosstand at left with aaa
-    c"My lady, you're back!"
-    c"Did that shroom say something useful?"
-    o"...*nods*"
-    c"Oh. {color=#adc6ba}{i}I want to ask more... argh!{/i}{/color}"
+    c"Моя госпожа, вы вернулись!"
+    c"От этого мухомора была какая-то польза?"
+    o"...*кивает*"
+    c"Ох. {color=#adc6ba}{i}Я хотел спросить... аргх!{/i}{/color}"
     jump cho4
     
 label coroute1:
@@ -1636,12 +1636,12 @@ label coroute1:
     hide osstand with aaa
     $ renpy.play('karasu1.mp3')
     with hpunch
-    v"What's-"
+    v"Что-"
     $ renpy.play('fall.wav')
-    c"{size=10}mmm{/size}{size=11}mmm{/size}{size=12}mmm{/size}mmmmMY LADY!!"
+    c"{size=10}ммм{/size}{size=11}ммм{/size}{size=12}ммм{/size}ммммМОЯ ГОСПОЖА!!"
     hide oswis with aaa
     show osstand at left with aaa
-    c"What did this shroom do to you?!"
+    c"Что это презренный гриб сделал с вами?!"
     show cormad2 at left with aaa
     v"I did nothing. What are you scheming, Os?"
     hide cormad2 with aaa
