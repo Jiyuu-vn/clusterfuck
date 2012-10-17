@@ -9,9 +9,9 @@ bg "image\bg\bg_40c.jpg",%type_nowaitdisp
 
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t01.jpg",%type_crossfade_fst
-`"Thanks to the goodwill of Makihisa-sama, Nee-san received training in pharmacy.@
-` Until Makihisa-sama passed away, she also was consulted in maintaining his health."@
-` Hisui's face returned to its usual lack of expression and tells me things I didn't even ask about.\
+` - Благодаря разрешению Макихисы-сама, Нээ-сан смогла пройти обучение фармацевтике.@
+` Пока Макихиса-сама не скончался, она также обучалась всему, что было необходимо для ухода за его здоровьем.@
+` Лицо Хисуи приняло своё обычное безпристрастное выражение, и она рассказывает мне то, о чм я и не спрашивал.\
 ;S.E."??"
 wave se0
 
@@ -21,14 +21,14 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
 
-`"Gh............!"@
-` Sharp pain stabs through my head.@
+` - Гх!..@
+` Острая боль пронзает мою голову.@
 br
-` Even though I'm in this much pain, she seems to be tending me without even batting an eyelash.@
+` Несмотря на то что мне так больно, она продолжает присматривать за мной с абсолютной невозмутисотью.@
 br
-` ...... Well, that's only to be expected.@
-` I'm the one in pain, not her.@
-` If she acted like she was in pain or had a clouded expression, it would be troublesome.\
+` А чего ещё было ждать...@
+` Больно мне, не ей.@
+` Если бы она вела себя так будто мучается от боли или сидела бы с мрачным лицом, это было бы только назойливо.\
 
 ;S.E."??"
 wave se0
@@ -38,20 +38,20 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
-`"Gh----!"@
-`"Shiki-sama, are you still in pain?"@
-`"---Sorry Hisui."@
-`"Yes, what is it?"@
-`"You're an eyesore, so please leave.@ I can't sleep with you here."@
+` - Гх!..@
+` - Шики-сама, вам всё ещё больно?@
+` - Прости, Хисуи.@
+` - Да, что вы хотели?@
+` - Ты мне глаза мозолишь, так что будь добра, уйди.@ Я не могу заснуть тут с тобой.@
 ; ??<?>=??:?01(?????)<???????(?)>
 ld c,":a;image\tachi\his_t05.jpg",%type_crossfade_fst
-`"----I understand, then please excuse me.@ If you need anything, please call for me."@
+` - |Я поняла, тогда с вашего позволения я пойду.@ Если вам что-нибудь понадобится, пожалуйста зовите меня.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
-` Hisui leaves the room.@
+` Хисуи покидает комнату.@
 br
-` With that, I actually do relax.@
-` My headache also weakens, so maybe I can sleep now.\
+` После этого мне действительно удаётся расслабиться.@
+` Моя головная боль тоже ослабевает, так что может быть мне удастся поспать.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -73,56 +73,56 @@ waveloop se10
 ` ....................................@
 ` ..........................................\
 
-` Knock-knock.@ The door opens.@
+` Тук-тук.@ Дверь открывается.@
 br
 ; ??<?>=??:??01(????)<??????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_lshutter_mid
-`"---Excuse me, Nii-san.@ Are you awake?"@
-`"...... Yeah, I'm up.@ You need something, Akiha?"@
-`"No, I heard you were resting because of your anemia, so I just came to see how you were doing."@
-` She looks over at me as I lie in bed.@
-` A soft gaze that tells me she's worried.@
+` - Нии-сан, извини меня.@ Ты не спишь?@
+` - Нет, не сплю...@ Акиха, тебе что-то нужно?@
+` - Нет, я слышала что ты отдыхаешь из-за анемии, и решила тебя проведать.@
+` Она смотрит на меня, пока я лежу в постели.@
+` Мягкий взгляд, который говорит мне что она волнуется.@
 br
-` ...... To be honest, it's annoying as hell.\
+` Откровенно говоря, это чертовски раздражает.\
 
-`"I'm fine.@ It's not that bad, that's why I'm resting here by myself.@ Go back to your room, Akiha."@
+` - Я в порядке.@ Со мной всё не так плохо, поэтому я и отдыхаю тут один.@ Акиха, возвращайся к себе в комнату.@
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\aki_t21b.jpg",%type_crossfade_fst
-`"---Nii-san, what are you saying?@
-` It's already dinnertime you know.@ I came here to tell you that."\
+` - Нии-сан, что ты такое говоришь?@
+` Уже время ужина, знаешь ли.@ Я пришла сказать тебе об этом.\
 
-` ...... Dinner......?@
-` Oh, is it that time already?@
-` But I'm not very hungry, and I don't feel like eating anything.@
+` Ужин?..@
+` О, уже столько времени?@
+` Но я не очень голоден, и мне не хочется ничего есть.@
 br
-`"I don't have an appetite, so I'll skip dinner.@ I'm fine, so go away for today.@ I don't feel good."\
+` - У меня нет аппетита, так что ужинать я не буду.@ Я в порядке, поэтому уходит на сегодня.@ Я неважно себя чувствую.\
 
 ; ??<?>=??:??<???????(?)>
 ld c,":a;image\tachi\aki_t12b.jpg",%type_crossfade_fst
 
-`"...... I understand.@ Please get your rest.@ But Nii-san, if you are awake, please turn the lights on in your room.@ Your eyes will go bad in the dark."@
-`"---I'm fine.@ I can relax this way."@
-`".................."@
+` - ...Я поняла.@ Отдыхай.@ Но Нии-сан, если ты не спишь, включи пожалуйста свет.@ У тебя глаза в темноте испортятся.@
+` - Всё нормально.@ Мне так легче расслабиться.@
+` - ...@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 
-` Even though her eyes tell me she wants to say more, she leaves the room.\
+` Она покижает комнату, хотя по её глазам было ясно что она высказала не всё.\
 
-`".................."@
-` I'm so irritated.@
-` Hisui's reactions, Akiha's worried eyes, they all seem to treat me as something fragile.@
+` - ...@
+` Я так разозлён.@
+` Реакции Хисуи, волнующийся взгляд Акихи, они все бобращаются со мной как со стеклянным.@
 br
-` Isn't this like always?@
-` It's not like I'm coughing up blood or sucking up blood, so why can't they just leave me alone?\
+` Разве это не как всегда?@
+` Я ведь не кашляю кровью и не пью крови, чего они не оставят меня в покое?\
 
 br
-` ----Grit.@
+`       Скрип.@
 br
-` In the darkness, I hear myself grinding my teeth.@
-`"............"@
-` My nerves are fraying, I know that.@
-` If I stay awake like this, I'll become completely depressed.@
-` I'm not tired, but I have to sleep.\
+` В темноте, я слшу как скрипят мои зубы.@
+` - ...@
+` У меня все нервы истрёпаня, я это понимаю.@
+` Если я и дальше буду лежать без сна, то моё настроение только ещё больше испортится.@
+` Я не устал, но мне надо поспать.\
 
 ;S.E.??
 wavestop
@@ -167,8 +167,8 @@ br
 br
 br
 br
-` I go out to the main street.@
-` The date has changed about two minutes ago.@
+` Я выхожу на главную улицу.@
+` Две минуты назад на часах была ровно полночь.@
 !w1000
 
 \
@@ -178,8 +178,8 @@ br
 br
 br
 br
-` The dead of night on Sunday.@
-` No one is walking the streets.@
+` Глузая ночь воскресенья.@
+` На улицах никого нет.@
 !w1000
 
 \
@@ -188,8 +188,8 @@ br
 br
 br
 br
-` Did I mistake the time?@
-` If I started walking around an hour earlier, I wouldn't have had to work so hard.@
+` Я неправильно выбрал время?@
+` Если бы я вышел на час раньше, мне бы не пришлось столько работать.@
 !w1000
 
 \
@@ -199,10 +199,10 @@ br
 br
 br
 br
-` Dragging, walking.@
-` What makes this dragging sound,
-` isn't my walking,
-` but something else.\
+` Шаркающий звук, звук шагов.@
+` Шаркающий звук,
+` издают не мои шаги,
+` а нечто иное.\
 
 br
 br
@@ -210,31 +210,31 @@ br
 br
 br
 br
-` The time was right.@
-` If I started walking an hour earlier, I never would have been able to walk like this.\
+` Время было правильное.@
+` Если бы я вышел на час раньше, я бы никогда не смог так идти.\
 br
 br
 br
 br
 br
 br
-` Dragging,
-` With one hand gripping the woman's hair, I continue to walk.@
-` Long hair.@ Because she looked like Akiha, I chose this woman.@ Not her face, but I liked her hair.\
+` Шаркающий звук,
+` Одной рукой сжжимая женищну за волосы, я иду дальше.@
+` Длинные волосы.@ Потому что она была похожа на Акиху, я выбрал эту женщину.@ Не её лицо, но мне понравились её волосы.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_fst
 ; ???1(?)<???????(?)>
 bg "image\bg\bg_31b.jpg",%type_crossfade_fst
 
-` I let go of her hair.@
-` Unconscious, she collapses to the ground.@
-` I did not kill her.@
-` I didn't eat dinner, so I want to make it as appetizing as possible.@
-` I've heard somewhere that the blood of the dead is cold and tastes terrible.\
+` Я отпускаю её волосы.@
+` Она падает на землю без сознания.@
+` Я не убил её.@
+` Я не ужинал, поэтому мне хочется сделать это как можно более аппетитным.@
+` Я где-то слышал что у мёртвых кровь холодная и отвратительная на вкус.\
 
-` I have no complaints about her unblemished neck.@
-` Gripping my knife in one hand, I draw my mouth closer---
+` Её безупречная шея полностью меня устраивает.@
+` Сжав нож в руке, я подношу к неё свой рот...
 
 
 ;CD-DA??
@@ -246,24 +246,24 @@ bg "image\bg\ima_10.jpg",%type_nowaitdisp
 monocro off
 
 
-` After seeing that dream, I wake up.@
-`"-----!"@
-` I wake up from my sleep and my mind starts to clear.@
-` My throat is horribly parched and my entire body feels excited.\
+` Увидев этот сон, я проспыпась.@
+` - !..@
+` Я проспыась ото сна и в голове у меня начинает проясняться.@
+` В горле у меня дико пересохло, и во всём теле я чувствую возбуждение.\
 
-`"What---kind of dream......"@
-` was I watching?@
-` I can't believe it.@
-` Leaving at night, knocking a woman I don't know unconscious, and dragging her to an alley.\
+` - Что... за сон...
+` ... мне только что приснился?@
+` Не могу в это поверить.@
+` Уйти среди ночи, вырубить незнакомую женщину и притащить её в переулок.\
 
-` That's just plain wrong.@
-` Because it was in a dream, it is okay, but I'd have to be crazy to do that in reality.\
+` Это просто неправильно.@
+` Раз это был сон, то ладно, но я был бы сумасшедшим если бы стал делать такое в реальности.\
 
-` My panting fills the room.@
-` I have to catch my breath.@
-` Rubbing my eyes, I take a deep breath.@
-` ...... After that, I don't think I can go back to sleep.@
-` Turning on the light, I decide to read a book until morning.\
+` Моё тяёлое дыхание отдаётся в комнате.@
+` Надо отдышаться.@
+` Потирая глаза, я делаю глубокий вдох...@
+` После такого я вряд ли снова засну.@
+` Я решаю включить свет и почитать до утра.\
 
 monocro #ff00ff
 
@@ -277,7 +277,7 @@ br
 br
 br
 br
-` My eyes, gradually,\
+` Мои глаза, постепенно,\
 
 monocro #0000ff
 
@@ -291,73 +291,73 @@ br
 br
 br
 br
-` get used to the dark.\
+` привыкают к темноте.\
 
 monocro off
 
 ; ???1(?)<???????(?)>
 bg "image\bg\bg_31b.jpg",%type_crossfade_fst
 
-`"-----------Wha......"@
-` I gasp.@
-` This isn't my room.@
-` A back alley.@
-` Knife in hand.@
-` In front of me,
-` lies an unconscious woman I don't know.\
+` - ||Что...@
+` У меня перехватывает дыхание.@
+` Это не моя комната.@
+` Переулок.@
+` В руке у меня нож.@
+` Передо мной,
+` лежит без сознания незнакомая женищна.\
 
 ;S.E."??"
 wave se0
 
-`"Ha-----------"@
-` What,
-` What am I doing?@
+` - Ха...@
+` Что,
+` Что я делаю?@
 br
-` Isn't this a dream?\
-` Isn't this what I dreamt before?\
-
-
-;S.E."??"
-wave se0
-
-`"----------"@
-` It has to be a dream.@
-` Because I've never even wanted to do such a thing before.@
-` Attacking some woman I don't know,
-` running my knife along the "lines" all over this supple body,
-` wanting to see the red, red blood coming from the chopped pieces, no way----no way?\
+` Разве это не сон?\
+` Разве это не сон который мне только что приснился?\
 
 
 ;S.E."??"
 wave se0
 
-` Yeah, there's no way I want to do it.@
-` But, for no reason---I'm thinking, that I have to do it.\
+` - ...@
+` Это должен быть сон.@
+` Потому что мни никогда даже не хотелось сделать ничего такого.@
+` Напасть на какую-то незнакомую женищну,
+` проводить ножом по «линиям», покрывающим это податливое тело,
+` хотеть увидеть красную, красную кровь, зоещущую из разрубленых кусков, такого не может быть — не может быть?\
+
+
+;S.E."??"
+wave se0
+
+` Да, не может быть чтобы я хотел такое сделать.@
+` Но, без всякой причины... я думаю, что должен сделать это.\
 
 
 ;S.E."??"
 wave se0
 
 br
-` Take her apart.@
+` Разделай её на куски.@
 ;S.E."??"
 wave se0
 
-` Take her apart.@
+` Разделай её на куски.@
 ;S.E."??"
 wave se0
-` Take her apart.@
+` Разделай её на куски.@
 ;S.E."??"
 wave se0
-` Take her apart.@
+` Разделай её на куски.@
 ;S.E."??"
 wave se0
 br
-` If I do that,
-` I can be released, and become something unable to be bound by anyone.@
+` Если я сделаю это,
+` то смогу освободиться, и стану тем, что уже никто не сможет заковать в цепи.@
 br
-` Come to think of it,
-` there was someone that said something like that before.\
+` Если подумать,
+` кто-то уже говорил мне что-то такое.\
 
 br
 br
@@ -366,58 +366,58 @@ br
 br
 br
 br
-` ---You're the same.@ You, like me, will end up as a killer, Tohno Shiki.\
-
-
-;S.E."??"
-wave se0
-
-`"............ up!"@
-br
-` ---Just admit it, killer.@
-`   Your inversion impulse is nothing more than what you wish for---
-br
-`"Shut...... up!"\
+`      «Ты такой же.@ Ты, как и я, станешь убийцей, Тоно Шики.»\
 
 
 ;S.E."??"
 wave se0
 
-` But, what is this?@
-` Just what is this?@
-` Why am I doing this?\
-` And even after realizing this, why am I still trying to press my knife against her neck?\
+` - …...кнись!@
+br
+`    «Просто признай это, убийца.@
+`   Твоя инверсия это лишь то, чего ты на самом деле хочешь...»
+br
+` - За...ткнись!\
 
 
 ;S.E."??"
 wave se0
 
-` If this isn't a dream, and if this is reality,
-` doesn't that mean I'm crazy, like I thought earlier?\
+` Но, что это?@
+` Что же это такое?@
+` Почему я это делаю?\
+` И даже осознав всё это, почему я продолжаю прижимать нож к её шее?\
 
 
 ;S.E."??"
 wave se0
 
-`"----Mm."@
-br
-` Her eyelids flutter.@
-` She starts to open her eyes.@
-` Before that,
-` I have to chop her apart, or I---\
+` Если это не сон, и если это реальность,
+` не означает ли это что я сумасшедший, как я подумал раньше?\
 
-`"Ah."@
+
+;S.E."??"
+wave se0
+
+` - Мм...@
 br
-` My knife moves.@
-` But that's,
+` Её веки подрагивают.@
+` Она начинает открывать глаза.@
+` Прежде чем это случится,
+` Я должен разрубить её на куски или я—\
+
+` - А.@
 br
-`"...... Who are you?"@
-` I can hear her voice.@
-` She suddenly realizes the knife next to her throat.\
+` Мой нож приходит в движение.@
+` Но это,
+br
+` - Кто вы?..@
+` Я слышу её голос.@
+` Неожиданно она замечает нож у своего горла.\
 
 br
-`"Kya---"@
-`"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!"\
+` - Аааа!..@
+`  - ААААААААААААААААААААAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAАААААААААААААААААААААААААААААААААААААААА!!!\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -428,38 +428,38 @@ bg "image\bg\bg_25b.jpg",%type_lcartain_fst
 ;S.E."????(???)"
 waveloop se1
 
-` Her scream vanishes into my yelling.@
-` Yelling.@ Like a broken siren, I keep yelling as I run.\
+` Её крик исчезает в моём вопле.@
+` Вопль.@ Я бегу, завывая словно сломанная сирена.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
 ; ?(?)<?????(?)>
 bg "image\bg\bg_22c.jpg",%type_lcartain_fst
 
-` I breathe rapidly.@
-` My fingers shake.@
-` My mind has gone blank.@
-` But I manage to pull my knife back and run before I slice her.@
+` Я вдыхаю и выдыхаю с огромной частотой.@
+` Мои пальцы дрожат.@
+` Голова не работает.@
+` Но мне удалось убрать от неё нож и убежать прежде чем я изрубил её.@
 br
-` But, if she had screamed before me,
+` Но, если бы она закричала передо мной,
 br
-` I would have----\
+` Я бы...\
 
-`"Ha, ha, haha, hahahahaha.........!"@
+` - Ха, ха, хаха, хахахаха!..@
 br
-` Scary.@
-` That's scary.\
-` Scarier than any of the things that have happened until now.\
+` Страшно.@
+` Это страшно.\
+` Страшнее чем всё, что было до этого.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
 ; ????(??)<?????(?)>
 bg "image\bg\bg_32d.jpg",%type_lcartain_fst
 
-` Half-laughing, half-panting, I run.@
-` It's following me.@
-` It drapes over my back.@
-` No matter how much I run---I can't escape from my own fear.\
+` Полусмеясь, полузапыхаясь, и бегу.@
+` Он слежует за мной.@
+` Он нависает над моей спиной.@
+` Как бы я ни бежал... мне не сбежать от собственного страха.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_fst
@@ -468,40 +468,40 @@ bg "image\bg\bg_33d.jpg",%type_lcartain_mid
 ; ?????(??)<?????(?)>
 bg "image\bg\bg_40d.jpg",%type_lcartain_mid
 
-` *pant* *pant* *pant*
-` I fly into my room and try to lock the door.@
-` I clamor about, but I can't get it done.\
+` *хаа* *хаа* *хаа*
+` Я влетаю к себе в комнату и пытаюсь запереть дверь.@
+` Я лихорадчно вожусь с замком, но у меня не получается.\
 
-` My fingertips.@
-` My fingertips shake crazily.@ It's just sliding a simple metal piece, but I can't do it.\
+` Мои пальцы.@
+` Мои пальцы трясутся как сумасшедшие.@ Мне только и нужно что сдивнуть одну железку, но я не могу этого сделать.\
 
-` *pant* *pant* *pant*
-` I'm scared.@
-` If I don't lock the door quickly, it will come in.\
-` Some unknown thing will come in.\
+` *хаа* *хаа* *хаа*
+` Я боюсь.@
+` Если я быстро не закрою дверь, оно проникнет внутрь.\
+` Нечто неведомое проникнет внутрь\
 
-`"Gh............!"@
-` I have to, lock the door.@
-` I can't let it come in this room.\
-` I can't let it leave this room.\
+` - Гх!..@
+` Я должен, запереть дверь.@
+` Я не могу позволить ему проникнуть в эту комнату.\
+` Я не могу позволить ему покинуть эту комнату.\
 
-` But why?@
-` I don't know.@
-` I don't know, but I continue to try and lock the door wildly.\
+` Но почему?@
+` Я не знаю.@
+` Я не знаю, но я продолжаю лихорадочно пытаться запереть замок.\
 
 ;S.E.??
 wavestop
 
-` I try all night to lock the door.@
-` But no matter how long I try, I can't even lock the door.\
+` Всю ночь я пытаюсь запереть дверь.@
+` Но сколько бы я ни пытался, у меня не получается даже этого.\
 br
 br
 br
 br
 br
 br
-` That's when it hits me.@
-` I've been crazy all along.\
+` И тогда до меня доходит.@
+` Я был безумным с самого начала.\
 
 
 ; ???<???????(?)>
@@ -512,6 +512,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
 return
+
 
 
 </pre>
