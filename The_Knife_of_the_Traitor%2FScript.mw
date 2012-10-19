@@ -1536,7 +1536,7 @@ label base:
     hide oswrites with aaa    
     show vosmad at right with aaa
     hide vosblush with aaa
-    v"Потому что я хороший мальчик? Я не мальчик!"
+    v"Потому что я хороший малыш? Я не малыш!"
     show vostand at right with aaa
     hide vosmad with aaa
     v"Я считаю, что тот, кто достоин сомнений... {w}это Корвус."
@@ -1688,7 +1688,7 @@ label coroute1:
     c"Хех. Это ты у нас тут самый умный..."
     v"Подожди, что ты-"
     c"Уже поздно."
-    c"Ложись спать, мальчик."
+    c"Ложись спать, малыш."
     hide corstand with aaa
     v"Я не-"
     v"..."
@@ -1700,35 +1700,35 @@ label coroute1:
     o"..."
     c"А, мы немного поболтали."
     o"..." 
-    c"{color=#adc6ba}{i}What Vosges said may be partly true. I said that because I want to make you happy. My lady... why are you trying so hard to mend things?{/i}{/color}"
-    c"{color=#adc6ba}{i}It's as if... you're feeling guilty...{/i}{/color}"
+    c"{color=#adc6ba}{i}Слова Восгеза частично правдивы. Я сказал это, чтобы сделать вас счастливой. Моя госпожа... почему вы так страстно желаете все исправить?{/i}{/color}"
+    c"{color=#adc6ba}{i}Словно... вас гложет чувство вины...{/i}{/color}"
     o"...?"
-    c"Oh, I'm sorry. I was lost in my thoughts..."
+    c"Ох, прошу прощения. Я немного задумался..."
     jump cho4
     
 label cho4:   
-    c"Oh, right! I went to the balcony and that weirdo is still there!"
-    c"I asked him if he saw Gervase and he told me that he only saw a cute puppy peeing on his books."
-    c"Maybe Gervase can't see him?"
-    o"*shrugs*"
-    c"I don't think we'll get anything useful out of Lilja, but since there isn't anybody else to interrogate..."
-    o"*nods*"
+    c"Ах, точно! Я был на балконе, и этот странный тип все еще там!"
+    c"Я спросил, видел ли он Герваса, и он ответил, что видел лишь миленького щеночка, писающего на книги."
+    c"Возможно, Гервас не может увидеть его?"
+    o"*пожимает плечами*"
+    c"Не думаю, что мы добьемся чего-нибудь от Лилджи, но больше нам некого допрашивать..."
+    o"*кивает*"
     pause 1
-    gup2"...Wait!"
+    gup2"...Подожди!"
     window hide
     show ngerpup1 at right with aaa
-    cup"Gervase? What are you doing here?"
+    cup"Гервас? Что ты здесьделаешь?"
     show gerpup3 at right with aaa
     hide ngerpup1
-    gup2"Shut up, liar."
-    gup2"I just remembered... that you were with Os in that room! My mind's hazy on the details, but you were doing something weird to her!" 
-    gup2"You're the culprit!"
+    gup2"Захлопни клюв, обманщик."
+    gup2"Я только что вспомнил... что ты был с Оз в этой комнате! Более подробные детали все еще как в тумане, но ты делал с ней нечто странное!" 
+    gup2"Ты виновник!"
     cup"!!"
-    cup"Stop-"
-    r"Gervase tries to bite Corvus-"
+    cup"Остано-"
+    r"Гервас пытается укусить Корвуса-"
     $ ui.timer(1.0, ui.jumps("coroute2"))
     menu:
-         "Stop Gervase!":
+         "Остановаить Герваса!":
             jump geroute2
 
 label geroute2:
@@ -1737,15 +1737,15 @@ label geroute2:
     scene bg01a with aaa
     show gerpup5 at center with vpunch
     show ncorstand at right with aaa
-    g"Ahh!"
-    g"You bitch!"
-    g"Let go of me, goddamnit-"
-    c"My lady!"
-    g"Don't interfere, you-"
+    g"Ааа!"
+    g"Ты, дрянь!"
+    g"Отпусти меня, черт возьми-"
+    c"Моя госпожа!"
+    g"Не вмешивайся, ты-"
     hide ncorstand with flashbulb3
     $ renpy.play('punch1.mp3')
     with vpunch
-    c"Ngh!"
+    c"Нгх!"
     o"!!"
     hide gerpup5 with flashbulb3
     $ renpy.play('punch.wav')
@@ -1753,12 +1753,12 @@ label geroute2:
     show nosstand at left with aaa
     show gerpup3 at right with aaa
     pause 1
-    gup2"You're doing it again, Os. Even if I try to be loyal to you like the FUCKING DOG I am, you always betray my trust."
-    gup2"I hope you suffer for the rest of your life..."
+    gup2"Снова ты за свое, Оз. Даже когда я стараюсь быть верным как ГРЕБАНЫЙ ПЕС, коим я и являюсь, ты всегда предаешь мое доверие."
+    gup2"Надеюсь, ты будешь страдать весь остаток своей жизни..."
     o"..."
     hide gerpup3 with aaa
     pause 1
-    r"Corvus is on the floor unconscious."
+    r"Корвус на полу без сознания."
     o"..."
     show nosmad2 at left with aaa
     window hide dissolve
@@ -1771,42 +1771,42 @@ label coroute2:
     scene black with aaa
     $ renpy.play('punch3.mp3')
     with hpunch
-    c"Ngg-"
+    c"Нг-"
     scene bg01a with dissolve
     show nosstand at left with aaa
     show gerpup3 at center with aaa
     o"!!"
-    r"Corvus falls to the floor violently."
+    r"Корвус резко падает на пол."
     show nosmad2 at left with aaa
     show coroute1a with aaa
     pause 1
     hide coroute1a with aaa
     show gerpup4 at center with flashbulb2
     hide gerpup3
-    gup2"{color=#adc6ba}{i}Those eyes! She's going to beat me up-!{/i}{/color}"
-    gup2"Y-you will get what you deserve, Os. I came to warn you but you're just too stubborn to listen!"
+    gup2"{color=#adc6ba}{i}Этот взгляд! Она собирается побить меня-!{/i}{/color}"
+    gup2"Т-ты получишь то, что заслужила. Я пришел предупредить тебя, но ты слишком упрямая, чтобы слушать!"
     hide gerpup4 with dissolve
     hide nosmad2 with aaa
     o"..."
     pause 1
     window hide dissolve
     scene coroute1 with dissolve
-    csub"M-my lady...I'm..."
-    csub"...sorry..."
+    csub"М-моя госпожа...Простите..."
+    csub"...меня..."
     show bg01a with dissolve
     hide coroute1 with aaa
     show nosstand at center with aaa
     window show dissolve
-    r"Corvus passes out."
+    r"Корвус отрубается."
     o"..."
     pause 1
     show nosmad1 at center with aaa
     hide nosstand with aaa
-    o"I'm the one who is sorry, Corvus."
+    o"Это я должна извиниться, Корвус."
     scene black with dissolve
     
 label watch:
-    r"You decided to go to the balcony..."
+    r"Вы решили пойти на балкон..."
     scene black with dissolve
     $ renpy.play('foot1.wav')
     pause 3
@@ -1815,33 +1815,33 @@ label watch:
     show nosstand at left with aaa
     window show dissolve
     l"..."
-    l"We meet again, Lady Os."
+    l"Мы снова встретились, госпожа Оз."
     o"..."
-    l"May I ask you something?"
-    o"*nods*"
-    l"What... do you find interesting about being mortal?"
-    r"Os takes out her notebook and writes something."
+    l"Могу я спросить кое-что?"
+    o"*кивает*"
+    l"Что... вы находите интересного в жизни смертного?"
+    r"Оз достает блокнот и что-то пишет."
     show noswrites at left with aaa
     hide nosstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show nosstand at left with aaa
     hide noswrites with aaa
-    l"So you don't know."
-    l"That's great, because I don't care what you think."
+    l"Так ты не знаешь."
+    l"Это прекрасно, ведь мне плевать, что ты думаешь."
     o"..."
-    l"Life is too short. It's so short that I won't be able to fulfill even a single one of my dreams."
-    l"Life must really suck for mortals."
-    l"Every time I wake up, I remember I have one day less to live. It makes me think that no matter what I do, it's never going to make a difference."
-    l"Because in the end {w}I'm going to die."
-    l"And after death, there's nothing else. {w}No food, no books... no more me."
-    l"Can you imagine that? A world without this glorious being in it?" 
-    l"Life sure sucks for mortals."
-    r"Lilja is utterly depressed..."
+    l"Жизнь слишком коротка. Она настолько коротка, что мне не удастся реализовать ни единой мечты."
+    l"Наверное, для смертных жизнь действительно отстой."
+    l"Каждый раз, когда я просыпаюсь, то вспоминаю, что мне осталось жить на один день меньше. Это заставляет меня думать, что что бы я ни делал, разницы не будет никакой."
+    l"Потому что в конце концов {w}я умру."
+    l"А после смерти не останется ничего. {w}Ни еды, ни книг... ни меня самого."
+    l"Ты можешь это представить? Мир без чего-то столь прекрасного?" 
+    l"Жинь для смертных точно отстой."
+    r"Лилджа в глубокой депрессии..."
     menu:
-        "Cheer him up.":
+        "Взбодрить его.":
             jump lilroute1
             
-        "Do nothing.":
+        "Ничего не делать.":
             jump room2
             
 label lilroute1:
@@ -1853,15 +1853,15 @@ label lilroute1:
     show nlilstand at right with aaa
     show nosstand at left with aaa
     window show dissolve
-    l"So you're pitying me..."
-    l"That's what I get for acting this uncool..."
+    l"Теперь ты меня жалеешь..."
+    l"Это мне за то, что я веду себя так не круто..."
     show noswrites at left with aaa
     hide nosstand with aaa
-    o"*writes*"
+    o"*пишет*"
     show nosstand at left with aaa
     hide noswrites with aaa
-    l"Oh, no no no. Stop that."
-    l"I know you're faking."
+    l"О, нет нет нет. Прекрати."
+    l"Я знаю, что ты притворяешься."
     o"..."
     pause 1
     show nosmile1 at left with aaa
