@@ -1866,37 +1866,37 @@ label lilroute1:
     pause 1
     show nosmile1 at left with aaa
     hide nosstand with aaa
-    o"You knew?"
-    l"When I said I could see the curse, I wasn't lying."
-    l"But I only saw death surrounding the knife. That doesn't have anything to do with muteness or amnesia."
-    o"I see."
+    o"Ты знал?"
+    l"Я ведь не лгал, когда говорил, что прекрасно вижу проклятие."
+    l"Ну увидел лишь смерть, окружающую нож. Не имеющую ничего общего с амнезией или немотой."
+    o"Ясно."
     show nosstand at left with aaa
     hide nosmile1 with aaa
-    o"It's better this way. I couldn't fake it much longer anyway."
-    l"Why are you doing this?"
-    o"Because, as you said, the life of a mortal sucks."
-    o"There's nothing I could do to make a difference. Life is harsh and short."
-    o"It overwhelms you-"
-    l"Ah, stop it. I'm getting a headache-"
-    o"I'm sorry."
-    l"I think you should go. It's very late already."
-    o"Are you going to be fine?"
-    l"I think."
+    o"Тем лучше. Я все равно уже больше не могла играть эту роль."
+    l"Зачем ты это делаешь?"
+    o"Потому что, как ты и сказал, жизнь смертных - отстой."
+    o"Я никак не могла принести в нее разнообразие. Жизнь жестока и коротка."
+    o"Она разрушает тебя-"
+    l"Ах, остановись. У меня даже голова разболелась-"
+    o"Прости."
+    l"Думаю, тебе пора идти. Уже поздно."
+    o"Ты будешь в порядке?"
+    l"Думаю, да."
     scene black with aaa
-    l"After all, I'm a God. {w}Patron of the suicidals..."
+    l"Я ведь все-таки Бог. {w}Покровитель самоубийц..."
     scene bg01a with dissolve
     show nosstand at left with aaa
     jump room3
     
 label room2:
-    r"Os decides that it's better to leave him alone."
+    r"Оз решает, что лучше оставить его одного."
     scene black with dissolve
     scene bg01a with aaa
     
 label  room3:
     $ renpy.play('corsleep.ogg')
-    r"Corvus is still resting after the encounter with Gervase, and slowly, Os falls asleep too."
-    r"It's been a long day."
+    r"Корвус все еще отдыхает после стычки с Гервасом, и потихоньку Оз тоже впадает в сон."
+    r"Это был длинный день."
     $ renpy.play('osigh.ogg')
     scene black with dissolve
     pause 2
