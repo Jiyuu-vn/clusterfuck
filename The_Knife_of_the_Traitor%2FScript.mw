@@ -1643,54 +1643,54 @@ label coroute1:
     show osstand at left with aaa
     c"Что это презренный гриб сделал с вами?!"
     show cormad2 at left with aaa
-    v"I did nothing. What are you scheming, Os?"
+    v"Ничего я не сделал. Чего ты добиваешься, Оз?"
     hide cormad2 with aaa
     hide osstand with aaa
     show oswrites2 at left with aaa
-    o"*writes*"
+    o"*пишет*"
     hide oswrites2 with aaa
     show osstand at left with aaa
     show corstand2 at left with aaa
     show voswut at right with aaa
     hide vostand with aaa
-    v"What? Don't be ridiculous."
+    v"Что? Это же просто смешно."
     c"?"
     show vostand at right with aaa
     hide voswut with aaa
-    v"She's asking me to be your friend..."
-    c"My lady, why is that?"
+    v"Она просит меня стать твоим другом..."
+    c"Моя госпожа, зачем?"
     o"..."
-    c"But-"
-    v"You can't force people to do whatever you want. I don't hate Corvus like I hate you, but he's not the kind of person I'd like to hang with."
+    c"Но-"
+    v"Ты не можешь заставить других людей делать все, что тебе в голову взбредет. Я не испытываю к Корвусу такой же ненависти, как к тебе, но он далеко не тот человек, с которым мне хотелось бы общаться."
     hide corstand2 with aaa
     hide osstand with aaa
     show oswrites2 at left with aaa
-    o"*writes*"
+    o"*пишет*"
     hide oswrites2 with aaa
     show osstand at left with aaa
     show corstand2 at left with aaa
     show scene1 with dissolve
-    r"But both of you are good and kind."
+    r"Но вы оба хорошие мальчики."
     hide scene1 with aaa
     c"..."
     v"..."
-    c"Let me think about it, my lady. I think Vosges needs to rest now. Why don't we return to your room?"
-    o"*nods*"
+    c"Позвольте мне подумать над этим, моя госпожа. А сейчас, думаю, Восгезу нужно отдохнуть. Почему бы нам не вернуться в свою комнату?"
+    o"*кивает*"
     hide osstand with aaa
     hide corstand2 with aaa
     show corstand at left with aaa
-    v"Wait, Corvus."
-    c"What?"
-    v"Don't play tricks with me. I know you're just doing this to please her."
-    c"You don't trust my word? I may look like a bird, but I'm also a man. I said I would think about it, and so I will."
-    c"Also. Even though it may be hard to believe... I do not hate you, Vosges. What I hate is that special treatment you received from Lady Os."
-    v"What are you talking about?"
-    c"Hah. And you're supposed to be the smart one..."
-    v"Wait, what are you-"
-    c"It's late."
-    c"Go to sleep, kid."
+    v"Постой, Корвус."
+    c"Да?"
+    v"Не пытайся обмануть меня. Я знаю, что ты делаешь все это лишь только чтобы доставить ей удовольствие.."
+    c"Ты не веришь в мои слова? Я, может, и выгляжу как птица, но я такой же человек. Если я сказал, что подумаю над этим, значит так и сделаю."
+    c"И еще. Даже если в это и сложно поверить... Я не ненавижу тебя, Восгез. Что я ненавижу, так это особое отношение Госпожи Оз к тебе."
+    v"О чем ты?"
+    c"Хех. Это ты у нас тут самый умный..."
+    v"Подожди, что ты-"
+    c"Уже поздно."
+    c"Ложись спать, мальчик."
     hide corstand with aaa
-    v"I'm not a-"
+    v"Я не-"
     v"..."
     stop music fadeout 1.5
     scene black with dissolve
@@ -1698,7 +1698,7 @@ label coroute1:
     show nosstand at left with aaa
     show ncorstand at right with aaa
     o"..."
-    c"Ah, we had a little talk."
+    c"А, мы немного поболтали."
     o"..." 
     c"{color=#adc6ba}{i}What Vosges said may be partly true. I said that because I want to make you happy. My lady... why are you trying so hard to mend things?{/i}{/color}"
     c"{color=#adc6ba}{i}It's as if... you're feeling guilty...{/i}{/color}"
