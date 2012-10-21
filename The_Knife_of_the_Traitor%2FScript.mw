@@ -1904,73 +1904,73 @@ label  room3:
     show osstand at left with aaa
     show corstand at right with aaa
     pause 1
-    c"Lady Os..."
+    c"Госпожа Оз..."
     o"..."
-    c"I'm sorry about yesterday... G-Gervase wasn't lying. I should explain myself."
-    o"That's ok, Corvus. I'm all ears."
+    c"Простите за вчерашнее... Г-Гервас не лгал. Мне стоит объясниться."
+    o"Все в порядке, Корвус. Я тебя слушаю."
     hide corstand with aaa
     show corsur2 at right with aaa
-    c"M-my lady?! You can...?!"
-    o"Yes."
+    c"М-мой госпожа?! Вы можете...?!"
+    o"Да."
     hide corsur2 with aaa
     show corstand at right with aaa
-    c"Since?"
-    o"Since forever. I faked being mute for a while because I needed time..."
-    o"...time to figure out this mess of a situation..."
+    c"С какого момента?"
+    o"Всегда. Я притворялась, что не могу говорить, потому что мне нужно было время..."
+    o"...время, чтобы переварить всю эту путаницу..."
     pause 1
     hide osstand with aaa
     show osmad1 at left with aaa
-    o"I'm confused, Corvus."
+    o"Я сбита с толку, Корвус."
     play music"oscorvus_theme.ogg"
-    o"Why..."
-    o"Why I am still alive?"
+    o"Почему..."
+    o"Почему я все еще жива, Корвус?"
     c"..."
     hide corstand with aaa
     show corsad at right with aaa
-    r"Corvus has an incredibly sad face."
-    c"So you were faking your amnesia too?"
-    o"I'm sorry..."
+    r"У Корвуса очень грустное выражение лица."
+    c"Так и ваша амнезия была не настоящей?"
+    o"Прости..."
     show osstand at left with aaa
     hide osmad1
-    c"I can't believe it, my lady. You seemed so strong, so radiant..."
-    c"How could you intend to commit suicide like that? If something was making you unhappy, you could have told...{w}me."
+    c"Я не могу поверить, моя госпожа. Вы казались такой сильной,  такой сияющей..."
+    c"Как после всего вы могли попытаться совершить самоубийство? Если что-то печалило вас, вы могли бы рассказать......{w}мне."
     hide corsad with aaa
     show corstand at right with aaa
-    o"It didn't seem that way."
+    o"Все было не так."
     show osmad1 at left with aaa
     hide osstand with aaa
-    o"I felt like everything and everyone had turned against me. And I ended crashing myself against a wall."
-    o"It all started when my father's health decayed."
-    o"He shifted more and more responsibility to me until I ended up sitting on the throne."
-    o"Did you know, Corvus...? It felt like I was sitting on the rubble of my childhood."
-    o"The crown crushed my skull, and my mind inside it."
+    o"У меня было такое чувство, что все и вся были против меня. И закончилось все тем, что я пыталась разбить голову о стену."
+    o"А началось все с тех пор, как здоровье отца ухудшилось."
+    o"Он скидывал все больше и больше ответственности на меня, пока я не оказалась на троне."
+    o"Знал ли ты, Корвус...? Мне казалось, что я сидела на обломках своего детства."
+    o"Корона крошила мой череп, и разум внутри него."
     hide osmad1 with aaa
     show osmad3 at left with aaa
-    o"My chest collapsed inwards with every breath I took. But I had to keep on breathing. I had to give my best for my father, for Ulla."
-    o"So I did. I kept breathing. I kept moving. I burnt up all my feelings so I could blind everybody with my brightness."
-    o"Why is the sun so brilliant, Corvus? Because without hesitation, it eats itself up from the inside... and by doing so, reigns as the most majestic thing in the sky."
-    c"My lady..."
+    o"Моя грудь проваливалась с каждым вздохом. Но я должна была продолжать дышать. Я должна была отдать все свои силы ради отца, ради Уллы."
+    o"Так я и поступала. Продолжала дышать. Продолжала двигаться. Я сожгла все свои чувства, чтобы ослепить всех вокруг своим сиянием."
+    o"Почему Солнце такое яркое, Корвус? Потому что оно без сожалений поедает себя изнутри... и таким образом является самым величественным созданием в небе."
+    c"Моя госпожа..."
     hide osmad3 with aaa
     show osmad1 at left with aaa
-    o"I went on war after war, slaying sinners and innocents alike."
-    o"All those years of nothing but bones and guts, and below all of that... {w}me."
+    o"Я шла на войну за войной, убивая и грешников, и невинных."
+    o"Все эти годы ничего кроме костей и крови, и подо всем этим... {w}я."
     o"..."
-    o"I decided then..."
+    o"И тогда я решила..."
     hide corstand with aaa
     show corsad at right with aaa
-    c"Don't. Please, I don't want to hear anymore."
+    c"Нет. Прошу, я не хочу больше ничего слушать."
     o"..."
-    o"Are you going to explain yourself, Corvus?"
+    o"Так ты собираешься объясниться, Корвус?"
     hide corsad with aaa
     show corstand at right with aaa
-    c"...yes."
+    c"...да."
     pause 1
     show osstand at left with aaa
     hide osmad1 with aaa
-    c"When you disappeared on your 17th birthday, the palace descended into chaos."
-    c"I tore through the castle, searching for you..."
-    c"...until I thought of checking my room."
-    c"There I found a note which said that I had to go to the tower to get my reward. It also gave me the way to pass the barrier."
+    c"Когда в день семнадцатилетия вы исчезли, дворец обратился в хаос."
+    c"Я метался по нему в поисках вась..."
+    c"...пока не решил проверить свою комнату."
+    c"Там я нашел записку, в которой было сказано, чтобы я шел в башню и получил там свою наградуThere I found a note which said that I had to go to the tower to get my reward. It also gave me the way to pass the barrier."
     c"I thought you were planning something, but I couldn't figure out what."
     c"I didn't want to stir everybody up even more, so I didn't say anything and just left."
     c"Gervase was downstairs, so I flew through the window of the kitchen and went silently in search of you..."
