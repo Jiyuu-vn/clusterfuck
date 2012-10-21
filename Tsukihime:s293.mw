@@ -6,32 +6,32 @@
 ; ?? : ?? : ?????(?????)<????>
 bg "image\bg\bg_40f.jpg",%type_nowaitdisp
 
-` ...... The door opens.@
-` It's too late.@ Even if I send her away, she's already come inside.@
+ Дверь отворяется...@
+` Уже поздно.@ Даже если бы я её прогонял, она уже вошла в комнату.@
 br
-` ----But still.@
-` I can't do the action called eating food.@
-` It will get me too excited, and it will smash the remaining "Tohno Shiki" within me to pieces.\
+``      Но всё равно.@
+` Я не могу совершать действие под названием «есть еду».@
+` Это слишком меня взбодрит, и это разобьёт на куски всё, что осталось от «Тоно Шики» внутри меня.\
 
-` ...... *pant*...... *pant*...... *pant*......
+` ...... *хаа*...... *хаа*...... *хаа*......
 br
-` I breathe hard.@
-` Somehow.@
-` I have to resist it.\
+` Я тяжело дышу.@
+` Как-нибудь.@
+` Я должен сдержаться.\
 
 ; ??<?>=??:?02(????)<??????(?)>
 ld c,":a;image\tachi\koha_t02b.jpg",%type_lshutter_mid
 
-`"Shiki-san, I'm coming in...... wh, what happened?"@
-` Still smiling, she looks in surprise at the room lying in shambles.\
+` - Шики-сан, я вхожу... чт, что произошло?@
+` Продолжая улыбаться, она удивлённо оглядывает беспорядок в комнате.\
 
-` ...... *pant*...... *pant*...... *pant*......
+` ...... *хаа*...... *хаа*...... *хаа*......
 br
-` Her cute face devoid of fear.@
-` Her completely unguarded, defenseless figure.@ Her red hair----and her delicious looking skin.\
+` Её симпатичное лицо, на котором не видно ни следа испуга.@
+` Её полностью беззащитная, беспечная фигура.@ Её рыжие волосы — и её великолепная кожа.\
 
-`"Shiki-san......?@ This is strange, how did all of this happen?"@
-` Still smiling, she draws closer to where I lie curled on the bed.@
+` - Шики-сан?..@ Странно, как так получилось?@
+` Всё ещё улыбаясь она подходит ближе к тому месту, где я свернувшись в комок лежу на кровати.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 \
@@ -41,123 +41,123 @@ bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
-` -----------------Hurry.@
+` -----------------Скорее.@
 ;S.E."??"
 wave se0
 
-` No.@
-` --------------Hurry.@
+` Нет.@
+` --------------Скорее.@
 ;S.E."??"
 wave se0
 
-`    No.@
-` -----------Hurry.@
+`   Нет.@
+` -----------Скорее.@
 ;S.E."??"
 wave se0
 
-`       Stop it.@
-` --------Hurry.@
+`       Перестань.@
+` --------Скорее.@
 ;S.E."??"
 wave se0
 
-`         Shut up.@
-` ------Hurry.@
+`         Заткнись.@
+` ------Скорее.@
 ;S.E."??"
 wave se0
 
-`            I don't want to.@
-` --Hurry.@
+`            Я не хочу.@
+` --Скорее.@
 ;S.E."??"
 wave se0
 
-`               I.\
+`               Я.\
+
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
-`"Run---away."@
-` Using the very last vestiges of my will, I manage to let those words out.\
+` - Беги...@
+` Собрав последние остатки воли, мне удаётся произнести эти слова.\
 
 ; ??<?>=??:?02(????)<???????(?)>
 ld c,":a;image\tachi\koha_t02b.jpg",%type_crossfade_fst
 
-`"Eh?@ I'm sorry, I couldn't hear you, could you please say it again, Shiki-san?"@
-` But it's working against me.@
-` Concerned, she draws closer to my bed.@
-` To my/TO MY,
+` - Э?@ Шики-сан, прости, я не расслышала, ты не мог бы повторить?@
+` Но это сыграло против меня.@
+` Забеспокоившись, она подходит ближе к кровати.@
+` К моёму/К МОЕМУ,
 !w1000
 
-` body/BODY,
+` телу/ТЕЛУ,
 !w1000
-` her face/HER FORM,
+` её лицо/ЕЁ ТЕЛО,
 !w1000
-` draws closer/INVITES ME
+` приближается/ПРИЗЫВАЕТ,
 !w1000
-` in.\
+` меня.\
 
 ;S.E."????(???)"
 waveloop se1
 
-` Her white fingers touch my shoulder lightly.@
-` Her fingers pulsing with blood.@
-` Her light body warmth.@
-` Small fireworks explode in the back of my head.\
+`  Её белые пальцы легонько прикасаются к моему плечу.@
+` Её пальцы, пульсирующие от крови.@
+` Тепло её тела.@
+` В моём затылке взрывается маленький фейрверк.\
 
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_mid
 
 
-`"Kya----!"@
-` I hear a scream.@
-` My hand wraps around her throat.\
+` - Аа!..@
+` Я слышу крик.@
+` Моя рука хватает её за горло.\
 
-`"Hwa---ha, a, h----"@
-` My breathing is out of control.@
-` What.@ am I.@ Trying.@ To do?\
+` - Хва... ха, а, х...@
+` Моё дыхание выходит из-под контроля.@
+` Что.@ Я.@ Пытаюсь.@ Сделать?\
 
-`"Shi...... ki, sa---"@
-` Her voice cuts off.@
-` Not caring, I grip harder.@
-` Grip.@
-` The bones in her neck creak.\
+` - Шик...ки, са—@
+` Её голос обрывается.@
+` Мне всё равно, и я сжимаю её крепче.@
+` До треска.@
+` Кости в её шее начинают скрепеть.\
 
-`"St, o---!"@
-` A small tearing sound.@
-` Her fingers dig into my arm.@
+` - Пе, ре—!@
+` Что-то негромко разорвалось.@
+` Её пальцы вонзились мне в руку.@
 ; ????(??????)<???????(?)>
 bg "image\bg\ima_13.jpg",%type_crossfade_mid
 
+` Она должно быть запаниковала, оказавшись на пороге смерти.@
+` Её ногти расцарапали мне руку сквозь одежду.\
 
-` She must be getting frantic, being on the verge of death like that.@
-` Her nails push through my clothes and into the meat of my arm.\
+` - А...тч.@
+` Больно.@
+` Ну, не так больно как Кохаку.@
+` Но кровь течёт.@
+` Стекает вниз по руке, к пальцам, сжимающим шею Кохаку.\
 
-`"A----ch."@
-` Pain.@
-` Well, not as much pain as Kohaku must be feeling.@
-` But blood flows.@
-` It runs down from my arm and onto my hand grasping Kohaku's neck.\
+` - Ха...ха.@
+` Кроваво-красная.@
+` Её неподатливая шея теперь красная от крови.@
+` Я уже даже не чувствую её.@
+` Только что она умрёт через несколько секунд...\
 
-`"Ha----ha."@
-` Painted deep red.@
-` Her unresisting neck is now running with blood.@
-` I can't really feel her anymore.@
-` Just the fact that she'll die in a few seconds,\
+` - Хаха...ха.@
+` Мне это кажется забавным, и меня разбирает смех.@ Не прошло и минуты с тех пор как я схватил её за шею.@
+` Он умрёт не от удушья.@
+` А от моей руки.\
 
-`"Haha-----ha."@
-` Seems so funny to me, I start to laugh.@ It hasn't even been a minute since I grasped her neck.@
-` She won't die of suffocation.@
-` But here, by my hand.\
+` - Ха, хаа, ха.@
+` Без всякой причины, без предисловий.\
 
-`"Ha, haa, ha."@
-` For no reason, suddenly.\
+` - Хахаха, ха... ха, ха, ха.@
+` Всё равно что сжать пальцы.\
 
-`"Hahaha, ha---ha, ha, ha."@
-` Like a simple appliance.\
-
-`"Ahahahahahahahahahahahaha!"@
-` She'll die by having the bones in her neck break.\
+` - Ахахахахахахахаха!@
+` Она умрёт потому что у неё сломается шея.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
@@ -167,48 +167,49 @@ bg "image\bg\bg_40c.jpg",%type_crossfade_mid
 ;S.E.??
 wavestop
 
-` In an instant,
-` like being freed from demonic possession, the heat disappears.@
+` В один миг,
+` словно вселившийся меня демон решил меня отпустить, жар исчезает.@
 br
-` Before my eyes is the bloodied body of Kohaku-san.@
-` My hand is grasping her neck and any second now----
+` Передо мной окровалвенное тело Кохаку-сан.@
+` Моя рука сжимает её шею и в любой момент...
 br
-`"------!"@
-` I quickly let go.\
+` - !@
+` Я быстро отпускаю.\
 
-` Without a sound,
+` Не издав ни одного звука,
 br
-` Kohaku-san falls to the floor.\
+` Кохаку-сан падает на пол.\
 
-`"Uu...... ha, ----"@
-` Kohaku-san breathes painfully with her eyes closed.@ "Kohaku----san."@
-` ...... She's alive.@
-` Just a little longer.@ If I kept going just a little longer, I would have----\
+` - Уу... ха,    @
+` Закрыв глаза, Кохаку-сан тяжело дышит.@ 
+` - Кохаку...сан.@
+` Она жива...@
+` Ещё немного.@ Если бы я продолжил делать это ещё хоть немного, я бы...\
 
-`"Uu......, u, u........."@
-` ...... She's crying.@
-` Collapsed on the floor, not able to move, she's crying.@
-` Looking down.@
-` Her kimono is covered with white fluid.@
+` - Уу..., у, у...@
+` Она плачет.@
+` Лёжа на полу, не в силах пошевелиться, она плачет.@
+` Я опускаю глаза.@
+` Её кимоно заляпано белой жидкостью.@
 br
-` That, is my semen.@
-` I----by doing that, was released from whatever it was inside me?\
+` Это, моё семя.@
+` Я... сделав это, освободился от того что было внутри меня?\
 
-`"-----Ha."@
-` I can't believe it.@
-` While one hand was choking Kohaku-san, my other hand----was reveling in the pleasure of killing something?@
+` - Ха.@
+` Не могу поверить.@
+` Пока одна рука душила Кохаку-сан, другая рука... упивалась удовольствием от убийства?@
 br
-` ----Thump.@
+`        Пум.@
 br
-` It, isn't over.\
-` I'm still fully erect, and more than that, I am not satisfied myself.\
+` Это, ещё не конец.\
+` Мой член всё ещё стоит, и более того, я сам ещё не удовлетворён.\
 
-` I'm so thirsty.@
-` I've---done such a terrible thing to Kohaku-san, but it doesn't seem to end.@
-` The truth is, my regret is fading even now as I look at Kohaku-san's neck.@
+` Я так хочу пить.@
+` Я... сделал такую ужасную вещь с Кохаку-сан, но похоже этому ещё не пришёл конец.@
+` На самом деле, даже сейчас, когда я смотрю на шею Кохаку-сан, моё сожаление затухает.@
 br
-` Her white neck.@
-` Put my teeth at her throat and.\
+` Её белая шея.@
+` Прикоснись зубами к её горлу и.\
 
 br
 br
@@ -217,33 +218,33 @@ br
 br
 br
 br
-` -----I want, to suck, her blood.\
+`        Я хочу, выпить, её крови.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_fst
 ; ?????(?)<???????(?)>
 bg "image\bg\bg_40c.jpg",%type_crossfade_fst
 
-`"----Haha."@
-` I broke apart.@
+` - Хаха...@
+` Я сломался.@
 br
-`"Aha, ahaha."@
-` I really broke down.@
+` - Аха, ахаха.@
+` Я правда сломался.@
 br
-` I'm done.@
-` No longer---do I have the confidence to stay sane.\
+` Мне конец.@
+` Я больше... не могу быть уверен что не сошёл с ума.\
 
-`"Ahaha, hahaha, ha."@
-` Outside.@
-` I have to go outside.@
-` If I stay here, I'll kill Kohaku-san.@
-` If I stay in the mansion.@ I'll kill even Akiha and Hisui.@
-` So before those urges come again, I have to disappear.\
+` - Почему...@
+` Из поместья.@
+` Я должен уйти из поместья.@
+` Если я останусь здесь, я убью Кохаку-сан.@
+` Если я останусь в поместье, я убью даже Акиху и Хисуи.@
+` И поэтому, прежде чем эти порывы придут снова, я должен исчезнуть.\
 
-`"Ahahahahahaha!"@
+` - Ахахахахаха!@
 br
-` A place where no one is.@
-` I have to go to a place where no one is or I'll go crazy again----\
+` Место, где никого нет.@
+` Я должен отправиться туда, где никого нет, иначе я снова сойду с ума...\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
@@ -252,6 +253,7 @@ bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
 return
+
 
 
 </pre>
