@@ -1970,135 +1970,135 @@ label  room3:
     c"Когда в день семнадцатилетия вы исчезли, дворец обратился в хаос."
     c"Я метался по нему в поисках вась..."
     c"...пока не решил проверить свою комнату."
-    c"Там я нашел записку, в которой было сказано, чтобы я шел в башню и получил там свою наградуThere I found a note which said that I had to go to the tower to get my reward. It also gave me the way to pass the barrier."
-    c"I thought you were planning something, but I couldn't figure out what."
-    c"I didn't want to stir everybody up even more, so I didn't say anything and just left."
-    c"Gervase was downstairs, so I flew through the window of the kitchen and went silently in search of you..."
-    c"Finally, I found you on the third floor... {w}just to see you stabbing yourself with a knife."
+    c"Там я нашел записку, в которой было сказано, чтобы я шел в башню и получил там свою награду. Там же был пропуск через барьер."
+    c"Я понял, что вы что-то задумали, но терялся в догадках, что именно."
+    c"Я не хотел звать кого-то еще5 поэтому никому ничего не сказл и просто ушел."
+    c"Внизу был Гервас, поэтому я влетел через окно кухни и стал тихо искать вас..."
+    c"Наконец, я нашел вас на третьем этаже... {w}как раз в тот момент, когда вы пронзили ножом свою шею."
     show osmad1 at left with aaa
     hide osstand with aaa
     hide corstand with aaa
     show corsad at right with aaa
-    c"By the time I reached your side, you were staring at the ceiling. Dead."
-    c"Lady Os, you are going to hate me for what I've done..."
-    c"But before I confess, I just wanted to say..."
-    c"I do not regret what I did. And I never will."
+    c"К тому момент, как я приблизился к вам, ваши глаза уставились в потолок. Мертвые."
+    c"Госпожа Оз, вы возненавидете меня за то5 что я сделал..."
+    c"Но прежде, чем я сознаюсь, позвольте сказать..."
+    c"Я не жалею о том, что сделал. И никогда не пожалею."
     show osstand at left with aaa
     hide osmad1 with aaa
-    o"I can't judge what I don't know, so speak."
-    c"Very well."
+    o"Я не могу судить о том, чего не знаю, так что говори."
+    c"Хорошо."
     hide corsad with aaa
     show corstand at right with aaa
-    c"Do you know what a pillar is?"
-    o"It's a kind of chant."
-    c"Yes, it is. It's a very powerful chant, capable of bringing even the dead back to life. But it has its cost."
-    c"That day I invoked a pillar to resurrect you. In exchange, I needed to take years off the life of others."
-    c"In other words, you are alive because you have one year of life of each person who was in the tower at that moment."
+    c"Вы знаете5 что это за pillar?"
+    o"Это что-то вроде молитвы."
+    c"Верно. Это молитва достаточно сильная, даже чтобы вернуть мертвого с того света. Но на все есть своя цена."
+    c"В тот день я молил pillar воскресить вас. Взамен мне нужно было забрать годы жизни у остальных."
+    c"Другими словами, вы живы благодаря тому, что я отнял по году жизни у тех, кто был в башне в тот момент."
     hide corstand with aaa
     show corsad at right with aaa
-    c"For four years, we have been dead, accompanying you till you could wake up. And it worked! As soon as I saw you alive again,{w} I... {w}I..."
-    c"When you said you had amnesia, I thought that it was for the best... that you didn't remember the sorrow that drove you to this..."
-    c"So I pretended that I didn't know what happened."
+    c"Четыре года мы были мертвы, сопровождая вас пока вы не очнетесь. И оно сработало! Как только я вновь увидел вас живой,{w} я... {w}я..."
+    c"Когда вы сказали, что у вас амнезия, я подумал, что это к лучшему... что вы не вспомните ту тоску, что заставила вас сделать это..."
+    c"И я притворился, будто не ведаю, что произошло."
     show osmad2 at left with aaa
     hide osstand with aaa
-    o"How could you?! You didn't gave a damn about what I wanted or about the others in the tower?"
+    o"Как ты мог?! Тебе было наплевать на то, что хотела я или кто бы то ни было еще в башне?"
     c"..."
     hide corsad with aaa
     show corstand at right with aaa
-    c"No. I didnt care."
-    o"Why?"
-    c"I-"
-    c"I'm an egotist. And I do not expect you or the others here to forgive me."
+    c"Да. Мне было плевать."
+    o"Почему?"
+    c"Я-"
+    c"Я эгоист. И я не жду, что вы или остальные простите меня."
     hide osmad2 with aaa
     show osmad3 at left with aaa
-    o"Corvus. I wanted to die. Couldn't you see that?"
-    c"I did. But I wonder... why were you being nice to the others in the tower?"
+    o"Корвус. Я хотела умереть. Разве ты не видел этого?"
+    c"Видел. Но я хочу знать... почему вы так милы со всеми в башне?"
     hide osmad3 with aaa
     show osstand at left with aaa
-    c"Did you enjoy it?"
+    c"Вам понравилось быть такой?"
     show oswut at left with aaa
     o"!"
     hide oswut with aaa
     hide osstand with aaa
     show osmad3 at left with aaa
-    o"I just felt... so much guilt."
+    o"Я прочувствовала... столько вины."
     show osmad1 at left with aaa
     hide osmad3 with aaa
-    o"But they wouldn't stop hating me anyway. I've messed up their lives too much to be forgiven."
-    c"Lady Os, why don't you see this as a second chance? Death won't bring you happiness, but what about this change of heart?"
+    o"Но они все равно не прератят ненавидеть меня. Я разрушила их жизни и мне нет прощения."
+    c"Госпожа Оз, почему бы не воспринять это как вророй шанс? Смерть не принесет счастья, но как насчет изменений в самом сердце?"
     show osstand at left with aaa
     hide osmad1 with aaa
-    o"That's impossible."
-    c"It doesn't have to be."
+    o"Это невозможно"
+    c"Не обязательно."
     pause 1
     hide corstand with aaa
     show cormad at right with aaa
-    c"Damn it, Os, it's not every day you come back to life."
-    o"Corvus..."
-    o"Don't you hate me too?"
+    c"Черт возьми, Оз, не каждый день возвращаешься к жизни."
+    o"Корвус..."
+    o"Ты тоже ненавидешь меня?"
     hide  cormad with aaa
     show corstand at right with aaa
-    c"Eh? Why would I-"
+    c"Э? С чего бы мне-"
     show osmad1 at left with aaa
     hide osstand with aaa
-    o"Because my father killed your family."
+    o"Потому что мой отец убил всю твою семью."
     hide corstand with aaa
     show corsad at right with aaa
     c"..."
-    o"He made you my servant, when you were the heir of Ter, a magnificent country as powerful as Ulla."
-    o"And my father destroyed it. Everything and everyone you loved. Just like I did to Vosges."
-    o"I don't understand. Why don't you hate me?"
+    o"Он сделал тебя своим рабом, в то время, как ты был наследником Теры, прекрасной страны и могущественной, подобно Улле."
+    o"И мой отец уничтожил ее. Все и всех, кого ты любил. Так же, как я поступила с Восгезом."
+    o"Я не понимаю. Почему ты не испытываешь ко мне ненависти?"
     hide corsad with aaa
     show corstand at right with aaa
-    c"Do you want me to?"
+    c"А вы этого хотите?"
     show osstand at left with aaa
     hide osmad1 with aaa
-    o"...no."
-    c"Then why are you asking me that question?"
-    c"Promise me that you will give this a thought."
-    o"Fine."
-    c"I'll leave you alone then. I should visit Lilja and Vosges to confess my sin... Gervase must still be mad at me."
+    o"...нет."
+    c"Тогда почему задаете подобный вопрос?"
+    c"Пообещайте мне, что подумаете над этим."
+    o"Ладно."
+    c"Тогда я оставлю вас одну. Мне следует навестить Лилджа и Восгеза, чтобы сознаться в своем грехе... Гервас, должно быть, все еще зол на меня."
     o"..."
     stop music fadeout 1.5
     show osooo at left with aaa
-    o"Corvus...!"
-    c"Hmm?"
+    o"Корвус...!"
+    c"Ммм?"
     menu:
-        "Forgive him.":
+        "Простить его.":
           jump coroute3
-        "Say nothing.":
+        "Ничего не сказать.":
             jump lilroute2
     
     
 label coroute3:
     $ corvus += 1
     $ vosges -= 2
-    o"I...I can't speak for everyone, but-"
+    o"Я...я не могу говорить за всех, но-"
     hide osooo with aaa
-    o"I forgive you, for what have you done."
+    o"Я прощаю тебя за то, что ты сделал."
     c"..."
-    c"I don't deserve it."
-    o"Of course not."
-    c"Ehh?"
+    c"Я не достоин этого."
+    o"Конечно не достоин."
+    c"Ааа?"
     hide osstand with aaa
     show oshe at left with aaa
-    o"I was joking. Ahaha... ha..."
-    r"Silence."
+    o"Шучу. Ахаха... ха..."
+    r"Тишина."
     pause 1
     hide oshe with aaa
     show osmile1 at left with aaa
-    o"Thank you, Corvus."
+    o"Спасибо тебе, Корвус."
     hide corstand with aaa
     show corblush2 at right with aaa
-    c"{color=#adc6ba}{i}I... I... I don't know what to say...{/i}{/color}"
-    c"I-it's nothing!"
+    c"{color=#adc6ba}{i}Я... Я... Я не знаю, что сказать...{/i}{/color}"
+    c"Д-да не за что!"
     hide corblush2 with aaa
-    r"Corvus leaves the room, his face red."
+    r"Корвус покидает комнату с покрасневшим лицом."
     scene black with dissolve
-    c"...Mother, Father..."
-    c"Please forgive me."
-    c"I'm a pathetic son after all."
-    c"...I may really have fallen in love with her."
+    c"...Мать, отец..."
+    c"Прошу, простите меня."
+    c"В конце концов я просто жалкий сын."
+    c"...Кажется, я действительно влюблен в нее."
     pause 1
     jump end
         
@@ -2107,43 +2107,43 @@ label lilroute2:
     hide osooo with aaa
     o"..."
     c"..."
-    c"Think about it, please."
+    c"Подумайте над этим, прошу."
     hide corstand with aaa
-    r"Corvus leaves the room with a sad face."
+    r"Корвус покидает комнату с грустным выражением лица."
     show osmad1 at left with aaa
     hide osstand with aaa
     o"..."
     pause 1
-    l"So that's why... I became mortal."
+    l"Так вот почему... я стал смертным."
     show lilstand at right with aaa
-    o"Were you listening, Lilja?"
-    l"I couldn't help it."
-    l"So, it was that bird's fault, huh?"
-    o"It was all because of me."
-    o"I didn't want to get you involved... I'm sorry..."
-    l"Your apology is as strong as a mosquito bite."
+    o"Ты подслушивал, Лилджа?"
+    l"Непроизвольно."
+    l"Значит, во всем виновата эта пташка, да?"
+    o"Во всем виновата я."
+    o"Я не хотела вовлекать тебя в это... мне жаль..."
+    l"От твоих извинений ни холодно, ни жарко."
     show osstand at left with aaa
     hide osmad1 with aaa
-    l"It {i}is{/i} mostly your fault, you know? You should've just killed yourself quickly instead of praying to me for strength."
-    l"I had no choice but to come and bless you so you could succeed."
-    l"In the end, I'm paying the price for being a good patron."
-    l"I should have listened to my colleagues. Honest work doesnt suit a God."
+    l"Это {i}действительно{/i} по большей части твоя вина, ты это понимаешь? Ты не должна была по быстрому убивать себя, вместо того чтобы молить меня даровать тебе сил."
+    l"У меня было выбора, кроме как спуститься на землю и дать тебе благословение на успех."
+    l"И в конце концов я поплатился за то, что был покровителем на совесть."
+    l"Мне следовало послушать своих коллег. Честная работа не подходит Богу."
     o"..."
-    l"Make yourself responsible for this mess!"
-    o"How?"
-    l"Give me my year of life back and I should at least be able to return to heaven."
+    l"Прими ответственность за весь этот беспорядок!"
+    o"Как?"
+    l"Верни мне мои годы жизни, чтобы я хотя бы смог вернуться на небо."
     show osmad1 at left with aaa
-    o"That's fine with me."
-    l"Really?"
+    o"С радостью."
+    l"Правда?"
     menu: 
-        "Yeah, I don't care anymore.":
+        "Да, мне теперь все равно.":
            jump sad
-        "Actually... I can't.":
+        "Честно говоря... я не могу.":
             jump lilroute3
             
 label sad:
     $ lilja -= 4
-    o"I don't care. Take all the years that you want."
+    o"Мне все равно. Take all the years that you want."
     l"..."
     l"What a boring mortal you are."
     l"Why don't you run through the window and kill yourself already."
