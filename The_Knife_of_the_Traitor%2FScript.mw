@@ -2143,10 +2143,10 @@ label lilroute2:
             
 label sad:
     $ lilja -= 4
-    o"Мне все равно. Take all the years that you want."
+    o"Мне все равно. Забирай все, что хочешь."
     l"..."
-    l"What a boring mortal you are."
-    l"Why don't you run through the window and kill yourself already."
+    l"Какая же ты скучная смертная."
+    l"Почему бы тебе уже не убиться, выпрыгнув из окна."
     hide lilstand with aaa
     o"..."
     scene black with dissolve
@@ -2157,8 +2157,8 @@ label lilroute3:
     $ lilja += 1
     show osstand at left with aaa
     hide osmad1 with aaa
-    o"No. I don't want to."
-    l"And why is that?"
+    o"Нет. Я не хочу."
+    l"И почему же?"
     o"Because life is short, and if I'm going to die, I want to enjoy every year I have."
     l"..."
     l"What a boring mortal you are."
