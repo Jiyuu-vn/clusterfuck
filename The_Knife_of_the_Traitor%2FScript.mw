@@ -2146,7 +2146,7 @@ label sad:
     o"Мне все равно. Забирай все, что хочешь."
     l"..."
     l"Какая же ты скучная смертная."
-    l"Почему бы тебе уже не убиться, выпрыгнув из окна."
+    l"Почему бы тебе уже не покончить с жизнью, выпрыгнув из окна."
     hide lilstand with aaa
     o"..."
     scene black with dissolve
@@ -2159,45 +2159,45 @@ label lilroute3:
     hide osmad1 with aaa
     o"Нет. Я не хочу."
     l"И почему же?"
-    o"Because life is short, and if I'm going to die, I want to enjoy every year I have."
+    o"Потому что жизнь коротка, и если уж я должна умереть, то сначала я собираюсь насладиться каждым годом, что есть у меня."
     l"..."
-    l"What a boring mortal you are."
+    l"Какая же ты скучная смертная."
     show osmad2 at left with aaa
     hide osstand with aaa
-    l"Why don't you run through the window and kill yourself already."
-    o"Why don't you kill yourself instead."
-    o"All you do is complain about being a suckish mortal."
+    l"Почему бы тебе уже не покончить с жизнью, выпрыгнув из окна."
+    o"Почему бы тебе не выброситься самому."
+    o"Вс е, что ты желаешь, это жалуешься на то, как отстойно быть смертным."
     show lilsmile at right with aaa
     hide lilstand with aaa
-    l"HAHAHAHAAAHHAHA! I like that!"
+    l"ХАХАХАХАХАХАХАХА! Мне это нравится!"
     show lilstand at right with aaa
     hide lilsmile with aaa
     hide osmad2 with aaa
     show osstand at left with aaa
     show oswut at left with aaa
-    o"Eh?"
-    l"I'm sick of being the patron of the suicidals. Having to help people kill themselves is so depressing."
-    l"But you're different. I like your guts."
-    l"I bet they're tasty."
+    o"А?"
+    l"Меня достало быть покровителем самоубийц. Помогать людям убивать себя там угнетает."
+    l"Но ты другая. Мне нравится твоя сила воли."
+    l"Готов поспорить, ты очень вкусная."
     hide oswut with aaa
-    o"You're weird."
-    l"You and your birdy made me like that. I used to be totally normal."
-    o"There must be a way... to return you to heaven."
-    l"I certainly hope so."
-    l"Well. I have to go clean my books now. They smell like piss."
+    o"Ты стремный."
+    l"Ты и твоя пташка сделали меня таким. А был я абсолютно нормальным."
+    o"Должен быть способ... вернуться на небо."
+    l"Я на это очень надеюсь."
+    l"Что ж. Мне нужно пойти, вытереть пыль со своих книг. Они воняют мочой."
     show osmile2 at left with aaa
     hide osstand with aaa
-    o"*snicker*"
-    l"By the way, Lady Os..."
+    o"*посмеивается*"
+    l"Кстати, госпожа Оз..."
     show osmile1 at left with aaa
     hide osmile2 with aaa
-    o"Hmm?"
-    l"You have a lovely voice."
+    o"Ммм?"
+    l"У тебя прелестный голос."
     show oswut at left with aaa
-    o"...eh?"
+    o"...а?"
     show lilsmile at right with aaa
     hide lilstand with aaa
-    l"AHAHAHAHAHAHHAA."
+    l"АХАХАХАХАХАХАХА."
     show osstand at left with aaa
     o"..."
     scene black with dissolve
@@ -2207,41 +2207,41 @@ label lilroute3:
 label end:
     scene black with dissolve
     play music"oscorvus_theme.ogg"
-    r"The sun floats to the top of the sky. Os is immersed in her thoughts."
+    r"Солнце плывет к зениту. Оз погружена в свои мысли."
     pause 2
     scene bg01 with dissolve
     show osstand at left with aaa
-    c"My lady, I found some juicy cockroaches for you!"
+    c"Моя госпожа, я нашел для вас немного сочных тараканов!"
     show corstand at right with aaa
-    o"Corvus."
-    c"Y-yes?"
-    o"I've lifted the barrier."
-    c"That means that..."
+    o"Корвус."
+    c"Д-да?"
+    o"Я сняла барьер."
+    c"Это значит..."
     show osmile1 at left with aaa
     hide osstand with aaa
-    o"We're leaving this place. All of us will finally be free." 
+    o"Мы уходим. Мы все наконец-то свободны." 
     show osstand at left with aaa
     hide osmile1 with aaa
-    o"You're right, Corvus. Dying won't solve anything."
-    o"I'll pull this knife out and lift the curse I placed on myself."
-    o"From now on, I'm going to give everything I have left, and see what happens."
+    o"Ты прав, Корвус. Смерть ничего не решает."
+    o"Я вытащу этот нож и сниму проклятье, что наложила на себя сама."
+    o"С этого момента я собираюсь взяться за все, что бросила, и посмотреть, что из этого выйдет." (я вообще не поняла это предложение, поэтому перевела, как чувствую ==)
     hide corstand with aaa
     show corcrys at right with aaa
-    c"My lady...! You don't know how happy I am to hear that!"
-    c"I'm going to tell everyone the good news!"
-    o"Wait."
+    c"Моя госпожа...! Вы даже представить себе не можете, каким счастливым меня делают ваши сллова!"
+    c"Я пойду расскажу всем счастливые новости!"
+    o"Постой."
     hide corcrys with aaa
     show corstand at right with aaa
-    c"Yes, my lady?"
-    o"Before that, I want to..."
+    c"Да, моя госпожа?"
+    o"Прежде, я хочу..."
     menu:
-        "...see the mushrooms in the basement.":
+        "...посмотреть на грибы в подвале.":
             jump vosroutefinal
-        "...eat something in the kitchen.":
+        "...съесть что-нибудь на кухне.":
           jump geroutefinal
-        "...watch the sunset before it gets dark.":
+        "...полюбоваться закатом на балконе.":
           jump lilroutefinal
-        "...tell you something." if corvus == 5:
+        "...сказать тебе кое-что." if corvus == 5:
            jump coroutefinal 
            
 label vosroutefinal:
