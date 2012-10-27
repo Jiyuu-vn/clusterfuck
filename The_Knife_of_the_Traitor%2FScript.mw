@@ -2525,44 +2525,44 @@ label gergood:
     g"Я просто хотел, чтобы ты была... снова собой..."
     show osmile1 at left with aaa
     hide osmad1 with aaa
-    o"Gervase..."
+    o"Гервас..."
     show osstand at left with aaa
     hide osmile1 with aaa
-    o"I hated myself. I still do. That's why I have this thing on my neck."
-    g"You mean that...!"
+    o"Я ненавидела себя. Я до сих продолжаю. Вот почему у меня в шее нож."
+    g"Ты имеешь в виду, что...!"
     show germad at right with aaa
     hide gerblush with aaa
-    o"Yes, I stabbed it myself."
+    o"Да, я сама это сделала."
     g"..."
     show osmile2 at left with aaa
     hide osstand with aaa
-    o"But it looks like it wasn't my time... I'm a little happy for that."
-    o"Because now I can make it up to everyone..."
+    o"Но, похоже, мое время еще не пришло... И я этому даже немного рада."
+    o"Потому что теперь я могу наладить отношения со всеми вами..."
     show osmile1 at left with aaa
     hide osmile2 with aaa
-    o"...to you."
-    o"So... will you come with me again?"
+    o"...с тобой."
+    o"Так... ты пойдешь со мной снова?"
     show gerangry at right with aaa
-    g"...if you hit me again, I will kill you-"
+    g"...ели ты ударишь меня еще раз, я убью тебя-"
     show osstand at left with aaa
     hide osmile1 with aaa
-    o"I'll be prepared for that then, if that was a yes."
+    o"Тогда я буду к этому готова, если это значит да."
     show gerstand at right with aaa
     hide gerangry with aaa
-    g"It was."
-    o"Then let's get ready! I will see if I can fulfill your wish."
+    g"Значит."
+    o"Тогда пойдем! Я постараюсь исполнить твое желание."
     show osmile2 at left with aaa
     hide osstand with aaa
     stop music fadeout 1.8
-    g"What wish?"
-    o"Your harem!"
+    g"Какое?"
+    o"Твой гарем!"
     show gerblush at right with aaa
     hide germad with aaa
-    g"Ah... I don't want one."
+    g"А... Он мне не нужен."
     show oswut at left with aaa
-    o"Huh?"
+    o"А?"
     scene black with dissolve
-    g"I only want you."
+    g"Мне нужна только ты."
     scene black with dissolve
     window hide dissolve
     pause 2
