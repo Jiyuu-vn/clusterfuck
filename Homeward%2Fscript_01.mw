@@ -17,56 +17,56 @@ label start:
     hide introtext3 with dissolve
     window show dissolve
     
-    "It circled around my head twice, enticing me with its azure wings, before being carried away further by the wind."
-    "Being the youthful boy I was then, I gave chase, drawn by its lollipop coloured wings."
-    "I followed it across the grassy field, over the river, and finally, up a green hill where only a single tree stood."
-    "By the time I reached the lonesome tree, I was exhausted."
-    "My chest heaved in and out as I saw the butterfly flutter further up into the sky, towards the distant town, and eventually disappear."
+    "Она дважды облетела вокруг моей головы, маня своими голубыми крыльями, прежде чем её унес ветер."
+    "Будучи совсем ещё маленьким, я пошёл за этими крыльями, похожими на леденцы."
+    "Я следовал за ней, проходя по траве, и, перейдя, реку, поднялся на зелёный холм, где росло лишь одно дерево."
+    "Пока я добирался до этого дерева, я совсем устал. "
+    "Тяжело дыша, я заметил ту самую бабочку, которая улетала всё дальше над городом, пока я совсем не потерял её из виду."
 
-    gi "Looky, looky."
-    "Startled by the voice, I spun around."
-    ri "Wha...?"
-    gi "Here, here!"
-    "I looked upward, to find a girl roughly about my age sitting on top of a branch."
-    ri "What are you doing up there?"
-    gi "Lookin' at the town. Come on up here! The view's great."
-    "With a bit of caution, I tried to climb up the tree without much success."
-    gi "Sigh... Here, grab on."
-    "The girl reached down with her hand."
-    "She hoisted me up with unusual strength. Surprised by her grip, I barely managed to grab onto the branch on time."
-    ri "Whew..."
-    gi "Come on, look, look! Isn't is awesome?"
+    gi "Смотри, смотри."
+    "Испуганный незнакомым голосом, я обернулся."
+    ri "Что...?"
+    gi "Здесь, здесь!"
+    "Я обернулся и увидел девочку, примерно моего возраста, сидящую на ветке."
+    ri "Что ты там делаешь?"
+    gi "Смотрю на город. Поднимайся скорей! Этот вид великолепен."
+    "С небольшой осторожностью я попытался забраться, но правда, безуспешно.."
+    gi "Эх… Давай, держись."
+    "Девочка протянула мне свою руку."
+    "Она потянула меня с необычной силой. Поражённый этим, я кое-как успел схватиться за ветку вовремя."
+    ri "Хммм..."
+    gi " Давай, смотри же, смотри! Разве не чудесно?"
 
     scene cg intro with dissolve
     
-    "A spectacular view laid before me."
-    "The white buildings of the town glittered like fine rectangular crystals against the falling sun."
-    "Divided by a sparkling river and surrounded by mountains on all sides, our town was like a small sanctuary in the middle of nature."
-    ri "Amazing!"
-    gi "Ahaha! I can see my home from here!"
-    ri "Where, where?"
-    gi "Ummm... It should be... right there!"
-    "She pointed to a vague section of the town."
-    ri "Then... I think my home's... right over there!"
-    gi "Ehhh? You live just across the river from me!"
-    ri "Which school do you go to?"
-    gi "Kawada Elementary School."
-    ri "Really? I go to Sakura Elementary, further down the road."
-    gi "Alright! Then let's walk to school together from now on, okay?"
-    ri "E-eh? But I don't even know your name yet...!"
-    gi "Eheheh... My name's Nonami Kitahara. I'm five and a half."
-    ri "My name's Riku Saionji. I'm six years old."
-    no "Eh!? No way!"
-    ri "N-no, my name seriously is Riku..."
-    no "Phooey. That's not what I meant, dummy."
+    "Захватывающий вид открылся мне."
+    "Белые здания города блестели на солнце как прекрасные прямоугольные кристаллы."
+    "Разделённый сверкающей рекой, и окружённый горами, наш город был похож на небольшое святилище в центре природы."
+    ri "Поразительно!"
+    gi "Хахаха! Отсюда видно мой дом!"
+    ri "Где, где?"
+    gi "Эммм... Это должно быть... вот здесь!"
+    "Она непонятно показала какую-то часть города."
+    ri "Итак... Я думаю мой дом... прямо здесь!"
+    gi "Аааа? Ты живёшь лишь через реку от меня!"
+    ri "В какую школу ты ходишь?"
+    gi "Младшая школа Кавада."
+    ri "Правда? Я учусь в младшей школе Сакура, она ниже по дороге."
+    gi "Отлично! Тогда, с этого момента, давай будем ходить в школу вместе?"
+    ri "А-аа? Но я даже твоего имени ещё не знаю...!"
+    gi "Хихихи... Меня зовут Нонами Китахара. Мне пять с половиной лет."
+    ri "Меня зовут Рику Саёнджи. Мне шесть лет."
+    no "А!? Не может быть!"
+    ri "Н-нет, меня и правда зовут Рику..."
+    no "Тьфу, это не то что я имела ввиду, болван."
     
-    "And so, a lost butterfly, brought by the wind and taken away just as unpredictably by the wind, lead me to Nonami Kitahara."
-    "An act of random chance. Had the wind blown any other direction, had there been no butterfly, had I not been standing at that exact place at that exact time, I would never have met her."
-    "An act of fate."
+    "Вот так потерянная бабочка, принесённая ветром, и так же внезапно им унесённая, привела меня к Нонами Китахаре ."
+    "Закон случайного шанса. Если бы ветер унёс её в каком-нибудь другом направлении, то я не стоял бы именно в том месте и в то время, я никогда бы её не встретил."
+    "Закон судьбы."
     
-    "Like the notes of a piano, a hundred seemingly random noises come together to create a single melody."
-    "Like the random, uncontrollable wind that brought me to Nonami that day, the same wind could just as easily take her away for eternity."
-    "Chaos. The inescapable law of our lives."
+    " Подобно нотам в музыке, сотни случайных звуков сливаются в единую мелодию."
+    "Так же как этот случайный, неконтролируемый ветер привёл меня к Нонами, тот же ветер мог просто стереть её для меня навеки."
+    "Хаос. Неизбежный закон нашей жизни."
     
     scene bg black with dissolvelong
     $ renpy.movie_cutscene("CG/OP.mpg", stop_music=True)
@@ -74,362 +74,362 @@ label start:
     play music "Music/Heaven.ogg" fadeout 1.5 fadein 1.5 loop    
     scene bg emptyhouse with dissolvelong
     
-    "This wasn't my home."
-    "I thought those words as I followed my father into our new house."
-    "It had been nearly ten years since I've lived in this country."
-    "Because of my father's job as a diplomat, I had followed him throughout the world."
-    "First Korea. Then France. Then America. Who knew where I would end up in the next moment."    
-    "A large, empty room greeted me as I entered the house."
-    "Another quiet, empty house. Who knew how long this one would last."
-    "I found the box containing my belongings and headed to my room."
+    "Это не мой дом."
+    "Размышляя об этом я следовал за отцом, в наш новый дом."
+    "Я не живу в этой стране уже около десяти лет."
+    " Ведь мой отец - дипломат , и я должен следовать за ним по всему миру."
+    "Сначала Корея. Затем Франция. Потом Америка. Кто знал, где я окажусь в следующий раз."    
+    "Большая, пустая комната встретила меня как только я вошёл в дом."
+    "Ещё один тихий, пустой дом. Кто знал, насколько это продлится. "
+    "Я нашёл коробку со своими вещами и направился в свою комнату."
     
     scene bg rikuroomday with dissolve
     
-    "I dropped the box to the floor."
-    "My room was the third bedroom to the right."
-    "That's right. There would be three bedrooms this time around."
-    "We had unexpectedly returned to Japan when we received word that my mother's health had deteriorated."
-    "Since she was going to be hospitalized from now on, my younger sister, Sora, was going to come live with us."
-    "Even though my parents have been divorced for as long as I could remember, I guess she was still family."
-    "I only had three memories of ever having met Sora in my life."
-    "The first two times were too far ago in my childhood and blurred with time."
-    "The third time, however, I could remember much more clearly."
-    "It was about three years ago, when my father and I stopped by Japan for two days during summer vacation."
-    "We had gone to a small restaurant together. Much of the details of that time were lost, but I still remember Sora eating an ice cream sundae with me."
-    "She spoke hardly a word that time."
-    "There was an emotionless, sad aura about her, like a frozen pond covered with snow."
-    "Her eyes were unfocused, gazing blankly at the table underneath her. She never looked at my face."
-    "That was all that I could recall from that day."
-    "There was still a week left before she would move in."
-    "By the time I finished setting up all of my belongings, it was late afternoon."
-    "Since my father was still downstairs, busy unpacking his belongings, I went out of the house and looked around the neighborhood."
+    "Я бросил коробку на пол."
+    "Моя комната  - третья спальня направо."
+    "Да. На этот раз здесь было три спальни."
+    "Мы неожиданно вернулись в Японию, когда получили известие о состоянии мамы"
+    " Как только её заберут в больницу, моя младшая сестра Сора переедет к нам."
+    "Несмотря на то, что мои родители в разводе, сколько я себя помню, они всегда оставались семьёй."
+    "У меня есть только три воспоминания о Соре."
+    "Первые два были очень давно в детстве, они стали забываться со временем."
+    "Третий раз я помню более чётко."
+    "Это было около трёх лет назад, когда мой отец остановился в Японии на два дня во время летнего путешествия."
+    "Мы ходили в небольшой ресторан вместе. Большинство деталей я уже забыл, но я до сих пор помню, как мы с Сорой вместе ели мороженое."
+    "Она почти не говорила со мной."
+    "Вокруг неё царила унылая, грустная аура, как заледеневший пруд, покрытый снегом."
+    "Её глаза глядели куда-то в пустоту перед столом, и она ни разу не взглянула на моё лицо."
+    "Это всё что я могу рассказать о том дне."
+    "Оставалась неделя до её переезда."
+    "Когда я закончил разбирать свои вещи, уже наступил вечер"
+    "Так как мой отец внизу всё ещё распаковывал вещи, я решил выйти из дома и осмотреть окрестности."
     
     scene bg street1 with dissolve
     
-    "An uncomfortable sort of nostalgia filled me as I wandered around the town I once knew."
-    "A town split into two halves by a river. A town surrounded by mountains on all sides."
-    "I wonder... if that one hill with the lonely tree was still here."
+    "Неприятная ностальгия наполняла меня, когда я блуждал по городу, который когда-то знал."
+    "Город, разделён рекой и окружён горами со всех сторон."
+    "Я удивлюсь, если тот холм с одиноким деревом всё ещё здесь."
     
     scene bg mall with dissolve
     
-    "As I made my way towards the hill, I saw how much the town had changed since I left."
-    "The field of tall grass that I once played in was now replaced with a new shopping mall."
-    "The tiny stream that I would cross every day was now a cemented waterway."
-    "Brand new houses lined the once verdant hill. A spiraling road lead to the top."
-    "I followed the road."
+    "Пока я шёл к холму, я заметил насколько город изменился с тех пор как я уехал."
+    "На полянке, заросшей высокой травой, где я когда-то играл, появился большой торговый центр."
+    "Крошечная переправа, через которую я каждый день перебирался, стала каменным мостом."
+    "Совершенно новые здания сравняли когда-то зелёный холм. Поднимающаяся дорога приводит меня к вершине."
+    "Я шёл по дороге."
     
     scene bg park with dissolve
     
-    "At the very top of the hill, I found a small fenced off park with the same tree of many years ago."
-    "It was still here."
-    "I sat down at a nearby bench."
-    "The sun was now setting. The tree cast long shadows against the dirt ground, silhouetting it with a black pattern."
-    ol "Times are a changing, young lad..."
-    "From seemingly out of nowhere, an old lady appeared behind me."
-    "Her back was bent with age and time had turned her hair thin and white."
-    "She sat down on the bench beside me and looked at the tree with her tired, grey eyes."
-    ol "I say, there was a time when this entire place was nothing but green. Now those young folk come in with that new mall and done changing everything."
-    "I could barely understand the old lady's Japanese through her thick Kansai accent, so I just nodded politely."
-    ol "Now, none of the birds even come around. Nobody to keep this old woman company."
-    "She continued to speak. Out of respect for the elderly, I pretended to listen, even though I couldn't make out most of her words."
-    ol "This old park is all that's left. All that's left of my old memories. Eh-heh... I guess that's why I like to come back here. Old habits are hard to kill..."
-    "I wasn't sure what to say to the old lady, but I felt like I had to say something, lest she think I was ignoring her."
-    ri "I used to come here often too."
-    ol "Ooohhh, you did, did you?"
-    ri "I always wanted to come back."
-    ol "And why's that, my dear?"
-    ri "There's someone I'm supposed to meet here. I hope she hasn't been waiting for too long."
-    ol "Ohh... someone special, is it?"
+    "На самой вершине я увидел маленький парк с тем же деревом, что и много лет назад."
+    "Оно всё ещё было здесь."
+    "Я сел на ближайшую скамью."
+    "Солнце уже садилось. Длинные тени деревьев падали на землю, вырисовывая на ней узорчатые чёрные силуэты."
+    ol "Времена меняются, мальчик..."
+    "Откуда ни возьмись, позади меня появилась пожилая женщина."
+    "Её спина согнулась от старости, а время сделало её волосы тонкими и седыми."
+    "Она села на скамейку рядом со мной и посмотрела на дерево усталыми серыми глазами."
+    ol "Было время, когда всё вокруг было зелено. А сейчас пришли эти молодые люди, построили здесь торговый центр, и всё изменилось."
+    "Я не очень хорошо понял её из-за кансайского акцента, поэтому лишь вежливо кивнул в ответ."
+    ol "Теперь здесь даже птиц не встретишь. Никто не составит компанию такой старушке как я."
+    "Она продолжила разговор. Из вежливости к её возрасту, я продолжал слушать несмотря  на то, что не понимал большинства слов. "
+    ol "Этот старый парк – всё что осталось. Всё что осталось от моих воспоминаний. Э-хе-хе... Наверное, поэтому я всё ещё хожу сюда. От старых привычек трудно избавиться..."
+    "Я не знал что сказать пожилой женщине, но мне казалось что если я ничего не отвечу, она подумает, что я игнорирую её."
+    ri "Я тоже раньше здесь часто бывал."
+    ol "Оооооо, ты тоже, ты тоже?"
+    ri "Я всегда хотел вернуться сюда."
+    ol "Почему же, мой дорогой?"
+    ri "Я должен встретить здесь кое-кого. Надеюсь она не ждала меня так долго."
+    ol "Оох... кого-то особенного, не так ли?"
     ri "... ... ..."
-    ol "Well, I don't imagine a young lad like you'd be waiting on a old woman like me. Wahahaha."
-    "A breeze blew through the park, filling the air with a flurry of white sakura petals. For a moment, it felt as if small puffs of snow were falling from the blue spring sky."
-    "Nostalgia filled me. I had sat here long ago and watched the white petals softly glide to the ground before. The distant taste of old candy trickled from my mouth."
-    "Had I been eating candy that day?"
-    "Suddenly, I heard what sounded like a baseball bat being swung on the other side of the park. I turned my head and saw a lone kendoka practicing."
-    "I watched quietly as the girl swung her bamboo sword over her head."
-    "There was a kind of aesthetic beauty to it, to see a lone girl in traditional clothing gracefully cutting the air against the setting sun."
-    "After swinging her sword for a few minutes, she stopped and bought a sports drink from a vending machine."
-    "While she was drinking, she noticed me and waved."
-    "I stood up and turned to bid my farewell to the old lady, but saw that she was now nowhere to be seen."
-    "Huh, strange, she must have walked off while I was busy looking."
+    ol "Ну,  не думаю что парень вроде тебя будет ждать женщину, такую как я. Ха-ха-ха-ха."
+    "Ветерок дул, наполняя воздух лепестками сакуры. На мгновение мне показалось, что снежинки падали с синего весеннего неба."
+    "Меня захватила ностальгия. Как-то давно я уже сидел здесь и наблюдал за тем, как лепестки сакуры мягко ложатся на землю. Я почувствовал привкус леденца во рту."
+    "Я ел леденец в тот день?"
+    "Внезапно я услышал звук, похожий на тот, который издаёт бейсбольная бита. Я повернулся и увидел одинокого, тренирующегося игрока."
+    "Я наблюдал за тем, как девушка машет бамбуковым мечом над головой."
+    "Я получал эстетическое удовольствие, наблюдая за одинокой девушкой в традиционной японской одежде. Она грациозно разрезала воздух, стоя против закатного солнца."
+    "Ещё несколько минут она размахивала мечом, после остановилась и купила напиток в торговом автомате."
+    "Допивая свой напиток, она заметила меня и махнула мне рукой."
+    "Я встал и повернулся, чтобы попрощаться с женщиной, но её уже нигде не было видно."
+    "Хм, странно, она ,наверное, ушла, пока я был занят наблюдением."
 
     play music "Music/My_Love.ogg" fadeout 1.5 fadein 1.5 loop
     
     show nonami kendo greet with dissolve
-    no "Yo!"
+    no "Йо!"
     ri "Os."
-    "I wasn't quite sure what to say beyond that."
+    "Я не был уверен, что мне нужно было ответить."
     
     show nonami kendo neutral alt with dissolve
     
-    no "It's pretty, isn't it?"
-    "She pointed off to the distance, where now the entire city glittered against the setting sun."
-    "We looked at the view together."
-    ri "It's been awhile, Nonami."
+    no "Красиво, не правда ли??"
+    "Она указала рукой на город, который сиял в свете закатного солнца."
+    "Мы смотрели на него вместе."
+    ri "Это ненадолго, Нонами."
     
     show nonami kendo happy alt with dissolve
     
-    no "Woah, you remembered my name."
-    ri "I have a good memory."
+    no "Ничего себе, ты вспомнил моё имя."
+    ri "У меня хорошая память."
     
     show nonami kendo neutral alt with dissolve
     
-    no "Mmm... Let me guess..."
+    no "Ммм... Позволь мне угадать..."
     
     show nonami kendo smile2 alt with dissolve
     
-    no "You must be Kenji, right?"
-    ri "Nope."
+    no "Ты должно быть Кенжди, не так ли?"
+    ri "Нет."
     
     show nonami kendo cry with dissolve
     
-    no "Bleh, you looked like a Kenji to me."
-    ri "My name's Richard Saionji."
+    no "Эх, мне казалось что ты Кенджи."
+    ri "Меня зовут Ричард Саёнджи."
     
     show nonami kendo shock with dissolve
     
-    no "Ehhhh!? No way! That totally is not your name!"
-    ri "N-no, my name seriously is Richard..."
+    no "Ээээээ!? Не может быть! Это ведь не твоё имя!"
+    ri "Н-нет меня и правда зовут Ричард..."
     
     show nonami kendo neutral with dissolve
     
-    no "Rii-chya-do?"
+    no "Рии-ча-до?"
     
     show nonami kendo smile with dissolve
     
-    no "Mah, whatever. From today onwards, I'll just call you Rii-kun!"
-    "Did she just totally make up a new name for me?"
+    no "Ну и ладно. С сегодняшнего дня, я буду называть тебя Рии-кун!"
+    "Она просто взяла и придумала мне новое имя?"
     
     show nonami kendo neutral with dissolve
     
-    no "Where do you go to school, Rii-kun?"
-    ri "I just transferred to Minamikawa High School."
+    no "В какую школу ты ходишь, Рии-кун?"
+    ri "Я только что перевёлся в Старшую школу Минамикава. "
     
     show nonami kendo happy with dissolve
     
-    no "No way! I go there too."
+    no "Не может быть! Я учусь там же."
     
     show nonami kendo smile2 with dissolve
     
-    no "Oh! I got an idea! Let's walk to school together, just like we used to, okay?"
-    ri "Uh, s-sure..."
+    no "О! У меня появилась идея! Давай будем вместе ходить в школу, just like we used to, okay?"
+    ri "Ах, к-конечно..."
     
     show nonami kendo happy with dissolve
     
-    no "Wahaha! Come on, come on, you've gotta tell me all the stories! You lived in America, right? Right?"
-    no "Oh! Is it really true that kissing is only a greeting in America?"
-    ri "N-no, they actually only do that in France, and it's only on the chee-"
+    no "Хахахаха! Давай, давай же, ты должен рассказать мне всё! Ты жил в Америке, правда? Правда?"
+    no "О! Так это правда, что поцелуй – лишь приветствие в Америке?"
+    ri "Н-нет, так делают только во Франции, а здесь только… "
     
     show nonami kendo shock with dissolve
     
-    no "Wooahhh! So you've been to France too?"
-    ri "W-well, it was only for two years-"
+    no "Вааааааа! Так ты был и во Франции?"
+    ri "Дда, но только два года-"
     
     show nonami kendo smile2 with dissolve
     
-    no "Tell me all about it!"
-    ri "W-well, my father's a diplomat so-"
+    no "Расскажи мне о ней!"
+    ri "Н-ну, мой отец дипломат, и-"
     
     show nonami kendo happy with dissolve
     
-    no "Amazing! You must be super smart then!"
-    "She pulled off the bandanna that she was using to tie her hair up in a ponytail and started twirling it around in a circle."
-    no "You're really good at speaking English then, right? Teach me, teach me!"
-    ri "Eh-heh... O-okay...?"
+    no "Поразительно! Ты должен быть очень умным!"
+    "Она сняла платок, которым были завязаны её волосы и начала крутить его."
+    no "Ты же очень хорошо говоришь по-английски, правда? Научи меня, научи!"
+    ri "А-а... Х-хорошо...?"
     
     show nonami kendo smile2 with dissolve
     
-    no "Check this out!"
-    no "Tooda-ee, i-e meeto aa orudo fuurendo!"
-    "I wasn't quite sure what she meant but decided to nod my head anyways."
-    ri "Do you mean,"
-    ri "Today, I met an old friend?"
+    no "Проверь!"
+    no "Тудеиэ аи мито э орудо фурендо!"
+    "Я не был точно уверен, что она сказала, но всё же решил ответить."
+    ri "Ты имеешь ввиду,"
+    ri "Тудей ай мит э олд френд?"
     
     show nonami kendo happy with dissolve
     
-    no "Uwah, you're incredible!"
-    "All of a sudden, she took the bandanna and tightly wrapped it around her forehead."
+    no "Вау, ты невероятен!"
+    "Внезапно она схватила платок и завязала его на лбу."
     
     show nonami kendo excited happy with dissolve
     
-    no "Alll right! From today onwards, we'll do nothin' but study English!"
-    "Did she just decide that by herself?"
+    no "Оооотлично! С сегодняшнего дня, мы будем заниматься только английским!"
+    "Здесь всё решает только она?"
     
     show nonami kendo greet with dissolve
     
-    no "Come on, Rii-kun! Over this way."
-    "She slipped her bamboo sword into her bag and slung it over her shoulders."
-    "And here, I was afraid that we wouldn't have anything to talk about once we met."
-    "Nonami began to run down the hill and waved at me."
+    no "Давай, Рии-кун! Пойдём по этой дороге."
+    "Она положила бамбуковый меч на сумку и перекинула её через плечо."
+    "Я боялся, что у нас не будет тем для разговоров, когда мы встретимся."
+    "Нонами побежала вниз по холму, махая мне."
 
     show nonami kendo greet alt with dissolve
 
-    no "Faster, faster!"
+    no "Быстрее, быстрее!"
     
     hide nonami with dissolve
     
-    "I followed her down."
-    "Even though many things had changed in the town, it seemed as if Nonami was still her usual self."
-    "Even after all these years, she was still as bright and energetic as I remembered."
+    "Я следовал за ней."
+    "Несмотря на то, что в городе многое изменилось, Нонами, похоже, осталась прежней."
+    "Даже после стольких лет, она всё такая же яркая и энергичная, как в моих воспоминаниях."
     
     scene bg stream with dissolve
     show nonami kendo happy alt with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0
     
-    "{i}I couldn't remember the last time somebody had treated me like an old friend.{/i}"
-    no "Oh, check that out! It's a tanuki statuette."
+    "{i}Я уже забыл, когда я был с тем, кого можно назвать старым другом.{/i}"
+    no "О, смотри! Это же статуя тануки."
     
     show nonami kendo smile2 alt with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0
         
-    no "Ehehehe... Remember that one time that you broke off its head and you were so scared?"
-    ri "W-wait a minute... If I recall correctly, I think it was you who threw the ball that did that."
+    no "Хехехехе... Помнишь, как ты разбил одну из них и был так напуган? "
+    ri "П-подожди секунду... Если я правильно помню, это ты кинула шар, который разбил её."
     
     show nonami kendo cry with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0
         
-    no "\"I killed Mr. Tanuki! I killed Mr. Tanuki!\" Boohoo!"
+    no "\"Я убил Тануки! Я убил Тануки!\" Бууууу!"
     
     show nonami kendo neutral alt with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0
         
-    ri "I totally did not cry like that!"
-    "{i}For as long as I could remember, I had been a stranger to everyone.{/i}"
-    "{i}Sure, I had friends in America and everywhere else...{/i}"
-    "{i}But what really did it matter?{/i}"
-    "{i}As soon as I had to move again, I had to lose everyone that I knew.{/i}"
-    "{i}No matter how much we tried to stay in contact, we eventually ended up forgetting about each other.{/i}"
-    "{i}It's not like I met many people who I could connect with anyways.{/i}"
-    "{i}In the end, who were people going to trust the most? Their friends, who they have lived and grown up with all their lives, or a stranger like me?{/i}"
-    "{i}No matter how much I wanted to, it wasn't as if I could travel back in time and become childhood friends with everyone.{/i}"
+    ri "Я так не плакал!"
+    "{i}Сколько себя помню, я для всех оставался чужаком.{/i}"
+    "{i}Конечно, у меня были друзья в Америке и не только там...{/i}"
+    "{i}Но что в конце концов произошло?{/i}"
+    "{i}Как только я уехал, я потерял всех, кого я знал.{/i}"
+    "{i}Как сильно бы мы ни старались поддерживать отношения, в конце концов, мы всё равно забывали друг друга.{/i}"
+    "{i}Не похоже, что я встретил много людей, с которыми можно было бы пообщаться.{/i}"
+    "{i}В конце концов, кому они больше доверятся: старому знакомому или такому чужаку как я?{/i}"
+    "{i}Неважно как сильно я этого хотел, я не мог вернуться в прошлое и стать для них другом детства.{/i}"
 
     show nonami kendo happy with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0        
 
-    no "Oh! Check it out. This is the river where I caught that one frog."
-    no "Remember how we gave it to Tanaka-chan in that plastic container?"
-    ri "There was so much fuss when it escaped in the classroom."
+    no "О! Гляди-ка. Эта река, где я когда-то поймала лягушку."
+    no "Помнишь как мы подложили её Танаке-тян в пластиковой коробочке?"
+    ri "Поднялось так много шума, когда она выскочила из коробки."
     
     show nonami kendo cry with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0
     
-    no "Uwah, we totally had to stand in the hall holding those buckets for that..."
+    no "Эхх, в наказание мы стояли в коридоре с вёдрами, полными воды..."
     
     show nonami kendo neutral with dissolve:
         xalign 0.2
         ypos 1.05 yanchor 1.0
     
-    ri "I thought my shoulders were gonna snap off..."
-    "{i}I had been near giving up, actually.{/i}"
-    "{i}It didn't really make much of a difference, getting to know people.{/i}"
-    "{i}What was the point of it? In the end, I would always be just one of the \"new friends.\"{/i}"
-    "{i}And by the time I could even become an \"old friend,\" it would be time to move again.{/i}"
-    "{i}I was about to accept a life of solitude.{/i}"
+    ri "Я думал, что мои руки отвалятся..."
+    "{i}Ещё немного и я бы сдался.{/i}"
+    "{i}Знакомясь с людьми, я не чувствовал никакой разницы{/i}"
+    "{i}Какой смысл? В конце концов я всегда буду лишь \"новым другом.\"{/i}"
+    "{i}Даже если бы я и стал \"старым другом,\" мне всё равно придётся уезжать.{/i}"
+    "{i}Я собирался принять жизнь, полную одиночества{/i}"
     
     scene bg playground with dissolve
     show nonami kendo neutral alt with dissolve
     
-    no "Remember when we used to make mudcakes here?"
-    ri "You would always bring water from the river in your small beach bucket."
+    no "Помнишь, как мы лепили здесь куличики?"
+    ri "Ты всегда приносила воду из реки в маленьком пляжном ведёрке."
     
     show nonami kendo neutral with dissolve
     
-    no "And we would dump it into the sandbox and make mudcakes."
-    no "Big one for daddy. Medium one for mommy. Small one for the baby."
-    "{i}The only thing that kept me going was a small hope that one day, things could change.{/i}"
-    "{i}Even though I should have just accepted the reality of the situation, it was still too sad to give up completely.{/i}"
-    "{i}It was too frightening to accept the reality that I may never meet anyone again.{/i}"
-    "{i}Most of all, I just didn't want to be lonely.{/i}"
+    no "И мы выливали воду в песочницу и делали куличики."
+    no "Большой - для папы. Средний - для мамы. А маленький – для ребёнка."
+    "{i}Единственной вещью, которая заставляла меня двигаться дальше, была надежда на то, что всё когда-нибудь изменится.{/i}"
+    "{i}Даже несмотря на то, что я должен был уже смириться, было бы слишком грустно сдаться окончательно.{/i}"
+    "{i}Было слишком страшно принять действительность, при которой я не мог бы снова ни с кем встречаться.{/i}"
+    "{i}Скорее всего, я просто не хотел оставаться один.{/i}"
     
     scene bg nonamihouse with dissolve
     show nonami kendo neutral with dissolve
     
-    no "Oh, we're here. This is where I live, remember?"
-    ri "The walls seem so much lower now."
+    no "О, мы пришли. Здесь я живу, помнишь?"
+    ri "Стены кажутся намного ниже чем раньше."
     
     show nonami kendo happy with dissolve
     
-    no "Wahaha! Unknown to you, I've been trimming them down, little by little, every day since you left."
+    no "Хахахаха! В тайне от тебя я делала их ниже с каждым днём, с тех пор, как ты уехал."
     ri "... ... ..."
     
     show nonami kendo smile2 with dissolve
     
-    no "Or something like that."
-    ri "Well then, see you tomorrow."
+    no "Может и так."
+    ri "Хорошо, увидимся завтра."
     
     show nonami kendo greet with dissolve
     
-    no "See you!"
+    no "Увидимся!"
     
     hide nonami with dissolve
     
-    "I turned to leave for my house."
+    "Я пошёл домой."
     
     show nonami kendo neutral with dissolve
     
-    no "You know, Riku. I've really missed you."
-    "I turned around to face her again."
-    ri "You remembered my name."
-    "She winked."
+    no "Знаешь, Рику. Я правда скучала по тебе."
+    "А снова повернулся к ней."
+    ri "Ты вспомнила моё имя."
+    "Она подмигнула мне."
     
     show nonami kendo smile with dissolve
     
-    no "I have a good memory too, you know. Just not a very fast one."
+    no "Знаешь, у меня тоже хорошая память. Просто она не такая быстрая."
     
     $ renpy.music.stop (fadeout=3.0)
     hide nonami with dissolvelong
     
     scene bg rikuroomnight with fadelong
     
-    "It was dark by the time I returned home."
-    "After I ate dinner with my father, I went back to my room."
-    "I noticed that he had left my new school uniform hanging on the wall."
-    "That's right. Tomorrow, I would have to go to class."
-    "I grabbed it and tried it on. I had never worn a school uniform in my life before."
+    "Когда я пришёл домой, уже стемнело."
+    "Поужинав с отцом, я вернулся обратно в свою комнату."
+    "Я заметил, что он повесил мою форму на стену. "
+    "Всё верно. Завтра я пойду в школу."
+    "Я примерил её. Прежде я никогда не носил школьную форму."
     
-    "Now I really did look Japanese."
-    "I turned around and checked out what it looked like from behind."
-    "Not bad."
-    "Maybe I should also do something with my hair. The other guys I've seen in Japan were all pretty much all fashioned out."
-    "Nothing like what I saw in America, anyways."
+    "Сейчас я выгляжу совсем как японец."
+    "Я повернулся и посмотрел, как она выглядит со спины."
+    "Неплохо."
+    "Возможно мне нужно сделать что-то с моими волосами. Парни, которых я видел в Японии, приглаживали свои волосы."
+    "Ничего подобного я не видел в Америке."
     
     scene bg rikuroomceiling with dissolve
     play music "Music/Forgotten.ogg" fadein 8.0 fadeout 2.0 loop
     
-    "I took the uniform off, took a shower, and laid in bed."
-    "Just who was I, anyways?"
-    "I knew that I had ceased to be Japanese a long time ago. Maybe I should introduce myself as an American tomorrow."
-    "But I knew I wasn't an American either."
+    "Я повесил форму обратно, принял душ, и лёг в кровать."
+    "Кем я был всё это время?"
+    "Я перестал быть японцем давным-давно. Даже завтра, возможно, я представлючь американцем."
+    "Но также я знал что я не был американцем."
     "... ... ..."
-    "It was a waste of time thinking of things like this."
-    "Whether I was Riku or Richard Saionji, I was myself."
-    "If whatever I was wasn't acceptable to others, then nobody would like me. It was as simple as that."
-    "It wouldn't be very different from the usual."
+    "Думать о таких вещах – это лишь пустая трата времени."
+    "Кто я на самом деле – Рику или Ричард Саёнджи."
+    "В любом случае, никто не принимал меня, я никому не нравился. Всё было настолько просто."
+    "Всё было бы как обычно."
     "... ... ..."
-    "But she remembered me."
-    "Maybe this time would be different."
-    "I tried to think back to the old days when I used to play with Nonami."
-    "All I could grasp were brief fragments of our childhoods. But the mere existence of those fragments made her different from anyone else whom I had met before."
-    "All this time, I had wished for someone I could look back in time with, hadn't I?"
-    "There was a moment of my middle school graduation, when everyone was getting their yearbooks signed by their friends."
-    "As I watched everyone else laughing, crying, speaking fondly amongst each other about events that had occurred years ago in their childhoods..."
-    "I resented them because they reminded me of all that I had lost."
-    "And yet, I wished that I could be a part of them. I wanted to laugh with them and have them sign my yearbook."
-    "And so, I hid myself, too afraid to finally accept that I had lost everything by joining the celebration."
-    "All the friends I had lost... All the homes that I have left..."
-    "I couldn't bear to admit that I had forgotten about them and moved on."
+    "Но она вспомнила меня."
+    "Может теперь мир изменится."
+    "Я постарался вспомнить что-нибудь о тех деньках, когда играл с Нонами."
+    "Всё что я мог вспомнить – это небольшие фрагменты детства. Но даже то, что эти фрагменты существовали,  отличало Нонами от тех, кого я встречал раньше."
+    "Всё это время, я мечтал о ком-то, с кем могу обернуться в прошлое, не так ли?"
+    "Когда-то, на выпускном в средней школе, все вокруг подписывали друг-другу альбомы."
+    "Я лишь наблюдал за тем, как они смеялись, плакали, с нежностью вспоминая о событиях, произошедших в их детстве..."
+    "Я злился на них, потому что они напомнили о том, что я потерял."
+    "Всё-же я жалел о том, что не мог стать частью их общества. Я хотел смеяться вместе с ними, хотел, чтобы они подписали мой альбом..."
+    "Вот так я замкнулся в себе, боясь признать, что я потерял всё, и присоединился к празднованию."
+    "Я потерял всех друзей... Покинул все дома..."
+    "Я не мог признать, что забыл их и стал двигаться дальше."
     
     scene bg black with dissolvelong
     
-    "If only... someone like Nonami had been there."
-    "I wonder what had happened to her since then. Eight years was a long time."
-    "I wonder... if she was..."
+    "Лишь только Нонами… была здесь."
+    "Интересно что с ней происходило всё это время. Восемь лет  - долгое время."
+    "Интересно... если бы она..."
     "... ... ..."
     
 </nowiki>
