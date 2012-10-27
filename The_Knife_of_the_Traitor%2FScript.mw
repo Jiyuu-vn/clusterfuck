@@ -2329,43 +2329,43 @@ label vosgood:
     show oskstand at left with aaa
     show vostand2 at right with aaa
     show vosaaa at right with aaa
-    o"You are free to do whatever you want."
-    o"Back then you told me, that this would make you half-happy..."
-    o"I'm not searching for your forgiveness, because I may never have that."
-    o"Instead, please let me make you a little bit happier than before."
+    o"Ты волен делать что захочешь."
+    o"Тогда ты сказал мне, что это сделает тебя наполовину счастливым..."
+    o"Я не ищу твоего прощения, потому что знаю, что никогда его не получу."
+    o"Вместо этого, позволь мне сделать тебя хоть немного счастливее."
     hide vosaaa with aaa
     v"..."
-    v"Don't do this. You should know I'm not better than you."
-    v"After I read that horrible thing, I went out of the basement, hoping that I'd be able to see you to die with my own eyes."
-    v"But I only made it to the first floor before turning back."
-    v"Maybe I'm just a coward."
-    o"You're a good kid, Vosges. Don't be so hard on yourself."
-    v"I'm not a kid, Os. You know that."
+    v"Не делай ты. Ты прекрасно знаешь, что я ничем не лучше тебя."
+    v"После этой отвратительной записки, я вышел из подвала в надежде увидеть твою смерть собственными глазами."
+    v"Но я дошел только до первого этажа, прежде чем вернулся обратно."
+    v"Наверное, я просто трус."
+    o"Ты хороший мальчик, Возгес. (я все никак не могу решить, как его называть: мальчик малыш или ребенок Оо) Не будь с собой так суров."
+    v"Я не ребенок, Оз. И ты это знаешь."
     pause 0.1
-    r"Silence."
-    v"What are you going to do?"
-    o"My father must be worried. I must return to his side."
-    v"Will you go back to your old self?"
+    r"Тишина."
+    v"Так что ты будешь делать?"
+    o"Мой отец, должно быть волнуется. Я должна вернуться к нему."
+    v"Ты снова станешь собой?"
     stop music fadeout 1.8
-    o"...I know that I just let you be free but... why don't you come with me, Vosges?"
-    o"With you on my side, I'm sure I will never return to what I used to be."
+    o"...Я знаю, что я только-только освободила тебя, но... почему бы тебе не пойти со мной, Возгес?"
+    o"Рядом с тобой я точно не стану такой, как была."
     v"..."
     pause 2
     show oswut at left with aaa
-    o"D-don't worry, you don't need to answer that."
-    v"I will think about it, but I can't promise you anything."
+    o"Н-не волнуйся, тебе не нужно отвечать."
+    v"Я подумаю над этим, но ничего не обещаю."
     show osksmile at left with aaa
     hide oswut with aaa
-    o"That's enough for me."
+    o"Мне хватит и этого."
     hide vostand2 with aaa
     show vosmile2 at right with aaa
     v"..."
     hide osksmile with aaa
-    o"Something wrong?"
-    v"No... "
-    v"I just feel..."
+    o"Что-то не так?"
+    v"Нет... "
+    v"Я просто чувствую себя намного..."
     scene black with dissolve
-    v"...lighter."
+    v"...легче."
     window hide dissolve
     pause 2
     play music "g_end.ogg"
@@ -2374,78 +2374,78 @@ label vosgood:
     jump lolcredits
     
 label vosbad:
-    o"I think I'm going to see the mushrooms at the basement..."
-    c"The mushrooms? Oh."
-    c"You mean, Vosges?"
+    o"Думаю, я пойду, посмотрю на грибы в подвале..."
+    c"Грибы? Ох."
+    c"Ты имеешь в виду Возгеса?"
     show oswut at left with aaa
-    o"What? N-no..."
-    c"Ah. Ahahaha. He's so lucky."
+    o"Что? Н-нет..."
+    c"Ах. Ахахаха. А он счастливчик."
     hide oswut with aaa
-    o"Hmm?"
-    c"Nothing, my lady. I will wait for you here, then."
-    o"Right."
+    o"Ммм?"
+    c"Ничего, моя госпожа. Тогда я подожду вас здесь."
+    o"Хорошо."
     hide osstand with aaa
     pause 1
-    c"...Well, it's for the best."
+    c"...это к лучшему."
     scene black with dissolve
     $ renpy.play('foot1.wav')
     pause 3
     scene bg02 with aaa
     show vostand at right with aaa
     show osstand at left with aaa
-    v"Oh, you again..."
+    v"Ох, опять ты..."
     o"..."
-    v"Corvus came and enlightened me as to exactly how much of an imbecile he is."
-    v"It looks like you're alive because of us."
-    v"Life sure is full of irony."
-    o"How much did he tell you?"
-    v"So you can speak now?"
+    v"Корвус приходил и известил меня о том, какой же он имбицил."
+    v"Выходит, ты жива благодаря нам."
+    v"Жизнь действительно полна иронии."
+    o"Как много он рассказал тебе?"
+    v"Так ты и говорить теперь можешь?"
     o"..."
-    v"He told me that he found you dead, and in order to resurrect you, he invoked a pillar using our lives as sacrifices."
-    v"What I can't understand is who tried to kill you. Was it Gervase, after all?"
-    o"It was me."
+    v"Он сказал мне, что нашел тебя мертвой, и дабы защитить тебя, он воззвал к богам, использовав наши жизни в качестве жертвы."
+    v"Чего я не могу понять, так это кто пытался убить тебя. Это был Гервас, да?"
+    o"Это была я."
     show voswut at right with aaa
     hide vostand with aaa
-    v"Huh?"
-    o"I stabbed this knife through my neck. I wanted to die."
+    v"А?"
+    o"Я вонзила нос в свою собственную шею. Я хотела умереть."
     v"..."
     show vosangry at right with aaa
     hide voswut with aaa
-    v"You are beyond unbelievable."
-    v"So you were the one who sent me that note?"
+    v"Ты невероятна."
+    v"Так это ты послала мне записку?"
     show osmad1 at left with aaa
     hide osstand with aaa
-    o"Yes."
-    o"I wanted you to be there. I knew you hated me enough to finish the job, just in case I couldn't bring myself to do it."
+    o"Да."
+    o"Я хотела, чтобы ты был там. Я знала, что твоей ненависти было бы достаточно, чтобы закончить дело, если бы я провалилась."
     v"..."
-    o"Vosges, I-"
+    o"Возгес, я-"
     show osstand at left with aaa
     hide osmad1 with aaa
-    v"I don't want to listen to you anymore. Each time you come here, it gets more and more difficult to stop myself from slapping you."
-    o"I won't go anywhere."
-    v"You're just a vile coward, who makes one stupid mistake after another..."
+    v"Я не хочу ничего слышать. С каждым разом, как я тебя вижу, мне все труднее сдерживаться, чтобы не ударить тебя."
+    o"Я никуда не уйду."
+    v"Ты просто подлый трус, который совершают одну ошибку за другойwho makes one stupid mistake after another..." 
     pause 1
     show osmad2 at left with aaa
     hide osstand with aaa
-    o"You think you're better than me?"
-    o"Keep playing the role of victim if you want. You're nothing but an ignorant fool!"
-    v"How dare you-"
+    o"Думаешь, ты лучше меня?"
+    o"Продолжай изображать из себя жертву, сколько влезет. ТЫ  лишь слепой глупец!"
+    v"Как ты смеешь-"
     scene vbadend with dissolve
     window hide
-    osub"You think I killed your people just for fun?"
-    osub"I lost half my troops in a day! All of them were poisoned... {w}by the crops that your people sent us. You were traitors!"
-    osub"They deserved to die! To be burned to ashes and be eaten by worms... {i}all of them{/i}."
+    osub"Думаешь, я убивала всех твоих людей ради забавы?"
+    osub"Я потеряла половину войска в тот день! И все они были отравлены... {w}овощами, что твои люди прислали нам. Они были предателями!"
+    osub"Они заслужили это! Быть сожженными дотла и съеденными червями... {i}все они{/i}."
     scene bg02 with aaa
     show vosos1 at center with flashbulb3
     $ renpy.play('swordhit.wav')
     stop music fadeout 1.5
     v"!!"
     window show 
-    o"Ah..."
+    o"Ах..."
     show vosos2 at center with dissolve
     hide vosos1 with aaa
-    v"Just... die."
-    oss"I will never regret..."
+    v"Просто... умри."
+    oss"Я никогда не пожалею..."
     scene black with dissolve
     window hide dissolve
     pause 2
@@ -2462,67 +2462,67 @@ label geroutefinal:
 label gergood:
     $ persistent.end_02 = True
     $ persistent.ending = "Ending 2"
-    o"I'm hungry. I'm going to the kitchen to find something to eat. I think I saw some spiders running around in there..."
-    c"To the kitchen? Don't you want me to accompany you?"
-    o"Why?"
-    c"Gervase might still be mad. It could be dangerous."
-    o"Don't worry about that. He's my dog, after all. I would be a lame owner if I couldn't tame his anger."
-    c"Be careful!"
-    o"Don't worry."
+    o"Я голодна. Пойду, поищу на кухне что-нибудь съестное. Кажется, я видела, как несколько пауков пробегали там..."
+    c"На кухне? Мне стоит пойти с вами?"
+    o"Зачем?"
+    c"Гервас может быть все еще зол. Это может быть опасно."
+    o"Не волнуйся об этом. Он мой пес, в конце концов. Я буду жалким хозяином, если не смогу совладать с его злобой."
+    c"Будьте осторожны!"
+    o"Не волнуйся."
     stop music fadeout 1.5
     scene black with dissolve
     $ renpy.play('foot1.wav')
     pause 3
     scene bg03 with aaa
     show osstand at left with aaa
-    r"Gervase is sitting in the darkest corner of the kitchen."
+    r"Гервал сжался в темном углу кухни."
     play music "ger_end.ogg"
-    o"What are you doing there?"
+    o"Что ты там делаешь?"
     g"..."
-    o"Gervase, I'm speaking to you."
+    o"Гервас, я с тобой разговариваю."
     show osmad1 at left with aaa
     hide osstand with aaa
-    g"Don't come any closer. I'll bite you if you do."
+    g"Не подходи. Иначе я тебя укушу."
     show osmad2 at left with aaa
     hide osmad1 with aaa
-    o"I don't take orders from my pet."
-    g"I told you-!"
+    o"Я не повинуюсь приказам своего домашнего питомца."
+    g"Я сказал тебе-!"
     hide osmad2 with aaa
-    o"Stay still!"
+    o"Сиди спокойно!"
     window hide dissolve
     show geroute3 with dissolve
-    gsub"Let me go! Annoying bitch! ARGGGHH!"
-    osub"No. I won't let you go this time."
-    osub"I've been a horrible owner, and I know that's why you keep running away from me..."
+    gsub"Отпусти меня! Надоедливая сучка! АРРРРГХ!"
+    osub"Нет. На этот раз я тебя не отпущу."
+    osub"Я была ужасным хозяином, и я понимаю, что именно поэтому ты  убегаешь от меня..."
     pause 1
     scene bg03 with dissolve
     show geros1 at center with dissolve
     window show
-    g"You sure are a quick learner, huh?"
-    o"I'm sorry, Gervase."
+    g"Ты быстро учишься, а?"
+    o"Прости меня, Гервас."
     g"..."
-    o"I really am!"
+    o"Мне правда жаль!"
     pause 1
     show geros2 at center with dissolve
     hide geros1 with aaa
-    g"...*sniff*"
-    o"Gervase...?"
-    g"It's hair in my eyes, that's all...{w}*sniff* {w}A lot of hair..."
+    g"...*шмыг*"
+    o"Гервас...?"
+    g"Мне в глаз попала соринка, вот и все...{w}*шмыг* {w}Много соринок..."
     pause 0.3
     hide geros2 with aaa
     show osstand at left with aaa
     show gerstand at right with aaa
-    g"What happened to you, Os? We used to play together all the time, then out of nowhere you became like a beast."
-    g"Even beasts were tamer than you."
+    g"Что с тобой стало, Оз? Раньше мы все время играли, а потом ты вдруг превратилась в чудовище."
+    g"Даже чудовища ласковее тебя."
     show osmad1 at left with aaa
-    o"I became Ulla's butcher, Gervase. I was my father's sword, my kingdom's shield. I couldn't afford to have any weaknesses."
-    o"I took all the cracks in me and melded them shut with the corpses of my enemies, so that every second of every day, I could be what everybody needed me to be - the supreme ruler of Ulla."
+    o"Я стала мясником Уллы, Гервас. Я была мечом своего отца, щитом своего королевства. Я не могу позволить себе дать слабину."
+    o"Я нашла все свои трещегки и закрыла и трупами врагов, чтобы еджесекундно, каждый день, я могла быть тем, чего ждали от меня - величайшем правителем Уллы."
     show germad at right with aaa
     hide gerstand with aaa
-    g"I didn't need you to be Ulla's butcher or whatever the fuck they call you!"
+    g"Мне не нужно было, чтобы ты стала мясником Уллы или каким еще идиотским словом они тебя называли!"
     show gerblush at right with aaa
     hide germad with aaa
-    g"I just wanted you to be... you again..."
+    g"Я просто хотел, чтобы ты была... снова собой..."
     show osmile1 at left with aaa
     hide osmad1 with aaa
     o"Gervase..."
