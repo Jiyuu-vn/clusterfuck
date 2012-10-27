@@ -2252,41 +2252,41 @@ label vosroutefinal:
 label vosgood:
     $ persistent.end_01 = True
     $ persistent.ending = "Ending 1"
-    o"I think I'm going to see the mushrooms at the basement..."
-    c"The mushrooms? Oh."
-    c"You mean... Vosges?"
-    o"What? N-no..."
-    c"Ah. Ahahaha. He's so lucky."
-    o"Hmm?"
-    c"Nothing, my lady. I will wait for you here, then."
-    o"Right."
+    o"Думаю, я пойду, посмотрю на грибы в подвале..."
+    c"Грибы? Ох."
+    c"Вы о... Возгесе?"
+    o"Что? Н-нет..."
+    c"Ах. Ахахаха. А он счастливчик."
+    o"Ммм?"
+    c"Ничего, моя госпожа. Тогда, я подожду вас здесь."
+    o"Хорошо."
     scene black with dissolve
     $ renpy.play('foot1.wav')
-    r"Corvus looks at Os as she disappears into the the basement. Something glitters in his eye."
-    c"...it's for the best."
+    r"Корвус наблюдает, как Оз исчезает в подвале. Что-то сверкнуло в уголке его глаза."
+    c"...это к лучшему."
     pause 1
     stop music fadeout 1.5
     scene black with dissolve
     scene bg02 with aaa
     show vostand at right with aaa
     show osstand at left with aaa
-    v"Oh, it's you again."
+    v"Ох, опять ты."
     o"..."
     show osooo at left with aaa
-    o"Rejoice, prisoner of the tower where the watchdog resides, for you shall claim the reward..."
+    o"Возрадуйся, пленник башни, что бдит сторожевой пес, потому что ты получишь свою награду..."
     show voswut at right with aaa
     v"!!"
     hide osooo with aaa
-    v"You...!"
+    v"Ты...!"
     show osooo at left with aaa
-    o"...of being able to survive the witch. Today she shall die, with her throat slit open, and her shameful blood will gush onto the floor."
+    o"...возможность пережить ведьму. Сегодня она умрет, с рассеченным горлом, залив богомерзкой кровью землю."
     hide osooo with aaa
-    o"That was what your note said, right?"
-    v"You were the one who wrote it?"
-    v"Why-?"
+    o"Так гласила записка, да?"
+    v"Ты была тем, кто написал ее?"
+    v"Почему-?"
     hide osstand with aaa
     show osknife at left with dissolve
-    o"Because I'm the real traitor of Ulla."
+    o"Потому что я настоящий предатель Уллы."
     play music"v_end.ogg"
     scene black with aaa
     $ renpy.play('swordhit.wav')
@@ -2296,33 +2296,33 @@ label vosgood:
     show oskstand at left with aaa
     show vostand at right with aaa
     show vosaaa at right with aaa
-    v"Ahh!"
-    o"I stabbed this knife into my own neck that day. I no longer desired to live."
+    v"А!"
+    o"В тот день я вонзила нож в собственную шею. У меня больше не было желания жить."
     show vosangry at right with aaa
     hide vosaaa with aaa
-    v"You are incredibly egotistical, Os. Egotistical..."
+    v"Ты ужасно эгоистична, Оз. Эгоистична..."
     hide vosangry with aaa
-    v"...and stupid."
-    v"What did you expect me to do in this tower? Enjoy myself while I saw your dead body?"
+    v"...и глупа."
+    v"Чего ждала ты от меня? Что буду наслаждаться, взирая на твое мертвое тело?"
     o"..."
-    v"Eat your limbs? Throw the corpse into acid? I don't understand."
-    v"I don't understand-"
-    o"Vosges..."
+    v"Съем твои внутренности? Растворю твой труп в серной кислоте? Я не понимаю."
+    v"Я не понимаю-"
+    o"Восгез..."
     show vosangry  at right with aaa
     hide vostand with aaa
-    v"Shut up! I despise people like you! You just ran away instead of facing up to what you did to us."
-    v"Your death wouldn't have given me happiness. It would only have brought me more anger."
-    v"How easy it is to die and let everyone go to hell."
-    v"But that's ok, right? We're already too messed up to be saved-"
-    o"That's not true."
+    v"Заткнись! Я презираю людей, подобных тебе! Ты просто убежала вместо того, что посмотреть в лицо всем ужасам, что сделала с нами."
+    v"Твоя смерть не принесла бы мне счастья. Она лишь разбудила бы во мне еще больший гнев."
+    v"Как просто умереть и послать всех в ад."
+    v"Но это же в порядке вещей, так? С нами и так уже все кончено-"
+    o"Это не правда."
     window hide aaa
     hide vosangry with aaa
     hide oskstand with aaa
     scene vosroute2 with dissolve
-    osub"I can work hard to make this change."
-    vsub"Stop.."
-    vsub"...it..."
-    osub"From now on, you are free, Vosges."
+    osub"Я могу стараться из всех сил, чтобы изменить это."
+    vsub"Прекрати.."
+    vsub"...это..."
+    osub"Теперь ты свободен, Возгес."
     scene bg02 with dissolve
     hide vosroute2 
     show snowblossom
