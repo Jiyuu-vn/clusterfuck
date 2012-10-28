@@ -1231,7 +1231,7 @@ label wt:
     c"Я не слишком-то религиозен, но видеть Бога своими собственными глазами... Это немного..."
     show lilstand at center with aaa
     with vpunch
-    l"Твои мелкие глазки не способны с этим справиться? Знаю, я бесподобен."
+    l"Твои мелкие глазки не выдерживают? Знаю, я бесподобен."
     hide corstand2 with aaa
     show corscared at left with aaa
     c"ГААААААААААХ!"
@@ -2572,52 +2572,52 @@ label gergood:
     jump lolcredits
     
 label gerbad:
-     o"I'm hungry. I'm going to the kitchen to find something to eat. I think I saw some spiders running around in there..."
-     c"To the kitchen? Don't you want me to accompany you?"
-     o"Why?"
-     c"Gervase might still be mad...It could be dangerous..."
-     o"Don't worry about that. He's my dog, after all. I would be a lame owner if I couldn't tame his anger."
-     c"Be careful!"
-     o"I said don't worry. I'll be fine!"
+     o"Я голодна. Пойду, поищу на кухне что-нибудь съестное. Кажется, я видела, как несколько пауков пробегали там..."
+     c"На кухне? Мне стоит пойти с вами?"
+     o"Зачем?"
+     c"Гервас может быть все еще зол. Это может быть опасно."
+     o"Не волнуйся об этом. Он мой пес, в конце концов. Я буду жалким хозяином, если не смогу совладать с его злобой."
+     c"Будьте осторожны!"
+     o"Я же сказала, не волнуйся. Со мной все будет в порядке!"
      scene black with dissolve
      $ renpy.play('foot1.wav')
      pause 3
      scene bg03 with aaa
      show osstand at left with aaa
-     o"...Gervase, are you there?"
-     r"You see him trembling in the corner."
-     g"D-don't come any closer..!"
+     o"...Гервас, ты здесь?"
+     r"Ты видешь его, дрожащего в углу."
+     g"Н-не подходи..!"
      hide osstand with aaa
-     o"Why you- don't give me orders like you-"
-     g"No!"
-     o"Stay still, you dog!"
-     g"I SAID BACK OFF- DAMNIT!"
+     o"Что ты- нечего мне тут приказывать-"
+     g"Нет!"
+     o"Сиди спокойно, псина эдакая!"
+     g"Я СКАЗАЛ ОТОЙДИ- ПРОКЛЯТЬЕ!"
      scene gbadend with flashbulb3
      $ renpy.play('swordhit.wav')
      window hide 
-     osub"Ah..."
-     gsub"...Os?"
-     gsub"Os! Wake up...OS!"
-     gsub"Goddamnit..." 
+     osub"Ах..."
+     gsub"...Оз?"
+     gsub"Оз! Очнись...ОЗ!"
+     gsub"Черт побери..." 
      scene black with dissolve
-     g"I killed her."
+     g"Я убил ее."
      stop music fadeout 1.5
      pause 2
      g"..."
-     c"Gervase?"
-     g"C-Corvus!"
-     c"...why are you looking at me like that?"
-     g"I-I'm just tired, that's all..."
-     c"Well, have you seen Lady Os? She said she was coming here to get some food..."
-     g"...yeah, I saw her. She said she would go ahead to the castle. S-she said that you should go there too." 
-     c"Ehh? That's strange. She said that we'd all leave here together. She's taken down the barrier, did you know that?"
-     g"...{color=#adc6ba}{i}Together? That's impossible-{/i}{/color}"
-     c"I'll get going then. You should come soon too, all right?"
-     g"Right."
-     g"{color=#adc6ba}{i}He's going to come back when he doesn't find her...{/i}{/color}"
-     g"{color=#adc6ba}{i}I'm doomed, fuck damnit. I don't have time to hide the corpse.{/i}{/color}"
-     g"{color=#adc6ba}{i}If only I weren't this hungry... I'd be able to think more clearly...{/i}{/color}"
-     g"If I...weren't hungry..."
+     c"Гервас?"
+     g"К-Корвус!"
+     c"...что ты на меня так смотришь?"
+     g"Я-Я просто устал, вот и все..."
+     c"Ладно, ты не видел госпожу Оз? Она сказала, что пойдет сюда, поискать что-нибудь съестное..."
+     g"...ага, я видел ее. Она сказала, что пойдет вперед, ко дворцу. О-она передавала, чтобы ты шел следом." 
+     c"Эээ? Странно. Она говорила, что мы покинем это место вместе. Она сняла барьер, ты в курсе?"
+     g"...{color=#adc6ba}{i}Вместе? Быть не может-{/i}{/color}"
+     c"Тогда я пошел. Ты тоже не задерживайся, хорошо?"
+     g"Конечно."
+     g"{color=#adc6ba}{i}Когда он не обнаружит ее во дворце, то вернется...{/i}{/color}"
+     g"{color=#adc6ba}{i}Мне конец, твою мать. У меня нет времени прятать труп.{/i}{/color}"
+     g"{color=#adc6ba}{i}Если бы только я не был так голоден... Я бы смог мыслить яснее...{/i}{/color}"
+     g"Если бы я... не был голоден..."
      window hide dissolve
      scene black with dissolve
      pause 2
@@ -2633,12 +2633,12 @@ label lilroutefinal:
 label lilgood:
     $ persistent.ending = "Ending 3"
     $ persistent.end_03 = True
-    o"I'm going to the balcony. It's almost time for the sunset."
-    c"But my lady, aren't you afraid of heights?"
-    o"I think I got kind of used to it..."
-    c"{color=#adc6ba}{i}What, since yesterday?!{/i}{/color}"
-    c"Watch your step while you're on the staircase."
-    o"Fine."
+    o"Я пойду на балкон. Сейчас пойти время заката."
+    c"Но моя госпожа, разве вы не боитесь высоты?"
+    o"Думаю, я начинаю к ней привыкать..."
+    c"{color=#adc6ba}{i}Что, за один день?!{/i}{/color}"
+    c"Будьте осторожны на лестнице."
+    o"Хорошо."
     stop music fadeout 1.5
     scene black with dissolve
     $ renpy.play('foot1.wav')
@@ -2647,70 +2647,70 @@ label lilgood:
     show lilstand at right with aaa
     show osstand at left with aaa
     pause 1
-    l"Haven't you wondered..."
-    l"...what kind of book I have on my hands?"
-    o"I was just about to ask."
-    l"It's a book filled with empty pages... except the first."
-    l"A question is written there. A question that I cannot answer."
-    o"What question?"
-    l"'Who are you?'"
-    l"I think I'm supposed to write the answer down in the blank pages, but-"
-    l"Who am I?"
-    l"I... don't know anymore."
-    l"I hold this book, so when I find the answer... I can write it down here."
-    o"...Lilja, it's time for us to leave this tower."
+    l"Ты не задавалась вопросом..."
+    l"...что за книга в моих руках?"
+    o"Я как раз хотела спросить."
+    l"В этой книге одни пустые страницы... за исключением первой."
+    l"Там написан вопрос. Вопрос, на который я не в состоянии ответить."
+    o"Что за вопрос?"
+    l"'Кто ты?'"
+    l"Думаю, я должен написать ответ на этих пустых страницах, но-"
+    l"Кто я?"
+    l"Я... больше не знаю этого."
+    l"Я держу эту книгу, чтобы, когда я найду ответ... записать его."
+    o"...Лилджа, нам пора уходить из этой башни."
     l"..."
-    l"You can go. I won't hold a grudge against you or that bird."
-    l"Maybe I was meant to end like this. I will stay here and read all these books."
-    o"Don't give up so easily! Don't you want to see your friends?"
-    l"...I don't have friends..."
+    l"Ты можешь идти. Я не стану завидовать тебе или твоей пташке."
+    l"Может, мне суждено было кончить так. Я останусь здесь и прочту все эти книги."
+    o"Не сдавайся так быстро! Неужели ты не хочешь увидеть своих друзей?"
+    l"...У меня нет друзей..."
     show oswut at left with aaa
-    o"Huh?"
-    l"Nobody wants to be friends with a manic depressive like me. All the goddesses avoid me." 
+    o"А?"
+    l"Никто не хочет дружить с таким маниакальным меланхоликом. Все божества избегают меня." 
     hide oswut with aaa
-    l"I wish I had a girfriend." 
+    l"Хотел бы я иметь девушку." 
     show osmile2 at left with aaa
-    o"*chuckles*"
-    l"This isn't funny, you know."
+    o"*хихикает*"
+    l"Знаешь, это совсем не смешно."
     show osmile1 at left with aaa
     hide osmile2 with aaa
-    o"Sorry... it's just that..."
-    o"You sound like a complete loser."
+    o"Прости... просто..."
+    o"Ты говоришь, как конченый неудачник."
     l"..."
     hide osmile1 with aaa
-    o"But I can't picture you like that. You don't look like a loser."
-    o"As you said before, you {i}are{/i} gorgeous."
+    o"Но я не представляю тебя таким. Ты не похож на неудачника."
+    o"Как ты и сказал ранее {i}ты{/i} бесподобен."
     show lilsmile at right with aaa
     hide lilstand with aaa
-    l"Pfft-{w}HAHAHAHAHHAHAHA!"
+    l"Пфф-{w}ХАХАХАХАХАХАХАХА!"
     play music"lilja_theme.ogg"
-    l"You really have guts!"
+    l"А у тебя действительно кишка не тонка!"
     show lilstand at right with aaa
     hide lilsmile with aaa
-    c"Lady Os...!"
-    l"You should be my girlfriend."
+    c"Госпожа Оз...!"
+    l"Тебе следует стать моей подружкой."
     show oswut at left with aaa
-    o"Eh?"
+    o"Э?"
     show corsur at left with aaa
-    c"WHAAAAT?!"
+    c"ЧТОООО?!"
     show lilsmile at right with aaa
     hide lilstand with aaa
-    l"HAHAHAHAHAHHAAHAH! Os, have you removed your barrier?"
+    l"ХАХАХАХАХАХАХА! Оз, ты сняла барьер"
     show lilstand at right with aaa
     hide lilsmile with aaa
-    o"Y-yes, I did. Why?"
-    l"Because it's time to say goodbye."
-    o"Huh?"
-    l"I will use all the remaining energy that I have to return."
+    o"Д-да, сняла. А что?"
+    l"Пришло время попращаться."
+    o"А?"
+    l"Я использую оставшуюся у меня силу, чтобы вернуться на небеса."
     show osooo at left with aaa
-    o"No! What if you don't make it?"
-    l"It's better for me to try instead of whining all day."
-    l"Sorry, but I will never understand the advantages of being mortal."
+    o"Нет! А если у тебя не получится?"
+    l"Лучше попытаться, чем жалеть об этом всю оставшуюся жизнь."
+    l"ПРости, но я никогда не пойму, что хорошего в жизни смертного."
     o"..."
-    l"SO!"
+    l"ИТАК!"
     hide lilstand  with flashbulb
     show lilnstand at right with aaa
-    c"HOLY-"
+    c"ПРЕСВЯТАЯ-"
     show osblussh at left with aaa
     hide corsur
     show corblush at left with aaa
@@ -2721,22 +2721,22 @@ label lilgood:
     hide osstand with aaa
     hide osooo with aaa
     hide oswut with aaa
-    c"Did you have to strip yourself?!"
-    l"Yes. Where I come from, it's called fanservice."
+    c"Тебе обязательно было раздеваться?!"
+    l"Да. Там, откуда я пришел, это зовется фансервисом."
     c"..."
     show coros2 at left with aaa
     hide coros1 with aaa
-    o"And what about the book?"
+    o"А как же книга?"
     show lilnsmile at right with aaa
     hide lilnstand 
-    l"Fuck the book."
-    l"I've had a lot of fun already."
+    l"К черту книгу."
+    l"Я уже достаточно повеселился."
     window hide dissolve
     show lilroute2 with dissolve
     osub"..."
-    osub"Do you think we will see him again?"
-    csub"Who knows, my lady."
-    csub"I just hope that he visits us again. With pants."
+    osub"Думаешь, мы его еще встретим?"
+    csub"КТо знает, моя госпожа."
+    csub"Я лишь надеюсь, что когда-нибудь он вновь посетит нас. В штанах."
     stop music fadeout 1.5
     scene black with dissolve
     window hide dissolve
@@ -2754,19 +2754,19 @@ label lilbad:
     show osstand at left with aaa
     show lilstand at right with aaa
     o"..."
-    o"It's beautiful."
-    l"It is?"
-    o"Yes."
-    l"But beauty is useless."
-    o"I know."
+    o"Как красиво."
+    l"Правда?"
+    o"Да."
+    l"Но красота бесполезна."
+    o"Я знаю."
     show oscry at left with dissolve
-    l"Why are you crying?"
-    o"Because I lied. I'm not leaving this tower with all of you."
+    l"Почему ты плачешь?"
+    o"Потому что лгала. Я не собираюсь уйти из этой башни со всеми вами."
     stop music fadeout 1.5
-    o"At least, not by the door."
+    o"По крайней мере не через дверь."
     scene black with aaa 
     $ renpy.play('run.wav')
-    l"You-!"
+    l"Ты-!"
     $ renpy.play('wind2.mp3')
     window hide dissolve
     scene lbadend with flashbulb2
@@ -2783,27 +2783,27 @@ label coroutefinal:
     $ persistent.ending = "Ending 4"
     $ persistent.end_04 = True 
     show osooo at left with aaa
-    o"I-I want to tell you something."
+    o"Я-я хотела сказать тебе кое-что."
     play music "cor_theme.ogg"
     hide osooo with aaa
-    c"Hmm? What's that, my lady?"
-    o"I..." 
+    c"Мм? Что, моя госпожа?"
+    o"Я..." 
     c"...?"
-    c"My lady, can I be bold and ask you a favor?"
-    o"Yes, it's fine."
-    c"Please take that knife off your neck..."
-    o"Ah. Right, the knife."
+    c"Моя госпожа, могу я попросить вас об одолжении?"
+    o"Да, почему бы и нет."
+    c"Прошу, вытащите этот нож из своей шеи..."
+    o"Ах. Нож, точно."
     hide osstand with aaa
     show osknife at left with dissolve
-    o"Nggh..."
-    c"Lady Os!"
+    o"Нгх..."
+    c"Госпожа Оз!"
     window hide aaa
     scene black with aaa
     $ renpy.play('swordhit.wav')
     scene coroute2a with flashbulb
     pause 1
     show coroute2b with dissolve
-    osub"Eh?"
+    osub"Э?"
     pause 1
     window show dissolve
     scene bg01 with dissolve
@@ -2813,58 +2813,58 @@ label coroutefinal:
     o"...!" 
     show corhshout at right with aaa
     hide corhstand with aaa
-    c"My lady! Are you all right?"
+    c"Моя госпожа! Вы в порядке?"
     show oswut at left with aaa
-    o"That face... are you Corvus?"
+    o"Это лицо... ты Корвус?"
     show corhsmile1 at right with aaa
     hide corhshout with aaa
-    c"Why, of course. Ah, you've never seen me like this before, right?"
+    c"Что, конечно же. А, вы никогда не видели меня таким, верно?"
     hide oswut with aaa
-    o"No..."
-    c"Lord Skedel prohibited me from showing myself like this in front of you."
-    o"Why is that?"
-    c"I don't know, my lady."
+    o"Нет..."
+    c"Господин Скедел запретил мне показывать вам свою истинную форму."
+    o"Почему?"
+    c"Не знаю, моя госпожа."
     show osksmile2 at left with aaa
     hide oskstand with aaa
-    o"You're handsome!"
+    o"Ты симпатичный!"
     show corhblush2 at right with aaa
     hide corhsmile1 with aaa
-    c"Eh?"
+    c"Э?"
     show oskblush at left with aaa
     hide osksmile2 with aaa
-    o"D-did I say that out loud?"
-    c"...y-yes...?"
-    r"A few moments pass in awkward silence."
+    o"Я-я сказала это вслух?"
+    c"...д-да...?"
+    r"Несколько секунд прошло в неловкой тишине."
     pause 1
     show corhsmile2 at right with dissolve
     hide corhblush2 with aaa
-    c"What did you want to tell me?"
-    o"W-would you like...to come with me to the castle?"
-    c"But... I already live there."
+    c"ЧТо вы хотели мне сказать?"
+    o"Т-ты хотел бы...пойти со мной во вдорец?"
+    c"Но... я и так там живу."
     show oskstand at left with aaa
     hide oskblush with aaa
-    o"Not as a servant, Corvus."
-    o"As an equal."
+    o"Не в качестве слуги, Корвус."
+    o"В качестве равного."
     show corhsur at right with aaa
     hide corhsmile2 with aaa
-    c"My lady... I'm very grateful, but Lord Skedel won't allow that."
+    c"Моя госпожа... Я очень польщен, но господин Скедел не допустит такого."
     show corhstand at right with aaa
     hide corhsur with aaa
-    o"I'll talk to him. I can't just follow his will forever, you know?"
-    c"My lady...!"
+    o"Я поговорю с ним. Не могу же я всю жизнь ему подчиняться, правда?"
+    c"Моя госпожа...!"
     show corhgah at right with aaa
     hide corhstand
-    c"Please... stop. All you're doing is giving me false hope."
-    o"What are you talking about?"
-    c"...{color=#adc6ba}{i}Would it be fine to tell her?{/i}{/color}"
+    c"Прошу... остановитесь. Все, что делаете, так это даете мне ложную надежду."
+    o"Почему ты так говоришь?"
+    c"...{color=#adc6ba}{i}Нужно ли мне сказать ей?{/i}{/color}"
     show corhstand at right with aaa
     hide corhgah with aaa
     hide oskstand with aaa
     show osehh at center with aaa
-    o"Corvus? You're trembling.."
+    o"Корвус? Ты дрожишь.."
     c"..."
-    c"I-I'm sorry..."
-    c"But I can't stand it anymore."
+    c"П-прошу простить меня..."
+    c"Но я больше не могу сдерживаться."
     window hide dissolve
     scene coroute2 with dissolve
     osub"."
@@ -2876,34 +2876,34 @@ label coroutefinal:
     show snowblossom
     show coros3 at center with dissolve
     o"!"
-    c"I love you."
-    o"What are you doing?! YOU IDIOT-!"
+    c"Я люблю вас."
+    o"Что ты делаешь?! ПРИДУРОК-!"
     hide coros3 with flashbulb3
     $ renpy.play('punch.wav')
     with vpunch
     show oskblush at left with aaa
     show corhit at right with aaa
-    c"Ow!"
-    o"That was my first..."
+    c"Ау!"
+    o"Это был мой первый..."
     show corhblush2 at right with aaa
     hide corhit with aaa
-    c"Your first...?!"
+    c"Ваш первый...?!"
     hide corhblush2 with aaa
     show corhgasp at right with aaa
-    c"L-L-Lady Os, I'm so sorry- I didn't mean- please forgive this good-for-nothing servant!"
-    o"...Stop it."
+    c"Г-Г-Госпожа Оз, мне так даль- я не это имел в виду- прошу простить своего никчемного слугу!"
+    o"...Прекрати."
     show oskstand at left with aaa
     hide oskblush with aaa
-    c"Huh?"
+    c"Ха?"
     stop music fadeout 1.5
-    o"I told you. You're my equal now."
-    c"My lady..."
+    o"Я же сказала. Мы теперь равны."
+    c"Моя госпожа..."
     hide oskstand with aaa
     show oskblush2 at left with dissolve
-    o"Here, take my hand."
+    o"Вот, возьми мою руку."
     hide corhgasp with aaa
     show corhblush at right with dissolve
-    c"Yes... my lady."
+    c"Да... моя госпожа."
     scene black with dissolve
     window hide dissolve
     pause 2
