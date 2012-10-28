@@ -11,22 +11,23 @@ bg "image\bg\bg_02a.jpg",%type_nowaitdisp
 play "*4"
 
 br
-` ---I jump back instantly.@
+`    Я тут же отскакиваю назад.@
 br
 ; ???<??????(?)>
 bg "image\bg\ima_10.jpg",%type_lshutter_fst
 
-` With just lightly jumping back,
-` I increase the distance between us to many meters.\
+` Лишь легонько оттолкнувшись от земли,
+` Я от прыгиваю на несколько метров назад.\
 
-`"Eh-----?"@
-` The one who's surprised is me.@
-` Weapon still at the ready, Senpai pursues me emotionlessly.@ "----!"@
-` I run towards the school's front gate.@
-` My body is almost frighteningly light.@
-` I run as if slicing through the wind.@
+` - Э?..@
+` Удивлён сейчас я.@
+` По-прежнему держа оружие наизготовку, Сенпай хладнокровно и методично преследует меня.@ 
+` - !@
+` Я бегу к школьным воротам.@
+` Моё тело почти пугающе лёгкое.@
+` Я бегу словно рассекая ветер.@
 br
-` Even if Senpai's athletic abilities far exceed those of a human's, she can't chase me if I'm like this----\
+` Даже если физические возможности Сенпай намного превосходят силы обычного человека, так ей за мной не угнаться—\
 
 ; ????(?)<??????(?)>
 bg "image\bg\bg_03c.jpg",%type_lshutter_mid
@@ -42,47 +43,47 @@ monocro off
 bg "image\bg\bg_03c.jpg",%type_crossfade_fst
 
 
-` ----And then.@
+`     И затем.@
 br
-` My body stops suddenly.@
-` No matter how much I try to move forward, my legs won't budge.\
+` Моё тело резко останавливается.@
+` Как бы я ни старался двигаться вперёд, мои ноги не сходят с мечта.\
 
-`"-----Wha--"@
-` When I turn around, there is a sword pierced right there.@
-` A thin, nail-like sword is pierced into the ground at my feet.@
-` The sword is piercing my shadow, which seems to be the reason why I can't raise my legs from the ground.\
+` - Что...@
+` Обернувшись, я вижу торчащий меч.@
+` Тонкий, похожий на гвоздь меч торчит из земли у моих ног.@
+` Меч пронзает мою тень, и похоже именно поэтому я не могу оторвать ноги от земли.\
 
-`"Why...... you......!"@
-` I gather up all the strength in my legs.@
-` But no matter how hard I try, they don't even move one millimeter.@
+` - Ах...ты!..@
+` Я собираю всю силу в ногах.@
+` Но как бы я ни старался, они не сдвигаются ни на миллиметр.@
 br
-` ---And there.@
+`    И затем.@
 br
 ; ??<?>=???:??01(??????????)<??????(?)>
 ld c,":a;image\tachi\cel_t06c.jpg",%type_lshutter_mid
-`"How careless.@ Even if you were to run away, I bet there was a better way to do so."@
-` The member of the Burial Agency nicknamed "Bow" appears.\
+` - Как безрассудно.@ Даже если ты собирался убегать, уверена что для этого был бы способ получше.@
+` Появляется член Погребального Агентства по прозвищу «Лук».\
 
-`"Sen---pai."@
-`"I can't allow you to leave as your body has transformed into a vampire already.@ Here---I will exorcise that soul."@
+` - Сен...пай.@
+` - Теперь, когда твоё тело уже преобразовалось в тело вампира, я не могу позволить тебе уйти.@ Здесь и сейчас — я изгоню эту душу.@
 ; ?????<???????(?)>
 cl c,%type_crossfade_mid
 br
-` The sound of her footsteps.@
-` Like the sound of a condemned criminal walking up the thirteen steps of the gallows.\
+` Звук её шагов.@
+` Словно звук шагов приговорённого к казни, ступающим по тринадцати ступеням до виселицы.\
 
 ; ???<???????(?)>
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
-`"---Farewell.@ At least, with this---"@
-` She speaks in a small voice, almost inaudible.@ She plants the point of the weapon against my heart and pulls the trigger.@
+` - Прощай.@ Так, хотя бы...@
+` Она говорит тихим, почти неслышным голосом.@ Она приставляет острие оружия к моему сердцу и нажимает на курок.@
 br
-` A brief explosion.\
+` Короткий взрыв.\
 
-`"G---hu."@
-` I cough up blood.@
-` After a flash of light that seems to blow apart my brain,
-` inside my disappearing self, I see my soul, being scattered away, like the pages, of an old book.\
+` - Г—ху...@
+` Я кашляю кровью.@
+` Раздаётся вспышка света, которая словно разносит мой мозг на куски, и затем,
+` в глубинах моей исчезающей личности, я вижу, как моя душа, разлетается на ветру, словно страницы, старой книги.\
 
 ;CD-DA??
 playstop
@@ -97,6 +98,7 @@ waittimer 3000
 
 ;goto *title
 return
+
 
 
 </pre>
