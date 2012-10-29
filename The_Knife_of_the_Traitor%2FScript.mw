@@ -645,7 +645,7 @@ label start:
     c"Если судить по кинжалу, торчащему из вашей шеи, изменник пытался убить вас!" 
     c"О, я невероятно счастлив, что вы все-таки выжили, Госпожа Оз! И ваш отец будет вне себя от радости, когда снова увидит вас!"
     o"..."
-    c"Муа-ха-ха, не стоит волноваться! Мы обязательно найдем виновника и заставим его вернуть ваши воспоминания!" 
+    c"Му-ха-ха, не стоит волноваться! Мы обязательно найдем виновника и заставим его вернуть ваши воспоминания!" 
     o"..."
     stop music fadeout 1.5
     c"Я бы предложил сначала исследовать эту башню. Если остальные заснули, как и мы, то они должны постепенно просыпаться."
@@ -2949,68 +2949,68 @@ label extra:
     pause 1
     play music"ecc_theme.ogg"
     scene bg05 with dissolve
-    l"I-I can't believe I made it..."
+    l"Н-Не могу поверить, у меня получилось..."
     show lilnstand at right with dissolve
-    l"It feels I've been travelling for ages.."
+    l"Такое ощущение, будто я путешествовал много лет.."
     l"..."
-    l"I don't remember this place being so... boring."
-    r"Ahh!"
+    l"Это место не запомнилось мне таким... скучным."
+    r"Ах!"
     l"?"
-    l"Oh, it's you, Ecchin."
+    l"О, это ты, Этчин."
     show eccblush at left with dissolve
-    e"For the love of God, Lilja, cover your disgrace."
-    l"It's not my fault you're so short that your face is in my crotch."
+    e"Во имя любви к Господу, Лилджа, прикрой свои disgrace."
+    l"Я не виноват, что ты настолько мелкое, что твое лицо оказывается напротив моей промежности."
     hide eccblush with aaa
     show eccmad at left with aaa
-    e"Why- you...!"
-    l"Did you miss me?"
+    e"Что- ты...!"
+    l"Соскучилась по мне?"
     show eccstand at left with aaa
     hide eccmad with aaa
-    e"You went somewhere?"
-    r"Silence."
-    l"Yes... I was away for four years..."
-    e"Ah. I didn't notice."
-    r"Silence."
-    l"I see. No matter where I go... the only thing that awaits me is my own depression."
-    e"Come on, dude. Cheer up a little."
-    e"Oh! I know what can cheer you up!"
-    r"She takes a photo out of her pocket."
-    l"What's this?"
-    e"Hehehe, it's me in a swimsuit!"
-    l"I don't see the appeal. You're a horrible goddess of fanservice."
+    e"А ты куда-то уходил?"
+    r"Тишина."
+    l"Да... Меня не было четыре года..."
+    e"Ах. Я и не заметила."
+    r"Тишина."
+    l"Вот как. Куда бы я не пошел... везде меня ждет собственная депрессия."
+    e"Да ладно тебе, чувак. Взбодрись немного."
+    e"О! Я знаю, что тебя взбодрит!"
+    r"Она достает из кармана фото."
+    l"Что это?"
+    e"Хехехе, это я в купальнике!"
+    l"Ни капельки не возбуждает. Ты ужасная богиня фансервиса."
     show eccmad at left with aaa
     hide eccstand with aaa
-    e"W-W-W-WHAT?!"
-    l"You know what? We should totally change jobs. Your photo makes me want to kill myself."
-    e"LILJA YOU BAST-"
-    l"You lack impact! Emotion! Who the hell gave you this job-"
-    l"I'm gonna show you-"
+    e"Ч-Ч-Ч-ЧЕГО?!"
+    l"Знаешь, что? Нам надо махнуться работами. Твое фото побуждает меня покончить с собой."
+    e"ЛИЛДЖА ТЫ УБЛЮ-"
+    l"Тебе не хватает страсти! Чувственности! Какой кретин доверил тебе эту работу-"
+    l"Я покажу тебе-"
     hide lilnstand with aaa
     hide eccmad with aaa
     show fs with flashbulb
     pause 2
     show lilnstand at right with aaa
     show eccstand at left with aaa
-    e"-What the fuck?!"
+    e"-Какого хрена?!"
 label fanservice:
     
     menu:
         
-        "Gakuen Traitor":
+        "Гакуэн (Предатель - Старшеклассник?)Gakuen Traitor":
            jump gatr
-        "Rule 63":
+        "Правило номер 63":
            jump r63
-        "Fanservice Os I":
+        "Фансервис Оз I":
             jump fso1
-        "Haircuts":
+        "Прически":
            jump hcuts
-        "Fanservice Os II":
+        "Фансервис Оз II":
             jump fs02
-        "Pantyshot (it's not what you think)":
+        "Панцушот (это не то, о чем вы подумали)":
             jump pshot
-        "On the Beach":
+        "На пляже":
             jump beach
-        "PLEASE, NO MORE":
+        "УМОЛЯЮ, ХВАТИТ":
                jump exitt
                
 label gatr:
@@ -3018,29 +3018,29 @@ label gatr:
     window hide
     show fn03a with dissolve
     pause 1
-    cq"Holy moly! What's this?!"
-    lq"I bet we would be more popular this way."
-    vq"Why do I have to lend you all my glasses?"
-    lq"Because you are a mix of various fetishes."
-    vq"Ehh?!"
+    cq"Holy moly! Что это?!"
+    lq"Готов поспорить, так мы будем намного популярнее."
+    vq"Почему я должен вам все одалживать свои очки?"
+    lq"Потому что ты просто комплекс всяких фетишей."
+    vq"Эээ?!"
     scene fn03b with dissolve
     window hide
     pause 1
-    cq"GYAHAHAHAHA!"
-    vq"Excellent way to look uncool."
+    cq"ГЬЯХАХАХАХАХАХА!"
+    vq"Прекрасный способ выглядеть некруто."
     lq"..."
-    gq"What?! I can't see anything."
+    gq"Что?! Я ничего не вижу."
     scene fn03c with dissolve
     window hide
     pause 1
-    gq"Woah! I look so... smart!"
-    vq"No."
-    cq"Gahahaha- no."
+    gq"Вау! Я выгляжу таким... умным!"
+    vq"Нет."
+    cq"Гахахаха- нет."
     scene fn03d with dissolve
     window hide
     pause 1
-    vq"I-its not that I like you or anything-"
-    cq"Shh! Lady Os is watching! Just smile... he he he..."
+    vq"Н-не то, чтобы вы мне нравились или типо того-"
+    cq"Шшш! Госпожа Оз смотрит! Просто улыбнись... хе хе хе..."
     oq"..."
     scene black with dissolve
     show bg05 with aaa
@@ -3050,45 +3050,45 @@ label gatr:
     
 label  r63:
     scene black with dissolve
-    vq"What's this rule 63?"
-    lq"There is always a female version of a male character..."
-    vq"This is going to be so wrong..."
+    vq"Что за правило номер 63?"
+    lq"Всегда существует женская версия мужского персонажа..."
+    vq"Из этой идеи точно ничего хорошего не выйдет..."
     scene fn04a with dissolve
     window hide
     pause 1
-    cq"OH MY GOD-"
-    gq"Take that off the screen please!"
-    cq"*sniff*"
-    vq"You are surprisingly cute as a girl..."
-    gq"Hahahaha, Vosges likes girls his size."
-    vq"SHUT UP!"
+    cq"О МОЙ БОГ-"
+    gq"Переключите этот слайд, пожалуйста!"
+    cq"*шмыг*"
+    vq"Ты удивительно милый в виде девчонки..."
+    gq"Хахахаха, Возгесу нравятся девушки его размера."
+    vq"Заткнись!"
     scene fn04b with dissolve
     window hide
     pause 1
-    cq"Ugh."
-    gq"Fuck! It should be a sin to be this sexy."
-    vq"I guess it doesnt matter what sex you are, Gervase. You will always be stupid."
-    cq"GYAHAHA!"
-    gq"Sh-shut up you-"
+    cq"Агх."
+    gq"Черт! Это просто грешно быть настолько сексуальной."
+    vq"Должно быть неважно, какого ты пола Гервас.Ты всегда будешь тупым."
+    cq"ГЬЯХАХА!"
+    gq"З-Заткнитесь, вы-"
     scene fn04c with dissolve
     window hide
     pause 1
     cq"..."
     vq"..."
-    gq"I don't get it."
+    gq"Я не понял."
     scene fn04d with dissolve
     window hide
     pause 1
-    cq"W-"
-    vq"-H-"
-    gq"-AT!"
-    lq"I was totally expecting this."
+    cq"Ч-"
+    vq"-Т-"
+    gq"-О!"
+    lq"Именно этого я и ожидал."
     scene fn04e with dissolve
     window hide
     pause 1
-    cq"M-my lady?!"
-    gq"I can't believe she looks more macho than us."
-    vq"I knew that this was going to be so wrong."
+    cq"М-Моя госпожа?!"
+    gq"Поверить не могу, что она выглядит брутальнее нас всех."
+    vq"Я знал, что из этого ничего хорошего не выйдет."
     scene black with dissolve
     show bg05 with aaa
     show lilnstand at right with aaa
@@ -3102,20 +3102,20 @@ label fso1:
     pause 2
     cq"..."
     vq"..."
-    gq"I think I can see her underwear..."
-    cq"Is the only thing you can think about? Underwear?"
-    vq"Of course it is."
-    gq"COME ON! Don't tell me you aren't looking! Are you really guys?"
-    vq"That doesn't mean you have to think with your testicles."
-    cq"I agree with the kid."
-    lq"There's nothing to be ashamed of, you two. The world goes around sex."
-    vq"You were looking too, right?"
-    lq"...yes."
-    oq"HEY GUYS! Did you know I made a new law?"
-    oq"Every pervert caught red handed, will be impaled by the BUTT!"
-    oq"You heard me?!"
+    gq"Кажется, я вижу ее трусики..."
+    cq"Ты только об этом и можешь думать? Трусики?"
+    vq"А как же."
+    gq"ДА ЛАДНО! Только не говорите, что сами не смотрите! Вы вообще парни?"
+    vq"Это не значит, что нужно думать одним только местом."
+    cq"Я согласен с мальчиком."
+    lq"Здесь нечего стыдиться, вы двое. Мир крутится вокруг секса."
+    vq"Ты тоже смотрел, да?"
+    lq"...да."
+    oq"ЭЙ, ПАРНИ! Вы знали, что я одобрила новый закон?"
+    oq"Каждый извращенец, пойманный на месте преступления, будет КАСТРИРОВАН!"
+    oq"Вы слышали меня?!"
     pause 1
-    oq"...h-hey, it was just a joke! Ha... haha..."
+    oq"...э-эй, это была просто шутка! Ха... хаха..."
     scene black with dissolve
     show bg05 with aaa
     show lilnstand at right with aaa
@@ -3127,10 +3127,10 @@ label hcuts:
     scene fn05 with dissolve
     window hide
     pause 1
-    cq"Dannn"
-    vq"Dannnnnn"
-    gq"DANNNNNNN"
-    lq"LAHHHHHHHHHHHHHHHHHHHHHHHH"
+    cq"Черт"
+    vq"Чееееррррт"
+    gq"ЧЕЕЕЕРРРРТ"
+    lq"АААААААААААААААААХ"
     scene black with dissolve
     show bg05 with aaa
     show lilnstand at right with aaa
@@ -3142,12 +3142,12 @@ label fs02:
     scene fn02 with dissolve
     window hide
     pause 1
-    cq"M-m-m-my lady!"
-    gq"Yummy!"
-    cq"SHUT UP YOU FILTHY PERVERT! I won't allow you to look at my lady's body like that!"
-    gq"...what body? Her hair reminds me of cotton candy."
+    cq"М-м-м-моя госпожа!"
+    gq"Конфетка!"
+    cq"ЗАТКНИСЬ ЧЕРТОВ ИЗВРАЩЕНЕЦ! Я не позволю тебе так пялиться на тело моей госпожи!"
+    gq"...какое еще тело? Ее волосы похожи на сахарную вату."
     cq"..."
-    gq"You sure are a dirty bird..."
+    gq"А ты у нас испорченная птичка..."
     scene black with dissolve
     show bg05 with aaa
     show lilnstand at right with aaa
@@ -3159,9 +3159,9 @@ label pshot:
   scene fn06 with dissolve
   window hide
   pause 1
-  cq"I-I wasn't expecting anything else!"
-  vq"...me neither."
-  gq"You liars..."
+  cq"А-А я ничего другого и не ждал!"
+  vq"...и я."
+  gq"Врете..."
   scene black with dissolve
   show bg05 with aaa
   show lilnstand at right with aaa
@@ -3174,10 +3174,10 @@ label beach:
     scene fn07 with dissolve
     window hide
     pause 1
-    cq"Lala"
-    vq"Lalalala"
-    gq"LAAAAAAAAAHH"
-    lq"LAAAALALLLAAAAAAAAAAALA"
+    cq"Лала"
+    vq"Лалалала"
+    gq"ЛААААААААА"
+    lq"ЛААААААААААААААЛА"
     scene black with dissolve
     show bg05 with aaa
     show lilnstand at right with aaa
@@ -3185,26 +3185,26 @@ label beach:
     jump fanservice
     
 label exitt:
-    l"Do you really want to exit? You won't be able to see this after you get out!"
-    e"That's lame you know?"
+    l"Вы правда хотите покинуть нас? Вы не сможете увидеть все это после того, как уйдете!"
+    e"Жалко-то как, а?"
     menu:
         
-        "yes":
-            l"Ah, it can't be helped."
-            l"Well, thank you so much for wasting your precious mortal minutes with us." 
-            l"The god of gaming will be pleased with this offering."
-            l"Hope you enjoyed this gorgeous game!"
-            e"Heh. Yeah right-"
+        "да":
+            l"Эх, ну, ничего не поделаешь."
+            l"Что ж, спасибо, что потратили на нас драгоценные минуты своей смертной жизни." 
+            l"Покровитель игр будет доволен вашим подношением."
+            l"Надеюсь, вам понравилась эта бесподобная игра!"
+            e"Хех. Это точно-"
             hide lilnstand with aaa
             show lilbye at right with aaa
-            l"BYE!"
+            l"ПОКА!"
             window hide dissolve
             scene black with dissolve
             stop music fadeout 1.5
             pause 1
             return
-        "No":
-            l"Ah! Excellent."
+        "Нет":
+            l"Ах! Прекрасно."
             jump fanservice
 
 </nowiki>
