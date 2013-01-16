@@ -1,20 +1,6 @@
 [[Tsukihime|[Назад]]]
 
 <pre>
-*f252
-gosub *regard_update
-!sd
-if %sceneskip==1 && %1252==1 skip 4
-gosub *s252
-mov %1252,1
-skip 9
-`Вы уже видели эту сцену.
-`Хотите ли вы её пропустить?
-br
-selgosub `1. Да`, *skip252,
-	`2. Нет`, *s252
-skip 3
-
 
 *s252
 
@@ -68,9 +54,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 !w1000
 
 
-*skip252
-
-goto *f253
+return
 
 
 </pre>
