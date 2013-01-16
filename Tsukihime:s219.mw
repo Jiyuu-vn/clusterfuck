@@ -121,10 +121,7 @@ ld c,":a;image\tachi\aki_t03a.jpg",%type_crossfade_fst
 cl c,%type_crossfade_fst
 
 
-*skip219
-
-
-goto *f222
+return
 
 
 </pre>
