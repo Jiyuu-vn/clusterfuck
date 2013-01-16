@@ -2,20 +2,6 @@
 
 <pre>
 
-*f251
-gosub *regard_update
-!sd
-if %sceneskip==1 && %1251==1 skip 4
-gosub *s251
-mov %1251,1
-skip 9
-`Вы уже видели эту сцену.
-`Хотите ли вы её пропустить?
-br
-selgosub `1. Да`, *skip251,
-	`2. Нет`, *s251
-skip 3
-
 *s251
 
 
@@ -194,11 +180,7 @@ bg "image\bg\bg_32b.jpg",%type_lcartain_slw
 bg "image\bg\ima_10.jpg",%type_crossfade_mid
 !w2000
 
-*skip251
-
-
-inc %flgI
-goto *f253
+return
 
 </pre>
 
