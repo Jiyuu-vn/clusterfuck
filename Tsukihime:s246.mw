@@ -2,20 +2,6 @@
 
 <pre>
 
-*f246
-gosub *regard_update
-!sd
-if %sceneskip==1 && %1246==1 skip 4
-gosub *s246
-mov %1246,1
-skip 9
-`Вы уже видели эту сцену.
-`Хотите ли вы её пропустить?
-br
-selgosub `1. Да`, *skip246,
-	`2. Нет`, *s246
-skip 3
-
 *s246
 
 
@@ -62,10 +48,7 @@ br
 ` Даже не знаю, что тут можно сделать...\
 
 
-*skip246
-
-if %flg1>=1 goto *f248
-goto *f247
+return
 
 
 
