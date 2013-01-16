@@ -2,20 +2,6 @@
 
 <pre>
 
-*f247
-gosub *regard_update
-!sd
-if %sceneskip==1 && %1247==1 skip 4
-gosub *s247
-mov %1247,1
-skip 9
-`Вы уже видели эту сцену.
-`Хотите ли вы её пропустить?
-br
-selgosub `1. Да`, *skip247,
-	`2. Нет`, *s247
-skip 3
-
 *s247
 
 
@@ -50,11 +36,7 @@ bg "image\bg\ima_10.jpg",%type_lcartain_mid
 
 
 
-*skip247
-
-
-goto *f249
-
+return
 
 </pre>
 
