@@ -141,12 +141,7 @@ bg "image\bg\bg_33a.jpg",%type_lcartain_mid
 br
 
 
-*skip200
-
-
-select `1. Извинюсь.`, *f219,
-	`2. Попытаюсь её провести.`, *f220,
-	`3. Скажу правду.`, *f221
+return
 
 
 </pre>
