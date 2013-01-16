@@ -2,20 +2,6 @@
 
 <pre>
 
-*f244
-gosub *regard_update
-!sd
-if %sceneskip==1 && %1244==1 skip 4
-gosub *s244
-mov %1244,1
-skip 9
-`Вы уже видели эту сцену.
-`Хотите ли вы её пропустить?
-br
-selgosub `1. Да`, *skip244,
-	`2. Нет`, *s244
-skip 3
-
 *s244
 
 
@@ -73,10 +59,7 @@ br
 cl c,%type_crossfade_mid
 
 
-*skip244
-
-select `1. Пойду с Арихико в столовую.`, *f245,
-	`2. Пойду к Семпай, пусть даже она и не хочет меня видеть.`, *f246
+return
 
 
 </pre>
