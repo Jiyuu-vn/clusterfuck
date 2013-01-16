@@ -84,11 +84,8 @@ ld c,":a;image\tachi\cel_t02.jpg",%type_crossfade_fst
 br
 
 
-*skip230
+return
 
-
-select `1. Нет. Я ж помру от смущения.`, *f231,
-	`2. Наплевать. Киваю.`, *f232
 </pre>
 
 [[Tsukihime|[Назад]]]
