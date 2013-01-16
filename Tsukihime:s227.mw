@@ -295,11 +295,7 @@ cl l,%type_lshutter_fst
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-*skip227
-
-
-inc %flgD
-goto *f228
+return
 
 
 </pre>
