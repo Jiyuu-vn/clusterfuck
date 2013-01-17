@@ -119,11 +119,7 @@ ld c,":a;image\tachi\ari_t02.jpg",%type_lshutter_fst
 br
 
 
-*skip225
-
-
-select `1. ...пожалуй, поем.`, *f226,
-	`2. ...лучше не стану есть.`, *f227
+return
 
 </pre>
 
