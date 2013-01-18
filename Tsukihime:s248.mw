@@ -299,11 +299,8 @@ cl a,%type_crossfade_fst
 bg "image\bg\ima_10.jpg",%type_crossfade_slw
 
 
-*skip248
-
-
-inc %ciel_regard
-goto *f249
+return
+</pre>
 
 [[Tsukihime|[Назад]]]
 
