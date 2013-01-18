@@ -410,4 +410,14 @@ br
 ;CD-DA停止
 playstop
 
+;-------------------------------------------------------------------------------
+;	終了
+cl a,%type_waitdisp
+bg "image\word\fin.jpg",%type_crossfade_slw
+
+resettimer
+waittimer 3000
+
+
+goto *title2
 </pre>
