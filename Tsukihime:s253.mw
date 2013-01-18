@@ -1,4 +1,4 @@
-<poem>
+<pre>
 *f253
 gosub *regard_update
 !sd
@@ -1036,10 +1036,7 @@ cl c,%type_crossfade_fst
 
 `— Какой сон?@ Это…@
 
-*skip253
-
-
-if %flg4>=1 goto *f254
-goto *f255</poem>
+return
+</pre>
 
 [[Категория:Tsukihime]]
