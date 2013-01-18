@@ -1,21 +1,6 @@
 [[Tsukihime|[Назад]]]
 
 <pre>
-
-*f248
-gosub *regard_update
-!sd
-if %sceneskip==1 && %1248==1 skip 4
-gosub *s248
-mov %1248,1
-skip 9
-`Вы уже видели эту сцену.
-`Хотите ли вы её пропустить?
-br
-selgosub `1. Да`, *skip248,
-	`2. Нет`, *s248
-skip 3
-
 *s248
 
 
