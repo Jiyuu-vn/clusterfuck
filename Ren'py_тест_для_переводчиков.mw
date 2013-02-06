@@ -68,13 +68,13 @@ label start:
     ri "Н-нет, меня всерьез зовут Рику..."
     no "Тьфу. Я совсем не то имела ввиду, глупый."
     
-    "And so, a lost butterfly, brought by the wind and taken away just as unpredictably by the wind, lead me to Nonami Kitahara."
-    "An act of random chance. Had the wind blown any other direction, had there been no butterfly, had I not been standing at that exact place at that exact time, I would never have met her."
-    "An act of fate."
+    "Вот так, упущенная бабочка, принесенная ветром и им же непредсказуемо унесенная, привела меня к Нонами Китахара."
+    "Так захотел случай. Если бы ветер дул в другом направлении, если бы не было той бабочки, если бы я не остановился именно в этом месте и именно в это время, то я никогда не познакомился бы с ней."
+    "Так захотела судьба."
     
-    "Like the notes of a piano, a hundred seemingly random noises come together to create a single melody."
-    "Like the random, uncontrollable wind that brought me to Nonami that day, the same wind could just as easily take her away for eternity."
-    "Chaos. The inescapable law of our lives."
+    "Как ноты фортепиано, когда сотни казалось бы случайных звуков сливаются вместе чтобы образовать единую мелодию."
+    "Как случайный, неконтролируемый ветер, что привел меня к Нонами тем днем, тот же ветер мог легко забрать ее у меня."
+    "Хаос. Неизбежный закон наших жизней."
     
     scene bg black with dissolvelong
     $ renpy.movie_cutscene("CG/OP.mpg", stop_music=True)
