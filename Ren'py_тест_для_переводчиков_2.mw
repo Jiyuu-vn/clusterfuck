@@ -1,0 +1,277 @@
+[[Категория:Переводы]]
+[[Категория:Информация]]
+[[Тесты для переводчиков|[Назад]]]
+<poem>
+
+«Технический» текст переводить не надо. Только то, что в кавычках и похоже на осмысленный текст :).
+
+----
+
+label start:
+    
+    stop music
+    
+    scene one
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    "July 16th, 1905."
+    
+    play music "funeral.mp3"
+    
+    "The rain pours outside."
+    
+    play sound "rain01.mp3"
+
+    scene bg cemetery
+    with fade
+
+    "It was raining a week ago as well."
+    
+    "When it happened."
+    
+    scene bg cemetery
+    with flash
+    
+    "They said she drowned."
+    
+    "Her horse and buggy went off the New York and Brooklyn Bridge."
+    
+    priest "Here we honor..."
+    
+    "They never found the body. Only the buggy itself surfaced after much searching."
+    
+    priest "Her time had not come yet. So young, so vibrant, so full of youth..."
+    
+    "We were engaged to be married only a week later."
+    
+    "The circumstances surrounding her death were sketchy. Apparently, her buggy had been one of only two buggies on the bridge at the time."
+    
+    "9:03 AM. The time stuck with me. I was at home, sleeping, when they came to tell me."
+    
+    "The priest has stopped his incessant droning."
+    
+    "The crowds start moving away."
+    
+    "I guess it's time for me to leave, too."
+    
+    scene bg street2
+    with fade
+    
+    "It's still raining."
+    
+    play sound "rain01.mp3"
+    
+    "What miserable weather..."
+    
+    "I'm miserable..."
+    
+    j "Woe is me!!!!"
+    
+    "The people in the street stop to stare..."
+    
+    "I guess I'll slip into this alleyway to escape the stares of bystanders..."
+    
+    scene bg alleyway2
+    with fade
+    
+    "This alleyway seems to be empty."
+    
+    "Empty like my heart."
+    
+    j "Why did Gladys have to die?!"
+    
+    j "She touched my heart... She made me whole... She..."
+    
+    "Oh, look, a bar!"
+    
+    j "Hooray, BEER!"
+    
+    play sound "door03.wav"
+    
+    "..."
+    
+    scene bg bar
+    with fade
+    stop music
+    play music "members only.mp3"
+    
+    "The air is warm and hazy."
+    
+    j "Give me a martini, shaken, not stirred."
+    
+    "What am I saying..."
+    
+    "I sit down at one of the stools."
+    
+    "A girl is sitting next to me."
+    
+    show m embarrassed
+    with dissolve
+    
+    m1 "..."
+    
+    "She looks... depressed..."
+    
+    j "Hey, miss, would like to come over my place later?"
+    
+    "She glares."
+    
+    show m angry
+    with dissolve
+    
+    "I guess she's not depressed."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Who do you think you are?"
+    
+    show m angry
+    with dissolve
+    
+    bartender "Umm, sir, here's your drink... shaken not stirred...?"
+    
+    play sound "glass.wav"
+    
+    "The bartender runs away from the approaching storm..."
+    
+    "Maybe I should slip away too..."
+    
+    "Just as I get up to run..."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Don't you dare run away!"
+    
+    "Crap."
+    
+    m1 "That's right. I'm talking to you."
+    
+    "Double crap..."
+    
+    m1 "You know, I HATE people like you. You think that you can pick up any girl you want. Well, today, MISTER, you have another thing coming."
+    
+    show m angry
+    with dissolve
+    
+    "....why me....?"
+    
+    "Wait a minute. Why am I letting a girl talk me down? I'll show HER who I am..."
+    
+    j "Wait, let me explain!"
+    
+    "Here's where I go in for the kill..."
+    
+    j "My fiancé just died, and I'm just drowning away my sorrows in martinis and women... PLEASE DON'T KILL ME!"
+    
+    "Oops."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Oh, spare the explanation, I'm too dizzy to hurt you right now..."
+    
+    show m thinking
+    with dissolve
+    
+    "She slumps back into her seat."
+    
+    "I guess I'm off the hook for now."
+    
+    "She suddenly sits up in her seat."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "You say your fiancé just died?"
+    
+    show m angry
+    with dissolve
+    
+    "Oh boy, another teary-eyed sympathetic girl..."
+    
+    j "Yeah, her horse and buggy kind of... rolled off the bridge..."
+    
+    show m shocked
+    with dissolve
+    
+    m1 "Oh..."
+    
+    show m embarrassed
+    with dissolve
+    
+    "Mmmmm, awkward silence. My favorite."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Well, I'm sorry, ok?"
+    
+    show m embarrassed
+    with dissolve
+    
+    j "..."
+    
+    m1 "..."
+    
+    j "..."
+    
+    m1 "..."
+    
+    j "..."
+    
+    "...this is fun..."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Well, in case you were wondering, my name's Melissa Tempse, but you can call me Mel."
+    
+    show m angry
+    with dissolve
+    
+    "I don't care..."
+    
+    j "My name's Joshua McDermouth, but you call me what I tell you to call me. And I say, call me Joshua."
+    
+    "Ah, aren't I smooth with women? This is why people call me..."
+    
+    play sound "punch.wav"
+    show bg bar
+    with hpunch
+    
+    j "OWWW! WHAT THE HELL WAS THAT FOR?"
+    
+    show m smug
+    with dissolve
+    
+    m "That was for you being a jerk."
+    
+    "What the..."
+    
+    play sound "punch.wav"
+    show bg bar
+    with vpunch
+    show m smug
+    
+    m "And that was just because I don't like you."
+    
+    "Ah... I think my vision's going out..."
+    
+    show bg black
+    with fade
+    
+    "Oh, you bitch..."
+    
+    hide m smug
+    with dissolve
+    stop music
+</poem>
