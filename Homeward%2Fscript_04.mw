@@ -10,7 +10,7 @@
     
     window show dissolve
     scene bg street4 with dissolve
-    play music "Music/Julians_Auftritt.ogg" fadeout 1.5 loop        
+    play music "Music/Julians_Auftritt.ogg" fadeout 1.5 loop 
 
     show nonami uniform neutral with dissolve:
         xanchor 0.5
@@ -24,73 +24,73 @@
         xanchor 0.5
         xpos 0.8
 
-    "We were walking to school together when Nonami suddenly brought it up."
+    "Мы шли в школу все вместе, когда Нонами вдруг вспомнила."
     
     show nonami uniform armscrossed smile with dissolve
     
-    no "Golden Week's coming up soon, isn't it?"
+    no "Скоро же Золотая Неделя, не так ли?"
     
     show haruka uniform smile with dissolve:
         xpos 0.2
     
-    ha "That's right, isn't it. Does Nona-chan have anything planned?"
-    no "Umm... Not really."
-    ha "What about Saionji-san and Sora-chan?"
-    ri "Sora and I are going to Seattle."
+    ha "Ты права. Нона-тян, у тебя есть какие-то планы?"
+    no "Хмм... Вообще-то нет."
+    ha "А что насчёт Саёнджи-сана и Соры-тян?"
+    ri "Мы с Сорой едем в Сиэттл."
     
     show nonami uniform armscrossed gloom with dissolve
-    no "Eh... That sounds nice."
+    no "Эх... Звучит здорово."
     no "... ... ..."
     
     show nonami uniform surprise with dissolve
-    no "EHHHHHHHH!?!?"
+    no "ЭЭЭЭЭЭЭЭЭЭ!?!?"
     
     show haruka uniform handstogether forcedsmile with dissolve:
         xpos 0.2
         
-    ha "That's pretty incredible, huh..."
+    ha "Это потрясающе, хех…"
     
     ##show nonami uniform neutral teary with dissolve
-    no "Uuu... Rii-kun..."
+    no "Ууу... Рии-кун..."
     
     show nonami uniform excited teary with dissolve
-    no "Please take me with you!"
-    "I don't think that would possible..."
+    no "Возьми меня с собой, пожалуйста!"
+    "Не думаю что это возможно..."
     
     ##show nonami uniform neutral teary with dissolve
-    no "*sniff* *sniff* Wouldn't it be nice to be an American like Rii-kun..."
-    "You know, I'm sure a lot of other Japanese people visit the American West Coast for Golden Week too."
+    no "*сопит* *сопит* Здорово быть американцем, как Рии-кун..."
+    "Знаешь, я уверен, что многие японцы путешествуют на западное побережье Америки, в Золотую Неделю."
     
     show haruka uniform handraised forcedsmile with dissolve:
         xpos 0.2
         
-    ha "Has Sora-chan ever traveled abroad before?"
+    ha "Сора-тян раньше была за границей?"
     
     show sora uniform armscrossed neutral with dissolve:
         xpos 0.8
-    so "U-uhn. This will be my first time."
+    so "Н-нет. Это будет мой первый раз."
     
     show haruka uniform handstogether smile with dissolve:
         xpos 0.2
-    ha "It sounds like you two will have a lot of fun."
+    ha "Похоже вы вдвоём хорошо проведёте время."
     
     show sora uniform armscrossed eyesclosed with dissolve:
         xpos 0.8
-    so "Mm, mm. But I can't speak any English."
-    ha "Eh-heh, as long as your brother's with you, I don't think it'll be a problem."
+    so "Мм, мм. Но я не говорю по-английски."
+    ha "Хе-хе, пока твой брат с тобой, проблем не должно возникнуть."
     
     show nonami uniform excited frustrated with dissolve
-    no "Uuuu... No fair... I wanna go too!"
+    no "Уууу... Так нечестно... Я тоже хочу поехать!"
     
     scene bg outsideschool with dissolve
-    "Soon, we arrived at school."
-    "I thought that Nonami would forget everything about it by lunch time, but she continued to pout for the rest of the day."
-    "Oh, oh... Maybe I should have just stayed quiet..."
+    "Скоро мы пришли в школу."
+    "Я думал, что Нонами забудет об этом во время обеда, но она дулась на меня весь день."
+    "Ох, ох... Возможно если я буду вести себя тише..."
     
-    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop    
+    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop 
     scene bg seattlestreet1 with dissolve
     
-    "And yet, when Golden Week came..."
+    "И всё же, когда наступила Золотая Неделя..."
     
     show nonami casual neutral happy with dissolve
     show haruka casual handsbehind forcedsmile with dissolve:
@@ -99,35 +99,35 @@
     show sora casual tanuki onearmdown neutral with dissolve:
         xanchor 0.5
         xpos 0.8
-    no "Uwaaahhh! Look, look, Rii-kun! It's the Supeesu Niidoru!"
-    "It's called the Space Needle. Nobody is going to understand if you say it like that, Nonami..."
-    no "Amazing! Look, look, Rii-kun! They're Americans!"
-    "I felt tempted to hide my face in embarrassment. Please stop drawing so much attention to us, Nonami..."
+    no "Ваааааа! Смотри, смотри, Рии-кун! Это же Супээйсу Ниидору!"
+    "Это называется Спэйс Нидлл. Никто не сможет понять, что ты имеешь ввиду, Нонами..."
+    no "Невероятно! Смотри, смотри, Рии-кун! Это же Американцы!"
+    "От стыда мне пришлось спрятать своё лицо. Пожалуйста, прекрати привлекать к нам столько внимания, Нонами..."
     
     show nonami casual excited happy with dissolve
-    no "Uwaahhh! They're speaking English!"
-    "Did you expect them to speak German?"
+    no "Ваааааау! Они говорят по-английски!"
+    "Неужели ты думала, что они будут говорить по-английски?"
     
     show haruka casual handsbehind forcedsmile with dissolve:
         xpos 0.2
-    ha "Eh-heh... Sorry, Saionji-san... But Nona-chan really insisted..."
+    ha "Эх-хех... Прости... Но Нона-тян так настаивала…"
     
     show sora casual tanuki neutral with dissolve:
         xpos 0.8
-    so "Unexpected increase in party size."
+    so "Неожиданное пополнение в группе."
     
     show nonami casual armsraised smile2 with dissolve
-    no "Wooaaahhh!!! There really are Starbucks and Seattle's Bests around every corner!"
-    "Somebody please tell me..."
-    ri "Just how did everything turn out this way...?"
+    no "Вооооаааа!!! There really are Starbucks and Seattle's Bests around every corner!"
+    "Кто-нибудь, скажите мне, пожалуйста..."
+    ri "Как же так получилось…?"
     
 #####################
     
     play music "Music/Scheming_Weasel.ogg" fadeout 1.5 loop
     scene bg airport with dissolve
     
-    "Eight hours prior:"
-    "Sora and I were at the airport, waiting for our flight, when unbeknown to us, a dark conspiracy was unfolding behind our very backs..."
+    "Восемь часов назад:"
+    "Мы с Сорой были в аэропорту, ожидая нашего рейса, когда тайком, за нашими спинами разворачивался тёмный заговор..."
     show nonami casual armscrossed suspicious with dissolve:
         xanchor 0.5
         xpos 0.3
@@ -135,68 +135,68 @@
         xanchor 0.5
         xpos 0.7
 
-    no "Oh! There they are..."
+    no "О! Так вот где они..."
     
     show haruka casual handsbehind forcedsmile with dissolve:
         xpos 0.7
-    ha "N-Nona-chan... why don't we just go up to them and say hello?"
+    ha "Н-Нона-тян... почему бы нам просто не подойти к ним и не поздороваться?"
     
     show nonami casual armscrossed confident with dissolve:
         xpos 0.3
-    no "No, no! We have to wait... or else the impact will all be gone. It's all about the impact, Haru-chan!"
-    ha "Eh-heh... I don't really understand..."
-    no "It's just like you wake up on Christmas morning and find a present that hasn't been wrapped! Or you watch a movie, but you're already spoiled from watching the previews!"
-    ha "Ehehehe... Meaning...?"
+    no "Нет, нет! Мы должны ждать... иначе не  будет результата. Это всё ради результата, Хару-тян!"
+    ha "Кхм... Я не совсем понимаю..."
+    no "Ну например, когда ты просыпаешься в Рождество и видишь неупакованный подарок! Или когда ты смотришь фильм, зная чем там всё закончится!"
+    ha "Эхехехехе... Значит...?"
     
     show nonami casual armscrossed smile2 with dissolve:
         xpos 0.3
-    no "Basically, we're going to surprise Rii-kun and Sora-chan. If we just waltz right up to them and tell them that your parents bought us tickets too, then the surprise factor is going to be lost."
+    no " Наша главная задача – устроить сюрприз Рии-куну и Соре-тян. Если мы просто встанем перед ними и скажем что родители купили нам такие же билеты, то будет утерян весь элемент неожиданности."
     
     show haruka casual handfront forcedsmile with dissolve:
         xpos 0.7
-    ha "I-is that so?"
+    ha "В-Вот значит как?"
     
     show nonami casual armscrossed confident with dissolve:
         xpos 0.3
-    no "Uhn, uhn! That's why we absolutely cannot reveal ourselves until the very last moment!"
-    ha "I see..."
-    "They creeped up behind us. As soon as it seemed like I was turning to face their direction, Nonami opened up a newspaper and covered her face."
+    no "Ха, ха! Мы не должны раскрывать себя до самого последнего момента!"
+    ha "Понятно..."
+    "Они подкрались к нам. Как только казалось, что я поворачиваюсь к ним, Нонами закрывала своё лицо газетой."
     
     show nonami casual armscrossed irritated with dissolve:
         xpos 0.3
-    no "Whew. Close call."
+    no "Фух. Было опасно."
     
     show nonami casual neutral with dissolve:
         xpos 0.3
-    no "Mm. I think the coast is clear for now."
+    no "Мм. Думаю, путь чист."
     
-    show haruka casual handfront forcedsmile with dissolve:    
+    show haruka casual handfront forcedsmile with dissolve: 
         xpos 0.7
-    ha "T-then, I think I'll just go to the washroom for a bit."
+    ha "Я-я отойду в туалет на пару минут."
     
     show nonami casual neutral irritated with dissolve:
         xpos 0.3
-    no "Eh? But-"
+    no "Э? Но-"
     
     show haruka casual handstogether forcedsmile with dissolve:
         xpos 0.7
-    ha "The toilets on the airplane are just a bit..."
-    no "Ah, well, I guess it couldn't be helped. Remember, you must avoid exposing our cover no matter what!"
-    ha "Okay, I understand."
+    ha "Туалеты в самолёте немного..."
+    no "Эх, похоже ничего не поделаешь. Помни, что мы не должны быть раскрыты в любом случае!"
+    ha "Хорошо, я поняла."
     
     hide haruka with dissolve
     
     hide nonami with dissolve
     show nonami casual armscrossed confident with dissolve
-    no "Now, to continue surveillance of our target..."
+    no "Итак, продолжим наблюдать за целью…"
     "Nonami returned her sights to where we were sitting, only to realize that I was just with my father now."
     
     show nonami casual neutral baffled with dissolve
-    no "Eh? Where did Sora-chan go?"
+    no "Э? Куда подевалась Сора-тян?"
     
     scene bg airportwashroom with dissolve
     
-    "Haruka was washing her hands at the washroom when a familiar looking face suddenly entered."
+    "Харука мыла руки, когда внезапно вошёл кое-кто знакомый."
     show haruka casual handstogether happy with dissolve:
         xanchor 0.5
         xpos 0.7
@@ -205,7 +205,7 @@
         xanchor 0.5
         xpos 0.3
 
-    ha "Ah, Sora-chan, good day to you."
+    ha "А, Сора-тян, добрый день."
     
     show sora casual tanuki sweatdrop with dissolve:
         xpos 0.3
@@ -219,37 +219,37 @@
     
     show haruka casual excited hurt with dissolve:
         xpos 0.7
-    ha "Uuu... I messed up."
+    ha "Ууу…я облажалась…"
     
     show sora casual tanuki neutral with dissolve:
         xpos 0.3
-    so "What are you doing here?"
+    so "Что ты здесь делаешь?"
     
     show haruka casual handsbehind forcedsmile with dissolve:
         xpos 0.7
-    ha "Umm... That's... Ahh..."
+    ha "Ну... Это... Ахх..."
     
     show haruka casual excited embarassed with dissolve:
         xpos 0.7
-    ha "Ahh... Ahh... Haru-chan's working part time at the airport now!"
+    ha "Нну... Ахх... Хару-тян подрабатывает в аэропорту!"
     
     show sora casual tanuki suspicious with dissolve:
         xpos 0.3
-    so "Ehhh... I see..."
+    so "Эххх... Понятно..."
     
     show haruka casual excited embarassed sweatdrop with dissolve:
         xpos 0.7
-    ha "Eh-heh..."
+    ha "Эх-хех..."
     so "... ... ..."
     
     show sora casual tanuki closedeyes with dissolve:
         xpos 0.3
-    so "How about I just didn't see you right now."
+    so "Как насчёт того, чтобы я больше тебя не видела здесь?"
     
     show haruka casual handstogether smile with dissolve:
         xpos 0.7
-    ha "Thank-you, Sora-chan... You're a life saver."
-    "Sora grabbed her hand bag and returned back to the waiting area."
+    ha "Спасибо, Сора-тян... Ты мой спаситель."
+    "Сора взяла свою сумку и направилась в зал ожидания."
     
     scene bg airport with dissolve
     
@@ -259,91 +259,91 @@
     show nonami casual neutral happy with dissolve:
         xanchor 0.5
         xpos 0.7
-    no "Oh! You're back! How'd it go?"
+    no "О! Ты вернулась! Где была?"
     
     show haruka casual handsbehind forcedsmile with dissolve:
         xpos 0.3
-    ha "Eh-heh... Uhh... I don't think there were any big problems."
-    "Just then, the boarding announcement came on the P.A."
+    ha "Эх-хех... Ухх... Не думаю что это такая большая проблема."
+    "Прозвучало сообщение о посадке в самолёт."
     
     show nonami casual excited smile with dissolve:
         xpos 0.7
-    no "Come on, let's get going, Haru-chan!"
+    no "Давай, идём же, Хару-тян!"
     
     show haruka casual neutral concern with dissolve:
         xpos 0.3
-    ha "Umm... Wait one moment..."
+    ha "Эммм... подожди секундочку..."
     
     show haruka casual excited surprise with dissolve:
         xpos 0.3
-    ha "Ehhhh!? I can't find my passport!"
+    ha "Аааааа!? Я не могу найти свой паспорт!"
     
     show nonami casual neutral surprise with dissolve:
         xpos 0.7
-    no "W-WHAT!?"
+    no "Ч-ЧТО!?"
     
     show haruka casual handstogether forcedsmile with dissolve:
         xpos 0.3
-    ha "Ummm... Ummm... I had it in my hand bag just a moment ago..."
+    ha "Эммм... Эммм... Он был в мое сумке минуту назад..."
     
     show haruka casual neutral surprise sweatdrop with dissolve:
         xpos 0.3
-    ha "Ah."
-    no "What? What was that \'ah\' about?"
+    ha "Ах."
+    no "Что? К чему это /Ах/?"
     
     show haruka casual neutral forcedsmile sweatdrop with dissolve:
         xpos 0.3
-    ha "L-look..."
-    "Haruka pointed to Sora, who was coincidentally carrying the same hand bag as hers."
-    ha "S-somehow, I think my purse got swapped with Sora's!"
-    ha "Look, look! Here's Sora's passport right here!"
-    "Haruka pulled out Sora's passport from her hand bag."
+    ha "С-смотри..."
+    "Харука указала пальцем на Сору, в руках которой была такая же сумка."
+    ha "Т-Так или иначе, я думаю что моя сумка у Соры!"
+    ha "Смотри, смотри! Здесь паспорт Соры!"
+    "Харука достала паспорт Соры из сумки."
     
     show nonami casual excited surprise with dissolve:
         xpos 0.7
-    no "WHHHAAATTTTT!? How did something like that happen!?"
+    no "ЧЧЧЧТТТТТТООООО!? Как такое вообще могло произойти!?"
     
     show haruka casual handfront forcedsmile blush with dissolve:
         xpos 0.3
-    ha "Eh-heh... A-anyways, we need to get my purse back!"
+    ha "Эх-хех... В любом случае мы должны вернуть сумку обратно!"
     
     show nonami casual armscrossed irritated with dissolve:
         xpos 0.7
-    no "B-but how do we pull something like that off without exposing ourselves!?"
+    no "Но как мы можем отдать его, не раскрывая себя!?"
     
     show haruka casual excited hurt with dissolve:
         xpos 0.3
-    ha "Uuuuu... Stupid, stupid Haru-chan..."
+    ha "Уууу... Глупая, глупая Хару-тян..."
     
     show nonami casual neutral surprise with dissolve:
         xpos 0.7
-    no "A-anyways, we need to get on that plane!"
-    "Nonami pulled out a pair of oversized sunglasses and donned a ridiculous looking hat."
+    no "В-В любом случае, мы должны попасть на этот самолёт!"
+    "Нонами надела огромные солнцезащитные очки и странную, смешную шляпу."
     
     show nonami casual neutral irritated hat with dissolve:
         xpos 0.7
-    no "Here, let's try this! Gimme your hand bag!"
+    no "Эй, давай попробуем! Дай мне сумку!"
     
     hide haruka with dissolve
     hide nonami with dissolve
-    show nonami casual neutral irritated hat with dissolve    
+    show nonami casual neutral irritated hat with dissolve 
     "Nonami wandered towards me and Sora."
     "At the last moment, she pretended to trip and accidentally knocked Sora's hand bag out of her hand."
     
     show nonami casual neutral mockhappy hat with dissolve
-    no "Ooooohhh! Ai amu beeri soorii!"
+    no "Оооооххх! Ай эму вээри соории!"
     ri "... ... ..."
-    no "Ai amu aa amerikan!"
+    no "Ай эму ээ эмерикан!"
     so "... ... ..."
-    no "Hia izu yoru bagu!"
-    "Nonami swapped the two hand bags and offered Sora hers back."
+    no "Хиа изу ёр бэгу!"
+    "Нонами поменяла сумки местами."
     
     show haruka casual handsbehind forcedsmile behind nonami with dissolve:
         xanchor 0.5
         xpos 0.6
 
     ha "... ... ..."
-    ri "You know, we can totally tell that it's you, Nonami."
+    ri "Знаешь, мы с уверенностью можем сказать что это ты, Нонами."
 
     show sora casual tanuki onearmdown neutral with dissolve:
         xanchor 0.5
@@ -351,40 +351,40 @@
     so "Uhn. Uhn. Terrible disguise."
     
     show nonami casual neutral irritated hat with dissolve
-    no "N-Nonami?"
-    no "W-whoever would that be?"
-    "I guess her bad English ran out at that point."
-    "Haruka appeared from behind her and apologized."
+    no "Н-Нонами?"
+    no "К-кто бы это мог быть?"
+    "Её ужасный английский вдруг испарился."
+    "Харука появилась у неё за спиной и принялась извиняться."
     
     show haruka casual handfront forcedsmile with dissolve:
         xpos 0.8
-    ha "Eh-heh... I'm terribly sorry about all this, Sora-chan, Saionji-san..."
+    ha "Эх-хех... Мне очень жаль, Сора-тян, Саёнджи-сан..."
     
     show nonami casual armscrossed gloom hat with dissolve
-    no "Uuu... Is our plan foiled already? But we haven't even taken off the ground yet..."
-    "What plan?"
-    ha "Since Nona-chan was really disappointed that she couldn't spend Golden Week with you two, we thought that it would be nice if we could all go to Seattle together."
-    ha "I'm sorry for all the inconvenience this caused you."
-    ri "No, it's not like it's an inconvenience or anything..."
-    so "Just a big surprise."
+    no "Ууу... Неужели наш план уже провалился? Но мы ещё даже не в самолёте..."
+    "Что ещё за план?"
+    ha "Нона-тян была очень разочарована тем, что она не может провести Золотую неделю с вами,и мы подумали, что было бы неплохо отправиться в Сиэтл вместе."
+    ha "Прошу прощения за доставленные неприятности."
+    ri "Нет, не думаю, что вы доставили нам неудобства"
+    so "Лишь сильно удивили."
     
     show nonami casual neutral happy hat with dissolve
-    no "Oh! D-does this mean..."
-    no "That our plan was a success after all!? Hey, you were surprised too, weren't you, Rii-kun?"
-    "Surprised? I guess in a strange kind of way, like the feeling you get when you're walking along barefoot and you happen to step on a pile of goo or something..."
-    ri "Uhhh... I guess a little bit surprised."
+    no "О! Так это значит..."
+    no "Что наш план всё таки сработал!? Это было сюрпризом для вас, правда же, Рии-кун?"
+    "Сюрприз? Это чувство похоже на то, которое испытываешь, когда идёшь и наступаешь в какую-нибудь кучу слизи или ещё чего похуже..."
+    ri "Эххх… Да, я немного удивился."
    
     show nonami casual excited smile2 hat with dissolve
-    no "All right! Mission success!"
-    "Whatever that meant."
-    "...In the end, we ended up going to Seattle together after all..."
-    "You know, they could have just told us that they were going to go too from the very beginning."
-    "Sometimes, Nonami really does take things a little bit too far..."
+    no "Отлично! Миссия прошла успешно!"
+    "Что бы это ни значило..."
+    "...В конце концов мы оправились в Сиэтл все вместе..."
+    "Знаете, они могли просто сказать что собираются с нами с самого начала"
+    "Иногда Нонами такое выкидывает..."
     
-    play music "Music/Investigations.ogg" fadeout 1.5 loop    
+    play music "Music/Investigations.ogg" fadeout 1.5 loop 
     
     scene bg seattlestreet2 with dissolve
-    "A busy street greeted us once we left our hotel."
+    "Шумная улица встретила нас, как только мы вышли из отеля"
     
     show nonami casual neutral with dissolve
     show haruka casual neutral with dissolve:
@@ -394,62 +394,62 @@
         xanchor 0.5
         xpos 0.8
     
-    ri "Now, where should we go?"
+    ri "Итак, куда мы пойдём?"
     
     show nonami casual excited happy with dissolve
     
-    no "Oh! Let's go to the Supeesu Niidoru!"
+    no "О! Давайте пойдём в Супээйсу Ниидору!"
     
     show haruka casual handsbehind forcedsmile with dissolve:
         xpos 0.2
     
-    ha "Eh-heh... It's called the Space Needle, Nona-chan..."
-    "You truly are the best, Haru-chan..."
-    ri "We need to ride the bus to go there. Come on, follow me."
-    "I led our group to the nearest bus stop."
-    "Shortly afterwards, a bus arrived."
-    "The gates opened, and people came out."
+    ha "Эх-хех... Оно называется Спэйс Нидл, Нона-тян..."
+    "У тебя лучше получается, Хару-тян..."
+    ri "Мы должны сесть на автобус, чтобы попасть туда. Все за мной."
+    "Я повёл нашу группу к ближайшей автобусной остановке."
+    "После короткого ожидания, автобус прибыл."
+    "Дверь открылась и люди вышли из автобуса."
     
     show nonami casual armscrossed neutral with dissolve
     show haruka casual neutral with dissolve:
         xpos 0.2
     
-    no "Mmm..."
+    no "Ммм..."
     
     show nonami casual armscrossed irritated with dissolve
     
-    no "Mmmmmmmm..."
-    no "Oy, Rii-kun, what's wrong?"
-    ri "What is?"
-    no "How are we supposed to get in if the rear gate's closed?"
-    ri "You enter through the front gate in America, Nonami..."
+    no "Ммммммммм..."
+    no "О, Рии-кун, что то не так?"
+    ri "Что ещё?"
+    no "Как мы попадём в автобус, если задняя дверь закрыта?"
+    ri "В Америке заходят через переднюю дверь, Нонами…"
     
     show nonami casual neutral surprise with dissolve
     
-    no "Uwah! Really!? Amazing!"
-    "No, it's actually not that amazing at all."
-    "In fact, I'm pretty sure that in some prefectures in Japan, you enter the bus from the front..."
-    "I led the group onto the bus."
-    ri "It says here that it's free to get to the space needle."
-    "It looked like we didn't need to pay the fare as long as we stayed downtown."
+    no "Вау! Правда!? Невероятно!"
+    "Нет, в этом нет ничего поразительного."
+    "На самом деле, я точно уверен, что в некоторых префектурах Японии в автобус тоже заходят спереди..."
+    "Я завёл нашу группу в автобус."
+    ri "Вроде бы на этом автобусе можно бесплатно добраться до Спэйс Нидл."
+    "Похоже нам не нужно платить, если мы выходим в центре города."
     
     show nonami casual armscrossed confident with dissolve
     
-    no "Just as I thought..."
+    no "Как я и думала..."
     
     show nonami casual excited happy with dissolve
     
-    no "America really is the country of the free!"
+    no "Америка и правда страна свободы!"
     
     show haruka casual handsbehind forcedsmile with dissolve:
-        xpos 0.2    
+        xpos 0.2 
     
-    ha "Please just sit down, Nona-chan..."
-    "Well, this certainly was turning out to be an interesting trip..."
+    ha "Пожалуйста сядь, Нона-тян..."
+    "Похоже поездка обещает быть интересной…"
     
     scene bg spaceneedlebase with dissolve
     
-    "We arrived at the Space Needle."
+    "Мы прибыли в Спэйс Нидл."
     
     show nonami casual neutral happy with dissolve
     show haruka casual neutral with dissolve:
@@ -457,11 +457,11 @@
         xpos 0.2
     show sora casual tanuki onearmdown neutral with dissolve:
         xanchor 0.5
-        xpos 0.8    
+        xpos 0.8 
     
-    no "Ooohh! There it is! Let's go, let's go, everyone!"
-    "We bought our tickets and lined up for the elevator."
-    "Since it was still the weekday in America, the lines weren't that long."
+    no "Ооооо! Это здесь! Давайте же, пойдём, ребята!"
+    "Мы купили билеты и подошли к лифту."
+    "Так как в Америке сейчас будни, лифт шёл не так долго. "
     
     scene bg spaceneedleelevator with dissolve:
         yalign 1.0
@@ -475,50 +475,50 @@
         xanchor 0.5
         xpos 0.8
     
-    "Pretty soon, we were in the elevator."
+    "Через некоторое мы уже были в лифте."
     
     show haruka casual handsbehind neutral with dissolve
     
-    ha "The elevators here are pretty big, huh..."
+    ha "Лифты такие большие, хех..."
     
     show sora casual tanuki neutral with dissolve
     
-    so "Uhn."
+    so "Хмм."
     
     show nonami casual armscrossed neutral with dissolve
     
-    no "It must be because we're in America."
+    no "Наверное потому что мы в Америке."
     
     show haruka casual handsbehind forcedsmile with dissolve
     
-    ha "It's nice, huh..."
-    so "Uhn."
-    no "Incredible..."
+    ha "Здорово, хах..."
+    so "Ухх."
+    no "Невероятно..."
     
     show sora casual tanuki sweatdrop with dissolve
     
     so "... ... ..."
-    ha "It's nice because it's so big."
+    ha "Здорово, потому что он большой."
     ri "... ... ..."
-    ha "We can all fit comfortably in it."
-    ri "*cough* *cough*"
-    ri "Excuse me."
-    ha "Don't worry about it."
+    ha "Мы все поместились в нём."
+    ri "*кашель* *кашель*"
+    ri "Извини."
+    ha "Не переживай из-за этого."
     so "... ... ..."
-    no "Uwah. My ears just popped."
+    no "Увах. Мои уши..."
     
     show haruka casual handsbehind neutral with dissolve
     
-    ha "Mine too."
-    ri "We're getting pretty high now, huh..."
+    ha "Мои тоже."
+    ri "Ну мы поднялись на приличную высоту..."
     
-    show sora casual tanuki neutral with dissolve    
+    show sora casual tanuki neutral with dissolve 
     
-    so "Can see the curvature of the Earth."
-    ha "Too bad it's a little cloudy..."
-    "...Just how long was this elevator ride going to continue!?"
-    "Luckily, the chime dinged and the doors opened."
-    "Whew... An elevator can make anything awkward."
+    so "Можно увидеть изгиб земли."
+    ha "Жаль немного облачно..."
+    "...Сколько ещё лифт будет подниматься!?"
+    "Наконец-то прозвенел звонок и двери открылись."
+    "Фью... Лифт может быть неудобным."
     
     scene bg spaceneedleinterior with dissolve
     
@@ -530,7 +530,7 @@
         xanchor 0.5
         xpos 0.8
     
-    "We stepped into the main floor of the disk."
+    "Мы прошли в основную часть диска."
     
     show nonami casual excited happy with dissolve
     
@@ -539,7 +539,7 @@
     "As I slid it open, it felt as if I had let loose Pandora's Box."
     
     scene bg spaceneedleobservationdeck with dissolve
-    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop        
+    play music "Music/Gold_Rush.ogg" fadeout 1.5 loop 
     
     show nonami casual neutral surprise with dissolve
     show haruka casual handstogether hurt with dissolve:
@@ -553,7 +553,7 @@
     
     show nonami casual excited surprise with dissolve
     
-    no "W-woaahh!!"
+    no "В-ваааааааууу!!"
     "We marched against the unholy wind and onto the deck."
     no "It's like we're in the middle of a tyyyppphhhooonnn!!!"
     "Amidst the wind, I could barely even take the time to check out the scenery."
@@ -625,7 +625,7 @@
     show sora casual tanuki onearmdown neutral with dissolve:
         xpos 0.5
     
-    ri "U-uhn. Thanks."
+    ri "Ухх. Спасибо."
     
     play music "Music/Ano_Hi_no_Sora.ogg" fadeout 1.5 loop
     
@@ -634,7 +634,7 @@
     "I had just expected her to be a little embarrassed about it and then to just laugh and forget about it."
     "Maybe I really was too used to living in America."
     "I had to be more careful, since Japanese girls were more sensitive about stuff like this."
-    ri "Oy, Sora."
+    ri "О, Сора."
     so "Uhn."
     ri "Do you think that in Japan, girls are a lot more shy around guys?"
     so "Hmm..."
@@ -809,7 +809,7 @@
         xpos 0.2
     show sora casual tanuki onearmdown neutral with dissolve:
         xanchor 0.5
-        xpos 0.8    
+        xpos 0.8 
     
     "On the third day, we went to a Seattle Mariners game."
     
@@ -920,7 +920,7 @@
     
     scene bg black with dissolve
     
-    play music "Music/Thanks.ogg" fadeout 1.0 loop    
+    play music "Music/Thanks.ogg" fadeout 1.0 loop 
 
     "We returned to Japan the next day, our vacation over."
     "Much tears were shed when we realized how much homework we had to do before school began, so we spent the rest of the weekend hitting the books."
@@ -942,6 +942,7 @@
     
     so "Uhn."
     "And so, our first Golden Week together ended..."
+
 	
 </nowiki>
 </poem>
