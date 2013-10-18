@@ -6,179 +6,6 @@
 ; ??(?)<???????(?)>
 bg "image\bg\bg_06a.jpg",%type_crossfade_mid
 
-` ...... Class has started already.@
-` Which class was it?@ I can't remember today's fifth period lesson.@
-br
-; ???<???????(?)>
-bg "image\bg\ima_11.jpg",%type_crossfade_fst
-;S.E."??"
-wave se0
-; ??(?)<???????(?)>
-bg "image\bg\bg_06a.jpg",%type_crossfade_fst
-
-
-` Even though I look at the blackboard and stare at the marks left behind by the teacher's chalk, I still don't know what class this is.@
-br
-; ???<???????(?)>
-bg "image\bg\ima_11.jpg",%type_crossfade_fst
-;S.E."??"
-wave se0
-; ??(?)<???????(?)>
-bg "image\bg\bg_06a.jpg",%type_crossfade_fst
-
-br
-` I can't read it.@
-` The letters start to flow like water and mix together like some sort of hallucination.@
-br
-;S.E."??"
-wave se0
-\
-
-`"Ugh............"@
-` I feel like I'm going to throw up.@
-` Dizziness.@ My mind starts to slide away.\
-
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
-;S.E."??"
-wave se0
-; ??(?)<???????(?)>
-bg "image\bg\bg_06a.jpg",%type_crossfade_fst
-
-` Click, click.@
-`    Tremble, tremble.@
-`     Creak, creak.@
-`      Wobble,  wobble.@
-
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
-;S.E."??"
-wave se0
-; ??(?)<???????(?)>
-bg "image\bg\bg_06a.jpg",%type_crossfade_fst
-\
-
-` Those noises stick out.\
-` Incompatibility.@
-` Where is that inconsistency coming from?@
-
-;S.E."??"
-wave se0
-
-` I can't settle this feeling of something being out of place throughout my body.@
-` It fills me to the brim.@
-` As if my bones are sliding out of place in their joints.@
-
-;S.E."??"
-wave se0
-
-` Yes, since my joints are out of place, it causes the unnatural feeling.@ My corpse is burning unseen smoke and crumbling away.\
-
-br
-br
-br
-br
-br
-br
-br
-` Click, click.@ Tremble, tremble.@ Creak, creak.@ Wobble, wobble.\
-
-; ???<???????(?)>
-bg "image\bg\ima_11b.jpg",%type_crossfade_fst
-;S.E."??"
-wave se0
-; ??(?)<???????(?)>
-bg "image\bg\bg_06a.jpg",%type_crossfade_fst
-
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_mid
-
-` I fall from my chair.@
-` A girl screams.@
-` I hear the footsteps of the teacher running to me.@
-` I...
-` Even though I've completely passed out, I calmly watch myself from far away.\
-
-!w3000
-
-
-` ...... What follows is like always.@
-` Collapsed from my anemia, I was carried to the clinic where I slept until I recovered.@
-` Since I had a fever of over 38 degrees Celsius past seven o'clock, the school's closing time, the nurse called my house for someone to pick me up and went home.@
-br
-` And this resulted in...\
-
-;CD-DA?????
-play "*1"
-
-; ????1(?)<???????(?)>
-bg "image\bg\bg_10c.jpg",%type_crossfade_fst
-; ??<?>=??:?01(??????)<???????(?)>
-ld c,":a;image\tachi\koha_t01b.jpg",%type_crossfade_fst
-
-`"Are you okay, Shiki-san?@ You still have a fever, so please do not hesitate to lean on my shoulder."@
-br
-` ----Yeah, that's how it is.\
-
-`"...... No, I'm alright.@ I can at least walk, so please don't worry."@
-` Stepping away from Kohaku-san, I attempt to bluff my way out of it.@
-` ...... Geez.@ It's embarrassing enough for Kohaku-san to come pick me up.@ The day I lean on her shoulders too, I'll die.\
-
-
-`"Oh that's not good, forcing yourself like that.@ It isn't your fault that your body is weak, Shiki-san.@ So you can ask for help a little.@
-` I won't tell Akiha-sama or Hisui-chan, so it's okay to depend on me for now."@
-` With a gentle smile, she takes my hand.\
-
-`"Ah...... yes, sorry."@
-` Blushing furiously, I meekly do as she says.@
-` ...... Certainly I might collapse if I continue to be stubborn.\
-
-`"There is a car waiting outside, so please hold on until then."@
-; ?????<??????(?)>
-cl c,%type_lshutter_mid
-` Pulling my hand, Kohaku-san starts to walk.@
-
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
-; ????1(?)<???????(?)>
-bg "image\bg\bg_10c.jpg",%type_crossfade_fst
-
-
-`"Ah----"@
-` ...... This isn't good.@ Just walking makes me incredibly dizzy.@
-` I depend upon Kohaku-san to lead me to the stairwell as I hold onto my consciousness.\
-
-; ???<?????(?)>
-bg "image\bg\ima_10.jpg",%type_lcartain_slw
-!w1000
-;CD-DA??
-playstop
-
-; ??(?)<????>
-bg "image\bg\bg_07b.jpg",%type_nowaitdisp
-; ????2(?)<???????(?)>
-bg "image\bg\bg_11c.jpg",%type_crossfade_mid
-
-
-` Hu----h?@
-` Why----am I going up... to... the second... floor?\
-
-`"Um...... Kohaku-san... this... isn't... the right way."@
-` I call out to her.@
-` There's no response.@ No, not only that----I don't feel her hand, or even see her.\
-
-; ???<???????(?)>
-bg "image\bg\ima_10.jpg",%type_crossfade_fst
-; ????2(?)<???????(?)>
-bg "image\bg\bg_11c.jpg",%type_crossfade_fst
-;CD-DA???????
-play "*6"
-
-`"Kohaku..*s107a
-
-; ??(?)<???????(?)>
-bg "image\bg\bg_06a.jpg",%type_crossfade_mid
-
 ` ...Урок уже начался.@
 ` Что это за урок?@ Я не помню, какой предмет у меня стоит пятым уроком.@
 br
@@ -207,7 +34,7 @@ br
 wave se0
 \
 
-` - Угх...@
+` — Угх...@
 ` Меня словно сейчас вырвет.@
 ` Головокружение.@ Мой разум куда-то проваливается.\
 
@@ -238,7 +65,7 @@ bg "image\bg\bg_06a.jpg",%type_crossfade_fst
 ;S.E."??"
 wave se0
 
-` Я не могу справитсья с этим чувством, что со всем моим телом что-то не так.@
+` Я не могу справиться с этим чувством, что со всем моим телом что-то не так.@
 ` Это чувство наполняет меня до краёв.@
 ` Мои кости словно выезжают из суставов.@
 
@@ -275,9 +102,9 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 !w3000
 
 
-` Дальше всё случилось как и всегда.@
-` Я потерял сознание от анемии, меня отнесли в медпункт где я и проспал пока не пришёл в себя.@
-` Поскольку даже после семи вечера, времени закрытия школы, у меня была температура за 38, медсестра позвонила мне домой чтобы кто-нибудь забрал меня, и ушла.@
+` ...Дальше всё случилось как и всегда.@
+` Я потерял сознание от анемии, меня отнесли в медпункт где, я и проспал, пока не пришёл в себя.@
+` Поскольку даже после семи вечера, времени закрытия школы, у меня была температура за 38, медсестра позвонила мне домой, чтобы кто-нибудь забрал меня, и ушла.@
 br
 ` И вылилось это в...\
 
@@ -289,24 +116,24 @@ bg "image\bg\bg_10c.jpg",%type_crossfade_fst
 ; ??<?>=??:?01(??????)<???????(?)>
 ld c,":a;image\tachi\koha_t01b.jpg",%type_crossfade_fst
 
-` - Шики-сан, ты в порядке?@ У тебя всё ещё температура, так что не стесняйся опереться мне на плечо.@
+` — Шики-сан, ты в порядке?@ У тебя всё ещё температура, так что не стесняйся опереться мне на плечо.@
 br
-`     Да, такие вот дела.\
+` ... Да, такие вот дела.\
 
-` - Нет, я в порядке...@ Уж идти то я могу, так что не переживай.@
+` — Нет, я в порядке...@ Уж идти то я могу, так что не переживай.@
 ` Я отхожу от Кохаку-сан и пытаюсь отговориться от всего этого.@
-` Госсподи...@ То, что Кохаку-сан пришла меня забирать, уже стыдно.@ День, когда я обопрусь ей на плечо, будет днём когда я умру.\
+` Госсподи...@ То, что Кохаку-сан пришла меня забирать, уже стыдно.@ День, когда я обопрусь ей на плечо, будет днём, когда я умру.\
 
 
-` - О, так нельзя, нельзя так себя заставлять.@ Шики-сан, ты не виноват что у тебя слабый организм.@ Поэтому ты можешь иногда просить о помощи.@
+` — О, так нельзя, нельзя так себя заставлять.@ Шики-сан, ты не виноват, что у тебя слабый организм.@ Поэтому ты можешь иногда просить о помощи.@
 ` Я не скажу Акихе-сама или Хисуи-тян, так что пока можешь на меня положиться.@
 ` Мягко улыбаясь, она берёт меня за руку.\
 
-` - А... да, прости.@
+` — А... да, прости.@
 ` Густо покраснев, я покорно делаю как она просит...@
-` Действительно, я могу потерять сознание если и дальше буду упрямиться.\
+` Действительно, я могу потерять сознание, если и дальше буду упрямиться.\
 
-` - Снаружи ждёт машина, поэтому пожалуйста потерпи до тех пор.@
+` — Снаружи ждёт машина, поэтому пожалуйста потерпи до тех пор.@
 ; ?????<??????(?)>
 cl c,%type_lshutter_mid
 ` Держа меня за руку, Кохаку-сан начинает идти.@
@@ -317,9 +144,9 @@ bg "image\bg\ima_10.jpg",%type_crossfade_fst
 bg "image\bg\bg_10c.jpg",%type_crossfade_fst
 
 
-` - А...@
+` — А...@
 ` Дело плохо...@ Уже от ходьбы у меня дико кружится голова.@
-` Стараясь не потерять сознание, я позволяю Кохаку отвести меня к лестнице.\
+` Стараясь не потерять сознание, я позволяю Кохаку-сан отвести меня к лестнице.\
 
 ; ???<?????(?)>
 bg "image\bg\ima_10.jpg",%type_lcartain_slw
@@ -334,9 +161,9 @@ bg "image\bg\bg_11c.jpg",%type_crossfade_mid
 
 
 ` А...а?@
-` Почему — я поднимаюсь... на.... второй... этаж?\
+` Почему — я поднимаюсь... на... второй... этаж?\
 
-` - Эм... Кохаку-сан... это... не туда.@
+` — Эм... Кохаку-сан... это... не туда.@
 ` Я зову её.@
 ` Ответа нет.@ Нет, не только это... я не чувствую её руки, я даже не вижу её.\
 
@@ -347,22 +174,22 @@ bg "image\bg\bg_11c.jpg",%type_crossfade_fst
 ;CD-DA???????
 play "*6"
 
-` - Кохаку...сан?@
-` Я напрягаю всё своё затуманеное сознание чтобы осмотреться.@
+` — Кохаку...сан?@
+` Я напрягаю всё своё затуманенное сознание чтобы осмотреться.@
 ` В коридоре никого.@
-` Только лунный свет, струящийся черещ окно, хорошо виден.\
+` Только лунный свет, струящийся через окно, хорошо виден.\
 
 ;S.E."??"
 wave se0
 
 
-` - ...@
+` — ...@
 ` Он приходит внезапно.@
 
 ;S.E."??"
 wave se0
 
-` - А...@
+` — А...@
 ` Звук моего сердцебиения.@
 ` И мороз, пробегающий у меня по спине.\
 
@@ -391,37 +218,37 @@ br
 br
 ` Это похоже на тот страх, что я чувствовал тогда.\
 
-` - Кохаку, сан!..@
+` — Кохаку, сан!..@
 ` Я выкрикиваю её имя.@ Не чтобы позвать на помощь, но чтобы сказать ей убегать, я лихорадочно кричу её имя.\
 
-` - Кохаку-сан, Кохаку-сан, Кохаку-сан!..@
+` — Кохаку-сан, Кохаку-сан, Кохаку-сан!..@
 ` Где она?@ Я её не вижу.@
 ` Шаги уже рядом со мной.@
 br
 ` Хотя бы...
-` Я хочу чтобы Кохаку-сан сбежала отсюда невредимой.\
+` Я хочу, чтобы Кохаку-сан сбежала отсюда невредимой.\
 
-` - Бесполезно, Шики.@ Она уже готова.@
+` — Бесполезно, Шики.@ Она уже готова.@
 ` ...Я слышу голос.@
 ` Во тьме передо мной
 ; ??<?>=??(?????):??<???????(?)>
 ld c,":a;image\tachi\roa_t04a.jpg",%type_crossfade_mid
-` стоит забинтованый человек, который пытался убить меня тогда.\
+` стоит забинтованный человек, который пытался убить меня тогда.\
 
-`  - А...@
+`  — А...@
 ` ...Почему это?..@
 ` Я словно бы знаю его лицо.\
 
-` - Не повезло же тебе.@ Если бы я знал, что всё так будет, я бы не ждал тебя перед поместьем.@
+` — Не повезло же тебе.@ Если бы я знал, что всё так будет, я бы не ждал тебя перед поместьем.@
 br
 `      Шаги приближаются.@
 br
-` - Ка...аах.@
+` — Ка...аах.@
 ` Я пытаюсь двигаться.@
 ` Но у меня получается только ковылять, едва не падая.@
 ` Наверное, я слишком сильно напрягал своё тело изо дня в день.@ Похоже, в самый последний момент оно отказало.\
 
-` - Это конец, поэтому я скажу тебе.@ Теперь это моё логово.@
+` — Это конец, поэтому я скажу тебе.@ Теперь это моё логово.@
 ; ???<???????(?)>
 bg "image\bg\ima_11b.jpg",%type_crossfade_mid
 
@@ -440,7 +267,7 @@ bg "image\bg\ima_18.jpg",%type_nowaitdisp
 ;CD-DA??
 playstop
 
-` Я падаю на пол.@
+`     Я падаю на пол.@
 ` Я чувствую, как смерть проходит в меня от кончиков пальцев.@
 ` Мой разум затухает, капля за каплей.\
 
@@ -450,7 +277,7 @@ playstop
 br
 ` Голубая луна висит в ночном небе...@
 ` Как глупо.@
-`Я сейчас умру, но я...
+` Я сейчас умру, но я...
 ` Я зачарован такой простой вещью.\
 
 monocro off
