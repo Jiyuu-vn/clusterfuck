@@ -35,11 +35,11 @@ br
 ; ?????? : 01~10 : 01_?01(????)<??????(?)>
 ld l,":a;image\tachi\ark_t30.jpg",%type_lshutter_fst
 
-` - Нет.@ Я не виновата.@
+` – Нет.@ Я не виновата.@
 br
 ` Нет, как ни крути, виновата ты.@
 br
-` - Уняяяя!\
+` – Уняяяя!\
 cl l,%type_lshutter_fst
 
 `        Ну что ж.@
@@ -59,12 +59,12 @@ bg "image\bg\ima_10.jpg",%type_crossfade_mid
 
 
 ld c,":a;image\tachi\ark_t30.jpg",%type_lshutter_fst
-` - Это не моя виняяяя...@
+` – Это не моя виняяяя...@
 
 ld c,":a;image\tachi\ark_t31b.jpg",%type_lshutter_fst
 ld c,":a;image\tachi\ark_t31a.jpg",%type_lshutter_fst
 
-` - Шики, ты идиот!@ Болван!@ Бесчувственный осёл!\
+` – Шики, ты идиот!@ Болван!@ Бесчувственный осёл!\
 
 
 cl c,%type_crossfade_mid
