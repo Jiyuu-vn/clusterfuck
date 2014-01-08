@@ -11,56 +11,56 @@
     
     scene bg sportsfield with dissolve
     
-    play music "Music/Sincere.ogg" fadeout 1.5 fadein 1.5 loop    
+    play music "Music/Sincere.ogg" fadeout 1.5 fadein 1.5 loop 
     
     show nonami sports excited smile2 with dissolve
     
-    no "Eaahh, it's great weather for a sports festival, eh Rii-kun?"
-    "Nonami was right. There was not a single cloud in the sky and it felt as if the temperature was in the mid 20's."
-    "Before I knew it, summer had begun."
-    "The sports field was bustling with activity. All of the students were dressed in their P.E. uniforms and getting ready for the day's events."
-    "At the sounding of a loudspeaker, the students were ordered to form a line based on their classes in front of the podium."
+    no "Иаххх, отличная погодка для спортивного фестиваля, так ведь, Рии-кун? 
+    "Нонами была права. На небе ни облачка и температура по ощущениям была около 20 градусов."
+    "Лето началось, прежде чем я заметил это."
+    "На спортивной площадки был взрыв активности. Все ученики был одеты в униформу и готовились к сегодняшним мероприятиям."
+    "По громкоговорителю ученикам было сказано построится в шеренги перед подиумом в зависимости от класса."
     
     show nonami sports neutral happy with dissolve
     
-    no "Oh! That's my signal. I better get going!"
+    no "О! А вот и мой сигнал. Мне нужно идти! "
     
     hide nonami with dissolve
     
-    "Nonami ran away and joined the line beside us."
-    "Since Sora was still in her second year, her line was a little bit further away."
-    "The headmaster walked up to the podium and gave everyone a lengthy address."
+    "Нонами побежала  присоединилась к шеренге рядом с нами."
+    "Так как Сора всё ещё училась во втором классе, её шеренга была немного дальше."
+    "Директор поднялся на подиум, чтобы произнести речь."
     "..."
     "... ..."
     "... ... ..."
-    "Whew... My legs were getting tired from waiting so long..."
-    "Finally, he finished his speech and called up all of the class representatives."
+    "Фью... Мои ноги устали от слишком долгого ожидания… "
+    "В конце концов он закончил свою речь и позвал представителей всех классов. "
     
     show haruka sports neutral with dissolve
     
-    "Haruka went to the front of the podium to represent our class."
-    "She, along with the rest of the class representatives, recited the oath of fair play."
+    "Харука пошла на подиум как представитель нашего класса."
+    "Она, как и представители остальных классов читала клятву о честной игре"
     
     show haruka sports handfront focused with dissolve
     
-    ha "We, as class representatives, solemnly pledge...!"
-    ha "...that we the student body shall uphold...!"
-    ha "...nothing but the highest standards of sportsmanship and fair play!"
-    "I couldn't help but be slightly amused when Haruka recited such a manly sounding oath at the top of her lungs."
-    "After that was done, it was time for the first event."
+    ha "Мы, как представители классов, торжественно клянёмся...!"
+    ha "...что мы, ученики, должны отстаивать...!"
+    ha "...ничего кроме самых высоких стандартов спортивной и честной игры!"
+    "Я не мог не удивться, когда увидел как Харука так мужественно читала клятву."
+    "Как только чтение присяги закончилось, настало время для первого соревнования. "
     
     hide haruka with dissolve
     show nonami sports armscrossed confident with dissolve
     
-    no "Ufufufu... Guess what, Rii-kun."
-    ri "Ehhh... It looks like our classes will be facing off against each other. Tug of war, huh?"
+    no "Уфуфуфуф… Угадай что, Рии-кун."
+    ri "Эхх… похоже наши классы будут соревноваться друг с другом. Перетягивание каната, да?"
     
     show nonami sports excited explode with dissolve
     
-    no "Uwahaha! I hope you've been working out, Rii-kun."
+    no "Увахахаха! Я надеюсь ты приложишь все усилия, Рии-кун."
     
     if kendoclub:
-        ri "Oy, I haven't been slacking off either, you know."
+        ri "Эй, я больше не буду поддаваться!"
         
     if cookingclub:
         
@@ -68,171 +68,171 @@
             xanchor 0.5
             xpos 0.8
         
-        ha "I guess Riku-kun's been too busy with club activities."
+        ha "Мне кажется, Рику-кун был слишком занят клубной деятельностью."
         
     hide nonami with dissolve
     hide haruka with dissolve
     
-    "The loudspeaker signaled the beginning of the first event."
-    "We all lined up along the rope."
+    "Громкоговоритель дал сигнал к началу первого соревнования."
+    "Мы выстроились вдоль верёвки"
     
     show nonami sports excited explode with dissolve:
         xanchor 0.5
         xpos 0.8
     
-    no "One, two, three, four, one, two, three, four..."
-    "I could see Nonami stretching on the other side..."
-    "Fuu. So she expects a big victory, huh?"
-    "I guess this meant that I couldn't slack off either."
+    no "Раз, два, три, четыре, раз, два, три, четыре..."
+    "Я мог видеть как Нонами делает растяжку."
+    "Фуу. Она ожидает грандиозную победу?"
+    "Похоже это означало, что я не могу позволить себе расслабляться."
     
     hide nonami with dissolve
     
-    ri "Haru-chan... Remember, we're aiming for nothing but total victory."
+    ri "Хару-тян… Помни, нам не нужно ничего, кроме полной победы."
     
     show haruka sports excited forcedsmile with dissolve
     
-    ha "Uh-nn..."
-    "Uh oh... She didn't look that confident."
+    ha "Ух-нн..."
+    "Ух, ох... Она не выглядела столь уверенной."
     
 menu:
-    "Encourage Haruka.":
+    "Подбодрить Харуку.":
         jump encourageharuka
         
-    "Leave Haruka alone for now.":
+    "Оставить Харуку в покое.":
         jump leaveharukaalone
             
 label encourageharuka:
     
-    "Alright! I guess this calls for some encouragement."
-    ri "Haru-chan, fight!"
+    "Хорошо! Думаю стоит немного подбодрить её."
+    ri "Борись, Хару-тян!"
     
     show haruka sports excited smile with dissolve
     
-    ha "U-uhn. I suppose Riku-kun's right. Fighto."
+    ha "У-ухн. Похоже Рику-кун прав. Файто."
     jump sportsfestival
     
 label leaveharukaalone:
     
-    "It looked like Haruka was worried, so I better not add any more pressure."
-    "I left her alone for now."
+    "Похоже Харука волновалась, поэтому не стоит давить на неё."
+    "Пока что я оставл её в покое."
     jump sportsfestival
         
 label sportsfestival:
 
     hide haruka with dissolve
-    "At the first sounding of the whistle, we grabbed onto the rope."
-    no "Ufufufu..."
-    "I saw Nonami wrapping the rope around her waist on the other side."
-    "Oh for crying out loud..."
-    "I definitely wasn't going to lose!"
+    "Как только прозвучал первый свисток, мы схватили верёвку."
+    no "Уфуфуфу..."
+    "Я увидел как Нонами обернула верёвку вокруг талии на другой стороне."
+    "О, с ума сойти..."
+    "Я определённо не собираюсь проигрывать!"
     
     play music "Music/Gold_Rush.ogg" fadeout 1.5 loop
     show cg tug of war neutral with dissolve
     
-    "At the second whistle, the event began."
-    "I pulled the rope with all of my might."
-    no "One, two, three, HEAVE!"
-    "Surprised by their strength, I accidentally took a step forward."
-    "W-woah! T-they weren't pushovers!"
-    "Aw no... I couldn't let this happen!"
-    ri "One, two, three, HEAVE!"
-    "We took half a step back!"
-    ha "Ha-hauuu..."
+    "Соревнование началось со вторым свистком."
+    "Я тянул верёвку изо всех сил."
+    no "Раз, два, три, ВЗЯЛИ!"
+    "Удивлённый их силами я случайно сделал шаг вперёд."
+    "В-воах! О-они совсем не слабаки!"
+    "Оу, нет... Я не могу позволить этому случиться!"
+    ri "Раз, два, три, ВЗЯЛИ!"
+    "Мы сделали полшага назад!"
+    ha "Ха-хаууууу..."
     
     if kendoclub:
-        "Tsch... Something on this level..."
-        "Wasn't even a problem!"
-        "I put all of my strength into the rope."
+        "Тч... Что-то подобного уровня..."
+        "Никаких проблем!"
+        "Я приложил все свои силы к верёвке."
         
         show cg tug of war haruka
         
-        ri "One, two, three, HEAVE!"
-        "Alright! Another step back."
-        no "Eaaahhh!!!! One, two, three, HEAVE!"
-        "Oh no you don't, Nonami!"
-        ri "Haru-chan, put all of your strength into it!"
-        ha "U-understood!"
-        ri "One, two, three, HEAVE!"
+        ri "Раз, два, три, ВЗЯЛИ!"
+        "Отлично! Ещё шаг назад."
+        no "Иаааххх!!!! Раз, два, три, ВЗЯЛИ!"
+        "О, ты не сможешь, Нонами!"
+        ri "Хару-тян, приложи все свои силы!"
+        ha "П-поняла!"
+        ri "Раз, два, три, ВЗЯЛИ!"
         no "Uwaahh!!!"
-        "All right... It looked like they were on their last leg now..."
-        ri "J-just a little bit more..."
-        ri "One, two, three, HEAVE!"
-        ha "U-uuuu...!"
+        "Хорошо… Похоже это всё на что они были способны…"
+        ri "Ещё чуть чуть..."
+        ri "Раз, два, три, ВЗЯЛИ!"
+        ha "У-уууу...!"
         
         scene bg white with dissolve
         scene bg sportsfield with dissolve
         $ renpy.music.stop (fadeout=1.5)
         
-        "With a final, tremendous pull, we sent the opposing team tumbling to the ground."
+        "Последним толчком, мы отправили команду соперников на землю."
         
         show nonami sports armscrossed tears with dissolve
         
-        no "Uuuu... I got defeated by Rii-kun... I guess it was my mistake to challenge a fellow kendo warrior, huh...?"
+        no "Уууу... Побеждена Рии-куном... Похоже, было ошибкой, бросать вызов товарщу воину кендо...?"
         
     if cookingclub:
         
         show cg tug of war nonami
         
-        "Oh, oh, it looked like Haruka was already tired..."
-        no "One, two, three, HEAVE!"
-        "W-woaahh!!"
-        "We nearly tumbled over the line that time."
-        ri "Noo! We can't let Nonami win! Pull, Haru-chan, pull!"
-        ha "Haaaaauuuuuuuu!"
-        "But it was already too late."
-        no "One, two, three, HEAVE!"
+        "Ох, ох, похоже Харука совсем устала..."
+        no "Раз, два, три, ВЗЯЛИ!"
+        "В-воаааххх!!"
+        "К тому времени мы уже почти были на линии."
+        ri "Неет! Мы не можем позволить Нонами выиграть! Поднажми, Хару-тян, поднажми!"
+        ha "Хааааууууууу!"
+        "Но было уже слишком поздно."
+        no "Раз, два, три, ВЗЯЛИ!"
         
         scene bg white with dissolve
         scene bg sportsfield with dissolve
         $ renpy.music.stop (fadeout=1.5)
         
-        "And with that, our line disintegrated and the entire class tumbled down to the ground."
+        "Наша шеренга распалась, и весь класс рухнул на землю."
         
         show haruka sports neutral hurt with dissolve:
             xanchor 0.5
             xpos 0.3
         
-        ha "Uuuu... I'm sorry, Riku-kun..."
+        ha "Уууу... Прости, Рику-кун..."
         
         show nonami sports neutral hurt with dissolve:
             xanchor 0.5
             xpos 0.7
         
-        no "Uwahahaha! Looks like I win!"
+        no "Увахахаха! Похоже я выиграла!"
         
         show nonami sports armscrossed smile2 with dissolve:
             xpos 0.7
         
-        no "Oh-hohoho! It's still three years too soon for you to be challenging me, Rii-kun!"
-        "Tsch..."
-        "Was eating all those cakes at the cooking club a mistake?"
-        "...But the cakes were all so delicious..."
-        "There was no way I could have ever have turned them down!"
+        no "Ох-хохохо! Похоже трёх лет было недостаточно, чтобы победить меня, Рии-кун!"
+        "Тч..."
+        "Неужели есть торты в кулинарном клубе было ошибкой?"
+        "...Но они были такими вкусными..."
+        "Там не было никакой возможности отказаться!"
 
     scene bg black with screenwipe
     scene bg sportsfield with screenwipe
-    play music "Music/Investigations.ogg" fadeout 1.5 loop    
+    play music "Music/Investigations.ogg" fadeout 1.5 loop 
     
-    "After the morning events, it was time for the first break."
+    "После утренних событий настало время перерыва."
     
     show sora sports neutral with dissolve
     
-    "I found Sora drinking some tea from the water dispenser."
-    ri "How's it going, Sora?"
-    so "Our team's won all of our events so far."
-    ri "Really?"
+    "Я обнаружил Сору, пьющую чай рядом с кулером."
+    ri "Как проходит день, Сора?"
+    so "Наша команда выиграла все соревнования какие были."
+    ri "Правда?"
     
     show sora sports neutral closedeyes with dissolve
     
-    so "Uhn."
+    so "Угу."
     
     if kendoclub:
-        ri "My team's been doing pretty well too."
+        ri "Моя команда тоже хорошо показала себя."
         
     if cookingclub:
-        ri "That's nice... My team's been doing kind of so-so..."
+        ri "Это хорошо... Наша команда так себе..."
         
-    "But before we could talk any more, Nonami suddenly came running to us with her arms flailing up and down, screaming as if the sky was going to collapse."
+    "Но прежде чем я успел договорить, Нонам прибежала и начала махать руками и кричать что-то, как будто сейчас рухнет небо."
     
     hide sora
     show sora sports neutral:
@@ -243,243 +243,243 @@ label sportsfestival:
         xpos 0.7
     with dissolve
     
-    no "Uwah! Rii-kun, we've got a crisis!"
-    "What could possibly be the problem now...?"
-    no "Look, look!"
-    "She grabbed a crumpled up sheet of paper from her pocket and held it out for us to read."
-    ri "What's this?"
+    no "Увах! Рии-кун, у нас проблемы!"
+    "И какие сейчас могут быть проблемы...?"
+    no "Смотри, смотри!"
+    "Она вытащила скомканный лист бумаги из кармана и протянула его нам, чтобы мы прочли его."
+    ri "Что это?"
     
     show sora sports armscrossed neutral with dissolve:
         xpos 0.3
     
-    so "Mmm... \"Dear Nakamiya Haruka-sama...\""
-    so "\"I am sorry I that I did not have the strength to deliver my words in person...\""
-    so "\"It was your kind and gentle personality that drew me to you.\""
-    so "\"Please have the understanding to accept my unworthy feelings.\""
-    so "\"I await your response under the cherry tree after school.\""
+    so "Ммм... \"Дорогая Накамия Харука-сама...\""
+    so "\"Я сожалею о том, что мне не хватило смелости признаться лично...\""
+    so "\"Меня привлекает ваша доброта и нежность.\""
+    so "\"Хоть мои чувства и недостойны вас, пожалуйста поймите меня.\""
+    so "\"Я буду ждать вашего ответа под деревом сакуры после школы.\""
     
     show sora sports armscrossed confident with dissolve:
         xpos 0.3
     
-    so "Hmph. What a bland letter..."
+    so "Хмпф, что за сопливое письмо..."
     
     show nonami sports excited surprise with dissolve:
         xpos 0.7
     
-    no "T-t-t-t-there's no mistake about it! This is the proverbial love letter of myth and legend, Rii-kun! What are we gonna do, what are we gonna do!?"
-    ri "Wait, wait, slow down. How did you even get this in the first place?"
+    no "З-з-з-здесь никакой ошибки! Это пресловутое любовное письмо из мифов и легенд, Рии-кун! Что мы будем делать, что мы будем делать?"
+    ri "Подожди, подожди, притормози. Для начала, откуда оно у тебя?"
     
     show nonami sports armscrossed neutral with dissolve:
         xpos 0.7
     
-    no "W-well, I returned to my locker 'cause I forgot my water bottle there, but on my way back, I saw something sticking out of Haru-chan's locker."
-    no "At first, I thought it was just trash, so I was about to throw it out, but then I noticed that it looked too pretty for it to be just garbage."
-    ri "So Haru-chan hasn't even read this yet?"
-    no "It doesn't look like it."
-    "Eah, what a serious problem..."
-    "Nonami was nearly about to grab me by the scruff of my t-shirt and shake me back and forth."
+    no "Н-ну, я вернуалсь к своему шкафчику, потому что забыла там бутылку с водой, но на обратном пути я заметила что из шкафчика Хару-тян что-то торчит."
+    no "Сначала я подумала что это мусор, поэтому я собиралась выкинуть её, но потом я заметила что записка выглядела слишком красиво, чтобы быть просто мусором."
+    ri "Получается Хару-тян ещё не читала его?"
+    no "Получается, что так."
+    "Эх, похоже проблема и правда серьёзная..."
+    "Нонами была готова схватить меня за шкирку и трясти в разные стороны."
     
     show nonami sports excited surprise with dissolve:
         xpos 0.7
     
-    no "What do we do Rii-kun, what do we do!?"
-    ri "Uhhh..."
+    no "Что нам делать, Рии-кун, что нам делать!?"
+    ri "Уххх..."
     
 menu:
-    "We should return it to Haruka's locker.":
+    "Мы должны вернуть его в шкафчик Харуки.":
         jump returnlocker
         
-    "Burn it.":
+    "Сжечь.":
         jump burnit
 
 label returnlocker:
-    ri "W-well, we have to return it to Haru-chan's locker, don't we?"
+    ri "Л-ладно, мы должны вернуть его в шкафчик Хару-тян, так ведь?"
     
     show sora sports armscrossed neutral with dissolve:
         xpos 0.3
     
-    so "Uhn, uhn. Theft of personal property is a crime."
+    so "Угу, угу. Кража личного имущества является преступлением."
     
     show nonami sports neutral surprise with dissolve:
         xpos 0.7
     
-    no "B-but this is Haru-chan we're talking about! Aren't worried about her, Rii-kun?"
+    no "Но мы говорим о Хару-тян! Ты не беспокоишься о ней, Рии-кун?"
     ri "... ... ..."
-    "Come to think of it, Haruka's easygoing personality could be worrisome sometimes..."
-    "What if she was being tricked by some scummy guy?"
-    "I don't think Haruka would be able to get herself out of a situation like that..."
-    no "See, see? As her friends, we need to take this into our own hands!"
+    "Если подумать, спокойная личность Харуки иногда вызывает беспокойство..."
+    "Что, если она будет обманута этим скользким типом?"
+    "Не думаю, что Харука справится с этой ситуацией в одиночку..."
+    no "Видишь, видишь? Как её друзья мы должны взять всё в свои руки!"
     
     show sora sports armscrossed hesitant with dissolve:
         xpos 0.3
     
-    so "I guess if Nonami-sempai just took it from her locker by accident..."
-    "But then, wouldn't it be dishonest to hide something like that from Haruka?"
-    "I really had no idea what to think now..." 
-    no "H-here, you hold onto this!"
-    "Nonami handed the love letter to me."
-    ri "Eh!? Why me?"
-    no "W-well, weren't you the one who wanted to return it?"
-    ri "B-but I didn't mean..."
-    "Just then, the loudspeaker signaled the end of break."
-    no "Oh! Now I have to get goin'!"
-    ri "No, wait!"
+    so "Ну если Нонами-семпай взяла записку из шкафчика случайно..."
+    "Но тогда, не будет ли нечестно скрывать что-то подобное от Харуки?"
+    "Я действительно понятия не имел, что думать в такой ситуации..." 
+    no "В-вот, держи его!"
+    "Нонами отдала любовное письмо мне."
+    ri "Э!? Почему мне?"
+    no "Н-ну, ты ведь единственный, кто хочет вернуть его?"
+    ri "Н-но я не имел ввиду..."
+    "В этот момент громкоговоритель оповестил о конце перерыва."
+    no "О! Я должна идти!"
+    ri "Нет, подожди!"
     
     show nonami sports excited happy with dissolve:
         xpos 0.7
     
-    no "See ya later, Rii-kun! I'm countin' on ya!"
+    no "Увидимся позже, Рии-кун! Я на тебя рассчитываю!"
     
     hide nonami with dissolve
     
-    "And with that, Nonami disappeared as quickly as she appeared."
+    "С этими словами, Нонами исчезла так же быстро как и появилась."
     "... ... ..."
-    "Great, now what?"
+    "Отлично, и что теперь?"
     jump afternoonsportsfestival
     
 label burnit:
-    "S-such a dangerous thing couldn't be allowed to exist! We have to burn it!"
-    "Or so I thought."
+    "Т-такая опасная вещь не имеет право на существование! Мы должны сжечь его!"
+    "Ну или так я думал."
     
     show nonami sports armscrossed suspicious with dissolve:
         xpos 0.7
     
-    no "Oh... I see."
-    ri "W-what?"
+    no "О… Понятно."
+    ri "Ч-что?"
     
     show nonami sports neutral smile2 with dissolve:
         xpos 0.7
     
-    no "Oh, nothing, nothing! Uwah-haha! Anyways, we have to make sure we keep our eyes on Haru-chan."
+    no "О, ничего, ничего! Увах-хаха! В любом случае мы должны присматривать за Хару-тян."
     
     show nonami sports armscrossed confident with dissolve:
         xpos 0.7
     
-    no "Knowing Haru-chan, she's totally the type of person who would be tricked by some scummy guy into doing a bunch of perverted stuff."
-    "Oy, isn't that a little..."
+    no "Зная Хару-тян, она из тех людей, которые могут быть обмануты такими скользкими типами, которые могут заставить её делать всякие извращенные вещи."
+    "Эй, а это не слишком..."
     
     show nonami sports excited happy with dissolve:
         xpos 0.7
     
-    no "All right! I'm entrusting the letter to you, Rii-kun!"
-    ri "Eh?"
-    no "If you wanna burn it, then I say burn it!"
-    "Sometimes, it feels as if Nonami can read my mind..."
-    "Although I wasn't actually really going to burn it. It would be too dishonest to burn something that could be important to Haruka."
-    "Just then, the loudspeaker rang, signaling the end of break."
+    no "Ладно! Я доверяю это письмо тебе, Рии-кун!"
+    ri "Э?"
+    no "Если ты хочешь сжечь его, я говорю сжечь!"
+    "Иногда мне кажется, что Нонами может читать мои мысли..."
+    "Хотя, на самом деле я не собираюсь сжигать его. Слишком нечестно сжигать то, что может быть важным для Харуки."
+    " В этот момент громкоговоритель оповестил о конце перерыва."
     
     show nonami sports neutral smile2 with dissolve:
         xpos 0.7
     
-    no "Alright, see ya later, Rii-kun! I'm countin' on ya!"
+    no " Увидимся позже, Рии-кун! Я на тебя рассчитываю!"
     
     hide nonami with dissolve
 
-    "And with that, Nonami disappeared as quickly as she appeared."
-    "I sighed. Just what was I going to do now?"
+    "С этими словами, Нонами исчезла так же быстро как и появилась."
+    "Я вздохнул. И что я теперь должен делать?"
     jump afternoonsportsfestival
     
 label afternoonsportsfestival:
     
     scene bg black with screenwipe
     scene bg sportsfield with screenwipe
-    $ renpy.music.stop (fadeout=2.0)    
+    $ renpy.music.stop (fadeout=2.0) 
     
-    "I couldn't really get into the rest of the morning sports events."
-    "If you think about this from a really logical standpoint, there honestly was no reason why I should be worried, right?"
-    "It's not like Haruka and I were really going out or anything... What difference did it really make to me whether she received a love letter?"
-    "But there was still something inside me that made me worried."
-    "Maybe it was just that I didn't want to see Haruka with another guy."
+    "Я не принимал участия в остальных утренних соревнованиях."
+    "Если подумать об этом с логической точки зрения, то нет никаких причин для беспокойства, ведь так?"
+    "Это не похоже на Харуку и я действительно собирался сделать что-то… Какая, на самом деле, разница, получила ли она любовное письмо?"
+    "Но почему-то я всё-таки беспокоился."
+    "Возможно потому что совсем не хотел видеть Харуку с другим парнем."
     
-    play music "Music/Radio_Martini.ogg" fadeout 1.5 loop        
+    play music "Music/Radio_Martini.ogg" fadeout 1.5 loop 
     show sora sports armscrossed neutral with dissolve
     
-    so "Oy. Riku."
-    "All of a sudden, Sora's voice knocked me out of my thoughts."
-    ri "W-what?"
+    so "Эй. Рику."
+    "Вдруг голос Соры вырвал меня из моих мыслей."
+    ri "Ч-чего?"
     
     show sora sports neutral with dissolve
     
-    so "The next event is starting."
-    ri "Oh. Sorry."
-    "It looks like we were going to face Sora's class in the three legged race."
+    so "Следующее соревнование началось."
+    ri "О. Прости."
+    "Похоже мы должны состязаться с классом Соры в гонке на трёх ногах."
     
     hide sora with dissolve
     
-    "We all lined up and took scraps out of a box to determine who our partner would be."
-    "Wow, wouldn't it be really awkward if a boy and a girl were paired together? Obviously, whoever planned this event out didn't give it much thought."
+    "Все мы построились и взяли листочки из коробки, чтобы определить, кто будет нашим партнёром."
+    "Воу, не слишком ли неудобно, если мальчик и девочка окажутся в паре? Похоже тот, кто планировал это событие, не слишком много думал."
     
     show haruka sports neutral smile with dissolve
     
-    ha "Ah, it looks like we've been paired together, Riku-kun."
-    "...unbelievable."
-    "And so, I ended up being the only guy in my class to be paired with a girl."
-    "Haruka ran over to me with a rope."
-    ha "Here, let me tie our legs together."
-    "Come to think of it, now would be a good time to tell Haruka about that love letter..."
+    ha "А, похоже мы будем бежать вместе, Рику-кун."
+    "...невероятно."
+    "В итоге, я единственный парень из нашего класса, который бежит с девчонкой."
+    "Харука подбежала ко мне с верёвкой"
+    ha "Давай, позволь мне связать наши ноги."
+    "Если подумать, то сейчас самое время сказать Харуке о любовном послании..."
     
 menu:
-    "\"Haru-chan, there's something that I need to tell you...\"":
+    "\"Хару-тян , я должен тебе что-то сказать...\"":
         jump tellone
         
-    "Forget it. Let's just get this race started.":
+    "Забудь. Сейчас начнётся гонка.":
         jump donttell
         
 label tellone:
     
     show haruka sports neutral with dissolve
     
-    ha "Eh? What is it?"
-    ri "T-to tell the truth, we found a -"
-    "All of a sudden, an ear piercing shriek cut through the air, completely drowning out the rest of my sentence."
-    "Everyone turned around to see the source of the noise."
-    "Girl" "Sorry, the loud speaker backfired!"
-    "...What the hell was that!? And I had to gather up so much courage to tell Haruka about the love letter too!"
+    ha "Э? Что это?"
+    ri "П-по правде говоря мы нашли -"
+    "Внезапно, прозвучал какой-то резкий крик, полностью заглушив остальную часть моей фразы."
+    "Все повернулись, чтобы увидеть источник шума."
+    "Девушка" "Извините, какие-то проблемы с громкоговорителем!"
+    "…Что это, чёрт возьми!? Мне пришлось собрать всю волю в кулак, чтобы сказать Харуке о любовном послании!"
     
 menu:
-    "Whatever... I'm still going to tell Haruka about the love letter!":
+    "В любом случае… Я всё ещё должен сказать Харуке о письме!":
         jump telltwo
         
-    "Forget this. Let's get on with the sports festival.":
+    "Забудь. Сосредоточься на спортивном фестивале.":
         jump donttell
         
 label telltwo:
     
-    ri "I said, we found a-"
-    "All of a sudden, a gust of wind picked up, throwing a cloud of dust at us."
+    ri "Я сказал, мы нашли-"
+    "Вдруг, порыв ветра поднял на нас облако пыли."
     
     show haruka sports neutral hurt with dissolve
     
-    ha "U-uu..."
-    "We covered our faces with our hands, protecting our eyes from the dust cloud."
-    "And then, just as quickly as the gust of wind appeared, it disappeared."
-    "It almost felt as if the weather itself was against me telling Haruka about that letter..."
+    ha "У-уу..."
+    "Мы закрыли лица руками, пытаясь защититься от облака пыли"
+    "Затем, ветер исчез так же внезапно, как  появился."
+    "Мне показалось, что даже погода против того, чтобы я говорил Харуке о любовном письме..."
     
 menu:
-    "This is ridiculous! I'm telling Haruka about the latter no matter what!":
+    "Это смешно! Я скажу Харуке о письме, несмотря ни на что!":
         jump tellthree
     
-    "I give up. Let's just get on with the sports festival.":
+    "Я сдаюсь. Давайте просто продолжим спортивный фестиваль.":
         jump donttell
     
 label tellthree:
 
-    show haruka sports neutral with dissolve    
+    show haruka sports neutral with dissolve 
 
-    ri "To tell the truth, there was a-"
-    "All of a sudden, I heard somebody shouting behind me."
+    ri "По правде говоря, тут-"
+    "Внезапно, я услышал, как кто-то кричит позади меня."
     
     show cg watchout1 with dissolve
     
-    "Boy" "Watch out, there's a runaway ball on the loose!"
-    "I turned around and saw a volleyball coming straight for my face."
+    "Парень" "Осторожно, на тебя мяч летит!"
+    "Я обернулся, и увидел, что волейбольный мяч летит прямо к моему лицу."
     
     hide cg watch1
     show cg watchout2
     with dissolve
     
-    "Girl" "S-somebody help catch my pet hamster!"
-    "From the corner of my eye, I saw a crazed ball of fur scurrying towards me."
+    "Девушка" "К-кто-нибудь, помогите поймать хомячка!"
+    "Краем глаза я заметил, что рядом со мной бегает сумасшедший клубочек меха."
     
     hide cg watchout2
     show cg watchout3
@@ -539,7 +539,7 @@ label donttell:
     "Teacher" "Get set..."
     "Teacher" "Go!"
     
-    play music "Music/Merry_Go_Around.ogg" fadeout 1.5 loop    
+    play music "Music/Merry_Go_Around.ogg" fadeout 1.5 loop 
     
     scene bg white with dissolve
     
@@ -556,7 +556,7 @@ label donttell:
     ri "O-okay... On three..."
     ri "One... Two... ThreeeAAHHH!!"
     
-    scene bg white with dissolve    
+    scene bg white with dissolve 
     
     "We took another dive forward."
     ha "Uuuu... I'm sorry..."
@@ -755,7 +755,7 @@ label giveharukaletter:
     
 label nevergiveharukaletter:
     
-    $ giveletter = False    
+    $ giveletter = False 
     $ dontgiveletter = True
     
     "I made up my mind. I was never going to give Haruka the letter."
@@ -769,7 +769,7 @@ label nevergiveharukaletter:
     "If I had no choice but to move again... well, that would just be outside of my power to control."
     "But there was no way I was going to purposefully just throw Haruka away."
     
-    show haruka sports neutral concerned with dissolve    
+    show haruka sports neutral concerned with dissolve 
     
     ha "Riku-kun, are you okay? You suddenly don't look that well..."
     ri "M-me? No, I'm fine..."
@@ -884,7 +884,7 @@ label afterlunchsportsfestivaltwo:
     no "It's 'cause you lack initiative! Girls like guys who are confident, Rii-kun! Not wussy, self-doubting, mousy types who are too scared of making mistakes!"
     "O-ouch... So you mean to say that I'm a wussy?"
     
-    show nonami sports neutral focusedtalk with dissolve    
+    show nonami sports neutral focusedtalk with dissolve 
     
     no "If you focus just too much on fulfilling your own sense of justice, then you're just gonna be sitting on your butt, arguing with yourself whether you're doing the right thing or not while everyone else is busy snatching up all the girls away!"
     ri "W-well, if you put it that way..."
@@ -899,19 +899,19 @@ label afterlunchsportsfestivaltwo:
     
     no "Fuuu... I guess Rii-kun will still be Rii-kun..."
     
-    show nonami sports armscrossed confident with dissolve    
+    show nonami sports armscrossed confident with dissolve 
     
     no "Mah, whatever. As long as you burn that letter, everything should be fine."
     "I was feeling better now after talking with Nonami."
     "Maybe I was just over thinking this."
     "All of a sudden, the loud speaker went off, signaling the end of lunch."
     
-    show nonami sports excited happy with dissolve    
+    show nonami sports excited happy with dissolve 
     
     no "Oh! Looks like I need to get back to my class."
     ri "Yeah. I'll see you."
     
-    show nonami sports neutral smile2 with dissolve    
+    show nonami sports neutral smile2 with dissolve 
     
     no "See you later!"
     ri "And Nonami, thanks."
@@ -1086,7 +1086,7 @@ label endsportsfestival:
         "Just... a few centimeters away..."
         
     scene bg white with dissolve
-    $ renpy.music.stop(fadeout=1.0)    
+    $ renpy.music.stop(fadeout=1.0) 
 
     "I lied on my back on the track, my head spinning in a daze."
     "Had I done it?"
@@ -1184,7 +1184,7 @@ label endsportsfestival:
         "Ah."
         "Well..."
         "Damn."
-        "Looks like we had no choice but to confess now..."        
+        "Looks like we had no choice but to confess now..." 
         "I knelt down on my knees in front of Haruka and bowed my head."
         "Even though my injuries from the fall hurt, I gritted my teeth and apologized."
         ri "Haru-chan, I'm really sorry!"
@@ -1236,7 +1236,7 @@ label endsportsfestival:
     no "EEEHHHHHHHHHHHHHH!?!?"
     ri "So you mean to say that this letter is..."
     
-    show haruka sports neutral smile with dissolve   
+    show haruka sports neutral smile with dissolve 
     
     ha "Just for practice."
     
@@ -1264,7 +1264,7 @@ label endsportsfestival:
             xpos 0.8
         
         so "Caught red handed."
-        ri "S-Sora, you too!?"        
+        ri "S-Sora, you too!?" 
         so "Hmph. It's Riku's fault for being such a dummy."
         
     "Argh, damn it all!"
@@ -1314,6 +1314,7 @@ label endsportsfestival:
     "Three years from now, maybe we'll all look back on this event and laugh."
     "Three years, huh..."
     "I was sure that we'll all be friends even then."
+
 	
 </nowiki>
 </poem>
