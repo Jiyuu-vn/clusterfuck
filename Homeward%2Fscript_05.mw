@@ -46,7 +46,7 @@
     ha "Мы, как представители классов, торжественно клянёмся...!"
     ha "...что мы, ученики, должны отстаивать...!"
     ha "...ничего кроме самых высоких стандартов спортивной и честной игры!"
-    "Я не мог не удивться, когда увидел как Харука так мужественно читала клятву."
+    "Я не мог не удивиться, когда увидел как Харука так мужественно читала клятву."
     "Как только чтение присяги закончилось, настало время для первого соревнования. "
     
     hide haruka with dissolve
@@ -114,7 +114,7 @@ label encourageharuka:
 label leaveharukaalone:
     
     "Похоже Харука волновалась, поэтому не стоит давить на неё."
-    "Пока что я оставл её в покое."
+    "Пока что я оставил её в покое."
     jump sportsfestival
         
 label sportsfestival:
@@ -153,7 +153,7 @@ label sportsfestival:
         ri "Хару-тян, приложи все свои силы!"
         ha "П-поняла!"
         ri "Раз, два, три, ВЗЯЛИ!"
-        no "Uwaahh!!!"
+        no "Уваааах!!!"
         "Хорошо… Похоже это всё на что они были способны…"
         ri "Ещё чуть чуть..."
         ri "Раз, два, три, ВЗЯЛИ!"
@@ -167,7 +167,7 @@ label sportsfestival:
         
         show nonami sports armscrossed tears with dissolve
         
-        no "Уууу... Побеждена Рии-куном... Похоже, было ошибкой, бросать вызов товарщу воину кендо...?"
+        no "Уууу... Побеждена Рии-куном... Похоже, было ошибкой, бросать вызов товарищу воину кендо...?"
         
     if cookingclub:
         
@@ -272,7 +272,7 @@ label sportsfestival:
     show nonami sports armscrossed neutral with dissolve:
         xpos 0.7
     
-    no "Н-ну, я вернуалсь к своему шкафчику, потому что забыла там бутылку с водой, но на обратном пути я заметила что из шкафчика Хару-тян что-то торчит."
+    no "Н-ну, я вернуналсь к своему шкафчику, потому что забыла там бутылку с водой, но на обратном пути я заметила что из шкафчика Хару-тян что-то торчит."
     no "Сначала я подумала что это мусор, поэтому я собиралась выкинуть её, но потом я заметила что записка выглядела слишком красиво, чтобы быть просто мусором."
     ri "Получается Хару-тян ещё не читала его?"
     no "Получается, что так."
@@ -303,7 +303,7 @@ label returnlocker:
     show nonami sports neutral surprise with dissolve:
         xpos 0.7
     
-    no "Но мы говорим о Хару-тян! Ты не беспокоишься о ней, Рии-кун?"
+    no "Но мы говорим о Хару-тян! Ты не беспокошиься о ней, Рии-кун?"
     ri "... ... ..."
     "Если подумать, спокойная личность Харуки иногда вызывает беспокойство..."
     "Что, если она будет обманута этим скользким типом?"
@@ -406,7 +406,7 @@ label afternoonsportsfestival:
     
     hide sora with dissolve
     
-    "Все мы построились и взяли листочки из коробки, чтобы определить, кто будет нашим партнёром."
+    "Все мы построились и взяли листочки из коробки, чтобы определить, кто будет нашм партнёром."
     "Воу, не слишком ли неудобно, если мальчик и девочка окажутся в паре? Похоже тот, кто планировал это событие, не слишком много думал."
     
     show haruka sports neutral smile with dissolve
@@ -485,139 +485,139 @@ label tellthree:
     show cg watchout3
     with dissolve
     
-    "Teacher" "Saionji-kun, watch out, a bird's pooped right above you!"
-    "W-what!? I looked up, and sure enough, I saw an enormous glob of white matter falling towards my head."
-    "Tsch... In this kind of situation, it looks like I have no other choice than to use \"that!\""
-    ri "EAAAHHH!!!"
+    "Учитель" "Саёнджи-кун, осторожно, на тебя летит птичий помёт!"
+    "Ч-что!? Я взглянул вверх и убедился что мне на голову летит что-то белое."
+    "Тч... В такой ситуации, у меня нет другого выбора, кроме как использовать \"это!\""
+    ri "ИИИАААХХХ!!!"
     
     hide cg watchout3 with dissolve
     
-    "I used my special evasive action technique and leapt out of the way, causing the hamster to ricochet against the volleyball and fly back into its owner's arms and the volley ball to fly into the sky and deflect the bird poop."
-    "Just what kind of bizarre day was today!?"
+    "Я использовал свою особую технику уклонения и выскочил оттуда, в результате чего хомяк отскочил от волебольного мяча и полетел обратно в руки хозяина, из за этого волейбольный мяч взмыл в небо и сбил птичий помёт."
+    "Что за странный день!?"
     
 menu:
-    "For the last time... I'm going to tell Haruka about that love letter!":
+    "В конце концов... Я собираюсь сказать Харуке о любовном письме!":
         jump tellfour
     
-    "Ah forget this. Let's just get back to the festival.":
+    "А, забудь об этом. Сосредоточься на фестивале.":
         jump donttell
         
 label tellfour:
-    ri "Haruka! I have something very important to tell you! Today, we found a-"
-    "All of a sudden, I heard a thunderous explosion behind me."
+    ri "Харука! Я должен сказать тебе что-то важное! Сегодня мы нашли-"
+    "Вдруг я услышал какой-то взрыв позади себя."
     
     scene bg white with dissolve
     scene bg sportsfield with dissolve
     
-    "Girl" "EEAAAHHHHHHH!!! The science club's mecha dinosaur's on the loose again!!!"
-    "AS IF A THING LIKE THAT EVEN EXISTED!!!!!!!"
+    "Девушка" "ИИИААААХХХ!!! Меха-динозавр научного клуба на вновь на свободе!!!"
+    "КАК БУДТО ТАКИЕ ВЕЩИ ВООБЩЕ СУЩЕСТВУЮТ!!!!!!!"
     "... ... ..."
     jump donttell
     
 label donttell:
-    "In the end, I couldn't tell Haruka about the love letter after all."
-    "I sighed. Just what was I going to do now?"
+    "В конце концов я не мог сказать Харуке о любовном письме."
+    "Я вздохнул. И что я сейчас собираюсь делать?"
     
     show haruka sports handfront smile with dissolve
     
-    ha "Here, Riku-kun. I've finished tying the rope."
-    "Urk. We were so close together now!"
-    "With not a single cloud to protect us against the shining sun, I could easily feel Haruka's moist body through our thin P.E. uniforms."
-    "How embarrassing..."
-    "A short distance away, I saw Sora eye me with displeasure."
+    ha "Вот, Рику-кун. Я закончила связывать."
+    "Урх. Мы так близко друг к другу!"
+    "Без единого облачка, которое могло защитить нас от палящего солнца, я легко мог почувствовать влажное тело Харуки через тонкую спортивную форму."
+    "Как смущающе..."
+    "Недалеко от нас, я увидел Сору, которая недовольно смотрела на меня."
     
     show sora sports armscrossed irritated with dissolve:
         xanchor 0.5
         xpos 0.8
     
-    so "Hmph."
+    so "Хмпф."
     
     scene cg oneleggedrace with dissolve
     
-    "Everyone finished tying themselves to their partners, so the race got underway."
-    "Teacher" "On your marks..."
-    "Teacher" "Get set..."
-    "Teacher" "Go!"
+    "Когда все закончили связывать ноги, гонка началась."
+    "Teacher" "На старт..."
+    "Teacher" "Внимание..."
+    "Teacher" "Марш!"
     
     play music "Music/Merry_Go_Around.ogg" fadeout 1.5 loop 
     
     scene bg white with dissolve
     
-    "Riku and Haruka" "Eaaahh!"
-    "We fell on our faces out the starting gate."
-    "Aw no..."
-    "While I was freaking out about the love letter, I totally forget how uncoordinated a person Haruka was!"
-    ri "C-come on, we need to get back up."
-    ha "U-uhn... I'm sorry, Riku-kun..."
+    "Рику и Харука" "Иааааххх!"
+    "Только выскочив из стартовых ворот, мы сразу же упали на землю."
+    "Оу нет..."
+    "Пока я волновался о любовном письме, я совсем забыл, что Харука была совсем нескоординированным человеком!"
+    ri "Д-давай, мы должны вернуться."
+    ha "У-ухн... Прости, Рику-кун..."
     
     scene cg oneleggedrace with dissolve
     
-    "Haruka and I managed to stand back up."
-    ri "O-okay... On three..."
-    ri "One... Two... ThreeeAAHHH!!"
+    "Нам с Харукой удалось подняться."
+    ri "Х-хорошо... На счёт три..."
+    ri "Раз... Два... ТрииААХХХ!!"
     
     scene bg white with dissolve 
     
-    "We took another dive forward."
-    ha "Uuuu... I'm sorry..."
-    "As Sora and her partner went past us, my younger sister eyed us with pity."
-    "Tsch... To be looked down upon by my very sister!"
-    ri "C-come on Haru-chan! We have to get back up!"
-    "Haruka appeared to be thoroughly dazed."
-    ha "Uuu..."
-    ri "H-here! Let me help you up!"
-    "I attempted to lift Haruka up from underneath her arms."
-    "Unfortunately, I reached just a tad too deep and ended up running my hands up her chest as I tried to lift her up."
-    ha "Hiiaaahh!"
-    ri "S-sorry!"
-    "...This was getting dangerous..."
-    "It felt like my brain was beginning to turn as soft and squishy as Haruka's breasts."
-    ri "H-here!"
+    "И мы снова упали вперёд."
+    ha "Уууу... Прости..."
+    "Когда Сора со своим партнёром прошли мимо нас, моя младшая сестра посмотрела на нас с жалостью."
+    "Тч... Да чтобы моя сестра смотрела на меня свысока!"
+    ri "Д-давай, Хару-тян! Мы должны подняться!"
+    "Харука казалась полностью ошеломлённой."
+    ha "Ууу..."
+    ri "В-вот! Позволь мне помочь тебе!"
+    "Я попытался поднять Харуку, взяв её под руки"
+    "К сожалению, руки зашли слишком далеко и в конечном итоге я достал до её груди, когда попытался поднять её."
+    ha "Ххиияяя!"
+    ri "П-прости!"
+    "...Это страновится опасным..."
+    "Казалось, что мой мозг становится таким же мягким, как грудь Харуки."
+    ri "С-сюда!"
     
     scene cg oneleggedrace with dissolve
     
-    "I finally managed to lift Haruka back up."
-    ha "Uuuuu..."
-    ri "C-come on, Haru-chan..."
-    "I wrapped my arm around her shoulder and tried to hold her steady."
-    ri "One step, two step..."
-    "Good, good, it looks like we were making forward progress... even though we were in last place."
-    ha "Uuu... R-Riku-kun..."
-    ri "What is it?"
-    ha "B-b-b-b-bra..."
-    ri "E-eh?"
+    "Наконец, я смог поднять Харуку."
+    ha "Ууууу..."
+    ri "Д-давай, Хару-тян..."
+    "Я положил свою руку ей на плечо, и попытался поддержать её."
+    ri "Один шаг, ещё один шаг..."
+    "Хорошо, хорошо, похоже что-то начало получаться… хотя мы всё-равно были последними."
+    ha "Ууу... Р-Рику-кун..."
+    ri "Что?"
+    ha "Л-л-л-л-л-лифчик..."
+    ri "Э-ээ?"
     
     scene cg oneleggedrace2 with dissolve
     
-    ha "H-H-Haru-chan's bra's come loose!"
-    "Eeeeeehhhhhhh!?!?"
-    ha "Back when we fell... I think the strap came undone when you tried to lift me back up..."
-    ha "I-it's starting to fall down..."
-    "Code red, code red!"
-    ri "C-can you hold on until the end?"
+    ha "Л-лифчик Хару-тян соскользнул…!"
+    "Эээээээээээээ!?!?"
+    ha "Ещё когда мы упали… Похоже он расстегнулся, когда ты пытался поднять меня..."
+    ha "О-он начинает падать..."
+    "Красный код, красный код!"
+    ri "М-можешь продержаться до конца?"
     
     scene cg oneleggedrace3 with dissolve
     
-    ha "Uuuuu-uuhnn....! It's already gotten so low..."
-    "Y-you mean to say that what I'm feeling against my side right now was Haruka's actual... actual..."
-    "No, no, no, no! Keep these thoughts out of your head, Riku!"
-    ha "Uuu... I think both straps have slipped off my shoulder now..."
-    "Aw no..."
-    "At this rate, the bra was going to slip completely off!"
-    ri "H-Haru-chan! H-hold the bra or else it's totally gonna fall off!"
-    ha "T-too embarrassing..."
-    "I looked forward..."
-    "The finish line was still so far away...!"
-    "Will we make it in time? Or will the bra slip off and hit the ground first?"
-    "Eaahh, no choice but to hurry up!"
-    ri "Let's go faster! One, two, one, two!"
-    "In our haste, we passed by Sora."
-    "Then before we knew it, we had passed by everyone else as well."
-    "All right... Looks like first place was in our grasp!"
-    "Just..."
-    "One more..."
-    "Tiny..."
-    "Steeeeee---"
+    ha "Ууууу-уухнн....! Он уже опустился так далеко..."
+    "Т-то есть ты хочешь сказать, что то, что я ощущаю со своей стороны это на самом деле Харуки…"
+    "Нет, нет, нет, нет! Выкинь эти мысли из головы, Рику!"
+    ha "Ууу... Похоже что только что обе лямки соскользнули с плеч…..."
+    "Оу нет..."
+    "Такими темпами, бюстгальтер сейчас упадёт!"
+    ri "Х-Хару-тян! Д-держи его, пока он окончательно не упал!"
+    ha "С-слишком смущающе..."
+    "Я посмотрел вперёд..."
+    "До финиша ещё так далеко...!"
+    "Успеем ли мы вовремя? Или лифчик упадёт прямо на землю?"
+    "Иаахх, неважно, нужно поторопиться!"
+    ri "Быстрее! Раз, два, раз, два!"
+    "В спешке мы не заметили, как прошли мимо Соры."
+    "А, потом, прежде чем мы заметили, мы обогнали всех остальных."
+    "Отлично… Похоже первое место у нас в кармане!"
+    "Лишь..."
+    "Ещё чуть-чуть..."
+    "Немного..."
+    "Чуууточчччккуууу---"
     
     scene bg white with dissolve
     $ renpy.music.stop(fadeout=1.0)
@@ -630,7 +630,7 @@ label donttell:
     
     play music "Music/Radio_Martini.ogg" loop
     
-    "We stood in front of the track field, watching the rest of Nonami's event."
+    "Мы стояли около спортивного трека, наблюдая остаток соревнования Нонами."
     
     show sora sports armscrossed confident with dissolve:
         xanchor 0.5
@@ -639,62 +639,62 @@ label donttell:
         xanchor 0.5
         xpos 0.7
     
-    so "It was unfortunate that Riku tripped at the very end and blew it for Haruka-sempai."
-    "Oy, oy, I'm pretty sure it went the other way..."
+    so "Очень жаль, что Рику споткнулся в самом конце и продул вместе с Харукой-семпай."
+    "Эй, эй, я уверен, что было по-другому..."
     
     show haruka sports handfront forcesmileblush with dissolve:
         xpos 0.7
     
-    ha "Uu-uhn. We were still fortunate enough to have come in second place."
-    so "Come to think of it, what was that little thing Riku slipped into his pocket afterwards?"
+    ha "Уу-уух. Нам повезло что мы хотя-бы на втором месте."
+    so "Если подумать, то что за маленькую вещицу Рику сунул потом в карман?"
     
     show haruka sports neutral surpriseblush with dissolve:
         xpos 0.7
     
-    ha "H-heh!? A-ahh..."
-    ri "M-my coin purse just happened to slip out when we fell... that's all."
+    ha "Х-хех!? А-аах..."
+    ri "П-просто мой кошелёк выскользнул, когда мы упали... вот и всё."
     
     show sora sports armscrossed suspicious with dissolve:
         xpos 0.3
     
-    so "Ehhh... I see..."
-    "Soon, Nonami's event finished and it was time for lunch."
+    so "Ээххх... Понятно..."
+    "Позже, когда соревнование Нонами закончилось, наступило время ланча."
     
     scene bg schoolback with dissolve
     $ renpy.music.stop(fadeout=1.0)
     
     show haruka sports handfront neutralblush with dissolve
     
-    "While everyone else was at the school field eating their bento, Haruka and I managed to sneak behind the school."
-    "I reached into my pocket and returned Haruka's bra."
-    ri "Sorry."
+    "Пока все остальные были на поле и ели свои бэнто, мы с Харукой ушли за школу."
+    "Я сунул руку в карман и отдал Харуке её лифчик."
+    ri "Прости."
     
     show haruka sports handfront smileblush with dissolve
     
-    ha "Uu-uhn. I think I can trust Riku-kun enough to keep my bra safe."
-    "Well, that was good to hear."
-    "...I think."
-    "I guess we've gone a pretty far way since I accidentally saw her underwear on top of the Space Needle back during Golden Week."
-    "The love letter was right next to where Haruka's bra was just a moment ago."
-    "What a fitting place to deliver Haruka the letter... After all, don't a lot of other couples confess their love underneath the intimate shadow of the school?"
-    "Tsch..."
+    ha "Уу-уух. Я думаю что могу доверить Рику-куну свой бюстгальтер."
+    "Хорошо, приятно слышать."
+    "...мне кажется."
+    "Похоже мы прошли большой путь вместе с тех пор как я случайно увидел её нижнее бельё в Спейс Ниидл во время золотой недели."
+    "Любовное письмо лежало там, где секунду назад лежал лифчик Харуки."
+    "Какое подходящее место, чтобы отдать Харуке письмо... В конце концов не много ли других пар признаются в любви под тенью школы?"
+    "Тч..."
     
     play music "Music/Ano_Hi_no_Sora.ogg" fadeout 0.5 loop
     
-    "What a horrible situation."
-    "After everything that we've been through together, I didn't want to give Haruka away to some other guy that I had never even met before."
-    "Who knew what could happen? Would she just hold hands with him? Embrace? Kiss? Or go a lot further than even that?"
-    "A deep sort of rage mounted inside my lower gut at the thought."
-    "But it wasn't like we were really going out either..."
-    "This was supposed to be none of my business..."
-    "In fact, I was probably being the bad guy here, keeping a secret like this from Haruka..."
-    "Ah, just what was I supposed to do!?"
+    "Что за ужасная ситуация."
+    "После всего того, через что мы прошли вместе, я не хочу отдавать Харуку какому-то парню которого ещё даже ни разу не встречал."
+    "Кто же знал что такое случится? Будет ли она просто держаться с ним за руки? Обниматься? Целоваться? Или всё зайдёт гораздо дальше?"
+    "Из за этих мыслей, глубоко во мне проснулась ярость."
+    "Но не похоже, чтобы это был выход..."
+    "Это вообще должно быть не моё дело..."
+    "На самом деле, я был плохим парнем, сохраняя это в тайне от Харуки"
+    "Ах, и что я должен сделать!?"
     
 menu:
-    "I'm going to give Haruka the letter and finish this once and for all!":
+    "Я собираюсь отдать Харуке письмо и покончить с этим раз и навсегда":
         jump giveharukaletter
         
-    "Forget this... I'm never going to give Haruka that letter.":
+    "Забудь… Я никогда не отдам Харуке это письмо.":
         jump nevergiveharukaletter
         
 label giveharukaletter:
@@ -702,55 +702,55 @@ label giveharukaletter:
     $ giveletter = True
     $ dontgiveletter = False
     
-    "This was going to be the end..."
-    "Who knew... Maybe this would be the last time I would be able to have a day like this with Haruka."
-    "I guess though, I've felt this feeling many times."
-    "Farewells were always too painful... So whenever I had to leave someone important to me forever, we would always promise to meet each other again... No matter how hopeless, how slim, how remote the actual chances were."
-    "That way, no matter how far the distance, we wouldn't have to admit that we would probably never see each other again."
-    "But eventually, our feelings would inevitably waver."
-    "Even though we promised to never forget each other, our precious memories will be replaced by newer ones."
-    "And pretty soon, we would become exactly like two strangers again."
-    "Was the same thing going to happen now with Haruka?"
-    ri "Haru-chan... Actually..."
+    "Это должен был быть конец..."
+    "Кто знает... Может быть, это последний раз, когда я мог провести день вот так с Харукой."
+    "Я думаю, что я испытывал это чувство уже много раз."
+    "Прощаться всегда было слишком больно... Поэтому, когда я должен был расстаться с кем-то важным для меня навсегда, мы всегда обещали встретиться друг с другом снова... Неважно, насколько это было безнадёжно, как далеко мы друг от друга были, и что на самом деле не было никаких шансов."
+    "Поэтому, независимо от того, каким было расстояние, мы не должны были признавать, что возможно никогда больше не увидимся."
+    "Но в конце концов, наши чувства неизбежно менялись."
+    "Даже если мы обещали никогда не забывать друг друга, наши драгоценные воспоминания будут заменены новыми."
+    "И очень скоро, мы снова становились незнакомцами друг другу."
+    "Неужели подобная вещь случится и с Харукой?"
+    ri "Хару-тян... На самом деле..."
     
     show haruka sports neutral concerned with dissolve
     
-    ha "Mm? What's the matter, Riku-kun? You suddenly don't look so good..."
-    ri "Uhn... To tell the truth, Nonami was wandering around your locker earlier today, and she happened to find something..."
-    ha "What was it?"
-    "So the end had finally arrived, huh..."
-    "I reached into my pocket and grabbed the letter."
-    "Good bye, Haru-chan... Our time together was indeed fun..."
-    ri "It was a..."
+    ha "Мм? Что случилось, Рику-кун? Ты выглядишь как-то нехорошо..."
+    ri "Ухх... Честно говоря, Нонами была сегодня рядом со шкафчиками и случайно нашла кое-что..."
+    ha "Что же?"
+    "Вот мы и прибыли на конечную..."
+    "Я сунул руку в карман и достал письмо."
+    "Прощай, Хару-тян... Время, проведённое с тобой, было весёлым..."
+    ri "Это..."
     
     play music "Music/Gold_Rush.ogg" fadeout 1.5 loop
     show nonami sports excited happy with dissolve:
         xanchor 0.5
         xpos 0.8
 
-    no "SCALLOPED OYSTER CASSEROLE!!!!"
-    "Eh?"
-    no "Check it out, Rii-kun! They're selling scalloped oyster casseroles over there for just 300 yen!"
+    no "ЗАПЕКАНКИ ИЗ ГРЕБЕШКОВ И УСТРИЦ!!!!"
+    "Э?"
+    no "Смотри, Рику-кун! Они продают запеканки из гребешков и устриц всего за 300 йен!"
     
     show nonami sports excited smile2 with dissolve:
         xpos 0.8
     
-    no "Mmmmmmmm! So tasty! Haru-chan, you try having some too!"
-    "WHAT THE HELL WAS THAT!!!!!!"
-    "I stormed over to Nonami with nothing but fury written on my face."
-    "If you had asked a preschooler what colour crayon she would pick to draw this situation, I had no doubt she would pick the ugliest colour possible, like mauve purple or maybe rust red."
-    ri "Y-you always butt in at the worst possible moment!!!"
+    no "Ммммммммм! Как вкусно! Хару-тян, ты тоже должна попробовать!"
+    "ЧТО, ЧЁРТ ВОЗЬМИ, ПРОИСХОДИТ!!!!!!"
+    "Я взглянул на Нонами взглядом, в котором не было ничего, кроме ярости."
+    "Если спросить у дошкольника, какой бы карандаш он выбрал, чтобы описать эту ситуацию, я не сомневаюс, что он выбрал бы самый некрасивый цвет, как розовато-фиолетовый или, может быть, цвет красной ржавчины."
+    ri "Т-ты всегда появляешься в самый неподходящий момент!!!"
     
     show nonami sports neutral surprise with dissolve:
         xpos 0.8
     
-    no "E-eh?"
-    ri "Eaaaahhhhhhhh!!!"
-    "I grabbed Nonami by the arms and tried to tie her up as if she were one of those long rubber balloons that carnival magicians twist and fold into the shape of poodles."
-    no "O-oy, what's the big idea!? You're making me spill my oysters!"
-    ri "Waaaaaahhhhhh!!!"
-    "You know..."
-    "I'm really starting to think that I should just have stayed home today..."
+    no "Э-ээ?"
+    ri "Иаааахххххххх!!!"
+    "Я схватил Нонами за руки и пытался связать её, как будто она была одной из тех длинных надувных шаров, которые на карнавале скручивают в фоме пуделя."
+    no "Э-эй, что за выдумки!? Ты заставляешь меня пролить устрицы!"
+    ri "Вааааааххх!!!"
+    "Знаешь ли..."
+    "Я начинаю думать, что мне стоило сегодня остаться дома..."
     jump afterlunchsportsfestival
     
 label nevergiveharukaletter:
@@ -758,43 +758,43 @@ label nevergiveharukaletter:
     $ giveletter = False 
     $ dontgiveletter = True
     
-    "I made up my mind. I was never going to give Haruka the letter."
-    "My entire life, I had lost everyone special to me."
-    "Farewells were always too painful... So whenever I had to leave someone important to me forever, we would always promise to meet each other again... No matter how hopeless, how slim, how remote the actual chances were."
-    "That way, no matter how far the distance, we wouldn't have to admit that we would probably never see each other again."
-    "But eventually, our feelings would inevitably waver."
-    "Even though we promised to never forget each other, our precious memories will be replaced by newer ones."
-    "And pretty soon, we would become exactly like two strangers again."
-    "I couldn't bear to imagine something like that happening between Haruka and I..."
-    "If I had no choice but to move again... well, that would just be outside of my power to control."
-    "But there was no way I was going to purposefully just throw Haruka away."
+    "Я решился. Я никогда не отдам Харуке это письмо."
+    "Всю свою жизнь я терял что-то важное для меня."
+    "Прощаться всегда было слишком больно... Поэтому, когда я должен был расстаться с кем-то важным для меня навсегда, мы всегда обещали встретиться друг с другом снова... Неважно, насколько это было безнадёжно, как далеко мы друг от друга были, и что на самом деле не было никаких шансов."
+    "Поэтому, независимо от того, каким было расстояние, мы не должны были признавать, что возможно никогда больше не увидимся."
+    "Но в конце концов, наши чувства неизбежно менялись."
+    "Даже если мы обещали никогда не забывать друг друга, наши драгоценные воспоминания будут заменены новыми."
+    "И очень скоро, мы снова становились незнакомцами друг другу."
+    "И я не мог себе представить, что что-то подобное случится со мной и Харукой…"
+    "Если раньше у меня не было выбора, и я должен был уезжать... ну, это просто было не в моей власти."
+    "Но сейчас я никак не могу просто бросить Харуку."
     
     show haruka sports neutral concerned with dissolve 
     
-    ha "Riku-kun, are you okay? You suddenly don't look that well..."
-    ri "M-me? No, I'm fine..."
+    ha "Рику-кун, ты в порядке? Ты выглядишь как-то нехорошо..."
+    ri "Я-я? Нет, я в порядке..."
     
     show haruka sports neutral smile with dissolve
     
-    ha "Should we get going now?"
-    ri "Yeah, let's go eat lunch."
-    "I wanted our happy days to continue."
-    "I wanted to spend the rest of our days walking to school together, taking classes together, and having fun together... Then maybe one day, Haruka might even like me enough to leave an envelope just like the one I had in my pocket in my locker too..."
-    "Was there anything wrong with thinking like that?"
-    "After all, I was her friend, while whoever wrote her the love letter hadn't even met her before..."
-    "Who gave him the right to date Haruka, when I was here standing right beside her?"
-    ha "Even though a lot of things happened, today was still a lot of fun."
-    ri "Yeah. Me too..."
+    ha "Что будем делать?"
+    ri "Пойдём пообедаем."
+    "Я хотел, чтобы наши счастливые дни продолжились."
+    "Я хотел ходишь в школу вместе, учиться в одном классе вместе, и веселиться вместе… Тогда, возможно, в один прекрасный день, Харука будет мне так сильно нравиться, что я тоже оставлю в её шкафчике такое же письмо, как в моём кармане…"
+    "Что неправильного в моих мыслях?"
+    "В конце концов, я её друг, в то время как тот, что написал это письмо, даже ни разу не встречался с ней..."
+    "Кто дал ему право назначать свидание Харуке, когда я был рядом с ней?"
+    ha "Несмотря на то, что много чего произошло, сегодня было очень весело."
+    ri "Да, мне тоже..."
     
     show haruka sports excited happy with dissolve
     
-    ha "Eheh... It sure is nice to have a trustworthy guy around to take care of things like this."
-    ri "Yeah..."
-    "...I..."
-    "...really was the worst, wasn't I?"
-    "I sighed."
-    "In the end, I was just abusing Haruka's easily trusting nature for my own ends, wasn't I...?"
-    "I was just taking advantage of a nice girl and lying to her just because I wanted her for myself."
+    ha "Эхех... Хорошо, что рядом со мной есть надёжный парень, чтобы заботиться о таких вещах."
+    ri "Да..."
+    "...я..."
+    "...на самом деле был худшим?"
+    "Я вздохнул."
+    "В конце концов я просто злоупотребляю доверчивостью Харуки рад моих собственных целей, не так ли…?"
+    "Я воспользовался такой хорошей девушкой, и лгал ей, только потому что хотел быть с ней."
     jump afterlunchsportsfestivaltwo
     
 label afterlunchsportsfestival:
