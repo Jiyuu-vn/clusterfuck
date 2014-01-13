@@ -746,7 +746,7 @@ label giveharukaletter:
     
     no "Э-ээ?"
     ri "Иаааахххххххх!!!"
-    "Я схватил Нонами за руки и пытался связать её, как будто она была одной из тех длинных надувных шаров, которые на карнавале скручивают в фоме пуделя."
+    "Я схватил Нонами за руки и пытался связать её, как будто она была одной из тех длинных надувных шаров, которые на карнавале скручивают в форме пуделя."
     no "Э-эй, что за выдумки!? Ты заставляешь меня пролить устрицы!"
     ri "Вааааааххх!!!"
     "Знаешь ли..."
@@ -804,42 +804,42 @@ label afterlunchsportsfestival:
     scene bg trackfieldfar with dissolve
     show nonami sports neutral with dissolve
     
-    "I sighed as I ate my cup of scalloped oyster casserole with Nonami."
-    no "Ehhh... So you still haven't given Haru-chan the love letter yet?"
-    ri "Yeah, and I only just managed to summon up the courage to do it too..."
+    "Я вздохнул, когда ел запеканку из зубчатых устриц с Нонами."
+    no "Эххх... Так ты до сих пор не отдал Хару-тян письмо?"
+    ri "Да, как только я набрался смелости, чтобы сделать это..."
     
     show nonami sports neutral forcedsmile with dissolve
     
-    no "Ehehe. Sorry, sorry."
-    ri "You have no idea how nerve-racking it is to give that thing to her..." 
-    ri "I don't really want to keep lying to Haru-chan, but I don't really want to give her away to another guy either..."
-    ri "But then, it's not like we're really going out, so there's honestly no reason why I should be worried either."
+    no "Эхехе. Прости, прости."
+    ri "Ты  понятия не имеешь, сколько нервов я потратил, чтобы отдать ей эту вещь…" 
+    ri "Я, на самом деле, не хочу лгать Хару-тян, но и отдавать её какому-то незнакомому парню тоже не хочется..."
+    ri "Но всё же, на деле выходит, что у меня нет никакой причины, по которой я должен беспокоиться."
     
     show nonami sports armscrossed confident with dissolve
     
-    no "Mmm... What a conundrum..."
+    no "Ммм... Прям головоломка..."
     
     show nonami sports neutral happy with dissolve
     
-    no "Mah, don't worry, don't worry. Next time, I'll help you give the letter to her."
-    ri "Really?"
+    no "Маах, не беспокойся, не беспокойся. В следующий раз я помогу тебе отдать письмо."
+    ri "Правда?"
     
     show nonami sports neutral smile2 with dissolve
     
-    no "After all, I did mess up your last attempt and all."
-    ri "Thanks, Nonami. It'll be much easier if we tell Haru-chan about the letter together."
-    "I managed to relax after Nonami said that."
-    "Maybe with Nonami's help, I'll finally be able to fix this big mess."
-    "All of a sudden, the loud speaker went off, signaling the end of lunch."
+    no "В конце концов, из за меня провалилась твоя последняя попытка."
+    ri "Спасибо, Нонами. Мне будет гораздо проще, если мы скажем Хару-тян о письме вместе."
+    "Мне удалось расслабиться, после того как Нонами сказала это."
+    "Может быть, вместе с Нонами, мне удастся исправить этот беспорядок."
+    "Вдруг громкоговоритель дал сигнал к концу обеденного перерыва."
     
     show nonami sports excited happy with dissolve
     
-    no "Oh! Looks like I need to get back to my class."
-    ri "Yeah. I'll see you."
+    no "О! Похоже мне нужно вернуться к своему классу."
+    ri "Ладно. Увидимся."
     
     show nonami sports neutral smile2 with dissolve
     
-    no "Uhn. See you later!"
+    no "Угу. До встречи!"
     jump endsportsfestival
 
 label afterlunchsportsfestivaltwo:
@@ -848,73 +848,73 @@ label afterlunchsportsfestivaltwo:
     scene bg trackfieldfar with dissolve
     show nonami sports armscrossed focused with dissolve
     
-    "After I ate lunch with Haruka, Nonami suddenly appeared and dragged me away."
-    "She took me behind some food stands and stared at me intently."
-    no "So? Did you tell Haruka about the love letter?"
-    ri "Not really..."
-    no "Eh... So you're really going to burn it after all?"
-    ri "Maybe..."
+    "После того как я пообедал с Харукой, появилась Нонами и утащила меня."
+    "Она завела меня за какие-то стенды с продуктами и пристально посмотрела на меня."
+    no "И? Ты сказал Харуке о любовном письме?"
+    ri "Не совсем..."
+    no "Э... Так ты и правда собираешься сжечь его?"
+    ri "Возможно..."
     
     show nonami sports armscrossed confident with dissolve
     
-    no "I see..."
-    ri "I don't actually know what I'm going to do... On one hand, I don't really want to give her the letter, but on the other hand, I feel really guilty lying to her too..."
+    no "Понятно..."
+    ri "Я совсем не знаю, что делать… С одной стороны, я действительно не хочу отдавать ей это письмо, с другой стороны, я чувствую вину, из за того что лгу ей..."
     
     show nonami sports neutral smile2 with dissolve
     
-    no "Ehh... So Rii-kun's really taken a liking to Haru-chan, hasn't he?"
-    ri "H-huh?"
-    no "Well, I say good choice, Rii-kun! I'm sure Haru-chan'll make a lovely wife for ya. She's really good at cooking and she comes from a good family too."
-    "You know, I wasn't really thinking that far ahead, Nonami..."
-    ri "No, this is actually really bad, Nonami. By keeping the letter a secret, aren't I just taking advantage of her? Haru-chan really does trust people too easily..."
+    no "Эхх... Неужели Рии-куну настолько нравится Хару-тян?"
+    ri "Ч-что?"
+    no "Ну, я говорю, хороший выбор, Рии-кун! Я уверена, что Хару-тян станет для тебя прекрасной женой. Она из хорошей семьи, и отлично готовит."
+    "Знаешь, я бы не стал заходить так далеко, Нонами..."
+    ri "Нет, на самом деле, это очень плохо, Нонами. Дежа письмо в тайне, я просто воспользуюсь ей? Хару-тян, действительно, слишком доверяет людям..."
     
     show nonami sports armscrossed suspicious with dissolve
     
-    no "Fuuu... Rii-kun, have you ever had a girlfriend before?"
-    ri "Err..."
-    "Not really."
+    no "Фьюю... Рии-кун, у тебя прежде была девушка?"
+    ri "Эмм..."
+    "Не совсем."
     
     show nonami sports neutral focusedtalk with dissolve
     
-    no "You see? This is exactly why you've been single all this time!"
-    ri "W-what is?"
+    no "Вот видишь? Поэтому ты всегда один!"
+    ri "Почему это?"
     
     show nonami sports armscrossed confident with dissolve
     
-    no "It's 'cause you lack initiative! Girls like guys who are confident, Rii-kun! Not wussy, self-doubting, mousy types who are too scared of making mistakes!"
-    "O-ouch... So you mean to say that I'm a wussy?"
+    no "Потому что тебе не хватает инициативы! Девушки любят уверенных в себе парней, Рии-кун! Не таких как тряпки, не тихих, словно мышки, не сомневающихся, и не таких, которые слишком боятся совершать ошибки!"
+    "Эй... Ты хочешь сказать, что я тряпка?"
     
     show nonami sports neutral focusedtalk with dissolve 
     
-    no "If you focus just too much on fulfilling your own sense of justice, then you're just gonna be sitting on your butt, arguing with yourself whether you're doing the right thing or not while everyone else is busy snatching up all the girls away!"
-    ri "W-well, if you put it that way..."
-    "Ugh, maybe Nonami was right..."
-    "Haruka thinks I'm trustworthy, and I'm pretty sure Nonami and Sora think the same."
-    "So, why should I think that I'm dishonest?"
-    ri "You're probably right..."
-    no "Uhn, uhn! So you'd better confess your feelings to Haru-chan by sundown tonight, or else I'm gonna be super mad!"
-    ri "Oy, oy! T-that's impossible! You need to give these things some time, Nonami..."
+    no "Если ты слишком сильно сосредоточишься на собственном чувстве справедливости, то ты просто просидишь всё время, споря с самим собой, правильно ли ты поступаешь или нет, а остальные парни будут ходить с девчонками!"
+    ri "Н-ну, если так выражаться..."
+    "Угх, возможно Нонами права..."
+    "Харука думает, что я надёжный парень, и я уверен, что Нонами и Сора думают так же."
+    "Так почему я должен думать, что я нечестный?"
+    ri "Возможно, ты права..."
+    no "Угу, угу! Так что лучше признайся в своих чувствах к Хару-тян на закате сегодня вечером, либо я сойду с ума!"
+    ri "Эй, эй! Э-это невозможно! Ты должна дать мне немного времени, Нонами..."
     
     show nonami sports armscrossed irritated with dissolve
     
-    no "Fuuu... I guess Rii-kun will still be Rii-kun..."
+    no "Фууу... Похоже, Рии-кун, все тот же Рии-кун..."
     
     show nonami sports armscrossed confident with dissolve 
     
-    no "Mah, whatever. As long as you burn that letter, everything should be fine."
-    "I was feeling better now after talking with Nonami."
-    "Maybe I was just over thinking this."
-    "All of a sudden, the loud speaker went off, signaling the end of lunch."
+    no "Маах, в любом случае. Как только ты сожжёшь письмо, всё будет прекрасно."
+    "Мне стало легче, после того как я поговорил с Нонами."
+    "Возможно, я слишком много думал об этом."
+    "Вдруг, громкоговоритель дал сигнал к окончанию обеденного перерыва."
     
     show nonami sports excited happy with dissolve 
     
-    no "Oh! Looks like I need to get back to my class."
-    ri "Yeah. I'll see you."
+    no "О! Похоже мне нужно вернуться к своему классу."
+    ri "Ладно. Увидимся."
     
     show nonami sports neutral smile2 with dissolve 
     
-    no "See you later!"
-    ri "And Nonami, thanks."
+    no "До встречи!"
+    ri "И спасибо, Нонами."
     jump endsportsfestival
     
 label endsportsfestival:
@@ -922,203 +922,203 @@ label endsportsfestival:
     scene bg sportsfield with dissolve
     $ renpy.music.stop(fadeout=1.0)
     
-    "I made my way back to my class, feeling better after having spoken to Nonami."
-    "However, little did I know how events will unfold that day..."
+    "Я возвращался в класс, чувствуя себя намного легче, после того как поговорил с Нонами."
+    "Однако, я совсем не знал, как будут развиваться события..."
     
     play music "Music/Investigations.ogg" fadeout 1.5 loop
     
-    "I reached into my pocket, and to my surprise, found the letter missing."
-    "Wha-?"
-    "I checked my other pocket, and found it just as empty."
-    "Where could that thing be?"
-    "I looked around my surroundings, but it was now nowhere to be found."
+    "Я потянулся в карман, но, к моему удивлению, письмо пропало."
+    "Что-?"
+    "Я проверил другой карман, но и там было пусто."
+    "И где оно может быть?"
+    "Я огляделся вокруг, но сейчас его уже было не найти."
     
     if dontgiveletter:
-        "Well, I guess it didn't really matter that it disappeared, considering that I was probably going to throw it out anyways..."
+        "Ну, похоже, это не имеет значения, я в любом случае собирался его выкинуть..."
         
     if giveletter:
-        "It felt as if somebody had reached down my throat and squeezed my lungs."
-        "Oh no... Now I had done it..."
-        "How was I possibly going to explain this to Haruka?"
+        "Такое ощущение, что кто то достиг моего горла и сжал мои лёгкие."
+        "О нет... Теперь уже всё сделано..."
+        "И как я буду объяснять это Харуке?"
         
-    "All of a sudden, I caught sight of it."
+    "Внезапно я заметил его."
     
     scene bg trackfield with dissolve 
     
-    "A small, white envelope. Lying at the very end of the track course."
+    "Небольшой белый конверт. Лежит в самом конце трека."
     
     scene bg sportsfield with dissolve
     
-    "It must have somehow fallen out of my pocket there during the lunch break!"
+    "Должно быть, он как-то выпал из моего кармана во время обеденного перерыва!"
     
     if dontgiveletter:
-        "Aw crap! What if somebody picks it up and gives it to Haruka!?"
+        "Вот чёрт! Если кто-то поднимет его и отдаст Харуке!?"
         
-    "I had to recover it at all costs!"
-    "Just as I was about to make a run for it, the next event began and I had no choice but to join my classmates."
-    "It looked like I was facing Nonami's class... at the track field. What luck!"
-    "It was going to be a relay race, with the love letter placed strategically at the finish line."
+    "Я должен вернуть его себе любой ценой!"
+    "Как только я собрался сбегать за ним, началось следующее соревнование и у меня не было выбора, кроме как вернуться к своему классу."
+    "Похоже я увидел класс Нонам... на том самом треке. Какая удача!"
+    "Это становилось эстафетой с любовным письме на финише."
     
     scene bg trackfieldfar with dissolve
     show nonami sports neutral with dissolve
     
-    "As we made our way to the track field, I went to Nonami and whispered into her ears the situation."
-    ri "Oy, bad news. The love letter fell out of my pocket during lunch break, and now it's lying at end of the track."
+    "Как только мы подошли к треку, я подошёл к Нонами и прошептал ей о нашей ситуации."
+    ri "Эй, плохие новости. Любовное письмо выпало из кармана во время обеденного перерыва, и теперь лежит в конце трека."
     
     show nonami sports neutral surprise with dissolve
     
-    no "E-eh?"
-    ri "Looks like we'll have to try to be the very last runners and grab the letter before anyone else gets to it."
+    no "Э-ээ?"
+    ri "Похоже мы должны вступать в гонку самыми последними, чтобы перехватить письмо первыми."
     
     show nonami sports excited happy with dissolve
     
-    no "Oh! This is beginning to sound like the scenario to some romance drama!"
-    ri "So, try to be the last runner in the race..."
+    no "О! Это начинает походить на сценарий какой-то романтической драмы!"
+    ri "Короче, попытайся быть последним бегуном..."
     
     show nonami sports excited smile2 with dissolve
     
-    no "Uhn, uhn, understood!"
+    no "Угу, угу, поняла!"
     
     if kendoclub:
         
         hide nonami with dissolve
         
-        "It turned out being pretty easy for Nonami to be nominated the final runner by her class, since she was already a veteran on the kendo team."
-        "I had already witnessed just how quickly she could run at the beginning of the school year."
-        "Luckily, since I was also on the kendo team and I was pretty tall, I managed to get selected as the final runner as well."
-        "All right! Looks like we had a fairly good chance of recovering the letter!"
+        "Для Нонами было очень просто стать последним бегуном на треке, потому что она была ветераном команды кендо."
+        "Я уже видел как быстро она бегала в начале учебного года."
+        "К счастью, так как я тоже состоял в клубе кендо, я тоже был назначен последним бегуном."
+        "Отлично! Мы получили прекрасный шанс вернуть письмо!"
         
     if cookingclub:
         
         hide nonami with dissolve
         
-        "It turned out being pretty easy for Nonami to be nominated the final runner by the class, since she was already a veteran on the kendo team."
-        "However, for me, such a thing was much more difficult..."
-        "My P.E. grades weren't that great and my daily exercise routine consisted only of walking to school."
-        "In the end, I had to promise that I would buy juice for everyone if our team lost the relay because of me."
-        "Ahh... Looks like I had to win this no matter what now!"
+        " Для Нонами было очень просто стать последним бегуном на треке, потому что она была ветераном команды кендо."
+        "Что до меня, мне было гораздо сложнее..."
+        "Мои оценки по физ-ре не были слишком хорошими, да и из какую-то фзческю нагрузку я получал разве что по дороге в школу."
+        "В конце концов мне пришлось пообещать, что если я проиграю, то куплю сок на весь класс."
+        "Ах… Похоже я должен победить несмотря ни на что!"
         
     
     scene bg trackfield with dissolve
     
-    "Soon, all of us were in position for the relay race..."
-    "All right... So it finally all came down to this..."
-    "We had to get that letter back no matter what!"
+    "Вскоре, все мы заняли позицию для эстафеты..."
+    "Ладно... В конечном итоге всё сводится к этому..."
+    "Мы обязаны победить и вернуть это письмо!"
     
     play music "Music/Truth.ogg" fadein 0.5 fadeout 1.5 loop
     
-    "A teacher shot the starting gun, and the first runners were off."
-    "I stared intensely from my position as the runners behind me made their way around the track."
-    "It looked like my class had the lead for now..."
-    "All of a sudden, I noticed that Haruka was four runners behind me."
-    "Aw no... Did this mean what I thought it meant?"
-    "My fears were confirmed when she dropped the baton nearly as soon as she received it and accidentally kicked it off the track."
+    "Учитель выстрелил из стартового пистолета и первые бегуны начали гонку."
+    "Я беспрерывно смотрел, как бегуны за мной пробежали свой отрезок."
+    "Похоже мой класс лидирует..."
+    "Вдруг я заметил, что Харука была одним из четырёх участников позади меня."
+    "Оу нет... Неужели это то о чём я думаю?"
+    "Мои опасения подтвердились, когда она уронила эстафетную палочку, как только она попала к ней в руки и случайно пнула её так, что та вылетела с трека."
     
     show haruka sports neutral hurt2 with dissolve:
         xanchor 0.5
         xpos 0.8
     
-    ha "Uuuu..."
+    ha "Уууу..."
     
     hide haruka with dissolve
     
-    "Yeah. It was all over."
-    "Nonami's class cheered as they eventually raced ahead by two runners, while Haruka was still attempting to run her stretch of the race."
-    "Looks like all of my hope now rested on Nonami. There was no way we we going to catch up now..."
+    "Да. Всё кончено."
+    "Класс Нонами воспрял духом, так как они в конечном итоге обходили нас на два бегуна вперёд, а Харука всё ещё пыталась пробежать свой участок гонки."
+    "Похоже, теперь вся надежда на Нонами. Сейчас не было никакой возможности нагнать их..."
 
     show nonami sports armscrossed confident with dissolve
     
-    no "Ufufufufu..."
+    no "Уфуфуфуфуф..."
     
     show nonami sports neutral focusedtalk with dissolve
     
-    no "Insert entry plug!"
-    no "Synchronization at 98 percent!"
-    no "All safety locks released..."
-    "Behind her, the second to last runner on Nonami's team passed the baton to her."
+    no "Включение!"
+    no "Синхронизация на 98 процентов!"
+    no "Все блокировки безопасности спущены..."
+    "Позади неё, предпоследний бегун передал эстафету Нонами."
     
     show nonami sports neutral explode with dissolve
     
-    no "NONA-01, LAUNCH!"
+    no "НОНА-01, ЗАПУСК!"
     
     hide nonami with dissolve
     
-    "Nonami exploded forth like a mecha flying from a launch catapult."
-    "Just then, I realized that the second to last runner on my team had arrived behind me as well."
-    "What? Had we managed to catch up after all?"
-    "I grabbed the baton from him and ran top speed after Nonami."
+    "Нонами вырвалась вперёд, как меха-робот, вылетевший из ракеты-катапульты."
+    "Только тогда я понял, что предпоследний бегун моей команды прибежал ко мне."
+    "Что? Мы можем нагнать их после всего этого?"
+    "Я схватил палочку и побежал за Нонами на максимальной скорости."
     
     scene cg sportsfestivalrun with dissolve
     
-    no "Hooyaahhh!! Rii-kun, come on, come on!"
-    "Nonami turned her face around and waved at me."
-    "Was she letting me catch up?"
-    no "There's gonna be a punishment game for the last one to the finish line!"
-    ri "Oy! Like hell I'm gonna play your punishment game!"
-    no "Forward goooo!"
-    "We were nearly neck to neck by now."
+    no "Хххииияяяяяя!! Рии-кун, давай, давай!"
+    "Нонам повернулась и помахала мне."
+    "Она позволяет мне догнать её?"
+    no "Пришедший к финишу последним получит наказание!"
+    ri "Эй! Чёрта с два я буду играть в твои игры с наказанием!"
+    no "Беги вперёёёёёд!"
+    "Мы бежали практически плечом к плечу."
     
     if dontgiveletter:
-        no "Come on, Rii-kun, come on! Push past all obstacles and run!"
-        no "No matter how hard it is, no matter how painful! No matter how much you want to stop!"
-        "Tsch... Looks like I had no choice but to give it my all!"
-        ri "EAAAHHHH!!!"
-        "I ran like I had never run before in my life."
-        no "Go! Go! Go!"
-        "The finish line was now in sight. The pretty white envelope awaited me, just a few more steps away..."
-        "All I could hear was the sound of Nonami's voice, the wind rushing past my ears, and the pounding of my heart."
-        "I reached my hands forward to grab the letter."
-        "Just... a few centimeters away..."
+        no "Давай, Рии-кун, давай! Поднажми и обойди все препятствия!"
+        no "Невзирая на сложность и боль! Неважно, как сильно ты хочешь остановиться!"
+        "Тч... Похоже у меня не было выбора, кроме как выложиться по полной!"
+        ri "ИААХХХХ!!!"
+        "Я бежал так, как не бежал никогда в своей жизни."
+        no "Вперёд! Вперёд! Вперёд!"
+        "Финишная черта уже была в поле зрения. Милый белый конвертик ждал меня через каких-то несколько шагов..."
+        "Всё что я мог слышать это голос Нонами, ветер, звенящий в ушах и стук собственного сердца."
+        "Я выкинул руку вперёд, чтобы схватить письмо"
+        "Лишь... несколько сантиметров..."
         
     if giveletter:
-        "Ah, what a troublesome day..."
-        "To think that all of my attempts to tell Haruka about the letter were foiled up until now..."
-        "And now, I was somehow running with Nonami to retrieve the darned letter, which I just coincidentally happened to drop at the end of the track field."
-        no "Come on, Rii-kun, come on! Towards the finish line we go!"
-        "Nonami was a total loose cannon, and she had a big mouth, and caused me a lot of trouble..."
-        "But I was relieved to have a friend like her."
-        "In this kind of situation, there was nobody else in the world who I wanted to run beside more!"
-        ri "Nonami! Let's gooo!!!!"
-        "I ran like I had never run before in my life."
-        "The finish line was now in sight. The pretty white envelope awaited me, just a few more steps away..."
-        "All I could hear was the sound of Nonami's voice, the wind rushing past my ears, and the pounding of my heart."
-        "I reached my hands forward to grab the letter."
-        "Just... a few centimeters away..."
+        "Ах, какой хлопотный день..."
+        "Если подумать, то все мои попытки сказать Нонами о письме были сорваны..."
+        "И теперь я вынужден был бежать с Нонами для того, чтобы вернуть это проклятое письмо, которое случайно выпало из кармана в конце трека."
+        no "Давай, Рии-кун, давай! Мы приближаемся к финишу!"
+        "Нонами была совсем непредсказуемой, она всегда много болтала и приносила много неприятностей..."
+        "Но я был рад иметь такого друга как она."
+        "В подобной ситуации, она была единственной в мире, с кем я бы хотел бежать!"
+        ri "Нонами! Вперёд!!!!"
+        "Я бежал так, как никогда не бежал в своей жизни."
+        "Финишная черта уже была в поле зрения. Милый белый конвертик ждал меня через каких-то несколько шагов..."
+        "Всё что я мог слышать это голос Нонами, ветер, звенящий в ушах и стук собственного сердца."
+        "Я выкинул руку вперёд, чтобы схватить письмо"
+        "Лишь... несколько сантиметров..."
         
     scene bg white with dissolve
     $ renpy.music.stop(fadeout=1.0) 
 
-    "I lied on my back on the track, my head spinning in a daze."
-    "Had I done it?"
-    "Suddenly, I heard Haruka's voice."
+    "Я лежал на спине на треке, и у меня кружилась голова."
+    "Я сделал это?"
+    "Вдруг я услышал голос Харуки."
     
     show haruka sports excited surprise with dissolve
     
-    ha "R-Riku-kun! Are you okay?"
-    "I could see her head looking down upon me."
+    ha "Р-Рику-кун! Ты в порядке?"
+    "Я увидел, как она смотрит на меня сверху."
     
     show nonami sports excited surprise with dissolve:
         xanchor 0.5
         xpos 0.2
     
-    "Suddenly, Nonami's head appeared beside hers."
-    no "H-hey, Rii-kun, get up!"
-    "And then, Sora appeared beside Nonami."
+    "Вдруг, рядом с ней появлась и голова Нонами."
+    no "Э-эй, Рии-кун, вставай!"
+    "Затем рядом с Нонами появилась и Сора."
     
     show sora sports neutral with dissolve:
         xanchor 0.5
         xpos 0.8
     
-    so "Oooyyy... are you okay?"
-    "Why was everyone worried about me?"
-    ri "U-ugh..."
-    "Oh yeah. It was probably because I fell pretty spectacularly while I was trying to grab the envelope."
-    "Clumsy me..."
-    "I clutched the letter in my hand."
-    "Yes... I had it."
-    no "Come on..."
-    "I felt Nonami grab me up."
-    "I limped to the bleachers, my head still in a daze."
+    so "Ээээй... ты в порядке?"
+    "Почему все так беспокоятся за меня?"
+    ri "У-угу..."
+    "Ах да. Возможно потому что я очень эффектно упал, когда попытался схватить конверт."
+    "Я такой неуклюжий..."
+    "Я сжал письмо в своей руке."
+    "Да… у меня получилось."
+    no "Давай..."
+    "Я почувствовал, как Нонами пытается поднять меня."
+    "Когда я, хромая, шёл к трибуне, у меня всё ещё кружилась голова."
     
     scene bg trackfieldfar with dissolve
     play music "Music/Lullaby_to_the_World.ogg" fadeout 1.5 loop
@@ -1130,190 +1130,190 @@ label endsportsfestival:
         xanchor 0.5
         xpos 0.8
     
-    "After I had received some first aid, I was feeling a lot better."
+    "После того как мне оказали первую помощь, я почувствовал себя намного лучше."
     
     show nonami sports excited happy with dissolve:
         xpos 0.2
     
-    no "Uwaha! That was quite a fall, Rii-kun!"
+    no "Уваха! Это было настоящим падением, Рии-кун!"
     
     show sora sports neutral closedeyes with dissolve:
         xpos 0.8
     
-    so "Uhn, uhn. Like Tokyo Tower collapsing."
+    so "Угу, угу. Словно падение Токийской башни."
     
     show haruka sports handfront concerned with dissolve
     
-    ha "Are you sure you're feeling okay?"
-    ri "Yeah... I'm feeling a lot better now."
-    "Whew... At least the envelope was safe..."
+    ha "Ты уверен, что в порядке?"
+    ri "Да… я чувствую себя намного лучше."
+    "Фью... По крайней мере, конверт в безопасности..."
     
     if giveletter:
         
-        "I reached into my pocket and withdrew the letter."
-        ri "Haru-chan, actually, there's something Nonami and I had to tell you."
+        "Я достал из кармана письмо."
+        ri "Хару-тян, на самом деле, мы с Нонами хотим тебе кое-что сказать."
         
         show nonami sports neutral with dissolve:
             xpos 0.2
         
-        no "Uhn. I was wandering through our lockers when I happened to find that envelope slipped inside your locker."
-        no "At first, I thought it was just trash, but then I noticed that it was a love letter."
-        ri "We were so surprised that we didn't really know what to do..."
-        no "So, we ended up unintentionally hiding it from you until now."
-        ri "I'm sorry, Haru-chan!"
+        no "Угу. Когда я проходила мимо твоего шкафчика, я заметила, что из него что-то торчит."
+        no "Сначала я подумала, что это мусор, но потом поняла, что это любовное письмо."
+        ri "Мы были так удивлены, что совсем не знали что делать..."
+        no "Вот мы, хоть и непреднамеренно, скрывали это от тебя."
+        ri "Прости, Хару-тян!"
         
         show nonami sports excited regret with dissolve:
             xpos 0.2
         
-        no "Uuu... Me too! Sorry, Haru-chan!"
-        "Haruka grabbed the envelope and read the love letter."
-        "Well, I guess it was all over now."
-        "Even if Haruka ended up going out with that guy and eventually ended up forgetting about me, I guess there was now nothing I could do about it."
+        no "Ууу... Меня тоже! Прости, Хару-тян!"
+        "Харука открыла конверт и прочитала послание."
+        "Ну, полагаю, всё кончено."
+        "Даже если Харука расстанется с этим парнем, она всё равно в конечном итоге забудет обо мне, думаю, я ничего не мог с этим поделать. "
         
         show haruka sports handfront forcesmile with dissolve
         
-        ha "Ummmmmmm..."
+        ha "Уммммммммм..."
         
     if dontgiveletter:
-        "Or was it?"
-        "I reached into my pocket and found it empty."
+        "Что за?"
+        "Я полез в карман, и обнаружил, что он пуст."
         
         show haruka sports handfront smile with dissolve
         
-        ha "By the way Riku-kun, you dropped this while you were walking to the bleachers."
-        "Ah."
-        "Well..."
-        "Damn."
-        "Looks like we had no choice but to confess now..." 
-        "I knelt down on my knees in front of Haruka and bowed my head."
-        "Even though my injuries from the fall hurt, I gritted my teeth and apologized."
-        ri "Haru-chan, I'm really sorry!"
+        ha "Кстати, Рику-кун, ты оборонил это, когда шёл к трибунам."
+        "Ах."
+        "Ну..."
+        "Чёрт."
+        "Похоже не было другого выбора, кроме как рассказать ей всё сейчас..." 
+        "Я встал на колени перед Харукой и склонил голову."
+        "Несмотря на боль от падения, я стиснул зубы и извинился."
+        ri "Хару-тян, мне очень жаль!"
         
         show haruka sports handfront surprise with dissolve
         
-        ha "E-eh? What for?"
-        ri "I was really shocked when I saw that you had gotten a love letter..."
-        ri "B-b-but to t-tell the truth, I was really worried..."
-        ri "I thought I was going to lose you... And that our happy days together will end..."
-        ri "So I kind of decided to hide the letter from you..."
-        ri "I'm sorry! I can understand if you never forgive me for this!"
-        "I felt my face turning hot. Tears began to form in my eyes."
+        ha "Э-ээ? Почему?"
+        ri "Я был сильно потрясён, когда увидел, что ты получила любовное письмо..."
+        ri "Н-н-но по п-правде говоря, Я действительно волновался..."
+        ri "Я думал, что потеряю тебя... И наши счастливые деньки закончатся..."
+        ri "Поэтому я решил скрыть от тебя это письмо..."
+        ri "Прости! Я пойму, если ты никогда не простишь меня за это!"
+        "Я почувствовал, что покраснел. В глазах начинали появляться слёзы."
         
         show nonami sports neutral surprise with dissolve:
             xpos 0.2
         
-        no "A-actually, this is all my fault, Haru-chan!"
-        "All of a sudden, Nonami knelt down beside me as well."
+        no "Н-на самом деле, это и моя вина!"
+        "Вдруг, Нонами опустилась на колени рядом со мной."
         
         show nonami sports excited regret with dissolve:
             xpos 0.2
         
-        no "It was actually me who found that love letter..."
-        no "I didn't really know what to do, so I just gave it to Rii-kun without really thinking..."
-        no "I'm sorry, Haru-chan! This is all of my fault!"
-        ha "Ummmmmm..."
+        no "Вообще-то я нашла это письмо..."
+        no "Я совсем не знала, что делать, поэтому отдала его Рии-куну, не думая..."
+        no "Прости, Хару-тян! Это всё моя вина!"
+        ha "Уммммммммм..."
 
     play music "Music/Stroll.ogg" fadeout 1.5 loop
     show haruka sports handfront smile with dissolve
-    ha "T-to tell the truth, this actually isn't a real love letter."
+    ha "П-по правде говоря, это ненастоящее любовное письмо."
     
     show nonami sports neutral baffled with dissolve:
         xpos 0.2
     
-    no "E-eh?"
+    no "Э-ээ?"
     
     show haruka sports neutral smile with dissolve
     
-    ha "Eheheheheh... There was actually a girl in the cooking club who's had a crush on an upperclassman for a really long time."
+    ha "Эхехехехех... Вообще-то его писала девушка из кулинарного клуба, которая была давно влюблена в старшеклассника."
     
     show haruka sports neutral happy with dissolve
     
-    ha "Since she was really troubled about it, I told her to practice writing a love letter to me so that she could get over her doubts."
+    ha "Она были сильно обеспокоена этим, и я предложила ей попрактиковаться в написании любовных писем для меня, чтобы отбросить все сомнения."
     
     show nonami sports excited surprise with dissolve:
         xpos 0.2
     
-    no "EEEHHHHHHHHHHHHHH!?!?"
-    ri "So you mean to say that this letter is..."
+    no "ЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭ!?!?"
+    ri "То есть ты имеешь ввиду, что это письмо..."
     
     show haruka sports neutral smile with dissolve 
     
-    ha "Just for practice."
+    ha "Просто для тренировки."
     
     show nonami sports excited tears with dissolve:
         xpos 0.2
     
-    no "No way, no way, Haru-chan!!! Waaahhhhh!!!!"
-    "...Unbelievable..."
-    "So we had been freaking out about nothing the entire day!?"
+    no "Не может быть, не может быть, Хару-тян!!! Ваааааххх!!!!"
+    "...Невероятно..."
+    "Получается, мы весь день беспокоились ни о чём!?"
     
     show nonami sports neutral tears with dissolve:
         xpos 0.2
     
-    no "Uuuuuuuu... How humiliating..."
-    ri "To think that we actually wasted our entire sports festival worried about a random slip of paper..."
+    no "Ууууууууу... Как унизительно..."
+    ri "Если подумать, мы потратили весь спортивный фестиваль, беспокоясь об этом несчастном клочке бумаги..."
         
     if dontgiveletter:
         
         show haruka sports handfront smileblush with dissolve
         
-        ha "Eehhh... I never knew Riku-kun thought that way of me. Eh-heh..."
-        ri "E-errr..."
+        ha "Ээххх... Я никогда не думала, что Рику-кун так думает обо мне. Эх-хех..."
+        ri "Э-эммм..."
         
         show sora sports neutral confident with dissolve:
             xpos 0.8
         
-        so "Caught red handed."
-        ri "S-Sora, you too!?" 
-        so "Hmph. It's Riku's fault for being such a dummy."
+        so "Пойман с поличным."
+        ri "С-Сора и ты туда же!?" 
+        so "Хмпф. Сам виноват, Рику, что ты такой дурак."
         
-    "Argh, damn it all!"
-    "Now I wish the thing had actually been a real love letter, just so that we hadn't wasted all our time making a fool of ourselves!"
-    ri "Nonami..."
+    "Аргх, к чёрту!"
+    "Сейчас я хотел бы, чтобы это письмо оказалось настоящим, чтобы не признавать, что всё это время было потрачено зря!"
+    ri "Нонами..."
     
     show nonami sports excited teary with dissolve:
         xpos 0.2
     
-    no "Rii-kun!"
-    "We embraced ourselves with tears in our eyes."
-    "Riku and Nonami" "We're morons!!!!"
+    no "Рии-кун!"
+    "Мы обнялись со слезами на глазах."
+    "Рику и Нонами" "Мы идиоты!!!!"
     
     scene bg white with dissolve
     
-    "The rest of the sports festival passed without any more drama..."
-    "Sigh... I really did make a fool out of myself today..."
+    "Остаток спортивного фестиваля, прошёл без подобных драматических событий..."
+    "Эхх... Каким же я был дураком сегодня..."
     
     if dontgiveletter:
-        "Uggghhh... And I said all that embarrassing stuff to Nonami and Haruka too..."
-        "How humiliating..."
+        "Угггххх... И я сказал такие неловкие слова Нонами и Харуке..."
+        "Как унизительно..."
         
     play music "Music/Thanks.ogg" fadeout 1.5 loop
     scene bg soraroom with dissolve
     show sora casual tanuki onearmdown neutral with dissolve
 
-    "Later that evening, I spoke with Sora in her room."
-    ri "I guess Sora didn't have much of an appearance today..."
-    so "Uu-uhn. Look."
-    "Sora opened her backpack and turned it upside down on her bed."
-    "A small sea of medals, trinkets, trophies, and certificates poured out."
-    ri "E-eh?"
+    "Вечером я разговаривал с Сорой в её комнате."
+    ri "Похоже Сора не принимала сегодня активного участия..."
+    so "Уу-ухн. Смотри."
+    "Сора открыла рюкзак и выкинула из него всё на кровать."
+    "Из него высыпалось море медалей, брелков, наград и сертификатов."
+    ri "Э-ээ?"
     
     show sora casual tanuki onearmdown confident with dissolve
     
-    so "While you were busy goofing off, I was trying my best and won all of my events."
-    ri "Eeeehhh!? Really!?"
-    so "In fact, you can say I was the MVP of the sports festival."
+    so "Пока ты был занят отдыхом, я старалась изо всех сил и выиграла все соревнования."
+    ri "Эээээээ!? Правда!?"
+    so "Можно сказать, что я была самым ценным спортсменом фестиваля."
     ri "Sorry, Sora... I really didn't even notice..."
     
     show sora casual tanuki confident with dissolve
     
-    so "Hmph. Silly Riku, getting distracted by stupid stuff like that..."
-    "I guess Sora was right, as usual."
-    "I looked at a group photograph of us at the end of the sports festival."
-    "It was now set as the default wallpaper on my cell phone."
-    "Three years from now, maybe we'll all look back on this event and laugh."
-    "Three years, huh..."
-    "I was sure that we'll all be friends even then."
+    so "Хмпф. Глупый Рику, отвлекаясь на такие глупые вещи..."
+    "Похоже Сора была права, впрочем как и обычно."
+    "Я посмотрел на нашу групповую фотографию в конце фестиваля."
+    "Сейчас я поставил её как заставку по умолчанию на мобильнике."
+    "Возможно через три года я буду смотреть на неё и смеяться."
+    "Три года, да..."
+    "Я уверен, что даже тогда мы будем друзьями."
 
 	
 </nowiki>
