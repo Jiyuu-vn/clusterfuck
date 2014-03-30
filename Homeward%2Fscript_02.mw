@@ -1,5 +1,4 @@
-<poem>
-<nowiki>
+<pre>
     $ renpy.music.stop(fadeout=1.0)
     window hide dissolve
     show eyecatchlogo with dissolve
@@ -911,5 +910,4 @@ label cooking:
     "После ужина, я открыл книги и занялся учёбой весь остаток дня."
     jump soraarrives
 	
-</nowiki>
-</poem>
+</pre>
