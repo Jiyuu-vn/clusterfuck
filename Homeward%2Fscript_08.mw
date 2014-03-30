@@ -1,5 +1,4 @@
-<poem>
-<nowiki>
+<pre>
    
     $ renpy.music.stop(fadeout=2.0)
     scene bg black with dissolvelong
@@ -3611,5 +3610,4 @@ label afterschoolfestival:
     play music "Music/Commemoration.ogg" fadeout 1.5 loop
     scene bg rikuroomceiling with dissolve
 	
-</nowiki>
-</poem>
+</pre>
