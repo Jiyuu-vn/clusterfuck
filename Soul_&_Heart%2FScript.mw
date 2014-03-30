@@ -1,5 +1,4 @@
-<poem>
-<nowiki>
+<pre>
 # You can place the script of your game in this file.
 
 init:
@@ -1959,5 +1958,4 @@ label start:
     $ persistent.my_bonus = True
     $ renpy.full_restart()
 
-</nowiki>
-</poem>
+</pre>
