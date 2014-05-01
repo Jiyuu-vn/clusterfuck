@@ -483,7 +483,7 @@ playstop
 
 
 
-mov $phasebg,"image\event\koha_f03.jpg""
+mov $phasebg,"image\event\koha_f03.jpg"
 mov $phasetitle_a,":a;image\word\PKOHA_12A.PNG"
 mov $phasetitle_b,":a;image\word\epi.jpg"
 gosub *left_phase
